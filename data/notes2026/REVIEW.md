@@ -695,3 +695,10 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - No key changes. GST Council meetings table 53rd–57th added (54th date from search summary; 52nd Oct 2023 unchecked).
 - RBI Aug 2026 repo 5.25 / SDF 5.00 / MSF 5.50 kept with "now" line (Oct 2026: 5.50/5.25/5.75).
 - Own MCQ ca9dc5f62016aa FRBM "came into effect" 2003 (strictly 5 July 2004; not an option).
+
+## b6-r019 (CA rows 19-24 AP culture, awards, sports)
+- y3813bdbff1e Yuva Puraskar statements: add_option "I and III only".
+- yf4bcce60c38 AP State flower 2010 paper: printed Jasmine kept (current); outdated note says it was Water lily in 2010.
+- y62bd619ebdc TTD Asthana Vidwan 2010 left -1 (no source).
+- Check first: yd54082614cd Lata Mangeshkar TTD Asthana Vidwan; y6f599638962 Kadapa banana ODOP (2025 list says barytes). 13 printed-unverified in all.
+- Nori Dattatreyudu Padma Bhushan 2026 listed under USA in Rocket; app MCQ f21368003e9ff keeps AP. Removed wrong Taneti Vanita "Home Minister" claim.
