@@ -1,0 +1,377 @@
+[
+ {
+  "id": "cp6117c07269ad",
+  "row": 81,
+  "s": "Consider the following statements:\n1. Uttar Pradesh was the largest producer of rice in India in 2024-25.\n2. Telangana ranked second in rice production in 2024-25, ahead of West Bengal.\n3. In 2024-25 Punjab was the second largest producer of wheat after Uttar Pradesh.\n4. Madhya Pradesh, Karnataka and Bihar are now the leading maize-producing States.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: in 2024-25 wheat ran UP 35.65 > Madhya Pradesh 24.51 > Punjab 17.99 MT, so MP, not Punjab, was second. Rice 2024-25: UP 20.76 > Telangana 17.45 > West Bengal 16.02 MT; maize now MP, Karnataka, Bihar.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf0965f205eb6",
+  "row": 81,
+  "s": "Match List I with List II:\nList I (Crop)\na. Jowar\nb. Bajra\nc. Ragi\nd. Pulses\nList II (Leading State)\ni. Karnataka\nii. Madhya Pradesh\niii. Maharashtra\niv. Rajasthan\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-ii, b-iv, c-iii, d-i",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "Jowar – Maharashtra (more than half of India's jowar), bajra – Rajasthan, ragi – Karnataka, pulses – Madhya Pradesh.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3ba5ce243958",
+  "row": 81,
+  "s": "Consider the following statements:\n1. Andhra Pradesh produced 161.86 lakh MT of foodgrains in 2024-25.\n2. Maize is the principal foodgrain crop of Andhra Pradesh by production.\n3. The cropping intensity of Andhra Pradesh rose from 1.21 in 2023-24 to 1.88 in 2024-25.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: paddy (127.15 lakh MT) is AP's principal foodgrain, not maize. AP foodgrains were 161.86 lakh MT on 37.51 lakh ha, and cropping intensity rose 1.21 → 1.88.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp147612d48bbe",
+  "row": 81,
+  "s": "Match List I with List II:\nList I (Crop)\na. Maize\nb. Gram\nc. Bitter gourd\nd. Soybean\nList II (Season)\ni. Kharif\nii. Rabi\niii. Grown throughout the year\niv. Zaid\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 0,
+  "x": "Maize grows throughout the year (mainly kharif, also rabi in Bihar); gram is a rabi pulse; bitter gourd is a zaid crop; soybean is kharif.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3ad330f3a125",
+  "row": 81,
+  "s": "Consider the following statements:\n1. Moong is a rabi pulse of north India.\n2. Aus, aman and boro, the three rice crops of West Bengal, are all paddy crops.\n3. Aman rice is sown in June-July and harvested in November-December.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: moong is a kharif pulse (with tur and urad) and is listed as NOT rabi; gram, masoor and pea are the rabi pulses. Aus, aman and boro are all paddy; aman is sown June-July and harvested Nov-Dec.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7d02e26c4d8f",
+  "row": 81,
+  "s": "Consider the following statements:\n1. India has been the world's largest rice exporter since 2014-15.\n2. India accounts for about 40 per cent of world rice trade.\n3. In January 2026 India overtook China to become the world's largest rice producer.\n4. India is the world's largest producer of wheat.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 4 is wrong: in wheat China leads and India is second (China > India > Russia). The other three are correct: largest rice exporter since 2014-15 with ~40% of world trade, and 150.18 MT vs China's 145.28 MT (Jan 2026).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa1e779c1f6a7",
+  "row": 81,
+  "s": "Consider the following statements:\n1. India is the world's largest producer, consumer and importer of pulses.\n2. India is usually a large exporter of pulses.\n3. India accounts for about 42.75 per cent of the world's millet output.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: pulses are not usually exported from India – it is the largest importer. India is the largest producer and consumer of pulses and has ~42.75% of world millet output (18.59 MT).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpccc3bf831cf0",
+  "row": 81,
+  "s": "Consider the following statements:\n1. India's net sown area in 2021-22 was about 141 million hectares.\n2. India's cropping intensity in 2021-22 was 155.4 per cent.\n3. About 60 per cent of India's net sown area is irrigated.\n4. Drip and sprinkler irrigation cover only about 12 per cent of the irrigated area.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 3 only",
+   "2, 3 and 4 only",
+   "1, 2 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "Statement 3 is wrong: 56.4% of net sown area is irrigated, not 60%. Net sown area 141 MH, cropping intensity 155.4%, drip/sprinkler ~12% (wells and tube wells over 63%).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp91f8f23a4dc1",
+  "row": 81,
+  "s": "Consider the following statements:\n1. The USA is the world's leading producer of maize, followed by China and Brazil.\n2. Brazil is among the world's four leading producers of potato.\n3. India has the second largest arable land in the world, after the USA.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "Only statement 2 is wrong: the potato leaders are China > India, Russia, Ukraine – not Brazil. Maize is led by USA > China > Brazil (US Corn Belt), and India's arable land is second after the USA.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5d66ae5e3c0a",
+  "row": 81,
+  "s": "Consider the following statements:\nAssertion (A): The 100 cm isohyet roughly marks the western limit of rice cultivation in India.\nReason (R): Rice needs temperature above 25°C, high humidity and rainfall above 100 cm.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both true and R explains A: rice is a hot, humid crop needing more than 100 cm of rain, so the 100 cm isohyet is about its western limit; it grows best on clayey/loamy deltaic and coastal alluvium.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp3b6a336d8750",
+  "row": 81,
+  "s": "Consider the following statements:\n1. Wheat is the second most important cereal of India and mainly a rabi crop.\n2. Wheat needs 100-150 cm of annual rainfall.\n3. Wheat needs bright, warm sunshine at the time of ripening.\n4. The black soil of the Deccan is also suitable for wheat.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: wheat needs moderate rainfall of 50-75 cm and a cool growing season (10-15°C winter). It is the 2nd cereal (rabi), needs bright warm sun at ripening, and Deccan black soil also suits it.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp72d4ad146b8b",
+  "row": 81,
+  "s": "Match List I with List II:\nList I (Crop)\na. Bajra\nb. Ragi\nc. Jowar\nd. Pulses\nList II (Growing condition)\ni. Warm, dry, low rainfall on red soils\nii. Rainfed; fix atmospheric nitrogen\niii. Hot, dry, driest areas with sandy soils\niv. Peninsular, semi-arid and drought tolerant\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-ii, b-i, c-iii, d-iv"
+  ],
+  "a": 2,
+  "x": "Bajra – hot, dry, sandy (driest); ragi – red soils, low rain; jowar – peninsular semi-arid, drought tolerant; pulses – rainfed, fix nitrogen.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb1877a9bc794",
+  "row": 81,
+  "s": "Match List I with List II:\nList I (Person)\na. Norman Borlaug\nb. M.S. Swaminathan\nc. William Gaud\nd. B.P. Pal\nList II (Role in the Green Revolution)\ni. Coined the term in 1968\nii. Nobel Peace Prize, 1970\niii. First Director-General of ICAR\niv. Evergreen Revolution\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-ii, c-i, d-iv"
+  ],
+  "a": 1,
+  "x": "Borlaug (Mexican dwarf wheat) – Nobel Peace 1970; Swaminathan – Father of the Green Revolution in India, Evergreen Revolution; William Gaud coined the term (1968); B.P. Pal – first DG of ICAR.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp89661a267b46",
+  "row": 81,
+  "s": "Consider the following statements:\n1. The New Agricultural Strategy was adopted in the mid-1960s after the droughts of 1965-67.\n2. Before the Green Revolution India imported wheat under the Marshall Plan.\n3. The High Yielding Varieties Programme began from Kharif 1966.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: the imports were under PL-480, not the Marshall Plan. The New Agricultural Strategy followed the 1965-67 droughts and the HYV Programme began from Kharif 1966.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp020396b5012e",
+  "row": 81,
+  "s": "Consider the following statements:\n1. Lerma Rojo 64-A and Sonora-64, used in the Green Revolution, are rice varieties.\n2. In its first stage the Green Revolution spread mainly in Punjab, Haryana and western Uttar Pradesh.\n3. Wheat benefited most from the Green Revolution, followed by rice.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: Lerma Rojo 64-A and Sonora-63/64 are Mexican dwarf wheat varieties. The first stage covered Punjab, Haryana and western UP (eastern belt lagged), and wheat gained most (output ~2.5 times), then rice.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3e4195f05f97",
+  "row": 81,
+  "s": "Consider the following statements:\n1. India's N:P:K fertiliser-use ratio is about 10.9:4.1:1 against an ideal of 4:2:1.\n2. Procurement is confined mainly to rice, wheat and sugarcane, which use over two-thirds of India's urea.\n3. Small and marginal farmers form 47.3 per cent of India's farmers (2015-16).\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: small and marginal farmers are 86.2% of farmers; 47.3% is their share of the area. The N:P:K ratio (10.9:4.1:1 vs 4:2:1) and the procurement bias to rice, wheat and sugarcane (over two-thirds of urea) are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp68c9615ad237",
+  "row": 81,
+  "s": "Match List I with List II:\nList I (Cropping practice)\na. Relay cropping\nb. Ratoon cropping\nc. Parallel cropping\nd. Intercropping\nList II (Meaning)\ni. Crops together in definite rows, e.g. tur + jowar\nii. Next crop sown into the standing crop\niii. Crops of different habit without competition, e.g. maize + green gram\niv. Regrowth from the stubble\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 0,
+  "x": "Relay – next crop sown into the standing crop; ratoon – regrowth from stubble; parallel – different habit, no competition (maize + green gram, wheat + mustard); intercropping – definite rows (tur + jowar).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp02c8be2cc0d7",
+  "row": 81,
+  "s": "Consider the following statements:\n1. Bajra accounts for about 60 per cent of India's millet output.\n2. Kodo is one of the major millets of India.\n3. Proso millet is called chena and little millet kutki.\n4. Millets are promoted in India under the brand 'Shree Anna'.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: kodo is a minor millet (with foxtail/kangni, little/kutki, proso/chena); the major millets are bajra (~60% of output), jowar and ragi. Millets are branded Shree Anna (2023, UN International Year of Millets).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp45cf5f02d4ab",
+  "row": 81,
+  "s": "Consider the following statements:\nAssertion (A): Millets are mainly kharif crops of the dryland and rainfed tracts of India.\nReason (R): Dryland farming in India is practised in areas receiving more than 100 cm of annual rainfall.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: millets are mainly kharif crops of dryland and rainfed tracts, which grow mostly millets, pulses and oilseeds. R is false: dryland farming is confined to areas with annual rainfall below 75 cm; high-rainfall areas have wetland farming.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp856af9b64fb3",
+  "row": 81,
+  "s": "Consider the following statements:\n1. The National Food Security Mission was launched in 2007-08 for rice, wheat and pulses.\n2. Nutri-cereals were added to the Mission in 2014-15.\n3. The Mission was renamed the National Food Security and Nutrition Mission in 2024-25.\n4. The renamed Mission covers oilseeds.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Statements 2 and 4 are wrong: nutri-cereals were added in 2018-19 (2014-15 added coarse cereals and commercial crops), and NFSNM does not cover oilseeds (they have NMEO). NFSM began in 2007-08 for rice, wheat and pulses and was renamed NFSNM in 2024-25.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6ec8c93134a1",
+  "row": 81,
+  "s": "Consider the following statements:\n1. Bringing Green Revolution to Eastern India (BGREI) covers Punjab.\n2. BGREI was launched in 2010-11 under the Rashtriya Krishi Vikas Yojana.\n3. BGREI targets the rice-based cropping system.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statement 1 is wrong: BGREI covers Assam, Bihar, Chhattisgarh, Jharkhand, Odisha, eastern UP and West Bengal – not Punjab. It began in 2010-11 under RKVY for the rice-based system.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3250493ede3d",
+  "row": 81,
+  "s": "Match List I with List II:\nList I (Local name of shifting cultivation)\na. Pamlou\nb. Dipa\nc. Poonam\nd. Ladang\nList II (Region)\ni. Bastar (Chhattisgarh)\nii. Indonesia and Malaysia\niii. Manipur\niv. Kerala\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 3,
+  "x": "Pamlou – Manipur; Dipa – Bastar (Chhattisgarh) and Andaman; Poonam – Kerala; Ladang – Indonesia–Malaysia.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp0d04be576f18",
+  "row": 81,
+  "s": "Consider the following statements:\n1. The Planning Commission divided India into 15 agro-climatic zones.\n2. These zones are divided into 72 sub-zones.\n3. The 20 agro-ecological zones of India were identified by the India Meteorological Department.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 2,
+  "x": "Only statement 3 is wrong: the 20 agro-ecological zones are by the National Bureau of Soil Survey and Land Use Planning (NBSS&LUP), not IMD. The Planning Commission's 15 agro-climatic zones have 72 sub-zones.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5415533d81fe",
+  "row": 81,
+  "s": "Match List I with List II:\nList I (Institute)\na. National Rice Research Institute\nb. Indian Institute of Wheat and Barley Research\nc. Indian Institute of Pulses Research\nd. Indian Institute of Oil Palm Research\nList II (Location)\ni. Pedavegi\nii. Kanpur\niii. Cuttack\niv. Karnal\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 1,
+  "x": "NRRI – Cuttack; IIWBR (former Directorate of Wheat Research) – Karnal; IIPR – Kanpur (not Lucknow); IIOPR – Pedavegi, Eluru.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpea689426e5a8",
+  "row": 81,
+  "s": "Match List I with List II:\nList I (Crop disease)\na. Black rust of wheat\nb. Tungro of rice\nc. White bud of maize\nd. Ear cockle of wheat\nList II (Cause)\ni. Virus\nii. Nematode Anguina tritici\niii. Zinc deficiency\niv. Puccinia\nSelect the correct answer using the code given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-ii, b-iv, c-iii, d-i"
+  ],
+  "a": 2,
+  "x": "Black rust – Puccinia (fungus); tungro – virus; white bud of maize – zinc deficiency; ear cockle – nematode Anguina tritici.",
+  "src": "app",
+  "tq": "match"
+ }
+]
