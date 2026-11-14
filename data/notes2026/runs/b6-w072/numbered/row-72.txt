@@ -1,0 +1,410 @@
+=== NEW NOTES row 72
+## SUB 0 | Indian Space Programme - Gaganyaan, ISRO and NavIC
+[0:0] # Gaganyaan - India's First Human Spaceflight
+[0:1] TABLE head: Particular | Fact
+  [0:1.0] Crew and orbit | 3 astronauts to LEO at about 400 km for up to 3 days
+  [0:1.1] Launcher | Human-rated LVM3 (GSLV Mk III) - solid, liquid and cryogenic stages (not PSLV)
+  [0:1.2] LVM3 stages | 2 solid strap-ons, liquid core stage, cryogenic upper stage
+  [0:1.3] Orbital Module | Crew Module (pressurised, habitable, thermal protection) + Service Module (unpressurised; separates before re-entry)
+  [0:1.4] Crew Escape System | Validated by TV-D1; uses solid rocket motors; works during launch and ascent (not re-entry)
+  [0:1.5] Vyommitra | Female (semi-)humanoid robot for the uncrewed flights G1/G2
+  [0:1.6] Re-entry | Speed falls from about 7.8 km/s mainly by atmospheric drag (aerobraking)
+  [0:1.7] Splashdown | Bay of Bengal; sea absorbs a 7-9 m/s impact (vs 1-2 m/s needed on land)
+  [0:1.8] Tests | IADT (Integrated Air Drop Test), Pad Abort Test, Test Vehicle flights
+  [0:1.9] Significance | India would join USA, Russia and China with independent human spaceflight capability
+[0:2] - **IADT-02** - second Gaganyaan Integrated Air Drop Test at SDSC on **10 April 2026**, ahead of uncrewed G1; the first IADT was on **24 August 2025** (5-tonne module dropped from 3.1 km by a **Chinook**).
+[0:3] - **Mission Mitra** - Gaganyaan **analog mission in Ladakh** (isolation, low oxygen); modelled on ESA's **CAVES**.
+[0:4] - **AIIMS-ISRO MoU (March 2026)** - **space medicine** for Gaganyaan.
+[0:5] - **CE-20 cryogenic engine** - tested for **165 seconds** at **IPRC Mahendragiri** (March 2026), about 22 t propellant; for LVM3 (Gaganyaan).
+[0:6] - Gaganyaan G1 (uncrewed) was "launching shortly" (Aug 2026); crew-module tests done; **ESA** to give ground-tracking support.
+[0:7] - Human Space Flight Centre (HSFC): est. **2019, Bengaluru**; IN-SPACe: est. **2020, Ahmedabad**; ISRO Chairman **V. Narayanan**.
+[0:8] > Gaganyaan flies on human-rated LVM3, not PSLV; the Crew Escape System works at launch/ascent, not during re-entry.
+[0:9] # Other ISRO Missions and Agreements
+[0:10] - **Aditya-L1** - India's **first solar observatory**, at **L1 (about 1.5 million km)**; journey about **125 days** (vs about 300 days for MOM); ISRO's **second observatory-class mission after AstroSat (2015)**.
+[0:11] - **ISRO-ESA agreement (March 2026)** - **Earth-observation calibration**; ties since 1978; ESA's **FLEX** mission; ESA est. 1975, Paris.
+[0:12] - **Akasha300** 3D printer by a **Kerala startup** delivered to ISRO (supported by STIIC at IIST and KSUM).
+[0:13] - **NISAR** - ISRO-NASA mission.
+[0:14] - Microgravity research: **Axiom-4** and **Gaganyaan** support it; **SpaDeX** is a **docking technology demonstration** (its POEM platform carried experiments).
+[0:15] # NavIC - IRNSS-1F Loses Its Atomic Clock
+[0:16] - The atomic clock on **IRNSS-1F stopped on 13 March 2026** - no positioning data; it **continues broadcast messaging**.
+[0:17] - IRNSS-1F launched **10 March 2016**; completed its **10-year design life**; all **three** atomic clocks are now non-functional.
+[0:18] - After NVS-01 (2023), **five** satellites gave positioning: IRNSS-1B, 1C, 1F, 1I and NVS-01. NavIC needs **at least four** operational satellites; services began **2018**.
+[0:19] TABLE head: NavIC fact | Detail
+  [0:19.0] Official name | IRNSS; planned 7-satellite constellation
+  [0:19.1] Coverage / accuracy | India + 1,500 km; about 10 m
+  [0:19.2] Orbit | Geosynchronous (~35,000 km) - global systems use MEO (~20,000 km)
+  [0:19.3] NVS (new generation) | Indigenous atomic clock; 12-year design life; L1, L5, S bands (L1 enables smartphones/wearables)
+  [0:19.4] NVS-02 | Launched January 2025 by GSLV-F15 - ISRO's 100th launch; failed to reach final orbit (signal did not reach the pyro valve of the oxidiser line - connector disengagement)
+  [0:19.5] Earlier failures | IRNSS-1H (2017) - heat shield did not open; IRNSS-1A (2013) almost defunct
+[0:20] # Navigation systems by country
+[0:21] TABLE head: System | Country
+  [0:21.0] GPS | USA
+  [0:21.1] GLONASS | Russia
+  [0:21.2] Galileo | EU
+  [0:21.3] BeiDou | China
+  [0:21.4] NavIC (regional) | India
+  [0:21.5] QZSS (regional) | Japan
+[0:22] - **GAGAN** - India's **SBAS**, by **ISRO + Airports Authority of India**; **not limited to aviation**.
+[0:23] > Regional systems (NavIC, QZSS) = geosynchronous orbit; global systems (GPS, GLONASS, Galileo, BeiDou) = MEO.
+[0:24] # Private Space Sector and Space Infrastructure
+[0:25] TABLE head: Item | Facts
+  [0:25.0] Mission Drishti | GalaxEye (Bengaluru) - India's largest private satellite and world's first OptoSAR satellite (optical + SAR); launched on SpaceX Falcon-9 from California; India = 4th nation with this technology
+  [0:25.1] Pathfinder | Pixxel + Sarvam (announced 4 May 2026) - India's first AI-powered orbital data centre satellite; single-satellite demonstrator; Pixxel builds and operates it (hyperspectral payload), Sarvam gives the AI backbone; launch Q4 2026
+  [0:25.2] Vikram-1 | Skyroot Aerospace - flight hardware unveiled by Telangana CM Revanth Reddy (April 2026), moved from Max-Q Campus, Hyderabad, to SDSC Sriharikota; up to 350 kg to LEO; flew on 18 July 2026 (Mission Aagaman)
+  [0:25.3] Project Garuda | Dhruva Space (Hyderabad) - ₹105 crore grant from the Research Development and Innovation Fund for a standard 500-kg-class satellite platform
+  [0:25.4] Karnataka Space Tech CoE | India's first State-led Space Technology Centre of Excellence, Bengaluru - with SIA-India and Karnataka Science and Technology Society; theme "Space Tech for Societal Impact"
+  [0:25.5] Two Common Technical Facilities | DoS approved Space Manufacturing Park at Khoraj (near Ahmedabad, Gujarat) and Space Vehicles Cluster at Thoothukudi (near Kulasekarapattinam spaceport, TN); IN-SPACe to operationalise
+  [0:25.6] Space Venture Capital Fund | ₹1,005 crore (Minister Jitendra Singh); SEBI AIF; investor IN-SPACe, sponsor SIDBI; investments from FY2027
+  [0:25.7] NSIL-Dhruva Space MoU | Space-grade solar panels; NSIL est. 6 March 2019
+  [0:25.8] BSE-2 | Abhyom Spacetech reusable liquid engine - 2.5 kN, 6 s; tested at BITS Pilani Hyderabad; for the HOPE vehicle
+  [0:25.9] Project NETRA | Optical telescope at Hanle (Ladakh) for debris tracking; Indian Space Situational Awareness (ISSA) since 2019; Hanle - India's first dark sky reserve
+  [0:25.10] X-band Doppler radar | Mahabaleshwar - under Mission Mausam (IITM Pune)
+[0:26] - Skyroot: est. 2018, Hyderabad (Pawan Kumar Chandana, Naga Bharath Daka); Pixxel: est. 2019, Bengaluru.
+[0:27] > Mission Drishti (GalaxEye) launched from California on Falcon-9; Pathfinder (Pixxel + Sarvam) is only scheduled for Q4 2026.
+[0:28] ~~ Sources: Rocket CA 2026 Part 01 p.2 (Pathfinder; GAGAN-based landing), p.57 and p.107 (Vikram-1, Skyroot, 18 July 2026), p.121 (GAGAN = ISRO + AAI, SBAS; NavIC regional); Rocket CA 2026 Part 02 p.57 and p.165 (CE20 at ISRO Propulsion Complex, Mahendragiri; Gaganyaan module tests), p.94 (Pathfinder announced 4 May 2026, Pixxel + Sarvam); app notes 6:72 (sub 0)
+## SUB 1 | Missiles and Weapon Tests
+[1:0] # Strategic and Guided Weapons
+[1:1] TABLE head: System | Facts
+  [1:1.0] Agni with MIRV | Tested from APJ Abdul Kalam Island, Odisha; hit multiple targets in the Indian Ocean region; possibly under Mission Divyastra with Agni-5 (~5,000 km); re-entry speed 20-24 times speed of sound; decoy warheads; India joins US, Russia, China, France, UK
+  [1:1.1] TARA (Tactical Advanced Range Augmentation) | India's first indigenous Guided Glide Weapon - converts unguided warheads into precision-guided munitions; DRDO + IAF trial off Odisha; developed by RCI, Hyderabad
+  [1:1.2] PGM-V3 | UAV-launched precision guided missile; air-to-surface and air-to-air variants validated at DRDO's Kurnool test facility (AP); targets tanks, drones, helicopters
+  [1:1.3] NASM-SR (Naval Anti-Ship Missile-Short Range) | First salvo launch - two missiles in sequence from one naval helicopter, Bay of Bengal off Odisha (DRDO + Navy)
+  [1:1.4] Scramjet combustor | DRDO long-duration test of 1,200+ seconds (beat 700 s of January 2026); fully scaled, actively cooled; by DRDL, Hyderabad; for hypersonic cruise missiles (Mach 5+)
+  [1:1.5] HSTDV | DRDO's hypersonic technology demonstrator programme
+  [1:1.6] Vayu Baan | IAF's first helicopter-launched drone system (Air-Launched Effects); strikes beyond 50 km
+  [1:1.7] First indigenous heavy torpedo | Delivered by BDL (Hyderabad, est. 1970) to the Navy at Visakhapatnam
+  [1:1.8] ADC-150 | Air-Droppable Container (150 kg) tested off Goa from a P-8I; nodal lab NSTL, Visakhapatnam
+[1:2] - DRDO: est. **1958**; Chairman **Dr. Samir V. Kamat** (retired **31 May 2026**; Defence Secretary **Rajesh Kumar Singh** holds additional charge); RCI: est. 1988, Hyderabad (missile avionics, guidance); DRDL: est. 1962, Hyderabad.
+[1:3] > AP angle: PGM-V3 was validated at DRDO's Kurnool test facility.
+[1:4] # Private-Sector Weapons
+[1:5] TABLE head: System | Facts
+  [1:5.0] Suryaastra guided long-range rocket | Nibe Limited; tested from Chandipur, Odisha; 150 km (within 1.5 m of target) and 300 km (within 2 m) variants; accuracy measured by Circular Error Probable (CEP)
+  [1:5.1] Vayuastra loitering munition ("suicide drone") | Nibe Limited; tested at Pokhran and Joshimath (April 2026); Vayuastra-1 - 10 kg warhead, ~100 km; attack-cancel and re-engage; tech derived from Israeli systems
+  [1:5.2] Zen anti-drone system | Zen Technologies, Hyderabad - AI-powered, vehicle-mounted; neutralises 100+ drones at once; detects beyond 15 km
+  [1:5.3] Prahaar LMG | Adani Defence & Aerospace, Gwalior; first 2,000, target 40,000
+  [1:5.4] Seshnag-150 | Long-range swarm attack drone - NewSpace Research & Technologies
+  [1:5.5] Kaal Bhairav | Flying Wedge Defence & Aerospace AI combat aircraft to be built in Portugal - first overseas production centre; MALE class, ~3,000 km, 30+ hours; partner SKETCHPIXEL LDA
+[1:6] # Procurement, Vehicles and Systems
+[1:7] TABLE head: Item | Facts
+  [1:7.0] R-37M | Russia approved sale - long-range BVR air-to-air missile; NATO name "AA-13 Axehead"; "AWACS killer"
+  [1:7.1] Prajna | DRDO's AI satellite imaging system delivered to MHA; by CAIR, Bengaluru
+  [1:7.2] Mountain radars | ₹1,950 crore contract with BEL (31 March 2026) for two radars for the IAF; designed by LRDE (DRDO); Buy (Indian-IDDM)
+  [1:7.3] Two military vehicles | DRDO's VRDE, Ahilyanagar - one tracked, one wheeled
+  [1:7.4] Vikram VT21 | Armoured vehicle by Tata Advanced Systems (TASL, Hyderabad) + DRDO; tracked and wheeled versions; prototype in 30 months with VRDE; also a 30mm Unmanned Turret
+  [1:7.5] GT-IRSS | BHEL got ToT from DRDO's NSTL (Visakhapatnam) for Gas Turbine-Infrared Suppression System (cuts warships' thermal signature); BHEL est. 1964, Ministry of Heavy Industries
+  [1:7.6] Q-FORCE app | Indian Army integrated logistics/sustainment app
+  [1:7.7] Kautilya AI Platform | Indian Army (21-25 May 2026) - AI command intelligence; AI dashboards, NLP; analyses personnel, equipment, logistics, readiness
+  [1:7.8] F404 engine depot | IAF-GE Aerospace agreement (13 April 2026) - MRO for F404-IN20 (Tejas); HAL $1 billion deal for 113 engines
+  [1:7.9] US support packages | AH-64 Apache (Boeing) ~US$18.82 mn; M777A2 howitzers (BAE Systems) ~US$23 mn - spares and maintenance
+  [1:7.10] BEL-SASMOS | Agreement for defence production and exports; BEL est. 1954, CMD Manoj Jain
+  [1:7.11] VEM-TKMS | VEM Technologies (Hyderabad) + Germany's TKMS (Kiel) - heavy-weight torpedoes in India
+  [1:7.12] Radio Highway | Assam Rifles community radio, Pallel, Manipur - "Pallel ki Vaani" (Op Sadbhavana)
+[1:8] > Labs: **CAIR, Bengaluru** = Prajna AI imaging (for MHA); **LRDE** = mountain radars; **VRDE, Ahilyanagar** = military vehicles.
+[1:9] # Operation Sindoor and India's Nuclear Doctrine
+[1:10] - India's calibrated response after the **Pahalgam** terror attack - "aggression with restraint"; multi-domain (cyber, electronic warfare, intelligence fusion, precision strikes).
+[1:11] - Indigenous systems used: **Akashteer, Akash missile system and BrahMos**.
+[1:12] - **Grey-zone warfare** - hostile acts below the threshold of regular (conventional) war.
+[1:13] TABLE head: Nuclear Doctrine | Fact
+  [1:13.0] Adopted | January 2003 (after Pokhran-II)
+  [1:13.1] Principles | Credible Minimum Deterrence, No First Use (NFU), massive retaliation
+  [1:13.2] Authorised by | Civilian Nuclear Command Authority (NCA)
+  [1:13.3] Other | No use against non-nuclear weapon states
+[1:14] ~~ Sources: Rocket CA 2026 Part 01 p.2-3 and p.58 (TARA - India's first indigenous glide weapon, RCI Hyderabad); app notes 6:72 (sub 2); DRDO Chairman change: RUNBOOK settled facts (Praveen CA-360 May 2026)
+## SUB 2 | Defence Policy, Exports, Exercises and Operations
+[2:0] # Make in India in Defence
+[2:1] - **DPSUs**: over **70%** of defence manufacturing.
+[2:2] - **FDI in defence**: 24% -> 49% (2016) -> **74% automatic route (2020)**.
+[2:3] - **DRDO** waived the 20% ToT fee; transferred **2,200+** technologies; free access to patents.
+[2:4] - **Defence Industrial Corridors**: **Uttar Pradesh and Tamil Nadu**.
+[2:5] - **Strategic Partnership Model**: private firms + **foreign OEMs**.
+[2:6] - **Operation Sadbhavana**: Army's welfare operations to uplift local people in remote areas, meeting basic needs.
+[2:7] - **Defence exports 2025-26: ₹38,424 crore** (up **62.66%**) - DPSUs ₹21,071 crore, private ₹17,353 crore.
+[2:8] - **DPEPP 2020** target: ₹35,000 crore exports by 2025; **DAP 2020** includes **Buy (Indian-IDDM)** - the highest-priority procurement category.
+[2:9] - **DAC** (Rajnath Singh; est. 2001) approved **₹2.38 lakh crore** - **five more S-400** Triumph (range 400 km) and **60 medium transport aircraft** (replacing AN-32, IL-76).
+[2:10] - **₹5,083 crore** for the Coast Guard - ₹2,901 cr for six ALH (HAL) + ₹2,182 cr Vertical Launch Missiles (Rosoboronexport).
+[2:11] - **Defence Forces Vision 2047** - released at **South Block**; prepared by **HQ Integrated Defence Staff**.
+[2:12] - Army's **first capital procurement via GeM** - 93 telescopic handlers from JCB India, ₹25.90 crore.
+[2:13] - **Kalam & Kavach 3.0** - third edition, Manekshaw Centre, New Delhi, 14 May 2026; **JAI = Jointness, Atmanirbharta, Innovation**; I² = Indigenization and International Collaboration; aim - self-reliant forces for Viksit Bharat @2047.
+[2:14] - **First India-Algeria Joint Defence Commission** - **New Delhi, 5 May 2026**; co-chaired by Amitabh Prasad and Maj Gen Kaid Nour Eddine; implements the 2024 Defence MoU.
+[2:15] - **Brain-Computer Interface conference** ("Expanding Neural Frontiers & Its Strategic Implications") - inaugurated by **CDS General Anil Chauhan**; organised by HQ IDS (est. 2001) and CENJOWS.
+[2:16] # Military Exercises
+[2:17] TABLE head: Exercise | Partner / place | Details
+  [2:17.0] SINBOX-II 2026 | Cambodia | 4-17 May 2026, Kampong Speu Province; company-level training in sub-conventional warfare under UN Chapter VII mandate
+  [2:17.1] PRAGATI 2026 | Multinational | 20-31 May 2026, Umroi Military Station, Meghalaya; Partnership of Regional Armies for Growth and Transformation in the IOR; first edition; planning, disaster management, peace-support operations
+  [2:17.2] Cyclone-IV | Egypt | Special forces; 9-17 April, Anshas
+  [2:17.3] DUSTLIK (7th) | Uzbekistan | 12-25 April, Gurumsaray, Namangan; first 2019; 2025 edition at Aundh, Pune
+  [2:17.4] IN-SLN DIVEX (4th) | Sri Lanka | INS Nireekshak; 21-27 April, Colombo; diving ops; under MAHASAGAR
+  [2:17.5] Brahmastra | Indian Army | Pokhran; AH-64E Apache (Boeing; inducted Army 2024) - "tanks in the sky"
+  [2:17.6] Jal Rahat | Army + NDRF, SDRF, SSB | Flood relief at IIT Guwahati - Red Horns Division, Gajraj Corps
+  [2:17.7] Lamitye (11th) | Seychelles | 9-20 March 2026, Seychelles Defence Academy; biennial since 2001
+  [2:17.8] Amogh Jwala | Army Southern Command | Babina field firing range (UP) - multi-domain
+  [2:17.9] Sea Dragon | US-led | Anti-submarine exercise near Guam; India with P-8I; with Japan, Australia, NZ
+  [2:17.10] Kakadu 2026 | Royal Australian Navy | Biennial since 1993; 125 years of RAN - fleet review Sydney Harbour, 21 March 2026; ~30 warships, 19 countries
+  [2:17.11] Cold Response 2026 | NATO | Biennial, Norway/Arctic; Article 5 scenario
+[2:18] - **PRAGATI 2026 participants**: India (host) + **12** friendly foreign nations - **Bhutan, Cambodia, Indonesia, Laos, Malaysia, Maldives, Myanmar, Nepal, Philippines, Seychelles, Sri Lanka, Vietnam** (13 nations in all; **Thailand is NOT** a participant).
+[2:19] - **UN Chapter VII**: action to maintain or restore international peace and security.
+[2:20] # Naval Operations (March 2026)
+[2:21] TABLE head: Operation | Facts
+  [2:21.0] Operation Urja Suraksha | Navy escorts crude, LNG, LPG tankers from the Persian Gulf via Hormuz; CNS Admiral Dinesh K. Tripathi
+  [2:21.1] Operation Sankalp | Since 19 June 2019 - escorts Indian-flagged ships in Hormuz, Gulf of Oman, Gulf of Aden
+  [2:21.2] Sagar Kavach | Coast Guard-led multi-agency coastal security drill off Maharashtra; held since the 2008 Mumbai attacks
+  [2:21.3] IOS SAGAR (2nd edition) | Launched 16 March 2026 after India took the IONS chair; 16 nations; SAGAR vision 2015; IONS est. 2008
+[2:22] - India's coastline: officially revised to **11,098.81 km** (PIB, 4 Dec 2025; old figure **7,516 km**), across **9 States and 4 UTs**; AP **1,053.07 km (3rd)** after Gujarat and Tamil Nadu.
+[2:23] # Missile Interceptors in the US-Iran War
+[2:24] - Expanded IAMD network: US + Israel + UAE against Iran - different from the **Twelve-Day War (June 2025)**, when Iran fired 500+ ballistic missiles and twice as many suicide drones.
+[2:25] - **UAE** deployed **South Korean Cheongung II** over the Gulf.
+[2:26] - **US IFPC** (Indirect Fire Protection Capability) uses **AIM-9X Sidewinder** to depend less on Patriot; **SM-6** has a dual role (terminal interceptor + anti-ship/fast-attack craft).
+[2:27] - **Israel's Iron Beam** (laser) - primary defence against **drone swarms**, to save **Arrow 3 and Stunner** interceptors.
+[2:28] TABLE head: Layer (2025 sequence) | System
+  [2:28.0] Exo-atmospheric (first line) | Israel's Arrow 3 + US destroyers with SM-3
+  [2:28.1] Endo-atmospheric | THAAD + Arrow 2
+  [2:28.2] Mid layer | David's Sling with Stunner
+  [2:28.3] Last line | Patriot
+  [2:28.4] Against drones | Iron Dome (Tamir) + Iron Beam
+[2:29] - Patriot PAC-3 MSE: ~$4 million per interceptor (cost asymmetry vs cheap drones); Patriot once hit 100% of six hypersonic Kinzhals over Kyiv but fell to ~10% against Russian decoys; US quadrupled orders for THAAD and PAC-3 MSE (THAAD replenishment at least 1.5 years).
+[2:30] - **Cheongung II**: **hit-to-kill**; **360° firing via Vertical Launch System** + **rotating multi-function radar**; nose radar in final seconds against low-flying "skimmers". **Older Patriot radars scanned only a 120° cone** (stationary radar).
+[2:31] - **THAAD** = Terminal High Altitude Area Defence - an **American** anti-missile system.
+[2:32] TABLE head: Iran's air defence | Role
+  [2:32.0] Bavar-373 (Sayyad-4B) | Most advanced, long-range (300+ km); aircraft and ballistic missiles
+  [2:32.1] Arman BMD | Short/medium-range ballistic missiles, 360° radar
+  [2:32.2] Sevom-e-Khordad | Mobile; cruise missiles/jets; Sayyad-3 guards Natanz, Isfahan
+  [2:32.3] Tor-M1 (Russia-made) | Precision-guided bombs
+  [2:32.4] Majid, Azarakhsh | Low-flying drones, cruise missiles
+[2:33] ~~ Sources: app notes 6:72 (sub 4); coastline 11,098.81 km: RUNBOOK settled facts (PIB Release 2198800, 4 Dec 2025); Rocket CA 2026 Part 01 p.146 (defence exports target ₹50,000 crore by 2029)
+## SUB 3 | Digital India, AI Platforms, Weather and Alert Technology
+[3:0] # Digital India - a Decade
+[3:1] - **Digital India**: launched by **MeitY, July 2015**; **3 vision areas, 9 pillars**.
+[3:2] TABLE head: Indicator | Data
+  [3:2.0] BharatNet (launched 2011) | 2.15 lakh+ Gram Panchayats connected; cost rose from ₹20,000 cr to ₹1.39 lakh cr+
+  [3:2.1] Optical fibre | 19.35 lakh route km (2019) -> 42.36 lakh (2025)
+  [3:2.2] 5G | 99.9% of districts; 5.18 lakh+ BTS (Dec 2025)
+  [3:2.3] Broadband | Crossed 100 crore (Nov 2025) vs 13.15 crore a decade earlier
+  [3:2.4] DigiLocker | 62 crore+ users - document storage, not payments
+  [3:2.5] National Supercomputing Mission | MeitY + DST; 38 supercomputers, 44 Petaflops
+  [3:2.6] IndiaAI Mission | ₹10,300 crore; 38,000 GPUs (+20,000 planned); compute at ₹65/hour
+  [3:2.7] PMGDISHA | Target 6 crore rural households; 6.39 crore trained (Mar 2024)
+  [3:2.8] INSPIRE-MANAK | Classes 6-10; ₹10,000 grants; 11.47 lakh ideas (2025-26) - 52% girls, 84% rural
+  [3:2.9] ISL Digital Repository | World's largest - 3,189 videos
+  [3:2.10] PM-WANI | Prime Minister Wi-Fi Access Network Interface - launched December 2020 (DoT); 4,09,111 hotspots
+  [3:2.11] Atal Tinkering Labs | 10,000+ in 722 districts; 50,000 more planned
+  [3:2.12] FutureSkills Prime | MeitY + NASSCOM; ranked 3rd in EC Pact for Skills Report 2024
+  [3:2.13] Startup India | 400 (2016) -> 2 lakh+ (2025); 21 lakh jobs
+  [3:2.14] Atal Incubation Centres | 72 supported; 3,500+ startups
+[3:3] - Challenges: internet access rural 24% vs urban 66%; **NFHS 2019-21 - only 33% of women ever used the internet**; cyber incidents 13.91 lakh (2022), India 2nd most targeted, shortage of 7,90,000 cyber professionals; mobile speed rank 25th (Nov 2024); computer literacy (15+) 24.7% (NSS 78th round); e-waste 1.01 -> 1.751 million t (2019-20 to 2023-24).
+[3:4] # AI for Rural India
+[3:5] - **National Strategy for AI (#AIforAll)** - **NITI Aayog, June 2018** - **augmentation, not displacement**, of human labour.
+[3:6] - **India AI Governance Guidelines** - MeitY, **November 2025** - **7 guiding principles (Sutras) and 6 pillars**; India-specific risk assessment; delivered through DPI. Context: India-AI Impact Summit 2026.
+[3:7] TABLE head: Platform | Key facts
+  [3:7.0] SabhaSaar | AI minutes of Gram Sabha/Panchayat meetings from audio/video; with BHASHINI in 14 languages
+  [3:7.1] eGramSwaraj | April 2020, e-Panchayat Mission Mode Project - planning, budgeting, accounting, payments
+  [3:7.2] Gram Manchitra | GIS-based planning for GPDPs
+  [3:7.3] AIKosh | National repository - 7,500+ datasets, 273 AI models, 20 industries
+  [3:7.4] BhuPRAHARI | May 2025; MoRD + IIT Delhi; monitors MGNREGA and VB-G RAM G assets; first used for Amrit Sarovar
+  [3:7.5] Digital ShramSetu Mission | AI in the informal sector
+  [3:7.6] Kisan e-Mitra, National Pest Surveillance System | AI in agriculture
+  [3:7.7] Suman Sakhi | Madhya Pradesh, NHM - WhatsApp chatbot on maternal/newborn health for ASHAs/ANMs
+  [3:7.8] BHASHINI | July 2022 - 36+ languages, 350 AI language models; BHASHINI Sanchalan for multilingual governance
+  [3:7.9] BharatGen | June 2025 - sovereign multilingual, multimodal LLM; 22 languages
+  [3:7.10] Adi Vaani | AI platform for tribal languages
+[3:8] # Other Digital and IP Initiatives
+[3:9] - **MeitY IP Catalyst** ("Patent to Product") - patent filing, tech transfer and commercialisation of publicly funded research; implemented by **C-DAC** (est. 1988, Pune).
+[3:10] - **ICMR Medical Innovations Patent Mitra** - patenting and technology transfer of **indigenous medical innovations**. **ICMR**: est. **1911 as IRFA**, renamed **ICMR in 1949**; DG **Rajiv Bahl**.
+[3:11] - **C-DOT's "Fraud Pro"** - AI telecom fraud-detection tool; **finalist, "Best Network Security and Fraud Prevention", GLOMO 2026**, MWC Barcelona (organised by GSMA).
+[3:12] # Weather Forecasting and Disaster Alerts
+[3:13] - **IMD block-level monsoon forecast** - **India's first AI-based block-level monsoon forecast**: **3,196 blocks** in 15 States + 1 UT (monsoon core zone); four-week probabilistic forecast; **AI + numerical weather prediction**; with IITM and NCMRWF (Noida); made at the request of the Ministry of Agriculture; 1-km pilot for Uttar Pradesh (valid 10 days); error margin ~4 days.
+[3:14] - **Bharat Forecast System (BFS)** - by **IITM, Pune**; **6 km resolution** (replaced the **12 km** model); among the world's highest-resolution operational models.
+[3:15] - **Mausam Vani** - **IITM, Pune** (est. 1962, Ministry of Earth Sciences) - **AI weather information in regional languages** for farmers.
+[3:16] - **IMD**: established **1875**. Monsoon normally reaches Mumbai ~10 June, Delhi ~29 June.
+[3:17] - **Cell Broadcast System (CBS)** - indigenous, launched by the Ministry of Communications, developed by **C-DOT** (est. 1984, New Delhi); sends alerts **to all phones in an area at once**; **unaffected by network congestion** (unlike SMS).
+[3:18] - **SACHET** - DoT + NDMA **multilingual SMS alert system** by C-DOT; uses the **Common Alerting Protocol (CAP) of the ITU** (est. 1865, Geneva). NDMA: est. 2005, chaired by the PM.
+[3:19] > BFS = 6 km resolution (old model 12 km). CBS reaches all phones at once; SMS alerts can be hit by congestion.
+[3:20] ~~ Sources: Rocket CA 2026 Part 02 p.155 (C-DOT Cell Broadcast Solution); app notes 6:72 (sub 7)
+## SUB 4 | Health, Pharma and Biotechnology
+[4:0] # Drugs, Vaccines and Therapies
+[4:1] TABLE head: Product | Developer | Fact
+  [4:1.0] BIRSA 101 | CSIR-IGIB, transferred to Serum Institute of India | India's first indigenous CRISPR-based gene therapy for Sickle Cell Disease; named after Bhagwan Birsa Munda; showcased at Jan Jatiya Gaurav Utsav-2026 (Ministry of Tribal Affairs)
+  [4:1.1] R78C | Serum Institute of India + University of Oxford (licensing pact) | Multi-stage malaria vaccine; targets blood-stage antigens (RIPR, CyPRA)
+  [4:1.2] Coartem Baby (artemether-lumefantrine) | - | Malaria drug for newborns/infants; WHO prequalification
+  [4:1.3] Tecentriq SC (Atezolizumab) | Roche | India's first subcutaneous immunotherapy; for NSCLC (~85% of lung cancers); ~7 minutes
+  [4:1.4] Lormalsy (Donanemab) | Eli Lilly | India's first approved Alzheimer's drug (amyloid plaques, early stage); ₹91,688 per vial
+  [4:1.5] Progerinin | Sentinel Therapeutics + PRG S&T (South Korea) | For Hutchinson-Gilford Progeria Syndrome (life expectancy 13-15 years)
+  [4:1.6] Anti-MRSA/VRSA compounds | CSIR-IICT Hyderabad | Quaternary ammonium compounds; led by Dr. Haridas B. Rode
+[4:2] - **Pregabalin** moved from **Schedule H to Schedule H1** (Drugs Rules, 1945) to curb misuse by youth.
+[4:3] - SII: est. 1966, Pune, CEO Adar Poonawalla; Roche: est. 1896, Basel; Eli Lilly: est. 1876, Indianapolis.
+[4:4] > R78C = malaria vaccine; Coartem Baby = malaria drug for newborns.
+[4:5] # Keytruda (Pembrolizumab)
+[4:6] - **Counterfeit Keytruda** market in India - cost **over ₹3 lakh a month**, weak procurement oversight; government removed basic customs duty; company Patient Access Programme (buy 5 doses -> 30 free).
+[4:7] - Developed by **Merck & Co. (MSD)**; **US FDA approval 2014**.
+[4:8] - **Monoclonal antibody, immune checkpoint inhibitor** - **blocks the PD-1 receptor on T-cells**; PD-1-PD-L1 binding switches T-cells off, blocking it reactivates immunity - it **does not directly kill cancer cells**.
+[4:9] - Treats lung, cervical, renal cell carcinoma, triple-negative breast cancer. Other immunotherapies: **CAR-T cell therapy** and **mRNA cancer vaccines**.
+[4:10] # Diseases and Public Health
+[4:11] - **WHA stroke resolution** - **first-ever** WHA resolution recognising **stroke** as a major public health emergency; ~12 mn strokes/yr globally; India 108-172 per lakh, about **8,000 neurologists and neurosurgeons**. World Stroke Day: 29 October.
+[4:12] - **WHO on schizophrenia** - ~24 mn people worldwide; India 0.5-1%; onset 15-25 (men), 25-35 (women); World Schizophrenia Day **24 May**. National Mental Health Programme (1982), Tele-MANAS.
+[4:13] - **Shigellosis outbreak in Kerala** - Shigella: Gram-negative, non-motile rod (S. dysenteriae, S. flexneri, S. boydii, S. sonnei); spreads through **contaminated food and water**.
+[4:14] - **Gut microbiome**: trillions of microbes (~equal to human cells), 1-2 kg; **2-20 million microbial genes vs ~20,000 human genes**; ~2,000 bacterial species, **mostly in the colon**; ~90% beneficial (Bacteroidetes, Firmicutes); dysbiosis -> "leaky gut"; SCFAs reduce inflammation; makes vitamin K and some B vitamins; gut-brain axis.
+[4:15] - **Extra sugar** helps **E. coli and Candida**, reduces **Bifidobacteria and Lactobacilli**. **Estrobolome** (gut bacteria regulating estrogen metabolism) - disrupted by **pesticides**. Antibiotics in livestock -> AMR; bacteria, viruses and fungi can all develop AMR. Fat - lipases; proteins - trypsin/chymotrypsin; starch - amylase.
+[4:16] # Pharma Sector
+[4:17] - Value ~**$65 bn**; ~20% of world's generic medicines; target $130 bn by 2030; **exports to 191 countries**.
+[4:18] - **Biopharma SHAKTI** (Union Budget 2026-27): **₹10,000 crore over five years**; 1,000 accredited clinical trial sites.
+[4:19] - PLI (APIs): 55,100 MT annual capacity for 26 critical APIs (late 2025).
+[4:20] - **CDSCO** reclassified **553 medical devices** (2025-26); high-risk in **Class D**.
+[4:21] - **Jan Aushadhi Kendras**: 18,646+ (March 2026). **BPPI** runs **PM Bhartiya Janaushadhi Pariyojana**; registered under the Societies Registration Act, 1860 (April 2010); under the Department of Pharmaceuticals.
+[4:22] - **NPPA** controls essential medicine prices; **PIC/S** - global inspection scheme.
+[4:23] - **Indian Pharmacopoeia 2026** - new **vaccines and blood products** (not medical devices); SUGAM portal.
+[4:24] # Blood Groups (Basic Biology)
+[4:25] TABLE head: Term | Fact
+  [4:25.0] Universal donor (red cells) | O negative - no A, B or Rh(D) antigens
+  [4:25.1] Universal recipient | AB positive - no anti-A, anti-B or anti-Rh antibodies
+  [4:25.2] Universal plasma donor | AB (plasma has no anti-A/anti-B antibodies)
+  [4:25.3] Rh factor | Rh protein present = Rh-positive; absent = Rh-negative; Rh+ blood to an Rh- person can cause sensitisation
+[4:26] > For red cells O negative is the universal donor; for plasma the roles reverse and AB is the universal donor.
+[4:27] - **BHISHM cubes to Kyrgyzstan (28 April 2026):** Defence Minister **Rajnath Singh** handed over **two sets of BHISHM Cubes** (Project Aarogya Maitri) to Kyrgyzstan in **Bishkek**.
+[4:28] ~~ Sources: Rocket CA 2026 Part 02 p.170 (Biopharma SHAKTI ₹10,000 crore over five years, Budget 2026-27); Rocket Biology p.52 (ABO antigens/antibodies: AB has none); PMF General Science 02 p.27 (AB = universal recipient); app notes 6:72 (sub 8)
+## SUB 5 | IIT and CSIR Research and Technology Firsts
+[5:0] # IIT Innovations and Partnerships
+[5:1] TABLE head: Institute | Development
+  [5:1.0] IIT Kharagpur | HemoQR - smartphone haemoglobin test (Prof. Suman Chakravarty, Smart QR Technologies); recommended by ICMR for anaemia screening; also PrahelikaAI
+  [5:1.1] IIT Kanpur | Distance measurement using pulsars (signal changes through ionised gas)
+  [5:1.2] IIT Madras + Herbalife India | India's first CoE on Plant Cell Fermentation (17 April, IITM Research Park)
+  [5:1.3] IIT Madras + FedEx | India's first urban drone delivery test flights (Bengaluru)
+  [5:1.4] IIT Ropar | ANNAM.AI - India's first integrated AI agriculture system; "Swan" weather centres, Krishi AI call centres, Annam Chat
+  [5:1.5] IIT (ISM) Dhanbad | Plasma reactor converting plastic waste to hydrogen (Prof. Ejaz Ahmad)
+  [5:1.6] IIT Madras | Indigenous silicon photonics solutions; injectable hydrogel from silk cocoons and seaweed (gels at body temperature) for fibrosis
+  [5:1.7] IIT Madras | First Global Research Centre in California, USA - for Indian deep-tech startups; US East Coast centre planned
+  [5:1.8] IIT Hyderabad | MoU with Sammakka-Saralamma Central Tribal University (Mulugu) - B.Tech CS&AI from 2026-27; also hosts Dai Nippon Printing's first R&D centre in India (Technology Research Park, Kandi)
+  [5:1.9] IIT Patna | MoU with Ministry of Minority Affairs under PM VIKAS - train 600 minority youth of Bihar
+  [5:1.10] IIT Ropar + DhaSh Defence Systems | MoU (May 2026) - UGVs, robotic combat, AI mobility platforms under IDDM
+  [5:1.11] IIT Bombay + IAF | 3 agreements (27 May 2026) - predictive, prognostic and prescriptive maintenance of Su-30MKI (HAL-built)
+  [5:1.12] IIT Bombay | India's first integrated CCUS Field Lab - opened by Dharmendra Pradhan under Bharat Innovates 2026; first scientific drilling for CO2 storage in the Deccan Traps; startup Urjanovac
+  [5:1.13] IIT Madras, IIT Bombay, IMU Chennai + Maritime India Foundation | Maritime Innovation Hubs under Sagarmala Startup Innovation Initiative (MoPSW) - 36 startups, 40 projects
+  [5:1.14] IIT Guwahati | Radiation-shielding cement mortar; material for hydrogen by electrolysis + solar desalination; nodal for NER-Japan Academic and Research Consortium (22 NE institutions + Gifu University)
+  [5:1.15] IIT Indore | Patented MICP bio-shield (Microbially Induced Calcite Precipitation) against coastal erosion
+  [5:1.16] IIT Jodhpur | Flexible semiconductor health-monitoring sensors
+  [5:1.17] ISA-IIT Delhi | "Framework for Action" (25 Feb) - MSTEC training for 18 countries; ISA DG Ashish Khanna
+  [5:1.18] HCL Tech-IIT Kanpur | MoU for deep tech for GCCs at GCC 4.0 Summit, Hyderabad
+[5:2] - Pulsars discovered 1967 by Jocelyn Bell Burnell and Antony Hewish; Anaemia Mukt Bharat 2018; SSCTU est. 2023; PM VIKAS 2024; **IITM Research Park - India's first university research park (2010)**.
+[5:3] - IIT Madras est. 1959; IIT Bombay 1958; IIT Ropar and IIT Hyderabad 2008; **HAL est. 1940** (CMD Kota Ravi, May 2026); **Dai Nippon Printing est. 1876**, Tokyo. Sagarmala 2015; MoPSW Minister Sarbananda Sonowal; iCET 2023.
+[5:4] > IIT Madras-FedEx = drone delivery; IIT Madras-Herbalife = plant cell fermentation CoE.
+[5:5] # CSIR and Other Labs
+[5:6] TABLE head: Lab | Innovation
+  [5:6.0] CSIR-CRRI | Bio-bitumen from crop residue by pyrolysis (India ~60 million t residue/year); with IIF - Waste Foundry Sand in road construction
+  [5:6.1] CSIR-NIIST, Thiruvananthapuram | Designer Rice - about 3x protein, low GI, from broken rice
+  [5:6.2] CSIR-IICT, Hyderabad (est. 1944) | Nano-fibre membrane removing Crystal Violet dye; ragi crop waste -> cellulose packaging; ZIF-8 nano-hybrid catalyst for solar green hydrogen
+  [5:6.3] CSIR-NEERI, Nagpur (est. 1958) | C-NOBAR compact green noise barrier (Dr. Ritesh Vijay)
+  [5:6.4] CSIR-NCL, Pune (est. 1950) | Scaling Dimethyl Ether (DME) fuel
+  [5:6.5] IISc + Pratiksha Trust | Moonshot Project - brain co-processors for stroke patients
+[5:7] - CSIR DG: **Dr. N. Kalaiselvi**.
+[5:8] # Indian Science Congress - Status
+[5:9] - **108th Indian Science Congress** - **Nagpur**; theme "**Science and Technology for Sustainable Development with Women Empowerment**".
+[5:10] - **109th session** - was to be hosted by **Lovely Professional University (LPU), Punjab** from 3 January 2024, but was **put on hold** after LPU withdrew; the **Department of Science and Technology froze sponsorship**, accusing ISCA of "unilateral decisions".
+[5:11] > 108th = Nagpur (last session held); 109th (LPU) was put on hold - it was not held in Jan 2024.
+[5:12] - **Urjanovac:** a startup linked to IIT Bombay's CCUS Field Lab; it makes carbonate and bicarbonate salts.
+[5:13] ~~ Sources: app notes 6:72 (sub 9)
+## SUB 6 | World Space, Astronomy and Space Governance
+[6:0] # Artemis Programme
+[6:1] TABLE head: Mission | Fact
+  [6:1.0] Artemis I (2022) | Uncrewed Orion around the Moon
+  [6:1.1] Artemis II (launched 1 April 2026, Kennedy Space Center) | First crewed Artemis flight - lunar flyby in Orion (crew named it "Integrity"), four astronauts, no landing; first crewed lunar flyby in 50+ years
+  [6:1.2] Artemis III | Landing (target 2028; about 2027-28)
+  [6:1.3] Artemis IV, V | 2028-29, 2030; NASA to use Starship for Artemis-4 (Moon, 2028)
+[6:2] - **Artemis II crew:** **Reid Wiseman, Victor Glover, Christina Koch** and **Jeremy Hansen (Canadian Space Agency)**.
+[6:3] - Artemis II became the **farthest humans from Earth - 252,760 miles**, beating **Apollo 13 (248,655 miles)**; will observe the far side; prepares for lunar South Pole missions; delays came from hydrogen leaks.
+[6:4] - **Artemis Accords** - established **2020** (non-binding); **Jordan = 63rd member**; **India signed on 21 June 2023**.
+[6:5] - NASA aims for a Moon landing every six months and a permanent lunar base: about **US$20 bn** multi-phase plan, astronauts by 2028; missions - **Blue Origin Blue Moon Mark 1 Endurance** lander, **Astrobotic Griffin** (~1,100 lb, Astrolab FLIP rover), **Lunar Vertex** (lunar swirls).
+[6:6] - Context: Apollo first landing **1969**; **12 astronauts** walked on the Moon in **six** missions (1969-72); ISRO was founded within a month of Apollo 11. ISS about 400 km up, manned ~25 years, to retire in 3-4 years; Moon ~400,000 km.
+[6:7] - **Space Reactor-1 Freedom** - nuclear-powered spacecraft to Mars in 2028. China plans a human landing by **2030** (Chang'e); **India by 2040** (Space Vision 2047).
+[6:8] - **Starship-V3** - SpaceX test from Starbase, Texas, with 20 dummy satellites; fell into the Indian Ocean.
+[6:9] # SMILE - ESA and China
+[6:10] - **SMILE** = Solar wind Magnetosphere Ionosphere Link Explorer - joint mission of **ESA** and the **Chinese Academy of Sciences (CAS)**; ESA and CAS's **first full-scale joint space mission**.
+[6:11] - Launched **19 May 2026** on **Vega-C** from Europe's Spaceport, **French Guiana**; mission life about **three years**.
+[6:12] - **First mission to observe Earth's magnetosphere in X-ray light**; studies Earth's response to solar storms and CMEs.
+[6:13] - ESA: est. 1975, HQ Paris; CAS: est. 1949, HQ Beijing.
+[6:14] - Magnetosphere: region controlled by Earth's magnetic field; deflects the solar wind. **CMEs and solar flares cause space weather**; **auroras are seen near the poles**.
+[6:15] # Astronomy in News
+[6:16] TABLE head: Item | Facts
+  [6:16.0] Zwaan-Wolf effect | First detected in a planetary atmosphere - Mars, by NASA MAVEN (launched 2013); effect identified 1976
+  [6:16.1] FRB 20240304B | Fast Radio Burst that travelled ~10 bn years; detected 4 March 2024 by MeerKAT (South Africa); host dwarf galaxy found with JWST; from Cosmic Noon (Universe ~3 bn years old)
+  [6:16.2] Hydroxyl megamaser | Detected by MeerKAT about 8 billion light-years away (March 2026)
+  [6:16.3] Curiosity rover | Carbon compounds on Mars - Gale Crater; launched 26 Nov 2011
+  [6:16.4] Cygnus X-1 | Jet speed measured for the first time - 540 million km/h (~half light speed); ~7,200 light-years; discovered 1964
+  [6:16.5] Nancy Grace Roman Telescope | Final assembly done; launch 2026; 2.4 m mirror; 100x Hubble's field of view
+  [6:16.6] PoET | Paranal Solar ESPRESSO Telescope - first light at ESO Paranal Observatory, Atacama Desert, Chile; works with the ESPRESSO spectrograph (used with the VLT at night); ESO est. 1962, HQ Garching, Germany
+[6:17] - **James Webb Space Telescope** - launched **2021** (NASA, ESA, CSA); Big Bang ~13.8 bn years ago.
+[6:18] # Space Security and Space Law
+[6:19] - **Dual-use satellites** - civilian satellites also usable for military purposes (e.g. GPS). **Orbital dependency** - reliance on foreign satellite infrastructure.
+[6:20] - **Jamming** = **blocking** signals; **Spoofing** = sending **false** signals (e.g. fake GPS positions).
+[6:21] - **KA-SAT cyberattack (2022)** - on the **Viasat** network; disrupted internet across **Europe**.
+[6:22] - **CERT-In space cybersecurity guidelines 2026** - **"secure-by-design"** across the satellite lifecycle.
+[6:23] TABLE head: Instrument | Key point
+  [6:23.0] Outer Space Treaty, 1967 | Foundation of space law; peaceful use, no WMD in orbit; states responsible for all national space activities, including private entities; space = global commons; silent on cyber operations
+  [6:23.1] Liability Convention, 1972 | Compensation for damage by space objects - absolute liability on Earth/aircraft; fault-based in outer space
+  [6:23.2] IADC, UN COPUOS guidelines | Debris mitigation - non-binding, voluntary
+[6:24] - **Kessler Syndrome** - chain reaction of debris collisions making orbits unusable.
+[6:25] - In LEO only objects **larger than 10 cm** are regularly tracked; **25-year de-orbit rule** (weak compliance monitoring).
+[6:26] ~~ Sources: Rocket CA 2026 Part 02 p.93 (Artemis II: 1 April 2026, Orion 'Integrity', crewed flyby, no landing), p.97 (SMILE = CAS + ESA), p.188 (SMILE full form); app notes 6:72 (sub 1)
+## SUB 7 | Semiconductors, Quantum and AI
+[7:0] # Semiconductor Mission
+[7:1] TABLE head: Initiative | Key fact
+  [7:1.0] India Semiconductor Mission (ISM) | Launched 2021 under MeitY (Ashwini Vaishnaw) - division of Digital India Corporation
+  [7:1.1] Semicon India Programme | December 2021, ₹76,000 crore - fabs, display fabs; 12 fab/packaging and 24 design projects approved
+  [7:1.2] Design Linked Incentive (DLI) | Chip design startups and fabless companies
+  [7:1.3] Semiconductor Investors Support Portal | Launched by ISM, MeitY on 26 May 2026 - single window for investors
+[7:2] - **India's first semiconductor fab** - **Dholera SEZ, Gujarat** - **Tata Electronics with PSMC** (Taiwan); notified at Dholera SEZ by **Tata Semiconductor Manufacturing Pvt Ltd**. Dholera SIR is under the Delhi-Mumbai Industrial Corridor; semiconductor zone ~166 ha.
+[7:3] - **Gujarat units (May 2026)**: Cabinet approved **2 units** - ₹3,900 crore+, compound-semiconductor mini/micro LED displays, ~2,230 jobs; ISM projects now 12, investment ~₹1.64 lakh crore.
+[7:4] - **Odisha-Intel glass substrate**: MoUs with Intel and 3D Glass Solutions - Infovalley, Khordha; ₹1,943.53 crore (Centre ₹799 cr, State ₹399.5 cr); approved under ISM Aug 2025; production Aug 2028.
+[7:5] - **Terrafab** (Elon Musk) - semiconductor project in **Austin, Texas** by **Tesla, SpaceX, xAI**; next-gen AI chips incl. Tesla AI5; **larger than Tesla Gigafactories**; to depend less on **Samsung, TSMC and Micron**.
+[7:6] - **Germanium**: used in the first transistor (Bell Labs, 1947); **discovered 1886 by Clemens Winkler**; predicted by **Mendeleev as "eka-silicon"**.
+[7:7] - **Doping** = **adding** controlled impurities to a semiconductor (not removing); semiconductor conductivity **rises** with temperature; silicon is a metalloid.
+[7:8] # Quantum and AI Terms
+[7:9] - **Quantum entanglement**: shared quantum state - **measuring one particle's property (momentum, spin) instantly fixes its partner's, at any distance**. Earlier shown mainly in **photons and electrons**; recently in heavier atoms like **Helium**. **Nonlocality** is a quantum feature; classical physics is based on locality.
+[7:10] - **Anthropic's Mythos** - AI model that can autonomously find and exploit software vulnerabilities; not public; shared selectively with critical-infrastructure organisations under **Project Glasswing**.
+[7:11] - **Zero-day vulnerability** - flaw **unknown to developers, no patch** (not already patched).
+[7:12] - **LLMs** use the **transformer** architecture; **temperature** controls randomness; **tokenization** splits text into words/subwords/characters (it does **not** decide the architecture); loss function measures prediction error.
+[7:13] - Other terms: adversarial attacks, data poisoning, **XAI = Explainable AI**, EDR systems, deepfakes.
+[7:14] - **Neuro-Symbolic AI** - hybrid of neural networks (patterns) + symbolic reasoning (rules, knowledge graphs) -> explainable answers, fewer hallucinations. Examples: **PrahelikaAI - IIT Kharagpur** (puzzle-based reasoning tutor in Hindi, Bengali); CREST framework, PAL (Personal Adaptive Learner), C3AN (offline edge AI). Only **47%** of rural schools have functional computers; ~1.4 million schools; 22 scheduled languages.
+[7:15] - **Anthropic study - "Observed Exposure"**: **actual workplace use** of AI (not theoretical capability); data from ~800 US occupations and Claude usage. **Most exposed**: computer programmers, financial analysts, customer service, data analysts, **legal**, office administration. **Least exposed**: **construction, agriculture, protective services, personal care**. LLMs could theoretically do ~94% of computer/maths tasks, actual use ~33%; entry of 22-25-year-olds into exposed jobs down ~14% since 2022; **India: AI could cut IT-services revenue by 9-12% over four years** (Nifty IT fell).
+[7:16] ~~ Sources: Rocket CA 2026 Part 01 p.2 and p.6 (India's first chip fab - Tata Semiconductor Manufacturing Pvt Ltd, Dholera SEZ), p.60 (mini/micro-LED display facility, Dholera); app notes 6:72 (sub 6)
+## SUB 8 | Nuclear Energy - PFBR, SHANTI Act and Tarapur
+[8:0] # Kalpakkam PFBR Attains Criticality
+[8:1] - **Prototype Fast Breeder Reactor (PFBR), Kalpakkam** (Tamil Nadu) attained **first criticality on 6 April 2026** - **India enters Stage II** of its three-stage nuclear programme; PM Modi called it historic.
+[8:2] - **500 MWe**, **sodium-cooled**; built by **BHAVINI** (Bharatiya Nabhikiya Vidyut Nigam Ltd, under **DAE**); 200+ Indian industries took part.
+[8:3] - **Criticality** = self-sustaining chain reaction, **k = 1** (subcritical k < 1, supercritical k > 1). Chain reaction idea - **Leo Szilard (1933)**.
+[8:4] - **Fast breeder reactor**: produces **more fissile fuel than it consumes**; **fast neutrons, no moderator**; **plutonium-based MOX fuel** (Pu + U); U-238 blanket -> Pu-239; **liquid sodium** coolant (low dissolved oxygen for corrosion resistance).
+[8:5] TABLE head: Stage (Homi J. Bhabha) | Reactor | Fuel
+  [8:5.0] I | PHWRs | Natural uranium -> Pu-239 by-product
+  [8:5.1] II | FBRs | Pu-based MOX
+  [8:5.2] III | Thorium reactors | Th-232 -> U-233
+[8:6] - Plants: Tarapur, Rajasthan, Kalpakkam, Narora, Kakrapar, Kaiga, Kudankulam. **Kalpakkam has MAPS and IGCAR**.
+[8:7] # SHANTI Act, 2025
+[8:8] - Full form: **Sustainable Harnessing and Advancement of Nuclear Energy for Transforming India**.
+[8:9] - **Replaces** the **Atomic Energy Act, 1962** and the **Civil Liability for Nuclear Damage (CLND) Act, 2010**.
+[8:10] - **Private companies, JVs and foreign entities** can **build, own, operate and decommission** plants - ends the **NPCIL monopoly**.
+[8:11] - **Operator solely liable**; **supplier liability removed**; operator liability graded by capacity; government liability capped.
+[8:12] - Gives **statutory (legal) status to the Atomic Energy Regulatory Board (AERB)**.
+[8:13] - Target: nuclear capacity from about **8,180 MW to 100 GW by 2047** (over twelvefold); investment over **$200 billion**; nuclear share in power about 3%.
+[8:14] - Installed electricity capacity (June 2025): ~476 GW, ~50% non-fossil.
+[8:15] # Tarapur
+[8:16] - **Tarapur Units 1 and 2 (TAPS)**, near Boisar, Palghar - **boiling water reactors (BWRs)**, not PHWRs; commissioned **1969**; **India's first commercial reactors**.
+[8:17] - **AERB approved the restart of Unit-2 on 7 May 2026** for 10 more years (after NPCIL refurbishment); Unit-1 extended Dec 2025 (160 MWe).
+[8:18] - AERB: est. **1983**, Mumbai, Chairman A.K. Balasubramanian; NPCIL: est. **1987**, CMD Bhuvan Chandra Pathak; DAE: est. **1954**.
+[8:19] > Tarapur 1 and 2 are BWRs (not PHWRs); Stage I of the programme uses PHWRs.
+[8:20] ~~ Sources: Rocket CA 2026 Part 01 p.162 (PFBR first criticality 6 April 2026, 500 MWe, BHAVINI, Stage II; Bhabha's three stages); app notes 6:72 (sub 5)
+## SUB 9 | Naval, Coast Guard and Shipbuilding
+[9:0] # Ships and Submarines
+[9:1] TABLE head: Platform | Facts
+  [9:1.0] INS Shachi | Commissioned 31 March 2026 at Goa Shipyard - first of 11 NGOPVs
+  [9:1.1] INS Taragiri | Commissioned 3 April 2026, Visakhapatnam; Project 17A stealth frigate; 6,670 t; built by MDL
+  [9:1.2] INS Aridaman | Second indigenous nuclear-powered ballistic missile submarine (SSBN) (Arihant class, ATV project); commissioned at Visakhapatnam by Rajnath Singh; INS Arihant commissioned 2016; K-series missiles
+  [9:1.3] Dunagiri | Project 17A Nilgiri-class frigate (GRSE) - BrahMos
+  [9:1.4] Sanshodhak | Survey ship (GRSE)
+  [9:1.5] Agre | Arnala-class ASW shallow water craft (GRSE)
+  [9:1.6] INS Malvan | Second ASW-SWC by Cochin Shipyard (8-ship project)
+  [9:1.7] Mahendragiri | Project 17A (Nilgiri-class) stealth guided-missile frigate built by MDL, delivered 30 April 2026 - the sixth P-17A frigate (the fourth built at MDL); named after Mahendragiri Hills, Odisha; commissioned at Visakhapatnam on 11 July 2026 (Eastern Fleet)
+  [9:1.8] ICGS Achal | Inducted 9 May 2026 at Goa Shipyard Ltd - next-gen Adamya-class Fast Patrol Vessel, 50%+ indigenous; based at Vadinar, Gujarat (Coast Guard Region North West)
+  [9:1.9] INS Sanghamitra | Launched 20 May 2026 by GRSE, Kolkata - first NGOPV launched by GRSE (Shachi-class), Buy (Indian-IDDM); ~113 m, 3,000 t, 23 knots, 8,500 nm; named after Ashoka's daughter; emblem Ursa Major and lighthouse
+[9:2] - **Project 17A**: follow-on to the Shivalik class; **seven** frigates by **MDL (Mumbai)** and **GRSE (Kolkata)**; the seventh, Vindhyagiri, is at GRSE.
+[9:3] - **Large Cavitation Tunnel** (~230 m) at **NSTL Visakhapatnam** - construction inaugurated by **Rajnath Singh**.
+[9:4] - **INS Vikrant** - **1,000 aircraft landings**; built at **Cochin Shipyard**; commissioned 2 September 2022; ~45,000 t; MiG-29K.
+[9:5] - Coast Guard: est. 1978, DG **Paramesh Sivamani**; GSL: est. 1957, Vasco da Gama; GRSE: est. 1884, Kolkata; MDL: est. 1934; Navy Chief **Admiral Dinesh K. Tripathi**; IAF (est. 1932) Chief **Air Chief Marshal Amar Preet Singh**; Assam Rifles DG Lt Gen Vikas Lakhera.
+[9:6] > INS Taragiri was commissioned at Visakhapatnam; INS Shachi at Goa. Aridaman = SSBN; Sanshodhak = survey ship; Agre = ASW craft; Dunagiri = frigate.
+[9:7] ~~ Sources: Rocket CA 2026 Part 01 p.106 (INS Mahendragiri - fourth P-17A frigate built by MDL, commissioned Visakhapatnam 11 July 2026), p.198 (INS Aridaman, K-4/K-15); app notes 6:72 (sub 3)
