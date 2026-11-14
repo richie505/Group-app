@@ -109,12 +109,12 @@
   "row": 76,
   "s": "Consider the following statements:\n1. The CPCB is a statutory body constituted in September 1974 under the Air Act.\n2. The CPCB coordinates the activities of the State Pollution Control Boards.\n3. The chairperson of a State Pollution Control Board is nominated by the State Government.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2 and 3",
+   "2 and 3 only",
    "1 and 2 only",
    "3 only",
-   "2 and 3 only"
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Statements 2 and 3 are correct. Statement 1 is wrong: the CPCB was constituted under the Water Act, 1974; the Air Act came only in 1981.",
   "src": "app",
   "tq": "statements"
@@ -169,12 +169,12 @@
   "row": 76,
   "s": "Consider the following statements about the Air (Prevention and Control of Pollution) Act, 1981:\n1. It came into force on 16 May 1981.\n2. Noise was added to the definition of 'air pollutant' by the 1991 amendment.\n3. Air pollution control areas are declared by the Central Government.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2 and 3",
+   "1 only",
    "1 and 2 only",
    "2 and 3 only",
-   "1 only"
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Statement 1 is correct. Statement 2 is wrong: noise was added by the 1987 amendment. Statement 3 is wrong: they are declared by the State Government (Chapter IV, Sections 19-31).",
   "src": "app",
   "tq": "statements"
@@ -244,12 +244,12 @@
   "row": 76,
   "s": "Consider the following statements about consents from the State Pollution Control Board:\n1. Consent to Establish (CTE) is obtained before setting up a unit and Consent to Operate (CTO) before production.\n2. Under the January 2026 reform, the CTO has to be renewed every five years.\n3. White category industries need no consent or environmental clearance.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
    "1 only",
+   "1 and 3 only",
    "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the 29 Jan 2026 reform made the CTO valid until cancelled (earlier it needed periodic renewal).",
   "src": "app",
   "tq": "statements"
@@ -274,12 +274,12 @@
   "row": 76,
   "s": "Consider the following statements:\n1. The EP Act, 1986 originally provided imprisonment up to 5 years or a fine up to Rs 1 lakh.\n2. After the Jan Vishwas Act, 2023, EPA penalties are fixed by an adjudicating officer and appeals lie to the High Court.\n3. The Jan Vishwas amendment raised relief for death under the PLI Act, 1991 from Rs 25,000 to Rs 5 lakh.\nWhich of the statements given above is/are correct?",
   "o": [
+   "2 only",
    "1 and 2 only",
    "1 and 3 only",
-   "2 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Statements 1 and 3 are correct. Statement 2 is wrong: appeals lie to the National Green Tribunal.",
   "src": "app",
   "tq": "statements"
@@ -289,12 +289,12 @@
   "row": 76,
   "s": "Consider the following statements about the Andhra Pradesh Pollution Control Board:\n1. It was set up in 1976 under the Water Act as the State Water Board.\n2. Its head office is at Visakhapatnam.\n3. OCMMS is its online consent management and monitoring system.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2 and 3",
+   "1 and 3 only",
    "2 only",
    "2 and 3 only",
-   "1 and 3 only"
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the head office is at Vijayawada (with 3 Zonal and 13 Regional offices).",
   "src": "app",
   "tq": "statements"
@@ -349,12 +349,12 @@
   "row": 77,
   "s": "Consider the following statements about the National Green Tribunal:\n1. It is bound by the procedure laid down in the Code of Civil Procedure, 1908.\n2. An appeal against its order lies to the Supreme Court within 90 days.\n3. A serving or retired Chief Justice of a High Court can be appointed its Chairperson.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 and 3 only",
    "1 and 2 only",
+   "2 and 3 only",
    "3 only",
    "1, 2 and 3"
   ],
-  "a": 0,
+  "a": 1,
   "x": "Statements 2 and 3 are correct. Statement 1 is wrong: the NGT is not bound by the CPC 1908 (or the Evidence Act); it follows natural justice.",
   "src": "app",
   "tq": "statements"
@@ -405,9 +405,9 @@
   "tq": "assertion"
  },
  {
-  "id": "cp61e4d5f54feb",
+  "id": "cp35f9c8fc178a",
   "row": 77,
-  "s": "Which of the following Acts are listed in Schedule I of the NGT Act (under the Tribunal's jurisdiction)?\n1. Wildlife (Protection) Act, 1972\n2. Public Liability Insurance Act, 1991\n3. Biological Diversity Act, 2002\n4. Forest Rights Act, 2006\nHow many of the above statements are correct?",
+  "s": "Consider the following Acts:\n1. Wildlife (Protection) Act, 1972\n2. Public Liability Insurance Act, 1991\n3. Biological Diversity Act, 2002\n4. Forest Rights Act, 2006\nHow many of the above Acts are listed in Schedule I?",
   "o": [
    "Only one",
    "All four",
@@ -440,11 +440,11 @@
   "s": "Consider the following statements:\n1. The National Environment Tribunal Act, 1995 provided strict liability for hazardous-substance accidents but was never brought into force.\n2. The National Environment Appellate Authority continues to hear appeals alongside the NGT.\n3. The National Environment Appellate Authority Act, 1997 was meant for appeals against environmental clearances.\n4. Both the 1995 and 1997 Acts were repealed by Section 38 of the NGT Act, 2010.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
-   "Only three",
    "Only two",
+   "Only three",
    "All four"
   ],
-  "a": 1,
+  "a": 2,
   "x": "Statements 1, 3 and 4 are correct. Statement 2 is wrong: the NEAA was dissolved and its role taken over by the NGT.",
   "src": "app",
   "tq": "statements"
@@ -499,12 +499,12 @@
   "row": 77,
   "s": "Consider the following statements:\n1. The R2 Code of Practices relates to responsible electronics recycling.\n2. Cleaner production is an end-of-pipe approach to treating pollution.\n3. The 12 principles of green chemistry were given by Paul Anastas and John Warner in 1998.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
    "2 only",
    "1 and 3 only",
+   "1 and 2 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Statements 1 and 3 are correct. Statement 2 is wrong: cleaner production cuts waste and pollution at the source – preventive, not end-of-pipe.",
   "src": "app",
   "tq": "statements"
@@ -604,12 +604,12 @@
   "row": 77,
   "s": "Consider the following statements about the Draft EIA Notification, 2020:\n1. It has been finalised and has replaced the EIA Notification, 2006.\n2. It proposed cutting the notice for a public hearing from 30 to 20 days.\n3. It proposed that violations be reportable only by the violator or the government.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
    "2 and 3 only",
+   "1 only",
    "1 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 0,
   "x": "Statements 2 and 3 are correct. Statement 1 is wrong: the 2020 draft was not finalised.",
   "src": "app",
   "tq": "statements"
@@ -709,12 +709,12 @@
   "row": 78,
   "s": "Consider the following statements:\n1. The G.B. Pant National Institute of Himalayan Environment (GBPNIHE) is at Kosi-Katarmal, Almora.\n2. The CMLRE, which hosts 'Bhavasagara', is at Kochi.\n3. The National River Conservation Plan covers 38 rivers in 26 States.\nHow many of the above statements are correct?",
   "o": [
-   "Only two",
    "Only one",
+   "None",
    "All three",
-   "None"
+   "Only two"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Statements 1 and 2 are correct. Statement 3 is wrong: the NRCP covers 38 rivers in 16 States.",
   "src": "app",
   "tq": "statements"
@@ -769,12 +769,12 @@
   "row": 78,
   "s": "Consider the following statements:\n1. The Biological Diversity Act, 2002 follows the CBD and was amended in 2023.\n2. The National Biodiversity Authority was set up in 2003 with headquarters at Bengaluru.\n3. Foreigners need NBA approval to access bio-resources, and NBA approval precedes IPR.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1, 2 and 3",
-   "2 only",
    "1 and 2 only",
-   "1 and 3 only"
+   "2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 2,
   "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the NBA (2003) is headquartered at Chennai.",
   "src": "app",
   "tq": "statements"
@@ -799,12 +799,12 @@
   "row": 78,
   "s": "Consider the following statements about the Central Pollution Control Board:\n1. It was earlier called the Central Board for the Prevention and Control of Water Pollution and was renamed CPCB in 1988.\n2. Its air-pollution functions came from the Environment (Protection) Act, 1986.\n3. Its Chairman is nominated by the President.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 and 3 only",
    "1 and 2 only",
    "1 only",
+   "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Statement 1 is correct. Statement 2 is wrong: its air functions came from the Air Act, 1981. Statement 3 is wrong: a full-time Chairman is nominated by the Central Government.",
   "src": "app",
   "tq": "statements"
@@ -838,5 +838,485 @@
   "x": "Correct matching: Wildlife (Protection) Act – 1972; Forest (Conservation) Act – 1980; National Environment Appellate Authority Act – 1997; Forest Rights Act – 2006.",
   "src": "app",
   "tq": "match"
+ },
+ {
+  "id": "cp8e6ce2165b16",
+  "row": 79,
+  "s": "Consider the following statements:\n1. The Stockholm Declaration of 1972 contained 27 principles.\n2. Indira Gandhi was the only visiting head of government at the Stockholm Conference.\n3. The Global 500 awards for protection of the environment were launched by UNEP in 1987.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: the Stockholm Declaration has 26 principles; 27 principles is the Rio Declaration (1992).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc447a76ce076",
+  "row": 79,
+  "s": "Match List-I (World Environment Day) with List-II (Host):\nList-I | List-II\na. 2017 | i. China\nb. 2018 | ii. India\nc. 2019 | iii. Côte d'Ivoire\nd. 2023 | iv. Canada\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 1,
+  "x": "Correct matching: 2017 – Canada; 2018 – India; 2019 – China; 2023 – Côte d'Ivoire. India's 2018 and Côte d'Ivoire's 2023 themes were both 'Beat Plastic Pollution'; 2019 (China) was 'Beat Air Pollution'.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc7772a859b5d",
+  "row": 79,
+  "s": "Consider the following statements:\nAssertion (A): The UN Environment Assembly (UNEA) meets biennially in Nairobi.\nReason (R): The UNEA was created at the Stockholm Conference, 1972.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true. R is false: UNEA was created at Rio+20 (2012); it is UNEP that came out of Stockholm 1972 – both are in Nairobi.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp96aa0ae4380a",
+  "row": 79,
+  "s": "Consider the following statements about the Ramsar Convention:\n1. It was adopted on 2 February 1971 and its secretariat is at Gland, Switzerland.\n2. Chilika Lake and Keoladeo National Park are at present on the Montreux Record.\n3. India became a Party in 1982, and Chilika Lake and Keoladeo National Park were its first sites.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the Indian Montreux Record sites now are Keoladeo NP and Loktak Lake; Chilika was removed in 2002.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpae3f0e8d4f97",
+  "row": 79,
+  "s": "Consider the following statements about India's Ramsar sites (2026):\n1. India has 103 Ramsar sites.\n2. Sukhna Wetland is in Chandigarh and Sauj Jheel is in Uttar Pradesh.\n3. Kerala has the largest number of Ramsar sites.\n4. Udaipur and Indore are India's first accredited Wetland Cities.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statements 1, 2 and 4 are correct. Statement 3 is wrong: Tamil Nadu has the most (20).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa95b3a0e50d8",
+  "row": 79,
+  "s": "Match List-I (Ramsar wetland) with List-II (State/UT):\nList-I | List-II\na. Wular | i. Manipur\nb. Harike | ii. Bihar\nc. Kabartal (Kanwar Lake) | iii. Jammu and Kashmir\nd. Loktak | iv. Punjab\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 1,
+  "x": "Correct matching: Wular – Jammu and Kashmir; Harike – Punjab; Kabartal (Kanwar Lake) – Bihar; Loktak – Manipur.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp354a40cb9365",
+  "row": 79,
+  "s": "Consider the following statements:\n1. Kolleru Lake lies between the Godavari and Krishna deltas.\n2. Kolleru became a Ramsar site in 2012.\n3. Pulicat Lake is also a Ramsar site of Andhra Pradesh.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 only",
+   "1 and 3 only"
+  ],
+  "a": 2,
+  "x": "Statement 1 is correct. Statement 2 is wrong: Kolleru has been a Ramsar site since 2002. Statement 3 is wrong: Pulicat is not a Ramsar site; Kolleru is AP's only Ramsar site.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpfa6d0a49fe8b",
+  "row": 79,
+  "s": "Consider the following statements:\nAssertion (A): The Ramsar Convention requires Parties to ban all human use of the wetlands they designate.\nReason (R): Under Ramsar, 'wise use' means conserving sites through an ecosystem approach while allowing their sustainable use.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: the pillars are wise use, the Ramsar List and international cooperation – never a ban on all human use. R is true (UPSC 2010).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp2b637455ae43",
+  "row": 79,
+  "s": "Match List-I (Treaty/body) with List-II (Secretariat):\nList-I | List-II\na. UNCCD | i. Paris\nb. World Heritage Convention | ii. Nairobi\nc. International Whaling Commission | iii. Bonn\nd. Montreal Protocol | iv. Cambridge, UK\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iii, b-i, c-iv, d-ii"
+  ],
+  "a": 3,
+  "x": "Correct matching: UNCCD – Bonn; World Heritage Convention – Paris; International Whaling Commission – Cambridge, UK; Montreal Protocol – Nairobi.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb7410a1f9127",
+  "row": 79,
+  "s": "Consider the following statements:\n1. India hosted COP14 of the UNCCD in 2019.\n2. India must freeze HFCs by 2032 under the Kigali Amendment.\n3. India ratified the Basel Convention in 1992.\n4. The BBNJ (High Seas) Treaty entered into force on 17 January 2026; India signed it in September 2024.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only three",
+   "Only two",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Statements 1, 3 and 4 are correct. Statement 2 is wrong: India freezes HFCs in 2028.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3830ca05bd5b",
+  "row": 79,
+  "s": "Match List-I (Day) with List-II (Date):\nList-I | List-II\na. World Wetlands Day | i. 16 September\nb. World Wildlife Day | ii. 17 June\nc. Desertification Day | iii. 3 March\nd. Ozone Day | iv. 2 February\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-iii, c-ii, d-i"
+  ],
+  "a": 3,
+  "x": "Correct matching: World Wetlands Day – 2 February; World Wildlife Day – 3 March; Desertification Day – 17 June; Ozone Day – 16 September.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp6d3e64e82334",
+  "row": 79,
+  "s": "Consider the following statements about the Cartagena Protocol:\n1. It was adopted on 29 January 2000 and entered into force on 11 September 2003.\n2. Its first COP/MOP was held in February 2004 at Manila, the Philippines.\n3. The Nagoya–Kuala Lumpur Supplementary Protocol on Liability and Redress supplements the Nagoya Protocol.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct. Statement 2 is wrong: COP/MOP-1 was at Kuala Lumpur, not the Philippines. Statement 3 is wrong: it is supplementary to the Cartagena Protocol.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc9da271a17ba",
+  "row": 79,
+  "s": "Consider the following statements:\n1. Under the Advance Informed Agreement, the importing country must consent before the first transboundary movement of an LMO meant for release.\n2. The Biosafety Clearing-House is a laboratory that tests LMOs.\n3. In India, the Genetic Engineering Appraisal Committee approves GM organisms.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: it is an online information platform on LMOs, not a testing laboratory.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpdd9adb849916",
+  "row": 79,
+  "s": "Consider the following statements about the Nagoya Protocol:\n1. It covers human genetic material.\n2. India ratified it in 2012 and implements it through the Biological Diversity Act, 2002.\n3. Benefit-sharing under it is on Mutually Agreed Terms, and access requires prior informed consent.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: it covers plant, animal and microbial genetic resources and associated traditional knowledge, and excludes human genetic material.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpea0bc57f7aec",
+  "row": 79,
+  "s": "Consider the following statements:\nAssertion (A): Red sanders is India's single largest earner of access and benefit-sharing income.\nReason (R): In India, the Biodiversity Management Committees are key to achieving the Nagoya Protocol's objectives.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true (notes, Nagoya – India), but R does not explain A: red sanders earns the most ABS money because of its trade value, not because of the BMCs' role.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpe9b3712f3b58",
+  "row": 79,
+  "s": "Consider the following statements about CITES:\n1. It takes the place of the national laws of its Parties.\n2. It was signed on 3 March 1973 at Washington D.C.\n3. It entered into force on 1 July 1975.\n4. Its secretariat is at Geneva and is administered by UNEP.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All four",
+   "Only three"
+  ],
+  "a": 3,
+  "x": "Statements 2, 3 and 4 are correct. Statement 1 is wrong: CITES is legally binding but does not take the place of national laws.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf394e9e37a9c",
+  "row": 79,
+  "s": "Consider the following statements about the CITES Appendices:\n1. Species move between Appendices only by a vote of the Conference of the Parties.\n2. Commercial trade in Appendix I species is allowed with export permits.\n3. The walrus is listed in Appendix III at Canada's request.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: commercial trade in Appendix I species is prohibited; export-permit trade is Appendix II.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2126a0020b49",
+  "row": 79,
+  "s": "Match List-I (Conference) with List-II (Highlight):\nList-I | List-II\na. CITES CoP3, New Delhi (1981) | i. First CITES CoP in Central Asia\nb. CITES CoP19, Panama (2022) | ii. Great Indian Bustard, Asian elephant and Bengal florican to Appendix I\nc. CITES CoP20, Samarkand (2025) | iii. Only CITES CoP hosted by India\nd. CMS COP13, Gandhinagar (2020) | iv. 54 sharks and rays to Appendix II\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 3,
+  "x": "Correct matching: CITES CoP3, New Delhi (1981) – Only CITES CoP hosted by India; CITES CoP19, Panama (2022) – 54 sharks and rays to Appendix II; CITES CoP20, Samarkand (2025) – First CITES CoP in Central Asia; CMS COP13, Gandhinagar (2020) – Great Indian Bustard, Asian elephant and Bengal florican to Appendix I.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp9a0270d0daf9",
+  "row": 79,
+  "s": "Consider the following statements about India and CITES:\n1. India became a Party to CITES in 1976.\n2. The Wildlife (Protection) Amendment Act, 2022 added Schedule IV for CITES-listed specimens.\n3. The Wildlife Crime Control Bureau was set up in 2007 under the Ministry of Home Affairs.\n4. The CITES Trade Database is maintained by UNEP-WCMC.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statements 1, 2 and 4 are correct. Statement 3 is wrong: the WCCB (2007) is a statutory body under the MoEFCC.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpeb9aaea3485b",
+  "row": 79,
+  "s": "Consider the following statements:\nAssertion (A): Red sanders (Pterocarpus santalinus) is listed in CITES Appendix I.\nReason (R): Red sanders is endemic to the Seshachalam hills of the southern Eastern Ghats in Andhra Pradesh and is IUCN Endangered.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: red sanders is in CITES Appendix II (India was removed from the Review of Significant Trade in Nov 2023). R is true.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp64cda562c933",
+  "row": 79,
+  "s": "Consider the following statements:\n1. The IUCN, founded in 1948, is an organ of the United Nations.\n2. TRAFFIC is a network of WWF and IUCN.\n3. India has been a Party to the Convention on Migratory Species since 1983.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: the IUCN is a union of States and NGOs, not a UN organ.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp28a9c15b3993",
+  "row": 79,
+  "s": "Consider the following statements about the Convention on Migratory Species (CMS):\n1. CMS COP13 was hosted by India at Gandhinagar in February 2020.\n2. CMS COP14 was held at Samarkand with the theme 'Nature knows no borders'.\n3. CMS COP15 will be held at Manaus, Brazil.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: COP15 is at Campo Grande, Brazil.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp95da97e9b5cb",
+  "row": 79,
+  "s": "Consider the following statements about the Rio Earth Summit, 1992:\n1. The Forest Principles adopted at Rio are legally binding.\n2. The Rio Declaration contained 27 principles.\n3. The UNFCCC and the CBD were opened for signature at Rio.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: the Forest Principles are non-binding. Agenda 21 was another Rio output.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc20d26d689bb",
+  "row": 79,
+  "s": "Match List-I (Summit) with List-II (Venue/outcome):\nList-I | List-II\na. Rio+5 (1997) | i. UNGA special session, New York\nb. Rio+10 (2002) | ii. Johannesburg Plan of Implementation\nc. Rio+20 (2012) | iii. Agenda 21\nd. UNCED (1992) | iv. 'The Future We Want'; created UNEA\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 0,
+  "x": "Correct matching: Rio+5 (1997) – UNGA special session, New York; Rio+10 (2002) – Johannesburg Plan of Implementation; Rio+20 (2012) – 'The Future We Want'; created UNEA; UNCED (1992) – Agenda 21.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp9603ff456089",
+  "row": 79,
+  "s": "Consider the following statements about the Convention on Biological Diversity:\n1. It entered into force on 29 December 1993, and India ratified it in 1994.\n2. Its secretariat is at Geneva.\n3. Compulsory transfer of technology is one of its three objectives.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 only"
+  ],
+  "a": 3,
+  "x": "Statement 1 is correct. Statement 2 is wrong: the CBD secretariat is at Montreal, Canada. Statement 3 is wrong: its objectives are conservation, sustainable use and fair and equitable benefit sharing.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc64714979a14",
+  "row": 79,
+  "s": "Consider the following statements about biodiversity governance in India:\n1. Biodiversity Management Committees prepare People's Biodiversity Registers and may levy collection fees.\n2. The Biological Diversity (Amendment) Act, 2023 was criticised for diluting ABS and the role of local communities.\n3. The AP State Biodiversity Board aims at zero loss of biodiversity and ecosystem services by 2030.\n4. BIOMIS is the portal of the AP State Biodiversity Board.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only three",
+   "Only two",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Statements 1, 2 and 4 are correct. Statement 3 is wrong: the AP SBB target year is 2050.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp77f816bcd6b6",
+  "row": 79,
+  "s": "Match List-I (CBD COP) with List-II (Venue):\nList-I | List-II\na. COP1 (1994) | i. Sharm el-Sheikh, Egypt\nb. COP11 (2012) | ii. Hyderabad, India\nc. COP14 (2018) | iii. Cali, Colombia\nd. COP16 (2024) | iv. Nassau, Bahamas\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iv, b-ii, c-i, d-iii"
+  ],
+  "a": 3,
+  "x": "Correct matching: COP1 (1994) – Nassau, Bahamas; COP11 (2012) – Hyderabad, India; COP14 (2018) – Sharm el-Sheikh, Egypt; COP16 (2024) – Cali, Colombia.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd98484292611",
+  "row": 79,
+  "s": "Consider the following statements:\n1. The Aichi Biodiversity Targets – 20 targets under 5 strategic goals – were adopted at COP10, Nagoya.\n2. The Kunming-Montreal GBF was adopted at COP16, Cali.\n3. None of the Aichi targets was fully met.\n4. The Kunming-Montreal GBF has 4 goals for 2050 and 23 targets for 2030.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All four",
+   "Only three"
+  ],
+  "a": 3,
+  "x": "Statements 1, 3 and 4 are correct. Statement 2 is wrong: the GBF was adopted at COP15, Montreal, December 2022.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8da95608b240",
+  "row": 79,
+  "s": "Match List-I (Kunming-Montreal GBF target) with List-II (Content):\nList-I | List-II\na. Target 6 | i. Cut invasive alien species introduction by at least 50%\nb. Target 18 | ii. Conserve 30% of land and 30% of oceans\nc. Target 19 | iii. Mobilise US$200 bn a year by 2030\nd. Target 3 | iv. Cut harmful subsidies by US$500 bn a year\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 2,
+  "x": "Correct matching: Target 6 – Cut invasive alien species introduction by at least 50%; Target 18 – Cut harmful subsidies by US$500 bn a year; Target 19 – Mobilise US$200 bn a year by 2030; Target 3 – Conserve 30% of land and 30% of oceans. US$700 bn is the finance gap of Goal D.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp43074181e5d4",
+  "row": 79,
+  "s": "Consider the following statements:\n1. Target 2 of the Kunming-Montreal GBF seeks to restore 30% of degraded land and water ecosystems.\n2. The '30x30' target is a renewable-energy target.\n3. The High Ambition Coalition for Nature and People is co-chaired by Costa Rica, France and the UK; India joined it in 2021 as the first BRICS country.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: 30x30 is a biodiversity (area-protection) target (APPSC G1 2024).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp313410632bb6",
+  "row": 79,
+  "s": "Consider the following statements:\nAssertion (A): Zoos and gene banks are examples of ex-situ conservation.\nReason (R): Ex-situ conservation means conservation outside the natural habitat.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: zoos and gene banks keep species outside their natural habitat, which is ex-situ conservation (in-situ = in the natural habitat).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpf85ff4af3215",
+  "row": 79,
+  "s": "Consider the following statements:\n1. India's updated NBSAP 2024-2030 has 23 national targets and was released at COP16, Cali.\n2. Under the Cali Fund, large users of digital sequence information are to pay 1% of profits or 0.1% of revenue.\n3. The GBF Fund is set up under UNEP.\n4. National reports under the CBD are submitted under Article 21.\nHow many of the above statements are correct?",
+  "o": [
+   "Only two",
+   "Only one",
+   "Only three",
+   "All four"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: the GBF Fund is under the GEF. Statement 4 is wrong: national reports are under Article 26.",
+  "src": "app",
+  "tq": "statements"
  }
 ]
