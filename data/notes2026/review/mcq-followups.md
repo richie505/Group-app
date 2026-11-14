@@ -14,3 +14,10 @@
 - ga8f5796c0f0a: 131st Amendment Bill "proposes" — notes: defeated in Lok Sabha Apr 2026; reword.
 - y6a6a538e801 (PYQ): Bogardus "same status level" = horizontal mobility — add dispute.
 - (y388e5f3d4c9 AG and ye90e5cce165 TRAI already handled in b2-d02 / outdated.)
+# book 4 (from notes review)
+- f1306036f422d: Japan median age keyed "about 45" — Japan ~48 (45 = W. Europe).
+- g30e42aa06c40: explanation "Kolkata 10th" — UN 2018 table 16th.
+- f7835e3598351: explanation "Hindi 2nd, Punjabi 10th" — Ethnologue 2026 Hindi 3rd.
+- yba6d83ad8a1 (PYQ): relink to Zone III row + Disputed chip.
+- y6b2a4dee7c6 (PYQ): coastline — outdated line (old answer 2nd, 974 km) — already keyed 3rd with "(official key: 2nd)"; add outdated line.
+- yf3537c98634 (PYQ): Apache "Chinese" — Disputed (Taiwanese per some; China/Singapore-based per others).
