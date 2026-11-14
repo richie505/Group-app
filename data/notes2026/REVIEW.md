@@ -1302,3 +1302,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - Row 75 1:3: Lokpal Bill re-introduction list omits 2005 and 2008 (Laxmikanth has both) — complete the list; own f314e353c321c ("nine") removed.
 - PYQ y281c7b2f2b8 (Arun Kumar Mishra) linked to 74:1:10.2 (Dattu) instead of 1:10.3 — link cleanup.
 - nd4cdafa2a3c cited Art. 338A(10); notes 338A(9) (correct) — removed.
+
+## rewrite b4-w067 (rows 67–72)
+- own 445 → 76 kept + 86 new (162, 36%); new 54 statements / 20 match / 12 A–R; no lines lost.
+- Doubtful notes (not used): 71:3:0.1 "Kolkata 10th (APPSC 2018 key)"; 68:3:2 "Hindi 2nd/3rd" worldwide; 72:0:1.7 HDI "0.676 in 2022" vs 0.644 (HDR 2023-24 row) — harmonise.
