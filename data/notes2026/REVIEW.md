@@ -1622,3 +1622,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b5-w119 (rows 119–121)
 - own 199 → 18 kept + 56 new (74, 37%); new 35 statements / 13 match / 7 A–R / 1 sequence; no lines lost. No wrong keys.
 - 11 removed as not in notes (Shanvac-B, ZyCoV-D, Sparsh, TB treatment success 2025, …) — possible notes gaps.
+
+## rewrite b2-w163 (rows 163–166)
+- own 408 → 84 kept + 83 new (167, 41%); new 46 statements / 25 match / 12 A–R; 2 of 247 lines lost. No wrong keys.
+- Removed as not in notes: g6511fb38201c (paper-leak Act 2024), nindian-society-38-13 (Skill India Digital Hub AI certifications) — possible notes gaps.
