@@ -1,0 +1,2132 @@
+=== NOTES 5:16 | Artificial Intelligence and Machine Learning – Concepts, Applications, National Ai Strategy, Ethical Concerns
+## SUB 0 | AI Tools, Chatbots and Company Initiatives
+[16:0:0] # Global tools → developer
+[16:0:1] TABLE head: Tool | Developer / fact
+  [16:0:1.0] ChatGPT | OpenAI (CEO Sam Altman); launched 30 Nov 2022; built on a large language model
+  [16:0:1.1] Siri / Alexa / Cortana | Apple / Amazon / Microsoft – virtual assistants ("Cortesa" is not one)
+  [16:0:1.2] Bing | Microsoft's search engine
+  [16:0:1.3] GigaChat | Russia's Sberbank (April 2023) – rival to ChatGPT
+  [16:0:1.4] Maharaja | Air India's Generative-AI virtual agent on Microsoft Azure OpenAI (2023) – first airline to deploy one
+  [16:0:1.5] Jugalbandi | Microsoft with AI4Bharat (IIT Madras), May 2023; multilingual chatbot on WhatsApp (not Google)
+  [16:0:1.6] Topaz | Infosys (May 2023) – AI-first set of services, solutions and platforms using generative AI (not Wipro, TCS, HCL, Accenture)
+[16:0:2] # Indian models and platforms
+[16:0:3] TABLE head: Tool | Developer / note
+  [16:0:3.0] Hanooman | BharatGPT ecosystem + Seetha Mahalakshmi Healthcare; multimodal, 11 Indian languages
+  [16:0:3.1] BharatGPT | Consortium of IITs led by IIT Bombay, backed by Reliance Jio
+  [16:0:3.2] Krutrim | Ola (Bhavish Aggarwal)
+  [16:0:3.3] OpenHathi | Sarvam AI
+  [16:0:3.4] Bhashini | MeitY, National Language Translation Mission, July 2022; 22 scheduled languages; crowd-sourcing via Bhasha Daan
+  [16:0:3.5] AIRAWAT | India's AI supercomputer / common AI compute (not a car, camera or chatbot)
+  [16:0:3.6] Swarajability | India's first AI job platform for persons with disabilities – IIT Hyderabad with Youth4Jobs, funded by Kotak Mahindra Bank
+  [16:0:3.7] MedTech Mitra | ICMR-CDSCO (not MeitY and Google)
+[16:0:4] # Company initiatives in the news
+[16:0:5] - **Intel + Dell Technologies:** AI skills lab in India (**July 2023**).
+[16:0:6] - **Microsoft + DGT** (June 2023): AI and cloud skills for **6,000 students and 200 educators** of ITIs and NSTIs.
+[16:0:7] - **Global DXB Challenge 2019** (robotics and AI): held in **Dubai**.
+[16:0:8] > Developer-recall angle (about half the row's PYQs): Topaz ×3, Hanooman, Jugalbandi, GigaChat, Maharaja, ChatGPT.
+[16:0:9] ~~ Sources: app notes 5:16 sub 2 (old-notes.txt); PMF S&T Part 5 p.127 (NLP chatbots); dtnext.in 10 Jul 2023 (Dell–Intel lab); general knowledge, not checked (Topaz, Jugalbandi, GigaChat, Swarajability, DXB, Microsoft–DGT)
+## SUB 1 | Machine Learning, Key Concepts and Hardware
+[16:1:0] - **Machine learning** = a **branch / subset of AI**; learns from data without explicit programming (not network design, cyber forensics, full-stack).
+[16:1:1] TABLE head: Type | Key point
+  [16:1:1.0] Supervised | Trained on labelled data
+  [16:1:1.1] Unsupervised | Unlabelled data; finds hidden patterns
+  [16:1:1.2] Reinforcement | Trial and error with rewards
+[16:1:2] - **RAS 2024 statements:** ML subset of AI ✓; supervised = "without labelled data" ✗; reinforcement = trial and error with rewards ✓ → **A and C**.
+[16:1:3] TABLE head: Term | Meaning
+  [16:1:3.0] Deep learning | Subset of ML using many-layered neural networks
+  [16:1:3.1] Random forest | Group of decision trees; reduces overfitting
+  [16:1:3.2] NLP | Machines understand and generate human language (chatbots, translation)
+  [16:1:3.3] Computer vision | Interprets images – facial recognition
+  [16:1:3.4] Generative AI | Creates new text, images, music
+  [16:1:3.5] LLM | General-purpose model trained on massive data for many language tasks
+  [16:1:3.6] Recommender system | Suggests content from past behaviour (Netflix)
+  [16:1:3.7] GPU | Massively parallel – workhorse of AI training
+  [16:1:3.8] FPGA | Field Programmable Gate Array – IC reconfigurable after manufacture
+  [16:1:3.9] TPU | Google's AI chip
+[16:1:4] - **Cloud-based machine learning tools** are bringing AI to a far broader audience.
+[16:1:5] - **Data scientists** need **all** of: statistics, machine learning, data visualisation.
+[16:1:6] ~~ Sources: PMF S&T Part 5 p.122-126, p.130; app notes 5:16 sub 1
+## SUB 2 | AI – Meaning, Pioneers and Types
+[16:2:0] - **AI** = machines copying the thinking functions of human intelligence (learning, reasoning, perception) – "**computer-created intelligence**"; it augments humans by **making machines intelligent and mimicking human actions**.
+[16:2:1] - **Father of AI:** **John McCarthy** – coined "artificial intelligence" for the **Dartmouth workshop (1956)**; not Turing, Babbage, Lee de Forest or Eckert.
+[16:2:2] TABLE head: Item | Fact
+  [16:2:2.0] Dartmouth workshop | 1956; proposed in 1955 by McCarthy, Minsky, Rochester and Shannon
+  [16:2:2.1] Turing test | Alan Turing, "Computing Machinery and Intelligence" (1950); first called "the imitation game"
+  [16:2:2.2] Narrow / Weak AI (ANI) | One specific task, cannot transfer across domains (Siri, Alexa, recommendations) – all AI in use today
+  [16:2:2.3] General / Strong AI (AGI) | Human-level reasoning across domains – not achieved
+  [16:2:2.4] Artificial Superintelligence | Hypothetical; surpasses humans in every way
+[16:2:3] ~~ Sources: PMF S&T Part 5 p.131-132 (types); PMF S&T Part 1 p.30 (Turing); app notes 5:16 sub 0
+## SUB 3 | AI Applications
+[16:3:0] - **UPSC 2020 – what AI can do now:** cut **electricity use in industrial units**, **disease diagnosis**, **text-to-speech** → **1, 3 and 4 only**; not "meaningful short stories and songs", not wireless power transmission.
+[16:3:1] - **IAS 2006:** facial recognition, handwriting comparison and **speech recognition** = AI → **I, II and IV**; a hacker cracking a password is a human act.
+[16:3:2] - **AP agriculture:** **Microsoft** (with ICRISAT) AI sowing app for AP farmers – piloted in **Kurnool (2016)**.
+[16:3:3] - **TiHAN:** India's first **autonomous navigation** testbed – **IIT Hyderabad** (inaugurated by Jitendra Singh, 2022).
+[16:3:4] - **AI4AP Police Project** (Feb 2026): **Chittoor, Guntur, Annamayya**; traffic management, crime prediction, investigation; uses CCTNS.
+[16:3:5] - **Health:** AI reading X-ray/MRI/CT could cut diagnostic errors by up to **40%**; **SAHI** = **Strategy for AI in Healthcare** (2026).
+[16:3:6] ~~ Sources: PMF S&T Part 5 p.133-134 (UPSC 2020); app notes 5:16 sub 3; general knowledge, not checked (TiHAN, IAS 2006)
+## SUB 4 | National AI Strategy, IndiaAI Mission and Hubs
+[16:4:0] - **NITI Aayog National Strategy for AI (2018)** – "**#AIforAll**"; five sectors: **healthcare, agriculture, education, smart cities and infrastructure, smart mobility and transport** (not defence manufacturing).
+[16:4:1] - **RAISE 2020** = **Responsible Artificial Intelligence for Social Empowerment**.
+[16:4:2] - **IndiaAI Mission:** **MeitY**, **March 2024**, **₹10,371.92 crore** over 5 years, **10,000+ GPUs**.
+[16:4:3] TABLE head: IndiaAI pillar | Purpose
+  [16:4:3.0] Compute Capacity | Affordable GPU compute
+  [16:4:3.1] Innovation Centre | Indigenous foundation models
+  [16:4:3.2] Datasets Platform (AI-Kosh) | Public-sector datasets
+  [16:4:3.3] Application Development / FutureSkills / Startup Financing / Safe & Trusted AI | Sector apps, courses, capital, responsible-AI tools
+[16:4:4] - **AIRAWAT:** AI compute PoC **200 AI petaflops** (scalable to 790); **75th** in Top500 (ISC 2023).
+[16:4:5] - **MATH** (Machine learning and AI Technology Hub): **DST + Telangana government with T-Hub** → APPSC 2023: **Assertion true, Reason (modernising higher education) false**.
+[16:4:6] - **Telangana:** declared **2020 the Year of AI**.
+[16:4:7] - **MEA – NEST division** (New, Emerging and Strategic Technologies): nodal for foreign collaboration on **5G and AI**.
+[16:4:8] ~~ Sources: app notes 5:16 sub 4; PMF S&T Part 6 p.8 (IndiaAI Mission); general knowledge, not checked (RAISE 2020, NEST, Telangana 2020)
+## SUB 5 | Global AI Governance and Summits
+[16:5:0] TABLE head: Summit | Year | Host
+  [16:5:0.0] AI Safety Summit | 2023 | Bletchley Park (UK)
+  [16:5:0.1] REAIM (Responsible AI in the Military Domain) | 2023 | The Hague
+  [16:5:0.2] AI Seoul Summit | 2024 | Seoul (South Korea)
+  [16:5:0.3] AI Action Summit | 10–11 Feb 2025 | Paris (Grand Palais); co-chaired by India and France
+  [16:5:0.4] India AI Impact Summit | 19–20 Feb 2026 | New Delhi; New Delhi Declaration on AI Impact
+[16:5:1] - **UPSC 2025:** Paris summit built on Bletchley (2023) and Seoul (2024) ✓; **US and UK did NOT sign** the inclusive and sustainable AI declaration ✗ → **I only**.
+[16:5:2] - **GPAI** = Global Partnership on AI; launched **June 2020**, India a **founding member**; India was **Lead Chair in 2024** (not the "outgoing chair") and hosted the **6th Ministerial Council** (3 July 2024, New Delhi); **Serbia** was elected Lead Chair for 2024-25.
+[16:5:3] - **Semicon India:** **four** semiconductor units approved in 2024 (MeitY year-end review) → with the GPAI point, "**only statement 1**" is correct.
+[16:5:4] - **EU AI Act:** world's **first comprehensive AI law**; in force **Aug 2024**; risk tiers **unacceptable, high, limited, minimal** (no "moderate").
+[16:5:5] ~~ Sources: PMF S&T Part 6 p.9-13; app notes 5:16 sub 7; visionias.in news-today 4 Jul 2024 (India Lead Chair 2024, Serbia next Lead Chair); visionias.in 28 Dec 2024 (4 semicon units)
+## SUB 6 | Ethical Concerns and Challenges
+[16:6:0] - **Hawking (2014):** "The development of full AI could spell the **end of the human race**" – **Stephen Hawking**.
+[16:6:1] TABLE head: Concern | Point
+  [16:6:1.0] Bias | Sources: data, algorithms, people (human interpretation) – "ability" is not a source
+  [16:6:1.1] Health-AI bias | Trained on urban/Western data; may miss India's social, genetic, demographic diversity
+  [16:6:1.2] Deepfakes | Made with GANs and diffusion models
+  [16:6:1.3] Facial recognition | Identification without consent, mass surveillance, predictive policing
+  [16:6:1.4] Job displacement | Both manual and intellectual work
+  [16:6:1.5] Explainability | Deep models are black boxes – decisions hard to explain
+[16:6:2] - India: GERD **~0.64–0.70% of GDP**; **Economic Survey 2025-26** – small, application-specific models + a state-built **AI-OS** modelled on UPI and Aadhaar.
+[16:6:3] - **14 Aug 2026:** Supreme Court sought the Centre's reply on no legal framework for high-risk AI in **welfare delivery**.
+[16:6:4] ~~ Sources: PMF S&T Part 5 p.126, p.128, p.135; app notes 5:16 sub 6; general knowledge, not checked (Hawking quote)
+## SUB 7 | AI Education and Skilling
+[16:7:0] TABLE head: First / item | Fact
+  [16:7:0.0] First B.Tech in AI | IIT Hyderabad (2019) – not IIT Delhi, Kanpur, Bombay
+  [16:7:0.1] First Quantum and AI university campus | NIELIT, Amaravati (MeitY); 8.5 acres, ₹730.70 crore over 5 years; temporary site Acharya Nagarjuna University, Guntur
+  [16:7:0.2] Central Sanskrit University | B.Tech in AI and data science from 2026-27
+  [16:7:0.3] AICTE | Declared 2025 the "Year of AI"
+  [16:7:0.4] YUVAi | For students of classes 8–12
+  [16:7:0.5] IOAI (AI Olympiad) | 1st Burgas, Bulgaria (Aug 2024); 2nd Beijing (Aug 2025)
+[16:7:1] ~~ Sources: app notes 5:16 sub 5
+
+=== OWN MCQs of 5:16 (70)
+[n5a001d0d364] sub0
+  Which of the following pairs is NOT correctly matched?
+  SAHI – Strategy for AI in Healthcare | BODH – IIT Kanpur and NHA | *MedTech Mitra – MeitY and Google | AI-Kosh – IndiaAI and ICMR
+  x: MedTech Mitra is associated with ICMR-CDSCO, not MeitY and Google.
+[n066d056a2ae] sub0
+  With which company is the Indian AI model Krutrim associated?
+  Sarvam AI | *Ola | BharatGPT ecosystem | Assert AI
+  x: Krutrim is Ola's; OpenHathi is Sarvam AI's, Pratham is Assert AI's and Hanooman belongs to the BharatGPT ecosystem.
+[n84183229f07] sub0
+  When was Bhashini, linked to MeitY and the National Language Translation Mission, launched?
+  *July 2022 | January 2023 | July 2021 | August 2020
+  x: Bhashini was launched in July 2022; it covers 22 scheduled languages and crowdsources through Bhasha Daan.
+[n3c81bb7c2e9] sub0
+  Who developed BharatGPT?
+  MeitY alone under the Bhashini mission | Assert AI with the Government of Telangana | *A consortium of IITs led by IIT Bombay and backed by Reliance Jio | Ola under Bhavish Aggarwal
+  x: BharatGPT is associated with a consortium of IITs led by IIT Bombay and backed by Reliance Jio.
+[fc7891eb9d4f4] sub0
+  Who developed the AI model OpenHathi?
+  Ola | *Sarvam AI | Assert AI | Grene Robotics
+  x: OpenHathi is from Sarvam AI; Krutrim is Ola's model.
+[fffd3712faac4] sub0
+  To which company does the virtual assistant Cortana belong?
+  Apple | Amazon | *Microsoft | OpenAI
+  x: Cortana is Microsoft's; Siri is Apple's and Alexa is Amazon's.
+[fb5f120c953b0] sub0
+  Bhashini supports how many scheduled languages?
+  11 | 18 | 24 | *22
+  x: Bhashini covers the 22 scheduled languages; Hanooman responds in 11 languages.
+[ffd693729596a] sub0
+  Through which of the following are language data contributions to Bhashini crowd-sourced?
+  AI-Kosh | *Bhasha Daan | BODH | YUVAi
+  x: Bhashini crowd-sources data via Bhasha Daan.
+[f075a39a7c4f8] sub0
+  MedTech Mitra is an initiative of which of the following?
+  *ICMR-CDSCO | MeitY-Google | IIT Kanpur-NHA | AIIMS-C-DAC
+  x: MedTech Mitra is ICMR-CDSCO, not MeitY-Google; BODH is IIT Kanpur-NHA.
+[gfc619be691ea] sub0
+  Which company developed ChatGPT, launched on 30 November 2022?
+  Google | *OpenAI | Meta | Microsoft
+  x: ChatGPT, based on a large language model, was developed by OpenAI.
+[gd195986d11c1] sub0
+  Who is the CEO of OpenAI, the maker of ChatGPT?
+  Sundar Pichai | Satya Nadella | *Sam Altman | Elon Musk
+  x: Sam Altman is the CEO of OpenAI.
+[g26474ef086c5] sub0
+  Which company developed the virtual assistant Alexa?
+  Apple | *Amazon | Google | Microsoft
+  x: Alexa is Amazon's virtual assistant; Siri is Apple's and Cortana is Microsoft's.
+[g1c5a7208a71c] sub0
+  Which company developed the virtual assistant Siri?
+  Google | Amazon | *Apple | Microsoft
+  x: Siri belongs to Apple; Alexa is Amazon's and Cortana is Microsoft's.
+[n0b7fef821eb] sub1
+  What does a random forest combine to reduce overfitting?
+  *decision trees | support vector machines | k-means clusters | neural networks
+  x: Random forest is an ensemble of decision trees that reduces overfitting.
+[n4630ba0b3d6] sub1
+  Which of the following correctly describes a Large Language Model (LLM)?
+  *A general-purpose model trained on massive data to perform many language tasks | A system that interprets only facial images | A model that performs only one task after task-specific retraining | A chip designed exclusively for parallel numerical computation
+  x: LLMs are general-purpose models trained on massive datasets and can perform multiple language tasks without task-specific retraining.
+[n4b565f1c71f] sub1
+  What is the name of Google's chip designed for AI?
+  GPU | *TPU | FPGA | CPU
+  x: The TPU is Google's AI chip; the GPU is the parallel workhorse of AI training and the FPGA a field-programmable chip.
+[n0c3ba144f5f] sub1
+  Facial recognition is an application of which of the following?
+  *Computer vision | Recommender systems | Natural Language Processing | Generative AI
+  x: Computer vision interprets images, as in facial recognition; recommender systems suggest content from past behaviour.
+[f33300414e2ce] sub1
+  Consider the following statements about AI concepts:
+1. Deep learning is a subset of machine learning.
+2. Recommender systems suggest content from past behaviour.
+3. An FPGA cannot be re-set after manufacturing.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: Deep learning is a subset of ML and recommenders use past behaviour; an FPGA is re-settable after manufacturing.
+[f3aa2803e1005] sub1
+  Which hardware, with massively parallel processing, is called the workhorse of AI training?
+  FPGA | PLC | RFID tag | *GPU
+  x: The GPU's massively parallel processing makes it the workhorse of AI training.
+[ffcdf9be64a88] sub1
+  Which of the following is a type of machine learning?
+  *Reinforcement learning | Random learning | Explainable learning | Backscatter learning
+  x: Machine learning is of three types: supervised, unsupervised and reinforcement.
+[g1464c764e690] sub1
+  Which branch of AI enables machines to understand and generate human language, as in chatbots and translation?
+  Computer vision | *Natural Language Processing | Recommender systems | Robotics
+  x: Natural Language Processing (NLP) handles human language; computer vision handles images.
+[nd6b6562ebf6] sub2
+  Which of the following describes Narrow or Weak Artificial Intelligence (ANI)?
+  *A system designed to perform one specific task and unable to transfer across domains | A system that learns only through physical interaction with humans | A system capable of human-level reasoning across all domains | A hypothetical system surpassing humans in every way
+  x: Narrow or Weak AI is designed for a single task, such as voice assistance or content recommendation, and cannot transfer its capability across domains.
+[ne0977929b8c] sub2
+  What is a hypothetical form of AI that surpasses humans in every way called?
+  Artificial General Intelligence | Narrow AI | *Artificial Superintelligence | Generative AI
+  x: Artificial Superintelligence is hypothetical and would surpass humans in every way; AGI means human-level reasoning across domains and is not yet achieved.
+[fd53e8c080da4] sub2
+  In which year was the term 'artificial intelligence' coined at the Dartmouth summer workshop?
+  *1956 | 1950 | 1955 | 1960
+  x: The Dartmouth workshop was held in 1956 (proposed in 1955); 1950 is Turing's paper.
+[fc69d56e0d940] sub2
+  Siri and Alexa are examples of which type of AI?
+  General AI | Strong AI | *Narrow AI | Artificial Superintelligence
+  x: Siri and Alexa are narrow AI made for one task; general (strong) AI is not yet achieved.
+[f9ac420c9560e] sub2
+  What was the original name of the Turing test?
+  The thinking game | *The imitation game | The Turing machine | The Dartmouth test
+  x: Turing's 1950 paper 'Computing Machinery and Intelligence' called it the imitation game.
+[g59715c96a66a] sub2
+  Who is known as the father of Artificial Intelligence?
+  Alan Turing | Marvin Minsky | *John McCarthy | Claude Shannon
+  x: John McCarthy coined the term 'artificial intelligence' and is called the father of AI.
+[g6bc0a345680e] sub2
+  In which paper did Alan Turing propose the Turing test in 1950?
+  *Computing Machinery and Intelligence | On Computable Numbers | The Imitation Game Revisited | Can Machines Learn?
+  x: Turing proposed the test in 'Computing Machinery and Intelligence' (1950, journal Mind), which opens with 'Can machines think?'.
+[n7cc02945620] sub3
+  The AI sowing application developed through collaboration between Microsoft and ICRISAT was piloted in which district of Andhra Pradesh?
+  *Kurnool | Annamayya | Chittoor | Guntur
+  x: The Microsoft–ICRISAT AI sowing application was piloted in Kurnool district in 2016 to provide yield-oriented sowing advisories.
+[n0f7ec04598b] sub3
+  The AI4AP Police Project is being piloted in which group of Andhra Pradesh districts?
+  *Chittoor, Guntur and Annamayya | Visakhapatnam, Srikakulam and Prakasam | Kurnool, Nellore and Krishna | Kadapa, Tirupati and East Godavari
+  x: The AI4AP Police Project is being piloted in Chittoor, Guntur and Annamayya for traffic management, crime prediction and investigation.
+[fd8e1b7531f0e] sub3
+  What is SAHI, released in 2026?
+  AI sowing advisory for farmers | AI anti-drone system | AI policing project | *Strategy for AI in Healthcare
+  x: SAHI is the Strategy for AI in Healthcare (2026).
+[fa1f60b418082] sub3
+  Which of the following is NOT a stated use of the AI4AP Police Project?
+  Traffic management | Crime prediction | *Yield-oriented sowing advisories | Investigation
+  x: AI4AP covers traffic management, crime prediction and investigation; sowing advisories are the Microsoft-ICRISAT app.
+[n9c7c4fa46b1] sub4
+  In which year was NITI Aayog's National Strategy for Artificial Intelligence released?
+  2016 | *2018 | 2020 | 2022
+  x: NITI Aayog's National Strategy for AI was released in 2018 and carried the tagline “#AIforAll”.
+[nf157f1f8b47] sub4
+  Which of the following is NOT one of the five focus sectors named in NITI Aayog's National Strategy for AI?
+  Agriculture | Healthcare | *Defence manufacturing | Smart cities and infrastructure
+  x: The five focus sectors are healthcare, agriculture, education, smart cities and infrastructure, and smart mobility and transport. Defence manufacturing is not included in this list.
+[n6f1c93c686c] sub4
+  What is the outlay over 5 years of the IndiaAI Mission, approved in March 2024 under MeitY?
+  ₹6,003.65 crore | ₹7,500 crore | *₹10,371.92 crore | ₹12,500 crore
+  x: The IndiaAI Mission was approved in March 2024 with ₹10,371.92 crore over 5 years, covering compute, start-ups, datasets and foundation models.
+[nc29a6ccf58c] sub4
+  Which pillar of the IndiaAI Mission provides public-sector datasets?
+  Innovation Centre | Compute Capacity | *Datasets Platform | FutureSkills
+  x: The Datasets Platform provides public-sector datasets; indigenous foundation models are the Innovation Centre's work.
+[feb8f45b81421] sub4
+  What is the tagline of NITI Aayog's National Strategy for Artificial Intelligence (2018)?
+  *#AIforAll | #IndiaAI | #DigitalIndia | #AIforGood
+  x: NITI Aayog's 2018 strategy carries the tagline #AIforAll.
+[f18c3a665fff3] sub4
+  What is the proof-of-concept capacity of the AIRAWAT AI compute platform?
+  790 AI petaflops | *200 AI petaflops | 75 AI petaflops | 500 AI petaflops
+  x: AIRAWAT's PoC is 200 AI petaflops, scalable to 790.
+[f05293b98a00a] sub4
+  The IndiaAI Mission plans sovereign compute of more than how many GPUs?
+  1,000 GPUs | 5,000 GPUs | *10,000 GPUs | 25,000 GPUs
+  x: The IndiaAI Mission targets 10,000+ GPUs of sovereign compute.
+[n1b9703147cc] sub4
+  Consider the following statements about MATH:
+1. It is an AI/ML hub set up by DST and the Telangana government.
+2. It was set up with T-Hub.
+3. Its stated aim is modernising higher education.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: MATH is an AI/ML hub of DST and the Telangana government with T-Hub; modernising higher education is not its stated aim (APPSC 2023 key).
+[g98b7c1772931] sub4
+  What rank did AIRAWAT get in the Top500 list of supercomputers at ISC 2023?
+  25th | 50th | *75th | 100th
+  x: AIRAWAT, India's common AI compute platform, was ranked 75th in the Top500 at ISC 2023 in Germany.
+[g0fa61c024507] sub4
+  Which pillar of the IndiaAI Mission builds indigenous foundation models?
+  Datasets Platform | *Innovation Centre | Compute Capacity | Safe & Trusted AI
+  x: The Innovation Centre pillar builds indigenous foundation models; the Datasets Platform holds public-sector datasets.
+[n53c14f34ede] sub5
+  In which year did India become a founding member of the Global Partnership on Artificial Intelligence (GPAI)?
+  2018 | *2020 | 2023 | 2025
+  x: India joined GPAI as a founding member on 15 June 2020.
+[nb5ff97c4c2d] sub5
+  When did the EU AI Act, the world's first comprehensive AI law, enter into force?
+  August 2023 | *August 2024 | December 2024 | January 2025
+  x: The EU AI Act entered into force in August 2024 and uses four risk categories: unacceptable, high, limited and minimal.
+[n552d67b574b] sub5
+  Where was the REAIM summit of 2023 held?
+  Seoul | *The Hague | Paris | Bletchley Park
+  x: REAIM 2023 was held at The Hague; the AI Seoul Summit 2024 was in Seoul and the AI Action Summit 2025 in Paris.
+[f1dd7d023a51b] sub5
+  Where was the AI Safety Summit of 2023 held?
+  The Hague | Seoul | Paris | *Bletchley Park
+  x: The 2023 AI Safety Summit was at Bletchley Park, UK.
+[f755cf004765a] sub5
+  In which city was the India AI Impact Summit of February 2026 held?
+  *New Delhi | Hyderabad | Bengaluru | Mumbai
+  x: It was held at Bharat Mandapam, New Delhi, producing the New Delhi Declaration on AI Impact.
+[f44e3c33c69b1] sub5
+  Which of the following is NOT a risk tier of the EU AI Act?
+  Unacceptable | High | *Moderate | Minimal
+  x: The four tiers are unacceptable, high, limited and minimal; there is no 'moderate' tier.
+[g3e705919fd96] sub5
+  What is the full form of GPAI, of which India is a founding member?
+  Global Programme for AI | Group of Partners for Artificial Intelligence | Global Platform for Artificial Intelligence | *Global Partnership on Artificial Intelligence
+  x: GPAI is the Global Partnership on Artificial Intelligence; India joined as a founding member on 15 June 2020.
+[g845f3bb683b1] sub5
+  What is the full form of REAIM, the summit held at The Hague in 2023?
+  *Responsible AI in the Military Domain | Regulation of Emerging AI in Military | Research in Ethical AI and Machines | Responsible AI for Economic and Industrial Management
+  x: REAIM stands for Responsible AI in the Military Domain; its 2023 summit was held at The Hague.
+[g82afc955cba1] sub5
+  Where was the AI Action Summit, co-chaired by India and France, held in February 2025?
+  Seoul | Bletchley Park | *Paris | New Delhi
+  x: The AI Action Summit (10-11 February 2025) was held at the Grand Palais, Paris, co-chaired by India and France.
+[gd86eb9aaa4cb] sub5
+  Which country hosted the AI summit of 2024, held after the AI Safety Summit at Bletchley Park?
+  United Kingdom | *South Korea | France | Netherlands
+  x: The AI Seoul Summit of 2024 was held in South Korea.
+[g255e51c2b9a6] sub5
+  Which declaration was adopted at the India AI Impact Summit held in New Delhi in February 2026?
+  *New Delhi Declaration on AI Impact | Bletchley Declaration | Seoul Declaration | Paris Declaration on AI Action
+  x: The India AI Impact Summit (19-20 February 2026, Bharat Mandapam) adopted the New Delhi Declaration on AI Impact.
+[n722a84cf69e] sub6
+  Health-related AI trained mainly on urban and Western data may give unreliable results in India. Which of the following may it fail to account for?
+  *India's social, genetic and demographic diversity | the absence of neural networks in India | the non-availability of all digital records worldwide | the prohibition of machine learning in healthcare
+  x: Training data dominated by urban and Western populations may not represent India's diverse health conditions and populations.
+[na2d90f0ca43] sub6
+  About how much is India's gross expenditure on research and development?
+  0.064–0.07% of GDP | *0.64–0.70% of GDP | 64–70% of GDP | 6.4–7.0% of GDP
+  x: India’s GERD is approximately 0.64–0.70% of GDP.
+[neac6400857a] sub6
+  Along with diffusion models, which technology is commonly used to generate deepfakes?
+  Blockchain | *Generative Adversarial Networks | RFID | SCADA
+  x: Deepfakes can be produced using GANs, diffusion models and large neural networks.
+[n8a4109fc918] sub6
+  Which type of work can be affected by job displacement due to artificial intelligence?
+  Only intellectual work | *Both manual and intellectual work | Only manual work | Neither, since AI only processes data
+  x: AI may cause job displacement in both manual and intellectual forms of work.
+[n9c3fdd4b04a] sub6
+  In AI ethics, what does 'explainability' refer to?
+  *Difficulty in justifying black-box decisions | Bias from non-representative training data | Content produced only in video form | Accuracy that is unaffected by lighting and pose
+  x: Explainability concerns the difficulty of justifying black-box decisions; bias arises from non-representative training data.
+[n922e656ca37] sub6
+  What does the Economic Survey 2025–26 say India should preferably pursue in AI?
+  *small, application-specific models and a state-built AI-OS modelled on UPI and Aadhaar | only very large general-purpose models trained abroad | complete withdrawal of the state from AI infrastructure | exclusive dependence on imported AI platforms
+  x: The Economic Survey 2025–26 favours small, application-specific models and a state-built AI-OS modelled on UPI and Aadhaar.
+[n295ffe419a1] sub6
+  In which context did the Supreme Court seek the Centre's response on the absence of a legal framework for high-risk AI?
+  university admissions only | military procurement only | international trade negotiations | *welfare delivery
+  x: The issue concerned the lack of a statutory framework for high-risk AI used in welfare delivery.
+[f6b216c90244a] sub6
+  Identification without consent, mass surveillance and predictive policing are concerns mainly linked to which technology?
+  Random forests | *Facial recognition | Recommender systems | Text-to-speech
+  x: Facial recognition raises privacy concerns: identification without consent, mass surveillance and predictive policing.
+[fa3327f8cb59c] sub6
+  Why are deep AI models often called 'black boxes'?
+  They run only on GPUs | They cannot learn from data | *Their decisions are hard to explain | They need no training data
+  x: The explainability concern is that deep models' decisions are hard to justify.
+[n6d04f9aa5be] sub7
+  As what did the All India Council for Technical Education declare 2025?
+  Year of Quantum Computing | Year of Digital Governance | *Year of Artificial Intelligence | Year of Cyber Security
+  x: AICTE declared 2025 the ‘Year of AI’.
+[nc912c410ea0] sub7
+  Which institution became the first in India to offer a full B.Tech programme in Artificial Intelligence, in 2019?
+  IIT Bombay | IIT Madras | *IIT Hyderabad | Central Sanskrit University
+  x: IIT Hyderabad was the first in India to offer a full B.Tech in AI (2019). IIT Bombay leads the BharatGPT consortium, IIT Madras developed SHAKTI and HomoSEP, and Central Sanskrit University starts a B.Tech in AI and data science only from 2026-27.
+[n1202601d000] sub7
+  Which of the following is NOT correct about the NIELIT campus at Amaravati?
+  It is billed as India's first dedicated Quantum and AI university campus | It is a deemed university under MeitY | Its classes begin in September 2026 | *Its temporary site is at IIT Hyderabad
+  x: The temporary site is Acharya Nagarjuna University, Guntur, not IIT Hyderabad.
+[nc463f5aad66] sub7
+  For students of which classes is the YUVAi initiative meant?
+  *Classes 8 to 12 | Classes 6 to 10 | Classes 1 to 5 | Undergraduate courses
+  x: YUVAi is intended for students of classes 8 to 12.
+[fd0d34d97b5a7] sub7
+  From which academic year will Central Sanskrit University offer a B.Tech in AI and data science?
+  2025-26 | 2019-20 | 2027-28 | *2026-27
+  x: It becomes the first Sanskrit university with engineering, offering B.Tech in AI and data science from 2026-27.
+[f6c8d03569c58] sub7
+  What is the outlay over 5 years of the NIELIT Quantum and AI campus at Amaravati?
+  *₹730.70 crore | ₹10,371.92 crore | ₹6,003.65 crore | ₹370.70 crore
+  x: The 8.5-acre NIELIT Amaravati campus has ₹730.70 crore over 5 years.
+[g34eb3041dfed] sub7
+  Where was the first International Olympiad in Artificial Intelligence (IOAI) held in August 2024?
+  Beijing, China | *Burgas, Bulgaria | Astana, Kazakhstan | Paris, France
+  x: The first IOAI was held in Burgas, Bulgaria, in August 2024, on Bulgaria's initiative.
+[gae4af7f2437c] sub7
+  Which city hosted the second International Olympiad in Artificial Intelligence (IOAI) in 2025?
+  Burgas | Seoul | *Beijing | New Delhi
+  x: The second IOAI was held in Beijing, China, in August 2025, after the first in Burgas, Bulgaria (2024).
+
+=== NOTES 5:17 | Emerging Technology Frontiers – Artificial Intelligence, Quantum Computing, Robotics, 3D Printing, Advanced Materials
+## SUB 0 | Quantum Computing and Supercomputers
+[17:0:0] TABLE head: Term | Meaning
+  [17:0:0.0] Qubit | Basic unit of quantum information – context of quantum computing (UPSC 2022)
+  [17:0:0.1] Superposition | A quantum system can be in multiple states at once until measured (qubit = 0 and 1)
+  [17:0:0.2] Entanglement | Links qubits' states regardless of distance
+  [17:0:0.3] Decoherence | Loss of quantum state to the environment – main barrier
+  [17:0:0.4] Shor's algorithm / Q-Day | Can break public-key cryptography; Q-Day = when it becomes able to
+[17:0:1] - **Applications:** **cryptography**, **drug discovery**, **financial modelling**, logistics, materials – **not desktop publishing**.
+[17:0:2] TABLE head: Machine | Fact
+  [17:0:2.0] Micius (QUESS), China, 16 Aug 2016 | World's first quantum communication satellite
+  [17:0:2.1] Google Sycamore (2019) | Quantum supremacy – a set task in ~200 s
+  [17:0:2.2] Jiuzhang (China, 2020) | Photonic supremacy machine
+  [17:0:2.3] Fugaku (Japan) | World's fastest supercomputer 2020-21 (exam key for "least time to calculate")
+  [17:0:2.4] Pratyush (IITM Pune, 2018) | India's fastest supercomputer as of March 2018
+[17:0:3] - **National Quantum Mission:** approved **19 Apr 2023**; **₹6,003.65 crore** (2023-24 to 2030-31); **50–1,000 physical qubits** in 8 years; **four thematic hubs** – computing, communication, sensing & metrology, materials & devices (not quantum biology).
+[17:0:4] - **2025** = UN **International Year of Quantum Science and Technology** (centenary of quantum mechanics); **World Quantum Day = 14 April**.
+[17:0:5] - 2026 items: Raman Research Institute – a timed local "quantum flip" delays **entanglement sudden death**; **Microsoft Majorana 2** – qubit stability 20–60 s.
+[17:0:6] ~~ Sources: PMF S&T Part 7 p.59-69; app notes 5:17 sub 5; general knowledge, not checked (Micius, Pratyush, Sycamore)
+## SUB 1 | AI Platforms, Labs and Indian Firsts
+[17:1:0] TABLE head: Platform | Developer / note
+  [17:1:0.0] Pratham | Assert AI – world's first no-code computer-vision platform (APPSC G1 2024)
+  [17:1:0.1] iOncology.ai | AIIMS Delhi with C-DAC – early detection of breast and ovarian cancer (not CAIR, a DRDO lab)
+  [17:1:0.2] Indrajaal | Grene Robotics, Hyderabad – India's first AI-powered anti-drone system (Sept 2023)
+  [17:1:0.3] Project Vaani | IISc + ARTPARK + Google – speech data from across India for an AI language model
+  [17:1:0.4] BharatGen | Govt – India's first multimodal LLM project in Indian languages
+  [17:1:0.5] BharatGPT | IIT consortium led by IIT Bombay, backed by Reliance Jio
+  [17:1:0.6] Bhashini | MeitY – AI translation platform (July 2022)
+  [17:1:0.7] AP farm advisory | Microsoft + ICRISAT AI sowing app, Kurnool (2016)
+[17:1:1] # Labs and hubs
+[17:1:2] TABLE head: Lab / hub | Place / body
+  [17:1:2.0] CAIR | DRDO lab for AI and robotics, Bengaluru
+  [17:1:2.1] DYSL-AI | DRDO Young Scientist Lab for AI – Bengaluru
+  [17:1:2.2] DYSL-Smart Materials | DRDO – Hyderabad
+  [17:1:2.3] MATH | AI/ML hub – DST + Telangana govt with T-Hub
+  [17:1:2.4] 3 AI Centres of Excellence | Healthcare, Agriculture, Sustainable Cities (not Marine Archaeology)
+[17:1:3] > Repeats: Oncology.ai ×2, Pratham ×2, Indrajaal ×2 (APPSC G1 2024 and its re-sets).
+[17:1:4] ~~ Sources: app notes 5:17 sub 2; Praveen CA360 Aug 2026 magazine p.71 (Indrajaal, Hyderabad); general knowledge, not checked (Vaani, Oncology.ai partner)
+## SUB 2 | Advanced Materials and Nanotechnology
+[17:2:0] - **Bulletproof material:** **Kevlar** – an **aramid** (para-aromatic **polyamide**) fibre; lightweight bulletproof **helmets and jackets** (not nylon, rayon, Dacron, Terylene, Bakelite, Teflon).
+[17:2:1] - **Bhabha Kavach** (International Police Expo, July 2019): **India's lightest bulletproof jacket** (BARC technology).
+[17:2:2] - **Titanium** = "**metal of the future**" – light, strong, corrosion-resistant (aerospace, implants).
+[17:2:3] TABLE head: Material / innovation | Fact / developer
+  [17:2:3.0] Graphene | One-atom-thick carbon sheet; Nobel 2010
+  [17:2:3.1] Fullerene C60 | Buckyball
+  [17:2:3.2] Carbon-nanotube transistors | IISc Bengaluru
+  [17:2:3.3] Graphene flexible electronics | C-DAC
+  [17:2:3.4] Perovskite nanocrystal displays; conductive nanofibres | IIT Delhi
+  [17:2:3.5] CNT-reinforced polymers for aerospace | DRDO
+  [17:2:3.6] Biodegradable natural-polymer nanoparticles for colorectal cancer | IIT Mandi
+[17:2:4] ~~ Sources: PMF Lens Jan 2026 (01) p.44 (Kevlar); app notes 5:17 sub 6; general knowledge, not checked (Bhabha Kavach, titanium)
+[17:2:5] - **Epoxy paint/coating** = chemical-resistant concrete coating, used where **chemical exposure is high** (acrylic latex paint is not chemical-resistant).
+## SUB 3 | Turing Test and AI Milestones
+[17:3:0] - **Turing test:** Alan Turing (1950, *Computing Machinery and Intelligence*) – checks whether a machine's replies can be told apart from a human's; original name **"the Imitation Game"** (not LISP or the Halting Problem).
+[17:3:1] - **Term "AI":** **John McCarthy**, Dartmouth **1956**. **Colossus** (1943–45): Tommy Flowers.
+[17:3:2] - **Robotics** = technology most closely associated with "artificial intelligence" (exam key).
+[17:3:3] TABLE head: Emerging technology | Person
+  [17:3:3.0] Artificial intelligence | Alan Turing
+  [17:3:3.1] OpenAI | Sam Altman
+  [17:3:3.2] Internet of Things | Kevin Ashton
+  [17:3:3.3] Augmented reality | Thomas P. Caudell
+[17:3:4] ~~ Sources: PMF S&T Part 1 p.29-30; app notes 5:17 sub 0
+## SUB 4 | 3D Printing and Bio-printing
+[17:4:0] - **Additive manufacturing:** object built **layer by layer** from a **CAD** model; **4D printing** – printed object **changes shape over time**.
+[17:4:1] - **3D-printed cornea:** **LV Prasad Eye Institute + IIT Hyderabad + CCMB** (Hyderabad).
+[17:4:2] - **3D-printed human liver tissue:** **Pandorum Technologies**, Bengaluru – so "cornea and liver tissue respectively" = **LVPEI and Pandorum**.
+[17:4:3] - India's first 3D-printed post office: **Bengaluru (2023)**.
+[17:4:4] ~~ Sources: app notes 5:17 sub 9
+## SUB 5 | Robotics and Drones
+[17:5:0] TABLE head: Robot / drone | Developer | Purpose
+  [17:5:0.0] Optimus | Tesla – prototype humanoid shown at AI Day (Sept–Oct 2022) | General-purpose humanoid
+  [17:5:0.1] Bhim | IIT Kharagpur (2017) | India's first indigenous "superpower" drone; Wi-Fi zone of ~1 km for disaster areas
+  [17:5:0.2] Bandicoot | Genrobotics, Kerala | Sewer/manhole cleaning
+  [17:5:0.3] HomoSEP | IIT Madras | Septic-tank cleaning
+  [17:5:0.4] Vyommitra | ISRO | Half-humanoid for uncrewed Gaganyaan
+  [17:5:0.5] Manav | A-SET, Delhi | India's first 3D-printed humanoid
+  [17:5:0.6] Daksh | DRDO | Defuses IEDs
+[17:5:1] - Standards: **ISO TC 299** (robotics); ISO 10218 industrial-robot safety. **Drone swarm** = many drones guided by software.
+[17:5:2] ~~ Sources: collegedekho.com 21 Mar 2017 (Bhim, IIT Kharagpur); app notes 5:17 sub 7; general knowledge, not checked (Optimus)
+## SUB 6 | AI Strategy and Governance – Recap
+[17:6:0] - **NITI Aayog #AIforAll** focus sectors exclude **defence manufacturing**. **IndiaAI Mission** (MeitY, March 2024): **₹10,371.92 crore**; **Innovation Centre** builds foundation models; **AIRAWAT 75th** in Top500 (2023).
+[17:6:1] - **NIELIT Quantum and AI campus:** **Amaravati**, ₹730.70 crore.
+[17:6:2] TABLE head: Summit | Year | Host
+  [17:6:2.0] AI Safety Summit | 2023 | UK (Bletchley Park)
+  [17:6:2.1] REAIM (Responsible AI in the military domain) | 2023 | Netherlands (The Hague)
+  [17:6:2.2] AI Seoul Summit | 2024 | South Korea
+  [17:6:2.3] AI Action Summit | Feb 2025 | France (Paris), co-chaired by India
+  [17:6:2.4] India AI Impact Summit | 2026 | India
+[17:6:3] - **EU AI Act** = world's first comprehensive AI law. **Deepfakes** use **generative adversarial networks**. **Generative AI** creates text, images, music; **deep learning** = many-layered neural networks; **FPGAs** are reprogrammable.
+[17:6:4] ~~ Sources: app notes 5:17 sub 1, 3, 4
+## SUB 7 | Indigenous Microprocessors
+[17:7:0] TABLE head: Chip / programme | Developer
+  [17:7:0.0] SHAKTI | IIT Madras (RISC-V)
+  [17:7:0.1] VEGA | C-DAC – 32/64-bit RISC-V
+  [17:7:0.2] DHRUV64 | C-DAC – 64-bit RISC-V
+  [17:7:0.3] AJIT | IIT Bombay
+  [17:7:0.4] Vikram 3201 | ISRO's Semi-Conductor Laboratory (SCL), Chandigarh – 32-bit space-grade
+  [17:7:0.5] DIR-V | MeitY, 2022; main lines SHAKTI and VEGA
+[17:7:1] ~~ Sources: app notes 5:17 sub 8
+
+=== OWN MCQs of 5:17 (72)
+[nd2198e79af8] sub0
+  In which year did Google's Sycamore machine show quantum supremacy?
+  2016 | *2019 | 2020 | 2023
+  x: Sycamore achieved quantum supremacy in 2019; China's Micius satellite dates to 2016 and photonic Jiuzhang to 2020.
+[n866c723e718] sub0
+  The term ‘Q-Day’ refers to the point at which:
+  *Shor’s algorithm becomes capable of breaking public-key cryptography | all classical computers are withdrawn from service | quantum computers are first sold commercially | the first quantum satellite is launched
+  x: Q-Day denotes the future point when quantum computing becomes capable of breaking widely used public-key cryptography.
+[ndd36d042e67] sub0
+  Which institute showed that a well-timed local quantum flip can delay or prevent 'entanglement sudden death'?
+  IISc Bengaluru | *Raman Research Institute | IIT Madras | TIFR
+  x: The Raman Research Institute showed that a well-timed local quantum flip could delay or prevent the abrupt total loss of entanglement.
+[ndd2027e7722] sub0
+  In quantum computing, what is the loss of quantum state through the environment, considered the main barrier, called?
+  Superposition | Entanglement | Tunnelling | *Decoherence
+  x: Decoherence is the main barrier; superposition lets a qubit be 0, 1 or in between, and entanglement links qubits regardless of distance.
+[nfcf43e9912a] sub0
+  Consider the following statements about quantum science observances:
+1. The UN declared 2024 the International Year of Quantum Science and Technology.
+2. World Quantum Day is observed on 14 April.
+Which of the statements given above is/are correct?
+  1 only | *2 only | Both 1 and 2 | Neither 1 nor 2
+  x: 2025, the centenary of quantum mechanics, is the International Year of Quantum Science and Technology, so 1 is wrong; World Quantum Day is 14 April.
+[n44be08a5af0] sub0
+  Which of the following was ranked the world's fastest supercomputer in 2020-21?
+  PARAM Siddhi | *Fugaku | Sycamore | Summit
+  x: Fugaku of Japan was identified as the fastest among the listed systems.
+[f82048b6cfb26] sub0
+  Which property lets a qubit be 0, 1 or both at once?
+  Entanglement | Decoherence | *Superposition | Backscatter
+  x: Superposition lets a qubit be 0, 1 or both; entanglement links qubits regardless of distance.
+[ff0cf56c368ba] sub0
+  Which is China's photonic quantum supremacy machine of 2020?
+  Micius | Sycamore | Fugaku | *Jiuzhang
+  x: Jiuzhang is China's photonic supremacy machine; Micius is a satellite and Sycamore is Google's.
+[f989c85cc6b08] sub0
+  Consider the following statements about the National Quantum Mission:
+1. It was approved on 19 April 2023.
+2. It targets 50-1,000 physical qubits in 8 years.
+3. It has five thematic hubs.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: The mission, approved on 19 April 2023, targets 50-1,000 qubits in 8 years; it has four thematic hubs, not five.
+[fa99206f26d3e] sub0
+  What can Shor's algorithm do?
+  *Break public-key cryptography | Prevent entanglement sudden death | Stop decoherence | Create quantum satellites
+  x: Shor's algorithm can break public-key cryptography, which is why Q-Day is feared.
+[g7b6a5c544c0d] sub0
+  With which technology is the term 'Q-Day' associated?
+  Artificial Intelligence | 3D printing | *Quantum computing | Robotics
+  x: Q-Day is the point when quantum computers running Shor's algorithm can break public-key cryptography.
+[ga513d9e9dc87] sub0
+  Which was the world's first quantum communication satellite?
+  Jiuzhang | *Micius | Sycamore | Fugaku
+  x: China's Micius (QUESS), launched on 16 August 2016, was the world's first quantum communication satellite.
+[gada35b81dab1] sub0
+  Which property links qubits regardless of the distance between them?
+  Superposition | Decoherence | *Entanglement | Tunnelling
+  x: Entanglement links qubits so they share a state at any distance; superposition lets a qubit be 0 and 1 at once.
+[g47a36c0a7d6f] sub0
+  What is the outlay of the National Quantum Mission approved in April 2023?
+  *₹6,003.65 crore | ₹10,371.92 crore | ₹730.70 crore | ₹76,000 crore
+  x: The National Quantum Mission (DST, 19 April 2023) has ₹6,003.65 crore for 2023-24 to 2030-31.
+[gcda7819fa80e] sub0
+  Which of the following is NOT a thematic hub of the National Quantum Mission?
+  Quantum computing | Quantum communication | Quantum sensing and metrology | *Quantum biology
+  x: The four hubs are quantum computing, quantum communication, quantum sensing and metrology, and quantum materials and devices.
+[g7d773c742fb7] sub0
+  Which company's Majorana 2 raised qubit stability to 20-60 seconds in 2026?
+  Google | IBM | *Microsoft | Intel
+  x: Microsoft's Majorana 2 raised qubit stability to 20-60 seconds in 2026.
+[nc17df2003fd] sub1
+  Who developed Indrajaal, an AI-powered autonomous anti-drone system?
+  ICRISAT, Kurnool | IIT Kanpur, New Delhi | *Grene Robotics, Hyderabad | T-Hub, Bengaluru
+  x: Indrajaal is an AI-powered autonomous anti-drone system developed by Grene Robotics of Hyderabad.
+[nf68e9d05cbc] sub1
+  Which of the following pairs is correctly matched?
+  DYSL-AI — MeitY language translation platform | *CAIR — DRDO laboratory for AI and robotics in Bengaluru | Bhashini — DRDO Young Scientist Laboratory | AIRAWAT — ISRO humanoid robot
+  x: CAIR is a DRDO laboratory dealing with AI and robotics and is located in Bengaluru. DYSL-AI is the DRDO Young Scientist Lab associated with AI.
+[n63551d14e79] sub1
+  Where is DRDO's DYSL-Smart Materials laboratory located?
+  *Hyderabad | Pune | Chennai | Bengaluru
+  x: DYSL-Smart Materials is in Hyderabad, not Bengaluru.
+[n48e0791e20a] sub1
+  Which of the following is NOT one of the three Artificial Intelligence Centres of Excellence identified in India?
+  Healthcare | *Marine Archaeology | Agriculture | Sustainable Cities
+  x: The three Centres of Excellence concern Healthcare, Agriculture and Sustainable Cities. Marine Archaeology is not included in the stated set.
+[f354e19333d94] sub1
+  What is BharatGen?
+  *India's first multimodal LLM project in Indian languages | India's first AI-powered anti-drone system | The world's first no-code computer-vision platform | An AI tool for early detection of cancer
+  x: BharatGen is the government's first multimodal LLM project in Indian languages.
+[fc1268234dc93] sub1
+  Where is the DRDO Young Scientist Lab for AI (DYSL-AI) located?
+  Hyderabad | *Bengaluru | Chennai | Pune
+  x: DYSL-AI is in Bengaluru; DYSL-Smart Materials is in Hyderabad.
+[f4f2e40ec2cea] sub1
+  Where is CAIR, the DRDO laboratory for AI and robotics, located?
+  Hyderabad | New Delhi | *Bengaluru | Chandigarh
+  x: CAIR is DRDO's AI and robotics lab in Bengaluru.
+[g0c85749a13ba] sub1
+  Which AI platform was launched by AIIMS for early detection of breast and ovarian cancer?
+  Pratham | Indrajaal | *Oncology.ai | BharatGen
+  x: Oncology.ai is an AI platform from AIIMS for early detection of breast and ovarian cancer.
+[g4076331b6347] sub1
+  Which company developed Indrajaal, India's first AI-powered anti-drone system?
+  Assert AI | *Grene Robotics | Genrobotics | Sarvam AI
+  x: Indrajaal was developed by Grene Robotics, Hyderabad; Genrobotics made the Bandicoot robot.
+[gd5ee2c3f9fe4] sub1
+  Which organisations developed the AI sowing app piloted in Kurnool district in 2016?
+  Google and ICAR | *Microsoft and ICRISAT | IBM and NABARD | Infosys and ANGRAU
+  x: Microsoft and ICRISAT built the AI sowing advisory app piloted in Kurnool (2016).
+[g6e65ef20819d] sub1
+  Who developed BharatGPT?
+  *A consortium of IITs led by IIT Bombay, backed by Reliance Jio | Ola | Sarvam AI | Assert AI
+  x: BharatGPT is from an IIT consortium led by IIT Bombay and backed by Reliance Jio.
+[g25dd7e97b565] sub1
+  What is Pratham, launched by Assert AI?
+  *The world's first no-code computer-vision platform | India's first AI-powered anti-drone system | India's first multimodal LLM project | An AI tool for early detection of cancer
+  x: Pratham, by Assert AI, is the world's first no-code computer-vision platform.
+[nb3ca5ee423a] sub2
+  By what name is Fullerene C60 commonly called?
+  Graphene sheet | Kevlar fibre | *Buckyball | Nanotube
+  x: C60 is the buckyball; graphene is a one-atom-thick carbon sheet and Kevlar an aramid fibre.
+[ne2628845a72] sub2
+  Which of the following advanced-materials innovations is wrongly matched with its developer?
+  Biodegradable nanoparticles for colorectal cancer – IIT Mandi | *Perovskite nanocrystal displays and conductive nanofibres – C-DAC | Carbon-nanotube transistors – IISc Bengaluru | Graphene flexible electronics – C-DAC
+  x: Perovskite displays and conductive nanofibres are IIT Delhi's work; C-DAC worked on graphene flexible electronics.
+[f7de719e732bb] sub2
+  In which year was the Nobel Prize linked to graphene, a one-atom-thick sheet of carbon, awarded?
+  2008 | *2010 | 2012 | 2016
+  x: Graphene was recognised with the Nobel Prize in 2010.
+[f4782d0321f4c] sub2
+  Which institute developed biodegradable natural-polymer nanoparticles for colorectal cancer?
+  IIT Delhi | IISc Bengaluru | *IIT Mandi | C-DAC
+  x: IIT Mandi developed them; IIT Delhi works on perovskite displays and IISc on CNT transistors.
+[f64a0480f8c45] sub2
+  Which institute developed carbon-nanotube transistors?
+  IIT Mandi | C-DAC | IIT Guwahati | *IISc Bengaluru
+  x: CNT transistors are from IISc Bengaluru; C-DAC works on graphene flexible electronics.
+[g2ca84b90d93d] sub2
+  To which class of fibres does Kevlar, used in bulletproof vests, belong?
+  Polyester | *Aramid | Cellulose | Polyolefin
+  x: Kevlar is an aramid fibre (para-aromatic polyamide) used in bulletproof vests and light helmets.
+[gab283cdb6f57] sub2
+  Which institute developed perovskite nanocrystal displays and conductive nanofibres?
+  IIT Mandi | IISc Bengaluru | *IIT Delhi | C-DAC
+  x: Perovskite nanocrystal displays and conductive nanofibres came from IIT Delhi; IIT Mandi made the colorectal cancer nanoparticles.
+[gf69936adc277] sub2
+  Which of the following pairs (innovation – developer) is correctly matched?
+  Carbon-nanotube transistors – IIT Mandi | *CNT-reinforced polymers for aerospace – DRDO | Perovskite nanocrystal displays – IISc Bengaluru | Nanoparticles for colorectal cancer – C-DAC
+  x: CNT-reinforced polymers for aerospace are from DRDO; CNT transistors are from IISc, perovskite displays from IIT Delhi and colorectal-cancer nanoparticles from IIT Mandi.
+[nef47e653383] sub3
+  Who coined the term ‘Artificial Intelligence’ and in which year was it coined?
+  *John McCarthy in 1956 | Alan Turing in 1950 | Norbert Wiener in 1948 | Marvin Minsky in 1960
+  x: John McCarthy coined the term ‘Artificial Intelligence’ in 1956 at the Dartmouth conference.
+[n6e69a29b720] sub3
+  In which year did Alan Turing propose the Turing test ('Imitation Game')?
+  1943 | *1950 | 1956 | 1960
+  x: Turing proposed it in 1950 in 'Computing Machinery and Intelligence'; 1956 is the Dartmouth Conference where McCarthy coined 'AI'.
+[f7d986ae12b0b] sub3
+  Who designed the Colossus electronic computers (1943-45) for British code breakers?
+  Alan Turing | *Tommy Flowers | John McCarthy | Charles Babbage
+  x: Tommy Flowers designed Colossus; Turing contributed to it.
+[f7a3f565e1c4c] sub3
+  What does the Turing test check?
+  A quantum computer beats a supercomputer | A robot can walk like a human | *A machine's replies can be told apart from a human's | A chip can be reprogrammed
+  x: The Turing test asks whether a machine's replies can be distinguished from a human's, i.e. whether it can think like a human.
+[g735129306652] sub3
+  With which field is the 'Turing test' associated?
+  Quantum computing | *Artificial Intelligence | Nanotechnology | Biotechnology
+  x: The Turing test checks whether a machine can think like a human, so it belongs to artificial intelligence.
+[fd8e61ea3e91d] sub4
+  Which was the first Indian company to 3D-print human liver tissue?
+  Assert AI | *Pandorum Technologies | Grene Robotics | Genrobotics
+  x: Pandorum Technologies, Bengaluru, first 3D-printed human liver tissue in India.
+[fdb96c946d014] sub4
+  4D printing differs from 3D printing in that the printed object:
+  Is made by subtractive machining | Needs no CAD model | *Changes shape over time | Is built only from metal
+  x: 4D printing adds materials that change shape over time.
+[fccab752d35ad] sub4
+  The 3D-printed cornea was developed by IIT Hyderabad, the LV Prasad Eye Institute and which other institution?
+  AIIMS | C-DAC | IISc Bengaluru | *CCMB
+  x: IIT Hyderabad, LV Prasad Eye Institute and CCMB made the cornea from decellularised corneal matrix and stem cells.
+[gd7f726e55f74] sub4
+  How is an object made in 3D printing?
+  *Layer by layer from a CAD model | By cutting material away from a solid block | By pouring molten metal into moulds | By pressing powder in a die
+  x: 3D printing is additive manufacturing: the object is built layer by layer from a CAD model.
+[g0fb5b25d2994] sub5
+  What is a group of many drones guided by software for surveillance, light shows or strikes called?
+  *Drone swarm | Drone corridor | Digital twin | Cobot
+  x: A drone swarm is many drones guided together by software.
+[f9414d2f7690d] sub5
+  For what purpose is Bandicoot, the robot developed by Genrobotics, Kerala, used?
+  *Cleaning sewers and manholes | Cleaning septic tanks | Defusing IEDs | Robotic surgery
+  x: Bandicoot cleans sewers and manholes to end manual scavenging; HomoSEP cleans septic tanks.
+[ff715aec6f254] sub5
+  Who developed Manav, India's first 3D-printed humanoid?
+  Genrobotics, Kerala | *A-SET, Delhi | ISRO | IIT Madras
+  x: Manav was built by Diwakar Vaish of A-SET, Delhi, not Genrobotics.
+[f53f9a8f15e92] sub5
+  Which of the following pairs (robot – developer) is correctly matched?
+  Daksh – Genrobotics | *Vyommitra – ISRO | HomoSEP – DRDO | SSI Mantra – IIT Madras
+  x: Vyommitra is ISRO's; Daksh is DRDO's, HomoSEP is IIT Madras's and SSI Mantra is SS Innovations'.
+[gcb0dbb9311ff] sub5
+  Which ISO Technical Committee deals with robotics?
+  ISO TC 176 | ISO TC 207 | *ISO TC 299 | ISO TC 211
+  x: ISO TC 299 is the robotics committee; ISO 10218 gives safety norms for industrial robots.
+[g64f1ed7ca9b8] sub5
+  Which DRDO robot is used to handle and defuse IEDs?
+  Bandicoot | *Daksh | Vyommitra | Manav
+  x: Daksh, a DRDO defence robot, handles and defuses IEDs.
+[gdb8876e3f57f] sub5
+  For what purpose is HomoSEP, developed by IIT Madras, used?
+  *Cleaning septic tanks | Defusing IEDs | Robotic surgery | Flying on Gaganyaan
+  x: HomoSEP (IIT Madras) cleans septic tanks; Bandicoot cleans sewers and manholes.
+[n5ec12dd2dc7] sub6
+  Which subset of machine learning uses many-layered neural networks?
+  Expert systems | *Deep learning | Fuzzy logic | Rule-based programming
+  x: Deep learning is the subset of machine learning that uses many-layered neural networks.
+[n578a48156ff] sub6
+  Which chips can be reprogrammed for custom AI acceleration?
+  *FPGAs | CPUs | SSDs | GPUs
+  x: FPGAs are reprogrammable for customised acceleration, while GPUs provide parallel computing for AI training.
+[fa625b6c16cab] sub6
+  What is AI that creates new text, images and music called?
+  Computer vision | Narrow AI | Recommender system | *Generative AI
+  x: Generative AI creates new content such as text, images and music.
+[fc8f373e0f8ab] sub6
+  Which of the following is NOT one of the focus sectors of NITI Aayog's National Strategy for AI (#AIforAll)?
+  Smart mobility and transport | Smart cities and infrastructure | Education | *Defence manufacturing
+  x: The five focus sectors are healthcare, agriculture, education, smart cities and infrastructure, and smart mobility and transport.
+[f45d05949a28f] sub6
+  What is the outlay over 5 years of the IndiaAI Mission (MeitY, March 2024)?
+  ₹6,003.65 crore | ₹730.70 crore | ₹1,037.19 crore | *₹10,371.92 crore
+  x: IndiaAI has ₹10,371.92 crore; ₹6,003.65 crore is the National Quantum Mission.
+[f9c2d08334853] sub6
+  Which IndiaAI pillar builds indigenous foundation models?
+  *Innovation Centre | Datasets Platform | Compute Capacity | Safe & Trusted AI
+  x: The Innovation Centre builds indigenous foundation models; the Datasets Platform holds public datasets.
+[f3b8f507fb88d] sub6
+  What rank did AIRAWAT get in the Top500 list of 2023?
+  57th | *75th | 100th | 25th
+  x: AIRAWAT was ranked 75th in the Top500 in 2023.
+[g3eea282ece26] sub6
+  Where is the NIELIT Quantum and AI campus, with an outlay of ₹730.70 crore, coming up?
+  *Amaravati | Hyderabad | Visakhapatnam | Bengaluru
+  x: The NIELIT Quantum and AI campus is coming up at Amaravati, Andhra Pradesh, on 8.5 acres.
+[fea88e2e68cbf] sub6
+  What did REAIM, the summit held in the Netherlands in 2023, deal with?
+  AI safety of frontier models | AI impact on development | *Responsible AI in the military domain | AI in healthcare
+  x: REAIM is Responsible AI in the Military Domain, held at The Hague in 2023.
+[f9cafa6c9ad68] sub6
+  Along with France, which country co-chaired the AI Action Summit (Paris, February 2025)?
+  United Kingdom | South Korea | Netherlands | *India
+  x: The AI Action Summit was co-chaired by India and France.
+[f93b3785ef771] sub6
+  Which of the following is commonly used to make deepfakes?
+  *Generative adversarial networks | Random forests | Recommender systems | Decision trees
+  x: Deepfakes are made with GANs, diffusion models and large neural networks.
+[f17cf18570287] sub6
+  In which year was the AI Seoul Summit held?
+  2023 | *2024 | 2025 | 2026
+  x: The AI Seoul Summit was in 2024; Bletchley and REAIM were 2023 and Paris 2025.
+[g3394711e3e4a] sub6
+  Which of the following AI summits is correctly matched with its host country?
+  AI Safety Summit (2023) – France | REAIM (2023) – United Kingdom | AI Action Summit (2025) – South Korea | *India AI Impact Summit (2026) – India
+  x: The 2026 India AI Impact Summit was held in New Delhi; Bletchley Park (UK), REAIM (Netherlands) and Paris (France) hosted the others.
+[g2f3610274d22] sub6
+  Which is the world's first comprehensive law on artificial intelligence?
+  *EU AI Act | EU General Data Protection Regulation | UK Online Safety Act | India's DPDP Act
+  x: The EU AI Act, in force from August 2024, is the world's first comprehensive AI law, with four risk tiers.
+[f8d666ea0000a] sub7
+  Who developed the VEGA RISC-V processors?
+  IIT Madras | IIT Bombay | *C-DAC | ISRO SCL
+  x: VEGA and DHRUV64 are C-DAC's; SHAKTI is from IIT Madras.
+[f21aa5be0c676] sub7
+  Who developed the SHAKTI processor?
+  C-DAC | IIT Bombay | ISRO SCL | *IIT Madras
+  x: SHAKTI is IIT Madras's RISC-V processor; AJIT is from IIT Bombay.
+[f16b5c7ff1299] sub7
+  In which year did MeitY launch the Digital India RISC-V (DIR-V) programme?
+  *2022 | 2021 | 2023 | 2019
+  x: DIR-V was launched in 2022; SHAKTI and VEGA are its two main lines.
+[g9bfae72bab4a] sub7
+  Which organisation developed DHRUV64, a 64-bit RISC-V processor?
+  IIT Madras | *C-DAC | IIT Bombay | ISRO's Semi-Conductor Laboratory
+  x: DHRUV64 and VEGA are C-DAC processors; SHAKTI is from IIT Madras.
+[g9e290c75a889] sub7
+  Match the following:
+List-I (Processor)
+A. SHAKTI
+B. AJIT
+C. Vikram 3201
+D. DHRUV64
+List-II (Developer)
+1. ISRO's Semi-Conductor Laboratory, Chandigarh
+2. C-DAC
+3. IIT Madras
+4. IIT Bombay
+Select the correct answer using the code given below:
+  A-4, B-3, C-2, D-1 | A-3, B-1, C-4, D-2 | *A-3, B-4, C-1, D-2 | A-2, B-4, C-1, D-3
+  x: SHAKTI is from IIT Madras, AJIT from IIT Bombay, Vikram 3201 from ISRO SCL Chandigarh and DHRUV64 from C-DAC.
+[g61188000c28c] sub7
+  What are the two main processor lines of MeitY's Digital India RISC-V (DIR-V) programme?
+  *SHAKTI and VEGA | AJIT and Vikram 3201 | DHRUV64 and AJIT | Vikram 3201 and SHAKTI
+  x: DIR-V, launched by MeitY in 2022, has SHAKTI and VEGA as its two main lines.
+
+=== NOTES 5:18 | Big Data, Cloud Computing, Edge Computing and Data Centres
+## SUB 0 | Cloud Computing
+[18:0:0] - **Cloud computing** = hosted computing services (storage, servers, databases, software) over the internet **on demand**, pay-as-you-go.
+[18:0:1] - Features: on-demand self-service, broad network access, **resource pooling** (many users share resources), **elasticity** (resources grow/shrink with demand), measured service.
+[18:0:2] TABLE head: Model | User gets | Example
+  [18:0:2.0] IaaS | Servers, storage, network | Amazon EC2, AWS
+  [18:0:2.1] PaaS (Platform as a Service) | Platform to develop, test, deploy, run apps | Google App Engine
+  [18:0:2.2] SaaS | Ready software over the web; mobile access, customisable | Gmail, Outlook
+[18:0:3] - **Not a separate layer:** "**Hardware as a Service**" (comes under IaaS); **allotment of electromagnetic spectrum** is not a cloud service.
+[18:0:4] - Deployment models: public, private, hybrid, community ("platform cloud" is not one).
+[18:0:5] TABLE head: Storage service | Company
+  [18:0:5.0] SkyDrive (now OneDrive) | Microsoft
+  [18:0:5.1] S3 | Amazon Web Services
+  [18:0:5.2] iCloud / Google Drive / Dropbox | Apple / Google / Dropbox
+[18:0:6] - **MeghRaj (GI Cloud):** Government of India cloud for e-services on **NIC** infrastructure.
+[18:0:7] ~~ Sources: PMF S&T Part 5 p.67, p.69, p.100; PMF S&T Part 7 p.122; app notes 5:18 sub 1
+## SUB 1 | Big Data and Data Analytics
+[18:1:0] - **Big data** = large volume of **high-velocity, complex and variable** data (APPSC key).
+[18:1:1] - Classic **3 Vs: Volume, Velocity, Variety**; **Veracity** and **Value** added later.
+[18:1:2] TABLE head: Term | Meaning
+  [18:1:2.0] Data mining | Finding patterns in large datasets
+  [18:1:2.1] Data warehouse | Cleaned, structured data for analysis
+  [18:1:2.2] Data lake | Raw data in native format
+  [18:1:2.3] Metadata | Data about data
+  [18:1:2.4] R | Language used for statistical computing
+[18:1:3] - **APPSC 2025:** AI, quantum computing and data science improve environmental management by **analysing large datasets** to predict pollution, optimise resources and simulate climate models.
+[18:1:4] - **NDGF Policy (MeitY, 2022):** India Data Management Office + India Datasets Programme. **OGD Platform** (NDSAP **2012**). IndiaAI Datasets Platform = **AI-Kosh**.
+[18:1:5] - India: member of the **UN Committee of Experts on Big Data and Data Science** and its Advisory Board. **ES 2025-26:** UDISE+, AISHE, ABDM surveys + AI for health hotspots.
+[18:1:6] ~~ Sources: PMF S&T Part 5 p.129 (Vs); app notes 5:18 sub 0, 3; general knowledge, not checked (R)
+## SUB 2 | Data Centres
+[18:2:0] - **HyperVault AI Data Centre Ltd:** **TCS + TPG** joint venture (2025) for AI-focused, sovereign data centres.
+[18:2:1] - Capacity: **375 MW (2020) → 1.57 GW (2026) → ~8 GW (2030)**; **Mumbai** largest share (~52%).
+[18:2:2] - **PUE** = total facility energy ÷ IT energy; **closer to 1 = better** (1.1 best). **Uptime Tier IV**: fully fault-tolerant, **~99.995%**.
+[18:2:3] - **Draft Data Centre Policy (Sep 2025):** **20-year** tax holiday (not 10). Data centres use ~**1%** of global electricity.
+[18:2:4] - **Visakhapatnam:** projected biggest hub (~6 GW over 10 years); Vizag–Kapuluppada corridor in **Seismic Zone II**; submarine cables, sea-breeze cooling, nearness to **Southeast Asia** (not the EU); **Google $15 billion, 1 GW AI hub** (Oct 2025); **TCS – HyperVault**.
+[18:2:5] ~~ Sources: app notes 5:18 sub 4; general knowledge, not checked (TCS–TPG)
+## SUB 3 | Edge, Fog, Serverless and Containers
+[18:3:0] TABLE head: Model | Where | Feature
+  [18:3:0.0] Cloud | Distant central data centres | Heavy storage, analytics
+  [18:3:0.1] Fog | Between edge and cloud | Local aggregation
+  [18:3:0.2] Edge | On / near the device | Lowest latency; saves bandwidth
+[18:3:1] - **Virtualisation:** one server runs many VMs, each with its own OS. **Containers** (Docker) are lighter – **share the host OS kernel**.
+[18:3:2] - **Serverless:** provider runs and scales servers, bills per use (AWS Lambda).
+[18:3:3] ~~ Sources: app notes 5:18 sub 2
+
+=== OWN MCQs of 5:18 (47)
+[n985b46ad976] sub0
+  To which company does the cloud storage service S3 belong?
+  Google | *Amazon Web Services | Apple | Dropbox Inc.
+  x: S3 is Amazon Web Services'; Google Drive is Google's, iCloud Apple's and Dropbox belongs to Dropbox Inc.
+[nc73512e04ff] sub0
+  Which of the following pairs (cloud service model – what the user receives) is correctly matched?
+  *IaaS – Servers, storage and network | SaaS – Platform to build and run applications | PaaS – Ready software over the web | SaaS – Servers, storage and network
+  x: IaaS provides infrastructure such as servers, storage and networks; PaaS provides a development platform and SaaS ready software over the web.
+[nbafb756090c] sub0
+  Which one of the following is correctly matched?
+  IaaS — Gmail | *IaaS — Amazon EC2 | PaaS — Outlook | SaaS — Google App Engine
+  x: Amazon EC2 is an example of IaaS. Google App Engine is an example of PaaS, while Outlook and Gmail are examples of SaaS.
+[ndb7dc9c3fd1] sub0
+  MeghRaj, also known as GI Cloud, is associated with which of the following?
+  A private cloud-storage service operated by Apple | A data-mining programme of the World Bank | A satellite-based spectrum allocation system | *Government of India's cloud for hosting e-services on NIC cloud
+  x: MeghRaj or GI Cloud is the Government of India's cloud initiative, hosting e-services on the NIC cloud and promoting interoperability and security standards.
+[n81445d9e624] sub0
+  IaaS and PaaS are two service models of cloud computing. Which is the third?
+  NaaS | HaaS | DaaS | *SaaS
+  x: IaaS, PaaS and SaaS are the three service models; 'Hardware as a Service' is not a separate layer as hardware comes under IaaS.
+[nd7a47cd1116] sub0
+  Which feature of cloud computing lets resources expand or contract according to demand?
+  Ubiquitous network access | Resource pooling | *Elasticity | Multi-tenancy
+  x: Elasticity lets resources scale with demand; resource pooling means shared computing resources.
+[fe02b4e998f6b] sub0
+  Google App Engine is an example of which cloud service model?
+  IaaS | SaaS | DaaS | *PaaS
+  x: Google App Engine is PaaS, a platform to develop, deploy and run apps; Amazon EC2 is IaaS and Gmail is SaaS.
+[f919102605b19] sub0
+  Which of the following is NOT a deployment model of cloud computing?
+  Public cloud | Hybrid cloud | Community cloud | *Platform cloud
+  x: The deployment models are public, private, hybrid and community; 'platform' refers to the PaaS service model, not a deployment model.
+[f117a7fcaf51a] sub0
+  Under which cloud feature do many users share a common set of resources?
+  Elasticity | *Resource pooling | Metered use | On-demand self-service
+  x: Resource pooling means shared resources; elasticity means resources grow or shrink with demand.
+[ge96a873d602b] sub0
+  To which company does the cloud storage service iCloud belong?
+  Google | *Apple | Microsoft | Dropbox Inc.
+  x: iCloud is Apple's; Google Drive is Google's and OneDrive (SkyDrive) is Microsoft's.
+[f0e3e4b5ae0b9] sub0
+  On whose infrastructure does MeghRaj (GI Cloud), the Government of India cloud, run?
+  C-DAC | STPI | MeitY Startup Hub | *NIC
+  x: MeghRaj (GI Cloud) is the GoI cloud on NIC, with interoperability and security standards.
+[n36c99d84f77] sub1
+  Which of the following describes big data?
+  Data generated exclusively by government institutions | *Large volume, high velocity, complex and variable data | Structured data stored only in relational databases | Small volume, low velocity, simple and uniform data
+  x: Big data refers to large volumes of high-velocity, complex and variable data.
+[n7e65b55b571] sub1
+  Which of the following correctly represents the classic three Vs of big data?
+  Velocity, Visibility and Veracity | Volume, Value and Verification | *Volume, Velocity and Variety | Veracity, Value and Virtualisation
+  x: The classic three Vs are Volume, Velocity and Variety. Veracity and Value are later additions to the framework.
+[n2f38dad3f6d] sub1
+  Which of the following is NOT correct?
+  Data mining means finding patterns in large datasets | Metadata is 'data about data', such as author, date and size | A data lake stores raw data in its native format | *A data warehouse stores raw data in its native format
+  x: A data warehouse is a central store of cleaned, structured data; raw native-format data describes a data lake.
+[f43c2c51c9fbf] sub1
+  What is raw data stored in its native format called?
+  Data warehouse | *Data lake | Data mart | Metadata
+  x: A data lake holds raw data in native format; a data warehouse holds cleaned, structured data.
+[f9217593b59f4] sub1
+  What is 'data about data' known as?
+  Data mining | Data lake | *Metadata | Data warehouse
+  x: Metadata is data about data; data mining is finding patterns in large datasets.
+[f5043d20617f9] sub1
+  What is finding patterns in large datasets called?
+  *Data mining | Data warehousing | Data lake | Metadata
+  x: Data mining means finding patterns in large datasets.
+[g78d298f7b052] sub1
+  Which two Vs were added later to the classic three Vs of big data?
+  Velocity and Variety | *Veracity and Value | Volume and Visibility | Virtualisation and Verification
+  x: The classic Vs are Volume, Velocity and Variety; Veracity and Value were added later.
+[n75cf0f6fc62] sub1
+  India is associated with which of the following bodies in the field of big data and data science?
+  UN Security Council Committee on Artificial Intelligence alone | International Monetary Fund Committee on Cloud Storage | *UN Committee of Experts on Big Data and Data Science and its Advisory Board | World Trade Organization Panel on Data Centres
+  x: India is a member of the UN Committee of Experts on Big Data and Data Science and holds a seat on its Advisory Board.
+[n6ea51ae0533] sub1
+  The Economic Survey 2025–26 proposes using surveys through which combination of platforms, along with AI, to identify health hotspots?
+  PUE, Uptime Institute and DPDP | eTaal, NIC and S3 | *UDISE+, AISHE and ABDM | NDGF, NDSAP and AI-Kosh
+  x: The Economic Survey 2025–26 refers to UDISE+, AISHE and ABDM surveys combined with AI to identify health hotspots.
+[nf5391b49773] sub1
+  Who issued the National Data Governance Framework Policy (2022)?
+  MoSPI | DPIIT | NITI Aayog | *MeitY
+  x: MeitY issued the policy, which set up the India Data Management Office and the India Datasets Programme.
+[n0e2947dc4f1] sub1
+  By what other name is the IndiaAI Datasets Platform known?
+  eTaal | *AI-Kosh | MeghRaj | UDISE+
+  x: The IndiaAI Datasets Platform is also referred to as AI-Kosh.
+[n8e69368c85d] sub1
+  How do AI, quantum computing and data science together help environmental governance?
+  Restricting analysis to small, manually entered datasets | Eliminating the need for environmental data collection | Encrypting personal messages only | *Analysing large datasets to predict pollution and support decisions
+  x: Together they analyse large datasets, predict pollution, optimise resource use and support governance decisions.
+[f9c88e904b34a] sub1
+  Along with the India Data Management Office, which programme did the National Data Governance Framework Policy (2022) set up?
+  *India Datasets Programme | MeghRaj Programme | Digital India Land Records Programme | National e-Governance Plan
+  x: The NDGF Policy (MeitY, 2022) set up the India Data Management Office and the India Datasets Programme.
+[f424389f08dc4] sub1
+  Under the NDSAP of which year was the Open Government Data (OGD) Platform India set up?
+  2008 | 2015 | *2012 | 2022
+  x: The OGD Platform India comes under the NDSAP of 2012 and offers over 2.34 lakh dataset APIs.
+[f3872be2bde6d] sub1
+  Consider the following statements about the Economic Survey 2025-26 proposal on health hotspots:
+1. It uses UDISE+, AISHE and ABDM surveys.
+2. It combines these surveys with AI.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Both are correct: the Economic Survey 2025-26 proposes UDISE+, AISHE and ABDM surveys plus AI to find health hotspots.
+[n41d0e1e7d26] sub2
+  Which company's data-centre proposal in the Visakhapatnam region is called HyperVault?
+  Google | Reliance | *TCS | CtrlS
+  x: HyperVault is TCS's proposal; Google, Reliance, CtrlS and GMR also have data-centre proposals in the region.
+[n32fff19092f] sub2
+  Which of the following is NOT a proposal of the draft National Data Centre Policy?
+  GST input credit on capital assets | *A 10-year tax holiday for developers meeting targets | Land near industrial corridors and renewable energy | Permanent Establishment status for foreign firms of at least 100 MW
+  x: The draft policy proposes a 20-year, not 10-year, tax holiday; the other three are its proposals.
+[n20625797122] sub2
+  India's data-centre capacity increased from 375 MW in 2020 to approximately what level in 2026, with an estimate of about 8 GW by 2030?
+  *1.57 GW | 15.7 GW | 0.157 GW | 157 GW
+  x: India's data-centre capacity rose from 375 MW in 2020 to 1.57 GW in 2026 and is estimated at about 8 GW by 2030.
+[ncb2ec3ea67a] sub2
+  Which city holds the largest share of India's data-centre capacity?
+  Bengaluru | Delhi NCR | Chennai | *Mumbai
+  x: Mumbai holds 52% of India's data-centre capacity, followed by Chennai, Delhi NCR and Bengaluru.
+[na2f87185b32] sub2
+  How is Power Usage Effectiveness (PUE) calculated?
+  Energy used by IT equipment divided by total facility energy | Total water consumption divided by total electricity consumption | IT equipment capacity divided by data-centre floor area | *Total facility energy divided by energy used by IT equipment
+  x: PUE equals total facility energy divided by the energy used by IT equipment. A value closer to 1 indicates better efficiency.
+[nd794320d249] sub2
+  Which one of the following correctly describes Tier IV data centres under the Uptime Institute classification?
+  They are basic facilities with no redundancy. | They are temporary facilities used only for data migration. | They operate without backup power systems. | *They are fully fault-tolerant and have about 99.995% availability.
+  x: Tier I is basic, whereas Tier IV is fully fault-tolerant and is associated with approximately 99.995% availability.
+[n8e4c9f62db7] sub2
+  The Vizag–Kapuluppada data-centre corridor lies in which seismic zone?
+  Seismic Zone IV | Seismic Zone III | Seismic Zone V | *Seismic Zone II
+  x: Location in Seismic Zone II is one of the corridor's advantages, along with a submarine cable landing station, sea-breeze cooling and nearness to Southeast Asia.
+[n51bad19b921] sub2
+  Which city is projected to become India’s biggest data-centre hub, with an estimated capacity of about 6 GW over ten years?
+  *Visakhapatnam | Hyderabad | Vijayawada | Bengaluru
+  x: Visakhapatnam is projected to become India’s biggest data-centre hub, with about 6 GW of capacity over ten years.
+[f76ecdb1f3073] sub2
+  How long a tax holiday does the draft Data Centre Policy (September 2025) propose?
+  10 years | 15 years | *20 years | 25 years
+  x: The draft policy proposes a 20-year tax holiday, not 10 years.
+[f2c56d467e19a] sub2
+  Which value of Power Usage Effectiveness (PUE) shows the most efficient data centre?
+  *1.1 | 1.5 | 2.0 | 2.5
+  x: PUE is total facility energy divided by IT energy; the closer to 1, the better.
+[f6b1b08b10a71] sub2
+  Data centres use about what share of global electricity?
+  *1% | 5% | 10% | 15%
+  x: Data centres use about 1% of global electricity, and their cooling needs much water.
+[fe495ede35d0a] sub2
+  Which company announced a $15 billion, 1 GW AI hub in Visakhapatnam in October 2025?
+  Microsoft | Amazon | Meta | *Google
+  x: Google announced the $15 billion, 1 GW AI hub in Visakhapatnam in October 2025.
+[ff592a7e89895] sub2
+  About how much availability does an Uptime Institute Tier IV data centre offer?
+  99.671% | 99.982% | *99.995% | 99.741%
+  x: Tier IV is fully fault-tolerant with about 99.995% availability; Tier I is basic.
+[f9d982fd3a07a] sub2
+  Which of the following pairs (investor in Visakhapatnam – project) is correctly matched?
+  TCS – 1 GW AI hub | Google – HyperVault | *TCS – HyperVault | Google – Kapuluppada cable landing
+  x: HyperVault is TCS's data-centre proposal; the $15 billion 1 GW AI hub is Google's.
+[gabc7d89858e1] sub2
+  Which of the following is NOT an advantage of Visakhapatnam as a data-centre hub?
+  Submarine cable landing | Sea-breeze cooling | Location in Seismic Zone II | *Nearness to the European Union
+  x: Vizag has cable landing, sea-breeze cooling, low seismic risk and nearness to Southeast Asia, not the EU.
+[n0aa40cf1652] sub3
+  Which of the following correctly distinguishes edge, fog and cloud computing?
+  *Edge processes near the device, fog between edge and cloud, and cloud in distant centralised data centres. | Fog is the same as a private cloud and has no intermediate role. | Cloud processing always has the lowest latency because it uses centralised resources. | Edge always uses distant data centres, while cloud operates only on the device.
+  x: Edge processing occurs on or near the device, fog operates between the edge and cloud, and cloud processing occurs in distant centralised data centres.
+[n7ba4126defb] sub3
+  Which computing model processes data on or near the device, giving the lowest latency?
+  Cloud computing | *Edge computing | Grid computing | Mainframe computing
+  x: Edge computing processes data on or near the device, saves bandwidth and keeps sensitive data local; sending all data to distant centres is cloud processing.
+[n450f00048a9] sub3
+  Containers such as Docker are lighter than virtual machines mainly because they:
+  Each carry a full operating system | *Share the host OS kernel | Run only on edge devices | Need no server hardware
+  x: Containers share the host OS kernel, while each virtual machine runs its own operating system; this makes containers lightweight.
+[fafa5fc260477] sub3
+  In which model does the provider run and scale the servers and bill the user per use, as in AWS Lambda?
+  *Serverless computing | Virtualisation | Fog computing | Containers
+  x: Serverless computing lets the provider run and scale servers with billing per use; AWS Lambda is an example.
+[f2c89d351af67] sub3
+  What is running many virtual machines, each with its own OS, on one server called?
+  Containerisation | Serverless computing | *Virtualisation | Edge computing
+  x: Virtualisation lets one server run many VMs, each with its own OS; containers instead share the host kernel.
+[ffeb6e9c02458] sub3
+  Which computing layer sits between edge and cloud and does local aggregation of data?
+  Edge | *Fog | Grid | Mainframe
+  x: Fog computing lies between edge and cloud and aggregates data locally; edge has the lowest latency.
+
+=== NOTES 5:19 | Blockchain, Distributed Ledger, Cryptocurrency and Cbdc (e-rupee)
+## SUB 0 | Cryptocurrency and Bitcoin
+[19:0:0] - **Cryptocurrency:** money transfers secured with **encryption (cryptography)**, peer-to-peer, **without a central bank** (not legal tender, RTGS, NEFT).
+[19:0:1] - **Bitcoin** (**2009**): first cryptocurrency, by pseudonymous **Satoshi Nakamoto**; decentralised; coins created by **mining** (complex software / computation).
+[19:0:2] - **UPSC 2016:** Bitcoins are **not tracked by central banks** ✗; anyone with an address can send/receive ✓; payments possible **without either side knowing the other's identity** ✓ → **2 and 3 only**.
+[19:0:3] - **CDS 2017:** decentralised ✓, generated by complex software ✓, **RBI never recognised it as legal tender** ✗ → **I and II**.
+[19:0:4] - **Japan:** recognised Bitcoin as a **legal payment method from 1 April 2017**.
+[19:0:5] - **BuyUcoin:** first Indian platform for **wholesale crypto trading** (April 2019).
+[19:0:6] - **Not a cryptocurrency:** the **Yen** (Japan's fiat currency).
+[19:0:7] - India: crypto **not legal tender**; VDA providers under **PMLA (March 2023)**; **30%** tax on VDA gains (**Sec 115BBH**, Finance Act **2022**) + **1% TDS** (**Sec 194S**); losses cannot be set off.
+[19:0:8] ~~ Sources: PMF S&T Part 7 p.113-116; NextGen S&T G2 Part 1 p.26; gktoday.in 25 Apr 2019 (BuyUcoin); app notes 5:19 sub 2; general knowledge, not checked (Japan 2017)
+## SUB 1 | Blockchain and Distributed Ledger
+[19:1:0] - **Blockchain:** a **time-stamped series of immutable records** managed by a **cluster of computers not owned by any single entity**; first introduced in **Bitcoin** (Satoshi Nakamoto).
+[19:1:1] - **UPSC 2020:** public ledger everyone can inspect, no single user controls ✓; data only about cryptocurrency ✗; apps can be built **without anybody's permission** ✓ → **1 and 3 only**.
+[19:1:2] TABLE head: Term | Meaning
+  [19:1:2.0] Distributed ledger | Shared ledger copied across nodes; single source of truth; no central validator
+  [19:1:2.1] Block | Transactions + timestamp + hash of the previous block (not private keys)
+  [19:1:2.2] Hash / node | Cryptographic fingerprint of a block / a computer holding a ledger copy
+  [19:1:2.3] Immutability | Cannot be altered without consensus – no central authority changes data
+  [19:1:2.4] Consensus | Rule by which nodes agree on valid transactions
+[19:1:3] - Stakeholders **hold copies** and changes need **consensus** – so records are visible but not alterable.
+[19:1:4] - **Uses:** land records, certificates, supply chain, **e-voting**, health records, e-Notary, farm insurance.
+[19:1:5] ~~ Sources: NextGen S&T G2 Part 1 p.26; PMF S&T Part 7 p.107, p.111-112; app notes 5:19 sub 0
+## SUB 2 | CBDC – the e-Rupee
+[19:2:0] - **Digital rupee (e₹)** = India's **CBDC**, **sovereign currency issued by the RBI**, legal tender; a **direct liability on the RBI's balance sheet**; **freely convertible against commercial bank money and cash**; **not "insured against inflation"** → UPSC 2024: **1, 2 and 4**.
+[19:2:1] TABLE head: Pilot | Start | Use
+  [19:2:1.0] Wholesale (e₹-W) | 1 Nov 2022 | Settlement of secondary-market government securities
+  [19:2:1.1] Retail (e₹-R) | 1 Dec 2022 | Closed user group – Mumbai, New Delhi, Bengaluru, Bhubaneswar (not Hyderabad)
+[19:2:2] - RBI **concept note on CBDC: October 2022**. e-rupee is RBI money; UPI only moves bank-account money.
+[19:2:3] ~~ Sources: PMF S&T Part 5 p.105-106; app notes 5:19 sub 5; general knowledge, not checked (convertibility, RBI concept note)
+## SUB 3 | Types and Consensus Mechanisms
+[19:3:0] TABLE head: Public / permissionless | Private / permissioned
+  [19:3:0.0] Anyone can join, read, validate (Bitcoin) | Only authorised entities (AP DigiVerify)
+  [19:3:0.1] Proof of Work – miners race to solve puzzles; far more energy | Proof of Stake – validators chosen by coins staked
+  [19:3:0.2] Bitcoin still PoW | Ethereum since The Merge (Sept 2022)
+[19:3:1] ~~ Sources: PMF S&T Part 7 p.107; app notes 5:19 sub 1
+## SUB 4 | Web 3.0 Terms
+[19:4:0] TABLE head: Term | Meaning
+  [19:4:0.0] NFT | Non-Fungible Token – unique, not exchangeable at equivalency
+  [19:4:0.1] Smart contract | Self-executing code; cuts intermediaries
+  [19:4:0.2] DeFi | Lending/trading via smart contracts without banks
+  [19:4:0.3] Stablecoin | Pegged to fiat, commodities or crypto
+  [19:4:0.4] Tokenisation | Ownership rights in an asset → blockchain token (not mining)
+[19:4:1] ~~ Sources: app notes 5:19 sub 3
+## SUB 5 | National Strategy, Platforms and AP Pilots
+[19:5:0] TABLE head: Initiative | Body / year | Feature
+  [19:5:0.0] National Strategy on Blockchain | MeitY (Dec 2021) | National strategy
+  [19:5:0.1] Distributed CoE in Blockchain | MeitY; C-DAC, IDRBT Hyderabad, VJTI Mumbai | Property pilot Shamshabad (Telangana); Proof-of-Existence for certificates
+  [19:5:0.2] Vishvasya | MeitY (2024) | Blockchain-as-a-Service on NIC data centres; builds on the National Blockchain Framework
+  [19:5:0.3] Drunix | NPCI (Jun 2026) | Rebuilt from Hyperledger Fabric; NPCI's 2nd after Falcon
+[19:5:1] - **AP:** **AP DigiVerify** – permissioned-blockchain PaaS for certificate verification; **Mee Bhoomi-Mee Hakku** (10 Apr 2026) – tamper-proof **pattadar passbooks**; **Mee Bhoomi-Blockchain** pilot (CM Naidu, **23 Jul 2026**) unifies **Revenue, Survey, Registration**.
+[19:5:2] - **1 Jan 2026:** Supreme Court suggested blockchain for **land records**.
+[19:5:3] ~~ Sources: app notes 5:19 sub 4, 6
+
+=== OWN MCQs of 5:19 (46)
+[n7eeed28dd40] sub0
+  Who created Bitcoin, first introduced in 2009?
+  Vitalik Buterin | *Satoshi Nakamoto | Hal Finney | Nick Szabo
+  x: Bitcoin was introduced in 2009 by the pseudonymous creator Satoshi Nakamoto.
+[n7f67556dd83] sub0
+  When were virtual digital asset service providers in India brought under the Prevention of Money Laundering Act?
+  March 2022 | March 2021 | March 2024 | *March 2023
+  x: Virtual digital asset service providers were brought under the PMLA in March 2023.
+[n4e43b300b5c] sub0
+  Which of the following pairs is correctly matched?
+  Cryptocurrency – legal tender in India | *Cryptocurrency – decentralised and peer-to-peer | Cryptocurrency – issued by the RBI | Cryptocurrency – liability of the RBI
+  x: Cryptocurrency is decentralised and peer-to-peer; it is not legal tender in India and has no issuer, unlike the RBI's e-rupee.
+[f6d686edbb4a4] sub0
+  What is the rate of tax on gains from virtual digital assets under Section 115BBH?
+  *30% | 20% | 15% | 1%
+  x: The Finance Act 2022 levies 30% tax on VDA gains (Section 115BBH) and 1% TDS on transfers (Section 194S).
+[f004715b50039] sub0
+  1% TDS on transfers of virtual digital assets is levied under which section of the Income Tax Act?
+  Section 115BBH | *Section 194S | Section 194N | Section 80C
+  x: Section 194S levies 1% TDS on VDA transfers from 1 July 2022; Section 115BBH taxes the gains at 30%.
+[fe2b98cc52c32] sub0
+  Consider the following statements about the taxation of virtual digital assets in India:
+1. Gains are taxed at 30%.
+2. Losses can be set off against other income.
+3. 1% TDS applies on transfers.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | *1 and 3 only | 1, 2 and 3
+  x: Statements 1 and 3 are correct; losses on VDAs cannot be set off.
+[gc3bd60ba2d87] sub0
+  Consider the following statements about Bitcoin:
+1. Bitcoins are tracked by the central banks of countries.
+2. Bitcoin transactions are validated through mining.
+Which of the statements given above is/are correct?
+  *2 only | 1 only | Both 1 and 2 | Neither 1 nor 2
+  x: Bitcoin is decentralised and is not tracked by central banks; its transactions are validated by mining.
+[g63a788d86786] sub0
+  Which law brought in the 30% tax on gains from virtual digital assets in India?
+  Finance Act, 2021 | *Finance Act, 2022 | Information Technology Act, 2000 | Prevention of Money Laundering Act, 2002
+  x: The Finance Act, 2022 brought the 30% tax on VDA gains (Section 115BBH) and 1% TDS on transfers (Section 194S).
+[n6ddb09ce062] sub1
+  Which of the following describes a blockchain?
+  A centralised database controlled exclusively by a central bank | *A time-stamped series of immutable records managed by a cluster of computers not owned by one entity | A password-protected database maintained by a single administrator | A temporary record of transactions stored only on users' devices
+  x: A blockchain is a time-stamped series of immutable records managed by a cluster of computers rather than a single owner.
+[nf45a9ccafa4] sub1
+  Why can stakeholders view the records of a blockchain but not alter them?
+  The database is deleted after each transaction | A single administrator edits every copy | *Stakeholders hold copies and changes need consensus | Only the data-entry operator keeps a copy
+  x: Replicated copies held by stakeholders and the need for consensus protect records from unauthorised alteration.
+[n32172b9ff75] sub1
+  What is a shared ledger copied across many nodes, working as a single source of truth without a central validator, called?
+  Hash | Smart contract | Private key | *Distributed ledger
+  x: A distributed ledger is a shared ledger replicated across many nodes without a central validator.
+[n4eb7897b280] sub1
+  Besides transaction details and a timestamp, what does a block of a blockchain ordinarily contain?
+  The private key of every participant | The password of every node | A copy of every earlier block | *The hash of the previous block
+  x: A block holds transaction details, the previous block's hash and a timestamp, not participants' private keys.
+[n0e0a36e165d] sub1
+  Which of the following is NOT correct regarding blockchain terms?
+  A hash is a cryptographic fingerprint whose change reveals tampering | A blockchain has no central validator | A node is a computer holding a copy of the ledger | *Immutability means only a central authority can modify recorded data
+  x: Immutability means recorded data is nearly impossible to alter without consensus; there is no central validator.
+[gbb914b6524f2] sub1
+  In which of the following areas can blockchain technology be used?
+1. Land records
+2. Supply chain
+3. E-voting
+Select the correct answer using the code given below:
+  1 and 2 only | 2 and 3 only | 1 and 3 only | *1, 2 and 3
+  x: Blockchain uses include land records, certificates, supply chain, e-voting, health records, e-Notary and farm insurance.
+[fe3a078f60b77] sub2
+  Who issues India's CBDC, the e-rupee?
+  NPCI | Ministry of Finance | SEBI | *RBI
+  x: The e-rupee is legal tender in digital form issued by the RBI and is a liability of the RBI.
+[f9df6f4c4841c] sub2
+  When did the wholesale e-rupee (e₹-W) pilot begin?
+  *1 November 2022 | 1 December 2022 | 1 October 2022 | 1 April 2022
+  x: The wholesale pilot began on 1 November 2022, before the retail pilot of 1 December 2022.
+[f8a2af960f066] sub2
+  For the settlement of which of the following is the wholesale e-rupee pilot used?
+  Retail merchant payments | *Secondary-market government securities | Cross-border remittances | UPI transactions
+  x: The wholesale pilot (e₹-W) settles secondary-market government securities, with 9 banks.
+[f5cef62098e81] sub2
+  Consider the following statements about the e-rupee:
+1. It is legal tender.
+2. Like UPI, it only moves bank-account money.
+3. The retail pilot began on 1 December 2022.
+Which of the statements given above is/are correct?
+  1 and 2 only | 2 and 3 only | *1 and 3 only | 1, 2 and 3
+  x: Statements 1 and 3 are correct; UPI moves bank-account money, whereas the e-rupee is RBI money itself.
+[fd7ac07bae077] sub2
+  Which of the following pairs is correctly matched?
+  UPI – RBI money in digital form | Cryptocurrency – legal tender | *e-rupee – liability of the RBI | e-rupee – no issuer
+  x: The e-rupee is a liability of the RBI (concept note, October 2022); UPI moves bank-account money and crypto has no issuer and is not legal tender.
+[g06310d88e7b9] sub2
+  Which of the following cities was NOT among the cities of the retail e-rupee (e₹-R) pilot that began on 1 December 2022?
+  Mumbai | Bengaluru | Bhubaneswar | *Hyderabad
+  x: The retail e-rupee pilot began in a closed user group in Mumbai, New Delhi, Bengaluru and Bhubaneswar; Hyderabad was not among them.
+[gf78ae07c7dc1] sub2
+  In which month and year did the RBI release its concept note on Central Bank Digital Currency?
+  December 2022 | *October 2022 | February 2021 | November 2022
+  x: The RBI concept note of October 2022 described the CBDC as legal tender in digital form and a liability of the RBI.
+[nd8749c52a31] sub3
+  What is Ethereum's move from Proof of Work to Proof of Stake in September 2022 called?
+  The Halving | The Hard Fork | *The Merge | The Shift
+  x: The switch is called 'The Merge'; Bitcoin still uses Proof of Work.
+[n8e9aeadf37b] sub3
+  Bitcoin is an example of which type of blockchain?
+  Private and permissioned | *Public and permissionless | Consortium-controlled | Government-controlled
+  x: Bitcoin represents the public, permissionless model; private, permissioned systems such as AP DigiVerify are controlled by an organisation or consortium.
+[n6f0374f61a7] sub3
+  In which consensus mechanism are validators chosen by the coins they have staked?
+  Proof of Work | *Proof of Stake | Proof of Authority | Proof of Existence
+  x: In Proof of Stake validators are chosen by coins staked; in Proof of Work miners race to solve puzzles, using far more energy.
+[f3cfa8e99eb59] sub3
+  Which consensus mechanism uses far more energy, with miners racing to solve puzzles?
+  Proof of Stake | Proof of Existence | *Proof of Work | Proof of Authority
+  x: Proof of Work has miners racing to solve puzzles and uses far more energy; Proof of Stake picks validators by coins staked.
+[f4d12bbd4346a] sub3
+  Which of the following is NOT correct?
+  Bitcoin still uses Proof of Work | Ethereum uses Proof of Stake since September 2022 | Bitcoin is a public blockchain | *AP DigiVerify is a permissionless blockchain
+  x: AP DigiVerify is permissioned: only authorised entities join and validate.
+[fff2db49cf2c9] sub3
+  AP DigiVerify, used for certificate verification, runs on which type of blockchain?
+  Public permissionless | *Private permissioned | Hybrid permissionless | Public Proof of Work
+  x: AP DigiVerify is a permissioned blockchain where only authorised entities join and validate; Bitcoin is public and permissionless.
+[n0bd8e045de0] sub4
+  Which of the following is NOT correct about Web 3.0 terms?
+  Stablecoins are pegged to fiat currencies, commodities or crypto-assets | *Tokenisation means mining new coins to validate transactions | Tokenisation converts ownership rights in an asset into a blockchain token | Mining validates transactions
+  x: Tokenisation converts asset ownership rights into a blockchain token; it is mining, not tokenisation, that validates transactions.
+[n60fdbb01f42] sub4
+  What is the full form of NFT?
+  Network File Transfer | *Non-Fungible Token | New Financial Token | Non-Fiat Transaction
+  x: NFTs are unique, non-fungible blockchain tokens that can represent physical assets and are not exchangeable at equivalency.
+[nec372876229] sub4
+  What is self-executing code on a blockchain that cuts out intermediaries called?
+  Non-fungible token | Hash | *Smart contract | Node
+  x: Smart contracts are self-executing code; DeFi uses them for lending and trading without banks.
+[fbe94f314f42f] sub4
+  What is lending and trading through smart contracts without banks called?
+  *DeFi | NFT | Tokenisation | Stablecoin
+  x: DeFi (decentralised finance) means lending and trading via smart contracts without banks.
+[fed6c4b59a2d7] sub4
+  Why are NFTs called non-fungible?
+  Are pegged to fiat currencies | Are issued only by central banks | Cannot be held as digital assets | *Are unique and not exchangeable at equivalency
+  x: NFTs are unique tokens not exchangeable at equivalency; they can even represent physical assets.
+[n188d19dc222] sub5
+  In which state is Shamshabad, the site of the property-registration pilot of MeitY's Distributed Centre of Excellence in Blockchain?
+  Andhra Pradesh | Karnataka | *Telangana | Maharashtra
+  x: Shamshabad is in Telangana, not Andhra Pradesh.
+[nc27f50ed97c] sub5
+  Which body published the National Strategy on Blockchain (December 2021)?
+  NITI Aayog | RBI | *MeitY | DST
+  x: MeitY published the strategy; its Vishvasya is a Blockchain-as-a-Service stack hosted across NIC data centres.
+[ne785a98e212] sub5
+  Which platform was re-engineered to build NPCI's open-source private blockchain Drunix?
+  Ethereum | Corda | *Hyperledger Fabric | Bitcoin Core
+  x: Drunix was re-engineered from Hyperledger Fabric; it was NPCI's second open-source blockchain release, after Falcon.
+[f18a5f6f02559] sub5
+  In which form is Vishvasya, MeitY's 2024 blockchain stack, offered?
+  *Blockchain-as-a-Service | Software-as-a-Service | Infrastructure-as-a-Service | Data-as-a-Service
+  x: Vishvasya is a Blockchain-as-a-Service stack across NIC data centres, building on the National Blockchain Framework.
+[fb35955d85d21] sub5
+  Across whose data centres is the Vishvasya blockchain stack hosted?
+  C-DAC | IDRBT | *NIC | NPCI
+  x: Vishvasya (MeitY, 2024) runs across NIC data centres.
+[fa3d00bc94539] sub5
+  Which blockchain did NPCI release as its first, before Drunix?
+  Vishvasya | *Falcon | Hyperledger Fabric | DigiVerify
+  x: Falcon was NPCI's first open-source blockchain; Drunix, rebuilt from Hyperledger Fabric, is the second.
+[f64610f123fe8] sub5
+  For which of the following did the Distributed Centre of Excellence in Blockchain produce a Proof-of-Existence framework?
+  Land titles | *Certificates | Health records | Farm insurance
+  x: The Distributed CoE (C-DAC, IDRBT Hyderabad, VJTI Mumbai) produced a Proof-of-Existence framework for certificates.
+[g22e7fd3c594f] sub5
+  Which Hyderabad-based institution was a partner, along with C-DAC and VJTI Mumbai, in MeitY's Distributed Centre of Excellence in Blockchain?
+  *IDRBT | NIRD | CCMB | NIPER
+  x: MeitY's Distributed Centre of Excellence in Blockchain involved C-DAC, IDRBT Hyderabad and VJTI Mumbai.
+[g9048a31eefc1] sub5
+  On which framework does MeitY's Vishvasya blockchain stack build?
+  Bitcoin Core | *National Blockchain Framework | Hyperledger Fabric | Ethereum
+  x: Vishvasya (2024) offers Blockchain-as-a-Service across NIC data centres and builds on the National Blockchain Framework; Hyperledger Fabric is the base of NPCI's Drunix.
+[n086c0523d57] sub5
+  What is AP DigiVerify?
+  A land survey application operating without blockchain technology | A central-bank system for issuing digital currency | A public cryptocurrency exchange for government departments | *A permissioned-blockchain platform-as-a-service for tamper-proof certificate verification
+  x: AP DigiVerify is a permissioned-blockchain PaaS designed for tamper-proof certificate verification.
+[n752d6b356aa] sub5
+  Mee Bhoomi-Mee Hakku is associated with the issue of which of the following?
+  Blockchain-based voter identity cards | Unique cryptocurrency wallets for farmers | *Tamper-proof pattadar passbooks | Digital driving licences
+  x: Mee Bhoomi-Mee Hakku issues tamper-proof pattadar passbooks.
+[f2dcd5c197f54] sub5
+  On 1 January 2026, for what did the Supreme Court suggest the use of blockchain?
+  Electoral rolls | Court records | *Land records | Tax returns
+  x: On 1 January 2026 the Supreme Court suggested blockchain for land records.
+[fe4912d128592] sub5
+  The Mee Bhoomi-Blockchain pilot unifies which three AP departments?
+  *Revenue, Survey and Registration | Revenue, Agriculture and Panchayat Raj | Survey, Municipal Administration and Registration | Revenue, Police and Registration
+  x: Mee Bhoomi-Blockchain, launched by CM Naidu on 23 July 2026, unifies Revenue, Survey and Registration.
+[f6268f2380a29] sub5
+  When did Chief Minister Naidu launch the Mee Bhoomi-Blockchain pilot?
+  10 April 2026 | 1 January 2026 | 1 November 2026 | *23 July 2026
+  x: The pilot was launched on 23 July 2026 and is to go statewide from November.
+
+=== NOTES 5:20 | Telecom Technologies – 3G to 5G, 6G Roadmap, Satellite Communication, Optical Fibre
+## SUB 0 | Electromagnetic Spectrum – Order, Uses and Wave Basics
+[20:0:0] # Order of the spectrum
+[20:0:1] TABLE head: Wave | Wavelength | Frequency | Main uses
+  [20:0:1.0] Radio | > 1 m (longest) | < 3 × 10⁸ Hz (lowest) | AM/FM radio, TV, mobile, Wi-Fi, Bluetooth, MRI; satellite links (radio family)
+  [20:0:1.1] Microwave | 1 mm – 1 m | 300 MHz – 300 GHz | Satellite communication, radar, 5G, point-to-point telecom links, ovens
+  [20:0:1.2] Infrared | 700 nm – 1 mm |  | TV/AC remotes, night vision, physiotherapy (muscle pain, paralysis), heaters
+  [20:0:1.3] Visible | ~400–700 nm (violet shortest, red longest) |  | Vision, Li-Fi/VLC, optical fibre (some)
+  [20:0:1.4] Ultraviolet | 10–400 nm |  | Sterilisation (UV lamps, semen straws, water), forgery detection on currency, vitamin D; sunscreens block UV
+  [20:0:1.5] X-rays | 0.01–10 nm |  | Radiography, CT, baggage scans, cracks in metals
+  [20:0:1.6] Gamma | < 0.01 nm (shortest) | highest | Radiotherapy, sterilising instruments
+[20:0:2] - **Energy and frequency rise** Radio < Microwave < IR < Visible < UV < **X-ray** < **Gamma**; photon energy E = hν, so shorter wavelength = more energy (200–280 nm UV beats 280–400 nm; **blue** beats green, yellow, red).
+[20:0:3] - **Decreasing frequency:** **Gamma > X-rays > UV > Radio**. Longest wavelength: **radio**; smallest among X-ray/visible/IR/microwave: **X-rays**; among radio/visible/IR/UV: **UV**.
+[20:0:4] - Visible light range: **400–700 nm** (also given as **390–780 nm**; VLC uses 375–780 nm).
+[20:0:5] - **Visible > X-ray in wavelength; X-ray photons > UV photons > visible photons in energy.**
+[20:0:6] - **X-rays** are uncharged EM waves: **not deflected** by electric or magnetic fields; high penetration; wavelength far below visible.
+[20:0:7] - **Red** is used in danger/traffic signals: **longest wavelength**, least scattered, seen from far.
+[20:0:8] - **TV remote:** common remotes use **infrared** (some use radio). **Telecommunication** links: **microwaves**; **radar**: **microwaves**.
+[20:0:9] # Wave basics and sound
+[20:0:10] - **Wavelength** = distance between **two successive crests or troughs**.
+[20:0:11] - EM waves are transverse and need no medium; **sound** is mechanical and **longitudinal** (radio, X-ray, gamma are EM).
+[20:0:12] - **Supersonic waves are not electromagnetic.** **Sonic boom** = shock-wave bang from an object faster than sound (**supersonic aircraft**).
+[20:0:13] - Sound travels **faster in steel (~5,000–6,000 m/s) than in air (~343 m/s)** – a listener at the rail hears a blow twice.
+[20:0:14] > Exam angle: "which has the highest energy / longest wavelength / decreasing frequency" – about 25 PYQs (UPSC, UPPSC, RAS, NDA, CDS, SSC).
+[20:0:15] ~~ Sources: NextGen Rocket Sheets Physics p.57-62, p.76, p.81; PMF S&T Part 5 p.54-58; app notes 5:20 sub 7
+## SUB 1 | Optical Fibre and Total Internal Reflection
+[20:1:0] # Total internal reflection (TIR)
+[20:1:1] - Conditions: light goes from **denser → rarer** medium **and** angle of incidence **> critical angle**; light is reflected **with no loss of intensity**.
+[20:1:2] - Refractive index: **Diamond (~2.42) > sapphire (~1.77) > dense flint glass > glass (~1.5) > fused quartz > water > air** – so TIR is possible **diamond → glass**, **diamond → air**, never air → water/glass.
+[20:1:3] - Higher refractive index = **slower light** (among glass, water, air, vacuum: slowest in **glass**).
+[20:1:4] TABLE head: Phenomenon / device | Principle
+  [20:1:4.0] Optical fibre | TIR (successive TIRs let light follow a bent, zig-zag path)
+  [20:1:4.1] Endoscope | Bundle of optical fibres, TIR
+  [20:1:4.2] Brilliance of diamond | TIR (critical angle ≈ 24.4°)
+  [20:1:4.3] Mirage (desert) | TIR in hot, rarer air near the ground
+  [20:1:4.4] Glass beads on traffic signs | TIR (A and R both true, R explains)
+  [20:1:4.5] Crack in glass seen obliquely | Looks silvery (TIR)
+  [20:1:4.6] Rainbow | Dispersion + (total) internal reflection + refraction
+  [20:1:4.7] Stick bent in water | Refraction (not scattering)
+  [20:1:4.8] Sea looks blue | Reflection of sky + scattering of light by water
+[20:1:5] # Optical fibre communication
+[20:1:6] - Thin strand of **glass (silica)** or plastic; **core (higher n) + cladding (lower n)**; signal travels as **pulses of light (light waves)**.
+[20:1:7] - **Fastest** medium vs copper, radio, satellite; main use **communication** (telecom, internet); very **low power**, **free from radio-frequency interference**.
+[20:1:8] - In India **Sterlite (Sterlite Tech)** makes optical fibre (not Reliance). **Single-mode** = long distances; **multi-mode** = short runs.
+[20:1:9] # Undersea cables and national fibre
+[20:1:10] - Undersea cables ~**1.5 million km**, carry ~**99%** of international traffic.
+[20:1:11] - **CANI** (Chennai–Andaman and Nicobar Islands), ~2,300 km, BSNL, inaugurated **10 Aug 2020**.
+[20:1:12] - **NOFN** (approved 25 Oct 2011) → **BharatNet**: all **2,50,000 Gram Panchayats**, funded by **USOF** (now Digital Bharat Nidhi), **not NIIF**.
+[20:1:13] - PM Gati Shakti NMP (2026): ~**13.5 lakh** route km OFC; **PM-WANI 3.15 lakh** hotspots.
+[20:1:14] > Exam angle: "optical fibre works on…" = TIR – asked about 15 times.
+[20:1:15] ~~ Sources: NextGen Rocket Sheets Physics p.25, p.27, p.65-69, p.73; NextGen S&T Group 2 Part 3 p.7-8; PMF S&T Part 5 p.47; app notes 5:20 sub 6
+[20:1:16] - **Light source in optical-fibre links:** **semiconductor laser (laser diode)** – narrow, coherent, high-speed; LEDs only for short, low-speed multimode runs.
+## SUB 2 | Wireless Access – Li-Fi, Wi-Fi, WiMAX, Bluetooth
+[20:2:0] TABLE head: Li-Fi (Light Fidelity) | Wi-Fi
+  [20:2:0.0] Visible light from LEDs; term by Harald Haas (2011) | Radio waves (2.4 / 5 GHz)
+  [20:2:0.1] Faster, more bandwidth, secure, no EM interference | Longer range
+  [20:2:0.2] Does not pass through walls | Passes through walls
+[20:2:1] - **VLC** (UPSC 2020): 375–780 nm, **faster than Bluetooth**, **no EM interference**, but **short-range** (not long-range) → **1, 3, 4**.
+[20:2:2] - **WiMAX** = World Wide Interoperability for **Microwave Access** (IEEE 802.16), **communication technology**, mainly **2–3.5 GHz**.
+[20:2:3] - **Bluetooth:** short-range **radio waves**, 2.4 GHz ISM band; secure **Personal Area Networks**; developed **1994** by **Jaap Haartsen**; wireless link between equipment.
+[20:2:4] - **2.4 GHz ISM band** (licence-free): Bluetooth, Wi-Fi, cordless phones, microwave ovens – **not FM radio**.
+[20:2:5] - **Wi-Fi 6 = 802.11ax; Wi-Fi 7 = 802.11be.**
+[20:2:6] - **Short-range devices** (UPSC 2022): **CCTV, RFID and WLAN** – all three. **CCTV** = Closed-Circuit Television. **RFID**: radio tags (Kavach track tags). **FSO**: data by laser beams through the air.
+[20:2:7] - **Project Loon** (Google/Alphabet): stratospheric helium **balloons** for internet = **wireless communication**; shut Jan 2021.
+[20:2:8] - **Mumbai Central:** first station with Google free public Wi-Fi (**Jan 2016**). India **49th** in Network Readiness Index 2024 (from 60th).
+[20:2:9] ~~ Sources: PMF S&T Part 5 p.35, p.47, p.55-57, p.60-62; app notes 5:20 sub 8
+## SUB 3 | Satellite Communication and Radio Propagation
+[20:3:0] - Satellite communication works through **transponders** (receive uplink, amplify, retransmit downlink) and uses **microwaves** (radio family; SSC keys say "radio waves").
+[20:3:1] TABLE head: Mode | Bands | Use
+  [20:3:1.0] Ground wave | LF/MF | AM radio
+  [20:3:1.1] Sky wave (ionosphere reflects) | HF 3–30 MHz | Shortwave radio – very distant stations
+  [20:3:1.2] Space wave (line of sight) | VHF, UHF 300 MHz–3 GHz, microwaves | UHF = cellular phones (also TV, GPS); satellites
+[20:3:2] - Dish TV fails in rain: raindrops **absorb** and **scatter** the energy; a **small antenna** cannot pick up the weakened signal.
+[20:3:3] TABLE head:  | GEO | LEO
+  [20:3:3.0] Altitude | ~35,786 km | Below ~2,000 km
+  [20:3:3.1] Latency | Higher | Low
+  [20:3:3.2] Examples | GSAT | Starlink, Eutelsat OneWeb (Bharti), Amazon Kuiper
+[20:3:4] - **Starlink** (8,000+ satellites): **GMPCS** (Global Mobile Personal Communication by Satellite) licence **2025**; user terminals **made in India within 5 years**.
+[20:3:5] - **Telecommunications Act 2023:** licensing → **authorisation**; terrestrial spectrum **auctioned**, satellite spectrum **assigned administratively**. ITU: de-orbit within **25 years**.
+[20:3:6] - **SREESAT-1** (SNIST Hyderabad students, 2019): **balloon-based** environment monitor (temperature, pressure, humidity, UV/IR) – not a drone or Wi-Fi system.
+[20:3:7] ~~ Sources: PMF S&T Part 5 p.55-59; NextGen Rocket Sheets Physics p.58; collegedekho.com news on SREESAT-1; app notes 5:20 sub 4-5
+[20:3:8] - **Band → use:** **LF** – marine and navigational aids; **HF** – (short-wave) radio broadcasting; **VHF** – TV broadcasting; **SHF** – satellite communication.
+## SUB 4 | 5G in India and the 6G Roadmap
+[20:4:0] # 5G
+[20:4:1] - **World's first 5G:** **South Korea, April 2019** (commercial launch 3–5 April 2019).
+[20:4:2] - **India:** launched by the PM on **1 Oct 2022** at **India Mobile Congress**; **Hyderabad** among the first cities (with Delhi, Mumbai, Chennai, Bengaluru, Varanasi…).
+[20:4:3] - **Indigenous 5G Test Bed** (DoT grant, 2018): multi-institute project led by IIT Madras at five locations (IIT Madras, IIT Delhi, IIT Hyderabad, IIT Kanpur, IISc) – true, but it does not explain the launch date.
+[20:4:4] - **Jio** 5G partners: Meta, Google, Microsoft, Intel, Qualcomm; Jio + Google: affordable 5G smartphones.
+[20:4:5] TABLE head: Term | Meaning
+  [20:4:5.0] sub-6 GHz | Wider coverage, better penetration
+  [20:4:5.1] mmWave | Very high data rates, short range
+  [20:4:5.2] Network slicing | One physical network split into several virtual networks
+  [20:4:5.3] 5G Standalone (SA) | No 4G core → lower latency
+  [20:4:5.4] VoNR | Voice over New Radio: voice on the 5G network itself (replaces 2G/3G/VoLTE voice)
+[20:4:6] - 5G enables **IoT, edge computing, network slicing**, AR/VR, remote surgery.
+[20:4:7] - **5G & Beyond Hackathon 2023:** announced by **DoT (not DST)** in June 2023; open to individuals, students, start-ups, academia; **100 winners share Rs 1 crore** (Rs 1 lakh each).
+[20:4:8] - Open-RAN 5G: **Airtel–Tata**; **TTDF** (2022) gets **5% of Digital Bharat Nidhi**; **C-DOT** set up **1984**.
+[20:4:9] - **AP:** **IIITDM Kurnool** ranked **1st among 100 5G Use Case Labs** (DoT gradation Jan–Jun 2026, all four categories).
+[20:4:10] # 6G
+[20:4:11] - **Bharat 6G Vision** (PM, **March 2023**): India to lead 6G design, development and deployment by **2030**; **Bharat 6G Alliance** launched **2023**.
+[20:4:12] ~~ Sources: PMF S&T Part 5 p.29, p.44; dqindia.com 'DoT launches 5G and Beyond Hackathon 2023' (10 Jul 2023; Rs 1 lakh per winner); DoT press release (100 winners, Rs 1 crore pool – seen in search result only); app notes 5:20 sub 0-3
+## SUB 5 | Mobile Generations, GSM Family and LTE
+[20:5:0] # Generations
+[20:5:1] TABLE head: Generation | Core technology / feature
+  [20:5:1.0] 1G | Analog, FDMA
+  [20:5:1.1] 2G | Digital; GSM (TDMA) and CDMA; SMS (G = Generation)
+  [20:5:1.2] 2.5G / 2.75G | GPRS / EDGE (GSM data)
+  [20:5:1.3] 3G | CDMA-based (WCDMA/CDMA2000)
+  [20:5:1.4] 4G | LTE = Long Term Evolution, OFDMA; VoLTE = voice carried over the LTE data network
+  [20:5:1.5] 5G | NR = New Radio; latency as low as 1 ms
+  [20:5:1.6] 6G | Early 2030s; "omnipresent wireless intelligence"
+[20:5:2] - India's cellular technologies: **GSM and CDMA**.
+[20:5:3] - **GSM family:** GPRS, EDGE, LTE (UPSC 2010: II, III, IV); **DSL is wired** (telephone line), not GSM.
+[20:5:4] - UPSC 2019: LTE is **4G** (not "3G"), and VoLTE is not "voice-only" → **neither** statement correct.
+[20:5:5] - **WLL** = Wireless Local Loop; TRAI prefers **C-V2X** for vehicle communication.
+[20:5:6] ~~ Sources: PMF S&T Part 5 p.37-44, p.47; app notes 5:20 sub 1
+## SUB 6 | Telecom Bodies, Spectrum and EMF Limits
+[20:6:0] TABLE head: Body | Role
+  [20:6:0.0] TRAI (1997) | Regulator of telecom and broadcasting
+  [20:6:0.1] TDSAT (2000 amendment) | Settles disputes; hears appeals against TRAI
+  [20:6:0.2] C-DOT (1984) | Government telecom R&D centre
+  [20:6:0.3] TEC | DoT's technical arm: standards, equipment testing (not USOF collection)
+  [20:6:0.4] DoT (1985) | Created when Posts and Telecom split; MTNL and VSNL 1986
+  [20:6:0.5] ITU WTDC | World Telecommunication Development Conference, every four years
+[20:6:1] - **EMF limits for towers:** India (from 1 Sept 2012) = **one-tenth of ICNIRP**: **~0.92 W/m² at 1800 MHz** (ICNIRP ~9.2 W/m²). The APPSC key 9.2 W/m² is the ICNIRP value.
+[20:6:2] - **TRAI (Feb 2026):** auction across nine bands; uniform **35%** cap; new-entrant net worth **Rs 100 cr → Rs 50 cr**. **SC (Aircel, Feb 2026):** telcos **do not own spectrum**.
+[20:6:3] - **Opensignal 4G speeds:** **Airtel** led 4G **download** speed (2018–20 reports); **Vodafone (Vi)** led **upload** speed.
+[20:6:4] ~~ Sources: DoT EMF norms (1/10th of ICNIRP from 1 Sept 2012 – search result snippets of dot.gov.in / tarangsanchar.gov.in; 0.92 W/m² figure from app notes); thequint.com on Opensignal 2020 report (Airtel download, Vodafone upload); app notes 5:20 sub 0, 4
+[20:6:5] - **Largest telecom operator:** **BSNL** in the early 2000s; now **Reliance Jio** (by subscribers, TRAI).
+[20:6:6] - **India–Japan ICT cooperation** (Memorandum of Cooperation, Cabinet Oct 2020): 5G, telecom security, submarine cables.
+
+=== OWN MCQs of 5:20 (78)
+[nphysics-20-6] sub0
+  What is the wavelength range of microwaves?
+  10 to 400 nm | More than 1 m | *1 mm to 1 m | 400 to 700 nm
+  x: Microwaves span 1 mm–1 m; radio waves are longer than 1 m and 10–400 nm is ultraviolet.
+[nphysics-17-10] sub0
+  Which waves are mainly used in radar and satellite communication?
+  Ultraviolet rays | X-rays | *Microwaves | Gamma rays
+  x: Microwaves serve satellites, radar and 5G; UV, X-rays and gamma rays are ionising and not used for normal communication.
+[nphysics-17-35] sub0
+  Which of the following pairs (radiation – use) is correctly matched?
+  Radio waves – Experimental Li-Fi | Visible light – Radio-frequency pulses in MRI | *Infrared radiation – Remote controls and short-range data communication | Radio waves – Remote controls
+  x: Infrared runs remote controls and short-range data links; MRI uses radio-frequency pulses and Li-Fi uses visible light.
+[n85e3704f9da] sub0
+  What is the wavelength range of visible light?
+  10–400 nm | *400–700 nm | 0.01–10 nm | Less than 0.01 nm
+  x: Visible light is 400–700 nm; 10–400 nm is ultraviolet, 0.01–10 nm X-rays and below 0.01 nm gamma rays.
+[g9b70d7a3afbe] sub0
+  What is the loud bang heard when an aircraft flies faster than the speed of sound called?
+  Echo | *Sonic boom | Doppler effect | Resonance
+  x: A sonic boom is the shock-wave bang made by an object moving faster than sound, such as a supersonic aircraft.
+[n2e9422bf7e5] sub1
+  Which of the following is the fastest data-transmission medium among the listed communication media?
+  Radio waves | Copper cable | *Optical fibre | Satellite signals
+  x: Optical fibre provides faster data transmission than copper cable, radio waves and satellite signals.
+[nd5e53485bb8] sub1
+  Which medium is best suited for long-distance optical signal transmission?
+  *Single-mode fibre | Multi-mode fibre | Coaxial cable | Twisted-pair cable
+  x: Single-mode fibre carries signals over long distances, while multi-mode fibre is used for short runs.
+[ne4a268316ad] sub1
+  About what share of international internet and telecom traffic do undersea communication cables carry?
+  50% | 75% | 90% | *99%
+  x: Undersea cables carry nearly 99% of international traffic and are cheaper with lower latency than satellites.
+[n312963a6da7] sub1
+  Which of the following is NOT correct about the National Optical Fibre Network (NOFN)?
+  It was planned to link all 2,50,000 Gram Panchayats | It was later renamed BharatNet | It uses GPON technology | *It is funded by the National Investment and Infrastructure Fund
+  x: NOFN is funded by the Universal Service Obligation Fund (USOF), not NIIF.
+[fb95150db9df7] sub1
+  Which of the following does the CANI undersea optical fibre cable link with Chennai?
+  Lakshadweep | Sri Lanka | *Andaman and Nicobar Islands | Maldives
+  x: CANI (Chennai–Andaman and Nicobar Islands), about 2,300 km, was inaugurated on 10 August 2020.
+[f46cafd9153b3] sub1
+  Which of the following has the highest refractive index?
+  Glass | Water | Air | *Diamond
+  x: Refractive index order is Diamond > Glass > Water > Air.
+[fd70dd8b66985] sub1
+  Which of the following funds the National Optical Fibre Network (NOFN)?
+  NIIF | *USOF | TTDF | NABARD
+  x: NOFN, covering 2,50,000 Gram Panchayats, is funded by USOF, not NIIF.
+[g65d72f5fda90] sub1
+  Which of the following works on the principle of total internal reflection?
+  Electric bulb | Magnifying glass | *Endoscope | Solar cooker
+  x: An endoscope, like an optical fibre, carries light by total internal reflection.
+[g985acc4bce72] sub1
+  Consider the following statements about total internal reflection:
+1. It takes place when light travels from a denser medium to a rarer medium.
+2. It takes place only when the angle of incidence is less than the critical angle.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Total internal reflection needs light going from a denser to a rarer medium with the angle of incidence greater than the critical angle.
+[gb57781a41bcd] sub1
+  In which year was the Chennai–Andaman and Nicobar Islands (CANI) undersea cable inaugurated?
+  2019 | *2020 | 2018 | 2022
+  x: CANI, about 2,300 km long and laid by BSNL, was inaugurated on 10 August 2020.
+[g4d3683a847f1] sub1
+  Of which material is the thin strand of an optical fibre mostly made?
+  Rubber | Copper | Aluminium | *Glass (silica)
+  x: An optical fibre is a thin strand of glass (silica) or plastic that carries signals as pulses of light.
+[g34ec98b6b916] sub1
+  According to PM Gati Shakti NMP data (2026), about how many route km of optical fibre cable does India have?
+  3.15 lakh | 8.26 lakh | *13.5 lakh | 6.92 lakh
+  x: PM Gati Shakti NMP (2026) shows about 13.5 lakh route km of OFC, 8.26 lakh towers and 3.15 lakh PM-WANI hotspots.
+[f5133d7f86cac] sub1
+  According to PM Gati Shakti NMP data (2026), about how many PM-WANI hotspots are there?
+  1.5 lakh | 8.26 lakh | 13.5 lakh | *3.15 lakh
+  x: PM Gati Shakti NMP (2026) shows about 3.15 lakh PM-WANI hotspots, 8.26 lakh towers and 13.5 lakh route km of OFC.
+[n725dd596f80] sub2
+  Which of the following pairs is correctly matched?
+  WiMAX — Wireless Local Loop replacing the copper last mile | *WiMAX — IEEE 802.16 wireless broadband | WLL — IEEE 802.16 satellite standard | WLL — Optical fibre repeater technology
+  x: WiMAX is IEEE 802.16 wireless broadband. WLL refers to a radio link that replaces the copper last mile.
+[g575a2f91a48b] sub2
+  What is the full form of WiMAX?
+  Wireless Interoperability for Multiple Access | *World Wide Interoperability for Microwave Access | Worldwide Internet Mobile Access | Wireless Integrated Mobile Access Exchange
+  x: WiMAX (IEEE 802.16) is World Wide Interoperability for Microwave Access, carrying wireless data over long distances.
+[ncdb4def812c] sub2
+  In which year did Harald Haas coin the term Li-Fi?
+  2005 | 2008 | *2011 | 2015
+  x: Harald Haas coined 'Li-Fi' in 2011 for wireless optical networking using LEDs.
+[ncdb39c4a27b] sub2
+  Which of the following is NOT correctly matched in the comparison of Li-Fi and Wi-Fi?
+  Wi-Fi — Suitable for wireless local area networks | Li-Fi — Visible light from LEDs | Wi-Fi — Radio waves | *Li-Fi — Generally longer range than Wi-Fi
+  x: Wi-Fi has longer range than Li-Fi. Li-Fi is associated with visible light, while Wi-Fi uses radio waves and supports wireless LANs.
+[n3a146575ca6] sub2
+  Which IEEE standard does Wi-Fi 7 correspond to?
+  *802.11be | 802.11ac | 802.11n | 802.11ax
+  x: Wi-Fi 7 is IEEE 802.11be and Wi-Fi 6 is 802.11ax.
+[n5d955fc0cb2] sub2
+  What was India's position in the Network Readiness Index 2024?
+  79th, improving from 60th | 29th, improving from 40th | 60th, improving from 49th | *49th, improving from 60th
+  x: India rose to 49th in the Network Readiness Index 2024 from 60th earlier.
+[f280afd6cab3d] sub2
+  Google's Project Loon used which of the following to provide internet?
+  Low-orbit satellites | *Stratospheric helium balloons | Solar drones | Undersea cables
+  x: Project Loon (Google/Alphabet) used stratospheric helium balloons for internet and was shut in January 2021.
+[f0a5a97b8381e] sub2
+  Which IEEE standard does Wi-Fi 6 correspond to?
+  802.11be | 802.16 | *802.11ax | 802.15
+  x: Wi-Fi 6 is 802.11ax; Wi-Fi 7 is 802.11be and WiMAX is 802.16.
+[f2d7c9d9895f8] sub2
+  What is transmitting data by laser beams through the air without fibre called?
+  Li-Fi | *FSO | RFID | NFC
+  x: FSO (free-space optics) sends data by laser beams without fibre.
+[f12acd7e8e86d] sub2
+  Which of the following is NOT correct about Li-Fi?
+  It uses visible light from LEDs | *It passes through walls | It offers more bandwidth than Wi-Fi | Its term was coined by Harald Haas
+  x: Li-Fi does not pass through walls; Wi-Fi, which uses radio waves, does.
+[f6b5aa662f8c3] sub2
+  Radio tags read wirelessly, as used in Kavach track tags, are an example of which technology?
+  NFC | Bluetooth | *RFID | Li-Fi
+  x: RFID uses radio tags read wirelessly, such as Kavach track tags.
+[g0a32db567d59] sub2
+  Who developed Bluetooth technology in 1994?
+  Harald Haas | *Jaap Haartsen | Tim Berners-Lee | Martin Cooper
+  x: Bluetooth, which works at 2.4 GHz, was developed in 1994 by Jaap Haartsen; Harald Haas coined the term Li-Fi.
+[gfdcb2f07c664] sub2
+  Which of the following does NOT use the licence-free 2.4 GHz ISM band?
+  Bluetooth | Microwave ovens | Cordless phones | *FM radio broadcasting
+  x: Bluetooth, Wi-Fi, cordless phones and microwave ovens use the 2.4-2.5 GHz ISM band; FM radio uses about 88-108 MHz.
+[gd258618d355a] sub2
+  What is the full form of CCTV?
+  Central Control Television | Common Cable Television | *Closed-Circuit Television | Coded Circuit Transmission Video
+  x: CCTV is Closed-Circuit Television: cameras send signals to a limited set of monitors, not openly to the public.
+[ndb026371289] sub3
+  How is satellite spectrum allotted under the Telecommunications Act, 2023?
+  Auctioned like terrestrial spectrum | Leased by ISRO | Allotted by state governments | *Assigned administratively
+  x: Under the First Schedule, terrestrial spectrum is auctioned while satellite spectrum is assigned administratively.
+[f509da24ca09b] sub3
+  With what did the Telecommunications Act, 2023 replace telecom licensing?
+  Registration | *Authorisation | Permission | Accreditation
+  x: The Telecommunications Act 2023 moved from licensing to authorisation.
+[f7fba6d5498f8] sub3
+  Consider the following statements about spectrum under the Telecommunications Act, 2023:
+1. Terrestrial spectrum is auctioned.
+2. Satellite spectrum is auctioned.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Only statement 1 is correct; under the First Schedule satellite spectrum is assigned administratively, not auctioned.
+[n5f6140aecae] sub3
+  Under GMPCS licence conditions, what must satellite operators get made in India within five years?
+  All satellites | Launch vehicles | Ground rockets | *User terminals
+  x: The GMPCS conditions require terminals to be made in India within five years, besides geofencing, no cross-border spillover and lawful surveillance.
+[nb48f6956a04] sub3
+  Under ITU rules, a satellite must be de-orbited within how many years of the end of its mission?
+  10 years | *25 years | 50 years | 100 years
+  x: The ITU de-orbit limit is 25 years after mission end; orbital slots are given first-come, first-served.
+[n7e167d4f24c] sub3
+  GEO satellites orbit at about how many kilometres above Earth?
+  500 km | 2,000 km | 20,200 km | *35,786 km
+  x: GEO satellites are about 35,786 km up and have higher latency; LEO satellites are below about 2,000 km.
+[n0245a9c4dc0] sub3
+  Which of the following groups consists entirely of LEO satellite constellations?
+  *Starlink, Eutelsat OneWeb and Amazon Kuiper | GSAT-7A, GSAT-7 and GSAT-8 | GSAT series, OneWeb and Kuiper | GSAT-7, GSAT-7A and Starlink
+  x: Starlink, Eutelsat OneWeb and Amazon Kuiper are identified as LEO constellations. The GSAT examples listed are GEO satellites.
+[nb91dd2cb62f] sub3
+  In which year did Starlink, which operates more than 8,000 LEO satellites, obtain its GMPCS licence in India?
+  2022 | 2023 | 2024 | *2025
+  x: Starlink received its GMPCS licence in India in 2025; Eutelsat OneWeb had earlier received a letter of intent.
+[n945f7710e95] sub3
+  What is the full form of GMPCS?
+  Geostationary Mobile Personal Communication Service | *Global Mobile Personal Communication by Satellite | Global Microwave and Private Communication System | Government Mobile Public Communication Service
+  x: GMPCS means Global Mobile Personal Communication by Satellite. It is the Department of Telecommunications licence required for satellite communication operators.
+[f5b4b09c24921] sub3
+  Which of the following satellite series operates in geostationary orbit?
+  Starlink | OneWeb | *GSAT | Kuiper
+  x: GSAT satellites are GEO; Starlink, OneWeb and Kuiper are LEO constellations.
+[fcddf06043488] sub3
+  Below about what altitude do LEO satellites orbit Earth?
+  *2,000 km | 20,000 km | 35,786 km | 10,000 km
+  x: LEO satellites are below about 2,000 km and have low latency; GEO satellites are at about 35,786 km.
+[gd4e3c17dc60d] sub3
+  Which Indian group is associated with Eutelsat OneWeb, which got a letter of intent for satellite internet in India?
+  *Bharti | Reliance | Adani | Tata
+  x: OneWeb, a LEO constellation, is backed by Bharti and got a letter of intent before Starlink's 2025 GMPCS licence.
+[nefc8e7dca56] sub4
+  In which year was C-DOT set up?
+  *1984 | 1985 | 1986 | 1997
+  x: C-DOT came in 1984, DoT in 1985, MTNL and VSNL in 1986 and TRAI in 1997.
+[ndf812c6411f] sub4
+  In which country did the world's first 5G launch take place in April 2019?
+  *South Korea | Japan | United States | China
+  x: South Korea launched 5G first in April 2019; India launched 5G on 1 October 2022 at India Mobile Congress.
+[f462431562e74] sub4
+  At which event did India launch 5G services on 1 October 2022?
+  Global Fintech Fest | *India Mobile Congress | Digital India Week | Bengaluru Tech Summit
+  x: India's 5G launch was on 1 October 2022 at the India Mobile Congress.
+[nd6b039a287e] sub4
+  The Open-RAN 5G partnership mentioned in the context of India is between which of the following?
+  TRAI and TDSAT | BSNL and RailTel | DoT and DST | *Airtel and Tata
+  x: The indigenous Open-RAN 5G partnership is between Airtel and Tata.
+[n1503deb6b9e] sub4
+  Why does 5G Standalone (SA) give lower latency?
+  Splits the network into virtual slices | Depends on a 4G LTE core | *Runs without a 4G core | Uses GEO satellite backhaul
+  x: 5G SA runs without a 4G core, which gives it lower latency; network slicing is a separate feature and does not explain it.
+[n0650005e68d] sub4
+  Which of the following is NOT correct about the Telecom Technology Development Fund (TTDF)?
+  It was introduced in 2022 | It receives about Rs 500 crore a year | *It receives 10% of Digital Bharat Nidhi collections | It has funded India 5G Stack, 6G and quantum-encryption projects
+  x: TTDF receives 5%, not 10%, of Digital Bharat Nidhi collections (about Rs 500 crore a year).
+[n473ee0106ee] sub4
+  Which institution ranked first in the Department of Telecommunications’ gradation of 100 5G Use Case Labs for January–June 2026 in all four categories?
+  C-DOT Bengaluru | IIT Hyderabad | TRAI Innovation Centre | *IIITDM Kurnool
+  x: IIITDM Kurnool ranked first in DoT’s January–June 2026 gradation in all four categories.
+[n7147bf76f82] sub4
+  Which body ran the 5G & Beyond Hackathon 2023?
+  Department of Science and Technology | Ministry of Electronics and IT | TRAI | *Department of Telecommunications
+  x: DoT, not DST, ran the hackathon, which was open to individuals, students, start-ups and academics.
+[f7517de85ed62] sub4
+  Which 5G band gives very high data rates but only a short range?
+  Low band | Sub-6 GHz | *mmWave | Mid band
+  x: mmWave gives very high data rates over short range; sub-6 GHz (low/mid) gives wider coverage and better penetration.
+[f73a8d97d6fe6] sub4
+  The Telecom Technology Development Fund (TTDF) receives what share of the Digital Bharat Nidhi?
+  2% | *5% | 10% | 25%
+  x: TTDF (2022) gets 5% of the Digital Bharat Nidhi, about Rs 500 crore a year.
+[ge226c5520535] sub4
+  What is 'network slicing' in 5G?
+  Dividing spectrum among operators through auctions | Cutting optical fibre into segments for repeaters | Sharing one tower between two operators | *Splitting one physical network into several virtual networks
+  x: Network slicing splits one 5G network into virtual slices, each suited to a different use.
+[n3c6721ce1b2] sub4
+  By which year does the Bharat 6G Vision (March 2023) aim for India to lead 6G design, development and deployment?
+  2027 | *2030 | 2035 | 2040
+  x: The Bharat 6G Vision, released in March 2023, targets Indian leadership in 6G by 2030.
+[fc249fb456f97] sub4
+  In which year was the Bharat 6G Alliance (B6GA) launched?
+  2025 | 2021 | 2022 | *2023
+  x: The Bharat 6G Alliance was launched in 2023 and has seven Working Groups.
+[n2741431668b] sub5
+  LTE and VoLTE belong to which mobile generation?
+  3G | 1G | 2G | *4G
+  x: LTE and VoLTE are 4G; 3G was CDMA-based (WCDMA/CDMA2000).
+[nc3a7064a9b4] sub5
+  To which generation does EDGE, a faster GSM data technology, belong?
+  2.5G | *2.75G | 3G | 4G
+  x: GPRS is associated with 2.5G and EDGE with 2.75G, both intermediate GSM data developments.
+[n6c8cfdf07b9] sub5
+  Which technology is described by the phrase 'omnipresent wireless intelligence'?
+  *6G | 5G | 4G | Wi-Fi 6
+  x: 'Omnipresent wireless intelligence' describes 6G, expected in the early 2030s.
+[f9f011e83d6af] sub5
+  On which technology is 3G mobile communication based?
+  FDMA | OFDMA | Analog | *CDMA
+  x: 3G is CDMA-based (WCDMA/CDMA2000); 4G and 5G use OFDMA and 1G was analog FDMA.
+[f4cfd3c2be7a4] sub5
+  What is the full form of WLL, the radio link that replaces the copper last mile?
+  Wide Line Link | *Wireless Local Loop | Wireless Long Line | Wide Local LAN
+  x: WLL is Wireless Local Loop, a radio link replacing the copper last mile.
+[fb117bdc21b0c] sub5
+  About how low is the latency offered by 5G?
+  *1 ms | 10 ms | 50 ms | 100 ms
+  x: 5G uses OFDMA and offers latency as low as 1 ms.
+[g5a21c38e5c2f] sub5
+  Which technology does TRAI prefer for vehicle communication?
+  *C-V2X | Li-Fi | NFC | WiMAX
+  x: TRAI prefers C-V2X (cellular vehicle-to-everything) for communication between vehicles.
+[g65c389e3a4f7] sub5
+  Which generation of mobile communication was analog and based on FDMA?
+  4G | *1G | 2G | 3G
+  x: 1G was analog using FDMA; 2G was digital (GSM/CDMA) and brought SMS.
+[g57359e2cf7d2] sub5
+  Which mobile data technology is known as 2.5G?
+  *GPRS | EDGE | LTE | WCDMA
+  x: GPRS is 2.5G; EDGE, a faster GSM data technology, is 2.75G.
+[f0769b044ef83] sub5
+  When is 6G expected to arrive?
+  *Early 2030s | Late 2020s | Early 2040s | Mid-2020s
+  x: 6G is expected in the early 2030s and is described as 'omnipresent wireless intelligence'.
+[na826f2ef809] sub6
+  In which year was TDSAT, which settles telecom disputes and hears appeals against TRAI, created by an amendment?
+  1997 | *2000 | 2004 | 2010
+  x: TDSAT was created by the 2000 amendment; TRAI itself was set up in 1997.
+[nb0d4e3b3a44] sub6
+  What are the EMF limits at 1800 MHz for India and ICNIRP respectively?
+  *India: 0.92 W/m²; ICNIRP: 9.2 W/m² | India: 0.092 W/m²; ICNIRP: 0.92 W/m² | India: 92 W/m²; ICNIRP: 9.2 W/m² | India: 9.2 W/m²; ICNIRP: 0.92 W/m²
+  x: At 1800 MHz, the Indian limit is 0.92 W/m², while the ICNIRP value is 9.2 W/m².
+[n2ff11aa8b91] sub6
+  Which of the following is NOT correctly matched?
+  TRAI — Regulation of telecom and broadcasting | TDSAT — Settlement of disputes and appeals against TRAI | *TEC — Collection of Universal Service Obligation Fund | Department of Telecommunications — Telecom policy and licensing
+  x: TEC is DoT’s technical body for telecom standards and equipment testing. Collection of USOF is not its stated role.
+[fa74e2f3dc8f2] sub6
+  Which body is DoT's technical arm for telecom standards and equipment testing?
+  *TEC | C-DOT | TRAI | TDSAT
+  x: TEC is DoT's technical body for standards and equipment testing (not USOF collection); C-DOT is the R&D centre.
+[fb576725cb56c] sub6
+  In which year were MTNL and VSNL set up?
+  1984 | 1985 | *1986 | 1997
+  x: MTNL and VSNL came in 1986, after C-DOT (1984) and DoT (1985); TRAI came in 1997.
+[fd09ee6ccf68b] sub6
+  In which year was the Telecom Regulatory Authority of India (TRAI) set up?
+  *1997 | 2000 | 1985 | 1986
+  x: TRAI was set up in 1997; TDSAT came through the 2000 amendment.
+[gbf1ae515d2d0] sub6
+  In which year was the Department of Telecommunications (DoT) created when Posts and Telecom were split?
+  1984 | *1985 | 1986 | 1997
+  x: DoT was created in 1985 when Posts and Telecom were split; C-DOT came in 1984 and MTNL/VSNL in 1986.
+[g1ea4f0729d1e] sub6
+  Which of the following is the Government's telecom research and development centre?
+  TDSAT | *C-DOT | TRAI | TEC
+  x: C-DOT (1984) is the government telecom R&D centre; TEC sets standards, TRAI regulates and TDSAT settles disputes.
+[nfaff82a621f] sub6
+  What uniform spectrum cap did TRAI recommend in February 2026?
+  25% | *35% | 40% | 50%
+  x: TRAI recommended auctioning all spectrum across nine bands, a uniform 35% cap, and cutting new-entrant net worth from Rs 100 crore to Rs 50 crore.
+[nf46a20e7e84] sub6
+  What did the Supreme Court hold in the Aircel case in February 2026?
+  Telecom companies own the spectrum they hold | The IBC can restructure spectrum rights | *Telecom companies do not own spectrum | Spectrum can be sold as company property in insolvency
+  x: The Court held that telecom companies do not own spectrum and that the IBC cannot restructure spectrum rights.
+[fc6e09d14928e] sub6
+  In February 2026, to what amount did TRAI recommend cutting the net-worth requirement for a new entrant per service area from Rs 100 crore?
+  Rs 75 crore | Rs 25 crore | *Rs 50 crore | Rs 10 crore
+  x: TRAI (February 2026) recommended a cut from Rs 100 crore to Rs 50 crore per service area.
+
+=== NOTES 5:21 | Emerging Ict Applications – Ai, Big Data, Cloud, Blockchain, Iot and 5G
+## SUB 0 | Internet of Things – Concept, Layers and Devices
+[21:0:0] - **IoT = Internet of Things:** physical devices with sensors, software and connectivity that **communicate without human intervention** – smart homes, connected appliances, smart mirror, fridge that reorders groceries, car that reroutes (UPSC 2018 scenario).
+[21:0:1] - **Four pillars:** **device, data, analytics, connectivity**.
+[21:0:2] # Three-layer architecture
+[21:0:3] TABLE head: Layer | Role
+  [21:0:3.0] Perception | Sensors collect data at the physical level
+  [21:0:3.1] Network | Transmits data – the wireless connection (Wi-Fi, Bluetooth, cellular, RFID)
+  [21:0:3.2] Application | User services
+[21:0:4] - Order from the physical level up: **Perception → Network → Application**.
+[21:0:5] TABLE head: Use | Examples
+  [21:0:5.0] Smart city | Traffic and air-quality monitoring, waste collection
+  [21:0:5.1] Smart agriculture | Precision farming, soil monitoring
+  [21:0:5.2] Wearables | Fitness trackers, health monitors
+  [21:0:5.3] IoMT | Internet of Medical Things: medical devices linked to health IT systems
+  [21:0:5.4] IIoT | Industrial Internet of Things
+[21:0:6] # IoT devices and RFID in news
+[21:0:7] - **AmbiTag** (IIT **Ropar**, AWaDH hub with ScratchNest, 2021): **USB-shaped IoT** data logger recording **ambient temperature** of perishables, vaccines, blood, organs (−40 to +80 °C, 90 days) – **not** IISc.
+[21:0:8] - **RFID** = **Radio Frequency Identification**: tags + readers over **radio waves**; **active** tags have their own battery and longer range, **passive** tags are powered by the **reader's signal**.
+[21:0:9] - **RFID Access Control System:** **Paradip Port** was first among major ports (Nov 2016), with **enhanced maritime security** features, as per **Ministry of Shipping** directives – so "Mumbai Port was first" is false.
+[21:0:10] ~~ Sources: PMF S&T Part 5 p.64; app notes 5:21 sub 1-2, 5; PIB release 1723127 / search results (AmbiTag); itln.in 'Paradip Port introduces modern RFID access control system' (30 Nov 2016)
+## SUB 1 | Metaverse, AI Tools and Facial Recognition
+[21:1:0] - **Metaverse:** a shared immersive **virtual world for people's interaction**; "an **interoperable network of 3D virtual worlds** accessed simultaneously by millions, with **property rights over virtual items**" (UPSC 2024); built on AR and VR.
+[21:1:1] - **Kiyaverse** (Kiya.ai, June 2022): **India's first banking metaverse**.
+[21:1:2] - **Facial recognition:** **NAFRS** (National Automated Facial Recognition System) is being built by **NCRB** (MHA), **not NIC**; main concern is **privacy/accuracy**, not "cannot identify in real time" → APPSC 2023: **neither** statement correct.
+[21:1:3] - **ASTR** (AI and Facial Recognition powered Solution for Telecom SIM Subscriber Verification): developed by the **Department of Telecommunications** to catch SIMs taken on fake documents.
+[21:1:4] - **Geofencing:** virtual geographic boundary that triggers an action on a device; credited to **Michael Dimino** (Getting, Gladys West, Easton = GPS pioneers).
+[21:1:5] TABLE head: AI tool | Developer | Fact
+  [21:1:5.0] ChatGPT | OpenAI | Launched 30 Nov 2022
+  [21:1:5.1] Krutrim | Ola (Bhavish Aggarwal) | Indian-language chatbot
+  [21:1:5.2] Hanooman | SML India (BharatGPT group led by IIT Bombay) | May 2024
+[21:1:6] - **AI Sowing App** (2016, **Microsoft + ICRISAT + AP**): **groundnut**, Devanakonda mandal, Kurnool; ~**30%** higher yield.
+[21:1:7] - **I4C's NCAP** uses AI and big data to analyse **crime trends**.
+[21:1:8] ~~ Sources: PMF S&T Part 5 p.29, p.128-129; app notes 5:21 sub 3, 5; general knowledge (Kiyaverse, ASTR, geofencing)
+## SUB 2 | Fourth Industrial Revolution and Digital Terms
+[21:2:0] TABLE head: Revolution | Defining technology
+  [21:2:0.0] IR1 | Steam / mechanisation
+  [21:2:0.1] IR2 | Electricity / mass production
+  [21:2:0.2] IR3 | Electronics / IT
+  [21:2:0.3] IR4 | Cyber-physical systems: convergence of digital, physical and biological
+[21:2:1] - **4IR technologies:** **AI, machine learning, robotics, IoT, blockchain, quantum computing, geo-spatial mapping** (APPSC FRO 2022). Term popularised by **Klaus Schwab (WEF), 2016**; Alvin Toffler = "Third Wave".
+[21:2:2] - **AP:** WEF **C4IR** for Andhra Pradesh (2026) = India's **3rd**, after **Mumbai** and **Telangana**.
+[21:2:3] TABLE head: Term | Meaning
+  [21:2:3.0] Trade Point | Node of UNCTAD's world-wide electronic trade data network (GTPNet)
+  [21:2:3.1] IRC | Internet Relay Chat
+  [21:2:3.2] 5G NR | New Radio
+  [21:2:3.3] Web 3.0 | Decentralised, blockchain-based internet
+  [21:2:3.4] NFC | Near-Field Communication, a few centimetres
+  [21:2:3.5] NFT | Non-Fungible Token
+  [21:2:3.6] Digital twin | Virtual replica kept updated with real-time sensor data
+[21:2:4] - **Tim Berners-Lee:** World Wide Web; **Nandan Nilekani:** UIDAI.
+[21:2:5] ~~ Sources: app notes 5:21 sub 0-1, 5; general knowledge (UNCTAD Trade Point)
+## SUB 3 | Cloud Computing, Big Data and Edge
+[21:3:0] - **Cloud computing:** **storing and accessing data and programs over the internet** instead of the computer's hard drive.
+[21:3:1] TABLE head: Service model | What is provided
+  [21:3:1.0] IaaS | Infrastructure (computing, storage)
+  [21:3:1.1] PaaS | Platform to build and run applications
+  [21:3:1.2] SaaS | Ready-to-use software – e.g. Outlook, Hotmail, Yahoo! Mail; users can customise the interface and change data fields; access from mobile devices (UPSC 2022: all three)
+[21:3:2] - **MeghRaj = GI Cloud** (MeitY); NIC national cloud **2014**; empanelment models: Public Cloud, Virtual Private Cloud, **Government Community Cloud**.
+[21:3:3] - **Big data Vs:** original 3 (2001) **Volume, Velocity, Variety**; later **Veracity** (quality, trustworthiness) and **Value** (usefulness).
+[21:3:4] - **Edge computing:** processing near the source → low latency; **fog** sits between edge and cloud. Reliance pledged a nationwide edge network (India AI Summit 2026).
+[21:3:5] - **AP State Data Lake:** links **RCH health with POSHAN**, and **housing with land pattas** to plug leakages.
+[21:3:6] ~~ Sources: PMF S&T Part 5 p.67-68, p.100-101; app notes 5:21 sub 5-7
+## SUB 4 | Blockchain
+[21:4:0] - **Features:** decentralised **distributed ledger**, **immutable**, **transparent** (records are not controlled by one body), smart contracts.
+[21:4:1] - **NFTs** = unique digital assets as tokens; real-world asset tokens (land, bonds).
+[21:4:2] - **Governance uses:** **land records**, pharma and agri supply chains, **e-Notary (e-Sign)**, certificates, e-voting.
+[21:4:3] ~~ Sources: app notes 5:21 sub 4
+## SUB 5 | 5G, 6G and the Bharat Telecom Stack
+[21:5:0] - 5G: latency as low as **1 millisecond**; ITU/3GPP use cases **eMBB, URLLC, mMTC** (GPRS is not one).
+[21:5:1] - **Network slicing** splits one physical network into virtual networks (SDN/NFV) – it does **not merge** them.
+[21:5:2] - **Bharat Telecom Stack:** **C-DOT** core + **Tejas Networks** radio + **TCS** integration; BSNL; launched by PM **27 Sep 2025**.
+[21:5:3] - **IIITDM Kurnool** topped DoT's 5G labs ranking (July 2026); Airtel 'Priority Postpaid' raised a **net neutrality** debate.
+[21:5:4] - **Wi-Fi 7:** IEEE **802.11be**, Multi-Link Operation, up to **46 Gbps**. **6G:** early 2030s; Bharat 6G Alliance **2023**.
+[21:5:5] ~~ Sources: app notes 5:21 sub 8
+
+=== OWN MCQs of 5:21 (69)
+[nefedda439e6] sub0
+  What is the full form of IIoT?
+  International Internet of Tools | *Industrial Internet of Things | Integrated Internet of Telecommunication | Internet of Information Technology
+  x: IIoT stands for Industrial Internet of Things and is associated with production processes and equipment-health monitoring.
+[g4fe03d5d18b9] sub0
+  What does the term IoT stand for?
+  *Internet of Things | Integration of Technology | Internet of Telecommunications | Interface of Things
+  x: IoT means Internet of Things: devices networked to communicate without human intervention.
+[g6b44b827e0fb] sub0
+  Smart homes and connected appliances are examples of which technology?
+  Li-Fi | Blockchain | *Internet of Things | Metaverse
+  x: Smart homes and connected appliances are uses of the Internet of Things (IoT).
+[gd18e836a0034] sub0
+  What is the full form of RFID?
+  Remote Frequency Identity Device | Radio Field Integrated Data | Rapid Frequency Identification | *Radio Frequency Identification
+  x: RFID is Radio Frequency Identification: tags and readers that talk over radio waves.
+[gb1cf80d562cc] sub0
+  Through which medium do RFID tags and readers communicate?
+  *Radio waves | Infrared rays | Optical fibre | Visible light
+  x: RFID uses tags and readers that exchange data over radio waves, without line of sight.
+[n4231db5b2a0] sub0
+  What are the four pillars identified for IoT?
+  Connectivity, agriculture, finance and security | Device, electricity, transport and taxation | *Device, data, analytics and connectivity | Data, robotics, satellites and legislation
+  x: The four IoT pillars are device, data, analytics and connectivity.
+[n57e264ace04] sub0
+  In the three-layer IoT architecture, which layer uses sensors at the physical level?
+  Application layer | Network layer | *Perception layer | Session layer
+  x: The perception layer uses sensors, the network layer transmits data and the application layer provides user services.
+[nd6edfd29c4b] sub0
+  In which of the following are traffic and air-quality monitoring and waste collection IoT uses?
+  *Smart cities | Wearables | Smart agriculture | Smart homes
+  x: These are smart-city uses; smart agriculture covers precision farming, soil monitoring and livestock, and wearables are fitness trackers.
+[f11070e1328b3] sub0
+  In which of the following are precision farming and soil monitoring IoT uses?
+  Smart city | Wearables | Industrial IoT | *Smart agriculture
+  x: Precision farming, soil monitoring, livestock and yields are smart-agriculture uses of IoT.
+[f605cae7badce] sub0
+  What is the correct order of the three IoT layers, from the physical level up?
+  Network – Perception – Application | *Perception – Network – Application | Perception – Application – Network | Application – Network – Perception
+  x: Sensors in the perception layer collect data, the network layer transmits it and the application layer gives user services.
+[feba59b9817b7] sub0
+  Fitness trackers and health monitors are examples of which IoT category?
+  *Wearables | Smart city | Smart agriculture | Industrial IoT
+  x: Fitness trackers and health monitors are wearable IoT devices.
+[ga7980546a756] sub0
+  What is the Internet of Things (IoT)?
+  A government cloud for storing records | A shared ledger copied across many nodes | A satellite-based internet service | *Devices networked to communicate without human intervention
+  x: IoT links devices so they communicate with each other without human intervention.
+[gf20134e8bb6a] sub0
+  In the three-layer IoT architecture, which layer transmits the data collected by sensors?
+  Session layer | *Network layer | Application layer | Perception layer
+  x: The perception layer collects data with sensors, the network layer transmits it and the application layer gives user services.
+[nabad392d325] sub0
+  How are passive RFID tags powered?
+  Their own battery | *The reader's signal | A built-in solar cell | A mains connection
+  x: Passive tags draw power from the reader's signal; active tags have their own battery and longer range.
+[f573ea0e0fa8b] sub0
+  Consider the following statements about RFID tags:
+1. Active RFID tags have their own battery.
+2. Passive RFID tags have a longer range than active tags.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: Active tags have their own battery and longer range; passive tags use the reader's signal and have a shorter range.
+[f9bc047c91f69] sub1
+  Which company developed the AI chatbot 'Krutrim'?
+  OpenAI | *Ola | SML India | Microsoft
+  x: Krutrim was unveiled by Ola (Bhavish Aggarwal) on 15 Dec 2023.
+[fe272cb26370d] sub1
+  Which company developed the Indian-language generative AI platform 'Hanooman' (May 2024)?
+  Ola | OpenAI | *SML India | Microsoft
+  x: Hanooman is by SML India with 3AI Holding; Krutrim is Ola's and ChatGPT is OpenAI's.
+[ff88b8ff3cd69] sub1
+  Which company partnered ICRISAT and the AP government in the 2016 AI Sowing App pilot?
+  Google | Ola | OpenAI | *Microsoft
+  x: The AI Sowing App was a Microsoft + ICRISAT + AP government pilot.
+[fecb1611ba2d0] sub1
+  For which crop did the 2016 AI Sowing App pilot in Devanakonda mandal, Kurnool, advise farmers?
+  *Groundnut | Paddy | Cotton | Sugarcane
+  x: It gave Telugu SMS advice on sowing dates for groundnut.
+[f219a4b56eecb] sub1
+  When was ChatGPT, developed by OpenAI, launched?
+  15 Dec 2023 | *30 Nov 2022 | May 2024 | 1 Jul 2015
+  x: ChatGPT was launched on 30 Nov 2022; 15 Dec 2023 is Krutrim and May 2024 Hanooman.
+[gd94a5ddb0167] sub1
+  Match the following:
+List-I (AI platform)
+A. Krutrim
+B. Hanooman
+C. ChatGPT
+List-II (Developer)
+1. OpenAI
+2. Ola
+3. SML India
+Select the correct answer using the code given below:
+  A-3, B-2, C-1 | A-1, B-3, C-2 | *A-2, B-3, C-1 | A-2, B-1, C-3
+  x: Krutrim was developed by Ola, Hanooman by SML India and ChatGPT by OpenAI.
+[gb63c5394ea61] sub1
+  About how much higher yield was reported for farmers using the AI Sowing App in the 2016 Kurnool pilot?
+  75% | *30% | 50% | 10%
+  x: Microsoft, ICRISAT and AP's groundnut sowing app reported about 30% higher yield for 175 farmers.
+[g0c3d9d557a46] sub1
+  With which entrepreneur is the Indian-language AI chatbot Krutrim associated?
+  Nandan Nilekani | Vijay Shekhar Sharma | *Bhavish Aggarwal | Ritesh Agarwal
+  x: Krutrim was developed by Ola, led by Bhavish Aggarwal, and unveiled on 15 December 2023.
+[g76f0198978ab] sub1
+  The Hanooman AI platform is linked to the BharatGPT group led by which institution?
+  IIT Kanpur | *IIT Bombay | IIT Madras | IIT Delhi
+  x: Hanooman, by SML India with 3AI Holding, is linked to the IIT Bombay-led BharatGPT group.
+[n39996fda20a] sub1
+  With which body is the National Automated Facial Recognition System (NAFRS) associated?
+  *National Crime Records Bureau | Ministry of Electronics and Information Technology exclusively | Department of Telecommunications | International Telecommunication Union
+  x: NAFRS is associated with the National Crime Records Bureau (NCRB). Facial-recognition systems also raise privacy concerns.
+[n56543c24e8c] sub1
+  What is a shared immersive virtual world built on AR and VR called?
+  Web 3.0 | Digital twin | Cloud | *Metaverse
+  x: The metaverse is a shared immersive virtual world using AR and VR.
+[naea5f64821e] sub1
+  For what does I4C's NCAP mainly use artificial intelligence and big data?
+  soil moisture and livestock yields | 5G radio interfaces | cloud-service pricing | *crime trends
+  x: I4C's NCAP uses AI and big data to analyse crime trends.
+[n6e0e3d5ef61] sub2
+  Which of the following is NOT correct regarding the Industrial Revolutions?
+  The First was associated with steam and mechanisation | The Second was associated with electricity and mass production | *The First Industrial Revolution was associated with electricity and mass production | The Third was associated with electronics and information technology
+  x: Electricity and mass production mark the Second Industrial Revolution; the First was based on steam and mechanisation.
+[nc68a553b38a] sub2
+  Who coined the term 'Fourth Industrial Revolution', and when?
+  *Klaus Schwab of the World Economic Forum in 2016 | Alvin Toffler in 1980 | Tim Berners-Lee in 1991 | Nandan Nilekani in 2009
+  x: Klaus Schwab, founder of the World Economic Forum (WEF), coined the term in 2016. Toffler wrote of the 'Third Wave', Berners-Lee invented the World Wide Web, and Nilekani led UIDAI; none coined 4IR.
+[n50c866bcd6f] sub2
+  Which of the following sets of technologies is most closely associated with the Fourth Industrial Revolution?
+  Steam engines, railways and coal mining | Electricity, assembly lines and mass production | *Artificial intelligence, robotics, IoT and quantum computing | Telegraph, typewriter and mechanical calculators
+  x: Artificial intelligence, robotics, the Internet of Things and quantum computing are identified with the Fourth Industrial Revolution.
+[n332a457fd02] sub2
+  What is the position of the World Economic Forum's Centre for the Fourth Industrial Revolution (C4IR) announced for Andhra Pradesh among such centres in India?
+  First, ahead of Mumbai | Second, after Mumbai | *Third, after Mumbai and Telangana | Fourth, after Mumbai, Telangana and Karnataka
+  x: The WEF C4IR centre in Andhra Pradesh is India's third, after Mumbai and Telangana. So it is neither the first nor the second, and no fourth (Karnataka) centre precedes it.
+[f4167d6e4d29a] sub2
+  Which futurist is associated with the idea of the 'Third Wave'?
+  Klaus Schwab | Tim Berners-Lee | *Alvin Toffler | Nandan Nilekani
+  x: Alvin Toffler gave the 'Third Wave'; Klaus Schwab coined 'Fourth Industrial Revolution' in 2016.
+[g1477f2e0194e] sub2
+  Who invented the World Wide Web?
+  Klaus Schwab | *Tim Berners-Lee | Alvin Toffler | Nandan Nilekani
+  x: Tim Berners-Lee created the World Wide Web; Klaus Schwab coined '4IR' and Toffler wrote of the 'Third Wave'.
+[gd7a529d83717] sub2
+  The Fourth Industrial Revolution refers to the convergence of which technologies?
+  Electricity and mass production | *Digital, physical and biological | Electronics and information technology only | Steam and mechanisation
+  x: 4IR is the fusion of digital, physical and biological technologies through cyber-physical systems.
+[g0d597f87c7b2] sub2
+  Consider the following statements about the Fourth Industrial Revolution:
+1. It is built on cyber-physical systems and 'smart factories'.
+2. Its defining technology is steam and mechanisation.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: 4IR rests on cyber-physical systems; steam and mechanisation defined the First Industrial Revolution.
+[g76e7185b9526] sub2
+  With which of the following is Nandan Nilekani associated?
+  The 'Third Wave' | World Wide Web | *UIDAI | Fourth Industrial Revolution
+  x: Nandan Nilekani is linked with UIDAI (Aadhaar); Tim Berners-Lee with the WWW and Alvin Toffler with the 'Third Wave'.
+[n6885f8564d2] sub2
+  Which of the following pairs is wrongly matched?
+  NFT – Non-Fungible Token | DLT – Distributed Ledger Technology | Web 3.0 – Decentralised, blockchain-based internet | *5G NR – 5G Network Relay
+  x: 5G NR means 5G New Radio, the air-interface standard.
+[fd380646a1df3] sub2
+  Over about what distance does Near-Field Communication (NFC) work?
+  *A few centimetres | A few hundred metres | A few kilometres | About 50 metres
+  x: NFC works only within a few centimetres.
+[f1a02529df461] sub2
+  What does Web 3.0 refer to?
+  A centralised, server-based internet | A satellite internet service | *A decentralised, blockchain-based internet | A 5G mobile standard
+  x: Web 3.0 is the decentralised, blockchain-based internet.
+[f3f77f4631e83] sub2
+  What does 'NR' stand for in 5G NR?
+  Network Relay | *New Radio | Node Range | Next Release
+  x: 5G NR is 5G New Radio, the air-interface standard.
+[g5f10f38ecdbd] sub2
+  What is a virtual replica of a physical object or system, kept updated with real-time data from sensors, called?
+  Fog computing | Edge computing | Metaverse | *Digital twin
+  x: A digital twin is a virtual model of a physical asset that uses real-time sensor data, used for simulation and predictive maintenance.
+[g5768b43990e8] sub3
+  What does IaaS stand for in cloud computing?
+  Information as a Service | Integration as a Service | *Infrastructure as a Service | Internet as a Service
+  x: IaaS, PaaS and SaaS are Infrastructure, Platform and Software as a Service.
+[n63b9970383a] sub3
+  Consider the following statements:
+1. Edge computing processes data near its source, reducing latency and bandwidth use.
+2. Fog computing sits between edge computing and the cloud.
+Which of the above statement(s) is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Edge computing processes data near the source with lower latency and bandwidth use, and fog computing sits between the edge and the cloud.
+[g99cf643dcf66] sub3
+  Which company pledged a nationwide edge network at the India AI Summit (2026)?
+  Tata | Infosys | *Reliance | Bharti Airtel
+  x: Reliance pledged a nationwide edge computing network at the India AI Summit in 2026.
+[n0ecfeb3fd80] sub3
+  The Andhra Pradesh State Data Lake is used to cross-link which of the following data combinations for plugging leakages?
+  *RCH health with POSHAN data, and housing with land pattas | 5G traffic with Wi-Fi 7, and NFTs with bonds | Facial images with AR overlays, and RFID with Li-Fi | SaaS with PaaS, and IaaS with Web 3.0
+  x: The AP State Data Lake cross-links RCH health data with POSHAN data and housing data with land pattas to help plug leakages.
+[fa96064335f72] sub3
+  What are the original three Vs of big data (2001)?
+  Volume, Veracity, Value | Velocity, Value, Variety | *Volume, Velocity, Variety | Veracity, Velocity, Volume
+  x: Volume, Velocity and Variety were the original 3 Vs; Veracity and Value were added later.
+[ffa43c3ad048c] sub3
+  Which of the following pairs (big data V – meaning) is wrongly matched?
+  Volume – amount of data | Velocity – speed of generation and analysis | *Veracity – usefulness of data | Variety – structured, semi-structured and unstructured data
+  x: Veracity means quality, accuracy and trustworthiness; usefulness is Value.
+[gb659d672e4fa] sub3
+  Which two Vs were later added to the original three Vs of big data?
+  Volume and Velocity | *Veracity and Value | Variety and Volume | Velocity and Variety
+  x: The original 3 Vs (2001) were Volume, Velocity and Variety; Veracity and Value were added to make 5 Vs.
+[fb8c16e89ff8c] sub3
+  What does SaaS provide in cloud computing?
+  Computing and storage infrastructure | A platform to build applications | Network hardware | *Ready-to-use software
+  x: SaaS is Software as a Service: ready-to-use software; IaaS gives infrastructure and PaaS a platform.
+[f4467450a1e1f] sub3
+  By what other name is MeghRaj, the Government of India cloud initiative of MeitY, known?
+  *GI Cloud | Bharat Telecom Stack | India Stack | BharatNet
+  x: MeghRaj is the GI Cloud of MeitY, not a 5G or telecom project.
+[fdef775de5005] sub3
+  In which year did NIC launch the national cloud under MeghRaj?
+  2012 | 2016 | *2014 | 2018
+  x: NIC launched the national cloud under MeghRaj in 2014.
+[fb360dd0621f4] sub3
+  Which of the following is a deployment model used in MeitY's cloud empanelment?
+  *Government Community Cloud | Software as a Service | Platform as a Service | Infrastructure as a Service
+  x: MeitY empanels Public, Virtual Private and Government Community Cloud; IaaS, PaaS and SaaS are service models.
+[gc012110629c5] sub3
+  Which cloud service model provides a platform to build and run applications?
+  GI Cloud | *PaaS | IaaS | SaaS
+  x: PaaS gives a platform for applications; IaaS gives computing and storage; SaaS gives ready-to-use software.
+[fcf59000e7f0f] sub4
+  Consider the following statements about blockchain:
+1. It is a decentralised distributed ledger.
+2. Its records are immutable.
+3. Its records are controlled by a single central authority.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: Blockchain is a decentralised, immutable distributed ledger; it is not controlled by a single central authority.
+[f0adb1d794977] sub4
+  What are unique digital assets recorded as tokens on a blockchain called?
+  Smart contracts | Distributed ledgers | *Non-Fungible Tokens | Real-world asset tokens
+  x: NFTs are unique digital assets; real-world asset tokens represent land, bonds and similar assets.
+[f70580e7d44d3] sub4
+  Land records, pharma supply chains and e-Notary (e-Sign) are governance uses of which technology?
+  Edge computing | Li-Fi | Fog computing | *Blockchain
+  x: These are listed governance uses of blockchain.
+[n1b629f565eb] sub5
+  Wi-Fi 7 is associated with which of the following specifications?
+  *IEEE 802.11be and Multi-Link Operation | IEEE 802.11ax and a maximum speed of 1 Gbps | IEEE 802.11n and optical-only transmission | IEEE 802.11ac and single-link operation
+  x: Wi-Fi 7 is based on IEEE 802.11be, supports Multi-Link Operation and is specified with speeds up to 46 Gbps.
+[nc3cb51a81a6] sub5
+  What is the lowest latency that 5G can provide?
+  100 milliseconds | 10 milliseconds | 50 milliseconds | *1 millisecond
+  x: 5G can offer latency as low as 1 millisecond, along with massive device connectivity and high reliability.
+[nc90c8785e05] sub5
+  Which debate did Airtel's 'Priority Postpaid' offering raise?
+  facial-recognition privacy only | Wi-Fi 7 manufacturing standards | *net neutrality | land-record tokenization
+  x: Airtel's ‘Priority Postpaid’ offering raised a debate on net neutrality.
+[n4d2e11efaed] sub5
+  Which of the following is NOT correct about 5G network slicing?
+  It splits one physical network into several virtual networks | It is achieved by means of SDN/NFV | *It merges several virtual networks into one physical network | It is a feature of 5G networks
+  x: Slicing splits one physical network into several virtual networks using SDN/NFV; it does not merge virtual networks into one.
+[n7d784a0738d] sub5
+  In which year was the Bharat 6G Alliance launched?
+  2021 | *2023 | 2024 | 2025
+  x: The Bharat 6G Alliance was launched in 2023, the same year as the Bharat 6G Vision document.
+[ncebcbd06a0c] sub5
+  Which institution topped the Department of Telecommunications’ 5G laboratories ranking in July 2026?
+  IIT Bombay | National Informatics Centre | *IIITDM Kurnool | IIT Hyderabad
+  x: IIITDM Kurnool topped the Department of Telecommunications’ 5G labs ranking in July 2026.
+[fcf864293e04c] sub5
+  Which organisation built the core network in the indigenous Bharat Telecom Stack?
+  Tejas Networks | TCS | BSNL | *C-DOT
+  x: C-DOT built the core, Tejas Networks the radio and TCS did integration; BSNL deploys it.
+[fa5cf35d06d2b] sub5
+  When are 6G networks expected to arrive?
+  Late 2020s | *Early 2030s | Mid 2040s | Early 2050s
+  x: 6G is expected in the early 2030s.
+[f5853c71ce572] sub5
+  When did the Prime Minister launch the Bharat Telecom Stack?
+  *27 Sep 2025 | 1 Jul 2015 | 27 Dec 2017 | 3 Jun 2026
+  x: The indigenous stack was launched on 27 Sep 2025 (4G, 5G-ready).
+[ge9bf1a35d867] sub5
+  Which of the following is NOT one of the ITU/3GPP use cases of 5G?
+  eMBB | URLLC | mMTC | *GPRS
+  x: The 5G use cases are eMBB, URLLC and mMTC; GPRS is a 2.5G data technology.
+[ga4b1e3dfcf53] sub5
+  Which company provided the radio network in the indigenous Bharat Telecom Stack?
+  *Tejas Networks | C-DOT | TCS | BSNL
+  x: In the Bharat Telecom Stack, C-DOT built the core, Tejas Networks the radio and TCS did integration; BSNL deployed it.
+[gb23497953f4a] sub5
+  Which company carried out system integration in the indigenous Bharat Telecom Stack?
+  BSNL | C-DOT | *TCS | Tejas Networks
+  x: The stack has a C-DOT core, Tejas Networks radio and TCS integration, and is deployed by BSNL.
+[g9b40a33d5069] sub5
+  Up to what speed does Wi-Fi 7 (IEEE 802.11be) offer?
+  100 Gbps | 1 Gbps | *46 Gbps | 9.6 Gbps
+  x: Wi-Fi 7 uses Multi-Link Operation and offers speeds up to 46 Gbps.
+

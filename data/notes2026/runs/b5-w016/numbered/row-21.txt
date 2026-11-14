@@ -1,0 +1,75 @@
+=== NEW NOTES row 21
+## SUB 0 | Internet of Things – Concept, Layers and Devices
+[0:0] - **IoT = Internet of Things:** physical devices with sensors, software and connectivity that **communicate without human intervention** – smart homes, connected appliances, smart mirror, fridge that reorders groceries, car that reroutes (UPSC 2018 scenario).
+[0:1] - **Four pillars:** **device, data, analytics, connectivity**.
+[0:2] # Three-layer architecture
+[0:3] TABLE head: Layer | Role
+  [0:3.0] Perception | Sensors collect data at the physical level
+  [0:3.1] Network | Transmits data – the wireless connection (Wi-Fi, Bluetooth, cellular, RFID)
+  [0:3.2] Application | User services
+[0:4] - Order from the physical level up: **Perception → Network → Application**.
+[0:5] TABLE head: Use | Examples
+  [0:5.0] Smart city | Traffic and air-quality monitoring, waste collection
+  [0:5.1] Smart agriculture | Precision farming, soil monitoring
+  [0:5.2] Wearables | Fitness trackers, health monitors
+  [0:5.3] IoMT | Internet of Medical Things: medical devices linked to health IT systems
+  [0:5.4] IIoT | Industrial Internet of Things
+[0:6] # IoT devices and RFID in news
+[0:7] - **AmbiTag** (IIT **Ropar**, AWaDH hub with ScratchNest, 2021): **USB-shaped IoT** data logger recording **ambient temperature** of perishables, vaccines, blood, organs (−40 to +80 °C, 90 days) – **not** IISc.
+[0:8] - **RFID** = **Radio Frequency Identification**: tags + readers over **radio waves**; **active** tags have their own battery and longer range, **passive** tags are powered by the **reader's signal**.
+[0:9] - **RFID Access Control System:** **Paradip Port** was first among major ports (Nov 2016), with **enhanced maritime security** features, as per **Ministry of Shipping** directives – so "Mumbai Port was first" is false.
+[0:10] ~~ Sources: PMF S&T Part 5 p.64; app notes 5:21 sub 1-2, 5; PIB release 1723127 / search results (AmbiTag); itln.in 'Paradip Port introduces modern RFID access control system' (30 Nov 2016)
+## SUB 1 | Metaverse, AI Tools and Facial Recognition
+[1:0] - **Metaverse:** a shared immersive **virtual world for people's interaction**; "an **interoperable network of 3D virtual worlds** accessed simultaneously by millions, with **property rights over virtual items**" (UPSC 2024); built on AR and VR.
+[1:1] - **Kiyaverse** (Kiya.ai, June 2022): **India's first banking metaverse**.
+[1:2] - **Facial recognition:** **NAFRS** (National Automated Facial Recognition System) is being built by **NCRB** (MHA), **not NIC**; main concern is **privacy/accuracy**, not "cannot identify in real time" → APPSC 2023: **neither** statement correct.
+[1:3] - **ASTR** (AI and Facial Recognition powered Solution for Telecom SIM Subscriber Verification): developed by the **Department of Telecommunications** to catch SIMs taken on fake documents.
+[1:4] - **Geofencing:** virtual geographic boundary that triggers an action on a device; credited to **Michael Dimino** (Getting, Gladys West, Easton = GPS pioneers).
+[1:5] TABLE head: AI tool | Developer | Fact
+  [1:5.0] ChatGPT | OpenAI | Launched 30 Nov 2022
+  [1:5.1] Krutrim | Ola (Bhavish Aggarwal) | Indian-language chatbot
+  [1:5.2] Hanooman | SML India (BharatGPT group led by IIT Bombay) | May 2024
+[1:6] - **AI Sowing App** (2016, **Microsoft + ICRISAT + AP**): **groundnut**, Devanakonda mandal, Kurnool; ~**30%** higher yield.
+[1:7] - **I4C's NCAP** uses AI and big data to analyse **crime trends**.
+[1:8] ~~ Sources: PMF S&T Part 5 p.29, p.128-129; app notes 5:21 sub 3, 5; general knowledge (Kiyaverse, ASTR, geofencing)
+## SUB 2 | Fourth Industrial Revolution and Digital Terms
+[2:0] TABLE head: Revolution | Defining technology
+  [2:0.0] IR1 | Steam / mechanisation
+  [2:0.1] IR2 | Electricity / mass production
+  [2:0.2] IR3 | Electronics / IT
+  [2:0.3] IR4 | Cyber-physical systems: convergence of digital, physical and biological
+[2:1] - **4IR technologies:** **AI, machine learning, robotics, IoT, blockchain, quantum computing, geo-spatial mapping** (APPSC FRO 2022). Term popularised by **Klaus Schwab (WEF), 2016**; Alvin Toffler = "Third Wave".
+[2:2] - **AP:** WEF **C4IR** for Andhra Pradesh (2026) = India's **3rd**, after **Mumbai** and **Telangana**.
+[2:3] TABLE head: Term | Meaning
+  [2:3.0] Trade Point | Node of UNCTAD's world-wide electronic trade data network (GTPNet)
+  [2:3.1] IRC | Internet Relay Chat
+  [2:3.2] 5G NR | New Radio
+  [2:3.3] Web 3.0 | Decentralised, blockchain-based internet
+  [2:3.4] NFC | Near-Field Communication, a few centimetres
+  [2:3.5] NFT | Non-Fungible Token
+  [2:3.6] Digital twin | Virtual replica kept updated with real-time sensor data
+[2:4] - **Tim Berners-Lee:** World Wide Web; **Nandan Nilekani:** UIDAI.
+[2:5] ~~ Sources: app notes 5:21 sub 0-1, 5; general knowledge (UNCTAD Trade Point)
+## SUB 3 | Cloud Computing, Big Data and Edge
+[3:0] - **Cloud computing:** **storing and accessing data and programs over the internet** instead of the computer's hard drive.
+[3:1] TABLE head: Service model | What is provided
+  [3:1.0] IaaS | Infrastructure (computing, storage)
+  [3:1.1] PaaS | Platform to build and run applications
+  [3:1.2] SaaS | Ready-to-use software – e.g. Outlook, Hotmail, Yahoo! Mail; users can customise the interface and change data fields; access from mobile devices (UPSC 2022: all three)
+[3:2] - **MeghRaj = GI Cloud** (MeitY); NIC national cloud **2014**; empanelment models: Public Cloud, Virtual Private Cloud, **Government Community Cloud**.
+[3:3] - **Big data Vs:** original 3 (2001) **Volume, Velocity, Variety**; later **Veracity** (quality, trustworthiness) and **Value** (usefulness).
+[3:4] - **Edge computing:** processing near the source → low latency; **fog** sits between edge and cloud. Reliance pledged a nationwide edge network (India AI Summit 2026).
+[3:5] - **AP State Data Lake:** links **RCH health with POSHAN**, and **housing with land pattas** to plug leakages.
+[3:6] ~~ Sources: PMF S&T Part 5 p.67-68, p.100-101; app notes 5:21 sub 5-7
+## SUB 4 | Blockchain
+[4:0] - **Features:** decentralised **distributed ledger**, **immutable**, **transparent** (records are not controlled by one body), smart contracts.
+[4:1] - **NFTs** = unique digital assets as tokens; real-world asset tokens (land, bonds).
+[4:2] - **Governance uses:** **land records**, pharma and agri supply chains, **e-Notary (e-Sign)**, certificates, e-voting.
+[4:3] ~~ Sources: app notes 5:21 sub 4
+## SUB 5 | 5G, 6G and the Bharat Telecom Stack
+[5:0] - 5G: latency as low as **1 millisecond**; ITU/3GPP use cases **eMBB, URLLC, mMTC** (GPRS is not one).
+[5:1] - **Network slicing** splits one physical network into virtual networks (SDN/NFV) – it does **not merge** them.
+[5:2] - **Bharat Telecom Stack:** **C-DOT** core + **Tejas Networks** radio + **TCS** integration; BSNL; launched by PM **27 Sep 2025**.
+[5:3] - **IIITDM Kurnool** topped DoT's 5G labs ranking (July 2026); Airtel 'Priority Postpaid' raised a **net neutrality** debate.
+[5:4] - **Wi-Fi 7:** IEEE **802.11be**, Multi-Link Operation, up to **46 Gbps**. **6G:** early 2030s; Bharat 6G Alliance **2023**.
+[5:5] ~~ Sources: app notes 5:21 sub 8

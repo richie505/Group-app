@@ -1,0 +1,44 @@
+=== NEW NOTES row 18
+## SUB 0 | Cloud Computing
+[0:0] - **Cloud computing** = hosted computing services (storage, servers, databases, software) over the internet **on demand**, pay-as-you-go.
+[0:1] - Features: on-demand self-service, broad network access, **resource pooling** (many users share resources), **elasticity** (resources grow/shrink with demand), measured service.
+[0:2] TABLE head: Model | User gets | Example
+  [0:2.0] IaaS | Servers, storage, network | Amazon EC2, AWS
+  [0:2.1] PaaS (Platform as a Service) | Platform to develop, test, deploy, run apps | Google App Engine
+  [0:2.2] SaaS | Ready software over the web; mobile access, customisable | Gmail, Outlook
+[0:3] - **Not a separate layer:** "**Hardware as a Service**" (comes under IaaS); **allotment of electromagnetic spectrum** is not a cloud service.
+[0:4] - Deployment models: public, private, hybrid, community ("platform cloud" is not one).
+[0:5] TABLE head: Storage service | Company
+  [0:5.0] SkyDrive (now OneDrive) | Microsoft
+  [0:5.1] S3 | Amazon Web Services
+  [0:5.2] iCloud / Google Drive / Dropbox | Apple / Google / Dropbox
+[0:6] - **MeghRaj (GI Cloud):** Government of India cloud for e-services on **NIC** infrastructure.
+[0:7] ~~ Sources: PMF S&T Part 5 p.67, p.69, p.100; PMF S&T Part 7 p.122; app notes 5:18 sub 1
+## SUB 1 | Big Data and Data Analytics
+[1:0] - **Big data** = large volume of **high-velocity, complex and variable** data (APPSC key).
+[1:1] - Classic **3 Vs: Volume, Velocity, Variety**; **Veracity** and **Value** added later.
+[1:2] TABLE head: Term | Meaning
+  [1:2.0] Data mining | Finding patterns in large datasets
+  [1:2.1] Data warehouse | Cleaned, structured data for analysis
+  [1:2.2] Data lake | Raw data in native format
+  [1:2.3] Metadata | Data about data
+  [1:2.4] R | Language used for statistical computing
+[1:3] - **APPSC 2025:** AI, quantum computing and data science improve environmental management by **analysing large datasets** to predict pollution, optimise resources and simulate climate models.
+[1:4] - **NDGF Policy (MeitY, 2022):** India Data Management Office + India Datasets Programme. **OGD Platform** (NDSAP **2012**). IndiaAI Datasets Platform = **AI-Kosh**.
+[1:5] - India: member of the **UN Committee of Experts on Big Data and Data Science** and its Advisory Board. **ES 2025-26:** UDISE+, AISHE, ABDM surveys + AI for health hotspots.
+[1:6] ~~ Sources: PMF S&T Part 5 p.129 (Vs); app notes 5:18 sub 0, 3; general knowledge, not checked (R)
+## SUB 2 | Data Centres
+[2:0] - **HyperVault AI Data Centre Ltd:** **TCS + TPG** joint venture (2025) for AI-focused, sovereign data centres.
+[2:1] - Capacity: **375 MW (2020) → 1.57 GW (2026) → ~8 GW (2030)**; **Mumbai** largest share (~52%).
+[2:2] - **PUE** = total facility energy ÷ IT energy; **closer to 1 = better** (1.1 best). **Uptime Tier IV**: fully fault-tolerant, **~99.995%**.
+[2:3] - **Draft Data Centre Policy (Sep 2025):** **20-year** tax holiday (not 10). Data centres use ~**1%** of global electricity.
+[2:4] - **Visakhapatnam:** projected biggest hub (~6 GW over 10 years); Vizag–Kapuluppada corridor in **Seismic Zone II**; submarine cables, sea-breeze cooling, nearness to **Southeast Asia** (not the EU); **Google $15 billion, 1 GW AI hub** (Oct 2025); **TCS – HyperVault**.
+[2:5] ~~ Sources: app notes 5:18 sub 4; general knowledge, not checked (TCS–TPG)
+## SUB 3 | Edge, Fog, Serverless and Containers
+[3:0] TABLE head: Model | Where | Feature
+  [3:0.0] Cloud | Distant central data centres | Heavy storage, analytics
+  [3:0.1] Fog | Between edge and cloud | Local aggregation
+  [3:0.2] Edge | On / near the device | Lowest latency; saves bandwidth
+[3:1] - **Virtualisation:** one server runs many VMs, each with its own OS. **Containers** (Docker) are lighter – **share the host OS kernel**.
+[3:2] - **Serverless:** provider runs and scales servers, bills per use (AWS Lambda).
+[3:3] ~~ Sources: app notes 5:18 sub 2
