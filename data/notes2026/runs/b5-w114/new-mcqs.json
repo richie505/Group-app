@@ -1,5 +1,275 @@
 [
  {
+  "s": "Consider the following statements about dietary fats:\n1. Trans fat raises LDL cholesterol and lowers HDL (good) cholesterol.\n2. FSSAI caps trans fat at 5% in fats and oils.\n3. WHO's REPLACE plan set 2023 as the target to eliminate industrially produced trans fats from the global food supply.\n4. Excess saturated fat raises blood lipids and cholesterol.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 4 only",
+   "1, 3 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2 and 3 only"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: FSSAI caps trans fat at 2% (not 5%) in fats and oils. Statements 1 (LDL up, HDL down), 3 (REPLACE target 2023) and 4 (saturated fat raises lipids) are correct.",
+  "tq": "statements",
+  "id": "cp26d326a9c61d",
+  "row": 115,
+  "src": "app"
+ },
+ {
+  "s": "Match List-I with List-II:\nList-I (Fatty acid)\nA. Lauric acid\nB. Butyric acid\nC. Alpha-linolenic acid\nD. Arachidonic acid\nList-II (Source)\n1. Linseed oil\n2. Coconut / palm-kernel oil, breast milk\n3. Liver, brain and glandular organs\n4. Butter\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-2, B-3, C-1, D-4",
+   "A-3, B-2, C-4, D-1",
+   "A-2, B-4, C-1, D-3",
+   "A-1, B-3, C-4, D-2"
+  ],
+  "a": 2,
+  "x": "Correct matching: A-2 (Lauric acid – Coconut / palm-kernel oil, breast milk); B-4 (Butyric acid – Butter); C-1 (Alpha-linolenic acid – Linseed oil); D-3 (Arachidonic acid – Liver, brain and glandular organs). Linseed (flaxseed) is the richest source of alpha-linolenic acid (omega-3); butyric acid is linked with butter; lauric acid with coconut/palm-kernel oil; arachidonic acid with liver, brain and glandular organs.",
+  "tq": "match",
+  "id": "cp78518115396a",
+  "row": 115,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\nAssertion (A): Fish is considered healthier than other meat.\nReason (R): Fish contains polyunsaturated (omega-3) fatty acids that cut LDL and heart risk.\nIn the context of the above, which one of the following is correct?",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the notes say fish is healthier than other meat because its polyunsaturated omega-3 fatty acids lower LDL and heart risk.",
+  "tq": "assertion",
+  "id": "cp3612ab03f908",
+  "row": 115,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about edible oils:\n1. Safflower oil has the highest polyunsaturated fatty acid content among common oils.\n2. Coconut oil is mostly unsaturated.\n3. Sunflower oil has more vitamin E than other vegetable oils.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 2 is wrong: coconut oil is mostly saturated. Statements 1 (safflower, about 75% linoleic acid, highest PUFA) and 3 (sunflower oil, more vitamin E) are correct, so two are correct.",
+  "tq": "statements",
+  "id": "cp31cf9a932e85",
+  "row": 115,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\n1. Coronary artery disease results from plaque buildup in the arteries supplying the heart.\n2. Atherosclerosis is a disease of the respiratory system.\n3. Cardiovascular disease is the leading cause of death in India, and ischaemic heart disease is the world's single biggest killer (WHO).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "2 only",
+   "1 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: atherosclerosis (hardening and narrowing of arteries by plaque) is a disease of the circulatory system. Statements 1 and 3 are correct.",
+  "tq": "statements",
+  "id": "cp4030930f673f",
+  "row": 115,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about the ICMR-INDIAB study (2023):\n1. Diabetes prevalence in India is 11.4%, about 101 million people.\n2. Prediabetes prevalence in India is 15.3%.\n3. Hypertension prevalence in India is about 25.5%.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "3 only",
+   "1 and 2 only",
+   "2 only",
+   "1 only"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: ICMR-INDIAB puts hypertension prevalence at 35.5% (about 315 million), not 25.5%. Statements 1 (diabetes 11.4%, ~101 million) and 2 (prediabetes 15.3%) are correct.",
+  "tq": "statements",
+  "id": "cp1770494c9683",
+  "row": 115,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about cancer in India:\n1. Cancer cases are projected to rise from 1.41 million (2022) to 2.46 million (2045).\n2. Cancer is a nationally notifiable disease.\n3. Seventeen States have notified cancer, Telangana being the latest (July 2026).\n4. A free HPV vaccination campaign for 14-year-old girls was launched on 28 February 2026 from Ajmer.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: cancer is NOT nationally notifiable; only 17 States have notified it. Statements 1, 3 and 4 are correct, so three are correct.",
+  "tq": "statements",
+  "id": "cp85654ce5ba59",
+  "row": 115,
+  "src": "app"
+ },
+ {
+  "s": "Match List-I with List-II:\nList-I (Term)\nA. HbA1c\nB. Oncogenes\nC. Alzheimer's disease\nD. PSE\nList-II (Associated with)\n1. Seizures triggered by flashing lights\n2. Leading cause of dementia\n3. Cancer\n4. Average blood glucose over 2-3 months\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-3, B-2, C-4, D-1",
+   "A-1, B-3, C-2, D-4",
+   "A-4, B-3, C-1, D-2",
+   "A-4, B-3, C-2, D-1"
+  ],
+  "a": 3,
+  "x": "Correct matching: A-4 (HbA1c – Average blood glucose over 2-3 months); B-3 (Oncogenes – Cancer); C-2 (Alzheimer's disease – Leading cause of dementia); D-1 (PSE – Seizures triggered by flashing lights). HbA1c (glycosylated haemoglobin) is used to manage diabetes; oncogenes are mutated growth genes linked with cancer; Alzheimer's is a degenerative brain disorder and the leading cause of dementia; PSE = Photosensitive Epileptic Seizures.",
+  "tq": "match",
+  "id": "cpfc4d4f53b54e",
+  "row": 115,
+  "src": "app"
+ },
+ {
+  "s": "Match List-I with List-II:\nList-I (Term)\nA. Dual burden of disease\nB. Triple burden\nC. Dual burden of malnutrition\nD. DALY\nList-II (Meaning)\n1. Undernutrition together with obesity\n2. Injuries added to communicable and non-communicable diseases\n3. Rising rates of both infectious and non-communicable diseases\n4. Years of life lost plus years lived with disability\nSelect the correct answer using the codes given below:",
+  "o": [
+   "A-3, B-2, C-4, D-1",
+   "A-3, B-2, C-1, D-4",
+   "A-1, B-3, C-4, D-2",
+   "A-4, B-1, C-2, D-3"
+  ],
+  "a": 1,
+  "x": "Correct matching: A-3 (Dual burden of disease – Rising rates of both infectious and non-communicable diseases); B-2 (Triple burden – Injuries added to communicable and non-communicable diseases); C-1 (Dual burden of malnutrition – Undernutrition together with obesity); D-4 (DALY – Years of life lost plus years lived with disability). The triple burden adds injuries such as road accidents; DALY = YLL + YLD (not years gained by treatment).",
+  "tq": "match",
+  "id": "cp4b80196c82a4",
+  "row": 115,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about the spread of diseases:\n1. Dengue, chikungunya and Zika are spread by Aedes mosquitoes.\n2. Japanese encephalitis is carried by Anopheles mosquitoes.\n3. Meningococcal meningitis spreads from person to person by respiratory droplets.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 2 only",
+   "1 only",
+   "2 only",
+   "3 only"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: Japanese encephalitis is carried by Culex, not Anopheles. Statements 1 and 3 are correct.",
+  "tq": "statements",
+  "id": "cp11cd2c9e2df6",
+  "row": 115,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\n1. The India State-Level Disease Burden Initiative (ICMR, PHFI and IHME) is part of the Global Burden of Disease study.\n2. In 2026 ICMR expanded wastewater surveillance from 5 to 50 cities, tracking 10 viruses.\n3. MERA is an ICMR initiative for tuberculosis elimination.\n4. U-WIN is India's digital platform for registering vaccinations.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2, 3 and 4 only",
+   "1, 2 and 3 only",
+   "1, 3 and 4 only",
+   "1, 2 and 4 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: ICMR's MERA is aimed at malaria elimination, not tuberculosis. Statements 1, 2 and 4 are correct.",
+  "tq": "statements",
+  "id": "cpb4e56c834309",
+  "row": 115,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about road injuries and mental health in India:\n1. As per MoRTH, road accidents caused 1,68,491 deaths in 2022, two-wheeler users forming the largest group of victims.\n2. SDG 3 aims to halve road-traffic deaths.\n3. As per GBD 2017, about 1 in 7 Indians had a mental disorder, the most common being anxiety disorders.\n4. Andhra Pradesh declared its Road Safety Policy in 2015.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 4 only",
+   "2, 3 and 4 only",
+   "1, 3 and 4 only",
+   "1, 2 and 3 only"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: GBD 2017 found about 1 in 7 Indians (197.3 million) with mental disorders, but the most common were depressive disorders (45.7 million), followed by anxiety disorders. Statements 1, 2 and 4 are correct.",
+  "tq": "statements",
+  "id": "cpebde1ee40d88",
+  "row": 115,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\nAssertion (A): In Omran's theory of epidemiological transition, the last stage is the Age of Receding Pandemics.\nReason (R): In Omran's theory, the first stage is the Age of Pestilence and Famine.\nIn the context of the above, which one of the following is correct?",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: Omran's last (third) stage is the Age of Degenerative and Man-Made Diseases; Receding Pandemics is the second stage. R is true: the first stage is the Age of Pestilence and Famine.",
+  "tq": "assertion",
+  "id": "cp6680b7451422",
+  "row": 115,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about India's epidemiological transition ('Nations within a nation', Lancet 2017):\n1. The study placed Indian States in four Epidemiological Transition Level (ETL) groups.\n2. A high ratio of communicable-disease DALYs to NCD and injury DALYs indicates a high ETL.\n3. Kerala is in the high ETL group, while Karnataka is in the higher-middle group.\n4. NCD and injury DALYs overtook communicable-disease DALYs for India as a whole in 2003.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: a LOW ratio of communicable DALYs to NCD + injury DALYs means a high (more advanced) ETL. Statements 1, 3 and 4 are correct, so three are correct.",
+  "tq": "statements",
+  "id": "cp5f22164fbfad",
+  "row": 115,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about India's health transition:\n1. India's maternal mortality ratio has fallen by about 86% since 1990.\n2. India's under-five mortality has fallen by about 68% since 1990.\n3. India's probability of dying from an NCD rose between 2001 and 2019 for women over 40 and men over 55 (Lancet).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1, 2 and 3",
+   "1 and 2 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: under-five mortality has fallen by about 78% (not 68%) since 1990. Statements 1 (MMR down 86%) and 3 (NCD death probability rose for women over 40, men over 55) are correct.",
+  "tq": "statements",
+  "id": "cp2b589f020a17",
+  "row": 115,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\n1. NP-NCD was formerly NPCDCS, launched in 2010.\n2. Under NP-NCD, everyone above 40 years is screened for non-communicable diseases.\n3. NP-NCD funding is shared 60:40 between the Centre and general States (90:10 for NE/hilly States).\n4. SDG 3 aims to cut premature deaths from NCDs by one-third.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 3 and 4 only",
+   "1, 2 and 4 only",
+   "2, 3 and 4 only",
+   "1, 2 and 3 only"
+  ],
+  "a": 0,
+  "x": "Statement 2 is wrong: NP-NCD screens everyone above 30 years, not 40. Statements 1, 3 and 4 are correct.",
+  "tq": "statements",
+  "id": "cp13bdff915300",
+  "row": 115,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements:\nAssertion (A): The rising importance of NCDs requires India's health system to shift from curative care to screening and prevention.\nReason (R): The UN General Assembly declaration on NCDs and mental health included digital harms for the first time.\nIn the context of the above, which one of the following is correct?",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true: rising NCDs call for a shift from curative care to screening and prevention, and the UNGA declaration added digital harms for the first time. But the declaration's content does not explain why the health system must shift.",
+  "tq": "assertion",
+  "id": "cp6d70ed553d07",
+  "row": 115,
+  "src": "app"
+ },
+ {
+  "s": "Consider the following statements about disease burden in Andhra Pradesh:\n1. Malaria recorded the highest number of cases in Andhra Pradesh in 2025.\n2. Andhra Pradesh reported 146 AES/JE cases in 2025.\n3. Uddanam, known for chronic kidney disease of unknown cause, is in Vizianagaram district.\n4. In the Uddanam CKDu study, soil, water, blood and urine samples were tested for pesticides and heavy metals with CSIR-IICT Hyderabad.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3 only",
+   "1, 2 and 4 only",
+   "2, 3 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: Uddanam (incl. Kaviti mandal) is in Srikakulam district, not Vizianagaram (Vizianagaram has AP's first Diabetic Foot and Ulcer Clinic). Statements 1, 2 and 4 are correct.",
+  "tq": "statements",
+  "id": "cp969918c724ed",
+  "row": 115,
+  "src": "app"
+ },
+ {
   "s": "Consider the following statements about population norms for rural health facilities in India (plain / hilly-tribal areas):\n1. A Sub Health Centre covers 5,000 people in plain areas and 3,000 in hilly and tribal areas.\n2. A Primary Health Centre covers 30,000 people in plain areas and 20,000 in hilly and tribal areas.\n3. A Community Health Centre covers 1,20,000 people in plain areas and 1,00,000 in hilly and tribal areas.\nWhich of the statements given above is/are correct?",
   "o": [
    "2 and 3 only",
