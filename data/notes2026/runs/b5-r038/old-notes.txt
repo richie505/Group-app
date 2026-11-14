@@ -1,0 +1,1278 @@
+=== NOTES 5:38 | Navigation Satellites – Irnss/navic and Gagan
+## SUB 0 | Gnss and Owner Countries
+[38:0:0] TABLE head: System | Owner | Type
+  [38:0:0.0] GPS | USA (Dept of Defense) | Global
+  [38:0:0.1] GLONASS | Russia | Global
+  [38:0:0.2] Galileo | European Union (live 2016; civilian control; works with GPS, GLONASS) | Global
+  [38:0:0.3] BeiDou | China | Global
+  [38:0:0.4] NavIC | India | Regional
+  [38:0:0.5] QZSS | Japan | Regional
+[38:0:1] # GPS basics
+[38:0:2] - **GPS = Global Positioning System**; begun **1973**, first satellite 1978.
+[38:0:3] - **24 satellites in 6 orbits** at **20,200 km**; each circles Earth **twice a day**; about 30 now (Mar 2026).
+[38:0:4] - Signals **L1** (1,575.42 MHz) + **L2**.
+[38:0:5] - **1 microsecond** clock error ≈ **300 m** position error.
+## SUB 1 | Navic – Constellation and Services
+[38:1:0] - **NavIC = Navigation with Indian Constellation**; formerly **IRNSS**; fully operational **2018**.
+[38:1:1] - Genesis: US denied GPS data in the **1999 Kargil War**.
+[38:1:2] - **7 satellites: 3 GEO + 4 inclined GSO** (at **29°**).
+[38:1:3] - Coverage: India + **1,500 km** beyond its borders.
+[38:1:4] - Bands: **L5 and S**; NVS satellites add civilian **L1**.
+[38:1:5] TABLE head: Service | Users | Accuracy
+  [38:1:5.0] Standard Positioning Service (SPS) | Civilians | Better than 20 m
+  [38:1:5.1] Restricted Service (RS) | Military/authorised | Encrypted
+[38:1:6] - Nodal body for NavIC and GAGAN: **Satellite Navigation Programme Office**, ISRO.
+[38:1:7] GPS = 24 satellites, 6 orbits, global; NavIC = 7, regional, L5 + S (L1/L2 are GPS).
+## SUB 2 | Irnss and Nvs Satellites
+[38:2:0] - **IRNSS-1A**: first dedicated navigation satellite, **PSLV-C22, 1 Jul 2013**; IRNSS-1 series on **PSLV**.
+[38:2:1] - **11** navigation satellites since 2013, all from **Sriharikota**.
+[38:2:2] TABLE head: Satellite | Vehicle / date | Note
+  [38:2:2.0] NVS-01 (2nd generation) | GSLV-F12, May 2023 | First indigenous rubidium clock
+  [38:2:2.1] NVS-02 | GSLV-F15, Jan 2025 | 100th Sriharikota launch; valve glitch → wrong orbit
+[38:2:3] # Clock troubles
+[38:2:4] - First-generation rubidium clocks from Swiss firm **SpectraTime** failed → indigenous **SAC** clocks (2018).
+[38:2:5] - **13 Mar 2026**: **IRNSS-1F** last clock failed → only **3** PNT satellites (**1B, 1I, NVS-01**), below the **4** needed.
+## SUB 3 | Applications and Adoption
+[38:3:0] - **Elena Geo Systems**: India's **first NavIC-based device**, for precise directions on infrastructure projects.
+[38:3:1] - **Qualcomm Snapdragon** chipsets support NavIC.
+[38:3:2] - **MoRTH AIS-140**: NavIC trackers compulsory in **public transport vehicles** (not all private cars).
+[38:3:3] - Timing (Indian Standard Time, power, telecom, banking), surveying, **fleet management**, precision farming, disaster management, marine/aerial navigation.
+[38:3:4] - Reconfigured **IRNSS-1A** sends cyclone, tsunami, high-wave alerts to **fishermen**; useful on AP's long coast.
+[38:3:5] - Strategic autonomy: forces need not rely on foreign systems in conflict.
+## SUB 4 | Gagan and Other Sbas
+[38:4:0] - **GAGAN = GPS Aided GEO Augmented Navigation**; by **ISRO + Airports Authority of India** (not DRDO).
+[38:4:1] - **SBAS**: ground stations compute live corrections for orbit, clock, **ionospheric delay** → better **accuracy, integrity, availability**.
+[38:4:2] - Payloads on **GSAT-8, GSAT-10, GSAT-15**; GSAT-10 launched 29 Sep 2012, Ariane-5, Guiana.
+[38:4:3] - **DGCA certified** it for aviation approach guidance in **2015**.
+[38:4:4] TABLE head: SBAS | Region
+  [38:4:4.0] WAAS | USA
+  [38:4:4.1] EGNOS | Europe
+  [38:4:4.2] MSAS | Japan
+  [38:4:4.3] GAGAN | India
+[38:4:5] GAGAN | augments GPS | aviation
+NavIC | independent | regional
+[38:4:6] - **GAGAN coverage:** serves the **Indian Flight Information Region** and supports precision approach and landing for civil aviation.
+## SUB 5 | Limitations
+[38:5:0] - **Regional** coverage only.
+[38:5:1] - Thin **receiver** ecosystem: L5/S rarely in phone chips; L1 on NVS helps.
+[38:5:2] - Clock failures + NVS-02 failure → NavIC could not fully replace GPS (Mar 2026).
+## SUB 6 | Number Game and Quick Revision
+[38:6:0] TABLE head: Item | Fact
+  [38:6:0.0] NavIC satellites | 7 (3 GEO + 4 GSO)
+  [38:6:0.1] GPS altitude | 20,200 km
+  [38:6:0.2] PNT satellites left | 3 (need 4)
+[38:6:1] # FIRST / LAST / SPECIAL FACTS
+[38:6:2] - First navigation satellite: IRNSS-1A (2013); first indigenous clock: NVS-01.
+## SUB 7 | Appsc Previous Year Questions
+[38:7:0] TABLE head: Examination | Question Area
+  [38:7:0.0] APPSC 2023 | First NavIC device – Elena Geo Systems
+  [38:7:0.1] APPSC | GNSS – owner country
+## SUB 8 | High-probability Mcq Traps
+[38:8:0] - 1. GAGAN by ISRO + AAI, not DRDO.
+[38:8:1] - 2. NavIC bands L5 + S, not L1/L2.
+[38:8:2] - 3. AIS-140: public transport only.
+[38:8:3] - 4. NVS-02 was the 100th Sriharikota launch.
+[38:8:4] - 5. SpectraTime is Swiss.
+[38:8:5] - 6. QZSS Japan regional; Galileo EU global.
+[38:8:6] - 7. MSAS = Japan, EGNOS = Europe.
+[38:8:7] - 8. 3 GEO + 4 GSO, not 4 + 3.
+
+=== OWN MCQs of 5:38 (48)
+[nbd2dfff37b7] sub0
+  At about what altitude do GPS satellites in the original design orbit?
+  2,000 km | 12,000 km | *20,200 km | 35,786 km
+  x: GPS (US DoD, 1973) was designed with 24 satellites in 6 orbits at about 20,200 km; each circles the Earth twice a day.
+[n0d2b78fe557] sub0
+  An error of about one microsecond in an atomic clock used for positioning may produce a position error of about how much?
+  3,000 metres | 3 metres | *300 metres | 30 metres
+  x: A one-microsecond clock error can produce an approximate position error of 300 metres, illustrating the importance of atomic clocks in navigation.
+[fa00235234076] sub0
+  To which of the following does QZSS, a regional navigation satellite system, belong?
+  China | India | *Japan | European Union
+  x: QZSS is Japan's regional system; Galileo (EU) is global.
+[f4e2dab618f4e] sub0
+  BeiDou is the global navigation satellite system of which country?
+  Russia | Japan | USA | *China
+  x: BeiDou is China's global system.
+[fd156c06a275d] sub0
+  How many satellites and orbits does the original GPS constellation have?
+  7 satellites in 3 orbits | *24 satellites in 6 orbits | 24 satellites in 3 orbits | 30 satellites in 6 orbits
+  x: GPS was designed with 24 satellites in 6 orbits; NavIC has 7 satellites.
+[f89a3e8840193] sub0
+  GLONASS is the satellite navigation system of which of the following?
+  China | *Russia | European Union | Japan
+  x: GLONASS is Russia's; BeiDou is China's, Galileo the EU's and QZSS Japan's.
+[g13767044554b] sub0
+  In which year was the GPS programme begun?
+  *1973 | 1978 | 1983 | 1991
+  x: GPS (Global Positioning System) of the US Department of Defense was begun in 1973; its first satellite flew in 1978.
+[g281a6f9fe97f] sub0
+  Which of the following global navigation satellite systems is under civilian control?
+  GPS | GLONASS | BeiDou | *Galileo
+  x: Galileo of the European Union, live since 2016, is under civilian control and works with GPS and GLONASS.
+[g9205c878972c] sub0
+  In which year did Europe's Galileo navigation system go live?
+  2008 | 2012 | *2016 | 2020
+  x: Galileo, the European Union's global navigation system, went live in 2016.
+[g5ce7e2e7ba8f] sub0
+  How many times a day does each GPS satellite go around the Earth?
+  Once | *Twice | Four times | Sixteen times
+  x: GPS satellites orbit at about 20,200 km and circle the Earth twice a day.
+[nda1901e67f7] sub1
+  At about what inclination to the equator are NavIC's four inclined geosynchronous satellites placed?
+  19° | *29° | 42° | 55°
+  x: NavIC has seven satellites: three in geostationary orbit and four in inclined geosynchronous orbit at about 29°.
+[n23405a4dc8a] sub1
+  Which of the following is NOT correct about NavIC signals and services?
+  The newer NVS satellites add a civilian L1 signal. | *The original NavIC signals are broadcast in the L1 and L2 bands. | The Standard Positioning Service is open to all civilians, with accuracy better than 20 m. | The Restricted Service is the encrypted service.
+  x: Original NavIC signals are in the L5 and S bands; L1 and L2 are GPS signals.
+[nfd76bd92f93] sub1
+  Which organisation is the nodal authority for both NavIC and GAGAN?
+  *Satellite Navigation Programme Office under ISRO | Directorate General of Civil Aviation alone | Airports Authority of India alone | Ministry of Defence’s Integrated Defence Staff
+  x: The Satellite Navigation Programme Office under ISRO is the nodal authority for NavIC and GAGAN.
+[ne7aec29a898] sub1
+  NavIC, a regional system unlike the global GPS, covers India and about how far beyond its borders?
+  500 km | 1,000 km | *1,500 km | 2,000 km
+  x: NavIC is regional, covering India plus about 1,500 km beyond its borders, whereas GPS is global.
+[n0294b71a0d2] sub1
+  In which year did NavIC (formerly IRNSS) become fully operational?
+  2013 | 2016 | *2018 | 2020
+  x: NavIC became fully operational in 2018; navigation satellites have been launched since 2013. Its genesis lies in the Kargil (1999) GPS denial.
+[f1ffd54cf606b] sub1
+  Which of the following is the composition of NavIC's seven-satellite constellation?
+  4 GEO + 3 GSO | 7 GEO | *3 GEO + 4 GSO | 2 GEO + 5 GSO
+  x: NavIC has 3 geostationary and 4 inclined geosynchronous satellites, not 4 + 3.
+[ff05c99e153b5] sub1
+  During which war did the US deny GPS data to India, leading to the need for an indigenous system like NavIC?
+  *1999 Kargil War | 1971 war | 1965 war | 1962 war
+  x: NavIC's genesis lies in the US denial of GPS data in the 1999 Kargil War.
+[f689623c0457d] sub1
+  In which bands does NavIC transmit its signals?
+  L1 and L2 bands | Ku and Ka bands | C and S bands | *L5 and S bands
+  x: NavIC uses L5 and S; L1 and L2 are GPS signals (NVS satellites add civilian L1).
+[g267a9295821b] sub1
+  What is the full form of IRNSS, the earlier name of NavIC?
+  Indian Remote Navigation Satellite Service | Integrated Regional Navigation and Surveillance System | *Indian Regional Navigation Satellite System | Indian Range and Navigation Satellite System
+  x: IRNSS stands for Indian Regional Navigation Satellite System; it was renamed NavIC (Navigation with Indian Constellation).
+[n3e145c95f02] sub2
+  A firm from which country supplied the rubidium clocks that repeatedly failed on first-generation IRNSS satellites?
+  France | Germany | *Switzerland | USA
+  x: They came from Swiss firm SpectraTime; ISRO switched to indigenous clocks in 2018.
+[nd2dd3bbceb5] sub2
+  After the last clock on IRNSS-1F failed on 13 March 2026, how many PNT-capable NavIC satellites remained?
+  Two | Four | *Three | Five
+  x: Only IRNSS-1B, IRNSS-1I and NVS-01 remained PNT-capable - three satellites, below the four the service needs.
+[n25612bd605c] sub2
+  Which launch vehicle was used to launch the IRNSS-1 series satellites from Sriharikota?
+  GSLV Mk II | SSLV | LVM3 | *PSLV
+  x: All IRNSS satellites were launched from Sriharikota, and the IRNSS-1 series used PSLV launch vehicles.
+[na7680b95e67] sub2
+  Which launch vehicle launched NVS-01, the first navigation satellite with an indigenous rubidium atomic clock, in May 2023?
+  GSLV-F15 | *GSLV-F12 | PSLV-C55 | LVM3-M3
+  x: NVS-01 was launched in May 2023 on GSLV-F12 and was the first to carry an indigenous rubidium atomic clock; GSLV-F15 flew in January 2025.
+[n004c42c038b] sub2
+  The launch of NVS-02 in January 2025 was which milestone launch from Sriharikota?
+  50th | 75th | *100th | 150th
+  x: NVS-02 (GSLV-F15) was the 100th Sriharikota launch; a valve glitch left it in the wrong orbit.
+[f0d3b85069a9e] sub2
+  Which launch vehicle launched IRNSS-1A, India's first dedicated navigation satellite, on 1 July 2013?
+  GSLV-F12 | *PSLV-C22 | GSLV-F15 | PSLV-C50
+  x: IRNSS-1A flew on PSLV-C22; NVS-01 used GSLV-F12 and NVS-02 GSLV-F15.
+[f41e8b6c4b7d9] sub2
+  How many navigation satellites has India launched since 2013?
+  7 | 9 | *11 | 13
+  x: Eleven navigation satellites have been launched since 2013, all from Sriharikota.
+[fa5a74ee820f1] sub2
+  Consider the following statements about NVS-02:
+1. It was launched by GSLV-F15 in January 2025.
+2. A valve glitch left it in the wrong orbit.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Both are correct: NVS-02 flew on GSLV-F15 in January 2025, and a valve glitch left it in the wrong orbit.
+[g2ad605f1fc28] sub2
+  Which ISRO centre developed the indigenous atomic clocks that replaced the failed imported rubidium clocks of NavIC?
+  *Space Applications Centre (SAC) | National Remote Sensing Centre (NRSC) | ISTRAC | Vikram Sarabhai Space Centre (VSSC)
+  x: After the SpectraTime clocks failed, indigenous SAC clocks were used from 2018.
+[nfd13da926a9] sub3
+  In which vehicles does MoRTH's AIS-140 rule make NavIC-enabled location trackers compulsory?
+  All private cars | *Public transport vehicles | Two-wheelers | Agricultural tractors
+  x: AIS-140 covers public transport vehicles, not all private cars; Snapdragon chipsets support NavIC.
+[ndcb20bf7138] sub3
+  Warnings about which of the following were broadcast to fishermen at sea by the reconfigured IRNSS-1A?
+  earthquake magnitude at global stations | *cyclones, tsunamis and high waves | only rainfall and air pollution | solar flares and auroras only
+  x: Reconfigured IRNSS-1A broadcasts cyclone, tsunami and high-wave warnings to fishermen at sea.
+[nebb65f528b8] sub3
+  Which of the following GPS applications belongs to agriculture?
+  Fleet tracking | Surveying | Precise timing for banking | *Precision farming
+  x: Precision farming is the agricultural use of GPS; fleet tracking, surveying and timing are GPS uses in other sectors.
+[n5abcc3a273f] sub3
+  Why is NavIC important for India's strategic autonomy?
+  *In a conflict, Indian forces need not depend on foreign navigation systems | It provides global coverage like GPS | It uses the GPS L1 and L2 bands | It is operated by DRDO
+  x: An indigenous system frees forces and emergency responders from dependence on foreign navigation systems during conflict; NavIC is regional, uses L5 and S, and is run by ISRO.
+[f879a2caa5eeb] sub3
+  Whose Snapdragon mobile chipsets support NavIC?
+  Intel | Nvidia | AMD | *Qualcomm
+  x: Qualcomm's Snapdragon chipsets support NavIC.
+[f2e9a04aeb9f8] sub3
+  Which of the following is NOT correct about NavIC applications?
+  *AIS-140 makes NavIC trackers compulsory in all private cars | Reconfigured IRNSS-1A sends cyclone and tsunami alerts to fishermen | It supports fleet management | It supports timing for Indian Standard Time
+  x: AIS-140 covers public transport vehicles only, not all private cars.
+[g8ea61585785e] sub3
+  Elena Geo Systems is known for which of the following?
+  Building the GAGAN ground stations | *Developing India's first NavIC-based device | Supplying rubidium clocks for IRNSS satellites | Making Snapdragon chipsets that support NavIC
+  x: Elena Geo Systems made India's first NavIC-based device, used for precise directions on infrastructure projects.
+[n856cb704850] sub4
+  What is the full form of GAGAN?
+  *GPS Aided GEO Augmented Navigation | Global Aviation Ground Assistance Network | Geostationary Aircraft Guidance and Navigation | Global Augmentation and Geospatial Navigation
+  x: GAGAN stands for GPS Aided GEO Augmented Navigation.
+[nfe8ecce6eed] sub4
+  What is the main function of a Satellite-Based Augmentation System?
+  provide encrypted military communication only | replace every navigation satellite with a ground-based radar | *broadcast real-time corrections for orbit, clock and ionospheric delay | increase satellite altitude without correcting navigation data
+  x: An SBAS broadcasts real-time corrections for orbit, clock and ionospheric delay, improving accuracy, integrity and availability.
+[nf1f0afe3a38] sub4
+  Which of the following is NOT correct about GAGAN?
+  *It was jointly developed by ISRO and DRDO. | It serves the Indian Flight Information Region. | It supports precision approach and landing for civil aviation. | DGCA certified it for aviation approach guidance in 2015.
+  x: GAGAN was developed by ISRO and the Airports Authority of India, not DRDO.
+[n1bcb1a8da4f] sub4
+  GAGAN payloads are carried on GSAT-8, GSAT-10 and which other satellite?
+  *GSAT-15 | GSAT-7 | GSAT-11 | GSAT-30
+  x: GAGAN payloads are on GSAT-8, GSAT-10 and GSAT-15.
+[n05c287ce6b2] sub4
+  Which of the following pairs is correctly matched?
+  WAAS — Europe | EGNOS — Japan | *MSAS — Japan | GAGAN — North America
+  x: MSAS is the SBAS associated with Japan. WAAS serves the USA and North America, EGNOS serves Europe and GAGAN serves India.
+[fefad91208f8c] sub4
+  In which year did DGCA certify GAGAN for aviation approach guidance?
+  2012 | *2015 | 2013 | 2018
+  x: GAGAN was certified by DGCA for approach guidance in 2015.
+[f10819de988aa] sub4
+  EGNOS is the Satellite-Based Augmentation System of which region?
+  *Europe | USA | Japan | India
+  x: EGNOS serves Europe; WAAS serves the USA and GAGAN India.
+[f0cb3c466da60] sub4
+  Together with which organisation did ISRO develop GAGAN?
+  DRDO | DGCA | *Airports Authority of India | HAL
+  x: GAGAN is by ISRO and the Airports Authority of India, not DRDO.
+[f51962973d19b] sub4
+  Which region is served by MSAS, a Satellite-Based Augmentation System?
+  Europe | USA | India | *Japan
+  x: MSAS is Japan's SBAS; EGNOS is Europe's and WAAS is the USA's.
+[nbe5a10d88f1] sub5
+  Why was the ecosystem of NavIC receivers thin at first?
+  *L5 and S bands were not commonly included in mobile-phone chipsets | NavIC had no satellites in orbit | GPS prevented all receivers from using satellite signals | NavIC signals were transmitted only through optical fibre
+  x: Receiver adoption was constrained because L5 and S bands were not commonly supported in phone chipsets; the newer civilian L1 signal helps address this limitation.
+[nbb3f2e11be9] sub5
+  Which combination best explains why NavIC could not fully replace GPS over India as reported in March 2026?
+  Absence of any regional coverage and lack of satellites since 1999 | Excessive global coverage and too many civilian receivers | *Repeated atomic-clock failures and the NVS-02 launch failure | Only the use of geostationary satellites, with no clock problems
+  x: Repeated atomic-clock failures and the NVS-02 launch failure reduced the effective constellation, preventing NavIC from fully replacing GPS over India.
+[f152ad3a29d33] sub5
+  Adding the civilian L1 band on NVS satellites helps NavIC overcome which limitation?
+  Regional coverage | *Thin receiver ecosystem | Clock failures | Wrong orbit of NVS-02
+  x: L5 and S are rarely in phone chips; adding L1 on NVS helps receivers adopt NavIC.
+[fc75e2b89d0e3] sub5
+  Consider the following statements about NavIC's limitations:
+1. It provides only regional coverage.
+2. L5 and S bands are rarely found in phone chips.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Both are correct: NavIC is regional, and its L5/S signals are rarely supported by phone chips.
+
+=== NOTES 5:39 | Earth Observation – Irs, Cartosat, Resourcesat, Oceansat, Risat, Eos
+## SUB 0 | Remote Sensing – Definition and Components
+[39:0:0] - **Remote sensing**: information about the Earth **without physical contact**, by measuring **reflected and emitted electromagnetic radiation** from a distance (satellite or aircraft).
+[39:0:1] - It uses **electromagnetic waves** (part of the EM spectrum).
+[39:0:2] # Components (stages)
+[39:0:3] - 1. Energy source / illumination
+[39:0:4] - 2. Radiation through the atmosphere
+[39:0:5] - 3. Interaction with the target
+[39:0:6] - 4. Recording by the sensor
+[39:0:7] - 5. Transmission, reception and processing
+[39:0:8] - 6. Interpretation and analysis
+[39:0:9] - 7. Application
+[39:0:10] APPSC 2022: "Interaction of Energy with **Minimisation**" is NOT a component; nor is physical sampling.
+## SUB 1 | Sensors, Imaging Types and Resolution
+[39:1:0] # Passive vs active
+[39:1:1] TABLE head: Type | Energy | Examples
+  [39:1:1.0] Passive | Reflected sunlight or emitted heat | IRS, Resourcesat, Oceansat, visible cameras, multispectral imagers, infrared radiometers
+  [39:1:1.1] Active | Sends its own pulse, reads the echo | RISAT SAR (microwave), laser/LiDAR
+[39:1:2] APPSC 2023: **Laser = active sensor**; heat of volcanic eruptions is captured by **infrared-sensitive** sensors.
+[39:1:3] # Optical vs SAR vs hyperspectral vs thermal
+[39:1:4] TABLE head: Imaging | Feature
+  [39:1:4.0] Optical (visible/NIR) | Reflected light; needs daylight and clear sky
+  [39:1:4.1] SAR (microwave) | Pierces clouds and darkness; all-weather, day-night
+  [39:1:4.2] Hyperspectral | Hundreds of narrow bands → identifies materials/chemicals
+  [39:1:4.3] Thermal infrared | Emitted heat → volcanoes, forest fires, urban heat
+[39:1:5] APPSC 2021 key gave **Visible** as the band for cloud-covered disaster areas; in principle SAR (microwave) sees through cloud. Follow the key in that exact question.
+[39:1:6] # Resolution types
+[39:1:7] - Four: **spatial, spectral, temporal, radiometric**.
+[39:1:8] APPSC 2025: "**Chemical** resolution" does not exist.
+[39:1:9] - **EM spectrum order:** wavelength falls from radio → microwave → infrared → visible → ultraviolet → X-rays → **gamma rays**, so gamma rays have the shortest wavelength.
+[39:1:10] - **Resolution meanings:** spatial = smallest object a sensor can see; spectral = number and width of bands; **temporal = how often the satellite revisits the same place**; radiometric = sensitivity to small differences in energy.
+## SUB 2 | Remote-sensing Techniques → What They Map
+[39:2:0] TABLE head: Technique | Maps
+  [39:2:0.0] InSAR | Ground deformation – subsidence, earthquake/volcano uplift
+  [39:2:0.1] LiDAR | Laser ranging – elevation, 3D terrain, canopy height
+  [39:2:0.2] NDVI | Vegetation health from red vs near-infrared reflectance
+  [39:2:0.3] Thermal infrared | Volcanic heat, forest fires, urban heat
+  [39:2:0.4] Hyperspectral | Materials and chemicals
+[39:2:1] - **MODIS** = Moderate Resolution Imaging Spectro-radiometer; detected **52,785 forest fires** (Nov 2020 – Jun 2021).
+## SUB 3 | Orbits for Earth Observation
+[39:3:0] TABLE head: Orbit | Altitude | Use
+  [39:3:0.0] LEO (Low Earth Orbit) | 200–2,000 km | Earth observation, ISS, Starlink-type constellations
+  [39:3:0.1] MEO | 2,000–30,000 km | Navigation (GPS)
+  [39:3:0.2] GEO (geostationary) | 35,786 km over the equator | Communication, weather; appears fixed
+  [39:3:0.3] GSO (geosynchronous) | Same height, inclined | Traces a figure-8; NavIC's 4 inclined satellites
+  [39:3:0.4] SSPO (sun-synchronous polar) | ~500–900 km | Polar imaging
+[39:3:1] - **Sun-synchronous**: near-polar; passes each place at the **same local solar time** → even lighting; so most EO satellites use it.
+[39:3:2] - **Geostationary** = geosynchronous, **circular**, in the **plane of the equator**, zero inclination; fixed over one longitude; also called **Clarke's orbit**; used for telecom relay.
+[39:3:3] - GEO and GSO period = one **sidereal day, 23 h 56 min 4.09 s**; only geostationary looks fixed.
+[39:3:4] - Trade-off: **LEO** = finer detail, periodic revisit; **geosynchronous** imagers = coarser detail, very frequent viewing (EOS-05: targets every 5 min, all India every 30 min).
+## SUB 4 | Irs Programme – Origins and Firsts
+[39:4:0] - IRS began **1988** with IRS-1A → **world's largest civilian remote-sensing constellation**.
+[39:4:1] TABLE head: FIRST / early satellite | Fact
+  [39:4:1.0] Rohini (1980) | On SLV-3; series of four, RS-D1 on 31 May 1981
+  [39:4:1.1] Bhaskara I (1979) | First experimental EO satellite (with Bhaskara-2)
+  [39:4:1.2] IRS-1A | 17 Mar 1988, Baikonur, Soviet Vostok – first operational remote-sensing satellite
+  [39:4:1.3] IRS-1B (1991), 1C (1995) | Also from Baikonur on Soviet rockets
+  [39:4:1.4] IRS-P2 (1994) | First IRS on PSLV, Sriharikota
+[39:4:2] - **SLV-3** is a launch vehicle, **not a satellite**.
+[39:4:3] - IRS uses: crop productivity, groundwater, mineral exploration (**not** telecom or traffic studies).
+## SUB 5 | Eo Satellite Series → Function
+[39:5:0] TABLE head: Series / satellite | Type | Function
+  [39:5:0.0] Resourcesat (1, 2, 2A) | Optical | Crops, watershed, precision farming
+  [39:5:0.1] Cartosat (1, 2, 3) | High-res | Mapping, surveillance
+  [39:5:0.2] Oceansat (1 from 1999, 2, 3) | Ocean | Ocean colour, SST, winds; PFZ advisories
+  [39:5:0.3] RISAT (1, 2, 2B) | SAR | All-weather imaging; floods, counter-terrorism
+  [39:5:0.4] SCATSAT-1 | Scatterometer | Ocean wind vectors, cyclones
+  [39:5:0.5] HySIS | Hyperspectral | Hyperspectral imaging (not DTH)
+  [39:5:0.6] SARAL | ISRO-CNES (France) | AltiKa Ka-band altimeter; sea-surface height
+  [39:5:0.7] EOS | New name for all EO satellites | Agriculture, environment, disasters
+  [39:5:0.8] EOS-08 | Microsatellite | SSLV-D3 (2024)
+[39:5:1] - **CNES** = France's space agency; ISRO-CNES maritime surveillance pact, Mar 2019.
+[39:5:2] # EOS renamings
+[39:5:3] TABLE head: EOS name | Earlier name | Note
+  [39:5:3.0] EOS-03 | GISAT-1 | Geo-imaging; lost on GSLV-F10, Aug 2021 (cryogenic stage)
+  [39:5:3.1] EOS-04 | RISAT-1A | SAR; used in NRSC CROP wheat estimate 2024-25
+  [39:5:3.2] EOS-05 | GISAT-1A | First EO imager in geosynchronous orbit (2026)
+  [39:5:3.3] EOS-06 | Oceansat-3 | PFZ advisories
+[39:5:4] RISAT = radar through clouds; Oceansat = fishing zones; Cartosat = mapping; Resourcesat = crops.
+## SUB 6 | Cartosat Series
+[39:6:0] TABLE head: Satellite | Year | Feature
+  [39:6:0.0] Cartosat-1 | 2005 | India's first mapping satellite; stereo images for 3D maps
+  [39:6:0.1] Cartosat-2 series | 2007 on | Sub-metre; Smart Cities, corridors, borders
+  [39:6:0.2] Cartosat-3 | Nov 2019 | ~25 cm; PSLV-C47 with 13 US nanosatellites; Gati Shakti, borders
+[39:6:1] - Cartosat-2 series satellite (**714 kg**): **PSLV-C37, 15 Feb 2017**, record **104 satellites** into a **506 km SSO**.
+[39:6:2] - **Cartosat-2S** images mapped **Joshimath** subsidence (2023).
+[39:6:3] - Cartosat-3 imagery powers **KASTURI** and **Bharat Darshan** heritage apps (Apr 2026).
+## SUB 7 | Recent Eo Missions – EOS-05, Nisar, Losses
+[39:7:0] - **EOS-05**: **GSLV-F17**, Sriharikota, **4 Sep 2026**, 2,367 kg; visible to long-wave IR; floods, cyclones, forest fires, crops, security (not submarine communication). India's first **geosynchronous land-imaging** satellite (earlier GEO "eyes" were weather satellites).
+[39:7:1] - **NISAR** (NASA-ISRO SAR): **GSLV-F16, 30 Jul 2025**; **NASA L-band + ISRO S-band**; world's first dual-frequency radar satellite; **12 m** antenna reflector.
+[39:7:2] TABLE head: Lost satellite | Vehicle / date
+  [39:7:2.0] EOS-03 (GISAT-1) | GSLV-F10, Aug 2021
+  [39:7:2.1] EOS-09 (C-band SAR) | PSLV-C61, May 2025
+  [39:7:2.2] DRDO hyperspectral EOS-N1 "Anvesha" | PSLV-C62, Jan 2026
+## SUB 8 | Insat, Gsat and Individual Satellites
+[39:8:0] TABLE head: Satellite | Launcher | Function
+  [39:8:0.0] APPLE (1981) | Ariane-1, Kourou | First experimental GEO comsat
+  [39:8:0.1] INSAT-1B (1983) | US Space Shuttle Challenger | INSAT commissioned
+  [39:8:0.2] Kalpana-1 (2002) | PSLV | Exclusive weather satellite
+  [39:8:0.3] INSAT-4CR (2007) | GSLV-F04 | 2,130 kg; heaviest from India in its day
+  [39:8:0.4] GSAT-10 (2012) | Ariane-5, Kourou | Communication + GAGAN
+  [39:8:0.5] GSAT-7 "Rukmini" (2013) | Ariane-5, Kourou | Navy (GSAT-7A for IAF)
+  [39:8:0.6] GSAT-30 (Jan 2020) | Ariane-5, Kourou | C/Ku communication; replaces INSAT-4A
+  [39:8:0.7] INSAT-3DS | GSLV-F14, 17 Feb 2024 | Weather; fully funded by MoES
+[39:8:1] - **INSAT** services: telecom, TV, meteorology, telemedicine, tele-education (EDUSAT 2004), **COSPAS-SARSAT** search and rescue. Bands: **C, Ku, Ka, S**.
+[39:8:2] - **GSAT** (from 2001): telecom, DTH, strategic; GSAT-19/29/11/N2 = broadband.
+[39:8:3] - **19** operational comsats; **10** moved to **NSIL** in 2022.
+## SUB 9 | Navigation – Navic, Gnss and Gagan
+[39:9:0] - **IRNSS** = Indian Regional Navigation Satellite System; **NavIC** = Navigation with Indian Constellation.
+[39:9:1] - **7 satellites: 3 GEO + 4 GSO**; India + **1,500 km**; **L5 and S** bands.
+[39:9:2] - **NVS-01** (2023) – 2nd generation; **NVS-02**: GSLV-F15, **29 Jan 2025**, **100th Sriharikota launch**; never reached circular orbit – a **loose pyro connector** (panel, 26 Feb 2026).
+[39:9:3] - **13 Mar 2026**: IRNSS-1F's last rubidium clock stopped (3 days after its 10-year life) → only **3** PNT satellites (**1B, 1I, NVS-01**); a fix needs **4**.
+[39:9:4] - First NavIC-based device: **Elena Geo Systems**.
+[39:9:5] TABLE head: System | Owner | Scope
+  [39:9:5.0] GPS | USA (~30 satellites, MEO) | Global
+  [39:9:5.1] GLONASS | Russia (not UK) | Global
+  [39:9:5.2] Galileo | European Union (not USA) | Global
+  [39:9:5.3] BeiDou | China | Global
+  [39:9:5.4] QZSS (Michibiki) | Japan | Regional
+  [39:9:5.5] NavIC | India | Regional
+[39:9:6] - India: **only developing country** with its own independent regional system; **Japan** also has its own.
+[39:9:7] - **GAGAN** = GPS Aided GEO Augmented Navigation; **ISRO + Airports Authority of India**; ground stations send corrections; **civil aviation precision landing** (not an NRSC EO use).
+## SUB 10 | Nrsc Platforms, Eo in News and Ap
+[39:10:0] - Chain: collection → ground station → processing at **NRSC, Hyderabad** (nodal) → ministries, states, disaster agencies.
+[39:10:1] - Platforms: **Bhuvan** (ISRO geoportal, **3-D** imaging, open data, thematic layers), **Bhoonidhi**, **MOSDAC**, **VEDAS**.
+[39:10:2] - Uses: groundwater mapping, wastelands, wetlands, **FASAL** crop forecasting, drought, NUIS, **INFFRAS** (forest fire response and assessment system), SIS-DP.
+[39:10:3] TABLE head: In news | Agency / satellite
+  [39:10:3.0] Landslide Atlas of India | NRSC (2023)
+  [39:10:3.1] Joshimath subsidence | NRSC with Cartosat-2S
+  [39:10:3.2] CROP (Comprehensive Remote Sensing Observation on Crop Progress) | NRSC with EOS-04 SAR (Apr 2025)
+  [39:10:3.3] Bhuvan flood maps, cyclone tracks | RISAT + INSAT-3DS (Apr 2026)
+  [39:10:3.4] Glacial lakes | CWC monitors since 2011 with NRSC imagery; Glacial Lake Atlas 2023: 7,570 lakes in India; Himalayan lake area up ~9% 2011-2025
+[39:10:4] - Training: **IIRS** and **CSSTEAP**, both **Dehradun**.
+[39:10:5] - **AP**: **AP Space Applications Centre (APSAC)** is the state remote-sensing agency; **SDSC-SHAR** (Tirupati district) gives Bay of Bengal cyclone-track data to **APSDMA**; all launches above from Sriharikota.
+## SUB 11 | Number Game and Quick Revision
+[39:11:0] TABLE head: Item | Fact
+  [39:11:0.0] Resolution types | 4
+  [39:11:0.1] Cartosat-3 resolution | ~25 cm
+  [39:11:0.2] PSLV-C37 record | 104 satellites, 506 km SSO
+  [39:11:0.3] GEO period | 23 h 56 min 4.09 s
+  [39:11:0.4] SSPO height | 500–900 km
+  [39:11:0.5] NavIC | 3 GEO + 4 GSO
+  [39:11:0.6] EOS-05 mass | 2,367 kg
+[39:11:1] # FIRST / LAST / SPECIAL FACTS
+[39:11:2] - First operational remote-sensing satellite: **IRS-1A** (1988, Baikonur).
+[39:11:3] - First IRS on PSLV: **IRS-P2** (1994).
+[39:11:4] - First mapping satellite: **Cartosat-1**.
+[39:11:5] - First dual-frequency radar satellite: **NISAR**.
+[39:11:6] - First EO imager in geosynchronous orbit: **EOS-05** (2026).
+## SUB 12 | Appsc Previous Year Questions
+[39:12:0] TABLE head: Examination | Question Area
+  [39:12:0.0] APPSC 2025 | Resolution types – "chemical" does not exist
+  [39:12:0.1] APPSC 2023 | Laser as active sensor; infrared for volcano heat
+  [39:12:0.2] APPSC 2022 | Components of remote sensing system
+  [39:12:0.3] APPSC 2021 | EOS-03 geo-imaging; band for cloud-covered areas
+  [39:12:0.4] APPSC | IRS-1A, Cartosat-1, NavIC, GNSS owners
+## SUB 13 | High-probability Mcq Traps
+[39:13:0] - 1. **EOS-03 = GISAT-1** (lost 2021); **EOS-05 = GISAT-1A** (first in GEO, 2026).
+[39:13:1] - 2. **EOS-04 = RISAT-1A**; **EOS-06 = Oceansat-3**.
+[39:13:2] - 3. IRS-1A from **Baikonur** on Vostok, not Sriharikota; IRS-P2 first on PSLV.
+[39:13:3] - 4. NISAR: NASA **L**-band, ISRO **S**-band; GSLV-F16, not PSLV.
+[39:13:4] - 5. Laser/LiDAR and SAR are **active**; cameras and radiometers passive.
+[39:13:5] - 6. No "chemical" resolution; "minimisation" is no component.
+[39:13:6] - 7. HySIS = hyperspectral, not DTH; SARAL = ISRO-CNES.
+[39:13:7] - 8. GLONASS = Russia; Galileo = EU; QZSS = Japan, regional.
+[39:13:8] - 9. INSAT-1B went up on **Challenger**, APPLE on **Ariane-1**.
+[39:13:9] - 10. GAGAN aids aviation landing; it is not an NRSC EO application.
+
+=== OWN MCQs of 5:39 (99)
+[n4ff806e568c] sub0
+  Which one of the following most appropriately describes remote sensing?
+  Preparation of maps only through manual surveying | Measurement of only the chemical composition of rocks by direct sampling | Recording of atmospheric pressure exclusively through ground instruments | *Collection of information about the Earth without physical contact, using reflected or emitted electromagnetic radiation
+  x: Remote sensing obtains information about the Earth without physical contact by detecting reflected or emitted electromagnetic radiation.
+[f869963cea17d] sub0
+  In a remote sensing system, which stage comes right after recording by the sensor?
+  Radiation through the atmosphere | *Transmission, reception and processing | Interpretation and analysis | Interaction with the target
+  x: The stages run: energy source, atmosphere, interaction with target, recording, then transmission, reception and processing, interpretation, application.
+[ndb8a5683f99] sub0
+  Remote sensing gathers information about a target without which of the following?
+  Electromagnetic radiation | *Physical contact | Transmission and processing of data | A sensor
+  x: Remote sensing works from a distance without physical contact, so physical sampling is not one of its stages.
+[n675f2d3141d] sub1
+  Consider the following statements about SAR sensors:
+1. SAR sensors can observe through clouds and in darkness.
+2. SAR is an active sensor that uses its own microwave signal and reads the echo.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Both are correct: SAR sends its own microwave signal instead of relying on sunlight, so it works through clouds and in darkness.
+[n8099481514f] sub1
+  For which of the following is hyperspectral remote sensing particularly useful?
+  Producing radar echoes from a single microwave band | *Identifying materials or chemicals using hundreds of narrow spectral bands | Measuring only the revisit interval of a satellite | Determining satellite launch velocity without imaging
+  x: Hyperspectral sensing uses hundreds of narrow spectral bands, enabling identification of materials and their chemical characteristics.
+[n1970791ad86] sub1
+  How many types of resolution are there in remote sensing?
+  Five | Three | Six | *Four
+  x: The four types are spatial, spectral, temporal and radiometric; 'chemical resolution' does not exist.
+[fb19b4fa27754] sub1
+  Which of the following is a passive remote-sensing instrument?
+  LiDAR | *Infrared radiometer | Laser ranging sensor | RISAT SAR
+  x: Infrared radiometers record emitted heat and are passive; SAR and laser/LiDAR send their own pulse and are active.
+[fdacc6421096f] sub1
+  What does optical (visible/near-infrared) imaging need?
+  Cloud cover | Its own microwave pulse | A laser echo | *Daylight and a clear sky
+  x: Optical sensors use reflected light, so they need daylight and a clear sky, unlike SAR.
+[ne4c45deaa38] sub1
+  Which one of the following is an example of an active remote-sensing system?
+  Multispectral camera on Resourcesat | Infrared radiometer recording emitted heat | *Laser-based LiDAR | Visible-band camera on Oceansat
+  x: LiDAR sends its own laser pulse and reads the echo, so it is active (APPSC 2023: laser is active). Multispectral cameras, infrared radiometers and visible cameras record sunlight reflected or heat emitted by the target, so they are passive.
+[ge24bbd1dbc06] sub1
+  Which of the following has the shortest wavelength?
+  Infrared rays | Visible light | Ultraviolet rays | *Gamma rays
+  x: In the electromagnetic spectrum, wavelength falls from infrared to visible to ultraviolet to gamma rays, so gamma rays have the shortest wavelength.
+[g92689ade4962] sub1
+  In remote sensing, what does temporal resolution refer to?
+  The smallest object a sensor can see | The number and width of spectral bands | *How often a satellite revisits the same place | The sensitivity to small differences in energy
+  x: Temporal resolution is the revisit time of a satellite over one place; the other three describe spatial, spectral and radiometric resolution.
+[nfa3d37506cc] sub2
+  Which technique is most directly suited to detecting heat from volcanic eruptions, forest fires and urban heat?
+  NDVI | LiDAR | InSAR | *Thermal infrared sensing
+  x: Thermal infrared sensing records emitted heat and is therefore useful for volcanic eruptions, forest fires and urban heat mapping.
+[n82eb64ecfe3] sub2
+  Which of the following remote-sensing technique pairs is correctly matched?
+  InSAR – Elevation and canopy height by laser ranging | LiDAR – Ground deformation such as subsidence | *NDVI – Vegetation health from red vs near-infrared reflectance | LiDAR – Vegetation health from red vs near-infrared reflectance
+  x: NDVI gauges vegetation health from red vs NIR reflectance; InSAR maps ground deformation and LiDAR uses laser ranging for elevation and canopy height.
+[f720ed72e926f] sub2
+  Which remote-sensing technique maps ground deformation such as land subsidence?
+  NDVI | *InSAR | LiDAR | Hyperspectral imaging
+  x: InSAR maps ground deformation such as subsidence and earthquake or volcano uplift.
+[fbdf531202588] sub2
+  What is LiDAR mainly used to map?
+  Ocean colour | *Elevation, 3D terrain and canopy height | Heat from forest fires | Materials and chemicals
+  x: LiDAR is laser ranging that maps elevation, 3D terrain and canopy height.
+[faf171deef12c] sub2
+  NDVI estimates vegetation health from reflectance in which bands?
+  Microwave and thermal infrared | Blue and green | Ultraviolet and visible | *Red and near-infrared
+  x: NDVI compares red and near-infrared reflectance to judge vegetation health.
+[g3a9c304d3f75] sub2
+  Which sensor detected 52,785 forest fires in India between November 2020 and June 2021?
+  LiDAR | *MODIS | AltiKa | Scatterometer
+  x: MODIS (Moderate Resolution Imaging Spectro-radiometer) detected 52,785 forest fires in the 2020-21 fire season.
+[n9b2be30b3dd] sub3
+  What is the typical altitude of a sun-synchronous polar orbit?
+  35,786 km | 20,200 km | *500-900 km | 2,000-5,000 km
+  x: SSOs are near-polar at about 500-900 km, passing a place at the same local solar time for uniform lighting.
+[n21c49baead1] sub3
+  GEO and GSO satellites share an orbital period of one sidereal day. About how long is it?
+  *23 h 56 min | 24 h 0 min | 23 h 30 min | 12 h 0 min
+  x: One sidereal day is about 23 h 56 min; only the geostationary case appears fixed in the sky.
+[n29c71115eb7] sub3
+  Compared with geosynchronous imagers, what do LEO imaging satellites generally provide?
+  *Finer detail with periodic revisit | Continuous observation of one region | The same detail and revisit frequency | Coarser detail with very frequent observation
+  x: LEO gives finer detail but revisits periodically; geosynchronous imagers give coarser detail but observe priority targets very frequently.
+[nd62c303f4b4] sub3
+  Which orbit is correctly matched with its typical use?
+  MEO – Communication | GEO – Navigation | *LEO (200–2,000 km) – Earth observation | SSPO – Satellite appears fixed over the Equator
+  x: LEO extends from about 200 to 2,000 km and is widely used for Earth observation. MEO is used for navigation, GEO for communication and weather, and SSPO for polar imaging.
+[f323b4ca4625c] sub3
+  In satellite orbits, what is the full form of LEO?
+  Long Equatorial Orbit | Lateral Earth Orbit | Lunar Elliptical Orbit | *Low Earth Orbit
+  x: LEO is Low Earth Orbit (200-2,000 km), used for Earth observation.
+[f21c4d78760a9] sub3
+  Why do most Earth-observation satellites use a sun-synchronous orbit?
+  *Passes each place at the same local solar time | Traces a figure-8 ground track | Lies in the plane of the equator | Keeps the satellite fixed over one longitude
+  x: A sun-synchronous orbit crosses each place at the same local solar time, giving even lighting.
+[f4e3bf19b1894] sub3
+  By what other name is the geostationary orbit known?
+  Sun-synchronous orbit | Hohmann orbit | Halo orbit | *Clarke's orbit
+  x: The geostationary orbit, circular and in the equatorial plane, is also called Clarke's orbit.
+[ffdfca04c60f0] sub3
+  Navigation satellites such as GPS mainly use which orbit?
+  GEO | Sun-synchronous polar orbit | LEO | *MEO
+  x: MEO (2,000-30,000 km) is used for navigation such as GPS.
+[f874b4e1fe3c4] sub3
+  Which of the following is NOT correct about the geostationary orbit?
+  It is circular | It has zero inclination | It lies in the plane of the equator | *It traces a figure-8 over the Earth
+  x: A geostationary orbit is circular, equatorial and has zero inclination; the figure-8 is traced by inclined geosynchronous orbits.
+[nda2a20c2a12] sub4
+  Which was the first IRS satellite launched on PSLV from Sriharikota?
+  IRS-1A | IRS-1B | IRS-1C | *IRS-P2
+  x: IRS-P2 (1994) was the first on PSLV; IRS-1A, 1B and 1C were launched from Baikonur on Soviet rockets.
+[n574e1b4b689] sub4
+  With which satellite did India's IRS programme, the world's largest civilian remote-sensing constellation, begin in 1988?
+  *IRS-1A | Bhaskara-I | IRNSS-1A | IRS-1B
+  x: The IRS programme began with IRS-1A in 1988 and is regarded as the largest civilian remote-sensing constellation in the world.
+[f57ba98193b1a] sub4
+  On which rocket was IRS-1A launched in 1988?
+  *Soviet Vostok rocket | PSLV | SLV-3 | Ariane-1
+  x: IRS-1A went up from Baikonur on a Soviet Vostok rocket; IRS-P2 (1994) was the first IRS on PSLV.
+[f7c6fdb6d5e86] sub4
+  Which was India's first experimental Earth-observation satellite (1979)?
+  IRS-P2 | IRS-1A | Rohini | *Bhaskara I
+  x: Bhaskara I (1979) was the first experimental EO satellite; IRS-1A (1988) was the first operational one.
+[ff9059e3bd875] sub4
+  For which of the following are IRS satellites NOT used?
+  Assessing crop productivity | Mineral exploration | Locating groundwater | *Telecommunication
+  x: IRS data serve crops, groundwater and mineral exploration, not telecommunication.
+[gffebb25e9c7d] sub4
+  Which launch vehicle placed the Rohini satellite in orbit in 1980?
+  ASLV | PSLV | *SLV-3 | Vostok
+  x: Rohini was launched in 1980 on India's SLV-3, which is a launch vehicle, not a satellite.
+[n89e97d4baf3] sub5
+  What was the former name of EOS-05, launched by GSLV-F17 on 4 September 2026?
+  GISAT-1 | RISAT-1A | *GISAT-1A | INSAT-3DS
+  x: EOS-05 was formerly GISAT-1A and became the first EO imager working from geosynchronous orbit; GISAT-1 was EOS-03.
+[n6d33bbf0f60] sub5
+  Data from which satellite series is mainly used for Potential Fishing Zone (PFZ) advisories?
+  Resourcesat series | Cartosat series | RISAT series | *Oceansat series
+  x: Oceansat supports PFZ advisories; Resourcesat serves crops and watersheds, Cartosat mapping and RISAT SAR imaging.
+[n62b7643885f] sub5
+  Which of the following is NOT correctly matched?
+  SCATSAT-1 — ocean-surface wind vectors | RISAT — all-weather, day-night radar imaging | Oceansat — ocean colour and sea-surface temperature | *HySIS — direct-to-home television broadcasting
+  x: HySIS is a hyperspectral-imaging satellite. Direct-to-home broadcasting is associated with communication satellites, not HySIS.
+[nf496effc0d5] sub5
+  Which one of the following is NOT correctly matched?
+  SARAL — AltiKa Ka-band altimeter | SARAL — measurement of sea-surface height | *SARAL — hyperspectral imaging of agricultural fields | SARAL — ISRO-CNES altimetry mission
+  x: SARAL is an ISRO-CNES altimetry mission using the AltiKa Ka-band altimeter to measure sea-surface height; hyperspectral agricultural imaging is associated with HySIS.
+[nb3f5051ce0a] sub5
+  Consider the following statements about Indian satellites:
+1. INSAT-3DS and Kalpana-1 are used for weather monitoring.
+2. The Oceansat series serves ocean studies.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: Both are correct: INSAT-3DS and Kalpana-1 are weather satellites and Oceansat serves ocean studies.
+[naa4f552e0dd] sub5
+  For what purpose was EOS-03, also known as GISAT-1, mainly intended?
+  Providing direct-to-home television services | *Near-real-time geo-imaging of floods and cyclones | Testing a Ka-band ocean altimeter | Measuring ocean winds for cyclone forecasting
+  x: EOS-03, formerly GISAT-1, was designed for geo-imaging and near-real-time observation of events such as floods and cyclones.
+[n2338840b632] sub5
+  EOS-06 is the new name of which satellite?
+  *Oceansat-3 | Oceansat-2 | Cartosat-3 | RISAT-1A
+  x: EOS-06 is Oceansat-3 (used for PFZ advisories); EOS-04 is RISAT-1A.
+[n4891e417df1] sub5
+  A problem in which stage caused the failure of EOS-03 (GISAT-1), launched by GSLV-F10 in August 2021?
+  First (solid) stage | Strap-on boosters | Second (Vikas) stage | *Cryogenic stage
+  x: The EOS-03 mission failed due to a cryogenic-stage problem.
+[fff6c9fe1495c] sub5
+  What does SCATSAT-1 measure with its scatterometer?
+  Crop health | Land subsidence | Sea-surface height | *Ocean wind vectors
+  x: SCATSAT-1's scatterometer measures ocean wind vectors and helps track cyclones.
+[ffa433c8914d6] sub5
+  SARAL, carrying the AltiKa Ka-band altimeter, is a joint satellite of ISRO and which agency?
+  JAXA | *CNES | ESA | NASA
+  x: SARAL is an ISRO-CNES (France) satellite measuring sea-surface height.
+[f4fab654ec243] sub5
+  EOS-04 is the new name of which satellite?
+  *RISAT-1A | GISAT-1 | GISAT-1A | Oceansat-3
+  x: EOS-04 was RISAT-1A, a SAR satellite; GISAT-1 became EOS-03 and Oceansat-3 became EOS-06.
+[fe455575b8092] sub5
+  For what are Resourcesat satellites mainly used?
+  All-weather radar imaging | Potential Fishing Zone advisories | *Crops, watershed and precision farming | Mapping and surveillance
+  x: Resourcesat is for crops; Cartosat maps, Oceansat gives PFZ advisories and RISAT does radar imaging.
+[fa5aaab234102] sub5
+  Which launch vehicle launched the EOS-08 microsatellite in 2024?
+  GSLV-F17 | SSLV-D2 | *SSLV-D3 | PSLV-C61
+  x: EOS-08 is a microsatellite launched by SSLV-D3 in 2024.
+[f8f31c8df685f] sub5
+  Consider the following statements about EOS renamings:
+1. EOS-03 was earlier GISAT-1.
+2. EOS-05 was earlier GISAT-1A.
+3. EOS-06 was earlier RISAT-1A.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: EOS-03 = GISAT-1 and EOS-05 = GISAT-1A; EOS-06 is Oceansat-3 (RISAT-1A is EOS-04).
+[f0c6f65b49d96] sub5
+  For what is HySIS, an Indian satellite, used?
+  Ocean wind vectors | DTH broadcasting | *Hyperspectral imaging | Navigation
+  x: HySIS is a hyperspectral imaging satellite, not a DTH satellite.
+[g147ef3df48b1] sub5
+  In which year was Oceansat-1, India's first ocean satellite of the series, launched?
+  1988 | 1994 | *1999 | 2009
+  x: The Oceansat series began with Oceansat-1 in 1999.
+[n1895ced8028] sub6
+  Imagery from which satellite powers the KASTURI and Bharat Darshan heritage apps?
+  Cartosat-1 | Cartosat-2 | Cartosat-2S | *Cartosat-3
+  x: Cartosat-3 imagery (~25 cm resolution) powers KASTURI and Bharat Darshan; Cartosat-1 gave stereo images for 3D maps.
+[n5166fa871a5] sub6
+  Which mission formed part of the record launch of 104 satellites into a 506 km sun-synchronous orbit on 15 February 2017?
+  *Cartosat-2 series launched by PSLV-C37 | EOS-03 launched by GSLV-F10 | Cartosat-3 launched by PSLV-C47 | INSAT-3DS launched by GSLV-F14
+  x: The Cartosat-2 series was launched by PSLV-C37 on 15 February 2017 and formed part of the record 104-satellite launch into a 506 km SSO. Its mass was 714 kg.
+[ff7b09c69d879] sub6
+  What did Cartosat-1 (2005), India's first mapping satellite, provide?
+  *Stereo images for 3D maps | About 25 cm resolution | Hyperspectral images | Radar images through cloud
+  x: Cartosat-1 gave stereo images for 3D maps; ~25 cm resolution is Cartosat-3.
+[f20ce13a8e504] sub6
+  Cartosat-3 was launched on PSLV-C47 along with how many US nanosatellites?
+  *13 | 15 | 36 | 104
+  x: Cartosat-3 (Nov 2019) flew on PSLV-C47 with 13 US nanosatellites.
+[fdde48e2e6615] sub6
+  For which of the following is Cartosat-3 imagery used?
+  Weather forecasting | Ocean wind vectors | *Gati Shakti and border monitoring | Potential Fishing Zone advisories
+  x: Cartosat-3 (~25 cm) supports Gati Shakti, borders and heritage apps.
+[g3e55cb36059f] sub6
+  In which year was Cartosat-1, India's first mapping satellite, launched?
+  *2005 | 1988 | 2007 | 2019
+  x: Cartosat-1, India's first mapping satellite with stereo imaging, was launched in 2005; Cartosat-3 came in 2019.
+[g49f0a5fe099a] sub6
+  What is the approximate resolution of Cartosat-3?
+  About 1 m | *About 25 cm | About 5 m | About 23 m
+  x: Cartosat-3 (November 2019, PSLV-C47) has a resolution of about 25 cm.
+[n20bd9d3148e] sub7
+  In which band does the radar provided by ISRO for NISAR operate?
+  L-band | C-band | *S-band | X-band
+  x: ISRO gives the S-band and NASA the L-band radar; NISAR was launched by GSLV-F16 on 30 July 2025.
+[nb8f779b2b84] sub7
+  Which of the following applications is NOT associated with EOS-05?
+  Forest-fire and crop observation | *Deep-sea submarine communication | Cyclone monitoring | Flood monitoring
+  x: EOS-05 is intended for applications such as floods, cyclones, forest fires, crops and security. Deep-sea submarine communication is not listed among its applications.
+[ne8671bd30c3] sub7
+  Which is India's first geosynchronous land-imaging satellite?
+  EOS-03 | INSAT-3D | *EOS-05 | INSAT-3DS
+  x: EOS-05 is India's first geosynchronous land-imaging satellite; EOS-03 was lost at launch and the INSAT-3D series are weather satellites.
+[n38d64f78407] sub7
+  On which launch vehicle was EOS-N1 'Anvesha', DRDO's hyperspectral satellite, lost in January 2026?
+  *PSLV-C62 | PSLV-C61 | PSLV-C60 | GSLV-F15
+  x: EOS-N1 failed on PSLV-C62 (Jan 2026); EOS-09 was lost on PSLV-C61 (May 2025).
+[f9286c3ed8523] sub7
+  Which launch vehicle launched NISAR on 30 July 2025?
+  *GSLV-F16 | GSLV-F17 | GSLV-F15 | PSLV-C61
+  x: NISAR flew on GSLV-F16, not on a PSLV.
+[f17fc4a6036c2] sub7
+  NISAR is the world's first satellite of which type?
+  Hyperspectral satellite | *Dual-frequency radar satellite | Scatterometer satellite | Geosynchronous land-imaging satellite
+  x: NISAR, with NASA L-band and ISRO S-band radars and a 12 m reflector, is the first dual-frequency radar satellite.
+[f7e5b044cb6d1] sub7
+  On which launch vehicle was EOS-09, a C-band SAR satellite, lost in May 2025?
+  GSLV-F15 | PSLV-C62 | GSLV-F10 | *PSLV-C61
+  x: PSLV-C61 lost EOS-09 in May 2025; PSLV-C62 lost EOS-N1 and GSLV-F10 lost EOS-03.
+[f6b804f33e216] sub7
+  Which of the following is NOT correct about EOS-05?
+  It images from visible to long-wave infrared | *It was launched by PSLV-C62 | It weighs about 2,367 kg | It was launched on 4 September 2026
+  x: EOS-05 was launched by GSLV-F17 from Sriharikota; the other statements are correct.
+[g1f895c6c308b] sub7
+  What is the size of the antenna reflector of NISAR?
+  5 m | 8 m | *12 m | 20 m
+  x: NISAR carries a 12 m antenna reflector for its L-band and S-band radars.
+[n38e3a973c94] sub8
+  By which launch vehicle was GSAT-7 'Rukmini', the Indian Navy's communication satellite, launched in 2013?
+  *Ariane-5 from Kourou | PSLV from Sriharikota | GSLV from Sriharikota | Falcon 9 from Cape Canaveral
+  x: GSAT-7 was launched by Ariane-5 from Kourou in 2013.
+[n811b59e0c55] sub8
+  Which satellite was fully funded by the Ministry of Earth Sciences and launched by GSLV-F14 on 17 February 2024?
+  GSAT-10 | *INSAT-3DS | Cartosat-3 | EOS-03
+  x: INSAT-3DS is a weather satellite fully funded by the Ministry of Earth Sciences and was launched by GSLV-F14 on 17 February 2024.
+[n2484c4906d2] sub8
+  By which launch vehicle was APPLE (1981), India's first experimental geostationary communication satellite, launched?
+  SLV-3 from Sriharikota | US Space Shuttle Challenger | *Ariane-1 from Kourou | Soviet Vostok launcher from Baikonur
+  x: APPLE was launched in 1981 on Ariane-1 from Kourou. SLV-3 launched Rohini (1980); the Space Shuttle Challenger carried INSAT-1B (1983); the Vostok launcher carried IRS-1A (1988).
+[n9734b8c29d7] sub8
+  By which launch vehicle was INSAT-1B (1983), with which the INSAT system was commissioned, launched?
+  Ariane-1 | *US Space Shuttle Challenger | Kosmos-3M | SLV-3
+  x: INSAT-1B went up on the US Space Shuttle Challenger; Ariane-1 carried APPLE (1981).
+[n30e3ae0f80c] sub8
+  INSAT supports which search-and-rescue programme?
+  Copernicus | Sentinel | Landsat | *COSPAS-SARSAT
+  x: Besides telecom, TV, meteorology, telemedicine and tele-education, INSAT supports COSPAS-SARSAT search and rescue.
+[fd5beaefa2f43] sub8
+  Besides communication payloads, GSAT-10 (2012) carried a payload for which system?
+  QZSS | NavIC | COSPAS-SARSAT | *GAGAN
+  x: GSAT-10, launched on Ariane-5, carried communication and GAGAN payloads.
+[f7d4319726f0c] sub8
+  Which satellite was GSAT-30 (January 2020) launched to replace?
+  INSAT-1B | *INSAT-4A | INSAT-4CR | Kalpana-1
+  x: GSAT-30, a C/Ku communication satellite on Ariane-5, replaces INSAT-4A.
+[f501b19f79bc1] sub8
+  INSAT services are carried in which frequency bands?
+  C and Ku only | *C, Ku, Ka and S | L5 and S only | Ka only
+  x: INSAT uses the C, Ku, Ka and S bands; L5 and S are NavIC bands.
+[fe042a16c4585] sub8
+  Which launch vehicle launched INSAT-4CR (2007), the heaviest satellite launched from India in its day?
+  GSLV-F10 | *GSLV-F04 | Ariane-5 | GSLV-F02
+  x: INSAT-4CR (2,130 kg) was launched by GSLV-F04.
+[n2cab6322a5c] sub9
+  Following the stoppage of the last rubidium atomic clock on IRNSS-1F on 13 March 2026, which one of the following describes NavIC's status?
+  Five PNT-capable satellites remained, enough for a position fix | All seven satellites lost navigation capability | *Only three PNT-capable satellites remained, while a PNT fix needs at least four | IRNSS-1F was replaced the same week by NVS-02
+  x: After IRNSS-1F's last clock stopped (3 days after its 10-year design life), only IRNSS-1B, 1I and NVS-01 remained PNT-capable: three, below the minimum four needed. 'Five' and 'all seven lost' are wrong counts, and NVS-02 never reached its circular orbit (Jan 2025).
+[n501adac5357] sub9
+  Consider the following statements about NVS-02:
+1. It was launched by GSLV-F14.
+2. Its launch on 29 January 2025 was the 100th launch from Sriharikota.
+3. A loose pyro connector was blamed for its failure to reach its circular orbit.
+Which of the statements given above is/are correct?
+  1 and 2 only | *2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: NVS-02 was launched by GSLV-F15 (not F14) on 29 January 2025, the 100th Sriharikota launch; a loose pyro connector was blamed.
+[ne3f40fe894a] sub9
+  To which country does QZSS, a regional satellite navigation system, belong?
+  *Japan | China | Russia | South Korea
+  x: QZSS (Japan) and NavIC (India) are regional; BeiDou is China's and GLONASS Russia's global system.
+[n35a029485e6] sub9
+  What makes India's NavIC distinctive among developing countries?
+  the only system using both civilian and military signals | the only developing country operating a global navigation system | *the only developing country with an independent regional navigation system | the first system jointly owned by India and the United States
+  x: India is described as the only developing country with its own independent regional navigation system.
+[f2cda6da7f5bb] sub9
+  Consider the following statements about NavIC:
+1. It has 4 GEO and 3 GSO satellites.
+2. It uses the L5 and S bands.
+3. It covers India and a region up to 1,500 km beyond it.
+Which of the statements given above is/are correct?
+  1 and 2 only | *2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: NavIC uses the L5 and S bands and covers India + 1,500 km; it has 3 GEO and 4 GSO satellites, not 4 GEO and 3 GSO.
+[fea4b3ca07764] sub9
+  Who developed the first NavIC-based device?
+  *Elena Geo Systems | NRSC | NSIL | Airports Authority of India
+  x: Elena Geo Systems built the first NavIC-based device.
+[f3b5514bc88ca] sub9
+  With which organisation does ISRO implement GAGAN?
+  DRDO | Ministry of Earth Sciences | NRSC | *Airports Authority of India
+  x: GAGAN is an ISRO-Airports Authority of India system for civil aviation precision landing.
+[f7a58bfc3b542] sub9
+  What does GAGAN stand for?
+  GPS and GLONASS Augmented Navigation | GEO Aided GPS Area Navigation | Global Aided GEO Augmented Network | *GPS Aided GEO Augmented Navigation
+  x: GAGAN = GPS Aided GEO Augmented Navigation; its ground stations send corrections for aviation.
+[n9a730fe831b] sub9
+  IRNSS/NavIC covers India and a region extending up to how far beyond it?
+  500 km | 1,000 km | *1,500 km | 2,000 km
+  x: NavIC covers India plus 1,500 km, with 3 GEO + 4 GSO satellites, broadcasting in L5 and S bands.
+[f0ea374b98247] sub9
+  Which of the following is the composition of the NavIC constellation?
+  7 GEO satellites | 3 MEO + 4 GSO satellites | 4 GEO + 3 GSO satellites | *3 GEO + 4 GSO satellites
+  x: NavIC has 7 satellites: 3 geostationary and 4 inclined geosynchronous.
+[n73c68c46b63] sub10
+  Where are IIRS and CSSTEAP, which build capacity in space applications, located?
+  Hyderabad | Ahmedabad | *Dehradun | Bengaluru
+  x: Both IIRS and CSSTEAP are in Dehradun.
+[n80d5492a458] sub10
+  The coastal location of SDSC-SHAR enables it to contribute data for tracking cyclones over which water body for APSDMA?
+  Indian Ocean south of Mauritius | *Bay of Bengal | Arabian Sea | Andaman Sea only
+  x: SDSC-SHAR contributes data for Bay of Bengal cyclone tracking for APSDMA.
+[nd95c8f1354a] sub10
+  SAR data from which satellite is used by NRSC's CROP framework to track crop sowing, growth and harvest?
+  EOS-06 | Cartosat-3 | *EOS-04 | INSAT-3DS
+  x: CROP uses EOS-04 SAR data near real time; Bhuvan's flood maps and cyclone tracks use RISAT and INSAT-3DS data.
+[n1fc87cb9eaa] sub10
+  Consider the following statements about national Earth-observation applications of NRSC:
+1. FASAL crop forecasting is one of them.
+2. Forest-fire monitoring through INFFRAS is one of them.
+3. Civil aviation precision landing is one of them.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: FASAL and INFFRAS are NRSC Earth-observation applications; civil aviation precision landing is the job of GAGAN, not an NRSC application.
+[n0eb0c35980d] sub10
+  In the Indian remote-sensing data chain, where is the nodal processing centre located?
+  Bhuvan centre, New Delhi | ISRO headquarters, Bengaluru | *NRSC, Hyderabad | Sriharikota launch centre
+  x: After collection and reception at a ground station, remote sensing data are processed at the National Remote Sensing Centre (NRSC), Hyderabad, which functions as the nodal centre.
+[n7ece0891f63] sub10
+  Which platform is the ISRO geoportal through which Earth-observation data are made openly accessible?
+  SIS-DP | Yuktdhara | INFFRAS | *Bhuvan
+  x: Bhuvan is the ISRO geoportal through which Earth-observation data are made openly accessible along with NRSC data services.
+[na689896badf] sub10
+  Images from which satellite did NRSC use to map the Joshimath subsidence?
+  Oceansat-3 | *Cartosat-2S | Kalpana-1 | INSAT-3DS
+  x: Joshimath subsidence was mapped with Cartosat-2S images; NRSC also released the Landslide Atlas of India (2023).
+[f22087661ee02] sub10
+  Which of the following pairs is correctly matched?
+  *Landslide Atlas of India – NRSC | CROP crop-progress framework – CWC | Joshimath subsidence mapping – IIRS | Glacial lake monitoring since 2011 – APSAC
+  x: NRSC prepared the Landslide Atlas (2023), runs CROP and mapped Joshimath; CWC monitors glacial lakes.
+[f12b2ef41d3f5] sub10
+  The Glacial Lake Atlas 2023 counted how many glacial lakes in India?
+  7,750 | *7,570 | 9,570 | 5,570
+  x: The 2023 atlas counted 7,570 glacial lakes in India.
+[f80a3d0a8976e] sub10
+  Which body has monitored glacial lakes since 2011 using NRSC imagery?
+  IIRS | NSIL | APSDMA | *CWC
+  x: The Central Water Commission (CWC) monitors glacial lakes with NRSC imagery since 2011.
+[fb2ddfa7f3ca3] sub10
+  Which is the state remote-sensing agency of Andhra Pradesh?
+  SDSC-SHAR | *APSAC | NRSC | APSDMA
+  x: The AP Space Applications Centre (APSAC) is the state remote-sensing agency; APSDMA is the disaster agency.
+[f4d2c0cf53fd6] sub10
+  Bhuvan and Bhoonidhi are Earth-observation data platforms of which organisation?
+  *NRSC | NSIL | CWC | Airports Authority of India
+  x: Bhuvan (ISRO geoportal) and Bhoonidhi are run by NRSC, Hyderabad; MOSDAC and VEDAS are platforms of SAC, Ahmedabad.
+[gd5f97ddb4664] sub10
+  Which of the following is a group of Earth-observation data platforms of ISRO/NRSC?
+  *Bhuvan, Bhoonidhi, MOSDAC and VEDAS | GAGAN, NavIC, IRNSS and QZSS | EDUSAT, GRAMSAT, Swayam Prabha and DTH | Kalpana-1, INSAT-3D, INSAT-3DR and INSAT-3DS
+  x: Bhuvan, Bhoonidhi, MOSDAC and VEDAS are ISRO's EO data platforms.
+[g3ffd62e89f92] sub10
+  By about how much did the area of Himalayan glacial lakes grow between 2011 and 2025?
+  About 2% | *About 9% | About 25% | About 50%
+  x: CWC monitoring with NRSC imagery shows Himalayan glacial lake area rose by about 9% from 2011 to 2025.
+[g342f04028fe4] sub10
+  In which district of Andhra Pradesh is the Satish Dhawan Space Centre (SDSC-SHAR) located?
+  Nellore | *Tirupati | Prakasam | Chittoor
+  x: SDSC-SHAR, Sriharikota, is in Tirupati district.
+[g930bc11366bc] sub10
+  Consider the following statements:
+1. The Andhra Pradesh Space Applications Centre (APSAC) is the state remote-sensing agency.
+2. SDSC-SHAR, which gives cyclone-track data to APSDMA, is in Tirupati district.
+Which of the statements given above is/are correct?
+  1 only | 2 only | *Both 1 and 2 | Neither 1 nor 2
+  x: APSAC is AP's remote-sensing agency, and SDSC-SHAR in Tirupati district gives Bay of Bengal cyclone data to APSDMA.
+
+=== NOTES 5:40 | Recent Indian Satellite Launches and Their Applications
+## SUB 0 | Recent Launches – Vehicle, Orbit, Purpose
+[40:0:0] TABLE head: Satellite | Vehicle, date | Orbit / purpose
+  [40:0:0.0] RISAT-1 | PSLV-C19 | C-band (5.35 GHz) SAR; day-night, all-weather imaging
+  [40:0:0.1] RISAT-2BR1 | PSLV-C48, Dec 2019 | Radar imaging; disasters, surveillance
+  [40:0:0.2] EOS-07 | SSLV-D2, 10 Feb 2023 | Earth observation, technology demonstration
+  [40:0:0.3] DS-SAR | PSLV-C56 | Radar satellite
+  [40:0:0.4] Aditya-L1 | PSLV-C57 (2023) | Solar science
+  [40:0:0.5] XPoSat | PSLV-C58, 1 Jan 2024 | India's first X-ray polarimetry satellite; payloads POLIX and XSPECT; 650 km orbit
+  [40:0:0.6] INSAT-3DS | GSLV-F14, 17 Feb 2024, GTO | Meteorology, disaster warning; funded by MoES
+  [40:0:0.7] NVS-02 | GSLV-F15, Jan 2025 | NavIC; missed intended orbit
+  [40:0:0.8] NISAR | GSLV-F16, 30 Jul 2025, SSPO | Earth observation with NASA
+  [40:0:0.9] EOS-05 | GSLV-F17, Sep 2026 | Geo-platform imaging "eye in the sky" – agriculture, environment, disasters
+[40:0:1] - **CMS series**: CMS-01 on PSLV-C50; **CMS-03** (GSAT-7R) on LVM3-M5, Nov 2025 – naval communication.
+[40:0:2] - **5 Sep 2026**: GSLV-F17/EOS-05 ended an **eight-month launch pause** after two PSLV failures.
+[40:0:3] F14 = INSAT-3DS (2024, not 2022); F15 = NVS-02; F16 = NISAR; F17 = EOS-05.
+## SUB 1 | Mission Firsts and Records
+[40:1:0] # SpaDeX
+[40:1:1] - **Space Docking Experiment**: **PSLV-C60, 30 Dec 2024**, 474 km orbit.
+[40:1:2] - **Docked 16 Jan 2025** → India the **4th** country to dock in space, after **US, Russia, China** (not Japan).
+[40:1:3] # Records
+[40:1:4] TABLE head: Record | Mission
+  [40:1:4.0] Most satellites in one launch | PSLV-C37, 104 satellites (2017)
+  [40:1:4.1] Heaviest payload by an Indian rocket | BlueBird Block-2, 6,100 kg, LVM3-M6, 24 Dec 2025
+  [40:1:4.2] First dedicated commercial LVM3 flight | OneWeb, 36 satellites (2022)
+  [40:1:4.3] First exclusive weather satellite | Kalpana-1, PSLV, 2002
+[40:1:5] - BlueBird Block-2: **223 sq m** phased array; **direct-to-smartphone broadband**.
+[40:1:6] 104 = PSLV-C37 record; 6,100 kg = BlueBird; 4th = docking nation; 433 = foreign satellites launched
+[40:1:7] - **Why docking matters:** SpaDeX docking technology is needed for the **Bharatiya Antariksh Station** and Chandrayaan-4.
+## SUB 2 | Student, University and Women-built Satellites
+[40:2:0] TABLE head: Satellite | Builder | Launch
+  [40:2:0.0] ANUSAT (2009) | Anna University | First student satellite launched by ISRO
+  [40:2:0.1] Jugnu | IIT Kanpur | PSLV-C18, 12 Oct 2011 (with Megha-Tropiques); 3 kg nanosatellite
+  [40:2:0.2] SATHYABAMASAT | Sathyabama University, Chennai | PSLV
+  [40:2:0.3] STUDSAT-2 | NMIT Bengaluru | Student satellite
+  [40:2:0.4] Kalamsat-V2 | Space Kidz India | PSLV-C44, Jan 2019; world's lightest (~1.26 kg), 3D-printed; first use of PS4 as orbital platform
+  [40:2:0.5] AzaadiSAT | 750 girl students of 75 rural government schools, via Space Kidz India | SSLV-D1, Aug 2022 – lost
+[40:2:1] - **WeSAT (Women Engineered Satellite):** built by **LBS Institute of Technology for Women**; flew on **POEM-3 (PSLV-C58, 1 Jan 2024)**; studied **solar irradiance and UV index**.
+## SUB 3 | Foreign Customer Satellites
+[40:3:0] TABLE head: Satellite | Country / agency | Vehicle
+  [40:3:0.0] AGILE | Italy – gamma-ray astronomy | PSLV-C8, Apr 2007 (commercial)
+  [40:3:0.1] Duchifat-3 | Israel (Herzliya Science Center, 3U CubeSat) | PSLV-C48, 11 Dec 2019
+  [40:3:0.2] OneWeb (72 satellites) | UK | LVM3 (2 missions)
+  [40:3:0.3] Proba-3 | ESA (on behalf of Belgium) | PSLV-C59, 5 Dec 2024 (NSIL commercial)
+  [40:3:0.4] BlueBird Block-2 | AST SpaceMobile (USA) | LVM3-M6, Dec 2025
+[40:3:1] - ISRO has launched **433 foreign satellites** of **34+ countries**, over half from the **US** (2026).
+[40:3:2] - **NSIL**: **141** satellites incl. **138 international** (Jul 2026).
+[40:3:3] "PROBA – Belgium" was marked a wrong pair: PROBA is an **ESA** mission (launched on behalf of Belgium).
+## SUB 4 | Private and Startup Satellites
+[40:4:0] TABLE head: Satellite | Company | Note
+  [40:4:0.0] TSAT-1A | Tata Advanced Systems with Satellogic | Sub-metre optical surveillance; built at Vemagal (Karnataka); SpaceX Falcon 9, 7 Apr 2024
+  [40:4:0.1] Shakuntala (TD-2) | Pixxel | Hyperspectral; Falcon 9 Transporter-4, 1 Apr 2022; first private commercial imaging satellite
+  [40:4:0.2] EOS-N1 "Anvesha" | DRDO (400 kg hyperspectral) | Lost on PSLV-C62
+[40:4:1] - **AayulSAT**: first on-orbit **refuelling** demonstrator; **MOI-1**: AI image lab (both lost on PSLV-C62).
+[40:4:2] - **Starlink**: **GMPCS licence** from **DoT** (2025); rules need **geofencing** and local terminal manufacturing within **5 years**.
+## SUB 5 | Launch Failures
+[40:5:0] TABLE head: Mission | Lost payload | Cause
+  [40:5:0.0] GSLV-F02 (2006) | INSAT-4C | –
+  [40:5:0.1] GSLV-F10 (2021) | EOS-03 | Cryogenic stage
+  [40:5:0.2] SSLV-D1 (2022) | EOS-02 and AzaadiSAT | Wrong orbit
+  [40:5:0.3] PSLV-C61 (18 May 2025) | EOS-09 (RISAT-1B), C-band SAR | Third stage
+  [40:5:0.4] PSLV-C62 (12 Jan 2026) | EOS-N1 "Anvesha" + 15 co-passengers | Roll-rate disturbance at end of third stage
+  [40:5:0.5] GSLV-F15 (Jan 2025) | NVS-02 reached orbit but missed it | –
+[40:5:1] - External team joined the PSLV failure probe (3 Feb 2026).
+[40:5:2] PSLV-C62 failed by a third-stage roll-rate disturbance, not first-stage non-ignition.
+## SUB 6 | Re-entry Experiments and Poem
+[40:6:0] TABLE head: Experiment | Vehicle, year
+  [40:6:0.0] SRE-1 (Space Capsule Recovery) | PSLV-C7, 2007
+  [40:6:0.1] CARE (crew module re-entry) | LVM3, 2014
+  [40:6:0.2] POEM | PSLV-C53, 2022
+  [40:6:0.3] POEM-2 | PSLV-C55, 2023
+  [40:6:0.4] POEM-3 | PSLV-C58, 1 Jan 2024
+[40:6:1] - **POEM** = PSLV Orbital Experimental Module: the **spent PS4 stage** used as an **orbital laboratory**.
+[40:6:2] - PSLV-C62 plans: PS4 **de-boost** + Spanish **KID re-entry capsule**.
+## SUB 7 | Joint Missions
+[40:7:0] TABLE head: Mission | Partner | Objective
+  [40:7:0.0] NISAR | NASA | Dual-band radar: NASA L-band + ISRO S-band; Earth surface change
+  [40:7:0.1] TRISHNA | CNES (France) | Thermal infrared: land surface temperature, water stress, water quality; CNES TIR + ISRO VNIR-SWIR payloads; 761 km SSO
+  [40:7:0.2] Proba-3 | ESA (launch by ISRO) | Formation flying: Occulter shadows the Sun for the Coronagraph → artificial solar eclipse to study the corona; 150 m apart
+## SUB 8 | Satellites by Application Domain
+[40:8:0] TABLE head: Domain | Satellites
+  [40:8:0.0] Weather | INSAT-3DS, Kalpana-1
+  [40:8:0.1] Ocean | Oceansat series
+  [40:8:0.2] Strategic surveillance | RISAT, Cartosat, EMISAT (electronic intelligence), EOS-N1
+  [40:8:0.3] Military communication | GSAT-7 (Navy), GSAT-7A "Angry Bird" (IAF), GSAT-7B proposed (Army)
+  [40:8:0.4] Navigation | NVS / NavIC
+  [40:8:0.5] Science | XPoSat, Aditya-L1
+  [40:8:0.6] Communication | 19 operational comsats; 10 moved to NSIL (2022)
+[40:8:1] - **ISSAR 2025** (9 Apr 2026): **86** Indian satellites in orbit, **27 operational**; **8** launched in 2025; world saw **315** launches.
+## SUB 9 | Foreign Space Missions in News
+[40:9:0] TABLE head: Mission | Agency | Vehicle, date | Objective
+  [40:9:0.0] PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) | NASA | Falcon 9, Cape Canaveral, 8 Feb 2024 | Ocean colour, aerosols, clouds; polar orbit
+  [40:9:0.1] Europa Clipper | NASA | Falcon Heavy, 14 Oct 2024 | Jupiter's icy moon Europa; first NASA mission to an ocean world; arrives Apr 2030
+  [40:9:0.2] JWST | NASA-ESA-CSA | 25 Dec 2021 | Infrared space telescope
+  [40:9:0.3] IXPE | NASA | Dec 2021 | X-ray polarimetry (XPoSat made India second)
+## SUB 10 | Number Game and Quick Revision
+[40:10:0] TABLE head: Item | Fact
+  [40:10:0.0] PSLV-C37 record | 104 satellites
+  [40:10:0.1] BlueBird Block-2 | 6,100 kg, 223 sq m
+  [40:10:0.2] Foreign satellites launched | 433 from 34+ countries
+  [40:10:0.3] NSIL satellites | 141 (138 international)
+  [40:10:0.4] Indian satellites in orbit (ISSAR 2025) | 86, 27 operational
+  [40:10:0.5] AzaadiSAT builders | 750 girls, 75 schools
+  [40:10:0.6] PSLV-C62 co-passengers | 15
+[40:10:1] # FIRST / LAST / SPECIAL FACTS
+[40:10:2] - First docking: SpaDeX (16 Jan 2025) – India 4th.
+[40:10:3] - First X-ray polarimetry satellite: XPoSat (1 Jan 2024).
+[40:10:4] - First EO imager in geosynchronous orbit: EOS-05 (2026).
+[40:10:5] - First on-orbit refuelling demonstrator: AayulSAT (lost, 2026).
+[40:10:6] - Lightest satellite: Kalamsat-V2.
+## SUB 11 | Appsc Previous Year Questions
+[40:11:0] TABLE head: Examination | Question Area
+  [40:11:0.0] Group 1 Prelims 2024, Paper 2 | Satellite – institute that built it
+  [40:11:0.1] Group 1 Prelims 2024, Paper 2 | Satellite – launch vehicle and year
+  [40:11:0.2] APPSC Group 2 Mains | GSLV-F14/INSAT-3DS year; Aditya-L1 vehicle
+  [40:11:0.3] APPSC Group 2 Mains | Foreign satellite – country pair (PROBA)
+## SUB 12 | High-probability Mcq Traps
+[40:12:0] - 1. **INSAT-3DS = GSLV-F14, 2024**, not 2022.
+[40:12:1] - 2. **Aditya-L1 = PSLV-C57**; XPoSat = PSLV-C58; DS-SAR = PSLV-C56.
+[40:12:2] - 3. SpaDeX made India **4th** after US, Russia, China – not Japan.
+[40:12:3] - 4. SSLV-D1 lost **EOS-02 and AzaadiSAT**; PSLV-C61 lost **EOS-09**; GSLV-F10 lost **EOS-03**.
+[40:12:4] - 5. PSLV-C62 cause: **third-stage roll-rate disturbance**.
+[40:12:5] - 6. **POEM** = spent PS4 stage, not a new satellite.
+[40:12:6] - 7. **PROBA = ESA**, not a Belgian agency mission.
+[40:12:7] - 8. GSAT-7 Navy, 7A IAF, 7B Army (proposed).
+[40:12:8] - 9. TSAT-1A (Tata) and Shakuntala (Pixxel) flew on **Falcon 9**, not PSLV.
+[40:12:9] - 10. NISAR: NASA L-band, ISRO S-band, GSLV-F16.
+
+=== OWN MCQs of 5:40 (64)
+[n846d7370a30] sub0
+  In which band does the Synthetic Aperture Radar on RISAT-1 operate?
+  *C-band | L-band | S-band | X-band
+  x: RISAT-1 (PSLV-C19) carries a C-band (5.35 GHz) SAR for day-night, all-weather imaging.
+[neb5ea271dc3] sub0
+  Which of the following pairs is INCORRECTLY matched?
+  *GSLV-F17 – NISAR | GSLV-F14 – INSAT-3DS | GSLV-F15 – NVS-02 | GSLV-F16 – NISAR
+  x: GSLV-F17 launched EOS-05 (Sep 2026); NISAR flew on GSLV-F16 (30 Jul 2025).
+[n53277bfe671] sub0
+  Which launch vehicle launched INSAT-3DS in 2024?
+  GSLV-F15 | GSLV-F16 | *GSLV-F14 | PSLV-C57
+  x: INSAT-3DS flew on GSLV-F14 in 2024; GSLV-F16 carried NISAR and PSLV-C57 carried Aditya-L1.
+[fae566b53ff9f] sub0
+  Which launch vehicle launched RISAT-2BR1, a radar imaging satellite, in December 2019?
+  *PSLV-C48 | PSLV-C19 | PSLV-C56 | PSLV-C47
+  x: RISAT-2BR1 flew on PSLV-C48 in December 2019.
+[fdeb6ad54bcdf] sub0
+  For what is CMS-03 (GSAT-7R), launched on LVM3-M5 in November 2025, meant?
+  Radar imaging | Weather monitoring | Navigation | *Naval communication
+  x: CMS-03 (GSAT-7R) is a naval communication satellite.
+[ff0b83f672ae0] sub0
+  Which launch vehicle launched EOS-07 on 10 February 2023?
+  SSLV-D1 | *SSLV-D2 | GSLV-F14 | PSLV-C48
+  x: EOS-07 flew on SSLV-D2; SSLV-D1 (2022) failed.
+[g29f5dc8f7354] sub0
+  Which launch vehicle launched DS-SAR, a radar satellite, in July 2023?
+  PSLV-C57 | *PSLV-C56 | PSLV-C58 | PSLV-C48
+  x: DS-SAR flew on PSLV-C56; PSLV-C57 carried Aditya-L1 and PSLV-C58 carried XPoSat.
+[gd454ada2dc46] sub0
+  Which launch vehicle launched XPoSat on 1 January 2024?
+  PSLV-C56 | PSLV-C57 | *PSLV-C58 | GSLV-F14
+  x: XPoSat flew on PSLV-C58; the same flight's PS4 stage became POEM-3.
+[g6c3a3ed50ebc] sub0
+  What are the two payloads of XPoSat?
+  *POLIX and XSPECT | VELC and SUIT | APXS and LIBS | UVIT and LAXPC
+  x: XPoSat carries POLIX and XSPECT for X-ray polarimetry.
+[gdae3448fad50] sub0
+  Which launch vehicle launched Aditya-L1 in 2023?
+  PSLV-C56 | *PSLV-C57 | PSLV-C58 | GSLV-F14
+  x: Aditya-L1 was launched on PSLV-C57; DS-SAR flew on C56 and XPoSat on C58.
+[gd739e1680600] sub0
+  Match the following:
+List-I (Satellite)
+A. DS-SAR
+B. Aditya-L1
+C. XPoSat
+D. INSAT-3DS
+List-II (Launch vehicle)
+1. PSLV-C57
+2. GSLV-F14
+3. PSLV-C56
+4. PSLV-C58
+Select the correct answer using the code given below:
+  *A-3, B-1, C-4, D-2 | A-1, B-3, C-4, D-2 | A-3, B-4, C-1, D-2 | A-4, B-1, C-3, D-2
+  x: DS-SAR went on PSLV-C56, Aditya-L1 on PSLV-C57, XPoSat on PSLV-C58 and INSAT-3DS on GSLV-F14.
+[n2cca9f61153] sub1
+  Which of the following is NOT correct about SpaDeX?
+  *It made India the fourth country to dock in space, after the US, Russia and Japan. | It was launched by PSLV-C60 on 30 December 2024. | Its docking capability is needed for the Bharatiya Antariksh Station. | It did not set India's record for most satellites in one mission, which is PSLV-C37's 104.
+  x: The three earlier docking nations were the US, Russia and China, not Japan.
+[ne2af38f4913] sub1
+  Which launch vehicle launched BlueBird Block-2 (6,100 kg), the heaviest payload launched by an Indian rocket, on 24 December 2025?
+  PSLV-C60 | GSLV-F17 | *LVM3-M6 | SSLV-D3
+  x: LVM3-M6 launched the 6,100 kg BlueBird Block-2 (223 sq m phased array, direct-to-smartphone broadband) on 24 Dec 2025. PSLV-C60 launched SpaDeX, GSLV-F17 launched EOS-05, and SSLV is a small-satellite launcher.
+[n4a9706e961f] sub1
+  Which launch vehicle launched Kalpana-1, India's first exclusive meteorological satellite, in 2002?
+  GSLV | ASLV | Ariane-5 | *PSLV
+  x: Kalpana-1 was India's first exclusive meteorological satellite, launched by PSLV in 2002.
+[ff84a713af79a] sub1
+  Whose satellites were carried on the first dedicated commercial LVM3 flight (2022)?
+  Satellogic | *OneWeb | AST SpaceMobile | ESA
+  x: The first dedicated commercial LVM3 flight carried 36 OneWeb satellites.
+[fa2c1cedf9583] sub1
+  SpaDeX made India the fourth country to dock in space, after the US, Russia and which other country?
+  *China | Japan | the UK | France
+  x: India docked on 16 January 2025 after the US, Russia and China, not Japan.
+[g945857b2df2a] sub1
+  What service is BlueBird Block-2, launched by LVM3-M6 in December 2025, meant to provide?
+  Navigation for aviation | Weather forecasting | X-ray astronomy | *Direct-to-smartphone broadband
+  x: BlueBird Block-2 of AST SpaceMobile (USA), with a 223 sq m antenna, gives direct-to-smartphone broadband.
+[g30bb88f33563] sub1
+  What is the full form of SpaDeX?
+  Space Defence Experiment | *Space Docking Experiment | Spacecraft Deployment Exercise | Space Debris Explorer
+  x: SpaDeX is the Space Docking Experiment, launched on PSLV-C60 on 30 December 2024.
+[f027c16df98c9] sub2
+  Who built Jugnu, a 3 kg nanosatellite launched on PSLV-C18 in 2011?
+  Sathyabama University | NMIT Bengaluru | Anna University | *IIT Kanpur
+  x: Jugnu was built by IIT Kanpur and launched with Megha-Tropiques.
+[f9e47b9511b0d] sub2
+  Which satellite – builder pair is correctly matched?
+  *ANUSAT – Anna University | STUDSAT-2 – Space Kidz India | Jugnu – Sathyabama University | Kalamsat-V2 – IIT Kanpur
+  x: ANUSAT, the first student satellite launched by ISRO, was built by Anna University; Jugnu is IIT Kanpur's, Kalamsat-V2 Space Kidz India's and STUDSAT-2 NMIT's.
+[f0189b1382059] sub2
+  Who built Kalamsat-V2, the world's lightest satellite?
+  IIT Kanpur | Sathyabama University | *Space Kidz India | Pixxel
+  x: Kalamsat-V2 (~1.26 kg, 3D-printed) was built by Space Kidz India.
+[fb3fbec293e76] sub2
+  AzaadiSAT was built by 750 girl students from how many rural government schools?
+  100 | 50 | 150 | *75
+  x: AzaadiSAT was built by 750 girl students of 75 rural government schools, via Space Kidz India.
+[f6a5f7c009876] sub2
+  Consider the following statements about Kalamsat-V2:
+1. It was launched by PSLV-C44 in January 2019.
+2. It was the first to use the PS4 stage as an orbital platform.
+3. It was lost on SSLV-D1.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: Kalamsat-V2 flew on PSLV-C44 and first used PS4 as an orbital platform; SSLV-D1 lost AzaadiSAT and EOS-02.
+[g6acbb4d8d498] sub2
+  Which was the first student satellite launched by ISRO?
+  *ANUSAT | Jugnu | STUDSAT-2 | Kalamsat-V2
+  x: ANUSAT (2009), built by Anna University, was the first student satellite launched by ISRO.
+[gc70f4682c47c] sub2
+  Which institution built STUDSAT-2, a student satellite?
+  Anna University | IIT Kanpur | *NMIT Bengaluru | Sathyabama University
+  x: STUDSAT-2 was built by students of NMIT Bengaluru.
+[gdb3e4e6cb695] sub2
+  Which institution built WeSAT, a satellite payload that studied solar irradiance and the UV index on POEM-3 (PSLV-C58)?
+  Anna University | *LBS Institute of Technology for Women | Sathyabama University | IIT Kanpur
+  x: WeSAT, a women-built payload, came from LBS Institute of Technology for Women and flew on POEM-3 in 2024.
+[gd7bd9fc7bf98] sub2
+  On which platform did WeSAT, built by LBS Institute of Technology for Women, fly in January 2024?
+  *POEM-3 on PSLV-C58 | SSLV-D1 | POEM on PSLV-C53 | PSLV-C44
+  x: WeSAT was one of the payloads on POEM-3, the spent PS4 stage of PSLV-C58 (1 Jan 2024).
+[n8479146edc4] sub3
+  Proba-3 was launched by PSLV-C59 in December 2024 for which agency?
+  NASA | CNES | *ESA | JAXA
+  x: Proba-3 was an ESA satellite mission launched by PSLV-C59 in December 2024.
+[ne6b2571c02c] sub3
+  ISRO has launched how many foreign satellites from more than 34 countries?
+  104 | 138 | 141 | *433
+  x: ISRO has launched 433 foreign satellites from over 34 countries, more than half from the US.
+[fb4a71280d577] sub3
+  To which country does Duchifat-3, launched on PSLV-C48 in December 2019, belong?
+  the UK | *Israel | Belgium | Italy
+  x: Duchifat-3 is a 3U CubeSat of Israel's Herzliya Science Center.
+[f2366791d9cbf] sub3
+  On which launch vehicle did ISRO launch OneWeb's 72 satellites?
+  *LVM3 | SSLV | PSLV | GSLV Mk II
+  x: OneWeb's 72 satellites flew on two LVM3 missions.
+[g0d5035fe7704] sub3
+  AGILE, the Italian satellite launched by PSLV-C8 in April 2007, was meant for which field?
+  Ocean colour | *Gamma-ray astronomy | Navigation | Weather forecasting
+  x: AGILE was an Italian gamma-ray astronomy satellite launched commercially on PSLV-C8 in 2007.
+[gc839b4baad52] sub3
+  Over half of the foreign satellites launched by ISRO belong to which country?
+  United Kingdom | *United States | Israel | Singapore
+  x: Of the 433 foreign satellites ISRO has launched, over half are from the US.
+[n50d80b386ad] sub4
+  From which body did Starlink receive a GMPCS licence in India in 2025?
+  *Department of Telecommunications | ISRO | MeitY | TRAI
+  x: DoT granted the GMPCS licence, subject to geofencing and local terminal manufacturing within five years.
+[f6d61e3f40be9] sub4
+  Along with which company did Tata Advanced Systems build TSAT-1A, a sub-metre optical surveillance satellite?
+  Pixxel | Space Kidz India | *Satellogic | AST SpaceMobile
+  x: TSAT-1A was built by Tata Advanced Systems with Satellogic at Vemagal, Karnataka.
+[f2d292375b332] sub4
+  To which company does Shakuntala (TD-2), a hyperspectral satellite launched in April 2022, belong?
+  Satellogic | *Pixxel | DRDO | Tata Advanced Systems
+  x: Shakuntala is Pixxel's hyperspectral satellite, the first private commercial imaging satellite.
+[f6bfc437bb60f] sub4
+  On which launch vehicle were TSAT-1A and Pixxel's Shakuntala launched?
+  *SpaceX Falcon 9 | LVM3 | PSLV | SSLV
+  x: Both flew on SpaceX Falcon 9, not on PSLV.
+[f402c33a731e5] sub4
+  AayulSAT, lost on PSLV-C62, was meant to be the first demonstrator of which technology?
+  Space docking | Re-entry capsule recovery | Hyperspectral imaging | *On-orbit refuelling
+  x: AayulSAT was the first on-orbit refuelling demonstrator; it was lost on PSLV-C62.
+[gc0d335d72483] sub4
+  Which was India's first private commercial imaging satellite?
+  TSAT-1A | *Shakuntala (TD-2) | AayulSAT | EOS-N1 'Anvesha'
+  x: Pixxel's hyperspectral Shakuntala (TD-2), launched in April 2022, was the first private commercial imaging satellite.
+[g50c4ab9429e2] sub4
+  Where was TSAT-1A, the sub-metre surveillance satellite of Tata Advanced Systems, built?
+  *Vemagal, Karnataka | Sriharikota, Andhra Pradesh | Hosur, Tamil Nadu | Hyderabad, Telangana
+  x: TSAT-1A was built at Vemagal in Karnataka and launched on Falcon 9 in April 2024.
+[n7ca89d84c12] sub5
+  Which mission and lost payload are correctly matched?
+  GSLV-F10 — INSAT-3DS | SSLV-D1 — EOS-03 only | *GSLV-F02 — INSAT-4C | PSLV-C61 — EOS-02 and AzaadiSAT
+  x: GSLV-F02 lost INSAT-4C in 2006. GSLV-F10 lost EOS-03, SSLV-D1 lost EOS-02 and AzaadiSAT, and PSLV-C61 lost EOS-09.
+[nc926817e7f1] sub5
+  Which of the following is NOT correct about PSLV-C62?
+  It lost 15 co-passengers | *Its first stage did not ignite | It was launched on 12 January 2026 | It lost EOS-N1 'Anvesha'
+  x: PSLV-C62 failed because of a roll-rate disturbance at the end of its third stage, not first-stage non-ignition.
+[f331b3fc58086] sub5
+  SSLV-D1 (2022) lost which satellites?
+  *EOS-02 and AzaadiSAT | EOS-07 and Jugnu | EOS-09 and AzaadiSAT | EOS-03 and Kalamsat-V2
+  x: SSLV-D1 put EOS-02 and AzaadiSAT in a wrong orbit.
+[f5371c0a7ac23] sub5
+  Consider the following statements about launch failures:
+1. GSLV-F02 lost INSAT-4C in 2006.
+2. PSLV-C61 lost EOS-09 in May 2025.
+3. GSLV-F10 lost EOS-02 in 2021.
+Which of the statements given above is/are correct?
+  *1 and 2 only | 2 and 3 only | 1 and 3 only | 1, 2 and 3
+  x: GSLV-F02 lost INSAT-4C and PSLV-C61 lost EOS-09; GSLV-F10 lost EOS-03, while EOS-02 was lost on SSLV-D1.
+[g78d62875b502] sub5
+  In which stage did the PSLV-C61 mission, carrying EOS-09, fail on 18 May 2025?
+  First stage | Second stage | *Third stage | Fourth stage
+  x: PSLV-C61 failed in its third stage and EOS-09 (RISAT-1B) was lost.
+[ne0ed842494a] sub6
+  What are POEM platforms?
+  Ground-based radar imaging stations | *Spent PS4 stages used as orbital laboratories | Reusable crew capsules for ISS missions | Foreign customer satellites launched by PSLV
+  x: POEM platforms use the spent PS4 stage as an orbital laboratory.
+[n3a158fcdd33] sub6
+  Which one of the following pairs is correctly matched with a re-entry experiment?
+  *SRE-1 — PSLV-C7, 2007 | CARE — PSLV-C7, 2007 | SRE-1 — LVM3, 2014 | POEM-3 — PSLV-C53, 2022
+  x: SRE-1 was associated with PSLV-C7 in 2007. CARE was associated with LVM3 in 2014, and POEM-3 with PSLV-C58 in 2024.
+[fa064446fe2dc] sub6
+  On which mission did POEM, which uses the spent PS4 stage as an orbital laboratory, first fly?
+  *PSLV-C53 (2022) | PSLV-C58 (2024) | PSLV-C55 (2023) | PSLV-C7 (2007)
+  x: POEM flew on PSLV-C53 in 2022; POEM-2 on C55 and POEM-3 on C58.
+[f39e707817533] sub6
+  On which launch vehicle did the Space Capsule Recovery Experiment SRE-1 fly?
+  LVM3 in 2014 | *PSLV-C7 in 2007 | PSLV-C53 in 2022 | PSLV-C58 in 2024
+  x: SRE-1 flew on PSLV-C7 in 2007; CARE flew on LVM3 in 2014.
+[fc5b90fc3f0f1] sub7
+  Which joint mission – partner pair is correctly matched?
+  TRISHNA – JAXA | *TRISHNA – CNES | Proba-3 – NASA | NISAR – ESA
+  x: TRISHNA is an ISRO-CNES mission; NISAR is with NASA and Proba-3 is an ESA mission.
+[ff3f9c32a0a72] sub7
+  What does TRISHNA, a thermal infrared mission, mainly measure?
+  Ocean wind vectors | Ground deformation | *Land surface temperature and water stress | The solar corona
+  x: TRISHNA's thermal infrared payload measures land surface temperature, water stress and water quality.
+[f8337173e6ef5] sub7
+  How does Proba-3 create an artificial solar eclipse to study the corona?
+  *Formation flying of two spacecraft | Hovering at Sun-Earth L1 | Docking two spacecraft | A re-entry capsule
+  x: Proba-3's Occulter flies 150 m from the Coronagraph and shadows the Sun.
+[nccdc5d2809f] sub8
+  For which of the following has GSAT-7B been proposed?
+  Indian Navy | *Indian Army | Indian Air Force | Indian Coast Guard
+  x: GSAT-7B is proposed for the Army; GSAT-7 serves the Navy and GSAT-7A the IAF.
+[n6b23b2cd667] sub8
+  XPoSat and Aditya-L1 belong to which application domain?
+  Navigation | *Scientific studies | Ocean studies | Military communication
+  x: XPoSat and Aditya-L1 are science missions; NVS/NavIC are navigation and Oceansat is ocean study.
+[f096f4892afdc] sub8
+  For what is EMISAT used?
+  Ocean studies | Navigation | Weather | *Electronic intelligence
+  x: EMISAT is an electronic intelligence (strategic surveillance) satellite.
+[f7fe9948fb57f] sub8
+  Consider the following statements about military communication satellites:
+1. GSAT-7 serves the Indian Navy.
+2. GSAT-7A 'Angry Bird' serves the Indian Army.
+Which of the statements given above is/are correct?
+  *1 only | 2 only | Both 1 and 2 | Neither 1 nor 2
+  x: GSAT-7 serves the Navy; GSAT-7A serves the IAF, and GSAT-7B is proposed for the Army.
+[ff5000a0c7cc8] sub8
+  According to ISSAR 2025, how many Indian satellites were operational?
+  86 | 19 | *27 | 8
+  x: ISSAR 2025 counted 86 Indian satellites in orbit, of which 27 were operational.
+[f3c5fb23c2956] sub9
+  Which rocket launched NASA's PACE mission on 8 February 2024?
+  Falcon Heavy | *Falcon 9 | LVM3 | Ariane-5
+  x: PACE flew on Falcon 9 from Cape Canaveral; Europa Clipper used Falcon Heavy.
+[f8fb7a62d56ae] sub9
+  Which of the following is NOT correct about NASA's Europa Clipper?
+  It is NASA's first mission to an ocean world | *It was launched on Falcon 9 | It was launched on 14 October 2024 | It is due to arrive in April 2030
+  x: Europa Clipper, bound for Jupiter's moon Europa, flew on Falcon Heavy; Falcon 9 carried PACE.
+[fbe7e13de2260] sub9
+  The James Webb Space Telescope (2021) is a joint mission of which agencies?
+  *NASA, ESA and CSA | NASA, JAXA and ESA | NASA, CNES and CSA | NASA, ISRO and ESA
+  x: JWST is a NASA-ESA-CSA infrared space telescope launched on 25 December 2021.
+[gced97d1e9416] sub9
+  With XPoSat, India became which country to launch a dedicated X-ray polarimetry satellite, after NASA's IXPE?
+  First | *Second | Third | Fourth
+  x: NASA's IXPE (December 2021) was the first; XPoSat made India the second.
+[g57a075db8604] sub9
+  NASA's Europa Clipper, launched in October 2024, is meant to study a moon of which planet?
+  Saturn | *Jupiter | Uranus | Neptune
+  x: Europa is an icy moon of Jupiter; Europa Clipper is NASA's first mission to an ocean world.
+[gf2c9c9502d92] sub9
+  What is the full form of PACE, NASA's mission launched on 8 February 2024?
+  *Plankton, Aerosol, Cloud, ocean Ecosystem | Polar Atmosphere and Climate Explorer | Planetary Atmosphere Composition Experiment | Pacific Aerosol and Cloud Explorer
+  x: PACE stands for Plankton, Aerosol, Cloud, ocean Ecosystem; it studies ocean colour, aerosols and clouds.
+[g7106a5d9a3d4] sub9
+  The James Webb Space Telescope, launched on 25 December 2021, observes mainly in which part of the spectrum?
+  *Infrared | X-ray | Gamma-ray | Radio
+  x: JWST is an infrared space telescope of NASA, ESA and CSA.
+
