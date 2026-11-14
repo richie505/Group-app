@@ -403,5 +403,875 @@
   "x": "2 and 3 are correct. 1 is wrong: electronics is India's 3rd-largest export item; production was ₹13.11 lakh crore in 2025-26.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cp5117f13456f3",
+  "row": 24,
+  "s": "Consider the following statements about Andhra Pradesh's citizen-service systems:\n1. MeeSeva ('At your service') was launched on 4 November 2011 from Visakhapatnam.\n2. The Gram/Ward Sachivalayam system was launched on 2 October 2019 with 10,000+ secretariats.\n3. SPANDANA is the grievance portal of the Gram/Ward Sachivalayam system.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Two are correct (2 and 3). 1 is wrong: MeeSeva was launched on 4 November 2011 from Chittoor in undivided AP, as single-window delivery through centres and authorised agents.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbda0086d8895",
+  "row": 24,
+  "s": "Consider the following statements about Andhra Pradesh's digital governance:\n1. e-Seva (2001) set up India's first integrated citizen service centres.\n2. In AP's service-delivery chain, e-Pragati came before MeeSeva.\n3. The architecture of RTGS includes the Data Lake, Data Lens and a Command & Control Centre.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 3 are correct. 2 is wrong: the chain is e-Seva (2001) → MeeSeva (2011) → e-Pragati → RTGS → Mana Mitra (2025); e-Pragati came after MeeSeva.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6854eef68532",
+  "row": 24,
+  "s": "Consider the following statements:\nAssertion (A): e-Pragati is a whole-of-government programme in which all e-governance systems of AP are interconnected and integrated.\nReason (R): The core datasets of e-Pragati include the People Hub, Land Hub and Revenue Hub.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: e-Pragati interconnects and integrates all e-governance systems, with free flow of information (the digital route to Sunrise AP 2022). R is false: its core datasets are People, Land, Entity, GIS and IoT Hubs – there is no Revenue Hub.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp09c50b5453f6",
+  "row": 24,
+  "s": "Consider the following statements:\n1. Mana Mitra, AP's AI-powered WhatsApp governance service, was launched on 30 January 2025 with 500+ services.\n2. Under BhuSeva (launched 20 November 2018), each land holding gets a 12-digit Bhudaar number.\n3. CARD (1998) computerised document registration in the Registration Department.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 and 3 only",
+   "2 only",
+   "1 and 2 only"
+  ],
+  "a": 2,
+  "x": "2 is the incorrect statement: the Bhudaar number has 11 digits. Statements 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8f6faff0c04f",
+  "row": 24,
+  "s": "Consider the following statements about NeGP and e-Kranti:\n1. e-Courts is a State Mission Mode Project under NeGP.\n2. The original NeGP had 27 MMPs – 9 Central, 11 State and 7 Integrated – later raised to 31.\n3. e-Kranti (NeGP 2.0) has 44 MMPs and is a pillar of Digital India.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "3 only",
+   "2 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "2 and 3 are correct. 1 is wrong: e-Courts (since 2007) is an Integrated MMP; e-Panchayat is a State MMP.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1ef28358a24f",
+  "row": 24,
+  "s": "Match List-I (Platform) with List-II (Function):\nList-I | List-II\na. UMANG | i. Digital Life Certificate for pensioners\nb. e-Pramaan | ii. National Single Sign-On\nc. Meri Pehchaan | iii. One app for central, state and local services\nd. Jeevan Pramaan | iv. National e-Authentication framework\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 3,
+  "x": "UMANG (MeitY–NeGD, 2017) – one app for central, state and local services (2,400+ services); e-Pramaan (built by C-DAC) – national e-Authentication with SAML single sign-on; Meri Pehchaan (July 2022) – National Single Sign-On; Jeevan Pramaan (2014) – Aadhaar-based Digital Life Certificate.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp9adbadb6f154",
+  "row": 24,
+  "s": "Match List-I (Platform) with List-II (Ministry / body):\nList-I | List-II\na. Bhavishya | i. Prime Minister's Office\nb. SARATHI / VAHAN | ii. Election Commission\nc. PRAGATI | iii. Department of Pension & Pensioners' Welfare\nd. Suvidha | iv. Ministry of Road Transport and Highways\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-iv, d-ii",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-i, d-ii"
+  ],
+  "a": 1,
+  "x": "Bhavishya (integrated pensioners' portal) – Dept of Pension & Pensioners' Welfare; SARATHI (driving licence) / VAHAN (vehicle registration) – MoRTH; PRAGATI (25 Mar 2015) – PMO; Suvidha (campaign-permission single window) – Election Commission.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpefdf52ba9260",
+  "row": 24,
+  "s": "Consider the following statements:\n1. MyGov and Jeevan Pramaan were both launched by MeitY in 2014.\n2. Storing Aadhaar numbers in plain text, a flaw found in UMANG, is forbidden by the IT Act, 2000.\n3. e-Office, developed by MeitY–NIC, is a paperless file management system.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Two are correct (1 and 3). 2 is wrong: storage of Aadhaar numbers in plain text is forbidden by the Aadhaar Act, 2016.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf02620f2d87e",
+  "row": 24,
+  "s": "Consider the following statements about state e-governance projects:\n1. Gyandoot (2000) was an intranet-based rural kiosk project of Dhar, Madhya Pradesh.\n2. Bhoomi is Karnataka's computerised treasury project.\n3. Akshaya rural IT centres began in Malappuram, Kerala.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1 and 2 only",
+   "2 and 3 only"
+  ],
+  "a": 1,
+  "x": "2 is the incorrect statement: Bhoomi is Karnataka's online land-records project; Khajane is its computerised treasury. 1 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp43f57e8656d3",
+  "row": 24,
+  "s": "Match List-I (Project) with List-II (State):\nList-I | List-II\na. Khajane | i. Karnataka\nb. FRIENDS | ii. Kerala\nc. SETU | iii. Uttar Pradesh\nd. Lokvani | iv. Maharashtra\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-ii, c-iv, d-iii"
+  ],
+  "a": 3,
+  "x": "Khajane – Karnataka (computerised treasury); FRIENDS – Kerala (2000, pay bills and taxes at one place); SETU – Maharashtra (certificates); Lokvani – Uttar Pradesh (Sitapur, online grievance kiosks).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd6c34c7f2149",
+  "row": 24,
+  "s": "Consider the following statements about education e-services:\n1. Bharti Airtel runs the DIKSHA app and website end to end.\n2. Shiksha Vani is a podcast app of NCERT.\n3. e-Pathshala is NCERT's platform for e-textbooks.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "3 only",
+   "1, 2 and 3",
+   "1 only"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: Shiksha Vani is CBSE's podcast app (CBSE also runs the Pariksha Sangam portal).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf4f8cc404283",
+  "row": 24,
+  "s": "Match List-I (Health e-service) with List-II (Purpose):\nList-I | List-II\na. e-Hospital (NIC) | i. National telemedicine\nb. e-Sanjeevani | ii. Online registration, appointments, hospital management\nc. e-Aushadhi | iii. COVID app developed by NIC\nd. Aarogya Setu | iv. Medicine procurement and supply\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iii, c-iv, d-i"
+  ],
+  "a": 2,
+  "x": "e-Hospital – online registration, appointments and hospital management; e-Sanjeevani – national telemedicine; e-Aushadhi – medicine procurement and supply; Aarogya Setu – COVID app (April 2020) developed by NIC.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp8c4e8594bdcb",
+  "row": 24,
+  "s": "Consider the following statements:\nAssertion (A): The Ayushman Bharat Digital Mission was launched in 2021 by the Ministry of Health and Family Welfare.\nReason (R): Under ABDM, HFR and HPR are registries of health facilities and health professionals.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true: ABDM (2021, MoHFW) builds a national interoperable digital health ecosystem of health IDs, registries and linked records, and HFR/HPR are its facility and professional registries. But the registries do not explain who launched ABDM or when.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp4bca8538be45",
+  "row": 24,
+  "s": "Consider the following statements:\n1. CPGRAMS is run by DARPG, has existed since 2007 and is available 24x7 through web, app and UMANG.\n2. SAMADHAN DIDI (2026) is an AI voice chatbot linked to CPGRAMS.\n3. RTI Online, for RTI applications to central public authorities, is a portal of DARPG.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1, 2 and 3",
+   "1 and 2 only",
+   "1 only"
+  ],
+  "a": 2,
+  "x": "1 and 2 are correct. 3 is wrong: RTI Online is a portal of the Department of Personnel and Training (DoPT).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp69673c120a37",
+  "row": 24,
+  "s": "Match List-I (Portal / app) with List-II (Purpose):\nList-I | List-II\na. GeM | i. Weather, prices and advisories for farmers\nb. e-NAM | ii. Public procurement\nc. Kisan Suvidha | iii. Online agricultural commodity trading\nd. AgriStack | iv. Farmer IDs and credit\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iii, c-i, d-iv",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 0,
+  "x": "GeM (Ministry of Commerce and Industry, 2016) – public procurement; e-NAM – online agricultural commodity trading; Kisan Suvidha – farmer app for weather, prices, advisories; AgriStack – agriculture DPI with farmer IDs and credit.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpcf0ecd44cd30",
+  "row": 24,
+  "s": "Consider the following statements:\n1. DigiLocker documents are treated as originals under the IT Act, 2000 and the Digital Locker Rules, 2016.\n2. e-Sign is Aadhaar eKYC-based and runs on blockchain technology.\n3. C-DAC's e-Hastakshar is among the issuers of e-Sign.\n4. DigiLocker has about 56.06 crore users.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Three are correct (1, 3, 4). 2 is wrong: e-Sign uses Public Key Infrastructure (PKI), not blockchain; its legal backing is the IT Act, 2000.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3fcb765d8da2",
+  "row": 24,
+  "s": "Consider the following statements:\nAssertion (A): The Sandes app was built by C-DAC.\nReason (R): GIMS (Government Instant Messaging System), released as Sandes, is the government's alternative to WhatsApp.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: Sandes (GIMS) was built by NIC, which also runs NIC Mail integrated with CollabFiles, e-Sign and Bhashini. R is true: GIMS is the government's WhatsApp alternative.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp05cfb9bc7a23",
+  "row": 24,
+  "s": "Consider the following statements:\n1. The National Investment and Infrastructure Fund is part of the core infrastructure of NeGP.\n2. In the Gartner model, complete services are offered online in the Transaction phase and Transformation is the final phase.\n3. Common Service Centres are run by Village Level Entrepreneurs down to the Gram Panchayat level and offer 400+ services.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1, 2 and 3",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1 only"
+  ],
+  "a": 3,
+  "x": "1 is the incorrect statement: NeGP's core infrastructure is SWAN, SDC and CSC; the National Investment and Infrastructure Fund is not part of it (MeghRaj now hosts government apps). 2 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc9cd8524bfcb",
+  "row": 24,
+  "s": "Match List-I (Model) with List-II (Example):\nList-I | List-II\na. G2E | i. data.gov.in\nb. G2P | ii. DBT – LPG subsidy, pensions\nc. Open Government Data | iii. CEMS (employee management)\nd. G2B | iv. MCA21 portal\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-i, c-ii, d-iv",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 1,
+  "x": "G2E – CEMS employee management; G2P – DBT (LPG subsidy, pensions); Open Government Data – data.gov.in; G2B – MCA21 (Ministry of Corporate Affairs portal).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp45eb4b67528a",
+  "row": 24,
+  "s": "Consider the following statements about the 28th National Conference on e-Governance (2025):\n1. It was held at Visakhapatnam on 22-23 September 2025 and adopted the Visakhapatnam Declaration.\n2. Its theme was 'Viksit Bharat: Civil Service and Digital Transformation'.\n3. It was organised by MeitY alone.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "1 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: it was organised by DARPG with MeitY and the host state.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9e015c972300",
+  "row": 25,
+  "s": "Consider the following statements about UIDAI and Aadhaar law:\n1. UIDAI was set up on 28 January 2009 as an attached office of the Planning Commission.\n2. Under the Aadhaar Act, 2016, UIDAI became a statutory authority under the Ministry of Home Affairs.\n3. The Aadhaar Authentication for Good Governance Rules, 2020 allow voluntary authentication by other entities.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: the statutory UIDAI works under MeitY (not Home, Finance or Rural Development).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6223c0aa17c3",
+  "row": 25,
+  "s": "Consider the following statements about Aadhaar:\n1. The first Aadhaar number was issued to Ranjana Sonawane of Tembhli, Nandurbar district, Maharashtra, on 29 September 2010.\n2. Aadhaar is a 12-digit random number that is free and lifelong.\n3. Aadhaar biometrics capture 10 fingerprints, 2 iris scans and a face photograph.\n4. Aadhaar enrolment records the person's caste and religion.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Three are correct (1, 2, 3). 4 is wrong: Aadhaar carries no caste, religion or geography data.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp416f6ae229e4",
+  "row": 25,
+  "s": "Consider the following statements:\n1. Mobile-Aadhaar linking, mandated in 2017, was upheld by the Supreme Court in September 2018.\n2. About 142 crore Aadhaar numbers had been generated by 31 July 2025.\n3. The ABHA health ID has 14 digits.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "2 only",
+   "1, 2 and 3",
+   "3 only"
+  ],
+  "a": 0,
+  "x": "2 and 3 are correct. 1 is wrong: the Supreme Court struck down the mandatory mobile-Aadhaar linking in September 2018.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6fef85c91356",
+  "row": 25,
+  "s": "Consider the following statements about UPI:\n1. UPI was launched in April 2016 by the RBI.\n2. UPI Lite is an on-device wallet that works without a UPI PIN, and UPI 2.0 has a daily limit of Rs 2 lakh.\n3. France was the first country in Europe to accept UPI (February 2024).\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "3 only",
+   "1 and 3 only",
+   "1 only",
+   "1 and 2 only"
+  ],
+  "a": 2,
+  "x": "1 is the incorrect statement: UPI was launched in April 2016 by NPCI, not the RBI. 2 and 3 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpcaf87f6838ea",
+  "row": 25,
+  "s": "Match List-I (Product) with List-II (Key fact):\nList-I | List-II\na. BHIM | i. DLT-based clearing platform\nb. e-RUPI | ii. NPCI's UPI app, 30 December 2016\nc. Vajra | iii. One-time, person- and purpose-specific voucher\nd. National Financial Switch | iv. Links all ATMs\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 2,
+  "x": "BHIM – NPCI's UPI app (30 Dec 2016); e-RUPI – one-time, cashless, person- and purpose-specific voucher (Aug 2021); Vajra – NPCI's DLT-based platform for fast and secure payments; NFS – links all ATMs (built by IDRBT in 2004, now run by NPCI).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc17c3bf53b77",
+  "row": 25,
+  "s": "Match List-I (Payment system) with List-II (Operator):\nList-I | List-II\na. NEFT | i. IRCTC\nb. FASTag (NETC) | ii. NPCI\nc. iPay gateway | iii. NPCI with NHAI/IHMCL\nd. IMPS | iv. RBI\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-iv, c-i, d-ii"
+  ],
+  "a": 0,
+  "x": "NEFT and RTGS – RBI; FASTag (NETC) – NPCI with NHAI/IHMCL; iPay – IRCTC; IMPS, UPI, AePS, BBPS, NACH, RuPay – NPCI.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7b06d3916f7c",
+  "row": 25,
+  "s": "Consider the following statements:\nAssertion (A): RBI's New Umbrella Entity (NUE) framework requires a minimum capital of Rs 500 crore.\nReason (R): The NUE move seeks to end NPCI's monopoly over retail payment systems such as IMPS and UPI.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true: NUEs need minimum capital of Rs 500 crore, and the move aims to end NPCI's monopoly (NPCI runs IMPS, UPI, AePS, BBPS, NACH, RuPay). But the purpose of ending the monopoly does not explain the specific capital requirement.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp04c6a987032a",
+  "row": 25,
+  "s": "Consider the following statements:\n1. MeitY took over 'Promotion of Digital Transactions' from NITI Aayog in February 2017.\n2. Since 17 July 2023, the nodal body for promotion of digital payments is the Department of Economic Affairs.\n3. RBI's Digital Payments Index has base March 2018 = 100 and is published half-yearly.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Two are correct (1 and 3). 2 is wrong: on 17 July 2023 'Promotion of Digital Payments' moved to the Department of Financial Services (Ministry of Finance).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9d7f53c5f19d",
+  "row": 25,
+  "s": "Consider the following statements about India Stack:\n1. Its cashless layer is UPI.\n2. Its paperless layer is formed by eSign and DigiLocker.\n3. Its consent layer is DEPA / Account Aggregator.\n4. The Account Aggregator forms its identity layer.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1, 2, 3 and 4",
+   "1 and 2 only",
+   "1, 2 and 3 only"
+  ],
+  "a": 3,
+  "x": "1, 2 and 3 are correct. 4 is wrong: the identity (presence-less) layer is Aadhaar/e-KYC; the Account Aggregator is the consent layer for sharing financial data.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0b43fa1fd5df",
+  "row": 25,
+  "s": "Consider the following statements:\nAssertion (A): The Open Network for Digital Commerce (ONDC), launched in 2022, is an open e-commerce network rather than a single platform.\nReason (R): ONDC aims to break the monopolies of e-commerce platforms.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: ONDC (2022) was designed as an open network precisely to break platform monopolies in e-commerce.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp60f673f445c9",
+  "row": 25,
+  "s": "Consider the following statements about DBT:\n1. The first JAM application was PAHAL (LPG subsidy), and the DBT Mission is now in the Cabinet Secretariat.\n2. About Rs 44 lakh crore had been transferred through DBT by May 2025.\n3. More than half of PMJDY's 58.77 crore accounts are held by men.\n4. DBT in Andhra Pradesh was inaugurated at Gollaprolu, East Godavari, on 6 January 2013 by Jairam Ramesh.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 4 only",
+   "1, 2, 3 and 4",
+   "1 and 4 only"
+  ],
+  "a": 1,
+  "x": "1, 2 and 4 are correct. 3 is wrong: more than half of PMJDY accounts (58.77 crore, Aug 2026) are held by women.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp391529a06f48",
+  "row": 25,
+  "s": "Arrange the following initiatives in chronological order of their launch:\n1. e-RUPI\n2. MyGov\n3. PM eVIDYA\n4. BHIM\nSelect the correct answer using the codes given below:",
+  "o": [
+   "2-3-4-1",
+   "2-4-3-1",
+   "4-2-3-1",
+   "2-4-1-3"
+  ],
+  "a": 1,
+  "x": "MyGov – 26 July 2014; BHIM – 30 Dec 2016; PM eVIDYA – 17 May 2020; e-RUPI – Aug 2021. So 2-4-3-1.",
+  "src": "app",
+  "tq": "sequence"
+ },
+ {
+  "id": "cpa906efc06375",
+  "row": 25,
+  "s": "Consider the following statements about digital payments:\n1. UPI accounted for about 85% of digital payments by volume in FY 2025-26.\n2. UPI accounts for about 49% of the world's real-time payments.\n3. Digital payments grew at about 14% CAGR from 2017-18 to 2024-25.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 only",
+   "1, 2 and 3",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: digital payments grew at about 41% CAGR (2017-18 to 2024-25).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp20cd05af44c0",
+  "row": 26,
+  "s": "Consider the following statements about BharatNet:\n1. NOFN was approved on 25 October 2011 for 2.5 lakh gram panchayats.\n2. BBNL, its SPV, was registered on 25 February 2012.\n3. BBNL was merged with RailTel in February 2023.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 only",
+   "1, 2 and 3",
+   "1 only"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: BBNL was merged with BSNL in February 2023; RailTel (with BSNL and PGCIL) only provided fibre.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe89d06f62262",
+  "row": 26,
+  "s": "Consider the following statements about BharatNet in Andhra Pradesh:\n1. Phase III (Amended BharatNet) has an outlay of Rs 1.39 lakh crore on the PPP model.\n2. AP's SPV is AP BharatNet Infrastructure Ltd, and AP's MoC of 22 February 2026 with the Digital Bharat Nidhi Administrator covers 13,426 village panchayats.\n3. AP FiberNet reached 4,000+ tribal hamlets in the Western Ghats.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Two are correct (1 and 2). 3 is wrong: AP FiberNet reached 4,000+ tribal hamlets in the Eastern Ghats.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7902c88e8df8",
+  "row": 26,
+  "s": "Consider the following statements:\nAssertion (A): USOF was a non-lapsable fund for telecom in commercially unviable rural areas.\nReason (R): USOF was renamed Digital Bharat Nidhi under the Telecommunications Act, 2023.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true: USOF is non-lapsable and funds commercially unviable rural telecom (e.g., LWE Phase I 2G sites by BSNL), and it was renamed Digital Bharat Nidhi in 2023. The renaming does not explain its nature.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp176d33004a2a",
+  "row": 26,
+  "s": "Consider the following statements about PMGDISHA:\n1. It was launched at Gandhinagar to cover 6 crore rural households, one person each.\n2. It covered people in the age group 18-60.\n3. When it closed on 31 March 2024, about 4.78 crore people had been certified.\n4. It was preceded by NDLM and DISHA (Digital Saksharta Abhiyan).\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 4 only",
+   "1, 2, 3 and 4",
+   "1, 3 and 4 only",
+   "1 and 3 only"
+  ],
+  "a": 2,
+  "x": "1, 3 and 4 are correct. 2 is wrong: PMGDISHA covered the age group 14-60.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2f75005f7ab6",
+  "row": 26,
+  "s": "Match List-I (Scheme) with List-II (Focus):\nList-I | List-II\na. Vidya Vahini | i. Computer education in government schools\nb. ICT@Schools | ii. Computer labs in government schools\nc. e-Pathshala | iii. Rural digital literacy, one person per household\nd. PMGDISHA | iv. MHRD + NCERT e-textbooks (Nov 2015)\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iv, b-ii, c-i, d-iii"
+  ],
+  "a": 2,
+  "x": "Vidya Vahini – computer education in government schools; ICT@Schools – computer labs in government schools; e-Pathshala – MHRD + NCERT (Nov 2015); PMGDISHA – rural digital literacy, one person per household.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7620c26f0a6d",
+  "row": 26,
+  "s": "Consider the following statements about MeghRaj:\n1. MeghRaj is the GI Cloud initiated by DeitY.\n2. It identifies five characteristics of cloud computing, including elasticity and resource pooling.\n3. Its deployment models include the satellite cloud.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "3 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "2 only"
+  ],
+  "a": 0,
+  "x": "3 is the incorrect statement: MeghRaj's four deployment models are public, private, hybrid and community – there is no 'satellite cloud'. 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0a02aee631f8",
+  "row": 26,
+  "s": "Consider the following statements:\nAssertion (A): The MeghRaj architecture consists only of national clouds, with no app store.\nReason (R): MeghRaj offers three service models – IaaS, PaaS and SaaS.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: the MeghRaj architecture has national and state clouds plus an e-Gov App Store, and MeitY empanels private Cloud Service Providers. R is true: its three service models are IaaS, PaaS and SaaS.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpa6df238e64b0",
+  "row": 26,
+  "s": "Consider the following statements:\n1. Narakoduru in Andhra Pradesh is a Samriddh Gram pilot village.\n2. Digital Seva Setu, delivering 321 services to 14,078+ GPs, is an initiative of Maharashtra.\n3. Universal Acceptance means that domain names and e-mail addresses in any script must work everywhere.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1, 2 and 3",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "1 and 3 are correct. 2 is wrong: Digital Seva Setu is a Gujarat initiative.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7dc6ca684ecb",
+  "row": 26,
+  "s": "Match List-I (Term) with List-II (Meaning):\nList-I | List-II\na. BhashaNet | i. Public Wi-Fi (Dec 2020)\nb. Bhashini | ii. NIXI + MeitY portal unveiled on UA Day 2024\nc. GIGW | iii. Accessibility norms for government websites\nd. PM-WANI | iv. National Language Translation Mission\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-i, c-iii, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-ii, b-iii, c-iv, d-i"
+  ],
+  "a": 1,
+  "x": "BhashaNet – NIXI + MeitY, UA Day 21 March 2024, digital inclusion through Universal Acceptance; Bhashini – National Language Translation Mission (MeitY); GIGW – accessibility norms for government websites; PM-WANI – public Wi-Fi, December 2020.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpbc8447a847ce",
+  "row": 26,
+  "s": "Consider the following statements about electronics manufacturing:\n1. India is the second-largest mobile maker, and electronics is its third-largest export.\n2. The PLI scheme for mobiles, notified on 1 April 2020, offers 4-6% of incremental sales.\n3. PLI 2.0 for IT hardware (May 2023) has an outlay of Rs 17,000 crore.\n4. EMC 2.0 gives incentives for components and semiconductors.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4",
+   "1 and 3 only"
+  ],
+  "a": 1,
+  "x": "1, 2 and 3 are correct. 4 is wrong: components and semiconductors are covered by SPECS; EMC 2.0 (2020) is a separate electronics manufacturing scheme.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2e231713f83d",
+  "row": 27,
+  "s": "Consider the following statements about MeeSeva and AP's e-governance legacy:\n1. e-Seva began in 2001 and was succeeded by MeeSeva in 2011 as the single-window G2C delivery mechanism.\n2. MeeSeva services are delivered through MeeSeva franchise centres and an online portal.\n3. The SMART governance model and HITEC City IT push of 1995-2004 were led by Y.S. Rajasekhara Reddy.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 only",
+   "1, 2 and 3",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: SMART governance and the HITEC City push (1995-2004) were N. Chandrababu Naidu's; Y.S. Rajasekhara Reddy launched Rajiv Internet Village (2004).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp576f5d78136c",
+  "row": 27,
+  "s": "Match List-I (MeeSeva element) with List-II (Role / meaning):\nList-I | List-II\na. Category A | i. Over-the-counter services issued on the spot\nb. Category B | ii. Migration certificates\nc. EDS Department | iii. Statutory services needing notices, hearings or field verification\nd. Education Department | iv. Prints MeeSeva certificates\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-iii, c-ii, d-iv"
+  ],
+  "a": 0,
+  "x": "Category A – over-the-counter services such as certified copies; Category B – statutory services needing notices/hearings/field verification; EDS Department – prints MeeSeva certificates; Education Department – migration certificates (passed candidates only).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb3f66e7280bb",
+  "row": 27,
+  "s": "Consider the following statements about AP registration and portal services:\n1. CARD is the computer-aided registration of property documents, not revenue land records.\n2. AP Online is a web portal for G2C services.\n3. Under the Registration Service Kendras (2026), the legal powers of Sub-Registrar Offices pass to private operators.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "3 only",
+   "2 only"
+  ],
+  "a": 2,
+  "x": "3 is the incorrect statement: RSKs follow the Passport Seva Kendra model, but legal powers stay with the Sub-Registrar Offices, and the State assures SROs are not being privatised. 1 and 2 are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpaa5b4f0ec6b8",
+  "row": 27,
+  "s": "Consider the following statements:\nAssertion (A): The Registration Service Kendras have raised concerns about the livelihoods of document writers.\nReason (R): Under the Registration Service Kendras, Sub-Registrar Offices are being privatised.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: the RSK debate concerns document writers' livelihoods. R is false: the State has assured that SROs are not being privatised and legal powers stay with them.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp10d7f0a0a4bf",
+  "row": 27,
+  "s": "Consider the following statements about e-Pragati:\n1. It is the new name of the AP State Enterprise Architecture (APSEA), a whole-of-government programme.\n2. It was approved by the state cabinet in 2015 under Chief Minister Chandrababu Naidu.\n3. Its outlay is Rs 2,358 crore for 72 projects in 14 packages, and it is being built with Infosys.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Two are correct (1 and 2). 3 is wrong: the outlay and package figures are right, but e-Pragati is built with Wipro; it covers 33 secretariat departments and 300+ agencies.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc174c0d320ca",
+  "row": 27,
+  "s": "Consider the following statements about AP's government networks:\n1. APSWAN links the Secretariat with district and mandal headquarters; it became operational in November 2010 with an initial capacity of 2 Mbps.\n2. APSWAN was upgraded to the software-defined APSDWAN on 1 May 2021.\n3. APSCAN is the Secretariat campus network at Velagapudi (2016).\n4. The AP State Data Centre is located at Visakhapatnam.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "1, 2 and 3 are correct. 4 is wrong: the AP State Data Centre is at Pi Data Centers, Mangalagiri.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1b5d4f3159bf",
+  "row": 27,
+  "s": "Consider the following statements:\nAssertion (A): The AP Fibergrid was inaugurated by the Prime Minister in December 2017.\nReason (R): AP State FiberNet Ltd offers triple-play services – broadband, TV and telephone.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 3,
+  "x": "A is false: the AP Fibergrid was inaugurated by the President in December 2017. R is true: APSFL (incorporated Oct 2015) offers triple-play – broadband + TV + telephone; basic plan Rs 149.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpa32f91d90a4f",
+  "row": 27,
+  "s": "Match List-I (NIC-AP solution) with List-II (Purpose):\nList-I | List-II\na. MEDHAS | i. Cadaver-organ portal\nb. Prajavani | ii. Compensation for Kovvada displaced families\nc. Punarvas | iii. Public grievance system in Telugu\nd. Jeevandan | iv. Dr. NTR University of Health Sciences\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-ii, c-iii, d-i",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-iv, b-i, c-ii, d-iii"
+  ],
+  "a": 0,
+  "x": "MEDHAS – end-to-end solution for Dr. NTR University of Health Sciences; Prajavani – public grievance system in Telugu (Mominpet pilot); Punarvas – compensation for Kovvada nuclear-plant displaced families (National e-Gov Award 2018, Gold); Jeevandan – cadaver-organ portal.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb1f700897c3f",
+  "row": 27,
+  "s": "Consider the following statements about AP apps:\n1. Pura Seva, the MA&UD smart-city app, handles electricity bill payment.\n2. AP Police Seva provides police citizen services such as complaints and NOCs.\n3. Disha SOS was launched on 10 February 2020 with the first Disha police station at Rajamahendravaram, and was replaced by the Suraksha app in 2025.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 only",
+   "3 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "2 and 3 are correct. 1 is wrong: Pura Seva handles grievances, property tax, vacant land tax, water charges, building plan approval etc., but not electricity bills.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa96ac4259234",
+  "row": 27,
+  "s": "Consider the following statements about the Real Time Governance Society (RTGS):\n1. It was formed on 6 September 2017 and works directly under the Chief Minister; its RTG State Centre at the Secretariat, Velagapudi opened on 26 November 2017.\n2. Its dashboards draw on AWARE – the AP Weather Forecasting and Early Warning Research Centre.\n3. Revived from 2024 as an AI-driven platform, it works with AP's 59 Chief Data Officers.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 2,
+  "x": "All three are correct: RTGS was formed 6 Sep 2017 under the CM, its command centre opened 26 Nov 2017 at Velagapudi; AWARE feeds its dashboards; it was revived from 2024 as an AI-driven platform (Swarna Andhra @2047), with 59 CDOs.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp94a339c41f7c",
+  "row": 27,
+  "s": "Consider the following statements about Mana Mitra:\n1. It was launched on 30 January 2025 and is run by RTGS.\n2. It grew from 150 services at launch to 865 services in 2025-26.\n3. Among temple bookings through it, Tirumala earned the most.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "1 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 2 are correct. 3 is wrong: temples earned Rs 22.26 crore from 21 temples, and the top earner was Srikalahasti, not Tirumala.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8693f769758d",
+  "row": 27,
+  "s": "Consider the following statements:\nAssertion (A): The Rajiv Internet Village programme (August 2004) aimed to bring government services closer to rural people.\nReason (R): Its village kiosks offered utility bill payment, state bus tickets and land records.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: by offering bill payment, bus tickets and land records at village kiosks (5,550 centres contracted with Bharat Electronics), RAJiv brought services closer to rural people.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp3107ed792046",
+  "row": 27,
+  "s": "Match List-I (AP policy / body) with List-II (Feature):\nList-I | List-II\na. AP IT and GCC Policy 4.0 | i. IBM quantum computer\nb. AP Cyber Security Policy 2017 | ii. Visakhapatnam as a global IT destination\nc. Quantum Valley, Amaravati | iii. AI-powered skill-verification platform\nd. Kaushalam | iv. Secure cyber ecosystem\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-i, c-iv, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 1,
+  "x": "AP IT and GCC Policy 4.0 (2024-29) – Visakhapatnam as a global IT destination; AP Cyber Security Policy 2017 – secure cyber ecosystem; Quantum Valley, Amaravati – IBM quantum computer, TCS software, L&T tech park; Kaushalam – AI-powered employability and skill-verification platform.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp5aec6d76e6e4",
+  "row": 27,
+  "s": "Consider the following statements:\n1. Google's 1-GW AI data centre in Visakhapatnam involves Rs 1.35 lakh crore.\n2. The AP Data Centre Policy provides for a 500-acre Data City at Visakhapatnam.\n3. The AP Cyber Security Policy was formulated in 2019.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Two are correct (1 and 2). 3 is wrong: the AP Cyber Security Policy dates from 2017.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpd84ab1d747b4",
+  "row": 27,
+  "s": "Match List-I (Project) with List-II (State):\nList-I | List-II\na. Helpline 1100 | i. Karnataka\nb. Digital Seva Setu | ii. Himachal Pradesh\nc. Seva One | iii. Telangana\nd. T Wallet | iv. Gujarat\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-iv, c-i, d-iii"
+  ],
+  "a": 3,
+  "x": "Helpline 1100 (with HIMSWAN, Himachal Online Seva) – Himachal Pradesh; Digital Seva Setu and GSWAN – Gujarat; Seva One (Sept 2026) – Karnataka; T Wallet (1 June 2017) – Telangana.",
+  "src": "app",
+  "tq": "match"
  }
 ]
