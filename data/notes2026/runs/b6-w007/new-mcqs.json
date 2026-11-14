@@ -19,12 +19,12 @@
   "row": 7,
   "s": "Match List-I with List-II:\nList-I (Item of AP Budget 2026-27)\nA. Total outlay\nB. Capital expenditure\nC. Agriculture budget\nD. Health, Medical and Family Welfare\nList-II (Amount (BE))\n1. ₹53,915 crore\n2. ₹53,752.12 crore\n3. ₹3,32,205 crore\n4. ₹19,306 crore\nSelect the correct answer using the code given below:",
   "o": [
-   "A-3, B-1, C-2, D-4",
    "A-4, B-1, C-3, D-2",
    "A-4, B-2, C-1, D-3",
-   "A-4, B-3, C-1, D-2"
+   "A-4, B-3, C-1, D-2",
+   "A-3, B-1, C-2, D-4"
   ],
-  "a": 0,
+  "a": 3,
   "x": "AP Budget 2026-27 (14 Feb 2026): total outlay ₹3,32,205 crore; capital expenditure ₹53,915 crore; agriculture budget ₹53,752.12 crore (K. Atchannaidu); health ₹19,306 crore. Trap: ₹53,915 crore is capex, ₹53,752 crore agriculture.",
   "src": "app",
   "tq": "match"
@@ -34,12 +34,12 @@
   "row": 7,
   "s": "Consider the following statements about the Andhra Pradesh Budget 2026-27:\n1. The revenue deficit is estimated at ₹22,002 crore, or 1.1% of GSDP.\n2. Health, Medical and Family Welfare gets ₹19,306 crore.\n3. Public debt is projected at ₹7.11 lakh crore, about 46% of GSDP.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
-   "2 only",
-   "3 only",
-   "1 and 2 only"
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Statements 1 and 2 are correct. Statement 3 is wrong: public debt of ₹7.11 lakh crore (₹6.35 lakh crore in 2025-26) is about 36% of GSDP, not 46%.",
   "src": "app",
   "tq": "statements"
@@ -65,11 +65,11 @@
   "s": "Consider the following statements about the 16th Finance Commission grants to Andhra Pradesh rural local bodies (2026-27 to 2030-31):\n1. The total grant is ₹16,627 crore.\n2. It is ₹3,827 crore more than under the 15th Finance Commission.\n3. Gram Panchayats get 50% and Mandal and Zilla Parishads 25% each.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 2 only",
-   "1 and 3 only",
-   "1, 2 and 3"
+   "2 only",
+   "3 only",
+   "1 and 2 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Statements 1 and 2 are correct (₹13,302 crore basic + ₹3,325 crore performance). Statement 3 is wrong: Gram Panchayats get 70%, Zilla Parishads 15% and Mandal Parishads 15%.",
   "src": "app",
   "tq": "statements"
@@ -169,12 +169,12 @@
   "row": 7,
   "s": "Match List-I with List-II:\nList-I (Period)\nA. AP 2014-19\nB. AP 2019-24\nC. AP 2024-26\nD. Telangana 2024-26\nList-II (GSDP growth)\n1. 10.7%\n2. 10.3%\n3. 11.3%\n4. 13.5%\nSelect the correct answer using the code given below:",
   "o": [
+   "A-4, B-2, C-3, D-1",
    "A-3, B-1, C-4, D-2",
    "A-3, B-1, C-2, D-4",
-   "A-4, B-2, C-3, D-1",
    "A-1, B-2, C-3, D-4"
   ],
-  "a": 2,
+  "a": 0,
   "x": "AP's GSDP grew 13.5% in 2014-19 (highest period), 10.3% in 2019-24 and 11.3% in 2024-26; Telangana grew 10.7% in 2024-26.",
   "src": "app",
   "tq": "match"
@@ -260,11 +260,11 @@
   "s": "Match List-I with List-II:\nList-I (Social group)\nA. BCs\nB. OCs\nC. SCs\nD. STs\nList-II (Share of population (AP Comprehensive Family Survey))\n1. 51.24%\n2. 17.70%\n3. 24.47%\n4. 6.56%\nSelect the correct answer using the code given below:",
   "o": [
    "A-2, B-3, C-1, D-4",
-   "A-1, B-3, C-2, D-4",
    "A-3, B-2, C-1, D-4",
-   "A-1, B-2, C-4, D-3"
+   "A-1, B-2, C-4, D-3",
+   "A-1, B-3, C-2, D-4"
   ],
-  "a": 1,
+  "a": 3,
   "x": "The survey counted BCs 51.24%, OCs 24.47%, SCs 17.70% and STs 6.56% of 5.19 crore people.",
   "src": "app",
   "tq": "match"
@@ -275,11 +275,11 @@
   "s": "Consider the following statements about the AP Comprehensive Family Survey:\n1. It counted a population of about 5.19 crore.\n2. The SC+ST share is 27.70% in urban areas.\n3. The BC share is highest in urban areas, at 54.35%.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
+   "2 only",
    "3 only",
-   "1 and 3 only",
-   "2 and 3 only"
+   "1 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "Statements 1 and 3 are correct. Statement 2 is wrong: SC+ST is 27.70% in rural areas and 15.91% in urban areas.",
   "src": "app",
   "tq": "statements"
@@ -289,12 +289,12 @@
   "row": 7,
   "s": "Match List-I with List-II:\nList-I (Project)\nA. Amaravati\nB. Polavaram\nC. Ports\nD. Road infrastructure\nList-II (Capital allocation (2026-27))\n1. ₹10,000 crore\n2. ₹5,437 crore\n3. ₹8,300 crore\n4. ₹3,439 crore\nSelect the correct answer using the code given below:",
   "o": [
+   "A-1, B-3, C-2, D-4",
    "A-3, B-4, C-1, D-2",
    "A-1, B-2, C-4, D-3",
-   "A-4, B-3, C-2, D-1",
-   "A-1, B-3, C-2, D-4"
+   "A-4, B-3, C-2, D-1"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Capital allocations reported by The Hindu: Amaravati ₹10,000 crore, Polavaram ₹8,300 crore, ports ₹5,437 crore, roads ₹3,439 crore.",
   "src": "app",
   "tq": "match"
@@ -304,12 +304,12 @@
   "row": 7,
   "s": "Consider the following statements about the Performance Grading Index 2.0 (2025-26):\n1. AP's score rose from 578.1 to 620.5.\n2. AP's grade moved from Akanshi-1 to Prachesta.\n3. Kerala ranked 1st with a score of 766.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 only",
    "2 only",
-   "1 and 2 only",
-   "1 and 3 only",
-   "1, 2 and 3"
+   "3 only",
+   "1 and 2 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Statements 1 and 2 are correct. Statement 3 is wrong: Chandigarh ranked 1st with 766.",
   "src": "app",
   "tq": "statements"
@@ -335,11 +335,11 @@
   "s": "Match List-I with List-II:\nList-I (Item of AP Budget 2026-27)\nA. Total outlay\nB. School Education\nC. Polavaram\nD. Annadata Sukhibhava–PM Kisan\nList-II (Amount)\n1. ₹32,308 crore\n2. ₹3,32,205 crore\n3. ₹6,105 crore\n4. ₹6,600 crore\nSelect the correct answer using the code given below:",
   "o": [
    "A-2, B-3, C-4, D-1",
-   "A-1, B-4, C-3, D-2",
    "A-2, B-1, C-3, D-4",
+   "A-1, B-4, C-3, D-2",
    "A-1, B-3, C-2, D-4"
   ],
-  "a": 2,
+  "a": 1,
   "x": "AP Budget 2026-27: total outlay ₹3,32,205 crore; School Education ₹32,308 crore; Polavaram ₹6,105 crore; Annadata Sukhibhava–PM Kisan ₹6,600 crore proposed.",
   "src": "app",
   "tq": "match"
@@ -394,12 +394,12 @@
   "row": 8,
   "s": "Match List-I with List-II:\nList-I (Indicator (2025-26))\nA. Lowest per capita income\nB. Lowest GDDP\nC. Lowest literacy\nD. Lowest sex ratio\nList-II (District at the bottom)\n1. Parvathipuram Manyam\n2. Alluri Sitharama Raju\n3. Markapuram\n4. Polavaram\nSelect the correct answer using the code given below:",
   "o": [
-   "A-1, B-4, C-2, D-3",
    "A-3, B-4, C-1, D-2",
    "A-2, B-4, C-1, D-3",
+   "A-1, B-4, C-2, D-3",
    "A-2, B-1, C-3, D-4"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Bottom districts: per capita income – Parvathipuram Manyam (₹1,56,875); GDDP – Polavaram; literacy – Alluri Sitharama Raju (44.67%, not Polavaram); sex ratio – Markapuram.",
   "src": "app",
   "tq": "match"
@@ -409,12 +409,12 @@
   "row": 8,
   "s": "Consider the following statements about district indicators of Andhra Pradesh for 2025-26:\n1. Bapatla recorded the highest district growth, 19.19%.\n2. Annamayya was the only district with negative growth (-1.35%).\n3. Polavaram has the lowest urbanisation (2.84%) and also the lowest sex ratio.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
-   "2 only",
    "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Statements 1 and 2 are correct. Statement 3 is wrong: Polavaram has the lowest urbanisation but the HIGHEST sex ratio; the lowest sex ratio is in Markapuram.",
   "src": "app",
   "tq": "statements"
@@ -424,12 +424,12 @@
   "row": 8,
   "s": "Consider the following statements about micro irrigation in Andhra Pradesh (2025-26):\n1. AP ranked 1st with 3.15 lakh ha.\n2. Gujarat came next with 2.63 lakh ha.\n3. For SC/ST farmers the Centre gives 55% and the State tops it up to 100% of the cost.\n4. The subsidy is given under the 'Har Khet Ko Pani' component of PMKSY.\nWhich of the statements given above is/are NOT correct?",
   "o": [
+   "1 only",
    "2 only",
-   "4 only",
-   "2 and 4 only",
-   "1, 2 and 3 only"
+   "3 only",
+   "4 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Statement 4 is NOT correct: the subsidy is under PMKSY 'Per Drop More Crop' (2015). Statements 1, 2 and 3 are correct.",
   "src": "app",
   "tq": "statements"
@@ -439,12 +439,12 @@
   "row": 8,
   "s": "Consider the following statements about egg production in 2024-25:\n1. India is 2nd in the world, after China.\n2. India's per capita availability is 106 eggs.\n3. Tamil Nadu has the highest share, at 18.37%.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
-   "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 2 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Statements 1 and 2 are correct. Statement 3 is wrong: Andhra Pradesh is 1st with 18.37%; Tamil Nadu has 15.63%.",
   "src": "app",
   "tq": "statements"
@@ -484,12 +484,12 @@
   "row": 8,
   "s": "Match List-I with List-II:\nList-I (Item)\nA. Urea\nB. MOP (Muriate of Potash)\nC. Chlorophyll\nD. Rhizobium\nList-II (Fact)\n1. Biofertilizer of legumes\n2. 46% nitrogen\n3. Potassic fertilizer\n4. Nitrogen and magnesium\nSelect the correct answer using the code given below:",
   "o": [
+   "A-2, B-3, C-4, D-1",
    "A-4, B-3, C-2, D-1",
    "A-2, B-1, C-3, D-4",
-   "A-2, B-4, C-3, D-1",
-   "A-2, B-3, C-4, D-1"
+   "A-2, B-4, C-3, D-1"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Urea has 46% nitrogen; MOP is potassic (not phosphatic); chlorophyll contains nitrogen and magnesium (not phosphorus); Rhizobium is the biofertilizer of legumes.",
   "src": "app",
   "tq": "match"
@@ -499,12 +499,12 @@
   "row": 8,
   "s": "Consider the following statements about the AP Mushroom Mission:\n1. Its outlay is ₹13,000 crore.\n2. Its target of 67,500 tonnes a year is meant to overtake Odisha, now the largest producer.\n3. It envisages a subsidy of about ₹5,184 crore (~40%) from the Centre and State.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 only",
    "2 only",
-   "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "3 only",
+   "1 and 3 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the largest producer, to be overtaken, is Bihar.",
   "src": "app",
   "tq": "statements"
@@ -574,12 +574,12 @@
   "row": 8,
   "s": "Match List-I with List-II:\nList-I (Rubber scheme / body)\nA. Rubber Production Incentive Scheme\nB. Rubber Plantation Development Scheme\nC. Proposed PLI\nD. Rubber Board\nList-II (Key point)\n1. Headquarters at Kottayam\n2. Rubber goods manufacturing\n3. Traditional and non-traditional areas\n4. Minimum price ₹150/kg\nSelect the correct answer using the code given below:",
   "o": [
-   "A-4, B-3, C-2, D-1",
    "A-2, B-1, C-4, D-3",
    "A-3, B-2, C-4, D-1",
+   "A-4, B-3, C-2, D-1",
    "A-2, B-4, C-3, D-1"
   ],
-  "a": 0,
+  "a": 2,
   "x": "RPIS assures ₹150/kg; the Rubber Plantation Development Scheme covers traditional and non-traditional areas; the proposed PLI is for rubber goods manufacturing; the Rubber Board is at Kottayam.",
   "src": "app",
   "tq": "match"
@@ -589,12 +589,12 @@
   "row": 8,
   "s": "Match List-I with List-II:\nList-I (Item)\nA. Free power per handloom (AP, from 1 April 2026)\nB. Free power per powerloom (AP, from 1 April 2026)\nC. National Handloom Day\nD. Article 43\nList-II (Fact)\n1. 7 August\n2. 200 units/month\n3. Cottage industries\n4. 500 units/month\nSelect the correct answer using the code given below:",
   "o": [
+   "A-2, B-4, C-1, D-3",
    "A-3, B-2, C-1, D-4",
    "A-1, B-2, C-3, D-4",
-   "A-2, B-4, C-1, D-3",
    "A-4, B-1, C-2, D-3"
   ],
-  "a": 2,
+  "a": 0,
   "x": "AP gives 200 units/month per handloom and 500 units/month per powerloom free from 1 April 2026; National Handloom Day is 7 August; Article 43 directs the State to promote cottage industries.",
   "src": "app",
   "tq": "match"
@@ -635,11 +635,11 @@
   "s": "Consider the following statements about the Andhra Pradesh economy in 2025-26 (advance estimates):\n1. GSDP is ₹17.62 lakh crore, a nominal growth of 10.75%.\n2. Agriculture and allied sectors make up about 62% of GSDP.\n3. Inflation fell to 1.39%, from 7.57% in 2022-23.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "3 only",
+   "1 and 2 only",
+   "1 and 3 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Statements 1 and 3 are correct. Statement 2 is wrong: agriculture and allied is 33.2% of GSDP (about one-third); 62% is the share of the population that depends on farming.",
   "src": "app",
   "tq": "statements"
@@ -649,12 +649,12 @@
   "row": 9,
   "s": "Match List-I with List-II:\nList-I (Ranking (2025-26 advance estimates))\nA. 1st in GDDP\nB. 2nd in GDDP\nC. 2nd in per capita income\nD. Last in per capita income\nList-II (District)\n1. Krishna\n2. Parvathipuram Manyam\n3. NTR\n4. Visakhapatnam\nSelect the correct answer using the code given below:",
   "o": [
-   "A-4, B-3, C-1, D-2",
    "A-1, B-3, C-2, D-4",
    "A-2, B-1, C-4, D-3",
-   "A-3, B-4, C-1, D-2"
+   "A-3, B-4, C-1, D-2",
+   "A-4, B-3, C-1, D-2"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Visakhapatnam is 1st in GDDP (₹1,60,771 crore) and per capita income; NTR is 2nd in GDDP but Krishna is 2nd in per capita income; Parvathipuram Manyam is last (₹1,56,977).",
   "src": "app",
   "tq": "match"
@@ -664,12 +664,12 @@
   "row": 9,
   "s": "Match List-I with List-II:\nList-I (Deficit)\nA. Revenue deficit 2026-27 (₹22,002 crore)\nB. Fiscal deficit 2026-27 (₹75,868 crore)\nC. Primary deficit 2026-27 (₹38,588 crore)\nD. Fiscal deficit 2025-26 (revised)\nList-II (Share of GSDP)\n1. About 3.84%\n2. About 4.6%\n3. About 1.11%\n4. About 1.95%\nSelect the correct answer using the code given below:",
   "o": [
+   "A-3, B-1, C-4, D-2",
    "A-3, B-4, C-2, D-1",
    "A-2, B-1, C-3, D-4",
-   "A-3, B-1, C-2, D-4",
-   "A-3, B-1, C-4, D-2"
+   "A-3, B-1, C-2, D-4"
   ],
-  "a": 3,
+  "a": 0,
   "x": "BE 2026-27: revenue deficit ₹22,002 crore ≈ 1.11%, fiscal deficit ₹75,868 crore ≈ 3.84%, primary deficit ₹38,588 crore ≈ 1.95% of GSDP; the 2025-26 revised fiscal deficit was 4.57% ≈ 4.6%.",
   "src": "app",
   "tq": "match"
@@ -710,11 +710,11 @@
   "s": "Match List-I with List-II:\nList-I (Budget head 2026-27)\nA. School Education\nB. Panchayati Raj and Rural Development\nC. Polavaram\nD. Amaravati capital\nList-II (Allocation)\n1. ₹6,000 crore\n2. ₹6,105 crore\n3. ₹32,308 crore\n4. ₹22,942 crore\nSelect the correct answer using the code given below:",
   "o": [
    "A-3, B-1, C-4, D-2",
-   "A-3, B-4, C-2, D-1",
    "A-1, B-2, C-3, D-4",
-   "A-2, B-3, C-4, D-1"
+   "A-2, B-3, C-4, D-1",
+   "A-3, B-4, C-2, D-1"
   ],
-  "a": 1,
+  "a": 3,
   "x": "School Education ₹32,308 crore (largest head); Panchayati Raj and Rural Development ₹22,942 crore; Polavaram ₹6,105 crore; Amaravati capital ₹6,000 crore – do not swap the last two.",
   "src": "app",
   "tq": "match"
@@ -739,12 +739,12 @@
   "row": 9,
   "s": "Consider the following statements about the Swarna Andhra @2047 vision:\n1. It was unveiled at Vijayawada on 13 December 2024.\n2. It targets a $2.4 trillion GSDP and a per capita income of about $42,000 by 2047.\n3. It needs annual growth of 12% or more.\n4. Its P4 model for zero poverty stands for Public–Private–People Partnership.\nWhich of the statements given above is/are NOT correct?",
   "o": [
-   "1 only",
    "2 only",
    "3 only",
-   "2, 3 and 4 only"
+   "1 and 2 only",
+   "1, 2, 3 and 4"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Statement 3 is NOT correct: the vision needs growth of 15% or more a year. The others are correct.",
   "src": "app",
   "tq": "statements"
@@ -799,12 +799,12 @@
   "row": 9,
   "s": "Match List-I with List-II:\nList-I (Indicator)\nA. Growth of agricultural credit, 2023 to 2025\nB. Share of India's investments, first nine months of 2025-26\nC. Rank in Export Preparedness Index 2024 (large States)\nD. Share of India's marine products exports\nList-II (Andhra Pradesh)\n1. 77%\n2. 5th\n3. About 60%\n4. 25.3%\nSelect the correct answer using the code given below:",
   "o": [
+   "A-1, B-4, C-2, D-3",
    "A-4, B-2, C-3, D-1",
    "A-4, B-1, C-3, D-2",
-   "A-1, B-4, C-2, D-3",
    "A-2, B-1, C-4, D-3"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Agricultural credit grew 77% (₹1.27 → ₹2.25 lakh crore); AP had 25.3% of India's investments (Bank of Baroda on CMIE data); AP was 5th in NITI Aayog's EPI 2024; marine exports (₹24,679 crore) are about 60% of India's.",
   "src": "app",
   "tq": "match"
@@ -814,12 +814,12 @@
   "row": 9,
   "s": "Consider the following statements comparing Andhra Pradesh with India:\n1. AP's IMR (SRS 2024) is 18, against India's 24.\n2. AP's MMR of 30 (SRS 2021-23) is the lowest in India, tied with Kerala.\n3. AP's literacy (67.35%) is above the national average.\n4. AP's multidimensional poverty is 6.06%, against India's 14.96%.\nWhich of the statements given above is/are correct?",
   "o": [
-   "2 only",
-   "1, 2 and 4 only",
-   "1, 3 and 4 only",
-   "1, 2, 3 and 4"
+   "1 only",
+   "3 only",
+   "1 and 2 only",
+   "1, 2 and 4 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Statements 1, 2 and 4 are correct. Statement 3 is wrong: AP's literacy (67.35%) is below the national 72.98%.",
   "src": "app",
   "tq": "statements"
@@ -829,12 +829,12 @@
   "row": 9,
   "s": "Match List-I with List-II:\nList-I (Item)\nA. Rajeev Ranjan Mishra Commission\nB. Article 243D\nC. Article 243T\nD. Operation TRACE\nList-II (Relates to)\n1. Reservation in Municipalities\n2. BC reservation in local bodies\n3. Reservation in Panchayats\n4. Missing women and girls\nSelect the correct answer using the code given below:",
   "o": [
-   "A-2, B-3, C-1, D-4",
    "A-4, B-2, C-1, D-3",
    "A-2, B-3, C-4, D-1",
-   "A-1, B-2, C-3, D-4"
+   "A-1, B-2, C-3, D-4",
+   "A-2, B-3, C-1, D-4"
   ],
-  "a": 0,
+  "a": 3,
   "x": "The single-member Rajeev Ranjan Mishra Commission is on BC reservation in local bodies; Article 243D covers Panchayats and 243T Municipalities; Operation TRACE traces missing women and girls.",
   "src": "app",
   "tq": "match"
@@ -889,12 +889,12 @@
   "row": 10,
   "s": "Consider the following statements about the Andhra Pradesh budgets of 2025-26:\n1. The separate Agriculture Budget of about ₹48,341 crore was presented by K. Atchannaidu.\n2. Of the ₹20,000 a year under Annadata Sukhibhava–PM Kisan, the Centre gives ₹14,000.\n3. Polavaram got over ₹6,000 crore.\nWhich of the statements given above is/are correct?",
   "o": [
+   "1 only",
    "2 only",
-   "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "3 only",
+   "1 and 3 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the State gives ₹14,000 and the Centre ₹6,000 (PM-KISAN).",
   "src": "app",
   "tq": "statements"
@@ -920,11 +920,11 @@
   "s": "Match List-I with List-II:\nList-I (Sector (AP, Q1 2025-26))\nA. Agriculture and allied\nB. Industry\nC. Manufacturing\nD. Services\nList-II (Value)\n1. ₹40,515 crore\n2. ₹81,496 crore\n3. ₹92,843 crore\n4. ₹1,57,321 crore\nSelect the correct answer using the code given below:",
   "o": [
    "A-4, B-2, C-1, D-3",
-   "A-2, B-4, C-3, D-1",
    "A-2, B-3, C-1, D-4",
+   "A-2, B-4, C-3, D-1",
    "A-2, B-3, C-4, D-1"
   ],
-  "a": 2,
+  "a": 1,
   "x": "Q1 2025-26: agriculture and allied ₹81,496 crore (9.6%), industry ₹92,843 crore (11.9%), manufacturing ₹40,515 crore (9.93%), services ₹1,57,321 crore (10.7%).",
   "src": "app",
   "tq": "match"
@@ -949,12 +949,12 @@
   "row": 10,
   "s": "Consider the following statements about Andhra Pradesh's Q1 2025-26 review:\n1. District-level GDDP was monitored for the first time.\n2. Srikakulam was among the districts that exceeded 20% of the annual target.\n3. The KPI framework has 512 KPIs across 32 departments.\n4. Housing topped the KPI scores with 100, and Anantapur Urban was the best mandal.\nWhich of the statements given above is/are NOT correct?",
   "o": [
+   "1 only",
+   "2 only",
    "3 only",
-   "2 and 4 only",
-   "1, 3 and 4 only",
-   "1, 2, 3 and 4"
+   "2 and 3 only"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Statement 3 is NOT correct: the 512 KPIs are across 28 departments. The others are correct.",
   "src": "app",
   "tq": "statements"
@@ -1039,12 +1039,12 @@
   "row": 10,
   "s": "Consider the following statements about the Andhra Pradesh Minor Mineral Policy 2025:\n1. Over 6,000 pending applications were revived on a first-come first-served basis.\n2. The lease period for granite and industrial minerals was raised from 20 to 25 years.\n3. The COVID-era Consideration Amount was abolished.\n4. The OTS scheme abolished penalties.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 only",
-   "1 and 2 only",
    "1 and 3 only",
-   "2 and 3 only"
+   "2 and 4 only",
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4"
   ],
-  "a": 2,
+  "a": 0,
   "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the lease period was raised to 30 years. Statement 4 is wrong: the OTS scheme rationalised penalties; it did not abolish them.",
   "src": "app",
   "tq": "statements"
@@ -1054,12 +1054,12 @@
   "row": 10,
   "s": "Consider the following statements about Anaemia Mukt Bharat (Q1 2025-26 review):\n1. Andhra Pradesh ranked 1st, Haryana 2nd and Telangana 3rd.\n2. Andhra Pradesh topped all six categories.\n3. The programme was launched in 2018 under NHM and is funded 60:40 by the Centre and States.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
-   "1 and 3 only",
-   "2 and 3 only",
-   "1, 2 and 3"
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 3 only"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Statements 1 and 3 are correct. Statement 2 is wrong: AP topped 5 of 6 categories and was 3rd for adolescents (10–19 years).",
   "src": "app",
   "tq": "statements"
@@ -1084,12 +1084,12 @@
   "row": 10,
   "s": "Consider the following statements:\n1. In Swachh Vayu Survekshan 2024-25, Guntur was 6th among cities below 10 lakh, the only South Indian city in the top ranks.\n2. Swachh Vayu Survekshan is judged by NITI Aayog.\n3. The National Clean Air Programme was launched in 2019 by MoEFCC.\n4. NCAP targeted a 40–50% cut in particulate pollution by 2024 against 2017.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
-   "2 and 3 only",
-   "2 and 4 only",
-   "3 and 4 only"
+   "2 only",
+   "3 only",
+   "1 and 2 only",
+   "1 and 3 only"
   ],
-  "a": 0,
+  "a": 3,
   "x": "Statements 1 and 3 are correct. Statement 2 is wrong: the survey is judged by the CPCB under NCAP. Statement 4 is wrong: the NCAP target was a 20–30% cut.",
   "src": "app",
   "tq": "statements"
@@ -1114,12 +1114,12 @@
   "row": 10,
   "s": "Match List-I with List-II:\nList-I (MSME item)\nA. Number of MSME units in India\nB. MSME share of India's exports\nC. ZED certification levels\nD. TReDS buyer threshold\nList-II (Fact)\n1. 63 million+\n2. ₹250 crore\n3. Bronze, Silver, Gold\n4. About 48%\nSelect the correct answer using the code given below:",
   "o": [
+   "A-1, B-4, C-3, D-2",
    "A-3, B-2, C-1, D-4",
    "A-3, B-2, C-4, D-1",
-   "A-2, B-1, C-3, D-4",
-   "A-1, B-4, C-3, D-2"
+   "A-2, B-1, C-3, D-4"
   ],
-  "a": 3,
+  "a": 0,
   "x": "India has 63 million+ MSMEs giving about 48% of exports; ZED certification is Bronze, Silver and Gold; the TReDS buyer turnover threshold was lowered to ₹250 crore.",
   "src": "app",
   "tq": "match"
@@ -1130,11 +1130,11 @@
   "s": "Match List-I with List-II:\nList-I (Authority)\nA. NDMA\nB. SDMA\nC. DDMA\nD. UDMA\nList-II (Chaired by)\n1. District Collector\n2. Prime Minister\n3. Chief Minister\n4. Municipal Commissioner\nSelect the correct answer using the code given below:",
   "o": [
    "A-2, B-4, C-3, D-1",
-   "A-2, B-3, C-1, D-4",
    "A-1, B-3, C-2, D-4",
-   "A-4, B-1, C-2, D-3"
+   "A-4, B-1, C-2, D-3",
+   "A-2, B-3, C-1, D-4"
   ],
-  "a": 1,
+  "a": 3,
   "x": "Under the DM Act, 2005: NDMA – Prime Minister, SDMA – Chief Minister, DDMA – District Collector; the UDMA (DM (Amendment) Act, 2025, million-plus cities) – Municipal Commissioner.",
   "src": "app",
   "tq": "match"
@@ -1190,13 +1190,508 @@
   "s": "Match List-I with List-II:\nList-I (HSRP item)\nA. Mandated by\nB. Linked database\nC. AP compliance (12 Aug 2025)\nD. Highest compliance\nList-II (Fact)\n1. Jammu & Kashmir\n2. VAHAN\n3. Rule 50, Central Motor Vehicle Rules, 1989\n4. 11.2%\nSelect the correct answer using the code given below:",
   "o": [
    "A-1, B-2, C-4, D-3",
-   "A-2, B-3, C-4, D-1",
    "A-3, B-2, C-4, D-1",
+   "A-2, B-3, C-4, D-1",
    "A-1, B-2, C-3, D-4"
   ],
-  "a": 2,
+  "a": 1,
   "x": "High-Security Registration Plates are mandated by Rule 50 of the CMV Rules, 1989 and linked to VAHAN; AP's compliance was 11.2%, the highest J&K's 93.4%.",
   "src": "app",
   "tq": "match"
+ },
+ {
+  "id": "cp0d8c8bf18d72",
+  "row": 11,
+  "s": "Consider the following statements:\n1. Revenue deficit = revenue expenditure − revenue receipts.\n2. Fiscal deficit = total expenditure − total receipts including borrowings.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is wrong: fiscal deficit = total expenditure − total receipts EXCLUDING borrowings.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp477158ea5aeb",
+  "row": 11,
+  "s": "Consider the following statements about Andhra Pradesh's fiscal position:\n1. The revenue deficit for 2026-27 is ₹22,002 crore, 1.11% of GSDP.\n2. The fiscal deficit for 2026-27, ₹75,868 crore (3.84% of GSDP), is within the 3% norm.\n3. Outstanding debt in 2026-27 is about 36% of GSDP.\n4. The 2025-26 revised fiscal deficit was 4.57% of GSDP.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "2 only",
+   "4 only",
+   "1 and 2 only",
+   "1 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 2 is NOT correct: 3.84% is still above the 3% norm. The others are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp841c68707777",
+  "row": 11,
+  "s": "Consider the following statements about the Andhra Pradesh Budget 2026-27:\n1. It was presented by Finance Minister Payyavula Keshav on 14 February 2026.\n2. Its total outlay is about ₹3.32 lakh crore.\n3. Capital expenditure including loans is ₹53,915 crore.\n4. Capital outlay of ₹48,698 crore is 27% above the 2025-26 RE.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statements 1, 2 and 3 are correct. Statement 4 is wrong: capital outlay is up 47% over 2025-26 RE.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp40370d625ccc",
+  "row": 11,
+  "s": "Match List-I with List-II:\nList-I (Rupee comes from (AP 2026-27))\nA. State taxes\nB. Open market borrowings\nC. Share in central taxes\nD. Grants-in-aid\nList-II (Share)\n1. 10%\n2. 19%\n3. 38%\n4. 30%\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-4, B-2, C-1, D-3",
+   "A-1, B-4, C-2, D-3",
+   "A-3, B-4, C-2, D-1",
+   "A-4, B-3, C-1, D-2"
+  ],
+  "a": 2,
+  "x": "State taxes 38% (largest), open market borrowings 30%, share in central taxes 19%, grants-in-aid 10% (central transfers together 29%), non-tax revenue 3%.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpe19e03d2b8b4",
+  "row": 11,
+  "s": "Consider the following statements about the Andhra Pradesh Budget 2026-27:\n1. School Education is the largest department allocation.\n2. Health, at 5.81% of the Budget, is the second-largest allocation.\n3. Amaravati development gets ₹6,000 crore.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: Health (₹19,306 crore, 5.81%) is the 4th largest.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp81c1d519035c",
+  "row": 11,
+  "s": "Match List-I with List-II:\nList-I (Head (AP 2026-27))\nA. School Education\nB. SC component\nC. Water Resources\nD. Polavaram Project\nList-II (₹ crore)\n1. 32,308\n2. 6,105\n3. 20,644\n4. 18,224\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-4, B-3, C-1, D-2",
+   "A-1, B-2, C-4, D-3",
+   "A-2, B-1, C-3, D-4",
+   "A-1, B-3, C-4, D-2"
+  ],
+  "a": 3,
+  "x": "School Education ₹32,308 crore, SC component ₹20,644 crore, Water Resources ₹18,224 crore, Polavaram ₹6,105 crore (Amaravati development ₹6,000 crore).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpc7741de23399",
+  "row": 11,
+  "s": "Match List-I with List-II:\nList-I (Scheme)\nA. NTR Bharosa\nB. Jal Jeevan Mission\nC. Deepam 2.0\nD. Stree Shakti\nList-II (Feature)\n1. Ministry of Jal Shakti\n2. 3 free LPG cylinders a year\n3. Largest welfare expenditure (pensions)\n4. Free bus travel for women\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-4, B-3, C-1, D-2",
+   "A-1, B-2, C-4, D-3",
+   "A-1, B-4, C-2, D-3",
+   "A-3, B-1, C-2, D-4"
+  ],
+  "a": 3,
+  "x": "NTR Bharosa pensions (₹27,719 crore) are the largest welfare item; Jal Jeevan Mission (₹4,000 crore) is under the Ministry of Jal Shakti; Deepam 2.0 gives 3 free LPG cylinders a year; Stree Shakti gives free bus travel to women.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpeebecebf6557",
+  "row": 11,
+  "s": "Consider the following statements:\n1. The Shakti App supports emergency response for women's safety in Andhra Pradesh.\n2. AP's Agriculture Budget 2026-27 of about ₹53,752 crore was presented by Payyavula Keshav.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is wrong: the Agriculture Budget was presented by K. Atchannaidu.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp72ab0a0b6710",
+  "row": 11,
+  "s": "Consider the following statements about Andhra Pradesh in 2025-26:\n1. GSDP is ₹17.62 lakh crore, a nominal growth of 10.75%.\n2. Per capita income is ₹2,94,507, a growth of 10.43%.\n3. Inflation was 1.93%.\n4. Per capita income is lowest in Alluri Sitharama Raju district.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: inflation was 1.39%. Statement 4 is wrong: the lowest per capita income is in Parvathipuram Manyam (highest: Visakhapatnam).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3132b9827cc6",
+  "row": 11,
+  "s": "Consider the following statements comparing Andhra Pradesh with India:\n1. AP's literacy (67.35%) is above the national average.\n2. AP's IMR (SRS 2024) is 18 against India's 24.\n3. AP's multidimensional poverty (2019-21) is 6.06% against India's 14.96%.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "3 only",
+   "1 and 2 only",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: AP's literacy is below the national 72.98%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3ac356ec0905",
+  "row": 11,
+  "s": "Consider the following statements:\n1. P4 of Swarna Andhra @2047 stands for Public–Private–People Partnership.\n2. Swarna Andhra @2047 targets a $2.4 trillion economy by 2047.\n3. APRIGP is supported by the World Bank (IDA) with $543.2 million.\n4. The AP Economic Restructuring Project aimed at primary health, nutrition, primary education and rural assets.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 4 only"
+  ],
+  "a": 3,
+  "x": "Statements 1, 2 and 4 are correct. Statement 3 is wrong: World Bank (IDA) support for APRIGP is $75 million.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa75ab7259c62",
+  "row": 11,
+  "s": "Consider the following statements about the NITI Aayog Fiscal Health Index 2023-24:\n1. Odisha ranked 1st and Telangana 7th.\n2. Andhra Pradesh ranked 17th with a score of 23.1.\n3. AP's best sub-index was Quality of Expenditure (43.1).\n4. AP's weakest sub-index was Revenue Mobilisation.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statements 1, 2 and 3 are correct. Statement 4 is wrong: AP's weakest sub-index was Debt Sustainability (4.2).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpeb61d22daa38",
+  "row": 11,
+  "s": "Consider the following statements:\n1. NITI Aayog was set up in 2015; its Vice-Chairman is Suman Bery.\n2. Telangana's Budget 2026-27 (₹3.24 lakh crore) is smaller than Andhra Pradesh's (₹3.32 lakh crore).\n3. Telangana's debt in 2023-24 was 80% of its GSDP.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: Telangana's debt was 34.47% of GSDP; 80% is the share of own tax revenue in its total revenue.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3bec423a445f",
+  "row": 11,
+  "s": "Consider the following statements about the Union Budget 2026-27:\n1. It was presented on 1 February 2026 by Nirmala Sitharaman, her 9th Budget.\n2. It was India's 6th Digital Budget.\n3. It was the first Budget prepared at Kartavya Bhavan.\n4. The Annual Financial Statement is laid under Article 110.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "2 and 4 only",
+   "1, 2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statements 1, 2 and 3 are correct. Statement 4 is wrong: the Annual Financial Statement is under Article 112 (Article 110 defines Money Bills).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp3dd49cfd49c4",
+  "row": 11,
+  "s": "Match List-I with List-II:\nList-I (Union Budget item (BE 2026-27))\nA. Non-debt receipts\nB. Net tax receipts\nC. Capital expenditure\nD. Total expenditure\nList-II (Amount)\n1. ₹36.5 lakh crore\n2. ₹12.2 lakh crore\n3. ₹28.7 lakh crore\n4. ₹53.5 lakh crore\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-2, B-1, C-3, D-4",
+   "A-1, B-4, C-3, D-2",
+   "A-1, B-3, C-2, D-4",
+   "A-3, B-4, C-1, D-2"
+  ],
+  "a": 2,
+  "x": "BE 2026-27: non-debt receipts ₹36.5 lakh crore (₹34 lakh crore in RE 2025-26), net tax receipts ₹28.7 lakh crore, capital expenditure ₹12.2 lakh crore, total expenditure ₹53.5 lakh crore.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb40877bcdc9d",
+  "row": 11,
+  "s": "Assertion (A): The Union fiscal deficit is budgeted at 4.3% of GDP for 2026-27, against 4.4% in RE 2025-26.\nReason (R): Outstanding liabilities of the Centre are projected at 55.6% of GDP in 2026-27, against 56.1%.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 1,
+  "x": "Both are true (BE 2026-27 vs RE 2025-26), but the fall in the debt ratio does not explain the lower fiscal deficit; it is, if anything, a consequence of lower deficits.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp83418954c928",
+  "row": 12,
+  "s": "Consider the following statements about Andhra Pradesh in 2025-26 (advance estimates):\n1. GSDP grew 10.75% in nominal terms.\n2. Per capita income is ₹2,94,507, up about 10.43%.\n3. Agriculture's share of GSDP is 36.04%.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: agriculture is 33.20% of GSDP (₹5,39,454 crore); 36.04% is the debt–GSDP ratio of 2025-26 RE.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb1d4b157e79c",
+  "row": 12,
+  "s": "Consider the following statements about district data for 2025-26 (AE):\n1. Visakhapatnam has the highest per capita income and GDDP.\n2. NTR is next to Visakhapatnam in per capita income.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is wrong: Krishna is next in per capita income (₹4,82,078); NTR is 2nd in GDDP.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1401d076cbe5",
+  "row": 12,
+  "s": "Consider the following statements about Andhra Pradesh's deficits:\n1. In the 2024-25 actuals, the revenue deficit was 5.11% and the fiscal deficit 3.79% of GSDP.\n2. AP's 2026-27 fiscal deficit target of 3.8% of GSDP is lower than the Centre's 4.3% of GDP.\n3. GSDP is projected to grow 12% in 2026-27, to ₹19,75,073 crore.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: the 2024-25 actuals were RD 3.79% and FD 5.11% (not the other way round).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa5c4348c6e94",
+  "row": 12,
+  "s": "Assertion (A): Andhra Pradesh's fiscal deficit target of 3.8% of GSDP for 2026-27 is above the 16th Finance Commission's limit for States.\nReason (R): The 16th Finance Commission limit for States' fiscal deficit is 3% of GSDP for 2026-31.\nSelect the correct answer using the code given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is NOT the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: since the limit is 3% of GSDP, AP's 3.8% (₹75,868 crore) is above it, though lower than the Centre's 4.3% of GDP.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpfd2889e2b53b",
+  "row": 12,
+  "s": "Consider the following statements about Andhra Pradesh's debt:\n1. Outstanding debt is ₹6,35,177 crore, 36.04% of GSDP, in 2025-26 RE.\n2. It is expected to reach ₹7,11,094 crore by the end of 2026-27.\n3. The ₹11,000 crore of 50-year interest-free capex loans from the Centre is counted in the debt figure.\n4. Guarantees of about ₹3,11,182 crore are cited as evidence of growing off-budget borrowing.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 only",
+   "3 only",
+   "3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "Statement 3 is NOT correct: the 50-year interest-free capex loans (₹11,000 crore, 0.6% of GSDP) are kept outside the borrowing ceiling and debt figure. The others are correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb6b728d5608a",
+  "row": 12,
+  "s": "Match List-I with List-II:\nList-I (AP Budget 2026-27)\nA. Total outlay\nB. Revenue expenditure\nC. School Education\nD. Polavaram project\nList-II (Amount)\n1. ₹32,308 crore\n2. ₹3,32,205 crore\n3. ₹6,105 crore\n4. ₹2,56,143 crore\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-2, B-1, C-3, D-4",
+   "A-1, B-3, C-2, D-4",
+   "A-3, B-1, C-4, D-2",
+   "A-2, B-4, C-1, D-3"
+  ],
+  "a": 3,
+  "x": "Total outlay ₹3,32,205 crore; revenue expenditure ₹2,56,143 crore; School Education ₹32,308 crore; Polavaram ₹6,105 crore.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp089069fd26ac",
+  "row": 12,
+  "s": "Consider the following statements about Andhra Pradesh's revenue receipts for 2026-27:\n1. Own resources are 59% and central transfers 41%.\n2. SGST is the largest source of own tax revenue.\n3. Revenue-deficit grants continue under the 16th Finance Commission.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statements 1 and 2 are correct (SGST ₹45,078 crore, about 36%). Statement 3 is wrong: revenue-deficit grants ended under the 16th Finance Commission.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp80e41a4d3105",
+  "row": 12,
+  "s": "Match List-I with List-II:\nList-I (Project)\nA. APILIP-II\nB. VCIC programme\nC. Amaravati Capital City Development Programme\nD. SALT\nList-II (Funding agency)\n1. ADB\n2. World Bank + ADB\n3. JICA\n4. World Bank\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-3, B-1, C-2, D-4",
+   "A-2, B-1, C-4, D-3",
+   "A-4, B-3, C-2, D-1",
+   "A-4, B-1, C-2, D-3"
+  ],
+  "a": 0,
+  "x": "APILIP-II is JICA (not World Bank); the Visakhapatnam–Chennai Industrial Corridor programme is ADB; Amaravati capital works are World Bank + ADB; SALT is World Bank.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpadc75cdda0a6",
+  "row": 12,
+  "s": "Match List-I with List-II:\nList-I (Project)\nA. APIIATP\nB. AP Road Sector Project\nC. SALT\nD. APRIGP\nList-II (Objective)\n1. Repair of 850 km of MDRs and State highways\n2. School learning outcomes\n3. Farm incomes of poor households in backward mandals\n4. Climate resilience in 565 minor-tank villages\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-1, B-3, C-2, D-4",
+   "A-3, B-2, C-4, D-1",
+   "A-1, B-4, C-2, D-3",
+   "A-4, B-1, C-2, D-3"
+  ],
+  "a": 3,
+  "x": "APIIATP (World Bank) – climate resilience in 565 minor-tank villages; AP Road Sector Project (World Bank) – 850 km of roads; SALT (World Bank) – learning outcomes; APRIGP (World Bank IDA, SERP) – farm incomes of poor households.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp5f8afc7e1d10",
+  "row": 12,
+  "s": "Consider the following statements:\n1. APRIGP is funded by the World Bank (IDA).\n2. The AP Economic Restructuring Project (1999) was funded by the ADB for fiscal reform and rural assets.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is wrong: the AP Economic Restructuring Project was a World Bank project (fiscal reform plus primary health, nutrition, primary education and rural assets).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp039a701de4c6",
+  "row": 12,
+  "s": "Consider the following statements about the Swarna Andhra @2047 vision document:\n1. It was unveiled on 13 December 2024 at Vijayawada.\n2. Its theme is 'One State – One Vision'.\n3. Its aim is a Wealthy, Healthy and Happy (WHH) Andhra Pradesh.\n4. It targets a $2.4 trillion economy by 2047, growing 15% or more a year.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statements 1, 3 and 4 are correct. Statement 2 is wrong: the theme is '10 Principles – One Vision'.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp69ec86acc7e3",
+  "row": 12,
+  "s": "Consider the following statements about Swarna Andhra @2047:\n1. P4 stands for Public–Private–People Partnership.\n2. NITI Aayog is the main execution body for its roadmap.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 0,
+  "x": "Statement 1 is correct. Statement 2 is wrong: the AP State Development Planning Society (APSDPS) is the main execution body.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9aa88dd958e9",
+  "row": 12,
+  "s": "Consider the following statements about the AP Agriculture and Allied Sectors Budget 2026-27:\n1. It was K. Atchannaidu's third such Budget, presented on 14 February 2026.\n2. Its outlay is about ₹53,753 crore.\n3. The largest head is the electricity subsidy for farm power.\n4. The Price Stabilisation Fund gets ₹500 crore.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 4 only",
+   "1, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 1,
+  "x": "Statements 1, 2 and 4 are correct. Statement 3 is wrong: irrigation projects (₹14,277 crore) are the largest head; the farm power subsidy is ₹13,722 crore.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp89756ced4d66",
+  "row": 12,
+  "s": "Consider the following statements about agriculture in Andhra Pradesh:\n1. Agriculture accounts for about half of the State's GSDP.\n2. The agriculture budget of 2021-22 was ₹31,256.36 crore.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "Both 1 and 2",
+   "Neither 1 nor 2"
+  ],
+  "a": 1,
+  "x": "Statement 1 is wrong: agriculture is 33.20% of GSDP, about one-third. Statement 2 is correct.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp73bdd691ff39",
+  "row": 12,
+  "s": "Match List-I with List-II:\nList-I (Indicator (Andhra Pradesh))\nA. MMR (SRS 2021-23)\nB. IMR (SRS 2024)\nC. TFR (SRS 2024)\nD. Unemployment (PLFS 2023-24)\nList-II (Value)\n1. 18\n2. 1.4\n3. 4.1%\n4. 30\nSelect the correct answer using the code given below:",
+  "o": [
+   "A-2, B-4, C-1, D-3",
+   "A-2, B-4, C-3, D-1",
+   "A-1, B-4, C-3, D-2",
+   "A-4, B-1, C-2, D-3"
+  ],
+  "a": 3,
+  "x": "AP: MMR 30 (India 88), IMR 18 (India 24), TFR 1.4, unemployment 4.1% (India 3.2%).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa4dbf11a7334",
+  "row": 12,
+  "s": "Consider the following statements comparing Andhra Pradesh with India:\n1. AP's literacy (Census 2011, 67.35%) is higher than India's.\n2. AP's headcount poverty (MPI 2023) is 6.06%, against India's 14.96%.\n3. AP's unemployment rate (PLFS 2023-24, 4.1%) is higher than India's 3.2%.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: AP's 67.35% is below India's 72.98%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb1d740e3bfde",
+  "row": 12,
+  "s": "Consider the following statements about prices in Andhra Pradesh:\n1. CPI-IW inflation in Apr–Oct 2025 was 1.86% in AP against 2.82% in India.\n2. The new CPI-AL series used from June 2025 has the base 2012=100.\n3. Retail inflation in May 2026 was 4.90% in AP against 3.93% in India.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "1 and 3 only",
+   "2 and 3 only"
+  ],
+  "a": 2,
+  "x": "Statements 1 and 3 are correct (AP about 1.0 point higher in May 2026). Statement 2 is wrong: the new CPI-AL series has base 2019=100.",
+  "src": "app",
+  "tq": "statements"
  }
 ]

@@ -929,3 +929,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b1-w005 rewrite (Harappan rows 5-11): own 449 → 208 (46%). Notes inconsistencies to align: Dholavira 3000–1800 vs 1500 BCE; Rangpur river Bhadar/Sukhbhadar; Lothal 1954–57 vs 1955–60; Kalibangan 1961–69 vs 1960–69; elephant domesticated/wild.
 - b1-w012 rewrite (Vedic rows 12-19): own 391 → 165 (42%). Yava barley vs millet (17:1:2 from PYQ yb69b1c202c3).
 - b6-w004 rewrite (CA rows 4-6): own 385 → 178 (46%).
+- b5-w005 rewrite (S&T rows 5-10): own 403 → 137 (34%). Check PYQ y4351c0b7ed7 first Indian supercomputer on TOP500 (notes PARAM Padma 2003).

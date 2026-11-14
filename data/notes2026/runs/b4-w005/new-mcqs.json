@@ -988,5 +988,260 @@
   "x": "Statement 3 is wrong: Stromboli, with Vesuvius and Etna, belongs to the Mediterranean belt. Hekla is Mid-Atlantic, Mauna Loa an intraplate hotspot, and Kilimanjaro and the Afar triple junction are East African Rift.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cp865b8dc5a141",
+  "row": 10,
+  "s": "Consider the following statements about measuring earthquakes:\n1. Magnitude is quantitative, with one value per earthquake, while intensity varies from place to place.\n2. Intensity increases with distance from the epicentre.\n3. The Moment Magnitude (Mw) scale is based on the rupture area of the fault and the size of the waves, and is preferred for large earthquakes.\n4. The Modified Mercalli and MSK-64 scales both run from I to XII.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: intensity – the shaking and damage observed at a place – falls with distance from the epicentre. Magnitude has one value per quake; Mw (rupture area) is preferred for large quakes; MMI and MSK-64 (like Rossi-Forel) run I to XII.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpe5ffb78979c9",
+  "row": 10,
+  "s": "Assertion (A): An earthquake of magnitude 6 releases roughly 1,000 times the energy of one of magnitude 4.\nReason (R): Each whole-number step on the Richter scale means about 31–32 times more energy.",
+  "o": [
+   "Both A and R are true and R is the correct explanation of A",
+   "Both A and R are true but R is not the correct explanation of A",
+   "A is true but R is false",
+   "A is false but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the Richter scale is logarithmic – each step is 10× the wave amplitude and ~31–32× the energy, so two steps ≈ 32 × 32 ≈ 1,000× (not a hundredfold rise per step).",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpb45de96f072d",
+  "row": 10,
+  "s": "Match List-I (Instrument/term) with List-II (Function):\nList-I\na. Seismometer\nb. Seismogram\nc. Seismoscope\nd. Creepmeter\nList-II\ni. Slow slip (creep) along a fault\nii. Only shows that a tremor occurred and its time\niii. The recording itself\niv. The sensor (pendulum or spring mass) inside a seismograph",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-ii, c-iii, d-i"
+  ],
+  "a": 2,
+  "x": "The seismometer is the sensor inside a seismograph, the seismogram is the record it makes, a seismoscope only shows that a tremor occurred and when, and a creepmeter measures slow slip along a fault.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb22568eef13e",
+  "row": 10,
+  "s": "Consider the following statements:\n1. A seismic doublet is two independent earthquakes of similar magnitude occurring close together in time and place.\n2. In June 2026 Caracas, Venezuela, was hit by a seismic doublet of M 7.1 and M 7.5.\n3. Harvard University made the first global map of continental mantle earthquakes.\n4. Homoseismal (coseismal) lines join places where the shock arrives at the same time.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "1, 2 and 4 only",
+   "2, 3 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: Stanford made the first global map of the rare continental-mantle quakes (80+ km below the Moho). The Caracas doublet (M 7.1 and 7.5) struck on 26 June 2026; homoseismal lines join places of equal arrival time (isoseismals join equal intensity).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa01911ac444d",
+  "row": 10,
+  "s": "Match List-I (Type of earthquake) with List-II (Example/cause):\nList-I\na. Tectonic\nb. Reservoir-induced\nc. Intraplate\nd. Human-induced (other)\nList-II\ni. Mining, fracking and nuclear tests\nii. Latur (Killari), 1993\niii. Himalaya; San Andreas Fault\niv. Koyna, 1967",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-iii, b-ii, c-iv, d-i"
+  ],
+  "a": 0,
+  "x": "Tectonic quakes release stress along faults at plate boundaries (Himalaya, San Andreas – not induced); Koyna 1967 is reservoir-induced; Latur 1993 was an intraplate quake on a hidden fault in the stable shield; mining, fracking and nuclear tests cause low-magnitude induced quakes.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp225929f7af6c",
+  "row": 10,
+  "s": "Match List-I (Earthquake) with List-II (Fact):\nList-I\na. Kangra\nb. Assam–Tibet\nc. Uttarkashi\nd. Gorkha (Nepal)\nList-II\ni. 20 October 1991, Mw 6.8, Himalayan thrust zone\nii. 1905, M 7.8, about 20,000 deaths\niii. 2015, M 7.8, Main Himalayan Thrust\niv. 15 August 1950, M 8.6, strongest in India",
+  "o": [
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-i, c-iv, d-iii"
+  ],
+  "a": 1,
+  "x": "Kangra (1905, 7.8) killed ~20,000; Assam–Tibet (15 Aug 1950, 8.6) is India's strongest; Uttarkashi (20 Oct 1991, Mw 6.8) struck the Himalayan thrust zone; Gorkha (2015, 7.8) ruptured the Main Himalayan Thrust.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp1f5e99b6458c",
+  "row": 10,
+  "s": "Consider the following statements:\n1. The 1993 Latur earthquake struck an intraplate area then rated as Zone I.\n2. The Bhuj earthquake of 26 January 2001 (Mw 7.7), with the 2004 tsunami, led to the Disaster Management Act, 2005.\n3. The 1897 Assam earthquake was studied by R.D. Oldham of the GSI.\n4. The 1934 Bihar–Nepal earthquake had a magnitude of 8.6.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "4 only",
+   "1 and 4 only",
+   "2 and 3 only",
+   "3 only"
+  ],
+  "a": 0,
+  "x": "Only statement 4 is wrong: the 1934 Bihar–Nepal earthquake was 8.1; 8.6 is the 1950 Assam–Tibet quake. Latur lay in Zone I, Bhuj (Mw 7.7) and the 2004 tsunami led to the DM Act 2005, and Oldham studied the 1897 Assam quake.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp5867fcfe748e",
+  "row": 10,
+  "s": "Match List-I (Earthquake) with List-II (Feature):\nList-I\na. Tohoku, Japan (2011)\nb. Turkey–Syria (2023)\nc. Myanmar (2025)\nd. Kamchatka (2025)\nList-II\ni. Subduction of the Pacific plate; Fukushima\nii. Sagaing Fault between the Indian and Eurasian plates\niii. M 8.8 megathrust with only a limited tsunami\niv. East Anatolian Fault",
+  "o": [
+   "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-i, b-ii, c-iv, d-iii"
+  ],
+  "a": 2,
+  "x": "Tohoku (M 9.0–9.1) came from Pacific plate subduction and caused the Fukushima tsunami; Turkey–Syria (Feb 2023) was on the East Anatolian Fault; Myanmar (Mandalay, M 7.7) on the Sagaing Fault; Kamchatka (Aug 2025, M 8.8) produced only a limited tsunami.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp80076e3a8a9b",
+  "row": 10,
+  "s": "Consider the following statements about India's seismic zones (IS 1893: 2016):\n1. The zone factor of Zone V is 0.36 and that of Zone II is 0.10.\n2. Zone III corresponds to MSK intensity VII and has a zone factor of 0.24.\n3. Kutch and the Andaman and Nicobar Islands lie in Zone V.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "1 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statement 2 is wrong: Zone III (MSK VII) has a zone factor of 0.16; 0.24 belongs to Zone IV. Zone factors run 0.10 (II), 0.16 (III), 0.24 (IV), 0.36 (V), and Zone V includes Kutch and the Andaman and Nicobar Islands.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8009efd2b5d7",
+  "row": 10,
+  "s": "Consider the following statements:\n1. Andhra Pradesh lies in Zones II and III and has no area in Zone V.\n2. Vijayawada lies in Zone III and Visakhapatnam in Zone II.\n3. Hyderabad lies in Zone III.\n4. New Delhi lies in Zone IV.\nWhich of the statements given above are correct?",
+  "o": [
+   "1, 2 and 4 only",
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 3 and 4 only"
+  ],
+  "a": 0,
+  "x": "Statement 3 is wrong: Hyderabad, on the stable Peninsula, is in Zone II, like Visakhapatnam. AP lies in Zones II and III with no Zone V area; Vijayawada and much of coastal AP are Zone III; New Delhi is Zone IV.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp81587ded94b3",
+  "row": 10,
+  "s": "Consider the following statements:\n1. India has four seismic zones; Zone I was merged into Zone II after the 1993 Latur earthquake.\n2. The IS 1893 (Part 1): 2025 map, built by IIT-Bombay for NDMA, added a new top Zone VI.\n3. The 2025 code was withdrawn on 3 March 2026 after cost objections, and the 2016 four-zone map was restored.\n4. Experts said the restored 2016 values are too low for the Himalaya.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 3 and 4 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "Statement 2 is wrong: the 2025 map (a PSHA model, notified 6 Nov 2025, with a new Zone VI for parts of Kashmir, the North-East and Kutch) was built by IIT-Madras. It was withdrawn on 3 Mar 2026 after cost objections from MoHUA, Metro Rail corporations and NDSA, restoring the 2016 map, whose values experts call too low for the Himalaya.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9ce5c3c8a594",
+  "row": 10,
+  "s": "Consider the following statements about tsunamis:\n1. Magnitude above about 6.5, a shallow focus and vertical sea-floor movement favour a tsunami.\n2. Over 80% of tsunamis come from megathrust subduction earthquakes.\n3. India's tsunami warning centre (ITEWC), set up after the 2004 tsunami, is at INCOIS, Chennai.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "All three",
+   "None"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong on the city: ITEWC is at INCOIS, Hyderabad. Tsunamis need roughly M 6.5+, a shallow focus (< ~70 km) and vertical sea-floor movement, and over 80% come from megathrust subduction quakes.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2de09e3de127",
+  "row": 10,
+  "s": "Match List-I (Effect of earthquakes) with List-II (Where/why):\nList-I\na. Landslides\nb. Liquefaction\nc. Fires\nd. Seiches\nList-II\ni. Fragile Himalaya and North-East\nii. Water-saturated soft soils of the Indo-Gangetic Plain\niii. Standing waves in lakes and reservoirs\niv. Broken gas and power lines",
+  "o": [
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-i, b-iv, c-ii, d-iii"
+  ],
+  "a": 2,
+  "x": "Quake-triggered landslides threaten the fragile Himalaya and North-East; liquefaction hits saturated soft soils of the Indo-Gangetic Plain; fires follow broken gas and power lines (San Francisco 1906, Tokyo 1923); seiches are standing waves in lakes and reservoirs.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpe1f1eb67eac9",
+  "row": 10,
+  "s": "Consider the following statements about the world distribution of earthquakes:\n1. The Circum-Pacific belt records most earthquakes – about 68–70% (PMF, Leong).\n2. India lies on the Mid-Continental (Alpine–Himalayan) belt, which accounts for about 15–20%.\n3. Earthquakes along mid-oceanic ridges are deep and very severe.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "1 only",
+   "2 only",
+   "3 only",
+   "1 and 3 only"
+  ],
+  "a": 2,
+  "x": "Only statement 3 is wrong: earthquakes at mid-oceanic ridges and the East African rift are shallow and milder. The Circum-Pacific Ring of Fire has ~68–70% (often quoted ~90%), and the Alpine–Himalayan belt, including India, ~15–20%.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7d7cd0550cc3",
+  "row": 10,
+  "s": "Consider the following statements about seismic waves:\n1. P-waves arrive first, travelling about 1.7 times as fast as S-waves.\n2. Love waves shake the ground side to side, while Rayleigh waves have a rolling motion.\n3. S-waves travel through both solids and liquids.\n4. The absence of S-waves beyond about 103–105° shows that the outer core is liquid.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 3 and 4 only",
+   "1, 2 and 4 only"
+  ],
+  "a": 3,
+  "x": "Statement 3 is wrong: S-waves are transverse and pass through solids only – which is why their shadow beyond ~103–105° proves the outer core is liquid. P-waves (~1.7× S) arrive first; Love and Rayleigh surface waves arrive last and do most damage.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb098a5d55344",
+  "row": 10,
+  "s": "Match List-I (Body/system) with List-II (Role):\nList-I\na. National Centre for Seismology\nb. Uttarakhand Bhookamp Alert\nc. NDRF\nd. BIS IS 1893 / NBC\nList-II\ni. Search and rescue, including collapsed structure search and rescue\nii. MoES nodal agency for earthquake monitoring, about 160 observatories\niii. India's first earthquake early warning app, by IIT Roorkee (2021)\niv. Earthquake-resistant design codes",
+  "o": [
+   "a-iii, b-ii, c-i, d-iv",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-ii, b-iii, c-i, d-iv",
+   "a-ii, b-i, c-iii, d-iv"
+  ],
+  "a": 2,
+  "x": "NCS (MoES) is the nodal monitoring agency with ~160 observatories (Indian quakes M 3.0+, global M 6.0+); Uttarakhand Bhookamp Alert (4 Aug 2021, IIT Roorkee) was India's first early-warning app; NDRF does search and rescue incl. CSSR; BIS IS 1893 and the NBC set earthquake-resistant design.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3b2e33e2a02f",
+  "row": 10,
+  "s": "Consider the following statements:\n1. IndiaQuake and RISEQ ('Bhookamp') are public earthquake-alert apps of NCS/MoES.\n2. Detailed seismic microzonation maps have been prepared for Delhi and Guwahati.\n3. India's first seismological observatory was set up at Pune in 1898.\nWhich of the statements given above are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statement 3 is wrong: the first seismological observatory (1898) was at Alipore, Calcutta (Kolkata). IndiaQuake and RISEQ/Bhookamp are NCS/MoES apps, and Delhi and Guwahati have microzonation maps.",
+  "src": "app",
+  "tq": "statements"
  }
 ]
