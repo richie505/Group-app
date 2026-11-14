@@ -85,7 +85,7 @@
 | Banana | Tamil Nadu / Andhra Pradesh (not Maharashtra) |
 | Potato | Uttar Pradesh |
 | Litchi | Bihar |
-| Pineapple | Meghalaya, Tripura |
+| Pineapple | West Bengal (largest producer), Assam (largest area); also Tripura, Meghalaya |
 | Kiwi | Arunachal Pradesh (over 50%); also the "Orchid State" |
 | All fruits | **Andhra Pradesh** largest fruit State (about 15.6%); 1st in cocoa productivity |
 | Loose flowers | Tamil Nadu now (Karnataka in older keys) |
