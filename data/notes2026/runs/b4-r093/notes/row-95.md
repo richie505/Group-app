@@ -5,8 +5,8 @@
 | Port | District | Model / operator | Feature |
 |---|---|---|---|
 | Visakhapatnam | Visakhapatnam | Major; Visakhapatnam Port Authority (GoI) | 141.60 MTPA; record 91.17 MMT (2025-26, +10.34%) |
-| **Gangavaram** | Visakhapatnam | PPP-BOOT (2003); ops 17 Apr 2009 | **Greenfield deep-water port; deepest draft**; 64 MMT capacity; "largest private-sector port" (UPSC 2009) |
-| **Krishnapatnam** | **SPSR Nellore** | PPP-BOST (2004); ops 20 Mar 2009 | Largest private port in AP; highest cargo 41.09 MMT (to Nov 2025) |
+| **Gangavaram** | Visakhapatnam | PPP-BOOT (2003); ops 17 Apr 2009 | **Greenfield deep-water port; deepest draft**; 64 MMT capacity; "largest private-sector port" (UPSC 2009 key – as built/at opening in 2009, by depth and design capacity; by cargo handled today Krishnapatnam is bigger) |
+| **Krishnapatnam** | **SPSR Nellore** | PPP-BOST (2004); ops 20 Mar 2009 | Largest private port in AP **by cargo handled** (2025-26: 41.09 MMT to Nov 2025 vs Gangavaram 24.39) – not a conflict with the 2009 Gangavaram key |
 | Kakinada Deep Water | Kakinada | PPP-OMST; **Kakinada Seaports Ltd** (from 1999) | Highest Govt revenue share, 22% of gross income; farm exports, chemicals, fertilisers |
 | Kakinada Anchorage | Kakinada | State-run by APMB (not PPP DBFOT) | Lighterage; rice exports; ~4 MMT |
 | Rawa (Ravva) | Kakinada region (S. Yanam) | Captive non-major; Cairn SBM | Offshore oil and gas |

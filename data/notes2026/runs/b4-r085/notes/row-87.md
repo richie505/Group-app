@@ -3,8 +3,8 @@
 |---|---|---|
 | **TISCO, Jamshedpur** (Tatanagar) | Jharkhand, **East Singhbhum** district; Subarnarekha–Kharkai confluence at Sakchi | **1907**, private (Tata); oldest and largest |
 | IISCO, Kulti-Burnpur (Asansol) | West Bengal; Barakar river | Pre-independence; now SAIL |
-| VISL Bhadravati | Karnataka; Bhadra river | 1923; oldest public-sector plant in the south |
-| **Bhilai** | Chhattisgarh (Durg); **not on a river** – water from Tandula dam | 1957; **USSR (Russia)** |
+| VISL Bhadravati | Karnataka; Bhadra river | 1923; oldest public-sector plant in the south; also: taken over by **SAIL in 1989** (merged 1998) |
+| **Bhilai** | Chhattisgarh (Durg); **not on a river** – water from Tandula dam; also: iron ore from **Dalli-Rajhara** | 1957; **USSR (Russia)** |
 | **Rourkela** | Odisha (Sundargarh); Koel and Sankh | 1959; **West Germany** (Krupp and Demag); first public-sector integrated plant |
 | **Durgapur** | West Bengal; Damodar (DVC) | 1959; **UK** (British) |
 | **Bokaro** | Jharkhand; Damodar–Bokaro confluence | 1964; **USSR** |
@@ -18,7 +18,7 @@
 - **Prime Minister's Trophy** for best integrated steel plant (from 1992-93): **SAIL Bhilai** – record **11 wins**.
 ~~ Sources: NextGen Indian Geography 10 p.10; PMF Human & Economic Geography 05 p.16-22; app notes 4:87 sub 1
 
-=== Locational Factors of Steel Plants
+=== Locational Factors of Steel Plants; PMF Human  Economic Geography 05 p.20 (Bhilai: Dalli-Rajhara ore); en.wikipedia.org/wiki/Visvesvaraya_Iron_and_Steel_Plant (SAIL 1989, merged 1998)
 - Raw materials are **weight-losing**, so plants sit on the **Chota Nagpur** coal-ore crescent (Jharkhand, N. Odisha, Chhattisgarh, W. Bengal).
 - **Near coalfields:** Bokaro, Durgapur, Kulti-Burnpur; **near iron ore:** Bhadravati, Bhilai, Rourkela.
 - **Far from coalfields:** **Bhadravati** (Kemmangundi ore; charcoal, then Sharavati/Jog hydel power).

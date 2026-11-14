@@ -68,16 +68,16 @@
 |---|---|---|
 | **IADP** (Intensive Agricultural District Programme) | **1960-61** | Pilot in **7 districts of 7 States**; AP's district = **West Godavari** |
 | **IAAP** (Intensive Agricultural Area Programme) | **1964-65 (1965)** | IADP extended to **114 districts**; **117 blocks in AP** |
-| HYV programme | Rabi **1966-67** | Full-fledged from **1966**, during the **Plan Holiday (1966-69)** |
+| HYV programme | Rabi **1966-67** | Full-fledged from **1966**, during the **Plan Holiday (1966-69)**; most books/keys: Green Revolution introduced in the **3rd Plan** (end, 1965-66) |
 - **G.B. Pant University of Agriculture and Technology, Pantnagar** – **India's first agricultural university (1960)**; the Indian Green Revolution **started from Pantnagar**.
 - 1966: **18,000 t** Mexican wheat seed imported.
 | Phase | Years |
 |---|---|
 | Pre-Green Revolution | 1951-68 |
 | Early Green Revolution | 1968-81 |
-| Later Green Revolution | 1981-92 (spread to new areas) |
+| Later Green Revolution | **1981-92** (spread to new areas; NextGen's p.2 list prints 1987-92 – the phase follows Early GR 1968-81) |
 - Order (APPSC 2023): **IADP (1960) → end of first Green Revolution period → MSSRF (1988)**.
-~~ Sources: NextGen Indian Economy - APPSC 20 p.2, p.5-6; NextGen AP Economy Static-1 01 p.6 (IAAP 114 districts, 117 AP blocks, West Godavari); Rocket Indian Economy p.3 (Pantnagar 1960; first HYV 1966-67)
+~~ Sources: NextGen Indian Economy - APPSC 20 p.2, p.5-6 (phases: p.2 list 1987-92, p.6 heading 1981-1992); NextGen Indian Economy - APPSC 03 p.5 (GR 'introduced in the 3rd five year plan'); NextGen AP Economy Static-1 01 p.6 (IAAP 114 districts, 117 AP blocks, West Godavari); Rocket Indian Economy p.3 (Pantnagar 1960; first HYV 1966-67)
 
 === Outcomes and Criticism
 - **Gains:** wheat (most), then rice; Punjab, Haryana, western UP; end of PL-480 dependence; foodgrains **72 MT (1965-66) → 357.73 MT (2024-25)**.

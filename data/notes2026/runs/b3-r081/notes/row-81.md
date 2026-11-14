@@ -21,7 +21,7 @@
 # Key terms
 | Term | Meaning |
 |---|---|
-| Seigniorage | **Face value minus cost of producing** currency = issuer's (**central bank's**) **profit** from issuing notes; a ₹500 note costs about ₹4 – not a tax |
+| Seigniorage | **Face value minus cost of producing** currency = issuer's (**central bank's**) **profit** from issuing notes; a ₹500 note costs about **₹3** (₹2.87–3.09 per piece, Lok Sabha reply 10 Mar 2017) – not a tax |
 | Gresham's Law | **Bad money drives good money out**: good (full-value) coins are **hoarded, melted and exported**; applies to metallic coins |
 | Velocity | Average number of times a unit of money changes hands in a period; ₹10 used twice = **₹20** of transactions |
 | Required Reserve Ratio | Fixed percentage of deposits every bank must keep as reserves |
@@ -148,6 +148,6 @@
 | Uses | Offline payments, programmable for DBT, UAE cross-border pilot; not a mandatory replacement of bank deposits |
 | 2026 | Digital Food Currency pilot in **Puducherry** |
 - **31 Dec 2025**: money multiplier **6.21**; M3 grew 12.1%, M0 2.9% (Economic Survey 2025-26).
-- **CRR cut 100 bps to 3.0%** of NDTL → about **₹2.5 lakh crore** released (Dec 2025).
+- **CRR cut 100 bps to 3.0%** of NDTL → about **₹2.5 lakh crore** released – announced **6 June 2025**, in four 25-bp tranches (fortnights from 6 Sep, 4 Oct, 1 Nov, 29 Nov 2025), fully in force by Dec 2025.
 - Notes in circulation (May 2026): **174 billion** notes worth over ₹42.12 lakh crore.
 ~~ Sources: RBI Concept Note on CBDC, Oct 2022, s.2.1-2.2, 4.3.3 (rbi.org.in PublicationReportDetails ID=1218); PMF IAS Science & Tech 05 p.106; Economic Survey 2025-26 Highlights 01 p.14, Summary 01 p.25; Rocket CA 2026-01 p.191; app notes 3:81 sub 8

@@ -14,7 +14,7 @@
 | Step | Fact |
 |---|---|
 | L.K. Jha Committee (1976) → MODVAT (1986) → CENVAT (2000) | Path to VAT on manufacture |
-| State VAT | **Haryana first (April 2003)**; 20 States/UTs in **April 2005**; rest by 2008-09; **Maharashtra** had earlier taken **IMF** advice on VAT design |
+| State VAT | **Haryana first (April 2003)**; 20 States/UTs in **April 2005**; rest by 2008-09; **Maharashtra** = the State the IMF had earlier advised not to adopt VAT (APPSC 2003 key; no official source found) |
 | First proposed | Under the **Vajpayee** government; Empowered Committee of State FMs (**2000**, first chair **Asim Dasgupta**) |
 | First recommended national GST | **Vijay Kelkar Task Force** (FRBM implementation, **2004**) |
 | EC roadmap / First Discussion Paper | "A Model and Roadmap for GST" **2008**; First Discussion Paper **Nov 2009** |

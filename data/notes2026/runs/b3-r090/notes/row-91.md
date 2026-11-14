@@ -8,7 +8,7 @@
 | Took over from | **Controller of Capital Issues** |
 | Headquarters | **Mumbai** (regional offices New Delhi, Kolkata, Chennai, Ahmedabad) |
 | Ministry | **Ministry of Finance** |
-| Chairperson | **Tuhin Kanta Pandey** (from March 2025; in office 2026) |
+| Chairperson | **Tuhin Kanta Pandey** (from 1 March 2025; in office 2026); earlier U.K. Sinha (2011-17) → **Ajay Tyagi (1 Mar 2017 – 28 Feb 2022)** → Madhabi Puri Buch (Mar 2022 – Feb 2025, first woman) |
 | Role | **Main regulator of the capital and securities (stock) market** |
 - **"SEBI was established in …"**: most books say **1988** (non-statutory); the statutory body, as SEBI itself puts it, was established in **1992** – read the options and the exam key (APPRB 2011 key: 1992).
 - **Parent law:** the **SEBI Act, 1992**, not the SCRA, 1956.

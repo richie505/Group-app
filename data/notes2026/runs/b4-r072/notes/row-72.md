@@ -8,8 +8,8 @@
 | **2018** (Statistical Update) | **130** | **189** | HDI 0.640 |
 | 2019 | 129 | 189 | |
 | **2021-22** | **132** | **191** | HDI **0.633** |
-| **2023-24** | **134** | **193** | HDI 0.644 (2022 data) |
-| **2025** | **130** | **193** | HDI **0.685** (2023 data); 0.676 in 2022 |
+| **2023-24** | **134** | **193** | HDI 0.644 (2022 data, as printed in HDR 2023-24; HDR 2025 revised 2022 to 0.676, rank 133) |
+| **2025** | **130** | **193** | HDI **0.685** (2023 data); 2022 revised to 0.676 (rank 133) – the HDR 2023-24 edition had printed 0.644 (rank 134); quote the value with its report |
 - **1990 → 2017:** India's HDI rose **0.427 → 0.640**, an increase of **nearly 50%** (HDR 2018).
 - Trend: 0.514 (2004) → 0.633 (2021) → 0.685 (2023).
 - India has always been in the **Medium** category; in HDR 2025 it is just below the 0.700 High line.
@@ -27,7 +27,7 @@
 | **China 78** (best neighbour), **Sri Lanka 89**, Bhutan 125 | **Bangladesh 130** | Nepal 145, Myanmar 150, Pakistan 168 |
 - **Iceland** 1st (0.972); **South Sudan** last (193rd); highest life expectancy: **Japan**.
 > Exam angle: 135 = HDR 2014; 130/189 = HDR 2018; 132/191 = HDR 2021-22; 134/193 = HDR 2023-24; 130/193 = HDR 2025.
-~~ Sources: app notes 4:72 (sub 3); HDR 2014 rank 135 and the 1990-2017 rise of about 50% as in the PYQ explanations (UNDP HDR 2014, HDR 2018 statistical update), general knowledge, not checked
+~~ Sources: app notes 4:72 (sub 3); HDR 2014 rank 135 and the 1990-2017 rise of about 50% as in the PYQ explanations (UNDP HDR 2014, HDR 2018 statistical update), general knowledge, not checked; india.un.org/en/node/294474 (UN India, 16 May 2025: HDI 0.676/rank 133 in 2022 → 0.685/rank 130 in 2023)
 
 === HDI – Dimensions, Indicators and Categories
 # Three dimensions

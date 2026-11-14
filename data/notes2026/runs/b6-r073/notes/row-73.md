@@ -2,7 +2,7 @@
 # The Summit
 | Particular | Fact |
 |---|---|
-| Dates / venue | **16–21 February 2026** (PIB, Rocket CA; many sources give 16–20 Feb), **Bharat Mandapam, New Delhi** |
+| Dates / venue | **16–21 February 2026** (scheduled 16–20 Feb, extended to 21 Feb with longer expo hours – many sources give 16–20 Feb), **Bharat Mandapam, New Delhi** |
 | Significance | First global AI summit hosted in the Global South |
 | Organiser | MeitY with the IndiaAI Mission |
 | Theme | "Sarvajan Hitaya, Sarvajan Sukhaya" |
@@ -34,7 +34,7 @@
 - **AI companions** – synthetic personas acting as friends, therapists, partners; the **"loneliness economy"**; concerns: emotional dependency, behavioural nudging, no regulation (treated as entertainment).
 - **BSNL VoWiFi** – rolled out across **all circles on 1 January 2026**; **free**; **IMS-based** (not circuit-switched); voice/SMS over Wi-Fi using VoIP with the existing number. BSNL est. 2000, HQ New Delhi.
 - **IRDPP** – **DSIR** relaxed recognition norms for **deep-tech startups** under the Industrial Research and Development Promotion Programme.
-~~ Sources: Rocket CA 2026 Part 01 (src/current-affairs/rocket-ca-2026-01.txt) p.224 (16–21 Feb, Sutras, seven Chakras, SAHI, BODH); Rocket CA 2026 Part 02 (src/current-affairs/rocket-ca-2026-02.txt) p.97-98; web: iasgyan.in "AI Impact Summit 2026 adopted New Delhi Declaration" (Declaration pillars, voluntary Charter); app notes 6:73 sub 0
+~~ Sources: Rocket CA 2026 Part 01 (src/current-affairs/rocket-ca-2026-01.txt) p.224 (16–21 Feb, Sutras, seven Chakras, SAHI, BODH); web: en.wikipedia.org/wiki/AI_Impact_Summit (scheduled to end 20 Feb, extended to 21 Feb); Rocket CA 2026 Part 02 (src/current-affairs/rocket-ca-2026-02.txt) p.97-98; web: iasgyan.in "AI Impact Summit 2026 adopted New Delhi Declaration" (Declaration pillars, voluntary Charter); app notes 6:73 sub 0
 === Space – ISRO Missions, Launches and Space Law
 # PSLV-C62 Failure
 - **12 January 2026**, 10:18 a.m., Sriharikota – **EOS-N1** mission by **NSIL**.
@@ -388,7 +388,7 @@
 === Number Game and Quick Revision
 | Item | Correct Fact |
 |---|---|
-| AI Impact Summit | 16-20 Feb 2026; India + 88 in New Delhi Declaration |
+| AI Impact Summit | 16-21 Feb 2026 (scheduled 16-20 Feb, extended a day); India + 88 in New Delhi Declaration |
 | PSLV-C62 | 12 Jan 2026; 15 satellites lost |
 | SSLV SS3 test | 108 seconds; SS3 up to 4 km/s; ~90 kg payload gain |
 | SSLV payload | ~500 kg to LEO |

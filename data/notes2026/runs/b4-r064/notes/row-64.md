@@ -24,7 +24,7 @@
 | **Dongaria Kondh** | **Niyamgiri, Odisha** | Niyam Raja festival (April); Supreme Court 2013 stopped bauxite mining |
 | **Bonda** | **Malkangiri, Odisha** – not Tamil Nadu | PVTG |
 | **Toto** | **Totopara, Jalpaiguri (West Bengal)** | Primitive tribe (PVTG) |
-| **Tamaria** | **Jharkhand** | Sub-caste of **Bhumij**; ST list 8 Apr 2022 (synonym of Munda) |
+| **Tamaria** | **Jharkhand** | Sub-group of the **Bhumij** (most books; some: Munda); added to the Jharkhand ST list as **Tamaria (Tamadia)**, a separate entry, by Act No. 8 of 2022 (8 Apr 2022) – the State TRI (2002) had recommended it under the **Munda** category |
 | **Nyishi (Dafla)** | **Arunachal Pradesh** | Largest tribe of Arunachal |
 | **Angami, Rengma, Konyak, Tangkhul** | Naga tribes – **Nagaland** (Tangkhul: Manipur) | Rengma is **not** an island tribe |
 | **Bodo** | **Assam** | Largest plains tribe of NE; Kherai puja |
@@ -50,7 +50,7 @@
 - **Korku** Satpura-Melghat; **Baiga** Mandla-Balaghat; **Kadar** Anamalai (Kerala/TN); Irula Nilgiris, north TN.
 - **Kerala tribes:** Kadar, Irula, Paniyan, Kurumba, Cholanaikan, Kattunayakan; the Chenchu are an AP/Telangana tribe with only a handful in Kerala.
 > Match angle: learn the table both ways – stems ask "tribe → State", "State → tribe" and "which pair is wrong".
-~~ Sources: PMF Human & Economic Geography 01 p.8, 11-13, 16-20, 24-28; NextGen Indian Geography 14 p.9-14 (pp.191-196); NextGen Indian Geography 15 p.1-2 (pp.197-198); app notes 4:64 sub 2-3
+~~ Sources: PMF Human & Economic Geography 01 p.8, 11-13, 16-20, 24-28; NextGen Indian Geography 14 p.9-14 (pp.191-196); NextGen Indian Geography 15 p.1-2 (pp.197-198); app notes 4:64 sub 2-3; drishtiias.com (SC-ST Orders Amendment Bill 2022: Tamaria/Tamadia added, TRI 2002 "Munda category"); prsindia.org (Act No. 8 of 2022, 8 Apr 2022)
 
 === Tribal Culture – Festivals, Marriage, Economy, Language
 # Festivals, worship, dances

@@ -85,13 +85,13 @@
 | GST | 1 July 2017 |
 - **Uniform sales tax**: in **January 2000** the Standing Committee of State Finance Ministers recommended **uniform floor rates of sales tax**, implemented from **1 January 2000**.
 - About **7 States** had not implemented VAT by December 2005 (Rajasthan, Gujarat, MP, Chhattisgarh, Jharkhand – 2006; TN 2007; UP 2008).
-- **Karnataka** – early e-payment of VAT/commercial taxes; **Maharashtra** – the State the **IMF** had advised earlier not to adopt VAT (APPSC key).
+- **Karnataka** – early e-payment of VAT/commercial taxes; **Maharashtra** – the State the **IMF** had advised earlier not to adopt VAT (APPSC 2003 key; no official source found).
 - **Sales tax** was **not levied in Andaman & Nicobar and Lakshadweep** (question period); GST now covers all India.
 - **Central Sales Tax (CST)** – levied on **inter-State trade** and in **Union Territories**; **SEZs exempt**; subsumed in GST.
 # Service tax
 - **Indirect**, **Central** tax; introduced **1994-95** (Manmohan Singh as FM) on **Raja Chelliah Committee** advice.
 - Rates: **10% → 12% (Budget 2006-07)**; **12% → 14% (Budget 2015-16)**; from 2012-13, 12% on all services except the **negative list**.
-- **T.R. Rastogi (Rustagi) Panel** (2006) – Finance Ministry panel to review **service tax** issues and circulars.
+- **T.R. Rastogi (Rustagi) Panel** (2006) – Finance Ministry panel to review **service tax** issues and circulars (report March 2007: withdraw 57, modify 108, retain 136 CBEC circulars; not a CBDT panel).
 - **Swachh Bharat Cess** – **0.5%** on **all taxable services** (from 15 Nov 2015).
 - **Multiple tax rates** – chief drawback: **misclassification** of goods and services (disputes, evasion).
 ~~ Sources: NextGen Indian Economy Part 1 - APPSC 04 p.26-27, p.33, p.52-53; NextGen Indian Economy Part 1 - APPSC 02 p.4-5, p.35; Ramesh Singh Indian Economy 10th ed. Part 5 p.204-206; Tribune 1 Apr 2003 (Haryana VAT); old app notes 3:94 sub 9

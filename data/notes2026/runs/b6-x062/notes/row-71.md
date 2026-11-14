@@ -283,13 +283,13 @@
 # Deals and aircraft
 - **S-400** – **4th squadron** received; **October 2018** deal for **5 squadrons**; NATO name **SA-21 Growler**; range ~**400 km** (not 300).
 - **BrahMos** – first foreign buyer **Philippines (2022)**; Vietnam deal confirmed 2026.
-- **Su-57** offer by Russia (2026); India joined **FGFA** in 2007 and **left in 2018** (Praveen CA-360: 2021).
+- **Su-57** offer by Russia (2026); India joined **FGFA** in 2007 and **left in 2018** (reported 20 April 2018; Praveen CA-360 Jun 2026 says 2021 – go with 2018).
 - **C295** – first India-made aircraft (**TASL + Airbus**) flew from **Vadodara**.
 - **Jaguar** – IAF flies **6 squadrons** (Ambala, Gorakhpur, Jamnagar).
 - **HELINA** – IAF version **Dhruvastra**.
 - **Netra AEW&C** – "Eye in the Sky"; **Final Operational Clearance 25 June 2026**.
 - **Samtel HAL Display Systems (SHDS)** – India's first public–private JV in defence avionics.
-~~ Sources: Praveen CA-360 Apr 2026 p.61 (defence exports ₹38,424 crore 2025–26); Praveen CA-360 Jul 2026 p.65 (DAC ₹52,000 crore); Praveen CA-360 Jun 2026 p.70 (C295 first India-made; Su-57 offer; FGFA joined 2007, 'withdrew in 2021'), p.74 (Netra FOC), oneliners p.18 (S-400 fourth squadron); web: en.wikipedia.org/wiki/Sukhoi/HAL_FGFA and thediplomat.com/2018/04 'India pulls out of' (India left FGFA April 2018 – search summaries); app notes 6:71 (sub 4)
+~~ Sources: Praveen CA-360 Apr 2026 p.61 (defence exports ₹38,424 crore 2025–26); Praveen CA-360 Jul 2026 p.65 (DAC ₹52,000 crore); Praveen CA-360 Jun 2026 p.70 (C295 first India-made; Su-57 offer; FGFA joined 2007, 'withdrew in 2021'), p.74 (Netra FOC), oneliners p.18 (S-400 fourth squadron); web: en.wikipedia.org/wiki/Sukhoi/HAL_FGFA (opened: "On 20 April 2018 … India had left the project") and thediplomat.com/2018/04 'India pulls out of' (India left FGFA April 2018 – search summaries); app notes 6:71 (sub 4)
 
 === Defence Exercises – Jun–Aug 2026
 | Exercise | Partners | Venue / detail |

@@ -1,0 +1,109 @@
+=== HIV/AIDS – Facts, Tests, Drugs and Programmes
+- **HIV causes AIDS**; first recognised **1981**; dominant strain in India **HIV-1 subtype C**.
+- **Transmission**: sexual contact, **blood transfusion**/needles, **mother to child across the placenta** (and breastfeeding) – **not by mosquitoes or other blood-sucking insects**.
+- **Symptoms of AIDS**: swollen lymph nodes, night sweats, weight loss, and neurological problems incl. **memory loss** – all four of the classic PYQ list.
+- **ELISA** = first widely used HIV screening test (detects antibodies); **Zidovudine (Azidothymidine, AZT)** = the most used anti-retroviral. No licensed HIV vaccine.
+| Programme / term | Fact |
+|---|---|
+| NACP (NACO, MoHFW) | Launched **1992**; Phase V 2021–26 (80% cut in new infections and deaths) |
+| **VCTC** | **Voluntary Counselling and Testing Centre** (now ICTC – Integrated Counselling and Testing Centre) |
+| **'Test and Treat' (2017)** | Every **HIV**-positive person gets free ART regardless of CD4 count |
+| **Project Sunrise** (2016) | **HIV/AIDS** among people who inject drugs in the **North-Eastern States** |
+| HIV/AIDS Act 2017 | Bars discrimination against people living with HIV |
+| Red Ribbon Express / AVAHAN | Awareness train / Gates Foundation prevention initiative |
+- **Sub-Saharan Africa** = region with the most HIV/AIDS cases (UNAIDS 2003 and since); UNAIDS set up 1996; 95-95-95 target.
+- **15th International AIDS Conference**, Bangkok, July 2004 – slogan **"Access for All"**.
+- India: highest burden Maharashtra, Andhra Pradesh, Karnataka. World AIDS Day 1 December.
+~~ Sources: NextGen Rocket Biology p.24 (AIDS transmission), p.32 (no HIV vaccine), p.33 (Zidovudine/AZT); app notes; general knowledge, not checked (Bangkok slogan, Project Sunrise, Test and Treat)
+
+=== Eradication and Certification Milestones – Smallpox, Polio, Yaws
+| Milestone | Year |
+|---|---|
+| **Smallpox eradicated worldwide** (only human disease eradicated) | **1980** (India free **1977**) |
+| **Pulse Polio** – OPV to **all children under five** (Dec and Jan rounds) | **1995** |
+| Guinea worm (dracunculiasis) – India certified free | 2000 (not eradicated worldwide) |
+| Last wild polio case (Howrah) | Jan 2011 |
+| **Rinderpest** (cattle plague) eradicated worldwide | **2011** (2nd disease ever) |
+| **WHO South-East Asia Region polio-free** | **27 March 2014** |
+| **Yaws** – India certified free | **2016** |
+| **Trivalent → bivalent OPV** (types 1 and 3) | April 2016 |
+- **Jonas Salk** – first (injected, inactivated) **polio** vaccine (1955); **Albert Sabin** – oral polio vaccine; **Edward Jenner** – smallpox vaccine (1796).
+- **Diphtheria and chickenpox are NOT eradicated** – of the UPSC 2014 list only **smallpox**.
+~~ Sources: NextGen Rocket Biology p.3, p.18, p.32 (Salk, Sabin, OPV types), p.37 (rinderpest 2011); PMF Science & Technology Part 3 p.44 (smallpox 1980); app notes
+
+=== Tuberculosis – NTEP, Ni-kshay and TB Reports
+- India topped the world in new TB cases (WHO, **2016** and since); TB is the **leading single infectious killer** (WHO).
+- National target: TB elimination **2025** (SDG 2030). **BCG** protects against TB.
+| Scheme / term | Feature |
+|---|---|
+| **Ni-kshay** | Central TB Division's **web-enabled patient management system** (notification, tracking) |
+| **Ni-kshay Poshan Yojana** (2018) | Nutritional DBT **for the whole duration of anti-TB treatment** – **₹500/month, raised to ₹1,000 from Oct 2024** |
+| PM TB Mukt Bharat Abhiyaan (Sep 2022) | **Ni-kshay Mitras** adopt patients |
+| India TB Report **2022** | Notifications in 2021 **up 19%** over 2020 |
+| India TB Report **2024** | Estimated incidence 2023 ≈ **27–28 lakh (between 25 and 30 lakh)**; 25.52 lakh notified |
+| WHO Global TB Report 2025 | India incidence **237 → 187 per lakh (-21%)**, 2015–2024; mortality **28 → 21 per lakh (-25%)**; treatment coverage 53% → 92%; 26.18 lakh diagnosed of ~27 lakh |
+- World TB Day 24 March. AP notified over 78,000 cases in 2024.
+~~ Sources: Rocket CA 2026 Part 02 p.112-113 (Global TB Report 2025); MoHFW press release 7783, 7 Oct 2024 (Ni-kshay Poshan ₹1,000; search result); app notes
+
+=== Malaria – Elimination, Quinine and Vaccines
+- **National Framework for Malaria Elimination 2016–2030**: zero indigenous cases by **2027**, elimination by **2030**. **MERA India** (ICMR) supports the 2030 goal.
+- **Quinine** comes from the **bark of Cinchona**.
+- Vaccines: **RTS,S/AS01 (Mosquirix, GSK)** – first; **R21/Matrix-M** – **Oxford Jenner Institute + Serum Institute of India** (Novavax adjuvant); AdFalciVax – ICMR-RMRC Bhubaneswar candidate.
+- NVBDCP tools: IRS, LLINs, larvivorous fish, source reduction (not antibiotic prophylaxis). WHO malaria-free: Maldives (first in SEAR), Sri Lanka (2016), China, Timor-Leste.
+~~ Sources: NextGen Rocket Biology p.32 (malaria vaccines), p.33 (quinine), p.75 (Cinchona bark); Rocket CA 2026 Part 02 p.111-112 (targets 2027/2030); app notes
+
+=== Vaccines in News – HPV/Cervavac, Hib and Serum Institute
+- **Cervavac** (Sep 2022): India's **first indigenous quadrivalent HPV vaccine** against **cervical cancer** – **Serum Institute of India** with **DBT-BIRAC** (not Indian Immunologicals).
+- India carries about **one-fifth of the global cervical-cancer burden** (~1.23 lakh cases, ~67,000 deaths a year).
+- Nationwide free **HPV vaccination** for 14-year-old girls: launched **28 Feb 2026, Ajmer** (single dose).
+- **Serum Institute of India** is in **Pune** (Hib, MR, Covishield, R21).
+| Disease | Vaccine |
+|---|---|
+| Rubella | **MMR** |
+| Tetanus | **DTP** |
+| Tuberculosis | **BCG** |
+~~ Sources: Rocket CA 2026 Part 02 p.110 (HPV campaign); NextGen Rocket Biology p.32 (BCG, DPT); app notes; general knowledge, not checked (Cervavac partners, Pune)
+
+=== Sickle Cell, Leprosy and Other Elimination Missions
+- **Sickle cell anaemia**: a **congenital, inherited** single-gene disorder (haemoglobin) – misshapen red cells cannot carry oxygen properly. **National Sickle Cell Anaemia Elimination Mission**: launched **1 July 2023, Shahdol (MP)**; eliminate by **2047**; screen **7 crore** at-risk (tribal) people.
+- **Leprosy**: NLEP gives free MDT; **World Leprosy Day = last Sunday of January**; Anti-Leprosy Day (India) **30 January**.
+- Lymphatic filariasis 2027 (IDA = Ivermectin, DEC, Albendazole); measles-rubella 2026; kala-azar target met 2023.
+- **Elimination targets**: TB 2025, measles-rubella 2026, lymphatic filariasis 2027, malaria 2030, AIDS as a public health threat 2030, sickle cell 2047. **IDSP** (2004, under NHM) = outbreak surveillance, not an NCD target.
+~~ Sources: NextGen Rocket Biology p.34 (sickle cell – inherited); app notes
+
+=== SDG Health Targets
+| SDG target | Content |
+|---|---|
+| **2.2** | **End all forms of malnutrition** |
+| **3.1** | **Maternal mortality below 70 per 1,00,000 live births** |
+| **3.3** | **End epidemics of AIDS, TB, malaria and NTDs** by 2030 |
+| 3.4 | Cut premature NCD deaths by one-third |
+| **3.7** | **Universal access to sexual and reproductive health-care services** |
+~~ Sources: app notes; general knowledge, not checked (2.2, 3.1, 3.7 wording)
+
+=== Mental Health
+| Act / programme | Year | Feature |
+|---|---|---|
+| NMHP | 1982 | First mental health programme |
+| Mental Health Act | 1987 | Repealed 2017 |
+| **Mental Healthcare Act** (Bill 2016) | 2017 | Right to access care; advance directives; access to records; decriminalised suicide; **ECT for minors prohibited in the Bill** (Act: only with guardian consent and Board permission); no ECT without anaesthesia |
+| Tele-MANAS | 2022 | 24/7 tele-mental health |
+- **Eating disorders** (anorexia, bulimia) usually begin in **adolescence**.
+- Burden about 1 in 7 Indians; treatment gap 84.5%.
+~~ Sources: app notes; general knowledge, not checked (ECT clause, eating disorders)
+
+=== NCDs, Tobacco and Physical Activity
+- **NP-NCD** (earlier NPCDCS): population-based screening. India Hypertension Control Initiative (ICMR) – heart attack, stroke, kidney failure.
+- **E-cigarettes**: about **12 States** had banned them before the national **Prohibition of Electronic Cigarettes Act 2019**.
+- **Milkha Singh** – WHO Goodwill Ambassador for **physical activity**, South-East Asia Region (2018).
+- AP: expanded NP-NCD also covers mental health, elderly care, IDD, tobacco, fluorosis, oral health.
+~~ Sources: app notes; general knowledge, not checked (e-cigarette States, Milkha Singh)
+
+=== Nutrition Programmes and AP Disease Performance
+| Programme | Launch |
+|---|---|
+| National Goitre Control Programme | 1962 |
+| Renamed NIDDCP | 1992 |
+| Vitamin A prophylaxis | 1970 |
+- AP HIV cascade 88% / 87% / 96.2% (Aug 2026), target Dec 2026.
+~~ Sources: app notes (old-notes.txt)

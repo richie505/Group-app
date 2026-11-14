@@ -73,7 +73,7 @@
 | 4 | Telugu | 6.7% |
 | 5 | Tamil | 5.7% |
 - **Marathi passed Telugu** in 2011 (Telugu 3rd in 2001, now 4th). Smallest scheduled: **Sanskrit, Bodo, Manipuri**.
-- World: **Mandarin** – most spoken (native speakers; the usual key); counting second-language users, Ethnologue puts **English** first. **Hindi 2nd/3rd, Bengali 7th, Punjabi 10th**; after Hindi, **Bengali** is the most spoken Indian language worldwide.
+- World: **Mandarin** – most spoken (native speakers; the usual key); counting second-language users, Ethnologue puts **English** first. **Hindi 3rd** by total speakers (Ethnologue 2026: English 1,493 m, Mandarin 1,183 m, Hindi 611 m; Hindi 4th by native speakers; older books: Hindi 2nd), **Bengali 7th** (6th by native speakers), Punjabi 10th (older book figure; Ethnologue 2026 lists only Western Punjabi, much lower); after Hindi, **Bengali** is the most spoken Indian language worldwide.
 - **World language families:** **Indo-European** largest by speakers (~46%), **Sino-Tibetan** second (Mandarin, Tibetan, Burmese); **Niger-Congo** (incl. **Bantu**, Swahili) has the most languages, **Austronesian** the second most; Afro-Asiatic = Arabic, Hebrew.
 - **Sri Lanka:** official languages **Sinhala** (Simhalam) and Tamil.
 | Survey | Count |
@@ -86,7 +86,7 @@
 - **CIIL** (Central Institute of Indian Languages): **Mysuru**.
 - **Oxford Hindi Word of the Year 2018: "Nari Shakti"** (2017: Aadhaar).
 - **Semiotics** = the study of **signs and sign systems**.
-~~ Sources: app notes 4:68 (sub 1, 2, 3); NextGen Society Group 2 01 p.58; Sri Lanka, Oxford word, Ethnologue, semiotics: general knowledge, not checked
+~~ Sources: app notes 4:68 (sub 1, 2, 3); NextGen Society Group 2 01 p.58; Sri Lanka, Oxford word, Ethnologue, semiotics: general knowledge, not checked; en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers (Ethnologue 2026, 27th ed.: Hindi 3rd total / 4th L1, Bengali 7th total / 6th L1)
 
 === Andhra Pradesh – Telugu and Urdu
 - **AP Official Language Act, 1966**: **Telugu** official; **2022 Amendment** made **Urdu second official language statewide** (reaffirmed 17 Mar 2026). AP official = **Telugu and Urdu** (2019 PYQ).

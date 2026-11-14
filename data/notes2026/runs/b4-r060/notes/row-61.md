@@ -12,11 +12,11 @@
 | SEMIS | Secondary Education MIS – nodal agency **NUEPA, New Delhi** |
 | Mana Badi Nadu-Nedu (AP) | 14 Nov 2019; **English labs** (not Operation Blackboard) |
 # Learning and enrolment data
-- **FLN Index** (Institute for Competitiveness for **EAC-PM**): 2nd edition – **Punjab** highest (64.19) among **small States**; Jharkhand was **not** the lowest small State in the web summaries. 2021 edition – West Bengal top among large States.
+- **FLN Index** (Institute for Competitiveness for **EAC-PM**): 2nd edition (24 Feb 2023) – **Punjab** highest (64.19) among **small States**; ⚠ Trap: **Jharkhand 11th = lowest small State (45.28)** was the **1st edition (16 Dec 2021)**, not the 2nd. 2021 edition – **Kerala** top small State (67.95), **West Bengal** top large State (58.95), Bihar lowest large State (36.81).
 - **AISHE 2023-24:** GER about **30**, female GER **31.2**, GPI **1.08**; female GER 28.5 → **30.2** (2021-23), above male; gender parity at all school levels.
 - **UDISE+ 2024-25** dropout: preparatory **2.3%**, middle **3.5%**, secondary **8.2%** (from 3.7, 5.2, **10.9**).
 - NFHS-5: women with **10+ years** of schooling **41%** (NFHS-4 35.7%).
-~~ Sources: app notes 4:61 (sub 8, 9); web search summary of the FLN 2nd-edition report (competitiveness.in, Morung Express); SEMIS, Unnat Bharat Abhiyan, NPE 1992: general knowledge, not checked
+~~ Sources: app notes 4:61 (sub 8, 9); web search summary of the FLN 2nd-edition report (competitiveness.in, Morung Express); SEMIS, Unnat Bharat Abhiyan, NPE 1992: general knowledge, not checked; competitiveness.in/state-of-foundational-literacy-in-india (1st edition, 16 Dec 2021: Kerala 67.95 top, Jharkhand 11th 45.28 lowest small State; West Bengal 58.95, Bihar 36.81); theprint.in (2nd edition, 24 Feb 2023, Punjab top)
 
 === Andhra Pradesh – Literacy
 # Census 2011 – two series
@@ -56,11 +56,11 @@
 | **ULLAS** (Nav Bharat Saaksharta Karyakram / New India Literacy Programme) | 2022 | FY **2022-23 to 2026-27**; Ministry of Education; non-literates **15+** |
 - ULLAS = **Understanding of Lifelong Learning for All in Society**; five components – FLN, critical life skills, basic education, vocational skills, continuing education.
 - Fully literate (ULLAS): **Ladakh** (first UT, 2024) → **Mizoram** (first State, 2025) → Goa, Tripura, Himachal Pradesh, Sikkim → **Uttarakhand 6th (Jul 2026)**.
-- **Velland (Kerala)** is the exam answer for India's first fully **computer-literate panchayat**; Chamravattom (Malappuram) was declared the first 100% computer-literate village (2003).
+- **Velland (Kerala)** – the exam spelling of **Vellanad** (Thiruvananthapuram; also the first grama panchayat in India with a full GIS) – is the exam answer for India's first fully **computer-literate panchayat**; Chamravattom (Malappuram) was declared the first 100% computer-literate village (2003).
 - **International Literacy Day: 8 September** (UNESCO, declared 1966, first observed 1967). **2017 theme: "Literacy in a digital world"**; 2026: "Literacy for people, the planet and prosperity".
 - **Information literacy:** the skill of defining, locating, accessing and using information.
 > NAEP = 15-35; Saakshar Bharat and ULLAS = 15+.
-~~ Sources: app notes 4:61 (sub 6, 7, 9); web search summary of Saakshar Bharat parliamentary replies (extension to 31.03.2018); web search summary on Chamravattom / Vellanad (Wikipedia, The Hindu)
+~~ Sources: app notes 4:61 (sub 6, 7, 9); web search summary of Saakshar Bharat parliamentary replies (extension to 31.03.2018); web search summary on Chamravattom / Vellanad (Wikipedia, The Hindu); trivandrumdistrict.blogspot.com/2010/10/vellanad.html (Vellanad: first grama panchayat with full GIS)
 
 === Census 2011 – India, Gender Gap and States
 # Definition

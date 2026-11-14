@@ -9,7 +9,7 @@
 | Kelkar Task Force on FRBM | 2004 | First proposed a national **GST** |
 | Parthasarathi Shome | 2012 | GAAR review; drop retrospective tax |
 | Justice R.V. Easwar | 2015-16 | Simplifying the Income-tax Act |
-| T.R. Rustagi | – | Restructuring of the CBDT |
+| T.R. Rustagi (Rastogi) | 2006-07 | Review of **service tax** circulars (CBEC; report March 2007) – not CBDT restructuring, as some lists say |
 | Task force on a new direct tax law | Nov 2017 | Convener **Arbind Modi**; later headed by **Akhilesh Ranjan** (report 2019) |
 - Agricultural holding tax / agricultural wealth and income → **K.N. Raj** (not Chelliah, not Wanchoo = black money, not Bhoothalingam = rationalisation of wages/incomes, not Kaldor).
 - Kaldor = wealth (1957), expenditure (1958), gift (1958); FM **T.T. Krishnamachari** brought in the expenditure tax.

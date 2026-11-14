@@ -47,7 +47,7 @@
 | List | Largest cities |
 |---|---|
 | WUP 2025 (UN DESA) | **Jakarta** 1st (~42 m), **Dhaka** 2nd, Tokyo, **New Delhi 4th** |
-| Earlier lists | Tokyo 1st, Delhi 2nd, Mumbai 7th, Kolkata 10th (APPSC 2018 key) |
+| Earlier lists | WUP 2018 (2018 ranks): Tokyo 1st, Delhi 2nd, Mumbai 7th, **Kolkata 16th** (8th in 1990); the "Kolkata 10th" seen in some keys is not in the UN table |
 - Jakarta replaced Tokyo due to a **new city-definition method**. Cities hold **45%** of the world's 8.2 billion; India's urban population **951 million by 2050**.
 | Region | Authority | Year |
 |---|---|---|
@@ -59,7 +59,7 @@
 | Amaravati | APCRDA | – |
 - ES 2025-26: 16 major cities (2000-20) grew **horizontally**, **periphery faster than core**.
 - **Art. 243ZE**: **Metropolitan Planning Committee**; 74th Amendment inserted **Part IXA**.
-~~ Sources: Rocket CA 2026-01 p.22 (WUP 2025: Jakarta, Dhaka); app notes 4:71 (sub 1, 2, 4)
+~~ Sources: Rocket CA 2026-01 p.22 (WUP 2025: Jakarta, Dhaka); app notes 4:71 (sub 1, 2, 4); UN DESA WUP 2018 Highlights, table of urban agglomerations (digitallibrary.un.org/record/3828520: 2018 ranks Tokyo 1, Delhi 2, Mumbai 7, Kolkata 16)
 
 === City Rankings – Swachh Survekshan and Ease of Living
 - **Swachh Survekshan**: MoHUA, conducted by **QCI**; began **2016 with 73 cities**; **4,589** cities in 2024-25.

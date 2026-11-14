@@ -24,7 +24,7 @@
 - **Yudh Abhyas 2026** (India–US Army) = **22nd** edition, 15–28 Sep 2026, Auli (Uttarakhand) and Mahajan (Rajasthan) at the same time (Rocket CA tables say "23rd" – settled as 22nd: 20th 2024 Mahajan, 21st 2025 Alaska).
 - **Navika Sagar Parikrama** (2017–18): first circumnavigation by an **all-women Indian Navy crew**, **INSV Tarini**.
 > Exam angle: "exercise → partner country" and "not correctly matched" pairs (Surya Kiran ≠ Japan) are the commonest APPSC angle; statement questions test venue, edition and command.
-~~ Sources: Rocket CA 2026 Part 01 p.149-150 (2026 exercise table: DOSTI 17th, VARUNA, VAJRA PRAHAR, MAITREE, SAREX, Yudh Abhyas "23rd"); Rocket CA 2026 Part 02 p.123-124 (same table); PMF International Relations p.73 (Ajeya Warrior – UK); indiannavy.nic.in MILAN 2024 press release (search summary); adaderana.lk DOSTI-16 (search summary); theprint.in "22nd edition of Yudh Abhyaas" (search summary); app notes 6:69 (sub 4, 5); other edition facts general knowledge, not checked
+~~ Sources: Rocket CA 2026 Part 01 p.149-150 (2026 exercise table: DOSTI 17th, VARUNA, VAJRA PRAHAR, MAITREE, SAREX, Yudh Abhyas "23rd"); Rocket CA 2026 Part 02 p.123-124 (same table); PMF International Relations p.73 (Ajeya Warrior – UK); indiannavy.nic.in MILAN 2024 press release (search summary); adaderana.lk DOSTI-16 (search summary); theprint.in "22nd edition of Yudh Abhyaas" (search summary); newsonair.gov.in (21st edition, 1–14 Sep 2025, Fort Wainwright, Alaska – so 2026 = 22nd); app notes 6:69 (sub 4, 5); other edition facts general knowledge, not checked
 
 === Defence Exercises – Naval, Air and Multilateral
 | Exercise | Partner(s) / service | Latest edition, venue |

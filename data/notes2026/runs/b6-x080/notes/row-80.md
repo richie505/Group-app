@@ -141,15 +141,15 @@
 - Causes of the record rise: **fossil fuels, wildfires (Amazon, southern Africa), weaker carbon sinks, El Niño**.
 # Indices
 - **Climate Change Performance Index 2026:** released at **COP30, Belém** (Nov 2025) by Germanwatch, NewClimate Institute and Climate Action Network; India **23rd** (down 13 from 10th), "medium"; top three spots vacant.
-- **State Energy Efficiency Index 2024:** by **BEE** (**Ministry of Power**) with AEEE; AP an **"Achiever"** (21 Sep 2025).
+- **State Energy Efficiency Index 2024:** by **BEE** (**Ministry of Power**) with AEEE; released **29 Aug 2025**; States grouped by energy use – **Maharashtra** top in Group 1 (>15 Mtoe), **Andhra Pradesh top in Group 2** (5–15 Mtoe, **87.25** points) and a **Front Runner** (>60%), Assam Group 3, Tripura Group 4 (some digests wrongly call AP an "Achiever").
 # Other reports
 - **WTI "Guardians of the Wild":** released in Abu Dhabi at the IUCN World Conservation Congress 2025; **Van Rakshak Project** – started **2000** by WTI with **IFAW**, supported **21,000+** personnel.
 - India has **1,100+ protected areas** covering just over **5%** of its area.
 - **Vikalpa:** coal and lignite **73%** of electricity (2022–23), ~50% by 2031–32; coal-dust PM10 up to 460 μg/m³; health – silica, cadmium, lead; NGT compensation often delayed.
 - **CSE conclave:** **rain-fed areas = 60% of net sown area**; rain-fed rice yields may fall 20% by 2050.
 - **Environment Audit Rules, 2025** – notified to **strengthen environmental compliance**.
-> Exam angle: the other rows ask an **index topper** (SEEI 2024: Maharashtra; AP led Group 2) and statements on SEEI – learn releasing body → ministry → topper.
-~~ Sources: current-care-2025-10-02 p.35-37 (WTI report, Van Rakshak 2000 with IFAW, 21,000), p.47-48 (WMO bulletin 16 Oct 2025, 423.9 ppm, 3.5 ppm since 1957, methane 16%), p.3-4 (CSE conclave reports); current-care-2025-08-02 p.51 and current-care-2025-10-01 p.48 (Vikalpa); PMF Environment 05 p.61-63 (CCPI publishers; GHG bulletin); web: india.mongabay.com Nov 2025 (CCPI 2026 India 23rd, released at COP30); ap-ca-monthly-2025-09 p.27 (SEEI 2024 by BEE, Ministry of Power; AP Achiever); app notes 6:80 sub 1
+> Exam angle: the other rows ask an **index topper** (SEEI 2024: Maharashtra led Group 1; AP led Group 2 – both Front Runners) and statements on SEEI – learn releasing body → ministry → topper.
+~~ Sources: current-care-2025-10-02 p.35-37 (WTI report, Van Rakshak 2000 with IFAW, 21,000), p.47-48 (WMO bulletin 16 Oct 2025, 423.9 ppm, 3.5 ppm since 1957, methane 16%), p.3-4 (CSE conclave reports); current-care-2025-08-02 p.51 and current-care-2025-10-01 p.48 (Vikalpa); PMF Environment 05 p.61-63 (CCPI publishers; GHG bulletin); web: india.mongabay.com Nov 2025 (CCPI 2026 India 23rd, released at COP30); ap-ca-monthly-2025-09 p.27 (SEEI 2024 by BEE, Ministry of Power); web: gktoday.in/state-energy-efficiency-index-2024 and energetica-india.net 30 Aug 2025 (group toppers Maharashtra, AP, Assam, Tripura; Front Runners AP, Karnataka, Maharashtra, Telangana, TN); AP Socio-Economic Survey 2024-25 p.137 (AP 87.25); app notes 6:80 sub 1
 
 === Biodiversity Conventions, Ramsar Sites, Funds and Awards
 # IUCN World Conservation Congress 2025 (Abu Dhabi)

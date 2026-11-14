@@ -61,5 +61,5 @@
 - **Post-pandemic:** many central banks **hiked rates**, assuming they **can counter rising consumer prices by monetary means** – both statements correct, II explains I (UPSC 2023).
 - June 2026: as major central banks geared up to tighten, the MPC **held 5.25% and cut the FY27 growth forecast**; spillovers = capital outflows, rupee pressure, **imported inflation**.
 - Debate: critics want a **core** target, since food and supply shocks lie outside MPC control. AP retail inflation **4.9%** vs national **3.9%** (May 2026).
-- **CBDC:** in Aug 2021 Das said trials could start **by December 2021**; the e₹ pilots actually began in **Nov–Dec 2022** (general knowledge, not checked).
+- **CBDC:** in Aug 2021 Das said trials could start **by December 2021**; the e₹ pilots actually began **1 Nov 2022 (wholesale e₹-W)** and **1 Dec 2022 (retail e₹-R)** (RBI press releases 31 Oct and 29 Nov 2022).
 ~~ Sources: BIS review r200130f (Das, "Seven ages of India's monetary policy", 24 Jan 2020, para 15); RBI MPC minutes 5-7 Oct 2026 (rbi.org.in prid=63839); CNBC 27 Aug 2021 (Das on digital-currency trials); app notes 3:83 sub 1, 5, 6

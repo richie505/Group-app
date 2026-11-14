@@ -217,7 +217,7 @@
 # Progress Figures
 - Non-fossil share of installed capacity: **~52.6% (52.57%, Feb 2026)**.
 - Emission intensity already cut **36%** (2005–2020); carbon sink of **2.29 billion t** created by 2021.
-- Forest cover **~24%** against the goal of **33%**.
+- Forest cover **21.76%** (ISFR 2023); **forest + tree cover 25.17%** – against the goal of **33%** (⚠ the old "~24%" is neither figure).
 # Emissions Data (CREA / Carbon Brief)
 - India's CO₂ emissions rose only **0.7% in 2025** – slowest since **2001** (excluding 2020); growth only **0.5%** in the second half of 2025; coal use in thermal plants down **20%**.
 - 2025 additions: **47 GW solar**, 6.3 GW wind, 4 GW hydro, 0.6 GW nuclear.
@@ -249,7 +249,7 @@
 # First Conference on Transition Away from Fossil Fuels
 - **24–29 April 2026**, **Santa Marta, Colombia**; **50+ countries**; coalition to phase down fossil fuels.
 - India's non-fossil share of installed capacity reached **54.18% on 30 June 2026** (Rocket CA).
-~~ Sources: Praveen CA-360 March 2026 magazine p.88 (Cabinet approval; 47% intensity, 60% non-fossil, 3.5–4 bn t sink; 52.57% Feb 2026); Rocket CA 2026 Part 02 p.182 (NDC 2031–35 submitted 24 April 2026); Rocket CA 2026 Part 01 p.161 (50% non-fossil June 2025, 54.18% on 30 June 2026); PMF Lens April 2026 (pmf-lens-2026-04-04) p.1 (NDC 3.0); app notes 6:78 (sub 0)
+~~ Sources: Praveen CA-360 March 2026 magazine p.88 (Cabinet approval; 47% intensity, 60% non-fossil, 3.5–4 bn t sink; 52.57% Feb 2026); Rocket CA 2026 Part 02 p.182 (NDC 2031–35 submitted 24 April 2026); Rocket CA 2026 Part 01 p.161 (50% non-fossil June 2025, 54.18% on 30 June 2026); PMF Lens April 2026 (pmf-lens-2026-04-04) p.1 (NDC 3.0); theprint.in Dec 2024 (ISFR 2023: forest cover 7,15,343 sq km = 21.76%; forest + tree 25.17%); app notes 6:78 (sub 0)
 
 === Species Conservation and Human-wildlife Conflict
 # Great Indian Bustard – Jumpstart Method

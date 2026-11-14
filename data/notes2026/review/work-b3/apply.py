@@ -1,0 +1,83 @@
+import sys
+R='/home/user/Group-app/data/notes2026/runs/'
+E=[
+('b3-r045/notes/row-46.md',
+ "drinking-water norm in the exam key: one tube well per **250 population** (not verified in the library)",
+ "drinking-water norm in the exam key: one tube well per **250 population** (this is the national rural water-supply norm – at least one hand pump/spot source per **250 persons**; not found as an APWALTA clause)"),
+('b3-r045/notes/row-46.md',
+ None, None),
+('b3-r048/notes/row-49.md',
+ "| Later Green Revolution | 1981-92 (spread to new areas) |",
+ "| Later Green Revolution | **1981-92** (spread to new areas; NextGen's p.2 list prints 1987-92 – the phase follows Early GR 1968-81) |"),
+('b3-r048/notes/row-49.md',
+ "Full-fledged from **1966**, during the **Plan Holiday (1966-69)** |",
+ "Full-fledged from **1966**, during the **Plan Holiday (1966-69)**; most books/keys: Green Revolution introduced in the **3rd Plan** (end, 1965-66) |"),
+('b3-r048/notes/row-49.md',
+ "~~ Sources: NextGen Indian Economy - APPSC 20 p.2, p.5-6; NextGen AP Economy Static-1 01 p.6",
+ "~~ Sources: NextGen Indian Economy - APPSC 20 p.2, p.5-6 (phases: p.2 list 1987-92, p.6 heading 1981-1992); NextGen Indian Economy - APPSC 03 p.5 (GR 'introduced in the 3rd five year plan'); NextGen AP Economy Static-1 01 p.6"),
+('b3-r050/notes/row-51.md',
+ "| Later Green Revolution | 1987-92 | spread to **rice** and other regions |",
+ "| Later Green Revolution | **1981-92** (NextGen p.2 list prints 1987-92; p.6 heading and continuity with 1968-81 give 1981-92) | spread to **rice** and other regions |"),
+('b3-r050/notes/row-51.md',
+ "~~ Sources: app notes 3:51 sub 0",
+ "~~ Sources: app notes 3:51 sub 0; NextGen Indian Economy - APPSC 20 p.2, p.6 (Later GR 1981-1992)"),
+('b3-r057/notes/row-57.md',
+ "CACP split: **14 kharif + 6 rabi + 2 commercial** (jute, copra).",
+ "CACP split: **14 kharif + 6 rabi + 2 commercial** (jute, copra) – **cotton is counted among the 14 kharif crops**, so the group table below shows 3 commercial crops (copra, cotton, raw jute)."),
+('b3-r057/notes/row-57.md',
+ "| Commercial | 3 | Copra, cotton, **raw jute** |",
+ "| Commercial | 3 | Copra, cotton, **raw jute** (in the CACP 22-crop count cotton is a kharif crop; jute and copra are the 2 'commercial') |"),
+('b3-r061/notes/row-61.md',
+ "| **RINL Vizag** | Andhra Pradesh | **USSR** (agreement 1979); described as built with **German and Soviet technology**; India's first **shore-based** integrated plant |",
+ "| **RINL Vizag** | Andhra Pradesh | **USSR** (Soviet-assisted: revised project on the USSR's offer of help; contract with the USSR for working drawings of coke ovens, blast furnace, sinter plant, Feb 1981); some web pages say \"German and Soviet technology\" – exam answer **USSR**; India's first **shore-based** integrated plant |"),
+('b3-r061/notes/row-61.md',
+ "web: Vizag Steel Plant (Wikipedia mirror, \"German and Soviet technology\")",
+ "web: Vizag Steel Plant (Wikipedia mirror, \"German and Soviet technology\"); en.bharatpedia.org/wiki/Visakhapatnam_Steel_Plant (USSR contract Feb 1981, citing The Hans India 1 Nov 2016)"),
+('b3-r081/notes/row-81.md',
+ "a ₹500 note costs about ₹4 – not a tax",
+ "a ₹500 note costs about **₹3** (₹2.87–3.09 per piece, Lok Sabha reply 10 Mar 2017) – not a tax"),
+('b3-r081/notes/row-81.md',
+ "about **₹2.5 lakh crore** released (Dec 2025).",
+ "about **₹2.5 lakh crore** released – announced **6 June 2025**, in four 25-bp tranches (fortnights from 6 Sep, 4 Oct, 1 Nov, 29 Nov 2025), fully in force by Dec 2025."),
+('b3-r084/notes/row-84.md',
+ "HSBC issued its own HK$150 in 2015.",
+ "HSBC issued its own HK$150 in 2015; an APPSC 2011 question prints \"250-dollar\" – a misprint for 150 (no 250-dollar note exists)."),
+('b3-r084/notes/row-84.md',
+ "the RBI bought about **92%** of the shares (NextGen, Ramesh Singh; many quiz sources say 60%), diluted after the 1993 SBI share issue",
+ "the RBI bought about **92%** of the shares (NextGen, Ramesh Singh); the \"60%\" of quiz sources is the **59.73%** RBI stake (after the 1993 SBI share issue diluted it) that the Government took over on **9 July 2007**"),
+('b3-r082/notes/row-83.md',
+ "the e₹ pilots actually began in **Nov–Dec 2022** (general knowledge, not checked).",
+ "the e₹ pilots actually began **1 Nov 2022 (wholesale e₹-W)** and **1 Dec 2022 (retail e₹-R)** (RBI press releases 31 Oct and 29 Nov 2022)."),
+('b3-r090/notes/row-91.md',
+ "| Chairperson | **Tuhin Kanta Pandey** (from March 2025; in office 2026) |",
+ "| Chairperson | **Tuhin Kanta Pandey** (from 1 March 2025; in office 2026); earlier U.K. Sinha (2011-17) → **Ajay Tyagi (1 Mar 2017 – 28 Feb 2022)** → Madhabi Puri Buch (Mar 2022 – Feb 2025, first woman) |"),
+('b3-r095/notes/row-95.md',
+ "| T.R. Rustagi | – | Restructuring of the CBDT |",
+ "| T.R. Rustagi (Rastogi) | 2006-07 | Review of **service tax** circulars (CBEC; report March 2007) – not CBDT restructuring, as some lists say |"),
+('b3-r094/notes/row-94.md',
+ "- **T.R. Rastogi (Rustagi) Panel** (2006) – Finance Ministry panel to review **service tax** issues and circulars.",
+ "- **T.R. Rastogi (Rustagi) Panel** (2006) – Finance Ministry panel to review **service tax** issues and circulars (report March 2007: withdraw 57, modify 108, retain 136 CBEC circulars; not a CBDT panel)."),
+('b3-r094/notes/row-94.md',
+ "**Maharashtra** – the State the **IMF** had advised earlier not to adopt VAT (APPSC key).",
+ "**Maharashtra** – the State the **IMF** had advised earlier not to adopt VAT (APPSC 2003 key; no official source found)."),
+('b3-r095/notes/row-96.md',
+ "**Maharashtra** had earlier taken **IMF** advice on VAT design",
+ "**Maharashtra** = the State the IMF had earlier advised not to adopt VAT (APPSC 2003 key; no official source found)"),
+('b3-r120/notes/row-120.md',
+ "Gokul Gram farm **Chadalawada** (Prakasam) ⚠ APPSC key (2025) gave Nellore.",
+ "Gokul Gram farm **Chadalawada** (Prakasam; Rashtriya Gokul Mission list) ⚠ APPSC key (2025) gave Nellore – Nellore (Chintaldevi) has the **National Kamdhenu Breeding Centre**, not the Gokul Gram."),
+('b3-r135/notes/row-141.md',
+ "IIIT – Kurnool, Tribal University",
+ "IIIT – Kurnool (= **IIITDM Kurnool**, the Act's IIIT, 2015; IIIT Sri City is a separate PPP IIIT), Tribal University"),
+]
+import collections
+for f,o,n in E:
+    if o is None: continue
+    p=R+f; t=open(p,encoding='utf-8').read()
+    c=t.count(o)
+    if c!=1: print('COUNT',c,f,o[:60]); sys.exit(1)
+for f,o,n in E:
+    if o is None: continue
+    p=R+f; t=open(p,encoding='utf-8').read()
+    t=t.replace(o,n); open(p,'w',encoding='utf-8').write(t)
+print('ok')

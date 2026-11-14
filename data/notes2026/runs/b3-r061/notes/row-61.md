@@ -64,7 +64,7 @@
 | **Rourkela** | Odisha | **West Germany**; **first integrated PSU plant**, 1 MT; first blast furnace 3 Feb 1959 |
 | **Durgapur** | West Bengal | **Britain (UK)** |
 | **Bokaro** | Jharkhand | **USSR**; **Third Plan** (shape from 1965); 4th integrated plant |
-| **RINL Vizag** | Andhra Pradesh | **USSR** (agreement 1979); described as built with **German and Soviet technology**; India's first **shore-based** integrated plant |
+| **RINL Vizag** | Andhra Pradesh | **USSR** (Soviet-assisted: revised project on the USSR's offer of help; contract with the USSR for working drawings of coke ovens, blast furnace, sinter plant, Feb 1981); some web pages say "German and Soviet technology" – exam answer **USSR**; India's first **shore-based** integrated plant |
 | Bhadravati (VISL) | Karnataka | First public-sector steel unit |
 | Salem | Tamil Nadu | **Stainless steel** |
 | TISCO Jamshedpur, IISCO Burnpur | – | Private, pre-1947 (IISCO now SAIL) |
@@ -73,7 +73,7 @@
 - **Maharashtra Elektrosmelt** was a SAIL subsidiary (merged 2011).
 - **UPSC 2005 (not correct):** "Rourkela … set up with **Soviet** collaboration" – it was **German**.
 - Trap: **Rourkela = Germany**; Bhilai, Bokaro, Vizag = USSR; **Durgapur = UK**.
-~~ Sources: NextGen Indian Economy - APPSC 22 p.3, p.7-8; NextGen Indian Economy P1 - APPSC 04 p.53; app notes 3:61 sub 7; web: Vizag Steel Plant (Wikipedia mirror, "German and Soviet technology"); general knowledge, not checked (Bokaro Third Plan, Navratna date)
+~~ Sources: NextGen Indian Economy - APPSC 22 p.3, p.7-8; NextGen Indian Economy P1 - APPSC 04 p.53; app notes 3:61 sub 7; web: Vizag Steel Plant (Wikipedia mirror, "German and Soviet technology"); en.bharatpedia.org/wiki/Visakhapatnam_Steel_Plant (USSR contract Feb 1981, citing The Hans India 1 Nov 2016); general knowledge, not checked (Bokaro Third Plan, Navratna date)
 
 === Early Industry, Textiles and Major Industry Facts
 # Industrial firsts

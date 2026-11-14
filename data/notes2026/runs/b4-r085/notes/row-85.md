@@ -68,7 +68,7 @@
 | Industry | Centres |
 |---|---|
 | Iron and steel | Pittsburgh (USA), Birmingham (UK), Essen (Germany), Anshan (China), Hamilton (Canada) |
-| Automobile | **Detroit** – Motor City; Stuttgart; **Nagoya** (Japan) |
+| Automobile | **Detroit** – Motor City; Stuttgart; **Nagoya** (Japan; Toyota – Nagoya is also an old **cotton textile** centre, so both pairings are right) |
 | Cotton textile | Manchester, **Osaka**, Shanghai, Ahmedabad |
 | Woollen | **Wuppertal** (Germany), Bradford (England), Prato (Italy) |
 | Shipbuilding | Glasgow, Yokohama, Hamburg, St. Petersburg; **Camden = New Jersey**, Houston (Texas), Sparrows Point (Maryland), New Orleans (Louisiana) |
@@ -78,7 +78,7 @@
 | Cigars | **Havana** (Cuba) |
 | Cutlery | **Sheffield** |
 - **Venice** is NOT a shipbuilding centre in exam keys (Detroit–motorcar, Havana–cigar, Sheffield–cutlery are right).
-- **Match (UP 2002):** Anshan–iron and steel, Detroit–automobile, Havana–cigar, Nagoya–cotton textile → 4 3 2 1.
+- **Match (UP 2002):** Anshan–iron and steel, Detroit–automobile, Havana–cigar, Nagoya–cotton textile → 4 3 2 1 (Nagoya = cotton textiles **and** automobiles; the match keys whichever is offered).
 # Nicknames
 | Nickname | Place |
 |---|---|
@@ -94,7 +94,7 @@
 | Pearl City | **Hyderabad** (City of Pearls); Thoothukudi also called Pearl City |
 | Detroit of India | Chennai |
 | Ruhr of India | Chotanagpur |
-~~ Sources: NextGen Rocket World Geography #16 p.26; PMF Human & Economic Geography 05 p.36; app notes 4:85 sub 6
+~~ Sources: NextGen Rocket World Geography #16 p.26; PMF Human & Economic Geography 05 p.36; app notes 4:85 sub 6; PMF Human  Economic Geography 06 p.109 (Nagoya automobile region, Toyota)
 
 === Factors of Location, Weber and Other Theorists
 # Factors

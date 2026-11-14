@@ -5,7 +5,7 @@
 | **Bank of Calcutta** | **1806** – first Presidency bank (first bank of the East India Company); renamed **Bank of Bengal** – the bank SBI was "originally founded as" |
 | Bank of Bombay, Bank of Madras | **1840**, **1843** – the other two Presidency banks |
 | **Imperial Bank of India** | **1921** – amalgamation of the **three Presidency banks**; SBI was "previously known as" Imperial Bank |
-| **State Bank of India** | **1 July 1955**, SBI Act 1955 – Imperial Bank taken over ("partially nationalised"); **first public sector bank**; the RBI bought about **92%** of the shares (NextGen, Ramesh Singh; many quiz sources say 60%), diluted after the 1993 SBI share issue |
+| **State Bank of India** | **1 July 1955**, SBI Act 1955 – Imperial Bank taken over ("partially nationalised"); **first public sector bank**; the RBI bought about **92%** of the shares (NextGen, Ramesh Singh); the "60%" of quiz sources is the **59.73%** RBI stake (after the 1993 SBI share issue diluted it) that the Government took over on **9 July 2007** |
 | SBI (Subsidiary Banks) Act | **1959** – **eight** princely-state banks became SBI associates |
 | RBI stake to Government | **June/July 2007** – Government acquired the RBI's **59.7%** stake in SBI |
 - **SBI "nationalised" in 1955** (exam wording) – earlier than LIC (1956) and the 14 banks (1969), later than the RBI (1949).
@@ -90,7 +90,7 @@
 - **Indian Bank** – Visa business card for corporates (2011); **Moody's** downgraded **ICICI and Axis Bank** (2012 exam).
 - **Bank of India** closed its **Botswana** subsidiary (December 2019).
 - **Canara Bank** – MoU with the Ministry of Culture (**28 June 2023**) for the Scheme for Financial Assistance for Veteran Artists.
-- **Standard Chartered** – **world's first 150-dollar banknote** (HK$150 commemorative, Hong Kong, 2009); HSBC issued its own HK$150 in 2015.
+- **Standard Chartered** – **world's first 150-dollar banknote** (HK$150 commemorative, Hong Kong, 2009); HSBC issued its own HK$150 in 2015; an APPSC 2011 question prints "250-dollar" – a misprint for 150 (no 250-dollar note exists).
 - **Bank of Karad** closed after the securities scam; merged with Bank of India (1994); ICICI Bank – "sweetheart funding" controversy (Videocon).
 ~~ Sources: old app notes 3:84 sub 1; NextGen Indian Economy - APPSC 07 p.7; Ramesh Singh Indian Economy 10th ed. Part 5 p.84 (UTI Bank first reform-era private bank); afaqs.com (Bank of India tagline); info.gov.hk press release 8 Sep 2009 (HK$150 note)
 

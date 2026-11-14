@@ -32,13 +32,13 @@
 ~~ Sources: Rocket Indian Economy p.9; app notes 3:57 sub 1-2; CDS 2019 and working-capital items: general knowledge, not checked
 
 === Crops Covered and MSP Figures
-- **22 mandated crops** + **FRP for sugarcane** = 23 commodities; CACP split: **14 kharif + 6 rabi + 2 commercial** (jute, copra).
+- **22 mandated crops** + **FRP for sugarcane** = 23 commodities; CACP split: **14 kharif + 6 rabi + 2 commercial** (jute, copra) – **cotton is counted among the 14 kharif crops**, so the group table below shows 3 commercial crops (copra, cotton, raw jute).
 | Group | No. | Crops |
 |---|---|---|
 | Cereals | 7 | Paddy, wheat, **barley**, jowar, maize, **ragi (finger millet)**, bajra |
 | Pulses | 5 | Gram, arhar/tur, moong, urad, lentil |
 | Oilseeds | 7 | **Groundnut**, rapeseed-mustard, soybean, sunflower, **sesamum**, safflower, **nigerseed** |
-| Commercial | 3 | Copra, cotton, **raw jute** |
+| Commercial | 3 | Copra, cotton, **raw jute** (in the CACP 22-crop count cotton is a kharif crop; jute and copra are the 2 'commercial') |
 - **No MSP:** **areca nut, coffee, turmeric**, fruits, vegetables, onion, potato, most spices → UPSC 2018 answer **barley, finger millet, groundnut, sesamum (2, 4, 5, 6)**.
 - **Niger (Guizotia abyssinica, ramtil):** has an MSP, is a **kharif** crop and its oil is used for cooking by some **tribal** people – **all three** statements correct (UPSC 2023); seed oil content **37-47%**.
 - **Cotton:** MSP for medium and long staple; nodal agency **Cotton Corporation of India** (Ministry of Textiles).

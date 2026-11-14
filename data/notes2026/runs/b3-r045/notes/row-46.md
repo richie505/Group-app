@@ -87,7 +87,7 @@
 | 2023-24 | 10.08 | 2.55 | **12.42** | 26.03 |
 - After bifurcation **groundwater (wells)** has become the major source, overtaking canals.
 - **38,862 tanks**; groundwater stage **31.5% (Safe)**; **12 of 679** mandals over-exploited; **Anantapur** district has had the most over-exploited mandals.
-- **APWALTA 2002** (AP Water, Land and Trees Act): against indiscriminate **borewell** digging; controls groundwater; promotes tree planting; **rainwater harvesting compulsory on plots of 200 sq m and above**; drinking-water norm in the exam key: one tube well per **250 population** (not verified in the library); over-exploited villages notified (300 villages, GEC 2023-24).
+- **APWALTA 2002** (AP Water, Land and Trees Act): against indiscriminate **borewell** digging; controls groundwater; promotes tree planting; **rainwater harvesting compulsory on plots of 200 sq m and above**; drinking-water norm in the exam key: one tube well per **250 population** (this is the national rural water-supply norm – at least one hand pump/spot source per **250 persons**; not found as an APWALTA clause); over-exploited villages notified (300 villages, GEC 2023-24).
 - **HNSS:** lift canal taking Krishna flood water from **Srisailam** to Rayalaseema; **Neeru-Chettu** (2015): drought-free AP via tank desilting.
 ~~ Sources: AP Socio-Economic Survey 2024-25 p.127, p.132-134, p.381 (Annexure 5.14); Rocket AP Geography p.36 (Polavaram Left Main Canal); app notes 3:46 sub 5, 7
 

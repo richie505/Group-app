@@ -84,7 +84,7 @@
 | Report / index | Releasing agency | India / key finding |
 |---|---|---|
 | **State Energy Efficiency Index 2023** (Mar 2024) | **BEE** with **AEEE** | **Karnataka** top (**86.5**/100); Front runners (≥60): AP, Haryana, Karnataka, Kerala, Maharashtra, Punjab, Telangana; **Achievers: Assam, UP**; Contenders: Goa, Jharkhand, TN |
-| SEEI 2024 | BEE (Ministry of Power) with AEEE | **Andhra Pradesh** top – 87.25 (from 83.25 in SEEI 2023) |
+| SEEI 2024 | BEE (Ministry of Power) with AEEE | **Andhra Pradesh** top in **Group 2** (5–15 Mtoe) – 87.25 (from 83.25 in SEEI 2023), a Front Runner; **Maharashtra** top in Group 1 (largest consumers) |
 | RAISG–MapBiomas report (Dec 2022) | RAISG + MapBiomas | Amazon lost **10%** of its native vegetation, 1985–2021 |
 | EPI 2026 (Aug 2026) | **Yale and Columbia** Universities | India **176th of 177** (score 22.46); **Estonia** 1st; MoEFCC rejected the methodology |
 | CCPI 2026 (Nov 2025) | Germanwatch, NewClimate Institute, CAN | India **23rd, down 13 places**; **top 3 left vacant**; Denmark 4th |
@@ -93,8 +93,8 @@
 | Living Planet Report | **WWF** (biennial) | LPR 2022: **69%** decline; LPR 2024: **73%** (1970–2020) |
 # Living Planet Report 2024 (WWF)
 - By realm: **freshwater 85%**, terrestrial 69%, marine 56%; steepest region: **Latin America and the Caribbean (95%)**.
-> SEEI 2023 top = Karnataka; SEEI 2024 top = Andhra Pradesh. EPI (176/177) and CCPI (23rd) give opposite pictures of India.
-~~ Sources: PIB SEEI 2023 document (static.pib.gov.in doc202431317201, Mar 2024); AP Socio-Economic Survey 2024-25 p.137 (SEEI 2024 AP 87.25 from 83.25); theweek.in 3 Dec 2022 (Amazon 10%); app notes 6:82 sub 0
+> SEEI 2023 top = Karnataka; SEEI 2024 group toppers = Maharashtra (Group 1) and Andhra Pradesh (Group 2). EPI (176/177) and CCPI (23rd) give opposite pictures of India.
+~~ Sources: PIB SEEI 2023 document (static.pib.gov.in doc202431317201, Mar 2024); AP Socio-Economic Survey 2024-25 p.137 (SEEI 2024 AP 87.25 from 83.25); web: gktoday.in/state-energy-efficiency-index-2024 and energetica-india.net 30 Aug 2025 (group toppers: Maharashtra G1, AP G2); theweek.in 3 Dec 2022 (Amazon 10%); app notes 6:82 sub 0
 
 === Air Quality in News
 # World Air Quality Report 2025 (IQAir, 24 March 2026)
@@ -132,7 +132,7 @@
 | Ramsar COP15 (July 2025) | **Victoria Falls, Zimbabwe** | **Victoria Falls Declaration**; Fifth Strategic Plan (2025–2034) |
 | CMS COP15 (2026) | **Campo Grande, Brazil** | **49%** of CMS-listed species declining |
 | UNCCD COP17 (Aug 2026) | **Ulaanbaatar, Mongolia** | "Restoring Land. Restoring Hope."; International Year of Rangelands 2026 |
-- **Ramsar Award (Wetland Wise Use):** **Jayshree Vencatesan** (Care Earth Trust, Chennai; Pallikaranai Marsh) – **first Indian** to win a Ramsar Award; announced on International Women's Day, **March 2025**, presented at Ramsar COP15.
+- **Ramsar Award (Wetland Wise Use):** **Jayshree Vencatesan** (Care Earth Trust, Chennai; Pallikaranai Marsh) – **first Indian** to win a Ramsar Award; announced on International Women's Day, **March 2025** (⚠ not 2024), presented at Ramsar COP15.
 > "COP15" twice: Ramsar COP15 = Victoria Falls; CMS COP15 = Campo Grande.
 ~~ Sources: gktoday.in Ramsar Award for Wetland Wise Use page (11 Mar 2025); app notes 6:82 sub 3
 
@@ -181,6 +181,6 @@
 # Andhra Pradesh Angle
 - **Nagarjunasagar-Srisailam TR (NSTR):** largest tiger reserve; **four female tigers** from **Chandrapur (Maharashtra)** and **Madhya Pradesh**; **gaur translocation** to NSTR from **September 2026**.
 - **Seshachalam** Biosphere Reserve – **2010** (AP's first BR); **Koundinya** – AP's **only Elephant Reserve**.
-- **Tirupati** – in line for **Wetland City** status; **Guntur** – 2nd in Swachh Vayu 2026; AP top in SEEI 2024; **2nd in MISHTI** (not 1st).
+- **Tirupati** – in line for **Wetland City** status; **Guntur** – 2nd in Swachh Vayu 2026; AP top in Group 2 of SEEI 2024 (Front Runner); **2nd in MISHTI** (not 1st).
 > 13 = BRs in the UNESCO network; 18 = all BRs in India.
 ~~ Sources: Rocket CA 2026 Part 02 p.137 (elephant reserves 33; Ramsar 103); Rocket Environment p.2 (Seshachalam = AP's first BR); RUNBOOK settled facts (58 tiger reserves); app notes 6:82 sub 6

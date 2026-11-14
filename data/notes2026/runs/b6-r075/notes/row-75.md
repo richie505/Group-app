@@ -153,7 +153,7 @@
 |---|---|---|
 | LRLACM | DRDO | Subsonic land-attack cruise missile; range over 1,000 km; Manik engine; replaces Nirbhay |
 | Astra Mk 1 | DRDO | Beyond-visual-range air-to-air missile; first export to Indonesia |
-| Agni-4 | DRDO / Strategic Forces Command | Nuclear-capable, two-stage solid-fuel ballistic missile, range about 4,000 km (PMF: MRBM; Praveen CA: IRBM) – not an ICBM |
+| Agni-4 | DRDO / Strategic Forces Command | Nuclear-capable, two-stage solid-fuel ballistic missile, range about 4,000 km – an **IRBM** (Intermediate Range Ballistic Missile, as the Defence Ministry called it at the 6 Sep 2024 Chandipur test; PMF LENS loosely says MRBM) – not an ICBM |
 | Kusha | DRDO | Long-range surface-to-air missile; maiden test Jul 2026; rival to S-400 / Patriot |
 | TARA | DRDO's RCI + IAF | First indigenous glide weapon; maiden trial |
 | Khagantak-243 | JSR Dynamics + BEL | Glide bomb |
@@ -162,7 +162,7 @@
 - **DRDO** formed **1958**; motto **'Balasya Mulam Vigyanam'**.
 - **ASC ARJUN**: **industrial humanoid robot**; **Vyommitra**: semi-humanoid for Gaganyaan G1 and G2.
 - **Vande Bharat (Train 18):** semi-high-speed EMU designed by **RDSO**, built by **ICF Chennai**; first ran **New Delhi-Varanasi**; design speed 180 km/h, operated up to 160 km/h.
-~~ Sources: web: business-standard.com "China claims first radar enabling submarines to destroy high-flying jets" (28 Jan 2025); Rocket CA 2026 Part 01 (src/current-affairs/rocket-ca-2026-01.txt) p.57-58 (RudraM-II, TARA), p.196 (Agni-IV up to 4,000 km); PMF Lens Aug 2026 (src/current-affairs/pmf-lens-2026-08-02.txt) p.10 (Agni-4 MRBM, Kusha); Praveen CA-360 Aug 2026 p.69 (Agni-IV IRBM); INSV Tarini, AG600: general knowledge, not checked; app notes 6:75 sub 2
+~~ Sources: web: business-standard.com "China claims first radar enabling submarines to destroy high-flying jets" (28 Jan 2025); Rocket CA 2026 Part 01 (src/current-affairs/rocket-ca-2026-01.txt) p.57-58 (RudraM-II, TARA), p.196 (Agni-IV up to 4,000 km); PMF Lens Aug 2026 (src/current-affairs/pmf-lens-2026-08-02.txt) p.10 (Agni-4 MRBM, Kusha); Praveen CA-360 Aug 2026 p.69 (Agni-IV IRBM); newsonair.gov.in 6 Sep 2024 (Defence Ministry: "Intermediate Range Ballistic Missile, Agni-4"); INSV Tarini, AG600: general knowledge, not checked; app notes 6:75 sub 2
 
 === Indian and Joint Space Missions 2025-26
 # NISAR – NASA-ISRO Synthetic Aperture Radar
