@@ -1247,3 +1247,6 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b6-w071 (row 71)
 - own 255 → 23 kept + 71 new (94, 37%); new 47 statements / 18 match / 6 A–R; 1 of 204 lines lost.
 - To check: 9:8 FGFA exit 2018 vs Praveen 2021 (kept caa229483d2f32 keys 2018); 8:0.0 Mahendragiri "sixth P-17A" vs "fourth by MDL" (both can be true); 7:10 kept cac63810760f64 calls Rajesh Kumar Singh DRDO "Chairman" (additional charge) — reword.
+
+## rewrite b6-w070 (row 70)
+- own 362 → 50 kept + 108 new (158, 44%); new 81 statements / 19 match / 8 A–R; no lines lost. No wrong keys (Yudh Abhyas edition conflict already logged).
