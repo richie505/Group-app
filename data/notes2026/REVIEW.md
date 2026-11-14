@@ -686,3 +686,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## b6-r027 (CA row 27 Mar–May 2026 polity)
 - No key changes. Outdated y931684530e8 Governors (Haryana now Ashim Kumar Ghosh; Shukla to Telangana).
 - Delhi LG = Taranjit Singh Sandhu (Praveen/old notes garbled "Tajit Singh Nindhu"). Lok Sabha max kept 550 (Praveen says 552).
+
+## b6-r029 (CA rows 29-31 national polity)
+- No key changes. Row 31 gets "Earlier Governance Events Asked in APPSC (2017–2023)" sub-section (11 PYQs) — confirm OK.
+- General-knowledge keys: Bihar human chain, 690 seats, MV Act s.185, farm laws stay 12 Jan 2021, Prayagraj, Employment News, Amar Jawan Jyoti 2022.
