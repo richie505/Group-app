@@ -690,3 +690,8 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## b6-r029 (CA rows 29-31 national polity)
 - No key changes. Row 31 gets "Earlier Governance Events Asked in APPSC (2017–2023)" sub-section (11 PYQs) — confirm OK.
 - General-knowledge keys: Bihar human chain, 690 seats, MV Act s.185, farm laws stay 12 Jan 2021, Prayagraj, Employment News, Amar Jawan Jyoti 2022.
+
+## b6-r033 (CA row 33 Jun–Aug 2026 economy)
+- No key changes. GST Council meetings table 53rd–57th added (54th date from search summary; 52nd Oct 2023 unchecked).
+- RBI Aug 2026 repo 5.25 / SDF 5.00 / MSF 5.50 kept with "now" line (Oct 2026: 5.50/5.25/5.75).
+- Own MCQ ca9dc5f62016aa FRBM "came into effect" 2003 (strictly 5 July 2004; not an option).
