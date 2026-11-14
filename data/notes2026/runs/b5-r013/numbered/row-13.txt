@@ -1,0 +1,212 @@
+=== NEW NOTES row 13
+## SUB 0 | Web Technologies – Browsers, Search Engines, HTML and Web Terms
+[0:0] # Browser vs search engine (most-asked angle)
+[0:1] TABLE head: Name | What it is
+  [0:1.0] Chrome | Web browser by Google (2008) – not a search engine
+  [0:1.1] Internet Explorer (now Edge), Firefox, Opera, Vivaldi, Safari | Web browsers
+  [0:1.2] Yahoo | Search engine / web portal – not a browser
+  [0:1.3] Bing | Search engine of Microsoft, launched 2009 (not Ming, Buzz)
+  [0:1.4] Baidu | Chinese search engine
+  [0:1.5] DuckDuckGo | Search engine that does not track or collect user information
+  [0:1.6] Altavista | Early search engine
+  [0:1.7] Kurrently | Real-time social-media search engine
+  [0:1.8] Orkut | Closed social networking site (Google, shut 2014) – not a search engine
+  [0:1.9] Google Apps | Office/productivity suite – not a web browser
+  [0:1.10] Snapdeal | E-commerce company – not a means of communication (Darknet, Internet, Bluetooth are)
+[0:2] - **Web browser:** software that requests and **displays web pages** (not a website, interpreter or OS); browsers use HTTP/HTTPS.
+[0:3] - **Search engine:** indexes web pages so they can be found; **Yahoo, Google, MSN** are internet sites (portals).
+[0:4] - **Web crawler** = **web spider** (spiderbot): bot that scans the Web for search-engine indexing.
+[0:5] - **Home page:** the **first page** a browser shows on opening a website.
+[0:6] - **URL (Uniform Resource Locator):** the site address typed to view pages – protocol (`https://`) → domain name → path to the file.
+[0:7] - **Cookie:** a **small piece of data** a website sends and the **browser stores** while the user browses (not a thumbnail or worm).
+[0:8] - **Webmercial:** a commercial message (advertisement) on the Web.
+[0:9] # Languages of the Web
+[0:10] TABLE head: Term | Meaning
+  [0:10.0] HTML | HyperText Markup Language – the language of the WWW; used to display web pages in a browser (not HTTP, which is a protocol)
+  [0:10.1] Web server | Keeps information in web pages whose text is marked with HTML tags and serves them on request
+  [0:10.2] `<em>` tag | Marks emphasised text, i.e. indicates the importance/stress of the text (shown in italics); not a list tag or font-size tag
+  [0:10.3] PHP | Hypertext Preprocessor – popular server-side scripting language for dynamic, data-driven web apps
+  [0:10.4] JSP | Java Server Pages – dynamic web pages; released 1999 by Sun Microsystems
+  [0:10.5] Front-end core | HTML5, CSS3, JavaScript
+  [0:10.6] OCEN | Open Credit Enablement Network – democratises lending so small borrowers get good credit terms
+[0:11] - **W3C = World Wide Web Consortium:** main international **web standards body**, founded **1994** by **Tim Berners-Lee**; keeps pages working alike across browsers.
+[0:12] # Web 1.0 → 2.0 → 3.0
+[0:13] TABLE head: Phase | Nature | User role
+  [0:13.0] Web 1.0 (1990s) | Static HTML pages | Read-only
+  [0:13.1] Web 2.0 (mid-2000s–) | Interactive, social, user-generated content; Big Tech holds data | Read-write
+  [0:13.2] Web 3.0 | Decentralised (blockchain), semantic/AI web | Read-write-own
+[0:14] - **Web 3.0 (UPSC 2022, all three correct):** people **control their own data**; **blockchain-based social networks** possible; **operated by users collectively** (DAOs) rather than a corporation.
+[0:15] # Layers of the Web
+[0:16] TABLE head: Layer | Share | Features
+  [0:16.0] Surface (clear) web | ~4-5% | Indexed by search engines
+  [0:16.1] Deep web | ~90-95% | Not indexed – inboxes, net banking, intranets; not always harmful
+  [0:16.2] Dark web | Small hidden part of the deep web | Needs Tor / I2P; anonymous; linked with illegal markets
+[0:17] > ⚠ Trap: Yahoo/Bing/Baidu = search engines; Chrome/Opera/Vivaldi = browsers; Orkut = social network; Google Apps = not a browser.
+[0:18] ~~ Sources: PMF S&T Part 5 p.63-66 (Web 1.0-3.0, HTML, UPSC 2022, browsers vs search engines); app notes 5:13 sub 7; general knowledge (PHP, JSP, `<em>`, webmercial, Kurrently)
+## SUB 1 | Modem, Network Devices, Servers and the OSI Model
+[1:0] # Modem (asked ~15 times)
+[1:1] - **Modem = MOdulator-DEModulator:** converts **digital → analog** (modulation) and **analog → digital** (demodulation) – **both** ways.
+[1:2] - **Job:** the **hardware unit that connects a home computer to the internet through a telephone line**; it **interfaces telephone lines and computer equipment** and lets computers **send and receive data worldwide**.
+[1:3] - It is **hardware** – not software, an OS or a voltage stabiliser; it does not encrypt or check for viruses.
+[1:4] - **Statement set (UPPCS 2009):** LCD = main use of liquid crystals ✓; modem connects a computer to a phone line ✓; NIO is at **Goa** (not Coimbatore) ✗; **70 Virginis** is a **star** (not a video system) ✗ → **only 1 and 2**.
+[1:5] # Devices
+[1:6] TABLE head: Device | Job | OSI layer
+  [1:6.0] NIC (network card) | Connects a computer to the network; holds the MAC address | 1-2 (Physical/Data Link)
+  [1:6.1] Hub | Broadcasts to all ports | 1 Physical
+  [1:6.2] Repeater | Regenerates a weak signal to extend the cable | 1 Physical
+  [1:6.3] Switch / Bridge | Forwards frames by MAC address | 2 Data Link
+  [1:6.4] Router | Connects different networks; routes by IP | 3 Network
+  [1:6.5] Firewall | Filters traffic by rules | 3-4 (and above)
+  [1:6.6] Gateway | Joins networks using different protocols | up to 7 Application
+  [1:6.7] Modem | Signal conversion | 1 Physical
+[1:7] - **Physical → application order (TS 2021):** **NIC → switch/bridge → router → firewall → gateway** (D, B, A, E, C).
+[1:8] - **Router, hub and switch are all connecting devices** (MPPSC 2014 asked "which is a connecting device?" – answer "all of these").
+[1:9] # Servers
+[1:10] - **Proxy server:** middleman that **forwards client requests to other servers**; it does **not** provide TCP/IP addresses (DHCP does).
+[1:11] - **Server types:** file, print, application, web, mail, database, proxy servers. "**Network server**" is the generic name for a powerful central computer storing shared data/programs – the MPPSC 2021 key treats it as "not a (type of) server".
+[1:12] - **Nodes:** all computers and printers on a network are its **nodes**.
+[1:13] # OSI model – seven layers (top to bottom)
+[1:14] TABLE head: Layer | Function | Protocols / devices
+  [1:14.0] 7 Application | User services | HTTP, FTP, SMTP, DNS
+  [1:14.1] 6 Presentation | Encryption, compression, formats (JPEG) | –
+  [1:14.2] 5 Session | Opens and closes sessions | –
+  [1:14.3] 4 Transport | End-to-end delivery | TCP, UDP
+  [1:14.4] 3 Network | Routing; IP addresses (Internet layer of TCP/IP) | Router
+  [1:14.5] 2 Data Link | Framing, MAC addresses, error detection; Ethernet, PPP | Switch, bridge, NIC
+  [1:14.6] 1 Physical | Signals on the medium | Cables, hub, repeater, modem
+[1:15] - **Data Link layer** lies **between the Physical and Network layers**; OSI model ratified **1984**.
+[1:16] - **SMTP** = **Application layer**; IP addresses = **Network layer**.
+[1:17] > ⚠ Trap: switch = Layer 2 (MAC), router = Layer 3 (IP); modem is a Physical-layer device, not Transport.
+[1:18] ~~ Sources: PMF S&T Part 5 p.28 (networking devices: routers, switches, modems), p.45 (dial-up modem); app notes 5:13 sub 2; testbook.com (MPPSC 2014 "Which of the following is a connecting device?" – All of these); general knowledge (OSI device order, NIO Goa, 70 Virginis)
+## SUB 2 | Internet and the World Wide Web – Basics and History
+[2:0] # Internet
+[2:1] - **Internet = "a network of networks"**: global network of interconnected computers working on **TCP/IP**; the **largest WAN**.
+[2:2] - **Uses:** send e-mail, view web pages, connect to servers – **all of the above**.
+[2:3] - **How it works:** data → **packets**; **IP** directs packets, **TCP** checks errors and reassembles; **DNS** turns names into IP addresses.
+[2:4] - **"Founder"/pioneer:** **Leonard Kleinrock** (packet-switching theory; first ARPANET message, 1969); Vint Cerf and Bob Kahn designed TCP/IP ("fathers of the Internet").
+[2:5] # World Wide Web
+[2:6] - **WWW (W3) = World Wide Web:** collection of **linked information (hypertext documents)** on computers available through the internet; accessed via **HTTP**.
+[2:7] - **Inventor:** **Tim Berners-Lee** (British), **1989** at **CERN**; he also wrote the **first web browser (named "WorldWideWeb")**, the first web server, HTML, HTTP and URL. Made public in **1991**.
+[2:8]   - Distractors: Bill Gates, Larry Page, Ted Nelson (coined "hypertext"), Vinod Dham (Pentium), Ray Tomlinson (e-mail), Edward Kasner ("googol").
+[2:9] - **Hypermedia system:** because it **links to other computer resources** (not because it is "hyper fast").
+[2:10] - Internet (infrastructure) ≠ WWW (a service running on it).
+[2:11] # Timeline
+[2:12] TABLE head: Year | Event
+  [2:12.0] 1969 | ARPANET – US Department of Defense; forerunner of the internet
+  [2:12.1] 1984 | OSI model ratified
+  [2:12.2] 1986 | ERNET – India's academic network
+  [2:12.3] 1989 | WWW invented by Tim Berners-Lee at CERN
+  [2:12.4] 1994 | W3C founded
+  [2:12.5] 1995 | VSNL launched public internet in India on 15 August 1995
+  [2:12.6] 1998 | Satyam Infoway (Sify) – first private ISP of India; ICANN set up
+  [2:12.7] 2003 | NIXI set up under MeitY
+[2:13] # Communication basics
+[2:14] - **Channel:** the **medium** through which an encoded message is transferred (sender → encoder → **channel** → decoder → receiver).
+[2:15] - **Networking:** personal computers connected together form a **network**.
+[2:16] ~~ Sources: PMF S&T Part 1 p.30 (Berners-Lee, CERN 1989, first browser and server); PMF S&T Part 5 p.29 (ARPANET 1969, WWW public 1991), p.45 (Internet, TCP/IP, packets, DNS), p.65 (Internet vs WWW); app notes 5:13 sub 0; general knowledge (Kleinrock, VSNL 15 Aug 1995, channel)
+## SUB 3 | Protocols, DNS and Domain Names
+[3:0] - **Protocol:** a **set of rules that governs data communication**; three elements – **syntax** (format), **semantics** (meaning), **timing**.
+[3:1] # Protocol → function
+[3:2] TABLE head: Protocol | Function
+  [3:2.0] TCP/IP | Set of protocols for all transmission exchanges across the internet; the standard protocol suite for internet use/surfing
+  [3:2.1] HTTP | Hypertext Transfer Protocol – used for accessing the WWW / fetching web pages
+  [3:2.2] HTTPS | S = Secure – HTTP encrypted with SSL/TLS
+  [3:2.3] FTP | File Transfer Protocol – exchanging files
+  [3:2.4] SMTP | Sends e-mail (Application layer)
+  [3:2.5] POP3 | Downloads mail to one device, usually deletes it from the server
+  [3:2.6] IMAP | Keeps mail on the server, synced across devices
+  [3:2.7] DHCP | Assigns IP addresses automatically
+  [3:2.8] TELNET | Remote login
+[3:3] - ARPANET is a network, not a protocol; CSMA/CD (Ethernet access method) and FDDI (fibre ring LAN) are not the internet protocol suite.
+[3:4] # DNS
+[3:5] - **DNS = Domain Name System** (not "Domain Name Server/Service"): the **database of names and addresses of internet hosts**; converts **domain names → IP addresses**.
+[3:6] # Domain names
+[3:7] TABLE head: Extension | Meaning
+  [3:7.0] .com / .gov / .net | Commercial / government / network – all valid top-level domains
+  [3:7.1] .edu | Education (.edu.us = educational institute in the USA)
+  [3:7.2] .au | Australia (Austria = .at, UAE = .ae, Aruba = .aw)
+  [3:7.3] .in | India (registry run by NIXI)
+[3:8] - **E-mail address:** username@domainname.extension.
+[3:9] > ⚠ Trap: HTML is a language, HTTP a protocol; DNS full form = Domain Name **System**.
+[3:10] ~~ Sources: PMF S&T Part 5 p.45 (TCP/IP, DNS), p.66 (HTTP vs HTTPS, SSL/TLS); app notes 5:13 sub 3; general knowledge (ccTLDs, TELNET, CSMA/CD, FDDI)
+## SUB 4 | Network Types and Topologies
+[4:0] # Network types by area
+[4:1] TABLE head: Type | Scope / feature
+  [4:1.0] PAN | Personal area (1-10 m); Bluetooth, smartwatch-phone
+  [4:1.1] LAN | A single building / small area – home, office, lab; Ethernet is an example (IEEE 802.3)
+  [4:1.2] CAN | Campus Area Network – several LANs across a campus
+  [4:1.3] MAN | Metropolitan Area Network – a city
+  [4:1.4] WAN | Countries/continents; links LANs in different cities; the Internet is the largest WAN
+  [4:1.5] VPN | Virtual Private Network – secure, encrypted network across the public internet giving users access to their organisation's network
+  [4:1.6] WLAN | Wireless LAN (Wi-Fi)
+[4:2] - **VPN (UPSC 2011):** answer (b) – network across the public internet giving access to the organisation's network securely; "shared pool of computing resources" = cloud computing.
+[4:3] - **Network types vs topologies:** PAN/LAN/CAN/MAN/WAN are **types**; mesh, star, bus, ring are **topologies** (TS Sub Engineers key: **MAN**).
+[4:4] - **APPSC 2019:** a firm linking LANs in **Mumbai, Bengaluru and New Delhi** uses a **WAN**.
+[4:5] - **Intranet** = private internal network; **extranet** = controlled extension for partners; **Internet** = network of networks.
+[4:6] # Topologies
+[4:7] TABLE head: Topology | Layout | Resilience
+  [4:7.0] Bus | All nodes on one backbone cable | Backbone break stops the whole network
+  [4:7.1] Star | All nodes to a central hub/switch | A failed node is only isolated; hub failure stops all
+  [4:7.2] Ring | Each node linked to two neighbours | One break can disrupt the ring
+  [4:7.3] Mesh | Every node linked to every other | Most resilient; costliest – n(n-1)/2 links
+  [4:7.4] Tree | Branching mix of bus and star – a generalisation of the bus topology | Exam key: topology used by the Internet
+  [4:7.5] Hybrid | Mix of types | The Internet is the largest hybrid topology
+[4:8] - **Grid** is **not** a common network topology.
+[4:9] > ⚠ Trap: "Internet topology" – exam keys say **tree**; strictly the Internet is a hybrid (largely mesh) of networks.
+[4:10] ~~ Sources: PMF S&T Part 5 p.30-35 (PAN, LAN, CAN, MAN, WAN, VPN, topologies), p.33 (UPSC 2011 VPN), p.50 (intranet/extranet); app notes 5:13 sub 1; general knowledge (tree = generalisation of bus, Stallings)
+## SUB 5 | IP and MAC Addressing
+[5:0] TABLE head: Address | Length | Notation
+  [5:0.0] IPv4 | 32 bits (~4.3 billion addresses) | Dotted decimal, 4 octets each 0-255, e.g. 192.168.1.1
+  [5:0.1] IPv6 | 128 bits | 8 groups of hexadecimal separated by colons
+  [5:0.2] MAC (Media Access Control) | 48 bits (6 bytes, 12 hex digits) | Unique ID burnt into the NIC; used at the Data Link layer
+[5:1] - **IP address** = the unique number that **identifies a computer on the internet** (not e-mail or street address; SMTP/TCP/UDP are protocols).
+[5:2] - **IPv4 needs fewer bits than IPv6** (32 < 128) (APPSC G1).
+[5:3] - **Invalid IPv4:** "192.23.350" – only three octets and 350 > 255.
+[5:4] # IPv4 classes (first octet)
+[5:5] TABLE head: Class | Range | Use
+  [5:5.0] A | 1–126 | Large networks
+  [5:5.1] B | 128–191 | Medium networks
+  [5:5.2] C | 192–223 | Small networks
+  [5:5.3] D | 224–239 | Multicast
+  [5:5.4] E | 240–255 | Experimental
+[5:6] - **There is no Class F.**
+[5:7] ~~ Sources: PMF S&T Part 5 p.39 (IP and IP address); app notes 5:13 sub 4; general knowledge (IPv4 octet rule, classes)
+## SUB 6 | Internet Connections, Transmission Modes and Wireless Standards
+[6:0] # Connection types
+[6:1] TABLE head: Connection | Medium | Speed
+  [6:1.0] Dial-up | Telephone line + dial-up modem; not always-on | Slowest – up to 56 Kbps
+  [6:1.1] DSL (Digital Subscriber Line) | Existing telephone lines | 2-24 Mbps
+  [6:1.2] Cable broadband | Coaxial cable-TV lines (cable modem) | Higher than DSL
+  [6:1.3] Fibre | Light pulses in optical fibre | 100s of Mbps – Gbps
+  [6:1.4] Leased line | Dedicated always-on business line | High
+  [6:1.5] Satellite | GEO (VSAT) / LEO (Starlink, OneWeb); no terrestrial wire | Variable
+[6:2] - **Wireless web:** internet access from **cellular phones, hand-held and portable gadgets** (Spaceweb, Astroweb, Cosmoweb are not terms).
+[6:3] # Transmission modes
+[6:4] TABLE head: Mode | Meaning | Example
+  [6:4.0] Simplex | One way | Radio/TV broadcast, keyboard
+  [6:4.1] Half duplex | Both ways, one at a time | Walkie-talkie
+  [6:4.2] Full duplex | Both ways at once | Telephone call
+[6:5] - "G" in **2G** = **Generation**; a **podcast** is a radio-style programme shared via the internet.
+[6:6] # Bluetooth and Wi-Fi
+[6:7] TABLE head: Feature | Bluetooth | Wi-Fi
+  [6:7.0] Standard | IEEE 802.15.1 (PAN) | IEEE 802.11 (WLAN)
+  [6:7.1] Band | 2.4 GHz | 2.4 and 5 GHz (Wi-Fi 6E/7 also 6 GHz)
+  [6:7.2] Line of sight | Not needed | Not needed
+[6:8] - **UPSC 2011:** difference = Bluetooth uses 2.4 GHz, Wi-Fi 2.4 or 5 GHz (Bluetooth is PAN, not WLAN; neither needs line of sight).
+[6:9] - **2.4-2.5 GHz ISM band (UPSC 2010):** **Bluetooth, cordless phones, microwave ovens (2.45 GHz) and Wi-Fi – all four**.
+[6:10] - **Bluetooth versions:** APPSC key "latest" = **5.1** (2019); then 6.0 (Sept 2024, **Channel Sounding**), 6.1 (May 2025), 6.2 (Nov 2025), 6.3 (May 2026), **Core 7.0 (Nov 2026, High Data Throughput)** – the latest as of Nov 2026.
+[6:11] - **Wi-Fi 7** = **IEEE 802.11be** (2.4, 5 and 6 GHz); **Wi-Fi Direct** links devices with no LAN; **Li-Fi** carries data on **LED light**.
+[6:12] ~~ Sources: PMF S&T Part 5 p.45 (dial-up 56 Kbps), p.47 (DSL, cable, fibre), p.48 (satellite), p.55-57 (Wi-Fi, Bluetooth, UPSC 2011); bluetooth.com blog "Just released: Bluetooth Core 6.3" (6 May 2026); audioxpress.com (Bluetooth HDT in Core 7.0, 4 Nov 2026); app notes 5:13 sub 5-6
+## SUB 7 | Internet Governance and India
+[7:0] TABLE head: Body / Act | Year | Role
+  [7:0.0] ICANN | 1998 | US non-profit; coordinates the global Domain Name System and IP address allocation
+  [7:0.1] NIXI (National Internet Exchange of India) | 2003 | Not-for-profit under MeitY; internet exchange points, the .in registry and IRINN
+  [7:0.2] BhashaNet | 2022 | MeitY and NIXI (not ICANN) – Universal Acceptance for Indian languages; .Bharat in Devanagari
+  [7:0.3] IT Act, 2000 | 2000 | Sections 69A and 79 – government can order ISPs and intermediaries to block content
+  [7:0.4] Telecommunications Act, 2023 | 2023 | Replaced the Indian Telegraph Act, 1885; holds the power to suspend internet services
+  [7:0.5] Orbicom | 1994 | International network of UNESCO Chairs in Communication
+[7:1] - **Universal Acceptance:** every app and e-mail system accepts all domain names and e-mail IDs, including those in Indian scripts.
+[7:2] - **7 Apr 2026:** a site opening on one ISP but not another = ISP-level **DNS poisoning, HTTP interception or SNI filtering**.
+[7:3] - **Economic Survey 2025-26:** internet connections **25.15 crore (2014) → 96.96 crore (2024)**; **BharatNet** fibre reaches **2.18 lakh gram panchayats**.
+[7:4] - **AP angle (29 Jun 2026):** CM **Chandrababu Naidu** and **Sunil Mittal** discussed **last-mile connectivity, data centres and an undersea cable landing station** for AP.
+[7:5] ~~ Sources: app notes 5:13 sub 8; general knowledge (Orbicom = UNESCO network, not checked)
