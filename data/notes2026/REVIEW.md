@@ -587,3 +587,14 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## b5-r099-k1 (Air pollution keys)
 - No key changes. Disputes: acid rain most Norway; Canada and Norway.
 - Unverified: yfaa0647ade5 APPCB 123 ULBs/17 corporations; yc719b9993d4 saliva pH 6.7.
+
+## b5-r104 (rows 104-105 carbon, mitigation tech)
+- No key changes. Disputes: y9ce7c15e185 coal plants supercritical vs 2015 emission norms; y70b8d54333c carbon sequestration vs CCS.
+- y550afbf8bc5 Mandaram Resource Centre (Chittoor) left -1 — owner: supply key if known.
+- Unverified: y57c7535e286 NCC flag, y7061b8f72f4 ERPA 2011 (truncated options), y56d465810c6 NZ carbon tax, y10a08aaef37 WAYU.
+
+## b5-r103 (Solid, plastic, e-, biomedical, C&D waste)
+- y9f47f002723 UPSC 2011 MFC: d → c (official key), dispute keeps (d).
+- Disputes: y247430527ed BMW 17 lakh t (vs 1.7); y8cd693913da EPR date; y6bd6b09a59c SS 2024-25 Indore vs Ahmedabad.
+- Outdated ×3 SWM Rules 2016 → SWM Rules 2026.
+- EPR first: e-waste rules 2011 (Rocket says plastic rules 2011). Unverified: Gonda, SS 2023 theme, Puducherry 51 microns, CDS 2019 thermosetting bottle.
