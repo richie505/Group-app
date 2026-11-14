@@ -102,19 +102,6 @@
 - **Sriharikota** (SDSC-SHAR, Andhra Pradesh) on the **east coast**: rockets fly over the sea; all Indian orbital launches, incl. private ones, go from here.
 ~~ Sources: PMF S&T Part 2 p.3; PMF S&T Part 1 p.64-66; app notes 5:35 sub 4
 
-=== Cryogenic Stages of the Launch Vehicles
-- **Early GSLVs** flew **Russian KVD-1** cryogenic stages; technology transfer was refused in the 1990s, so India built its own. **First indigenous cryogenic success: GSLV-D5 (Jan 2014)** – not GSLV-D1 (2001).
-| Engine / type | Propellant | Used in |
-|---|---|---|
-| CE-7.5 (cryogenic) | LH2 + LOX | GSLV Mk II upper stage |
-| **CE-20** (cryogenic) | LH2 + LOX | **C25 stage of LVM3** |
-| SCE-200 / SE2000 (semi-cryogenic) | **Refined kerosene + LOX** | LVM3 upgrade, NGLV |
-| Vikas (earth-storable) | UH25 + N2O4 | PSLV 2nd, GSLV 2nd stage |
-| Solid | HTPB | GSLV 1st stage |
-- **"CE-25 / C25" news (2017):** the **C25** cryogenic upper stage with the CE-20, India's first high-thrust indigenous cryogenic engine, was ground-tested for **GSLV Mk III**.
-- **Engine testing:** **IPRC Mahendragiri (Tamil Nadu)**; LPSC Valiamala does design.
-~~ Sources: PMF S&T Part 1 p.136-137; PMF S&T Part 2 p.1-2; app notes 5:35 sub 5
-
 === Private, Reusable and Future Vehicles
 | Vehicle | Company | Fact |
 |---|---|---|
@@ -128,3 +115,16 @@
 - **Foreign reusables:** **SpaceX Falcon 9** – first orbital-class booster landing **21 Dec 2015**; **Blue Origin New Shepard** – suborbital, landed Nov 2015.
 - **FDI:** **49% automatic** FDI in launch vehicles and spaceports.
 ~~ Sources: PMF S&T Part 2 p.6-9; NextGen S&T G2 Part 2 p.34; IANS report of Cabinet decision (18 Sep 2024); app notes 5:35 sub 9-10
+=== Cryogenic Stages of the Launch Vehicles
+- **Early GSLVs** flew **Russian KVD-1** cryogenic stages; technology transfer was refused in the 1990s, so India built its own. **First indigenous cryogenic success: GSLV-D5 (Jan 2014)** – not GSLV-D1 (2001).
+| Engine / type | Propellant | Used in |
+|---|---|---|
+| CE-7.5 (cryogenic) | LH2 + LOX | GSLV Mk II upper stage |
+| **CE-20** (cryogenic) | LH2 + LOX | **C25 stage of LVM3** |
+| SCE-200 / SE2000 (semi-cryogenic) | **Refined kerosene + LOX** | LVM3 upgrade, NGLV |
+| Vikas (earth-storable) | UH25 + N2O4 | PSLV 2nd, GSLV 2nd stage |
+| Solid | HTPB | GSLV 1st stage |
+- **"CE-25 / C25" news (2017):** the **C25** cryogenic upper stage with the CE-20, India's first high-thrust indigenous cryogenic engine, was ground-tested for **GSLV Mk III**.
+- **Engine testing:** **IPRC Mahendragiri (Tamil Nadu)**; LPSC Valiamala does design.
+~~ Sources: PMF S&T Part 1 p.136-137; PMF S&T Part 2 p.1-2; app notes 5:35 sub 5
+

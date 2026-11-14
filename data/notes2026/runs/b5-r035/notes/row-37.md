@@ -1,19 +1,3 @@
-=== Geostationary Orbit – Physics of a Communication Satellite
-| Orbit | Fact |
-|---|---|
-| Low Earth | 160–2,000 km; ISS ~400 km |
-| **Geostationary (GEO)** | About **36,000 km** (35,786 km) above the equator = orbit **radius ~42,000 km** (42,164 km from Earth's centre); period **24 hours (1 day)** |
-| Polar | Passes over the poles |
-| Elliptical | Apogee and perigee differ |
-| Circular | Centripetal force equals gravitational force |
-- **Geostationary:** revolves **in the same direction as the Earth rotates** (west to east) with the same period, so it appears fixed over one point; it stays at a **fixed height** that does **not depend on its mass**.
-- **What keeps it in orbit:** the **centripetal force**, supplied by the **Earth's gravitational pull on the satellite** – not a rocket engine, not the Sun.
-- **No energy needed** to keep orbiting: in near-vacuum there is no drag; solar panels only power the instruments.
-- **Global TV:** **geostationary satellites** relay TV across the world (three cover nearly the whole globe); ground and space waves are short-range.
-- **Uplink / downlink:** sending data **up to the satellite / network** = **uplink**; receiving from it = downlink.
-- Launcher → elliptical **GTO** → satellite's own motor raises it to GEO.
-~~ Sources: PMF S&T Part 1 p.64-66; app notes 5:37 sub 0
-
 === INSAT System
 # Firsts
 | Year | Milestone |
@@ -63,6 +47,22 @@
 - **China:** **Shijian-20**, its heaviest satellite, went up on **Long March 5** (Dec 2019).
 > GSAT-11 = heaviest ISRO-built; CMS-03 = heaviest comsat launched from Indian soil; GSAT-19 = heaviest launched by India in 2017.
 ~~ Sources: PMF S&T Part 1 p.103-106; ISRO GSAT-8 and GSAT-18 pages; app notes 5:37 sub 2-3; general knowledge (Hughes HTS, Shijian-20)
+
+=== Geostationary Orbit – Physics of a Communication Satellite
+| Orbit | Fact |
+|---|---|
+| Low Earth | 160–2,000 km; ISS ~400 km |
+| **Geostationary (GEO)** | About **36,000 km** (35,786 km) above the equator = orbit **radius ~42,000 km** (42,164 km from Earth's centre); period **24 hours (1 day)** |
+| Polar | Passes over the poles |
+| Elliptical | Apogee and perigee differ |
+| Circular | Centripetal force equals gravitational force |
+- **Geostationary:** revolves **in the same direction as the Earth rotates** (west to east) with the same period, so it appears fixed over one point; it stays at a **fixed height** that does **not depend on its mass**.
+- **What keeps it in orbit:** the **centripetal force**, supplied by the **Earth's gravitational pull on the satellite** – not a rocket engine, not the Sun.
+- **No energy needed** to keep orbiting: in near-vacuum there is no drag; solar panels only power the instruments.
+- **Global TV:** **geostationary satellites** relay TV across the world (three cover nearly the whole globe); ground and space waves are short-range.
+- **Uplink / downlink:** sending data **up to the satellite / network** = **uplink**; receiving from it = downlink.
+- Launcher → elliptical **GTO** → satellite's own motor raises it to GEO.
+~~ Sources: PMF S&T Part 1 p.64-66; app notes 5:37 sub 0
 
 === Strategic and Regional Satellites
 | Satellite | User |
