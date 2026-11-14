@@ -1383,3 +1383,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b5-w090 (rows 90–94)
 - own 368 → 36 kept + 95 new (131, 36%); new 64 statements / 19 match / 12 A–R; 4 of 243 lines lost.
 - Wrong own keys merged with fix: f6499610a62cd (Godavarman judgment 1995; writ 1995, order 1996), n3c478 (Okjökull dead 2019; declared dead 2014, plaque 2019).
+
+## rewrite b6-w084 (rows 84–85)
+- own 417 → 54 kept + 114 new (168, 40%); new 84 statements / 21 match / 9 A–R; 1 of 334 lines lost.
+- Notes conflicts: doping India 162 / Kenya 148 (84:8:0.4) vs 148 / 146 (85:5:18); TFR 2.0 (85:2:8) vs SRS 1.9 in source line — reconcile. 84:7:2.3 SDR "112th in 2015" only in sources line.
