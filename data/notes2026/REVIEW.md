@@ -1264,3 +1264,7 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - PYQ y388e5f3d4c9 keys K.K. Venugopal as AG "as of July 2023"; he served till 30 Sep 2022, R. Venkataramani from 1 Oct 2022 — flat factual error: key to fact with "(official key: …)" in the doubtful check.
 - Removed own gd241e01c0139 (DMK as UPA's 2nd-largest party; notes RJD) and n28febb0e3a2 (TDP "Telugu atma gauravam", not on linked line).
 - Job topic list (9 topics for 7 rows) mismatched; notes rule: row 71 CAG, row 72 AG/Advocate/Solicitor General.
+
+## rewrite b4-w061 (rows 61–66)
+- own 410 → 75 kept + 93 new (168, 41%); new 57 statements / 22 match / 14 A–R; no lines lost.
+- Doubtful notes lines (not used): 61:0:8 vague Jharkhand remark; 61:2:3 "Velland" → Vellanad; 63:0:8 Ranga Reddy unverified; 64:0:1.22 Tamaria as Bhumij sub-caste vs Munda synonym; 66:0:2 largest race Caucasoid vs Mongoloid conflict.
