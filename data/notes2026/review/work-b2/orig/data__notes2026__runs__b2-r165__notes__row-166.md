@@ -1,0 +1,146 @@
+=== Saansad Adarsh Gram Yojana, MPLADS and DISHA
+# SAGY (Saansad Adarsh Gram Yojana)
+| Feature | Fact |
+|---|---|
+| Launch | **11 October 2014** – birth anniversary of **Lok Nayak Jayaprakash Narayan** (not Gandhi Jayanti) |
+| Ministry | **Rural Development** (not Panchayati Raj) |
+| Other name | **SAANJHI** |
+| Idea | **MPs select Gram Panchayats** and develop them into **model villages (Adarsh Grams)** using existing schemes – no separate fund |
+| GP size | **3,000-5,000** population in plains; **1,000-3,000** in hilly, tribal, difficult areas |
+| Target | One Adarsh Gram by 2016, two more by 2019, then five more by 2024 |
+- **Villages adopted (AP links):** **Sachin Tendulkar** (Rajya Sabha) – **Puttamraju Kandriga (P.R. Kandriga)**, Nellore district (2014); later **Donja**, Osmanabad (Maharashtra) (2016). **Suresh Prabhu** (Railways Minister, RS from AP) – **Pandrangi**, Visakhapatnam district (birthplace of Alluri Sitarama Raju).
+| Scheme | Ministry | Key facts |
+|---|---|---|
+| **MPLADS** | **MoSPI** | Launched **December 1993**; funds **non-lapsable** (unspent funds carry forward); only **durable assets**; earmark **15% SC and 7.5% ST** areas; district authority inspects **at least 10%** of works a year |
+| **DISHA** (District Development Coordination and Monitoring Committee, 2016) | Rural Development | Chaired by the **senior-most Lok Sabha MP** of the district; Collector is member-secretary |
+> UPSC 2020: the only wrong MPLADS statement is "sanctioned yearly, unused funds lapse".
+~~ Sources: app notes 2:166 sub 3; OnlyIAS NCERT Economy (src/economy/onlyias-ncert-economy-05.txt) p.24 (SAGY, October 2014, MPs develop villages); Laxmikanth (src/polity/laxmikanth-indian-polity-03.txt) p.246 (UPSC 2020 MPLADS question)
+=== DAY-NRLM, Rural Livelihoods and Rural Skilling
+# DAY-NRLM (MoRD; Centrally Sponsored)
+- **NRLM 2011** (restructured from **SGSY**), renamed **DAY-NRLM in 2016**; implemented via State Rural Livelihood Missions; Delhi and Chandigarh excluded.
+- Funding **60:40**; **90:10 NE incl. Sikkim**; **UTs 100% Centre** (original NRLM ratio 75:25).
+- **Women SHGs: 10 to 20 members** (5-10 in difficult/hilly areas and for disabled persons).
+- **Mandatory (automatic) inclusion** from SECC: **households without shelter, destitutes living on alms, manual scavengers, PTGs, legally released bonded labourers** – single-parent households are NOT on this list.
+| Sub-scheme | Objective |
+|---|---|
+| **DDU-GKY** (25 Sep 2014) | **Placement-linked skilling for poor rural youth** (15-35) |
+| **RSETIs** | Bank-led **self-employment** training |
+| **MKSP** (Mahila Kisan Sashaktikaran Pariyojana, 2011) | Empower **women farmers**; about **35.9 lakh** women covered (35.92 lakh by Nov 2018; 35.98 lakh by 31 Mar 2019) |
+| **AGEY** (Aajeevika Grameen Express Yojana, 2017) | **Rural transport** run by SHGs to connect remote villages with markets, schools, health centres |
+| SVEP | Start-up village entrepreneurship |
+- **DDU-GKY funding:** **75:25** at launch (2014; NE/Himalayan 90:10) → **60:40** after the 2015-16 CSS rationalisation (NE/Himalayan 90:10; J&K 100% under Himayat).
+- **Lakhpati Didi**: **3 crore women** earning over **₹1 lakh a year**.
+~~ Sources: app notes 2:166 subs 3, 6; AP Socio-Economic Survey 2024-25 (src/economy/ap-socio-economic-survey-2024-25.txt) p.283 (AGEY under NRLM); svnit.ac.in DDU-GKY orientation deck and manoramayearbook.in (DDU-GKY 60:40, 90:10); etvbharat.com (MKSP 35.97 lakh, Lok Sabha July 2019)
+=== Agriculture Schemes
+| Scheme | Objective / key feature | Launch / funding |
+|---|---|---|
+| **Kisan Credit Card** | Short-term crop credit | **1998** |
+| Interest Subvention Scheme | Cheap short-term crop loans | **2006** |
+| NAIS | National Agricultural Insurance Scheme | 1999-2000 |
+| PMKSY | **'Har Khet Ko Pani'** and **'Per Drop More Crop'** | 2015 |
+| Soil Health Card | Nutrient status per holding | 2015, **Suratgarh (Rajasthan)** |
+| **PMFBY** | Crop insurance; replaced NAIS/MNAIS; **'One Nation-One Scheme'** | **2016** |
+| e-NAM | Online national agri-market; lead agency **SFAC** | April 2016 |
+| PM-KISAN | **₹6,000 a year** in 3 instalments | Feb 2019; 100% Central Sector |
+| PM Kisan Maandhan | **₹3,000 a month** pension at 60; entry 18-40 | 2019 |
+| **Atal Bhujal Yojana** | Community groundwater management in **7** water-stressed States | Dec 2019; **World Bank**-assisted |
+| **Agriculture Infrastructure Fund** | Post-harvest infrastructure financing | **2020** |
+| **PM-PRANAM** | Cut chemical fertiliser use to **restore the fertility of Mother Earth**; States share the subsidy saved | **2023** |
+- **PMFBY farmer premium:** **2% kharif, 1.5% rabi, 5% annual commercial and horticultural crops**; balance paid by Government with **no upper limit** on subsidy.
+> Match drill: KCC 1998 – PMFBY 2016 – AIF 2020 – ISS 2006.
+~~ Sources: app notes 2:166 sub 0; Ramesh Singh (src/economy/ramesh-singh-indian-economy-04.txt) p.180-181 (PMFBY: January 2016, 2% / 1.5% / 5%, no cap on subsidy); PMF LENS May 2026 (src/current-affairs/pmf-lens-2026-05-17.txt) p.2 (PM-PRANAM)
+=== Rural Employment – Lineage, MGNREGA and VB-G RAM G
+| Scheme | Year | Note |
+|---|---|---|
+| IRDP | 1978-79; nationwide 1980 | Self-employment; **TRYSEM** (15 Aug 1979) and **DWCRA** (1982-83) were its sub-programmes |
+| NREP | **1980** (not 1983) | Wage employment |
+| RLEGP | **1983** | Landless households |
+| **JRY** | **1989** | **NREP + RLEGP** merged |
+| EAS | 1993 | Employment Assurance Scheme |
+| SGSY | 1 April 1999 | Merged IRDP, TRYSEM, DWCRA |
+| SGRY | 2001 | EAS + JGSY |
+| Bharat Nirman | 2005 | Six rural infrastructure components |
+| MGNREGA | 2005 | 100 days per household |
+| VB-G RAM G | Introduced 16 Dec 2025 | Replaces MGNREGA; 125 days |
+- **TRYSEM** = Training of Rural Youth for Self-Employment → **employment (self-employment) to rural youths**.
+# MGNREGA
+- **100 days** of **unskilled manual work** per household per year; **one-third** women; unemployment allowance after **15 days**.
+- **Gram Panchayat** plans, executes and implements works on the **Gram Sabha's** recommendation; **Gram Sabha** conducts the **social audit**; AP's **SSAAT** pioneered social audits.
+- **Barefoot technicians**: local youth trained (by NIRDPR) to measure and supervise MGNREGA works.
+- **Geo-MGNREGA (2016):** assets geotagged with ISRO's **Bhuvan**; linked to **SDG 1 and SDG 8**.
+| Feature | MGNREGA 2005 | VB-G RAM G |
+|---|---|---|
+| Full name | Mahatma Gandhi NREGA | Viksit Bharat–Guarantee for Rozgar and Ajeevika Mission (Gramin) |
+| Guarantee | 100 days | **125 days** |
+| Funding | Centre paid wages | CSS **60:40**; NE/Himalayan 90:10 |
+| Allowance | States | Allowance and delay compensation **fully by States** |
+| Status | Repealed | Assent 20 Dec 2025; **in force 1 July 2026** |
+- Tagline of VB-G RAM G: **"Rozgar Bhi, Samman Bhi"**.
+~~ Sources: app notes 2:166 subs 1-2; Laxmikanth (src/polity/laxmikanth-indian-polity-01.txt) p.182 (IRDP 1978, JRY 1989, SGSY 1999, SGRY 2001); NextGen Indian Economy (src/economy/nextgen-indian-economy-appsc-01.txt) p.17 and Rocket Indian Economy (src/economy/rocket-indian-economy.txt) p.51 (TRYSEM rural youth self-employment, NREP, RLEGP)
+=== Rural Infrastructure, Land and Digital Villages
+| Scheme / body | Year | Fact |
+|---|---|---|
+| **PMGSY** | 2000 | All-weather roads to unconnected habitations; nodal **Ministry of Rural Development** |
+| Hariyali | 2003 | Watershed development through PRIs |
+| **SPMRM** (Shyama Prasad Mukherji Rurban Mission) | **21 Feb 2016**, Kurubhat (Chhattisgarh) | 300 Rurban clusters; Centre-State **60:40** (NE/hilly 90:10); revives Kalam's **PURA** |
+| National Council for Land Reforms | 2008 | Chaired by the **Prime Minister** |
+| DILRMP | Began as **NLRMP** (2008) | Land-record modernisation |
+| SVAMITVA | **24 April 2020** (National Panchayati Raj Day) | **Ministry of Panchayati Raj**; drone survey; property cards |
+- **Institutions:** **CAPART** (1986) funds voluntary bodies; **IRMA**, Anand (1979) founded by **Verghese Kurien**.
+- **First digital village:** **Akodara** (Sabarkantha, **Gujarat**), developed by **ICICI Bank**, January 2015.
+~~ Sources: app notes 2:166 sub 3; OnlyIAS NCERT Economy (src/economy/onlyias-ncert-economy-05.txt) p.13 (Rurban Mission); Spectrum (src/indian-history/spectrum-modern-india.txt) p.788 (PMGSY under Vajpayee)
+=== Urban Programmes
+- **MoHUA** formed **2017** by merging **Housing and Urban Poverty Alleviation** + **Urban Development**.
+| Programme | Objective |
+|---|---|
+| **DAY-NULM** (2013) | Urban poor: SHGs, skilling, shelters, street vendors; launched by **Ministry of Housing and Urban Poverty Alleviation** (now MoHUA); UNDP partnership (June 2023) |
+| **PM SVANidhi** (**1 June 2020**) | **Working-capital loans for street vendors** after COVID-19; **MoHUA**; first loan ₹10,000 |
+| Smart Cities Mission (2015) | **100** cities |
+| HRIDAY (21 Jan 2015) | Heritage city development; **12** cities incl. **Amaravati** and **Warangal** |
+| AMRUT 2.0 (2021) | Tap water to all households in statutory towns |
+| SBM-Urban 2.0 (2021) | **Garbage-free cities** |
+| PM e-Bus Sewa (2023) | **10,000** e-buses |
+| Urban Challenge Fund | **₹1 lakh crore**, FY 2025-26 to 2030-31 |
+- **2 October 2016:** **Gujarat and Andhra Pradesh** became the first States to declare **all cities and towns open defecation free** (SBM-Urban).
+- **Feb 2022:** MoHUA approved **₹235 crore** for **Andhra Pradesh** under **'Garbage free cities'**.
+~~ Sources: app notes 2:166 sub 5; OctLatest daily CA 20 Oct 2026 (src/current-affairs/octlatest-daily-em-ca-2026-10-20.txt) p.2 (PM SVANidhi 1 June 2020, MoHUA); business-standard.com (urban Gujarat and AP ODF, 2 Oct 2016)
+=== Skilling and Youth Programmes
+- **Skill India Mission (2015)**; flagship **PMKVY** (launched **2015**) – nodal **MSDE**.
+- **Recognition of Prior Learning (RPL):** PMKVY component that assesses and **certifies skills already acquired informally**, e.g. **construction workers** (UPSC 2017).
+- **National Skill Development Policy (2009):** target of **500 million skilled workers by 2022**.
+| Programme | Ministry / feature |
+|---|---|
+| **Udaan** | Special Industry Initiative for **Jammu & Kashmir** – skilling and placement of J&K graduates (MHA/NSDC) |
+| **SAMARTH** | Skilling in the textile sector – **Ministry of Textiles** |
+| **Khelo India** (2016) | Ministry of **Youth Affairs and Sports** – inclusive sports ecosystem (Fit India = 2019) |
+| Skill India Digital Hub (2023) | **MSDE** (not Education) |
+| SANKALP | World Bank-supported MSDE district skilling |
+| NAPS | Apprenticeship stipend support |
+| MY Bharat | Youth Affairs and Sports |
+| PM-Vidyalaxmi | Higher Education – collateral-free education loans |
+| PM-DevINE | DoNER – NE infrastructure and social projects |
+- June 2023: **Microsoft–DGT (MSDE)** MoU to train about **6,000 students in cybersecurity**.
+- AP: **APSSDC** setting up **50 skill hubs** in rural colleges (Jan 2026).
+~~ Sources: app notes 2:166 sub 6; PMF Internal Security (src/disaster-mgmt/pmf-internal-security-dm-01.txt) p.44 (UDAAN for J&K youth); Economic Survey 2025-26 summary (src/economy/economic-survey-2025-26-summary-02.txt) p.36 (RPL under PMKVY)
+=== Livelihood and Enterprise Schemes
+| Scheme | Ministry | Objective / key facts |
+|---|---|---|
+| PM Vishwakarma (17 Sep 2023) | MSME | Artisans in **18** trades: training (₹500/day), toolkit up to **₹15,000**, collateral-free credit up to ₹3 lakh at 5% |
+| **PM-AJAY** (2021-22) | **Social Justice** | Poverty reduction of **SC** (not ST) communities; Adarsh Gram component (earlier **PMAGY**) |
+| PMEGP (Aug 2008) | MSME; nodal **KVIC** | Merged **REGP + PMRY** |
+| Stand-Up India (5 April 2016) | Finance | Loans **₹10 lakh – ₹1 crore**; at least **one SC/ST and one woman** borrower per branch |
+- PM Vishwakarma is NOT for "fishermen with non-mechanised boats".
+- **PM-SYM** contribution: **beneficiary + Centre** (no State share).
+~~ Sources: app notes 2:166 sub 4; Praveen CA360 Sep 2026 (src/current-affairs/praveen-ca360-2026-09-magazine.txt) p.22 (PM Vishwakarma, 18 trades); Economic Survey 2025-26 summary (src/economy/economic-survey-2025-26-summary-01.txt) p.28 (Stand-Up India ₹10 lakh–₹1 crore)
+=== Capacity Building and Funding Pattern
+| Mission | Structure / agency |
+|---|---|
+| **Mission Karmayogi** (NPCSCB; Cabinet 2 Sep 2020) | **Six pillars** (policy, institutional, competency, digital learning – iGOT, e-HRMS, monitoring and evaluation frameworks); **PM's Public HR Council** apex; Capacity Building Commission; **Karmayogi Bharat** SPV runs iGOT; "**rule-based to role-based**" |
+| **FutureSkills Prime** | **MeitY + NASSCOM** (NASSCOM the implementing partner); **C-DAC and NIELIT** are resource centres for government-certified training |
+# Funding pattern
+| Type | Meaning | Examples |
+|---|---|---|
+| Central Sector | 100% Centre | PM-KISAN, PM Vishwakarma, DILRMP, SEED |
+| Centrally Sponsored | Shared; norm **60:40**, 90:10 NE/Himalayan, 100% UTs without legislature | DAY-NRLM, VB-G RAM G, PMAY-G, PM-AJAY, SPMRM |
+> APPSC G1: all four statements (PM-AJAY for ST, PM-SYM State share, C-DAC as key agency, eight Karmayogi pillars) are incorrect.
+~~ Sources: app notes 2:166 subs 7-8; PMF LENS Apr 2026 (src/current-affairs/pmf-lens-2026-04-02.txt) p.5 (CBC reports to PM's Public HR Council); six pillars from general knowledge, not checked

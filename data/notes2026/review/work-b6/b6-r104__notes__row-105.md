@@ -1,0 +1,391 @@
+=== June 2026 – Important Days and Themes
+# June days in calendar order
+| Date | Day | 2026 theme / note | Since / body |
+|---|---|---|---|
+| 1 June | World Milk Day | "Milk Has Many Faces: Most of Them Are Women" – women in the dairy value chain | 2001; FAO / Global Dairy Platform / IDF |
+| 1 June | Global Day of Parents | Role of parents in child development | Declared 2012, first observed 2013; UN / UNICEF |
+| 2 June | Telangana Formation Day | Formed 2014 as India's 29th State | Govt of Telangana |
+| 3 June | World Bicycle Day | Cycling as clean, affordable transport | 2018; UN |
+| 4 June | Intl Day of Innocent Children Victims of Aggression | Children victims of physical, mental, emotional abuse | 1982; UN |
+| 5 June | World Environment Day | "Inspired by Nature. For Climate. For Our Future."; host Azerbaijan, main event Baku; India's 100th Ramsar site announced | Est. 1972, first held 1973; UNEP |
+| 5 June | Intl Day against IUU Fishing | No official theme; date of entry into force of FAO Port State Measures Agreement | First 2018; FAO |
+| 6 June | UN Russian Language Day | Birthday of poet Alexander Pushkin | 2010; UN / UNESCO |
+| 7 June | World Food Safety Day | "From burden to solutions – safe food everywhere" | 2019; WHO / FAO |
+| 8 June | World Oceans Day | "Reimagine" (full: "Reimagine: Beyond the world we know, a new relationship with our ocean") | 2009; UN |
+| 8 June | World Brain Tumour Day | "A Closer Look" (reported) | 2000; Deutsche Hirntumorhilfe (German Brain Tumor Association) – non-UN |
+| 10 June | Intl Day for Dialogue among Civilizations | "Exploring New Pathways for Dialogue Among Civilizations and Jointly Writing New Chapters for Global Governance" | Declared 2024, first observed 2025; UN |
+| 11 June | International Day of Play | "Protect Play, Protect Childhood" | 2024; UN / UNICEF / UNESCO |
+| 12 June | World Day Against Child Labour | "Red card to child labour: Fair play for children, decent work for adults" | 2002; ILO |
+| 13 June | International Albinism Awareness Day | "Proudly In My Skin: Celebrating All Skin Tones" | 2015; UN |
+| 14 June | World Blood Donor Day | "One Drop of Humanity. Give Blood. Save Lives." | 2004; WHO |
+| 15 June | World Elder Abuse Awareness Day | "Beyond Awareness: Making Elder Abuse Prevention Work" | 2006 (UN recognition 2011); UN / WHO / INPEA |
+| 15 June | Global Wind Day | WT-MARUT portal launched | – |
+| 16 June | Intl Day of Family Remittances | "Beyond Transfers: Turning Remittances into Rural Resilience, Entrepreneurship and Employment" | 2015 (UN-recognised 2018); IFAD |
+| 17 June | World Day to Combat Desertification and Drought | "Rangelands: Recognize. Respect. Restore." | 1995; UNCCD |
+| 18 June | Sustainable Gastronomy Day | "Where Food Connects Culture, Health and Planet" | 2017; UN / FAO / UNESCO |
+| 18 June | Intl Day for Countering Hate Speech | "The Power of Partnerships in Countering Hate Speech" | 2022; UN / UNESCO |
+| 19 June | World Sickle Cell Day | "Closing the Survival Gap: Equity in Sickle Cell Care" | 2009; UN / WHO |
+| 19 June | Intl Day for Elimination of Sexual Violence in Conflict | "Conflict-Related Sexual Violence Against Children: Safeguarding Futures and Empowering Caregivers" | 2015; UN / SRSG-SVC / UNFPA |
+| 20 June | World Refugee Day | "Until Everyone Is Safe" | 2001; UNHCR |
+| 21 June | International Day of Yoga (12th) | "Yoga for Healthy Ageing"; India's main event in Kolkata | 2015; UN / Ministry of Ayush |
+| 21 June | World Hydrography Day | "Transforming How Ocean Data Is Shared" | 2006; IHO |
+| 22 June | World Rainforest Day | "The Forest Within You" | 2017; Rainforest Partnership |
+| 22 June | World Camel Day | No official theme | 2009; founded by Dr Abdul Raziq Kakar |
+| 23 June | Olympic Day | "You Can Do This! Let's Move" | 1948; IOC |
+| 23 June | UN Public Service Day | "Transforming Public Institutions: Advancing Innovation, Participation and Inclusion" | 2003; UN DESA |
+| 23 June | Intl Widows' Day | Rights and welfare of widows | 2011; UN |
+| 25 June | Day of the Seafarer | "Carrying world trade. Carrying the risks." | 2011; IMO |
+| 26 June | Intl Day against Drug Abuse and Illicit Trafficking | "World drug problem: persisting issues, new challenges, innovative responses" | 1989; UNODC |
+| 26 June | Intl Day in Support of Victims of Torture | Human rights protection | Proclaimed 1997, observed from 1998; UN / OHCHR |
+| 27 June | MSME Day | "Empowering MSMEs through Innovation and Sustainable Industrial Development" | 2017; UN / UNIDO / ITC |
+| 29 June | National Statistics Day (India) | "Unlocking the Potential of Administrative Data"; birth anniversary of P.C. Mahalanobis | 2007; MoSPI |
+| 30 June | International Asteroid Day | Planetary defence, asteroid impact hazards | UN recognition 2016 (first UN observance 2017); UNOOSA / Asteroid Day Foundation |
+| 30 June | Intl Day of Parliamentarism | "Bring Human Rights into Focus" | 2018; UN / IPU |
+| 30 June | Hul Diwas | Santal rebellion began 30 June 1855 | – |
+# World Environment Day (PYQ)
+- **5 June**; run by **UNEP**; created at the **1972 Stockholm Conference** (established by the **UNGA in 1972**); **first held 1973**.
+- 2026: host **Azerbaijan** (Baku); theme "Inspired by Nature. For Climate. For Our Future."
+# International Day of Yoga (PYQ)
+- **21 June** = **summer solstice**; proposed by India; adopted by **UNGA in 2014 (Resolution 69/131)**; first observed 2015.
+- **12th IDY (2026)**: "**Yoga for Healthy Ageing**"; national main event **Kolkata**; nodal ministry **Ministry of Ayush**.
+- Yoga on **UNESCO's Intangible Cultural Heritage** list since **2016**.
+- **AP angle – Yogandhra-2026**: AP Ayush campaign from **7 June 2026**; reached **1.07 crore** people by Yoga Day; entered the **World Book of Records**; a session held at **Srisailam** on **11 June 2026**.
+# UNCCD and COP-17
+- **UNCCD** adopted **17 June 1994, Paris**; in force **26 December 1996**; **197 parties**; secretariat **Bonn**.
+- **COP-17**: host **Ulaanbaatar, Mongolia**; theme "**Restoring Land, Restoring Hope**".
+- Bhupender Yadav: India restored **21.76 million ha in 2011–2020**; **LDN target 26 million ha by 2030**.
+> 17 June = World Day to Combat Desertification and Drought = also the date UNCCD was adopted (1994).
+~~ Sources: app notes 6:105 (sub 0); Rocket CA 2026 Part 01 p.52-53, p.189 (12th IDY, 'Yoga for Healthy Ageing', Kolkata; UN declaration 11 Dec 2014; UN Public Service Day, MSME Day)
+
+=== July 2026 – Important Days and Themes
+# July days in calendar order
+| Date | Day | 2026 theme | Since / body / note |
+|---|---|---|---|
+| 1 July | National Doctors' Day | "Behind the Mask: Who Heals the Healers?" | Since 1991; IMA + Health Ministry; birth and death anniversary of Dr. Bidhan Chandra Roy – 2nd CM of West Bengal |
+| 1 July | GST Day | "GST – Simplified Tax System: Empowered India" | Since 2017; CBIC, Dept of Revenue; GST in force 1 July 2017 |
+| 1–7 July | Van Mahotsav (week) | 77th edition | – |
+| 4 July | International Day of Cooperatives | "Cooperatives for a Peaceful World" | First Saturday of July; ICA date 1923, UN observance since 1995; UN DESA + International Cooperative Alliance |
+| 6 July | World Zoonoses Day | "One World, One Health: Prevent Zoonoses" | Louis Pasteur's first successful rabies vaccine on a human, 6 July 1885; WHO, FAO, WOAH |
+| 7 July | World Kiswahili Language Day | "Kiswahili for Peace, Solidarity and Global Economic Diplomacy" | Proclaimed by UNESCO 2021, observed since 2022; first UN day for an African language |
+| 10 July | National Fish Farmers Day | No official theme | Since 2001; Dept of Fisheries; induced breeding of major carps by Dr. Hiralal Chaudhuri and Dr. K. H. Alikunhi, 10 July 1957 |
+| 11 July | World Population Day | "Realizing the Hopes and Aspirations of Young People – Today and for the Future" | Since 1989; UNFPA; from "Day of Five Billion" (11 July 1987) |
+| 12 July | Malala Day | "Safe, Quality Education for Girls" | Since 2013; UN + Malala Fund; Malala's birthday and 2013 UN address |
+| 15 July | World Youth Skills Day | "Skills for a Shared Future" | Since 2015; UN, UNESCO, UNESCO–UNEVOC; resolution A/RES/69/145 |
+| 17 July | World Day for International Justice | No official theme | Since 1998; Rome Statute of ICC adopted 17 July 1998 |
+| 18 July | Nelson Mandela International Day | "It's Still in Our Hands to Combat Poverty and Inequity" | Since 2010; 67 minutes of service (Mandela's 67 years); A/RES/64/13 |
+| 20 July | International Chess Day | "Chess for Peace" | FIDE founded in Paris, 20 July 1924; observed since 1966; UN recognition 2019 (A/RES/74/22) |
+| 22 July | National Flag Adoption Day | Har Ghar Tiranga campaign | Tricolour adopted by Constituent Assembly, 22 July 1947; Ministry of Culture |
+| 24 July | Income Tax Day | "Viksit Bharat through Transparent Taxation" | Since 2010; CBDT; income tax introduced by Sir James Wilson, 24 July 1860 |
+| 26 July | Kargil Vijay Diwas | "Tribute to the Bravehearts" | 1999 – Operation Vijay; Ministry of Defence |
+| 28 July | World Hepatitis Day | "Hepatitis: Let's Break It Down" | Since 2010; WHO; birthday of Dr. Baruch Blumberg (discovered hepatitis B virus, Nobel) |
+| 29 July | International Tiger Day | "Securing the Future of Tigers with Indigenous Peoples and Local Communities" | Since 2010 – St Petersburg Tiger Summit (TX2 goal); Global Tiger Forum |
+| 30 July | World Day Against Trafficking in Persons | "Trapped Behind the Scam" | Since 2014; UNODC; focus on fraudulent recruitment and online scam operations |
+> International Day of Cooperatives has no fixed date – it is the first Saturday of July (4 July in 2026).
+- **Van Mahotsav** – **first week of July (1–7 July)**; started **1950** by **K.M. Munshi**; 2026 = **77th**.
+~~ Sources: app notes 6:105 (sub 1); Praveen CA-360 Jul 2026 magazine p.18 (77th Van Mahotsav 1-7 July; started 1950 by K.M. Munshi)
+
+=== August 2026 – Important Days and Themes
+# August days in calendar order
+| Date | Day | Theme / note |
+|---|---|---|
+| 1–7 August | World Breastfeeding Week (since 1992; WHO, UNICEF) | "Breastfeeding for a Sustainable Start in Life: Strengthen What Works" |
+| 6 August | Hiroshima Day | Atomic bombing, 6 August 1945 |
+| 7 August | National Handloom Day (12th, first 2015; Ministry of Textiles) | "Celebrating Weavers, Renewing Traditions, Expanding Horizons"; marks Swadeshi Movement 1905; Sant Kabir Awards |
+| 8 August | Quit India Day / August Kranti | Quit India resolution at Bombay AICC session, 8 August 1942 |
+| 9 August | Nagasaki Day | Atomic bombing, 9 August 1945 |
+| 9 August | Intl Day of the World's Indigenous Peoples (UN, 1995) | "Honouring Indigenous Midwives: Safeguarding Life and Well-being" |
+| 10 August | World Biofuel Day | In India since 2015, MoPNG |
+| 12 August | International Youth Day (UN, 2000) | "Different Contexts, Common Aspirations" |
+| 12 August | World Elephant Day (since 2012) | National event at Visakhapatnam |
+| 13 August | World Organ Donation Day | No official 2026 theme ("Gift of Life…" is not an official theme); 16th Indian Organ Donation Day – e-Pratyaropan launched |
+| 15 August | Parsi New Year / Navroz (India) | Shahenshahi calendar; President's greetings on 14 August |
+| 19 August | World Photography Day (since 1991) | "HOME" |
+| 19 August | World Humanitarian Day (UN/OCHA, 2009) | "#ActForHumanity"; marks Baghdad UN HQ bombing, 2003 |
+| 21 August | Victims of Terrorism Remembrance Day (UN, 2018) | "Healing through Memory" |
+| 23 August | Remembrance of the Slave Trade and its Abolition (UNESCO, 1998) | Saint-Domingue uprising, 22–23 August 1791 |
+| 28 August | World Sanskrit Day / Sanskrit Diwas (since 1969) | On Shravana Purnima – coincided with Raksha Bandhan in 2026 |
+| 29 August | Telugu Language Day | Birth anniversary of Gidugu Venkata Ramamoorthy (1863–1940) – Vyavaharika Bhasha movement |
+| 29 August | National Sports Day (since 2012; MoYAS) | "Tribute, Play, and Move"; birth anniversary of Major Dhyan Chand; 3-day campaign 28–30 August |
+| 29 August | International Day against Nuclear Tests (UN res 64/35, 2009) | Closure of Semipalatinsk test site, 1991 |
+| 30 August | Victims of Enforced Disappearances (UN, 2011) | "Victims first. Actions now"; 20 years of the Convention |
+# Extra facts on August days
+- **National Sports Day**: first observed **29 August 2012**; 2025 theme "**Ek Ghanta, Khel ke Maidan Main**"; **Fit India Movement** was launched on this day in **2019**.
+- **Telugu Language Day** (AP angle): Gidugu Venkata Ramamoorthy (1863–1940) led the **Vyavaharika Bhasha** (spoken-language) movement.
+> 29 August holds three days: Telugu Language Day, National Sports Day and International Day against Nuclear Tests.
+> National Sports Day began in 2012, not 1995.
+- **World Humanitarian Day (19 Aug)** – 2025 theme in Indian CA books: **"Strengthening Global Solidarity and Empowering Local Communities"** (PYQ); the UN/OCHA campaign itself ran as **#ActForHumanity**.
+~~ Sources: app notes 6:105 (sub 2); Praveen CA-360 Aug 2026 one-liners p.24 (World Humanitarian Day, #ActForHumanity); bizzbuzz.news (fetched: 2025 theme as given by CA books); ungeneva.org WHD 2025 page (fetched: #ActForHumanity)
+
+=== Newly Declared Days, International Years, Weeks and Anniversaries
+# Days declared by States and other bodies
+- **Telangana – Panduga Sayanna**: historical figure revered by the **Mudiraj** community; State will officially observe his **birth anniversary (22 October)** and **death anniversary (10 December)**.
+- Days founded by bodies other than the UN: World Camel Day (Dr Abdul Raziq Kakar), World Brain Tumour Day (Deutsche Hirntumorhilfe), Olympic Day (IOC, 1948), World Rainforest Day (Rainforest Partnership), International Asteroid Day (Asteroid Day Foundation, with UNOOSA).
+- **Public Service Broadcasting Day (Jan Prasaran Diwas)** – **12 November** (declared 2000); marks **Gandhi's only visit to AIR, Broadcasting House, Delhi, 12 Nov 1947** – he addressed Partition refugees at the **Kurukshetra** camp (not Bombay).
+# UN International Years 2026
+| International Year 2026 | Lead / resolution |
+|---|---|
+| International Year of Rangelands and Pastoralists | FAO; A/RES/76/253 (links to the 17 June "Rangelands" theme) |
+| International Year of the Woman Farmer | FAO; A/RES/78/279 |
+| International Year of Volunteers for Sustainable Development | A/RES/78/127 |
+# Weeks and campaigns
+| Week / campaign | Dates | Body |
+|---|---|---|
+| Van Mahotsav (77th) | 1–7 July | – |
+| World Breastfeeding Week | 1–7 August | WHO, UNICEF (since 1992) |
+| Har Ghar Tiranga | Linked to National Flag Adoption Day (22 July) | Ministry of Culture |
+| National Sports Day campaign | 28–30 August | MoYAS |
+| Yogandhra-2026 (AP) | From 7 June to Yoga Day | AP Ayush |
+# Anniversaries and centenaries
+- **Tagore's 1927 Indonesia visit – centenary**: **15-month celebrations (2026–27)**; "**Tagore Dewantara Educational and Cultural Exchange Program**" (with **Ki Hajar Dewantara** – Taman Siswa schools); Tagore brought **Javanese Batik** to Bengal.
+- **Tagore**: born **1861**; **Nobel 1913** (*Gitanjali*) – **first Asian Nobel laureate**.
+- **12th National Handloom Day** (first 2015); **12th International Day of Yoga** (first 2015); **77th Van Mahotsav**.
+# Hul Diwas – Santal Hul of 1855
+- Leaders **Sido and Kanhu Murmu**; proclaimed at **Bhognadih** (not Ranchi).
+- Region: **Damin-i-Koh** – tract along the **Rajmahal Hills** (eastern Jharkhand), demarcated by the British in **1832** for Santal settlement.
+- **Hul** = rebellion / movement in Santali.
+- Lasted **June 1855 – January 1856**; seen as a **precursor of 1857**.
+- Directed against **moneylenders, zamindars and revenue officials** too – not only the British.
+- **Ol Chiki** script: **Pandit Raghunath Murmu, 1925**; **Santali** in Eighth Schedule in **2003**; origin narratives **Hihiri-Pipiri, Sasan Beda**.
+~~ Sources: app notes 6:105 (sub 3); mkgandhi.org/newannou/gandhi_AIR.html (fetched: 12 Nov 1947, Broadcasting House Delhi, Kurukshetra refugees; day declared 2000)
+
+=== Books, Authors and Literary Festivals
+# Books in news (June–August 2026)
+| Book | Author | Launch / note |
+|---|---|---|
+| *When Audit Matters: CAG Interventions That Made a Difference* | Edited by former CAG Vinod Rai | Released by Vice-President C.P. Radhakrishnan at Uprashtrapati Bhavan, 3 June 2026 |
+| *Five Prescriptions from the Ashtavakra Mahagita* | Daaji (global guide of Heartfulness) | Unveiled by Union Minister Mansukh Mandaviya, 10 June 2026 |
+| *Communion: Finding My Way Back to Faith* | JD Vance (US Vice-President) | Published 16 June 2026 by HarperCollins; his second book, a spiritual memoir (first: *Hillbilly Elegy*) |
+| *Triumph of the Indian Republic: My Life, My Struggles* | Ram Nath Kovind (14th President of India) – autobiography | Released by PM Narendra Modi, Vigyan Bhawan, New Delhi, 12 August 2026 |
+| *Kashyap's Life and Philosophy* | Prof. Rajendra Prasad Sharma | Released by the Governor of Bihar, 12 July 2026 |
+# Literary festivals and book fairs
+| Event | Venue / date |
+|---|---|
+| Chinar Book Festival | Srinagar, 18–26 July 2026 |
+| Book Brahma Literature Festival (3rd edition) | St John's Auditorium, Koramangala, Bengaluru, August 2026 (main programme 21–23 August) |
+# Language and literature heritage
+- **Museum of Word (Shabdaloke)** – India's first immersive language museum at **National Library, Kolkata** (est. 1948, Ministry of Culture): nine galleries, holograms; evolution of **22 official languages**.
+- **Gyan Bharatam Mission** (2025): manuscripts; **₹482.85 crore (2024–31)**; **National Manuscript Survey** launched March 2026 – **1.19 crore** manuscripts reported, **8 lakh+** digitised.
+- **Vedic Heritage Portal**: March 2023, **IGNCA**; Vedic chanting is UNESCO Intangible Heritage; **Rigveda manuscripts** in the **Memory of the World Register**.
+- **BHASHINI** (2022): **22 languages voice, 36 text**; **BharatGen** – 22 scheduled languages; **Adi-Vaani** – tribal languages (**Santali, Bhili, Mundari, Gondi**).
+- **National Conclave on Tribal Languages and Museums**: **Mysuru, 24–26 August 2026**; MoS **Durgadas Uikey**; with **CIIL Mysuru** (est. 1969, Ministry of Education); India has **705 ST communities**.
+~~ Sources: app notes 6:105 (sub 4)
+
+=== Sarnath – India's 45th World Heritage Site
+# Inscription
+- **Ancient Buddhist Site of Sarnath** (near Varanasi, UP) inscribed at the **48th World Heritage Committee, Busan, South Korea**.
+- India now **45 WHS** – **6th globally, 2nd in Asia-Pacific**; on tentative list since **1998** (about 28 years).
+- Previous inscription: **Maratha Military Landscapes of India** – 47th session, **Paris**.
+- India hosted the **46th World Heritage Committee** – **New Delhi, 2024**.
+# Significance
+- Buddha's **first sermon** (after enlightenment at Bodh Gaya) – **Dharmachakra Pravartan** (turning of the wheel of Dharma), 6th century BCE.
+- Other names: **Rishipatana, Isipatana, Mrigadava, Deer Park** (Dhamek Stupa is a monument, not a name).
+- **Dhamek Stupa** marks the spot of the first sermon (Dhammacakkappavattana Sutta); also **Chaukhandi Stupa**; Sarnath **Ashoka Pillar** – 3rd century BCE.
+- Finds: **Mauryan Lion Capital** (National Emblem); **Dharmachakrapravartana Buddha** (Gupta art).
+- Lion Capital: shaft (stambha-yashti), circular carved abacus (elephant, bull, horse, lion with Dharmachakras), inverted lotus petals.
+- **Sarnath Museum (1904)** – India's **earliest site museum**.
+- Culture Minister: **Gajendra Singh Shekhawat**.
+# World Heritage background
+- **World Heritage Convention 1972**; 196 States; India's tentative list **69 sites**; one nomination per year; nodal **ASI**.
+- India's sites: **36 cultural** (incl. Sarnath), **7 natural**, **1 mixed** (**Khangchendzonga NP, Sikkim**).
+- First Indian inscriptions (**1983**): **Agra Fort, Ajanta, Ellora, Taj Mahal**; **Konark 1984**.
+| Selected site | State |
+|---|---|
+| Ramappa Temple (Kakatiya Rudreshwara) | Telangana |
+| Historic City of Ahmedabad | Gujarat – India's first World Heritage City |
+| Dholavira | Gujarat |
+| Santiniketan | West Bengal |
+| Sacred Ensembles of the Hoysalas | Karnataka |
+| Moidams | Assam (Ahom burial mounds) |
+| Maratha Military Landscapes | Maharashtra + one in Tamil Nadu |
+| Kaziranga, Manas | Assam (natural) |
+| Keoladeo | Rajasthan (natural) |
+| Great Himalayan NP | Himachal (natural) |
+| Hampi | Karnataka (1986) |
+| Nalanda | Bihar (2016) |
+| Mohenjo-daro | Sindh, Pakistan (1980) |
+~~ Sources: app notes 6:105 (sub 5)
+
+=== Heritage Schemes, Museums and Repatriation
+# Tourism and heritage schemes
+| Scheme | Key facts |
+|---|---|
+| Adopt a Heritage 2.0 | Launched September 2023; 30 MoUs (Mar 2026); 13.59 million visitors FY25 |
+| PRASHAD | Pilgrimage Rejuvenation and Spiritual, Heritage Augmentation Drive – 54 projects in 28 States/UTs; 32 completed (₹1,726.74 crore) |
+| Swadesh Darshan | 15 thematic circuits; 76 projects (₹5,290.33 crore); 75 completed |
+| Swadesh Darshan 2.0 | Destination-centric; 53 projects, ₹2,208.31 crore |
+| CBDD | Challenge Based Destination Development, March 2024; 38 projects, ₹697.94 crore |
+| HRIDAY | 12 heritage cities (incl. Amaravati, Warangal); ended 31 March 2019 |
+# ASI, NMMA and digitisation
+- **ASI**: est. **1861**; DG **Yadubir Singh Rawat**; NMA 2010.
+- **NMMA**: 1.84 lakh monuments, 17.20 lakh antiquities documented (Mar 2026).
+- **JATAN** software: **C-DAC Pune**.
+- **National Film Heritage Mission** (2015): 1,469 titles digitised; **National Museum of Indian Cinema** (2019, ₹140.61 crore).
+- India's first **Archaeological Experiential Museum**: **Vadnagar, Gujarat** – ₹298 crore, 12,500 sq m, 5,000+ artefacts.
+- **Natural History Museum, Mizoram University (Aizawl)** – India's **21st Designated Repository** (Indo-Burma hotspot taxonomy; 500+ specimens – pteridophytes, macrofungi, insects); declared by MoEFCC on NBA advice.
+# Repatriation and relic diplomacy
+- **Piprahwa relics** of Buddha returned **2025 after 127 years**.
+- **Annapurna idol** returned from **Canada** (2021, after 108 years); Rama-Sita-Lakshmana bronzes from UK (2020).
+- **615 antiquities** retrieved in five years (to 30 June 2026).
+- Buddha relic expositions: Vietnam 2025 (15 million+), Kalmykia (Russia) 2025, Bhutan 2025, Sri Lanka 2026 (Gangaramaya Temple, Colombo).
+- **Mongolia**: relics of **Sariputra and Maudgalyayana** at **Gandan Tegchenling Monastery, Ulaanbaatar**, **31 May – 9 June 2026** (~1 lakh visitors); handed over by Assam Governor **Lakshman Prasad Acharya**; opened on Buddha Purnima; by National Museum, MP Govt, Mahabodhi Society of Sri Lanka and **IBC** (est. 2012).
+# Monuments and finds in news
+| Item | Detail |
+|---|---|
+| Palampet Shiva Temple | Mulugu district, Telangana – Monument of National Importance (AMASR Act 1958); 0.275 acres; 100 m prohibited + 200 m regulated zone |
+| Abatsahayesvarar Temple, Thukkachi (TN) | 12th century; UNESCO Asia-Pacific Award of Distinction (2024); "Living Heritage Temple"; later Chola (Kulothunga Chola I, Vikrama Chola); also Thentirukalathi / Vikramacholeeswaram |
+| Borjuli Wild Rice Site | Sonitpur, Assam – Biodiversity Heritage Site under Section 37, Biological Diversity Act 2002; protects *Oryza rufipogon* (ancestor of *Oryza sativa*); by ICAR-NBPGR (1976) + Assam State Biodiversity Board; other Assam BHS – Majuli, Hajong Tortoise Lake (NBA 2003, Chennai; NBSAP 2024–2030) |
+| Brahmi gold rings | Don Yee Thong, Phetchaburi, Thailand – two 2,000-year-old rings; inscription "Pusharakitsava" – likely a Vaishya merchant's; Iron Age burial site |
+| Jain sculptures | Chanda village, Adilabad (Telangana) – 9th-century Parshvanatha (23rd, snake hood) and Kunthunatha (17th, goat); New Telangana History Team; Mahavira – 24th Tirthankara |
+| Dancing Girl (Mohenjo-daro) | NCERT to revise illustration in Class IX Arts book; found 1926, named by John Marshall; ~10.5 cm, ~2500 BCE; Mature Harappan; in National Museum; Mohenjo-daro discovered 1922 by R.D. Banerji |
+| Virupaksha (Pampapati) Temple, Hampi | ASI removed modern walls inside the main gopuram; south bank of Tungabhadra; among oldest continuously functioning temples |
+| Kolanupaka Someswara Temple | Yadadri Bhuvanagiri, Telangana – murals identified by New Telangana History Group (similar murals at Pillalamarri, Kotagullu); Kolanupaka also has a famous Jain temple |
+| Gupta-era bathing ghat | ~1,600 years old, Pansokhar Pokhar, Surajpur, near Nalanda (Xuanzang Memorial) – baked brick + lime plaster; Gupta copper coin; Nalanda (Kumaragupta I) |
+| National War Memorial | Names of 6 Operation Sindoor martyrs (5 Army, 1 IAF) on Tyag Chakra; dedicated 25 Feb 2019; Amar Jawan Jyoti merged with it 2022; 4 circles – Amar, Veerta, Tyag, Rakshak; 15.5 m obelisk; 21 PVC awardees |
+| Shark fossils | ~15 million years old, Baripada Fossil Park, Mayurbhanj, Odisha, 18 June 2026 – Miocene (23–5.3 mya); ~half of fish fossils are sharks |
+~~ Sources: app notes 6:105 (sub 6)
+
+=== Festivals and Temples in News
+# Festivals
+| Festival | Fact |
+|---|---|
+| Ambubachi Mela | 22–26 June 2026, Kamakhya Temple (Nilachal Hill, Guwahati); temple shut 3 days, reopens on 4th; "Maha Kumbh of Eastern India"; one of 51 Shakti Peethas |
+| Raja Parba (Odisha) | 14–16 June 2026; Pahili Raja, Mithuna (Raja) Sankranti (Sun enters Gemini), Basi Raja (Bhu Daha); Poda Pitha; from "Rajaswala" |
+| Hemis Festival (Hemis Tsechu) | 24–25 June 2026, Hemis Monastery, Leh – Guru Padmasambhava's birth anniversary; Cham dance; Drukpa tradition; LG V.K. Saxena |
+| Puri Rath Yatra | 16 July 2026 (Ashadha Shukla Dwitiya) – to Gundicha Temple; Chhera Pahanra – Gajapati sweeps chariots with a gold broom; return = Bahuda Yatra; Suna Besha |
+| Kharchi Puja (Tripura) | 22–28 July 2026; Chaturdasha Devata (14 gods) temple, Old Agartala; Khar (sin) + Chi (cleaning); royal priest Chantai bathes deities in Saidra River; deities shown only by heads; CM Dr. Manik Saha |
+| Aadi Perukku | Tamil festival on the 18th day of Aadi along the Cauvery (Tiruchirappalli, Dharmapuri); honours Amman and water |
+| Aranmula Uthrattathi boat race | Pampa River, Aranmula, Pathanamthitta, Kerala; inaugurated by Vice-President C.P. Radhakrishnan; snake boats = Palliyodams, 100+ oarsmen each; GI product Aranmula Kannadi (metal mirror) |
+# Rath Yatra chariots
+| Chariot | Deity | Wheels |
+|---|---|---|
+| Nandighosa | Jagannath | 16 |
+| Taladhwaja | Balabhadra | 14 |
+| Darpadalana | Subhadra | 12 |
+# Temples
+- **Jagannath Temple, Puri** – **India's first temple with trademark protection**: granted to **SJTA** by CGPDTM (HQ Mumbai, under DPIIT) under **Trade Marks Act, 1999** (in force 15 Sept 2003); 10 years, renewable; built by **Anantavarman Chodaganga Deva** (Eastern Ganga, 12th century, ~865 years old); Kalinga architecture, Char Dham.
+- **Dhabaleswar Temple**: Shiva temple on an **island in the Mahanadi near Cuttack**; linked to Somavanshi king Yayati Keshari (10th–11th c.); present temple ~1232 CE by Khurda ruler Bir Kishore; visited by the President.
+~~ Sources: app notes 6:105 (sub 7)
+
+=== Summits, Conferences and Meetings
+# June 2026
+- **11th NITI Aayog Governing Council**: chaired by PM Modi, New Delhi, **11 June 2026**; theme "**Inclusive Human Development for Viksit Bharat @2047**"; focus human capital, future skills, employment, health and nutrition, DPI, data-driven governance. **NITI Aayog** est. **1 January 2015**; Vice-Chairman **Ashok Kumar Lahiri**; CEO **Nidhi Chhibber**.
+- **SAPLING Dialogue 2026**: **Ahmedabad**, 9–10 June – **Ministry of Food Processing Industries and World Bank**; South Asian Policy Leadership for Improved Nutrition and Growth (World Bank President Ajay Banga).
+- **Bharat Buildcon 2026** – "One Nation, One Expo": **Yashobhoomi Convention Centre, New Delhi**; 90+ countries, 100+ Indian cities, **24 construction segments** (ITPO est. 1977).
+- **North Eastern Council – 73rd Plenary**: **Shillong**; NEC under NEC Act, 1971; 8 NE States (**Sikkim joined 2002**); Union Home Minister = ex-officio Chairperson; MoS DoNER = Vice-Chairperson.
+# BRICS meetings (India's 2026 Chair – 4th presidency)
+| Meeting | Venue / date | Theme / fact |
+|---|---|---|
+| 13th BRICS Urbanisation Forum | New Delhi, 11–12 June | "Cities for People: BRICS Cooperation for Inclusive and Resilient Urban Futures"; India's 4th time (2013, 2016, 2021) |
+| BRICS Heads of Space Agencies | Bengaluru | India proposed a BRICS Space Economy |
+| 16th BRICS Agriculture Ministers | Indore, 12–13 June | Chaired by Shivraj Singh Chouhan; 21 countries; agri-food systems |
+| BRICS NSAs' Meeting | 22–23 June | Chaired by Ajit Doval; "Non-traditional Security Challenges Confronting the World Today" (NSC est. 1998) |
+| 11th BRICS Energy Ministers | Gurugram, 25–26 June | – |
+| BRICS Disaster Management Conference | Puri | Early warning; IMD (1875) DG Mrutyunjay Mohapatra |
+| 18th BRICS Summit | India, later in 2026 | UAE President invited |
+- BRIC coined by **Jim O'Neill (2001)**; formed 2006; South Africa joined 2010; now **11 members**.
+# July 2026
+| Event | Venue / date | Key facts |
+|---|---|---|
+| 29th National e-Governance Conference | Jaipur, July 1–2 | "Viksit Bharat 2047: AI-Enabled, Data-Driven and Secure Digital Governance"; DARPG Secretary Nivedita Shukla Verma |
+| UN Global Dialogue on AI Governance (inaugural) | Geneva, July 6–7 | India led by MoS Kirti Vardhan Singh; UNGA Res 79/325; follows Global Digital Compact (Pact for the Future, 2024) |
+| Indi Haat 2026 | National Crafts Museum, New Delhi, July 10–19 | Inaugurated by Giriraj Singh; handloom/handicrafts for foreign buyers |
+| Bharat Tex 2026 (3rd) | Bharat Mandapam, July 14–17 | "Weaving Indian Textiles Excellence into Fabric of Global Growth"; 5F vision |
+| Saushrutam 2026 | AIIA, New Delhi, July 15 | Inaugurated by President Murmu; Sushruta Jayanti (Father of Surgery, Sushruta Samhita); report on women Ayurveda graduates; AI-based 3 Tesla MRI centre; AIIA est. 2017 |
+| 5th BIMSTEC NSAs' Meeting | New Delhi, July 16 | Cyber, counter-terror, trafficking, satellites |
+| 2nd Bharat Green Hydrogen Summit | New Delhi, July 23 (FICCI) | India aims at ~10% of global green hydrogen market by 2030 |
+| 21st East Asia Summit | Manila | EAM attended; EAS est. 2005, 18 members |
+| 49th Codex Alimentarius Commission | Geneva | Seven India-proposed food standards approved; WHO DG Tedros |
+| Asia-Pacific Parliamentary Forum 2026 | Manila | Gender Equal Justice Governance; APPF est. 1993 (Tokyo Declaration), 28 members |
+| Global AI Summit 2027 | Geneva, June 21–22, 2027 | Earlier – Bletchley Park (2023), Seoul (2024), Paris (2025), New Delhi (2026); 2028 – UAE |
+- 13th **AITIGA** Joint Committee (New Delhi): ASEAN–India Trade in Goods Agreement signed 2009, **in force January 1, 2010**.
+- 9th IGE on Consumer Protection (UNCTAD, Geneva): chaired by India – Nidhi Khare showcased E-Jagriti and National Consumer Helpline; UNCTAD (1964) now "UN Trade and Development".
+- Background: **BIMSTEC** 1997, HQ Dhaka, **7 members**; **National Green Hydrogen Mission** 2023, ₹19,744 crore; **Codex Alimentarius Commission** **1961** by FAO (WHO joined 1963), HQ Rome; **Consumer Protection Act 2019** replaced 1986 Act; India **2nd in cotton and silk, largest in jute**.
+# August–September 2026
+| Event | Venue / date | Note |
+|---|---|---|
+| 2nd National Port Security Conference | New Delhi, 6 August | Sarbananda Sonowal; physical and cyber threats under ISPS Code |
+| 9th India Medical Device 2026 | Vigyan Bhawan, 7–8 August | Dept of Pharmaceuticals + FICCI; "Towards Viksit Bharat: Advancing India as a Global Hub for Quality Medical Devices" |
+| First Sagar Samvad | New Delhi, August | National Shipping Board; Sonowal; Maritime India Vision 2030 (2021) and Maritime Amrit Kaal Vision 2047 (2023) |
+| IIHT Sutra 2026 | Dr Ambedkar International Centre, New Delhi | First national conclave of IIHTs; Giriraj Singh; "IIHTs: Weaving the Future of the Indian Handloom Sector – Educate. Innovate" |
+| National Conclave on Tribal Languages and Museums | Mysuru, 24–26 August | See 5.3 |
+| 5th SEMICON India 2026 | Yashobhoomi, New Delhi, 17–19 September | PM inaugurated; "Silicon to Systems: Building the Ecosystem"; ISM (2021), MeitY, SEMI |
+- **Philippines:** President **Ferdinand R. Marcos Jr.**; Manila hosted the 21st East Asia Summit and APPF 2026.
+- **India's BRICS Chair 2026:** India holds the BRICS chairship for the **fourth time** (earlier 2012, 2016, 2021).
+- **AP at the 11th NITI Aayog Governing Council:** CM **N. Chandrababu Naidu** presented the **Swarna Andhra @2047** vision.
+- **IICA North East Conclave 2025** – **IIM Shillong, 11–12 July 2025**; inaugurated by Union Finance and Corporate Affairs Minister **Nirmala Sitharaman** (CM Conrad Sangma present); theme "From Ideation to Incorporation"; organised by the **Indian Institute of Corporate Affairs**.
+~~ Sources: app notes 6:105 (sub 8); knnindia.co.in IICA North East Conclave 2025 report (fetched: Sitharaman inaugurated, IIM Shillong, 11-12 July 2025)
+
+=== India's Firsts and Records
+# Firsts (June–July 2026)
+| First | Detail |
+|---|---|
+| Commercial cargo train to Nepal | Kolkata Port → Biratnagar Customs Yard, 20 July 2026; 40 containers of canola; CONCOR; via Jogbani–Biratnagar line |
+| AI as core subject Class 1–12 | Punjab – Sarbat.AI |
+| Madrasa Board abolished | Uttarakhand (first State) from 1 July 2026; madrasas follow NCERT curricula; ~500 unauthorised madrasas face closure |
+| Urban night safari | Kukrail, Lucknow – SC approval 16 July 2026; fifth in the world (after Singapore, Thailand, China, Indonesia); ₹1,510 crore |
+| Government AI University | Karnataka (Bengaluru), 14 July 2026 |
+| AI-based bird sanctuary | Bhandup Bird Park, Thane Creek Flamingo Sanctuary, Mumbai (Ramsar 2022; India 91 Ramsar sites) |
+| Women Farmers law | Maharashtra Women Farmers Empowerment Act, 2026 |
+| Risk-based business permits | Chhattisgarh Ease of Doing Business Act, 2026 (16 July) – deemed approvals; no annual licence renewal; 43 services, 8 departments; 15 lakh+ MSMEs |
+| IIM Bangalore international campus | Malang, East Java, Indonesia |
+| Transgender medical centre | ESIC Medical College, Sanathnagar, Hyderabad, 30 June 2026 |
+| Rare earth magnet facility | Nexon Geochem + Giredmet (Rosatom) – 1,200 MT/year by FY2033 |
+| Wildlife eco-bridge (Telangana) | Near Asifabad, NH-61; Kawal TR |
+| Telecom Manufacturing Zone | Gwalior, MP – 350 acres |
+| Dept of Military Medicine | Command Hospital, Lucknow |
+| High-altitude medicine centre | ICMR, Keylong, Lahaul-Spiti |
+| Greenfield refinery-petrochemical complex | Pachpadra, Balotra (Rajasthan), 4 July 2026 – HPCL Rajasthan Refinery |
+| Language museum | Shabdaloke, National Library, Kolkata |
+| World's largest curd plant | Sankrail, Howrah – Amul Bengal Dairy; foundation by Amit Shah, 19 July 2026 |
+| Sindoor Village | Ramasi, Bhagalpur (Bihar Agricultural University) |
+| Vanadium Redox Flow Battery (utility-scale) | 100 MWh, Khavda Solar Park, Kutch – NTPC REL |
+| Deep-water well, Mahanadi basin | ONGC, Sagar Manthan Mission |
+| Copper–Chlorine nuclear hydrogen plant (world's first) | IGCAR, Kalpakkam – heat from FBTR; process by BARC |
+| Permanent nuclear waste repository (world's first) | Onkalo, Eurajoki, Finland – copper canisters at 433 m, bentonite clay |
+| Coal-to-ammonium nitrate project | Lakhanpur, Jharsuguda, Odisha |
+| Model Border Village | Chumur, Eastern Ladakh – Vibrant Villages Programme |
+| Easy Connect city | Varanasi |
+| Offshore airport | Near Kore Beach, Palghar |
+| Integrated Battle Groups | From 1 July 2026; 17 Corps (Panagarh); phase 1 – 4 IBGs + 1 Fire Support Group |
+| 8-lane tunnel under a tiger reserve | Mukundra Hills TR, Rajasthan |
+| AI hyperscale data centre | Reliance–Meta, Jamnagar – 168 MW |
+| IndiaAI Data Lab in a private university | Chandigarh University with Intel India |
+| AI-designed vaccine (world) | University of Cambridge – coronaviruses |
+| Flex-fuel passenger vehicle (E20–E100) | Maruti Suzuki |
+| 3D-printed artificial coral reefs | Off Ramanathapuram, TN – Tvasta + ICAR-CMFRI |
+| Private hybrid 2G ethanol project | Wave Sugar, Dhanaura, UP |
+| Wildlife crime system | HAWK (Hostile Activity Watch Kernel) – Kerala Forest Dept + WTI + NTT DATA |
+| Indigenous AI video model | Varya – MeitY, built by Avaatar |
+| Biodegradable milk packet | Mother Dairy, 2 June 2026 |
+| Satellite-based jet landing | GAGAN (ISRO–AAI), IndiGo A320, Udaipur |
+| Four ISO certifications at once | Osmania University – ISO 21001:2018 (education), 14001:2015, 50001:2018, 22000:2018 (food safety); by BIS |
+# World records
+- **Project Himank** (BRO, Ladakh): world's highest Oxygen Café on a national highway; HAD Building, Chandigarh – world's largest 3D-printed building.
+- **A&N Islands**: tallest underwater human pyramid – 22.3 m, **14 divers, 3 minutes**, near Swaraj Dweep.
+- **Integrated Battle Groups:** raised from **17 Corps (Brahmastra Corps, Panagarh)**; each IBG is headed by a **Major General**.
+~~ Sources: app notes 6:105 (sub 9)
+
+=== National and Telangana Miscellany
+# National
+- **Cooperative Life Insurance Organization**: announced by Amit Shah, 6 July 2026; supports "**Sahakar Se Samriddhi**"; Ministry of Cooperation est. 2021.
+- **Paraquat ban** (14 July 2026): **non-selective contact herbicide**, **no known antidote**, banned in **70+ countries**; under **Insecticides Act, 1968**; announced by **Shivraj Singh Chouhan**.
+- **Renamings**: **Jalalabad → Parshurampuri** (Shahjahanpur); **Bhadarsa → Bharat Nagar** (Ayodhya).
+- **Navi Mumbai Airport** – authorised port for drug imports (**8 July 2026**) via **Rule 43A, Drugs Rules, 1945** (42 ports); **DTAB** – highest technical advisory body under the **Drugs and Cosmetics Act, 1940**.
+- **Kartavya Bhavan Area** (from 12 July 2026): Kartavya Path (former **Rajpath**), new PMO complex "**Seva Teerth**".
+- **Yamuna Water Project**: Rajasthan's share via pipelines from **Hatnikund Barrage**; **Tungabhadra High-Power Committee** – **Ministry of Jal Shakti** (9 members); Sardar Sarovar cost-sharing agreement (MP, Gujarat, Rajasthan, Maharashtra).
+- Department of Posts – TRAI MoU: village telecom survey of 5.68 lakh villages.
+- **AISHE 2023–24**: national **GER 30%** (**23.7% in 2014–15**); **GPI 1.08**; Telangana GER 46.6%.
+- **Mahanadi**: rises in **Sihawa Hills**, enters Bay of Bengal near **Paradip**; **Hirakud Dam**.
+# Telangana
+- **Mission K-100** – 100-day plan for **Kharif 2026–27 paddy procurement**.
+- **Kawal** – **only tiger reserve in Telangana** (est. 2012).
+- Telangana – **third State to ban Paraquat Dichloride** (**Kerala 2011 first, Odisha second**).
+- Agreement with German State **Thuringia** (capital **Erfurt**) via **Young India Skills University**.
+- **Gandhi Sarovar** – **Musi–Esi confluence**, Hyderabad; **83.814 acres** defence land under **Equivalent Value Infrastructure** policy.
+- **Mahila Shakti Super Bazaars** – by **SERP**, run by women's SHGs.
+- **Stree Ride** (6 June 2026) – women-driven cabs, autos, bikes; Women Safety Wing and MOWO; on Ola, Uber, Rapido.
+- **Swachh Evam Harit Vidyalaya Rating 2025–26** – **60 indicators**, 6 parameters; Ranga Reddy 3rd nationally.
+- Satellite crop acreage – **PJTSAU's Centre for Digital Agriculture**; reports every 15 days.
+- Chief Secretary **Sanjay Jaju** (1992 batch; ex-Secretary, DoNER) succeeded **K. Ramakrishna Rao**.
+- Flood SOP – **Roads and Buildings Department** (Minister Komatireddy Venkat Reddy).
+~~ Sources: app notes 6:105 (sub 10)

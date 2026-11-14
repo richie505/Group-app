@@ -1,0 +1,73 @@
+=== Savarkar, Majumdar, Sen – the Indian Historians
+| Historian | Verdict |
+|---|---|
+| **V.D. Savarkar** | **"First War of Indian Independence"** – a planned national war; book **The Indian War of Independence 1857** (1909) – not Tilak, Patel or Ganesh Savarkar |
+| **R.C. Majumdar** | "The so-called First National War of Independence of 1857 is **neither first, nor national, nor a war of independence**"; did not accept it as a revolution |
+| **S.N. Sen** | "What began as a fight for religion ended as a war of independence"; **official historian** – **Eighteen Fifty-Seven** (1957) |
+| **Majumdar and Sen** | Indian nationalism in the mid-19th century was **embryonic**; "not an organised national revolt" |
+| S.B. Chaudhuri | "First War of Independence it certainly was" |
+| Tara Chand | Not inspired by nationalism |
+| **Nehru** | **Essentially a feudal rising** (**The Discovery of India**) |
+| Eric Stokes | Local, **elitist** – many peasant and elite risings |
+| Rudrangshu Mukherjee | Peasant and taluqdar resistance in **Awadh** (**Awadh in Revolt**) |
+- Majumdar was appointed to write the official history but parted with it and published **The Sepoy Mutiny and the Revolt of 1857** (1957) independently.
+> Majumdar is the **sceptic** – never put him with Savarkar.
+~~ Sources: Spectrum Modern India (src/indian-history/spectrum-modern-india.txt) p.212-214, p.219; NextGen Indian History - APPSC Exams Part 6 (src/indian-history/nextgen-indian-history-appsc-06.txt) p.36; PMF Modern History Part 3 (src/indian-history/pmf-modern-history-03.txt) p.155; app notes 1:185
+
+=== British and Contemporary Views
+| Holder | View |
+|---|---|
+| **Sir John Lawrence**, **J.R. Seeley** | "Mere **sepoy mutiny**" |
+| **P.E. Roberts** | "Just a sepoy mutiny" over greased cartridges |
+| **Sir James Outram and W. Taylor** | A **conspiracy** – Muslims (Mohammedans) exploiting Hindu grievances |
+| **L.E.R. Rees** | War of fanatic religionists against Christians |
+| **T.R. Holmes** | Conflict of **civilisation vs barbarism** |
+| **Benjamin Disraeli** (Commons, 1857) | "Is it a military mutiny, or is it a national revolt?" |
+| **Karl Marx** (**New-York Tribune**) | "In truth a national revolt" |
+| **Sir Syed Ahmad Khan** | Cause: **no Indian in the Legislative Council** |
+| **Aitchison** | "**In this instance we could not play off the Mohammedans against the Hindus**" – Hindu-Muslim unity of 1857 |
+| **R. Coupland** | "**Indian Nationalism was the child of British Rule**" |
+- **Mirza Ghalib** – the poet who **witnessed** the revolt in Delhi.
+- **Joseph Noel Paton** painted **"In Memoriam"** (1858) – British women and children awaiting death.
+- **William Dalrymple** – **The Last Mughal: The Fall of a Dynasty, Delhi 1857** (2006).
+~~ Sources: Spectrum Modern India (src/indian-history/spectrum-modern-india.txt) p.211-214, p.219; PMF Modern History Part 3 (src/indian-history/pmf-modern-history-03.txt) p.153; app notes 1:185; Paton, Dalrymple: general knowledge, not checked
+
+=== Labels and Books
+| School | Label / view |
+|---|---|
+| British / imperialist | **"Sepoy Mutiny" / "Indian Mutiny"** |
+| Indian / nationalist | **"First War of Independence"** |
+| Feudal reaction | Dispossessed **princes and taluqdars** regaining lost positions |
+| Others | Great Rebellion, Revolt of 1857, Indian Insurrection |
+# Books
+| Book | Author |
+|---|---|
+| The Indian War of Independence 1857 | V.D. Savarkar |
+| Eighteen Fifty-Seven | S.N. Sen (Government-commissioned centenary history) |
+| The Sepoy Mutiny and the Revolt of 1857 | R.C. Majumdar |
+| 1857: The Great Rebellion | Ashok Mehta |
+| The First Indian War of Independence 1857-1859 | Marx and Engels |
+| Asbab-e-Baghawat-e-Hind (1859) | Syed Ahmad Khan |
+| Awadh in Revolt | Rudrangshu Mukherjee |
+> All true: a widespread but unsuccessful uprising; began at **Meerut** and spread to Delhi, Agra, Kanpur, Lucknow; Western historians call it the "Indian/Sepoy Mutiny", India the "First War of Independence".
+~~ Sources: Spectrum Modern India (src/indian-history/spectrum-modern-india.txt) p.211-212; PMF Modern History Part 3 (src/indian-history/pmf-modern-history-03.txt) p.140-141; app notes 1:185
+
+=== Nature – Statement Judgements and Hindu-Muslim Unity
+- Began as a **military mutiny** → became a **popular rebellion**; a **traditional uprising** of classes against a common foreign enemy – **no idea of a nation-state**.
+- **Not carefully planned** by rajas, nawabs and taluqdars; **rumours and prophecies did play a role** (Plassey centenary, 23 June 1857); the British did **not** control it quickly or easily.
+- **Rebel proclamations repeatedly appealed to all sections irrespective of caste and creed** (Azamgarh Proclamation, 25 Aug 1857 – under "Muhammad and Mahavir"; urged allegiance to the **Badshahi**).
+- **Hindu-Muslim unity:** **Bahadur Shah II** accepted by both as **symbolic head**; cow slaughter banned; both well represented in leadership. British response: **divide and rule** (not handing power to the INC).
+- **Significance:** failed, but broke the myth of British invincibility; seeds of later nationalism. Same "mutiny or revolt?" debate on the **RIN revolt** (HMIS Talwar, **1946**).
+- Largely confined to **North India**; most of India neutral.
+~~ Sources: PMF Modern History Part 3 (src/indian-history/pmf-modern-history-03.txt) p.139, p.152-154; Spectrum Modern India (src/indian-history/spectrum-modern-india.txt) p.211; app notes 1:185
+
+=== Social Groups, the Educated Class and Failure
+| Group | Role |
+|---|---|
+| Sepoys | Spearhead – Meerut, Delhi |
+| Awadh taluqdars, peasants, artisans | Joined (Awadh, western UP) |
+| **Big zamindars of Bengal** | **Loyal** |
+| **Educated middle class** | **Remained neutral / did not support** – thought British rule was **modernising**; a reason for failure |
+- **Main cause of failure:** **lack of common strategy and central organisation**; limited spread; Rajput and other major rulers backed the British.
+- **AP:** "Andhra was little affected for want of local leaders" is true; Korukonda Subba Reddy, Dandasena, the **Kadiri** (Rayalaseema) attempt were sporadic; **Annapurnayya** ("Andhra Netaji") – 18 months RI for the article **"Chicharapidugu"** on 1857.
+~~ Sources: PMF Modern History Part 3 (src/indian-history/pmf-modern-history-03.txt) p.149-151; Spectrum Modern India (src/indian-history/spectrum-modern-india.txt) p.209-210; NextGen Indian History - APPSC Exams Part 6 (src/indian-history/nextgen-indian-history-appsc-06.txt) p.41; app notes 1:185

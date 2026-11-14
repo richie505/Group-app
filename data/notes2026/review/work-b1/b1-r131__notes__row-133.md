@@ -1,0 +1,73 @@
+=== Mansabdari System – Origin, Purpose and Nature
+- Introduced by **Akbar** (1570s); "Mansab" = **Arabic** for **rank/position**; model **borrowed from Mongolia/Central Asia** (Genghis Khan's decimal army grading) – not Persia, Turkey or Afghanistan.
+- **One grading for army and civil service** – the Mughal **military system** was based on it; **not all mansabdars were military officers** – high civil officials were mansabdars too, graded alike.
+- **Purpose (UPSC 1996 key):** "**effecting clean administration**" – a single graded service (Ghatna Chakra/key); army recruitment is the tempting option.
+- Run by the **Mir Bakhshi** – responsible for its smooth functioning.
+- Ranks **10 to 10,000**; Abul Fazl: **66 grades** in theory, **33** in practice; highest ranks for princes.
+- **Not hereditary** – rank and jagir ended with the holder; appointment, promotion and dismissal at the emperor's will (on merit/ability).
+- Paid in cash (**naqd**) or by a revenue assignment (**jagir**). Mughal state = basically a military state.
+- **UPPSC 2010 statements:** zat (and sawar) ranks granted ✓; **three classes** ✓; hereditary ✗ – printed key "only 1 & 3 true".
+- **Statements (APPSC ASO):** Babur founded the empire at **Panipat 1526**; Akbar's mansabdari; decline after **1707** – but the **Taj Mahal was Shah Jahan's**, not Aurangzeb's.
+~~ Sources: NextGen Indian History APPSC 04 p.32; PMF Ancient & Medieval 04 p.106; old app notes 1:133 (sub 0)
+
+=== Zat, Sawar, Classes and Later Changes
+| Term / class | Meaning |
+|---|---|
+| **Zat** | **Personal rank** – status in the hierarchy and salary |
+| **Sawar** | Number of **cavalrymen** (horsemen) to be maintained |
+| First class | Sawar = zat |
+| Second class | Sawar half or more of zat |
+| Third class | Sawar less than half of zat |
+- **Three classes** of mansabdars; **sawar could NOT exceed zat**.
+- **Chehra** is the descriptive roll, **not a rank** – ranks were only zat and sawar (CDS 2009).
+- Nobles (**umara**): mansabdars of **1,000 zat or above** (NCERT) – a "1,000 sawar" statement is wrong.
+- **Horse rule**: every **10 sawars → 20 horses**.
+| Change | Emperor | Effect |
+|---|---|---|
+| **Du-aspa sih-aspa** | **Jahangir** | Part of sawar counted double; zat not raised |
+| Month-scale | Shah Jahan | **Shashmaha** = half-yield; **sihmaha** = quarter-yield |
+| Reduced obligation | Shah Jahan | Keep 1/5 to 1/3 of sawar |
+| **Mashrut** | **Aurangzeb** | Temporary, conditional rise in sawar for a task |
+~~ Sources: NextGen Indian History APPSC 04 p.32-33; NCERT Class 7 Our Pasts II ch.4; old app notes 1:133 (sub 1)
+
+=== Army Terms and Central Officials
+| Term | Meaning |
+|---|---|
+| **Ahadis** | Gentlemen troopers recruited singly, attached to no chief, the **emperor as their colonel** |
+| **Dakhili** | Troops raised and paid by the state, placed under mansabdars |
+| Tabinan | Mansabdars' own contingents |
+| **Walashahi** | Emperor's bodyguard |
+| Dagh / Chehra / Tashiha | Horse branding / descriptive roll / muster check |
+- Akbar **revived** Dagh and Chehra (1573-74); the army was mostly mansabdars' cavalry.
+| Official | Function |
+|---|---|
+| Wakil | Chief adviser/regent; made symbolic by Akbar |
+| Wazir / Diwan | Revenue and finance |
+| **Mir Bakhshi** | **Head of the military department**, mansabdars, intelligence |
+| Mir Saman | Royal household, karkhanas |
+| Sadr-us-Sudur | Religion, charity, madad-i-maash |
+| Qazi-ul-Quzat | Chief justice (sharia) |
+| **Muhtasib** | Saw that people lived by the **shariat** (public morals) – stressed by Aurangzeb |
+- Espionage: **waqia-navis** (news-writers), **khufia-navis** (secret), **harkaras** – under the Mir Bakhshi.
+~~ Sources: NextGen Indian History APPSC 05 p.16; old app notes 1:133 (sub 2-3)
+
+=== Jagirs and the Jagirdari Crisis
+| Type | Nature |
+|---|---|
+| **Tankhwah** | In lieu of salary; transferable |
+| Watan | Hereditary home of a zamindar/Rajput chief; not transferred |
+| Mashrut | Conditional |
+| In'am | Free of service; land to learned and religious men |
+| Altamgha | Perpetual |
+| **Khalisa** | Crown land – income straight to the treasury; NOT a jagir |
+- **Jagir** = territorial assignment to mansabdars **in lieu of salary**; **Mauza = village** (rebellious tract = mawas) – Astt. Comm. 2017 wrong pair.
+- **Madad-i-maash:** revenue-free grants to scholars and religious men, under the Sadr.
+- Transfers every **3-4 years** – to stop local roots; **bejagiri** – mansabdars waiting without jagirs.
+- Under **Aurangzeb**: more mansabdars, too little good land (**paibaqi**) → peasants squeezed → core of **Mughal decline**.
+| Historian | Explanation |
+|---|---|
+| Satish Chandra | Shortage of jagirs |
+| Irfan Habib | Agrarian crisis |
+| Athar Ali | Influx of Deccani and Maratha nobles |
+- AP angle: **Asaf Jahi Hyderabad** kept Mughal-style jagirdari.
+~~ Sources: NextGen Indian History APPSC 05 p.16; old app notes 1:133 (sub 5-6)

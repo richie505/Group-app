@@ -1626,3 +1626,6 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 ## rewrite b2-w163 (rows 163–166)
 - own 408 → 84 kept + 83 new (167, 41%); new 46 statements / 25 match / 12 A–R; 2 of 247 lines lost. No wrong keys.
 - Removed as not in notes: g6511fb38201c (paper-leak Act 2024), nindian-society-38-13 (Skill India Digital Hub AI certifications) — possible notes gaps.
+
+## review d02 (doubtful PYQ keys)
+- b6-d02: 3 confirmed. y59654082c9a Vietnam (stem "$300 billion" should be million); y1816b2597cb Vencatesan (stem "March 2024" → award Mar 2025); yc9f12b441db official key Suzie Bates kept + dispute (strictly Charlotte Edwards first past 2,000, not among options — owner may prefer add_option).

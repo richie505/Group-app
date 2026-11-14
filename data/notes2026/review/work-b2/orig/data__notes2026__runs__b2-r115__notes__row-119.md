@@ -1,0 +1,119 @@
+=== Meaning of Regionalism
+- **NextGen definition:** regionalism = a feeling of **loyalty to a particular part of a country** and a wish for it to be **more politically independent**; a culmination of socio-economic and political factors, not just a territorial unit.
+- **Best represents regionalism:** regional demands for autonomy or, at the extreme, **secession by certain States**; preference for one's religion = **communalism**, caste loyalty = **casteism**, favouring one's language = **linguism**.
+# Terms
+| Term | Meaning |
+|---|---|
+| Region | Area shaped by history, with its own language, culture, identity and political implications |
+| Regionalism | Emotional attachment to one area; may resist a dominant culture or challenge the nation-state |
+| Supra-state | Several States sharing interests (e.g., the North-East) |
+| Inter-state | Conflict between States |
+| Intra-state | A region within a State seeking recognition |
+# Positive vs Negative Regionalism
+| Positive | Negative |
+|---|---|
+| Regional parties give backward regions a voice | Parochialism; hostility to migrants (Shiv Sena, MNS) |
+| Cultural pride, balanced development, local innovation | Law-and-order breakdowns; openings for extremists |
+| Solidarity (Tripura Tribal Autonomous District Council) | Inter-state disputes; new linguistic minorities |
+- Regional feeling turns **negative** when exploited for votes by regional parties.
+# Regionalism and tribal welfare (ATWO PYQs)
+- Regionalism **empowers local governance** for better tribal welfare and **strengthens State-centric tribal-welfare policies** (not centralisation, not 'no effect').
+- **Sub-regionalism** **enhances the focus on local tribal needs within smaller regions** (agency tracts, autonomous councils).
+- Intra-state regionalism is a **positive** form – self-dependence and development of the region (Saurashtra, East UP, Vidarbha).
+~~ Sources: NextGen Society G2 Part 1 p.80, p.82-83; app notes 2:119 sub 0
+
+=== Linguistic Reorganisation of States
+# Commissions and Committees
+| Body | Year / members | Recommendation |
+|---|---|---|
+| Dhar (Dar) Commission | 1948, S.K. Dhar | Rejected language; preferred administrative convenience |
+| JVP Committee | Congress, Jaipur session Dec 1948: Jawaharlal Nehru, Vallabhbhai Patel, Pattabhi Sitaramayya | Report April 1949 rejected the linguistic principle for the present; stressed unity and security |
+| States Reorganisation Commission | Dec 1953; Fazl Ali (chair), K.M. Panikkar, H.N. Kunzru | Report Sept 1955: 16 states + 3 territories; rejected "one language, one state"; did **not** support splitting **Bombay and Punjab**; abolish the four-fold (Part A/B/C/D) classification |
+| States Reorganisation Act, 1956 | 1956 (with 7th Amendment) | 14 states + 6 UTs; Andhra State + Telangana = Andhra Pradesh (capital Hyderabad) |
+- **⚠ Trap:** **Not** SRC members: Pattabhi Sitaramayya, K.T. Shah, Tej Bahadur Sapru. (Pattabhi was in the JVP Committee.)
+# Andhra Sequence
+| Year | Event |
+|---|---|
+| 1948 | Dhar Commission |
+| 1949 | Visalandhra Mahasabha |
+| 1951 | Swami Sitaram's fast |
+| 1 Oct 1953 | Andhra State – first linguistic State, Telugu areas split from Madras; capital Kurnool |
+- **Potti Sriramulu:** first to **fast unto death** for a linguistic State.
+- **Andhra Movement:** first ethnic movement to win a State.
+- Negatives: new linguistic minorities (e.g., Telugus in Tamil Nadu), further split demands.
+- "**Union of States**": States have **no right to secede** (Ambedkar).
+~~ Sources: Laxmikanth 8th ed. Part 1 l.4402-4514, l.4686; app notes 2:119 sub 5
+
+=== New States and Pending Demands
+| State | Formed | Carved from |
+|---|---|---|
+| Sikkim | 1975 (36th Amendment, after referendum) | Associate State → full State |
+| Mizoram, Arunachal Pradesh, Goa | 1987 (Arunachal and Mizoram 20 Feb 1987) | Union Territories |
+| Chhattisgarh | 1 Nov 2000 (first new State of 2000) | Madhya Pradesh |
+| Uttarakhand | 9 Nov 2000 | Uttar Pradesh |
+| Jharkhand | 15 Nov 2000 | Bihar |
+| Telangana | 2 June 2014 (29th State) | Andhra Pradesh |
+- **Chronology PYQ:** Sikkim (1975) → Arunachal (1987) → Chhattisgarh (1 Nov 2000) → Jharkhand (15 Nov 2000).
+- **Gorkhaland agitation (West Bengal, 2017):** recent agitation in a region for a separate State.
+- **Pending demands:** **Vidarbha** (Maharashtra), **Gorkhaland** (Darjeeling hills, West Bengal; Nepali-speaking Gorkhas), **Bundelkhand** (parts of UP and MP).
+~~ Sources: Laxmikanth 8th ed. Part 1 l.4663-4683; app notes 2:119 sub 6; general knowledge (Gorkhaland 2017)
+
+=== Forms of Regionalism
+| Form | Examples |
+|---|---|
+| Secessionism (out of India) | Dravida Nadu (1960s), Khalistan (1980s), Greater Nagaland (NSCN, 1980) |
+| Demand for full statehood | UTs such as Arunachal Pradesh (1987) and Sikkim |
+| Separatism (new State inside the Union) | Uttarakhand, Jharkhand, Chhattisgarh, Telangana |
+| Autonomy demands | Tamil Nadu, Punjab, Andhra Pradesh, West Bengal (since 1960s) |
+| Inter-state boundary disputes | Maharashtra-Karnataka (Belagavi), Assam-Mizoram, Assam-Nagaland, Haryana-HP (Parwanoo), Ladakh-HP (Sarchu) |
+| Capital dispute | Chandigarh (Punjab vs Haryana) |
+| Sons-of-the-soil | Shiv Sena, Mulki rules (section 4) |
+- **NSCN:** formed **31 January 1980** by Isak Chishi Swu, Th. Muivah and S.S. Khaplang after rejecting the **Shillong Accord (1975)**; split into NSCN-IM and NSCN-K in **1988**.
+- **⚠ Trap:** Secessionism = out of India (Khalistan); Separatism = new State inside the Union (Telangana).
+~~ Sources: NextGen Society G2 Part 1 p.82, p.85; PMF Internal Security Part 1 p.29 (NSCN 1980); app notes 2:119 sub 2
+
+=== Domicile-based Job Reservation
+- Local job quotas are said to contradict **Articles 14, 15, 16 and 19**.
+| Article / law | Provision | Status |
+|---|---|---|
+| Art. 16(2) | Bars discrimination in public jobs by place of birth or residence | – |
+| Art. 16(3) | Only Parliament may set residence rules | Public Employment (Requirement as to Residence) Act, 1957 |
+| AP Employment of Local Candidates in the Industries/Factories Act, 2019 | 75% private industrial jobs for locals | First such State law; challenged in AP High Court |
+| Haryana State Employment of Local Candidates Act, 2020 | 75% private jobs up to a salary ceiling | Struck down Nov 2023 by Punjab & Haryana High Court |
+| Jharkhand Act, 2021 | 75% lower-salary private jobs | – |
+- **⚠ Trap:** APPSC G2 2025: the 75% private-sector quota struck down by the High Court = **Haryana**.
+~~ Sources: NextGen Society G2 Part 1 p.84-85; app notes 2:119 sub 4
+
+=== Sons-of-the-soil Movements
+- **Doctrine:** a State belongs to its main linguistic group; others are "outsiders", however long settled; grew with **1960s-70s job shortages**.
+| Movement | State | Target / issue |
+|---|---|---|
+| Shiv Sena (1960s) | Maharashtra | South Indians |
+| MNS (2008) | Maharashtra | North Indians |
+| Mulki rules | Hyderabad / Telangana | Job preference for local residents; agitations of 1969 and 1972-73 |
+| Telangana movements | Andhra Pradesh | 1969 agitation; 2009-14 phase → statehood 2014 |
+| Anti-Hindi agitations | Tamil Nadu | 1937, 1965, 1986 → two-language formula |
+~~ Sources: NextGen Society G2 Part 1 p.82-83; app notes 2:119 sub 3
+
+=== Causes
+| Factor | Example |
+|---|---|
+| Economic inequality | 1948: Bombay and West Bengal held 59% of industrial capital; backward regions with low literacy, few industries |
+| Fear of losing cultural identity | Gorkhas in Bengal |
+| Linguistic identity | 22 official languages, about 1,635 mother tongues → linguistic State demands |
+| Political neglect | Jharkhand, Chhattisgarh, Telangana |
+| Migration and job competition | Migrants vs local educated youth for middle-class jobs |
+- **⚠ Trap:** UPPSC 2008: uneven development, fear of losing cultural identity and political prominence are all causes – "all the above".
+~~ Sources: NextGen Society G2 Part 1 p.81; app notes 2:119 sub 1
+
+=== Regional Parties and Containment
+- Rose in the **late 20th century**; demand more powers and funds; add political diversity to federalism.
+| Leader | State |
+|---|---|
+| M.G. Ramachandran | Tamil Nadu |
+| N.T. Rama Rao | Andhra Pradesh |
+| Jyoti Basu | West Bengal |
+- **Steps against regionalism:** SR Act 1956, **National Integration Council**, **Articles 44 and 51A**, **Fifth, Sixth and Eighth Schedules** (not the Eleventh).
+- **20 May 2026:** defeat of the **131st Amendment Bill, 2026** in the Lok Sabha revived the North-South debate; southern States feared ending the **1971-Census seat freeze**; industrialised States dislike being **net fiscal donors**.
+- Women's roles in regional movements (Telangana, Jharkhand) are often unrecognised.
+~~ Sources: NextGen Society G2 Part 1 p.81; app notes 2:119 sub 7

@@ -1,0 +1,115 @@
+=== Fifth Schedule – Scheduled Areas, Governor and Tribes Advisory Council
+- **Article 244(1), Part X:** the **Fifth Schedule** governs the administration and control of **Scheduled Areas and Scheduled Tribes** in any State **other than Assam, Meghalaya, Tripura and Mizoram**.
+- **Ten States** have Scheduled Areas: **Andhra Pradesh, Telangana, Jharkhand, Chhattisgarh, Gujarat, Himachal Pradesh, Madhya Pradesh, Maharashtra, Odisha, Rajasthan**.
+- STs reside in what the Constitution calls **Scheduled Areas** (Fifth Schedule); the purpose of both Fifth and Sixth Schedules is to **protect the interests of Scheduled Tribes**.
+# Declaration
+- **President** declares an area a Scheduled Area **by Order**; can increase, decrease, **alter boundaries**, rescind – in consultation with the Governor (not the Governor, Parliament or Assembly).
+- **Criteria** (not in the Constitution): **preponderance of tribals**, compactness and reasonable size, viable administrative unit (**largest unit the district, lowest a cluster of villages in a block**), **economic backwardness** – not industrial development.
+# Executive power
+- The **State's executive power extends** to Scheduled Areas – the State does not lose it, and no local body takes over (UPSC 2025: neither statement correct).
+- The **Union** can only **give directions** to the State on their administration – it does not take over the area.
+- The **Governor** reports to the **President**, **annually or whenever required** – not the Chief Minister to the Home Ministry (UPSC 2023: only two statements correct).
+# Tribes Advisory Council (Para 4)
+- Compulsory in every State **with Scheduled Areas**; the President may direct one in a State having STs but no Scheduled Areas.
+- **Not more than 20 members** ("up to 20"), about **three-fourths** of them **ST members of the State Assembly**; advises the Governor on ST welfare – no legislative or judicial power.
+# Laws and regulations (Para 5)
+- The **Governor** may direct that **any Act of Parliament or the State Legislature shall not apply**, or apply with modifications, to a Scheduled Area (after consulting the TAC).
+- The **Governor** makes **regulations for peace and good government**: may **prohibit or restrict transfer of land** by or among STs (so declaring an area Scheduled **prevents tribal land passing to non-tribals**), regulate land allotment and **money-lending**; may repeal or amend Acts – all need the **President's assent**.
+- **Parliament** may amend the Fifth and Sixth Schedules by **ordinary law** (not an Art. 368 amendment).
+> APPSC G2 "all correct except": the false one is "Governor is **not** authorised to direct that an Act shall not apply".
+~~ Sources: Laxmikanth 8th ed. ch.42 (src/polity/laxmikanth-indian-polity-02.txt p.142-143, 145); NextGen Polity - APPSC Exams 25 p.11-12; NextGen 18 p.7; Rocket Polity Part 2 p.10; app notes 2:83
+
+=== Sixth Schedule – Tribal Areas and Autonomous District Councils
+- **Articles 244(2) and 275(1):** **Assam, Meghalaya, Tripura, Mizoram** only – NOT Nagaland (371A), **Manipur** (371C), Arunachal or Sikkim.
+- **Not** applicable wherever STs exceed 40% – the four States are named; the areas stay **within the State's executive authority** (and State Legislature's, subject to the Schedule).
+- **Ten autonomous districts:** Assam 3, Meghalaya 3, Tripura 1, Mizoram 3.
+- The **Governor** (not the President) organises and re-organises autonomous districts, alters areas, names and boundaries; where there are different tribes he can divide a district into **autonomous regions**.
+- **Autonomous region** = a unit **within an autonomous district**, with its own **Regional Council**.
+- **District Council: 30 members – 26 elected** by adult franchise, **4 nominated** by the Governor; elected members 5 years (not 24 + 6).
+- **Powers:** laws on land, forests, canal water, shifting cultivation, village administration, **inheritance**, marriage and divorce, social customs (Governor's assent); village courts – **High Court jurisdiction specified by the Governor**; land revenue and taxes.
+- **Application of laws:** Acts do not apply or apply with modifications – direction by the **Governor in Assam** (Acts of Parliament and State); in Meghalaya, Tripura, Mizoram by the **President** for Acts of Parliament.
+- **Article 244A:** Parliament may form an **autonomous State within Assam** comprising certain tribal areas, with a local legislature or council of ministers or both.
+- **Income Tax Act s.10(26):** STs residing in specified Sixth Schedule areas are exempt on certain incomes.
+> APPSC G2 Mains 2025 (40%-rule / outside State authority / only President reorganises / no High Court): **none** is correct.
+~~ Sources: Laxmikanth 8th ed. ch.42 p.143-145; NextGen Polity - APPSC Exams 25 p.12-14; NextGen 18 p.8; app notes 2:83
+
+=== PESA Act, 1996
+- **Why:** **Art. 243M** keeps Part IX out of Scheduled and Tribal Areas; **243M(4)(b)** lets Parliament extend it by an **ordinary law** – done by the **Provisions of the Panchayats (Extension to the Scheduled Areas) Act, 1996** (PESA / Extension Act).
+- **Passed 1996**; in force **24 December 1996**; based on the **Dilip Singh Bhuria Committee** (1995).
+- Extends the **73rd Amendment (Part IX)** to **Fifth Schedule (Scheduled) Areas** only – not to Sixth Schedule Tribal Areas, not J&K.
+- **Ten PESA States** = the ten Fifth Schedule States; **not** in Assam, Meghalaya, **Tamil Nadu** (RAS 2016).
+- **Objectives:** extend Part IX with modifications; **self-rule** for tribals; **Gram Sabha the nucleus**; administration consistent with **traditional practices**; safeguard traditions and customs; free tribals from exploitation; stop higher Panchayats taking over lower-level powers – so "**all of the above**".
+- **NOT an objective:** creating **autonomous regions** (that is the Sixth Schedule) – UPSC 2013.
+# Gram Sabha powers
+| Subject | Power |
+|---|---|
+| Plans and projects | **Approves** before the village Panchayat takes them up; identifies beneficiaries |
+| Use of funds | Village Panchayat must get a **certificate of utilisation of funds** from the Gram Sabha (mandatory) |
+| Traditions | Safeguards customs, cultural identity, community resources, **customary dispute resolution** |
+| Land acquisition / resettlement | **Consultation** (not consent) |
+| Minor minerals | **Recommendation mandatory** for prospecting licence / mining lease – **minor minerals only**, not "any mineral" |
+| Minor forest produce | **Ownership** |
+| Tribal land | **Prevent alienation**; restore unlawfully alienated land |
+| Liquor, money-lending, village markets | Prohibit / regulate; control; **manage village markets** |
+- **UPSC 2012:** stop land transfer + MFP ownership correct, "recommendation for **any** mineral" wrong → **1 and 2 only**.
+- **Reservation:** STs at least **one-half** of seats; **all chairpersons ST**; State may nominate unrepresented tribes (≤ one-tenth).
+- **Gram Sabha meeting:** presided over by an **ST member elected by the Gram Sabha** (not the Sarpanch), for one year; else the oldest ST woman present.
+- Gram Sabha may be at **habitation** level (para, majra, tola); conflicting State laws lapse **one year** after assent.
+- **Zila Panchayat:** minor water bodies, social-sector institutions, Tribal Sub-Plans.
+- **Implementation gaps:** minor-mineral and MFP provisions least implemented; **40%+** PESA representatives could not explain a Gram Sabha (MoPR, Dec 2025); Tana Bhagats – no Gram Sabha consent for Bharatmala; **Odisha** – only draft rules (Apr 2026).
+~~ Sources: Laxmikanth 8th ed. ch.39 (src/polity/laxmikanth-indian-polity-02.txt p.108-110); NextGen Polity - APPSC Exams 24 p.4; app notes 2:83
+
+=== Andhra Pradesh – Scheduled Areas, PESA and ITDAs
+- **AP PESA law:** **AP Panchayat Raj (Amendment) Act, 1998 (Act 7 of 1998)** amended the AP PR Act 1994 – AP implemented PESA from **1998**; **AP PESA Rules, 2011** (G.O.Ms.No.66, PR&RD, 24 Mar 2011).
+- **AP PESA Rules, 2011:** the **Gram (village) Panchayat** concerned acts as the **market committee** for village markets/shandies in Scheduled Areas.
+- **PESA districts (13-district map):** **5** – Srikakulam, Vizianagaram, **Visakhapatnam**, East Godavari, West Godavari; since **April 2022** the agency tracts lie mainly in **Alluri Sitharama Raju** (carved from Visakhapatnam) and **Parvathipuram Manyam** districts.
+- **AP Reorganisation Act, 2014:** **s.29 + its Sixth Schedule** amend the **Constitution (Scheduled Tribes) Order, 1950** for AP (the Act's own Sixth Schedule, not the Constitution's).
+- **Agency tracts** of the **Eastern Ghats**; **34** ST communities; **2,038** PESA Gram Sabhas.
+- **7 ITDAs, 76 mandals:** **Paderu, Rampachodavaram, Chintoor** (Alluri Sitharama Raju; Chintoor – Godavari Koya belt); **Seethampeta, Parvathipuram** (Parvathipuram Manyam); **KR Puram** (Eluru); **Srisailam** (Chenchus, Nallamala).
+- **Alluri Sitharama Raju** district: tribal-majority, with **PVTGs**; **Araku** – ST Lok Sabha seat; **Tribal Medical College, Paderu** (2024-25, 50 seats).
+- **PESA Mahotsav** (30 years of PESA) – **Visakhapatnam**, Dec 2025.
+~~ Sources: MCRHRDI "Implementation of PESA Act" slides (mcrhrdi.gov.in, 2026); 5-district list: APPSC key + general knowledge, not checked; advocatekhoj.com AP Reorganisation Act 2014, Sixth Schedule; app notes 2:83
+
+=== Land, Forest Rights and Landmark Cases
+- **Samatha v. State of AP (1997, SC):** transfer/lease of **tribal land in Scheduled Areas to private parties for mining** is **null and void** – under the **Fifth Schedule**.
+- **AP Scheduled Areas Land Transfer Regulation 1 of 1959**, amended by **Regulation 1 of 1970** – bars transfers between tribals and non-tribals and among non-tribals.
+- **Forest Rights Act, 2006:** the **Gram Sabha** is the authority to **initiate the process** of determining the nature and extent of individual and community forest rights; MFP ownership; diversion for public utilities needs Gram Sabha recommendation; OTFDs – **three generations (75 years)** before 2005.
+- **Niyamgiri (2013):** Gram Sabhas decided whether bauxite mining affected their **religious and forest rights** – rejected **Vedanta**.
+~~ Sources: Rocket Polity Part 2 p.10; Laxmikanth 8th ed. ch.39 p.110; app notes 2:83
+
+=== Fifth vs Sixth Schedule and Committees
+| Basis | Fifth Schedule | Sixth Schedule |
+|---|---|---|
+| Article | **244(1)** | **244(2)**, 275(1) |
+| Called | **Scheduled Areas** | **Tribal Areas** |
+| States | 10 (AP, Telangana …) | **Assam, Meghalaya, Tripura, Mizoram** |
+| Key body | **Tribes Advisory Council** (advisory) | **Autonomous District / Regional Councils** (legislative, judicial) |
+| Union | Can give directions | Stays within State executive |
+| PESA | **Applies** | Does not apply |
+- **Bearing on education:** DPSP, rural and urban local bodies (Eleventh/Twelfth Schedules), **Fifth and Sixth Schedules** (district councils run primary schools) and the Seventh Schedule – **all five** (UPSC 2012).
+| Committee | Year | Note |
+|---|---|---|
+| U.N. Dhebar Commission | 1960-61 | First Scheduled Areas and ST Commission |
+| Lokur Committee | 1965 | Five ST criteria |
+| Dilip Singh Bhuria Committee | 1995 | Basis of PESA (MoRD) |
+| Bhuria Commission | 2002-04 | Second Scheduled Areas Commission |
+| Virginius Xaxa Committee | 2013 (PMO); report May 2014 | Tribal socio-economic status |
+~~ Sources: Laxmikanth 8th ed. ch.42 p.142-143; NextGen Polity - APPSC Exams 25 p.14; app notes 2:83
+
+=== Scheduled Tribes – Articles and Data
+| Article | Content |
+|---|---|
+| 15(4) | Special provisions for educational advancement (seats, scholarships) |
+| 46 | DPSP – educational and economic interests of SCs, STs |
+| 164(1) proviso | Tribal welfare Minister – **Chhattisgarh, Jharkhand, MP, Odisha** (94th Amendment, 2006 dropped Bihar) |
+| 243M | Part IX not to apply to Scheduled and Tribal Areas |
+| 275(1) | Grants-in-aid for ST welfare and Scheduled Areas – an economic safeguard |
+| 330 / 332 | ST seats in **Lok Sabha** / **State Assemblies** |
+| 338A | NCST – **89th Amendment, 2003** |
+| 339 | Union control over Scheduled Area administration and ST welfare |
+| 342 | **President, after consulting the Governor**, notifies STs; later changes only by **Parliament by law** |
+| 371A / 371C | Nagaland / **Manipur** hill-area committee |
+- **ST vs SC:** ST status is **religion-neutral**; SC status only Hindus, Sikhs, Buddhists.
+- **Census 2011:** STs **8.6%**; about **705** groups; largest tribe **Bhil**; largest ST population **Madhya Pradesh**; no STs notified in **Punjab**, Haryana, Delhi, Chandigarh, Puducherry.
+- **NCST focus:** ownership of minor forest produce, mineral and water rights, rehabilitation.
+~~ Sources: Laxmikanth 8th ed. ch.42 p.145; app notes 2:83

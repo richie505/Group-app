@@ -1,0 +1,140 @@
+=== Chirala-Perala Movement and Duggirala Gopalakrishnayya, 1921
+# Duggirala Gopalakrishnayya
+- **Leader** of the **Chirala-Perala movement** (1921) – not Veeraiah Chowdary, Konda Venkatappayya, Prakasam or N.G. Ranga.
+- **Title:** **"Andhra Ratna"** – not Andhra Bhakta, Deshabandhu or Deenabandhu; also called "Ramadasu".
+- **Volunteer corps:** **"Ramadandu"** (1921) – not Shiva Sena, Girisena or Shanti Sena (Shanti Sena = Parvataneni Veeraiah Chowdary, Pedanandipadu).
+- **Life:** 1884-1929, born at **Penuganchiprolu** (Krishna); M.A. (Hons) Economics, **Edinburgh** (1916); met Gandhi in London (1915), introduced by **Ananda K. Coomaraswamy**.
+- **Education work:** founded the **Andhra Vidyapeetha Goshthi** near Chirala (national education); after the NCM an Andhra secretary of the **Swaraj Party**.
+# The movement
+| Angle | Fact |
+|---|---|
+| Place | **Chirala and Perala**, Bapatla taluk, **Guntur** district – weavers and small farmers |
+| Cause | The two villages were made a **municipality**; yearly tax rose from **Rs 4,000 to Rs 40,000** |
+| Method | **No-tax campaign** (March 1921); Gandhi met Duggirala at the **Vijayawada AICC (30-31 March 1921)** and visited Chirala on 6 April 1921 |
+| Exodus | Midnight of **25 April 1921**: **13,572 of 15,326** residents left their homes |
+| New township | **Ram Nagar (Ramnagar)** outside municipal limits, with a parallel all-caste assembly (self-rule); Ramadandu built huts and dug wells; stay lasted **11 months** |
+| Arrest | Duggirala arrested after his speech at the Andhra Mahasabha, **Berhampur** (Sept-Oct 1921), for breaking a ban on speaking; tried by Rutherford at Srikakulam; one year's rigorous imprisonment |
+| Failure | Lack of funds (the PCC did not grant even Rs 4,000), rivalry of Konda Venkatappayya and Pattabhi, no leader after his arrest |
+| Gandhi's view | *Young India*: the municipality meant only more taxes and interference with liberty |
+| Outcome | Municipality abolished in **1938** by **Bezawada Gopala Reddy**, minister in the Rajaji ministry |
+- Book: ***Chirala Perala Vanavasam*** – **Pisapati Narayana Sastri**.
+- Women: 12 arrested; **first woman jailed – Ravuri Alivelu Mangatayaramma**; Duvvuri Subbamma was also arrested but was not the first.
+> Ramadandu = Duggirala = Chirala-Perala = Andhra Ratna; Ram Nagar = the township of the exodus.
+~~ Sources: NextGen Modern India L3 Part 7 p.5-7; NextGen Modern India L2 Part 6 p.6-7; NextGen previous papers p.2, p.16, p.34, p.38-39; app notes 1:210 (sub 1)
+
+=== Rampa (Manyam) Rebellion, 1922-24
+# Nature and span
+- **Leader and period:** **Alluri Sitarama Raju** (not Aggi Raju, Gantam Dora, Ambul Reddy, Velu Thampi); **1922-1924** (first raid **22 Aug 1922** – Raju shot **7 May 1924**) – not 1919-20, 1921-22 or 1925-26.
+- **Area:** Agency tracts of East Godavari and Visakhapatnam – the **Gudem hills**; base among the **Koya** tribe (with Konda Doras and Konda Reddis) – not Bhils or Gonds.
+- **Character:** armed tribal guerrilla war, **outside the Congress**; caused the British more trouble than the NCM in the region.
+- **Method:** **raided police stations to seize British arms and used them against the British** – not non-cooperation or open war.
+# Chronology and places
+| Date | Event |
+|---|---|
+| **22 Aug 1922** | **Chintapalli** – the **first police station attacked** (not Rampachodavaram, Krishnadevipeta, Rajavommangi, Annavaram or Addateegala) |
+| Aug 1922 | **Krishnadevipeta** and **Rajavommangi** stations raided |
+| Sept 1922 | **Damanghat / Panjerighat** – the **first face-to-face battle** with the British army; officers **Scott Coward and Heiter** killed |
+| 6 Dec 1922 | **Peddagaddapalem** – **first defeat** of Raju's forces, a surprise attack by the **Malabar Special Police**; Raju escaped |
+| April 1923 | Rebellion resumed – **Annavaram** police station attacked |
+| **18 Sept 1923** | Lieutenant **Gam Mallu Dora captured** – first major setback (so **1923**, not 1924) |
+| 6 May 1924 | **Aggi Raju** (Pericherla Suryanarayana) captured |
+| 7 May 1924 | Raju captured and shot at **Koyyur** |
+| June 1924 | **Gam Gantam Dora** killed – end |
+# British officers and forces
+| Name | Role |
+|---|---|
+| **Assam Rifles** | Two companies brought in to end the rebellion (paramilitary force) – not "Madras / Malabar / Pune Rifles" |
+| **Rutherford** | **Special Commissioner** appointed to suppress Raju – a civil (colonial) administrator, not an army or Bombay police officer |
+| **Major Goodall** | Officer in whose presence (on whose orders) Raju was shot |
+| **Jamedar Kunchu (Kanchu) Menon** | Captured Raju |
+| **Bastian** | **Deputy Tahsildar of Gudem**, whose excesses sparked the revolt |
+- **Endu Padal** was a follower of Raju from Peddavalasa who wanted to become a muttadar – "Endu Padal – muttadar of Pedda Valasa" is the **wrong pairing**.
+- Associates: **Gam Mallu Dora** (later an MP, 1952), **Gam Gantam Dora**, **Aggi Raju**.
+- **Keirns** arrested Gam Mallu Dora (app notes); the Malabar Special Police were used before the Assam Rifles.
+> First raid = **Chintapalli**; first battle = **Panjerighat**; force that ended it = **Assam Rifles**; Special Commissioner = **Rutherford**.
+~~ Sources: NextGen Modern India L3 Part 7 p.9-10; NextGen Modern India L2 Part 6 p.7; Rocket AP History p.17; PMF Modern History Part 5 p.139; NextGen previous papers p.16, p.26, p.38, p.45; app notes 1:210 (sub 4, 7)
+
+=== Alluri Sitarama Raju – Life, Death and Memory
+| Angle | Fact |
+|---|---|
+| Born | **1897**; birthplace in most books and keys **Mogallu (Moggallu), West Godavari** – other accounts give Pandrangi (near Vizianagaram) or Bhimavaram |
+| Title | **"Manyam Veerudu"** (Hero of the Jungle) – not Komaram Bheem or Karam Tammanna Dora |
+| Training | **1921: visited Chittagong** and met Bengal revolutionaries (a British report) |
+| Stance | Influenced by the NCM but believed in **force**; not a Congressman |
+| Death | Captured by Jamedar Kunchu Menon, shot at **Koyyur** on **7 May 1924** (Major Goodall) |
+| Burial / tomb | **Krishnadevipeta** (Visakhapatnam), 8 May 1924 – not Mogallu, Chintapalli or Sankhavaram |
+| Biographer | **Erramalli Narasimha Rao** |
+- Andhra Patrika (8 May 1924) hailed him as **a great national hero** (exam key).
+- Nickname: **Chittibabu**.
+- Memory: Agency district named **Alluri Sitarama Raju district**; 30-ft statue at **Bhimavaram** for his 125th birth anniversary; **Alluri Sitarama Raju International Airport, Bhogapuram** (Vizianagaram).
+> Born **Mogallu** (exam answer) – shot at **Koyyur** – tomb at **Krishnadevipeta**.
+~~ Sources: NextGen Modern India L3 Part 7 p.9-10; NextGen Modern India L2 Part 6 p.7; NextGen previous papers p.43; PMF Modern History Part 5 p.139; https://en.wikipedia.org/wiki/Alluri_Sitarama_Raju; app notes 1:210 (sub 6, 7)
+
+=== Guntur No-Tax Campaigns – Pedanandipadu and Palnadu, 1921-22
+# Pedanandipadu no-tax campaign
+| Angle | Fact |
+|---|---|
+| Place | **Pedanandipadu firka**, Bapatla taluka, **Guntur** district – "the" no-tax campaign of Andhra (not Chirala, Perala or Nellore) |
+| Leader | **Parvataneni Veeraiah Chowdary** – **"Andhra Shivaji"**; volunteer force **Shanti Sena** |
+| Origin | Grievances of village officers; **18 of 19 village officers resigned** (led by Machiraju Ramamurthy); people refused **land revenue** |
+| Period | 1921-22 (instalment of Jan-Feb 1922) |
+| End | Gandhi advised suspension – suspended **11 Feb 1922**; ended by March 1922 |
+- Others: Konda Venkatappayya and Gollapudi Sitarama Sastri backed it; **Nyapathi Subbarao** urged restraint; Congress inquiry by **T. Prakasam, Kasinathuni Nageswara Rao, Dantu Narayana Raju**; Revenue Board member **L.T. Harris** sent to Guntur; Rutherford's plan to ban the Shanti Sena rejected by the Madras Government.
+# Palnadu forest (Pullari) satyagraha
+- **Pullari** = tax on **grazing cattle in forest lands** (grass tax) – the "Forest Satyagraha", first in **Palnadu** (Guntur).
+- **Period:** **1921-22**. **Leader:** **Kanneganti Hanumanthu**, killed in police firing on **26 Feb 1922** (Minchalapadu).
+- **Unnava Lakshminarayana** went to Palnadu in **July 1921** to study the agitation against the forest laws (not Vedam Venkatachari, Ramadasu Pantulu or Swami Sitaram); arrested with Vedantam Narasimhachari.
+- Social boycott of officials at Macherla.
+- **Shanti Sena** was decided upon by the **Guntur DCC in Dec 1921**; the campaign was suspended after Gandhi's message to Konda Venkatappayya reached the DCC.
+# NCM background in Andhra
+- **Bezawada (Vijayawada) AICC, 31 March - 1 April 1921** brought Gandhi's programme into Andhra; **Delhi AICC (5 Nov 1921)** let provinces start civil disobedience, including no-tax.
+- **"Glorious Decade"** of Andhra = **1921-1931**.
+| Place | Movement | Leader |
+|---|---|---|
+| Chirala-Perala | Against municipal tax | Duggirala Gopalakrishnayya |
+| Palnadu | Pullari / forest satyagraha | Kanneganti Hanumanthu |
+| Pedanandipadu | No-tax (land revenue) | Parvataneni Veeraiah Chowdary |
+| Rampa | Armed tribal rebellion | Alluri Sitarama Raju |
+> **Andhra Shivaji** = Parvataneni (Pedanandipadu); Pullari = grazing tax (Palnadu) – not Duggirala.
+~~ Sources: NextGen Modern India L3 Part 7 p.7-8; NextGen Modern India L2 Part 6 p.6-7; NextGen AP History Part 6 p.12; NextGen previous papers p.1, p.3, p.11, p.26, p.34, p.44, p.58; NextGen AP History Part 7 p.3; Rocket AP History p.29, p.35; app notes 1:210 (sub 2, 3)
+
+=== Agency Grievances and the Earlier Revolts of 1879
+# Grievances behind the Rampa rebellion
+| Grievance | Effect |
+|---|---|
+| **Madras Forest Act, 1882** | Reserved forests cut podu (shifting cultivation), grazing and forest-produce rights |
+| **Begar** | **Forced (unpaid) labour** for road building – not voluntary or paid labour |
+| Muttadari system | Extortion by muttadars |
+| Tahsildar **Bastian** | Excesses of the local official |
+- **Permanent Settlement was not a cause.**
+# 1879 revolts
+- **Rampa revolt (1879-80):** against Mansabdar Madhava Bhupati; leaders Dwarabandala Chandrayya, Ambul Reddy; crushed 1880.
+- **Rekapalli (Rekapalle) revolt (1879):** Bhadrachalam taluk – rising against the **forest laws** and higher taxes on podu after the area joined the Madras Presidency (1874); NextGen's PYQ list puts the 1879 forest revolt at **Chinturu**, a village of the same tract.
+- **Alluri did not lead the 1879-80 revolt** – he was born in 1897.
+- Details (app notes): Rekapalli's spark – axe tax on podu raised from **4 annas to 4-12 annas** in a famine; **Ambul Reddy** is linked with both the Rampa and Rekapalli revolts; **Dwarabandala Chandrayya** burnt the Addateegala police station; **Sullivan** removed Madhava Bhupati and the revolt was crushed in **Nov 1880**.
+| Year | Revolt |
+|---|---|
+| 1794 | Vizianagaram – Vijayarama Raju killed at Padmanabham |
+| 1845-48 | Gulugonda tribal revolt – Chinna Bhupathi |
+| 1879 | Rampa and Rekapalli revolts |
+| 1922-24 | Alluri's Rampa rebellion |
+> Forest revolt of 1879 = **Rekapalli** (Chinturu in one key); Rampa 1922 = **Forest Act of 1882**.
+~~ Sources: NextGen Modern India L3 Part 1 p.53; NextGen Modern India L3 Part 7 p.9; NextGen AP History Part 6 p.12; NextGen previous papers p.5-6; app notes 1:210 (sub 4, 5)
+
+=== Andhra Leaders – Titles, Books and Pairings
+| Title / work | Person |
+|---|---|
+| **Andhra Ratna** | Duggirala Gopalakrishnayya |
+| **Andhra Shivaji** | Parvataneni Veeraiah Chowdary |
+| **Andhra Kesari** | Tanguturi Prakasam |
+| **Desabhakta** | Konda Venkatappayya |
+| **Desoddharaka** | **Kasinathuni Nageswara Rao** (title given at the 1924 Andhra Mahasabha) – not Desabhakta or Desabhimani |
+| **Kavi Raju** | Tripuraneni Ramaswamy Chowdary |
+| ***Naa Jeevitha Katha*** | Ayyadevara Kaleswara Rao (autobiography) |
+| **Abhinava Dandi** | Ketana – a medieval poet, not a freedom fighter |
+- **N.G. Ranga** wrote ***Bapu Blesses***; **Vahini** – a Telugu political journal linked with N.G. Ranga and peasant leaders (Rocket gives 1930).
+- **Ayyanki Venkata Ramanayya** – father of the **library movement** in Andhra.
+- **Kandukuri Veeresalingam** = **Gadya Tikkana**; **Bipin Chandra Pal** = **Vande Mataram** movement (1907 tour of Andhra).
+- **Unnava Lakshminarayana** wrote the novel ***Malapalli*** (written 1921 in Vellore jail, published 1922); ran **Sharada Niketan**, Guntur, with his wife Lakshmibayamma.
+> Match drill: Chirala-Perala – Duggirala; Palnadu – Kanneganti; Rampa – Alluri; library movement – Ayyanki.
+~~ Sources: NextGen Modern India L3 Part 7 p.4; NextGen Modern India L2 Part 10 p.7; NextGen Modern India L2 Part 3 p.11; NextGen previous papers p.3, p.14, p.16, p.38; Rocket AP History p.20; https://www.wisdomlib.org/history/compilation/triveni-journal/d/doc70890.html; app notes 1:210 (sub 8, 11)

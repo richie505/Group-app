@@ -1,0 +1,71 @@
+=== The English in Andhra – Globe, Machilipatnam and Armagaon
+- **1611**: the ship **Globe** under **Captain (Anthony) Hippon** – not Hawkins – reached **Machilipatnam** (January 1611), with **Peter Floris** (a Dutchman in English service) as merchant.
+- Permission from the Golconda Sultan **Muhammad Quli Qutb Shah** → **first English factory in Andhra / South India / on the east coast = Machilipatnam (1611)** – not Kakinada, Visakhapatnam, Bheemunipatnam or Golconda.
+- A-R (APPSC G2 2025): "Globe under Hawkins" is **false**; "Quli Qutb Shah permitted the factory" is **true** → (A) false, (R) true.
+| Year | English settlement | Note |
+|---|---|---|
+| **1611** | Machilipatnam | 1st |
+| 1621 | Pulicat (Dutch settlement) | Abandoned – Dutch hostility |
+| **1626** | **Armagaon** (Dugarajapatnam), **Nellore** region, now Tirupati district | Named after Karanam Armugam Mudali; 35 miles north of Pulicat; **second English factory in the Andhra region** |
+| 1632 | Golden Farman → back to Machilipatnam | |
+| 1639 | Madras | Francis Day |
+| 1682 | Visakhapatnam | |
+- English factory in **Nellore district** = **1626** (Armagaon); other English posts: Nizampatnam, Narsapur, **Madapollam**, Bheemunipatnam.
+- **Golden Farman** = **1632** (Spectrum, PMF; NextGen Qutb Shahi notes give 1636) from the Sultan of Golconda **Abdullah Qutb Shah**: free trade in **Golconda ports** for **500 pagodas a year** – not from the Mughal emperor.
+- English used **Dadni** advances through **dubashes**; they **paid weavers less** and demanded high quality, so weavers preferred the Dutch, Portuguese and French.
+~~ Sources: NextGen Modern India L3 Part 1 p.7, 13; NextGen Modern India L2 Part 1 p.10; NextGen Modern India Part 1 (src/ap-history/nextgen-modern-part1.txt) p.2-3; Spectrum Modern India p.71 (Golden Farman 1632); PMF Modern History Part 2 p.5 (Golden Farman 1632); NextGen Qutb Shahis (src/ap-history/nextgen-11-qutbshahis.txt) p.8 (1636); old app notes row 157
+
+=== First Europeans in Andhra – Order of the Factories
+- **First Europeans to trade with India = Portuguese (1498)**; order of arrival: **Portuguese → Dutch → English → French**.
+- **First trade contacts with the Andhra region = Portuguese** (16th century, from San Thome and Pulicat) – but they opened a factory at Machilipatnam only in **1670**.
+- **First European factory in Andhra = Dutch, Machilipatnam, 1605** (NextGen; Spectrum) – "first factory / trade centre at Machilipatnam" = **Dutch**, not Portuguese.
+| Order | Power | Machilipatnam factory | Permission |
+|---|---|---|---|
+| 1st | **Dutch** | **1605** | Muhammad Quli Qutb Shah |
+| 2nd | **English** | **1611** | Muhammad Quli Qutb Shah |
+| 3rd | **French** | **1669** | Abdullah Qutb Shah |
+| 4th | **Portuguese** | **1670** | Abdullah Qutb Shah |
+- Why the Europeans came: coastal Andhra's position on the **Bay of Bengal** for sea trade, its **chintz** and **diamonds**; Hyderabad founded **1591** by Muhammad Quli Qutb Shah.
+- **Tavernier** (17th-century French jeweller) visited the Andhra (Golconda) mines for diamonds; **Marco Polo** visited **Motupalli**.
+- **Portuguese** contributions: crops such as **tobacco**, chilli, cashew (to check soil erosion in Goa); Arabian Sea monopoly until the **17th century**; **Blue Water Policy** of **Almeida**.
+~~ Sources: NextGen Modern India L2 Part 1 p.4-5, 8, 12; Spectrum Modern India p.67 (Dutch first factory Masulipatnam 1605); NextGen Indian History - APPSC Exams Part 5 p.27-28; NextGen Qutb Shahis p.12-13 (Tavernier); old app notes row 157
+
+=== The French in Andhra – Machilipatnam to the Northern Circars
+- **French factory in Andhra = Machilipatnam, 1669** (by **Marcara**, permission of **Abdullah Qutb Shah**) – not Motupalli, Narsapur, Visakhapatnam, Yanam or Kakinada.
+- **Yanam** (1723) = the **only French territorial possession / settlement in Andhra**; not Rajahmundry, Hamsaladivi or Ongole.
+- **1753**: **Bussy** got the **Northern Circars** – Mustafanagar (**Kondapalli**), Eluru, Rajahmundry, Chicacole – from **Salabat Jang** to pay for French troops (Nellore was not among them).
+| Battle | Year | Fact |
+|---|---|---|
+| Tumnapalem | 1756 | Bussy + Vijayaramaraju vs **Jafar Ali** |
+| **Bobbili** | **24 Jan 1757** | Vijayaramaraju of Vizianagaram, with **Bussy's French**, destroyed Bobbili; Ranga Rao killed; queen **Mallamma**; **Tandra Papayya** then killed Vijayaramaraju |
+| **Chandurthi (Condore)** | **Dec 1758** | Col. **Forde** (sent from **Bengal**), aided by **Ananda Gajapati** of Vizianagaram, defeated the French under **Conflans** |
+| Fall of Masulipatnam | **1759** | Forde took Machilipatnam; **Salabat Jang** gave the English **Machilipatnam, Nizampatnam**, Vakal Mannar, part of Kondapalli |
+| Wandiwash | 1760 | **Eyre Coote** beat **Count de Lally** |
+- **Chandurthi** lies in the old **East Godavari** district (now the **Kakinada** region) – not Vizianagaram, Nellore, Chittoor or Kurnool.
+- Chandurthi led to the **expulsion of the French** from the Northern Sarkars; Circars to the English 1765-68, **Guntur 1788**.
+- The **European** traders entered Indian politics when the Nizams of Hyderabad sought their help against rivals.
+~~ Sources: NextGen Modern India L2 Part 1 p.11-13 (Chandurthi 7 Dec 1758); NextGen Modern India Part 1 p.3-4 (gives 1759); https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/at-26-pusapati-king-drove-away-french-forces-from-north-andhra-1896173 (Chandurthi "now in Kakinada region", 7 Dec 1758); https://en.wikipedia.org/wiki/Battle_of_Condore (9 Dec 1758); Spectrum Modern India p.74; old app notes rows 155, 157
+
+=== The Dutch in Andhra
+| Dutch settlement | Year | Note |
+|---|---|---|
+| **Machilipatnam** | **1605** | First Dutch (and first European) factory in Andhra; Admiral **Van Hagen**; they built a fort there |
+| **Nizampatnam (Petapoli)** | 1606 | Second Dutch factory on the Coromandel coast |
+| **Pulicat** | 1610 | **Fort Geldria**; Dutch HQ till 1690, then **Nagapattinam** |
+| Palakollu | 1613 | Godavari delta |
+| Draksharama | 1633 | Godavari delta |
+| Bheemunipatnam, Narasapuram, Jagannayakapuram | 17th century | |
+- APPSC statements: Dutch factories at **Surat, Machilipatnam and Petapoli** (true); settlements at **Nagapattinam, Narasapuram, Bheemunipatnam, Chinsurah** (true); "51 trading centres on the Andhra coast" – not in the sources → **B and C only**.
+- Dutch = first to get the right to **mint coins** in Andhra; traded **without middlemen**; Chinsura (Bengal) was Dutch; defeated at **Bedara/Chinsura (1759)**.
+- Other Dutch factories in India (Spectrum): **Surat (1616)**, Bimlipatam (1641), Karaikal (1645), Chinsura (1653), Nagapatam (1658), Cochin (1663).
+~~ Sources: NextGen Modern India L3 Part 1 p.3; NextGen Modern India Part 1 p.1; NextGen Indian History - APPSC Exams Part 5 p.29-30; NextGen Modern India L2 Part 1 p.8-10; old app notes row 157
+
+=== Missionaries and Colonial Firsts in Andhra
+- **Christian missionaries** contributed most to education in Andhra; **Rev. Robert Noble** started a school at **Machilipatnam (1843)** → **Noble College**.
+- **Benjamin Schultze** completed the first Telugu Bible translation about **1732** (printed at Halle 1746-47).
+| System | Fact |
+|---|---|
+| Ryotwari | First tried in the **Baramahals** (Madras Presidency) |
+| **Zilla-bandi** system | Hyderabad State, **1865**, by **Salar Jung** |
+| Mulki rules | **1888**, under **Mir Mahboob Ali Khan** |
+~~ Sources: NextGen AP History - APPSC Part 7 (src/ap-history/ap-history-appsc-07.txt) p.6 (Zilla-bandi 1865); Rocket AP History (Zilla-bandi); old app notes row 157

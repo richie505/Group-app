@@ -1,0 +1,57 @@
+=== Consumer Awareness, Standards Marks and Days
+- **"Jago Grahak Jago"** – motto of the Centre's consumer awareness campaign; mascot **"Jagriti"**. **National Consumer Helpline: 1915**.
+| Mark / law | For | Year |
+|---|---|---|
+| ISI | Industrial products | BIS Act 2016 |
+| **Agmark** | **Agricultural produce** – the certification mark for agricultural products | 1937 |
+| Hallmark | Gold, silver | Gold mandatory June 2021 |
+| FPO | Fruit products | 1955 |
+| **Eco Mark** | **Environment-friendly** consumer products | **1991** |
+| Prevention of Food Adulteration Act | Food | 1954 → **FSS Act 2006** |
+- **Legal Metrology Act 2009**: weights and measures.
+| Day / instrument | Fact |
+|---|---|
+| **National Consumer Day** (National Consumer Rights Day) | **24 December** (CPA 1986 assent) |
+| **World Consumer Rights Day** | **15 March** (J.F. Kennedy, 1962) |
+| **UN Guidelines for Consumer Protection** | Adopted **1985**; widened 1999; revised 2015 |
+| Consumers International | Founded 1960 as IOCU; renamed 1995; HQ **London** |
+- AP ranked **1st** in consumer justice, India Justice Report 2026.
+~~ Sources: app notes (old-notes.txt row 146); UN Guidelines (APPSC 2025 key)
+
+=== CCPA, Misleading Advertisements and Price Control
+- **Central Consumer Protection Authority**: **executive agency**, in force **24 July 2020**; acts on **false or misleading advertisements**, orders recalls/refunds, **class-action** complaints, penalties.
+| Section 21 | First | Repeat |
+|---|---|---|
+| Penalty on manufacturer/endorser | Up to Rs 10 lakh | Up to **Rs 50 lakh** |
+| Endorser ban | Up to **1 year** | Up to **3 years** |
+- Fined **Meta Rs 10 lakh** (walkie-talkie listings).
+- **Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954** prohibits **publication of objectionable advertisements** of drugs claiming magic cures (not sale of generics or unlicensed hospitals).
+- **NPPA price caps on coronary stents:** bare metal stent **Rs 7,260** (Feb 2017) → **Rs 7,400** (from 1 April 2017, WPI revision) → **Rs 7,660** (Feb 2018); drug-eluting stent Rs 29,600 → Rs 27,890.
+~~ Sources: app notes (old-notes.txt row 146); Lok Sabha answers on stent prices (web search results, eparlib.nic.in)
+
+=== Consumer Protection Act 2019 – Rights, Consumer and Complaints
+- **Replaced** the Consumer Protection Act, **1986** (2019 Act: assent 9 August 2019). Like the old Act, a **three-tier** consumer dispute redressal machinery.
+- **Six rights:** safety, information, choice, to be heard, redressal, **consumer awareness** (no "right to private ownership").
+- **Consumer** includes **online/electronic** purchases for personal use; a buyer for **resale or commercial purpose** is excluded. **IMA v. V.P. Shantha (1995)**: paid medical services are a **"service"**.
+- New in 2019: **CCPA**, **product liability**, e-commerce rules, **mediation cells** (attached to District, State and National Commissions, not High Courts), e-filing.
+- File where the complainant **lives or works**; admissibility decided within **21 days** or deemed admitted.
+- **Fees:** **nil up to Rs 5 lakh**; a small fee above that – so "no fee is required in any Consumer Forum" is **wrong**.
+- Consumers may get **food samples tested**; the **legal heir** of a deceased consumer may complain (UPSC 2012: statements 1 and 3 correct).
+> Exam angle: statement questions on fee, samples, legal heir; the resale buyer is not a consumer.
+~~ Sources: Laxmikanth Indian Polity 8th ed. Part 2 p.78-83 (Consumer Commissions); app notes (old-notes.txt row 146); UPSC 2012 key
+
+=== Consumer Commissions – Jurisdiction and Appeals
+| Commission | 2021 Rules | 2019 Act (original) | 1986 Act | Appeal |
+|---|---|---|---|---|
+| **District** | Up to **Rs 50 lakh** | Up to Rs 1 crore | Up to Rs 20 lakh | To State in **45 days** |
+| **State** | Rs 50 lakh – **Rs 2 crore** | Rs 1–10 crore | Rs 20 lakh–1 crore | To National in **30 days** |
+| **National (NCDRC, 1988)** | Above **Rs 2 crore** | Above Rs 10 crore | Above Rs 1 crore | To **Supreme Court** in **30 days** |
+- Jurisdiction by **value of consideration paid**, not compensation claimed (a Rs 40 lakh complaint → District Commission).
+- Under the 1986 Act they were **Consumer Forums**; **quasi-judicial** bodies. **e-Daakhil** merged into **e-Jagriti**.
+~~ Sources: Laxmikanth Indian Polity 8th ed. Part 2 p.78-83
+
+=== E-commerce Rules and Dark Patterns
+- **E-Commerce Rules 2020**: **marketplace** entity = platform only; **inventory** entity = owns the goods; grievance officer acknowledges in **48 hours**, redresses in **one month**.
+- **Dark Patterns Guidelines 2023**: **13** dark patterns (false urgency, basket sneaking).
+- **Amendment Rules 2026**: notified **9 Sept 2026**, effective **1 January 2027**; country of origin; prior price = lowest in **30 days**; sponsored listings must be disclosed; annual self-audit.
+~~ Sources: app notes (old-notes.txt row 146)

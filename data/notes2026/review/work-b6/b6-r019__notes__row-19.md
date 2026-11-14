@@ -1,0 +1,161 @@
+=== Tribal Connectivity - Adavithalli Bata 2.0 and the Adivasi Bridge
+# Adavithalli Bata 2.0
+- **Launched 11 October 2026** by **Deputy CM Pawan Kalyan** at **Kakavada village**, **Rampachodavaram mandal** (Polavaram region), **Alluri Sitharama Raju (ASR) district**.
+- **Outlay ₹2,052 crore**: roads and basic infrastructure for **remote tribal habitations**.
+- Policy/constitutional frame: **PMGSY** (launched **25 December 2000**), **Article 46**, **Fifth Schedule**.
+# ASR and Polavaram districts
+| District | Facts |
+|---|---|
+| **Alluri Sitharama Raju (ASR)** | Formed **4 April 2022**; **HQ Paderu**; **1st in India** in **Basic Infrastructure** under NITI Aayog **Aspirational Districts Programme** (Mar 2026) |
+| **Polavaram district** | **First Collector K. Dinesh Kumar**; **HQ Rampachodavaram** (Mar 2026) |
+# Adivasis build a wooden bridge (August 2026)
+- About **100 Adivasis** from **8 villages** built a **100-metre wooden bridge** between **Lothugedda and Boyapadu**, **Chintapalli mandal**, ASR district.
+- Built **8-15 August 2026** (completed on **Independence Day**); the earlier **Panchayat Raj bridge** was washed away in **2024**.
+- A similar bridge at **T. Korukonda** was built a year earlier.
+| Schedule | Covers | States |
+|---|---|---|
+| Fifth Schedule | Scheduled Areas | AP and other States |
+| Sixth Schedule | Tribal Areas | Assam, Meghalaya, Tripura, Mizoram |
+- Related provisions: **Article 46**, **PESA 1996**.
+~~ Sources: app notes (old-notes.txt, from the app's own daily current affairs)
+
+=== Awards, Sports and Sports Administration
+# SSAAT wins SKOCH Gold Award
+- **SSAAT** = **Society for Social Audit Accountability and Transparency**, AP.
+- **First State Social Audit Organisation in India** to win the **SKOCH Gold Award**.
+- Received by **AP Social Audit Director G. Srikanth** at the **109th SKOCH Summit**, **India Habitat Centre, New Delhi**.
+- Initiatives: **citizen field audits**, findings before **Gram Sabhas** and **public hearings**, **livestreaming**, **digitised reports**.
+- **SKOCH Group**: founded **1997** by **Sameer Kochhar**; **State of Governance Report** since **2003**.
+> SSAAT is the first **State Social Audit** body to win SKOCH Gold - not the first AP department.
+# Other awards in the period
+- **2 Oct 2026**: **Appalayagunta temple, Tirupati** received the state-level **Swachha Andhra Award-2026** (Gandhi Jayanti).
+# AP athletes at the Asian Games 2026 (Aichi-Nagoya, Japan)
+- **20th Asian Games**, **Aichi-Nagoya, Japan**: **19 September - 4 October 2026**.
+- **[7 Oct 2026]** AP athletes won **8 medals** (**3 gold, 2 silver, 3 bronze**) in **3 disciplines**; **CM N. Chandrababu Naidu** congratulated them.
+| Athlete (AP) | Sport | Medal and event |
+|---|---|---|
+| **Shree Charani** | **Cricket** | **Gold** - women's T20; India beat **Sri Lanka by 147 runs** in the final (India's **first gold** of the Games; **second straight** Asian Games women's cricket title); captain **Harmanpreet Kaur** |
+| **Jyothi Surekha Vennam** | **Archery (compound)** | **Gold** - women's compound team (with Prithika Pradeep, Chikitha Taniparthi) |
+| **Ganesh Mani Ratnam Thirumuru** | **Archery (compound)** | **Gold** - men's compound team; **Bronze** - men's compound individual |
+| **Dhiraj Bommadevara** | **Archery (recurve)** | **Two silvers** - men's recurve team (lost **1-5 to South Korea**) and mixed recurve team (with **Kumkum Mohod**, lost **3-5 to China**) |
+- India's archery haul: **9 medals** (**5 gold, 2 silver, 2 bronze**).
+- **6 Oct 2026**: Dhiraj Bommadevara welcomed at **Vijayawada** by **SAAP** officials and fans.
+- **26 Sep 2026**: **Jyothi Yarraji** (Visakhapatnam) **pulled out** of the **100m hurdles** first-round heat after pain in warm-up.
+> Dhiraj Bommadevara won **two silvers** (recurve), not gold; AP's golds came from **cricket** and **compound** archery.
+# Sports administration - SAAP
+- **[18 Sep 2026]** **SAAP** (Sports Authority of Andhra Pradesh) decided to hold a **skill test** for **sports-quota** applicants for the **first time**, after fake-certificate allegations.
+- For **EAPCET 2026** admissions; sports quota = **0.5%** of seats; test held **21 September 2026** at **Acharya Nagarjuna University, Guntur**.
+- **National sports award (background):** **Jyothi Yarraji** (Visakhapatnam, **100 m hurdles**) – **Arjuna Award**, National Sports Awards **2024**.
+- **Padma Shri 2026 from AP (background):** **Maganti Murali Mohan** and **Gadde Babu Rajendra Prasad** (actors, **Art**); **Garimella Balakrishna Prasad** (vocalist, Art, posthumous); **Vempati Kutumba Sastry** (**Literature and Education**).
+~~ Sources: app notes (old-notes.txt, from the app's own daily current affairs); Rocket CA 2026 Part 02 p.30-31 (Asian Games 2026: India 85 medals; archery 9 medals incl. 5 gold; compound team golds)
+
+=== Persons in News and Appointments
+| Person | Why in news |
+|---|---|
+| **S. Abdul Nazeer** | **Governor of AP**; promulgated ordinance raising judicial officers' retirement age **61 to 62** |
+| **Pusapati Ashok Gajapathi Raju** | **Governor of Goa** |
+| **Justice Mallavolu Satyanarayana Murthy** | Recommended as **Chairman, AP State Human Rights Commission** |
+| **Narella Srinivasa Rao, J.V. Manohar Reddy** | Recommended **members**, APSHRC |
+| **G. Srikanth** | AP Social Audit Director; received SKOCH Gold for SSAAT |
+| **K. Dinesh Kumar** | **First Collector, Polavaram district** |
+| **N.M.D. Farooq** | AP **Law Minister** |
+| **Gurajada Apparao** | Birth anniversary declared a **State Festival** |
+# Judicial officers' retirement age raised to 62
+- **24 August 2026**: **AP High Court Full Court** recommended **62 years**, after the **Supreme Court** directed **7 States** to raise it to 62.
+- **1 October 2026**: **ordinance** by **Governor S. Abdul Nazeer** raised it **61 to 62**; **effective from 31 March 2026**.
+- Earlier rise **60 to 61** took effect **1 November 2024**.
+# APSHRC Chairman
+- **Selection Committee** chaired by **CM N. Chandrababu Naidu** (**12 October 2026**) recommended retired HC judge **Justice Mallavolu Satyanarayana Murthy**.
+- Attended by **Speaker Ayyanna Patrudu**, **Council Chairman Moshen Raju**, **Home Minister Vangalapudi Anitha**.
+- Born **14 June 1960, Machilipatnam**; permanent HC judge **2 March 2016**; retired **13 June 2022**.
+~~ Sources: app notes (old-notes.txt, from the app's own daily current affairs)
+
+=== Laws Behind the News
+| Provision | Content |
+|---|---|
+| **Article 233** (not 234) | Appointment of **district judges** |
+| **Article 234** | Recruitment to other judicial services |
+| **Article 235** | **High Court control** over subordinate courts |
+| **PHRA 1993, Sec 21** | Constitution of **State Human Rights Commission** |
+| **PHRA 1993, Sec 22** | **Governor appoints** on Selection Committee advice |
+| SHRC structure | **Chairman + 2 members**; tenure **3 years or age 70** |
+| **APSHRC office** | **Kurnool** |
+| **NHRC** | Established **12 October 1993** |
+| **Section 38U, WPA 1972** | **State-Level Steering Committee** for tiger conservation |
+| **AMASR Act 1958** | Ancient monument must be **at least 100 years** old |
+| **AMASR Rules 1959** | Ban mining, blasting near protected sites |
+~~ Sources: app notes (old-notes.txt, from the app's own daily current affairs)
+
+=== Heritage, Culture and State Festivals
+# ASI proposes protection for five AP heritage sites (draft notifications)
+| Site | District |
+|---|---|
+| **Lingalakonda and Bojjannakonda** (at **Sankaram**) | **Anakapalli** |
+| **Salihundam** | **Srikakulam** |
+- Bojjannakonda and Lingalakonda = **Buddhist rock-cut monasteries**.
+- **ASI**: established **1861**; first DG **Alexander Cunningham**.
+# Gurajada Apparao birth anniversary - State Festival
+- Poet-reformer **Gurajada Apparao**'s birth anniversary declared a **State Festival**, observed every **21 September**.
+- State-level celebrations in **Vizianagaram district**.
+- Born **21 September 1862**, **Rayavaram**; work **Kanyasulkam**; song **"Desamunu Preminchumanna"**.
+# AP FIRST
+- **AP FIRST** (Andhra Pradesh - Future Innovation, Research, Science and Technology), set up under the **Companies Act**, moved from **Environment and Forests Dept** to **Science & Technology and Innovation Dept**.
+- **Republic Day tableau (background):** AP's **2025** tableau on **Etikoppaka toys** won **third prize (jury category)** – AP's first central award for its tableau in 30 years.
+- **Gurajada's works (PYQ):** play **Kanyasulkam**; patriotic song **"Desamunu Preminchumanna"**; poems **"Puttadi Bomma Purnamma"** (Purnamma) and **Mutyala Saralu**; **"Sarangadhara"** – long **English** poem, *Indian Leisure Hour*, **1883** – all three of the PYQ list are his.
+~~ Sources: app notes (old-notes.txt, from the app's own daily current affairs); Wikipedia "Sarangadhara" (web search: Gurajada's English poem, Indian Leisure Hour 1883); CDI AP History G2 PYQs p.1
+
+=== GI Tags and State Symbols
+# GI tags (background)
+- **Ponduru Khadi ("Patnulu")**: hand-spun, hand-woven cotton of **Ponduru village, Srikakulam district** - GI tag reported **January 2026**.
+- **Banganapalle mango**: **Kurnool** region (GI **2017**); **Araku Valley Arabica Coffee**: GI certified **1 March 2019**.
+# State symbols of residual AP (notified 2018)
+| Symbol | Name |
+|---|---|
+| State bird | **Rose-ringed parakeet** (Rama Chiluka) |
+| State flower | **Jasmine** |
+| State tree | **Neem** (Vepa) |
+| State animal | **Blackbuck** (Krishna Jinka) |
+> The 2018 list replaced the old Indian roller (bird) and water lily (flower).
+~~ Sources: app notes (old-notes.txt, from the app's own daily current affairs); NextGen AP Geography APPSC 01 p.10-11 (Jasmine, Rose-ringed parakeet)
+
+=== Wildlife - Tiger Steering Committee and NSTR
+- AP constituted the **State-Level Steering Committee** for tiger conservation under **Section 38U, Wildlife (Protection) Act 1972**.
+- **Chairman: CM N. Chandrababu Naidu**; **Vice-Chairman: Deputy CM Pawan Kalyan**.
+- Members: **Forest, Tribal Welfare, PR&RD, Social Welfare**; **Project Tiger Field Director, Nandyal**.
+- **Nagarjunasagar-Srisailam Tiger Reserve (NSTR)**: **India's largest tiger reserve by area**; **Nallamala hills** along the **Krishna**; spans **AP and Telangana**.
+- **Project Tiger: 1973**; **NTCA** = statutory authority under the WPA.
+~~ Sources: app notes (old-notes.txt, from the app's own daily current affairs)
+
+=== New Current Affairs (15 Oct - 4 Nov 2026)
+- **[22 Oct 2026] National SARAS Mela-2026, Vijayawada**: held **13-31 October 2026**; jointly by **Union Ministry of Rural Development**, **AP Government** and **SERP**; **first time held outside Delhi-NCR**; over **1,500 SHG women entrepreneurs** from **30 States/UTs**; under **DAY-NRLM** (NRLM launched **2011**, renamed **2015**); **SERP** = AP's rural poverty alleviation society; AP capital **Amaravati**.
+- **[27 Oct 2026] AP wins "Award for Merit - Outstanding Tourism State of India"** for **innovative tourism reforms**; **Tourism Minister Kandula Durgesh** got the **"Excellence in Tourism Leadership"** award; presented **26 October 2026** at the **69th Indian Travel Congress Annual Convention, Kolkata**, part of **TAAI's 75th anniversary**; **TAAI** est. **1951**, **HQ Mumbai**; **World Tourism Day 27 September**.
+- **[30 Oct 2026] Delhi's Jantar Mantar a venue for India Biennale 2026**: **108-day** international festival of **art, architecture and design** by the **Union Ministry of Culture**; **4 Dec 2026 to 21 Mar 2027**, **20+ countries**; Delhi Jantar Mantar built **1724** by **Maharaja Sawai Jai Singh II** of Jaipur; instruments **Samrat Yantra, Ram Yantra, Jai Prakash Yantra**; Jai Singh II built **five observatories** (**Delhi, Jaipur, Ujjain, Varanasi, Mathura**); only **Jaipur's** is a **UNESCO World Heritage Site (2010)**.
+> SARAS Mela 2026 at Vijayawada = first time **outside Delhi-NCR**; TAAI award ceremony was in **Kolkata**, not AP.
+~~ Sources: app notes (old-notes.txt, from the app's own daily current affairs)
+
+=== Number Game and Quick Revision
+| Item | Correct Fact |
+|---|---|
+| Adavithalli Bata 2.0 outlay | ₹2,052 crore (11 Oct 2026) |
+| Judicial retirement age | 60 > 61 (1 Nov 2024) > 62 (ordinance 1 Oct 2026, effective 31 Mar 2026) |
+| SC direction | 7 States to raise to 62 |
+| SHRC tenure | 3 years or age 70; Chairman + 2 members |
+| SKOCH Summit | 109th; SKOCH founded 1997 |
+| Wooden bridge | 100 m; ~100 Adivasis; 8 villages |
+| ASI heritage sites proposed | 5 |
+| ASR district formed | 4 April 2022 |
+| SARAS Mela 2026 | 13-31 Oct; 1,500+ SHG women; 30 States/UTs |
+| India Biennale 2026 | 108 days; 20+ countries |
+| Jai Singh II observatories | 5 |
+| AP medals, Asian Games 2026 | 8 (3 gold, 2 silver, 3 bronze) in 3 disciplines |
+| Asian Games 2026 | 20th; Aichi-Nagoya; 19 Sep - 4 Oct |
+| Sports quota (EAPCET) | 0.5%; first skill test 21 Sep 2026 |
+# FIRST / LAST / SPECIAL FACTS
+- SSAAT: first State Social Audit Organisation in India to win SKOCH Gold.
+- NSTR: India's largest tiger reserve by area.
+- First Collector of Polavaram district: K. Dinesh Kumar.
+- National SARAS Mela: first time outside Delhi-NCR (Vijayawada, 2026).
+- ASR: 1st in India, Basic Infrastructure (ADP).
+- SAAP: first-ever skill test for sports-quota applicants (21 Sep 2026, ANU Guntur).
+- Women's cricket gold = India's first gold at Asian Games 2026 (Shree Charani in the team).
+~~ Sources: app notes (old-notes.txt, from the app's own daily current affairs)

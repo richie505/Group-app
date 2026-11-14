@@ -21,7 +21,7 @@
 | Anbil plates | **Sundara Chola**; Sanskrit genealogy |
 | Tiruvalangadu plates | **Rajendra I** – genealogy and conquests |
 | Larger Leiden (Anaimangalam) | Rajaraja I's grant to the **Chulamanivarma-vihara** of the **Srivijaya** king at Nagapattinam |
-| Smaller Leiden | **3 sheets**; Kulottunga I's extension of the grant after an appeal by two envoys |
+| Smaller Leiden | **3 sheets**; Kulottunga I's extension of the grant (c. 1090) after an appeal by **two envoys of the king of Kadaram (Kidaram; Srivijaya/Sailendra)** – Rajavidyadhara Samanta and Abhimanottunga Samanta (often loosely called "Javanese envoys") |
 - **May 2026:** the **Netherlands** returned the Leiden plates.
 ~~ Sources: Rocket Indian History #1; NextGen Indian History - APPSC Exams 3 p.204; PMF Ancient & Medieval India p.404; app notes 1:87 (sub 0, 7)
 

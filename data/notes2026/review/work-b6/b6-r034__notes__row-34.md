@@ -1,0 +1,361 @@
+=== West Asia Shock – Oil, Gas, Fertiliser, Rupee and Gold
+# The Shock in Numbers
+- **US–Israel vs Iran** conflict; **Strait of Hormuz closed since February 2026** – oil, LPG, urea, ammonia, sulphur and LNG imports all hit before Kharif 2026.
+| Indicator | Value (Mar–May 2026) |
+|---|---|
+| Rupee | below ₹95 per US$ |
+| Crude | above $100/barrel (above $120 at peak); India imports about 89% of its oil (88%+ of crude) |
+| Forex reserves | fell ~$38 bn in 2 months to ~$691 bn; were ~$701.4 bn on 16 January 2026 (~11 months of goods imports) |
+| FII outflows | ~₹1.97 lakh crore (January–May) |
+| Gold imports FY26 | $71.98 bn (+24%) – record; ~$35 bn in 2022–23; 2nd-largest import after crude; ~9% of import bill |
+| RBI gold | ~880 tonnes (March 2026); ~16% of reserves |
+| Urea import price | $508 → $935/tonne (~$510 in Feb → ~$950 in Apr 2026); ammonia and sulphur above $900/t |
+| LPG imports via Hormuz | 85%+ |
+- **Hormuz**: shipping lanes about **3 km each way**; **17–20 million barrels/day**; 2.5–2.7 mb/d of India's crude (~50% of imports now; long-term ~40%).
+- West Asia holds about **48–50%** of proven oil reserves (not more than 60%). **Suez Canal** lies entirely in **Egypt**.
+- **Chokepoints:**
+| Strait | Links |
+|---|---|
+| Hormuz | Persian Gulf – Gulf of Oman (85%+ of India's LPG imports) |
+| Bab-el-Mandeb | Red Sea – Gulf of Aden |
+| Malacca | Andaman Sea – South China Sea |
+| Sunda | Java Sea – Indian Ocean |
+# PM's Austerity Appeal (Hyderabad Rally)
+- Use metro/public transport, EVs and rail freight; work from home; **avoid non-essential foreign travel and gold purchases for one year**; cut edible oil use by **10%**; adopt natural farming.
+- India = **2nd-largest gold consumer after China**; top gold source **Switzerland (~40%)**, then UAE, South Africa.
+- Edible oil sources: **palm oil – Indonesia, Malaysia**; **sunflower oil – Russia, Ukraine**.
+- Tourism 2025: Indian departures 32.71 million; foreign tourist arrivals 9.02 million; foreign exchange earnings ~₹2.74 lakh crore.
+# Gold and Silver Import Duty
+- Raised **6% → 15%** = **10% Basic Customs Duty + 5% AIDC** (Agriculture Infrastructure and Development Cess, introduced 2021).
+- Aim: curb imports, protect forex, support the rupee, reduce CAD.
+# Fertiliser Supply Shock
+- India uses about **39–40 million tonnes of urea a year**; domestic urea output fell 2.5 → ~1.5 million t/month (March 2026) due to LNG shortage.
+- **GCC = ~40% of urea imports and 60%+ of LNG imports**; ~75% of urea imports from GCC (another estimate).
+- Kharif 2026 need **~19.4 MT** urea vs opening stock **5.5 MT** (early April).
+- **Indian Potash Limited** tender for **2.5 million tonnes** of urea (April 2026).
+- Response: diversify ammonia/DAP sources (Morocco, Jordan, Indonesia, Malaysia); promote SSP, TSP instead of DAP; **Nano Urea, Nano DAP** (liquid, foliar); Phosphate Solubilising Bacteria.
+- **Ammonium sulphate**: ICAR advised States to use it in paddy instead of urea – **21% N, 24% S**; suits alkaline soils; by-product of caprolactam and coke-oven gas.
+- **Substandard fertilisers – Vidisha (MP)**, Rabi 2025–26: samples of **IFFCO** and **Indian Potash Limited** "non-standard" under **FCO 1985** (DAP sample 20 Dec 2025 – low N and P; APS 1 Dec 2025 – low P and S; TSP non-standard).
+| Fertiliser | Composition |
+|---|---|
+| DAP | 18:46:0 (N:P₂O₅:K) – "starter fertiliser" |
+| APS | 20:20:0:13 (N:P:K:S) |
+| TSP | about 46% P₂O₅ |
+- **Fertiliser Control Order, 1985** – issued under the **Essential Commodities Act, 1955**; licensing, nutrient standards, inspection, re-test on dispute.
+~~ Sources: Rocket CA 2026 Part 01 (src/current-affairs/rocket-ca-2026-01.txt) p.85 (closure of Strait of Hormuz); app notes 6:34:sub 0 (Carpediem CA)
+=== Energy Security – LPG, LNG, SPR, Kerosene, Ethanol
+# LPG Shortage and Storage Gap
+- India **second-largest LPG consumer**; ~3 million t/month (~80,000 t/day); 85%+ used by households.
+- Imports ~20 million t/year (tripled 2011–12 to 2024–25); dependency 47% (2015) → **~60%**; ~90% of imports via Hormuz → ~54% of supply vulnerable.
+- **33 crore** domestic connections (33.3 crore households); **~10 crore added after 2017 under PMUY**.
+- **Underground LPG caverns: 1.4 lakh t – less than two days** of consumption; MoPNG: no more caverns planned.
+- Response: LPG and CNG on priority list under Essential Commodities Act; refineries maximised LPG (domestic output +40%; share 40% → 55%); booking interval urban 25 days, rural 45 days; ~60 lakh households can shift to PNG; **US deal 2.2 million t LPG/year** (~45 days shipping); IEA release of ~400 million barrels.
+- NRAI warned ~60% of restaurants could shut; IEA flagged lack of storage.
+- Gas: ~50% imported, 55–60% of it from West Asia → ~30% of LNG affected; PNG/CNG prioritised over industry.
+- Storage options: depleted gas fields – **KG Basin, Cambay, Mumbai Offshore** (**Deccan Traps not** among them).
+- **Ethyl mercaptan** (sulphur compound) is added to LPG for leak detection.
+# LPG, LNG, PNG, CNG
+| Fuel | Composition / form | Use |
+|---|---|---|
+| LPG | Propane + butane; from crude refining and gas processing; liquid in cylinders at moderate pressure – 1/260th volume; heavier than air | Household cooking |
+| LNG | Natural gas (methane) cooled to ~–160/–162°C – 1/600th volume; cryogenic tanks; lighter than air | Shipping/storage form; feeds PNG, CNG |
+| PNG | Piped methane; lighter than air, disperses fast | Homes, industry |
+| CNG | Methane compressed at high pressure | Transport fuel |
+- **PNG supply chain**: LNG → regasified at coastal terminals → trunk pipelines → **City Gate Stations** → steel/polyethylene city network → metered households. Planning integrated with **PM Gati Shakti** (City Gas Distribution).
+# Strategic Petroleum Reserves
+- SPRs (March 2026): **3.37 MMT stored of 5.33 MMT (~64%)**; at full capacity only **~9.5 days** of crude need.
+- Total national storage incl. commercial **~74 days** (govt estimate ~8 weeks); **IEA norm 90 days**; India is an **associate member of IEA**. EU gas storage must be 90% full before winter.
+| SPR site (ISPRL, rock caverns) | Capacity |
+|---|---|
+| Mangalore (Karnataka) | 1.5 MMT |
+| Padur (Karnataka) | 2.5 MMT |
+- Phase II (July 2021): **Chandikhol (Odisha) 4 MMT**, Padur expansion 2.5 MMT; proposed Bikaner, Rajkot. SPR idea first mooted in **1973** (first oil crisis).
+- **PNGRB**: statutory body (PNGRB Act 2006); quasi-judicial; regulates **downstream** (refining, storage, transport, distribution, marketing) – **not** crude/gas production; appeals to **APTEL** (Electricity Act, 2003).
+- **Mission Anveshan**: oil and gas exploration using satellite imagery – **ONGC** (1956) with **Alpha Geo**.
+# Superior Kerosene Oil via PDS
+- MoPNG gazette notification: **SKO through PDS in 21 States/UTs** (incl. Delhi, Gujarat) where LPG/electricity access is limited.
+- Smoke point 18–22 mm; flash point above 35–40°C; **PDS kerosene dyed blue** (prevents diesel adulteration).
+- Uses: wick/pressure stoves, lamps, solvent – **not a transport fuel**; similar fractions refined into ATF.
+# Ethanol and ATF Blending
+- **Ethanol Blended Petrol Programme**: since **2003**, under **MoPNG**; **E20 achieved in 2025** – ahead of the original 2030 target; forex savings **over ₹1 lakh crore**; 700+ distilleries; ~1,700 crore litres capacity.
+- Ethanol C₂H₅OH – fermentation of sugarcane, maize, wheat; ~27% less energy per litre than petrol; not fully carbon-neutral; cuts CO, unburnt HC, PM.
+| Generation | Feedstock |
+|---|---|
+| 1G | Food crops – sugarcane, maize |
+| 2G | Agricultural residues (crop stubble) |
+| 3G | Algae |
+| 4G | Genetically engineered biomass |
+- **Brazil Proálcool** – **1975**, after the oil crisis; ~30% mandatory blending; flex-fuel vehicles.
+- Concerns: food vs fuel; sugarcane water-intensive; vehicle compatibility.
+- **Ethanol and synthetic hydrocarbons allowed in ATF** – amendment to **ATF (Regulation of Marketing) Order, 2001** under the **Essential Commodities Act, 1955**; **no mandatory blending target yet**.
+- **SAF** cuts lifecycle emissions **60–80%**; aviation ~2–3% of global CO₂; **CORSIA** = ICAO's Carbon Offsetting and Reduction Scheme for International Aviation (carbon-neutral growth).
+- Ethanol/SAF feedstocks: molasses, cane juice, maize, surplus FCI rice, 2G residues, sweet sorghum (not wheat). India exploring E85, E100.
+- **Visakhapatnam SPR (Andhra Pradesh):** 1.33 MMT – the first ISPRL rock-cavern site; with Mangalore (1.5 MMT) and Padur (2.5 MMT) the total is 5.33 MMT.
+~~ Sources: Rocket CA 2026 Part 01 p.72, 163 (Strategic Petroleum Reserves cooperation); app notes 6:34:sub 1 (Carpediem CA)
+=== Power, Renewables and Storage
+# Peak Demand and El Niño
+- **Peak demand 256.1 GW on 25 April 2026**; share at peak – **coal 66.9%, solar 21.5%**.
+- Record peak earlier: 148 GW (2014) → 242.5 GW (December 2025); IEA – each 1°C adds 7+ GW.
+- **Record solar addition: 44.61 GW in FY 2025–26** – more than double the previous year.
+- Coal stock ~200 million tonnes (over 83 days). IMD: possible **El Niño** during monsoon.
+- **El Niño**: warming of **central/eastern equatorial Pacific**; part of ENSO; trade winds weaken; every 2–7 years, lasts 9–12 months; weakens the Indian monsoon; opposite = **La Niña**.
+# Energy Storage – BESS and Pumped Hydro
+- RE ~**53%** of installed capacity (~532 GW installed; RE ~283 GW; solar 150+ GW).
+- Current storage: 0.27 GW BESS, 7.2 GW pumped hydro.
+- **CEA projection 2035–36: 174 GW / 888 GWh** – BESS 80 GW / 321 GWh, **PSP 94 GW / 567 GWh**; CEA National Generation Adequacy Plan.
+- Non-fossil capacity **283 GW → 786 GW by 2035–36**.
+- **VGF**: 30 GWh BESS, ₹5,400 crore from the Power System Development Fund.
+- IEA: **LFP batteries ~90%** of global storage deployments (2025); 108 GW new battery storage in 2025 (+40%); global battery storage ~270 GW – **China ~60%** of 2025 additions. India imports **75–80% of lithium-ion cells**; cells ~80% of BESS cost.
+- Global PSP ~160 GW – China ~66 GW, Japan 21.8 GW, US 18.9 GW, Europe ~28 GW.
+- Other storage: molten salt (CSP), compressed-air, **flywheel**, gravity.
+- **BSES Rajdhani (Delhi)**: India's **first commercial battery storage** system; **OpenADR** – two-way standard; peak cut 7–24%; **Tata Power Delhi** pilot ~14%.
+# Grid Congestion and Distributed Energy
+- **Bharat Climate Forum 2026**: stranded RE; targets **500 GW non-fossil by 2030**, **net-zero 2070**.
+- **Rajasthan**: ~**23 GW** installed RE vs ~**18.9 GW** evacuation; 4,000+ MW cannot evacuate at peak; 765 kV corridors for ~6,000 MW run at 600–1,000 MW.
+- CTU plans corridors; developers get GNA; fixes – STATCOMs, dynamic grid management, **adaptive line rating**, transparent curtailment. **Curtailment** = cutting RE output despite availability.
+- Rooftop solar 24 GW (2026) → 41+ GW by 2030; **PM Surya Ghar** – **300 units free to 1 crore households**.
+- **First blockchain P2P solar trading pilot: Lucknow** – India Smart Grid Forum + **Powerledger (Australia)**, **UPERC** sandbox (43% lower buy price); Feb 2026 P2P under India Energy Stack for Delhi and western UP.
+- Electric cooking: induction **~85% efficient** vs LPG burner **~40%**; LPG import bill $26.4 bn; 332 million connections, 37% households still use biomass; LPG subsidy ~₹40,000 crore/year; National Efficient Cooking Programme (2 million induction stoves).
+- **BEE**: 25 years – est. **1 March 2002** (Energy Conservation Act 2001).
+- **AgriPV**: ₹5,000 crore under PM-KUSUM in Budget 2026–27; target 10 GW. **Small Hydro Power scheme 2026–31**: ₹2,584.60 crore; projects **1–25 MW**.
+~~ Sources: app notes 6:34:sub 2 (Carpediem CA)
+=== RBI Monetary Policy and the Rupee
+# April 2026 Policy
+- **Repo rate held at 5.25%** in April 2026 – pause after ~125 bps cuts from early 2025; FY 2026–27 inflation estimate **4.6%**. Governor **Sanjay Malhotra**. (Now, Oct 2026: repo **5.50%**, SDF 5.25%, MSF/Bank Rate 5.75%.)
+- **Flexible Inflation Targeting** since 2016: **CPI 4% ±2%** (target is 4%, not 2%).
+- Statutory basis: **RBI Act 1934 amended in 2016 via Finance Act, 2016**; **Monetary Policy Framework Agreement February 2015**; **MPC constituted September 2016**.
+- MPC: **6 members** – 3 RBI (Governor chairs, Deputy Governor, one RBI official) + 3 Government-appointed; Governor has casting vote. 1 bps = 0.01%.
+# Cost of Bringing Down Inflation
+| Country | Response | Outcome |
+|---|---|---|
+| US (Fed) | 11 hikes 2022–July 2023 to 5.25–5.50% | No recession; sacrifice ratio ~zero |
+| UK (BoE) | Aggressive hikes | Recession late 2023; CPI ~3% (Feb 2026) vs 2% target |
+| India (RBI) | Repo 4% → 6.5% (May 2022–Feb 2023) | Held long; cuts from 2025 |
+- **Sacrifice ratio** = GDP lost per 1 percentage point fall in inflation.
+# Rupee Management
+- RBI curbs excess volatility; **no exchange-rate target**; India – **managed float**.
+- RBI **defends the rupee by selling dollars** (absorbs rupees); **RBI buying dollars expands money supply** (sterilisation may follow).
+- **Higher FDI inflows → rupee appreciates**. Weak rupee → **imported inflation**, higher external debt burden; export gain limited by import content and price-taker status.
+- Forex reserves = **foreign currency assets, gold, SDRs, reserve tranche in IMF**.
+- **Dornbusch Overshooting Model**: exchange rate overreacts in the short run (sticky prices).
+- **Impossible Trinity** (Mundell-Fleming): cannot have fixed exchange rate + free capital mobility + independent monetary policy together.
+- Expansionary policy does not stop a rupee slide; **Masala Bonds**, easier ECB help. CAD financing hard due to **negative net FDI** and volatile FPI.
+- **2013 Taper Tantrum**: rupee fell; RBI tightened short-term rates, oil-dollar swap; gold import duty raised.
+- **Fowler Committee (1898)**: Gold Exchange Standard – rupee pegged at **1s 4d** (15 rupees = £1).
+# RBI Dividend, Liquidity and Strategy
+- **Record dividend ₹2.87 lakh crore** for FY 2025–26 (+6.75% over ₹2.69 lakh crore); net income ₹3.13 → ₹3.96 lakh crore; balance sheet +20.61% to ~₹91.97 lakh crore (31 March 2026).
+- Liquidity: ₹81,590 crore via **VRR** auctions; surplus ₹58,876.29 crore (21 May 2026).
+- **RBI Utkarsh 2029**: medium-term strategy April 2026–March 2029 (after Utkarsh 2.0, 2023–25) – **Project SA-MUDRA** (currency), **CBDC**, Unified Lending Interface, rupee internationalisation.
+- **RBI–ECB MoU**: monetary policy, financial stability, regulation. ECB est. **1 June 1998**, HQ **Frankfurt**, President **Christine Lagarde**; Euro from 1 January 1999.
+- **Eurozone = 21 members** – latest **Bulgaria (2026)**; Croatia (2023).
+- **RBI–Bank of Japan swap** renewed up to **$75 billion**, effective 28 Feb 2026 (first signed October 2018).
+~~ Sources: Rocket CA 2026 Part 01 p.11 (MPC chaired by Governor Sanjay Malhotra); app notes 6:34:sub 3 (Carpediem CA)
+=== Key Data Releases – GDP, Inflation, IIP, PLFS
+# New GDP Series (Base 2022–23)
+- Base year revised **2011–12 → 2022–23**; uses **GST and vehicle registration data**.
+- Earlier bases: 1948–49, 1960–61, 1970–71, 1980–81, 1993–94, 1999–2000, 2004–05, 2011–12.
+| Indicator | Value |
+|---|---|
+| Real GDP FY 2025–26 | 7.6% (from 7.4%) |
+| FY 2023–24 / 2024–25 | 7.2% / 7.1% |
+| Nominal FY 2025–26 | 8.6% |
+| Quarters FY26 | Q1 6.7%, Q2 8.4%, Q3 7.8% |
+| GDP size FY26 | ₹322.58 lakh crore (FY25 ₹299.89 lakh crore) |
+| Fiscal deficit FY26 | 4.4% of GDP (₹15.58 lakh crore) |
+- **CEA V. Anantha Nageswaran**: FY27 growth 7–7.4%; economy may cross $4 trillion.
+# Inflation – State CPI, April 2026
+| Rank | State | CPI inflation |
+|---|---|---|
+| 1 | Telangana | 5.81% |
+| 2 | Andhra Pradesh | 4.20% |
+| 3 | Tamil Nadu | 4.18% |
+| 4 | Karnataka | 4.00% |
+- **National 3.48%**; **rural 3.74% > urban 3.16%**; top four all southern States; CPI by **MoSPI**.
+# IIP and Core Industries
+- NSO revising **IIP base 2011–12 → 2022–23** (mining, manufacturing, electricity); NSO under MoSPI (Minister **Rao Inderjit Singh**). New IIP (10th revision): 1,042 products; manufacturing weight 76.1%.
+- **Index of Core Industries**: **Office of Economic Adviser** (Commerce and Industry); monthly; base 2022–23; **9 sectors** (iron ore added); electricity weight highest.
+- **ASISSE**: NSO's **first** Annual Survey of Incorporated Services Sector Enterprises, for **2024–25** – companies and LLPs; ~**21 lakh** enterprises; under Collection of Statistics Act, 2008; services > 50% of GDP; NSO est. 1951.
+- **PAIMANA** (Project Assessment Infrastructure Monitoring and Analytics for Nation-Building) – by **MoSPI**; replaced OCMS-2006; April 2026 – 1,981 projects worth ~₹43 lakh crore; "One Data – One Entry".
+# PLFS Annual Report 2025
+- **PLFS launched by NSO in 2017**; 2025 survey – new sampling design and calendar-year format.
+- **CWS – last 7 days**; **Usual Status – last 365 days**; subsidiary status – 30 days+.
+- **LFPR = labour force ÷ population**; WPR = employed ÷ population; UR = unemployed ÷ labour force.
+| Indicator | Value |
+|---|---|
+| Overall unemployment | 3.2% → 3.1% |
+| Rural UR | 2.4% (male 2.6%, female 2.1%) |
+| Urban UR | 4.8% (male 4.2%, female 6.4%) |
+| Rural female LFPR | 45.9% |
+| Agriculture share | 44.8% → 43.0% (still largest) |
+| Youth unemployment | 14.8% |
+- Women (15+) UR 3.1%; men 3.3% → 3.1%; casual labour 20.2%; self-employment 52% (2017–18) → 58%; casual daily wage ₹295 → ₹418.
+- 44.4% of females out of labour force due to childcare/domestic work (69.8% of males due to education); NEET (15–29) ~25%; **formal vocational training only 4.2%** (15–59).
+- Four Labour Codes: Code on Wages (2019), IR Code (2020), Social Security Code (2020), OSH Code (2020); **29 laws → 4 Codes**; retrenchment threshold **300 workers**.
+~~ Sources: Rocket CA 2026 Part 01 p.95 (new GDP series, base 2022–23, released 27 Feb 2026; NSO under MoSPI); app notes 6:34:sub 4 (Carpediem CA)
+=== Growth Projections for FY 2026–27
+| Agency | FY27 forecast | Notes |
+|---|---|---|
+| ADB | 6.9% → 6.8% | Chief Economist Albert Park; FY28 7.3%; ADB 1966, Manila, President Masato Kanda, 69 members |
+| S&P Global + CRISIL ("India Forward") | 7.1% → 6.6% | FY26 7.6%; retail inflation may hit 5.1% |
+| SBI Research | 6.6% | At ₹95/$ economy ~US$4.04 trn; US$5 trn delayed to FY 2029–30; FY26 7.5% |
+| HSBC | 6.0% | Inflation 5.6%; HSBC est. 1865, London |
+| Moody's | 6.0% (–0.8 pp) | Global Macroeconomic Outlook; est. 1909, New York |
+| Ind-Ra (Fitch subsidiary) | 7.6% → 6.7% | Crude ~US$95 |
+| ICRA | 6.5% → 6.2% | Chief Economist Aditi Nayar; est. 1991 |
+| OECD | 6.1% | Est. 14 Dec 1960, 38 members; India key partner since 2007 |
+| UN DESA (calendar 2026) | 6.6% → 6.4% | Still fastest-growing major economy; world 2.5% |
+| Fitch | FY27 6.7% | FY26 7.5%, FY28 ~6.5% |
+| Nomura | 7.1% → 7% | CAD 1.2% → 1.6% |
+| Goldman Sachs (CY26) | 7% → 5.9% | CAD ~2% |
+| CRISIL (earlier) | ~7.1% | CPI 4.3%; est. 1987 |
+- **WTO Global Trade Outlook 2026**: goods trade growth 4.6% (2025) → **1.9% (2026)**, 2.6% (2027); world GDP **2.8%**.
+~~ Sources: app notes 6:34:sub 5 (Carpediem CA)
+=== Fiscal, Tax and GST Data
+- **GST April 2026: record ₹2.42 lakh crore** (+8.7% over ₹2.23 lakh crore in April 2025).
+- **GST March 2026: ₹2,00,064 crore** – first time above ₹2 lakh crore in March (+8.8%).
+- GST February 2026: **₹1.83 lakh crore**; FY up to 28 Feb **₹20.27 lakh crore** (+8.3%); **FY 2025–26 ₹22.27 lakh crore**.
+- GST from **1 July 2017**; **101st Amendment Act, 2016**; GST Council **Article 279A** (est. 2016, chaired by Nirmala Sitharaman); Articles 246A, 269A. GST 2.0 – two-rate structure; taxpayers 1.6 crore+ (Jan 2026).
+- **Net direct tax FY 2025–26: ₹23.40 lakh crore** (+5.12%); corporate ₹10.99 lakh crore; personal (incl. STT) ₹12.41 lakh crore; gross ₹28.12 lakh crore; refunds ₹4.71 lakh crore; below RE of ₹24.21 lakh crore.
+- **CBDT**: constituted under the Central Boards of Revenue Act, 1963; functioning from **1 January 1964**; Chairman **Ravi Agrawal**. Income Tax Department 1860.
+- **Kar Saathi**: AI assistant on the e-filing portal, launched by the **Income Tax Department**; aligned with **Income Tax Act, 2025**.
+- **1% construction welfare cess**: notification under **Section 100(1), Code on Social Security 2020**; replaces 26 September 1996 order; applies to **all commercial projects**; from 21 November 2025 residential projects up to **₹50 lakh exempt** (earlier ₹10 lakh / 100 sq m); via **BOCW Welfare Boards**; Labour Minister **Mansukh Mandaviya**.
+~~ Sources: Rocket CA 2026 Part 01 p.11 (GST Council chaired by the Union Finance Minister); app notes 6:34:sub 6 (Carpediem CA)
+=== Union Budget 2026–27 Measures in News
+- **Public capex 2026–27: ₹12.2 lakh crore** (₹2 lakh crore in 2014–15).
+- Manufacturing: **Biopharma SHAKTI, India Semiconductor Mission 2.0, ECMS expansion, Rare Earth Corridors, Chemical Parks** (PM E-DRIVE is not a Budget 2026–27 measure).
+- **High-value crop diversification**:
+| Region | Crops |
+|---|---|
+| Coastal | Coconut, cashew, cocoa (intercrop under coconut/arecanut shade), sandalwood |
+| North East | Agarwood |
+| Himalayan | Walnuts, almonds, Chilgoza (pine nuts) |
+- **Agarwood**: ~150 million trees; ~90% in **Tripura and Assam** (NE, not Himalaya); source of **Oud**; exports under **CITES**.
+- Horticulture ~37% of crop GVO; 370.74 MT (2024–25); India **largest producer of onions and shallots**; second in vegetables, fruits, potatoes. Coconut ~22.44% of world output; ~30 million livelihoods.
+- **AEO** 'Clear First – Pay Later': deferred payment extended **15 → 30 days** (Tier 2, 3). AgriPV ₹5,000 crore.
+~~ Sources: Rocket CA 2026 Part 01 p.91 (Budget 1 Feb 2026; fiscal deficit 4.3% BE 2026–27 vs 4.4% RE 2025–26; ₹1,85,000 crore capex loans to States); app notes 6:34:sub 7 (Carpediem CA)
+=== Banking, Credit, Insurance and Savings
+# Banks and Payments
+| Item | Facts |
+|---|---|
+| Public Sector Banks FY26 | Record net profit ₹1.98 lakh crore – 4th straight profitable year; business ₹283 lakh crore+; deposits ₹156 lakh crore+; GNPA 1.93%; recoveries ₹86,971 crore |
+| SCB non-food credit FY26 | 15.9% vs 10.9% (+497 bps); agriculture 10.4% → 15.7%; industry 8.2% → 15.0%; services highest 19% (~28% of lending) |
+| UPI FY 2025–26 | Record ₹314 lakh crore; ~4,000× from ₹0.07 lakh crore (2016–17); volume 2 crore → 24,162 crore; 2,000 crore monthly first crossed Aug 2025, peak 2,163 crore (Dec 2025); 703 banks; 49% of global real-time payments (IMF) |
+| UPI March 2026 | 22.64 billion transactions, ₹29.53 lakh crore (record); Feb 20.39 bn |
+- SCBs – Second Schedule of RBI Act, 1934. **NPCI**: est. **2008**, Mumbai.
+- **UDGAM** (Unclaimed Deposits – Gateway to Access inforMation): **30 banks** integrated (RBI told SC); deposits inoperative **10 years** → **Depositor Education and Awareness Fund**.
+- **RBI Mission Saksham**: capacity building for **urban cooperative banks**; ~1.4 lakh participants.
+- **SBI**: $50 million syndicated loan for women empowerment; Chairman **C.S. Setty**.
+# Credit Guarantees and Relief Schemes
+| Scheme | Facts |
+|---|---|
+| ECLGS 5.0 (Union Cabinet) | West Asia relief; guarantees via NCGTC; MSMEs 100%, non-MSMEs and aviation 90%; extra loans up to 20% of peak working capital; aviation up to ₹1,500 crore; valid till 31 March 2027; ECLGS first 2020 |
+| Proposed MSME guarantee | ₹2.5 lakh crore; 90% guarantee on loans up to ₹100 crore via NCGTC; outlay ~₹17,000–18,000 crore; MSMEs ~30% of GVA |
+| CGSMFI-2.0 | Microfinance credit guarantee; ₹20,000 crore liquidity; NCGTC |
+| RELIEF | ₹497 crore for exporters hit by West Asia crisis; via ECGC (1957, Mumbai); cover for exports 16 March–15 June 2026; deadlines to 31 August 2026 |
+| CGTMSE | Collateral-free loans up to ₹10 crore; start-up scheme up to ₹20 crore |
+| Startup India Fund of Funds 2.0 | Corpus ₹10,000 crore; second phase announced 13 April 2026; invests through SEBI-registered AIFs (not directly); Venture Capital Investment Committee selects; 16th and 17th FC cycles; Startup India 2016, DPIIT |
+- **NCGTC**: incorporated **28 March 2014**, Mumbai, under the Department of Financial Services.
+# Insurance and FDI
+- **100% FDI in insurance**; **LIC foreign cap stays 20%** – DPIIT Press Note 1 (2026 Series), subject to IRDAI.
+- **Sabka Bima, Sabki Raksha (Insurance Laws Amendment) Act, 2025**: 100% FDI; inserted **Section 16A** (IRDAI Policyholders' Education and Protection Fund, from 1 Aug 2026); foreign reinsurer capital ₹5,000 crore → ₹1,000 crore.
+- **IRDAI**: est. **1999**, HQ **Hyderabad**, Chairman Ajay Seth; introduced **Ind AS** (aligned with IFRS) for insurers; Ind AS notified by MCA in 2015.
+- **Bharat Maritime Insurance Pool**: insures Indian vessels on **high-risk/war-affected routes (West Asia)**; pool **US$1.5 bn**; sovereign guarantee **US$1.4 bn (~₹12,980 crore)**; administrator **GIC Re** (1972, Mumbai); claims up to **US$100 mn**; covers Hull & Machinery, Cargo, P&I, War Risk; cuts reliance on **London-based International Group of P&I Clubs**; under **Ministry of Ports, Shipping and Waterways**; regulator **IRDAI**; Insurance Act 1938.
+- **FDI from land-border countries**: up to **10% beneficial ownership via automatic route** (Press Note 3 of 2020 eased, March 2026; FEMA amendments from 1 May 2026 for China/Hong Kong holdings); fast-track decisions in **60 days**.
+# Savings and Social Security
+- **EPF rate 2025–26: 8.25%** – fixed by the **CBT on 2 March 2026** (chaired by Labour Minister Mansukh Mandaviya); third straight year.
+- **Small savings rates for April–June 2026 unchanged**: PPF 7.1%, NSC 7.7%, Sukanya Samriddhi 8.2%, SCSS 8.2%.
+- **EPFO e-PRAAPTI portal**: trace and reactivate inactive EPF accounts; Aadhaar authentication; UAN linkage. **EPFO**: est. **1952** (EPF & MP Act), Ministry of Labour.
+# Infrastructure Finance and Ease of Doing Business
+| Institution / tool | Role |
+|---|---|
+| NIIF | Mobilises global and domestic capital |
+| NaBFID | Long-term infra finance, ESG financing |
+| IRFC | Est. 1986; leasing; ~75% of rolling stock |
+| InvITs | Monetise completed infra assets |
+| REITs | Small investors in real estate |
+| Infrastructure Risk Guarantee Fund | Partial guarantees to lenders |
+| National Monetisation Pipeline | Lease operational assets |
+- Infra need ~USD 2.2 trillion; insurance/pension funds allocate only ~6%; land acquisition ~35% of delays. **Public Key Infrastructure** = digital security infrastructure.
+- Ease of Doing Business: active companies **1.55 lakh (2020–21) → 1.98 lakh (2025–26), ~27%**; Jan Vishwas Act 2023 decriminalised 183 provisions (2025 Bill – 355 more); 47,000+ compliances eliminated; RBI 9,000+ circulars → 238 Master Directions; **Securities Markets Code, 2025** merges three laws incl. SEBI Act; Portfolio Investment Scheme limit 5% → 10%; QCOs 723 products; DPIIT start-ups 2.16 lakh+.
+# IBC (Amendment) Act, 2026
+- IBC realised ~₹4.32 lakh crore till March 2026 – 116.85% of liquidation value, 94.56% of fair value.
+- Changes: Adjudicating Authority decides **admission within 14 days** (reasons if delayed); **CoC role extended into liquidation** – can replace liquidator; guarantor assets may be included; dissenting creditors get at least the lower of liquidation value or Section 53 amount; defines avoidance transaction, fraudulent trading, wrongful trading, service provider; **one-time restoration** of resolution before liquidation; new **creditor-led** insolvency process.
+| Year | Change |
+|---|---|
+| 2016 | IBC enacted; IBBI set up 1 October 2016 |
+| 2018 | Section 29A eligibility, voting thresholds |
+| 2020 | COVID suspension |
+| 2021 | Pre-packaged insolvency for MSMEs |
+| 2026 | Admission in 14 days; creditor-led process |
+- CIRP: 180 days, extendable to 330; NCLT supervises; appeals to NCLAT.
+~~ Sources: app notes 6:34:sub 8 (Carpediem CA)
+=== External Sector – Trade, Remittances, CBAM
+# Trade Partners and Exports
+- **China overtook the USA as India's biggest trading partner in 2025–26**: trade **$151.1 bn**; **deficit $112.16 bn**; imports $131.63 bn, exports $19.47 bn.
+- **Exports FY 2025–26: USD 860 bn** (record; ~US$863 bn by another count, ~5% growth); target **US$1 trillion by 2026**, **US$2 trillion in five years**; FTP 2023 target $2 trillion by 2030; FTAs with 38 countries (~70% of global GDP).
+- Apr–Jan 2025–26 exports USD 720.76 bn (+6.15%); services USD 354.13 bn; services exports FY25 USD 387.5 bn; services surplus USD 188.8 bn.
+- **Export Promotion Mission**: **₹25,060 crore** (2025–26 to 2030–31); **Niryat Protsahan** (finance/credit) and **Niryat Disha** (market access).
+- **India–Oman CEPA**: **in force 1 June 2026** (signed December 2025; Oman Royal Decree Feb 2026); **duty-free access for ~98% of Indian exports**; India cuts tariffs on Omani dates, marble, petrochemicals; trade US$10.61 bn (2024–25).
+- **India–EU**: MFN status to each other for five years from FTA implementation; Annex 14-A – technical dialogue on carbon measures.
+- **Bangladesh**: India (8.47%) overtook the US (8.46%) as its **2nd-largest trading partner** (Feb 2026).
+- **USDA**: India became the **largest cotton (textile) supplier to the US in 2025**, overtaking China.
+- Seafood FY26: ₹72,325 crore, 19.32 lakh t; **top port Visakhapatnam** (then JNPT, Kochi, Kolkata, Chennai); **EU = 3rd-largest seafood market** (after US, China) – US$1.593 bn; MPEDA 1972, Kochi.
+# Remittances and Students
+- **India received US$137 bn (2024)** – **world's largest** recipient; only country above US$100 bn; top since 2010 (US$53.48 bn in 2010); next Mexico, Philippines, France; largest source **USA**.
+- India **2nd** in international students abroad (~6.2 lakh). IOM: est. 1951, Geneva.
+- **Stanford AI Index 2025**: India **second** in AI skill penetration.
+# EU CBAM and India's IBAM
+- **EU CBAM** financially binding from **January 2026**; India got **no exemption** despite the India–EU FTA; carbon cost on imports equal to **EU ETS** price; stops carbon leakage.
+- Sectors: cement, iron and steel, aluminium, fertilisers, electricity, hydrogen; importers buy CBAM certificates; carbon price paid at origin is deductible.
+- **IBAM** (India Border Adjustment Mechanism): charge on exports to CBAM countries so carbon revenue stays in India; **CCTS** is India's separate domestic carbon market.
+# Multilateral Loans
+- **World Bank $225 million IBRD loan** (13 April 2026) – ~800 km Rajasthan roads; **India's first "Step-Up Loan"**; 35-year tenor, 5-year grace.
+- World Bank ~USD 300 million for **UP Clean Air Management Program**; President Ajay Banga.
+~~ Sources: Rocket CA 2026 Part 01 p.87 (Export Promotion Mission); app notes 6:34:sub 9 (Carpediem CA)
+=== Sectors and Schemes – Agriculture, Industry, Transport
+# Agriculture
+- **Kharif MSP 2026–27 (14 crops)**: paddy **₹2,441/quintal**; **sesame highest among oilseeds ₹8,450**; ragi highest among food grains; **largest increase sunflower seed (+₹622)**; smallest maize (+₹10); margin – **moong 61%**, maize and bajra 56%, tur 54%, urad 51%; MSP = 1.5× cost since Budget 2018–19.
+- **Third Advance Estimates 2025–26**: foodgrain **record 376.563 MT** (+5.3%); rice **154.024 MT**; sugarcane 500.063 MT.
+- **Rice**: India **overtook China as largest producer (150 MT, 2024–25)**; largest exporter since 2011–12 (21.69 MT in 2024–25); paddy ~2,000 L/kg, milled rice ~3,000 L/kg.
+- **Basmati**: earns 2–2.5× per kg; transplanted in **July** (monsoon); aroma **2-acetyl-1-pyrroline (2-AP)** – grain filling in October at 30–31°C; GI region 6.2 million ha (Punjab 3.1); **Pusa Basmati-1847, 1885, 1886** (IARI) – marker-assisted, resist bacterial leaf blight and blast; PB-1509 2.5 t/acre in 115–120 days.
+| GI aromatic rice | State |
+|---|---|
+| Kalanamak, Adamchini | Uttar Pradesh |
+| Katarni | Bihar |
+| Gobindobhog | West Bengal |
+| Badshah Bhog | Chhattisgarh |
+| Koraput Kalajeera | Odisha |
+| Wayanad Jeerakasala | Kerala |
+| Seeraga Samba | Tamil Nadu |
+- **Mission for Cotton Productivity**: announced Budget 2025–26; aligned with **Textile Vision 2030**; Cabinet outlay **₹5,659.22 crore**; production target **498 lakh bales**; lint **440 → 755 kg/ha by 2031**; ~32 lakh farmers; 140 districts, 14 States; 2,000 ginning factories; trash below 2%; 1 bale = 170 kg; Textiles Minister Giriraj Singh.
+- Cotton: largest area (130.61 lakh ha, ~40% of world) but **39th in productivity**; **pink bollworm resistant to Bt**; **no new GM cotton since 2006** (Bollgard-II); Kasturi Cotton Bharat, Cott-Ally app.
+- **Jaggery**: India **>70% of world jaggery**; **UP** leads, then Maharashtra, Karnataka; exports $197 mn → $406.8 mn; sugarcane 2024–25 **444.9 MT** (UP 48.5%, Maharashtra 24.1%, Karnataka 10.5%); "sugar" from Sanskrit **sarkara**; Chinese mission to **Magadha in 647 AD**; ODOP in 19 districts; AGMARK.
+| GI jaggery | State |
+|---|---|
+| Kolhapur Jaggery | Maharashtra |
+| Muzaffarnagar Gur | Uttar Pradesh |
+| Marayoor Jaggery | Kerala |
+| Central Travancore Jaggery | Kerala |
+- **Marine fish 2025 (CMFRI)**: India 35.7 lakh t (+3%); **Tamil Nadu 1st** (6.85 lakh t), Gujarat 2nd, Karnataka 4th; most landed **Indian Mackerel**.
+- **Jute Crop Information System**: National Jute Board with **ISRO** (satellite-based); NJB Act 2008, HQ Kolkata; JCI 1971. **Spices Board HQ Kochi**; ICAR 1929. Textiles–ICRIER MoU (ICRIER 1981).
+# Industry and Schemes
+- **BHAVYA (Bharat Audyogik Vikas Yojna)**: approved **18 March 2026**; **₹33,660 crore**; **2026–27 to 2031–32**; **100 plug-and-play parks by 2032** (50 in first phase); up to ₹1 crore per acre; **Centre up to 25% of external infrastructure cost**; operational guidelines by **DPIIT**; **NICDC** = Project Management Agency.
+- **Coal Gasification Incentive Scheme**: ₹37,500 crore; 7.5 crore tonnes; ₹3 lakh crore investment; Coal Minister G. Kishan Reddy.
+- **EMI Scheme** (CBIC): deferred monthly duty, 1 April 2026 – 31 March 2028. **IVFRT** extension 2026–31, ₹1,800 crore – **MHA**.
+- **Steel**: India **2nd-largest producer since 2018**; share 5.2% → 7.9%; consumption 163.7 MT (2025–26); National Steel Policy 2017 – 300 MT by 2030.
+- Electronics production ₹1.9 → ₹11.3 lakh crore; India 2nd-largest mobile maker; automobile – largest 2W/3W market; pharma 3rd by volume; defence production ₹1.54 lakh crore, exports ₹23,622 crore; **Defence Industrial Corridors – UP and Tamil Nadu**.
+- **PM E-DRIVE** (Ministry of Heavy Industries; from **1 Oct 2024**; outlay **₹10,900 crore**; replaced FAME-II and EMPS 2024): e-2W subsidy to **31 July 2026** (March 2026 extension; later extended to **31 March 2028**, Aug 2026); e-rickshaw/e-cart to **31 March 2028**.
+  - **Components:** (1) **demand incentives** for **e-2W, e-3W, e-ambulances, e-trucks** and other emerging EVs; (2) **grants for capital assets** – **e-buses**, **charging network**, **upgradation of testing agencies**.
+  - **NOT in the scheme:** grants for private EV manufacturing plants (that is the PLI route) or income-tax rebates for buyers; e-4W passenger cars excluded.
+- **Vadinar (Gujarat) ship repair facility**: Deendayal Port Authority + Cochin Shipyard, ~₹1,570 crore.
+- **Salaya** (Gulf of Kutch, Gujarat): tidal port, boat-repair hub; from **21 May** MSVs of Salaya and Okha allowed crew sign-on/off at **Porbandar**.
+# Transport
+- **South Coast Railway (HQ Visakhapatnam)** became the **18th zone on 1 June 2026**; new logo with **18 stars**.
+- **99.6% of Broad Gauge (1,676 mm) electrified** (2025–26); record freight 1,670 MT.
+- **CHIRAG**: opened **25 May 2026**, Moula Ali, Hyderabad (HRMS training); South Central Railway HQ Secunderabad.
+- **UDAN** (2026–27 to 2035–36): **100 new airports, heliports and water aerodromes**; ₹28,840 crore.
+- **Noida International Airport (Jewar)** Phase 1 inaugurated **28 March 2026** – by **YIAPL**. **Nagpur Airport** international under PPP – GMR. **CWC** 70th foundation day 2 March 2026 (est. 1957). PRISM-SG portal for rail over-bridge girders.
+# Telangana Budget 2026–27
+- Total ₹3,24,234 crore; **GSDP 2025–26 ₹17,82,198 crore, growth 10.7%**; ~5% of India's GDP.
+- **Rythu Bharosa ₹6,000/acre/season** (₹12,000/year), ₹23,179 crore; Mahalakshmi free bus.
+~~ Sources: PMF Environment 04 (src/environment/pmf-environment-04.txt) p.268 (PM E-DRIVE components); Praveen CA-360 Mar 2026 (src/current-affairs/praveen-ca360-2026-03-magazine.txt) p.34 (e-2W to 31 Jul 2026, e-rickshaw/e-cart to 31 Mar 2028); PMF LENS Aug 2026 (src/current-affairs/pmf-lens-2026-08-02.txt) p.130 (e-2W extended to 31 Mar 2028); psa.gov.in press release 8818 (outlay ₹10,900 crore over two years); app notes 6:34:sub 10 (Carpediem CA)

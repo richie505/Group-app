@@ -1,0 +1,80 @@
+=== Sri Krishnadevaraya Andhra Bhasha Nilayam and the Hyderabad Libraries
+- **Sri Krishnadevaraya Andhra Bhasha Nilayam (SKDABN):** founded **1901** in **Hyderabad** by **Komarraju (Venkata) Lakshmana Rao** with associates, at the home of **Ravichettu Ranga Rao** – the **first Telugu library** of Hyderabad (Telangana) – not Machilipatnam, Vijayawada, Rajahmundry or **Kovvur 1916**; not Madapati, Adiraju or Burgula.
+- **Komarraju Lakshmana Rao:** **leader of the library movement** in Hyderabad State – "Father of the Library Movement", "Father of Research of Andhra History", **Andhra Charitra Pitamaha** (not Ravi Narayana Reddy or Kaloji).
+  - His libraries: Hyderabad (**1901**), **Rajaraja Narendra Andhra Bhasha Nilayam, Hanamkonda (1904)**, Secunderabad (1905).
+- **Andhra Samvardhani Granthalayam:** **Secunderabad, 1905**.
+- **Andhra Saraswati Parishad:** Hyderabad, 1922.
+- Early Telugu libraries of Hyderabad State – SKDABN (1901), Andhra Samvardhani (1905), Vignana Chandrika Mandali (1906) – later the base for the **Andhra Jana Sangham** and the **Andhra Mahasabha** (first session **Jogipet**).
+- **"Andhra History and Culture":** authorship not established (see the PYQ note) – Komarraju's own work is *Andhrula Charitra*; Suravaram Pratapa Reddy's is *Andhrula Sanghika Charitra*.
+> Exam angle: SKDABN = Hyderabad, 1901, Komarraju (×12, the most-asked library fact).
+~~ Sources: NextGen AP History Part 7 p.7, p.14; NextGen AP History Part 18 p.13; Carpediem AP History G2 PYQs 2000-2025 p.32-33; app notes 1:259 (sub 1, 8)
+
+=== Vignana Chandrika Mandali and Andhrula Charitramu
+- **Vignana Chandrika Mandali (Granthamandali / Granthamala):** founded **1906** at **Hyderabad** by **Komarraju (K.V.) Lakshmana Rao** with the support of the **Munagala Zamindar**; co-founders / secretaries included **Gadicherla Harisarvottama Rao** and **Ayyadevara Kaleswara Rao** – not Veeresalingam, Burgula, Madapati or Suravaram; some papers say 1905.
+- **Andhrula Charitramu (History of the Andhras):** published by the Mandali in **1910** (written by **Chilukuri Veerabhadra Rao**) – not Andhra Patrika or Krishna Patrika; it roused interest in Andhra history before the Andhra movement.
+> Exam angle: 1910 = Andhrula Charitramu (×3); Mandali founder = Komarraju (×4).
+~~ Sources: NextGen AP History Part 22 p.4; NextGen AP History Part 7 p.25; Carpediem AP History G2 PYQs 2000-2025 p.32; app notes 1:259 (sub 1), 1:260 (sub 7)
+
+=== Early Libraries and Institutions – Place and Year
+| Library / body | Place | Year | Founder / note |
+|---|---|---|---|
+| C.V.N. Granthalayam | Ongole | 1890 | – |
+| Sujananda Granthalayam | Rayakuduru | 1894 | Kallakuri Narasimha (also A.O. Hume Reading Room, Kopalle, 1895) |
+| **Gowthami (Gautami) Granthalayam** | **Rajahmundry** | **1898** | Merger of **Vasuraya Granthalayam** and the Town Hall Library |
+| Reading Club | Kolluru (Guntur) | 1899 | – |
+| **Young Men's Literary Association** | **Guntur** | 1900 | Jonnavittula Gurunatham, Challa Seshagiri Rao, Unnava Lakshminarayana – **not Kaderbad Narasinga Rao** (Nandyal) |
+| Veeresalingam Granthalayam | Rajahmundry | 1900 | – |
+| Vignana Chandrika Mandali | Hyderabad | 1906 | Komarraju Lakshmana Rao |
+| Rama Mohana Library | Vijayawada | 1911 | Secretary **Ayyanki Venkata Ramanayya**; later the central library of Andhra |
+| **Andhra Council of Research** | **Kovvur** | **1916** | – |
+| Andhra Saraswati Parishad | Hyderabad | 1922 | – |
+| **AP Sahitya Academy** | – | **1957** | Set up by the State |
+| Andhra Samvardhani Granthalayam | Secunderabad | 1905 | Early Telugu library of Hyderabad State |
+- **G2 Mains 2025 match:** Vignana Chandrika Grandhamandali – Hyderabad 1906; SKDABN – Hyderabad 1901; Andhra Council of Research – Kovvur 1916; Andhra Saraswati Parishad – Hyderabad 1922 → **a-II, b-III, c-I, d-IV**.
+- Other libraries: Saraswati Granthalayam (Pulivendula), Simhachalapathi Granthalayam (Vizianagaram).
+> Exam angle: the 2025 match (×2); Gowthami 1898; Kovvur = Andhra Council of Research, not SKDABN.
+~~ Sources: Carpediem AP History G2 PYQs 2000-2025 p.32-33; app notes 1:259 (sub 1)
+
+=== Andhra Desa Library Association, Conferences, Laws and Innovations
+# Organised movement
+- **By 1913:** about **125 libraries**; call for a conference by **Ayyanki** and **Suri Venkata Narasimha** through Andhra Patrika.
+- **First Andhra library conference:** **Vijayawada, 10 April 1913** – about **200 delegates** from 60 libraries (incl. the Nizam's State); presided by **Chilakamarti Lakshmi Narasimham** ("Air is available freely to all; knowledge too should be available likewise").
+- **Andhra Desa Library Association (Andhra Desa Grantha Bhandagara Sangham):** **1914, Vijayawada** – the **first (state-level) library association in India**; first president **Mocherla Ramachandra Rao**; secretaries Ayyanki and Nalam Krishnarao.
+- **Grandhalaya Sarvasvam:** started by the ADLA in **1915** – Telugu **quarterly**, the first Telugu library-science journal; revived Jan 1948 as *Andhra Granthalayam* (editor P. Rajasekharam).
+- **All India Public Library Conference:** Madras, **1919** → All India Public Library Association (1919).
+- Libraries were **legal centres of political education** under colonial curbs.
+# Innovations
+| Innovation | Pioneer |
+|---|---|
+| **Boat library (padava yatra), 1918, West Godavari** | **Ayyadevara Kaleswara Rao** |
+| **Boat library on the Bank Canal**, 1935-42 | **Pathuri (Paturi) Nagabhushanam** |
+| Library pilgrimage (village tours), 1934-48; 182 villages in West Godavari | Ayyanki Venkata Ramanayya |
+| Boat library, Sangam Jagarlamudi | Kotha Sivaramakrishnayya |
+| Mobile library carts | Kuppam Bharani library |
+- **G2 Mains 2025 statements:** ADLA's Grandhalaya Sarvasvam 1915 ✔; Kasinathuni – Andhra Patrika 1908 ✔; SKDABN at Kovvur 1916 ✘; Kaleswara Rao's boat library 1918 ✔ → **I, II, IV**.
+# Library laws
+| Law | Year | Detail |
+|---|---|---|
+| **Madras Public Libraries Bill** | **1938** | Drafted and moved in the Madras Assembly by **Vavilala Gopalakrishnayya** (FRO 2022) – not Sundaraiah, Basavapunnaiah |
+| Madras Public Libraries Act | 1948 | Library authorities funded by a **library cess** |
+| **AP Public Libraries Act** | **1960** | Created **Zilla Grandhalaya Samsthas** |
+> Exam angle: 1960 Act (×2) and Zilla Grandhalaya Samsthas; Vavilala 1938; ADLA = first library association.
+~~ Sources: Carpediem AP History G2 PYQs 2000-2025 p.33-34; app notes 1:259 (sub 2-7)
+
+=== National Libraries, Library Week and Library Law (GK)
+| Item | Fact |
+|---|---|
+| **National Library Week** | **14-20 November** – begins on **Jawaharlal Nehru's** birthday (14 Nov) |
+| **Delivery of Books (Public Libraries) Act** | **1954** – copies to the National Library Kolkata, Connemara Public Library Chennai, Central Library (Asiatic Society) Mumbai and Delhi Public Library |
+| Not a copyright (deposit) library | **Nehru Memorial Museum and Library**, New Delhi |
+| National Science Library | **NISCAIR, New Delhi** (now CSIR-NIScPR) |
+| National Medical Library | **New Delhi** |
+| National Virtual Library of India | Led by **IIT Bombay** (Ministry of Culture) |
+| Virtual library | Digital and networked – **not** a set of distributed physical locations |
+| India-funded public library | **Afghanistan** (2019 news) |
+- **National Mission on Libraries:** Ministry of **Culture**; nodal agency **RRRLF**.
+- **AP (20 Aug 2026):** model libraries in all **175** Assembly constituencies within three years; **Amaravati Central Library** with the Global Institute of Good Governance.
+# Telugu firsts (asked with this topic)
+- First widow remarriage in Andhra – **11 December 1881**, Rajahmundry (Veeresalingam); first Telugu novel – *Rajasekhara Charitram*; first book printed in Telugu – the Bible; C.P. Brown's English-Telugu dictionary – 1852; World Telugu Conference – 1975; first Telugu Jnanpith – Viswanatha Satyanarayana; **Gidugu Rama Murthy** – spoken-dialect (Vyavaharika Bhasha) movement.
+> Exam angle: Telugu Translator / EO papers ask these library GK lines (×9).
+~~ Sources: general knowledge, not checked (library GK lines); app notes 1:259 (sub 9)

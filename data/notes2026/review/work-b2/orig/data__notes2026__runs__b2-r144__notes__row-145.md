@@ -1,0 +1,85 @@
+=== Social Security Schemes for Unorganised Workers
+# Pension and insurance schemes
+| Scheme | Launch | Entry age | Benefit / contribution |
+|---|---|---|---|
+| **PM-SYM** (Shram Yogi Maan-dhan) | March 2019 | **18-40** (not 21-40) | **Rs 3,000/month from 60**; income up to Rs 15,000/month; **age-specific contribution** (Rs 55-200/month) matched by the Centre; **family pension 50% to the spouse only** (not unmarried daughters) |
+| NPS-Traders | Sept 2019 | 18-40 | Rs 3,000/month from 60; turnover up to Rs 1.5 crore |
+| **Atal Pension Yojana** | **Budget 2015-16** (replaced Swavalamban) | **18-40** | Rs 1,000-5,000/month from 60; run by **PFRDA** |
+| PMJJBY | 2015 | **18-50** | Rs 2 lakh **life** cover (any cause); premium Rs 436/year |
+| PMSBY | 2015 | 18-70 | **Accidental** death/disability Rs 2 lakh for Rs 20/year |
+- PM-SYM / NPS-Traders **exclude** EPFO, ESIC or NPS members and income-tax payers.
+- **PM-SYM enrolment:** **Haryana** reported the highest number of beneficiaries.
+# Older schemes
+| Scheme | Year | Target group |
+|---|---|---|
+| **Aam Aadmi Bima Yojana** | **2 Oct 2007** | **Head or one earning member (18-59) of a rural landless household**; life/disability cover (LIC); add-on **Shiksha Sahyog Yojana** – scholarship for up to **two children in Classes 9-12** |
+| Ashraya Bima Yojana | 2001 (LIC) | Workers who lost their jobs |
+| RSBY | 2008 | BPL families; Rs 30,000 hospitalisation cover; subsumed in AB-PMJAY |
+| Swavalamban | 2010 | NPS-Lite; replaced by APY in 2015 |
+# ESIC, EPFO, employment incentive, AP
+- **ESIC:** pan-India; voluntary for units with fewer than 10 employees; wage ceiling **Rs 21,000/month**. **EPFO** wage ceiling raised from Rs 15,000 to **Rs 25,000** (Sept 2026). **PMVBRY:** first-time employees get one month's wage, up to Rs 15,000.
+- **AP Transport Drivers Social Security Scheme:** **Rs 5 lakh** to the family on a driver's accidental death.
+> Exam angle: PM-SYM 18-40, Rs 3,000, spouse-only family pension; APY 18-40, reintroduced in Budget 2015-16.
+~~ Sources: NextGen Indian Economy - APPSC 18 p.5 (APY); PM-SYM: UPSC 2024 PYQ explanation; app notes (old-notes.txt row 145); UPSC 2011/2024 keys
+
+=== Bonded Labour – Article 23, the 1976 Act and Rehabilitation
+- **Article 23** bans **begar** and forced labour → **Bonded Labour System (Abolition) Ordinance, 25 Oct 1975** → **Act of 1976**. **District Vigilance Committees** identify and free bonded labourers.
+- **Central Sector Scheme for Rehabilitation of Bonded Labourer, 2016** (100% Central funding):
+| Category | Assistance |
+|---|---|
+| Adult male | **Rs 1 lakh** |
+| Children, women (special category) | Rs 2 lakh |
+| **Extreme deprivation** – transgenders, women or children in sexual exploitation, trafficking | **Rs 3 lakh** |
+- Immediate aid raised to Rs 30,000 (2021 revision). In **AP** the scheme is implemented through the **AP Scheduled Castes Co-operative Finance Corporation (APSCCFC)**.
+# Regional names
+| Name | Region |
+|---|---|
+| **Vetti / Vetti chakiri**, **Bhagela** | Telangana / former **Hyderabad State** – Bhagela = **bonded labourer** |
+| **Gothi** | Odisha |
+| **Hali** | Gujarat |
+| Baden | West Bengal (as keyed in the 2016 PYQ) |
+~~ Sources: app notes (old-notes.txt row 145); PYQ explanations (Bonded Labour Ordinance 1975); regional names – general knowledge, not checked
+
+=== The Four Labour Codes and the Factories Act
+| Code | Year | Main laws subsumed |
+|---|---|---|
+| **Code on Wages** | **2019** | **Minimum Wages Act 1948, Payment of Wages Act 1936, Payment of Bonus Act 1965, Equal Remuneration Act 1976** (not the Contract Labour Act or the Industrial Disputes Act) |
+| Industrial Relations Code | 2020 | **Industrial Disputes Act 1947**, Trade Unions Act, Standing Orders Act |
+| Code on Social Security | 2020 | EPF, ESI, Maternity Benefit, Gratuity, **Unorganised Workers' Social Security Act 2008** |
+| **OSH Code** | 2020 | **13** laws incl. **Factories Act 1948**, Contract Labour Act, **Inter-State Migrant Workmen Act 1979** |
+- Together they replaced **29** central labour laws; all four in force from **21 November 2025**. Code on Wages renames the Inspector **Inspector-cum-Facilitator**. Critique: **Indian Labour Conference** not held since **2015**.
+- **IR Code thresholds:** prior permission for layoff/retrenchment/closure – **300** workers (earlier 100); Standing Orders – **300**; contract labour provisions 20 → **50**; no strike within **14 days** of notice (notice 60 days before); **fixed-term workers** – gratuity after **1 year**.
+- **Factories Act 1948:** minimum age **14**; Inspectors appointed by the **State Government**; every **District Magistrate** is an Inspector for his district; if no manager is named, the **occupier** is deemed manager.
+~~ Sources: Economic Survey 2025-26 (29 laws into four Codes); app notes (old-notes.txt row 145); UPPCS 2021 key
+
+=== Unorganised Sector – 2008 Act, NCEUS, e-Shram and Shram Suvidha
+# Unorganised Workers' Social Security Act, 2008
+- Set up the **National Social Security Board**; schemes in **Schedule I** – IGNOAPS, National Family Benefit Scheme, **Janani Suraksha Yojana**, Janashree Bima Yojana, AABY, RSBY (APY is not in it). Provides for **life and disability cover, health and maternity benefits, old-age protection** (health care, pension, insurance).
+- Merged into the **Code on Social Security, 2020**.
+- **NCEUS** (2004, **Arjun Sengupta**): **77%** living on **under Rs 20 a day**. **Over 90%** of India's workers are informal.
+# e-Shram
+- Launched **26 August 2021** (Ministry of Labour); India's first **Aadhaar-seeded National Database of Unorganised Workers**; age **16-59**; not income-tax payers, not EPFO/ESIC members; **12-digit UAN**.
+- **One-Stop Solution (2024)** links **15** central schemes; over **31 crore** registered (54% women, Jan 2026); **31.78 crore**, **AP 88.8 lakh** (July 2026).
+# Shram Suvidha
+- **LIN (Labour Identification Number)** is issued to **establishments** (not individual workers) on the **Shram Suvidha Portal** (2014) for unified labour compliance.
+~~ Sources: Economic Survey 2025-26 Summary Part 2 p.33; app notes (old-notes.txt row 145)
+
+=== Gig and Platform Workers – Code on Social Security 2020
+| Term | Meaning |
+|---|---|
+| Gig worker | Works outside a traditional employer-employee relationship |
+| **Platform worker** | Works through **online platforms** |
+| Aggregator | Digital intermediary |
+- The Code is the **first law** to recognise **aggregators, gig and platform workers**; gig workers register from **16**; **National and State Social Security Boards**; registration gives **no employee status**.
+- Gig workers: NITI estimate **77 lakh** (2020-21).
+| State | Law |
+|---|---|
+| **Rajasthan** | Platform-Based Gig Workers Act, 2023 – **first**; welfare board funded by a **cess on transactions** |
+| **Karnataka** | Platform Based Gig Workers (Social Security and Welfare) Act, 2025 |
+~~ Sources: app notes (old-notes.txt row 145)
+
+=== Inter-State Migrant Workers
+- **Inter-State Migrant Workmen Act, 1979**: licensing of contractors; **displacement allowance = 50% of monthly wages**; journey allowance.
+- **Subsumed in the OSH Code, 2020**: annual journey allowance; applies from **10 workers**.
+- **One Nation One Ration Card**: migrants draw PDS ration anywhere in India.
+~~ Sources: app notes (old-notes.txt row 145)

@@ -1,0 +1,238 @@
+=== 8th Central Pay Commission (2025)
+# Basics
+| Particular | Fact |
+|---|---|
+| Chair | Justice Ranjana Prakash Desai |
+| Member-Secretary | Pankaj Jain |
+| Terms of Reference approved | Union Cabinet, 28 October 2025; Resolution of Department of Expenditure, 3 November 2025 |
+| Mandate | Pay, allowances, pensions of Central government employees |
+| Report due | Within 18 months |
+| Recommendations effective | 1 January 2026 |
+| Nature | Non-statutory, advisory body; under the Department of Expenditure (Finance Ministry) |
+| 7th CPC chair | Justice Ashok Kumar Mathur |
+- ToR (five points) include the "**unfunded cost of non-contributory pension schemes**" – a signal against a return to **OPS**; also impact on **State finances** and parity with **CPSUs and private sector**.
+> The Pay Commission is **not** a constitutional or statutory body – it is set up by an executive resolution.
+~~ Sources: Rocket CA 2026 Part 01 p.16 and p.214 (8th CPC chair Justice Ranjana Prakash Desai, appointed by the Union Cabinet 28 Oct 2025); app notes 6:49 (sub 0)
+
+=== Pension Schemes – OPS, NPS and UPS
+# Comparison
+| Feature | OPS | NPS | UPS |
+|---|---|---|---|
+| Nature | Non-contributory, defined benefit | Contributory, defined contribution | Hybrid – contributory, partially guaranteed (assured payout) |
+| Pension | 50% of last basic + DA | Market annuity (market-linked) | 50% of average basic of last 12 months (for 25 years' service) |
+| Employee share | None | 10% | 10% |
+| Govt share | 100% | 14% | 18.5% |
+| Minimum pension | ₹9,000 | None | ₹10,000 (10+ years' service) |
+| Family pension | 50–60% | Annuity-based | 60% |
+| Period | Till 31 December 2003 | From 1 January 2004 (except armed forces) | From 1 April 2025 |
+- NPS regulator: **PFRDA** (PFRDA Act 2013); NPS: **60%** of corpus withdrawn tax-free, **40%** to annuity.
+- NPS for government employees began in **2004** (not 2005).
+# Unified Pension Scheme (UPS)
+- Announced **2024**; from the **T.V. Somanathan Committee**; indexed to **CPI-IW**; an option **under NPS** with assured payout; **effective 1 April 2025**.
+- Lump sum: **1/10th of monthly pay per 6 months'** service; employee contribution required; **choice irreversible**.
+- Rules: **CCS (Pension) Rules, 2021**; CCS (Extraordinary Pension) Rules, 2023.
+- Tax: same **Income Tax Act, 1961** benefits as **NPS** (not OPS).
+- Uptake: **31,555** employees as of 20 July 2025; last date to enrol **30 September 2025**.
+- **One-time, one-way switch UPS → NPS** allowed by the Finance Ministry – **not to OPS**; not later than **1 year before superannuation** or **3 months before deemed retirement (VRS)**; irreversible.
+- States back to OPS: **Rajasthan, Chhattisgarh, Punjab, Himachal Pradesh**.
+> ₹10,000 minimum = **UPS**, not OPS (OPS minimum = ₹9,000). UPS employee share = **10%**, not 14% (14% = govt share in NPS).
+- **M.S. Sahoo Committee** (PFRDA, **13 January 2026**, 15 members): guidelines for **assured payouts under NPS**.
+~~ Sources: Rocket CA 2026 Part 01 p.13 (M.S. Sahoo Committee for NPS reforms); app notes 6:49 (sub 1)
+
+=== 16th Finance Commission, Law Commission and Parliamentary Committees
+# 16th Finance Commission – Report Submitted
+- Report for **2026–27 to 2030–31** submitted to **President Droupadi Murmu** on **17 November 2025** (two volumes), within the tenure extended to 30 November 2025 (original deadline 31 October 2025).
+- Chair **Arvind Panagariya**; members **Annie George Mathew, Manoj Panda, T. Rabi Sankar, Soumyakanti Ghosh**; Secretary **Ritvik Pandey**.
+- Becomes public when tabled in Parliament (**Article 281**).
+# 23rd Law Commission
+- Chair Justice (retd.) **Dinesh Maheshwari** (from **15 April 2025**); full-time members **Hitesh Jain** and **Prof. D.P. Verma**; term **1 September 2024 – 31 August 2027**.
+- Status: **non-statutory** – set up by Central government notification with terms of reference.
+- No report had been released by the 23rd Commission by November 2025; the latest reports are those of the **22nd Law Commission** (chair **Justice Ritu Raj Awasthi**, 2020–2024), numbered **278 to 289**:
+| Report No. | Subject | Submitted |
+|---|---|---|
+| 279 | Usage of the Law of Sedition | 17 April 2023 |
+| 280 | Law on Adverse Possession | 17 May 2023 |
+| 282 | Online registration of FIR (Sec 154 CrPC) | 17 September 2023 |
+| 283 | Age of Consent under POCSO Act, 2012 | 17 September 2023 |
+| 284 | Prevention of Damage to Public Property | 17 January 2024 |
+| 285 | Criminal Defamation | 17 January 2024 |
+| 286 | Review of the Epidemic Diseases Act, 1897 | 17 February 2024 |
+| 287 | Matrimonial issues of NRIs and OCIs | 17 February 2024 |
+| 289 | Trade Secrets and Economic Espionage | 17 March 2024 |
+> Sedition = **279th** report (2023); simultaneous elections = **170th** report (1999).
+# Joint Parliamentary Committee on the 130th Amendment Bill
+- **31-member JPC** on the **Constitution (130th Amendment) Bill, 2025** and two related Bills (introduced by Amit Shah, August 2025); chair **Aparajita Sarangi**, appointed by Speaker **Om Birla** on **12 November 2025**.
+# Rajya Sabha Committee on Petitions – Cancer as a Notifiable Disease
+| Particular | Fact |
+|---|---|
+| Committee | Committee on Petitions, Rajya Sabha – headed by Narain Dass Gupta |
+| Report | 163rd report, 20 August 2025 |
+| Main recommendation | Declare cancer a notifiable disease in all States/UTs |
+| Data gap | National Cancer Registry Programme (NCRP) covers only 18% of population |
+| Present norm (WHO) | Only communicable diseases notifiable |
+- Other recommendations: **high-risk cess on tobacco** earmarked for cancer care; compulsory service for govt-funded medical graduates; more oncology R&D; inter-ministerial plan on environmental carcinogens.
+- Linked: **NPCDCS**; **SDG 3**.
+~~ Sources: Rocket CA 2026 Part 01 p.12 (16th FC report submitted 17 Nov 2025, tabled 1 Feb 2026); app notes 6:49 (sub 2)
+
+=== NCRB 2023 Data – Suicides, Sudden Deaths, Atrocities
+# Suicides due to Illness
+- Share: **19%** of all suicides – **second** after **family problems (32%)**.
+- Number: **31,484 (2022) → 32,503 (2023)** (+3.2%).
+- Mental illness: **13,978** suicides – **declined 4%**; cancer-related suicides **rose 14%** (1,251 → 1,427).
+- States: **Tamil Nadu highest (21%)**, Maharashtra (12%), Karnataka (10%).
+# Sudden and Maternal Deaths
+| Item | 2022 → 2023 |
+|---|---|
+| Sudden deaths | 56,450 → 63,643 (+13%) |
+| Heart attacks | 32,457 → 35,715 (+10%) |
+| Maternal deaths in pregnancy | 1,073 → 1,131 (+5.4%) |
+| Abortion-related deaths | 80 → 127 (+59%) |
+- Age **45–60** most affected (34% of sudden deaths; 38% of heart-attack deaths).
+- **NCRB** = National Crime Records Bureau; abortions governed by the **MTP Act**.
+# Atrocities against SCs and STs (2023)
+| Group | Cases | Change |
+|---|---|---|
+| Scheduled Castes | 57,789 | +0.4% |
+| Scheduled Tribes | 12,960 | +28.8% (not 18.8%) |
+- National Campaign on Dalit Human Rights (2023): over **60%** PoA cases pending.
+- **SC/ST (Prevention of Atrocities) Act, 1989**; Articles 14–17; Article 51A(e).
+- **Gunnar Myrdal** – "soft state"; **Louis Dumont** – purity-pollution hierarchy; **Dalit Panthers** – 1970s.
+~~ Sources: app notes 6:49 (sub 3)
+
+=== Draft Bills and Rules – Seeds Bill, Clinical Trials, GFR, SEBI MIIs
+# Draft Seeds Bill, 2025
+| Particular | Fact |
+|---|---|
+| Ministry | Agriculture & Farmers Welfare |
+| Replaces | Seeds Act, 1966 and Seeds (Control) Order, 1983 |
+| Registration | No seed sold without VCU (Value for Cultivation and Use)-based registration |
+| Old varieties | Notified under 1966 Act – deemed registered; existing varieties – 3-year provisional registration |
+| Farmers' rights | May save, use, resow, exchange, sell farm-saved seed – but not under a brand name |
+| Quality | Centre notifies germination, purity, seed-health standards; mandatory QR code labelling |
+| Traceability | Mandatory onboarding on SATHI Portal |
+| Multi-state firms | "Deemed registered" under Central Accreditation System |
+| Imports | Quarantine + Indian Minimum Seed Certification Standards; unregistered varieties only for research/trials |
+| Penalties | Minor: up to ₹2 lakh; Major (spurious/unregistered seeds): up to ₹30 lakh, cancellation or imprisonment |
+- Concerns: community seed banks, FPOs, women collectives treated as commercial units; **foreign entities can do VCU testing** (GM seed risk).
+# Amendments to New Drugs and Clinical Trials Rules, 2019
+- Draft published in the Gazette **28 August 2025** by the Union Health Ministry.
+- **Test licence** replaced by **notification/intimation** to the **Central Licensing Authority (CLA)** (except high-risk drugs); processing **90 → 45 days**; test licence applications cut by **~50%**; regulator **CDSCO**.
+# GFR 2025 – Procurement Reforms for Research (June 2025)
+- **GeM exemption**: institution heads may bypass Government e-Marketplace for specialised research equipment.
+- **Direct purchase limit: ₹1 lakh → ₹2 lakh** (not ₹5 lakh).
+- **Global tenders**: Vice-Chancellors/directors can approve up to **₹200 crore**.
+| Country | Procurement model |
+|---|---|
+| Germany | High-Tech Strategy; KOINNO |
+| USA | SBIR – 3% of federal R&D to startups |
+| South Korea | Pre-commercial procurement |
+| EU | Joint Procurement Agreement |
+- Mission-oriented procurement: **Mariana Mazzucato**.
+# SEBI Governance Reforms for Market Infrastructure Institutions (MIIs)
+- Consultation paper **24 June 2025**; comments till 15 July 2025.
+- At least **two Executive Directors (EDs)** per MII, reporting to the **MD**.
+| Vertical | Head |
+|---|---|
+| Critical Operations | ED (mandatory) |
+| Regulatory, Compliance, Risk Management, Investor Grievances | ED (mandatory) |
+| Commercial Interests & Business Development | ED only at MII's discretion |
+- Directorships: **MDs** may hold non-executive posts in unlisted govt companies or not-for-profits; **EDs none** except in MII subsidiaries.
+~~ Sources: app notes 6:49 (sub 4)
+
+=== Tribal Affairs and Rights
+# MoTA Policy – Community-Centred Conservation in Tiger Reserves
+- **No relocation until the Forest Rights Act (FRA) process is complete**; relocation an "exceptional" **last resort**.
+- **Overturns the 2024 NTCA directive** for mass removal of villages from tiger reserves.
+- SC/ST (PoA) Act invoked against unlawful evictions; **three-tier grievance redress**.
+- Proposed **National Framework for Community-Centred Conservation and Relocation**.
+- Tigers: ~**1,411 (2006) → over 3,000 (2023)**.
+# ST Safeguards
+| Provision | Content |
+|---|---|
+| Article 342 | President specifies STs |
+| Article 366(25) | Defines STs |
+| Articles 330, 332 | Reservation in Lok Sabha, Assemblies |
+| Article 244(1) / 244(2) | Fifth Schedule (10 States) / Sixth Schedule (Assam, Meghalaya, Tripura, Mizoram) |
+| Article 275(1) | Grants for ST welfare |
+| Article 338A | NCST – set up 2004 (89th Amendment) |
+- MoTA: **1999**; schemes EMRS, Van Dhan Vikas Kendras (**TRIFED**), PMAAGY, Sickle Cell Anaemia Elimination Mission (2023–32).
+# Domestic Workers
+- **SC (January 2025)** directed the Centre to frame a comprehensive law; **expert committee within six months** – case of a trafficked ST woman from Chhattisgarh in Delhi.
+- Estimates: **4 million to 90 million** domestic workers.
+- **Domestic Workers (Regulation of Work and Social Security) Bill, 2017** (by NPDW) – never enacted.
+- India voted for **ILO C189 (2011)** but has **not ratified** it.
+| State | Measure |
+|---|---|
+| Tamil Nadu | Welfare Board under Manual Workers Act, 1982; wage ₹37–39/hour; Madras HC (Madurai Bench) asked for special law |
+| Karnataka | Domestic Workers (Social Security and Welfare) Bill, 2025 – 5% employer contribution to welfare fund |
+# Assisted Dying
+- UK: **Terminally Ill Adults (End of Life) Bill, 2024** – only terminally ill adults; excludes mental illness/disability; **High Court approval** needed.
+- India: **SC 2018** – right to die with dignity (**Article 21**); **passive euthanasia allowed**; active euthanasia illegal.
+~~ Sources: app notes 6:49 (sub 5)
+
+=== Health Reports and Drug Safety
+# Coldrif Cough Syrup Deaths
+- Contaminated with **diethylene glycol (DEG)** – at least **16 children** died in **Rajasthan and Madhya Pradesh**.
+- Confirmed by the **Tamil Nadu Drugs Control lab**; **CDSCO** recommended cancelling the licence; a doctor arrested.
+- Health Ministry: strict compliance with **revised Schedule M** (Good Manufacturing Practices).
+| Year | Earlier DEG incident |
+|---|---|
+| 2022 | Gambia – over 60 child deaths |
+| 2023 | Uzbekistan – at least 18 deaths |
+- India pharma: **3rd by volume**, 14th by value; 20% of global generics; 60% of vaccine demand; exports USD 25–27 billion; supplies **200+ countries**.
+- Law: **Drugs and Cosmetics Act, 1940**; right to health under Article 21.
+# Organ Transplantation – Health Ministry Report (19 June 2025)
+- Kidney transplants 2024–25: only **13,476** vs demand of **over 1 lakh**.
+- Recommendations: new govt transplant centres, HLA labs, include liver/heart in **PM-JAY**, case-based incentives, **mandatory data sharing with NOTTO**.
+# Non-Communicable Diseases
+- **NCDs = 63% of deaths** in India (Dr Vivek Singh, **UNICEF India**).
+- Premature (30–70 yrs): **25–26%** of NCD deaths (Brazil 23%; US/Nordic 10–15%).
+- Type 1 diabetes: 8–10 lakh children; **triple burden of malnutrition** – obesity overtaking underweight.
+- Programme **NP-NCD**; HPV vaccine rollout planned; **front-of-pack labelling (Singapore model**, not Thailand).
+- **SDG 3.4**: cut premature NCD mortality by **one-third by 2030**.
+# AP – First Human H5N1 Death
+- Two-year-old girl from **Palnadu** district; died **16 March** at **AIIMS-Mangalagiri** (multi-organ failure; also had leptospirosis).
+- **Second human H5N1 death in India; first in AP**; confirmed by **NIV, Pune**.
+- Likely source: eating **raw chicken**; Palnadu had no prior bird flu outbreak; RRTs from Guntur GGH; contacts tested negative.
+- H5N1 = **highly pathogenic avian influenza (HPAI)**; human-to-human transmission unconfirmed.
+~~ Sources: app notes 6:49 (sub 6)
+
+=== Education, NITI Aayog and MoSPI Reports
+- UGC draft **Learning Outcome-based Curriculum Framework (LOCF)** embedding '**Bharatiya philosophy**' across disciplines.
+- Criticism: favours **single-major pathways** (against **NEP 2020** multidisciplinarity); marginalises non-Hindu, tribal, heterodox traditions (Charvaka, Buddhist, Jain, Sufi).
+- **Article 51A(h)**: scientific temper, humanism, spirit of enquiry and reform.
+- **Swami Vivekananda** – 1893 Chicago address linked science to Hindu tradition; scholar **Meera Nanda**.
+- **State Manufacturing and Infrastructure Index**: being developed by **NITI Aayog** to benchmark States on policies, logistics, approvals.
+- **Indian Ocean Region metals and energy community** for critical minerals – modelled on the European Coal and Steel Community; **only at research stage**.
+- **Roadmap for Atmanirbharta in pulses**: released by **NITI Aayog**.
+- **MoSPI** – **AIDIS and SAS** surveys.
+~~ Sources: app notes 6:49 (sub 7); app notes 6:49 (sub 8)
+
+=== Economy, North-East and State Issues
+# Fertiliser Shortage in Kharif 2025
+- Cause: good monsoon → higher kharif acreage; lower production and imports (**Chinese supply restrictions**).
+- Rice: **420.4 lakh ha (+7.6%)**; Maize: **93.3 lakh ha (+11.7%)** – both high-nitrogen crops.
+- **DAP sales fell 12.8%**; shift to **20:20:0:13** complex and **SSP** (also give sulphur).
+- **20:20:0:13**: all-time high **69.7 lakh tonnes** (2024–25) – **3rd largest** fertiliser after **urea and DAP**.
+| Item (Apr–Jul) | 2025 | 2024 |
+|---|---|---|
+| Urea production | 93.6 lt | 102.1 lt |
+- Stocks 1 Aug 2025: urea 37.2 lt (vs 86.4); only SSP stocks improved.
+- **Ammonium sulphate**: **20.5% N, 23% S** – suggested urea substitute. Reservoirs 83.5% full.
+# North-East – 0.13% of Exports
+- 8 NE States: **5,400+ km** international borders but only **0.13%** of national exports.
+- US tariff: 25% on India (August 2025).
+- **Free Movement Regime (FMR)** with Myanmar **scrapped in 2024**; gateways **Zokhawthar** (Mizoram), **Moreh** (Manipur).
+- NE (mainly Assam) over 50% of India's tea; **Numaligarh Refinery** expanding to 9 MMT.
+- **DGFT 2024 export plan had no NE section**; India–Myanmar–Thailand Trilateral Highway stalled.
+# Manipur
+- Conflict since **May 2023** between **Meitei** and **Zo (Kuki-Zomi-Mizo)** communities; over **60,000** displaced.
+- **President's Rule (Article 356)** imposed **13 February 2025** after CM N. Biren Singh resigned (Governor **Ajay Kumar Bhalla**); extended six months from 13 August 2025.
+- Manipur: **2 Lok Sabha seats**; 33 recognised ethnic communities; AFSPA in force.
+# Telangana – Sammakkasagar Barrage
+- On the **Godavari**, **Mulugu**; **6.7 tmcft**.
+- NOC: in-principle by Chhattisgarh CM **Vishnu Deo Sai**; still needs **Central Water Commission** approval.
+- Irrigation: stabilise **1.78 lakh ha** under **Sriramsagar Project Stage-II**; new 12,146 ha under Ramappa–Pakhal Link Canal.
+- Drinking water: fluoride-affected **Nalgonda, Warangal**.
+- Submergence in Chhattisgarh: Bhoopalpatnam tehsil, **Bijapur** district – studied by **IIT Kharagpur** (not CWC).
+~~ Sources: app notes 6:49 (sub 9)

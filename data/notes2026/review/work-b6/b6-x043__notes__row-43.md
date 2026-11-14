@@ -1,0 +1,233 @@
+=== PM SVANidhi – Restructured and Extended to 2030
+# Scheme facts
+| Particular | Fact |
+|---|---|
+| Full name | PM Street Vendor's AtmaNirbhar Nidhi |
+| Launched | 1 June 2020 (COVID period); Central Sector micro-credit scheme |
+| Restructured | Union Cabinet, August 2025 |
+| Extended | From 31 December 2024 to **31 March 2030** |
+| Outlay | **₹7,332 crore** |
+| Target | **1.15 crore** beneficiaries, including 50 lakh new |
+| Coverage | Now also **census towns and peri-urban areas** (both), beyond statutory towns |
+| Nodal | **MoHUA + Department of Financial Services (DFS)** jointly |
+| Implementing agency | **SIDBI** (technical implementation agency) |
+| Interest subsidy | **7%** per annum |
+| Digital | Cashback up to **₹1,600**; UPI-linked **RuPay Credit Card** after repaying the **2nd tranche** |
+# Loan tranches
+| Tranche | Old | New |
+|---|---|---|
+| First | ₹10,000 | ₹15,000 |
+| Second | ₹20,000 | ₹25,000 |
+| Third | ₹50,000 | ₹50,000 (unchanged) |
+- Disbursed: 96 lakh loans worth **₹13,797 crore** (30 July 2025); later **1.18 crore loans**, **₹19,171 crore** to 78.68 lakh vendors (PIB, as of 2026).
+> Only the 1st and 2nd tranches were raised; the 3rd stays ₹50,000. RuPay card comes after the 2nd tranche, not the 1st.
+- **SIDBI**: set up **2 April 1990** under the SIDBI Act, 1989; **HQ Lucknow**; principal financial institution for **MSMEs**.
+~~ Sources: Current Care Aug 2025 (KP IAS) p.55-56; PMF LENS Sep 2026 Part 2 p.59 (SIDBI implementing agency, 7% subsidy, 1.18 crore loans); daily EM CA 20 Oct 2026 p.2 (launched 1 June 2020); Praveen CA-360 May 2026 p.53 and Rocket Indian Economy p.3 (SIDBI 1990, Lucknow)
+
+=== Labour, EPFO, Skilling and Government MoUs
+# Draft Shram Shakti Niti 2025 (National Labour and Employment Policy)
+- Released by the **Union Labour Ministry** (Ministry of Labour and Employment) for **public consultation** (2025).
+- **Universal, portable social security accounts** integrating EPFO, ESIC, PMJAY, e-SHRAM and State welfare boards; **'One Nation Integrated Workforce'** platform.
+- **Female LFPR target: 35% by 2030**.
+| Phase | Period |
+|---|---|
+| I | 2025–27 – institutional setup, pilots |
+| II | 2027–30 – nationwide social security accounts, district Employment Facilitation Cells |
+| III | Beyond 2030 – paperless governance |
+- Monitoring: **Labour & Employment Policy Evaluation Index (LPEI)** and **Annual National Labour Report to Parliament**.
+# EPFO withdrawals and new norms
+- **EPFO**: corpus **over ₹26 lakh crore**; wage ceiling **₹15,000 a month**.
+- **95%** of final settlements in 2024–25 were premature (of 52.95 lakh settlements).
+- **Para 69(2), EPF Scheme 1952**: full withdrawal after **two months** of unemployment.
+- **Reforms**: withdrawal categories **13 → 3** (essential needs, housing, special circumstances); **25% minimum balance**; **education up to 10 times**, **marriage up to 5 times**; premature final settlement wait **2 → 12 months** (75% still withdrawable early).
+- **EPS**: pension eligibility needs **10 years** of pensionable service (not 5).
+# Vocational education and training
+- ITIs: **12 lakh** enrolled in 2022 – only **48%** seat utilisation.
+- **Germany**: **dual system** – upper-secondary VET with **paid apprenticeships**. **Singapore**: **SkillsFuture** (lifelong upskilling), VET-to-university pathways.
+- **NEP 2020**: vocational exposure from **Grade 6**; **NCrF**: credit transfer between vocational and general education.
+# Demographic dividend and Shikshit Bharat
+- 800 million+ youth below 35; only **42–43%** of graduates are **job-ready** (employer surveys) – not 80%.
+- **Skill India target: 400 million by 2022 – missed**.
+- Government initiatives listed (CARE, 29 Aug 2025): NEP 2020, NCrF, NAPS 2.0/NATS, NSDM, PMKVY, **PM-DAKSH**, PM Vishwakarma, JSS, **Digital India & Atal Tinkering Labs**, **Start-up India & Stand-up India** – all are in the list.
+- **ASER** shows weak **foundational literacy and numeracy**; R&D spending 0.6–0.7% of GDP (recommended 1.5%).
+# Government MoUs with companies and banks
+| MoU (date) | Ministry / body | Partner | Purpose |
+|---|---|---|---|
+| "AI Careers for Women" (April 2025) | MSDE | Microsoft (implemented by Edunet Foundation) | 30 Centres of Excellence in women's colleges in 6 States; about 20,000 women learners |
+| 11 August 2025 | NSIC (Ministry of MSME) | Axis, Dhanlaxmi, Karnataka Bank, AU Small Finance, IndusInd | MSME Credit Facilitation Programme – linking MSMEs to formal credit |
+| 6 November 2025 | DGT (Directorate General of Training, MSDE) | Autodesk | Digital "design and make" skills across 14,500+ ITIs and 33 NSTIs |
+> "AI Careers for Women" is an MSDE–Microsoft MoU (not Ministry of WCD); NSIC belongs to the Ministry of MSME.
+~~ Sources: Current Care Oct 2025 Part 2 p.68-70 (Shram Shakti Niti) and p.77-79 (Shikshit Bharat); Current Care Oct 2025 Part 1 p.32-34 (EPFO); Current Care Aug 2025 Part 2 p.102-103 (VET); CARE APPSC daily 29 Aug 2025 p.32-36 (job-ready 42–43%, 400 million, initiatives list); web search Nov 2026 (MSDE–Microsoft MoU 22 Apr 2025; NSIC MoUs 11 Aug 2025; DGT–Autodesk MoU 6 Nov 2025, dgt.gov.in PIB note)
+
+=== Immunisation – UIP, Mission Indradhanush, Zero-dose Children
+# Universal Immunisation Programme (UIP)
+- **UIP (1985)**: **world's largest** – **2.6 crore infants** and **2.9 crore pregnant women** a year; **12 diseases** (11 nationwide + 1 in endemic areas).
+- **U5MR**: **45 → 31** per 1,000 live births (2014–2021, SRS).
+- **Mission Indradhanush**: **2014**; **IMI 2017**; by 2023, 12 phases – 5.46 crore children, 1.32 crore pregnant women.
+- Digital: **U-WIN** (pregnant women and children **up to 16 years**), **CO-WIN**, **eVIN** (vaccine stock), **NCCMIS** (cold chain), **SAFE-VAC** (safety reporting).
+- **COVID vaccination**: from **16 January 2021**; 220+ crore doses by January 2023; **Vaccine Maitri**.
+- New drives: **IMI 5.0 (2023)**; **Zero MR Elimination Campaign (2025)**.
+# Milestones
+| Milestone | Year |
+|---|---|
+| Expanded Programme on Immunization (WHO) | 1974 – 4 billion children, 154 million deaths averted |
+| Universal Immunisation Programme | 1985 (EPI evolved into UIP) |
+| Polio | Last case 13 January 2011; WHO certified the South-East Asia region (with India) polio-free on 27 March 2014 |
+| Mission Indradhanush | 2014 |
+| Maternal & neonatal tetanus eliminated | 2015 |
+| Yaws-free | 2016 |
+| Measles-Rubella campaign | 2017–2019 – 34.8 crore children |
+| Zero Dose Implementation Plan | 2024 – 143 districts, 11 States |
+| Measles and Rubella Champion Award | 6 March 2024 |
+> India's last polio case was in **2011**, not 2014/2015 (2014 = WHO certification).
+# Zero-dose children – Lancet study (25 June 2025)
+- Global Burden of Disease Vaccine Coverage Collaborators, **The Lancet**.
+- **India: 1.44 million** zero-dose children in 2023 – **second-highest after Nigeria** (Nigeria first).
+- Global: **15.7 million** in 2023; over half in eight countries; South Asia 13%. Measles coverage fell in 100 of 204 countries (2010–2019).
+- **Zero-dose** = no dose of **DTP** vaccine by **age one**.
+- **IA2030** goal: **halve zero-dose children by 2030**. Tracking platforms: **Co-WIN, U-WIN**.
+# Maldives – world's first triple elimination
+- **WHO** validated **Maldives** as the **first country** to eliminate **mother-to-child transmission** of **HIV, syphilis and hepatitis B** (2025).
+~~ Sources: Current Care Sep 2025 p.195-196 (UIP, milestones, U-WIN, COVID 16 Jan 2021, MR award); CARE APPSC daily 26 Jun 2025 p.27-31 (Lancet study, EPI 1974, UIP 1985, ZDIP 143 districts, IA2030); Current Care Oct 2025 Part 2 p.132 (Maldives); Current Care Jun 2025 p.180 (polio-free 2014); polio last-case date 13 Jan 2011: general knowledge, not checked
+
+=== Health System – PMJAY, Jan Aushadhi, Drug Safety, Health Workers
+# Universal health care and PMJAY
+- **Bhore Committee (1946)**: defined **UHC** – care to all **irrespective of ability to pay**.
+- **PMJAY (2018, Ayushman Bharat)**: **₹5 lakh per household per year**; **private hospitals** get **two-thirds** of PMJAY spending.
+- Public health spending **1.3% of GDP** (2022, World Bank); **National Health Policy 2017** target **2.5% of GDP**.
+# Anshakalin Stri Parichars (ASPs) – Maharashtra
+- Women community health workers; ASPs **predate ASHAs**; wage **₹3,000 a month since 2016**; State promised **₹6,000 a month by December 2025**.
+- **2023**: **Nagpur labour court** – ASPs deserve **Minimum Wages Act** protection, implementation left to the State (no parity order).
+- **ASHA**: introduced under **NRHM (2005)** – volunteers paid by incentives.
+# Drug safety
+- **CDSCO** is **not independent** – reports to **DGHS → Health Ministry**; States also license drugs.
+- **WHO**: **1 in 10** drugs in developing countries fake/substandard. **Branded generics: 87%** of the Indian market.
+- Pharma: **$50 billion → $130 billion by 2030**; supplies **40% of US generics** and **50–60% of world vaccines** (not 40%).
+- Cough-syrup deaths: **Gambia, Uzbekistan**.
+# Jan Aushadhi stores in all GGHs (Andhra Pradesh, May 2025)
+- **AP Health Department**: Jan Aushadhi stores in **all Government General Hospitals**; District/Area Hospitals only at feasibility stage; Nandyal GGH had no private store.
+- **PM-BJAP**: profit margin capped at **15%**; software by the **Department of Pharmaceuticals**.
+- **Branded drugs** only with **prior approval** when **no generic** exists.
+- AP emergency-preparedness directive (India–Pakistan tensions): **CBRN** = **Chemical, Biological, Radiological, Nuclear**.
+~~ Sources: Current Care Sep 2025 p.186-187 (Bhore, PMJAY, 1.3%, NHP 2017); Current Care Oct 2025 Part 2 p.127 (ASPs); Current Care Aug 2025 Part 2 p.104-105 (drug safety); AP CA Monthly May 2025 p.27-28 (Jan Aushadhi, CBRN)
+
+=== Food Security, Nutrition and Lifestyle Diseases
+# NFSA ration-card verification (2025)
+- About **1.17 crore** ration-card holders flagged **potentially ineligible** under **NFSA, 2013** – by the **Department of Food and Public Distribution** through inter-ministerial data matching.
+- Tool: **Rightful Targeting Dashboard** (API-based) for States.
+- **Deletion is the job of States/UTs**; the Centre only shares data.
+| Database | Category | Flagged |
+|---|---|---|
+| Income Tax Dept | Taxpayers | 94.71 lakh (largest) |
+| MoRTH | Four-wheeler owners | 17.51 lakh |
+| MCA | Company directors | 5.31 lakh |
+- **NFSA 2013**: covers **67%** of population – **75% rural, 50% urban**; prices **rice ₹3/kg, wheat ₹2/kg, coarse grains ₹1/kg**; made **free** under **PM Garib Kalyan Anna Yojana**.
+# 'Thali' framework
+- About **50% rural** and **20% urban** households **cannot afford two thali meals** a day.
+- Big gap in **pulses** consumption between poorest and richest; **PDS subsidy favours cereals**.
+# ICMR-INDIAB 2025 – high carbs, low protein
+- **Carbohydrates: 62%** of daily calories (white rice, milled grains, added sugars); survey of 1,21,077 adults.
+- **Diabetes**: over **100 million adults** (**ICMR, 2023**). Child obesity: 12 million+ (2022).
+- Measures: **International Year of Millets 2023**, **CBSE sugar boards**, **FSSAI Front-of-Pack Labelling** proposals.
+# Heart disease and stroke
+- **Health of the Nation 2025**: only **25%** of Indians could identify heart symptoms (2024).
+- **WHO (2023)**: stroke rehabilitation should start within **24–48 hours**.
+- Awareness campaign **FAST** = **Face, Arms, Speech, Time**.
+~~ Sources: CARE APPSC daily 20 Aug 2025 p.11-15 and Current Care Aug 2025 Part 1 p.39-40 (NFSA verification, Rightful Targeting Dashboard, prices); CARE APPSC daily 19 Sep 2025 p.32-33 (thali); Current Care Oct 2025 Part 2 p.129-135 (ICMR-INDIAB, heart, stroke); Current Care Jun 2025 p.70 (FAST)
+
+=== Tribal Initiatives – Adi Vaani, Adi Sanskriti, Gutti Koya
+# Adi Vaani – India's first AI tribal-language translator
+- **Adi Vaani** beta launched **1 September 2025** by the **Ministry of Tribal Affairs** under **Janjatiya Gaurav Varsh**.
+- Built by a consortium led by **IIT Delhi** (with BITS Pilani, IIIT Hyderabad, IIIT Nava Raipur and State TRIs).
+| Language (beta) | State |
+|---|---|
+| Santali | Odisha |
+| Bhili | Madhya Pradesh |
+| Mundari | Jharkhand |
+| Gondi | Chhattisgarh |
+- Linked with **PM JANMAN** and **Adi Karmayogi Abhiyan**; Kui and Garo under development.
+# Adi Sanskriti – digital platform for tribal culture
+- **Adi Sanskriti** (Ministry of Tribal Affairs) – envisioned as the **world's first digital university for tribal art forms**.
+| Component | Detail |
+|---|---|
+| Adi Vishwavidyalaya | Digital Tribal Art Academy – 45 online courses |
+| Adi Haat | Digital marketplace – linked with TRIFED (not Ministry of Textiles) |
+# Displaced Gutti Koya tribals
+- **Gutti Koya (Gond)** displaced from **Chhattisgarh** by anti-Maoist operations; living in AP and Telangana forests.
+- **ST in Chhattisgarh**, not ST in AP/Telangana.
+- Strategic hamleting (from the **US war in Vietnam**; earlier in **Mizoram, 1960s**) moved about **50,000 Gonds to roadside camps** (not into forest interiors).
+- **FRA 2006, Section 3.1(m)**: tribals displaced before **13 December 2005** get **alternative forest land**.
+- Contrast: **Bru Rehabilitation Plan, 2019** – Bru settled in **Tripura**; NCST suggested alignment with the **UN Guiding Principles on Internal Displacement**.
+~~ Sources: Current Care Sep 2025 p.8-9 (Adi Vaani) and p.26-27 (Adi Sanskriti); AP CA Monthly Apr 2025 p.35-36 (Gutti Koya)
+
+=== Disability – UDID, Census Data, Legal Framework
+# UDID coverage below 40%
+- **Less than 40%** of PwDs have a UDID card; run by **DEPwD**; covers **21 disabilities**.
+- Above 50% coverage: **Tamil Nadu, Meghalaya, Odisha, Karnataka**; **West Bengal only 6%**; highest pendency: Himachal Pradesh, Ladakh, Mizoram (80%+ pending over 6 months).
+- UDID sub-scheme funding **reduced 2019–2023**.
+- **ADIP** scheme – aids and appliances (wheelchairs, prostheses, hearing aids) – it is not the 21-disability list.
+# Census and disability data
+- **Census 2027**: India's **first digital Census**.
+- **Census 2011**: 26.8 million – **2.21%**; NFHS-5: 4.52%.
+- Census 2011 used **medical yes/no** questions in **8 categories**; suggested **Washington Group Short Set**, alignable with the **21 categories** of the RPwD Act, 2016.
+# Disability law timeline
+| Year | Law/Policy |
+|---|---|
+| 1992 | Rehabilitation Council of India Act |
+| 1999 | National Trust Act |
+| 2006 | National Policy for Persons with Disabilities |
+| 2007 | India ratified UNCRPD |
+| 2015 | Accessible India Campaign (Sugamya Bharat Abhiyan) |
+| 2016 | RPwD Act – 21 categories (from 7 in the 1995 Act) |
+| 2021 | Harmonized Accessibility Guidelines |
+~~ Sources: Current Care Sep 2025 p.23-25 (UDID, ADIP, DEPwD, funding); Current Care Aug 2025 Part 1 p.52-53 (Census 2011 data, WG-SS, law timeline); Praveen CA-360 Apr 2026 one-liners p.21 (Census 2027 first digital)
+
+=== Literacy and Digital Literacy Firsts
+# Himachal Pradesh – fully literate State
+- **Himachal Pradesh**: literacy **99.30%** – declared on **International Literacy Day 2025** (8 Sept) at the ULLAS Mela, Shimla.
+- Programme: **ULLAS – New India Literacy Programme**; criterion **≥95% literacy among age 15+**.
+- HP = **4th** fully literate State after **Mizoram** (first, 20 May 2025), **Goa**, **Tripura**; **Ladakh** = first fully literate **UT** (24 June 2024).
+- Later (2026): Sikkim 5th (27 May 2026), Uttarakhand 6th (8 July 2026).
+# Kerala – first fully digitally literate State (Digi Kerala)
+- Declared **21 August 2025**; programme **Digi Kerala**, modelled on **Digi Pullampara**.
+- **Pullampara** panchayat (Thiruvananthapuram): **first fully digitally literate panchayat** in Kerala (**September 2022**); volunteers – **NSS, Kudumbashree, SC/ST promoters, library council**.
+- Master trainers trained at **KILA** (Kerala Institute of Local Administration).
+- **Digi Kerala 2.0**: cybersecurity, media literacy and **service access**; **K-SMART** digitises all local-self-government services.
+# Other first
+- **Bharat Taxi** – India's **first cooperative ride-hailing platform** (launched by Amit Shah, 5 February 2026).
+> Mizoram = first fully literate State; Kerala = first fully **digitally** literate State; HP = 4th, not first.
+~~ Sources: Current Care Sep 2025 p.212-213 (HP 99.30%, fourth State) and p.203-205 (Digi Kerala, Pullampara, KILA, K-SMART); Rocket CA 2026 Part 01 p.79 (fully literate list, Mizoram 20 May 2025, ULLAS 95%); Praveen CA-360 Feb 2026 p.47 (Bharat Taxi)
+
+=== School Education – CBSE Two Board Exams and RTE Quota (AP)
+# CBSE Class 10 – two board exams from 2026–27
+| Feature | First exam | Second exam |
+|---|---|---|
+| Month | Mid-February | May |
+| Status | Mandatory | Optional – improvement in up to three subjects (Science, Maths, Social Science, two languages) |
+| Results | By April | By June |
+- **Better of the two scores** counts; **Essential Repeat** (3+ subjects) **cannot** take the second exam; **compartment** (1–2 subjects) can.
+# 25% RTE quota in AP private schools (2025–26)
+- **Section 12(1)(c), RTE Act, 2009**: **25%** of **Class 1** seats in private unaided schools for disadvantaged/EWS children.
+- Age: 5 years completed by **31 March** (IB/CBSE/ICSE) or by **1 June** (State syllabus).
+- **RTE Act**: free and compulsory education for **6–14** years; implements **Article 21-A**; **no capitation fees**; **School Management Committees**; original **no-detention policy till Class 8**.
+- **RTE (Amendment) Act, 2019**: States may hold back children in **Classes 5 and 8** only after a failed re-examination; the Centre did so for its schools in **December 2024** – not "detention from Class 5 onwards".
+~~ Sources: CARE APPSC daily 26 Jun 2025 p.22-26 (CBSE two exams); AP CA Monthly Apr 2025 p.38-40 (RTE quota, Art 21-A, no-detention); web search Nov 2026 (RTE Amendment 2019, Centre's Dec 2024 rules change: dtnext.in, theprint.in)
+
+=== Rural Water – MGNREGA Schedule I and Jal Jeevan Mission
+# MGNREGA Schedule I amended (water works, 2025)
+- **Ministry of Rural Development** amended **Schedule I of MGNREGA, 2005**: minimum spend on **water conservation works** by groundwater stress.
+- Basis: **CGWB Dynamic Ground Water Resources Assessment** (not Census data).
+| Block category (groundwater extraction) | Minimum spend on water works |
+|---|---|
+| Over-exploited (>100%) and Critical (90–100%) | 65% |
+| Semi-critical (70–90%) | 40% |
+| Safe (≤70%) | 30% |
+- India: **largest groundwater user** – about **25% of global extraction**.
+# Jal Jeevan Mission – AP angle
+- **JJM**: launched **2019** – Har Ghar Jal; original target **every rural household by 2024**.
+- **AP coverage**: **73.82%** of rural households (32.18% at launch in 2019).
+| AP district | Coverage |
+|---|---|
+| YSR | 100% |
+| Palnadu (lowest) | 35.55% |
+~~ Sources: Current Care Sep 2025 p.45-46 (Schedule I, CGWB, 25%); AP CA Monthly Apr 2025 p.45-46 (AP JJM 73.82%, YSR, Palnadu); Rocket CA 2026 Part 01 p.29 (JJM)

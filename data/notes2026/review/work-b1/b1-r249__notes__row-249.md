@@ -1,0 +1,139 @@
+=== Mountbatten Plan (3 June Plan), 1947 and Its Acceptance
+- **Lord Mountbatten** came as Viceroy in **March 1947** (took charge **24 March 1947**); announced his plan on **3 June 1947** – the country "free but not united". It became the **basis of partition** and the platform/formula for the **transfer of power** (sovereignty) to Indian hands.
+- **Plan Balkan / "Dickie Bird Plan"** (April–May 1947) was the brain-child of **Mountbatten**: power to the separate provinces, which (with princely states) could join India, Pakistan or stay separate; dropped after **Nehru** reacted violently (Balkanisation).
+- **United Bengal plan** (1947) of **Sarat Chandra Bose and H.S. Suhrawardy** – a sovereign undivided Bengal; rejected by **both Congress and the League**.
+- **V.P. Menon's** innovation: immediate transfer on the basis of **dominion status**, without waiting for a new constitution.
+# Provisions
+- **Punjab and Bengal** Assemblies to meet in **two groups** (Muslim-majority / Hindu-majority districts) and vote; a simple majority of either group for partition = partition → **both voted to divide** (Bengal 20 June, Punjab 23 June).
+- **Sindh** to decide on its own (joined Pakistan); Baluchistan also went to Pakistan.
+- **Referendums only in NWFP and Sylhet** (Assam): NWFP chose Pakistan (**Khudai Khidmatgar**/Provincial Congress boycotted); Sylhet joined East Bengal.
+- **Boundary Commission** for Punjab and Bengal; **two dominions and two Constituent Assemblies** if partition.
+- **Princely states:** independence ruled out by the plan – join **India or Pakistan** (no third option); Hyderabad's accession to Pakistan ruled out.
+- Common Governor-General permitted; transfer of power on the basis of the **GoI Act 1935**; armed forces divided.
+- Date **advanced from June 1948 to 15 August 1947**.
+# Why it was accepted
+- **Congress:** to **avoid large-scale communal riots** and civil war, avoid Balkanisation, take power quickly – it **never accepted the Two-Nation Theory** (A true, R false). Kripalani (April 1947): "rather than have a battle, we shall let them have their Pakistan".
+- **Muslim League:** because it provided for the **creation of Pakistan**.
+- Patel: "We would not have had one Pakistan but several"; Pant: accepting 3 June was the alternative to "committing suicide".
+# AICC, New Delhi, 14–15 June 1947
+| Role | Person |
+|---|---|
+| Presided (Congress President) | **Acharya J.B. Kripalani** |
+| Moved the partition resolution | **Govind Ballabh Pant** |
+| Seconded the resolution | **Maulana Abul Kalam Azad** |
+| Called it "surrender of nationalism in favour of communalism" | **Dr. Saifuddin Kitchlew** (Punjab) |
+> 3 June 1947 = Mountbatten Plan; referendums only NWFP + Sylhet; Pant moved, Azad seconded, Kripalani presided.
+~~ Sources: NextGen Indian History - APPSC Exams Part 6 p.63, p.71; PMF Modern History Part 5 p.98-99, p.103; Spectrum Modern India p.525-531; old app notes row 249
+
+=== Heads at Independence – First / Last
+| Office (15 Aug 1947) | Person |
+|---|---|
+| Last Viceroy of British India | **Lord Mountbatten** |
+| First Governor-General of free India | **Lord Mountbatten** (1947–48) – India asked him to continue |
+| First Indian, last and only Indian Governor-General | **C. Rajagopalachari** (June 1948 – Jan 1950) |
+| First Governor-General of Pakistan | **M.A. Jinnah** (PM: Liaquat Ali Khan) |
+| First Prime Minister | **Nehru** – sworn in by Governor-General **Mountbatten** |
+| British Prime Minister | **Clement Attlee** (Labour) – not Churchill or Macmillan |
+| British monarch | **George VI** (king 1936–1952) |
+| Congress President | **J.B. Kripalani** (Meerut session, Nov 1946 – Nov 1947) |
+- **"Tryst with Destiny"** speech – **Nehru**, midnight session of the Constituent Assembly, 14–15 August 1947.
+- Mountbatten as GG: Kashmir's accession (Oct 1947); Gandhi's murder (30 Jan 1948).
+- **Rajaji:** later CM of Madras (1952–54); formed the **Swatantra Party (1959)**; as GG gave assent (1949) to the **Madras Estate Abolition Act**, the first law of free India to receive the GG's assent.
+> Mountbatten = last Viceroy + first GG; Rajaji = first Indian, last and only Indian GG; Kripalani = Congress President at partition.
+~~ Sources: NextGen Indian History - APPSC Exams Part 6 p.8, p.64; PMF Modern History Part 5 p.96, p.103; Laxmikanth Indian Polity Part 1 p.35; old app notes row 249
+
+=== Indian Independence Act, 1947
+| Stage | Date |
+|---|---|
+| Bill introduced in the House of Commons (by Attlee) | **4 July 1947** |
+| Passed by Parliament | July 1947 |
+| Royal assent (Act enacted) | **18 July 1947** |
+| Dominions created (appointed day) | Pakistan 14 August, **India 15 August 1947** |
+- Gave **legal force to the Mountbatten Plan**; created **two independent dominions**, India and Pakistan (the basis of **partition**), with the right to leave the Commonwealth.
+- **Ended:** office of **Viceroy**, **Secretary of State for India**, title **"Emperor of India"**; paramountcy and treaties with princely states lapsed.
+- **Princely states:** free to **join India or Pakistan or remain independent** (Laxmikanth); 562/565 states – not forced to merge, not abolished.
+- **Governor-General** for each dominion appointed by the **British King** on the dominion cabinet's advice – a constitutional head; Britain to have **no control** over the dominions (so British sovereignty did not continue, though the sovereign appointed the GG).
+- **Constituent Assembly** made **sovereign** – could frame any constitution and repeal any British law, even this Act; it also became the dominion legislature and assumed power at **midnight of 14/15 August 1947**.
+- Interim law: **GoI Act 1935, as adapted**, till new constitutions.
+- Most distinctive feature: an **"Act without a constitution"** – transferred power but left constitution-making to Indians.
+- NOT in the Act: Federal Railway Authority, extension of franchise (GoI Act 1935); declaring India a Republic (1950).
+> Introduced 4 July → royal assent 18 July → effective 15 August 1947.
+~~ Sources: Laxmikanth Indian Polity Part 1 p.34-35, p.38, p.41; PMF Modern History Part 5 p.101-102; NextGen Indian History - APPSC Exams Part 6 p.64-66; Spectrum Modern India p.527-528
+
+=== Attlee's Statement and Mountbatten's Arrival
+- **20 February 1947:** British PM **Clement Attlee** (Labour) declared in the **House of Commons** that British rule would end by **30 June 1948**, even without agreement among Indian parties.
+- Power could go to some central government or to **provincial governments** (hint of Balkanisation); **Mountbatten to replace Wavell**.
+- Attlee quotes (exam keys): "**Imperialism is dead as dodo**"; "The British Government is **not responsible** for the partition of India".
+- Mountbatten's instruction: explore unity and division till October 1947 – **keep India united if possible**; he came in **March 1947**, not 1945.
+- Assertion-reason: Britain left in 1947 because it had become **weak after the Second World War**.
+> Attlee deadline = 30 June 1948; Mountbatten advanced it to 15 August 1947.
+~~ Sources: Spectrum Modern India p.523-525; PMF Modern History Part 5 p.96-97, p.99; Laxmikanth Indian Polity Part 1 p.34; old app notes row 249
+
+=== Direct Action Day and Gandhi's Last Years, 1946–48
+- League withdrew its acceptance of the **Cabinet Mission Plan** and on **29 July 1946** called for **"Direct Action"**; slogan "Larke Lenge Pakistan".
+- **Direct Action Day = 16 August 1946** – riots began in **Calcutta** ("Great Calcutta Killings"; Bengal premier **H.S. Suhrawardy** led the League's rally) → **Noakhali**, **Bihar**, UP, Punjab. The Congress did not endorse it.
+| Date | Gandhi's whereabouts / event |
+|---|---|
+| Nov 1946 – March 1947 | **Noakhali** peace mission – he **failed to stop the enmity and violence** |
+| March 1947 | Bihar – to calm anti-Muslim riots |
+| 15 August 1947 | **Beliaghata, Calcutta** – fasting and praying; took part in **no Independence Day celebration**; absent from the Tryst with Destiny speech |
+| 30 January 1948 | Assassinated by **Nathuram Godse**, New Delhi |
+- Gandhi was **against partition**, but not formally in the Congress: he had left it in **1934** and was **not a member of the Congress** at independence.
+- **Mountbatten** called Gandhi the **"one-man boundary force"** (50,000 soldiers in Punjab vs one man in Bengal).
+- Gandhi suggested **winding up the Congress** after independence and turning it into a **Lok Sevak Sangh**.
+> 29 July 1946 = call; 16 August 1946 = Direct Action Day (Calcutta).
+~~ Sources: PMF Modern History Part 5 p.93-94, p.104-106; NextGen Indian History - APPSC Exams Part 6 p.7, p.63; old app notes row 249
+
+=== Partition Books and Authors
+| Book | Author |
+|---|---|
+| India Divided | **Dr. Rajendra Prasad** |
+| India Wins Freedom | **Maulana Abul Kalam Azad** (autobiography) |
+| Guilty Men of India's Partition | **Ram Manohar Lohia** |
+| Wheel of History | Ram Manohar Lohia |
+| Hind Swaraj | Mahatma Gandhi |
+| Freedom at Midnight; Mountbatten and the Partition of India | **Larry Collins and Dominique Lapierre** |
+| Train to Pakistan | **Khushwant Singh** |
+| India Remembered | **Pamela Mountbatten** (Mountbatten's daughter) |
+| Living an Era | **D.P. Mishra** |
+| Pakistan or the Partition of India | B.R. Ambedkar |
+| The Man Who Divided India | Rafiq Zakaria |
+| Discovery of India | Nehru |
+| Unhappy India / Poverty and Un-British Rule | Lala Lajpat Rai / Dadabhai Naoroji |
+| The Indian Struggle | Subhas Chandra Bose |
+- Partition fiction: **Saadat Hasan Manto**, **Bhisham Sahni** (Tamas), **Narendranath Mitra** – NOT **Bankim Chandra** (died 1894).
+~~ Sources: Rocket Indian History Part 1 p.43; PMF Modern History Part 5 p.45; old app notes row 249
+
+=== Radcliffe Boundary Commissions
+- Two commissions – **Punjab** and **Bengal** – set up (30 June 1947) to **demarcate the India–Pakistan boundary**; each = **2 Congress + 2 League** nominees and a chairman.
+- **Sir Cyril Radcliffe**, a British lawyer with **no knowledge of Indian conditions**, chaired **both**; arrived 8 July, five weeks to decide.
+- The **Radcliffe Line** award was ready on **12 August** but published on **17 August 1947**, after independence, so Britain would escape the blame.
+~~ Sources: PMF Modern History Part 5 p.100-101; Spectrum Modern India p.528; NextGen Indian History - APPSC Exams Part 6 p.64
+
+=== Consequences of Partition
+| Factor | Effect |
+|---|---|
+| Migration | NCERT: about **80 lakh (8 million)** people crossed the new border; Spectrum: nearly **60 lakh refugees** came from Pakistan; PMF: some 15 million moved; 5–10 lakh killed |
+| Rehabilitation | **Ministry of Relief and Rehabilitation**; refugee camps, evacuee property |
+| Assets | **Partition Council** divided assets and liabilities; Pakistan took **17.5%** |
+| Kashmir | UN ceasefire 1 January 1949 |
+| Goa | Struggle against the Portuguese continued; ended with **Operation Vijay** (1961) |
+- Criticism: the **hasty advanced date** and the **late Radcliffe award** worsened the violence.
+- World's first **Partition Museum** – **Town Hall, Amritsar** (2017).
+~~ Sources: OnlyIAS NCERT Post-Independence 02 p.2; Spectrum Modern India p.624, p.630; PMF Modern History Part 5 p.105; old app notes row 249
+
+=== Road to Freedom – Sequence 1946–47
+| Event | Date |
+|---|---|
+| League calls Direct Action | 29 July 1946 |
+| Direct Action Day | 16 August 1946 |
+| First Interim Government formed | **2 September 1946** |
+| Attlee Statement | 20 February 1947 |
+| Mountbatten takes charge | 24 March 1947 |
+| Mountbatten Plan | 3 June 1947 |
+| AICC accepts partition | 14/15 June 1947 |
+| Independence Bill introduced / royal assent | 4 July / 18 July 1947 |
+| Independence | 15 August 1947 |
+| Radcliffe award published | 17 August 1947 |
+> Order: Attlee Statement → Mountbatten replaces Wavell → Mountbatten Plan → Independence.
+~~ Sources: PMF Modern History Part 5 p.94, p.96-100; old app notes row 249

@@ -1,0 +1,63 @@
+=== Literacy – Districts (Census 2011, 13-district map)
+| District | Total | Male | Female |
+|---|---|---|---|
+| **West Godavari** | **74.32%** (highest) | 77.65 | **71.01** (highest female) |
+| **Krishna** | 73.74% | 78.30 | **69.18** |
+| Chittoor | 71.53% | **79.83** (highest male) | 63.28 |
+| **East Godavari** | 70.50% | 74.10 | **66.95** |
+| Guntur | 67.40% | 74.79 | 60.09 |
+| Kurnool | 59.97% | 70.10 | 49.78 (lowest female) |
+| **Vizianagaram** | **58.89%** (lowest) | 68.15 | 49.87 |
+| **AP** | **67.35%** | 74.77 | 59.96 |
+| India | 72.98% | 80.90 | **64.60** |
+- Female literacy order: **West Godavari > Krishna > East Godavari** – the only three districts above the all-India female average (64.60%).
+- On the **26/28-district** maps the least literate district is **Alluri Sitarama Raju (44.67%)**.
+- **ST literacy** in AP: **48.8%**. **SC literacy (undivided AP, 2001): 53.5%**.
+- 100%-literate hamlet asked in APPSC G-2 2008: keyed to **Atmakur, Anantapur district** (Padamati Yaleru village of Atmakur mandal is later cited as fully literate).
+> Exam angle: "least literate" = Vizianagaram (13 districts) vs ASR (new map); "aggregate literacy of 13 districts" = **67.35 ≈ 67.4%**.
+~~ Sources: AP Socio-Economic Survey 2024-25 Annexure 8.4 (p.440, district literacy 1981-2011); app notes 4:74 (sub 3); hamlet: web search summary (Padamati Yaleru, Wikipedia mirror), not confirmed for 2008
+
+=== Literacy – State Figures and Programmes
+| Measure | AP |
+|---|---|
+| Literacy 1981 → 2001 → 2011 | 29.94% → **62.07%** → **67.35%** (below India 72.98%) |
+| Male / female 2011 | **74.77% / 59.96%** (female 52.72% in 2001) |
+| Gender gap | about **15 points** (India 16; widest **Rajasthan about 28**) |
+| Highest / lowest State (2011) | **Kerala** / **Bihar** |
+# Akshara Andhra and ULLAS
+| Programme | Fact |
+|---|---|
+| **Akshara Andhra** | AP adult literacy mission with ULLAS, for people aged **15+**; targets districts **below the State average** |
+| Gain announced (Apr 2026) | Literacy **73% → 83%**; full literacy target Sep 2027 |
+| **ULLAS** | **New India Literacy Programme** (central), adults 15+ |
+| Fully literate benchmark | **95%+** literacy among those aged 15+ |
+| First fully literate State / UT | **Mizoram (2025)** / **Ladakh (2024)** |
+~~ Sources: AP Socio-Economic Survey 2024-25 p.1 and p.177; app notes 4:74 (sub 2, 4)
+
+=== Occupational Structure
+- **Agricultural labourers = largest category** of AP main workers (about **44.6%**), almost **three times** the cultivators.
+- Undivided AP: agricultural labourers **39.63% (2001) → about 43% (2011)**; cultivators **22.52% → 16.47%** – farmers turning into labourers.
+- Highest share of **agricultural labourers:** **West Godavari** (delta paddy district; about 59.9% of workers).
+- Highest share of **cultivators** (residual AP, APPSC G-2 2017 key): **Chittoor**; in undivided AP the highest was **Adilabad (27.48%)** (Telangana).
+| Measure | Figure |
+|---|---|
+| India, workers in agriculture (Census) | **58.2% (2001) → 54.6% (2011)** |
+| AP, workers in agriculture (PLFS 2023-24) | **45.6%** (India about 46.1%) |
+~~ Sources: app notes 4:74 (sub 5); web search summary of the 2011 Primary Census Abstract reports (Deccan Chronicle 4 May 2013; India Environment Portal); Chittoor: printed key, no district table found
+
+=== Sex Ratio and Child Sex Ratio
+| Measure | AP | India |
+|---|---|---|
+| Census 2001 / **2011** | 983 / **997** | 933 / **943** |
+| NFHS-5 (2019-21) total sex ratio | about **1,045** | 1,020 |
+| Sex ratio at birth, NFHS-4 → NFHS-5 | 914 → **934** | 929 (NFHS-5) |
+| Sex ratio at birth, CRS 2024 | – | **917** |
+- AP 2011 is **54 above** India. Districts 2011: highest **Vizianagaram (1,019)**, then Srikakulam (1,015); lowest **Anantapuramu (977)**. **Uttarandhra** has the best ratios.
+- Child sex ratio (undivided AP): **961 (2001) → 939 (2011)** – overall ratio rose while CSR fell. Highest district CSR: **East Godavari (968)**.
+- **PCPNDT Act 1994** tackles son preference; **Supreme Court** flagged persisting son preference (13 Jun 2026).
+~~ Sources: AP Socio-Economic Survey 2024-25 Annexure 8.2 (p.438); app notes 4:74 (sub 0, 1)
+
+=== Work Participation Rate
+- WPR = workers as a share of total population; undivided AP 2011 about **46.6%**.
+- **Female** main-worker participation: **35.04% (2011)**, up from 33.01% (2001).
+~~ Sources: app notes 4:74 (sub 6)

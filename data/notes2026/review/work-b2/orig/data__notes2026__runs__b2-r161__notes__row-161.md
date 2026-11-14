@@ -1,0 +1,91 @@
+=== NPT, CTBT and the Nuclear-weapon States
+# NPT
+- **Signed 1968**, **in force 1970**, **extended indefinitely in 1995**; Review Conferences every **5 years**.
+- Recognises **five Nuclear Weapon States** – those that **tested before 1 January 1967**: **USA, Russia, UK, France, China** (= UNSC P5).
+- Of China, France, India, Israel, Pakistan: **only China and France** are NPT-recognised NWS (UPSC 2015, asked twice).
+- **North Korea left the NPT in 2003**; it claimed its **first hydrogen-bomb test on 6 January 2016**.
+- India rejects the NPT as discriminatory – **"nuclear apartheid"**; wants **time-bound, universal, non-discriminatory disarmament** (Rajiv Gandhi Action Plan, 1988).
+# CTBT
+- Adopted **1996**; bans **all nuclear explosions**; **not in force** – needs ratification by all **44 Annex-2 States** (signing alone is not enough).
+- India has **not signed** (no time-bound disarmament commitment; subcritical tests still allowed).
+- **Iraq signed on 19 August 2008** and ratified on 26 September 2013 – so "Iraq and India have not signed" was already false in 2009.
+# India's nuclear doctrine
+- **No First Use**, **credible minimum deterrence**, massive retaliation; Pokhran-II **1998**.
+> Exam angle: NPT NWS = tested before 1 Jan 1967 (China, France among the options); CTBT entry into force = 44 Annex-2 ratifications.
+~~ Sources: PMF IR notes (src/international-relations/pmf-international-relations.txt) pdf p.11-12; https://www.ctbto.org/our-work/country-profile?name=Iraq (search result: signed 2008-08-19, ratified 2013-09-26); app notes 2:161 sub 3
+
+=== NSG and the Export-control Regimes
+| Regime | Year | Members | Controls | India |
+|---|---|---|---|---|
+| **NSG** ("London Club") | **1975** | **48** | Nuclear materials and technology | **Not a member** – only the **2008 India-specific waiver** |
+| **MTCR** | 1987 | 35 | Missiles and drones – **500 kg over 300 km** | Member, **June 2016** |
+| **Wassenaar Arrangement** | 1996, **Vienna** | 42 | **Conventional arms and dual-use goods** | **42nd** member, **December 2017** |
+| **Australia Group** | **1985** | – | **Chemical and biological weapon precursors** | **43rd** member, **19 January 2018** |
+| Hague Code of Conduct | 2002 | – | Transparency on **ballistic-missile proliferation** | Joined |
+- **NSG:** formed in reply to India's **1974 Pokhran-I** test; **voluntary, consensus-based**, no permanent secretariat; India's entry is blocked by the **consensus rule**.
+- **Membership gives access to the latest nuclear technologies**; it does **not** make a country an NPT member (UPSC 2018: only statement I correct).
+- The 2008 waiver (India-US Civil Nuclear Deal) allows civil nuclear trade – import of uranium and reactors – without joining the NPT.
+- **China and Pakistan** are outside both **Wassenaar and MTCR**; **North Korea** is outside MTCR.
+- **North Korea** admitted exporting missiles to **Pakistan and Iran** and asked the US for **compensation** to stop their further spread.
+- India = "responsible nuclear state": entry into **3 of the 4** regimes (MTCR, Wassenaar, Australia Group – not NSG).
+- **NSG** in a general GS paper usually = **National Security Guard** (MHA counter-terror force, 1984, "Black Cats"); in non-proliferation = Nuclear Suppliers Group.
+> Exam angle: wrong-pair questions swap years/controls (NSG 1975 nuclear; MTCR 1987 missiles); India is in MTCR, Wassenaar, AG but not NSG.
+~~ Sources: PMF IR notes (src/international-relations/pmf-international-relations.txt) pdf p.11, p.61; PMF Internal Security (src/disaster-mgmt/pmf-internal-security-dm-02.txt) p.23 (NSG force, 1984); app notes 2:161 sub 0-2
+
+=== Arms-control Treaties, JCPOA and ICAN
+| Treaty | Parties | Status |
+|---|---|---|
+| **JCPOA** (**2015**) | **Iran** with P5+1 (US, UK, France, Russia, China, **Germany**) and EU | **US left 2018**; Iran dropped all limits **5 January 2020** |
+| **New START** (signed **April 2010**, Prague) | **USA and Russia** (not China) | Bilateral **strategic nuclear arms reduction**; 1,550 deployed warheads; Russia suspended 2023; expired **February 2026** |
+| INF Treaty (1987) | USA and USSR | US left 2019 |
+| CCW (1980) | UN convention on inhumane conventional weapons | India party to all five protocols |
+- **START** = **Strategic Arms Reduction Treaty**; New START was the last US-Russia nuclear arms-control pact; **US + Russia** hold about **90%** of world arsenals.
+- **Iran:** US and Israel struck its nuclear sites **June 2025**; Iran's Parliament weighed **NPT exit** (Mar 2026).
+- **Nobel Peace Prize 2017: ICAN** (International Campaign to Abolish Nuclear Weapons) – for its work behind the **TPNW**.
+# TPNW, FMCT and nuclear-weapon-free zones
+- **TPNW:** first binding ban on nuclear weapons; **in force 2021**; **India did not sign** – says it adds nothing to customary international law.
+- **FMCT:** **India supports** negotiation at the **Conference on Disarmament** ("India does not support FMCT" is false).
+| NWFZ treaty | Region |
+|---|---|
+| Tlatelolco | Latin America |
+| Rarotonga | South Pacific |
+| Bangkok | Southeast Asia |
+| Pelindaba | Africa |
+| Semipalatinsk | Central Asia |
+> Exam angle: New START = USA-Russia bilateral (2010); JCPOA = 2015, Iran's full withdrawal 5 Jan 2020; ICAN = Nobel 2017.
+~~ Sources: PMF IR notes (src/international-relations/pmf-international-relations.txt) pdf p.11 (New START), p.82 (JCPOA); app notes 2:161 sub 4, 8; general knowledge for ICAN Nobel 2017 (not checked)
+
+=== FATF
+- Set up **1989 by the G7**; secretariat at **Paris (OECD)**; standards against **money laundering and terror financing**.
+- **Grey list** = jurisdictions under **increased monitoring**; **black list** = **high-risk jurisdictions subject to a call for action** – Iran, North Korea, **Myanmar** (unchanged at the Oct 2026 plenary).
+- **Pakistan:** **grey list** from **June 2018** for deficiencies in **terror financing and money laundering**; kept there (June 2020 too) for failing its **27-point action plan**; removed **October 2022**.
+- Oct 2026: grey list fell from 22 to **18** – DRC, Monaco, Bulgaria, Côte d'Ivoire removed.
+- **India:** member since **2010**; mutual evaluation adopted **June 2024** → **"regular follow-up"**; also in the **APG** (Asia/Pacific Group on Money Laundering).
+> Exam angle: Pakistan = grey (not black) list, 27-point plan, terror financing + money laundering.
+~~ Sources: PMF IR notes (src/international-relations/pmf-international-relations.txt) pdf p.132, p.155; app notes 2:161 sub 7
+
+=== IAEA, OPCW, CWC/BWC and Headquarters
+- **IAEA:** HQ **Vienna**, set up **1957**; India a **founding member**; DG **Rafael Grossi** (also chaired the NSG in 2016).
+| Agreement | Year | Provision |
+|---|---|---|
+| NSG India-specific waiver | 2008 | Civil nuclear trade |
+| India-Specific Safeguards Agreement | 2009 | Covers only civilian facilities, excludes military |
+| Additional Protocol | in force 2014 | IAEA safeguards |
+| India-Canada uranium | 2026 | 10,000 tonnes (2027-2035) for PHWRs |
+| India-Australia uranium | July 2026 | Administrative Arrangement; Australia holds over one-third of world uranium |
+# CWC and BWC
+| Feature | CWC | BWC |
+|---|---|---|
+| Year | Signed 1993, in force **1997** | Adopted 1972, in force **1975** |
+| Verification body | **OPCW** | **None** |
+| India | Party; destroyed its declared stockpile by **2009** | Party |
+- **OPCW:** HQ **The Hague**; **Nobel Peace Prize 2013**; **not an EU body**; organs = Conference of States Parties, Executive Council, Technical Secretariat (no Board of Governors).
+| Organisation | HQ |
+|---|---|
+| **IAEA** | **Vienna** |
+| **ITU** | **Geneva** |
+| **Council of the EU** | **Brussels** |
+| **OECD** | **Paris** |
+| OPCW | The Hague |
+> Exam angle: HQ match (UPSC 2002) – IAEA Vienna, ITU Geneva, Council of EU Brussels, OECD Paris.
+~~ Sources: PMF IR notes (src/international-relations/pmf-international-relations.txt) pdf p.61 (IAEA safeguards); app notes 2:161 sub 5, 6, 8

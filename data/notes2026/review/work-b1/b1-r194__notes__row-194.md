@@ -1,0 +1,278 @@
+=== Justice Party (South Indian Liberal Federation)
+# Background, aim and social base
+- **Why:** Brahmins were about **3%** of the Madras Presidency population but held **over 90%** of government jobs.
+- **Aim:** to further the interests of **non-Brahmins** (APPSC 2008, AP History PYQ ×2) – end Brahmin dominance in jobs, education, politics and religion; basically an **anti-Brahmin party** – "the first political party in India founded against Brahmins".
+- **Agenda of SILF:** social justice, a rightful place in services, political representation (information technology is an anachronism).
+- **Demand:** separate **communal representation** for non-Brahmins, on the lines given to Muslims by the Morley-Minto Reforms; opposed the Brahmin-dominated Congress.
+- **Social base:** non-Brahmin landed gentry, **intermediate landed castes** (Andhra: **Reddys, Kammas, Kapus**). Dalits built a parallel "Adi" movement.
+- **British view:** backed it to weaken **Home Rule**; used against Home Rule and Gandhi's movements; it **supported the British in the Second World War** (Congress, Forward Bloc, Yugantar did not).
+- **Andhra Mahasabha (Vijayawada, 1917)** sought reserved seats for non-Brahmins – **Ponaka Pattabhirama Reddy** and **Tripuraneni Ramaswamy Chowdary**.
+# Founding (1916-17)
+| Event | Date | Detail |
+|---|---|---|
+| **South Indian People's Association** | **20 Nov 1916**, Victoria Memorial Hall, Madras | ~30 non-Brahmin leaders |
+| **South Indian Liberal Federation (SILF)** – official name | **Dec 1916** | soon called the **Justice Party** |
+| Non-Brahmin Manifesto | Dec 1916 | signed by P. Thyagaraya Chetty |
+| Daily **Justice** (English) | **26 Feb 1917** | gave the party its name |
+| First general meeting | Coimbatore, Jul 1917 | first Andhra meeting: **Bikkavolu** |
+- **Founders:** **Dr T.M. Nair, P. Theagaraya Chetty, Dr C. Natesa Mudaliar** – not K. Kamaraj, not A.P. Patro; symbol **Scales**.
+- **Year traps:** formed **1916** (not 1910); name "Justice Party" from 1917.
+- **Papers:** **Justice** (English daily, edited by **T.M. Nair**); **Dravidan** (Tamil, 1917); took over the Telugu **Andhra Prakasika**.
+# Elections and Chief Ministers under dyarchy
+| Election / CM | Fact |
+|---|---|
+| **1920** (Congress boycotted) | won **63 of 98** seats – formed the **first ministry** |
+| **A. Subbarayalu Reddiar** | **first CM**, 17 Dec 1920 – Jul 1921 (resigned, ill health) |
+| **Panagal Raja** (Panaganti Ramarayaningar) | CM **1921-26**, two ministries; died 16 Dec 1928 |
+| 1923 | only 44 seats; ministry with nominated members' support |
+| 1926 | Justice 22; Swaraj 41 → independent **P. Subbarayan** ministry (1926-30) |
+| **B. Munuswamy Naidu** | 1930-32 |
+| **Bobbili Raja** | **1932-37** (P.T. Rajan acted 1936) |
+| K.V. Reddy Naidu | Apr-Jul 1937 (interim) |
+| 1937 | routed by Congress (Rajaji ministry) |
+- **1920:** party president **P. Theagaraya Chetty declined** office, so **Subbarayalu Reddiar** became first CM. ⚠ "Leader of the Justice Party in 1920" – keys give Subbarayalu Reddiar (head of the ministry); strictly the party president was Theagaraya Chetty.
+- Formed government **four times** from 1920.
+# Andhra leaders and the separate-Andhra question
+| Leader | Note |
+|---|---|
+| **Panagal Raja** | party president; CM 1921-26; said the **Cooum river** should be the boundary – north to the Andhras, south to the Tamils |
+| **Bobbili Raja** | CM 1932-37; **opposed a separate Andhra state** once CM (1932); 2nd Round Table Conference delegate |
+| K.V. Reddy Naidu (Eluru) | Minister 1920; CM 1937; backed an Andhra province only with a non-Brahmin majority |
+| A.P. Patro | Education Minister; Andhra University Act |
+| Munukuru Rama Rao | Krishna organiser |
+- The party did **not** support the separate Andhra movement: **M. Suryanarayana's** 1922 resolution was withdrawn at **Patro's** urging.
+- **No-confidence motion** against Panagal: **C.R. Reddy**, Nov 1923. 1926: Swaraj leader **C.V.S. Narasimha Raju** declined to form a ministry.
+# Legislation and reforms
+| Measure | Year | Detail |
+|---|---|---|
+| **Communal G.O.** | **1921** (not 1937) | proportional share for non-Brahmins in jobs and education; forerunner of reservation |
+| Women's franchise resolution | 1921 | Madras first province to let women vote |
+| **Andhra University Act** | **1926** | inaugurated 26 Apr 1926; Education Minister **A.P. Patro** |
+| Madras Hindu Religious Endowments Act | 1926 | – |
+| Annamalai University | 1929 | – |
+| Estate Land Act (1908) amended | Bobbili Raja | for zamindari tenants |
+- Caste-based roster (50% educational seats); schools and scholarships.
+- **Andhra University:** first Chancellor **Lord Goschen**; first HQ **Bezawada**, later **Waltair**.
+# Decline
+- No mass base; opposed the freedom struggle; Telugu-Tamil rivalry; deaths of Thyagaraya Chetty (1925) and Panagal (1928); **Natesa Mudaliar** criticised neglect of the poor and Harijans.
+- **1937** defeat → Periyar dominant → **Dravidar Kazhagam (1944)**.
+> Justice Party = SILF, 1916, non-Brahmins; first CM Subbarayalu Reddiar (1920); Panagal 1921-26; Bobbili 1932 opposed Andhra state; Andhra University 1926.
+~~ Sources: NextGen modern india level 3 part 8 p.1-5; NextGen AP History - APPSC Exams 18 p.21-22; NextGen previous papers p.6, p.11; Spectrum Modern India (Ahir) file p.258; old app notes row 194
+
+=== Jyotiba Phule and the Satyashodhak Samaj
+# Jyotiba Phule (1827-1890)
+- Born **1827**, Satara; a gardener's son – **Mali community**, Maharashtra.
+- Title **"Mahatma"** given by **Vithalrao Krishnaji Vandekar (1888)**; called **"Father of Indian Social Revolution"**.
+- **Creed:** all men have the same features and intellect – **nobody is sacred by birth**; aimed at complete abolition of caste; against Sanskritic Hinduism.
+- **1848**: girls' school, **Pune**; taught by **Savitribai Phule** (Maharashtra) – **India's first woman teacher**; home for widows 1854; pioneer of widow remarriage → the Indian women's movement is credited largely to Phule's inspiration.
+- **Savitribai** headed the Samaj's women's section; worked for lower-caste girls.
+# Satyashodhak Samaj ("Society of Truth Seekers")
+- Founded **24 September 1873, Pune**, by **Jyotiba Phule** – its **first president**; an **anti-caste movement in Maharashtra** (UPSC 2016 ×3) – not a tribal, temple-entry or peasant movement.
+- Aim: **upliftment of the backward classes** – **Shudras and Ati-Shudras** against **Arya-Brahmin** exploitation (not for Arya-Brahmins); end of **priestly monopoly**; education of women and lower castes; social service.
+- Leaders from malis, telis, kunbis, saris, dhangars.
+- **Satyashodhak marriages**: **without priests**; allowed **inter-caste** marriage.
+- Symbol: **King Bali** (the oppressed) against the Brahmanical symbol of **Rama**.
+- **Ideas (CDS 2015 – all three true):** set up **1873** ✔; Brahmins = progeny of **'alien' Aryans** ✔; his 1880s-90s focus on the **Kunbi** peasantry privileged **Maratha identity** ✔.
+- **Din Bandhu** (Marathi weekly, **Pune, 1877**) – the Samaj's organ, started by **Krishnarao Bhalekar**, credited to **Phule's** movement; spread it to remote Maharashtra; later edited by **N.M. Lokhande**. Phule also ran Dinmitra.
+# Works of Phule
+| Work | Note |
+|---|---|
+| **Gulamgiri** (1873) | "Slavery"; compared caste oppression with slavery |
+| Shetkaryacha Asud | "The Cultivator's Whipcord" |
+| Sarvajanik Satyadharma Pustak | published posthumously, 1891 |
+| Tritiya Ratna, Brahmananche Kasab | also Phule |
+- Phule's symbol = **King Bali**; Justice Party symbol = **Scales**.
+- **Current:** the Ministry of Social Justice and Empowerment began a two-year nationwide celebration of Phule's **200th birth anniversary** on **11 April 2026**.
+> Satyashodhak = Phule, Pune, 1873, anti-caste, Maharashtra; Gulamgiri; Din Bandhu.
+~~ Sources: Spectrum Modern India (Ahir) file p.247; PMF Modern History Part 5 p.122-124, p.171, p.199; Rocket Indian History Part 1 p.80; PMF Lens April 2026 p.11; old app notes row 194
+
+=== Ambedkar, Depressed-Class Bodies and Dalit Journals
+# Organisations – founder
+| Organisation | Founder / head | Place, year |
+|---|---|---|
+| Anarya Dosh Pariharak Mandali | Gopal Baba Walangkar | 1886, Mahars |
+| Depressed Classes Mission | **V.R. Shinde** | Bombay, 1906 |
+| **Bahishkrit Hitakarini Sabha** | **Ambedkar** (not Phule) | Bombay, 20 July 1924 (PMF: 1923) |
+| All India Depressed Classes Association | **M.C. Rajah** | 1926 |
+| **All India Depressed Classes Federation** | **Ambedkar** | 1930 |
+| **All India Anti-Untouchability League** | **Gandhi**; first president **G.D. Birla**, secretary A.V. Thakkar | 30 Sept 1932 → **Harijan Sevak Sangh** (1933) |
+| **All India Depressed Classes League** | **Babu Jagjivan Ram** | 1934-35 |
+| Independent Labour Party | Ambedkar | 1936 |
+| All India Scheduled Castes Federation | Ambedkar | 1942 |
+- **Pairs (UPSC 2019, all correct):** Anti-Untouchability League – Gandhi; All India Kisan Sabha – Swami Sahajanand Saraswati; Self-Respect – E.V. Ramaswamy Naicker.
+- Gandhi's own body = Anti-Untouchability League / Harijan Sevak Sangh, not the Depressed Classes Association (M.C. Rajah).
+- **'Adivasi':** first used for tribal people by **Thakkar Bappa** (A.V. Thakkar) per the UPSC 1995 key.
+# Journals
+| Journal | Founder |
+|---|---|
+| **Vital-Vidhvansak** (1888, Marathi) | **Gopal Baba Walangkar** – first monthly for the untouchables |
+| Din Bandhu (1877) | Krishnarao Bhalekar |
+| Mooknayak (1920, "Leader of the Silent") | Ambedkar |
+| **Bahishkrit Bharat** (1927, Marathi fortnightly) | **Ambedkar** |
+| Janata | Ambedkar |
+| Kudi Arasu, Viduthalai, Revolt (English) | Periyar |
+| Harijan (1933) | Gandhi |
+| Adi Hindu | Bhagya Reddy Varma |
+| Justice (English daily, 1917) | Justice Party |
+- **Walangkar** (1840-1900): Mahar ex-soldier born near **Mahad**; influenced by Phule.
+- Kudi Arasu = Periyar; Mooknayak = Ambedkar; Adi Hindu = Bhagya Reddy Varma; **The Orion = Tilak**, not Ambedkar.
+# Ambedkar – chronology
+| Year | Step |
+|---|---|
+| 1920 | Mooknayak |
+| 1924 | Bahishkrit Hitakarini Sabha |
+| 1927 | Mahad (Chavdar tank); Manusmriti Dahan (25 Dec); Bahishkrit Bharat; Samata Samaj |
+| 1930 | Kalaram Temple Satyagraha; Depressed Classes Federation |
+| 1932 | Poona Pact (24 Sept) |
+| 1936 | Independent Labour Party (1937 Bombay elections: Ambedkar + 15 won) |
+| 1942 | Scheduled Castes Federation |
+| 1956 | Conversion to Buddhism |
+- Order: **BHS (1924) → Kalaram (1930) → ILP (1936) → SCF (1942)**.
+- **Poona Pact:** separate electorates of the **Communal Award** replaced by **reserved seats in joint electorates** – **148 seats** vs 71; accepted unwillingly **to save Gandhi's life**.
+- **Neo-Buddhism:** mass conversion at **Deeksha Bhoomi, Nagpur, 14 Oct 1956**, with **22 vows**.
+- Sought annihilation of caste, legal rights, separate electorates; **Gandhi** saw varna as division of labour and untouchability as a corruption.
+| Book | Note |
+|---|---|
+| Who Were the Shudras? | APPSC-GS 2019 |
+| Annihilation of Caste (1936) | rebukes Gandhi's approach |
+| The Untouchables | – |
+| The Problem of the Rupee | LSE doctoral thesis, accepted 1923 |
+- Honorary **D.Litt, Osmania University, 1953**; **LL.D, Columbia, 1952**; **Bharat Ratna 1990** (posthumous). Titles: Father of the Indian Constitution, Baba Saheb, Modern Manu.
+> Bahishkrit Bharat & BHS = Ambedkar; Vital-Vidhvansak = Walangkar; Depressed Classes League = Jagjivan Ram; Association = M.C. Rajah; Federation = Ambedkar.
+~~ Sources: PMF Modern History Part 5 p.126-129, p.202, p.208; Spectrum Modern India (Ahir) file p.870-871; NextGen modern india level 2 part 4 p.2-4; constitutionofindia.net/members/jagjivan-ram; PMF Lens April 2026 p.11; old app notes row 194
+
+=== Adi-Andhra and Adi-Hindu Movements
+# Terms
+- **"Adi"** = original inhabitants; rejected "Panchama". **Adi-Andhra** = Dalits of the Andhra (Madras) region; **Adi-Hindu** = Dalits of Hyderabad State.
+- Early root: **Adi-Andhra Sabha (1890)**, first called the Pariya Mahasabha.
+# Madiri Bhagya Reddy Varma (born 1888, Hyderabad)
+- Original name **Madari Bhagaiah**; **"Father of the Dalit movement"** in Hyderabad/Andhra; used the terms **Adi-Andhra and Adi-Hindu** for Panchamas.
+- **Jagan Mitra Mandali (1906)** (not 1960) → **Manya Sangham (1911)** → **Adi-Hindu Social Service League**; journal **Adi Hindu**.
+- **Sahapankti bhojanams** (community dinners) and **Buddhism** (Buddha Jayanti from 1913) for Dalit consciousness; against child marriage, liquor, Devadasi system.
+- Presided over the **All India Adi Hindu Conference, Lucknow, 1930** – chose **Ambedkar** for the Round Table Conferences.
+# Sessions and conferences
+| Event | Place | Year / person |
+|---|---|---|
+| Jagan Mitra Mandali | Hyderabad | 1906 |
+| **First Adi-Andhra session** (first Provincial Panchama Mahajana Sabha) | **Vijayawada (Krishna district)** | **1917** (4-6 Nov); organiser Guduru Ramachandra Rao |
+| Second conference | Machilipatnam | 1919; President Chilukuri Venkataswamy |
+| First Adi-Andhra Sadassu | Amalapuram | 1921; Undru Tatayya |
+| Adi Andhrapathi Sangham | – | 1922; Undru Tatayya |
+| All India Adi Hindu Conference | Lucknow | 1930; Bhagya Reddy Varma |
+| Adi Andhra Mahasabha | Vizianagaram | 1936; Kusuma Dharmanna urged socialism |
+- **⚠ Who chaired the 1917 Vijayawada sabha:** the key and South First give **Sundru Venkaiah** (Eluru); Samvit Kendra and the old notes give **Bhagya Reddy Varma** (Venkaiah in the reception). Key the option offered – Sundru Venkaiah when both appear.
+- 1917 resolution: replace "Panchama" by **Adi Hindu** (Hyderabad) and **Adi Andhra** (Madras); seats in local bodies; special schools; wells in Dalit wadas.
+- First Adi-Andhra session district = **Krishna** (Vijayawada), not Amalapuram (APPSC-GS 2025).
+- **Temple entry:** in the Adi-Andhra phase a Harijan **temple entry** took place at **Siddhantam** (Krishna district), **1933** (17 Dec), during **Gandhi's** Andhra tour; Gandhi collected **Harijana Bhiksha** (1932-33); Communists organised a **Coolie Sangham**.
+# Other Andhra Dalit leaders
+| Leader | Role |
+|---|---|
+| **Jala Rangaswamy** | **"Adi Andhra Mahatma"**, Seva Dhurandhara; papers **Jai Bheem**, Veera Bharati; book Nimna Jatula Charitra |
+| **Arige Ramaswamy** | Madiga leader; **Arundhatiya** bodies for **Madigas** (Arundhatiya Mahasabha 1931); land rights, local-body seats |
+| Undru Tatayya | Burma businessman; Dalit school at Ponnamanda (1922) |
+| Kusuma Dharmanna | Adi-Andhra poet |
+| Gurram Jashuva (1895-1971) | first modern Telugu Dalit poet; **Gabbilam** (1941); title **Kavi Kokila**; Padma Bhushan 1970 |
+| Boyi Bhimanna | **Paleru**, Gudiselu Kalipotunnai, Pilli Shatakam, Paleru Nundi Padmasri Daka |
+- **Madigas** = "Arundhatiya" → **Arundhatiya Yuvajana Sangham** for marginalised Madigas (not the Adi-Hindu Social Service League).
+> Bhagya Reddy Varma: Jagan Mitra Mandali 1906 → Adi-Hindu League; Vijayawada 1917; Lucknow 1930. Jai Bheem = Jala Rangaswamy. Siddhantam 1933.
+~~ Sources: NextGen modern india level 2 part 4 p.2-5; NextGen previous papers p.26; samvitkendra.org (Sri Madari Bhagya Reddy Varma); thesouthfirst.com (Sundru Venkaiah profile; 1917 Vijayawada sabha); roundtableindia.co.in/?p=15545; old app notes row 194
+
+=== Kerala and Other Caste Movements; Temple-entry Satyagrahas
+# Master table
+| Movement | Region | Caste / group | Leader / body |
+|---|---|---|---|
+| **SNDP Yogam (1903)** | Kerala | **Ezhavas** (toddy-tappers) | **Sree Narayana Guru**; Dr Palpu; Kumaran Asan secretary |
+| Sadhu Jana Paripalana Sangham (1907) | Kerala | Pulayas | Ayyankali |
+| **Satnami** | Central India (Chhattisgarh) | **Chamars (leatherworkers)** | **Guru Ghasidas** (1756-1836) |
+| Mahar movement | Maharashtra | Mahars | B.R. Ambedkar; earlier Gopal Baba Walangkar |
+| **Nadar** | Southern Tamil Nadu | **Nadars (Shanars)** | temple-entry clash, Tirunelveli, **1899**; Nadar Mahajana Sangam (1910) |
+| Namashudra (Matua) | Bengal | Namashudras | Harichand Thakur; association 1912 |
+| Adi-Hindu / Adi-Andhra | Hyderabad / Andhra | Dalits | Bhagya Reddy Varma, Jala Rangaswamy |
+| Madiga welfare | Andhra | Madigas | Arundhatiya Yuvajana Sangham |
+- **Sree Narayana Guru:** "**One Caste, One Religion, One God for Man**" (oru jati, oru matham, oru daivam); **Aruvippuram** Shiva consecration (**1888**); 172nd birth anniversary on 28 Aug 2026.
+- **SNDP demands (CSE 1998):** admission to **public schools**, **government jobs**, access to **roads and temple entry**, political representation → A, B, D; "scheduling of Dalit communities" ✘.
+- Ezhavas = SNDP (Kerala); Satnamis = Ghasidas; Ayyankali = Sadhu Jana Paripalana Sangham, NOT the Adi-Hindu Social Service League.
+# Vaikom Satyagraha (1924-25)
+- Place: **Vaikom (Travancore, Kerala)**; against **untouchability** – right of lower castes to use the **roads around the Vaikom temple** → part of the **Temple Entry Movement** (APPSC G2 2024; TSPSC 2015).
+- Leaders: **T.K. Madhavan, K.P. Kesava Menon, K. Kelappan**; backed by Narayana Guru.
+- **Periyar** jailed → title **"Vaikom Veerar"**.
+- **Gandhi** visited in 1925 and negotiated a compromise; **not a direct participant**.
+- Outcome → **Travancore Temple Entry Proclamation, 12 Nov 1936**.
+# Temple entry and rights satyagrahas
+| Satyagraha / event | Place, year | Leaders / issue |
+|---|---|---|
+| Vaikom | Travancore, 1924-25 | Madhavan, Menon, Kelappan; Periyar |
+| Mahad | Kolaba (Maharashtra), 20 March 1927 | Ambedkar – water from the **Chavdar tank** |
+| Lakshminarayan Temple, Wardha | 1928 | opened by **Jamnalal Bajaj** |
+| Kalaram Temple | Nasik, 1930 | Ambedkar |
+| Guruvayur | Malabar, 1931-32 | K. Kelappan, **A.K. Gopalan** |
+| **Temple Entry Day** | **8 January 1933** | observed during Gandhi's anti-untouchability campaign |
+| **Temple Entry Bill** | 1933-34 | to open temples to **Dalits / Harijans**; defeated Aug 1934 |
+| Siddhantam | Andhra, 17 Dec 1933 | Harijan temple entry during Gandhi's tour |
+- Mahad = **water rights**, not a temple. Vaikom Veerar = Periyar, not Narayana Guru. Jamnalal Bajaj was not a Vaikom leader.
+> Vaikom = temple roads, untouchability, 1924; Ezhava = SNDP; Satnami = Ghasidas; 8 Jan 1933 = Temple Entry Day.
+~~ Sources: Spectrum Modern India (Ahir) file p.257-259, p.871; PMF Modern History Part 5 p.124-126; Singhania Art & Culture Part 5 p.1; old app notes row 194; Temple Entry Day: general knowledge, not checked
+
+=== Periyar and the Self-Respect Movement
+- **E.V. Ramasamy Naicker = "Periyar"**; joined the **Congress in 1920**, took part in **Non-Cooperation** (cut 1000 coconut trees in the 1921 anti-liquor drive); President and secretary of the provincial Congress.
+- **1925**: left Congress over **communal representation** and caste segregation at the **Cheranmadevi Gurukulam**.
+- **Self-Respect Movement (1925)** – the populist phase of the non-Brahmin movement, founded by **Periyar** (UPSC 2025 – not Ambedkar, Jadhav or Javalkar): rationalism; against caste hierarchy and Brahmin priests; **self-respect marriages without priests** (from 1928); women's equality.
+- **Aims:** equality for backward classes, acting by reason, end of superior/inferior caste notions – a lack of belonging to the state was never an aim.
+- **Journals:** **Kudi Arasu** (Tamil weekly, May 1925 – the movement's organ), Viduthalai, Puratchi / Revolt.
+- **Caste movements (APPSC G1 2018):** Satyashodhak (Maharashtra) + Self-Respect (Tamil Nadu) ✔; Ghadar (Punjab) and Bijolia (Rajasthan) ✘.
+- In Andhra: inspired Bhagya Reddy Varma and Jala Rangaswamy to adopt the "Adi" identity and demand temple entry.
+| Event | Year |
+|---|---|
+| Anti-Hindi agitation | 1937 |
+| Dravidistan demand | Erode 1940 |
+| Dravidar Kazhagam | 1944 |
+| DMK – C.N. Annadurai | 17 Sept 1949; in power 1967 |
+> Self-Respect = Periyar, 1925; Kudi Arasu; left Congress 1925; Vaikom Veerar.
+~~ Sources: PMF Modern History Part 5 p.125-126; Spectrum Modern India (Ahir) file p.258, p.870; NextGen AP History - APPSC Exams 18 p.22; old app notes row 194
+
+=== Andhra Rationalists and Caste Associations
+# Tripuraneni Ramaswamy Chowdary (Kavi Raju)
+- Rationalist/atheist attack on **Puranic** caste stories, yagas and caste; Chairman of **Tenali** Municipality.
+- Works: **Suta Puranam**, **Shambuka Vadha**, Kurukshetra Sangramam, Khooni.
+- Song **"Veeragandham techinamu veerulevaro telupudi"** → **Civil Disobedience Movement**.
+- Popular title: **Kavi Raju**.
+# Gora (Goparaju Ramachandra Rao)
+- **Atheist Centre**: **Mudunuru, 1940** (Krishna district) → **Vijayawada, 1947**; books **Positive Atheism**, We Become Atheists.
+- Ran **night schools** in Dalit habitations of **Krishna district**; worked against caste and untouchability (stayed in Harijan localities).
+# Caste associations
+| Body / journal | Year, place |
+|---|---|
+| Kamma Mahajana Sabha | 1910 |
+| Andhra Jana Kendra Sangham | 1923, Hanamkonda (Hyderabad State) |
+| Prabhodini (Viswa Brahmana journal) | 1907, Vaddipati Niranjanasastri |
+| Panchanana (Viswa Brahmana journal) | 1914, Sompet, K. Ramamurthy |
+> Suta Puranam = Tripuraneni; night schools in Krishna Dalit colonies = Gora.
+~~ Sources: NextGen AP History - APPSC Exams 18 p.15; NextGen AP History - APPSC Exams 19 p.4; en.wikipedia.org/wiki/Goparaju_Ramachandra_Rao; old app notes row 194
+
+=== Chronology and Quick Revision
+| Year | Event |
+|---|---|
+| 1848 | Phule's girls' school |
+| 1873 | Satyashodhak Samaj; Gulamgiri |
+| 1888 | Vital-Vidhvansak; Aruvippuram |
+| 1903 | SNDP Yogam |
+| 1906 | Jagan Mitra Mandali; Depressed Classes Mission |
+| 1916 | Justice Party |
+| 1917 | First Panchama Mahajana Sabha |
+| 1921 | Communal G.O. |
+| 1924 | Vaikom; Bahishkrit Hitakarini Sabha |
+| 1925 | Self-Respect Movement |
+| 1926 | Andhra University |
+| 1927 / 1930 | Mahad / Kalaram |
+| 1932 | Poona Pact |
+- Order (APPSC-GS 2023): **Satyashodhak (1873) → SNDP (1903) → Justice (1916) → Self-Respect (1925)**; same year 1906: Jagan Mitra Mandali + Depressed Classes Mission.
+| Item | Fact |
+|---|---|
+| Justice seats 1920 | 63 of 98 |
+| Brahmins: population / jobs | 3% / over 90% |
+| Poona Pact seats | 148 vs 71 |
+| Ambedkar's vows | 22 |
+| Andhra University / Annamalai | 1926 / 1929 |
+| First Adi-Andhra session | 4-6 Nov 1917 |
+- Firsts: first woman teacher **Savitribai Phule** (1848); first Madras CM **A. Subbarayalu Reddiar**; first monthly for untouchables **Vital-Vidhvansak**; Communal G.O. 1921 = root of South Indian reservation.
+~~ Sources: old app notes row 194; Spectrum Modern India (Ahir) file p.247, p.257-258

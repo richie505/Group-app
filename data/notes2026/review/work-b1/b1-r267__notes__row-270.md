@@ -1,0 +1,79 @@
+=== Modern Painters of Andhra Pradesh and Their Names
+| Painter | Style / title |
+|---|---|
+| **Nandikolla Gopala Rao** | **"Father of Modern Contemporary Art"** in AP (Extension Officer 2019); Ravi Varma style portraits; born Injaram near Kakinada |
+| Damerla Rama Rao | Pioneer of modern Andhra painting, **Rajahmundry**; art gallery there |
+| **Adivi Bapiraju** | Painter, poet and novelist (**Narayana Rao, Himabindu**) |
+| Vaddadi Papaiah (**Vapa**) | Magazine covers: Chandamama, Yuva |
+| **Bapu** | Line drawings of **Ramayana-Mahabharata** characters; cartoonist, film director; **Telugu Velugu** award for painting (Ugadi 2012) |
+| **P.T. Reddy** (Pakala Tirumal Reddy) | **Painter** – modern Indian art from Telangana (MPDO 1997) |
+| Pen name | Birth name |
+|---|---|
+| **Bapu** | **Sattiraju Lakshminarayana** |
+| **Ramana** | **Mullapudi Venkata Ramana** (Bapu's film partner) |
+| Vapa | Vaddadi Papaiah |
+- **Birth name Sattiraju Lakshminarayana:** **Bapu** (G2 Mains 2017 ×2; AP History PYQ) – not Ramana, Paidi Raju or Sanjeeva Dev.
+- **K. Shankar Pillai ("Shankar"):** India's pioneer **political cartoonist**, founder of **Shankar's Weekly** (MPPSC 1990) – not a painter, dancer or flautist.
+> Exam angle: Father of modern art in AP = **Nandikolla Gopala Rao**, not Bapu, Bapiraju or Papaiah.
+~~ Sources: NextGen AP History Part 6 p.14; NextGen AP History Part 7 p.20 (Bapu Telugu Velugu 2012); https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Nandikolla_Gopala_Rao.html (via search); app notes 1:270 (sub 0, 1); P.T. Reddy, Shankar: general knowledge, not checked
+
+=== Museums – Salar Jung, AP Museums and National Museums
+# Museums of Andhra Pradesh and Hyderabad
+| Museum | Place | Note |
+|---|---|---|
+| **Salar Jung Museum** | **Hyderabad** (now Telangana) | National importance; collection of **Mir Yousuf Ali Khan (Salar Jung III)**, Nizam's PM, over 40 years; opened **1951**; **Veiled Rebecca** (Rome, 1876) |
+| AP State Museum | Hyderabad | Now the **Telangana State Museum** |
+| **Nagarjunakonda island museum** | Nagarjuna Sagar reservoir | The **island museum** of AP; Ikshvaku-Buddhist finds |
+| Amaravati site museum | Amaravati | Mahachaitya; white limestone Amaravati School |
+| **Bapu Museum** | Vijayawada | Formerly **Victoria Jubilee Museum** |
+| Baudhasree | **Guntur** | Archaeological museum |
+| Divi Pump Scheme | **Puligadda** | Irrigation museum (2014) |
+- **Collector of the Salar Jung Museum treasures:** **Mir Yusuf Ali Khan (Salar Jung III)** (AP History PYQ) – not Mir Alam, Munir-ul-Mulk or Salar Jung I; Hyderabad's famous museum = **Salar Jung** (SSC 2012).
+- **Island museum of AP:** **Nagarjunakonda** (APSLPRB Constables 2019) – not Salihundam, Kolleru or Vijayawada.
+- Many Amaravati relics went to **London** and **Madras** museums; division of museum antiques under the **AP Reorganisation Act, 2014** remains unfinished.
+# National museums and terms
+- **Curator:** the keeper of a **museum** collection.
+- **Teak Museum:** **Nilambur** (Kerala) – not Mysore, Bilaspur or Ballarpur.
+- **Titanwala Museum:** **Rajasthan** (Bagru – block-printing).
+- **International Museum Day:** **18 May**.
+~~ Sources: app notes 1:270 (sub 6); Salar Jung III collection, Teak and Titanwala museums: general knowledge, not checked
+
+=== Heritage Bodies, Laws and Monuments
+| Body / law | Year | Note |
+|---|---|---|
+| **ASI** | **1861** | Founded by **Alexander Cunningham**; an attached office of the **Ministry of Culture** |
+| Hyderabad State Archaeological Department | **1914** | Origin of the AP Department of Archaeology and Museums; HQ: Commissioner's office, **Vijayawada** (2026) |
+| **AMASR Act** | **1958** | Central protection of monuments |
+| ICOMOS | 1965 | International heritage advisory body |
+| Antiquities and Art Treasures Act | **1972** | – |
+- **ASI is under:** the **Ministry of Culture** (IAS 2004) – not Tourism, S&T or HRD.
+- **Nehru Memorial Museum and Library (NMML):** autonomous body under the **Ministry of Culture**; renamed **Prime Ministers' Museum and Library (PMML)** Society in **2023**.
+- **India Gate** (Delhi, Edwin Lutyens): war memorial modelled on Paris's **Arc de Triomphe** (SSC CGL 2019).
+- **Rock Garden, Chandigarh:** created by **Nek Chand** from industrial and urban waste.
+- **Mylacherla stepwell:** a horseshoe-shaped granite stepwell (c. 300-350 years old) credited to the **Gandi brothers**, cattle herders, in the Nallamala forest – hamlet near Vatlabailu, **Chandrasekharapuram** mandal, **Prakasam** district (Forest Beat Officer 2019).
+~~ Sources: Singhania Art & Culture Part 6 (src/indian-history/singhania-art-culture-06.txt) p.3-45 (Nek Chand); https://www.thehansindia.com/andhra-pradesh/the-350-year-old-stepwell-of-nallamala-a-beacon-of-history-resilience-communal-endurance-937604 (via search); app notes 1:270 (sub 2); NMML renaming: general knowledge, not checked
+
+=== Heritage Sites, UNESCO and Capital Buildings
+- AP has **no inscribed World Heritage Site**.
+- **Lepakshi** (Veerabhadra temple, **monolithic Nandi**) on UNESCO **tentative list, 2022**.
+- **Mangalagiri** 153-ft gopuram under ASI conservation.
+- Debate: cosmetic restoration harms sites; answer = scientific conservation + heritage impact assessment.
+- **Interim capital buildings:** the interim **Secretariat** and **Legislature** stand at **Velagapudi** (Thullur mandal, Amaravati capital region); the Legislature building was inaugurated by CM **N. Chandrababu Naidu** on **2 March 2017**.
+~~ Sources: app notes 1:270 (sub 3)
+
+=== Nagarjunakonda and Buddhist Sites Dug after 1956
+# Nagarjunakonda – salvage archaeology
+- Found **1926** by **A. Ranganatha Saraswati**; dug by **Longhurst (1927)**, later Ramachandran, **R. Subrahmanyam**.
+- Finds: acoustic building, **amphitheatre**, **Santamula's Ashvamedha altar**, **Sati sculpture**, **30+ stupas**.
+- **Nagarjunasagar Dam:** site submerged **after 1960**; ASI rebuilt monuments on higher ground at **Anupu** and on the island = **"Transplanted Monuments"**.
+- Island museum on the hilltop opened **1966** (ASI).
+# Buddhist sites
+| Site | District | Feature |
+|---|---|---|
+| Bavikonda | Visakhapatnam | Hilltop monastery, among the oldest (**Hinayana** phase) |
+| **Thotlakonda** | Visakhapatnam | Stupa, apsidal chaityas, **rainwater harvesting**; spotted by the **Indian Navy** |
+| **Salihundam** | **Srikakulam** | Port town; Tara bronzes, Buddha footprint; found by **Gidugu Venkata Ramamurthy** |
+| Bojjannakonda | Anakapalli | Monolithic Buddha in **Dhyana mudra**; **Mahayana-Vajrayana** |
+| Gudiwada Dibba | – | Mauryan to Satavahana remains |
+- "Discover Andhra" campaign: Buddhist circuit Amaravati, Bavikonda, Thotlakonda (Feb 2026).
+~~ Sources: app notes 1:270 (sub 4, 5)

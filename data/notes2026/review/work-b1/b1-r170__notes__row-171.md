@@ -1,0 +1,70 @@
+=== William Bentinck (1828-35) – Sati, Thugs and Reforms
+- **Sati declared illegal** by **Regulation XVII of 4 Dec 1829** (the **Bengal Sati Regulation**) – **William Bentinck**, backed by **Raja Rammohan Roy** (a reformer, not the lawmaker); extended to Madras and Bombay in 1830.
+- **Thuggee suppressed (from 1830):** **Captain William Henry Sleeman** (appointed **1835**); Thugs (Hindu and Muslim) worshipped **Kali / Durga / Bhavani**.
+- **Female infanticide** suppressed (earlier regulations 1795, 1802 under Wellesley).
+- **Annexed:** **Mysore taken over (1831) for misgovernance**; **Coorg** and Central Cachar (1834).
+- **Ranjit Singh** received with great honour at **Ropar (1831)** – treaty of "perpetual friendship".
+- **Charter Act 1833:** Bentinck = **last GG of Bengal, first GG of India**; Company's trade ended, Europeans free to settle and hold land – he **eased the entry of British investors and traders** (APPSC key); the Act asked for slavery to be ended.
+- **Education:** Macaulay's Minute and the **English Education Act (1835)**; English the official language – "**Father of Modern Western Education in India**". Revised the **Mahalwari** settlement (Regulation IX, 1833) in the North-Western Provinces.
+| Bentinck did NOT | Who did |
+|---|---|
+| Abolish slavery (Act V of **1843**) | **Ellenborough** |
+| Free the press (**1835**) | **Metcalfe** |
+| Set up the first universities (**1857**) | **Canning** |
+| Remove disabilities on change of religion (**1850**) | **Dalhousie** |
+~~ Sources: NextGen Indian History APPSC Part 5 p.39, Part 6 p.1; Spectrum Modern India p.849; PMF Modern History Part 2 p.41, p.95, Part 3 p.1, p.25-27; old app notes row 171
+
+=== Warren Hastings (1772-85)
+- **Governor of Bengal from 1772**; **first Governor-General of Bengal** under the **Regulating Act, 1773** (in office 1773/74-85).
+- **1772:** ended Clive's **Dual Government**, moved the treasury to Calcutta; **introduced the District Collector** (Diwani Adalats under the collector); **District Diwani and Fauzdari Adalats**; auctioned revenue-collection rights (five-year farming) – the **earliest land revenue settlement for Bengal**.
+- **Wars:** **Rohilla War (1774)** – he **helped Awadh against the Rohillas** (did not encourage them); **First Anglo-Maratha War** (Salbai 1782); **Second Anglo-Mysore War (1780-84)**; **Ring Fence** policy (Awadh as buffer).
+- **Culture:** **Calcutta Madrasa (1781)** – first Company educational institution; **Asiatic Society of Bengal (1784, William Jones)**; **A Code of Gentoo Laws (1776)** – Halhed's English translation of the Manu-based digest *Vivadarnavasetu*; stopped Shah Alam's **Rs 26 lakh** tribute; Supreme Court, Calcutta (1774); Pitt's India Act (1784).
+- **Impeachment:** begun **1787** by **Edmund Burke** in Parliament; trial **1788-95** → **acquitted**. Charges: Rohilla War, **Chait Singh** of Benares, **Begums of Awadh**, judicial murder of **Nand Kumar (1775)**. The **only Governor-General impeached**.
+~~ Sources: NextGen Indian History APPSC Part 5 p.39; Spectrum Modern India p.553, p.595, p.848; PMF Modern History Part 2 p.98, p.102-103, Part 3 p.10, p.18, p.54; old app notes row 171
+
+=== Cornwallis (1786-93) – Permanent Settlement and Civil Service
+- **Permanent Settlement (Istamarari) of Bengal, 1793** – zamindars owners; revenue fixed for ever.
+- **Cornwallis Code (1793):** separated **revenue administration from justice**; created the post of **District Judge**; collector left only revenue.
+- **Civil service:** Europeanised the administration, raised salaries, banned private trade – created the **Covenanted Civil Service** (later **ICS**) – "**Father of Civil Services in India**"; Warren Hastings had laid its foundation.
+- **Third Anglo-Mysore War** (Treaty of Seringapatam, 1792).
+- **Second term:** from 30 July 1805; **died 5 Oct 1805 at Ghazipur** (tomb there).
+~~ Sources: NextGen Indian History APPSC Part 5 p.39; Spectrum Modern India p.848; PMF Modern History Part 3 p.15; old app notes row 171
+
+=== Dalhousie (1848-56) – the Maker of Modern India
+- **Railways:** **Railway Minute (1853)**; first line **Bombay-Thane (16 April 1853)** – he advocated rapid railway building.
+- **Telegraph** (Calcutta to Bombay, Madras, Peshawar) and the **Post Office Act (1854)**; **Public Works Department** (1854) – before him public works were under the Military Board; **Ganges Canal** (1854).
+- **Education:** **Wood's Despatch (1854)** – so "educational reforms" **were** his; the **Factories Act (1881)** was **Ripon's**, not his.
+- **Social:** Caste Disabilities Removal Act (**1850**); **Hindu Widows' Remarriage Act (1856)** – listed under Dalhousie by NextGen and Spectrum, though passed on 26 July 1856 after **Canning** took over.
+- **Causes of 1857 from his measures:** Doctrine of Lapse, annexation of Awadh, **abolition of titles and pensions** – railways and telegraph alarmed people too; educational reform was not one of them.
+~~ Sources: Spectrum Modern India p.850; NextGen Indian History APPSC Part 6 p.1; Rocket Indian History Part 2 p.66; old app notes row 171
+
+=== Governors-General in Order and the Office
+| # | Governor-General | Tenure | Wars / events |
+|---|---|---|---|
+| 1 | **Warren Hastings** | 1773-85 | Rohilla, 1st Maratha, **2nd Mysore** |
+| 2 | **Cornwallis** | 1786-93 | 3rd Mysore; Permanent Settlement |
+| 3 | **Sir John Shore** | 1793-98 | **Non-intervention**; Kharda (1795, Marathas beat the Nizam); Charter Act 1793 |
+| 4 | **Wellesley** | 1798-1805 | Subsidiary Alliance; 4th Mysore; 2nd Maratha; **College of Fort William (1800)** |
+| 5 | **Sir George Barlow** | 1805-07 | **Vellore Mutiny (1806)** |
+| 6 | **Minto I** | 1807-13 | Treaty of Amritsar (1809); Charter Act 1813 |
+| 7 | **Lord Hastings (Marquess; Francis Rawdon-Hastings, Lord Moira)** | 1813-23 | **Anglo-Nepal**; **3rd Maratha**; **Pindaris**; Mahalwari (1822) |
+| 8 | **Amherst** | 1823-28 | 1st Burmese (Yandabo 1826) |
+| 9 | **William Bentinck** | 1828-35 | Sati, Thugs, Mysore, Coorg |
+| 10 | **Charles Metcalfe** | 1835-36 | **Press freed** |
+| 11 | **Auckland** | 1836-42 | 1st Afghan War; irrigation; famine relief |
+| 12 | **Ellenborough** | 1842-44 | **Sindh (1843)**; Gwalior; **slavery abolished** |
+| 13 | **Hardinge I** | 1844-48 | **1st Sikh War**, Lahore; preference for English education; human sacrifice banned |
+| 14 | **Dalhousie** | 1848-56 | 2nd Sikh War; Lapse; railways |
+- **Titles:** Governor of Bengal (first **Clive, 1758**) → **GG of Bengal (Regulating Act 1773: Warren Hastings)** → **GG of India (Charter Act 1833: Bentinck)** → **Viceroy (GoI Act 1858: Canning)**.
+- **Robert Clive** – founder of British rule in Bengal / of the British Empire in India; "heaven-born general"; set up the **Dual Government (1765)**.
+- **Order asked:** Warren Hastings → Cornwallis → Wellesley → William Bentinck.
+- **Not matched trap:** Anglo-Nepal War = **Lord Hastings**, not Sir John Shore.
+~~ Sources: NextGen Indian History APPSC Part 5 p.38-39, Part 6 p.1; Spectrum Modern India p.848-850; PMF Modern History Part 2 p.98-99, p.103, p.106; Rocket Indian History Part 2 p.66; old app notes row 171
+
+=== Wellesley, Metcalfe and Ellenborough – Other Measures
+- **Wellesley (1798-1805):** called himself the **"Bengal Tiger"**; Subsidiary Alliance; College of Fort William; took over Tanjore (1799), Surat (1800), Carnatic (1801); **Ceded Districts (1800)**. His administration was dominated by wars; it was **not** confined to Company affairs (statement-type trap).
+- **Charles Metcalfe (1835-36):** **Press Act of 1835 (Metcalfe Act)** repealed the 1823 licensing rules – the "**liberator of the Indian press**" (dated **1835**, at the end of the Bentinck period).
+- **Ellenborough (1842-44):** **ended the First Afghan War (1842)**; **Act V of 1843 abolished slavery** (the Charter Act of 1833 had asked for it); Sindh annexed.
+- **Hardinge I (1844-48):** Anti-Human-Sacrifice Act (**1845**); preference for English education.
+> **Press freed = Metcalfe (1835)**; Vernacular Press Act = Lytton (1878); its repeal = Ripon (1882).
+~~ Sources: Spectrum Modern India p.590, p.849-850; NextGen Indian History APPSC Part 6 p.1; PMF Modern History Part 3 p.1, p.27; old app notes row 171

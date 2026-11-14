@@ -1,0 +1,74 @@
+=== Administrative Units – Suba, Sarkar, Pargana, Chakla
+| Unit (largest to smallest) | Head(s) |
+|---|---|
+| **Suba** (province) | Subedar (Nazim) + provincial Diwan |
+| **Sarkar** (**district**) | Faujdar + Amalguzar |
+| **Pargana** (≈ tehsil, about 100 villages) | Shiqdar + amil, qanungo, chaudhari |
+| Village | Muqaddam, patwari, chowkidar, panchayat |
+- **Ascending order: Pargana → Sarkar → Suba** (UPSC 2021); Mughal "district" = **Sarkar** (not Suba, Ahar, Vishaya).
+- **Chakla** – unit **between suba and pargana, not identical with the sarkar** (UPPSC 2018); prominent in **Bengal** under **Murshid Quli Khan**.
+- Subas: **12 (1580) → 15** under Akbar; **21** under Aurangzeb (Golconda the 21st).
+- The state's effective rural reach **ended at the pargana**; villages largely self-governing.
+~~ Sources: NextGen Indian History APPSC 05 p.16; old app notes 1:134 (sub 0)
+
+=== Provincial, District and Village Officials
+| Official | Function |
+|---|---|
+| Subedar (sipahsalar/nazim) | Governor – law and order |
+| Diwan (provincial) | Revenue and finance; **independent of the Subedar** – a check on him |
+| Bakhshi | Military pay, musters, news |
+| Faujdar | Sarkar – military command, law and order |
+| Kotwal | City police; markets; watch on newcomers |
+| Muhtasib | Public morals |
+| Diwan-i-Tan | Salaries (tankhwah) and jagir assignments |
+
+| Official | Level | Duty |
+|---|---|---|
+| **Amalguzar (amil)** | Sarkar | Revenue collector in charge of a district |
+| Bitikchi | Sarkar | Accountant – land records, revenue papers |
+| Potdar / Khazanadar | Sarkar | Treasurer |
+| Qanungo | Pargana | Hereditary keeper of land records; head of patwaris |
+| Shiqdar | Pargana | Executive and police officer |
+| **Patwari** | Village | Village accountant – **land-record officer** |
+| Muqaddam | Village | Headman; collected revenue |
+- **Patwari** = land records (BPSC 2019) – Lambardar, Zaildar = village/zail headmen of colonial Punjab; Zamindar = hereditary revenue right.
+~~ Sources: NextGen Indian History APPSC 05 p.16; old app notes 1:134 (sub 1-2)
+
+=== Revenue Systems and Terms
+| System | Basis |
+|---|---|
+| Zabti / Dahsala | Measurement + 10-year average rates, in cash (Todar Mal, 1580) |
+| **Batai / Bantai** (ghallabakhshi, bhaoli) | **Sharing of the crop** – a way of calculating revenue |
+| Kankut | Estimate of the crop |
+| Nasaq | Estimate from past assessments; Bengal and Orissa |
+- **Ijarah** = **revenue farming**: the ijaradar paid a **fixed sum to the treasury** and squeezed the peasant – encouraged middlemen; the **peasant's demand was NOT fixed**.
+- State share about **one-third** of produce (Dahsala: average of the past ten years).
+| Class | Condition |
+|---|---|
+| Polaj | Cultivated every year |
+| Parauti | Fallow 1-2 years |
+| Chachar | Fallow 3-4 years |
+| Banjar | Uncultivated 5 years or more |
+~~ Sources: Rocket Indian History 01 p.97; old app notes 1:134 (sub 3-4); NCERT Themes in Indian History II ch.8
+
+=== Mansabdar–Jagirdar–Zamindar Linkage
+- 1. **Mansabdar** gets a rank → paid by a **tankhwah jagir**; 2. jagirdar's agents collect the assessed revenue (**jama**) through **zamindars**, who keep a hereditary share (**nankar**); 3. the **peasant** pays about one-third.
+| Jagirdar | Zamindar |
+|---|---|
+| Revenue assignment **in lieu of salary** for state (mainly military) service – **no judicial or police duty** | Hereditary rights over land/revenue in a locality; also kept order, supplied troops |
+| **Not hereditary**; transferred often | **Hereditary**, saleable rights |
+- **UPSC 2019:** both statements wrong – jagirs were for salary, not judicial/police duty, and were **not hereditary**, while zamindari rights **were** – answer **neither A nor B**.
+- Conflicts: short-tenure jagirdars pressed for more → zamindars resisted → peasants fled (local face of the jagirdari crisis).
+| Category (S. Nurul Hasan) | Rights and role |
+|---|---|
+| Autonomous chiefs | Rajas ruling their own territories |
+| Intermediary | Collected revenue from primary zamindars for the state; got a commission |
+| Primary | Proprietary, hereditary rights over cultivated land |
+- **Three-fold classification** of Mughal zamindars (autonomous chiefs, intermediary, primary) – by historian **S. Nurul Hasan**.
+~~ Sources: NextGen Indian History APPSC 05 p.16; old app notes 1:134 (sub 5-6); NCERT Themes in Indian History II ch.8
+
+=== AP Angle – Qutb Shahi Golconda
+- Units **tarafs** and **simalu**; under Tana Shah **37 sarkars, 517 parganas**.
+- Village **mukaddam**, accountant **kulkarni**, pargana officer **desai**; revenue **farmed out by auction**.
+- **Northern Circars** zamindaris date from the Qutb Shahi era.
+~~ Sources: old app notes 1:134 (sub 7)

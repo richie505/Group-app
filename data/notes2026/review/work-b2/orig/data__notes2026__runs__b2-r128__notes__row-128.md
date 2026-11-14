@@ -1,0 +1,191 @@
+=== Reform Laws of the Colonial Era and the Reformers
+| Law | Year | Reformer / note |
+|---|---|---|
+| **Bengal Sati Regulation** | **1829** | Banned sati in British India; campaign of **Raja Rammohan Roy**; Lord William Bentinck |
+| **Hindu Widows' Remarriage Act** | **1856** | Due to **Ishwar Chandra Vidyasagar**; children of such marriages legitimate |
+| Female Infanticide Prevention Act | 1870 | Colonial law (APPSC 2018) |
+| **Child Marriage Restraint (Sarda) Act** | **1929** | Replaced by the **Prohibition of Child Marriage Act, 2006** |
+| Hindu Marriage Act | 1955 | After Independence |
+- **Order:** Sati 1829 → Widow Remarriage 1856 → Sarda 1929 → Hindu Marriage Act 1955.
+- **⚠ Trap:** widow remarriage = **1856** (not 1855, 1879, 1893) – asked ×4; an exam of 2000 asking the "Prohibition of Child Marriage Act" meant the **1929** Sarda Act.
+| Reformer | Reform |
+|---|---|
+| Raja Rammohan Roy | Abolition of sati (1829); **Brahmo Samaj (1828)**; *Tuhfat-ul-Muwahhidin*; *Sambad Kaumudi* |
+| Ishwar Chandra Vidyasagar | Widow Remarriage Act 1856; **Bethune School (1849)**; against child marriage, polygamy |
+| Jyotirao and Savitribai Phule | **First girls' school, Pune, 1848**; Satyashodhak Samaj (1873, Jyotirao); infanticide home **1863**; *Gulamgiri* |
+| **Savitribai Phule** | **India's first woman teacher** |
+| Pandita Ramabai | **Arya Mahila Samaj** (1882); *The High-Caste Hindu Woman* (1887) |
+| Tarabai Shinde | *Stri Purush Tulana* |
+| Kandukuri Veeresalingam | First Telugu widow remarriage, **Rajahmundry, 1881** |
+- *The Gospel of Sri Ramakrishna* = **Mahendranath Gupta ('M')**.
+# Status of Women Through History
+- **Vedic:** wife honoured as **'Ardhangini'** (better half). **Later Vedic and medieval:** decline; **purdah** prominent.
+| Custom | Meaning / law |
+|---|---|
+| Niyoga | Childless widow/wife has a son by the husband's brother or kinsman (not a ban on widow remarriage) |
+| Devadasi | Girls dedicated to temples; banned in AP by both the **Madras Act 1947** and the **AP Devadasis (Prohibition of Dedication) Act 1988** |
+~~ Sources: Rocket Indian Society p.1 l.18-27, p.39 l.1724-1725, p.99 (PCMA replaced Sarda Act); Spectrum Modern India l.9267-9270; app notes 2:128 sub 0-1
+
+=== Laws on Women – Chronology
+| Act | Year | Key point |
+|---|---|---|
+| Indian Succession Act | **1925** | Christians and others (not Muslims) |
+| Special Marriage Act | 1954 | Civil, secular marriage |
+| Hindu Succession Act | **1956** | Property rights |
+| Immoral Traffic (Prevention) Act | 1956 | Trafficking for prostitution |
+| **Dowry Prohibition Act** | **1961** (not 1976) | Bans giving, taking, demanding dowry |
+| Maternity Benefit Act | 1961 | Maternity protection |
+| MTP Act | 1971 | Abortion law |
+| **Equal Remuneration Act** | **1976** | Equal pay; prevents gender-based pay discrimination |
+| Indecent Representation of Women (Prohibition) Act | **1986** | Ads, publications, paintings (not child marriage) |
+| **Commission of Sati (Prevention) Act** | **1987** | Sati and its glorification |
+| PCPNDT Act | 1994; in force 1 Jan 1996 | Bans prenatal sex determination |
+| Domestic Violence Act | 2005 | Civil remedy; Right to Residence (s.17) |
+| Prohibition of Child Marriage Act | 2006 | Replaced Sarda Act; 18 F / 21 M |
+| POSH Act | 2013 | Internal Committee at 10+ employees |
+| Criminal Law (Amendment) Act | 2013 | After Nirbhaya |
+- **Match (TSPSC 2023):** Equal Remuneration **1976**, Sati **1987**, Indian Succession **1925**, Dowry **1961**.
+- **Telangana/AP women's laws in order:** PCPNDT **1994** → AP Compulsory Registration of Marriages **2002** → Prohibition of Child Marriage **2006** → POSH **2013**.
+- **Constitutional vs legal rights:** the ban on dowry is a **legal** right (1961 Act), not a constitutional one.
+- **Marital rape exception (BNS s.63)** under challenge in SC (10 Sep 2026).
+~~ Sources: Rocket Indian Society p.39-41 l.1724-1817, p.99; NextGen Society Part 3 p.35; app notes 2:128 sub 6
+
+=== Personal Laws, Succession and Adoption
+| Law | Provision |
+|---|---|
+| Special Marriage Act 1954 | Civil, secular marriage irrespective of religion, after public notice |
+| Hindu Marriage Act 1955 | Monogamy, divorce grounds, restitution of conjugal rights |
+| **Hindu Succession Act 1956** | Equal inheritance; ended female heir's limited estate; covers **patrilineal (Mitakshara, Dayabhaga) and matrilineal (Marumakkattayam, Aliyasantana) systems** (s.7, s.17); s.2(2) excludes notified STs |
+| HSA (Amendment) 2005 | Daughters = equal coparceners |
+| AP HSA Amendment | **1985** under NTR: unmarried daughters coparceners, before 2005 |
+| Hindu Adoptions and Maintenance Act 1956 | Male adopting a girl must be **at least 21 years older** (s.11) |
+| Muslim Women (Divorce) Act 1986 | After Shah Bano |
+| Muslim Women (Marriage) Act 2019 | Instant talaq-e-biddat **void and illegal**; up to **3 years** |
+- **HSA disqualification:** **conversion** (convert's descendants, s.26), murder (s.25); **no** disqualification for disease, defect or deformity (s.28).
+- **⚠ Trap:** the 1929 Hindu Law of Inheritance (Amendment) Act only reordered heirs under Mitakshara – the law that brought both matrilineal and patrilineal Hindus under one code is the **HSA 1956**.
+- **Art. 44 (UCC)** rests on the idea that **religion and personal law are different** in a civilised society (Sarla Mudgal 1995).
+- Maintenance: **Sec. 125 CrPC → Sec. 144 BNSS**. **SC (8 Oct 2025):** upheld HSA exclusion of STs.
+~~ Sources: Rocket Indian Society p.41, p.99; web: courtbook.in HSA s.17; general knowledge (HAMA s.11, HSA s.25-28); app notes 2:128 sub 7
+
+=== Constitutional Provisions
+| Article | Content |
+|---|---|
+| 14 / 15(1) / 16(2) | Equality; no sex discrimination, incl. public employment |
+| 15(3) | Special provisions for women and children |
+| 39(a) / **39(d)** | Livelihood / **equal pay for equal work** |
+| **42** | **Just and humane conditions of work and maternity relief** |
+| 44 | Uniform Civil Code |
+| 51A(e) | Renounce practices derogatory to the dignity of women |
+| 243D / 243T | At least 1/3 seats and chair posts in Panchayats / Municipalities |
+| 330A / 332A | 1/3 seats in Lok Sabha / State Assemblies |
+- All of 14, 15, 15(3), 39, 42, 51A(e) are women's safeguards (APPSC Panchayat Secretary).
+- **⚠ Trap:** maternity relief = **Art. 42**, not 39(f), 47 or 51A(e).
+# 106th Amendment (Nari Shakti Vandan Adhiniyam, 2023)
+- **One-third** seats in **Lok Sabha, State Assemblies, Delhi Assembly**; waits for **Census and delimitation**.
+- In effect in **J&K and Puducherry** Assemblies from **17 Apr 2026**; the **Constitution (131st) Amendment Bill, 2026** was **defeated** (17 Apr 2026).
+# Local Bodies and AP
+- ~**46%** of PRI representatives are women (26 Jan 2026).
+- **AP:** **50%** in panchayats and municipalities; **50% of nominated posts** and work contracts (14 Apr 2026); **33 1/3% horizontal** reservation in direct recruitment.
+~~ Sources: NextGen Polity APPSC 14 l.460; Laxmikanth Part 1 l.8863; Rocket Indian Society p.88; app notes 2:128 sub 5
+
+=== Landmark Judgements
+| Case | Ruling |
+|---|---|
+| Saroj Rani (1984) | Upheld restitution of conjugal rights (s.9 HMA) |
+| Shah Bano (1985) | Maintenance under s.125 CrPC; → 1986 Act |
+| Sarla Mudgal (1995) | Conversion to Islam cannot validate a second Hindu marriage |
+| Vishaka (1997) | Workplace harassment guidelines → POSH 2013 |
+| Danial Latifi (2001) | Maintenance beyond iddat, for whole life |
+| SC, 23 Sept 2003 | Upheld women-only posts in women's colleges under Art. 15(3) – status of women "glorified" |
+| Seema v Ashwani Kumar (2006) | Compulsory registration of marriages |
+| Shayara Bano (2017) | Instant triple talaq unconstitutional (**3:2**) |
+| Joseph Shine (2018) | Struck down s.497 IPC (adultery) |
+| Vineeta Sharma (2020) | Daughter coparcener by birth, father alive or not on 9 Sept 2005 |
+| Babita Puniya (2020) | Permanent commission for women SSC officers (Army) |
+| X v GNCTD (2022) | Abortion up to 24 weeks for all women regardless of marital status |
+| Rakhi Bisht (Delhi HC, Sept 2026) | Maternity protection covers post, status, promotion |
+- **Triple talaq earlier:** **Allahabad HC, Rahmatullah v. State of UP (1994)** held it illegal; SC **Shamim Ara (2002)**.
+# Women and Religion
+- **Sabarimala (2018):** bar on women aged **10-50** struck down **4:1**; **Justice Indu Malhotra** dissented. First entry: **Bindu Ammini and Kanaka Durga** (Jan 2019).
+- **Haji Ali (Bombay HC, 2016):** entry to inner sanctum; petition by **Bharatiya Muslim Mahila Andolan**.
+~~ Sources: Rocket Indian Society p.96; web: lawtext.in SC 23-09-2003; app notes 2:128 sub 8
+
+=== Institutions, Policies and Campaigns
+- **Ministry of Women and Child Development:** nodal agency for women's welfare, development and empowerment.
+- **NCW:** **Act 1990**, set up **Jan 1992**; statutory (not legislative); objective – **review constitutional and legal safeguards** for women; Chairperson + **5 members** (at least one SC, one ST) + Member-Secretary.
+- **#WeAreEqual** (MWCD, 13 Feb 2017): awareness campaign against **gender discrimination**.
+- **Gender focal points, gender desks, gender budgeting cells:** focal points for **advancing data collection** on issues affecting women.
+- **NPEW 2001** (2001 = **Year of Women's Empowerment**): equal access to health, education, employment, ending violence (not commercial surrogacy). **8th Plan**: development → empowerment.
+- **Draft National Policy 2016:** food security and nutrition under **health**.
+- Mission for Empowerment of Women **2010**; **Beti Bachao Beti Padhao 2015**.
+- **AP Women's Commission:** Act **1998**; chair **Rayapati Sailaja** (Dec 2025).
+- **Family Courts Act 1984:** **953** courts (31 Jul 2025). **First women's court:** **Malda, West Bengal (2013)**.
+~~ Sources: NextGen Society Part 3 p.35, p.45 l.2367; web: millenniumpost.in (#WeAreEqual); app notes 2:128 sub 11
+
+=== International Commitments
+| Milestone | Year |
+|---|---|
+| CSW (under ECOSOC) | 1946 |
+| **International Women's Year**; Mexico City (1st conference) | **1975** |
+| UN Decade for Women | 1976-85 |
+| CEDAW; India signed 1980, ratified 1993 | 1979 |
+| Copenhagen (2nd), Nairobi (3rd) | 1980, 1985 |
+| **Beijing (4th): Declaration + Platform for Action**, 12 critical areas | **1995** |
+| SDG 5 | 2015 |
+- **Beijing 1995:** UN agenda for **women's empowerment**; promoted **gender mainstreaming**; credited with "women's rights take precedence when cultural traditions conflict".
+- **⚠ Trap:** Beijing Declaration is not an SCO, APEC or East Asia Summit outcome.
+- India's CEDAW: declarations on **5(a), 16(1), 16(2)**; reservation on **29(1)**.
+- **International Women's Day (8 March):** celebrates acts of courage of ordinary women in extraordinary roles.
+~~ Sources: Rocket Indian Society l.2905; app notes 2:128 sub 11
+
+=== Women's Movement and Organisations
+| Organisation | Year | Founders / focus |
+|---|---|---|
+| Bharat Stree Mahamandal | 1910 | First women's organisation |
+| **Women's Indian Association** | **1917** | **Annie Besant, Margaret Cousins, Dorothy Jinarajadasa** (Adyar) – not Durgabai Deshmukh |
+| NCWI | 1925 | Linked to International Council of Women |
+| AIWC | 1927 | Margaret Cousins: education, social upliftment, legal rights |
+| Andhra Mahila Sabha | 1937 | **Durgabai Deshmukh** (first chair, Central Social Welfare Board, 1953) |
+- Early 20th century: focus shifted to **political rights**.
+- **Committee on the Status of Women in India (1971)**, chair **Phulrenu Guha**, Member-Secretary **Vina Mazumdar** → **'Towards Equality' (1974)**.
+- **Neera Desai** (first Women's Studies Centre, **SNDT**); Vina Mazumdar (**CWDS**); **Madhu Kishwar** (**Manushi**).
+- **Pam Rajput** (High-Level Committee, 2012); **Justice J.S. Verma** (2013, sexual violence laws).
+# Andhra
+- **Anti-Arrack Movement:** **1992**, **Dubagunta (Nellore)** → arrack ban **1993** → prohibition **1995**.
+- **Chalam:** novel ***Stree*** – women's personal and sexual freedom.
+- **Deccan Development Society** (Zaheerabad; then AP, now Telangana) women's sanghams: **UN Equator Prize 2019**.
+~~ Sources: Rocket Indian Society p.42 l.1885; web: wiachennai.org (WIA founders), gktoday.in (Equator Prize); app notes 2:128 sub 2
+
+=== Gender Concepts, Indices and Thinkers
+| Term | Meaning |
+|---|---|
+| Patriarchy | Men hold primary power and status |
+| **Gender discrimination** | **Unequal treatment of men and women by society** |
+| Gender mainstreaming | Gender perspective in all policies, laws, institutions (Beijing 1995); aims: reduce discrimination, equitable development, inclusive governance |
+| Gender audit | Check of policies, programmes, institutions **and** budgets: gender budgeting, equal opportunity, workplace safety, decision-making |
+| GDI | Female-to-male ratio: health, education, command over resources |
+| GII | **0 (equality) to 1 (worst)** |
+| Global Gender Gap (WEF) | Economy, education, health, politics (not military spending) |
+- **Global Gender Gap 2025:** India **131st of 148**. Women, Peace and Security Index 2023: **131/177**.
+- Sex ratio NFHS-4 **991** → NFHS-5 **1020**; SRB **904 → 917** (2021-23). Most male-skewed: **Haryana, Punjab**. Causes: son preference, foeticide, dowry (not equal inheritance or schooling). Women's LFPR **37%** (2022-23).
+- **Drought:** **women** suffer most (water, fuel, food, wages).
+| Statement / work | Person |
+|---|---|
+| "I measure the progress of a community by the degree of progress which women have achieved" | Ambedkar |
+| "You can tell the condition of a nation by looking at the status of its women" | **Nehru** |
+| "A bird cannot fly on one wing" | Vivekananda |
+| "To call woman the weaker sex is a libel" | Gandhi |
+| 'Missing women' | Amartya Sen |
+| *A Field of One's Own* (land rights) | Bina Agarwal |
+~~ Sources: Rocket Indian Society l.2905; app notes 2:128 sub 3-4
+
+=== Reproductive Rights – MTP, Surrogacy, ART, PCPNDT
+| Law | Permitted | Prohibited / limit |
+|---|---|---|
+| MTP 1971 (in force 1 Apr 1972); Amendment 2021 | 24 weeks for special categories | Disclosing the woman's identity |
+| Surrogacy (Regulation) Act 2021 (Bill 2019) | **Altruistic** only; essentiality and eligibility certificates; close relative as surrogate | Commercial surrogacy; surrogate **only once** |
+| ART (Regulation) Act 2021 | Registered clinics/banks | Sex-selective ART; **sale of gametes** |
+| PCPNDT 1994 | Tests for genetic abnormality | Sex determination |
+- **Surrogacy couple's age:** wife **23-50**, husband **26-55**.
+- Abortion of a surrogate foetus: allowed with the surrogate's **written consent** + MTP approval – "prohibiting abortion" was **NOT** in the 2019 Bill.
+~~ Sources: Rocket Indian Society p.99; general knowledge (age limits); app notes 2:128 sub 9

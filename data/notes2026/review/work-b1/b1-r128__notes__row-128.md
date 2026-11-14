@@ -1,0 +1,166 @@
+=== Humayun – Battles, Chronology and Exile
+# Accession and problems
+- **Accession:** **29 December 1530**, three days after Babur's death; Babur's eldest son, well educated (Persian, Arabic, Turkish, astronomy); earlier governor of Badakhshan.
+- **Rival brothers:** **Kamran, Askari, Hindal** – NOT **Usman** (UP Lower 2008) and not Mirza Hakim (Akbar's half-brother). Kamran got the Indus region (Kabul–Punjab).
+- **Rao Jaitsi of Bikaner** defeated **Kamran Mirza** (1534), sent by Humayun – source **Rao-Jaitsi-Ro-Chhanda** (RAS 2024); Jaitsi did not lose Bikaner.
+- Other threats: the **Afghans** (Sher Khan, Mahmud Lodi) and **Bahadur Shah** of Gujarat–Malwa.
+# Humayun's campaigns in order
+| Event | Year | Outcome |
+|---|---|---|
+| Kalinjar invaded | 1531 | Early campaign; siege lifted to face the Afghans |
+| **Devara / Dauhariya (Dourah)**, on the Gomati | **1532** | Humayun beat the Afghans; drove **Mahmud Lodi from Jaunpur** |
+| **Chunar Fort** – first siege | **1532** | Four-month siege; **Sher Khan accepted Humayun's supremacy** (BPSC 2008) – not 1531 (Kalinjar) |
+| Gujarat | 1535 | Pressed by Humayun, **Bahadur Shah let the Portuguese fortify Diu** |
+| Bengal campaign | 1537-38 | **Humayun = first Mughal emperor to campaign against Bengal** (IAS 2003); Sher Khan had taken **Gaur** (1538) |
+| **Chausa** | **26 June 1539** | **Sher Khan beat Humayun**; took the title "Sher Shah"; water-carrier **Nizam** saved Humayun |
+| **Kannauj = Bilgram** | **17 May 1540** | Sher Shah beat Humayun, took the throne; Humayun into exile |
+| **Sirhind** (and Machhiwara) | **1555** | Humayun beat **Sikandar Sur**; retook Delhi and Agra (July 1555) |
+- **Order of Humayun's four battles:** **Devara (Dauhariya) → Chausa → Kannauj → Sirhind** (BPSC 1996; State PSC; UP RO 2017).
+- **Kannauj and Bilgram are ONE battle (1540)** – lost by Humayun; **Chausa** was Humayun vs Sher Khan, so "**Jahangir – Chausa**" is the wrong pair (APPSC G2); NDA 2007: Chausa = Humayun and Sher Khan.
+# Exile, return and death
+- Married **Hamida Banu Begum**; **Akbar born at Amarkot (1542)**; Akbar crowned at **Kalanaur** after Humayun's death.
+- Refuge in **Persia**: the Safavid **Shah Tahmasp** helped him retake **Kandahar and Kabul** (price: Kandahar, Shia leanings).
+- Returned **July 1555** – NOT 1566; he lost Kannauj (1540), not "Khanua", to Sher Khan – so in the Grama Sachivalayam statements "Khanua 1540" and "Delhi 1566" are **both wrong (none)**.
+- Died **January 1556** falling from the stairs of the **Sher Mandal** library, **Purana Qila (Dinpanah)**.
+- **First ruler after the Delhi Sultanate to issue a gold coin: Humayun** (Ghatna Chakra; UKPSC 2012 key gave Akbar); Sher Shah also struck gold.
+# Battles 1526–1707 – chronology questions
+| Year | Battle | Sides |
+|---|---|---|
+| 1526 | Panipat I | Babur vs Ibrahim Lodi |
+| 1527 | **Khanwa** | Babur vs Rana Sanga |
+| 1528 | **Chanderi** | Babur vs Medini Rai |
+| 1529 | **Ghaghra** | Babur vs Afghans (Mahmud Lodi) – Babur's last battle |
+| 1532 | Devara / Dauhariya | Humayun vs Afghans |
+| 1539 | **Chausa** | Sher Khan beat Humayun |
+| 1540 | **Kannauj / Bilgram** | Sher Shah beat Humayun |
+| 1555 | Sirhind | Humayun beat Sikandar Sur |
+| 1556 | Panipat II | Akbar (Bairam Khan) vs Hemu |
+| 1565 | **Talikota** | Vijayanagara vs Deccan Sultanates (not Mughal) |
+| 1573 | **Sarnal** | Akbar vs Gujarat rebels (Mirzas) |
+| 1576 | Haldighati | Man Singh (Akbar) vs Maharana Pratap |
+| 1658 | **Dharmat**, **Samugarh** | Aurangzeb vs Jaswant Singh / Dara Shikoh |
+| 1707 | **Jajau** | Bahadur Shah I vs Azam Shah |
+- **Chanderi → Chausa → Kannauj → Talikota** = II, IV, I, III (UP RO 2016); **Khanwa → Ghaghra → Chausa → Samugarh** (CGPSC 2008); **Dauhariya → Chausa → Kannauj → Samugarh** (UP RO 2017); **Bilgram → Sarnal → Dharmat → Jajau** (UPPSC 2019).
+- **Samugarh (1658)** = Aurangzeb vs Dara Shikoh – not a Humayun battle. "Panipat II – Akbar and Sher Shah" is wrong (Hemu).
+- Rulers in order: **Raziyya (1236-40) → Alauddin Khalji (1296-1316) → Sher Shah (1540-45) → Akbar (1556-1605)**.
+- AP angle: **Sultan Quli Qutb Shah** of Golconda (**1518-1543**) was a contemporary of Babur, Humayun and Sher Shah.
+~~ Sources: NextGen Indian History – APPSC Exams Part 4 (src/indian-history/nextgen-indian-history-appsc-04.txt) p.21-23; NextGen Rocket Sheets Indian History Part 1 (src/indian-history/rocket-indian-history-01.txt) p.70, p.74; Rocket Part 2 p.6; app notes 1:128 (sub 1, 8)
+
+=== Sher Shah – Rise, Titles, Rajput Wars and Death
+# Rise
+- Born **Farid (Farid Khan)**; father **Hasan Sur**, an Afghan **jagirdar of Sasaram** (Bihar); of the **Sur** tribe.
+- Left home (1494 / 1501) and **studied Arabic and Persian at Jaunpur** – the "**Siraj-i-Hind**" (RAS 2013) – not Sasaram, Patna or Lahore; one of the most learned medieval rulers.
+- Managed his father's jagir from **1511**; joined **Bahar Khan** of Bihar, who gave him the title **"Sher Khan"** for killing a **tiger**.
+- Served Babur; deputy regent and de facto ruler of Bihar; victory at **Surajgarh** (1534) was the turning point; took **Gaur** (1538) and **Rohtas**.
+- **Sher Khan's offer:** surrender Bihar and pay 10 lakh dinars a year if allowed to keep Bengal – Humayun refused (BPSC 2022).
+# Titles in order
+| Title | When |
+|---|---|
+| Sher Khan | From Bahar Khan (tiger) |
+| **Hazrat-e-Ala** | After defeating **Nusrat Shah** of Bengal |
+| **Sher Shah / Sultan** | After **Chausa, 26 June 1539**; khutba read and coins struck in his name |
+- **Hazrat-e-Ala first, Sultan afterwards = Sher Shah Suri** (not Bahlul/Sikandar Lodi or Islam Shah); his titles = **Hazrat-e-Ala and Sultan only** (BPSC 2000) – not Zill-e-Ilahi or Raiyat-e-Ala.
+# Conquests and Rajput resistance
+- **Raisen** taken from **Puran Mal**; Punjab, Malwa, Sind conquered.
+- **Marwar:** **Maldeo Rathore** resisted; battle of **Samel (Sammel / Giri-Sumel), 1544**.
+- Maldeo's generals **Jaita and Kumpa (Jayata–Kumpa) of Marwar** fought so bravely that Sher Shah said: "**I would have lost the empire of Hindustan for a handful of bajra (millet)**" (UPPSC 2007; UP Mains 2007; UPPCS 2022).
+# Death and verdict
+- **Last expedition: Kalinjar** (Kalanjar, a Rajput fort) – died **22 May 1545**, wounded by a **gunpowder explosion** (UP 1993; UP RO 2016).
+- Buried at **Sasaram**; reign only **five years (1540-45)**.
+- He was the **architect of a brilliant administrative system**, and **his qualities as a ruler were MORE remarkable than his battle victories** – so "not more remarkable" is false (UP RO 2021: only 1).
+- Sequence: Chunar submission 1532 → Chausa 1539 → Qila-i-Kuhna Mosque 1541 → death at Kalinjar 1545.
+~~ Sources: NextGen Indian History Part 4 p.23-24; NextGen Rocket Sheets Indian History Part 1 p.54 (Sher Khan title); app notes 1:128 (sub 2)
+
+=== Currency, Grand Trunk Road and Sarais
+# Currency
+| Coin | Metal | Note |
+|---|---|---|
+| **Rupiya** | **Silver** | **178 grains** (173 pure silver); introduced **1540-45**; standard for centuries (APPSC G2 2017) |
+| **Dam (daam)** | **Copper** | **380 grains**; kept by Akbar as the chief copper coin |
+| **Mohur** | **Gold** | 166-169 grains |
+- **Rupiya : Dam = 1 : 64** (UP UDA 2006).
+- **The rupiya / "rupee" was first issued by Sher Shah Suri** (CDS 2009; Jharkhand 2016; MPPSC 1991; APPSC G2 2017) – not Muhammad bin Tughlaq, Alauddin Khalji or Akbar.
+- Pure gold, silver and copper coins; mixed-metal coins abolished; name, title and mint in **Arabic and Devanagari**.
+- **Akbar, like Sher Shah, regulated the currency**, and the **dam** stayed Akbar's chief copper coin – both true, but the dam fact does not explain the regulation (UPPCS 2019).
+- ⚠ Silver coins (the **tanka**) were struck from **Iltutmish's** time; "introduced the coin of silver" in MPPSC 1991 means Sher Shah's **silver rupiya**.
+# Grand Trunk Road (Sadak-e-Azam)
+- **Sadak-e-Azam = Grand Trunk Road** – one of Asia's oldest major roads; **built / restored by Sher Shah Suri** (APPSC 2018; CGPSC 2018) – not Akbar, Jahangir, Islam Shah or Shah Jahan.
+- Route: **Sonargaon (East Bengal) to the Indus** – "**Indus to Sonargaon**" is the longest road (APPSC G1); also given as Sonargaon–Peshawar / Kabul; it **still exists**.
+- **Other Sur roads:** Agra–Jodhpur–Chittor, **Agra–Burhanpur**, **Lahore–Multan**.
+# Sarais
+- Sarais at intervals with shady trees; separate lodging for Hindus and Muslims.
+- Served as **dak-chowkis** (news and mail relay with horses); **market towns** (qasbas) grew around them.
+~~ Sources: NextGen Indian History Part 4 p.24; NextGen Rocket Sheets Indian History Part 1 p.100-101; app notes 1:128 (sub 5)
+
+=== Sher Shah's Monuments – Sasaram, Purana Qila, Qila-i-Kuhna
+| Monument | Builder | Location / note |
+|---|---|---|
+| **Sher Shah's Tomb** | Sher Shah, for himself; **completed by Islam Shah** (Aug 1545) | **Sasaram, Rohtas, Bihar**; **octagonal**, in the middle of a **tank**; brick, partly stone-veneered; noblest Afghan building |
+| **Purana Qila** (Old Fort, Dinpanah) | **Citadel begun by Humayun; present form by Sher Shah** | Delhi |
+| **Qila-i-Kuhna Mosque** | **Sher Shah, 1541** | **Inside Purana Qila**, Delhi |
+| **Sher Mandal** | Sher Shah | Inside Purana Qila; Humayun's library |
+| **Rohtas Fort** | Sher Shah, begun 1541 under **Todar Mal** | Near **Jhelum**, Pakistan; UNESCO **1997** |
+| **Humayun's Tomb** | **Bega Begum (Haji Begum)**; architect **Mirak Mirza Ghiyas** | Delhi; 1565-72; UNESCO **1993** |
+- **Sher Shah's mausoleum / burial: Sasaram** (MPPSC 2016; UP Mains 2015; State PSC) – not Delhi, Kalinjar, Jaunpur, Patna, Maner, Sitamarhi or Pavapuri.
+- **Purana Qila in its present form = Sher Shah** (UP Mains 2016; UP Lower 2009 ×2) – not Firuz Tughlaq, Ibrahim Lodi, Babur, Akbar or Shah Jahan.
+- **Qila-i-Kuhna Mosque = Sher Shah** (IAS 1993 ×2; UP RO 2021) – Atala Masjid (Jaunpur) = Sharqis; **Bara Sona Masjid (Gaur)** = Bengal Sultans; **Quwwat-ul-Islam** = Qutbuddin Aibak.
+- **Built by Sher Shah: Sasaram Tomb + Qila-e-Kuhna Mosque (1, 2)** – the "Tomb of Sikandar" at Sikandra is Akbar's (completed by Jahangir, 1612); Delhi's **Jama Masjid** is Shah Jahan's (RAS 2024).
+- **Humayun-nama** – by **Gulbadan Begum**, Humayun's sister.
+# Forts and tombs often mixed up
+| Item | Associated with |
+|---|---|
+| Chunar Fort | Humayun's siege 1532; Sher Khan submits |
+| Kalinjar Fort | Humayun invaded 1531; Sher Shah died there 1545 |
+| Bhatkal | Krishnadeva Raya let the Portuguese build a fort |
+| Balban's Tomb | Mehrauli, Delhi; first true arch in India |
+| Sikandar Lodi's Tomb | Delhi; built by his son **Ibrahim Lodi** |
+~~ Sources: NextGen Indian History Part 5 (src/indian-history/nextgen-indian-history-appsc-05.txt) p.15; NextGen Rocket Sheets Indian History Part 2 (src/indian-history/rocket-indian-history-02.txt) p.6, p.15, p.20, p.37; app notes 1:128 (sub 7)
+
+=== Sur Administration and Land Revenue
+# Administrative units and officers
+- Empire divided into **47 Sarkars**, each into **Parganas** (CDS 2014: statement I true); officers were appointed at every level – so "administered sarkar and pargana directly without officials" is false.
+| Level | Officer | Role |
+|---|---|---|
+| Sarkar | **Chief Shiqdar** (shiqdar-i-shiqdaran) | **Law and order** |
+| Sarkar | **Chief Munsif** (munsif-i-munsifan) | **Revenue / civil** matters |
+| Pargana | Shiqdar | Law and order |
+| Pargana | **Amin** (munsif) | **Assessment** of revenue |
+| Pargana | **Fotedar** | **Treasurer** |
+| Pargana | **Karkuns** | **Hindi and Persian writers** |
+| Village | Qanungo, patwari, muqaddam | Revenue / local records |
+- Officers were **frequently transferred** so they did not build local interests.
+- **Army:** regular army recruited directly; **Dagh** = branding of horses; **chehra / huliya** = descriptive roll of soldiers; Hindus in high army posts.
+- **Police and justice:** **local headmen** had to trace crime; censors of public morals; efficient **spy network**; uniform, harsh justice.
+- Sher Shah's reforms covered **revenue, administration, army and currency – all four** (UKPSC 2003).
+# Land revenue
+| Point | Fact |
+|---|---|
+| Measurement | **Uniform system** of survey – **Gaz-i-Sikandari** (sikandari gaz), rope / jarib |
+| Classes | **Three** – good, middling, bad – by produce |
+| State share | **One-third (1/3)** of average produce |
+| Payment | Cash or grain |
+| Settlement | Direct state–peasant (ryotwari-type); illegal demands removed; tenant rights recognised |
+| Legacy | Model for **Todar Mal's Bandobast** |
+- **Rate of land tax: 1/3 of produce** (APPSC G1 2012) – not 1/4, 1/2 or 1/5.
+- **APPSC G1 PYQ:** three categories – TRUE; uniform measurement – TRUE; "1/4 collected" – FALSE → **I and II**. ⚠ NextGen writes "one fourth or one third"; the standard books (Satish Chandra) give **one-third**.
+| Term | Meaning |
+|---|---|
+| **Patta** | Title deed stating the state's share; given to the cultivator |
+| **Qabuliyat** | Deed of acceptance signed by the peasant |
+| Jaribana | Surveyor's fee |
+| Muhasilana | Collector's fee |
+- **Patta and Qabuliyat were introduced by Sher Shah** (UP Mains 2009; WBCS 2008, 2020) – not Alauddin, Muhammad bin Tughluq, Akbar, Shivaji, Jahangir or Aurangzeb.
+- **Sher Shah vs Akbar:** both took **1/3**; Sher Shah 3 land classes, Akbar 4 (polaj, parauti, chachar, banjar) with ten-year averages.
+- **Mansabdari was introduced by Akbar**, not Sher Shah (APPSC Technical Education).
+~~ Sources: NextGen Indian History Part 4 p.24; NextGen Indian History Part 5 p.13 (Sikandar Lodi rent rolls); NCERT/Satish Chandra, Medieval India (one-third share); app notes 1:128 (sub 3, 4)
+
+=== Sur Successors, Hemu and the End of Afghan Rule
+| Ruler | Fact |
+|---|---|
+| **Islam Shah (Jalal Khan)** | Sher Shah's **second son and successor** (MPPSC 2018 ×2); ruled 1545-53; **divided troops into units of 200, 250 and 500** (CGPSC 2015) |
+| Muhammad Adil Shah | Ruled the east; rival of Sikandar Sur |
+| Sikandar Sur | Beaten by Humayun at Sirhind (1555) |
+| **Hemu = Hem Chandra Vikramaditya** | Adil Shah's Hindu army chief and Prime Minister; 22 victories; took Agra and Delhi (1556); title Vikramaditya |
+- **Panipat II – 5 November 1556**: Akbar (Bairam Khan) vs Hemu; Hemu struck in the **eye by an arrow**, captured and beheaded; Afghan power ended.
+- **Surs = last Afghan dynasty** to rule Delhi; their revenue, coinage and roads set the Mughal pattern.
+~~ Sources: NextGen Indian History Part 4 p.25; NextGen Rocket Sheets Indian History Part 1 p.94; app notes 1:128 (sub 6)

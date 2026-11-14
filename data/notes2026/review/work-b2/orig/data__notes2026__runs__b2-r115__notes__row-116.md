@@ -1,0 +1,72 @@
+=== Thinkers and Movements Against Caste
+| Thinker | Works / contribution |
+|---|---|
+| Jyotiba Phule (b. 1827, Pune; Mali) | *Gulamgiri*; **Satyashodhak Samaj (1873)**; first girls' school (1848); 'Mahatma' (1888) |
+| B.R. Ambedkar | *Annihilation of Caste* (1936); *Who Were the Shudras?*; *Mooknayak*; Bahishkrit Hitakarini Sabha (1924); caste = "division of labourers" |
+| Periyar | Jailed at Vaikom (1924); Self-Respect Movement (1925); marriages without priests |
+| Gurram Jashuva (b. 1895, Vinukonda, Guntur) | *Gabbilam* (1941); *Firadausi*; *Kristu Charitra* |
+| Sree Narayana Guru | Aruvippuram (1888); **"One Caste, One Religion, One God"** for mankind; SNDP Yogam (Kerala) |
+- **Backward-class movement:** **Narayana Guru, Ambedkar and Jyotiba Phule** – all three (CSP 1997).
+- **⚠ Trap:** "One caste, one religion, one God" = **Narayana Guru**, not Gandhi, Ambedkar, Adi Sankara or Phule (asked ×2).
+- AP: **Raghupati Venkataratnam Naidu** – **Saha Pankti Bhojanam**.
+~~ Sources: Spectrum Modern India l.9182, l.9515, l.10021; app notes 2:116 sub 5
+
+=== Remedies – Constitution, Laws and Schemes
+| Safeguard | Content |
+|---|---|
+| Art. 14 / 15(1) | Equality; no caste discrimination |
+| Art. 15(2) | Access to shops, public places |
+| **Art. 17** | **Untouchability abolished; its practice in any form forbidden** |
+| Art. 21 | Choice of spouse, incl. across caste |
+| PCR Act 1955; PoA Act 1989 | Penalise untouchability, atrocities |
+- **⚠ Trap:** Art. 17 (not 15, 16 or 18) abolishes untouchability – asked ×3; Art. 15 only bars discrimination.
+- **Dr. Ambedkar Scheme for Social Integration through Inter-Caste Marriages** (2013): **₹2.5 lakh** per couple; target **500 marriages a year**; **not paid at once** – ₹1.5 lakh to the joint account, ₹1 lakh as a fixed deposit.
+- **Helpline 14566** (Atrocities Act FIRs); **PM-DAKSH** skilling; **Venture Capital Fund** for SCs.
+- **Ambedkar Overseas Vidya Nidhi (AP):** financial help to SC/ST students for higher studies abroad; ₹36 crore (2024-25).
+- Education; politicians to shun vote banks.
+~~ Sources: Laxmikanth 8th ed. l.6903; web: odishaconnect.com (scheme split, 500 target), thebetterindia.com (₹2.5 lakh); app notes 2:116 sub 4
+
+=== Caste vs Casteism
+- **Casteism:** the evil form of caste – **prejudice towards one's own caste and animosity towards other castes**; power, money, prestige held by a few castes.
+- **Kaka Kalelkar:** casteism = "an **overriding, blind and supreme group loyalty**" ignoring justice and brotherhood.
+| Caste (institution) | Casteism (attitude) |
+|---|---|
+| Hereditary, endogamous group, traditional occupation | Partisan loyalty to own caste |
+| Social structure (Ghurye) | Caste used for political, economic gain |
+| May exist without hostility | Discrimination, vote-bank politics |
+- **Ghurye's** features include restricted occupation and **endogamy** (exception: **hypergamy/anuloma**).
+- **Evil faces of caste:** untouchability, slavery-like bondage, discrimination – **hygiene** is not one.
+~~ Sources: Rocket Indian Society p.18 l.812; app notes 2:116 sub 0
+
+=== Causes and Manifestations
+| Cause | Effect |
+|---|---|
+| Endogamy | Keeps boundaries and "purity"; only ~5% of marriages inter-caste (Aug 2025) |
+| Family, socialisation | Customs and marriage norms absorbed early |
+| Political mobilisation | Caste vote banks |
+| Limits of urban anonymity | Migrants carry prejudice; caste networks decide informal jobs; caste associations, caste stickers on vehicles |
+# Manifestations
+- **Caste-based voting**; caste associations as **pressure groups**.
+- **Honour killings paradox:** TN, Telangana, Maharashtra, Kerala – more inter-caste unions **and** more honour killings (Aug 2025).
+- Campus discrimination: **UGC (Promotion of Equity in HEIs) Regulations, 2026** defined it as against SC, ST, OBC; **stayed by the Supreme Court**; case **Abeda Salim Tadvi v. UoI** (student suicides); criticised for excluding general category (8 Apr 2026).
+- **Haldwani** (Uttarakhand) "purification" ritual after Kharge's rally attacked as untouchability (Aug-Sep 2026).
+~~ Sources: app notes 2:116 sub 1-2 (news Aug 2025 – Sep 2026)
+
+=== Khap Diktats and Honour Killings – Supreme Court
+| Case | Year | Holding |
+|---|---|---|
+| Lata Singh v. State of UP | 2006 | No bar on inter-caste marriage; police protect couples |
+| **Shakti Vahini v. UoI** | **2018** | **Honour killings** and khap interference illegal; preventive, remedial, punitive measures; safe houses in every district |
+- TN: safe house per district (30 Aug 2026).
+~~ Sources: Rocket Indian Society p.98 l.4579; app notes 2:116 sub 6
+
+=== Caste and Elections
+- Origin: **Minto-Morley Reforms, 1909** (separate electorates).
+- **Rajni Kothari**, *Caste in Indian Politics* (**1970**): politics **politicises** caste, not just uses it.
+- **Samajwadi Party, RJD** – from backward-caste mobilisation; TN: Gounders, Mukkulathors, Vanniyars (Apr 2026).
+- **Census 2027** returns caste enumeration; **Bihar survey 2022-23** cited as model; debate – ossify caste or expose inequity (9 Jul 2026).
+# Andhra Pradesh
+- **Justice Party** rallied **Reddys, Kammas, Kapus, Velamas** against Brahmin dominance; won the **Communal G.O. (1921)**.
+- After **Karamchedu**, Dalits left Congress and Communists → independent **Dalit Mahasabhas** (**Katti Padmarao, Manda Krishna Madiga**).
+- **⚠ Trap:** post-Karamchedu mobilisation = Dalit Mahasabhas, not the Justice Party.
+~~ Sources: app notes 2:116 sub 3

@@ -1,0 +1,126 @@
+=== Drain of Wealth and the Economic Nationalists
+# Meaning
+- **Drain of wealth:** the part of India's wealth carried to **Britain** without **adequate economic or material return** – peculiar to **British** rule (not Portuguese, Dutch or French).
+- **Began** with the **Diwani of Bengal (1765)** – Bengal's revenue bought the Company's export "investments".
+- India usually had a **favourable balance of trade**; the drain took the form of **unrequited exports** (export surplus paid for Home Charges, British office and war expenses) – NOT an excess of imports.
+- In the 18th century the drain was about **2-3% of Britain's national income** (Spectrum) and nearly 9% of India's income (PMF) – it helped finance Britain's industrial revolution.
+# Components (Home Charges and more)
+| Component | What it covered |
+|---|---|
+| Salaries, pensions | Of British civil and military officials, remitted home |
+| Interest | On the public debt raised in **Britain** |
+| Railway guarantee | **5%** assured return to British investors, paid from Indian revenue |
+| Military | British Indian Army and wars abroad – the largest budget head |
+| **Profits** | **Of British capitalists**, merchants, banks, shipping and insurance |
+- **Reason per Naoroji's theory (APPSC FRO):** profits taken by British capitalists from India.
+- Naoroji: what was drained was a **"potential surplus"** that could have developed India; imperialists claimed linking India to the world capitalist market was itself modernisation (both true, II does not explain I).
+# Dadabhai Naoroji
+- **"Grand Old Man of India"**; propounded and popularised the **drain theory**; first stated in **"England's Debt to India" / "England's Duties to India" (1867)**; coined **"moral drain"**.
+- Book: ***Poverty and Un-British Rule in India* (1901)**; also ***Poverty of India: Papers and Statistics*** (from his 1876 paper "The Poverty of India"); he used the phrase **"Un-British"**.
+- **First estimate of per capita income: Rs 20 (1867-68)** – not Ranade, Hunter or R.C. Dutt.
+- Showed (1880) that a **jail convict's food and clothing cost about 50% more** than the average Indian's income (old app key; not checked).
+- First Indian elected to the **House of Commons (1892, Finsbury Central)**; first to make **Swaraj** the national demand (Calcutta Congress, 1906).
+# Other Economic Critics
+| Writer | Work |
+|---|---|
+| **R.C. Dutt** | ***Economic History of India*** (2 vols, 1901-03) – economic record of colonial rule; *Open Letters to Lord Curzon* (1900) |
+| **G. Subramania Iyer** | *Some Economic Aspects of British Rule in India* (1903) |
+| **William Digby** | *'Prosperous' British India* (1901) |
+| **M.G. Ranade** | *Essays on Indian Economics* |
+| **R.P. (Rajani Palme) Dutt** | ***India Today*** – stages of colonialism (not R.C. Dutt) |
+| Ramkrishna Vishwanath | First Marathi economics book (1843) on the drain |
+- Naoroji, G. Subramania Iyer and R.C. Dutt were **all** economic critics of colonialism (UPSC 2015).
+- The economic critique was the Moderates' greatest contribution and a base of **Swadeshi**; Moderates demanded cuts in **military spending**, lower land revenue, protective tariffs.
+- Gajula Lakshmi Narasu Setti: paper ***The Crescent*** (reported Andhra famines); Chennapatnam Swadeshi Sangam.
+~~ Sources: PMF Modern History Part 3 (src/indian-history/pmf-modern-history-03.txt) p.73-76; Spectrum Modern India (src/indian-history/spectrum-modern-india.txt) p.580-585; NextGen AP History Part 17 p.23; app notes 1:176
+
+=== Stages of Colonialism; One-way Free Trade and Deindustrialisation
+# Stages (R.P. Dutt, *India Today*)
+| Stage | Period | Feature |
+|---|---|---|
+| Mercantilist (merchant capital) | 1757-1813 | Company monopoly; **mostly purchase of Indian goods** for export, paid from Bengal revenue |
+| Free trade (industrial capital) | 1813-1858 | India a **market for British goods** and supplier of raw materials |
+| Finance capital | 1858 onwards | British capital in railways, plantations, banks |
+- India changed from a **leading exporter of manufactures** to a **supplier of raw materials** – an **agricultural colony of manufacturing Britain**.
+# One-way Free Trade
+- **Charter Act of 1813** ended the Company's trade monopoly → **one-way free trade**: British goods entered India **duty-free / nominal duty**; Indian textiles paid **heavy duties in Britain** (already from the 1720 laws) – so "tax-free import of Indian textiles into the UK" is false.
+- **Imperial preference:** special privileges (lower duties) for **British imports in India**.
+- **Cotton excise (1894-96)** on Indian mill cloth to offset the import duty on British goods; **Suez Canal (1869)**.
+- **Railways:** built by private British companies with a **5% guarantee from Indian revenue** (not financed by the British government); they carried British goods inland and raw materials out – **accelerated the decay of handicrafts**.
+- Karl Marx: British economic policy in India "disgusting"; the British **"inundated the very mother country of cotton with cottons"**.
+# Deindustrialisation
+- Weavers coerced (1769 directive on silk; Bolt 1772); Lancashire cloth in Bengal **1786**; by **1850** India took **one-fourth** of British cotton exports.
+- **Industrial Revolution (first half of the 19th century):** **Indian handicrafts were ruined**; **raw cotton** exports rose (not textile exports).
+- Process intensified **after 1813**, aggravated by the end of the Company's monopoly (UPPSC key: both statements).
+- Other causes: loss of princely patrons, export of raw materials, transit duties, British privileges (**B.D. Basu**); shipbuilding crushed by the 1813-14 laws.
+- **Share of world manufactures:** about **24.5% (1750)** → under **2% (1900)** (Paul Bairoch).
+- **Results:** urban handicrafts' sudden collapse; **artisans crowded into agriculture**; **Dhaka** (muslin) declined while Calcutta, Madras, Bombay grew.
+- **No independent industrial development:** **absence of heavy (capital-goods) industries**; laissez-faire did **not** promote indigenous capitalism.
+~~ Sources: PMF Modern History Part 3 (src/indian-history/pmf-modern-history-03.txt) p.69-72, p.78, p.80-81; Spectrum Modern India (src/indian-history/spectrum-modern-india.txt) p.577-579, p.583; NextGen Indian History - APPSC Exams Part 6 p.25; app notes 1:176
+
+=== Commercialisation of Agriculture; Opium and Peasant Laws
+- **Commercialisation of Indian agriculture** = a main 19th-century economic result of British rule (UPSC 2018) – not more handicraft exports, Indian factories or rapid urban growth.
+- Forced by **cash revenue**; cash crops replaced food crops → less food security, **famines**.
+- Poorer peasants because they were **exploited by merchants and middlemen** (sold at any price after harvest to the grain merchant-moneylender).
+- **Ganjam / Deccan:** American Civil War cotton boom, slump in 1866 → debt, famine, Deccan riots.
+| Crop | Main region |
+|---|---|
+| Indigo | Bengal, Bihar – Tinkathiya (3/20 of holding); Indigo Revolt 1859-60 |
+| Cotton | Deccan, Gujarat, Berar |
+| Jute | Bengal |
+| **Opium** | **Bihar** (and Bengal, Malwa) |
+| Tea | Assam |
+- **Triangular trade** India–China–England rested on **opium**: Indian opium → China; Chinese tea and silver → Britain; British goods → India. **Opium Wars: Britain v. China** (1839-42, 1856-60).
+- By the late 19th century India was a large exporter of **cotton yarn and wheat** (NDA 2014 key).
+| Law | Protected peasants against |
+|---|---|
+| Deccan Agriculturists' Relief Act, 1879 | Moneylenders, after the **Deccan riots (1875)** |
+| **Punjab Land Alienation Act, 1900** | Transfer of land to non-agriculturists (moneylenders) |
+~~ Sources: PMF Modern History Part 3 (src/indian-history/pmf-modern-history-03.txt) p.82-83, p.87; Spectrum Modern India (src/indian-history/spectrum-modern-india.txt) p.576-577; NextGen AP History Part 16 (src/ap-history/ap-history-appsc-16.txt) p.5; app notes 1:176
+
+=== Andhra Crafts and Industries Under British Rule
+- **Textiles = second-largest employer after agriculture** in British-period Andhra.
+- **Decline:** machine cloth from England + Company duties and loom tax (moturpha) → exports from Visakhapatnam fell from Rs 7 lakh to Rs 1 lakh (1830s), Machilipatnam Rs 30 lakh → Rs 2,750 (1843-44), Nellore Rs 1.8 lakh → Rs 360 (1842-43); the industry **lost foreign and local markets** (only "declined" is correct); weavers migrated to Burma, Sri Lanka, Mauritius.
+# Carpets
+- **Eluru carpets** and **Kurnool rugs** were known in the international market; the Eluru craft grew under **Persian immigrants during Muslim rule**; shown at the **London Exhibition, 1851**; declined by the mid-19th century.
+| Place | Product |
+|---|---|
+| Srikakulam | Muslin |
+| Machilipatnam | Dyed cloth; chintz (16th-17th c.); first Dutch factory |
+| Nellore | Towels |
+| **Eluru** | **Carpets** |
+| Kurnool | Rugs, blankets |
+| Peddapuram, Dharmavaram, Berhampur | Silk |
+| Uppada | Jamdani silk |
+| Ponduru (Srikakulam) | Fine hand-spun khadi |
+- **Kamsalis** = goldsmiths (Viswabrahmin artisans) in Andhra records.
+# Minerals and Industry
+- **Manganese:** **Visakhapatnam** district (Vizianagaram mines) stood **first in the world, 1892-1929** – not Nellore; **Nellore = mica**.
+- Jute mills Chittivalasa and Nellimarla; first railway in Andhra **Puttur–Renigunta (1862)**.
+~~ Sources: NextGen AP History Part 21 (src/ap-history/ap-history-appsc-21.txt) p.5-6; NextGen AP History Part 16 (src/ap-history/ap-history-appsc-16.txt) p.4-5; NextGen AP History Part 7 (src/ap-history/ap-history-appsc-07.txt) p.3; NextGen AP History Part 6 (src/ap-history/ap-history-appsc-06.txt) p.7; app notes 1:176; general knowledge, not checked (Kamsalis)
+
+=== Modern Industry, Currency and the Economy at Independence
+| Industry | First / key fact |
+|---|---|
+| Cotton mill | Fort Gloster (Calcutta) 1818 failed; **Bombay, 1854** – Cowasji Nanabhai Davar (Spectrum: set up 1853) |
+| Jute mill | **Rishra (Bengal), 1855** |
+| Tea company | **Assam Company, 1839** – formed in England; HQ Nazira |
+| Iron and steel | TISCO, 1907 |
+- **Cotton mills Indian-owned; jute mills foreign-owned (Bengal)**; capital goods only about one-fourth of output.
+- **Hilton Young Commission (1926):** rupee at **1s 6d** (Indian business, Purshottamdas Thakurdas, wanted 1s 4d) – to aid **remittances from India and keep India's creditworthiness**; made Indian goods dearer abroad; recommended a central bank → **RBI 1935**.
+- Bombay mill workers lived in **chawls** (one-room tenements).
+# On the Eve of Independence
+| Indicator | Value |
+|---|---|
+| World income share (Angus Maddison) | **27% (1700) → 3% (1950)** |
+| Per capita income | about Rs 265 |
+| Life expectancy | 32 years |
+| Literacy | under 16% |
+| Agriculture | over 75% of workers, about 50% of GDP |
+- India had a **strong pre-British industrial base**; British policy caused **deindustrialisation**; agriculture **stagnant, low-productivity, monsoon-dependent**; trade = raw materials out, finished goods in; infrastructure served British interests.
+- Slow industrialisation for want of **capital goods industries**; public sector only railways, power, ports, communications.
+- Under zamindari the **profit from agriculture went to the zamindars**; fertiliser use was negligible.
+- Ruined: Indian industries and trade, agriculture stagnated – **not** "ruin of feudalism".
+- First Plan priority: agriculture, irrigation, power.
+- **Imperial Gazetteer of India:** compiled by **W.W. Hunter**; **James Mill** (*History of British India*, 1817) divided Indian history into **Hindu, Muslim and British** periods.
+~~ Sources: Spectrum Modern India (src/indian-history/spectrum-modern-india.txt) p.573, p.579; PMF Modern History Part 3 (src/indian-history/pmf-modern-history-03.txt) p.79; app notes 1:176; general knowledge, not checked (chawls, Hunter, James Mill)

@@ -1,0 +1,147 @@
+=== Founding of the INC, 1885 – Who, When, Where
+# The core facts
+| Particular | Fact |
+|---|---|
+| Year | **1885** (not 1883, 1886 or 1888) |
+| Founder | **A.O. Hume**, a **retired ICS officer** (civil servant) – "Father/founder of the INC" |
+| First President | **W.C. (Womesh Chandra) Bonnerjee** – not Hume, not S.N. Banerjea |
+| General Secretary | **A.O. Hume** (1885-1906) |
+| Dates | **28-31 December 1885** |
+| Venue | **Gokuldas Tejpal Sanskrit College, Bombay** |
+| Delegates | **72** (only **2 Muslims**); mainly **lawyers, journalists and teachers** |
+| Viceroy | **Lord Dufferin (1884-88)** – not Ripon (left 1884), Lytton or Mayo |
+- **Earlier name:** Hume's **Indian National Union** (1884) became the INC; the name **"Indian National Congress"** was suggested by **Dadabhai Naoroji** (not W.C. Bonnerjee).
+- **Prelude:** after the **Theosophical Convention at Madras (Dec 1884)** a private meeting of **17** people planned an all-India body.
+- **Venue shift:** planned for **Poona**, moved to Bombay at the last minute because of **cholera** in Poona (not plague).
+- **Absent:** **Surendranath Banerjea** and other Bengal leaders – busy with the **2nd Indian National Conference** at Calcutta (Dec 1885).
+- **Government officials** (e.g. some Indian officials) attended the first session as observers – NDA statement "some officials were present" ✓.
+- **Merger:** the **Indian National Conference** of the **Indian Association** (S.N. Banerjea, A.M. Bose; conferences 1883, 1885) **merged with the INC in 1886**.
+- **Dufferin's attitude:** Hume convinced him **not to obstruct** the Congress; he may have suggested an annual forum but did not found it; soon hostile – "**microscopic minority**" (1888), "factory of sedition".
+> Statement angle (NDA 2006): Dufferin's tenure ✓, Bonnerjee first president ✓, first session in Calcutta ✗ (Bombay), officials present ✓ → "I, II and IV".
+~~ Sources: Spectrum (Ahir) Ch11 p.247-248 and Appendix 3 p.824; NextGen Indian History APPSC 06 p.368-370; PMF Modern History Part 4 p.416-418; Rocket Indian History 02 #102 p.58; inc.in plenary-sessions synopsis (cholera); scroll.in (Naoroji named the Congress)
+
+=== Presidents – Firsts, Titles and Records
+| Record | Person (session) |
+|---|---|
+| First President | **W.C. Bonnerjee** (Bombay 1885); again Allahabad **1892** |
+| First Parsi President; **thrice President** | **Dadabhai Naoroji** – **Calcutta 1886, Lahore 1893, Calcutta 1906** |
+| First Muslim President | **Badruddin Tyabji** (Madras **1887**) |
+| Second Muslim President | **Rahimtulla M. Sayani** (Calcutta **1896**) |
+| First European / non-Indian President | **George Yule** (Allahabad **1888**) – Hume was never President |
+| Only foreigner President twice | **William Wedderburn** (Bombay 1889, Allahabad 1910) |
+| Other British Presidents | Alfred Webb (Madras **1894**), Henry Cotton (Bombay 1904), Annie Besant (1917) |
+| First woman President | **Annie Besant** (Calcutta **1917**) |
+| First Indian woman President | **Sarojini Naidu** (Kanpur **1925**) |
+| Third woman President | Nellie Sengupta (Calcutta 1933) |
+| President while in prison | **C.R. Das** (Ahmedabad 1921; Hakim Ajmal Khan acting) |
+| Youngest President | **Abul Kalam Azad**, aged 35 (Delhi special session, **1923**) |
+| Longest continuous term | **Azad, 1940-46** (six years; no sessions 1941-45) |
+| Gandhi | presided **only once** – **Belgaum 1924** |
+| First Andhra/Telugu President | **P. Anandacharlu** (Nagpur **1891**) |
+| President at Independence | **J.B. Kripalani** (Meerut 1946) |
+- **Titles:** Dadabhai Naoroji = **"Grand Old Man of India"**; Pherozeshah Mehta = **"Lion of Bombay"**; Surendranath Banerjea = "Rashtraguru".
+- **Grandfather of the Congress / thrice Chairman** = **Dadabhai Naoroji** (APPSC Endowment).
+- **Naoroji and self-rule:** from **1904** he kept demanding self-government; at **Calcutta 1906** the word **"Swaraj"** was first used as the goal.
+- **Gandhi and the Congress:** left its primary membership on **30 Oct 1934** – at Independence he was **not a member**.
+> UPSC 2000/2015 statements: Sarojini Naidu first woman President ✗ (Besant); C.R. Das in prison ✓; first Briton = Hume ✗ (Yule); Alfred Webb 1894 ✓; Tyabji first Muslim ✓.
+~~ Sources: PMF Modern History Part 5 p.797-802 (sessions table); Spectrum (Ahir) Appendix 3 p.824-827, Ch11 p.247-248; Rocket Indian History 02 #102-103 p.58-61; NextGen Indian History APPSC 06 p.390 (Naoroji: thrice President 1886, 1893, 1906); Spectrum Ch14 p.404 (Gandhi resigned Oct 1934)
+
+=== INC Sessions 1885-1917
+| No. / Year | Venue | President | Note |
+|---|---|---|---|
+| 1st – 1885 | **Bombay** | W.C. Bonnerjee | 72 delegates |
+| 2nd – 1886 | **Calcutta** | **Dadabhai Naoroji** | **436** delegates (33 Muslims); merger with National Conference; only national (not social) questions |
+| 3rd – 1887 | **Madras** | Badruddin Tyabji | first Muslim President |
+| 4th – 1888 | **Allahabad** | George Yule | first European President |
+| 5th – 1889 | Bombay | William Wedderburn | 10 women delegates |
+| 6th – 1890 | Calcutta | Pherozeshah Mehta | **Kadambini Ganguly** addressed it |
+| 7th – 1891 | Nagpur | P. Anandacharlu | first Andhra President |
+| 1892 | Allahabad | W.C. Bonnerjee | – |
+| 1893 | Lahore | Dadabhai Naoroji | – |
+| 1894 | Madras | Alfred Webb | – |
+| 1895 | Poona | Surendranath Banerjea | – |
+| 1896 | Calcutta | R.M. Sayani | Vande Mataram first sung (Tagore) |
+| 1898 | Madras | Ananda Mohan Bose | – |
+| 1901 | Calcutta | Dinshaw Wacha | **Gandhi's first** Congress session |
+| 1902 | Ahmedabad | Surendranath Banerjea | – |
+| 1905 | **Benares** | **G.K. Gokhale** | against the partition of Bengal |
+| 1906 | Calcutta | Dadabhai Naoroji | **Swaraj** declared the goal |
+| 1907 | **Surat** | **Rash Behari Ghosh** | **Surat Split** – Moderates vs Extremists (first split) |
+| 1908 | Madras | Rash Behari Ghosh | Congress constitution drawn up |
+| 1912 (27th) | **Bankipur** (Patna) | R.N. Mudholkar | – |
+| 1914 | Madras | Bhupendranath Basu | – |
+| 1915 | Bombay | S.P. Sinha | constitution changed to readmit Extremists |
+| 1916 | **Lucknow** | **Ambica Charan Mazumdar** | Lucknow Pact; Moderates and Extremists reunited |
+| 1917 | Calcutta | **Annie Besant** | first woman President |
+- **Kadambini Ganguly** – **first woman graduate of Calcutta University** – the answer for "first woman graduate in British India".
+- **Muslim delegates:** 2 (1885) → **33** (1886) → 81 (1887) → 221 (1888).
+> CGPSC 2021: 1907 = Rash Behari Ghosh ✓, split ✓; 1916 reunion presided by S.P. Sinha ✗ (Mazumdar; Sinha = Bombay 1915).
+~~ Sources: Spectrum (Ahir) Appendix 3 p.824-826; PMF Modern History Part 5 p.797-799; Rocket Indian History 02 #103 p.61; NextGen Indian History APPSC 06 p.369-370; Spectrum Ch11 p.248 (Kadambini)
+
+=== INC Sessions 1919-1948
+| Year | Venue | President | Note |
+|---|---|---|---|
+| 1919 | **Amritsar** | Motilal Nehru | **Tilak's last** session |
+| 1920 | Nagpur | C. Vijayaraghavachariar | Non-Cooperation adopted |
+| 1921 | Ahmedabad | C.R. Das (in prison) | Hakim Ajmal Khan acting |
+| 1922 | Gaya | C.R. Das | council entry rejected → **Swaraj Party** (C.R. Das, Motilal) |
+| 1923 (special) | Delhi | **Abul Kalam Azad** | youngest President (35) |
+| 1923 | **Kakinada** | Maulana Mohammad Ali | – |
+| 1924 | **Belgaum** | **Gandhi** | his only presidency |
+| 1925 | **Kanpur** | **Sarojini Naidu** | first Indian woman President |
+| 1927 | Madras | M.A. Ansari | Simon Commission boycott |
+| 1928 | Calcutta | Motilal Nehru | **Nehru Report**; one-year ultimatum, else mass movement |
+| 1929 | **Lahore** | **Jawaharlal Nehru** | **Purna Swaraj**; **26 Jan 1930** first Independence Day |
+| 1931 (March) | **Karachi** | **Vallabhbhai Patel** | endorsed Gandhi-Irwin Pact; **Fundamental Rights and National Economic Programme** resolution |
+| 1933 | Calcutta | Nellie Sengupta | – |
+| 1934 | Bombay | Rajendra Prasad | – |
+| Apr 1936 | **Lucknow** | Jawaharlal Nehru | "**socialism** the only key to the solution of India's problems" |
+| Dec 1936 | **Faizpur** | Jawaharlal Nehru | first **rural** session |
+| 1938 (51st) | **Haripura** (Surat dist., **Gujarat**) | **Subhas Chandra Bose** | **National Planning Committee** (chairman Nehru) |
+| 1939 | Tripuri | Subhas Chandra Bose | re-elected defeating **Pattabhi Sitaramayya**; resigned → **Forward Bloc** |
+| 1940 | Ramgarh | Abul Kalam Azad | President 1940-46 |
+| 1946 | Meerut | J.B. Kripalani | last session before Independence |
+| 1948 (55th) | **Jaipur** | **Pattabhi Sitaramayya** | – |
+- **No sessions** in 1930, 1935 and 1941-45.
+- **Karachi 1931:** Gandhi's line "Gandhi may die but Gandhism will live for ever" is linked to this session.
+- **Order:** Belgaum 1924 (Gandhi) → Kanpur 1925 (Naidu) → Lahore 1929 (Nehru) → Karachi 1931 (Patel).
+~~ Sources: PMF Modern History Part 5 p.799-802 and p.634 (Lucknow 1936 address); Spectrum (Ahir) Appendix 3 p.826-827; Rocket Indian History 02 #102-103 p.58-61
+
+=== Andhra and the INC
+- **Andhra delegates, 1885:** **P. Anandacharlu**, P. Rangaiah Naidu, Nyapathi Subbarao, Gutti Kesava Pillai, Venkata Subbarayudu.
+- **P. Anandacharlu:** **first Telugu/Andhra (and South Indian) INC President** – **Nagpur 1891**.
+- **History of the Indian National Congress:** written by **Dr Bhogaraju Pattabhi Sitaramayya** (also *Gandhi and Gandhism*, *Feathers and Stones*); he presided at **Jaipur 1948**.
+- **Madras 1914:** 256 Andhra delegates, no Working Committee seat → separate **Andhra Congress circle**; first President **Nyapati Subba Rao**.
+- **Kakinada 1923:** **Ponaka Kanakamma**, first Telugu woman at an INC session, led the women's wing.
+- **Bezawada AICC, 1921:** Gandhi hoisted the tricolour designed by **Pingali Venkayya**.
+- **Swarajya** (English daily): **T. Prakasam**, 26 October 1921.
+- **Kurnool (Andhra) Circular:** **Quit India Movement**, 1942.
+- **Hyderabad State Congress:** first President **Govinda Rao Nanal**; ban lifted 1946.
+- **Later:** Congress (I) formed by Indira Gandhi, **January 1978**; the **Telugu Desam Party** ended Congress rule in AP in **1983**.
+~~ Sources: Spectrum (Ahir) Appendix 3 p.824; Rocket AP History p.10 (History of INC – Pattabhi Sitaramayya); AP History APPSC 07 p.9; app notes 1:199 (sub 10)
+
+=== A.O. Hume and the Safety-valve Debate
+# A.O. Hume
+- **Retired ICS officer** (retired **1882**); demoted in **1879** after a clash with **Lytton**; settled at **Shimla**.
+- Drew the idea of local self-government from **Ripon**; closer to the **Bombay-Poona** leaders than to Calcutta.
+- Founded the **Indian National Union**; **first General Secretary** of the INC.
+- Title: **"Father of Indian Ornithology"**.
+# Theories of the INC's origin
+| Theory / view | Person |
+|---|---|
+| Safety-valve – first mentioned | **William Wedderburn**, biography of Hume (**1913**) |
+| Safety-valve – used against the Moderates | **Lala Lajpat Rai** (*Young India*, 1916) |
+| Conspiracy theory (Marxist) – to abort a popular uprising | **R.P. Dutt** (*India Today*) |
+| "Colonial myth"; Hume a **lightning conductor** | **Bipan Chandra** (*India's Struggle for Independence*) |
+| "No Indian could have started the Congress…" | **G.K. Gokhale** |
+- **Basis claimed:** seven volumes of **secret reports** Hume read at **Simla in 1878**.
+- **Lightning conductor:** Indian leaders used Hume to shield the young body from official hostility.
+~~ Sources: Spectrum (Ahir) Ch11 p.248 and p.256 summary; NextGen Indian History APPSC 06 p.370; PMF Modern History Part 4 p.417-418
+
+=== Aims, Demands and Early Character
+- **Aims stated by W.C. Bonnerjee (1885):** (a) personal intimacy and **friendship among workers** in the national cause; (b) removing **race, creed and provincial prejudices** – **national unity**; (c) recording the opinions of the educated classes on **pressing (social) questions**; (d) laying down the **lines of political work** for the next 12 months.
+- **Exam answer:** the Congress kept **social issues off its platform** (Naoroji's rule at the 1886 session: only national questions) – so "to express views on social issues" is the option books treat as NOT an objective.
+- **First-session demands:** **simultaneous ICS examinations** in England and India; **elected** (not nominated) councils; **opposition to the annexation of Upper Burma**; **cut in military expenditure** – NOT complete provincial autonomy.
+- **Early demand:** **separation of the Executive and the Judiciary**.
+- **Character:** the **first all-India political platform**; urban, English-educated middle class – not a mass peasant body.
+~~ Sources: oldspeeches.blogspot.com (Bonnerjee's 1885 address); NextGen Indian History APPSC 06 p.369-370; PMF Modern History Part 4 p.417-418; Rocket Indian History 02 #102 p.58

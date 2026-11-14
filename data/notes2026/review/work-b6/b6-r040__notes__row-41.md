@@ -1,0 +1,222 @@
+=== Health Missions and Digital Health
+# HPV vaccination
+- PM Modi launched nationwide **HPV vaccination** at **Ajmer, Rajasthan** (**28 February 2026**; often reported as March 2026) to prevent **cervical cancer**.
+- **Target:** **14-year-old girls** (app MCQs say "girls under 14") in all 36 States/UTs, ~1.2 crore a year, single dose; free **Gardasil** - HPV types **16, 18, 6, 11**; via PHCs and schools.
+# World TB Day 2026
+- **24 March** - marks discovery of the TB bacterium by **Robert Koch in 1882**; theme 2026 "**Yes! We Can End TB**" (2021 theme: "**The Clock is Ticking**").
+- **TB:** 10 million+ ill, 1 million+ deaths a year; **leading single infectious killer**; ~one-fourth of world infected; untreated mortality ~50%; 4-6 months treatment cures ~90%.
+- **Target:** **India 2025**; global **2030** (SDGs, WHO End TB); UN High-Level Meetings 2018, 2023, next **2028**; WHO Global TB Report since 1997.
+- NTEP bidirectional TB-diabetes screening; Chennai cohort - 34% of TB patients diabetic, 41% of them poorly controlled; pilot: of 26,000 screened, ~3,000 had COPD/asthma.
+| Initiative | Feature |
+|---|---|
+| NTEP | Free diagnosis and treatment |
+| Nikshay Portal | Digital patient tracking |
+| Nikshay Poshan Yojana | ₹1,000/month nutrition support |
+| PM TB Mukt Bharat Abhiyaan | Community participation, patient adoption |
+| UDST | Universal Drug Susceptibility Testing |
+# Digital health platforms
+- **JANANI** = **Journey of Antenatal, Natal and Neonatal Integrated Care** - MoHFW (J.P. Nadda); tracks maternal and newborn health; QR-code health cards; automatic alerts for high-risk pregnancies; integrated with **ABDM and ABHA**; supports SDG-3.
+- **Swasth Bharat Portal:** unified digital health platform integrating programmes via APIs; data exchange via ABHA under ABDM; linked to **Healthcare Professionals Registry (HPR)** and **Health Facility Registry (HFR)**.
+- **ABDM** launched **2021**; **ABHA = 14-digit ID**; ABDM 2.0 - digital records via ABHA, telemedicine.
+- **Tele-MANAS:** 36 States/UTs, 53 cells, 20 languages; 34.34 lakh+ calls; app 10 October 2024; nodal **NIMHANS** (1974, Bengaluru); **Mental Healthcare Act, 2017**; helpline **14416**.
+# Research and special health programmes
+- **UMMID** = **Unique Methods of Management of Inherited Disorders**: **India's first national programme with a comprehensive approach to genetic diseases**; **NIDAN centres** (genetic diagnosis and counselling); awareness in Aspirational Districts; supports **National Policy for Rare Diseases, 2021**; by **Department of Biotechnology**.
+- **SEHAT** = **Science Excellence for Health through Agricultural Transformation**: **first formal initiative linking agriculture, nutrition and public health** - "**Farm to Plate**"; tackles malnutrition and NCDs; jointly by **ICAR** (est. 1929, DG M.L. Jat) and **ICMR** (est. 1911, DG Rajiv Bahl).
+- **GARBH-INi:** **India's largest pregnancy cohort - 12,000 women**; **DBT**, launched **May 2015**; studies preterm birth (below 37 weeks).
+- **Garbhini-GA2:** **first India-specific AI model** to estimate the **age of a foetus** in the **second and third trimesters**; built under **GARBH-INi** (DBT) by **IIT Madras** and **THSTI, Faridabad** (February 2024); uses Indian population data instead of Western formulae.
+- **Pulmonary Hypertension:** high blood pressure in pulmonary arteries (heart to lungs); often misdiagnosed as **asthma**; domestic drug classes ERAs and PDE5 inhibitors.
+- **Biopharma SHAKTI:** **₹10,000 crore** (2026-31), **Department of Pharmaceuticals**; hub for biologics, clinical trials, startups; 100 biologics by 2047.
+# Jan Aushadhi and Ayush
+- **Jan Aushadhi Week 2026:** **1-7 March**, ending with the **8th Jan Aushadhi Day**; by **PMBI** under the Department of Pharmaceuticals.
+- **18,000+** Jan Aushadhi Kendras; target **25,000 by 31 March 2027**; **PMBJP** launched 2015 (revised 2016); generics **50-90% cheaper**.
+- **Ayush Anudan Portal:** under **Ayush Grid**; digitises grants under Central Sector schemes of Ministry of Ayush (est. 2014, Minister Prataprao Jadhav).
+- **AYUSH** = Ayurveda, Yoga, Naturopathy, Unani, **Siddha**, Sowa-Rigpa, Homoeopathy.
+- **Desh Ka Prakriti Parikshan Abhiyan:** Ministry of AYUSH app with **CSIR-IGIB**.
+~~ Sources: Rocket CA 2026 Part 01 p.38, p.176 and Part 02 p.110 (HPV: launched 28 Feb 2026 at Ajmer; 14-year-old girls; single dose); Rocket CA 2026 Part 02 p.22 (Mission SEHAT, JANANI); PMF Lens Mar 2026 (02) p.62 (Garbhini-GA2 by IIT Madras and THSTI); app notes 6:41 (sub 3)
+
+=== Rural Employment and Rural Roads
+# VB-G RAM G replacing MGNREGA - draft rules
+- **Viksit Bharat - Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025 (VB-G RAM G)** replaces **MGNREGA (2005)**.
+- **Ministry of Rural Development** released draft rules on wages, unemployment allowance, allocation and the **Central Gramin Rozgar Guarantee Council**.
+| Feature | MGNREGA | VB-G RAM G |
+|---|---|---|
+| Workdays | 100 | 125 |
+| Wage funding | Centre 100% | States bear 40%; NE/Himalayan States and UTs with legislature 90:10; UTs without legislature 100% Centre |
+| Allocation | State labour budgets | Centre's normative allocation (16th Finance Commission horizontal devolution formula) |
+| Farm season | - | 60-day pause in peak sowing/harvest |
+| Payment | Bank/post office | DBT |
+- Old job cards valid after renewal + e-KYC until **Gramin Rozgar Guarantee Cards** are issued.
+- Part of allocation is **performance-linked** (timely wages, social audit).
+- **Childcare facilities at worksites made mandatory**.
+- Govt notified that the Act comes into force from **1 July 2026**; allocation **₹95,692 crore**.
+- **MGNREGA:** unskilled manual work; at least **one-third women**.
+# PMGSY - 25 years and phases
+- **Pradhan Mantri Gram Sadak Yojana:** launched **25 December 2000**; **Centrally Sponsored Scheme** for all-weather roads; silver jubilee event at **Bhairunda, Sehore, Madhya Pradesh**.
+- **Eligibility:** population **500+ (plains)**, **250+ (hilly, tribal, desert)**.
+- **Allocation 2026-27:** **₹18,907 crore** (MP ₹830 crore); **PM-JANMAN** roads: 384+ km, 168 habitations.
+- Funding **60:40**; **90:10** NE/Himalayan States and UTs.
+| Phase | Year | Focus |
+|---|---|---|
+| Phase-I | 2000 | Connect unconnected habitations (new connectivity) |
+| Phase-II | 2013 | Upgrade existing routes (50,000 km) |
+| RCPLWEA | 2016 | Left Wing Extremism areas |
+| Phase-III | 2019 | "Through Routes" to markets, hospitals, schools (1,25,000 km) |
+| Phase-IV | 2024-29 | 25,000 habitations, 62,500 km, ₹70,125 crore (Census 2011 criteria) |
+- **PMGSY-III extended:** plains from March 2025 to **March 2028**; bridges in hilly areas till **March 2029**; cost ₹80,250 crore to **₹83,977 crore**; ~₹961 crore for 161 long-span bridges.
+- **Monitoring:** three-tier quality control; **National Quality Monitors** sent by **NRIDA**; **OMMAS** (progress), **e-MARG** (maintenance, 5-year defect liability), PMGSY Gram Sadak Survey App, PM Gati Shakti.
+- **Green technologies:** waste plastic, cell-filled concrete, fly ash, cold mix, Full Depth Reclamation.
+# Rural livelihoods and digital villages
+- **Namo Drone Didi:** women SHGs get agri-drones under **DAY-NRLM**; **Karnataka** leads in training; 15,000 drones in 2024-26; **80% subsidy up to ₹8 lakh**, rest via **AIF with 3% interest subvention**; 15-day drone pilot training for one woman per SHG.
+- **RSETIs:** since **2009-10** (RUDSETI 1982 model), MoRD with banks; **NIRDPR** (1958, Hyderabad).
+- **Samruddh Gram Digital Services pilot:** Umri (MP), **Narakoduru (AP)**, Chaurawala (Uttarakhand); via **BharatNet (BBNL)**.
+- **Vibrant Villages Programme:** under **MHA**; announced in Budget 2022-23 with scheme period starting 2022-23; VVP-II now extends it. The statement "VVP launched in 2023-24 under MHA" was marked **incorrect** in an exam.
+~~ Sources: Rocket CA 2026 Part 02 p.132 (VB-G RAM G: job cards valid till Gramin Rozgar Guarantee Cards, 125 days); Rocket CA 2026 Part 01 p.97 (VB-G RAM G ₹95,692 crore), p.156 (in force 1 Jul 2026); Rocket CA 2026 Part 02 p.62 (Vibrant Villages Programme); app notes 6:41 (sub 0)
+
+=== Energy and LPG Schemes
+# PM Ujjwala Yojana - 10 years
+- Launched **1 May 2016** by PM Modi; **Ministry of Petroleum and Natural Gas** (Minister Hardeep Singh Puri).
+- **Deposit-free LPG connection to adult women of poor households**; 10.33 crore+ connections by 2025; **10.57 crore** connections; **Ujjwala 2.0 in 2021**; 2025-26 targeted subsidy ₹12,000 crore.
+- Subsidy **₹300 per 14.2 kg cylinder** for **9-12 refills a year**; saves women 2-3 hours daily.
+- **PAHAL** = **DBT for LPG**: cylinder bought at market price, subsidy credited to the **Aadhaar-seeded bank account**.
+- **AP angle - Deepam-2:** **3 free LPG cylinders a year** alongside PMUY (Jan 2026).
+- **PMUY:** Deposit-free LPG connection; 2016
+- **PAHAL:** DBT of LPG subsidy; Aadhaar-seeded account
+# Online LPG services (exam match)
+| Service | What it does |
+|---|---|
+| Avail Online LPG Services | Platform to access various LPG services online |
+| Bharatgas "GiveItUp" | Voluntarily **surrender the LPG subsidy** |
+| Indane Refill Booking and Online Payment | Book a refill and **pay online** |
+| Indane New Domestic Connection with Online Payment | Apply online, incl. a **double bottle connection** |
+# PM Surya Ghar Muft Bijli Yojana
+- Launched **February 2024**; target **1 crore households by 2026-27**; subsidy up to **₹78,000**; up to **300 units free** per month.
+- **26.19 lakh+** rooftop systems by 19 March 2026; grid-connected rooftop capacity **26.75 GW** (30 April 2026); ~82% of 2.7 GW added in Q1 2026 from residential.
+- **Leading States:** Gujarat, Maharashtra, Uttar Pradesh, Kerala.
+- **Budget 2026-27: ₹22,000 crore (+29.4%)**; **MNRE** (Minister Pralhad Joshi); National Solar Mission **2010**.
+# PM-KUSUM extended
+- MNRE extended projects (PPA/LoI signed before 31 December 2025) till **31 March 2027**.
+- Launched **2019**; target **34,800 MW**; ₹34,422 crore central support; funding **30% Centre, 30% State, 40% farmer (loans)**.
+- **MNRE est. 1992**.
+~~ Sources: app notes 6:41 (sub 2); LPG service match: general knowledge, not checked
+
+=== Social Justice and Senior Citizens
+# Social justice schemes - NAMASTE, SMILE, SEED, NMBA
+| Scheme | Key facts |
+|---|---|
+| NAMASTE | Mechanised sewer/septic tank cleaning; 2023-24 to 2025-26; MoSJE + MoHUA; implementing agency NSKFDC (1997) |
+| SMILE | Launched 2022; ₹390 crore for 2021-26; beggary rehabilitation + transgender sub-scheme |
+| SMILE-Beggary Survey app | Launched at Chintan Shivir, Chandigarh (24-26 April 2026) |
+| SEED (De-notified, Nomadic, Semi-nomadic tribes) | Launched 16 February 2022; ₹200 crore (2021-26); 4 components - education, health, livelihood, housing (PMAY); DWBDNC (2019) |
+| Nasha Mukt Bharat Abhiyan App 2.0 | NMBA launched 15 August 2020 in 272 districts; nationwide 2023 |
+- **SEED 2025-26:** education +402%, beneficiaries +714%; 4,485 students (₹26.75 crore); 5,623 SHGs in 8 States (₹16 crore); 73,569 PM-JAY cards (+419%).
+- Prohibition of Employment as Manual Scavengers Act, 2013; Transgender Persons Act, 2019; **MoSJE est. 1998**.
+# PM-AJAY
+- **Pradhan Mantri Anusuchit Jaati Abhyuday Yojana:** **100% centrally sponsored** umbrella scheme (2021-22) for **Scheduled Castes**.
+- Merged **PM Adarsh Gram Yojana**, **Special Central Assistance to SCSP**, **Babu Jagjivan Ram Chhatrawas Yojana**.
+- **PM-AJAY Portal + AJAY app** (MoSJE, May 2026): make PM-AJAY paperless.
+- **Objective:** reduce **poverty of Scheduled Caste** communities through **skill development**, income-generating schemes and infrastructure in SC-majority villages (Adarsh Gram: 40%+ SC population) - **not** STs, hill communities or OBCs.
+# Senior citizens
+- **JEEVAN app** = **Joint Elderly Empowerment and Virtual Assistance Network**, with **SHATAYU dashboard** - MoSJE (Minister Virendra Kumar).
+- **Kerala:** to form a **separate Senior Citizens Welfare Department - first in India** (now under Social Welfare Dept).
+- **Kerala State Elderly Commission (2025):** quasi-judicial; Kerala State Elderly Commission Act, 2025 - elderly = **60+**.
+| Kerala indicator | Value |
+|---|---|
+| TFR (2023) | 1.35 |
+| Sex ratio 80+ | 1,651 women per 1,000 men |
+| Rural vs urban 60+ | 17.5% vs 15.4% |
+- **Kerala schemes:** **Vayomithram** (mobile medical care), **Samayaprabha** (daycare), Kerala Care Palliative Grid (with Digital University Kerala).
+- Maintenance and Welfare of Parents and Senior Citizens Act, 2007; India Ageing Report 2023.
+# Tribal
+- **RISA: Timeless Tribal** - premium tribal brand, Ministry of Tribal Affairs via **TRIFED (1987)**.
+~~ Sources: PMF Lens Jun 2026 (15) p.4, p.7 (PM-AJAY for SCs; Portal and AJAY app); app notes 6:41 (sub 5)
+
+=== Social Security and Financial Inclusion
+# Social security trio - 11 years (all 2015, Ministry of Finance)
+| Scheme | Cover | Age | Premium |
+|---|---|---|---|
+| PMJJBY | Life ₹2 lakh | 18-50 | ₹436/year |
+| PMSBY | Accident ₹2 lakh death/total disability; ₹1 lakh partial | 18-70 | ₹20/year |
+| APY | Pension ₹1,000-5,000 after 60 | 18-40 (unorganised workers) | Regulator PFRDA |
+- **Enrolments:** PMJJBY 27 crore+, PMSBY 58 crore+, **APY crossed 9 crore**.
+- **APY** launched **9 May 2015**; **income-tax payers excluded from 1 October 2022**.
+# Mudra and UPI
+| MUDRA tier (PMMY, 8 April 2015) | Loan |
+|---|---|
+| Shishu | up to ₹50,000 |
+| Kishor | ₹50,001 - 5 lakh |
+| Tarun | ₹5 - 10 lakh |
+| Tarun Plus | ₹10 - 20 lakh |
+- **UPI - 10 years:** launched **11 April 2016** by **NPCI**; used abroad in Singapore, UAE, France, Sri Lanka, Mauritius.
+- **MUDRA:** 2015, Mumbai; **PFRDA**: 2003 (statutory 2013); **NPCI**: 2008, **Mumbai** - operates UPI, RuPay, IMPS, FASTag, BBPS.
+# CBDC and other platforms
+- **CBDC digital food currency:** pilot in **Puducherry, 26 Feb 2026**, under **PMGKAY**; food subsidy as programmable (purpose-bound) **digital rupee (e₹)**; also Chandigarh, Dadra & Nagar Haveli (Aug 2026).
+| Initiative | Facts |
+|---|---|
+| SWAYATT | GeM initiative (Feb 2019) for startups, women, youth; GeM est. 2016, CEO Ajay Bhadoo |
+| Gruha Sugam | NHB housing-loan portal for defence/paramilitary/govt staff; NHB est. 1988 |
+| e-Railway Claims Tribunal | Under "52 Reforms in 52 Weeks"; Tribunal Act 1987 |
+| Nasha Mukt Vidyalaya | Ministry of Education 3-year plan under NMBA (2020); Article 47 |
+# PM-KISAN 22nd instalment
+- **22nd instalment** of ₹2,000 to ~**9.32 crore farmers** (₹18,640 crore), released **13 March 2026 at Guwahati**; ~₹4.27 lakh crore disbursed so far.
+- ₹6,000 a year in three instalments; launched **24 February 2019**.
+~~ Sources: Rocket CA 2026 Part 01 p.153, p.158 (Atal Pension Yojana continued to 2030-31); app notes 6:41 (sub 4)
+
+=== Housing, Water and Fisheries
+# Housing
+- **Odisha ranked first** in construction under **PMAY-Urban 2.0** (8 May 2026).
+- **PMAY-U 2.0:** launched **September 2024**; original PMAY-U 2015; geo-tagging; **Ministry of Housing and Urban Affairs**.
+# Jal Jeevan Mission extended to December 2028
+- **JJM (Jal Shakti, 2019):** **Functional Household Tap Connection (FHTC)** to every rural household; Cabinet extended it to **December 2028** as **JJM 2.0** to cover all **19.36 crore** rural households.
+- **Phase I (2019-2024):** expenditure **₹8.69 lakh crore**; central assistance ₹2.08 to **₹3.59 lakh crore** (+₹1.51 lakh crore).
+- **"Sujalam Bharat"** framework: unique ID per village; **Sujal Gaon ID** (digital identity for each rural water supply scheme) in **31 States/UTs**; annual **Jal Utsav**.
+# Fisheries - record budget
+- **Union Budget 2026-27:** record **₹2,761.80 crore** for fisheries; benefits 3 crore+ fishers.
+- India **second-largest fish producer** (~8% of world production); fish production **95.79 lakh t (2013-14) to 197.75 lakh t (2024-25)**.
+- Inland waters 31.5 lakh ha; coastline **11,099 km**; EEZ 24 lakh sq km; livelihoods ~30 million.
+| Scheme | Key facts |
+|---|---|
+| Blue Revolution | Began in 1980s - scientific aquaculture |
+| PMMSY | 2020; ₹20,050 crore; "Blue Revolution 2.0"; infrastructure + value chain |
+| NFDP | Digital identity of fishers; targeted delivery |
+| FIDF | Fisheries and Aquaculture Infrastructure Development Fund - harbours, cold storage, landing centres |
+| KCC for fishers | Short-term credit / working capital |
+- PMMSY = **long-term infrastructure**; KCC = short-term credit; PMMSY does **not** rely on fleet expansion.
+- **Techniques:** **Biofloc**, **Recirculatory Aquaculture Systems (RAS)**.
+- **Blue Voice app:** Puducherry University - weather alerts for fishermen.
+~~ Sources: Rocket CA 2026 Part 01 p.155-156 (JJM 2.0: Cabinet 10 Mar 2026, ₹8.69 lakh crore, Centre ₹3.59 lakh crore, 19.36 crore households by Dec 2028; Sujalam Bharat, Jal Utsav), p.155 (PMMSY); app notes 6:41 (sub 7)
+
+=== Panchayati Raj and Women's Safety
+# Nirbhay Raho
+- **Ministry of Panchayati Raj** - National Training of Trainers, New Delhi; funded by **Nirbhaya Fund (est. 2013)**.
+| Component | Coverage |
+|---|---|
+| Nirbhay Netri | Gender training to 14.5 lakh women elected representatives |
+| Nirbhay Chetna | 17.5 lakh male elected representatives |
+| Nirbhay Drishti | CCTV safety infrastructure in GPs |
+- Total reach **32 lakh+** PRI representatives.
+# Other Panchayat and women initiatives
+- **Samarth Panchayat Portal:** improves **Own Source Revenue** (taxes, fees, rents, service charges); being expanded to **Assam, Uttar Pradesh, Maharashtra**.
+| Initiative | Facts |
+|---|---|
+| "Say No to Proxy Sarpanch" | Ministry of Panchayati Raj social media campaign against "Sarpanch Pati"; from Women's Day till 18 March; Minister Rajiv Ranjan Singh |
+| SHINE app (Indian Railways) | Launched 8 March 2026; sexual harassment complaints via HRMS/ICCs; based on Vishaka (1997) and POSH Act 2013 |
+| Nirbhaya Nisha | Kerala Police - women's night safety |
+| Krishi Sakhi Program | Agriculture Insurance Company; FAO declared 2026 International Year of Women Farmers |
+- **AIC** est. 2002, implements **PMFBY (2016)**; **FAO** HQ **Rome**, DG Qu Dongyu.
+- **e-SafeHER:** by **C-DAC Hyderabad** (MeitY) and **Reliance Foundation**; train **10 lakh rural women as "Cyber Sakhis" by 2029**; starts in **Madhya Pradesh and Odisha**. **C-DAC**: 1988, **Pune** (PARAM supercomputers); **ISEA** programme 2005, third phase since October 2023.
+- **NHAI Project Saksham:** NHAI with **Vertis Foundation** - skills for rural women; 12 centres; 6,000+ trained, 4,000+ employed; NHAI set up under the **NHAI Act, 1988** (operational February 1995); MoRTH, Minister Nitin Gadkari.
+~~ Sources: Praveen CA-360 May 2026 p.32 (NHAI-Vertis Foundation; NHAI established 1988); app notes 6:41 (sub 1)
+
+=== Education and Skills
+# PM-SHRI - reminder to three States
+- Ministry of Education reminded **West Bengal, Kerala, Tamil Nadu** on pending PM-SHRI implementation.
+- **West Bengal:** did not sign MoU (**40% cost + PM-SHRI branding**); **Tamil Nadu**: **three-language formula** concern; **Kerala**: signed, then paused.
+- **PM-SHRI** = Pradhan Mantri Schools for Rising India: launched **2022**, **CSS**, 2022-23 to 2026-27; **14,500+ schools** as NEP exemplars; 18 lakh+ students.
+- Funding **60:40**; **90:10 NE/Himalayan/J&K**; 100% UTs without legislature.
+- **Selection:** **Challenge Mode using UDISE+**; **max 2 schools per block/ULB**; monitored by **School Quality Assessment Framework**.
+- Linked with **Samagra Shiksha** (merged SSA, RMSA, Teacher Education).
+- **NEP 2020:** 5+3+3+4 structure; assessment centre **PARAKH**.
+# Other education and skill items
+- **PM Internship Scheme expanded:** **MCA** allowed **final-year UG and PG students** to apply; paid internships in **top 500 companies**; pilot began October 2024; announced in **Budget 2024-25**.
+- **Google for Education Schoolers (GES):** free AI training for teachers; announced at **Education World Forum 2026, London**, with **UNICEF** and States; Phase 1 - Maharashtra, Chhattisgarh, Assam, Ladakh, Punjab School Education Board; languages Assamese, Hindi, Marathi, Telugu, Odia, Punjabi; Google-UNICEF 3-year partnership in India, Brazil, Pakistan, Kenya.
+~~ Sources: app notes 6:41 (sub 6); not in Rocket CA 2026
