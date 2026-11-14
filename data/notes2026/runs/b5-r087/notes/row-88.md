@@ -58,7 +58,7 @@
 
 === Seshachalam, Sri Venkateswara NP, Endemic Plants and State Symbols
 - **Seshachalam Hills BR:** AP's first and only BR, notified **2010** (20 Sep); ~4,756 km²; Eastern Ghats around Tirupati–Tirumala; red sanders, golden gecko.
-- **Sri Venkateswara WLS and NP:** total **525.97 km²** (WLS 1985; NP 353.62 km², 1989 – not 1956); abode of species **endemic to the Seshachalam hills**; Talakona waterfall.
+- **Sri Venkateswara WLS and NP:** total **525.97 km²** (WLS 1985; NP **353.63 km²**, 1989 – not 1956); abode of species **endemic to the Seshachalam hills**; Talakona waterfall.
 | Endemic plant | Where |
 |---|---|
 | **Cycas beddomei** ("living fossil") | **Sri Venkateswara NP / Seshachalam** |
