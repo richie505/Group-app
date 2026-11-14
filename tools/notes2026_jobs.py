@@ -259,6 +259,8 @@ def rewrite_problems(d, newq, quiet):
     final = len(kept) + len(newq)
     if own and final > 0.85 * len(own):
         probs.append(f"final own MCQs {final} > 85% of {len(own)}: merge/remove more")
+    if own and final < 0.30 * len(own):
+        probs.append(f"final own MCQs {final} < 30% of {len(own)}: keep more distinct one-liners")
     sh = Counter(q.get("tq") for q in newq)
     for k, t in SHAPES_TARGET.items():
         if final and sh[k] < t * final:
