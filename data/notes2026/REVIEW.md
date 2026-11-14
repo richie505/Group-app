@@ -954,3 +954,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b1-w048 rewrite (rows 48-54): own 413 → 153 (37%). PYQs y2dcd9bed494, yd05ecc01715 Nagarjunakonda = Guntur (now Palnadu) — outdated tag?
 - b6-w023 rewrite (rows 23-24): own 269 → 124 (46%). Notes: Yuva Puraskar 2025 Telugu 'Prasad Suri' vs 'Surada Prasad'; National Sports Awards 2025 announced 18 Aug 2026?
 - b5-w022 rewrite (rows 22-27): own 410 → 157 (38%), 0 lost. PYQ stem typos: y883e39e40ab GI Cloud '2024' (2014); y0e4bc2b95e9 Meri Pehchaan 'July 2002' (2022).
+- b3-w027 rewrite (rows 27-34): own 431 → 157 (36%). Notes row 31 line 0:9 lowest-poverty State vs table conflict. Fixed: Dandekar-Rath first calorie-based line; PLFS 2023-24.
