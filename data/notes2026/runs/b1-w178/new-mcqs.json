@@ -36,10 +36,10 @@
   "o": [
    "1 and 2 only",
    "2 only",
-   "1 and 3 only",
-   "1, 2 and 3"
+   "1, 2 and 3",
+   "1 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "1 and 3 are correct. 2 is wrong: the Asiatic Society of Bengal was founded on 15 January 1784, not 1794.",
   "src": "app",
   "tq": "statements"
@@ -110,11 +110,11 @@
   "s": "Consider the following statements:\n1. Thomas Munro's Survey of Indigenous Education (1826) found a wide network of vernacular village schools in the Madras Presidency.\n2. Munro's collectorate and tahsildari schools were closed in 1846.\n3. English replaced Persian as the official language in 1837.\nHow many of the above statements are correct?",
   "o": [
    "Only one",
-   "None",
    "All three",
-   "Only two"
+   "Only two",
+   "None"
   ],
-  "a": 3,
+  "a": 2,
   "x": "1 and 3 are correct. 2 is wrong: Munro's collectorate and tahsildari schools were closed in 1836, after the 1835 resolution. In 1844 Hardinge made knowledge of English a condition for government jobs.",
   "src": "app",
   "tq": "statements"
@@ -139,12 +139,12 @@
   "row": 178,
   "s": "Consider the following statements about the provisions of Wood's Despatch, 1854:\n1. It endorsed the Downward Filtration Theory.\n2. It provided grants-in-aid to encourage private enterprise in education.\n3. It stressed female education, vocational training and teachers' training.\nWhich of the statements given above is/are correct?",
   "o": [
-   "3 only",
    "1 and 2 only",
    "2 and 3 only",
+   "3 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "2 and 3 are correct. 1 is wrong: the Despatch made the state responsible for education of the masses and so rejected downward filtration (on paper).",
   "src": "app",
   "tq": "statements"
@@ -184,12 +184,12 @@
   "row": 178,
   "s": "Match List-I (Education body) with List-II (Viceroy):\nList-I | List-II\na. Hunter Commission (1882) | i. Ripon\nb. Raleigh Commission (1902) | ii. Curzon\nc. Resolution on Education Policy (1913) | iii. Irwin\nd. Hartog Committee (1929) | iv. Hardinge II\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-ii, c-iv, d-iii",
    "a-i, b-ii, c-iii, d-iv",
    "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-ii, c-iv, d-iii",
    "a-i, b-iv, c-iii, d-ii"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Hunter Commission – Ripon; Raleigh (Universities) Commission – Curzon; Resolution on Education Policy 1913 – Hardinge II (answer to Gokhale's demand); Hartog Committee – Irwin (not Wavell).",
   "src": "app",
   "tq": "match"
@@ -313,5 +313,305 @@
   "x": "Both are true, but R only describes one of the two merged institutions; it does not explain why the merger took place. Nizam College's principal was Aghorenath Chattopadhyaya.",
   "src": "app",
   "tq": "assertion"
+ },
+ {
+  "id": "cpdb92e50e5f84",
+  "row": 179,
+  "s": "Consider the following statements about early railways in India:\n1. The first passenger train of 16 April 1853 ran 34 km from Bori Bunder to Thane.\n2. The first railway line in South India (1856), from Royapuram to Wallajah Road, was opened by the Madras Railway Company.\n3. The first railway line in Andhra (1862) was Vijayawada–Machilipatnam.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: the first railway in Andhra (1862) was Puttur–Renigunta.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4b735cd8e213",
+  "row": 179,
+  "s": "Consider the following statements:\n1. Dalhousie's Railway Minute of 1853 provided for a network of trunk lines for military, commercial and administrative purposes.\n2. Under the guarantee system, the 5% return to British companies was paid from Indian revenues only in years when the lines made a profit.\n3. State railways in India are credited to Lord Mayo.\nWhich of the statements given above is/are NOT correct?",
+  "o": [
+   "3 only",
+   "1 and 2 only",
+   "2 only",
+   "1 and 3 only"
+  ],
+  "a": 2,
+  "x": "Only 2 is wrong: the 5% minimum return was paid from Indian revenues whether or not the lines made a profit; the state built lines itself from 1869. Railways, post and telegraph = Dalhousie; state railways = Mayo.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp49f3c3c09f5a",
+  "row": 179,
+  "s": "Consider the following statements about railways in colonial India:\n1. Troop movement was one of the official reasons for building railways.\n2. The creation of a national market was an unintended effect of the railways.\n3. The first railway line in North India ran from Delhi to Agra.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 3,
+  "x": "All three are correct: official reasons were faster movement, administration and troops; unintended effects were a national market, shared travel across castes and faster nationalist mobilisation; Delhi–Agra was the first North Indian line.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp855f4c2d48b1",
+  "row": 179,
+  "s": "Consider the following statements about railways in Hyderabad State:\n1. The Chanda Railway agitation of 1883 opposed the extension of the Nizam's State Railway to Chanda.\n2. The agitation was led by Salar Jung I.\n3. The Wadi–Secunderabad line was opened in October 1874.\nHow many of the above statements are correct?",
+  "o": [
+   "Only two",
+   "Only one",
+   "All three",
+   "None"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: the protest was led by Dr Aghorenath Chattopadhyaya (Principal), who was deported on 20 May 1883; it was the first public political agitation in Hyderabad.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc0c6e18a7937",
+  "row": 179,
+  "s": "Match List-I (Newspaper) with List-II (Language):\nList-I | List-II\na. Sambad Kaumudi (1821) | i. Hindi\nb. Mirat-ul-Akhbar (1822) | ii. Bengali\nc. Udant Martand (1826) | iii. Urdu\nd. Tahzeeb-ul-Akhlaq (1870) | iv. Persian\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-ii, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 1,
+  "x": "Sambad Kaumudi – Bengali weekly of Ram Mohan Roy; Mirat-ul-Akhbar – Persian (Ram Mohan Roy); Udant Martand – the first Hindi newspaper (Jugal Kishore Shukla); Tahzeeb-ul-Akhlaq – Urdu (Sir Syed Ahmad Khan).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb2b378444e57",
+  "row": 179,
+  "s": "Match List-I (Newspaper) with List-II (Founder):\nList-I | List-II\na. Hindoo Patriot (1853) | i. Debendranath Tagore and Manmohan Ghosh\nb. Indian Mirror (1861–62) | ii. G. Subramania Iyer and M. Veeraraghavachariar\nc. Amrita Bazar Patrika (1868) | iii. Girish Chandra Ghosh\nd. The Hindu (1878) | iv. Sisir Kumar Ghosh and Motilal Ghosh\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-i, c-iv, d-ii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 2,
+  "x": "Hindoo Patriot – Girish Chandra Ghosh (first English paper by Indians); Indian Mirror – Debendranath Tagore and Manmohan Ghosh; Amrita Bazar Patrika – Sisir Kumar and Motilal Ghosh (Jessore); The Hindu – G. Subramania Iyer, M. Veeraraghavachariar and others.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp1f6463fe7e32",
+  "row": 179,
+  "s": "Consider the following statements:\n1. The Bengali weekly Som Prakash (1858) was Ishwar Chandra Vidyasagar's idea, and Dwarkanath Vidyabhushan was its editor.\n2. The Bengalee was founded by Girish Chandra Ghosh in 1862 and run by Surendranath Banerjea from 1879.\n3. Kesari was founded by Gopal Krishna Gokhale in 1881.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: Kesari (Marathi) and Maharatta (English) were founded by Bal Gangadhar Tilak in 1881.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp26356170c0c2",
+  "row": 179,
+  "s": "Consider the following statements:\n1. The first printing press in India was set up at Goa in 1556 by Portuguese Jesuits.\n2. James Augustus Hicky's Bengal Gazette (1780) was a Bengali weekly.\n3. Raja Ram Mohan Roy closed Mirat-ul-Akhbar in protest against the Licensing Regulations of 1823.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 3 are correct. 2 is wrong: the Bengal Gazette (Calcutta General Advertiser), the first newspaper in India, was an English weekly.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb7d78f9e28cd",
+  "row": 179,
+  "s": "Match List-I (Paper) with List-II (Founder):\nList-I | List-II\na. Comrade (1911) | i. Swaminathan Sadanand\nb. Al-Hilal (1912) | ii. Maulana Muhammad Ali\nc. The Commonweal | iii. Abul Kalam Azad\nd. Free Press Journal (1930) | iv. Annie Besant\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-i, b-iii, c-ii, d-iv",
+   "a-ii, b-iv, c-iii, d-i"
+  ],
+  "a": 1,
+  "x": "Comrade – Maulana Muhammad Ali (English weekly); Al-Hilal – Abul Kalam Azad (Urdu weekly); The Commonweal / New India – Annie Besant (Home Rule); Free Press Journal – Swaminathan Sadanand (Bombay).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpb1254a172439",
+  "row": 179,
+  "s": "Consider the following statements about papers of the national movement:\n1. Bande Mataram (1906), an English paper of Calcutta, was associated with Aurobindo Ghosh and Bipin Chandra Pal.\n2. Abul Kalam Azad's Al-Hilal was banned in 1914.\n3. Qaumi Awaz, linked with Jawaharlal Nehru and Rafi Ahmed Kidwai, was started at Lucknow in 1935.\n4. Justice (1917) was edited by T.M. Nair.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Qaumi Awaz was started at Lucknow in 1945, not 1935.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp38ba19d68799",
+  "row": 179,
+  "s": "Consider the following statements about press laws in British India:\n1. The Censorship of Press Act of 1799 was passed by Lord Wellesley.\n2. The Licensing Regulations of 1823 were issued by the acting Governor-General John Adams.\n3. The Registration Act of 1867 was passed under Lord Lytton.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 only",
+   "1 and 3 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: the Registration Act, 1867 (printer, publisher and place on every book or paper) came under John Lawrence; Lytton passed the Vernacular Press Act, 1878.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa34ab8eabf80",
+  "row": 179,
+  "s": "Consider the following statements:\nAssertion (A): Charles Metcalfe is called the 'liberator of the Indian press'.\nReason (R): His Press Act of 1835 repealed the Licensing Regulations of 1823.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: by repealing John Adams' 1823 licensing rules, Metcalfe's Act of 1835 freed the press, which earned him the title.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp262655fb5154",
+  "row": 179,
+  "s": "Consider the following statements about the Vernacular Press Act, 1878:\n1. It was passed against the background of criticism of Lytton over the 1876–77 famine and the costly Delhi Durbar of 1877.\n2. A district magistrate could, without prior government permission, demand forfeitable security and seize presses for repeat offences.\n3. An aggrieved paper could appeal against the magistrate's order in a court of law.\n4. A paper could obtain exemption by submitting proofs to a government censor.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only three",
+   "Only two",
+   "All four"
+  ],
+  "a": 1,
+  "x": "1, 2 and 4 are correct. 3 is wrong: there was no appeal to a court against the magistrate's action.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbd7184670a35",
+  "row": 179,
+  "s": "Consider the following statements:\nAssertion (A): Amrita Bazar Patrika turned into an English newspaper overnight after the Vernacular Press Act was passed.\nReason (R): The Vernacular Press Act applied equally to English and vernacular newspapers.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 2,
+  "x": "A is true: the change was made to evade the Act. R is false: the Act was discriminatory – it applied only to vernacular papers, not English ones, which is exactly why the switch worked.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpeeeba95fcef0",
+  "row": 179,
+  "s": "Consider the following statements:\n1. The Vernacular Press Act was repealed in 1882 by Lord Ripon.\n2. On repeal, the pre-censorship clause was dropped and a press commissioner was appointed.\n3. The Newspapers (Incitement to Offences) Act 1908 and the Indian Press Act 1910 were both passed under Minto II.\n4. Sedition (Section 124A) was added to the IPC in 1870 under Lord Lytton.\nHow many of the above statements are correct?",
+  "o": [
+   "Only three",
+   "Only two",
+   "Only one",
+   "All four"
+  ],
+  "a": 0,
+  "x": "1, 2 and 3 are correct. 4 is wrong: Section 124A (\"exciting disaffection\") was added in 1870 under Lord Mayo; Lytton came later (1876–80).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpeb731ee1a3aa",
+  "row": 179,
+  "s": "Consider the following statements about the period of Lord Ripon:\n1. The first Factory Act in India was passed in 1881.\n2. The Ilbert Bill controversy took place in 1883.\n3. The Famine Code was issued in 1878.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "1 and 2 are correct. 3 is wrong: the Famine Code came in 1883 (with the Ilbert Bill); 1878 is the Vernacular Press Act.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpa9b9841aef3f",
+  "row": 179,
+  "s": "Match List-I (Telugu paper) with List-II (Founder):\nList-I | List-II\na. Krishna Patrika (1902) | i. Gadicherla Harisarvottama Rao\nb. Andhra Patrika (1908) | ii. Chilakamarti\nc. Andhra Kesari | iii. Kasinathuni Nageswara Rao\nd. Desamata | iv. Konda Venkatappayya\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iii, c-iv, d-ii",
+   "a-iv, b-iii, c-i, d-ii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 1,
+  "x": "Krishna Patrika – Konda Venkatappayya (with Dasu Narayana Rao; later Mutnuri Krishna Rao); Andhra Patrika – Kasinathuni Nageswara Rao (weekly from Bombay, 1908); Andhra Kesari – Gadicherla Harisarvottama Rao; Desamata – Chilakamarti (backed Home Rule).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp7c25578fe4f3",
+  "row": 179,
+  "s": "Consider the following statements about Telugu journalism:\n1. Telugu journalism dates from 1835.\n2. Andhra Prakasika (1885) of A.P. Parthasarathy Naidu was the first political weekly of Andhra.\n3. Kandukuri Veeresalingam started Vivekavardhini in 1874.\n4. Kandukuri Veeresalingam started Hasyasanjivani in 1883.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2, 3 and 4 only",
+   "1, 2 and 3 only",
+   "1, 2, 3 and 4"
+  ],
+  "a": 2,
+  "x": "1, 2 and 3 are correct. 4 is wrong: Hasyasanjivani was started in 1876; 1883 is Sati Hitabodhini.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp9b240be41597",
+  "row": 179,
+  "s": "Consider the following statements:\n1. India's first telegraph line, opened in 1851 under W.B. O'Shaughnessy, ran from Calcutta to Diamond Harbour.\n2. The telegraph link between India and Europe was made in 1865, under John Lawrence.\n3. The Post Office Act of 1854 fixed postage rates that rose with the distance a letter travelled.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1, 2 and 3",
+   "2 and 3 only",
+   "1 only",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "1 and 2 are correct. 3 is wrong: Dalhousie's Post Office Act of 1854 introduced postage stamps and a uniform rate (half anna a letter) regardless of distance.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp7de38fa3e53c",
+  "row": 179,
+  "s": "Consider the following statements about the press in India today:\n1. The Press and Registration of Periodicals Act, 2023 replaced the Act of 1867.\n2. The RNI is now known as the Press Registrar General of India.\n3. The Press Council, set up under the Press Council Act, 1978, has punitive powers.\n4. India was ranked 157th of 180 in the World Press Freedom Index 2026.\nHow many of the above statements are correct?",
+  "o": [
+   "Only three",
+   "Only two",
+   "Only one",
+   "All four"
+  ],
+  "a": 0,
+  "x": "1, 2 and 4 are correct. 3 is wrong: the Press Council (Act of 1978) has no punitive powers.",
+  "src": "app",
+  "tq": "statements"
  }
 ]
