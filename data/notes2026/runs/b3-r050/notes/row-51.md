@@ -79,3 +79,13 @@
 | Covers | landholding families | landholders and tenant farmers |
 - Earlier **YSR Rythu Bharosa**: ₹13,500/family/yr. **AP leads in oil palm**: 2.49 lakh ha (48% of India).
 ~~ Sources: app notes 3:51 sub 8
+
+=== Phases of Agricultural Development
+| Phase | Period | Defining feature |
+|---|---|---|
+| Pre-Green Revolution | 1951-68 | land reforms, irrigation, Community Development; **PL-480** imports; droughts **1965-67** |
+| Early Green Revolution | 1968-81 | **New Agricultural Strategy** – HYV seeds (**wheat first**), fertiliser, irrigation |
+| Later Green Revolution | 1987-92 | spread to **rice** and other regions |
+| Income phase | 2016 onwards | Doubling Farmers' Income – from production to income |
+- Foodgrains: 72.3 MT (1965-66) → record 357.73 MT (2024-25).
+~~ Sources: app notes 3:51 sub 0
