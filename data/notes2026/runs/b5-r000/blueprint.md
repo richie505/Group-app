@@ -8,8 +8,8 @@ Data: 53 PYQs (keys.jsonl), 54 app MCQs, 107 in all (all-mcqs.json). Counts from
 |---|---|
 | PYQs filed under row 0 | 53 (31 flashcards, 22 four-option MCQs) |
 | Kept in row 0 after mapping | 27 |
-| Moved to another row of book 5 | 18: general biology/nutrition (Ashwagandha, macronutrient, roundworms, pollination, goitre, buckwheat) → row 1; ICT terms (datum, bitmap, digitisation) → row 12; homepage, Solr → row 13; ticker → row 14; Jio 5G, shortwave → row 20; IISF 2021 → row 7; rocket principle → row 36; INSAT → row 37; Navy Op Demo → row 51; Saubhagya → row 71 |
-| Moved to another book | 8: Sanskritisation → b2 r113; language and society → b2 r105; "an Act is a law" → b2 r33; e-SCR → b2 r43; DCDH Odisha → b2 r44; MBO → b2 r95; seigniorage → b3 r80 |
+| Moved to another row of book 5 | 19: general biology/nutrition (Ashwagandha, macronutrient, roundworms, pollination, goitre, buckwheat) → row 1; ICT terms (datum, bitmap, digitisation) → row 12; homepage, Solr → row 13; ticker → row 14; Jio 5G, shortwave → row 20; IISF 2021 → row 7; rocket principle → row 36; INSAT → row 37; Navy Op Demo → row 51; Saubhagya → row 71 |
+| Moved to another book | 7: Sanskritisation → b2 r113; language and society → b2 r105; "an Act is a law" → b2 r33; e-SCR → b2 r43; DCDH Odisha → b2 r44; MBO → b2 r95; seigniorage → b3 r80 |
 | Keys from the notes / generated | 14 / 39 (mostly "not in notes": the row was a grab-bag of definitions) |
 | Keys changed | 3 (one was unkeyed, -1) |
 | Outdated tags | 1 (world's highest observatory) |
