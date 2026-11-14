@@ -78,7 +78,7 @@
 - **APEC 2025 summit:** **Gyeongju, South Korea**; China proposed **WAICO** for AI governance.
 - **Maastricht criteria** (Eurozone entry): fiscal deficit **below 3% of GDP**; debt **below 60%**; membership of **ERM II**.
 > "Newest Eurozone member" is now **Bulgaria** (2026), not Croatia (2023). "Not a member of SCO" = **India** only for exams before 2017.
-~~ Sources: PMF IAS International Relations (src/international-relations/pmf-international-relations.txt) p.93, 115; Rocket CA 2026 Part 02 p.75, 88; Praveen CA-360 Jan 2026 p.12 (Bulgaria), Apr 2026 p.44 (Hungary); thecommonwealth.org (Gabon, Togo); oneindia.com (Pakistan 2008); whatukthinks.org (Brexit); britannica.com (League); app notes 6:63 sub 5
+~~ Sources: PMF IAS International Relations (src/international-relations/pmf-international-relations.txt) p.93, 115; Rocket CA 2026 Part 02 p.75, 88; Rocket CA 2026 Part 01 p.218-220 (BRICS 11 members, 10 partners); Praveen CA-360 Jan 2026 p.12 (Bulgaria), Apr 2026 p.44 (Hungary); thecommonwealth.org (Gabon, Togo); oneindia.com (Pakistan 2008); whatukthinks.org (Brexit); britannica.com (League); app notes 6:63 sub 5
 
 === UNESCO Lists – Creative Cities, Intangible Heritage and World Heritage
 # UNESCO Creative Cities Network – Indian cities (9)
