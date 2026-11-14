@@ -21,7 +21,7 @@
 | HP / Sikkim / Goa | **Great Himalayan** (Kullu), Pin Valley / **Khangchendzonga** / **Bhagwan Mahavir (Mollem)** |
 | West Bengal | Sundarbans, **Neora Valley**, Gorumara, Buxa, **Jaldapara** (NP 2014) |
 | Telangana | **Mrugavani**, Kasu Brahmananda Reddy (Hyderabad), Mahavir Harina Vanasthali |
-| Andhra Pradesh | Papikonda, Sri Venkateswara, Rajiv Gandhi (Rameswaram, 2005) |
+| Andhra Pradesh | Papikonda, **Sri Venkateswara** (Seshachalam Hills, Tirupati), Rajiv Gandhi (Rameswaram, 2005) |
 | A&N | **Campbell Bay**, Galathea, **Rani Jhansi Marine NP (1996)**, Mahatma Gandhi Marine (Wandoor), Saddle Peak |
 - **Two "Rajiv Gandhi" NPs:** Nagarhole (Karnataka, the classic answer) and Rameswaram (Andhra Pradesh, notified 2005).
 - **Pench** NP exists in both **MP** (Indira Priyadarshini) and **Maharashtra**; **Pench** inspired Kipling's *The Jungle Book*.
@@ -35,7 +35,8 @@
 | **Namdapha** (Arunachal) | Climate **tropical → subtropical → temperate → arctic**; between **Dapha Bum (Mishmi Hills)** and **Patkai**; Noa Dihing river |
 | **Valley of Flowers** (Chamoli) | Lies **completely in the temperate alpine zone** |
 | **Bhitarkanika** (Odisha) | **Mangroves**; Brahmani (= South Koel + Sankh, from Jharkhand) and **Baitarani** (from Odisha) meet near the coast; Dhamra |
-| **Corbett** | Rivers **Ramganga, Sonanadi, Kosi** – **not the Ganga** |
+| **Corbett** | **Shivalik–Terai** landscape; rivers **Ramganga, Sonanadi, Kosi** – **not the Ganga** |
+| **Dudhwa** (UP) | **Terai grasslands**, swamp deer; rhino rehabilitation (1984) |
 | **Kaziranga** | Brahmaputra, Diphlu – **not the Manas** |
 | **Silent Valley** | **Kunthipuzha** (Bharathappuzha basin) and Bhavani – **not the Kaveri**; Nilgiri Hills, not Nallamala |
 | **Kanha** (MP) | **Hard-ground Barasingha** (exclusively graminivorous); **1st TR with a mascot – "Bhoorsingh the Barasingha"**; famous for **tigers**; Jungle Book landscape; dry deciduous (**Tropical Dry Forest** zone); NP 1955 |
@@ -49,7 +50,7 @@
 | **Rani Jhansi Marine NP** | A&N, notified **1996** |
 | **Kaziranga** mining | **SC order 12 Apr 2019**: no mining along Kaziranga's southern boundary and the Karbi Anglong catchments |
 - **Green Guard Award 2001–02** – given to **Kanha** in the exam key (not confirmed in a source).
-~~ Sources: PMF Species and PAN 02 p.59 (Namdapha), p.65 (Keibul Lamjao), p.75 (Bhitarkanika); PMF Species and PAN 03 p.12 (Silent Valley), p.17 (Kanha), p.18 (Satpura), p.24 (Desert NP), p.33 (Govind), p.34 (Corbett), p.35 (Valley of Flowers); downtoearth.org.in (SC Kaziranga order 2019); app notes 4:41 (sub 4)
+~~ Sources: PMF Species and PAN 02 p.59 (Namdapha), p.65 (Keibul Lamjao), p.75 (Bhitarkanika); PMF Species and PAN 03 p.12 (Silent Valley), p.17 (Kanha), p.18 (Satpura), p.24 (Desert NP), p.33 (Govind), p.34 (Corbett), p.35 (Valley of Flowers); downtoearth.org.in Assam bans mining in Kaziranga (SC order 12 Apr 2019); app notes 4:41 (sub 4)
 
 === Species → Protected Area
 | Species | Protected area |
@@ -65,11 +66,12 @@
 | **Lion-tailed macaque** | Western Ghats of **Tamil Nadu, Kerala, Karnataka** – **not AP** |
 | **Great Indian Bustard** | **Desert NP** (Rajasthan State bird); also Kutch, Karnataka, AP (**Rollapadu**), Maharashtra; one of the heaviest flying birds |
 | **Golden langur** | Chakrashila WLS (Assam) |
+| **Snow leopard** | **Cold Desert BR** – Pin Valley NP, **Kibber WLS** (Spiti, HP) |
 | **Cheetah** | **Extinct in India (1952)**; Project Cheetah 17 Sep 2022 – Kuno → **Gandhi Sagar WLS** (2nd) → **Veerangana Durgavati TR** (3rd) |
-| **White tiger** | World's **first White Tiger Safari – Mukundpur (Satna, MP)**; last captive white tiger **Bajirao** died at **Sanjay Gandhi NP**, Mumbai (May 2019) |
+| **White tiger** | World's **first White Tiger Safari – Mukundpur (Satna, MP)**; last captive white tiger **Bajirao** died at **Sanjay Gandhi NP**, Mumbai (April–May 2019) |
 - **M.K. Ranjitsinh v. Union of India (2024):** SC case on protecting the **GIB** from overhead power lines vs solar/renewable lines; also held the right against adverse climate change to be a fundamental right (Arts. 14, 21).
 - Project Cheetah = world's first **intercontinental translocation of a large carnivore**.
-~~ Sources: Rocket Environment p.28, p.31, p.33; PMF Species and PAN 01 p.13, p.15, p.66; PMF Species and PAN 03 p.9, p.17, p.31, p.36; PMF Lens 2026-05-04 (Ranjitsinh); sentinelassam.com (Manas rhino calf, 8 Jan 2020); app notes 4:41 (sub 5)
+~~ Sources: Rocket Environment p.28, p.31, p.33; PMF Species and PAN 01 p.13, p.15, p.66; PMF Species and PAN 03 p.9, p.17, p.31, p.36; PMF Lens 2026-05-04 (Ranjitsinh); sentinelassam.com (Manas rhino calf, 8 Jan 2020); thequint.com (Bajirao, 2019); app notes 4:41 (sub 5)
 
 === Biosphere Reserves
 | BR | State | Notified | Area (sq km) |
@@ -89,10 +91,10 @@
 - **Nilgiri BR** includes Mudumalai, **Mukurthi**, Nagarhole, **Bandipur**, Silent Valley NPs, Aralam, Wayanad, Sathyamangalam WLS – **not Kudremukh**.
 - **Agasthyamalai BR = Neyyar + Peppara + Shendurney WLS + Kalakad-Mundanthurai TR**; Kani tribe; 2025 eviction notices (A. John Kennedy v. State of TN) raised **tribal-rights** concerns.
 - **Gulf of Mannar** – first marine BR of South/South-East Asia: **21 islands**, estuaries, beaches, sea grasses, coral reefs, salt marshes, mangroves; dugong.
-- **UNESCO World Network (MAB):** **13 of 18** (as of 2026): **Nilgiri 2000 (first)**, Gulf of Mannar 2001, Sundarbans 2001, Nanda Devi 2004, **Nokrek, Pachmarhi, Similipal 2009**, Achanakmar-Amarkantak 2012, Great Nicobar 2013, **Agasthyamalai 2016**, Khangchendzonga 2018, **Panna 2020**, **Cold Desert Sep 2025 (latest)**.
+- **UNESCO World Network (MAB):** **13 of 18** (as of 2026): **Nilgiri 2000 (first)**, Gulf of Mannar 2001, Sundarbans 2001, Nanda Devi 2004, **Nokrek, Pachmarhi, Similipal 2009**, Achanakmar-Amarkantak 2012, Great Nicobar 2013, **Agasthyamalai 2016**, Khangchendzonga 2018, **Panna 2020**, **Cold Desert Sep 2025 (latest; India's first high-altitude cold desert BR in the network)**.
 - **Not in the World Network:** Manas, Dibru-Saikhowa, Dihang-Dibang, **Great Rann of Kutch**, **Seshachalam**.
 - **Nokrek** – highest peak of the **Garo Hills** (1,412 m); Loktak – Manipur; Namdapha – Dapha Bum/Patkai, **not the Dafla Hills**.
-~~ Sources: PMF Species and PAN 03 p.36-41; NextGen Environment - APPSC Exams 06 p.1, p.3; Rocket Environment p.42; testbook.com (WNBR years); app notes 4:41 (sub 7)
+~~ Sources: PMF Species and PAN 03 p.36-41; NextGen Environment - APPSC Exams 06 p.1, p.3; Rocket Environment p.42; en.wikipedia.org Biosphere reserves of India (WNBR years); app notes 4:41 (sub 7)
 
 === Firsts, Oldest and Counts
 - **First / oldest NP of India (and mainland Asia):** **Jim Corbett**, 1936 as **Hailey NP**; Project Tiger launched there 1973.
@@ -135,7 +137,7 @@
 | Mahuadanr / Sitanadi / Daying Ering | Jharkhand (wolf) / Chhattisgarh (sal) / Arunachal |
 | National Chambal / Ghatigaon | MP–Rajasthan–UP / Gwalior (MP) |
 | Pitti / Nelapattu | Lakshadweep (birds) / AP |
-~~ Sources: PMF Species and PAN 01 p.13; PMF Species and PAN 02 p.65, p.67, p.68, p.71, p.77, p.82; PMF Species and PAN 03 p.2, p.8, p.14, p.35; en.wikipedia.org Gomardha Wildlife Sanctuary (search result); app notes 4:41 (sub 6)
+~~ Sources: PMF Species and PAN 01 p.13; PMF Species and PAN 02 p.65, p.67, p.68, p.71, p.77, p.82; PMF Species and PAN 03 p.2, p.8, p.14, p.35; en.wikipedia.org Gomardha Wildlife Sanctuary; app notes 4:41 (sub 6)
 
 === Natural World Heritage Sites
 | Site | State | Year |
@@ -145,7 +147,7 @@
 | **Manas WLS** | Assam | 1985 |
 | **Sundarbans NP** | West Bengal | 1987 |
 | Nanda Devi and Valley of Flowers NPs | Uttarakhand | 1988 (extended 2005) |
-| **Western Ghats** (39 component sites incl. **Silent Valley**) | Kerala, TN, Karnataka, Goa, Maharashtra | 2012 |
+| **Western Ghats** (range in **6 States**; 39 component sites, incl. **Silent Valley**, in Kerala, Karnataka, TN, Maharashtra) | – | 2012 |
 | **Great Himalayan NP** Conservation Area | **Himachal Pradesh** (Kullu) | **June 2014** |
 | **Khangchendzonga NP** – India's first **Mixed** (natural + cultural) site | Sikkim | **July 2016** |
 - **Not** WHS: **Gir**, **Kanha**, **Ranthambhore**, Corbett, Dadra and Nagar Haveli.
