@@ -523,5 +523,305 @@
   "x": "Statements 1 and 3 are correct (nibble = 4 bits, byte = 8 bits; picosecond 10⁻¹² < nanosecond 10⁻⁹). Statement 2 is wrong: 1 KB = 1024 bytes = 8192 bits.",
   "src": "app",
   "tq": "statements"
+ },
+ {
+  "id": "cpbb2a2fd7ee4b",
+  "row": 13,
+  "s": "Consider the following statements about the Web:\n1. The deep web, about 90-95% of the Web, is not indexed by search engines.\n2. The dark web is a small hidden part of the deep web that needs tools such as Tor or I2P.\n3. Web 3.0 consists of static, read-only HTML pages.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: static read-only HTML pages describe Web 1.0 (1990s); Web 3.0 is the decentralised (blockchain), semantic/AI web – read-write-own.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4739e19d3d30",
+  "row": 13,
+  "s": "Consider the following statements:\n1. OCEN (Open Credit Enablement Network) aims to democratise lending so that small borrowers get good credit terms.\n2. Java Server Pages (JSP) was released in 1999 by Microsoft.\n3. The World Wide Web Consortium (W3C) was founded in 1994 by Tim Berners-Lee.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: JSP was released in 1999 by Sun Microsystems, not Microsoft.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpb4f2c00c2adc",
+  "row": 13,
+  "s": "Match List-I (Network device) with List-II (Job):\nList-I | List-II\na. Repeater | i. Broadcasts to all ports\nb. Switch | ii. Regenerates a weak signal to extend the cable\nc. Gateway | iii. Forwards frames by MAC address\nd. Hub | iv. Joins networks using different protocols\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-iv, d-i",
+   "a-ii, b-iii, c-iv, d-i",
+   "a-iii, b-iv, c-i, d-ii",
+   "a-ii, b-iii, c-i, d-iv"
+  ],
+  "a": 1,
+  "x": "Repeater – regenerates a weak signal (Physical layer); switch/bridge – forwards frames by MAC address (Data Link); gateway – joins networks using different protocols (up to Application layer); hub – broadcasts to all ports (Physical).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpf321b3065b14",
+  "row": 13,
+  "s": "Consider the following statements about the OSI model:\n1. Encryption, compression and data formats are functions of the Presentation layer.\n2. TCP and UDP work at the Network layer.\n3. A router works at the Network layer and routes by IP address.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 1 and 3 are correct. Statement 2 is wrong: TCP and UDP belong to the Transport layer (layer 4, end-to-end delivery); the Network layer (3) handles routing and IP addresses.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp8950def218fa",
+  "row": 13,
+  "s": "Consider the following statements about the OSI model:\n1. It has seven layers, with the Application layer at the top.\n2. The Session layer lies immediately below the Presentation layer.\n3. A modem is a Transport-layer device.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3",
+   "1 and 2 only"
+  ],
+  "a": 3,
+  "x": "Statements 1 and 2 are correct (7 Application, 6 Presentation, 5 Session …). Statement 3 is wrong: a modem only converts signals and is a Physical-layer (layer 1) device.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp1dcaa1ae946b",
+  "row": 13,
+  "s": "Match List-I (Year) with List-II (Event):\nList-I | List-II\na. 1969 | i. Satyam Infoway (Sify), India's first private ISP\nb. 1986 | ii. VSNL launches public internet in India\nc. 1995 | iii. ERNET, India's academic network\nd. 1998 | iv. ARPANET of the US Department of Defense\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iv, b-iii, c-i, d-ii"
+  ],
+  "a": 0,
+  "x": "1969 – ARPANET (US DoD), forerunner of the internet; 1986 – ERNET; 15 August 1995 – VSNL public internet; 1998 – Satyam Infoway (Sify), first private ISP (ICANN also set up in 1998).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp39eba30f16e3",
+  "row": 13,
+  "s": "Consider the following statements:\nAssertion (A): Data sent over the internet as separate packets still arrives complete and in order.\nReason (R): IP directs the packets to their destination, while TCP checks for errors and reassembles them.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: data is broken into packets, IP routes them and TCP checks errors and reassembles them, so nothing goes missing; DNS turns names into IP addresses.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp8a825f214a05",
+  "row": 13,
+  "s": "Match List-I (Protocol) with List-II (Function):\nList-I | List-II\na. SMTP | i. Downloads mail to one device and usually deletes it from the server\nb. POP3 | ii. Sends e-mail\nc. IMAP | iii. Assigns IP addresses automatically\nd. DHCP | iv. Keeps mail on the server, synced across devices\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-ii, c-iv, d-iii",
+   "a-ii, b-i, c-iv, d-iii",
+   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-i, c-iii, d-iv"
+  ],
+  "a": 1,
+  "x": "SMTP – sends e-mail (Application layer); POP3 – downloads to one device, usually deleting from the server; IMAP – keeps mail on the server, synced; DHCP – assigns IP addresses automatically.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp4ea53a2241f2",
+  "row": 13,
+  "s": "Consider the following statements about computer networks:\n1. A firm linking its LANs in Mumbai, Bengaluru and New Delhi uses a MAN.\n2. A PAN covers a personal area of about 1-10 m, as with Bluetooth.\n3. Ethernet, an example of a LAN, follows IEEE 802.3.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: LANs in different cities are linked by a WAN (APPSC 2019); a MAN covers a single city.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpadf94812ba62",
+  "row": 13,
+  "s": "Consider the following statements about network topologies:\n1. In a star topology, the failure of any one node stops the whole network.\n2. In a star topology, the failure of the central hub stops the whole network.\n3. A mesh topology is the most resilient and needs n(n-1)/2 links for n nodes.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3",
+   "2 and 3 only"
+  ],
+  "a": 3,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: in a star a failed node is only isolated; only a hub failure stops all. (In a bus, a backbone break stops the network.)",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpbab241d53736",
+  "row": 13,
+  "s": "Consider the following statements about network addresses:\n1. An IPv4 address is 32 bits long.\n2. An IPv6 address is 128 bits long, written as 8 groups of hexadecimal separated by colons.\n3. A MAC address is 64 bits long.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: a MAC address is 48 bits (6 bytes, 12 hex digits), burnt into the NIC and used at the Data Link layer.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4dcb49f9ad3e",
+  "row": 13,
+  "s": "Match List-I (IPv4 class) with List-II (First-octet range / use):\nList-I | List-II\na. Class A | i. 224–239, multicast\nb. Class C | ii. 1–126, large networks\nc. Class D | iii. 240–255, experimental\nd. Class E | iv. 192–223, small networks\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iv, b-ii, c-i, d-iii",
+   "a-ii, b-iv, c-i, d-iii",
+   "a-iv, b-i, c-iii, d-ii",
+   "a-ii, b-iv, c-iii, d-i"
+  ],
+  "a": 1,
+  "x": "Class A 1–126 (large), B 128–191 (medium), C 192–223 (small), D 224–239 (multicast), E 240–255 (experimental); there is no Class F.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp688b1f363dcf",
+  "row": 13,
+  "s": "Match List-I (Internet connection) with List-II (Medium):\nList-I | List-II\na. Dial-up | i. No terrestrial wire\nb. DSL | ii. Coaxial cable-TV lines\nc. Cable broadband | iii. Existing telephone lines, 2-24 Mbps\nd. Satellite | iv. Telephone line, up to 56 Kbps\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-iii, b-ii, c-i, d-iv",
+   "a-iv, b-iii, c-ii, d-i",
+   "a-iv, b-iii, c-i, d-ii"
+  ],
+  "a": 2,
+  "x": "Dial-up – telephone line + modem, slowest (56 Kbps); DSL – existing telephone lines (2-24 Mbps); cable – coaxial cable-TV lines; satellite – GEO/LEO, no terrestrial wire.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpa1c4de4688f0",
+  "row": 13,
+  "s": "Match List-I (Transmission mode) with List-II (Example):\nList-I | List-II\na. Simplex | i. Telephone call\nb. Half duplex | ii. Radio or TV broadcast\nc. Full duplex | iii. Walkie-talkie\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-ii, c-i",
+   "a-iii, b-i, c-ii",
+   "a-ii, b-i, c-iii",
+   "a-ii, b-iii, c-i"
+  ],
+  "a": 3,
+  "x": "Simplex – one way (radio/TV broadcast, keyboard); half duplex – both ways one at a time (walkie-talkie); full duplex – both ways at once (telephone call).",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cp3782b0a0b183",
+  "row": 13,
+  "s": "Consider the following statements about Bluetooth and Wi-Fi:\n1. Bluetooth follows IEEE 802.15.1 and Wi-Fi follows IEEE 802.11.\n2. Bluetooth uses the 2.4 GHz band, while Wi-Fi uses 2.4 and 5 GHz.\n3. Bluetooth needs line of sight between devices.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 0,
+  "x": "Statements 1 and 2 are correct (UPSC 2011: the difference is the band). Statement 3 is wrong: neither Bluetooth nor Wi-Fi needs line of sight.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp0b1121c1dd5b",
+  "row": 13,
+  "s": "Consider the following statements about wireless technologies:\n1. Wi-Fi 7 corresponds to IEEE 802.11ax.\n2. Li-Fi carries data on LED light.\n3. Wi-Fi Direct links devices with each other without a LAN.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "Statements 2 and 3 are correct. Statement 1 is wrong: Wi-Fi 7 is IEEE 802.11be (2.4, 5 and 6 GHz).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp4b33844b0d92",
+  "row": 13,
+  "s": "Consider the following statements about internet regulation in India:\n1. Sections 69A and 79 of the IT Act, 2000 let the government order ISPs and intermediaries to block content.\n2. The Telecommunications Act, 2023 replaced the Indian Telegraph Act, 1885.\n3. The power to suspend internet services lies only under the Cable Television Networks Act, 1995.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "Statements 1 and 2 are correct. Statement 3 is wrong: the power to suspend internet services is held under the Telecommunications Act, 2023.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp99a69545b15c",
+  "row": 13,
+  "s": "Consider the following statements:\n1. As per the Economic Survey 2025-26, India's internet connections rose from 25.15 crore (2014) to 96.96 crore (2024).\n2. BharatNet fibre reaches 2.18 lakh gram panchayats.\n3. CM Chandrababu Naidu and Sunil Mittal discussed an undersea cable landing station for Andhra Pradesh.\n4. BhashaNet promotes the .Bharat domain in the Telugu script.\nHow many of the statements given above are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "Statements 1, 2 and 3 are correct. Statement 4 is wrong: BhashaNet (MeitY and NIXI, 2022) promotes .Bharat in Devanagari.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp2f4ab33b99e5",
+  "row": 13,
+  "s": "Consider the following statements:\nAssertion (A): BhashaNet (2022) of MeitY and NIXI promotes Universal Acceptance for Indian languages.\nReason (R): Universal Acceptance means every app and e-mail system accepts all domain names and e-mail IDs, including those in Indian scripts.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: BhashaNet's goal is that domain names and e-mail IDs in Indian scripts (such as .Bharat in Devanagari) work everywhere, which is what Universal Acceptance means.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cp23b21989d39e",
+  "row": 13,
+  "s": "Consider the following statements:\nAssertion (A): A switch can forward frames inside a LAN without reading IP addresses.\nReason (R): A switch works at Layer 2 using MAC addresses, while a router works at Layer 3 using IP addresses.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: a switch/bridge forwards frames by MAC address at the Data Link layer; routing by IP is the router's Layer-3 job.",
+  "src": "app",
+  "tq": "assertion"
  }
 ]

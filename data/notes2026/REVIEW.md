@@ -936,3 +936,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b1-w020 rewrite (rows 20-25): own 398 → 157 (39%). Notes row 21 line 0:2 Ayurveda Atharvaveda vs table Rigveda.
 - b2-w004 rewrite (polity rows 4-8): own 388 → 119 (31%). Notes to fix: 6:0:2 '28+7 from 1987 to 2014' (25 States till 2000); 8:8:0.4 public shop Art. 15(2) not 17 (own nbd0942f5af4); 7:7:2 passport. Right to vote: own said statutory, PYQ y77ee1f27bd4 keyed constitutional (removed own).
 - b6-w013 rewrite (AP projects rows 13-14): own 317 → 107 (34%), 0 lines lost.
+- b1-w026 rewrite (rows 26-29): own 330 → 106 (32%), 0 lines lost.
