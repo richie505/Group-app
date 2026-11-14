@@ -943,3 +943,4 @@ Applied: ya17bf8f5430 property → 1978 (strictly 20 Jun 1979); ya230b95cb69 UPS
 - b4-w011 rewrite (rows 11-15): own 395 → 138 (35%), 0 lost. Notes row 14 5:1.4 geostationary in exosphere (UKPSC key wording).
 - b1-w030 rewrite (rows 30-35): own 407 → 147 (36%). Notes row 30 1:3 Sanchi 'most ancient stupa' vs Piprahwa earlier.
 - b2-w009 rewrite (polity rows 9-13): own 393 → 134 (34%), 0 lost.
+- b1-w036 rewrite (rows 36-42): own 429 → 158 (37%). Notes conflict: Erragudi district Kurnool vs 'now Nandyal' (36:4:5 vs 40:4:1.0); 42:1:6 Menander I vs Agathocles.

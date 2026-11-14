@@ -124,12 +124,12 @@
   "row": 16,
   "s": "Consider the following statements:\n1. NITI Aayog released the National Strategy for Artificial Intelligence in 2018 with the tagline '#AIforAll'.\n2. Defence manufacturing is one of the five focus sectors of that strategy.\n3. RAISE 2020 stands for Responsible Artificial Intelligence for Social Empowerment.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 3 only",
    "1 only",
+   "1 and 3 only",
    "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 0,
+  "a": 1,
   "x": "1 and 3 are correct. 2 is wrong: the five sectors are healthcare, agriculture, education, smart cities and infrastructure, and smart mobility and transport – not defence manufacturing.",
   "src": "app",
   "tq": "statements"
@@ -184,12 +184,12 @@
   "row": 16,
   "s": "Match List-I with List-II:\nList-I | List-II\na. AICTE | i. Beijing\nb. YUVAi | ii. Students of classes 8–12\nc. Central Sanskrit University | iii. Declared 2025 the 'Year of AI'\nd. 2nd International Olympiad in AI (2025) | iv. B.Tech in AI and data science from 2026-27\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-iii, b-ii, c-iv, d-i",
-   "a-i, b-ii, c-iv, d-iii",
    "a-iii, b-ii, c-i, d-iv",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iii, b-ii, c-iv, d-i",
    "a-i, b-iii, c-iv, d-ii"
   ],
-  "a": 0,
+  "a": 2,
   "x": "AICTE declared 2025 the Year of AI; YUVAi is for classes 8–12; Central Sanskrit University offers a B.Tech in AI and data science from 2026-27; the 2nd IOAI (Aug 2025) was in Beijing (the 1st was at Burgas, Bulgaria).",
   "src": "app",
   "tq": "match"
@@ -229,12 +229,12 @@
   "row": 16,
   "s": "Consider the following statements:\n1. India's gross expenditure on R&D is about 0.64–0.70% of GDP.\n2. The Economic Survey 2025-26 recommends that India build large general-purpose frontier models to compete globally.\n3. In August 2026 the Supreme Court sought the Centre's reply on the absence of a legal framework for high-risk AI in welfare delivery.\nWhich of the statements given above is/are correct?",
   "o": [
-   "1 and 2 only",
+   "1, 2 and 3",
    "2 only",
-   "1 and 3 only",
-   "1, 2 and 3"
+   "1 and 2 only",
+   "1 and 3 only"
   ],
-  "a": 2,
+  "a": 3,
   "x": "1 and 3 are correct. 2 is wrong: the Survey prefers small, application-specific models and a state-built AI-OS modelled on UPI and Aadhaar.",
   "src": "app",
   "tq": "statements"
@@ -260,11 +260,11 @@
   "s": "Consider the following statements:\n1. The Global Partnership on AI (GPAI) was launched in June 2020 with India as a founding member.\n2. The EU AI Act, the world's first comprehensive AI law, entered into force in August 2024.\n3. The risk tiers of the EU AI Act include a 'moderate risk' tier.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "1 and 2 only",
    "2 and 3 only",
+   "1 and 2 only",
    "1, 2 and 3"
   ],
-  "a": 1,
+  "a": 2,
   "x": "1 and 2 are correct. 3 is wrong: the EU AI Act's tiers are unacceptable, high, limited and minimal – there is no 'moderate' tier.",
   "src": "app",
   "tq": "statements"
@@ -364,12 +364,12 @@
   "row": 17,
   "s": "Match List-I (Innovation) with List-II (Developer):\nList-I | List-II\na. Carbon-nanotube transistors | i. C-DAC\nb. Graphene flexible electronics | ii. IISc Bengaluru\nc. Perovskite nanocrystal displays | iii. IIT Delhi\nd. Biodegradable nanoparticles for colorectal cancer | iv. IIT Mandi\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-i, b-iv, c-iii, d-ii",
+   "a-ii, b-i, c-iii, d-iv",
    "a-i, b-ii, c-iii, d-iv",
    "a-ii, b-iv, c-iii, d-i",
-   "a-ii, b-i, c-iii, d-iv"
+   "a-i, b-iv, c-iii, d-ii"
   ],
-  "a": 3,
+  "a": 0,
   "x": "Carbon-nanotube transistors – IISc Bengaluru; graphene flexible electronics – C-DAC; perovskite nanocrystal displays and conductive nanofibres – IIT Delhi; biodegradable natural-polymer nanoparticles for colorectal cancer – IIT Mandi.",
   "src": "app",
   "tq": "match"
@@ -440,11 +440,11 @@
   "s": "Consider the following statements about global AI summits:\n1. The REAIM summit of 2023 in the Netherlands dealt with responsible AI in the military domain.\n2. The AI Seoul Summit was held in 2023.\n3. The AI Action Summit (Paris, February 2025) was co-chaired by France and India.\nWhich of the statements given above is/are correct?",
   "o": [
    "1 only",
-   "2 and 3 only",
    "1 and 3 only",
+   "2 and 3 only",
    "1, 2 and 3"
   ],
-  "a": 2,
+  "a": 1,
   "x": "1 and 3 are correct. 2 is wrong: the AI Seoul Summit was in 2024; 2023 was the AI Safety Summit at Bletchley Park.",
   "src": "app",
   "tq": "statements"
@@ -604,12 +604,12 @@
   "row": 18,
   "s": "Match List-I with List-II:\nList-I | List-II\na. Fog computing | i. Provider runs and scales servers and bills per use\nb. Containers (Docker) | ii. Share the host OS kernel\nc. Serverless computing | iii. One server runs many VMs, each with its own OS\nd. Virtualisation | iv. Local aggregation between edge and cloud\nSelect the correct answer using the codes given below:",
   "o": [
-   "a-iv, b-ii, c-i, d-iii",
-   "a-i, b-ii, c-iv, d-iii",
    "a-iv, b-i, c-ii, d-iii",
+   "a-i, b-ii, c-iv, d-iii",
+   "a-iv, b-ii, c-i, d-iii",
    "a-i, b-iv, c-ii, d-iii"
   ],
-  "a": 0,
+  "a": 2,
   "x": "Fog – between edge and cloud, local aggregation; containers – lighter than VMs as they share the host OS kernel; serverless – provider runs and scales servers, bills per use (AWS Lambda); virtualisation – many VMs with their own OS on one server.",
   "src": "app",
   "tq": "match"
@@ -628,5 +628,155 @@
   "x": "Both are true and R explains A: processing on or near the device avoids the round trip to distant cloud data centres, so latency is lowest and bandwidth is saved.",
   "src": "app",
   "tq": "assertion"
+ },
+ {
+  "id": "cp3e811ac18935",
+  "row": 19,
+  "s": "Consider the following statements about virtual digital assets (VDAs) in India:\n1. VDA service providers were brought under the Prevention of Money Laundering Act in March 2023.\n2. A 1% TDS on transfers of VDAs is levied under Section 194S of the Income Tax Act.\n3. The 30% tax on VDA gains was brought in by the Finance Act, 2023.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "1 and 3 only",
+   "2 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 2,
+  "x": "1 and 2 are correct. 3 is wrong: the 30% tax (Section 115BBH) came with the Finance Act, 2022.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpc73aaa1fb09a",
+  "row": 19,
+  "s": "Match List-I (Blockchain term) with List-II (Meaning):\nList-I | List-II\na. Distributed ledger | i. Transactions, a timestamp and the hash of the previous block\nb. Block | ii. Shared ledger copied across nodes, with no central validator\nc. Immutability | iii. Records cannot be altered without consensus\nd. Consensus | iv. Rule by which nodes agree on valid transactions\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-ii, c-iii, d-iv",
+   "a-ii, b-iv, c-iii, d-i",
+   "a-ii, b-i, c-iii, d-iv"
+  ],
+  "a": 3,
+  "x": "Distributed ledger – shared ledger copied across nodes, single source of truth; block – transactions + timestamp + hash of the previous block (not private keys); immutability – cannot be altered without consensus (no central authority changes data); consensus – rule by which nodes agree.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpfdaebdfa05f2",
+  "row": 19,
+  "s": "Consider the following statements:\nAssertion (A): Stakeholders can view the records of a blockchain but cannot alter them on their own.\nReason (R): Every stakeholder holds a copy of the ledger and any change needs consensus.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: because copies are held by all and changes need consensus, records are visible but not alterable.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpec3a56169900",
+  "row": 19,
+  "s": "Consider the following statements about the e-rupee pilots:\n1. The wholesale pilot (e₹-W) began on 1 November 2022 for settling secondary-market government securities.\n2. The retail pilot (e₹-R) began on 1 December 2022 in a closed user group that included Hyderabad.\n3. The RBI released its concept note on CBDC in October 2022.\nWhich of the statements given above is/are correct?",
+  "o": [
+   "2 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "a": 1,
+  "x": "1 and 3 are correct. 2 is wrong: the retail pilot cities were Mumbai, New Delhi, Bengaluru and Bhubaneswar – not Hyderabad.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp59e2046bfb6a",
+  "row": 19,
+  "s": "Consider the following statements:\n1. Bitcoin runs on a public, permissionless blockchain.\n2. AP DigiVerify runs on a public, permissionless blockchain.\n3. Under Proof of Stake, validators are chosen by the coins they have staked.\n4. Ethereum moved from Proof of Work to Proof of Stake through 'The Merge' in September 2022.\nHow many of the above statements are correct?",
+  "o": [
+   "Only three",
+   "Only two",
+   "Only one",
+   "All four"
+  ],
+  "a": 0,
+  "x": "1, 3 and 4 are correct. 2 is wrong: AP DigiVerify uses a private, permissioned blockchain (only authorised entities).",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cp6fa3b4e750d6",
+  "row": 19,
+  "s": "Consider the following statements:\nAssertion (A): Proof of Work consumes far more energy than Proof of Stake.\nReason (R): In Proof of Work, miners race to solve computational puzzles to validate blocks.\nSelect the correct answer using the codes given below:",
+  "o": [
+   "Both A and R are true, and R is the correct explanation of A",
+   "Both A and R are true, but R is not the correct explanation of A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "a": 0,
+  "x": "Both are true and R explains A: the mining race of PoW burns far more computing power, while PoS picks validators by coins staked.",
+  "src": "app",
+  "tq": "assertion"
+ },
+ {
+  "id": "cpbf41fb088d28",
+  "row": 19,
+  "s": "Match List-I (Web 3.0 term) with List-II (Meaning):\nList-I | List-II\na. NFT | i. Pegged to fiat, commodities or crypto\nb. Smart contract | ii. Lending and trading via smart contracts without banks\nc. DeFi | iii. Unique token, not exchangeable at equivalency\nd. Stablecoin | iv. Self-executing code that cuts intermediaries\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-iii, b-iv, c-ii, d-i",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-i, b-iv, c-iii, d-ii"
+  ],
+  "a": 0,
+  "x": "NFT (Non-Fungible Token) – unique, not exchangeable at equivalency; smart contract – self-executing code; DeFi – lending/trading without banks; stablecoin – pegged to fiat, commodities or crypto.",
+  "src": "app",
+  "tq": "match"
+ },
+ {
+  "id": "cpd3b8d8a3a526",
+  "row": 19,
+  "s": "Consider the following statements:\n1. MeitY published the National Strategy on Blockchain in December 2021.\n2. C-DAC, IDRBT Hyderabad and VJTI Mumbai are partners of MeitY's Distributed Centre of Excellence in Blockchain.\n3. That Centre's property-registration pilot was at Shamshabad in Andhra Pradesh.\n4. That Centre produced a Proof-of-Existence framework for certificates.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only three",
+   "Only two",
+   "All four"
+  ],
+  "a": 1,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Shamshabad is in Telangana.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpba1d31730498",
+  "row": 19,
+  "s": "Consider the following statements:\n1. Vishvasya (MeitY, 2024) is a Blockchain-as-a-Service stack hosted on NIC data centres.\n2. Vishvasya builds on the National Blockchain Framework.\n3. NPCI's Drunix was re-engineered from Ethereum.\n4. Falcon was NPCI's first blockchain, released before Drunix.\nHow many of the above statements are correct?",
+  "o": [
+   "Only one",
+   "Only two",
+   "Only three",
+   "All four"
+  ],
+  "a": 2,
+  "x": "1, 2 and 4 are correct. 3 is wrong: Drunix (June 2026) was rebuilt from Hyperledger Fabric.",
+  "src": "app",
+  "tq": "statements"
+ },
+ {
+  "id": "cpf1e315e76d0b",
+  "row": 19,
+  "s": "Match List-I with List-II:\nList-I | List-II\na. AP DigiVerify | i. Suggested blockchain for land records\nb. Mee Bhoomi-Mee Hakku | ii. Unifies Revenue, Survey and Registration\nc. Mee Bhoomi-Blockchain pilot | iii. Permissioned-blockchain PaaS for certificate verification\nd. Supreme Court (1 Jan 2026) | iv. Tamper-proof pattadar passbooks\nSelect the correct answer using the codes given below:",
+  "o": [
+   "a-i, b-iv, c-iii, d-ii",
+   "a-i, b-iv, c-ii, d-iii",
+   "a-iii, b-ii, c-iv, d-i",
+   "a-iii, b-iv, c-ii, d-i"
+  ],
+  "a": 3,
+  "x": "AP DigiVerify – permissioned-blockchain PaaS for certificate verification; Mee Bhoomi-Mee Hakku (10 Apr 2026) – tamper-proof pattadar passbooks; Mee Bhoomi-Blockchain pilot (23 Jul 2026) – unifies Revenue, Survey and Registration; Supreme Court (1 Jan 2026) – blockchain for land records.",
+  "src": "app",
+  "tq": "match"
  }
 ]
