@@ -68,9 +68,20 @@ class ReviewShotsTest {
     @Test fun sectionShowsFinishedReview() {
         show(app()) { SectionScreen(4, 10, nav) }
         rule.onRoot().captureRoboImage("screenshots/review/1_section_subsections.png")
-        rule.onNode(hasScrollAction()).performScrollToNode(hasText("review answers & explanations", substring = true))
+        rule.onNode(hasScrollAction()).performScrollToNode(hasText("answers & explanations", substring = true))
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/review/2_section_practice_card.png")
+    }
+
+    /** A whole section finished (as on the phone: 0 unattempted): the review button under the counters. */
+    @Test fun sectionAllFinishedHasReviewButton() {
+        val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
+        val mcq = runBlocking { app.repo.book(4); app.repo.mcq(4) }
+        mcq.rows[10]!!.forEach { app.store.recordAnswer(it.id, true) }
+        show(app) { SectionScreen(4, 10, nav) }
+        rule.onNode(hasScrollAction()).performScrollToNode(hasText("Review all 128", substring = true))
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/review/7_section_all_finished.png")
     }
 
     @Test fun reviewListShowsKeysAndExplanations() {

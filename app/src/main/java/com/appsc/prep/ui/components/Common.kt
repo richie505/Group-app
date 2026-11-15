@@ -486,6 +486,27 @@ fun PracticeCard(
                     SetChip("Practise", sets.practice, C.Med, C.MedSoft, Modifier.weight(1f)) { onSet("practice") }
                     SetChip("All", sets.total, C.ExamInk, C.ExamBg, Modifier.weight(1f)) { onSet("all") }
                 }
+                // the finished ones with their keys, your answers and the explanations - read them, no need to
+                // answer them all again
+                val finished = sets.total - sets.unattempted
+                if (finished > 0) {
+                    Spacer(Modifier.height(10.dp))
+                    androidx.compose.material3.Button(
+                        onClick = { onSet("review") },
+                        modifier = Modifier.fillMaxWidth().height(46.dp),
+                        shape = RoundedCornerShape(10.dp),
+                        colors = androidx.compose.material3.ButtonDefaults.buttonColors(containerColor = C.Green),
+                        contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 10.dp),
+                    ) {
+                        Icon(Icons.Filled.CheckCircle, null, modifier = Modifier.size(18.dp))
+                        Spacer(Modifier.width(8.dp))
+                        Text(
+                            if (sets.unattempted == 0) "Review all $finished · answers & explanations" else "Review $finished finished · answers & explanations",
+                            style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.SemiBold),
+                            maxLines = 1,
+                        )
+                    }
+                }
             }
             if (attempted != null && attempted.third > 0) {
                 val (a, c, t) = attempted
@@ -497,25 +518,6 @@ fun PracticeCard(
                         "$a/$t done" + if (a > 0) " · ${c * 100 / a}%" else "",
                         style = TextStyle(fontSize = 12.sp, color = C.Muted),
                     )
-                }
-                if (sets != null && a > 0) {
-                    // the finished ones with their keys and explanations, to read instead of answering them all again
-                    Row(
-                        Modifier.padding(top = 10.dp).fillMaxWidth().clip(RoundedCornerShape(10.dp))
-                            .background(if (a == t) C.GreenSoft else C.Surface)
-                            .clickable { onSet("review") }
-                            .padding(horizontal = 12.dp, vertical = 10.dp),
-                        verticalAlignment = Alignment.CenterVertically,
-                    ) {
-                        Icon(Icons.Filled.CheckCircle, null, tint = C.Green, modifier = Modifier.size(18.dp))
-                        Spacer(Modifier.width(8.dp))
-                        Text(
-                            if (a == t) "All $t finished · review answers & explanations" else "$a finished · review answers & explanations",
-                            style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.Green),
-                            modifier = Modifier.weight(1f),
-                        )
-                        Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Green, modifier = Modifier.size(18.dp))
-                    }
                 }
                 if (onWrong != null && sets == null && a - c > 0) {
                     Text(
