@@ -1,0 +1,22 @@
+PYQ anatomy - job {JOB}. Repo: /home/user/Group-app. Input: data/pyqanalysis/full/{JOB}.json (APPSC past-paper questions with options, official key index "key", explanation, and the linked notes lines "notes" = the true facts; a ref like 4:10:3:5.1 = book 4, row 10, subsection 3, line 5.1 of data/notes2026/runs/*/numbered/row-10.txt if you need more context).
+
+Goal: take every question apart, word by word, to learn HOW APPSC makes a statement true or false and how a candidate can reach the key. Knowledge alone is not the point - the point is the examiner's method.
+
+For EACH question write one JSON line to data/pyqanalysis/full/{JOB}.out.jsonl:
+{"id", "pattern",
+ "units": [ one object per testable unit:
+    - statements: each numbered statement;  match: each pair as keyed (a-iii …) AND the wrong pairs offered by the distractor options that a candidate is tempted by;
+    - assertion: "A" and "R" (and "R explains A" as a third unit);  sequence: each adjacent step;
+    - one-liner / NOT: each option, read as a full sentence "stem + option" (for NOT questions the keyed option is the FALSE one).
+   {"label", "text", "truth": "T"|"F", "how": "key"|"notes"|"source" (how you know - the official key decides; if the key looks wrong say so in "doubt"),
+    "true_fact": (for F) the correct version in one short sentence, from the notes / a real source,
+    "change": for F units ONE code - NUM (number/quantity), DATE, PERSON, PLACE, BODY (org/ministry/committee/scheme name), SCOPE (only/all/always/first/sole added or removed), NEGATION, REVERSAL (cause-effect, direction, larger/smaller, who-whom swapped), CATEGORY (wrong class/type), PARTIAL (true clause + false clause), MISPAIR, CHRONO, OUTDATED, DEFINITION, ATTRIBUTE (a property moved to the wrong thing), FABRICATED (does not exist), OTHER;
+    "cue_words": the exact words in the unit that signal its truth or falsity (e.g. "only", "first", "all", "by the President", "1956"),
+    "english_rule": codes from ABSOLUTE (only/all/never/always/sole/exclusively/entirely), HEDGE (some/may/can/generally/usually/one of the), SUPERLATIVE, COMPARATIVE, NEGATION, DOUBLE_NEG, CONJUNCTION (both..and / either..or / two claims joined by and), CAUSAL (because/due to/leads to/therefore), DEFINITIONAL, TEMPORAL (since/until/before/after/in the last), MODAL (must/shall/may/can in a legal sense), QUANTIFIER (most/majority/at least/at most), AGENT (done by X / launched by X) - empty list if no language cue matters,
+    "subject_rule": one short line - the subject habit at work (e.g. "Polity: who appoints vs who removes is swapped", "Geography: a superlative claim about a river", "Economy: report attributed to the wrong body")} ],
+ "solve": {"technique": codes from STMT_ANCHOR (one sure statement kills options), STMT_COUNT, MATCH_ANCHOR (one sure pair), MATCH_UNIQUE (an item that fits only one place), AR_CHECK (A true? R true? because-test), SEQ_ENDS (fix first/last), NOT_REVERSE, ODD_ONE_OUT, SAME_CLASS (options of one kind - the outlier/the generic one), EXTREME (absolute option rejected), CONTAINMENT (an option containing another), RECALL (pure memory, no shortcut),
+           "steps": 1-3 sentences: how a candidate who knows only part of it reaches the key (which unit to decide first, which options that kills),
+           "min_knowledge": the smallest fact(s) needed to answer with certainty},
+ "difficulty": "easy"|"medium"|"hard", "doubt": "" or why the key / notes look wrong}
+
+Rules: base every truth value on the key and the notes; open data/notes2026/src (INDEX.md) or the web (official sites first) only when the notes do not settle a unit. Be exact and short - this is data for statistics, not prose. Never use the Anthropic API. Do not edit anything else, do not commit. Validate the file with python (every line parses, every question present, codes only from the lists). Reply in under 150 words: counts per change code and per technique, and any key that looked wrong.

@@ -1,0 +1,1862 @@
+[
+ {
+  "id": "yc461b07c19e",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Assistant Environmental Engineer & Analyst Grade-II (A",
+  "q": "GIS allows the integration of various data layers. During a disaster, which of the following types of data would be the least useful to be included in a situational awareness map?",
+  "options": [
+   "Real-time weather data",
+   "Locations of hospitals and shelters",
+   "Pre-disaster population density maps",
+   "Satellite imagery showing the extent of damage"
+  ],
+  "key": 2,
+  "key_text": "Pre-disaster population density maps",
+  "explanation": "Pre-disaster population density maps are the least useful in a live situational map; real-time weather, hospital/shelter locations and damage imagery guide the response.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:0:8",
+    "text": "- **Situational awareness map:** real-time weather, hospitals and shelters, damage imagery; **pre-disaster population density maps** are least useful in the live response."
+   }
+  ]
+ },
+ {
+  "id": "ya2c2ea635c2",
+  "pattern": "statements",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC AEE (Asst. Executive Engineer) 2023",
+  "q": "In this question, a statement is given followed by two conclusions.\nSelect the correct response from the given options.\nStatement: Remote sensing is emerging as a popular means of map preparation while GIS can be used for storage, analysis and retrieval.\nConclusions:\ni. Under remote sensing techniques, maps can be prepared using satellite data or aerial photographs, and then digitised and stored on computers using GIS software.\nii. The difficulty with traditional manual maps is that they are tedious and time consuming to prepare, difficult to update and inconvenient to maintain.",
+  "options": [
+   "Only conclusion (i) is correct.",
+   "Only conclusion (ii) is correct.",
+   "Both conclusion (i) and (ii) are correct.",
+   "Neither conclusion (i) nor (ii) is correct."
+  ],
+  "key": 2,
+  "key_text": "Both conclusion (i) and (ii) are correct.",
+  "explanation": "Both conclusions follow: maps from satellite data or aerial photos are digitised and stored in GIS, and manual maps are slow to prepare and hard to update.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:0:4",
+    "text": "- **Remote sensing + GIS:** maps prepared from satellite data or aerial photos are digitised and stored in GIS; manual maps are slow to prepare and hard to update."
+   }
+  ]
+ },
+ {
+  "id": "yb7f4481f889",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Junior Lecturers 2020 (19-02-2020)",
+  "q": "A computer system designed to store, manipulate, analyse and present all types of geographical data is called:",
+  "options": [
+   "GIS",
+   "GPS",
+   "AOI",
+   "DEM"
+  ],
+  "key": 0,
+  "key_text": "GIS",
+  "explanation": "A GIS stores, manipulates, analyses and presents geographical data; GPS only gives position, DEM is an elevation model.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:0:0",
+    "text": "- **GIS = Geographic Information System**: a computer system to **store, manipulate, analyse and present** all types of geographical (**spatial**) data – the most complete system for modelling spatial data and community vulnerability."
+   }
+  ]
+ },
+ {
+  "id": "y3aed908fef0",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Junior Lecturers 2020 (18-02-2020)",
+  "q": "____ is the most complete information system for modeling, analysing spatial data and displaying community vulnerability.",
+  "options": [
+   "GNS",
+   "GPS",
+   "Remote sensing",
+   "GIS"
+  ],
+  "key": 3,
+  "key_text": "GIS",
+  "explanation": "GIS is the information system for modelling and analysing spatial data, e.g. community vulnerability maps.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:0:0",
+    "text": "- **GIS = Geographic Information System**: a computer system to **store, manipulate, analyse and present** all types of geographical (**spatial**) data – the most complete system for modelling spatial data and community vulnerability."
+   }
+  ]
+ },
+ {
+  "id": "y911a0c3c76d",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC",
+  "q": "Which of the following functions are carried out by the Geographic Information Systems?",
+  "options": [
+   "Storing and manipulation of data is possible through GIS.",
+   "Analysis and integration of the data is not possible using GIS.",
+   "Data can be stored but cannot be displayed using GIS.",
+   "Data can be analysed and displayed but storage of data is not possible through GIS."
+  ],
+  "key": 0,
+  "key_text": "Storing and manipulation of data is possible through GIS.",
+  "explanation": "GIS stores and manipulates data, with themes as layers combined by overlay; it can also analyse and display them.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:0:0",
+    "text": "- **GIS = Geographic Information System**: a computer system to **store, manipulate, analyse and present** all types of geographical (**spatial**) data – the most complete system for modelling spatial data and community vulnerability."
+   }
+  ]
+ },
+ {
+  "id": "y0a002669f12",
+  "pattern": "NOT",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC 2023 Screening test (Online Mode) to the post of Deput",
+  "q": "During a disaster, GIS enables emergency response teams to quickly gather and analyze realtime data from various sources. Which one of the following is NOT a source of that kind?",
+  "options": [
+   "Satellite imagery",
+   "Weather data",
+   "Sensor networks",
+   "News channels"
+  ],
+  "key": 3,
+  "key_text": "News channels",
+  "explanation": "News channels are not a real-time data source for GIS; satellite imagery, weather data and sensor networks are.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:0:9",
+    "text": "- Real-time sources: satellite imagery, weather data, sensor networks – **not news channels**."
+   }
+  ]
+ },
+ {
+  "id": "y0576e8fa91a",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC",
+  "q": "Which of the following is a free and open Source cross platform desktop Geographical Information System (GIS) software, allowing users to analyze and edit spatial information, in addition to composing and exporting graphical maps?",
+  "options": [
+   "HGIS",
+   "QGIS",
+   "MGIS",
+   "ZGIS"
+  ],
+  "key": 1,
+  "key_text": "QGIS",
+  "explanation": "QGIS is the free, open-source, cross-platform desktop GIS used to analyse and edit spatial data and compose maps.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:0:3.1",
+    "text": null
+   },
+   {
+    "ref": "5:45:0:0",
+    "text": "- **GIS = Geographic Information System**: a computer system to **store, manipulate, analyse and present** all types of geographical (**spatial**) data – the most complete system for modelling spatial data and community vulnerability."
+   }
+  ]
+ },
+ {
+  "id": "y029116cf792",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC",
+  "q": "Which of the following hardware components of a GIS work station consists of a tablet or table where analog data are converted to digital format?",
+  "options": [
+   "Tape drive",
+   "Digitizer",
+   "Analyzer",
+   "Map Display Unit"
+  ],
+  "key": 1,
+  "key_text": "Digitizer",
+  "explanation": "A digitizer is the tablet or table that converts analog data to digital format; it is GIS hardware.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:0:3.0",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "yb87eff67cf1",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC 2025 Zilla Sainik Welfare Officer in Sainik Welfare Se",
+  "q": "The father of GIS ( Geographic Information System ) is",
+  "options": [
+   "Robert Tunnel",
+   "Robert Tomlinson",
+   "Roger Tunnel GIS",
+   "Roger Tomlinson"
+  ],
+  "key": 3,
+  "key_text": "Roger Tomlinson",
+  "explanation": "Roger Tomlinson is regarded as the father of GIS; the other names are distortions.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:0:1",
+    "text": "- **Father of GIS:** **Roger Tomlinson** – coined the term for the Canada GIS (1960s)."
+   },
+   {
+    "ref": "5:45:0:0",
+    "text": "- **GIS = Geographic Information System**: a computer system to **store, manipulate, analyse and present** all types of geographical (**spatial**) data – the most complete system for modelling spatial data and community vulnerability."
+   }
+  ]
+ },
+ {
+  "id": "yf0e029f181f",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC 2025 Welfare Organiser",
+  "q": "The father of GIS ( Geographic Information System ) is",
+  "options": [
+   "Robert Tunnel",
+   "Robert Tomlinson",
+   "Roger Tunnel 0M0 GIS",
+   "Roger Tomlinson"
+  ],
+  "key": 3,
+  "key_text": "Roger Tomlinson",
+  "explanation": "Roger Tomlinson is regarded as the father of GIS; the other names are distortions.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:0:1",
+    "text": "- **Father of GIS:** **Roger Tomlinson** – coined the term for the Canada GIS (1960s)."
+   },
+   {
+    "ref": "5:45:0:0",
+    "text": "- **GIS = Geographic Information System**: a computer system to **store, manipulate, analyse and present** all types of geographical (**spatial**) data – the most complete system for modelling spatial data and community vulnerability."
+   }
+  ]
+ },
+ {
+  "id": "ye5d6671624a",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Group-II 2011",
+  "q": "Who prepares topographical maps of India?",
+  "options": [
+   "Geological survey of India",
+   "Archaeological survey of India",
+   "Survey of India",
+   "Geographical survey of India"
+  ],
+  "key": 2,
+  "key_text": "Survey of India",
+  "explanation": "The Survey of India (1767) prepares India's topographical maps; the Geological and Archaeological Surveys have other mandates.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:0:6",
+    "text": "- **Survey of India** prepares India's **topographical maps**."
+   }
+  ]
+ },
+ {
+  "id": "y24ce69877b3",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC AEE (Civil), AMVI, Agriculture Officer and Other Posts",
+  "q": "What does GIS stand for?",
+  "options": [
+   "General Internal Structure",
+   "Geological Information Source",
+   "Geographic Information System",
+   "General Information Service"
+  ],
+  "key": 2,
+  "key_text": "Geographic Information System",
+  "explanation": "GIS stands for Geographic Information System.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:0:0",
+    "text": "- **GIS = Geographic Information System**: a computer system to **store, manipulate, analyse and present** all types of geographical (**spatial**) data – the most complete system for modelling spatial data and community vulnerability."
+   }
+  ]
+ },
+ {
+  "id": "y0dab0cade13",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Degree Lecturers 2020",
+  "q": "What is the full form of GIS?",
+  "options": [
+   "Geological Information System",
+   "Geographic Internet System",
+   "Geographic Information Sector",
+   "Geographic Information System"
+  ],
+  "key": 3,
+  "key_text": "Geographic Information System",
+  "explanation": "GIS stands for Geographic Information System.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:0:0",
+    "text": "- **GIS = Geographic Information System**: a computer system to **store, manipulate, analyse and present** all types of geographical (**spatial**) data – the most complete system for modelling spatial data and community vulnerability."
+   }
+  ]
+ },
+ {
+  "id": "y3bf091b2c8e",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Endowment Executive Officers Prelims 2022",
+  "q": "GIS uses the information from which of the following sources?",
+  "options": [
+   "Non-spatial information system",
+   "Spatial information system",
+   "Global information system",
+   "Position information system"
+  ],
+  "key": 1,
+  "key_text": "Spatial information system",
+  "explanation": "GIS works on spatial (geographically referenced) data, with attribute tables attached.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:0:2",
+    "text": "- Each theme is a **layer**; **overlay analysis** combines layers; data = spatial (vector, raster) + attribute tables."
+   }
+  ]
+ },
+ {
+  "id": "y386cdd5c3d9",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Forest Beat Officer & Assistant Beat Officer (Mains) P",
+  "q": "Which technology helps satellites provides Real-Time images for disaster management?",
+  "options": [
+   "Infrared imaging",
+   "Microwave sensing",
+   "Remote sensing",
+   "X-ray sensing"
+  ],
+  "key": 2,
+  "key_text": "Remote sensing",
+  "explanation": "Remote sensing satellites provide near-real-time images for disaster management; infrared and microwave are only bands used within it.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:1:1",
+    "text": "- Satellites give **near-real-time images** (remote sensing) for disaster management."
+   }
+  ]
+ },
+ {
+  "id": "y914238dbfd1",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Endowment Executive Officer Grade-III Paper-I 2023",
+  "q": "Fire hotspots detected by MODIS and SNPP-VIIRS sensors are received at which of the following Earth stations in India?",
+  "options": [
+   "Delhi Earth Station",
+   "Ahmedabad Earth station",
+   "Shadnagar Earth Station",
+   "Balanagar Earth Station"
+  ],
+  "key": 2,
+  "key_text": "Shadnagar Earth Station",
+  "explanation": "Fire hotspots from MODIS (Terra/Aqua) and SNPP-VIIRS are received at NRSC's Shadnagar earth station and passed to the Forest Survey of India.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:1:2",
+    "text": "- Fire hotspots: thermal-infrared **MODIS** (Terra/Aqua) and **VIIRS** (Suomi-NPP), received at **Shadnagar** (NRSC) → **Forest Survey of India** alert system (not IMD) – the modern **fire alert system**."
+   }
+  ]
+ },
+ {
+  "id": "yc8984b692d9",
+  "pattern": "statements",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Endowment Executive Officer Grade-III Paper-I 2023",
+  "q": "The following statements correctly describe which of the methods of landslide monitoring?\n\nI. Capable of temporal monitoring of slope deformation\n\nII. Requires repetitive measurement of same location on landslide mass to determine rate of movement\n\nIII. Can be carried out at initial stage of deformation or at vulnerable slopes without any visible sign of failure\n\nIV. Suitable for long term monitoring without building any instrument network at any site of interest",
+  "options": [
+   "Slope Deformation Monitoring Using Dynamic Modelling",
+   "Slope Deformation Monitoring Using GNSS",
+   "Slope Deformation Monitoring Using Terrestrial Laser Scanner",
+   "Slope Deformation Monitoring Using DInSAR"
+  ],
+  "key": 3,
+  "key_text": "Slope Deformation Monitoring Using DInSAR",
+  "explanation": "DInSAR (differential interferometric SAR) gives repeat-pass satellite measurements of slope deformation, works before visible failure and needs no ground instrument network, unlike GNSS or laser scanners.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:1:6",
+    "text": "- **Landslides:** **DInSAR** gives repeat-pass slope-deformation monitoring, before visible failure, without a ground instrument network."
+   }
+  ]
+ },
+ {
+  "id": "y2af2919353f",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Forest Section Officer Screening Test General Studies ",
+  "q": "Which one is a modern method of firefighting in forests?",
+  "options": [
+   "Controlled burning",
+   "Fire terracing",
+   "Fire watchers",
+   "Fire alert system"
+  ],
+  "key": 3,
+  "key_text": "Fire alert system",
+  "explanation": "Satellite fire-alert systems (MODIS/VIIRS hotspots sent to FSI) are the modern method; controlled burning, fire lines and watchers are traditional.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:1:2",
+    "text": "- Fire hotspots: thermal-infrared **MODIS** (Terra/Aqua) and **VIIRS** (Suomi-NPP), received at **Shadnagar** (NRSC) → **Forest Survey of India** alert system (not IMD) – the modern **fire alert system**."
+   }
+  ]
+ },
+ {
+  "id": "y075fd8a70fa",
+  "pattern": "NOT",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Junior Lecturers 2020 (20-02-2020)",
+  "q": "Which one of the following is NOT provided by the Bhuvan disaster management support services of ISRO?",
+  "options": [
+   "National Database for Emergency Management (NDEM)",
+   "Drought monitoring",
+   "Near-real-time flood monitoring",
+   "Early nuclear hazard warning service"
+  ],
+  "key": 3,
+  "key_text": "Early nuclear hazard warning service",
+  "explanation": "Bhuvan disaster services include NDEM, drought monitoring and near-real-time flood monitoring; there is no nuclear hazard early-warning service.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:1:3",
+    "text": "- **NRSC activities:** near-real-time flood and cyclone mapping, forest-fire alerts, spatial flood early warning, **rapid damage assessment of landslides**; **Decision Support Centre**; **NDEM** (National Database for Emergency Management)."
+   }
+  ]
+ },
+ {
+  "id": "y1ce7f4fc256",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC FRO Paper-I 2023",
+  "q": "Which of the following functions CANNOT be done through the Global Forest Watch (GFW), an online forest monitoring and alert system developed by World Resources Institute (WRI)?",
+  "options": [
+   "Create custom maps",
+   "Analyse forest trends",
+   "Subscribe to alerts",
+   "Organise forest walks"
+  ],
+  "key": 3,
+  "key_text": "Organise forest walks",
+  "explanation": "Global Forest Watch (WRI) lets users create custom maps, analyse forest trends and subscribe to alerts; organising forest walks is not one of its functions.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:1:7",
+    "text": "- **Global Forest Watch (WRI):** custom maps, forest trends, alerts."
+   }
+  ]
+ },
+ {
+  "id": "yf9d9b58f08a",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC 2021 Mains Junior Assistant Cum Computer Assistant In",
+  "q": "According to ‘Remote Sensing Applications' for Flood Disaster Management published by the National Remote Sensing Centre, which of the following is the most flood prone area in India?",
+  "options": [
+   "Ganga-Brahmaputra basin",
+   "Narmada-Tapti basin",
+   "Krishna-Kaveri basin",
+   "Indus basin"
+  ],
+  "key": 0,
+  "key_text": "Ganga-Brahmaputra basin",
+  "explanation": "NRSC names the Ganga-Brahmaputra basin as the most flood-prone area in India.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:1:5",
+    "text": "- **Ganga-Brahmaputra basin** = most flood-prone area (NRSC)."
+   },
+   {
+    "ref": "5:45:1:3",
+    "text": "- **NRSC activities:** near-real-time flood and cyclone mapping, forest-fire alerts, spatial flood early warning, **rapid damage assessment of landslides**; **Decision Support Centre**; **NDEM** (National Database for Emergency Management)."
+   }
+  ]
+ },
+ {
+  "id": "y70240e0233b",
+  "pattern": "NOT",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC 2021 Horticulture Officer",
+  "q": "Which of the following is NOT one of the current activities of National Remote Sensing Centre to support disaster management support?",
+  "options": [
+   "Near real time flood and cyclone monitoring and mapping in the country",
+   "Forest fire alerts",
+   "Spatial flood early warning",
+   "Earthquake pedictions"
+  ],
+  "key": 3,
+  "key_text": "Earthquake pedictions",
+  "explanation": "Earthquake prediction is not an NRSC disaster-support activity; flood and cyclone monitoring, forest-fire alerts and flood early warning are.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:1:3",
+    "text": "- **NRSC activities:** near-real-time flood and cyclone mapping, forest-fire alerts, spatial flood early warning, **rapid damage assessment of landslides**; **Decision Support Centre**; **NDEM** (National Database for Emergency Management)."
+   }
+  ]
+ },
+ {
+  "id": "yebf32a57032",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC 2022 Assistant Conservator of Forest",
+  "q": "Which of the following disaster CANNOT be monitored using satellite remote sensing?",
+  "options": [
+   "Tsunami in coastal areas",
+   "Flooding",
+   "Spread of a disease amongst humans",
+   "Forest wildfires"
+  ],
+  "key": 2,
+  "key_text": "Spread of a disease amongst humans",
+  "explanation": "Floods, tsunami inundation and forest fires can be monitored from space, but the spread of a disease among humans cannot.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:1:0.0",
+    "text": null
+   },
+   {
+    "ref": "5:45:1:1",
+    "text": "- Satellites give **near-real-time images** (remote sensing) for disaster management."
+   }
+  ]
+ },
+ {
+  "id": "y6af220cad24",
+  "pattern": "NOT",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Zilla Sainik Welfare Officer in Sainik Welfare Service",
+  "q": "Remote sensing can not be used to monitor the following",
+  "options": [
+   "Wild fires",
+   "Earthquakes",
+   "Floods",
+   "Heart Attack"
+  ],
+  "key": 3,
+  "key_text": "Heart Attack",
+  "explanation": "Wildfires, floods and earthquake damage can be monitored from space; a heart attack cannot.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:1:0.0",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "yd7e94a7b205",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Divisional Accounts Officer Works (Grade-II) 2020",
+  "q": "Which agency in India is responsible for remote-sensing satellite data acquisition and processing, data dissemination, aerial remote sensing, and decision support for disaster management?",
+  "options": [
+   "NRSC",
+   "SPOT",
+   "EROS",
+   "CRISP"
+  ],
+  "key": 0,
+  "key_text": "NRSC",
+  "explanation": "NRSC (Hyderabad) acquires and processes remote-sensing data, does aerial remote sensing and gives disaster decision support; SPOT is a French satellite, EROS a US/Israeli one.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:2:0.0",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y94ce34d5faa",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC 2021 Medical Officer (Ayurveda) In Ayush Department",
+  "q": "MOSDAC offers inputs to handle disasters under announcements and alerts. What is the full form of MOSDAC?",
+  "options": [
+   "Meteorological & Oceanographic Satellite Data Archival Centre",
+   "Meteorological & Oceanographic Satellite Digital Archival Centre",
+   "Meteorological & Oceanographic Satellite Data Alliance Centre",
+   "Meteorological & Oceanographic Satellite Digital Alignment Centre"
+  ],
+  "key": 0,
+  "key_text": "Meteorological & Oceanographic Satellite Data Archival Centre",
+  "explanation": "MOSDAC = Meteorological & Oceanographic Satellite Data Archival Centre, run by SAC; it carries disaster announcements and alerts.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:2:3.2",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y6aaeeb88caf",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC 2021 Medical Officer (Ayurveda) In Ayush Department",
+  "q": "MOSDAC offers inputs to handle disasters under announcements and alerts. What is the full form of MOSDAC?",
+  "options": [
+   "Meteorological & Oceanographic Satellite Data Archival Centre",
+   "Meteorological & Oceanographic Satellite Digital Archival Centre",
+   "Meteorological & Oceanographic Satellite Data Alliance Centre",
+   "Meteorological & Oceanographic Satellite Digital Alignment Centre"
+  ],
+  "key": 0,
+  "key_text": "Meteorological & Oceanographic Satellite Data Archival Centre",
+  "explanation": "MOSDAC = Meteorological & Oceanographic Satellite Data Archival Centre, run by SAC; it carries disaster announcements and alerts.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:2:3.2",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y1b74b5685f8",
+  "pattern": "statements",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Forest Range Officer Screening Test General Studies & ",
+  "q": "Which of the following statements about the InSAR (Interferometric Synthetic Aperture Radar) technique is/are correct?\n\nA. This is a technique for mapping ground deformation using radar images of the Earth's surface.\n\nB. By this techniques, images of the Earth's surface are collected from stationary satellites.",
+  "options": [
+   "A only",
+   "B only",
+   "Both A and B",
+   "Neither A nor B"
+  ],
+  "key": 0,
+  "key_text": "A only",
+  "explanation": "Only A: InSAR maps ground deformation by comparing the phase of radar images taken from orbiting (repeat-pass) satellites, not stationary ones.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:3:3",
+    "text": "TABLE head: Portal | Use"
+   }
+  ]
+ },
+ {
+  "id": "yb628ccf38c5",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Group-III Panchayat Secretary Screening Test GS-MA 201",
+  "q": "Remote sensing includes gathering of",
+  "options": [
+   "Movements",
+   "Images",
+   "Sounds",
+   "Changes"
+  ],
+  "key": 1,
+  "key_text": "Images",
+  "explanation": "Remote sensing gathers images and data on objects without physical contact, from reflected or emitted radiation.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:3:0",
+    "text": "TABLE head: Agency | Role"
+   }
+  ]
+ },
+ {
+  "id": "y885669f3ec7",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Group-IV Paper-I Mains 2023",
+  "q": "Among the various spectral vegetation indices commonly derived from remote sensing data, NDVI is most widely used for the operational assessment of drought. What is the full form of NDVI?",
+  "options": [
+   "Noticeable Difference Vegetation Index",
+   "Normalized Disparate Vegetation Index",
+   "Normalized Difference Vegetation Index",
+   "Noticeable Disparate Vegetation Index"
+  ],
+  "key": 2,
+  "key_text": "Normalized Difference Vegetation Index",
+  "explanation": "NDVI = Normalized Difference Vegetation Index, (NIR − Red)/(NIR + Red); the most widely used index for drought assessment.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:3:7.0",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y0ec2a715098",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Junior Lecturers 2020 (17-02-2020)",
+  "q": "What is the name of the mobile app that makes use of Automatic Weather Stations and Ground Water Piezometers, installed across the state of Andhra Pradesh as well as weather forecast data from ISRO to provide required weather parameters?",
+  "options": [
+   "APDMS Mobile App",
+   "Andhra Pradesh Varuna",
+   "Andhra Mausam",
+   "AP Vatavarana"
+  ],
+  "key": 1,
+  "key_text": "Andhra Pradesh Varuna",
+  "explanation": "'Andhra Pradesh Varuna' (2017, APWRIMS) uses the state's automatic weather stations, groundwater piezometers and ISRO forecasts to give weather parameters.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:4:1.6",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y060e232dcc5",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Polytechnic Colleges (Engineering & Non-Engineering) G",
+  "q": "Which of the following is a device developed by the ISRO-Space Applications Centre (Ahmedabad) for the safety of fishermen, and was successfully tested at Neendakara in August 2023",
+  "options": [
+   "Tarapath",
+   "Vayumitra",
+   "Jalajpath",
+   "Nabhmitra"
+  ],
+  "key": 3,
+  "key_text": "Nabhmitra",
+  "explanation": "Nabhmitra, by ISRO's SAC Ahmedabad, is a satellite-based safety and messaging device for fishermen, tested at Neendakara (Kerala) in August 2023.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:4:1.0",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "yac814f54525",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Group-II 2011",
+  "q": "Name the TV channel which will only cover engineering technology subjects",
+  "options": [
+   "Vigyan Darshen",
+   "Eklavya",
+   "Parivarthan",
+   "Aviskar"
+  ],
+  "key": 1,
+  "key_text": "Eklavya",
+  "explanation": "Eklavya was the educational TV channel (IGNOU-IIT) for engineering and technology subjects; Vigyan Darshan and others are not.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:5:2",
+    "text": "# APSAC and AP"
+   }
+  ]
+ },
+ {
+  "id": "y6a83cace58c",
+  "pattern": "NOT",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Forest Range Officer (FRO) Paper-I General Studies & M",
+  "q": "Which of the following statements is NOT correct with respect to telehealth?",
+  "options": [
+   "Cell phones, mobile devices and PCs are helping connect patients with their practitioners",
+   "Doctor on Demand and Now Clinic are mobile apps for telehealth",
+   "Health insurance industry's major players offer some form of telehealth in their health coverage",
+   "Telehealth option is available only in the developed countries"
+  ],
+  "key": 3,
+  "key_text": "Telehealth option is available only in the developed countries",
+  "explanation": "Telehealth is used worldwide, including in India (e.g. eSanjeevani), so 'available only in developed countries' is the incorrect statement.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:5:7",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "yd7b8e8baeb5",
+  "pattern": "NOT",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC Assistant Director of Fisheries in A.P. Fisheries Serv",
+  "q": "The Mahalanobis National Crop Forecast Centre does not use the following tools for crop forecasts?",
+  "options": [
+   "Land Based Observations",
+   "Space Technology",
+   "Agro Meteorology",
+   "Revenue Records"
+  ],
+  "key": 3,
+  "key_text": "Revenue Records",
+  "explanation": "MNCFC runs FASAL, which uses space technology, agro-meteorology and land-based observations — not revenue records.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:6:0.1",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y65f9fd56609",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 45,
+  "exam": "APPSC 2018 Lecturers in Government Polytechnic Colleges (Eng",
+  "q": "A joint initiative of the Indian Meteorological Department (IMD) and Indian Council for Agriculture Research (ICAR) to bring high resolution weather forecast based agro advisories to farmers is:",
+  "options": [
+   "Trivim",
+   "Krishak",
+   "Meghdoot",
+   "Agromet"
+  ],
+  "key": 2,
+  "key_text": "Meghdoot",
+  "explanation": "Meghdoot is the agro-met advisory app jointly run by IMD and ICAR.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:45:6:2",
+    "text": "- **Eklavya:** educational TV channel for **engineering and technology** subjects."
+   }
+  ]
+ },
+ {
+  "id": "yf2925fd448f",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 46,
+  "exam": "APPSC Junior Lecturers General Studies & Mental Ability 2020",
+  "q": "Which agency has initiated the Project NETRA?",
+  "options": [
+   "ISRO",
+   "RBI",
+   "ICSSR",
+   "ICHR"
+  ],
+  "key": 0,
+  "key_text": "ISRO",
+  "explanation": "Project NETRA (Network for Space Object Tracking and Analysis) is ISRO's space situational awareness system. RBI, ICSSR and ICHR have nothing to do with space.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:46:0:2.0",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y0585d8f0301",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 46,
+  "exam": "APPSC Divisional Accounts Officer, Asst. Public Relation Off",
+  "q": "Digantara Research and Technologies Pvt. Ltd. based at ___, was authorised by IN-SPACe on June 24 to launch their payloads.",
+  "options": [
+   "New Delhi",
+   "Bengaluru",
+   "Pune",
+   "Kochi"
+  ],
+  "key": 1,
+  "key_text": "Bengaluru",
+  "explanation": "Digantara Research and Technologies is a Bengaluru-based space situational awareness start-up; IN-SPACe authorised it on 24 June 2022 to launch its payloads.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:46:0:2.3",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "ye7efac0db6c",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 47,
+  "exam": "APPSC Forest Beat Officer & Assistant Beat Officer Screening",
+  "q": "Who is the current DRDO Chairman/ Secretary of the Department of Defence R&D?",
+  "options": [
+   "Dr. G. Satheesh Reddy",
+   "Dr. Samir V. Kamat",
+   "Dr. Tessy Thomas",
+   "Dr. A.P. Adhi Reddy"
+  ],
+  "key": 1,
+  "key_text": "Dr. Samir V. Kamat",
+  "explanation": "Dr Samir V. Kamat retired on 31 May 2026 — now Defence Secretary Rajesh Kumar Singh holds additional charge as DRDO Chairman (Praveen CA-360 May 2026 magazine (src/current-affairs/praveen-ca360-2026-05-magazine.txt) p.71; octlatest daily CA 4 Nov 2026 (src/current-affairs/octlatest-daily-em-ca-2026-11-04.txt) p.3)\nWhen asked, Dr Samir V. Kamat (from August 2022) was DRDO Chairman and Secretary DDR&D, after Dr G. Satheesh Reddy (2018-22). He retired on 31 May 2026 (now Defence Secretary Rajesh Kumar Singh holds additional charge). Tessy Thomas is a DG, not Chairman.",
+  "tags": [
+   "outdated"
+  ],
+  "notes": [
+   {
+    "ref": "5:47:0:1.2",
+    "text": null
+   },
+   {
+    "ref": "5:47:0:1.3",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y66a721819fe",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 47,
+  "exam": "APPSC Group-2 PYQ",
+  "q": "Who is the Scientific Adviser to the Defence Minister?",
+  "options": [
+   "S. Christopher",
+   "R. Chidambaram",
+   "V.K. Saraswat",
+   "G. Satheesh Reddy"
+  ],
+  "key": 3,
+  "key_text": "G. Satheesh Reddy",
+  "explanation": "Reddy retired as SA on 30 June 2023 — now no successor has been announced (web: siasat.com \"What's the fate of SA to Defence Minister\" (Reddy retired 30 June 2023; no successor))\nDr G. Satheesh Reddy became the 12th Scientific Adviser to the Defence Minister in May 2015 (again 2022-23), so he is the answer. S. Christopher became DRDO DG in 2015, V.K. Saraswat was SA until 2013 and R. Chidambaram was the Principal Scientific Adviser.",
+  "tags": [
+   "outdated"
+  ],
+  "notes": [
+   {
+    "ref": "5:47:0:6.2",
+    "text": null
+   },
+   {
+    "ref": "5:47:0:6.3",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y840cc5a1f5f",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 47,
+  "exam": "APPSC Group-II Mains 2017 Paper-1 (15-07-2017)",
+  "q": "Who is the Scientific Adviser to the Defence Minister?",
+  "options": [
+   "S. Christopher",
+   "R. Chidambaram",
+   "V.K. Saraswat",
+   "G. Satheesh Reddy"
+  ],
+  "key": 3,
+  "key_text": "G. Satheesh Reddy",
+  "explanation": "Reddy retired as SA on 30 June 2023 — now no successor has been announced (web: siasat.com \"What's the fate of SA to Defence Minister\" (Reddy retired 30 June 2023; no successor))\nIn 2017 the Scientific Adviser to the Defence Minister was Dr G. Satheesh Reddy (from May 2015; again 2022-23). V.K. Saraswat held it until 2013 and R. Chidambaram was the Principal Scientific Adviser to the Government.",
+  "tags": [
+   "outdated"
+  ],
+  "notes": [
+   {
+    "ref": "5:47:0:6.2",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y97962274836",
+  "pattern": "NOT",
+  "book": 5,
+  "row": 47,
+  "exam": "APPSC Dr. NTR University of Health Sciences Mains Paper-II I",
+  "q": "Which of the following is NOT a mission of DRDO?",
+  "options": [
+   "Design, develop and lead to production state-of-the-art sensors, weapon systems, platforms and allied equipment for India's Defence Services",
+   "Provide technological solutions to optimise combat effectiveness and promote the well-being of troops",
+   "Develop infrastructure and committed quality manpower while building a strong indigenous technology base",
+   "Promote international collaboration in the development of defence technologies"
+  ],
+  "key": 3,
+  "key_text": "Promote international collaboration in the development of defence technologies",
+  "explanation": "DRDO's mission has three points: develop sensors, weapon systems and platforms; give technological solutions for combat effectiveness and troop well-being; build infrastructure, manpower and an indigenous technology base. International collaboration is not one of them.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:47:1:5",
+    "text": "- **Mission (three points):** (1) design, develop and lead to production **state-of-the-art sensors, weapon systems, platforms** and allied equipment; (2) **technological solutions** to optimise **combat effectiveness** and the **well-being of troops**; (3) **infrastructure, quality manpower and a strong indigenous technology base**. \"Promote international collaboration\" is **not** in the mission."
+   }
+  ]
+ },
+ {
+  "id": "y8da36971793",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 47,
+  "exam": "APPSC Dr. NTR University of Health Sciences Mains Paper-II I",
+  "q": "DRDO was formed through the amalgamation of which of the following entities?",
+  "options": [
+   "Technical Development Establishment (TDEs) of the Indian Army, Defence Science Organisation (DSO), and Atomic Energy Establishment, Trombay (AEET)",
+   "Directorate of Technical Development & Production (DTDP), Defence Science Organisation (DSO), and Atomic Energy Establishment, Trombay (AEET)",
+   "Atomic Energy Establishment, Trombay (AEET), Technical Development Establishment (TDEs) of the Indian Army, and Directorate of Technical Development & Production (DTDP)",
+   "Technical Development Establishment (TDEs) of the Indian Army, Directorate of Technical Development & Production (DTDP), and Defence Science Organisation (DSO)"
+  ],
+  "key": 3,
+  "key_text": "Technical Development Establishment (TDEs) of the Indian Army, Directorate of Technical Development & Production (DTDP), and Defence Science Organisation (DSO)",
+  "explanation": "DRDO was formed in 1958 by amalgamating the Army's Technical Development Establishments, the Directorate of Technical Development & Production and the Defence Science Organisation. AEET Trombay (now BARC) was never part of it.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:47:1:0",
+    "text": "- **Formed 1958** by amalgamating the **Technical Development Establishments (TDEs)** of the Indian Army, the **Directorate of Technical Development & Production (DTDP)** and the **Defence Science Organisation (DSO)** (not AEET Trombay)."
+   }
+  ]
+ },
+ {
+  "id": "yb6994372ca6",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 47,
+  "exam": "APPSC Dr. NTR University of Health Sciences Mains Paper-II I",
+  "q": "DRDO is the R&D wing of the Ministry of Defence, Government of India. What does the acronym DRDO stand for?",
+  "options": [
+   "Defence Research and Development Operations",
+   "Defence Research and Development Organisation",
+   "Defence Resource and Development Office",
+   "Department of Research and Defence Operations"
+  ],
+  "key": 1,
+  "key_text": "Defence Research and Development Organisation",
+  "explanation": "DRDO stands for Defence Research and Development Organisation, the R&D wing of the Ministry of Defence.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:47:1:1",
+    "text": "- **DRDO = Defence Research and Development Organisation**; R&D wing of the **Ministry of Defence**; HQ **DRDO Bhawan, New Delhi**."
+   }
+  ]
+ },
+ {
+  "id": "yb3106bb274d",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 47,
+  "exam": "APPSC Group-1 PYQ",
+  "q": "Jagadish Chandra Bose Centre for Advanced Technology was established with the help of-",
+  "options": [
+   "ISRO",
+   "NASA",
+   "DRDO",
+   "BARC"
+  ],
+  "key": 2,
+  "key_text": "DRDO",
+  "explanation": "JCBCAT at Jadavpur University, Kolkata, was set up with DRDO, not ISRO, NASA or BARC.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:47:3:0",
+    "text": "TABLE head: Product | Fact"
+   }
+  ]
+ },
+ {
+  "id": "y8bca5114f96",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 47,
+  "exam": "APPSC 2019 Group-1",
+  "q": "Jagadish Chandra Bose Centre for Advanced Technology was established with the help .",
+  "options": [
+   "ISRO",
+   "DRDO",
+   "BEL",
+   "All of the above"
+  ],
+  "key": 1,
+  "key_text": "DRDO",
+  "explanation": "JCBCAT at Jadavpur University, Kolkata, was set up with DRDO, not ISRO or BEL, so \"All of the above\" is wrong.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:47:3:0",
+    "text": "TABLE head: Product | Fact"
+   }
+  ]
+ },
+ {
+  "id": "y31eef1db7fd",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 47,
+  "exam": "APPSC Draughtsman (Technical Assistant) Paper-I General Stud",
+  "q": "In which IIT is the research cell 'Agnishodh' inaugurated by the Army?",
+  "options": [
+   "IIT Madras",
+   "IIT Pune",
+   "IIT Dehradun",
+   "IIT Delhi"
+  ],
+  "key": 0,
+  "key_text": "IIT Madras",
+  "explanation": "Agnishodh is the Indian Army's research cell at IIT Madras; there is no IIT Pune or IIT Dehradun.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:47:3:3",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y0e42fc0df2a",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 47,
+  "exam": "APPSC Dr. NTR University of Health Sciences Mains Paper-II I",
+  "q": "How many DRDO Young Scientist Laboratories (DYSLs) are there in India, as of October 2024?",
+  "options": [
+   "2",
+   "5",
+   "10",
+   "40"
+  ],
+  "key": 1,
+  "key_text": "5",
+  "explanation": "DRDO has 5 Young Scientist Laboratories (DYSLs), dedicated in January 2020 in five futuristic areas such as AI and quantum technology; 15 is the number of DIA-CoEs.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:47:3:1",
+    "text": "~~ Sources: NextGen S&T Group 2 Part 2 (src/science-tech/nextgen-st-group2-02.pdf, OCR) p.50, p.52; PMF S&T Part 6 (src/science-tech/pmf-science-tech-06.txt) p.96 (Netra UAV, DRDO mini-UAV); app notes 5:47 sub 3, 5"
+   }
+  ]
+ },
+ {
+  "id": "y7a0a1c051c1",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 48,
+  "exam": "APPSC Group-III Panchayat Secretary Screening Test 2017",
+  "q": "What is the strike range of Agni-IV ballistic missile in kilometres?",
+  "options": [
+   "1000-2000",
+   "2000-3000",
+   "3000-4000",
+   "4000-5000"
+  ],
+  "key": 2,
+  "key_text": "3000-4000",
+  "explanation": "Agni-IV is an IRBM of about 3,500-4,000 km range, so 3,000-4,000 km is the matching option; 4,000-5,000 km overshoots it.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:48:0:3.3",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y254340768d0",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 48,
+  "exam": "APPSC Junior Lecturers 2003",
+  "q": "The missile 'Agni-II' has a range of",
+  "options": [
+   "1000 km",
+   "700 km",
+   "2000 km",
+   "200 km"
+  ],
+  "key": 2,
+  "key_text": "2000 km",
+  "explanation": "Agni-II has a range of about 2,000-2,500 km (NextGen: 2,500 km), so 2,000 km is the right option; 700-1,000 km is Agni-I and 200 km Prithvi.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:48:0:3.1",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y5227cb59d5a",
+  "pattern": "NOT",
+  "book": 5,
+  "row": 48,
+  "exam": "APPSC Junior Lecturers 2003",
+  "q": "India successfully test-fired the \"Agni\" missile on 9th January, 2003. Which of the following is not true about it?",
+  "options": [
+   "It was fired from Wheeler Island",
+   "It is a two-stage missile variant",
+   "It is called Agni-I",
+   "Its range is 1000 km"
+  ],
+  "key": 1,
+  "key_text": "It is a two-stage missile variant",
+  "explanation": "The 9 January 2003 test from Wheeler Island was of Agni-I, the short-range single-stage variant (about 700 km). So \"it is a two-stage missile variant\" is the untrue statement; Agni-II is the two-stage one.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:48:0:3.0",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "yee20f41eb8b",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 48,
+  "exam": "APPSC Group-1 PYQ",
+  "q": "Agni-III, the missile which was test fired in February, 2010 has the longest range of:",
+  "options": [
+   "3300 km",
+   "3500 km",
+   "3700 km",
+   "3900 km"
+  ],
+  "key": 1,
+  "key_text": "3500 km",
+  "explanation": "Agni-III, tested on 7 February 2010 from Wheeler Island, has a range of about 3,500 km (NextGen; CSIS: the 2010 missile landed 3,500 km away). No source gives 3,700 km (official key: 3,700 km); 3,700 km is not taught in the books.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:48:0:3.2",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y67cbf37e084",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 48,
+  "exam": "APPSC Group-II 2011",
+  "q": "Which of the following Missiles will be test fired by ISRO in next year with range capacity of 5000 km?",
+  "options": [
+   "Agni V",
+   "Agni VI",
+   "Agni IV",
+   "Agni III"
+  ],
+  "key": 0,
+  "key_text": "Agni V",
+  "explanation": "Agni-V has a range of 5,000+ km, matching the question; it is built by DRDO, not ISRO (the stem is wrong there). Agni-VI is still under development, and Agni-III and Agni-IV have shorter ranges (about 3,500 km and 4,000 km).",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:48:0:3.4",
+    "text": null
+   },
+   {
+    "ref": "5:48:0:1",
+    "text": "- Developed by **DRDO** (not ISRO); **solid-fuelled**; nuclear and conventional warheads; **fully indigenous**; operated by the **Strategic Forces Command**; a **long-range** missile family (~700 km to 5,000+ km)."
+   }
+  ]
+ },
+ {
+  "id": "y7b01cbe07e7",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 48,
+  "exam": "APPSC Group-I Prelims 2010 (05-09-2010)",
+  "q": "Agni-I ballistic missile which was test-fired in March, 2010 has a range of:",
+  "options": [
+   "300 km",
+   "500 km",
+   "700 km",
+   "900 km"
+  ],
+  "key": 2,
+  "key_text": "700 km",
+  "explanation": "Agni-I, test-fired on 28 March 2010 from Wheeler Island, has a range of about 700 km (up to 1,200 km with lighter payload).",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:48:0:3.0",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y640548d2de9",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 48,
+  "exam": "APPSC Group-1 PYQ",
+  "q": "Which of the following is a ' Fire and Forget ' antitank missile?",
+  "options": [
+   "Agni",
+   "Prithvi",
+   "Nag",
+   "Brahmos"
+  ],
+  "key": 2,
+  "key_text": "Nag",
+  "explanation": "Nag is a third-generation fire-and-forget ATGM with an imaging infrared seeker, so it guides itself after launch. Agni and Prithvi are ballistic missiles, and BrahMos is a cruise missile, not an anti-tank weapon.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:48:2:0",
+    "text": "- **Launched 1983** by **DRDO** under **Dr APJ Abdul Kalam**; lead lab **DRDL, Hyderabad** (with RCI and ASL)."
+   },
+   {
+    "ref": "5:48:2:1",
+    "text": "- **Objectives:** **self-sufficiency in missile technology**; a **family of strategic and tactical guided missiles**; competence across technologies, production and deployment. Being \"the first country with an international missile market\" was **not** an aim."
+   }
+  ]
+ },
+ {
+  "id": "y0e9aa6190e7",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 48,
+  "exam": "APPSC AE (Environmental) Mains General Studies & Mental Abil",
+  "q": "Which is a \"Fire and forget\" anti-tank missile?",
+  "options": [
+   "Akash",
+   "Astra",
+   "Prahar",
+   "Nag"
+  ],
+  "key": 3,
+  "key_text": "Nag",
+  "explanation": "Nag is the third-generation fire-and-forget anti-tank missile. Akash is a SAM, Astra an air-to-air missile and Prahar a tactical surface-to-surface missile.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:48:2:0",
+    "text": "- **Launched 1983** by **DRDO** under **Dr APJ Abdul Kalam**; lead lab **DRDL, Hyderabad** (with RCI and ASL)."
+   },
+   {
+    "ref": "5:48:2:1",
+    "text": "- **Objectives:** **self-sufficiency in missile technology**; a **family of strategic and tactical guided missiles**; competence across technologies, production and deployment. Being \"the first country with an international missile market\" was **not** an aim."
+   }
+  ]
+ },
+ {
+  "id": "y29c644e2885",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 48,
+  "exam": "APPSC Group-I 2008",
+  "q": "'Nag' is a/an",
+  "options": [
+   "Multi-rocket system",
+   "Anti-tank missile",
+   "Surface-to-surface missile",
+   "Surface-to-air missile"
+  ],
+  "key": 1,
+  "key_text": "Anti-tank missile",
+  "explanation": "Nag is a third-generation fire-and-forget anti-tank missile, not a multi-rocket system (Pinaka) or a surface-to-air / surface-to-surface missile.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:48:2:0",
+    "text": "- **Launched 1983** by **DRDO** under **Dr APJ Abdul Kalam**; lead lab **DRDL, Hyderabad** (with RCI and ASL)."
+   }
+  ]
+ },
+ {
+  "id": "y0632dda8ead",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 48,
+  "exam": "APPSC Group-I Prelims 2002",
+  "q": "Which of the following missiles developed by India can be used from ship to ship?",
+  "options": [
+   "Agni",
+   "BrahMos",
+   "Dhanush",
+   "Akash"
+  ],
+  "key": 2,
+  "key_text": "Dhanush",
+  "explanation": "Official key / most books: Dhanush. Strictly: BrahMos is also ship-to-ship capable (ship-launched anti-ship cruise missile, PMF S&T Part 6 (src/science-tech/pmf-science-tech-06.txt) p.57 table \"Ship-Launched Missile: BrahMos, Dhanush\").\nDhanush, the naval version of Prithvi, is fired from ships (ship-to-ship and ship-to-shore). Agni and Akash are land-based. BrahMos also has a ship-launched anti-ship version, but it is an India-Russia cruise missile, not the expected answer.",
+  "tags": [
+   "disputed"
+  ],
+  "notes": [
+   {
+    "ref": "5:48:3:0.2",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "yf0901896511",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 48,
+  "exam": "APPSC Royalty Inspector, Agriculture Officer, Town Planning ",
+  "q": "Out of the following, Dhanush is",
+  "options": [
+   "A mini nuclear reactor using Thorium fuel",
+   "A long range ballistic missile to be used by Army",
+   "A short range ballistic missile to be used by Navy",
+   "A satellite to study the interstellar matter"
+  ],
+  "key": 2,
+  "key_text": "A short range ballistic missile to be used by Navy",
+  "explanation": "Dhanush is the naval, ship-launched version of Prithvi – a short-range ballistic missile for the Navy, not an Army long-range missile, a reactor or a satellite.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:48:3:0.2",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "yffd5cfdf18c",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 48,
+  "exam": "APPSC Group-III Panchayat Secretary Mains Paper-I General St",
+  "q": "From which of the following place the indigenously developed Quick Reaction Surface-to-Air Missile (QRSAM) was test fired successfully in July 2017?",
+  "options": [
+   "Rajkot",
+   "Chandipur",
+   "Sriharikota",
+   "Kalpakkam"
+  ],
+  "key": 1,
+  "key_text": "Chandipur",
+  "explanation": "QRSAM, the indigenous quick-reaction SAM, was test-fired from the Integrated Test Range at Chandipur, Odisha, in 2017. Sriharikota is ISRO's launch port and Kalpakkam a nuclear site.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:48:4:4",
+    "text": null
+   },
+   {
+    "ref": "5:48:5:0.1",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y0e69a9bdb50",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 48,
+  "exam": "APPSC",
+  "q": "On 27 September 2021, DRDO tested a new version of the Akash Missile equipped with an active Radio Frequency (RF) seeker for improved accuracy. What is the name of this new version of Akash missile?",
+  "options": [
+   "Akash Next",
+   "Akash Prime",
+   "Akash Apex",
+   "Akash Blaze"
+  ],
+  "key": 1,
+  "key_text": "Akash Prime",
+  "explanation": "Akash Prime is the Akash version with an indigenous active RF seeker, first tested on 27 September 2021. Akash Next, Apex and Blaze are not Akash variants (the next-generation one is Akash-NG).",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:48:4:1.1",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "ye23e9c6225f",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 48,
+  "exam": "APPSC Divisional Accounts Officer (Mains) General Studies & ",
+  "q": "Which of the following islands has been renamed as Abdul Kalam Island?",
+  "options": [
+   "Cattle Island",
+   "Wheeler Island",
+   "Parikud Island",
+   "Kalijai Island"
+  ],
+  "key": 1,
+  "key_text": "Wheeler Island",
+  "explanation": "Wheeler Island off Odisha, India's missile test site, was renamed Dr APJ Abdul Kalam Island in 2015.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:48:5:0.0",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y7250317f5c9",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 48,
+  "exam": "APPSC",
+  "q": "Who is considered the 'Missile Woman' of India?",
+  "options": [
+   "Ritu Karidhal",
+   "Dr.Tessy Thomas",
+   "Muthiah Vanitha",
+   "Anuradha T K"
+  ],
+  "key": 1,
+  "key_text": "Dr.Tessy Thomas",
+  "explanation": "Dr Tessy Thomas is called the \"Missile Woman\" or \"Agniputri\" for leading Agni-IV and Agni-V. Ritu Karidhal and Muthiah Vanitha are ISRO mission scientists.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:48:6:0.1",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "yc56950e2d8c",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 49,
+  "exam": "APPSC Group-I 2003",
+  "q": "Which of the following is a supersonic cruise missile?",
+  "options": [
+   "Agni-I",
+   "Prithvi-II",
+   "Brahmos",
+   "Agni-III"
+  ],
+  "key": 2,
+  "key_text": "Brahmos",
+  "explanation": "BrahMos is the supersonic cruise missile; Agni-I, Agni-III and Prithvi-II are ballistic missiles.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:49:0:5.0",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "ya6ee7b4ef9c",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 49,
+  "exam": "APPSC Junior Lecturers General Studies & Mental Ability 2020",
+  "q": "Which supersonic cruise missile was successfully test-fired from a base in Odisha's Chandipur on 17 December 2019?",
+  "options": [
+   "Akash",
+   "Trishul 8",
+   "Barak 8",
+   "BrahMos"
+  ],
+  "key": 3,
+  "key_text": "BrahMos",
+  "explanation": "BrahMos, the supersonic cruise missile, was test-fired from ITR Chandipur in December 2019; Akash and Trishul are SAMs and Barak-8 is an Indo-Israeli SAM.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:49:0:8.7",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y22939d5c95b",
+  "pattern": "statements",
+  "book": 5,
+  "row": 49,
+  "exam": "APPSC Group-I 2004",
+  "q": "Which of the following statements regarding BrahMos, which was launched successfully on June 13, 2004, are true?\n\na. Essentially an anti-ship missile.\n\nb. Essentially an anti-aircraft missile.\n\nc. Produced at BrahMos Integration Complex at Mumbai.\n\nd. Flies at 2.8 times the speed of sound.\n\ne. 8 metres in height and 10 tons in weight.\nf. Can search for and locate an enemy ship 290 km away.\ng. The June 13 launch is the 7th launch from a mobile launcher.",
+  "options": [
+   "b, d, e, f",
+   "a, b, c, f",
+   "a, d, f, g",
+   "a, c, e, g"
+  ],
+  "key": 2,
+  "key_text": "a, d, f, g",
+  "explanation": "True: BrahMos is essentially an anti-ship missile (a), flies at about Mach 2.8 (d), can engage a ship 290 km away (f), and the 13 June 2004 firing was its seventh launch from a mobile launcher (g, the printed key). It is anti-ship, not anti-aircraft, and is integrated at Hyderabad, not Mumbai.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:49:0:8.2",
+    "text": null
+   },
+   {
+    "ref": "5:49:0:5.2",
+    "text": null
+   },
+   {
+    "ref": "5:49:0:3",
+    "text": "- **Production:** missiles are integrated at the **BrahMos Integration Complex, Kanchanbagh, Hyderabad** (first production unit; later Thiruvananthapuram, and **Lucknow** – BrahMos Integration and Testing Facility, inaugurated **11 May 2025**). Not Bangalore, Mumbai, Ludhiana or Dehradun."
+   }
+  ]
+ },
+ {
+  "id": "yaa27dd3c166",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 49,
+  "exam": "APPSC Group-2 PYQ",
+  "q": "BrahMos supersonic cruise missile is developed by the joint efforts of",
+  "options": [
+   "India and USA",
+   "India and Russia",
+   "India and France",
+   "India and Japan"
+  ],
+  "key": 1,
+  "key_text": "India and Russia",
+  "explanation": "BrahMos is a joint venture of India's DRDO (50.5%) and Russia's NPO Mashinostroyeniya (49.5%), set up under a 1998 inter-governmental agreement.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:49:0:1",
+    "text": "- **Joint venture of India and Russia:** **DRDO 50.5%** + **NPO Mashinostroyeniya (NPOM), Russia 49.5%** = **BrahMos Aerospace**, created by an Inter-Governmental Agreement signed in **Moscow, 1998** (not USA, France, Israel, Japan, China)."
+   }
+  ]
+ },
+ {
+  "id": "y181e23cef32",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 49,
+  "exam": "APPSC Group-I Prelims 2003",
+  "q": "Which of the following is a supersonic missile?",
+  "options": [
+   "Agni-1",
+   "Prithvi-2",
+   "BrahMos",
+   "Agni-3"
+  ],
+  "key": 2,
+  "key_text": "BrahMos",
+  "explanation": "BrahMos is the supersonic (cruise) missile; Agni and Prithvi are ballistic missiles.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:49:0:5.0",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "yc674f1aef44",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 49,
+  "exam": "APPSC Group-I Prelims 2003",
+  "q": "The supersonic anti-ship cruise missile BrahMos was successfully test-fired for the 3rd time on 12 February 2003. Where are these missiles manufactured?",
+  "options": [
+   "Ludhiana",
+   "Hyderabad",
+   "Dehradun",
+   "Bengaluru"
+  ],
+  "key": 1,
+  "key_text": "Hyderabad",
+  "explanation": "BrahMos missiles are integrated at the BrahMos Integration Complex, Kanchanbagh, Hyderabad (later also Thiruvananthapuram and Lucknow); not Ludhiana, Dehradun or Bengaluru.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:49:0:3",
+    "text": "- **Production:** missiles are integrated at the **BrahMos Integration Complex, Kanchanbagh, Hyderabad** (first production unit; later Thiruvananthapuram, and **Lucknow** – BrahMos Integration and Testing Facility, inaugurated **11 May 2025**). Not Bangalore, Mumbai, Ludhiana or Dehradun."
+   }
+  ]
+ },
+ {
+  "id": "yec4393be6af",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 49,
+  "exam": "APPSC Group-I Prelims 2010 (25-10-2010)",
+  "q": "Brahmos is a/an:",
+  "options": [
+   "anti-ship missile",
+   "anti-tank missile",
+   "anti-aircraft missile",
+   "satellite"
+  ],
+  "key": 0,
+  "key_text": "anti-ship missile",
+  "explanation": "BrahMos was designed primarily as an anti-ship (and land-attack) supersonic cruise missile; it is not anti-tank, anti-aircraft or a satellite.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:49:0:5.2",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y5fc86508c6f",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 49,
+  "exam": "APPSC Group-I 2003",
+  "q": "Brahmos, the supersonic Cruise missile was successfully flight-tested for the third time on February 12, 2003. Where will the missiles be produced in India?",
+  "options": [
+   "Ludhiana",
+   "Hyderabad",
+   "Dehradun",
+   "Bangalore"
+  ],
+  "key": 1,
+  "key_text": "Hyderabad",
+  "explanation": "BrahMos was (and is) produced at the BrahMos Integration Complex, Hyderabad, the venture's first production unit. Bangalore is wrong; the parallel copy of this APPSC 2003 question is keyed Hyderabad.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:49:0:3",
+    "text": "- **Production:** missiles are integrated at the **BrahMos Integration Complex, Kanchanbagh, Hyderabad** (first production unit; later Thiruvananthapuram, and **Lucknow** – BrahMos Integration and Testing Facility, inaugurated **11 May 2025**). Not Bangalore, Mumbai, Ludhiana or Dehradun."
+   }
+  ]
+ },
+ {
+  "id": "y2234f825088",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 49,
+  "exam": "APPSC Group-III Panchayat Secretary Mains Paper-I General St",
+  "q": "What is Hwasong - 14?",
+  "options": [
+   "A computer virus which wipes out data",
+   "Missile recently tested by North Korea",
+   "Fighter bomber recently developed by China",
+   "Satellite launch vehicle recently tested for moon mission of China"
+  ],
+  "key": 1,
+  "key_text": "Missile recently tested by North Korea",
+  "explanation": "Hwasong-14 is a North Korean ICBM, first tested in July 2017.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:49:1:3.5",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y70c3a8c47be",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 49,
+  "exam": "APPSC Group-I Prelims 2003",
+  "q": "On 26 March 2003 India successfully test-fired the Prithvi missile from Chandipur-on-Sea. On the same day Pakistan also test-fired a missile of the same capability. What is its name?",
+  "options": [
+   "Abdali",
+   "Ghauri-2",
+   "Husseini",
+   "Ghazni-1"
+  ],
+  "key": 0,
+  "key_text": "Abdali",
+  "explanation": "On 26 March 2003, hours after India's Prithvi test from Chandipur, Pakistan test-fired the short-range Abdali (Hatf-II) missile.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:49:1:3.0",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "yeeea263d518",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 49,
+  "exam": "APPSC Assistant Director of Fisheries in A.P. Fisheries Serv",
+  "q": "What is the name of the Medium Range Surface to Air Missile jointly developed by India and Israel?",
+  "options": [
+   "Barak",
+   "Brahmos",
+   "Pinaka",
+   "Karan"
+  ],
+  "key": 0,
+  "key_text": "Barak",
+  "explanation": "Barak-8 (MRSAM) is the medium-range surface-to-air missile developed jointly by DRDO and Israel Aerospace Industries. BrahMos is India-Russia, Pinaka a rocket launcher.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:49:1:1.2",
+    "text": null
+   }
+  ]
+ },
+ {
+  "id": "y96b6767a816",
+  "pattern": "one-liner",
+  "book": 5,
+  "row": 49,
+  "exam": "APPSC Group-1 PYQ",
+  "q": "Which of the following DRDO's missiles is used to destroy enemy radars and communication facilities?",
+  "options": [
+   "Akash missile",
+   "Trishul missile",
+   "Nag missile",
+   "Anti-radiation missile"
+  ],
+  "key": 3,
+  "key_text": "Anti-radiation missile",
+  "explanation": "Anti-radiation missiles (DRDO's Rudram-I, from the Su-30MKI) home on radar emissions to destroy enemy radars and communication sites; Akash is a SAM, Trishul a short-range SAM and Nag an anti-tank missile.",
+  "tags": [],
+  "notes": [
+   {
+    "ref": "5:49:3:0.0",
+    "text": null
+   }
+  ]
+ }
+]
