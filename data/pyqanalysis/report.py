@@ -65,13 +65,24 @@ def tbl(head, rows_, cls=""):
 def bar(n, mx): return f"<div class='bar' style='width:{int(140 * n / max(1, mx))}px'></div> {n}"
 
 out = ["<html><head><meta charset='utf-8'><style>",
-       "body{font-family:'Noto Sans',Arial,sans-serif;font-size:9.5pt;color:#111;margin:0} h1{color:#1e3a8a;font-size:20pt} h2{color:#fff;background:#1e3a8a;padding:5px 9px;font-size:13pt;margin-top:8mm;page-break-after:avoid}"
+       "@page{size:A4;margin:12mm 11mm 14mm 11mm} body{font-family:'Noto Sans',Arial,sans-serif;font-size:9.5pt;color:#111;margin:0} h1{color:#1e3a8a;font-size:20pt} h2{color:#fff;background:#1e3a8a;padding:5px 9px;font-size:13pt;margin-top:8mm;page-break-after:avoid}"
        "h3{color:#9a3412;font-size:11pt;margin:4mm 0 1mm} table{border-collapse:collapse;margin:2mm 0;width:100%} th,td{border:1px solid #cbd5e1;padding:3px 5px;text-align:left;vertical-align:top;font-size:8.8pt} th{background:#e2e8f0}"
        ".bar{display:inline-block;height:9px;background:#3b82f6;vertical-align:middle} .card{border:1px solid #cbd5e1;border-radius:5px;padding:6px 8px;margin:3mm 0;break-inside:avoid} .T{color:#065f46;font-weight:700} .F{color:#b91c1c;font-weight:700}"
        ".k{background:#fef3c7;padding:0 3px;border-radius:3px} .small{color:#64748b;font-size:8pt} p{margin:1.5mm 0}</style></head><body>"]
 P = Counter(r.get("pattern") for r in rows)
 out.append(f"<h1>How APPSC makes a statement true or false — pilot report</h1><p>{len(rows)} APPSC past-paper questions (2022–26 first; every pattern, every subject) taken apart unit by unit: "
            f"{len(all_units)} units ({len(T_units)} true, {len(F_units)} false; {len(F_units)-len(core_F)} of the false ones are the wrong pairs that match-question distractors offer).</p>")
+out.append('''<h2>Rulebook in one page (pilot, 300 APPSC PYQs)</h2><ol>
+<li><b>Most false statements are made by swapping one fact, not by changing the language.</b> Top changes: a <b>number</b> changed, a <b>place</b> swapped, the wrong <b>category</b>, a <b>made-up item</b>, a property moved to the wrong thing, the wrong <b>organisation / scheme</b>. So for every statement ask: <i>which number, name, place or body here could have been swapped?</i></li>
+<li><b>Words that point to FALSE</b> (share of statements carrying them that were false, base rate 43%): <b>negation</b> 68% · <b>modal</b> (must/shall/may in a legal sense) 62% · <b>quantifier</b> (most/majority/at least) 58% · <b>absolute</b> (only/all/never/always) 57% · <b>causal</b> (because/due to/leads to) 56% · <b>agent</b> (launched/set up/written by X) 54%.</li>
+<li><b>Words that point to TRUE</b>: a <b>hedge</b> (some/may/generally/one of the) – 0 of 15 false · two claims joined by <b>and / both</b> – 24% false · a <b>definition</b> ("X is / means") – 40% false.</li>
+<li><b>Multi-statement questions:</b> usually exactly <b>one</b> statement is false (33 of 69), sometimes two (17); 13 had none false ("all correct"). The false one is most often <b>statement 2 or 3</b>, rarely the last. Decide the statement you are surest of and strike out the options – this alone reached the key in 56 of 69.</li>
+<li><b>Match questions:</b> one sure pair kills 2–3 options (41 of 45 solved by anchoring); look for an item that can fit only one place.</li>
+<li><b>Assertion–reason:</b> APPSC's keys spread over all four outcomes – "both true, R explains A" is not the default. Test A, then R, then read "A because R" aloud.</li>
+<li><b>NOT / except:</b> turn it into "which three are true" – the three true options share a pattern, the false one breaks it.</li>
+<li><b>Sequence:</b> fix the first and last item (16 of 20); the middle follows.</li>
+<li><b>One-liners</b> are mostly pure recall (65 of 90): here knowledge decides. The odd-one-out and same-class checks rescue the rest.</li>
+</ol>''')
 out.append(tbl(["Pattern", "Questions"], [[html.escape(k), v] for k, v in P.most_common()]))
 out.append("<h2>1. How a false statement is made (what the examiner changed)</h2>")
 mx = max(chg.values())
