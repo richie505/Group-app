@@ -40,12 +40,16 @@ chg_by_p = defaultdict(Counter); chg_by_b = defaultdict(Counter)
 for u in core_F:
     chg_by_p[u["_p"]][u.get("change")] += 1; chg_by_b[SUBJ.get(u["_b"], "?")][u.get("change")] += 1
 # english rules: share of units carrying the rule that are FALSE
-er_T, er_F = Counter(), Counter()
+STMT_P = {"statements", "assertion", "sequence"}
+er_T, er_F = Counter(), Counter(); oT, oF = Counter(), Counter(); sb = [0, 0]; ob = [0, 0]
 for u in all_units:
     if u["_distr"]: continue
+    st_ = u["_p"] in STMT_P
+    (sb if st_ else ob)[u.get("truth") == "F"] += 1
     for e in set(u.get("english_rule") or []):
-        (er_F if u.get("truth") == "F" else er_T)[e] += 1
-base_F = len(core_F) / max(1, len(core_F) + len([u for u in T_units]))
+        if st_: (er_F if u.get("truth") == "F" else er_T)[e] += 1
+        else: (oF if u.get("truth") == "F" else oT)[e] += 1
+base_F = sb[1] / max(1, sum(sb)); base_O = ob[1] / max(1, sum(ob))
 cue = Counter()
 for u in core_F:
     for w in u.get("cue_words") or []:
@@ -96,8 +100,8 @@ for r in ar:
     if len(t) >= 2:
         aro[("A✓" if t[0] == "T" else "A✗") + " " + ("R✓" if t[1] == "T" else "R✗") + ((" explains" if len(t) > 2 and t[2] == "T" else " not-explain") if t[0] == "T" and t[1] == "T" else "")] += 1
 top = ", ".join(f"<b>{CHANGE.get(k,k).lower()}</b> ({v})" for k, v in chg.most_common(6))
-warn = [e for e in sorted(set(er_T) | set(er_F), key=lambda e: -share(e)[0]) if share(e)[1] >= 30 and share(e)[0] > base_F * 100 + 8]
-lean = [e for e in sorted(set(er_T) | set(er_F), key=lambda e: share(e)[0]) if share(e)[1] >= 30 and share(e)[0] < base_F * 100 - 8]
+warn = [e for e in sorted(set(er_T) | set(er_F), key=lambda e: -share(e)[0]) if share(e)[1] >= 30 and share(e)[0] > base_F * 100 + 6]
+lean = [e for e in sorted(set(er_T) | set(er_F), key=lambda e: share(e)[0]) if share(e)[1] >= 30 and share(e)[0] < base_F * 100 - 6]
 out.append(f"<h2>Rulebook in one page ({len(rows):,} APPSC PYQs)</h2><ol>"
  f"<li><b>Most false statements are made by swapping one fact, not by changing the language.</b> Top changes: {top}. For every statement ask: <i>which number, name, place, date or body here could have been swapped?</i></li>"
  f"<li><b>Words that point to FALSE</b> (share of statements carrying them that were false; base rate {base_F*100:.0f}%): " + " · ".join(f"<b>{e.lower()}</b> {share(e)[0]:.0f}%" for e in warn) + "</li>"
@@ -119,7 +123,7 @@ out.append(tbl(["Pattern"] + codes, [[p] + [chg_by_p[p][c] or "" for c in codes]
 out.append("<h3>By subject</h3>")
 out.append(tbl(["Subject"] + codes, [[s] + [chg_by_b[s][c] or "" for c in codes] for s in chg_by_b]))
 out.append("<h2>2. English rules — how often a statement carrying the cue is false</h2>"
-           f"<p>Base rate: {base_F*100:.0f}% of units are false. A rule well above the base rate is a warning sign; well below is a sign of a true statement.</p>")
+           f"<p>Measured on the numbered statements, assertion/reason parts, and sequence steps ({sum(sb):,} units), where a statement can freely be true or false. Base rate: {base_F*100:.0f}% false. A rule well above the base rate is a warning sign; well below leans true. (One-liner options are shown separately below, because 3 of 4 options are false by design.)</p>")
 rws = []
 for e in sorted(set(er_T) | set(er_F), key=lambda e: -(er_T[e] + er_F[e])):
     n = er_T[e] + er_F[e]
@@ -127,6 +131,13 @@ for e in sorted(set(er_T) | set(er_F), key=lambda e: -(er_T[e] + er_F[e])):
     pf = er_F[e] / n * 100
     rws.append([f"<b>{e}</b>", n, f"{pf:.0f}% false", "⬆ warning" if pf > base_F * 100 + 12 else ("⬇ leans true" if pf < base_F * 100 - 12 else "")])
 out.append(tbl(["English rule", "Units", "False share", "Signal"], rws))
+rw2 = []
+for e in sorted(set(oT) | set(oF), key=lambda e: -(oT[e] + oF[e])):
+    n = oT[e] + oF[e]
+    if n < 10: continue
+    pf = oF[e] / n * 100
+    rw2.append([f"<b>{e}</b>", n, f"{pf:.0f}% false", "⬆ distractor sign" if pf > base_O * 100 + 6 else ("⬇ often the key" if pf < base_O * 100 - 6 else "")])
+out.append(f"<h3>One-liner / NOT options (base rate {base_O*100:.0f}% false)</h3>" + tbl(["English rule", "Options", "False share", "Signal"], rw2))
 out.append("<h3>Cue words seen in false statements</h3><p>" + " · ".join(f"<span class='k'>{html.escape(w)}</span> {n}" for w, n in cue.most_common(45)) + "</p>")
 out.append("<h2>3. How to reach the key (techniques)</h2>")
 mx = max(tech.values())
