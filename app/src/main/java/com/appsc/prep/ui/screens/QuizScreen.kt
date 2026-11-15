@@ -339,6 +339,7 @@ internal fun QuizRound(
     fun pick(i: Int) {
         if (answered || q.kind == 'f' || i !in q.options.indices) return
         picks[index] = i
+        store.recordPick(q.id, i)
         // an answer seen first ("Show the answer") is practice: attempted, not scored
         if (q.kind == 'u' || q.id in revealed) store.markSeen(q.id, viewed = q.id in revealed) else store.recordAnswer(q.id, i == q.answer)
     }
@@ -931,9 +932,20 @@ private fun ReviewList(
                             Text(q.answerText.removePrefix("ANS.").trim().ifBlank { "—" }, style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = C.Navy))
                         }
                         else -> {
-                            q.options.forEachIndexed { oi, opt -> OptionCard(oi, opt, picked = if (q.answer >= 0) q.answer else -1, answer = q.answer) {} }
+                            // the option picked the latest time (kept since 3.54): a wrong pick shows in red beside the key
+                            val mine = store.picks[q.id]?.takeIf { it in q.options.indices }
+                            val shownPick = mine ?: if (q.answer >= 0) q.answer else -1
+                            q.options.forEachIndexed { oi, opt -> OptionCard(oi, opt, picked = shownPick, answer = q.answer) {} }
+                            if (mine != null && q.scored && mine != q.answer) {
+                                Text(
+                                    "Your answer: (${mine + 1}) ${q.options[mine]}",
+                                    style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.High),
+                                    modifier = Modifier.padding(top = 4.dp),
+                                )
+                            }
                             Spacer(Modifier.height(6.dp))
-                            if (!q.scored) UnscoredNote(q) else Explanation(q, correct = true, picked = q.answer, onOpenNotes = onOpenNotes, review = true)
+                            if (!q.scored) UnscoredNote(q)
+                            else Explanation(q, correct = mine == null || mine == q.answer, picked = mine ?: q.answer, onOpenNotes = onOpenNotes, review = mine == null || mine == q.answer)
                         }
                     }
                 }

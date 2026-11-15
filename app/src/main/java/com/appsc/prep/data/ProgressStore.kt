@@ -70,6 +70,11 @@ class ProgressStore(private val prefs: Storage) {
         prefs.getStringSet(KEY_ANSWERS).associate { it.substringBefore(':') to it.endsWith(":1") },
     )
         private set
+    /** The option picked on the latest attempt: question id -> option index (shown again in the finished-MCQs review). */
+    var picks by mutableStateOf(
+        prefs.getStringSet(KEY_PICKS).mapNotNull { e -> e.substringAfterLast(':').toIntOrNull()?.let { e.substringBeforeLast(':') to it } }.toMap(),
+    )
+        private set
     /** Unscored questions (no key / cancelled) that have been attempted. */
     var seen by mutableStateOf(prefs.getStringSet(KEY_SEEN).toSet())
         private set
@@ -303,6 +308,13 @@ class ProgressStore(private val prefs: Storage) {
         markActive()
     }
 
+    /** Keeps the option picked for this MCQ (its latest attempt). */
+    fun recordPick(questionId: String, option: Int) {
+        if (option < 0 || picks[questionId] == option) return
+        picks = picks + (questionId to option)
+        prefs.putStringSet(KEY_PICKS, picks.map { (k, v) -> "$k:$v" }.toSet())
+    }
+
     fun attempted(questionId: String) = questionId in answers || questionId in seen
 
     fun needsPractice(questionId: String) = needsPractice(questionId, answers, seen)
@@ -484,6 +496,7 @@ class ProgressStore(private val prefs: Storage) {
         set("dates", activeDates)
         set("answers", answers.map { (k, v) -> "$k:${if (v) 1 else 0}" })
         set("seen", seen)
+        set("picks", picks.map { (k, v) -> "$k:$v" })
         set("missed", missed)
         set("hist", hist.map { (k, v) -> v.encode(k) })
         set("noteRounds", noteRounds)
@@ -558,6 +571,12 @@ class ProgressStore(private val prefs: Storage) {
         }
         answers = answers + inAnswers
         prefs.putStringSet(KEY_ANSWERS, answers.map { (k, v) -> "$k:${if (v) 1 else 0}" }.toSet())
+        // picked options: this device's own latest pick wins
+        val inPicks = list("picks").mapNotNull { e -> e.substringAfterLast(':').toIntOrNull()?.let { e.substringBeforeLast(':') to it } }.toMap()
+        if (inPicks.isNotEmpty()) {
+            picks = inPicks + picks
+            prefs.putStringSet(KEY_PICKS, picks.map { (k, v) -> "$k:$v" }.toSet())
+        }
         seen = seen + list("seen").flatMap(::linked)
         prefs.putStringSet(KEY_SEEN, seen)
         missed = missed + list("missed").flatMap(::linked) + inAnswers.filterValues { !it }.keys
@@ -642,6 +661,7 @@ class ProgressStore(private val prefs: Storage) {
         const val KEY_SPEECH_SCOPE = "speech_scope"
         const val KEY_ANSWERS = "answers"
         const val KEY_SEEN = "seen"
+        const val KEY_PICKS = "picks"
         const val KEY_HIST = "mcq_hist"
         const val KEY_NOTES_MODE = "notes_mode"
         const val KEY_MISSED = "missed"

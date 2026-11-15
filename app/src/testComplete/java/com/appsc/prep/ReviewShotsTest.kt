@@ -50,7 +50,10 @@ class ReviewShotsTest {
     private fun app(): AppState {
         val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
         val mcq = runBlocking { app.repo.book(4); app.repo.mcq(4) }
-        mcq.subQuestions(10, 3).forEachIndexed { i, q -> if (i == 2) app.store.markSeen(q.id, viewed = true) else app.store.recordAnswer(q.id, i % 4 != 1) }
+        mcq.subQuestions(10, 3).forEachIndexed { i, q ->
+            if (i == 2) app.store.markSeen(q.id, viewed = true) else app.store.recordAnswer(q.id, i % 4 != 1)
+            if (i != 2 && q.options.isNotEmpty() && q.answer >= 0) app.store.recordPick(q.id, if (i % 4 == 1) (q.answer + 1) % q.options.size else q.answer)
+        }
         mcq.subQuestions(10, 0).take(12).forEach { app.store.recordAnswer(it.id, true) }
         return app
     }
