@@ -77,6 +77,8 @@ class ReviewShotsTest {
         rule.onNode(hasScrollAction()).performScrollToNode(hasText("You answered wrong", substring = true))
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/review/4_review_wrong_one.png")
+        rule.onNode(hasScrollAction()).performScrollToNode(hasText("All 10 finished", substring = true))
+        rule.waitForIdle()
         rule.onNodeWithText("Wrong").performClick()
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/review/5_review_filter_wrong.png")
