@@ -146,13 +146,16 @@ suspend fun duePool(app: com.appsc.prep.ui.components.AppState, day: Int = 0): L
 
 /**
  * mode: "new" = unattempted ones, "wrong" = answered wrong, "practice" = wrong or answered after seeing the answer
- * ([needsPractice]), "all" = every question in order. The whole section comes in one run.
+ * ([needsPractice]), "all" = every question in order, "review" = the finished ones with their keys and explanations
+ * (read, not answered again). The whole section comes in one run.
  */
 fun pickSet(pool: List<Question>, answers: Map<String, Boolean>, seen: Set<String>, mode: String): List<Question> {
     val chosen = when (mode) {
         "wrong" -> pool.filter { answers[it.id] == false }
         "practice" -> pool.filter { it.scored && needsPractice(it.id, answers, seen) }
         "new" -> pool.filter { it.id !in answers && it.id !in seen }.ifEmpty { pool }
+        // the finished ones (answered, or answer seen), each with its key and explanation, to read through
+        "review" -> pool.filter { it.id in answers || it.id in seen }
         else -> pool
     }
     return chosen
@@ -236,6 +239,11 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
             }
             return@Column
         }
+        // every MCQ here already finished: "Practise" opens the review of them (key + explanation) instead of
+        // running them all again; "Practise again" there runs them as a quiz
+        LaunchedEffect(pool) {
+            if (currentMode == "new" && round == 0 && pool.isNotEmpty() && pool.all { store.attempted(it.id) }) currentMode = "review"
+        }
         // freeze the set for this round
         val set = remember(pool, round, currentMode) { pickSet(pool, store.answers, store.seen, currentMode) }
         if (set.isEmpty()) {
@@ -250,6 +258,16 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
         // on a wide window the whole quiz (progress, question, buttons) stays in one centred column
         Box(Modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter) {
             Box(Modifier.widthIn(max = 900.dp).fillMaxSize()) {
+                if (currentMode == "review") {
+                    androidx.compose.runtime.SideEffect { canEdit.value = false; shown.value = null }
+                    ReviewList(
+                        set = set.map { it.edited(store.edits[it.id]) },
+                        pool = pool,
+                        onNext = { m -> currentMode = m; round++ },
+                        onOpenNotes = { b, r, sec -> nav.read(b, r, sec) },
+                    )
+                    return@Box
+                }
                 QuizRound(
                     key = "$round-$currentMode",
                     set = set,
@@ -550,17 +568,17 @@ private fun UnscoredNote(q: Question) {
 }
 
 @Composable
-private fun Explanation(q: Question, correct: Boolean, picked: Int, onOpenNotes: (Int, Int, Int) -> Unit, onGoogle: (() -> Unit)? = null, onPeek: (() -> Unit)? = null) {
+private fun Explanation(q: Question, correct: Boolean, picked: Int, onOpenNotes: (Int, Int, Int) -> Unit, onGoogle: (() -> Unit)? = null, onPeek: (() -> Unit)? = null, review: Boolean = false) {
     Column(
         Modifier
             .fillMaxWidth()
             .clip(RoundedCornerShape(12.dp))
-            .background(if (correct) C.GreenSoft else C.HighSoft)
+            .background(if (correct || review) C.GreenSoft else C.HighSoft)
             .padding(14.dp),
     ) {
         Text(
-            if (correct) "Correct!" else "Answer: (${q.answer + 1}) ${q.options.getOrElse(q.answer) { "" }}",
-            style = TextStyle(fontSize = 15.sp, lineHeight = 21.sp, fontWeight = FontWeight.Bold, color = if (correct) C.Green else C.High),
+            if (correct && !review) "Correct!" else "Answer: (${q.answer + 1}) ${q.options.getOrElse(q.answer) { "" }}",
+            style = TextStyle(fontSize = 15.sp, lineHeight = 21.sp, fontWeight = FontWeight.Bold, color = if (correct || review) C.Green else C.High),
         )
         if (q.solution.isNotEmpty()) {
             Solution(q, correct, picked)
@@ -789,6 +807,142 @@ private fun QuestionTable(rows: List<List<String>>) {
     }
 }
 
+/**
+ * The finished MCQs of a section / subsection / day, one after another: the question, every option with the key in
+ * green, how it went the latest time, and the explanation - to read through instead of answering them all again.
+ */
+@Composable
+@OptIn(ExperimentalLayoutApi::class)
+private fun ReviewList(
+    set: List<Question>,
+    pool: List<Question>,
+    onNext: (String) -> Unit,
+    onOpenNotes: (book: Int, row: Int, sec: Int) -> Unit,
+) {
+    val store = LocalApp.current.store
+    var filter by rememberSaveable { mutableStateOf("all") }
+    val right = set.count { store.answers[it.id] == true }
+    val wrong = set.count { store.answers[it.id] == false }
+    val seenOnly = set.size - right - wrong
+    val left = pool.size - pool.count { store.attempted(it.id) }
+    val shownSet = when (filter) {
+        "wrong" -> set.filter { store.answers[it.id] == false }
+        "right" -> set.filter { store.answers[it.id] == true }
+        "seen" -> set.filter { it.id !in store.answers }
+        else -> set
+    }
+    PageList(Modifier.fillMaxSize(), max = 900.dp) {
+        item(key = "review-head") {
+            Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 14.dp, bottom = 4.dp)) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Icon(Icons.Filled.CheckCircle, null, tint = C.Green, modifier = Modifier.size(22.dp))
+                    Spacer(Modifier.width(8.dp))
+                    Text(
+                        if (left == 0) "All ${pool.size} finished" else "${set.size} of ${pool.size} finished",
+                        style = TextStyle(fontSize = 20.sp, fontWeight = FontWeight.Bold, color = C.Ink),
+                    )
+                }
+                Text(
+                    "Answers and explanations of the finished MCQs — read through them, no need to answer again.",
+                    style = TextStyle(fontSize = 13.sp, lineHeight = 18.sp, color = C.Muted),
+                    modifier = Modifier.padding(top = 4.dp),
+                )
+                Spacer(Modifier.height(10.dp))
+                Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                    @Composable
+                    fun chip(label: String, n: Int, key: String, ink: Color, bg: Color, m: Modifier) {
+                        val on = filter == key
+                        Column(
+                            m.clip(RoundedCornerShape(10.dp))
+                                .background(if (on) bg else C.Chip)
+                                .border(1.5.dp, if (on) ink else Color.Transparent, RoundedCornerShape(10.dp))
+                                .clickable(enabled = n > 0 || key == "all") { filter = key }
+                                .padding(vertical = 7.dp),
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                        ) {
+                            Text("$n", style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.Bold, color = if (n > 0) ink else C.Faint))
+                            Text(label, style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Medium, color = if (n > 0) ink else C.Faint), maxLines = 1)
+                        }
+                    }
+                    chip("All", set.size, "all", C.ExamInk, C.ExamBg, Modifier.weight(1f))
+                    chip("Correct", right, "right", C.Green, C.GreenSoft, Modifier.weight(1f))
+                    chip("Wrong", wrong, "wrong", C.High, C.HighSoft, Modifier.weight(1f))
+                    chip("Answer seen", seenOnly, "seen", C.Med, C.MedSoft, Modifier.weight(1f))
+                }
+                Spacer(Modifier.height(10.dp))
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    if (left > 0) {
+                        Button(
+                            onClick = { onNext("new") },
+                            modifier = Modifier.weight(1f).height(44.dp),
+                            shape = RoundedCornerShape(10.dp),
+                            colors = ButtonDefaults.buttonColors(containerColor = C.Accent),
+                            contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 6.dp),
+                        ) { Text("Practise $left left", style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold), maxLines = 1) }
+                    }
+                    if (wrong > 0) {
+                        OutlinedButton(
+                            onClick = { onNext("wrong") },
+                            modifier = Modifier.weight(1f).height(44.dp),
+                            shape = RoundedCornerShape(10.dp),
+                            contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 6.dp),
+                        ) { Text("Retry $wrong wrong", color = C.High, style = TextStyle(fontSize = 13.sp), maxLines = 1) }
+                    }
+                    OutlinedButton(
+                        onClick = { onNext("all") },
+                        modifier = Modifier.weight(1f).height(44.dp),
+                        shape = RoundedCornerShape(10.dp),
+                        contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 6.dp),
+                    ) { Text("Practise again", color = C.Ink, style = TextStyle(fontSize = 13.sp), maxLines = 1) }
+                }
+                Spacer(Modifier.height(6.dp))
+            }
+        }
+        shownSet.forEachIndexed { i, q ->
+            item(key = "rv-${q.id}") {
+                val result = store.answers[q.id]
+                Column(
+                    Modifier.padding(horizontal = 14.dp, vertical = 6.dp).fillMaxWidth()
+                        .clip(RoundedCornerShape(14.dp)).border(1.dp, C.Line, RoundedCornerShape(14.dp))
+                        .background(Color.White).padding(14.dp),
+                ) {
+                    FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                        Tag("Q${i + 1}", C.AccentSoft, C.Accent)
+                        when (result) {
+                            true -> Tag("✓ You got it right", C.GreenSoft, C.Green)
+                            false -> Tag("✗ You answered wrong", C.HighSoft, C.High)
+                            null -> Tag("Answer seen", C.MedSoft, C.Med)
+                        }
+                        if (q.appsc) Tag("APPSC", C.ExamBg, C.ExamInk)
+                        if (q.source.isNotBlank()) Tag(q.source)
+                        for (tg in q.tags) when (tg) {
+                            "outdated" -> Tag("⚠ Outdated", C.HighSoft, C.High)
+                            "added" -> Tag("Option added", C.AccentSoft, C.Accent)
+                            "disputed" -> Tag("Disputed", C.MedSoft, C.Med)
+                        }
+                    }
+                    Spacer(Modifier.height(8.dp))
+                    Text(q.stem, style = TextStyle(fontSize = 16.sp, lineHeight = 23.sp, fontWeight = FontWeight.Medium, color = Color.Black))
+                    if (q.table.isNotEmpty()) QuestionTable(q.table)
+                    Spacer(Modifier.height(8.dp))
+                    when {
+                        q.kind == 'f' -> Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(C.AccentSoft).padding(14.dp)) {
+                            Text("ANSWER", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
+                            Text(q.answerText.removePrefix("ANS.").trim().ifBlank { "—" }, style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = C.Navy))
+                        }
+                        else -> {
+                            q.options.forEachIndexed { oi, opt -> OptionCard(oi, opt, picked = if (q.answer >= 0) q.answer else -1, answer = q.answer) {} }
+                            Spacer(Modifier.height(6.dp))
+                            if (!q.scored) UnscoredNote(q) else Explanation(q, correct = true, picked = q.answer, onOpenNotes = onOpenNotes, review = true)
+                        }
+                    }
+                }
+            }
+        }
+        item { Spacer(Modifier.height(24.dp)) }
+    }
+}
+
 @Composable
 private fun Results(
     set: List<Question>,
@@ -841,6 +995,21 @@ private fun Results(
                     ProgressLine(attempted / pool.size.toFloat())
                 }
                 Spacer(Modifier.height(18.dp))
+                if (attempted > 0) {
+                    // the finished ones with their keys and explanations, to read through without answering again
+                    Button(
+                        onClick = { onNext("review") },
+                        modifier = Modifier.fillMaxWidth().height(50.dp),
+                        shape = RoundedCornerShape(12.dp),
+                        colors = ButtonDefaults.buttonColors(containerColor = if (remaining == 0) C.Green else C.ExamInk),
+                    ) {
+                        Text(
+                            if (remaining == 0) "Finished all $attempted · review answers" else "Review the $attempted finished · answers",
+                            style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
+                        )
+                    }
+                    Spacer(Modifier.height(10.dp))
+                }
                 if (remaining > 0) {
                     Button(
                         onClick = { onNext("new") },

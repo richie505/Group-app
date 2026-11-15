@@ -215,6 +215,15 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav, day: Int = 0) {
                                         if (subSets.wrong > 0) {
                                             Tag("${subSets.wrong} wrong", C.HighSoft, C.High, modifier = Modifier.clickable { nav.quiz("sub", bookId, rowIndex, "wrong", sub = i) })
                                         }
+                                        // finished ones: their keys and explanations, without answering again
+                                        val fin = subQ - subSets.unattempted
+                                        if (fin > 0) {
+                                            Tag(
+                                                if (fin == subQ) "✓ Finished · review" else "✓ $fin review",
+                                                C.GreenSoft, C.Green,
+                                                modifier = Modifier.clickable { nav.quiz("sub", bookId, rowIndex, "review", sub = i) },
+                                            )
+                                        }
                                     }
                                 }
                             }

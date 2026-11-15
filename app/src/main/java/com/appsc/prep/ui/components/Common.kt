@@ -498,6 +498,25 @@ fun PracticeCard(
                         style = TextStyle(fontSize = 12.sp, color = C.Muted),
                     )
                 }
+                if (sets != null && a > 0) {
+                    // the finished ones with their keys and explanations, to read instead of answering them all again
+                    Row(
+                        Modifier.padding(top = 10.dp).fillMaxWidth().clip(RoundedCornerShape(10.dp))
+                            .background(if (a == t) C.GreenSoft else C.Surface)
+                            .clickable { onSet("review") }
+                            .padding(horizontal = 12.dp, vertical = 10.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                    ) {
+                        Icon(Icons.Filled.CheckCircle, null, tint = C.Green, modifier = Modifier.size(18.dp))
+                        Spacer(Modifier.width(8.dp))
+                        Text(
+                            if (a == t) "All $t finished · review answers & explanations" else "$a finished · review answers & explanations",
+                            style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.SemiBold, color = C.Green),
+                            modifier = Modifier.weight(1f),
+                        )
+                        Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Green, modifier = Modifier.size(18.dp))
+                    }
+                }
                 if (onWrong != null && sets == null && a - c > 0) {
                     Text(
                         "Retry ${a - c} wrong answers",

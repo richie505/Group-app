@@ -1,0 +1,105 @@
+package com.appsc.prep
+
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.ui.test.hasScrollAction
+import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.junit4.createComposeRule
+import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.onRoot
+import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performScrollToNode
+import androidx.test.core.app.ApplicationProvider
+import com.appsc.prep.data.ProgressStore
+import com.appsc.prep.data.Repository
+import com.appsc.prep.platform.AndroidPlatform
+import com.appsc.prep.platform.PrefsStorage
+import com.appsc.prep.ui.components.AppState
+import com.appsc.prep.ui.components.LocalApp
+import com.appsc.prep.ui.screens.Nav
+import com.appsc.prep.ui.screens.QuizScreen
+import com.appsc.prep.ui.screens.QuizSource
+import com.appsc.prep.ui.screens.SectionScreen
+import com.appsc.prep.ui.theme.PrepTheme
+import com.github.takahirom.roborazzi.captureRoboImage
+import kotlinx.coroutines.runBlocking
+import org.junit.Assert.assertTrue
+import org.junit.Rule
+import org.junit.Test
+import org.junit.runner.RunWith
+import org.robolectric.RobolectricTestRunner
+import org.robolectric.annotation.Config
+import org.robolectric.annotation.GraphicsMode
+
+/** "Finished · review": the finished MCQs of a section / subsection with their keys and explanations. */
+@RunWith(RobolectricTestRunner::class)
+@GraphicsMode(GraphicsMode.Mode.NATIVE)
+@Config(sdk = [34], qualifiers = "w400dp-h860dp-xxhdpi")
+class ReviewShotsTest {
+    @get:Rule val rule = createComposeRule()
+    private val ctx get() = ApplicationProvider.getApplicationContext<android.content.Context>()
+    private val nav = object : Nav {
+        override fun quiz(kind: String, book: Int, index: Int, mode: String, sub: Int) {}
+        override fun day(n: Int) {}
+        override fun row(book: Int, row: Int) {}
+        override fun read(book: Int, row: Int, sec: Int) {}
+        override fun book(id: Int) {}
+        override fun back() {}
+    }
+
+    /** Book 4 row 10: subsection 3 all finished (two wrong), subsection 0 half done. */
+    private fun app(): AppState {
+        val app = AppState(Repository { ctx.assets.open(it) }, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
+        val mcq = runBlocking { app.repo.book(4); app.repo.mcq(4) }
+        mcq.subQuestions(10, 3).forEachIndexed { i, q -> if (i == 2) app.store.markSeen(q.id, viewed = true) else app.store.recordAnswer(q.id, i % 4 != 1) }
+        mcq.subQuestions(10, 0).take(12).forEach { app.store.recordAnswer(it.id, true) }
+        return app
+    }
+
+    private fun show(app: AppState, content: @androidx.compose.runtime.Composable () -> Unit) {
+        rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { content() } } }
+        rule.waitForIdle()
+        rule.mainClock.advanceTimeBy(1500)
+        rule.waitForIdle()
+    }
+
+    @Test fun sectionShowsFinishedReview() {
+        show(app()) { SectionScreen(4, 10, nav) }
+        rule.onRoot().captureRoboImage("screenshots/review/1_section_subsections.png")
+        rule.onNode(hasScrollAction()).performScrollToNode(hasText("review answers & explanations", substring = true))
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/review/2_section_practice_card.png")
+    }
+
+    @Test fun reviewListShowsKeysAndExplanations() {
+        show(app()) { QuizScreen(QuizSource("sub", 4, 10, 3), "review", "Subsection MCQs", nav) }
+        rule.onNodeWithText("All 10 finished", substring = true).assertExists()
+        rule.onRoot().captureRoboImage("screenshots/review/3_review_top.png")
+        rule.onNode(hasScrollAction()).performScrollToNode(hasText("You answered wrong", substring = true))
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/review/4_review_wrong_one.png")
+        rule.onNodeWithText("Wrong").performClick()
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/review/5_review_filter_wrong.png")
+    }
+
+    /** "Practise" on a subsection already all finished opens the review, not the same MCQs again. */
+    @Test fun practiseWhenAllFinishedOpensReview() {
+        show(app()) { QuizScreen(QuizSource("sub", 4, 10, 3), "new", "Subsection MCQs", nav) }
+        assertTrue(rule.onAllNodes(hasText("All 10 finished", substring = true)).fetchSemanticsNodes().isNotEmpty())
+    }
+
+    /** At the end of a quiz: "Finished all · review answers". */
+    @Test fun resultsOfferTheReview() {
+        val app = app()
+        val qs = runBlocking { app.repo.mcq(4) }.subQuestions(10, 8)
+        show(app) { QuizScreen(QuizSource("sub", 4, 10, 8), "all", "Subsection MCQs", nav) }
+        qs.forEachIndexed { i, q ->
+            if (q.options.isNotEmpty()) rule.onNodeWithText(q.options[(q.answer.coerceAtLeast(0) + (i % 2)) % q.options.size], substring = false).performClick()
+            rule.waitForIdle()
+            rule.onNodeWithText(if (i == qs.size - 1) "See results" else "Next").performClick()
+            rule.waitForIdle()
+        }
+        rule.onNodeWithText("Finished all", substring = true).assertExists()
+        rule.onRoot().captureRoboImage("screenshots/review/6_results_finished_all.png")
+    }
+}
