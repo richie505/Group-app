@@ -34,6 +34,38 @@ th { background: #e2e8f0; } tr { break-inside: avoid; }
 table.wide { column-span: all; font-size: 7.2pt; }
 """
 
+def render_row(r, out):
+    pieces = 0
+    out.append(f"<h2 class='r'>{html.escape(r['title'])}</h2>")
+    meta = " · ".join(x for x in [", ".join(r.get("codes") or []), r.get("tag", ""), ("Asked: " + r["pyq"]) if r.get("pyq") else ""] if x)
+    if r.get("sub"): meta += (" · " if meta else "") + "; ".join(r["sub"])
+    if meta: out.append(f"<div class='meta'>{html.escape(meta)}</div>")
+    for s in r["secs"]:
+        if not s["b"]: continue
+        out.append(f"<h3 class='s'>{html.escape(s['t'])}</h3>")
+        inul = False
+        for bl in s["b"]:
+            k = bl["k"]
+            if k == "b":
+                if not inul: out.append("<ul>"); inul = True
+                out.append(f"<li>{runs(bl['x'])}</li>"); pieces += 1; continue
+            if inul: out.append("</ul>"); inul = False
+            if k == "h": out.append(f"<h4>{runs(bl['x'])}</h4>")
+            elif k == "x": out.append(f"<div class='x'>★ {runs(bl['x'])}</div>")
+            elif k == "s": out.append(f"<div class='w'>{runs(bl['x'])}</div>")
+            elif k == "p": out.append(f"<div class='p'>{runs(bl['x'])}</div>")
+            elif k == "n": out.append(f"<div class='n'>{runs(bl['x'])}</div>")
+            elif k == "t":
+                cls = " class='wide'" if len(bl["h"]) >= 5 else ""
+                t = f"<table{cls}><tr>" + "".join(f"<th>{runs(h) if isinstance(h, list) else html.escape(str(h))}</th>" for h in bl["h"]) + "</tr>"
+                for row in bl["r"]:
+                    t += "<tr>" + "".join(f"<td>{runs(c)}</td>" for c in row) + "</tr>"
+                out.append(t + "</table>")
+            pieces += 1
+        if inul: out.append("</ul>")
+
+    return pieces
+
 def build(b):
     book = json.load(open(f"{A}/book{b}.json"))
     out = [f"<html><head><meta charset='utf-8'><title>{html.escape(TITLES[b])}</title><style>{CSS}</style></head><body>",
@@ -46,33 +78,7 @@ def build(b):
         if not rows: continue
         out.append(f"<div class='unit'><h1 class='u'>{html.escape(u['title'])}</h1><div class='cols'>")
         for r in rows:
-            out.append(f"<h2 class='r'>{html.escape(r['title'])}</h2>")
-            meta = " · ".join(x for x in [", ".join(r.get("codes") or []), r.get("tag", ""), ("Asked: " + r["pyq"]) if r.get("pyq") else ""] if x)
-            if r.get("sub"): meta += (" · " if meta else "") + "; ".join(r["sub"])
-            if meta: out.append(f"<div class='meta'>{html.escape(meta)}</div>")
-            for s in r["secs"]:
-                if not s["b"]: continue
-                out.append(f"<h3 class='s'>{html.escape(s['t'])}</h3>")
-                inul = False
-                for bl in s["b"]:
-                    k = bl["k"]
-                    if k == "b":
-                        if not inul: out.append("<ul>"); inul = True
-                        out.append(f"<li>{runs(bl['x'])}</li>"); pieces += 1; continue
-                    if inul: out.append("</ul>"); inul = False
-                    if k == "h": out.append(f"<h4>{runs(bl['x'])}</h4>")
-                    elif k == "x": out.append(f"<div class='x'>★ {runs(bl['x'])}</div>")
-                    elif k == "s": out.append(f"<div class='w'>{runs(bl['x'])}</div>")
-                    elif k == "p": out.append(f"<div class='p'>{runs(bl['x'])}</div>")
-                    elif k == "n": out.append(f"<div class='n'>{runs(bl['x'])}</div>")
-                    elif k == "t":
-                        cls = " class='wide'" if len(bl["h"]) >= 5 else ""
-                        t = f"<table{cls}><tr>" + "".join(f"<th>{runs(h) if isinstance(h, list) else html.escape(str(h))}</th>" for h in bl["h"]) + "</tr>"
-                        for row in bl["r"]:
-                            t += "<tr>" + "".join(f"<td>{runs(c)}</td>" for c in row) + "</tr>"
-                        out.append(t + "</table>")
-                    pieces += 1
-                if inul: out.append("</ul>")
+            pieces += render_row(r, out)
         out.append("</div></div>")
     out.append("</body></html>")
     return "".join(out), pieces
