@@ -1,3 +1,18 @@
+# APPSC Group 2 (3.56-g2): the Group 2 app
+
+Built from APPSC Complete by `tools/group2_build.py 2026-11-16` (then `tools/build_plan_mcq.py app/src/group2/assets`).
+
+## 3.56: syllabus-mapped, every PYQ, Prelims then Mains
+- All 927 sections of APPSC Complete, each mapped to the Group 2 syllabus items it can be examined under:
+  471 tagged by the blueprint + 456 mapped in data/g2map/book*-map.json (each checked against data/g2map/syllabus.md).
+- Every MCQ and every PYQ kept: 71,204 (Group 1, Group 2 and other APPSC/other papers' PYQs, all mapped by section).
+- Plan in two parts: PRELIMS (Screening, 565 sections) 16 Nov 2026 - 19 Feb 2027, 20 Feb light review, 21 Feb Prelims;
+  MAINS (Paper I/II; 362 Mains-only sections first pass, all 488 Mains sections revised) 22 Feb - 19 May,
+  Mains planned for 22 May 2027 (date not announced), 20-21 May buffer. The Today countdown follows the next stage.
+- Old MCQ notes (mbook) dropped, as in APPSC Complete: one set of notes, the updated ones.
+- Page counts in index.json fixed (both apps): sections could not reach 100% read before.
+
+---
 # APPSC Group 2 (3.13-g2): the Group 2 app
 
 Built from APPSC Complete by `tools/group2_build.py` (then `tools/build_plan_mcq.py app/src/group2/assets`).
