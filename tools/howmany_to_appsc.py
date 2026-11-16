@@ -15,9 +15,13 @@ NUMS = r"\d(?:\s*(?:,|and|&)\s*\d)*"
 def nums(t): return {int(d) for d in re.findall(r"\d", t)}
 
 
+SETS = json.load(open("data/howmany/sets.json")) if os.path.exists("data/howmany/sets.json") else {}
+
+
 def correct_set(q):
     n = len(re.findall(r"^\d\.", q["s"], re.M))
     if n < 2: return None, n
+    if q["id"] in SETS: return set(SETS[q["id"]]["correct"]), n  # worked out statement by statement
     m = re.search(r"\b(one|two|three|four|five|none|no|all)\b", q["o"][q["a"]].lower())
     if not m: return None, n
     cnt = W[m.group(1)]; cnt = n if cnt is None else cnt
