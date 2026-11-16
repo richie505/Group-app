@@ -247,6 +247,8 @@ private fun ContinueCard(nav: Nav) {
 
 /** Topics -> Sections list plus the schedule for a day. */
 fun LazyListScope.dayBody(day: PlanDay, nav: Nav, showBrief: Boolean) {
+    // the day's notes read aloud, one topic after another (the phone's Indian English voice)
+    if (day.rows.isNotEmpty()) item(key = "listen") { ListenDayCard(day) }
     if (showBrief && day.brief.isNotEmpty()) {
         item {
             Column(Modifier.padding(horizontal = 20.dp, vertical = 8.dp)) {

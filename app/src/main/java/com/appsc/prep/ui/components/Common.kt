@@ -163,6 +163,14 @@ interface Speech {
     fun seek(part: Int)
     fun setRate(rate: Float)
     fun stop()
+
+    /** The phone's voices for reading: (id, label), Indian English first; empty where it cannot list them. */
+    fun voices(onReady: (List<Pair<String, String>>) -> Unit) = onReady(emptyList())
+    /** The chosen voice ("" = the phone's default Indian English voice). */
+    val voice: String get() = ""
+    fun setVoice(id: String) {}
+    /** Opens the phone's text-to-speech settings, to install more Indian English voices. */
+    fun installVoices() {}
 }
 
 class AppState(val repo: Repository, val store: ProgressStore, val platform: Platform) {

@@ -52,6 +52,44 @@ object ReadAloud : Speech {
         return this
     }
 
+    private val prefs get() = app.getSharedPreferences("readaloud", Context.MODE_PRIVATE)
+    override val voice: String get() = if (::app.isInitialized) prefs.getString("voice", "") ?: "" else ""
+
+    override fun voices(onReady: (List<Pair<String, String>>) -> Unit) = withEngine {
+        val engine = tts ?: return@withEngine onReady(emptyList())
+        val all = runCatching { engine.voices?.toList() }.getOrNull().orEmpty()
+            .filter { it.locale.language == "en" && !it.features.orEmpty().contains(TextToSpeech.Engine.KEY_FEATURE_NOT_INSTALLED) }
+        val india = all.filter { it.locale.country == "IN" }.sortedBy { it.name }
+        val rest = all.filter { it.locale.country != "IN" && it.locale.country in setOf("GB", "US") }.sortedBy { it.name }
+        fun label(v: android.speech.tts.Voice, i: Int): String {
+            val where = if (v.locale.country == "IN") "Indian English" else v.locale.displayCountry + " English"
+            val net = if (v.isNetworkConnectionRequired) "online" else "offline"
+            return "$where · voice ${i + 1} · $net"
+        }
+        onReady(india.mapIndexed { i, v -> v.name to label(v, i) } + rest.mapIndexed { i, v -> v.name to label(v, i) })
+    }
+
+    override fun setVoice(id: String) {
+        prefs.edit().putString("voice", id).apply()
+        applyVoice()
+        if (state.value.playing) speakFromHere()
+    }
+
+    override fun installVoices() {
+        runCatching {
+            app.startActivity(Intent("com.android.settings.TTS_SETTINGS").addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
+        }.onFailure {
+            runCatching { app.startActivity(Intent(TextToSpeech.Engine.ACTION_INSTALL_TTS_DATA).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)) }
+        }
+    }
+
+    private fun applyVoice() {
+        val engine = tts ?: return
+        val want = voice
+        if (want.isEmpty()) return
+        runCatching { engine.voices?.firstOrNull { it.name == want }?.let { engine.voice = it } }
+    }
+
     override fun play(page: SpeechPage, from: Int, rate: Float, next: () -> SpeechPage?) {
         this.page = page
         this.part = from.coerceIn(0, (page.parts.size - 1).coerceAtLeast(0))
@@ -174,6 +212,7 @@ object ReadAloud : Speech {
                 listOf(Locale("en", "IN"), Locale.UK, Locale.US)
                     .firstOrNull { engine.isLanguageAvailable(it) >= TextToSpeech.LANG_AVAILABLE }
                     ?.let { engine.language = it }
+                applyVoice() // the reader's chosen voice, if any
                 engine.setAudioAttributes(
                     AudioAttributes.Builder().setUsage(AudioAttributes.USAGE_MEDIA)
                         .setContentType(AudioAttributes.CONTENT_TYPE_SPEECH).build(),
