@@ -83,6 +83,11 @@ object ReadAloud : Speech {
         }
     }
 
+    override val download get() = AudioBook.stateRead
+    override fun saveAudiobook(folder: String, chapters: List<Pair<String, List<String>>>) =
+        AudioBook.start(app, app.getString(com.appsc.prep.R.string.app_name), folder, chapters, voice, rate)
+    override fun cancelAudiobook() = AudioBook.cancel()
+
     private fun applyVoice() {
         val engine = tts ?: return
         val want = voice

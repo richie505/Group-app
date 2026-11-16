@@ -171,7 +171,18 @@ interface Speech {
     fun setVoice(id: String) {}
     /** Opens the phone's text-to-speech settings, to install more Indian English voices. */
     fun installVoices() {}
+
+    /** Saving an audiobook: [chapters] (file name, parts to speak) recorded with the chosen voice into [folder]. */
+    val download: State<DownloadState>? get() = null
+    fun saveAudiobook(folder: String, chapters: List<Pair<String, List<String>>>) {}
+    fun cancelAudiobook() {}
 }
+
+/** An audiobook being saved: chapter [done] of [total]; [savedTo] the folder once finished, [error] if it failed. */
+data class DownloadState(
+    val active: Boolean = false, val done: Int = 0, val total: Int = 0, val current: String = "",
+    val savedTo: String = "", val error: String = "", val folder: String = "",
+)
 
 class AppState(val repo: Repository, val store: ProgressStore, val platform: Platform) {
     /** "read" in the notes app, "revised" in the revision app (progress labels). */

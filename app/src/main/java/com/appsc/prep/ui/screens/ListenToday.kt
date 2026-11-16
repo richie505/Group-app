@@ -68,6 +68,31 @@ fun ListenDayCard(day: PlanDay) {
     var mine by remember { mutableStateOf(false) }
     val ours = mine && pb.active
 
+    val dl = speech.download?.value
+    val folder = "Day %02d - %s%s".format(day.n, day.date, if (day.focus.isNotBlank()) " - " + day.focus.lowercase().replaceFirstChar { it.uppercase() } else "")
+
+    /** One audio file per topic: its name, then every page of it, read like the Listen button does. */
+    fun download() {
+        loading = true
+        scope.launch {
+            val books = day.rows.map { it.book }.distinct().associateWith { app.repo.book(it) }
+            app.repo.abbreviations
+            app.repo.checkedAcronyms
+            val chapters = day.rows.mapNotNull { r ->
+                val row = books[r.book]?.rows?.getOrNull(r.row) ?: return@mapNotNull null
+                val parts = row.secs.indices.filter { !row.secs[it].empty && row.secs[it].blocks.isNotEmpty() }.flatMapIndexed { j, si ->
+                    val sec = row.secs[si]
+                    val pid = subsectionId(r.book, r.row, si)
+                    val blocks = UserNotes.withAdded(sec.blocks, pid, app.store.added).map { it.second }
+                    SpeechText.parts(if (j == 0) "${row.title}. ${sec.title}" else sec.title, blocks, r.book, row.title).map { it.second }
+                }
+                if (parts.isEmpty()) null else row.title to parts
+            }
+            loading = false
+            speech.saveAudiobook(folder, chapters)
+        }
+    }
+
     fun start() {
         loading = true
         scope.launch {
@@ -127,6 +152,39 @@ fun ListenDayCard(day: PlanDay) {
                     else -> Button(onClick = { start() }) { Text("▶  Listen") }
                 }
                 TextButton(onClick = { chooseVoice = true }) { Text("Voice") }
+            }
+            if (speech.download != null) {
+                Spacer(Modifier.height(10.dp))
+                val busy = dl?.active == true
+                when {
+                    busy -> {
+                        Text(
+                            "Saving audiobook: topic ${(dl!!.done + 1).coerceAtMost(dl.total)} of ${dl.total} · ${dl.current}",
+                            style = TextStyle(fontSize = 13.sp, color = C.Body), maxLines = 2, overflow = TextOverflow.Ellipsis,
+                        )
+                        androidx.compose.material3.LinearProgressIndicator(
+                            progress = { dl.done / dl.total.coerceAtLeast(1).toFloat() },
+                            modifier = Modifier.fillMaxWidth().padding(vertical = 6.dp),
+                        )
+                        OutlinedButton(onClick = { speech.cancelAudiobook() }) { Text("Cancel download") }
+                    }
+                    else -> {
+                        OutlinedButton(onClick = { download() }, enabled = !loading) { Text("⬇  Download today's audiobook") }
+                        val saved = dl?.savedTo.orEmpty()
+                        val err = dl?.error.orEmpty()
+                        when {
+                            saved.isNotEmpty() && dl?.folder == folder -> Text(
+                                "Saved ${dl.total} audio files (one per topic) to $saved. Play them in any music app.",
+                                style = TextStyle(fontSize = 13.sp, lineHeight = 18.sp, color = C.Accent), modifier = Modifier.padding(top = 6.dp),
+                            )
+                            err.isNotEmpty() -> Text("Could not save: $err", style = TextStyle(fontSize = 13.sp, color = C.High), modifier = Modifier.padding(top = 6.dp))
+                            else -> Text(
+                                "Records each topic with the chosen voice into an audio file (about 20 MB an hour) in Music → APPSC Audiobooks. Takes a while; it carries on with the screen off.",
+                                style = TextStyle(fontSize = 12.sp, lineHeight = 17.sp, color = C.Muted), modifier = Modifier.padding(top = 6.dp),
+                            )
+                        }
+                    }
+                }
             }
         }
     }
