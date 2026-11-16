@@ -6,6 +6,7 @@ import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
+import androidx.compose.ui.test.performScrollToNode
 import androidx.compose.ui.test.performClick
 import androidx.test.core.app.ApplicationProvider
 import com.appsc.prep.data.ProgressStore
@@ -176,6 +177,10 @@ class Group2Test {
         runBlocking { repo.plan.days.take(2).forEach { d -> d.rows.forEach { repo.mcq(it.book) } } }
         shot("2_today") { com.appsc.prep.ui.screens.TodayScreen(nav) }
         rule.onNodeWithText("TODAY'S PRACTICE", substring = true).assertExists()
+        // the day's notes as an audiobook
+        rule.onNode(androidx.compose.ui.test.hasScrollAction()).performScrollToNode(hasText("LISTEN TO TODAY'S NOTES"))
+        rule.onNodeWithText("Listen", substring = true).assertExists()
+        rule.onRoot().captureRoboImage("screenshots/group2/3_listen_card.png")
     }
 
     @Test fun topicAndStatementMcq() {

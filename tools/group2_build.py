@@ -92,6 +92,12 @@ for si, sj in enumerate(g2["subjects"]):
         for b, r in g["rows"]:
             codes.setdefault((b, r), []).append(g["code"])
             subj.setdefault((b, r), (si, gi))
+# a section with codes from several subjects goes under its own book's subject (e.g. "AP location" in Geography,
+# not under History because it also carries S1-92)
+HOME = {1: ("S1", "M1-A"), 2: ("M1-B", "S3"), 3: ("M2-A",), 4: ("S2",), 5: ("M2-B",), 6: ("S4",)}
+for k, cs in codes.items():
+    home = [code_at[c] for c in cs if c in code_at and c.startswith(HOME[k[0]])]
+    if home: subj[k] = min(home)
 keep = sorted(subj)
 new = {}  # (book, old row) -> new row: rows in the order of the Group 2 syllabus (subject, then item)
 for b in range(1, 7):
