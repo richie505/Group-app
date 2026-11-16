@@ -52,6 +52,8 @@ def main(od, A=A, app="APPSC Complete"):
         focus = re.sub(r"[^A-Za-z]+", "-", (d.get("focus") or d.get("type", "")).title()).strip("-")[:40]
         stage = (d.get("phase", "").split(" ")[0].title() + "_") if "·" in d.get("phase", "") else ""
         kind = {"study": "", "revision": "Revision_", "practice": "MCQs_", "mock": "Mock_"}.get(d.get("type"), "")
+        if d.get("type") == "mock" and not d.get("focus"):
+            focus = re.sub(r"[^A-Za-z]+", "-", re.sub(r"\(.*", "", (d.get("brief") or [""])[0].replace("Full mock:", "").replace("Group 2", ""))).strip("-")
         if "EXAM DAY" in d.get("phase", ""): kind, focus = "", "PRELIMS-EXAM-DAY"
         name = f"{stage}Day-{d['n']:03d}_{d['date']}_{kind}{focus}"
         open(f"{od}/{name}.html", "w").write("".join(out)); names.append(name)
