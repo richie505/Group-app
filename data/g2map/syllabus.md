@@ -1,0 +1,543 @@
+# APPSC Group 2 syllabus items (code: item)
+
+
+## Indian History (Screening)
+- S1-1: Sources of ancient Indian history - archaeological, literary and foreign accounts
+- S1-2: Salient features of the Indus Valley Civilization - extent, chronology and major sites
+- S1-3: IVC town planning, drainage, granaries and the Great Bath
+- S1-4: IVC economy - agriculture, crafts, trade, seals, weights and measures
+- S1-5: IVC society, religion, art and the Harappan script
+- S1-6: Decline of the Indus Valley Civilization - theories and Late Harappan cultures
+- S1-7: Early Vedic (Rig Vedic) age - geography, tribes, polity (sabha, samiti, rajan)
+- S1-8: Early Vedic society, economy and the position of women
+- S1-9: Later Vedic age - eastward expansion, iron, rise of kingship and rituals
+- S1-10: Later Vedic society - varna system, ashramas, changing status of women
+- S1-11: Vedic literature - Vedas, Brahmanas, Aranyakas, Upanishads, Vedangas
+- S1-12: Causes for the rise of heterodox sects; the sixteen Mahajanapadas and the rise of Magadha
+- S1-13: Emergence of Jainism - Mahavira, doctrines, Triratna, Panchamahavratas
+- S1-14: Jain councils, sects, literature, spread and royal patronage
+- S1-15: Emergence of Buddhism - Buddha's life, Four Noble Truths, Eightfold Path
+- S1-16: Buddhist councils, Hinayana-Mahayana-Vajrayana, Tripitakas and the spread of Buddhism
+- S1-17: Mauryan Empire - sources, Chandragupta, Bindusara and Ashoka
+- S1-18: Mauryan administration - central, provincial, revenue, espionage and judiciary
+- S1-19: Ashoka's Dhamma, edicts and their locations; Kalinga War
+- S1-20: Mauryan socio-economic and religious conditions
+- S1-21: Mauryan art and architecture - pillars, capitals, caves and sculpture
+- S1-22: Decline of the Mauryan Empire
+- S1-23: Gupta Empire - sources, Chandragupta I, Samudragupta, Chandragupta II
+- S1-24: Gupta administration, land grants, revenue and the feudalism debate
+- S1-25: Gupta socio-economic conditions - Fa-Hien's account, trade, caste and women
+- S1-26: Gupta religious conditions - Vaishnavism, Saivism, Buddhism and Jainism
+- S1-27: Gupta art and architecture - temples, Ajanta, sculpture and coins
+- S1-28: Gupta literature, science and technology - Kalidasa, Aryabhata, Varahamihira
+- S1-29: Decline of the Guptas; the Huna invasions
+- S1-30: Harshavardhana - sources, rise to power and conquests
+- S1-31: Harsha's administration, religion, patronage and the accounts of Hiuen Tsang and Banabhatta
+- S1-32: The Cholas - political outline: Vijayalaya, Rajaraja I and Rajendra I
+- S1-33: Chola central and provincial administrative system
+- S1-34: Chola local self-government - Uttaramerur inscriptions, ur, sabha, nagaram, variyams
+- S1-35: Chola revenue administration, land classification, army and navy
+- S1-36: Chola economy, trade guilds, art, architecture and Tamil literature
+- S1-38: Alauddin Khalji - conquests, market control and administrative reforms
+- S1-39: Muhammad bin Tughlaq's experiments and Firoz Shah Tughlaq's reforms
+- S1-40: Delhi Sultanate administration - Sultan, wazir, diwans, iqta and the nobility
+- S1-41: Sultanate socio-economic conditions - agriculture, revenue, towns and trade
+- S1-42: Sultanate religious conditions - ulema, conversion, jizya and syncretism
+- S1-43: Sultanate art and architecture - Indo-Islamic style, Qutb complex, Tughlaq architecture
+- S1-44: Sultanate language and literature - Persian chronicles, Amir Khusrau, regional languages
+- S1-45: Mughal Empire - Babur, Humayun, Sher Shah Suri and the Sur interregnum
+- S1-46: Akbar - conquests, Rajput policy, religious policy, Mansabdari and revenue system
+- S1-47: Jahangir, Shah Jahan and Aurangzeb - policies and consequences
+- S1-48: Mughal administration - mansabdari, jagirdari, zamindari and provincial set-up
+- S1-49: Mughal socio-economic conditions - agriculture, trade, karkhanas, classes
+- S1-50: Mughal religious conditions and policies
+- S1-51: Mughal art and architecture - Fatehpur Sikri, Taj Mahal, gardens and forts
+- S1-52: Mughal language, literature and painting; decline of the Mughal Empire
+- S1-53: Bhakti Movement - origin, Nirguna and Saguna streams, principal saints
+- S1-54: Bhakti Movement in the South and in Andhra; its social impact
+- S1-55: Sufi Movement - doctrines, silsilas and major saints
+- S1-56: Impact of the Bhakti and Sufi movements on Indian society and languages
+- S1-57: Shivaji - career, conquests and the Ashtapradhan administration
+- S1-58: Shivaji's revenue system, chauth and sardeshmukhi; rise of the Maratha Empire
+- S1-59: Peshwas, the Maratha confederacy and the Third Battle of Panipat
+- S1-62: Rise of British power - Battle of Plassey, Battle of Buxar and the Diwani of Bengal
+- S1-63: Consolidation of British power - Anglo-Mysore, Anglo-Maratha and Anglo-Sikh wars
+- S1-64: Subsidiary Alliance and the Doctrine of Lapse; annexation policy
+- S1-65: Revolt of 1857 - political, economic, socio-religious, administrative and military causes
+- S1-66: Revolt of 1857 - outbreak, centres, leaders and suppression
+- S1-67: Impact of the 1857 Revolt - Government of India Act 1858 and army reorganisation
+- S1-68: Nature of the 1857 Revolt - historiographical debate
+- S1-69: Changes in administration - civil services, police, judiciary, army and local self-government
+- S1-70: Land revenue systems - Permanent Settlement, Ryotwari and Mahalwari; economic impact
+- S1-71: Economic impact of colonial rule - drain of wealth, deindustrialisation, famines
+- S1-72: Changes in the social and cultural sphere - education policy, press, railways and telegraph
+- S1-73: Social legislation in the colonial period - Sati, widow remarriage, age of consent
+- S1-74: Socio-religious reform - Brahmo Samaj, Prarthana Samaj and Young Bengal
+- S1-75: Arya Samaj, Ramakrishna Mission and the Theosophical Society
+- S1-76: Muslim, Sikh and Parsi reform movements - Aligarh, Deoband, Singh Sabha
+- S1-77: Anti-caste and non-Brahmin movements - Phule, Narayana Guru, Periyar, Ambedkar
+- S1-78: Social and religious reform in Andhra - Veeresalingam, Gurajada, Venkataratnam Naidu
+- S1-79: Rise of nationalism and the founding of the Indian National Congress, 1885
+- S1-80: Moderate phase - leaders, methods, demands and achievements
+- S1-81: Extremist phase - Partition of Bengal, Swadeshi and Boycott, Surat Split
+- S1-82: Revolutionary movements in India and abroad - first and second phases
+- S1-83: Home Rule Movement and the Lucknow Pact
+- S1-84: Gandhian era - Champaran, Kheda, Ahmedabad; Rowlatt Satyagraha and Jallianwala Bagh
+- S1-85: Khilafat and Non-Cooperation Movement
+- S1-86: Civil Disobedience Movement - Dandi March, Round Table Conferences, Poona Pact
+- S1-87: Quit India Movement 1942; Subhas Chandra Bose and the INA
+- S1-88: Constitutional developments - GoI Act 1919, Simon Commission, GoI Act 1935
+- S1-90: Towards independence - Cripps Mission, Cabinet Mission, Mountbatten Plan and Partition
+- S1-91: Post-independence consolidation - integration of princely states, Hyderabad and Junagadh
+- S1-92: Reorganisation within the country - Andhra State 1953, SRC and the States Reorganisation Act 1956
+- S1-93: Later reorganisation of states and the creation of new states up to 2014
+
+## Geography (Screening)
+- S2-1: The Earth in our solar system - the Sun, planets and the origin of the earth
+- S2-2: Motions of the earth, latitudes and longitudes, local and standard time, IDL
+- S2-3: Interior of the earth - crust, mantle, core and the discontinuities
+- S2-4: Rocks - igneous, sedimentary and metamorphic; the rock cycle
+- S2-5: Plate tectonics, continental drift, folding and faulting
+- S2-6: Earthquakes and volcanoes - causes, types, distribution and effects
+- S2-7: Major landforms and their features - fluvial, glacial, arid, karst and coastal
+- S2-8: Structure and composition of the atmosphere
+- S2-9: Insolation, heat budget and the distribution of temperature
+- S2-10: Atmospheric pressure, planetary and local winds, jet streams
+- S2-11: Humidity, condensation, clouds and forms of precipitation
+- S2-12: Cyclones - tropical and temperate; other atmospheric disturbances
+- S2-13: World climatic types and elements and factors of climate
+- S2-14: Ocean water - temperature and salinity; relief of the ocean floor
+- S2-15: Ocean movements - tides, waves and currents; El Nino and La Nina
+- S2-16: India - major physiographic features and physical divisions
+- S2-17: India - climate and the monsoon mechanism; seasons and rainfall distribution
+- S2-18: India - drainage system: Himalayan and Peninsular rivers
+- S2-19: India - soils: types, distribution and conservation
+- S2-20: India - natural vegetation and forest types; protected areas
+- S2-21: Andhra Pradesh - major physiographic features and coastline
+- S2-22: Andhra Pradesh - climate, rainfall regions and cyclone vulnerability
+- S2-23: Andhra Pradesh - drainage system: Godavari, Krishna, Penna and minor rivers
+- S2-24: Andhra Pradesh - soils and their distribution
+- S2-25: Andhra Pradesh - natural vegetation, forests, national parks and sanctuaries
+- S2-26: Natural hazards and disasters - classification and causes
+- S2-27: Disaster management - DM Act 2005, NDMA, NDRF, mitigation and preparedness
+- S2-28: Cyclone, flood, drought and tsunami management with reference to Andhra Pradesh
+- S2-29: Natural resources of India - land, water and forest resources and their distribution
+- S2-30: Mineral resources of India - metallic and non-metallic; mineral belts
+- S2-31: Energy resources of India - coal, petroleum, natural gas, hydel, nuclear, renewable
+- S2-32: Natural resources of Andhra Pradesh - minerals, forests, water and marine resources
+- S2-33: Agriculture in India - cropping seasons, cropping pattern and major food crops
+- S2-34: Agriculture in India - commercial and plantation crops and their regions
+- S2-35: Agriculture in Andhra Pradesh - cropping pattern, major crops and irrigation
+- S2-36: Agro-based activities - dairying, poultry, sericulture, fisheries and agro-processing
+- S2-37: Aquaculture and fisheries in Andhra Pradesh - marine and inland
+- S2-38: Distribution of major industries in India - iron and steel, textiles, cement, sugar, fertiliser
+- S2-39: Major industrial regions of India and factors of industrial location
+- S2-40: Industries and industrial regions of Andhra Pradesh; industrial corridors and nodes
+- S2-41: Transport in India - roads, railways, waterways, airways and pipelines
+- S2-42: Transport in Andhra Pradesh - highways, railway network, ports and airports
+- S2-44: Tourism in India - types, major circuits and heritage sites
+- S2-45: Tourism in Andhra Pradesh - religious, coastal, eco and heritage tourism sites
+- S2-46: Trade - India's foreign trade composition and direction; major ports
+- S2-47: Trade of Andhra Pradesh - exports, port-based trade and SEZs
+- S2-50: Demographics of India - population size, growth, distribution and density
+- S2-51: Sex ratio and child sex ratio - India and Andhra Pradesh
+- S2-52: Literacy and educational attainment - India and Andhra Pradesh
+- S2-53: Occupational structure and work participation - India and Andhra Pradesh
+- S2-55: Urbanisation in India - trends, urban agglomerations and problems
+- S2-56: Urbanisation in Andhra Pradesh - major urban centres and urban growth
+- S2-57: Migration - types, causes, streams and consequences; migration in Andhra Pradesh
+- S2-58: Racial groups of India - classifications of Risley and Guha
+- S2-59: Tribal groups of India - distribution and characteristics
+- S2-60: Tribal groups of Andhra Pradesh - Chenchu, Koya, Savara, Yanadi, Yerukula and PVTGs
+- S2-61: Religious groups of India and Andhra Pradesh - composition and distribution
+- S2-62: Linguistic groups - language families, Eighth Schedule languages, languages of Andhra Pradesh
+
+## Indian Society (Screening)
+- S3-8: Tribal problems and tribal development approaches - isolation, assimilation, integration
+- S3-10: Religion in India - religious pluralism, secularism and the Indian model
+- S3-11: Women in Indian society - status through history, patriarchy and the women's movement
+- S3-16: Untouchability and caste-based atrocities; the legal response
+- S3-21: Crime against women - types, magnitude, causes and NCRB data
+- S3-22: Legal and institutional response to crimes against women
+- S3-23: Dowry, domestic violence, sexual harassment and trafficking
+- S3-24: Child abuse - forms, causes, consequences and the legal framework
+- S3-25: Child labour - magnitude, causes, legislation and rehabilitation
+- S3-30: Public policy and the welfare state in India - evolution and approach
+- S3-31: Constitutional provisions for Scheduled Castes - Articles 15, 16, 17, 46, 330, 332, 335, 338
+- S3-32: Statutory provisions for SCs - PoA Act 1989, Protection of Civil Rights Act 1955
+- S3-33: Constitutional provisions for Scheduled Tribes - Articles 244, 275, 338A; Fifth and Sixth Schedules
+- S3-34: Statutory provisions for STs - Forest Rights Act 2006, PESA Act 1996
+- S3-35: Constitutional and statutory provisions for Backward Classes - Articles 15(4), 16(4), 338B; commissions
+- S3-36: Constitutional and statutory provisions for minorities - Articles 29, 30; National Commission for Minorities
+- S3-37: Constitutional and legal provisions for women - Articles 15(3), 39, 42, 51A(e), 243D; key legislations
+- S3-38: Provisions for persons with disabilities - RPwD Act 2016 and accessibility measures
+- S3-39: Provisions for children - Article 21A, RTE Act, JJ Act, POCSO, child labour law
+- S3-40: Provisions for the elderly and transgender persons
+- S3-41: Welfare programmes for SCs and STs - scholarships, hostels, special component plan, TSP
+- S3-42: Welfare programmes for BCs and minorities - education, skill and credit schemes
+- S3-43: Welfare programmes for women and children - ICDS, POSHAN, Mission Shakti, Beti Bachao Beti Padhao
+- S3-44: Social security programmes - pensions, insurance, health coverage, PDS
+- S3-45: Welfare programmes of the Government of Andhra Pradesh - social security and welfare schemes
+- S3-46: Statutory commissions - NCSC, NCST, NCBC, NCW, NCM, NCPCR, NHRC and their state counterparts
+
+## Current Affairs (Screening)
+- S4-1: International - summits, conferences and their outcomes
+- S4-2: International - treaties, agreements and international organisations in news
+- S4-3: International - bilateral and multilateral relations, defence deals, geopolitical developments
+- S4-4: International - global reports, indices and India's rank
+- S4-5: International - economy: IMF/World Bank/WTO developments, global economic data
+- S4-6: National - polity and governance: bills, acts, ordinances and landmark judgments
+- S4-7: National - economy: Union Budget and Economic Survey highlights, RBI policy, key data
+- S4-8: National - new central schemes, missions and programmes
+- S4-9: National - committees, commissions and their reports
+- S4-10: National - science and technology: space, defence, health and biotechnology developments
+- S4-11: National - environment: reports, species, protected areas, climate initiatives
+- S4-12: National - awards, honours, appointments and persons in news
+- S4-13: National - sports: tournaments, winners, records and hosting rights
+- S4-14: National - important days, themes, books and authors
+- S4-15: Andhra Pradesh - government decisions, policies and administrative changes
+- S4-16: Andhra Pradesh - new schemes and welfare programmes
+- S4-17: Andhra Pradesh - budget and Socio-Economic Survey highlights
+- S4-18: Andhra Pradesh - projects, MoUs, investments and infrastructure developments
+- S4-19: Andhra Pradesh - appointments, awards, GI tags and persons in news
+- S4-20: Andhra Pradesh - culture, sports, festivals and events
+
+## Social & Cultural History of Andhra Pradesh (Mains · Paper I · Section A)
+- M1-A-4: Buddhist sites of Andhra - Amaravati, Nagarjunakonda, Bhattiprolu, Salihundam, Ghantasala
+- M1-A-5: Satavahanas - origin, chronology and political history from Simuka to Yajnasri Satakarni
+- M1-A-6: Gautamiputra Satakarni and the Nasik Prasasti; Satavahana-Saka conflict
+- M1-A-7: Satavahana administration and the feudatory system
+- M1-A-8: Satavahana socio-economic conditions - varna, guilds, trade, ports and coinage
+- M1-A-10: Satavahana literature - Prakrit, Hala's Gathasaptasati, Gunadhya's Brihatkatha
+- M1-A-11: Satavahana art and architecture - Amaravati school, stupas and rock-cut caves
+- M1-A-19: Eastern Chalukyas of Vengi - Kubja Vishnuvardhana and the dynastic history
+- M1-A-21: Growth of the Telugu language under the Eastern Chalukyas - Nannaya and the Andhra Mahabharatam
+- M1-A-24: Origin and evolution of the Telugu language - earliest inscriptions (Kalamalla, Erragudi), scripts
+- M1-A-27: Kakatiyas - origin, Beta I, Prola II, Rudradeva and Ganapatideva
+- M1-A-28: Rani Rudrama Devi and Prataparudra; the fall of Warangal
+- M1-A-29: Kakatiya administration - Nayankara system, revenue and military organisation
+- M1-A-30: Kakatiya economy - agriculture, tank irrigation, trade and the Motupalli Abhaya Sasanam
+- M1-A-32: Kakatiya literature - Palkuriki Somanatha, Tikkana and the Siva Kavis
+- M1-A-33: Kakatiya art and architecture - Thousand Pillar Temple, Ramappa, Warangal Fort, Kakatiya Kala Thoranam
+- M1-A-34: Musunuri Nayaks - Prolaya Nayaka, Kapaya Nayaka and the recovery of Andhradesa
+- M1-A-35: Reddi kingdoms of Addanki-Kondavidu - Prolaya Vema Reddi to Kumaragiri Reddi
+- M1-A-36: Rajahmundry Reddis and the end of Reddi rule
+- M1-A-37: Reddi society, religion, economy and administration
+- M1-A-38: Reddi literature and art - Errana, Srinatha and temple building
+- M1-A-39: Velama (Racherla) kingdoms of Rachakonda and Devarakonda
+- M1-A-41: Vijayanagara Empire - Sangama, Saluva and Tuluva dynasties in the Andhra context
+- M1-A-42: Krishnadevaraya - conquests in Andhra, Amuktamalyada, Bhuvana Vijayam and the Ashtadiggajas
+- M1-A-43: Vijayanagara administration in Andhra - Nayankara and Ayagar systems, amaram tenure
+- M1-A-44: Vijayanagara society, economy and religion in Andhradesa; foreign travellers' accounts
+- M1-A-45: Vijayanagara art and architecture in Andhra - Lepakshi, Tadipatri, Ahobilam, Srisailam, Tirupati
+- M1-A-46: Aravidu dynasty and the Battle of Talikota; the Nayaka successor states
+- M1-A-47: Qutb Shahis of Golconda - Andhra under Qutb Shahi rule; Telugu patronage
+- M1-A-48: Growth of Telugu literature, 11th to 16th centuries - Kavitrayam and the Prabandha age
+- M1-A-49: Telugu literature - Srinatha, Potana, Annamacharya and the Bhakti stream
+- M1-A-54: Andhra under the Company - acquisition of the Northern Circars and the Ceded Districts
+- M1-A-55: Company administration in Andhra - districts, revenue and judicial arrangements
+- M1-A-56: Revenue settlements in Andhra - Permanent Settlement and the Ryotwari system of Thomas Munro
+- M1-A-57: Early resistance to British rule - Poligar/Palegar revolts and the Vizianagaram rising of 1794
+- M1-A-58: Uyyalawada Narasimha Reddy's revolt, 1846-47
+- M1-A-59: 1857 Revolt and its impact on Andhra - response, repression and consequences
+- M1-A-61: Socio-cultural awakening in Andhra - Kandukuri Veeresalingam and social reform
+- M1-A-62: Reform organisations and reformers in Andhra - Brahmo Samaj, Theosophical Society, Raghupathi Venkataratnam Naidu
+- M1-A-63: Gurajada Apparao, Gidugu Ramamurthy and the movement for modern Telugu prose
+- M1-A-64: Justice Party in Andhra - formation, programme and impact
+- M1-A-65: Self-Respect Movement and the non-Brahmin movement in Andhra
+- M1-A-69: Duggirala Gopalakrishnayya and the Chirala-Perala movement; Pedanandipadu no-tax campaign
+- M1-A-70: Alluri Sitarama Raju and the Rampa Rebellion, 1922-24
+- M1-A-82: Origin of the Andhra Movement - causes, regional grievances and early demands
+- M1-A-83: Early expressions - Andhra conferences and the demand for a separate university and province
+- M1-A-84: First Andhra Mahasabha at Bapatla, 1913 - background and resolutions
+- M1-A-85: Andhra Mahasabha sessions - major sessions, resolutions and leadership
+- M1-A-86: Andhra Movement and the Indian National Congress - Nagpur session 1920 and linguistic provinces
+- M1-A-87: Prominent leaders of the Andhra Movement and their contributions
+- M1-A-88: Andhra University movement and the growth of Telugu cultural identity
+- M1-A-89: Events leading to the formation of Andhra State - Dar Commission and the JVP Committee
+- M1-A-90: Potti Sriramulu's fast unto death and its consequences
+- M1-A-91: Formation of Andhra State, 1 October 1953 - Kurnool as capital, first government
+- M1-A-101: Idea of Visalandhra - background, arguments for and against
+- M1-A-102: Visalandhra Mahasabha - formation, leaders, demands and campaigns
+- M1-A-103: Telangana opinion on the merger - safeguards demanded and apprehensions
+- M1-A-104: States Reorganisation Commission (Fazl Ali Commission) - appointment and terms of reference
+- M1-A-105: SRC recommendations on Andhra and Telangana and the reaction to them
+- M1-A-106: Gentlemen's Agreement 1956 - clauses, guarantees and significance
+- M1-A-107: Formation of Andhra Pradesh, 1 November 1956 - the first government and the new capital
+- M1-A-108: Political developments in Andhra Pradesh, 1956-2014 - chief ministers and major turning points
+- M1-A-109: Telangana agitation of 1969 - causes, course and outcome
+- M1-A-110: Jai Andhra movement of 1972 and the Six-Point Formula 1973
+- M1-A-111: Mulki rules, GO 610 and the implementation of safeguards
+- M1-A-115: Important social events between 1956 and 2014 - reform, welfare and legislation
+- M1-A-120: Movement for a separate Telangana (1990s-2014) and the Andhra Pradesh Reorganisation Act 2014
+
+## Indian Constitution (Mains · Paper I · Section B)
+- M1-B-1: Nature of the Indian Constitution - federal, quasi-federal and unitary characterisations
+- M1-B-2: Constitutional development - Regulating Act 1773, Pitt's India Act and the Charter Acts
+- M1-B-3: Constitutional development - Government of India Acts of 1858, 1909, 1919 and 1935
+- M1-B-4: Indian Independence Act 1947 and the transfer of power
+- M1-B-5: Constituent Assembly - composition, committees, working and criticisms
+- M1-B-6: Sources of the Indian Constitution and borrowed features
+- M1-B-7: Salient features of the Indian Constitution
+- M1-B-8: Preamble - text, keywords, the 42nd Amendment and its amendability
+- M1-B-9: Union and its territory (Articles 1-4) and citizenship (Articles 5-11)
+- M1-B-10: Fundamental Rights - Article 12, Article 13 and related doctrines
+- M1-B-11: Right to Equality - Articles 14-18 and reservation jurisprudence
+- M1-B-12: Right to Freedom - Article 19 and reasonable restrictions
+- M1-B-13: Articles 20, 21, 21A and 22 - life, liberty, education and preventive detention
+- M1-B-14: Right against Exploitation and Right to Freedom of Religion - Articles 23-28
+- M1-B-15: Cultural and Educational Rights (Articles 29-30) and the Right to Constitutional Remedies (Article 32)
+- M1-B-16: Directive Principles of State Policy - classification, content and implementation
+- M1-B-17: Relationship between Fundamental Rights and DPSP - Champakam, Golaknath, Kesavananda, Minerva Mills
+- M1-B-18: Fundamental Duties - Article 51A, Swaran Singh Committee and enforceability
+- M1-B-19: Amendment of the Constitution - Article 368, procedure and types of majority
+- M1-B-20: Important amendments - 1st, 24th, 42nd, 44th, 73rd, 74th, 101st, 103rd, 106th
+- M1-B-21: Basic Structure of the Constitution - evolution, elements and later application
+- M1-B-22: Landmark judgments shaping constitutional interpretation
+- M1-B-24: President of India - election, powers, veto and ordinance-making power
+- M1-B-25: Vice-President, Prime Minister and the Union Council of Ministers
+- M1-B-26: Cabinet system in India - functioning, committees and collective responsibility
+- M1-B-27: Parliament - composition of the two Houses, qualifications and terms
+- M1-B-29: Functions and powers of Parliament; special powers of the Rajya Sabha
+- M1-B-30: Legislative procedure - ordinary, money and financial bills; joint sitting
+- M1-B-31: Parliamentary committees and parliamentary devices
+- M1-B-33: State executive - Governor, Chief Minister and the State Council of Ministers
+- M1-B-34: State legislature - Assembly and Legislative Council; creation and abolition of the Council
+- M1-B-36: Supreme Court - composition, appointment, jurisdiction and powers
+- M1-B-37: High Courts and subordinate courts; the High Court of Andhra Pradesh
+- M1-B-38: Independence of the judiciary - constitutional safeguards; collegium and the NJAC judgment
+- M1-B-39: Judicial review - meaning, scope, constitutional basis and limits
+- M1-B-40: Judicial activism - meaning, causes, instruments (PIL) and the judicial overreach debate
+- M1-B-41: Tribunals under Articles 323A and 323B; administrative adjudication
+- M1-B-42: Distribution of legislative powers - Seventh Schedule and Articles 245-255
+- M1-B-43: Parliament's power to legislate on State List subjects; residuary powers and repugnancy
+- M1-B-45: Administrative relations - Articles 256-263, all-India services, inter-state council and zonal councils
+- M1-B-46: Financial relations - tax distribution, divisible pool, grants-in-aid, borrowing powers
+- M1-B-47: Finance Commission - composition, functions and recent recommendations
+- M1-B-48: Election Commission of India - composition, powers and functions
+- M1-B-49: Union and State Public Service Commissions - composition, functions and removal
+- M1-B-50: Comptroller and Auditor General of India - appointment, duties and audit reports
+- M1-B-51: Attorney General of India and the Advocate General of the State
+- M1-B-52: National Commissions for SCs, STs and Backward Classes; Special Officer for Linguistic Minorities
+- M1-B-53: National Human Rights Commission - composition, powers, functions and limitations
+- M1-B-54: State Human Rights Commissions and the Human Rights Courts
+- M1-B-55: Right to Information Act 2005 - features, information commissions, exemptions and amendments
+- M1-B-56: Working of the RTI regime - achievements, problems and the transparency debate
+- M1-B-57: Lokpal - evolution of the demand and the Lokpal and Lokayuktas Act 2013
+- M1-B-58: Lokpal - composition, jurisdiction, powers and working
+- M1-B-59: Lokayukta - state-level institutions; the Lokayukta in Andhra Pradesh
+- M1-B-60: Central Vigilance Commission, CBI and the anti-corruption framework
+- M1-B-61: Whistle Blowers Protection Act and the Prevention of Corruption Act
+- M1-B-63: Role of the Governor as a source of Centre-State tension; Article 356 and S.R. Bommai
+- M1-B-64: Need for reforms in Centre-State relations - the case for greater state autonomy
+- M1-B-69: Unitary features of the Indian Constitution
+- M1-B-70: Federal features of the Indian Constitution; the nature of Indian federalism
+- M1-B-71: Cooperative and competitive federalism - NITI Aayog, GST Council and inter-state institutions
+- M1-B-76: Elections in India - the electoral system, first-past-the-post, delimitation and reservation of seats
+- M1-B-77: Election Commission's powers; the Model Code of Conduct and election machinery
+- M1-B-78: Electoral reforms - committee recommendations, criminalisation of politics, money power
+- M1-B-79: Electoral reforms - state funding, electoral bonds, EVM-VVPAT and proposals such as simultaneous elections
+- M1-B-80: Anti-Defection Law - Tenth Schedule, grounds, exemptions and the Speaker's role
+- M1-B-81: Anti-Defection Law - judicial interpretation, working and suggested reforms
+- M1-B-82: Pressure groups, media and civil society in Indian politics
+- M1-B-85: Community Development Programme 1952 and the National Extension Service - working and failure
+- M1-B-86: Balwant Rai Mehta Committee - recommendations and the three-tier structure
+- M1-B-87: Panchayati Raj, 1959-1977 - phases of ascendancy and decline
+- M1-B-88: Ashok Mehta Committee - recommendations and the two-tier proposal
+- M1-B-89: G.V.K. Rao Committee and L.M. Singhvi Committee
+- M1-B-90: 64th and 65th Amendment Bills (1989) and the road to constitutional status
+- M1-B-91: 73rd Constitutional Amendment Act - Part IX, structure, Gram Sabha and the Eleventh Schedule
+- M1-B-92: 73rd Amendment - reservations, State Election Commission and State Finance Commission
+- M1-B-93: 74th Constitutional Amendment Act - Part IXA, types of urban bodies and the Twelfth Schedule
+- M1-B-94: 74th Amendment - ward committees, District Planning Committee and Metropolitan Planning Committee
+- M1-B-95: Implementation of the 73rd and 74th Amendments - achievements across states
+- M1-B-96: Implementation gaps - funds, functions, functionaries, parallel bodies and capacity
+- M1-B-97: Panchayati Raj in Andhra Pradesh - structure, elections, powers and finances
+- M1-B-98: Urban local bodies in Andhra Pradesh - municipalities, corporations and their functioning
+- M1-B-99: Finances of local bodies - own revenue, devolution and the State Finance Commission of AP
+- M1-B-100: PESA Act 1996 and self-governance in the scheduled areas of Andhra Pradesh
+- M1-B-101: Women and weaker sections in local governance - reservation and its social outcomes
+
+## Indian & AP Economy (Mains · Paper II · Section A)
+- M2-A-1: Structure of the Indian economy - basic characteristics and sectoral composition
+- M2-A-2: National income of India - concepts: GDP, GNP, NDP, NNP, GVA, factor cost and market price
+- M2-A-3: Measurement of national income - product, income and expenditure methods; difficulties
+- M2-A-4: India's national accounts - NSO, base-year revisions and data issues
+- M2-A-5: Occupational pattern in India - trends, structural retardation and informality
+- M2-A-6: Sectoral distribution of income in India - shares of agriculture, industry and services
+- M2-A-7: Economic growth and economic development - concepts, measures and indicators
+- M2-A-8: Human development and inclusive growth - HDI, MPI and India's performance
+- M2-A-9: Strategy of planning in India - objectives, models and the plan approach
+- M2-A-10: Five Year Plans - major objectives and outcomes; achievements and failures of planning
+- M2-A-11: New Economic Reforms 1991 - background, crisis, stabilisation and structural adjustment
+- M2-A-12: Liberalisation, privatisation and globalisation - measures and impact on the Indian economy
+- M2-A-13: Second-generation reforms and recent structural reforms (GST, IBC, labour codes)
+- M2-A-14: Decentralization of financial resources - Finance Commission devolution and state finances
+- M2-A-16: NITI Aayog - structure, mandate and difference from the Planning Commission
+- M2-A-17: NITI Aayog initiatives and indices - SDG India Index, Aspirational Districts, sectoral indices
+- M2-A-18: Current state of the Indian economy - growth trends, key challenges and outlook
+- M2-A-19: Functions of money; measures of money supply (M1 to M4) and high-powered money
+- M2-A-20: Reserve Bank of India - establishment, organisation and functions
+- M2-A-21: Monetary policy - objectives, framework, MPC and inflation targeting
+- M2-A-22: Instruments of monetary policy and control of credit - quantitative and qualitative
+- M2-A-23: Monetary policy transmission - problems and effectiveness in India
+- M2-A-24: Indian banking - structure, nationalisation and phases of development
+- M2-A-25: Banking sector reforms - Narasimham Committees, Basel norms, consolidation and privatisation debate
+- M2-A-26: Non-performing assets - causes, resolution mechanisms (SARFAESI, IBC, NARCL) and PCA
+- M2-A-27: Financial inclusion and digital finance - PMJDY, MUDRA, UPI and the JAM trinity
+- M2-A-28: Non-banking financial companies, cooperative banks and microfinance
+- M2-A-29: Inflation - types, causes, measurement (CPI and WPI) and remedies
+- M2-A-30: India's fiscal policy - objectives, instruments and stance
+- M2-A-31: Fiscal imbalance - fiscal, revenue, primary and effective revenue deficits
+- M2-A-33: Fiscal Responsibility and Budget Management Act - targets, escape clause and review
+- M2-A-34: Indian tax structure - direct and indirect taxes; tax-GDP ratio and buoyancy
+- M2-A-35: Direct tax reforms - income tax, corporate tax and administration reforms
+- M2-A-36: Goods and Services Tax - structure, rates, GST Council and revenue sharing
+- M2-A-37: GST - impact on commerce, industry and state finances; unresolved issues
+- M2-A-38: Recent Union Budget - receipts, expenditure, deficits and major announcements
+- M2-A-39: India's Balance of Payments - current and capital accounts, trends and CAD
+- M2-A-40: Foreign trade - composition and direction of India's exports and imports; trade policy
+- M2-A-41: Foreign Direct Investment - policy, routes, sectoral caps and recent trends
+- M2-A-42: Foreign exchange reserves, exchange rate management and rupee movement
+- M2-A-43: Indian agriculture - importance, land use and cropping pattern
+- M2-A-44: Agricultural production and productivity - trends, determinants and regional variation
+- M2-A-45: Agricultural inputs and technology - seeds, fertilisers, irrigation and mechanisation
+- M2-A-46: Agricultural finance - institutional structure, NABARD, Kisan Credit Card and priority sector lending
+- M2-A-47: Agricultural credit - issues of adequacy, indebtedness and loan waivers
+- M2-A-48: Agricultural marketing in India - APMC system, problems and reforms
+- M2-A-49: Agricultural marketing initiatives - e-NAM, FPOs, contract farming and warehousing
+- M2-A-50: Agricultural pricing and policy - MSP, CACP and the price policy debate
+- M2-A-51: Procurement, issue price and public distribution; food subsidy and FCI reform
+- M2-A-52: Food security and buffer stock policy; National Food Security Act 2013
+- M2-A-53: Agrarian distress - causes, farmer suicides and policy response
+- M2-A-54: Allied sectors - horticulture, dairy, poultry and fisheries
+- M2-A-55: Industrial development in India - patterns, growth and structural problems
+- M2-A-56: Industrial policy in India - 1948, 1956 and 1977 resolutions
+- M2-A-57: New Industrial Policy 1991 - features, delicensing and its impact
+- M2-A-58: Public sector enterprises - role, performance and reform
+- M2-A-59: Disinvestment - rationale, methods, progress and criticism
+- M2-A-60: Ease of Doing Business - reforms, India's performance and remaining bottlenecks
+- M2-A-62: MSMEs - definition, role, problems and support schemes
+- M2-A-63: Make in India, PLI schemes and manufacturing competitiveness
+- M2-A-67: Structure of the Andhra Pradesh economy after bifurcation - overview and challenges
+- M2-A-68: Growth of the AP economy - GSDP trends and comparison with the national average
+- M2-A-69: Sectoral contribution to GSDP - agriculture, industry and services in Andhra Pradesh
+- M2-A-70: Per capita income of Andhra Pradesh - level, growth and inter-district disparity
+- M2-A-71: AP state revenue - own tax revenue: GST, stamps and registration, excise, motor vehicle tax
+- M2-A-72: AP state revenue - share in central taxes and grants-in-aid
+- M2-A-73: AP state revenue - non-tax revenue sources
+- M2-A-74: AP state expenditure - revenue and capital expenditure; committed expenditure
+- M2-A-75: Developmental and non-developmental expenditure of Andhra Pradesh
+- M2-A-76: Debt position of Andhra Pradesh - outstanding liabilities, debt-GSDP ratio and sustainability
+- M2-A-77: Interest payments and off-budget borrowings of Andhra Pradesh
+- M2-A-81: Recent Andhra Pradesh Budget - key numbers, allocations and announcements
+- M2-A-82: AP Socio-Economic Survey - key indicators of the latest edition
+- M2-A-83: Fiscal challenges of Andhra Pradesh - revenue deficit, DISCOM dues and welfare spending
+- M2-A-84: Production trends of agriculture and allied sectors in Andhra Pradesh
+- M2-A-85: Cropping pattern of Andhra Pradesh - major crops, area, production and productivity
+- M2-A-86: Irrigation in Andhra Pradesh - sources, major projects and micro-irrigation
+- M2-A-91: Strategies, schemes and programmes for the agricultural sector in Andhra Pradesh
+- M2-A-92: Natural farming in Andhra Pradesh (APCNF/ZBNF) - approach, coverage and outcomes
+- M2-A-93: Horticulture in Andhra Pradesh - major crops, area, production and schemes
+- M2-A-94: Animal husbandry and dairying in Andhra Pradesh - livestock, milk production and schemes
+- M2-A-95: Fisheries and aquaculture in Andhra Pradesh - marine and inland, exports and schemes
+- M2-A-96: Forests in Andhra Pradesh - cover, produce, and forestry schemes
+- M2-A-97: Growth and structure of industries in Andhra Pradesh - profile and major sectors
+- M2-A-98: Recent Andhra Pradesh Industrial Development Policy - objectives, targets and incentives
+- M2-A-99: Single Window Mechanism in Andhra Pradesh - Single Desk Policy and Act
+- M2-A-100: Industrial incentives in Andhra Pradesh - capital, power, interest and employment subsidies
+- M2-A-101: MSMEs in Andhra Pradesh - profile, clusters, problems and support schemes
+- M2-A-102: Industrial corridors in Andhra Pradesh - VCIC, CBIC nodes and industrial parks
+- M2-A-103: Ports, power and infrastructure as industrial enablers in Andhra Pradesh
+- M2-A-104: Structure and growth of the services sector in Andhra Pradesh
+- M2-A-105: Information technology, electronics and communications in Andhra Pradesh
+- M2-A-106: Recent AP IT Policy, electronics policy and data centre/emerging technology policies
+
+## Science & Technology (Mains · Paper II · Section B)
+- M2-B-1: National Science and Technology Policy - evolution from 1958 to the recent STI Policy
+- M2-B-4: Evolution of the Indian space programme and the organisation of ISRO
+- M2-B-5: Launch vehicles of India - PSLV, GSLV Mk-II, LVM3, SSLV and future vehicles
+- M2-B-7: Communication, navigation and earth observation satellites - INSAT/GSAT, NavIC, IRS/Cartosat
+- M2-B-8: Indian space science missions - Chandrayaan series, Mangalyaan, AstroSat, Aditya-L1, XPoSat
+- M2-B-9: Human spaceflight - Gaganyaan and the Bharatiya Antariksh Station roadmap
+- M2-B-10: Space sector reforms - Indian Space Policy 2023, IN-SPACe, NSIL and private participation
+- M2-B-11: Applications of space technology in agriculture, disaster management, navigation and governance
+- M2-B-12: DRDO - structure, vision and mission
+- M2-B-13: Technologies developed by DRDO - platforms, sensors, materials and spin-off technologies
+- M2-B-14: Integrated Guided Missile Development Programme - Prithvi, Agni, Akash, Trishul and Nag
+- M2-B-15: Missiles beyond IGMDP - BrahMos, Astra, Nirbhay, hypersonic systems and Mission Shakti
+- M2-B-16: Defence indigenisation - Make in India in defence, iDEX, defence corridors and exports
+- M2-B-18: Digital India Mission - pillars, key initiatives and impact
+- M2-B-19: E-governance programmes and services - central initiatives and Andhra Pradesh initiatives
+- M2-B-21: Cyber security concerns - cyber crime types, threats to critical infrastructure and data breaches
+- M2-B-22: National Cyber Security Policy and institutional framework - CERT-In, NCIIPC, I4C, IT Act
+- M2-B-23: Data protection and privacy - the DPDP Act and related concerns
+- M2-B-24: Nuclear technology - fission, fusion and types of nuclear reactors
+- M2-B-25: India's three-stage nuclear programme and the thorium strategy
+- M2-B-26: Indian nuclear reactors and nuclear power plants - locations, capacity and status
+- M2-B-27: Applications of radioisotopes in agriculture, medicine and industry
+- M2-B-28: Nuclear safety, regulation and international nuclear agreements
+- M2-B-29: India's energy scenario - installed capacity, generation mix and energy demand
+- M2-B-30: Energy demand projections and the demand-supply gap in India
+- M2-B-31: National Energy Policy and the Integrated Energy Policy - objectives and projections
+- M2-B-32: Energy security of India - import dependence and diversification strategies
+- M2-B-33: National Policy on Biofuels - categories, ethanol blending targets and progress
+- M2-B-35: Non-renewable energy sources in India - coal, lignite, petroleum and natural gas
+- M2-B-36: Thermal and hydro power in India - capacity, issues and reforms
+- M2-B-38: Solar energy - technologies, National Solar Mission, solar parks, rooftop solar and the ISA
+- M2-B-39: Wind energy - potential, installed capacity, offshore wind and hybrid policy
+- M2-B-40: Bio-energy, small hydro, geothermal, tidal and waste-to-energy
+- M2-B-41: Green hydrogen - National Green Hydrogen Mission and applications
+- M2-B-42: Energy storage - battery technologies, PLI for advanced chemistry cells and grid storage
+- M2-B-44: Energy efficiency and conservation - BEE, Energy Conservation Act, PAT, star labelling, UJALA
+- M2-B-45: Electricity distribution reform - UDAY, discom finances and smart metering
+- M2-B-47: Basic concepts of ecology - habitat, niche, population, community and biome
+- M2-B-48: Ecosystem - components (biotic and abiotic), structure and function
+- M2-B-49: Types of ecosystems - forest, grassland, desert, aquatic (freshwater, marine, estuarine, wetland)
+- M2-B-50: Energy flow, food chains, food webs and ecological pyramids
+- M2-B-51: Biogeochemical cycles, ecological succession and ecosystem services
+- M2-B-52: Biodiversity - meaning and components: genetic, species and ecosystem diversity
+- M2-B-53: Values and significance of biodiversity; India as a megadiverse country
+- M2-B-54: Biodiversity hotspots - criteria; global hotspots and the four in India
+- M2-B-55: Loss of biodiversity - causes, consequences and the role of invasive alien species
+- M2-B-56: Conservation of biodiversity - in-situ methods: protected areas, biosphere reserves, sacred groves
+- M2-B-57: Conservation of biodiversity - ex-situ methods: zoos, gene banks, botanical gardens, cryopreservation
+- M2-B-58: Recent plans and targets - Convention on Biological Diversity, Nagoya and Cartagena Protocols
+- M2-B-59: Kunming-Montreal Global Biodiversity Framework and India's biodiversity targets
+- M2-B-60: Wildlife conservation - CITES: structure, appendices and species listings relevant to India
+- M2-B-61: Endangered species of India - IUCN Red List categories and flagship species
+- M2-B-62: Biosphere reserves of India - list, features and those in Andhra Pradesh
+- M2-B-63: Indian wildlife conservation efforts - Project Tiger, Project Elephant and species recovery programmes
+- M2-B-64: Recent wildlife initiatives - cheetah reintroduction, dolphin and vulture conservation, marine conservation
+- M2-B-65: Wildlife (Protection) Act 1972 and its recent amendment; Biological Diversity Act 2002 and amendment
+- M2-B-67: Solid wastes - definition and classification: municipal, industrial, hazardous, biomedical, e-waste, agricultural
+- M2-B-68: Methods of disposal and management of solid waste in India - collection, segregation, landfill, composting, incineration
+- M2-B-69: Solid Waste Management Rules and the Swachh Bharat Mission (urban and rural)
+- M2-B-70: Plastic waste management - rules, single-use plastic ban and extended producer responsibility
+- M2-B-71: E-waste management - magnitude, rules and recycling; biomedical waste rules
+- M2-B-72: Construction and demolition waste; hazardous waste rules and management
+- M2-B-74: Air pollution - pollutants, sources, standards (NAAQS), AQI and health impacts
+- M2-B-75: Air pollution control - National Clean Air Programme, stubble burning and vehicular emission measures
+- M2-B-76: Water pollution - sources, eutrophication, effluent standards and groundwater contamination
+- M2-B-77: Water pollution control - Namami Gange, river action plans and sewage treatment
+- M2-B-78: Soil, noise, thermal, marine and radioactive pollution - sources, effects and control
+- M2-B-79: Pollution control regulation - CPCB and SPCBs, the Water Act, Air Act and Environment (Protection) Act
+- M2-B-80: Environmental Impact Assessment and the National Green Tribunal
+- M2-B-82: Impact of transgenics on the environment - gene flow, biodiversity and biosafety concerns
+- M2-B-83: Regulation of transgenics in India - GEAC, biosafety rules and GM crop status
+- M2-B-86: Bioremediation - meaning, types (in-situ and ex-situ), phytoremediation and bioaugmentation
+- M2-B-87: Scope and applications of bioremediation in India
+- M2-B-88: Global warming - greenhouse effect, greenhouse gases, radiative forcing and evidence
+- M2-B-89: Climate change - observed and projected impacts globally and on India
+- M2-B-90: Climate change and Indian agriculture, water resources, coasts and the Himalaya
+- M2-B-91: Acid rain - causes, chemistry, effects and control measures
+- M2-B-92: Ozone layer depletion - causes, ozone hole, effects; Montreal Protocol and Kigali Amendment
+- M2-B-94: Other environmental challenges - desertification, land degradation and urban heat islands
+- M2-B-95: International climate architecture - UNFCCC, Kyoto Protocol and the Paris Agreement
+- M2-B-96: Recent Conference of the Parties outcomes and the loss and damage fund
+- M2-B-97: IPCC assessment reports - key findings and their significance for India
+- M2-B-98: India's participation and role in climate negotiations - equity, CBDR and the developing-country position
+- M2-B-99: India's climate commitments - NDCs, Panchamrit and net zero by 2070
+- M2-B-100: National Action Plan on Climate Change - the eight missions; State Action Plans and AP's plan
+- M2-B-101: India's climate initiatives - International Solar Alliance, CDRI, LiFE and the carbon credit trading scheme
+- M2-B-113: Health and environment linkages - air pollution, water-borne and vector-borne diseases, antimicrobial resistance, One Health

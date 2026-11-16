@@ -23,6 +23,8 @@ LAST = dt.date(2027, 1, 21)  # 22-23 Jan: the buffer
 TIERS = ["HIGH", "MED", "LIGHT"]
 ORDER = [2, 1, 4, 3, 5, 6]
 os.makedirs(G, exist_ok=True)
+for _b in range(1, 7):  # APPSC Complete no longer ships the MCQ notes, so Group 2 does not either
+    if os.path.exists(f"{G}/mbook{_b}.json"): os.remove(f"{G}/mbook{_b}.json")
 J = lambda p: json.load(open(p))
 W = lambda p, o: open(p, "w").write(json.dumps(o, ensure_ascii=False, separators=(",", ":")))
 
@@ -33,6 +35,10 @@ G1REF = r"(?:APPSC[- ]?)?(?:G-?1|Group[- ]?(?:1|I)(?![I\w]))[ -]?(?:Mains |Preli
 
 
 def no_g1(t):
+    t = re.sub(r"\bG1,\s*G2 PYQ", "G2 PYQ", t)
+    t = re.sub(r"\s*\((?:G1 Re-exam \d{4};\s*)?G1 PYQ(?:,\s*[^()]*)?\)", "", t)
+    t = re.sub(r"\bG1 Re-exam \d{4};?\s*", "", t)
+    t = re.sub(r";\s*G1 PYQ\b|\bG1 PYQ;\s*|\(G1 PYQ\)|\bG1 PYQ\b,?\s*", "", t)
     t = re.sub(r"\s*\(see [A-G]-\d+\)", "", t)  # cross-references to Group 1 topic codes
     t = re.sub(r"[,;]?\s*\bsee [A-G]-\d+\b", "", t)
     t = re.sub(r"APPSC[- ]?(?:G-?1|Group[- ]?1)\b", "APPSC", t)  # "APPSC Group-1 key: ..." -> "APPSC key: ..."
@@ -61,6 +67,25 @@ def g2_pyq(t):
 G1_PYQ = re.compile(r"group[- ]?(1|i)\b(?!i)|\bg-?1\b", re.I)
 exams = J(f"{C}/exams.json")
 g2 = next(e for e in exams if e["title"] == "Group 2")
+# sections the blueprint did not tag for Group 2 but a Group 2 question can be set from (data/g2map/book*-map.json,
+# each checked against the full Group 2 syllabus): added to their syllabus items, after the item's own sections
+code_at = {g["code"]: (si, gi) for si, sj in enumerate(g2["subjects"]) for gi, g in enumerate(sj["groups"])}
+EXTRA = {}
+for b in range(1, 7):
+    f = f"data/g2map/book{b}-map.json"
+    if os.path.exists(f):
+        for r, v in J(f).items():
+            cs = [c for c in v.get("codes") or [] if c in code_at]
+            if cs: EXTRA[(b, int(r))] = cs
+for (b, r), cs in sorted(EXTRA.items()):
+    for c in cs:
+        si, gi = code_at[c]
+        g = g2["subjects"][si]["groups"][gi]
+        if [b, r] not in g["rows"]: g["rows"].append([b, r])
+for sj in g2["subjects"]:
+    n = len({tuple(x) for g in sj["groups"] for x in g["rows"]})
+    sj["sub"] = re.sub(r"\d+ sections", f"{n} sections", sj["sub"])
+g_title = {g["code"]: g["title"] for sj in g2["subjects"] for g in sj["groups"]}
 codes, subj = {}, {}  # (book, row) -> its Group 2 syllabus codes; -> its first subject (index), item order
 for si, sj in enumerate(g2["subjects"]):
     for gi, g in enumerate(sj["groups"]):
@@ -84,8 +109,10 @@ UNIT = {si: {"code": re.sub(r"-\d+$", "", sj["groups"][0]["code"]), "title": f"{
 def g2_row(r, k):
     """a section's own fields, Group 2 only"""
     r = dict(r, codes=codes[k], tag="GROUP-II", pyq=g2_pyq(r.get("pyq")))
-    if "sub" in r:
-        r["sub"] = [x for x in r["sub"] if x.startswith("Group-II")]
+    sub = [x for x in r.get("sub") or [] if x.startswith("Group-II")]
+    have = {m.group(1) for x in sub for m in [re.match(r"Group-II\s+(\S+):", x)] if m}
+    sub += [f"Group-II {g_title[c]}" for c in codes[k] if c not in have]  # the items it was mapped to
+    r["sub"] = sub
     if "src" in r:
         r["src"] = [no_g1(x) for x in r["src"] if not x.startswith("Sources: Group-I:")]
     if "see" in r:
@@ -97,7 +124,7 @@ page = lambda pid: (lambda b, r, s: f"{b}:{new[(b, r)]}:{s}" if (b, r) in new el
 
 # --- notes: full (trimmed) and MCQ notes; units kept only where a row is left
 idx = J(f"{C}/index.json")
-for src, name in ((C, "book{}.json"), (C2, "mbook{}.json")):
+for src, name in ((C, "book{}.json"),):  # one set of notes, like APPSC Complete (the old MCQ notes are not shipped)
     for b in range(1, 7):
         bk = J(f"{src}/book{b}.json")
         flat = [r for u in bk["units"] for r in u["rows"]]
@@ -133,7 +160,7 @@ for b in range(1, 7):
         if (b, int(r)) not in new:
             continue
         sb = m.get("subs", {}).get(r, [-1] * len(v))
-        kept = [(q, x) for q, x in zip(v, sb) if not G1_PYQ.search(q.get("src", "")) and q["id"] not in ARIHANT]
+        kept = list(zip(v, sb))  # every MCQ and every PYQ of the section (Group 1 and other papers' PYQs too)
         for q, _ in kept:
             for f in ("x", "s"):
                 if q.get(f):
@@ -179,13 +206,13 @@ if os.path.exists(f"{C}/notelinks.json"):
     for qid, refs in J(f"{C}/notelinks.json").items():
         if qid not in ids:
             continue
-        keep = []
+        kref = []
         for ref in refs:
             b, r, rest = ref.split(":", 2)
             if (int(b), int(r)) in new:
-                keep.append(f"{b}:{new[(int(b), int(r))]}:{rest}")
-        if keep:
-            nl[qid] = keep
+                kref.append(f"{b}:{new[(int(b), int(r))]}:{rest}")
+        if kref:
+            nl[qid] = kref
     W(f"{G}/notelinks.json", nl)
 
 # --- the plan: 5 Nov -> 21 Jan, phases in APPSC Complete's proportions, HIGH first
