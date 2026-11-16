@@ -110,7 +110,8 @@ fun TodayScreen(nav: Nav) {
     val day = app.repo.dayFor(today)
     val afterPlan = today.isAfter(plan.days.last().date)
     val beforePlan = today.isBefore(plan.days.first().date)
-    val daysToExam = ChronoUnit.DAYS.between(today, plan.exam).coerceAtLeast(0)
+    val (examDate, examLabel) = plan.nextExam(today)
+    val daysToExam = ChronoUnit.DAYS.between(today, examDate).coerceAtLeast(0)
 
     PageList(Modifier.fillMaxSize()) {
         item {
@@ -133,7 +134,7 @@ fun TodayScreen(nav: Nav) {
         }
         // APPSC Complete: today's practice first, sized to a sustainable day
         if (app.repo.complete) item { PracticeTodayCard(nav) }
-        item { HeroCard(day, daysToExam, plan.examLabel, beforePlan, afterPlan, nav) }
+        item { HeroCard(day, daysToExam, examLabel, beforePlan, afterPlan, nav) }
         item { ContinueCard(nav) }
         if (afterPlan) {
             item { SectionHeader("Final buffer") }

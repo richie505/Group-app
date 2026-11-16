@@ -150,7 +150,12 @@ data class Plan(
     val examLabel: String,
     val days: List<PlanDay>,
     val buffer: List<BufferItem>,
-)
+    /** optional exam stages (e.g. Group 2 Prelims, then Mains): the countdown follows the next one */
+    val stages: List<Pair<LocalDate, String>> = emptyList(),
+) {
+    fun nextExam(today: LocalDate): Pair<LocalDate, String> =
+        stages.firstOrNull { !it.first.isBefore(today) } ?: (exam to examLabel)
+}
 
 fun subsectionId(book: Int, row: Int, sec: Int) = "$book:$row:$sec"
 

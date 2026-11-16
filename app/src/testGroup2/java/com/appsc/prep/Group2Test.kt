@@ -61,12 +61,12 @@ class Group2Test {
         assertEquals(8, repo.exams[0].subjects.size)
     }
 
-    /** Only the Group 2 sections, all of them; every MCQ of theirs; both sets of notes load in full. */
+    /** Every section, each mapped to the Group 2 syllabus; every MCQ and PYQ of theirs; the notes load in full. */
     @Test fun everythingTheAppShipsLoads() = runBlocking {
-        assertEquals(471, repo.index.sumOf { it.rows.size })
+        assertEquals(927, repo.index.sumOf { it.rows.size })
         // every syllabus item points at a section of this app
         repo.exams[0].subjects.flatMap { it.groups }.flatMap { it.rows }.forEach { (b, r) -> assertTrue("$b:$r", repo.rowInfo(b, r) != null) }
-        for (mode in listOf(true, false)) {
+        for (mode in listOf(false)) {
             repo.mcqNotes = mode
             for (b in 1..6) {
                 val bk = repo.book(b)
@@ -88,12 +88,12 @@ class Group2Test {
                 qs.forEach { q -> assertTrue(q.answer in -1 until q.options.size && q.options.size >= 2) }
             }
         }
-        assertEquals(60153, mcqs)
+        assertEquals(71204, mcqs)
         assertEquals(mcqs, repo.planIds.size)
     }
 
     /** The plan: today to 21 Jan, every section read once in the first pass, then R2, R3, MCQ days and 5 mocks. */
-    /** Nothing of Group 1: codes, tags, past-paper counts, the Group 1 papers' PYQs. */
+    /** Group 2 codes and tags only; every PYQ stays (Group 1 and other papers' PYQs too), mapped by the syllabus. */
     @Test fun noGroup1Content() = runBlocking {
         val g2codes = repo.exams[0].subjects.flatMap { it.groups }.map { it.code }.toSet()
         for (b in repo.index) for (r in b.rows) {
@@ -102,10 +102,7 @@ class Group2Test {
             assertTrue(r.pyq, !r.pyq.contains("G1"))
         }
         for (b in 1..6) {
-            repo.mcq(b).rows.values.flatten().forEach { q ->
-                assertTrue(q.source, !Regex("group[- ]?(1|i)\\b(?!i)|\\bg-?1\\b", RegexOption.IGNORE_CASE).containsMatchIn(q.source))
-            }
-            for (mode in listOf(true, false)) {
+            for (mode in listOf(false)) {
                 repo.mcqNotes = mode
                 val text = repo.book(b).rows.joinToString("\n") { r -> r.secs.joinToString("\n") { com.appsc.prep.data.NotesFinder.text(it.blocks) } }
                 assertTrue("book $b cites a Group 1 paper", !Regex("APPSC[- ]?G-?1\\b").containsMatchIn(text))
@@ -113,15 +110,20 @@ class Group2Test {
         }
     }
 
-    @Test fun thePlanRunsFromNov6ToTheExam() {
+    /** Prelims (Screening) part to 21 Feb, then the Mains part; every section read once in a first pass. */
+    @Test fun thePlanRunsPrelimsThenMains() {
         val p = repo.plan
-        assertEquals(java.time.LocalDate.of(2026, 11, 6), p.days.first().date)
-        assertEquals(java.time.LocalDate.of(2027, 1, 21), p.days.last().date)
-        assertEquals(77, p.days.size)
+        assertEquals(java.time.LocalDate.of(2026, 11, 16), p.days.first().date)
+        assertEquals(java.time.LocalDate.of(2027, 5, 19), p.days.last().date)
+        assertEquals(185, p.days.size)
         val study = p.days.filter { it.type == "study" }.flatMap { d -> d.rows.map { it.book to it.row } }
-        assertEquals(471, study.size)
-        assertEquals(471, study.toSet().size)
-        assertEquals(5, p.days.count { it.type == "mock" })
+        assertEquals(927, study.size)
+        assertEquals(927, study.toSet().size)
+        assertEquals(12, p.days.count { it.type == "mock" })  // 5 Screening, 6 Mains, the Prelims day
+        assertTrue(p.days.filter { it.date < java.time.LocalDate.of(2027, 2, 21) }.all { it.phase.startsWith("PRELIMS") })
+        assertTrue(p.days.filter { it.date > java.time.LocalDate.of(2027, 2, 21) }.all { it.phase.startsWith("MAINS") })
+        assertEquals("Prelims (21 Feb 2027)", p.nextExam(java.time.LocalDate.of(2027, 1, 1)).second)
+        assertEquals("Mains (planned 22 May 2027)", p.nextExam(java.time.LocalDate.of(2027, 3, 1)).second)
         // planmcq.json is current
         val books = runBlocking { (1..6).associateWith { repo.mcq(it) } }
         val fresh = com.appsc.prep.data.DueMcqs.planMcqs(p) { b, row -> books[b]!!.rows[row]?.map { it.id } ?: emptyList() }

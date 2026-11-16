@@ -215,9 +215,13 @@ if os.path.exists(f"{C}/notelinks.json"):
             nl[qid] = kref
     W(f"{G}/notelinks.json", nl)
 
-# --- the plan: 5 Nov -> 21 Jan, phases in APPSC Complete's proportions, HIGH first
-# Group 2 keeps its phased plan (study, revision, practice, mocks): its day templates come from APPSC Complete's
-# earlier phased plan, kept in data/plan/g2_template_plan.json (Complete itself now runs notes + MCQs every day)
+# --- the plan, in two parts by the syllabus:
+#   PRELIMS (Screening: S1 History, S2 Geography, S3 Indian Society, S4 Current Affairs): today -> 19 Feb,
+#       20 Feb light review, 21 Feb the Prelims;  only sections that carry a Screening item
+#   MAINS (Paper I: M1-A AP history, M1-B Constitution; Paper II: M2-A Economy, M2-B Sci-Tech): 22 Feb -> 19 May,
+#       first pass of the Mains-only sections, then revision of every Mains section, MCQs and Mains mocks
+#       (Mains date not announced: planned for 22 May 2027; 20-21 May the final buffer)
+# each part: first pass (HIGH, then MED, then LIGHT; one subject a day; days by MCQ weight), R2, R3, MCQ days + mocks
 old = J("data/plan/g2_template_plan.json")
 pri = {tuple(r["ref"]): r for d in old["days"] for r in d["rows"] if r.get("ref")}
 template = {}
@@ -225,19 +229,15 @@ for dd in old["days"]:
     template.setdefault(dd["type"], dd)
 short = {b["id"]: b["short"] for b in ib}
 mcqs = {(b, int(r)): len(v) for b in range(1, 7) for r, v in J(f"{G}/mcq{b}.json")["rows"].items()}
-pool = []
+PRELIMS = dt.date(2027, 2, 21)
+MAINS = dt.date(2027, 5, 22)
+pool_all = []
 for (b, r), n in sorted(new.items(), key=lambda kv: (ORDER.index(kv[0][0]), kv[1])):
     o = pri[(b, r)]
-    pool.append({k: v for k, v in o.items() if k != "q"} | {"ref": [b, n], "codes": codes[(b, r)]})
+    pool_all.append({k: v for k, v in o.items() if k != "q"} | {"ref": [b, n], "codes": codes[(b, r)]})
+is_s = lambda r: any(c.startswith("S") for c in r["codes"])
+is_m = lambda r: any(c.startswith("M") for c in r["codes"])
 w = lambda r: max(1, mcqs.get(tuple(r["ref"]), 0))
-dates = [START + dt.timedelta(i) for i in range((LAST - START).days + 1)]
-N = len(dates)
-n_study, n_r2, n_r3 = round(N * 39 / 88), round(N * 16 / 88), round(N * 8 / 88)
-n4 = N - n_study - n_r2 - n_r3
-mock_at = {round(n4 * k / 6) for k in (1, 2, 3, 4, 5)}  # five mocks spread over Phase 4
-MOCKS = iter(["Group 2 Screening (150 Q, 150 min)", "Group 2 Mains Paper I (150 Q, 150 min)",
-              "Group 2 Mains Paper II (150 Q, 150 min)", "Group 2 Screening (150 Q, 150 min)",
-              "Group 2 Mains Paper I + II (300 Q)"])
 
 
 def balanced(rows, n):
@@ -265,67 +265,95 @@ def tiers(rows):
     return " + ".join(t for t in TIERS if any(r["pri"] == t for r in rows))
 
 
-# first pass: (tier, subject) groups, days by MCQ weight, one subject a day, HIGH then MED then LIGHT
-groups = [(t, b, [r for r in pool if r["pri"] == t and r["ref"][0] == b]) for t in TIERS[:2] for b in ORDER]
-groups.append(("LIGHT", 0, [r for r in pool if r["pri"] == "LIGHT"]))
-groups = [g for g in groups if g[2]]
-days_for = [1] * len(groups)
-while sum(days_for) < n_study:
-    k = max(range(len(groups)), key=lambda k: sum(map(w, groups[k][2])) / days_for[k])
-    days_for[k] += 1
-seq = []
-for t in TIERS:
-    gi = [k for k, g in enumerate(groups) if g[0] == t]
-    done = {k: 0 for k in gi}
-    for _ in range(sum(days_for[k] for k in gi)):
-        k = min(gi, key=lambda k: (done[k] + 1) / days_for[k] if done[k] < days_for[k] else 9)
-        seq.append(k)
-        done[k] += 1
-parts = {k: balanced(groups[k][2], days_for[k]) for k in range(len(groups))}
-used = {k: 0 for k in parts}
-by_pri = sorted(pool, key=lambda r: (TIERS.index(r["pri"]), ORDER.index(r["ref"][0]), r["ref"][1]))
+days = []
 
 
-def day(i, typ, phase, focus, brief, rows):
+def day(dte, typ, phase, focus, brief, rows, exam, label):
     t = template[typ]
-    dte = dates[i]
-    return {"n": i + 1, "date": str(dte), "dow": dte.strftime("%a"), "phase": phase, "focus": focus,
-            "brief": brief, "tasks": t["tasks"], "left": f"{(EXAM - dte).days} days to 24 Jan 2027",
+    return {"n": len(days) + 1, "date": str(dte), "dow": dte.strftime("%a"), "phase": phase, "focus": focus,
+            "brief": brief, "tasks": t["tasks"], "left": f"{(exam - dte).days} days to the {label}",
             "type": typ, "rows": rows}
 
 
-days = []
-for i, k in enumerate(seq):
-    t, b, _ = groups[k]
-    rows = parts[k][used[k]]
-    used[k] += 1
-    focus = (short[b] if b else subjects(rows)).upper()
-    days.append(day(i, "study", "PHASE 1 FIRST PASS", focus,
-                    [f"{t} priority. Read {len(rows)} topics of {short[b] if b else subjects(rows)}.",
-                     f"Then today's MCQs (all {sum(map(w, rows))} of them)."], [dict(r) for r in rows]))
-for phase, n, q, how in (("PHASE 2 R2 REVISION", n_r2, 13, "about 4 minutes a page"),
-                         ("PHASE 3 R3 REVISION", n_r3, 14, "about 2 minutes a page: the boxes and exam corners")):
-    for j in range(n):
-        rows = by_pri[len(by_pri) * j // n: len(by_pri) * (j + 1) // n]
-        days.append(day(len(days), "revision", phase, subjects(rows).upper(),
-                        [f"{tiers(rows)} priority. Revise {len(rows)} topics ({subjects(rows)}): {how}."],
-                        [dict(r, q=q) for r in rows]))
-practice = balanced(by_pri, n4 - len(mock_at))
-pi = iter(practice)
-for j in range(n4):
-    if j in mock_at:
-        days.append(day(len(days), "mock", "PHASE 4 MCQS + MOCKS", "", [f"Full mock: {next(MOCKS)}"], []))
-    else:
-        rows = next(pi)
-        days.append(day(len(days), "practice", "PHASE 4 MCQS + MOCKS", subjects(rows).upper(),
-                        [f"{tiers(rows)} priority. MCQs of {len(rows)} topics ({subjects(rows)}): the rest of their "
-                         f"MCQs (about {sum(map(w, rows))} in all). Re-read the notes of every miss."],
-                        [dict(r) for r in rows]))
-assert len(days) == N
-seen = [tuple(r["ref"]) for d in days if d["type"] == "study" for r in d["rows"]]
-assert len(seen) == len(set(seen)) == len(pool), (len(seen), len(pool))
-W(f"{G}/plan.json", dict(old, start=str(START), days=days))
-print(f"{len(keep)} sections, {len(ids)} MCQs; plan {START} - {LAST}: {n_study} study, {n_r2} R2, {n_r3} R3, "
-      f"{n4 - len(mock_at)} MCQ days, {len(mock_at)} mocks")
-for d in days[:n_study]:
-    print(d["n"], d["date"], d["focus"][:30], len(d["rows"]), "topics", sum(map(w, d["rows"])), "MCQs")
+def part(name, study_pool, rev_pool, start, last, exam, label, mock_names, shares):
+    """one exam's days: first pass of study_pool, R2/R3 of rev_pool, MCQ days of rev_pool with mocks"""
+    dates = [start + dt.timedelta(i) for i in range((last - start).days + 1)]
+    N = len(dates)
+    n_study, n_r2, n_r3 = (round(N * x) for x in shares)
+    n4 = N - n_study - n_r2 - n_r3
+    mock_at = {round(n4 * k / (len(mock_names) + 1)) for k in range(1, len(mock_names) + 1)}
+    mocks = iter(mock_names)
+    groups = [(t, b, [r for r in study_pool if r["pri"] == t and r["ref"][0] == b]) for t in TIERS[:2] for b in ORDER]
+    groups.append(("LIGHT", 0, [r for r in study_pool if r["pri"] == "LIGHT"]))
+    groups = [g for g in groups if g[2]]
+    days_for = [1] * len(groups)
+    while sum(days_for) < n_study:
+        k = max(range(len(groups)), key=lambda k: sum(map(w, groups[k][2])) / days_for[k])
+        days_for[k] += 1
+    seq = []
+    for t in TIERS:
+        gi = [k for k, g in enumerate(groups) if g[0] == t]
+        done = {k: 0 for k in gi}
+        for _ in range(sum(days_for[k] for k in gi)):
+            k = min(gi, key=lambda k: (done[k] + 1) / days_for[k] if done[k] < days_for[k] else 9)
+            seq.append(k)
+            done[k] += 1
+    parts_ = {k: balanced(groups[k][2], days_for[k]) for k in range(len(groups))}
+    used = {k: 0 for k in parts_}
+    by_pri = sorted(rev_pool, key=lambda r: (TIERS.index(r["pri"]), ORDER.index(r["ref"][0]), r["ref"][1]))
+    di = iter(dates)
+    for k in seq:
+        t, b, _ = groups[k]
+        rows = parts_[k][used[k]]
+        used[k] += 1
+        focus = (short[b] if b else subjects(rows)).upper()
+        days.append(day(next(di), "study", f"{name} · PHASE 1 FIRST PASS", focus,
+                        [f"{name}: {t} priority. Read {len(rows)} topics of {short[b] if b else subjects(rows)}.",
+                         f"Then today's MCQs (all {sum(map(w, rows))} of them)."], [dict(r) for r in rows], exam, label))
+    for phase, n, q, how in (("PHASE 2 R2 REVISION", n_r2, 13, "about 4 minutes a page"),
+                             ("PHASE 3 R3 REVISION", n_r3, 14, "about 2 minutes a page: the boxes and exam corners")):
+        for j in range(n):
+            rows = by_pri[len(by_pri) * j // n: len(by_pri) * (j + 1) // n]
+            days.append(day(next(di), "revision", f"{name} · {phase}", subjects(rows).upper(),
+                            [f"{name}: {tiers(rows)} priority. Revise {len(rows)} topics ({subjects(rows)}): {how}."],
+                            [dict(r, q=q) for r in rows], exam, label))
+    practice = iter(balanced(by_pri, n4 - len(mock_at)))
+    for j in range(n4):
+        if j in mock_at:
+            days.append(day(next(di), "mock", f"{name} · PHASE 4 MCQS + MOCKS", "", [f"Full mock: {next(mocks)}"], [], exam, label))
+        else:
+            rows = next(practice)
+            days.append(day(next(di), "practice", f"{name} · PHASE 4 MCQS + MOCKS", subjects(rows).upper(),
+                            [f"{name}: {tiers(rows)} priority. MCQs of {len(rows)} topics ({subjects(rows)}): the rest of "
+                             f"their MCQs (about {sum(map(w, rows))} in all). Re-read the notes of every miss."],
+                            [dict(r) for r in rows], exam, label))
+    return n_study, n_r2, n_r3, n4 - len(mock_at), len(mock_at)
+
+
+pre = [r for r in pool_all if is_s(r)]
+mains_new = [r for r in pool_all if is_m(r) and not is_s(r)]
+mains_all = [r for r in pool_all if is_m(r)]
+P_LABEL, M_LABEL = "Prelims (21 Feb 2027)", "Mains (planned 22 May 2027)"
+st1 = part("PRELIMS", pre, pre, START, PRELIMS - dt.timedelta(2), PRELIMS, P_LABEL,
+           ["Group 2 Screening (150 Q, 150 min)"] * 5, (40 / 88, 18 / 88, 9 / 88))
+d = PRELIMS - dt.timedelta(1)
+days.append(day(d, "revision", "PRELIMS · EXAM EVE", "LIGHT REVIEW",
+                ["Prelims tomorrow. Light review only: answered-wrong MCQs and the traps boxes; admit card, centre route, "
+                 "sleep by 22:00."], [], PRELIMS, P_LABEL))
+days.append(day(PRELIMS, "mock", "PRELIMS · EXAM DAY", "", ["GROUP 2 PRELIMS (SCREENING) today. No study: rest after the exam."],
+                [], PRELIMS, P_LABEL))
+st2 = part("MAINS", mains_new, mains_all, PRELIMS + dt.timedelta(1), MAINS - dt.timedelta(3), MAINS, M_LABEL,
+           ["Group 2 Mains Paper I (150 Q, 150 min)", "Group 2 Mains Paper II (150 Q, 150 min)"] * 3,
+           (36 / 88, 16 / 88, 8 / 88))
+for i, dd in enumerate(days):
+    dd["n"] = i + 1
+seen = [tuple(r["ref"]) for dd in days if dd["type"] == "study" for r in dd["rows"]]
+assert len(seen) == len(set(seen)) == len(pre) + len(mains_new), (len(seen), len(pre), len(mains_new))
+not_in = [r for r in pool_all if not is_s(r) and not is_m(r)]
+assert not not_in, not_in[:3]
+W(f"{G}/plan.json", dict(old, start=str(START), exam=str(MAINS), examLabel=M_LABEL, days=days,
+                         stages=[{"date": str(PRELIMS), "label": P_LABEL}, {"date": str(MAINS), "label": M_LABEL}],
+                         buffer=[{"dates": "20 May", "work": "Answered wrong + every traps box (notes), fast"},
+                                 {"dates": "21 May", "work": "Light review, admit card, centre route, sleep by 22:00"}]))
+print(f"{len(new)} sections ({len(pre)} Prelims, {len(mains_new)} Mains-only, {len(mains_all)} Mains), {len(ids)} MCQs; "
+      f"plan {START} - {days[-1]['date']}: Prelims {st1}, Mains {st2} (study, R2, R3, MCQ days, mocks)")

@@ -515,6 +515,7 @@ class Repository(private val open: (String) -> InputStream) {
             examLabel = root.str("examLabel"),
             days = days,
             buffer = root.jsonObject["buffer"]!!.jsonArray.map { BufferItem(it.str("dates"), it.str("work")) },
+            stages = root.jsonObject["stages"]?.jsonArray?.map { LocalDate.parse(it.str("date")) to it.str("label") } ?: emptyList(),
         )
     }
 }
