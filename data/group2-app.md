@@ -61,3 +61,7 @@ facts only Group 1 sections held); Notes tab, Today tab and a statement MCQ (sel
 
 Also fixed in both apps: the Today card said "Day n of 90" (now the plan's own length: 78 here, 88 in Complete);
 the topic lists count the pages that show.
+
+## Prelims coverage (checked 17 Nov 2026)
+- All 193 Screening syllabus items (565 sections, 42,576 MCQs) are first read on Prelims study days 1-44 and revised 3+ times before 21 Feb 2027; no Prelims MCQ falls after the exam.
+- Mental Ability is left out on purpose (the owner's choice): no notes, MCQs or plan days for it.
