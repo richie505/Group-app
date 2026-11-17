@@ -88,9 +88,14 @@ class ReviewShotsTest {
         show(app()) { QuizScreen(QuizSource("sub", 4, 10, 3), "review", "Subsection MCQs", nav) }
         rule.onNodeWithText("All 10 finished", substring = true).assertExists()
         rule.onRoot().captureRoboImage("screenshots/review/3_review_top.png")
-        rule.onNode(hasScrollAction()).performScrollToNode(hasText("You answered wrong", substring = true))
+        // one MCQ at a time: Next moves on (Question 2 of 10)
+        rule.onNodeWithText("Question 1 of 10", substring = true).assertExists()
+        rule.onNodeWithText("Next").performClick()
         rule.waitForIdle()
+        rule.onNodeWithText("Question 2 of 10", substring = true).assertExists()
         rule.onRoot().captureRoboImage("screenshots/review/4_review_wrong_one.png")
+        rule.onNodeWithText("Previous").performClick()
+        rule.waitForIdle()
         rule.onNode(hasScrollAction()).performScrollToNode(hasText("All 10 finished", substring = true))
         rule.waitForIdle()
         rule.onNodeWithText("Wrong").performClick()
@@ -104,8 +109,9 @@ class ReviewShotsTest {
         val all = runBlocking { app.repo.mcq(4) }.subQuestions(10, 0)
         show(app) { QuizScreen(QuizSource("sub", 4, 10, 0), "review", "Subsection MCQs", nav) }
         rule.onNodeWithText("Review all ${all.size} · 12 finished", substring = true).assertExists()
-        rule.onNode(hasScrollAction()).performScrollToNode(hasText("Not attempted", substring = true))
+        rule.onNodeWithText("Not answered").performClick()
         rule.waitForIdle()
+        rule.onNodeWithText("Not attempted", substring = true).assertExists()
         rule.onRoot().captureRoboImage("screenshots/review/8_review_not_attempted.png")
     }
 

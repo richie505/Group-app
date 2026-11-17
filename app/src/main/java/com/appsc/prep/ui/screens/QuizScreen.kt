@@ -45,6 +45,7 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import kotlinx.coroutines.launch
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateListOf
@@ -840,7 +841,17 @@ private fun ReviewList(
         "seen" -> set.filter { it.id !in store.answers }
         else -> set
     }
-    PageList(Modifier.fillMaxSize(), max = 900.dp) {
+    // one MCQ at a time, like the quiz: Previous / Next at the bottom
+    var pos by rememberSaveable(filter) { mutableStateOf(0) }
+    val at = pos.coerceIn(0, (shownSet.size - 1).coerceAtLeast(0))
+    val listState = androidx.compose.foundation.lazy.rememberLazyListState()
+    val scope = androidx.compose.runtime.rememberCoroutineScope()
+    fun go(to: Int) {
+        pos = to
+        scope.launch { listState.scrollToItem(1) }
+    }
+    Column(Modifier.fillMaxSize()) {
+    PageList(Modifier.weight(1f), state = listState, max = 900.dp) {
         item(key = "review-head") {
             Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 14.dp, bottom = 4.dp)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
@@ -907,7 +918,8 @@ private fun ReviewList(
                 Spacer(Modifier.height(6.dp))
             }
         }
-        shownSet.forEachIndexed { i, q ->
+        shownSet.getOrNull(at)?.let { q ->
+            val i = at
             item(key = "rv-${q.id}") {
                 val result = store.answers[q.id]
                 Column(
@@ -916,7 +928,7 @@ private fun ReviewList(
                         .background(Color.White).padding(14.dp),
                 ) {
                     FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                        Tag("Q${i + 1}", C.AccentSoft, C.Accent)
+                        Tag("Question ${i + 1} of ${shownSet.size}", C.AccentSoft, C.Accent)
                         when (result) {
                             true -> Tag("✓ You got it right", C.GreenSoft, C.Green)
                             false -> Tag("✗ You answered wrong", C.HighSoft, C.High)
@@ -961,6 +973,29 @@ private fun ReviewList(
             }
         }
         item { Spacer(Modifier.height(24.dp)) }
+    }
+    if (shownSet.isNotEmpty()) {
+        Row(
+            Modifier.fillMaxWidth().padding(horizontal = 20.dp, vertical = 12.dp),
+            horizontalArrangement = Arrangement.spacedBy(10.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            OutlinedButton(
+                onClick = { go(at - 1) },
+                enabled = at > 0,
+                modifier = Modifier.weight(1f).height(50.dp),
+                shape = RoundedCornerShape(12.dp),
+            ) { Text("Previous", color = if (at > 0) C.Ink else C.Faint, maxLines = 1, style = TextStyle(fontSize = 14.sp)) }
+            Text("${at + 1} / ${shownSet.size}", style = TextStyle(fontSize = 14.sp, color = C.Muted))
+            Button(
+                onClick = { go(at + 1) },
+                enabled = at < shownSet.size - 1,
+                modifier = Modifier.weight(1f).height(50.dp),
+                shape = RoundedCornerShape(12.dp),
+                colors = ButtonDefaults.buttonColors(containerColor = C.Accent),
+            ) { Text("Next", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold)) }
+        }
+    }
     }
 }
 
