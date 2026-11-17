@@ -387,6 +387,7 @@ internal fun QuizRound(
                                 "outdated" -> Tag("⚠ Outdated", C.HighSoft, C.High)
                                 "added" -> Tag("Option added", C.AccentSoft, C.Accent)
                                 "disputed" -> Tag("Disputed", C.MedSoft, C.Med)
+                                "updated" -> Tag("Updated to latest", C.GreenSoft, C.Green)
                             }
                             if (q.id in edits) Tag("Corrected by you", C.GreenSoft, C.Green)
                         }
@@ -920,6 +921,7 @@ private fun ReviewList(
                             "outdated" -> Tag("⚠ Outdated", C.HighSoft, C.High)
                             "added" -> Tag("Option added", C.AccentSoft, C.Accent)
                             "disputed" -> Tag("Disputed", C.MedSoft, C.Med)
+                                "updated" -> Tag("Updated to latest", C.GreenSoft, C.Green)
                         }
                     }
                     Spacer(Modifier.height(8.dp))

@@ -1,0 +1,10 @@
+Outdated MCQs - job {J}. Repo /home/user/Group-app. Never use the Anthropic API. Do not commit. Edit nothing except your output file.
+Today is 17 November 2026. data/outdated/job-{J}.json lists MCQs (APPSC Complete app) whose answer was right when the paper was set but may not be right today (s = stem, o = options, a = keyed index from 0, x = explanation, flag = why it was flagged). The owner wants every outdated MCQ to show the LATEST correct answer, so a student is not confused.
+
+For EACH MCQ decide, verifying the current fact on official sources first (government/ministry sites, PIB, ECI, RBI, census/state portals, the body's own site), then coaching-institute sites (Vision IAS, Drishti IAS, Insights IAS, ForumIAS, Adda247, Testbook, Jagran Josh, GKToday, AffairsCloud) and other reputable references; open the page, do not trust snippets:
+- "rekey": the latest correct answer IS one of the options -> give its index.
+- "add": the latest answer is NOT among the options -> give the option text to add (short, in the same style); it will be appended and keyed.
+- "stem": the key is still right but the stem/options carry an old fact (old district name, "present X" wording, old count in the stem) -> give the corrected stem (and corrected options list only if an option's wording is outdated); key unchanged.
+- "ok": nothing is outdated after all (the question is about a fixed historical fact, e.g. "the first ...", "in 2011 Census ...", a dated event) -> no change. Questions explicitly tied to a year/census/report ("as per Census 2011", "in 2019") are NOT outdated: answer "ok".
+Write data/outdated/job-{J}.out.jsonl, one JSON line per MCQ: {"id", "action": "rekey"|"add"|"stem"|"ok", "index": int (rekey), "option": str (add), "stem": str (stem), "options": [..] (stem, optional), "latest": "one sentence: the latest fact with its date (as of Nov 2026)", "then": "the answer at the time of the exam (old key text)", "source": "URL"}.
+Validate with python (every id once, valid actions, rekey index in range). Reply in under 120 words: counts per action and anything you could not verify.
