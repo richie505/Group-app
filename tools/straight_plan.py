@@ -106,7 +106,7 @@ for i, (date, k) in enumerate(zip(dates, seq)):
         "tasks": [
             {"time": "07:00-10:00", "block": "Notes 1", "task": "First half of today's pages. After each page: close it and say its traps box aloud."},
             {"time": "11:00-13:00", "block": "Notes 2", "task": "Second half. Mark anything you could not recall."},
-            {"time": "16:00-19:00", "block": "MCQs", "task": "Today's MCQs (MCQs tab): all of each topic's MCQs. Read the notes again for every miss."},
+            {"time": "16:00-19:00", "block": "MCQs", "task": "Today's MCQs (Today tab or MCQs tab). Read the notes again for every miss."},
             {"time": "20:00-20:30", "block": "Recall + tick", "task": "Blank-sheet recall of today's topics; tick only pages truly finished."}],
         "left": f"{left} days to {plan['examLabel']}", "type": "study",
         "rows": [dict(r) for r in rows]})
@@ -118,6 +118,7 @@ plan["buffer"] = [{"dates": (exam - dt.timedelta(days=1)).strftime("%-d %b"),
 seen = [tuple(r["ref"]) for d in days for r in d["rows"]]
 assert len(seen) == len(set(seen)) == len(allrows), (len(seen), len(set(seen)), len(allrows))
 assert all(d["rows"] for d in days), "a day with no topics"
+plan["spread"] = True  # build_plan_mcq.py: the same number of MCQs every study day (a heavy topic's extra on the next days)
 open(f"{A}/plan.json", "w").write(json.dumps(plan, ensure_ascii=False, separators=(",", ":")))
 for d in days:
     print(d["n"], d["date"], d["focus"][:30], "| topics", len(d["rows"]), "pages", sum(map(pg, d["rows"])),

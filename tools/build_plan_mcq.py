@@ -4,7 +4,7 @@ MCQs on its topics, each MCQ on the first day that has it (DailyTarget.planMcqs 
     python3 tools/build_plan_mcq.py [assets dir=app/src/complete/assets]
 Run it again whenever the plan or the MCQs change (CompleteTest checks the file is current).
 """
-import json, os, sys
+import json, os, re, sys
 
 A = sys.argv[1] if len(sys.argv) > 1 else "app/src/complete/assets"
 # the app's own plan, else APPSC Complete's (APPSC One-liners), else the Prep app's
@@ -43,10 +43,16 @@ if plan.get("spread") and os.path.exists(f"{A}/plan.json"):
             prev = cum
         out[i:j] = new
         i = j
-    # the day's brief says how many
+    # the day's brief says how many (Group 2: "Then today's MCQs (...)."; Complete: "...; then all its MCQs (N today).")
     for d, ids in zip(days, out):
-        d["brief"] = [f"Then today's MCQs ({len(ids)}, the same each study day: what is left of earlier topics, then today's)."
-                      if b.startswith("Then today's MCQs") else b for b in d["brief"]]
+        if d["type"] != "study":
+            continue
+        say = f"today's MCQs ({len(ids)}, the same each study day: what is left of earlier topics, then today's)"
+        d["brief"] = [f"Then {say}." if b.startswith("Then today's MCQs")
+                      else re.sub(r"then all its MCQs \(\d+ today\)", "then " + say, b) for b in d["brief"]]
+        for t in d.get("tasks", []):
+            if t.get("block") == "MCQs":
+                t["task"] = re.sub(r"Today's MCQs \(MCQs tab\): (all|half) of each topic's MCQs\.", "Today's MCQs (Today tab or MCQs tab).", t["task"])
     open(f"{A}/plan.json", "w").write(json.dumps(plan, ensure_ascii=False, separators=(",", ":")))
 open(f"{A}/planmcq.json", "w").write(json.dumps(out, separators=(",", ":")))
 print(f"{len(out)} plan days, {len(seen)} MCQs")
