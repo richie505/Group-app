@@ -14,7 +14,8 @@ MARK = "Updated to the latest (Nov 2026): "
 
 def load():
     d = {}
-    for f in sorted(glob.glob("data/outdated/job-*.out.jsonl")):
+    # job outputs first, then the source-check pass (verify-*.jsonl) which overrides them
+    for f in sorted(glob.glob("data/outdated/job-*.out.jsonl")) + sorted(glob.glob("data/outdated/verify-*.jsonl")):
         for l in open(f):
             if l.strip():
                 o = json.loads(l); d[o["id"]] = o
