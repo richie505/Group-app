@@ -128,6 +128,8 @@ def g2_row(r, k):
     return r
 page = lambda pid: (lambda b, r, s: f"{b}:{new[(b, r)]}:{s}" if (b, r) in new else None)(*map(int, pid.split(":")))
 
+# Group 2 row -> APPSC Complete row, for the official-syllabus data (data/g2syl/, keyed by Complete rows)
+W("data/g2syl/rowmap.json", {f"{b}:{i}": [b, r] for (b, r), i in sorted(new.items(), key=lambda x: (x[0][0], x[1]))})
 # --- notes: full (trimmed) and MCQ notes; units kept only where a row is left
 idx = J(f"{C}/index.json")
 for src, name in ((C, "book{}.json"),):  # one set of notes, like APPSC Complete (the old MCQ notes are not shipped)

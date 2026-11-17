@@ -1,5 +1,5 @@
 """Group 2: the final section -> official-leaf map (data/g2syl/secmap-1..5.jsonl, then secmap-fix.jsonl overrides)
--> data/g2syl/secmap.json {"b:r": {"leaves": [...], "note": "..."}} and a coverage report data/g2syl/coverage.md."""
+-> data/g2syl/secmap.json {"<Complete book>:<Complete row>": {"leaves": [...], "note": "...", "g2": "b:r", "title"}} and a coverage report data/g2syl/coverage.md."""
 import json, glob, collections
 
 L = {x["leaf"]: x for x in json.load(open("data/g2syl/leaves.json"))}
@@ -12,7 +12,11 @@ for f in sorted(glob.glob("data/g2syl/secmap-[0-9].jsonl")) + ["data/g2syl/secma
             assert all(c in L for c in o["leaves"]), o
             M[(o["book"], o["row"])] = {"leaves": o["leaves"], "note": o.get("note", "")}
 assert set(M) == set(S)
-json.dump({f"{b}:{r}": v for (b, r), v in sorted(M.items())}, open("data/g2syl/secmap.json", "w"), ensure_ascii=False, indent=0)
+# keyed by APPSC Complete rows (stable across Group 2 rebuilds): data/g2syl/rowmap.json, Group 2 row -> Complete row,
+# as it was when the sections were mapped (data/g2syl/sections.jsonl uses Group 2 rows)
+RM = json.load(open("data/g2syl/rowmap-at-mapping.json"))
+json.dump({"%d:%d" % tuple(RM[f"{b}:{r}"]): dict(v, g2=f"{b}:{r}", title=S[(b, r)]["title"]) for (b, r), v in sorted(M.items())},
+          open("data/g2syl/secmap.json", "w"), ensure_ascii=False, indent=0)
 cov = collections.defaultdict(list)
 for k, v in M.items():
     for c in v["leaves"]:
