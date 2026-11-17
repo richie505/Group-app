@@ -178,6 +178,40 @@ W(f"{G}/index.json", dict(idx, books=ib))
 ARIHANT = set(J("data/pyq/arihant/applied.json")) if os.path.exists("data/pyq/arihant/applied.json") else set()
 ids = set()
 QBY = SY.defaultdict(list)  # official line -> its MCQs
+# the full official Group 2 papers: each question goes under the first section (and subsection) of its official line;
+# the partial copies of the same papers' questions already in the notes MCQs are left out
+PAPERS = SY.papers()
+PAPER_QS = [q for _, qs in PAPERS for q in qs]
+SUBJ_OF_PAPER = {"History": "P1", "Geography": "P2", "Indian Society": "P3", "Current Affairs": "P4",
+                 "Social & Cultural History of AP": "M1A", "Indian Constitution": "M1B", "Indian & AP Economy": "M2A", "Science & Technology": "M2B"}
+ORDERED = sorted(new, key=lambda k: (k[0], new[k]))
+PLACE = SY.defaultdict(list)
+
+
+def first_sub(k, leaf):
+    s = SY.SUBLEAF.get(ckey(k), {})
+    return min((i for i, v in s.items() if v == leaf), default=-1)
+
+
+for meta, qs in PAPERS:
+    raw = {q["n"]: q for q in SY.J(f"data/g2papers/{dict((t, n) for n, (t, _) in SY.PAPER_TAG.items())[meta['id']]}.json")["questions"]}
+    for q in qs:
+        k = next((k for k in ORDERED if q["lf"] in codes[k]), None)
+        if k is None:  # beyond the official syllabus: the first section of its paper subject
+            sc = SUBJ_OF_PAPER.get(raw[int(q["id"][-3:])].get("subject"), "P4")
+            k = next(k for k in ORDERED if any(SY.subject_of(c) == sc for c in codes[k]))
+        PLACE[k].append((q, first_sub(k, q["lf"])))
+# MCQs written for official lines that had almost none (data/g2syl/newmcq.jsonl; "g2" = Group 2 rows of that time)
+import hashlib
+_RN = SY.J("data/g2syl/rowmap-at-newmcq.json")
+if os.path.exists("data/g2syl/newmcq.jsonl"):
+    for l in open("data/g2syl/newmcq.jsonl"):
+        if l.strip():
+            o = json.loads(l)
+            k = tuple(_RN[o["g2"]])
+            q = {"id": "g2l" + hashlib.md5((o["s"] + "|".join(o["o"])).encode()).hexdigest()[:11], "s": o["s"], "o": o["o"],
+                 "a": o["a"], "x": o["x"], "src": "app", "lf": o["leaf"]}
+            PLACE[k].append((q, first_sub(k, o["leaf"])))
 for b in range(1, 7):
     m = J(f"{C}/mcq{b}.json")
     rows, subs = {}, {}
@@ -186,6 +220,8 @@ for b in range(1, 7):
             continue
         sb = m.get("subs", {}).get(r, [-1] * len(v))
         kept = list(zip(v, sb))  # every MCQ and every PYQ of the section (Group 1 and other papers' PYQs too)
+        kept = [(q, s) for q, s in kept if not (PAPER_QS and q["id"].startswith("y") and re.search(r"Group[- ]?(II|2)", q.get("src", ""))
+                                                    and re.search(r"2024|2025", q.get("src", "")) and SY.is_copy(q, PAPER_QS))]
         for q, _ in kept:
             for f in ("x", "s"):
                 if q.get(f):
@@ -194,8 +230,10 @@ for b in range(1, 7):
                 if q.get(f):
                     q[f] = [no_g1(t) for t in q[f]]
         # each MCQ: the official line it is asked under ("x" beyond the syllabus); each PYQ: the paper it came from
+        kept += PLACE.get((b, int(r)), [])
         for q, sb in kept:
-            q["lf"] = SY.question_leaf(f"{b}:{r}", sb)
+            if not q.get("lf") or not (q["id"].startswith(("yP24", "yM25")) or q["id"].startswith("g2l")):
+                q["lf"] = SY.question_leaf(f"{b}:{r}", sb)
             if q["id"].startswith("y"):
                 q["rl"] = SY.tier(q)
             QBY[q["lf"]].append(q)
@@ -228,7 +266,7 @@ W(f"{G}/exams.json", [{"title": "Group 2", "sub": "Official APPSC syllabus (27-0
                                  f"{len({tuple(x) for c in SY.LEAF if SY.subject_of(c) == s['code'] for x in ROWS_BY[c]})} sections",
      "groups": [{"title": f"{c}: {SY.LEAF[c]['text']}", "code": c, "rows": ROWS_BY[c]} for c in SY.LEAF if SY.subject_of(c) == s["code"]]}
     for s in SY.TREE["subjects"]]}])
-W(f"{G}/syllabus.json", SY.syllabus_json(dict(ROWS_BY), QBY, LPRI, []))
+W(f"{G}/syllabus.json", SY.syllabus_json(dict(ROWS_BY), QBY, LPRI, [m for m, _ in PAPERS]))
 emp = J(f"{C}/empty.json")
 W(f"{G}/empty.json", {k: [p for p in map(page, v) if p] for k, v in emp.items()})
 kt = J(f"{C}/keyterms.json")

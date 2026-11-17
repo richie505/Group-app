@@ -122,3 +122,46 @@ def syllabus_json(rows_by_leaf, qs_by_leaf, pri, papers):
             units.append({"code": u["code"], "title": u["title"], "phrases": phrases})
         subjects.append({k: s[k] for k in ("code", "stage", "paper", "title", "marks")} | {"units": units})
     return {"source": TREE["source"], "subjects": subjects, "papers": papers}
+
+
+# --- the full official Group 2 papers (data/g2papers/<name>.json + <name>.leaves.json: question n -> official leaf)
+PAPER_TAG = {"prelims-2024": ("P24", "Prelims"), "mains-2025-paper1": ("M25A", "Mains"), "mains-2025-paper2": ("M25B", "Mains")}
+
+
+def papers():
+    """[(meta, [question dicts in the app's MCQ form, with "lf"])]: only papers whose leaf map exists."""
+    out = []
+    for name, (tag, stage) in PAPER_TAG.items():
+        f, fl = f"data/g2papers/{name}.json", f"data/g2papers/{name}.leaves.json"
+        if not (os.path.exists(f) and os.path.exists(fl)):
+            continue
+        p, lv = J(f), J(fl)
+        qs = []
+        for q in p["questions"]:
+            src = f"{p['paper']} · Q{q['n']}"
+            o = {"id": f"y{tag}{q['n']:03d}", "s": q["s"], "o": q["o"], "a": q["a"], "src": src, "ap": 1,
+                 "x": q.get("x", ""), "lf": lv.get(str(q["n"]), "x"), "rl": "g2"}
+            if q.get("deleted") or q["a"] < 0:
+                o["k"], o["cx"], o["a"] = "u", 1, -1
+                o["x"] = "Deleted by APPSC in the final key. " + o["x"]
+            qs.append(o)
+        out.append(({"id": tag, "name": p["paper"], "stage": stage, "ids": [q["id"] for q in qs]}, qs))
+    return out
+
+
+def norm(t):
+    import re
+    return re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
+
+
+def is_copy(q, paper_qs, _cache={}):
+    """An older PYQ that is the same question as one of the full paper's (the partial copies before)."""
+    import difflib
+    key = id(paper_qs)
+    if key not in _cache:
+        _cache[key] = [norm(x["s"]) for x in paper_qs]
+    s = norm(q.get("s"))
+    if len(s) < 15:
+        return False
+    return any(difflib.SequenceMatcher(None, s, t).quick_ratio() > 0.85 and difflib.SequenceMatcher(None, s, t).ratio() > 0.85
+               for t in _cache[key] if abs(len(t) - len(s)) < 0.3 * len(s))
