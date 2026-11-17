@@ -18,6 +18,7 @@ import com.appsc.prep.ui.components.LocalApp
 import com.appsc.prep.ui.screens.BooksScreen
 import com.appsc.prep.ui.screens.Nav
 import com.appsc.prep.ui.theme.PrepTheme
+import androidx.compose.ui.test.onAllNodesWithText
 import com.github.takahirom.roborazzi.captureRoboImage
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert.assertEquals
@@ -98,7 +99,8 @@ class Group2Test {
     @Test fun noGroup1Content() = runBlocking {
         val g2codes = repo.exams[0].subjects.flatMap { it.groups }.map { it.code }.toSet()
         for (b in repo.index) for (r in b.rows) {
-            assertTrue("${b.id}:${r.index} ${r.codes}", r.codes.isNotEmpty() && r.codes.all { it in g2codes })
+            // the official syllabus lines it teaches ("X": beyond the official syllabus, kept for practice)
+            assertTrue("${b.id}:${r.index} ${r.codes}", r.codes.isNotEmpty() && r.codes.all { it in g2codes || it == "X" })
             assertEquals("GROUP-II", r.tag)
             assertTrue(r.pyq, !r.pyq.contains("G1"))
         }
@@ -109,6 +111,21 @@ class Group2Test {
                 assertTrue("book $b cites a Group 1 paper", !Regex("APPSC[- ]?G-?1\\b").containsMatchIn(text))
             }
         }
+    }
+
+    /** The official syllabus (27-04-2023): 8 subjects, 328 lines, every MCQ tied to a line or marked beyond it. */
+    @Test fun builtOnTheOfficialSyllabus() = runBlocking {
+        val syl = repo.syllabus!!
+        assertEquals(8, syl.subjects.size)
+        assertEquals(328, syl.leaves.size)
+        assertEquals(listOf("Prelims", "Prelims", "Prelims", "Prelims", "Mains", "Mains", "Mains", "Mains"), syl.subjects.map { it.stage })
+        val codes = syl.leaves.map { it.code }.toSet()
+        val all = repo.index.flatMap { b -> repo.mcqWhere(b.id) { true } }
+        assertTrue(all.all { it.leaf == "x" || it.leaf in codes })
+        assertTrue(all.filter { it.id.startsWith("y") }.all { it.tier in setOf("g2", "ap", "up", "ot") })
+        assertEquals(syl.leaves.sumOf { it.q }, all.count { it.leaf != "x" })
+        // every line has notes behind it
+        assertTrue(syl.leaves.all { it.rows.isNotEmpty() })
     }
 
     /** Prelims (Screening) part to 21 Feb, then the Mains part; every section read once in a first pass. */
@@ -171,6 +188,29 @@ class Group2Test {
         rule.onNodeWithText("GROUP 2").assertExists()
         assertTrue(rule.onAllNodes(hasText("GROUP 1")).fetchSemanticsNodes().isEmpty())
         assertTrue(rule.onAllNodes(hasText("G1")).fetchSemanticsNodes().isEmpty())
+    }
+
+    @Test fun syllabusScreen() {
+        runBlocking { repo.leafOf() }
+        shot("5_syllabus") { com.appsc.prep.ui.screens.SyllabusScreen(nav) }
+        rule.onNodeWithText("Indian History (30 marks)", substring = true).assertExists()
+    }
+
+    @Test fun syllabusSubject() {
+        runBlocking { repo.leafOf() }
+        shot("6_syllabus_subject") { com.appsc.prep.ui.screens.SylSubjectScreen(4, nav) }
+    }
+
+    @Test fun syllabusLine() {
+        runBlocking { repo.leafOf() }
+        val i = repo.syllabus!!.leaves.indexOfFirst { it.code == "M1A.3.11/3" }
+        shot("7_syllabus_line") { com.appsc.prep.ui.screens.LeafScreen(i, nav) }
+        assertTrue(rule.onAllNodesWithText("Nataka Samasthalu", substring = true).fetchSemanticsNodes().isNotEmpty())
+    }
+
+    @Test fun notesTabOfficialSyllabus() {
+        shot("8_notes_tab") { com.appsc.prep.ui.screens.BooksScreen(nav) }
+        rule.onNodeWithText("OFFICIAL APPSC SYLLABUS", substring = true).assertExists()
     }
 
     @Test fun todayTab() {
