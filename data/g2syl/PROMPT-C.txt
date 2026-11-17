@@ -1,0 +1,14 @@
+Task C: tie each subsection of a Group 2 section to ONE official syllabus leaf. Never use the Anthropic API. Do not commit.
+
+Input data/g2syl/sub-job-N.jsonl: one section per line with its official leaves (code -> text, from the official
+APPSC Group II syllabus; full list in data/g2syl/leaves.md) and its subsections (index i, title, the first lines,
+and how many MCQs/PYQs sit in it). Every MCQ of a subsection will take the leaf you choose, so choose the leaf the
+subsection's facts would be asked under. If a subsection is about something none of the section's leaves covers,
+you may use another leaf from leaves.md that clearly fits, or "beyond" if nothing in the official syllabus covers it
+(e.g. a Pallava subsection inside a Chola section for Prelims). Read the notes when the title is unclear:
+python3 tools/g2syl_show.py <b> <r>  (g2 = "b:r").
+
+Write data/g2syl/sub-out-N.jsonl, one line per input line, same order:
+{"key": "<key>", "subs": {"<i>": "<leaf code or beyond>", ...}}   (every subsection index of the section)
+Check with Python: every section once, every index present, codes exist in data/g2syl/leaves.json or are "beyond".
+Edit no other files. Report counts (subsections per leaf type, beyond count).
