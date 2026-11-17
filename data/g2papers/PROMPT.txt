@@ -1,0 +1,22 @@
+Task: add a full official APPSC Group 2 paper to the app as data. Never use the Anthropic API. Do not commit.
+
+Today is 17 Nov 2026. psc.ap.gov.in does not answer from this machine; find the paper and its FINAL key (APPSC's final
+key after objections, not a coaching institute's guess where a final key exists) on other sites: coaching institutes,
+education news sites, PDF hosts (e.g. jntufastupdates, sakshieducation, adda247, testbook, prepp, careers360, vision,
+kpias, 99notes, etc.). Use the English version of the paper. Download PDFs into your own new empty folder under the
+scratchpad and extract the text (pdftotext; for scans, read the page images yourself).
+
+Output data/g2papers/<name>.json:
+{"paper": "<official name, e.g. APPSC Group-II Prelims (Screening) 2024, held 25-02-2024>", "date": "YYYY-MM-DD",
+ "source_paper": "<url>", "source_key": "<url>", "key_status": "final" | "preliminary",
+ "questions": [{"n": <question number in the paper>, "s": "<stem as printed, statement lists on new lines>",
+   "o": ["<opt1>", "<opt2>", "<opt3>", "<opt4>"], "a": <0-based index of the key; -1 if APPSC deleted it>,
+   "deleted": true/false, "x": "<1-3 sentence explanation of why the key is right, in plain English>",
+   "subject": "<History|Geography|Indian Society|Current Affairs|Social & Cultural History of AP|Indian Constitution|Indian & AP Economy|Science & Technology>"}]}
+Rules:
+- Copy stems and options exactly (fix only obvious OCR errors). Keep every question of the paper EXCEPT Mental Ability /
+  reasoning / numeracy questions: leave those out (the owner does not want Mental Ability).
+- The key must be the official one; if you only find a preliminary key, use it and set key_status "preliminary".
+- Check with Python: numbers unique, 4 options each, a in range (or -1 with deleted true), counts per subject.
+Report: where the paper and key came from, question count kept and left out, key status, anything uncertain.
+Edit no other files.
