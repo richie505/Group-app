@@ -1,0 +1,435 @@
+## P1 Prelims · Screening Test · General Studies · Indian History (30M)
+### P1.1 Ancient History
+- P1.1.1: Salient features of Indus Valley Civilization and Vedic age
+    - Indus Valley Civilization – salient features
+    - Vedic age – salient features
+- P1.1.2: Emergence of Buddhism and Jainism
+    - Emergence of Buddhism
+    - Emergence of Jainism
+- P1.1.3: Mauryan Empire and Gupta Empire: Their administration, Socio-Economic and Religious Conditions, Art and Architecture, Literature
+    - Mauryan Empire – administration
+    - Mauryan Empire – socio-economic and religious conditions
+    - Mauryan Empire – art, architecture and literature
+    - Gupta Empire – administration
+    - Gupta Empire – socio-economic and religious conditions
+    - Gupta Empire – art, architecture and literature
+- P1.1.4: Harshavardhana and his Achievements
+### P1.2 Medieval History
+- P1.2.1: The Chola Administrative System
+- P1.2.2: Delhi Sultanate and The Mughal Empire: Their Administration, Socio-Economic and Religious Conditions, Art and Architecture, Language and Literature
+    - Delhi Sultanate – administration
+    - Delhi Sultanate – socio-economic and religious conditions
+    - Delhi Sultanate – art, architecture, language and literature
+    - Mughal Empire – administration
+    - Mughal Empire – socio-economic and religious conditions
+    - Mughal Empire – art, architecture, language and literature
+- P1.2.3: Bhakti and Sufi Movements
+    - Bhakti Movement
+    - Sufi Movement
+- P1.2.4: Shivaji and the rise of Maratha Empire
+    - Shivaji
+    - Rise of the Maratha Empire
+- P1.2.5: Advent of Europeans
+### P1.3 Modern History
+- P1.3.1: 1857 Revolt and its Impact
+    - 1857 Revolt
+    - Impact of the 1857 Revolt
+- P1.3.2: Rise and Consolidation of British Power in India
+    - Rise of British power
+    - Consolidation of British power
+- P1.3.3: Changes in Administration, Social and Cultural Spheres
+    - Changes in administration
+    - Changes in the social sphere
+    - Changes in the cultural sphere
+- P1.3.4: Social and Religious Reform Movements in the 19th and 20th Century
+    - Social reform movements (19th and 20th century)
+    - Religious reform movements (19th and 20th century)
+- P1.3.5: Indian National Movement: it's various stages and important contributors and contributions from different parts of the country
+    - Stages of the Indian National Movement
+    - Important contributors and contributions from different parts of the country
+- P1.3.6: Post Independence Consolidation and Reorganization within the country
+    - Post-independence consolidation
+    - Reorganization within the country
+## P2 Prelims · Screening Test · General Studies · Geography (30M)
+### P2.1 General and Physical Geography
+- P2.1.1: The Earth in our Solar System
+- P2.1.2: Interior of the Earth
+- P2.1.3: Major Landforms and their features
+- P2.1.4: Climate: Structure and Composition of Atmosphere
+    - Climate
+    - Structure of the atmosphere
+    - Composition of the atmosphere
+- P2.1.5: Ocean Water: Tides, Waves, Currents
+    - Tides
+    - Waves
+    - Ocean currents
+- P2.1.6: India and Andhra Pradesh: Major Physiographic features, Climate, Drainage System, Soils and Vegetation
+    - Physiographic features (India and AP)
+    - Climate (India and AP)
+    - Drainage system (India and AP)
+    - Soils (India and AP)
+    - Vegetation (India and AP)
+- P2.1.7: Natural Hazards and Disasters and their Management
+    - Natural hazards and disasters
+    - Disaster management
+### P2.2 Economic Geography of India and AP
+- P2.2.1: Natural resources and their distribution
+- P2.2.2: Agriculture and Agro based Activities
+    - Agriculture
+    - Agro-based activities
+- P2.2.3: Distribution of Major Industries and Major Industrial Regions. Transport, Communication, Tourism and Trade
+    - Distribution of major industries
+    - Major industrial regions
+    - Transport
+    - Communication
+    - Tourism
+    - Trade
+### P2.3 Human Geography of India and AP
+- P2.3.1: Human Development
+- P2.3.2: Demographics
+- P2.3.3: Urbanization and Migration
+    - Urbanization
+    - Migration
+- P2.3.4: Racial, Tribal, Religious and Linguistic groups
+    - Racial groups
+    - Tribal groups
+    - Religious groups
+    - Linguistic groups
+## P3 Prelims · Screening Test · General Studies · Indian Society (30M)
+### P3.1 Structure of Indian Society
+- P3.1.1: Family, Marriage, Kinship, Caste, Tribe, Ethnicity, Religion and Women
+    - Family
+    - Marriage
+    - Kinship
+    - Caste
+    - Tribe
+    - Ethnicity
+    - Religion
+    - Women
+### P3.2 Social Issues
+- P3.2.1: Casteism, Communalism and Regionalisation, Crime against Women, Child Abuse and Child Labour, Youth Unrest and Agitation
+    - Casteism
+    - Communalism
+    - Regionalisation
+    - Crime against women
+    - Child abuse
+    - Child labour
+    - Youth unrest and agitation
+### P3.3 Welfare Mechanism
+- P3.3.1: Public Policies and Welfare Programmes, Constitutional and Statutory Provisions for Schedule Castes, Schedule Tribes, Minorities, BCs, Women, Disabled and Children
+    - Public policies and welfare programmes
+    - Provisions for Scheduled Castes
+    - Provisions for Scheduled Tribes
+    - Provisions for Minorities
+    - Provisions for BCs
+    - Provisions for Women
+    - Provisions for the Disabled
+    - Provisions for Children
+## P4 Prelims · Screening Test · General Studies · Current Affairs (30M)
+### P4.1 Major Current Events and Issues
+- P4.1.1: International
+- P4.1.2: National
+- P4.1.3: State of Andhra Pradesh
+## M1A Mains · Paper I · Section A · Social and Cultural History of Andhra Pradesh (75M)
+### M1A.1 Pre-historic cultures to the Andhra Cholas
+- M1A.1.1: Pre-Historic Cultures
+- M1A.1.2: The Satavahanas, The Ikshvakus: Socio-Economic and Religious Conditions, Literature, Art and Architecture
+    - Satavahanas – socio-economic and religious conditions
+    - Satavahanas – literature, art and architecture
+    - Ikshvakus – socio-economic and religious conditions
+    - Ikshvakus – literature, art and architecture
+- M1A.1.3: The Vishnukundins, The Eastern Chalukyas of Vengi, Andhra Cholas: Society, Religion, Telugu Language, Art and Architecture
+    - Vishnukundins
+    - Eastern Chalukyas of Vengi
+    - Andhra Cholas
+    - Society and religion
+    - Telugu language
+    - Art and architecture
+### M1A.2 Andhradesa, 11th to 16th centuries A.D.
+- M1A.2.1: Various Major and minor dynasties that ruled Andhradesa between 11th and 16th centuries A.D
+    - Major dynasties of Andhradesa (11th-16th c.)
+    - Minor dynasties of Andhradesa (11th-16th c.)
+- M1A.2.2: Socio-Religious and Economic Conditions, Growth of Telugu Language and Literature, Art and Architecture in Andhradesa between 11th to 16th centuries A.D
+    - Socio-religious conditions
+    - Economic conditions
+    - Growth of Telugu language and literature
+    - Art and architecture
+### M1A.3 Europeans, Company rule and the Nationalist Movement in Andhra (1885-1947)
+- M1A.3.1: Advent of Europeans
+- M1A.3.2: Trade centers
+- M1A.3.3: Andhra under the Company
+- M1A.3.4: 1857 Revolt and its Impact on Andhra
+- M1A.3.5: Establishment of British Rule
+- M1A.3.6: Socio-Cultural Awakening, Justice Party/Self Respect Movement
+    - Socio-cultural awakening
+    - Justice Party
+    - Self Respect Movement
+- M1A.3.7: Growth of Nationalist Movement in Andhra between 1885 to 1947
+- M1A.3.8: Role of Socialists
+- M1A.3.9: Communists
+- M1A.3.10: Anti-Zamindari and Kisan Movements
+    - Anti-Zamindari movements
+    - Kisan movements
+- M1A.3.11: Growth of Nationalist Poetry, Revolutionary Literature, Nataka Samasthalu and Women Participation
+    - Nationalist poetry
+    - Revolutionary literature
+    - Nataka Samasthalu
+    - Women participation
+### M1A.4 Andhra Movement and the formation of Andhra State, 1953
+- M1A.4.1: Origin and Growth of Andhra Movement
+- M1A.4.2: Role of Andhra Mahasabhas
+- M1A.4.3: Prominent Leaders
+- M1A.4.4: Events leading to the formation of Andhra State 1953
+- M1A.4.5: Role of Press and News Papers in the Andhra Movement
+- M1A.4.6: Role of Library Movement and Folk and Tribal Culture
+    - Library Movement
+    - Folk culture
+    - Tribal culture
+### M1A.5 Formation of Andhra Pradesh and events 1956-2014
+- M1A.5.1: Events leading to the Formation of Andhra Pradesh State
+- M1A.5.2: Visalandhra Mahasabha
+- M1A.5.3: States Reorganization Commission and its Recommendations
+- M1A.5.4: Gentlemen Agreement
+- M1A.5.5: Important Social and Cultural Events between 1956 to 2014
+## M1B Mains · Paper I · Section B · Indian Constitution (75M)
+### M1B.1 Nature and salient features of the Constitution
+- M1B.1.1: Nature of Indian Constitution
+- M1B.1.2: Constitutional Development
+- M1B.1.3: Salient features of Indian Constitution
+- M1B.1.4: Preamble
+- M1B.1.5: Fundamental Rights, Directive Principles of State Policy and their relationship
+    - Fundamental Rights
+    - Directive Principles of State Policy
+    - Relationship between FRs and DPSPs
+- M1B.1.6: Fundamental Duties
+- M1B.1.7: Amendment of the Constitution
+- M1B.1.8: Basic Structure of the Constitution
+### M1B.2 Structure and functions of the Indian Government
+- M1B.2.1: Structure and Functions of Indian Government
+- M1B.2.2: Legislative, Executive and Judiciary
+- M1B.2.3: Types of Legislatures: Unicameral, Bicameral
+- M1B.2.4: Executive
+- M1B.2.5: Parliamentary
+- M1B.2.6: Judiciary
+- M1B.2.7: Judicial review
+- M1B.2.8: Judicial Activism
+### M1B.3 Union-State powers and constitutional bodies
+- M1B.3.1: Distribution of Legislative and Executive Powers between the Union and the States; Legislative, Administrative and Financial Relations between the Union and the States
+    - Distribution of legislative powers
+    - Distribution of executive powers
+    - Legislative relations
+    - Administrative relations
+    - Financial relations
+- M1B.3.2: Powers and Functions of Constitutional Bodies
+- M1B.3.3: Human Rights Commission
+- M1B.3.4: RTI
+- M1B.3.5: Lokpal and Lok Ayukta
+### M1B.4 Centre-State relations, parties and elections
+- M1B.4.1: Center-State Relations
+- M1B.4.2: Need for Reforms
+- M1B.4.3: Rajmannar Committee, Sarkaria Commission, M.M.Punchchi Commission
+    - Rajamannar Committee
+    - Sarkaria Commission
+    - M.M. Punchhi Commission
+- M1B.4.4: Unitary and Federal features of Indian Constitution
+- M1B.4.5: Indian Political Parties
+- M1B.4.6: Party System in India
+- M1B.4.7: Recognition of National and State Parties
+- M1B.4.8: Elections and Electoral Reforms
+- M1B.4.9: Anti-Defection Law
+### M1B.5 Centralisation vs decentralisation
+- M1B.5.1: Centralization Vs Decentralization
+- M1B.5.2: Community Development Programme
+- M1B.5.3: Balwant Rai Mehta, Ashok Mehta Committees
+    - Balwant Rai Mehta Committee
+    - Ashok Mehta Committee
+- M1B.5.4: 73rd and 74th Constitutional Amendment Acts and their Implementation
+    - 73rd Amendment and its implementation
+    - 74th Amendment and its implementation
+## M2A Mains · Paper II · Section A · Indian and AP Economy (75M)
+### M2A.1 Structure of Indian Economy, Economic Planning and Policy
+- M2A.1.1: National Income of India: Concept and Measurement of National Income
+    - Concept of national income
+    - Measurement of national income
+- M2A.1.2: Occupational Pattern and Sectoral Distribution of Income in India
+- M2A.1.3: Economic Growth and Economic Development
+- M2A.1.4: Strategy of Planning in India
+- M2A.1.5: New Economic Reforms 1991
+- M2A.1.6: Decentralization of Financial Resources
+- M2A.1.7: NITI Aayog
+### M2A.2 Money, Banking, Public Finance and Foreign Trade
+- M2A.2.1: Functions and Measures of Money Supply
+- M2A.2.2: Reserve Bank of India (RBI): Functions, Monetary Policy and Control of Credit
+    - RBI functions
+    - Monetary policy
+    - Control of credit
+- M2A.2.3: Indian Banking: Structure, Development and Reforms
+    - Structure of Indian banking
+    - Development of banking
+    - Banking reforms
+- M2A.2.4: Inflation: Causes and Remedies
+    - Causes of inflation
+    - Remedies for inflation
+- M2A.2.5: India’s Fiscal Policy: Fiscal Imbalance, Deficit Finance and Fiscal Responsibility
+    - Fiscal imbalance
+    - Deficit finance
+    - Fiscal responsibility (FRBM)
+- M2A.2.6: Indian Tax Structure
+- M2A.2.7: Goods and Services Tax (GST)
+- M2A.2.8: Recent Indian Budget
+- M2A.2.9: India’s Balance of Payments (BOP)
+- M2A.2.10: FDI
+### M2A.3 Agricultural Sector, Industrial Sector and Services in Indian Economy
+- M2A.3.1: Indian Agriculture: Cropping Pattern, Agricultural Production and Productivity
+    - Cropping pattern
+    - Agricultural production
+    - Agricultural productivity
+- M2A.3.2: Agricultural Finance and Marketing in India: Issues and Initiatives
+    - Agricultural finance
+    - Agricultural marketing
+- M2A.3.3: Agricultural Pricing and Policy in India: MSP, Procurement, Issue Price and Distribution
+    - MSP
+    - Procurement
+    - Issue price
+    - Distribution (PDS)
+- M2A.3.4: Industrial Development in India: Patterns and Problems
+    - Patterns of industrial development
+    - Problems of industrial development
+- M2A.3.5: New Industrial Policy, 1991
+- M2A.3.6: Disinvestment
+- M2A.3.7: Ease of Doing Business
+- M2A.3.8: Industrial Sickness: Causes, Consequences and Remedial Measures
+    - Causes of industrial sickness
+    - Consequences
+    - Remedial measures
+- M2A.3.9: Services Sector: Growth and Contribution of Services Sector in India
+- M2A.3.10: Role of IT and ITES Industry in Development
+### M2A.4 Structure of Andhra Pradesh Economy and Public Finance
+- M2A.4.1: Structure and Growth of AP Economy: Gross State Domestic Product (GSDP) and Sectoral Contribution, AP Per Capita Income (PCI)
+    - Structure and growth of the AP economy
+    - GSDP and sectoral contribution
+    - AP per capita income
+- M2A.4.2: AP State Revenue: Tax and Non-Tax Revenue
+    - AP tax revenue
+    - AP non-tax revenue
+- M2A.4.3: AP State Expenditure, Debts and Interest Payments
+    - AP state expenditure
+    - AP debts
+    - Interest payments
+- M2A.4.4: Central Assistance
+- M2A.4.5: Projects of External Assistance
+- M2A.4.6: Recent AP Budget
+### M2A.5 Agriculture and Allied Sector, Industrial Sector and Services Sector of Andhra Pradesh
+- M2A.5.1: Production Trends of Agriculture and Allied Sectors
+- M2A.5.2: Cropping Pattern
+- M2A.5.3: Rural Credit Cooperatives
+- M2A.5.4: Agricultural Marketing
+- M2A.5.5: Strategies, Schemes and Programmes related to Agricultural Sector and Allied Sectors in Andhra Pradesh Including Horticulture, Animal Husbandry, Fisheries and Forests
+    - Agriculture schemes
+    - Horticulture
+    - Animal husbandry
+    - Fisheries
+    - Forests
+- M2A.5.6: Growth and Structure of Industries
+- M2A.5.7: Recent AP Industrial Development Policy
+- M2A.5.8: Single Window Mechanism
+- M2A.5.9: Industrial Incentives
+- M2A.5.10: MSMEs
+- M2A.5.11: Industrial Corridors
+- M2A.5.12: Structure and Growth of Services Sector
+- M2A.5.13: Information Technology, Electronics and Communications in Andhra Pradesh
+- M2A.5.14: Recent AP IT Policy
+## M2B Mains · Paper II · Section B · Science and Technology (75M)
+### M2B.1 Technology Missions, Policies and Applications
+- M2B.1.1: National S&T Policy: Recent Science, Technology and Innovation Policy, and National Strategies and Missions, Emerging Technology Frontiers
+    - Science, Technology and Innovation Policy
+    - National strategies and missions
+    - Emerging technology frontiers
+- M2B.1.2: Space Technology: Launch Vehicles of India, Recent Indian Satellite Launches and its applications, Indian Space Science Missions
+    - Launch vehicles of India
+    - Recent satellite launches and applications
+    - Indian space science missions
+- M2B.1.3: Defence Technology: Defence Research and Development Organization (DRDO): Structure, Vision and Mission, Technologies Developed by the DRDO, Integrated Guided Missile Development Programme (IGMDP)
+    - DRDO – structure, vision and mission
+    - Technologies developed by DRDO
+    - IGMDP
+- M2B.1.4: Information and Communication Technology (ICT): National Policy on Information Technology
+- M2B.1.5: Digital India Mission: Initiatives and Impact
+- M2B.1.6: E-Governance Programmes and Services
+- M2B.1.7: Cyber Security concerns
+- M2B.1.8: National Cyber Security Policy
+- M2B.1.9: Nuclear Technology: Indian Nuclear Reactors and Nuclear Power Plants
+    - Indian nuclear reactors
+    - Nuclear power plants
+- M2B.1.10: Applications of Radioisotopes
+    - Applications of radioisotopes
+    - India's nuclear programme
+- M2B.1.11: India’s Nuclear Programme
+### M2B.2 Energy Management
+- M2B.2.1: Policy and Projections: Installed Energy Capacities and Demand in India
+    - Installed energy capacities
+    - Energy demand in India
+- M2B.2.2: National Energy Policy
+- M2B.2.3: National Policy on Biofuels
+- M2B.2.4: Bharat Stage Norms
+- M2B.2.5: Non-Renewable and Renewable Energy: Sources and Installed Capacities in India
+    - Non-renewable energy – sources and capacities
+    - Renewable energy – sources and capacities
+- M2B.2.6: New Initiatives and Recent Programmes, Schemes and Achievements in India’s Renewable Energy Sector
+### M2B.3 Ecosystem and Biodiversity
+- M2B.3.1: Ecology and Ecosystem: Basic concepts of Ecology, Ecosystem: Components and Types
+    - Basic concepts of ecology
+    - Ecosystem components
+    - Types of ecosystems
+- M2B.3.2: Biodiversity: Meaning, Components, Biodiversity Hotspots, Loss of Biodiversity and Conservation of Biodiversity: Methods, Recent Plans, Targets, Convention and Protocols
+    - Meaning and components of biodiversity
+    - Biodiversity hotspots
+    - Loss of biodiversity
+    - Conservation methods
+    - Recent plans, targets, conventions and protocols
+- M2B.3.3: Wildlife Conservation: CITES and Endangered Species with reference to India
+    - CITES
+    - Endangered species of India
+- M2B.3.4: Biosphere Reserves
+- M2B.3.5: Indian Wildlife Conservation efforts, projects, acts and initiatives in recent times
+### M2B.4 Waste Management and Pollution Control
+- M2B.4.1: Solid Waste: Solid Wastes and their Classification
+    - Solid wastes
+    - Classification of solid wastes
+- M2B.4.2: Methods of Disposal and Management of Solid Wastes in India
+- M2B.4.3: Environmental Pollution: Types of Environmental Pollution
+    - Air pollution
+    - Water pollution
+    - Soil pollution
+    - Noise and other pollution
+- M2B.4.4: Sources and Impacts
+- M2B.4.5: Pollution Control, Regulation and Alternatives: Recent projects, acts and initiatives to reduce Environmental Pollution in India
+    - Pollution control and regulation
+    - Alternatives
+    - Recent projects, acts and initiatives
+- M2B.4.6: Impact of Transgenics on Environment and their Regulation
+- M2B.4.7: Eco-Friendly Technologies in Agriculture
+- M2B.4.8: Bioremediation: Types and Scope in India
+    - Types of bioremediation
+    - Scope in India
+### M2B.5 Environment and Health
+- M2B.5.1: Environment Challenges: Global Warming, Climate Change, Acid Rain, Ozone Layer Depletion, Ocean Acidification
+    - Global warming
+    - Climate change
+    - Acid rain
+    - Ozone layer depletion
+    - Ocean acidification
+- M2B.5.2: Environmental Initiatives: Recent International Initiatives, Protocols, Conventions to tackle Climate Change with special reference to India’s Participation and Role
+    - International initiatives, protocols and conventions on climate change
+    - India's participation and role
+- M2B.5.3: Sustainable Development: Meaning, Nature, Scope, Components and Goals of Sustainable Development
+    - Meaning, nature and scope of sustainable development
+    - Components
+    - Sustainable Development Goals
+- M2B.5.4: Health Issues: Recent Trends in Disease Burden and Epidemic and Pandemic Challenges in India
+    - Disease burden trends
+    - Epidemic and pandemic challenges
+- M2B.5.5: Preparedness and Response: Healthcare Delivery and Outcomes in India
+    - Preparedness and response
+    - Healthcare delivery and outcomes
+- M2B.5.6: Recent Public Health Initiatives and Programmes
