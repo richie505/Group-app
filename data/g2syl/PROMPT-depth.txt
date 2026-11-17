@@ -1,0 +1,30 @@
+Task: check that the Group 2 notes teach every OFFICIAL syllabus leaf in depth, and write notes where they do not.
+Never use the Anthropic API. Do not commit. Today is 17 Nov 2026.
+
+Input: data/g2syl/depth-in-<S>.json: each official leaf (code, text, the official phrase it belongs to) and the
+Group 2 sections mapped to it ("b:r"). Read a section's notes with:  python3 tools/g2syl_show.py <b> <r>
+(the whole official syllabus is in data/g2syl/leaves.md).
+
+For every leaf decide:
+- "deep": the mapped notes already teach what an APPSC Group 2 question on this leaf needs (facts, names, dates,
+  causes/impacts, AP angle where the leaf has one).
+- "thin": something important for this leaf is missing or only mentioned in passing.
+- "missing": the notes do not really teach it (e.g. a leaf named by APPSC, such as Nataka Samasthalu, that the notes
+  only name).
+For "thin"/"missing" write the notes to add, as ONE new subsection placed in the best mapped section:
+- "g2": "b:r" (the section it goes into; one of the leaf's sections, or the closest Group 2 section),
+- "title": short subsection title (e.g. "Nataka Samasthalu – Drama Societies in the National Movement"),
+- "md": the notes in this markdown form (it becomes the app's blocks):
+    # Heading
+    - **Label:** text          (a bullet; **bold** the key word)
+      - text                   (a sub-bullet)
+    > exam angle / trap line
+  12-40 lines, exam-oriented, factual and current as of Nov 2026, AP angle where relevant. No tables. No source URLs
+  inside the text; add one last line "~~ Sources: <short source names or URLs>" listing what you checked.
+  Facts must be right: check anything you are not sure of on the web (official sites, PIB, reputable news,
+  coaching sites like Drishti/Vision/Sakshi/Adda247).
+
+Write data/g2syl/depth-out-<S>.jsonl, one line per input leaf, same order:
+{"leaf": "...", "verdict": "deep"|"thin"|"missing", "why": "<few words>", "add": null | {"g2": "b:r", "title": "...", "md": "..."}}
+Check with Python: every leaf once; add present exactly when verdict is thin/missing; g2 is a real section.
+Edit no other files. Report counts and the leaves you added notes for.
