@@ -1,0 +1,17 @@
+Task: find notes MCQs that only repeat a PYQ (APPSC Complete app). Never use the Anthropic API. Do not commit.
+
+Input: data/pyqrepeat/job-N.jsonl. Each line is one of the app's own notes MCQs ("notes": stem s, options o,
+key a, 0-based) and up to 3 past-paper questions (PYQs) of the same topic that look similar ("pyqs").
+
+For every line decide:
+- "drop": the notes MCQ tests the SAME fact as one of the PYQs, so a reader who has done that PYQ learns nothing
+  new from it. Same question asked in other words, the same answer (e.g. "Who founded X?" -> A, and the PYQ asks
+  "X was founded by" -> A; or the PYQ's answer is the notes MCQ's whole point). Clear cases only.
+- "keep": anything else. Keep when the notes MCQ adds a fact the PYQ does not test: another angle, a different
+  answer, a multi-statement question whose statements go beyond the PYQ, a newer/updated fact, a date or number
+  the PYQ does not ask. When in doubt, keep.
+
+Write data/pyqrepeat/job-N.out.jsonl, one line per input line, in input order:
+{"id": "<notes id>", "verdict": "drop"|"keep", "pyq": "<the PYQ id it repeats, for drop; else ''>", "why": "<few words>"}
+Check with Python that every input id appears once, verdicts are valid, and every drop names one of its PYQ ids.
+Edit no other files. Report counts (drop/keep) and a few example drops.
