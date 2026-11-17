@@ -20,7 +20,8 @@ for f in sorted(glob.glob("data/pyqrepeat/job-*.out.jsonl")):
             o = json.loads(l)
             if o.get("verdict") == "drop":
                 drop[o["id"]] = o
-protect = lambda q: q["id"].startswith("ca") or q.get("src") == "ca" or {"updated", "added"} & set(q.get("tg", []))
+latest = set(json.load(open("data/pyqrepeat/keep-latest.json"))["keep"]) if os.path.exists("data/pyqrepeat/keep-latest.json") else set()
+protect = lambda q: q["id"] in latest or q["id"].startswith("ca") or q.get("src") == "ca" or {"updated", "added"} & set(q.get("tg", []))
 
 index = json.load(open(f"{A}/index.json"))
 gone, arc = set(), []

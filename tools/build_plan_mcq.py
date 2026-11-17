@@ -49,7 +49,7 @@ if plan.get("spread") and os.path.exists(f"{A}/plan.json"):
             continue
         say = f"today's MCQs ({len(ids)}, the same each study day: what is left of earlier topics, then today's)"
         d["brief"] = [f"Then {say}." if b.startswith("Then today's MCQs")
-                      else re.sub(r"then all its MCQs \(\d+ today\)", "then " + say, b) for b in d["brief"]]
+                      else re.sub(r"then (all its MCQs \(\d+ today\)|today's MCQs \(\d+, the same each study day: what is left of earlier topics, then today's\))", "then " + say, b) for b in d["brief"]]
         for t in d.get("tasks", []):
             if t.get("block") == "MCQs":
                 t["task"] = re.sub(r"Today's MCQs \(MCQs tab\): (all|half) of each topic's MCQs\.", "Today's MCQs (Today tab or MCQs tab).", t["task"])

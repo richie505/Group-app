@@ -89,7 +89,7 @@ class Group2Test {
                 qs.forEach { q -> assertTrue(q.answer in -1 until q.options.size && q.options.size >= 2) }
             }
         }
-        assertEquals(71204, mcqs)
+        assertEquals(71013, mcqs)
         assertEquals(mcqs, repo.planIds.size)
     }
 
@@ -138,7 +138,7 @@ class Group2Test {
         val topicDay = HashMap<String, Int>()
         p.days.forEach { d -> d.rows.forEach { r -> books[r.book]!!.rows[r.row]?.forEach { q -> topicDay.putIfAbsent(q.id, d.n) } } }
         assertTrue(fresh.days.all { (d, ids) -> ids.all { topicDay[it]!! <= d.n } })
-        assertEquals(71204, fresh.days.sumOf { it.second.size })
+        assertEquals(71013, fresh.days.sumOf { it.second.size })
     }
 
     @Test fun aSessionIsFull() {
