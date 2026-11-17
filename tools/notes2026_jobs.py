@@ -560,6 +560,8 @@ def apply():
     subprocess.run([sys.executable, "tools/howmany_to_appsc.py", A], check=True)
     # outdated MCQs keep their latest answers (tools/outdated_apply.py)
     subprocess.run([sys.executable, "tools/outdated_apply.py", A], check=True)
+    # notes MCQs that only repeat a PYQ stay dropped (tools/pyq_repeat_apply.py)
+    subprocess.run([sys.executable, "tools/pyq_repeat_apply.py", A], check=True)
     subprocess.run([sys.executable, "tools/build_plan_mcq.py", A], check=True)
     n = 0
     for f in others:                                 # the same PYQ (same id) in the other apps gets the same key
