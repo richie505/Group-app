@@ -83,6 +83,11 @@ interface Nav {
     fun dayRead(book: Int, row: Int, sec: Int, day: Int) = read(book, row, maxOf(sec, 0))
     fun book(id: Int)
     fun back()
+    /** Group 2: the official syllabus, one of its subjects, one leaf (index in Syllabus.leaves), the weak leaves. */
+    fun syllabus() {}
+    fun sylSubject(i: Int) {}
+    fun leaf(i: Int) {}
+    fun weak() {}
 }
 
 private val dateFmt = DateTimeFormatter.ofPattern("EEE, d MMM yyyy")

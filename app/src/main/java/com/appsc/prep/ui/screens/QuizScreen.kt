@@ -100,6 +100,13 @@ fun rememberPool(src: QuizSource): List<Question>? {
             "rowapp", "rowpyq" -> (app.repo.mcq(src.book).rows[src.index] ?: emptyList()).filter { com.appsc.prep.ui.components.isPyq(it) == (src.kind == "rowpyq") }
             "unit" -> app.repo.mcq(src.book).units[src.index] ?: emptyList()
             "due" -> duePool(app, src.index)
+            // Group 2: an official syllabus leaf's MCQs (all / PYQs / Group 2 PYQs), across every section that has them
+            "leaf", "leafpyq", "leafg2" -> app.repo.syllabus?.leaves?.getOrNull(src.index)?.let { l ->
+                app.repo.index.flatMap { b -> app.repo.mcqWhere(b.id) { it.leaf == l.code } }
+                    .filter { q -> src.kind == "leaf" || (com.appsc.prep.ui.components.isPyq(q) && (src.kind == "leafpyq" || q.tier == "g2")) }
+            } ?: emptyList()
+            // Group 2: a full official paper, in the paper's order
+            "paper" -> app.repo.syllabus?.papers?.getOrNull(src.index)?.let { questions(app, it.ids) } ?: emptyList()
             // today's practice session: due revision first, then new MCQs in the plan's order ([DailyTarget])
             "session" -> questions(app, sessionIds(app))
             // every book's MCQs that need practice ([needsPractice])

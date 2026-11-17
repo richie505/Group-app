@@ -48,13 +48,14 @@ val completeTabs = tabs.take(2) + Tab("mcqs", "MCQs", Icons.Outlined.Quiz) + tab
 /** Whether the tab bar shows on this route (hidden while reading or practising). */
 fun showTabs(route: String?): Boolean =
     route in completeTabs.map { it.route } || route?.startsWith("day/") == true || route?.startsWith("exam/") == true ||
-        route?.startsWith("row/") == true || route?.startsWith("book/") == true
+        route?.startsWith("row/") == true || route?.startsWith("book/") == true || route == "syl" ||
+        route?.startsWith("syl/") == true || route?.startsWith("leaf/") == true || route == "weak"
 
 /** The tab a route belongs to. */
 fun tabFor(route: String?): String = completeTabs.firstOrNull { it.route == route }?.route ?: when {
     route?.startsWith("quiz/due") == true || route?.startsWith("quiz/session") == true -> "today"
     route?.startsWith("day/") == true || route?.startsWith("quiz/day") == true -> "plan"
-    route?.startsWith("quiz/need") == true -> "progress"
+    route?.startsWith("quiz/need") == true || route == "weak" -> "progress"
     else -> "books"
 }
 
@@ -86,6 +87,10 @@ class NavImpl(private val nav: NavHostController) : Nav {
     override fun read(book: Int, row: Int, sec: Int) = nav.navigate("read/$book/$row/$sec")
     override fun dayRead(book: Int, row: Int, sec: Int, day: Int) = nav.navigate("read/$book/$row/$sec?d=$day")
     override fun book(id: Int) = nav.navigate("book/$id")
+    override fun syllabus() = nav.navigate("syl")
+    override fun sylSubject(i: Int) = nav.navigate("syl/$i")
+    override fun leaf(i: Int) = nav.navigate("leaf/$i")
+    override fun weak() = nav.navigate("weak")
     override fun back() {
         nav.popBackStack()
     }
@@ -119,6 +124,7 @@ fun AppNavHost(nav: NavHostController, actions: Nav) {
             ),
         ) {
             val a = it.arguments!!
+            val app = com.appsc.prep.ui.components.LocalApp.current
             val src = QuizSource(a.getString("k")!!, a.getInt("b"), a.getInt("i"), a.getInt("s"))
             val title = when (src.kind) {
                 "day" -> "Day ${src.index} MCQs"
@@ -133,6 +139,10 @@ fun AppNavHost(nav: NavHostController, actions: Nav) {
                 "need" -> "MCQs to practise"
                 "due" -> if (src.index == 0) "Due MCQs" else "Day ${src.index}: due MCQs"
                 "session" -> "Session ${src.index}"
+                "leaf", "leafpyq", "leafg2" -> app.repo.syllabus?.leaves?.getOrNull(src.index)?.let { l ->
+                    "${l.code}" + when (src.kind) { "leafpyq" -> " · PYQs"; "leafg2" -> " · Group 2 PYQs"; else -> " · MCQs" }
+                } ?: "Syllabus MCQs"
+                "paper" -> app.repo.syllabus?.papers?.getOrNull(src.index)?.name ?: "Official paper"
                 else -> "MCQ Practice"
             }
             QuizScreen(src, a.getString("m")!!, title, actions)
@@ -143,6 +153,14 @@ fun AppNavHost(nav: NavHostController, actions: Nav) {
         ) {
             ExamSubjectScreen(it.arguments!!.getInt("e"), it.arguments!!.getInt("s"), actions)
         }
+        composable("syl") { com.appsc.prep.ui.screens.SyllabusScreen(actions) }
+        composable("syl/{s}", listOf(navArgument("s") { type = NavType.IntType })) {
+            com.appsc.prep.ui.screens.SylSubjectScreen(it.arguments!!.getInt("s"), actions)
+        }
+        composable("leaf/{i}", listOf(navArgument("i") { type = NavType.IntType })) {
+            com.appsc.prep.ui.screens.LeafScreen(it.arguments!!.getInt("i"), actions)
+        }
+        composable("weak") { com.appsc.prep.ui.screens.WeakLeavesScreen(actions) }
         composable("day/{n}", listOf(navArgument("n") { type = NavType.IntType })) {
             DayScreen(it.arguments!!.getInt("n"), actions)
         }

@@ -209,9 +209,39 @@ data class Question(
     val extra: List<String> = emptyList(),
     /** Key tags shown as chips beside the source: "outdated", "added" (correct option added), "disputed". */
     val tags: List<String> = emptyList(),
+    /** Group 2: the official syllabus leaf it is asked under (e.g. "P1.1.3/2"), "x" beyond the syllabus, "" unknown. */
+    val leaf: String = "",
+    /** A PYQ's paper: "g2" APPSC Group 2, "ap" other APPSC, "up" UPSC, "ot" other exams; "" for the app's own MCQs. */
+    val tier: String = "",
 ) {
     val scored get() = kind != 'u'
 }
+
+/** Group 2's official syllabus (APPSC, 27-04-2023): subject (paper section) -> unit -> phrase -> leaf. */
+data class Syllabus(val source: String, val subjects: List<SylSubject>, val papers: List<RealPaper>) {
+    val leaves: List<SylLeaf> by lazy { subjects.flatMap { it.leaves } }
+    fun leaf(code: String) = leaves.firstOrNull { it.code == code }
+}
+
+data class SylSubject(val code: String, val stage: String, val paper: String, val title: String, val marks: Int, val units: List<SylUnit>) {
+    val leaves get() = units.flatMap { u -> u.phrases.flatMap { it.leaves } }
+}
+
+data class SylUnit(val code: String, val title: String, val phrases: List<SylPhrase>)
+
+data class SylPhrase(val code: String, val text: String, val leaves: List<SylLeaf>)
+
+/**
+ * One leaf of the official syllabus: its sections (book, row), MCQs ([q]), PYQs ([pyq]), PYQs from Group 2 papers ([g2])
+ * and the years Group 2 asked it ([years]); [pri] HIGH / MED / LIGHT from marks and how often it was asked.
+ */
+data class SylLeaf(
+    val code: String, val text: String, val phrase: String, val rows: List<Pair<Int, Int>>,
+    val q: Int, val pyq: Int, val g2: Int, val years: List<Int>, val pri: String,
+)
+
+/** A full official Group 2 paper in the app (its questions by id, in the paper's order). */
+data class RealPaper(val id: String, val name: String, val stage: String, val ids: List<String>)
 
 /** MCQs of one book: by notes row (Section) and by unit (Topic, general questions). */
 data class BookMcq(

@@ -90,6 +90,8 @@ fun BooksScreen(nav: Nav) {
         TopBar("Notes")
         PageList(Modifier.fillMaxSize(), max = 1180.dp) { width ->
             if (app.repo.hasMcqNotes) item(key = "notes-mode") { NotesModeSwitch() }
+            // Group 2: the official APPSC syllabus, line by line, with its MCQs, PYQs and the real papers
+            if (app.repo.syllabus != null) item(key = "official-syllabus") { OfficialSyllabusCard(nav) }
             if (app.repo.exams.isNotEmpty()) {
                 // APPSC Complete: the subjects of each exam on their own, Group 1 then Group 2
                 app.repo.exams.forEachIndexed { ei, exam ->
@@ -362,6 +364,17 @@ fun ProgressScreen(nav: Nav) {
     Column(Modifier.fillMaxSize()) {
         TopBar("Progress")
         PageList(Modifier.fillMaxSize()) { width ->
+            if (app.repo.syllabus != null) item(key = "weak-lines") {
+                Card(Modifier.padding(top = 10.dp), onClick = { nav.weak() }) {
+                    Column(Modifier.padding(14.dp)) {
+                        Text("Weak syllabus lines", style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = C.Ink))
+                        Text(
+                            "The official APPSC syllabus lines where your MCQ accuracy is lowest, to practise first.",
+                            style = TextStyle(fontSize = 12.sp, color = C.Muted), modifier = Modifier.padding(top = 2.dp),
+                        )
+                    }
+                }
+            }
             item {
                 Column(Modifier.padding(20.dp)) {
                     Text("Overall", style = TextStyle(fontSize = 13.sp, color = C.Muted))
@@ -869,5 +882,26 @@ private fun NotesModeSwitch() {
             style = TextStyle(fontSize = 12.sp, lineHeight = 17.sp, color = C.Muted),
             modifier = Modifier.padding(top = 6.dp, start = 4.dp),
         )
+    }
+}
+
+
+/** Group 2: the way into the official syllabus (SyllabusScreen). */
+@Composable
+private fun OfficialSyllabusCard(nav: Nav) {
+    val syl = LocalApp.current.repo.syllabus ?: return
+    Card(Modifier.padding(top = 12.dp), onClick = { nav.syllabus() }) {
+        Column(Modifier.padding(16.dp)) {
+            Text("OFFICIAL APPSC SYLLABUS", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 1.sp))
+            Text(
+                "Prelims and Mains, line by line as APPSC wrote it (${syl.leaves.size} lines)",
+                style = TextStyle(fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = C.Ink), modifier = Modifier.padding(top = 2.dp),
+            )
+            Text(
+                "Each line's notes, MCQs and PYQs, how often Group 2 asked it, and your accuracy" +
+                    if (syl.papers.isNotEmpty()) " · the official ${syl.papers.size} papers" else "",
+                style = TextStyle(fontSize = 12.sp, lineHeight = 17.sp, color = C.Muted), modifier = Modifier.padding(top = 2.dp),
+            )
+        }
     }
 }

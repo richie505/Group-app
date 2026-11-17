@@ -261,6 +261,37 @@ class Repository(private val open: (String) -> InputStream) {
         }.getOrDefault(emptyList())
     }
 
+    /** Group 2: the official syllabus tree and the full real papers (syllabus.json); null in the other apps. */
+    val syllabus: Syllabus? by lazy {
+        runCatching {
+            val o = readJson("syllabus.json").jsonObject
+            Syllabus(
+                o.str("source"),
+                o["subjects"]!!.jsonArray.map { s ->
+                    SylSubject(s.str("code"), s.str("stage"), s.str("paper"), s.str("title"), s.intOr("marks"),
+                        s.jsonObject["units"]!!.jsonArray.map { u ->
+                            SylUnit(u.str("code"), u.str("title"), u.jsonObject["phrases"]!!.jsonArray.map { p ->
+                                SylPhrase(p.str("code"), p.str("text"), p.jsonObject["leaves"]!!.jsonArray.map { l ->
+                                    SylLeaf(
+                                        l.str("code"), l.str("text"), p.str("text"),
+                                        l.jsonObject["rows"]!!.jsonArray.map { x -> x.jsonArray[0].jsonPrimitive.int to x.jsonArray[1].jsonPrimitive.int },
+                                        l.intOr("q"), l.intOr("pyq"), l.intOr("g2"),
+                                        l.jsonObject["years"]?.jsonArray?.map { it.jsonPrimitive.int } ?: emptyList(), l.str("pri"),
+                                    )
+                                })
+                            })
+                        })
+                },
+                o["papers"]?.jsonArray?.map { p -> RealPaper(p.str("id"), p.str("name"), p.str("stage"), p.strList("ids")) } ?: emptyList(),
+            )
+        }.getOrNull()
+    }
+
+    /** Group 2: every MCQ's id -> its official leaf (read once from all the books). */
+    suspend fun leafOf(): Map<String, String> = leafMap ?: index.flatMap { b -> mcqWhere(b.id) { true } }
+        .associate { it.id to it.leaf }.also { leafMap = it }
+    @Volatile private var leafMap: Map<String, String>? = null
+
     private val books = HashMap<Int, Book>()
     private val mutex = Mutex()
 
@@ -456,6 +487,8 @@ class Repository(private val open: (String) -> InputStream) {
                 solution = q.strList("xs"),
                 extra = q.strList("xa"),
                 tags = q.strList("tg"),
+                leaf = q.str("lf"),
+                tier = q.str("rl"),
             )
         }
         fun map(key: String): Map<Int, List<Question>> =
