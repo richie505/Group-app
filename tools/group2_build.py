@@ -357,7 +357,12 @@ seen = [tuple(r["ref"]) for dd in days if dd["type"] == "study" for r in dd["row
 assert len(seen) == len(set(seen)) == len(pre) + len(mains_new), (len(seen), len(pre), len(mains_new))
 not_in = [r for r in pool_all if not is_s(r) and not is_m(r)]
 assert not not_in, not_in[:3]
-W(f"{G}/plan.json", dict(old, start=str(START), exam=str(MAINS), examLabel=M_LABEL, days=days,
+# a big topic's MCQs no longer pile up on its day: they spread evenly over the study days after it (spread, below)
+for dd in days:
+    for t in dd.get("tasks", []):
+        if t.get("block") == "MCQs" and "half of each topic" in t.get("task", ""):
+            t["task"] = "Today's MCQs (Today tab or MCQs tab). Every miss goes to Answered wrong."
+W(f"{G}/plan.json", dict(old, start=str(START), exam=str(MAINS), examLabel=M_LABEL, days=days, spread=True,
                          stages=[{"date": str(PRELIMS), "label": P_LABEL}, {"date": str(MAINS), "label": M_LABEL}],
                          buffer=[{"dates": "20 May", "work": "Answered wrong + every traps box (notes), fast"},
                                  {"dates": "21 May", "work": "Light review, admit card, centre route, sleep by 22:00"}]))

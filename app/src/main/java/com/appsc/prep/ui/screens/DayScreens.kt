@@ -346,7 +346,8 @@ private fun TopicCard(number: Int, book: Int, unit: Int, rows: List<PlanRow>, na
 @Composable
 private fun DayPracticeCard(day: PlanDay, nav: Nav) {
     val app = LocalApp.current
-    val total = day.rows.sumOf { app.repo.rowInfo(it.book, it.row)?.questionCount ?: 0 }
+    val share = if (app.repo.plan.spread) spreadIds(app, day.n) else null
+    val total = share?.size ?: day.rows.sumOf { app.repo.rowInfo(it.book, it.row)?.questionCount ?: 0 }
     if (total == 0) return
     // the day's questions, to count what is left to try and what was got wrong
     val pool = rememberPool(QuizSource("day", 0, day.n))
@@ -356,7 +357,8 @@ private fun DayPracticeCard(day: PlanDay, nav: Nav) {
     SectionHeader("MCQ practice")
     PracticeCard(
         title = "Today's MCQs",
-        subtitle = "${ids?.size ?: total} questions on today's sections",
+        subtitle = if (share != null) "${ids?.size ?: total} questions: today's even share (any left from earlier topics, then today's)"
+        else "${ids?.size ?: total} questions on today's sections",
         attempted = stats?.let { Triple(it.first, it.second, ids.size) },
         onStart = { nav.quiz("day", 0, day.n) },
         sets = sets,

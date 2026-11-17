@@ -22,5 +22,31 @@ for d in plan["days"]:
                     seen.add(q["id"])
                     ids.append(q["id"])
     out.append(ids)
+
+# "spread": over each run of study days, the same number of MCQs a day (an MCQ never before the day of its topic,
+# so a heavy topic's extra goes on the next days). DueMcqs.planMcqs in the app does the same.
+if plan.get("spread") and os.path.exists(f"{A}/plan.json"):
+    days, i = plan["days"], 0
+    while i < len(days):
+        if days[i]["type"] != "study":
+            i += 1
+            continue
+        j = i
+        while j < len(days) and days[j]["type"] == "study":
+            j += 1
+        flat = [x for k in range(i, j) for x in out[k]]
+        n, have, prev, new = j - i, 0, 0, []
+        for k in range(n):
+            have += len(out[i + k])
+            cum = min(have, len(flat) * (k + 1) // n)
+            new.append(flat[prev:cum])
+            prev = cum
+        out[i:j] = new
+        i = j
+    # the day's brief says how many
+    for d, ids in zip(days, out):
+        d["brief"] = [f"Then today's MCQs ({len(ids)}, the same each study day: what is left of earlier topics, then today's)."
+                      if b.startswith("Then today's MCQs") else b for b in d["brief"]]
+    open(f"{A}/plan.json", "w").write(json.dumps(plan, ensure_ascii=False, separators=(",", ":")))
 open(f"{A}/planmcq.json", "w").write(json.dumps(out, separators=(",", ":")))
 print(f"{len(out)} plan days, {len(seen)} MCQs")

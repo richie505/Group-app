@@ -129,6 +129,16 @@ class Group2Test {
         val books = runBlocking { (1..6).associateWith { repo.mcq(it) } }
         val fresh = com.appsc.prep.data.DueMcqs.planMcqs(p) { b, row -> books[b]!!.rows[row]?.map { it.id } ?: emptyList() }
         assertEquals(fresh.days.map { it.second }, repo.planMcqs.days.map { it.second })
+        // spread: every study day of a part has the same number of MCQs (within 1), none before its topic's day
+        assertTrue(p.spread)
+        for (part in listOf("PRELIMS", "MAINS")) {
+            val n = fresh.days.filter { it.first.type == "study" && it.first.phase.startsWith(part) }.map { it.second.size }
+            assertTrue("$part ${n.min()}..${n.max()}", n.max() - n.min() <= 1)
+        }
+        val topicDay = HashMap<String, Int>()
+        p.days.forEach { d -> d.rows.forEach { r -> books[r.book]!!.rows[r.row]?.forEach { q -> topicDay.putIfAbsent(q.id, d.n) } } }
+        assertTrue(fresh.days.all { (d, ids) -> ids.all { topicDay[it]!! <= d.n } })
+        assertEquals(71204, fresh.days.sumOf { it.second.size })
     }
 
     @Test fun aSessionIsFull() {

@@ -110,13 +110,20 @@ fun rememberPool(src: QuizSource): List<Question>? {
             else -> {
                 val day = app.repo.plan.days.first { it.n == src.index }
                 val seen = HashSet<String>()
-                day.rows.flatMap { r -> app.repo.mcq(r.book).rows[r.row] ?: emptyList() }.filter { seen.add(it.id) }
+                // Group 2 ([com.appsc.prep.data.Plan.spread]): a study day's own even share of MCQs, as in the MCQs tab
+                val share = if (app.repo.plan.spread) spreadIds(app, day.n) else null
+                (share?.let { questions(app, it) }
+                    ?: day.rows.flatMap { r -> app.repo.mcq(r.book).rows[r.row] ?: emptyList() }.filter { seen.add(it.id) })
                     .filter { src.kind == "day" || com.appsc.prep.ui.components.isPyq(it) == (src.kind == "daypyq") }
             }
         }
     }
     return pool
 }
+
+/** A spread plan's study day: its MCQ ids from planmcq.json; null on other days (they practise their topics). */
+fun spreadIds(app: com.appsc.prep.ui.components.AppState, day: Int): List<String>? =
+    app.repo.planMcqs.days.firstOrNull { it.first.n == day }?.takeIf { it.first.type == "study" && it.second.isNotEmpty() }?.second
 
 /** These MCQs (by id) in the given order; reads one book at a time ([com.appsc.prep.data.Repository.mcqWhere]). */
 private suspend fun questions(app: com.appsc.prep.ui.components.AppState, ids: List<String>): List<Question> {

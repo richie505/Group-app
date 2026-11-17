@@ -152,6 +152,8 @@ data class Plan(
     val buffer: List<BufferItem>,
     /** optional exam stages (e.g. Group 2 Prelims, then Mains): the countdown follows the next one */
     val stages: List<Pair<LocalDate, String>> = emptyList(),
+    /** Group 2: each run of study days gets the same number of MCQs ([DueMcqs.planMcqs]) */
+    val spread: Boolean = false,
 ) {
     fun nextExam(today: LocalDate): Pair<LocalDate, String> =
         stages.firstOrNull { !it.first.isBefore(today) } ?: (exam to examLabel)

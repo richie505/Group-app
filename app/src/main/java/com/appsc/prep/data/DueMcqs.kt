@@ -30,9 +30,36 @@ object DueMcqs {
      */
     fun planMcqs(plan: Plan, rows: (book: Int, row: Int) -> List<String>): PlanMcqs {
         val seen = HashSet<String>()
-        return PlanMcqs(plan.days.map { d ->
-            d to d.rows.flatMap { r -> rows(r.book, r.row).filterIndexed { i, _ -> i % 20 < r.share } }.filter { seen.add(it) }
-        })
+        val own = plan.days.map { d ->
+            d.rows.flatMap { r -> rows(r.book, r.row).filterIndexed { i, _ -> i % 20 < r.share } }.filter { seen.add(it) }
+        }
+        return PlanMcqs(plan.days.zip(if (plan.spread) spread(plan.days, own) else own))
+    }
+
+    /**
+     * [Plan.spread]: over each run of study days, the same number of MCQs a day. An MCQ never comes before the day of
+     * its topic, so a heavy topic's extra moves on to the next days (tools/build_plan_mcq.py does the same).
+     */
+    private fun spread(days: List<PlanDay>, own: List<List<String>>): List<List<String>> {
+        val out = own.toMutableList()
+        var i = 0
+        while (i < days.size) {
+            if (days[i].type != "study") { i++; continue }
+            var j = i
+            while (j < days.size && days[j].type == "study") j++
+            val flat = (i until j).flatMap { own[it] }
+            val n = j - i
+            var have = 0
+            var prev = 0
+            for (k in 0 until n) {
+                have += own[i + k].size
+                val cum = minOf(have, (flat.size.toLong() * (k + 1) / n).toInt())
+                out[i + k] = flat.subList(prev, cum)
+                prev = cum
+            }
+            i = j
+        }
+        return out
     }
 
     fun status(mcqs: PlanMcqs, today: LocalDate, tried: (String) -> Boolean): Status {

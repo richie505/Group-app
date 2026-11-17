@@ -516,6 +516,7 @@ class Repository(private val open: (String) -> InputStream) {
             days = days,
             buffer = root.jsonObject["buffer"]!!.jsonArray.map { BufferItem(it.str("dates"), it.str("work")) },
             stages = root.jsonObject["stages"]?.jsonArray?.map { LocalDate.parse(it.str("date")) to it.str("label") } ?: emptyList(),
+            spread = (root.jsonObject["spread"] as? JsonPrimitive)?.content == "true",
         )
     }
 }
