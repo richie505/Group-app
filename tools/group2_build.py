@@ -98,6 +98,17 @@ HOME = {1: ("S1", "M1-A"), 2: ("M1-B", "S3"), 3: ("M2-A",), 4: ("S2",), 5: ("M2-
 for k, cs in codes.items():
     home = [code_at[c] for c in cs if c in code_at and c.startswith(HOME[k[0]])]
     if home: subj[k] = min(home)
+# --- built on the OFFICIAL APPSC syllabus (27-04-2023, data/g2syl/, tools/g2syl_lib.py): a section's codes are the
+# official lines it teaches; it sits under its book's own official subject, in the order of the official lines;
+# sections no official line covers go last, under "Beyond the official syllabus"
+import g2syl_lib as SY
+ckey = lambda k: f"{k[0]}:{k[1]}"
+for k in list(subj):
+    lv = SY.leaves_of(ckey(k))
+    codes[k] = lv or ["X"]
+    h = SY.home(k[0], lv)
+    hs = SY.SUBJ_ORDER.index(h) if h in SY.SUBJ_ORDER else len(SY.SUBJ_ORDER)
+    subj[k] = (hs, min((SY.ORDER[c] for c in lv if SY.subject_of(c) == h), default=0))
 keep = sorted(subj)
 new = {}  # (book, old row) -> new row: rows in the order of the Group 2 syllabus (subject, then item)
 for b in range(1, 7):
@@ -108,17 +119,22 @@ BOOKS = {1: ("Indian History and Social & Cultural History of Andhra Pradesh", "
          2: ("Indian Constitution and Indian Society", "Constitution & Society"),
          3: ("Indian & AP Economy", "Economy"), 4: ("Geography", "Geography"),
          5: ("Science & Technology", "Science & Tech"), 6: ("Current Affairs", "Current Affairs")}
-UNIT = {si: {"code": re.sub(r"-\d+$", "", sj["groups"][0]["code"]), "title": f"{sj['title']} ({sj['sub'].split(' · ')[0]})"}
-        for si, sj in enumerate(g2["subjects"])}
+UNIT = {si: {"code": s["code"], "title": f"{s['title']} ({'Prelims' if s['stage'] == 'Prelims' else 'Mains · ' + s['paper']})"}
+        for si, s in enumerate(SY.TREE["subjects"])}
+UNIT[len(SY.SUBJ_ORDER)] = {"code": "X", "title": "Beyond the official syllabus (kept for practice)"}
 
 
 def g2_row(r, k):
     """a section's own fields, Group 2 only"""
     r = dict(r, codes=codes[k], tag="GROUP-II", pyq=g2_pyq(r.get("pyq")))
-    sub = [x for x in r.get("sub") or [] if x.startswith("Group-II")]
-    have = {m.group(1) for x in sub for m in [re.match(r"Group-II\s+(\S+):", x)] if m}
-    sub += [f"Group-II {g_title[c]}" for c in codes[k] if c not in have]  # the items it was mapped to
-    r["sub"] = sub
+    # the official syllabus lines it teaches, in APPSC's words
+    r["sub"] = [f"Official {c}: {SY.LEAF[c]['text']}" for c in codes[k] if c in SY.LEAF] or ["Beyond the official APPSC syllabus"]
+    # notes written where an official line was thin (data/g2syl/depth-out-*.jsonl): extra subsections at the end
+    adds = SY.added_secs(ckey(k))
+    if "secs" in r:
+        r["secs"] = list(r["secs"]) + [{kk: vv for kk, vv in a.items() if kk != "leaf"} for a in adds]
+    elif "n" in r:
+        r["n"] = r["n"] + len(adds)
     if "src" in r:
         r["src"] = [no_g1(x) for x in r["src"] if not x.startswith("Sources: Group-I:")]
     if "see" in r:
@@ -161,6 +177,7 @@ W(f"{G}/index.json", dict(idx, books=ib))
 # the Arihant book's PYQs (tools/arihant_apply.py) are APPSC Complete's only
 ARIHANT = set(J("data/pyq/arihant/applied.json")) if os.path.exists("data/pyq/arihant/applied.json") else set()
 ids = set()
+QBY = SY.defaultdict(list)  # official line -> its MCQs
 for b in range(1, 7):
     m = J(f"{C}/mcq{b}.json")
     rows, subs = {}, {}
@@ -176,6 +193,12 @@ for b in range(1, 7):
             for f in ("n", "xa"):
                 if q.get(f):
                     q[f] = [no_g1(t) for t in q[f]]
+        # each MCQ: the official line it is asked under ("x" beyond the syllabus); each PYQ: the paper it came from
+        for q, sb in kept:
+            q["lf"] = SY.question_leaf(f"{b}:{r}", sb)
+            if q["id"].startswith("y"):
+                q["rl"] = SY.tier(q)
+            QBY[q["lf"]].append(q)
         rows[str(new[(b, int(r))])] = [q for q, _ in kept]
         subs[str(new[(b, int(r))])] = [x for _, x in kept]
     for v in rows.values():
@@ -192,8 +215,20 @@ W(f"{G}/index.json", ix)
 ib = ix["books"]
 
 # --- the rest
-W(f"{G}/exams.json", [dict(g2, subjects=[dict(s, groups=[dict(g, rows=[[b, new[(b, r)]] for b, r in g["rows"]])
-                                                            for g in s["groups"]]) for s in g2["subjects"]])])
+# the Notes tab's syllabus: the official subjects, each official line with its sections; then syllabus.json (the
+# official tree with each line's MCQs, PYQs, Group 2 years and priority) for the Syllabus screens
+ROWS_BY = SY.defaultdict(list)
+for k in sorted(new, key=lambda k: (k[0], new[k])):
+    for c in codes[k]:
+        if c in SY.LEAF:
+            ROWS_BY[c].append([k[0], new[k]])
+LPRI, LSCORE = SY.priorities(QBY)
+W(f"{G}/exams.json", [{"title": "Group 2", "sub": "Official APPSC syllabus (27-04-2023): Prelims and Mains", "subjects": [
+    {"title": s["title"], "sub": f"{s['stage']}{'' if s['stage'] == 'Prelims' else ' · ' + s['paper']} · {s['marks']} marks · "
+                                 f"{len({tuple(x) for c in SY.LEAF if SY.subject_of(c) == s['code'] for x in ROWS_BY[c]})} sections",
+     "groups": [{"title": f"{c}: {SY.LEAF[c]['text']}", "code": c, "rows": ROWS_BY[c]} for c in SY.LEAF if SY.subject_of(c) == s["code"]]}
+    for s in SY.TREE["subjects"]]}])
+W(f"{G}/syllabus.json", SY.syllabus_json(dict(ROWS_BY), QBY, LPRI, []))
 emp = J(f"{C}/empty.json")
 W(f"{G}/empty.json", {k: [p for p in map(page, v) if p] for k, v in emp.items()})
 kt = J(f"{C}/keyterms.json")
@@ -242,9 +277,13 @@ MAINS = dt.date(2027, 5, 22)
 pool_all = []
 for (b, r), n in sorted(new.items(), key=lambda kv: (ORDER.index(kv[0][0]), kv[1])):
     o = pri[(b, r)]
-    pool_all.append({k: v for k, v in o.items() if k != "q"} | {"ref": [b, n], "codes": codes[(b, r)]})
-is_s = lambda r: any(c.startswith("S") for c in r["codes"])
-is_m = lambda r: any(c.startswith("M") for c in r["codes"])
+    # priority from the official lines it teaches (marks and how often Group 2 / APPSC asked them: SY.priorities)
+    lp = [LPRI[c] for c in codes[(b, r)] if c in LPRI]
+    p = "HIGH" if "HIGH" in lp else "MED" if "MED" in lp else "LIGHT"
+    pool_all.append({k: v for k, v in o.items() if k != "q"} | {"ref": [b, n], "codes": codes[(b, r)], "pri": p})
+is_s = lambda r: any(c.startswith("P") for c in r["codes"])
+# Mains: its official lines; sections beyond the official syllabus are kept (all their PYQs) as LIGHT Mains-part topics
+is_m = lambda r: any(c.startswith("M") for c in r["codes"]) or r["codes"] == ["X"]
 w = lambda r: max(1, mcqs.get(tuple(r["ref"]), 0))
 
 
