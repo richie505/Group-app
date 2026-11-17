@@ -1,0 +1,26 @@
+Task B: map APPSC Group 2 app topics (sections) to the OFFICIAL syllabus. Never use the Anthropic API. Do not commit.
+
+Read data/g2syl/leaves.md: the official APPSC Group II syllabus (27-04-2023) in APPSC's own words, split into
+leaves with codes (e.g. P1.1.3/2 = Mauryan Empire – socio-economic and religious conditions; M1A.3.11/3 = Nataka
+Samasthalu). P* codes are the Prelims (Screening) syllabus, M* codes the Mains syllabus. Mental Ability is not in it on
+purpose.
+
+Input: data/g2syl/sec-job-N.jsonl, one app section per line: book, row, title, its subsection titles, pyqs/mcqs counts.
+
+For every section decide which leaves it truly teaches (what an APPSC question set from that leaf would need):
+- "leaves": the codes it covers, the main one first. A section can serve both a Prelims and a Mains leaf (e.g.
+  Satavahana religion -> M1A.1.2/1 only, because the Screening syllabus does not name the Satavahanas; the 1857
+  revolt in Andhra -> M1A.3.4, while the 1857 revolt in India -> P1.3.1/1 and P1.3.1/2).
+- Be strict with the Screening syllabus: it names only what it names (e.g. no Sangam, Pallavas, Chalukyas,
+  Rashtrakutas, Kushanas, Rajputs, Vijayanagara in P1). Such a section gets no P leaf (it may get an M leaf if Mains
+  names it, e.g. Andhra dynasties of the 11th-16th centuries -> M1A.2.*).
+- Current-events sections: P4.1.1 International / P4.1.2 National / P4.1.3 AP, plus any static leaf they serve
+  (e.g. a recent ISRO mission -> P4.1.2 and M2B.1.2/3).
+- "leaves": [] when nothing in the official syllabus covers it (beyond the syllabus).
+- "note": a few words (why, or what part is beyond).
+
+Write data/g2syl/secmap-N.jsonl, one line per input line, same order:
+{"book": b, "row": r, "leaves": ["..."], "note": "..."}
+Check with Python: every input (book,row) once, every code exists in data/g2syl/leaves.json. Edit no other files.
+Report counts: sections with P leaves, with M leaves, with none; and any official leaf you think NO section in your
+batch covers is not your concern (another step checks gaps).
