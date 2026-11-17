@@ -1,0 +1,20 @@
+Task: write APPSC Group 2 style MCQs for official syllabus lines that have almost none. Never use the Anthropic API. Do not commit.
+
+Lines (official leaf code, text, the Group 2 sections "b:r" that teach it; read them with
+python3 tools/g2syl_show.py <b> <r>):
+M2A.3.4/2 Problems of industrial development (3:99, 3:102)
+M2A.3.8/2 Industrial sickness – consequences (3:105)
+M2A.4.3/3 AP interest payments (3:71, 3:112, 3:113)
+M2A.5.5/5 AP forests – strategies, schemes and programmes (3:123, 4:42, 4:54)
+M2A.5.9 AP industrial incentives (3:110, 3:129)
+M2B.1.10/2 India's nuclear programme (5:49)
+M2B.4.1/1 Solid wastes (5:83)
+M2B.4.5/2 Pollution control – alternatives (5:91, 5:92)
+
+For each line write 15 MCQs (fewer only if the notes truly cannot support 15), APPSC pattern: single-answer, 4 options;
+statement questions asked as "Which of the above statements is/are correct?" with options like "1 only", "1 and 2 only"
+(never "How many of the above"); match-the-following allowed. Facts must come from the notes or be checked on the web
+(current as of Nov 2026). Explanation 1-3 sentences.
+Output data/g2syl/newmcq.jsonl, one MCQ per line:
+{"leaf": "...", "g2": "b:r", "s": "<stem; statements on new lines>", "o": ["","","",""], "a": <0-based>, "x": "..."}
+Check with Python: valid JSON, 4 options, a in range, leaf and g2 from the list above. Edit no other files. Report counts.
