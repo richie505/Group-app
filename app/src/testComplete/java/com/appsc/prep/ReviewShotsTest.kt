@@ -98,6 +98,17 @@ class ReviewShotsTest {
         rule.onRoot().captureRoboImage("screenshots/review/5_review_filter_wrong.png")
     }
 
+    /** Review shows every MCQ of the set, the ones not answered yet too (with their keys and explanations). */
+    @Test fun reviewShowsTheUnansweredToo() {
+        val app = app()
+        val all = runBlocking { app.repo.mcq(4) }.subQuestions(10, 0)
+        show(app) { QuizScreen(QuizSource("sub", 4, 10, 0), "review", "Subsection MCQs", nav) }
+        rule.onNodeWithText("Review all ${all.size} · 12 finished", substring = true).assertExists()
+        rule.onNode(hasScrollAction()).performScrollToNode(hasText("Not attempted", substring = true))
+        rule.waitForIdle()
+        rule.onRoot().captureRoboImage("screenshots/review/8_review_not_attempted.png")
+    }
+
     /** "Practise" on a subsection already all finished opens the review, not the same MCQs again. */
     @Test fun practiseWhenAllFinishedOpensReview() {
         show(app()) { QuizScreen(QuizSource("sub", 4, 10, 3), "new", "Subsection MCQs", nav) }

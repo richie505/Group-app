@@ -153,7 +153,7 @@ suspend fun duePool(app: com.appsc.prep.ui.components.AppState, day: Int = 0): L
 
 /**
  * mode: "new" = unattempted ones, "wrong" = answered wrong, "practice" = wrong or answered after seeing the answer
- * ([needsPractice]), "all" = every question in order, "review" = the finished ones with their keys and explanations
+ * ([needsPractice]), "all" = every question in order, "review" = every question of the set (answered or not) with its key and explanation
  * (read, not answered again). The whole section comes in one run.
  */
 fun pickSet(pool: List<Question>, answers: Map<String, Boolean>, seen: Set<String>, mode: String): List<Question> {
@@ -162,7 +162,7 @@ fun pickSet(pool: List<Question>, answers: Map<String, Boolean>, seen: Set<Strin
         "practice" -> pool.filter { it.scored && needsPractice(it.id, answers, seen) }
         "new" -> pool.filter { it.id !in answers && it.id !in seen }.ifEmpty { pool }
         // the finished ones (answered, or answer seen), each with its key and explanation, to read through
-        "review" -> pool.filter { it.id in answers || it.id in seen }
+        "review" -> pool
         else -> pool
     }
     return chosen
@@ -832,7 +832,7 @@ private fun ReviewList(
     var filter by rememberSaveable { mutableStateOf("all") }
     val right = set.count { store.answers[it.id] == true }
     val wrong = set.count { store.answers[it.id] == false }
-    val seenOnly = set.size - right - wrong
+    val notAnswered = set.size - right - wrong
     val left = pool.size - pool.count { store.attempted(it.id) }
     val shownSet = when (filter) {
         "wrong" -> set.filter { store.answers[it.id] == false }
@@ -847,12 +847,12 @@ private fun ReviewList(
                     Icon(Icons.Filled.CheckCircle, null, tint = C.Green, modifier = Modifier.size(22.dp))
                     Spacer(Modifier.width(8.dp))
                     Text(
-                        if (left == 0) "All ${pool.size} finished" else "${set.size} of ${pool.size} finished",
+                        if (left == 0) "All ${pool.size} finished" else "Review all ${set.size} · ${pool.size - left} finished",
                         style = TextStyle(fontSize = 20.sp, fontWeight = FontWeight.Bold, color = C.Ink),
                     )
                 }
                 Text(
-                    "Answers and explanations of the finished MCQs — read through them, no need to answer again.",
+                    "Every MCQ here with its answer and explanation, answered or not — read through them, no need to answer.",
                     style = TextStyle(fontSize = 13.sp, lineHeight = 18.sp, color = C.Muted),
                     modifier = Modifier.padding(top = 4.dp),
                 )
@@ -876,7 +876,7 @@ private fun ReviewList(
                     chip("All", set.size, "all", C.ExamInk, C.ExamBg, Modifier.weight(1f))
                     chip("Correct", right, "right", C.Green, C.GreenSoft, Modifier.weight(1f))
                     chip("Wrong", wrong, "wrong", C.High, C.HighSoft, Modifier.weight(1f))
-                    chip("Answer seen", seenOnly, "seen", C.Med, C.MedSoft, Modifier.weight(1f))
+                    chip("Not answered", notAnswered, "seen", C.Med, C.MedSoft, Modifier.weight(1f))
                 }
                 Spacer(Modifier.height(10.dp))
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -920,7 +920,7 @@ private fun ReviewList(
                         when (result) {
                             true -> Tag("✓ You got it right", C.GreenSoft, C.Green)
                             false -> Tag("✗ You answered wrong", C.HighSoft, C.High)
-                            null -> Tag("Answer seen", C.MedSoft, C.Med)
+                            null -> if (q.id in store.seen) Tag("Answer seen", C.MedSoft, C.Med) else Tag("Not attempted", C.Chip, C.Muted)
                         }
                         if (q.appsc) Tag("APPSC", C.ExamBg, C.ExamInk)
                         if (q.source.isNotBlank()) Tag(q.source)
@@ -1016,8 +1016,8 @@ private fun Results(
                     ProgressLine(attempted / pool.size.toFloat())
                 }
                 Spacer(Modifier.height(18.dp))
-                if (attempted > 0) {
-                    // the finished ones with their keys and explanations, to read through without answering again
+                if (pool.isNotEmpty()) {
+                    // every MCQ of the set with its key and explanation, answered or not, to read through
                     Button(
                         onClick = { onNext("review") },
                         modifier = Modifier.fillMaxWidth().height(50.dp),
@@ -1025,7 +1025,7 @@ private fun Results(
                         colors = ButtonDefaults.buttonColors(containerColor = if (remaining == 0) C.Green else C.ExamInk),
                     ) {
                         Text(
-                            if (remaining == 0) "Finished all $attempted · review answers" else "Review the $attempted finished · answers",
+                            if (remaining == 0) "Finished all $attempted · review answers" else "Review all ${pool.size} · answers & explanations",
                             style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.SemiBold),
                         )
                     }

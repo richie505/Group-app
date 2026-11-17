@@ -217,9 +217,9 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav, day: Int = 0) {
                                         }
                                         // finished ones: their keys and explanations, without answering again
                                         val fin = subQ - subSets.unattempted
-                                        if (fin > 0) {
+                                        if (subQ > 0) {
                                             Tag(
-                                                if (fin == subQ) "✓ Finished" else "✓ $fin review",
+                                                if (fin == subQ) "✓ Finished" else "Review all",
                                                 C.GreenSoft, C.Green,
                                                 modifier = Modifier.clickable { nav.quiz("sub", bookId, rowIndex, "review", sub = i) },
                                             )

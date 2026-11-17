@@ -505,10 +505,9 @@ fun PracticeCard(
                     SetChip("Practise", sets.practice, C.Med, C.MedSoft, Modifier.weight(1f)) { onSet("practice") }
                     SetChip("All", sets.total, C.ExamInk, C.ExamBg, Modifier.weight(1f)) { onSet("all") }
                 }
-                // the finished ones with their keys, your answers and the explanations - read them, no need to
+                // every MCQ of the set with its key, your answer (if any) and the explanation - read them, no need to
                 // answer them all again
-                val finished = sets.total - sets.unattempted
-                if (finished > 0) {
+                if (sets.total > 0) {
                     Spacer(Modifier.height(10.dp))
                     androidx.compose.material3.Button(
                         onClick = { onSet("review") },
@@ -520,7 +519,7 @@ fun PracticeCard(
                         Icon(Icons.Filled.CheckCircle, null, modifier = Modifier.size(18.dp))
                         Spacer(Modifier.width(8.dp))
                         Text(
-                            if (sets.unattempted == 0) "Review all $finished · answers & explanations" else "Review $finished finished · answers & explanations",
+                            "Review all ${sets.total} · answers & explanations",
                             style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.SemiBold),
                             maxLines = 1,
                         )
