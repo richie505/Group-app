@@ -126,6 +126,9 @@ def syllabus_json(rows_by_leaf, qs_by_leaf, pri, papers):
 
 # --- the full official Group 2 papers (data/g2papers/<name>.json + <name>.leaves.json: question n -> official leaf)
 PAPER_TAG = {"prelims-2024": ("P24", "Prelims"), "mains-2025-paper1": ("M25A", "Mains"), "mains-2025-paper2": ("M25B", "Mains")}
+PAPER_NAME = {"P24": "Group 2 Prelims 2024 (25 Feb 2024) · GS, Mental Ability left out",
+              "M25A": "Group 2 Mains 2025 Paper I (23 Feb 2025) · AP History & Constitution",
+              "M25B": "Group 2 Mains 2025 Paper II (23 Feb 2025) · Economy & Sci-Tech"}
 
 
 def papers():
@@ -145,7 +148,7 @@ def papers():
                 o["k"], o["cx"], o["a"] = "u", 1, -1
                 o["x"] = "Deleted by APPSC in the final key. " + o["x"]
             qs.append(o)
-        out.append(({"id": tag, "name": p["paper"], "stage": stage, "ids": [q["id"] for q in qs]}, qs))
+        out.append(({"id": tag, "name": PAPER_NAME.get(tag, p["paper"]), "stage": stage, "ids": [q["id"] for q in qs]}, qs))
     return out
 
 
