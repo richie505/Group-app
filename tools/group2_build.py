@@ -210,7 +210,7 @@ if NOTES_MODE == "oneliners":
                 if "new" in _x:
                     _nw = _x["new"]
                     _to = tuple(_RMC[_nw["row"]])
-                    _nid = "oc" + _hl.md5(f"{_nw['row']}|{_nw['s']}".encode()).hexdigest()[:10]
+                    _nid = "oN" + _hl.md5(f"{_nw['row']}|{_nw['s']}".encode()).hexdigest()[:10]
                     _CAN.setdefault(_to, []).append({"id": _nid, "s": _nw["s"], "o": _nw["o"], "a": _nw["a"], "x": _nw.get("x", ""), "xs": [_nw.get("x", "")]})
                     _CAPIN.add(_nid)
                 elif _x.get("v") == "edit":
@@ -238,9 +238,21 @@ if NOTES_MODE == "oneliners":
                     _q.pop("xa", None)
                     _q.update(_CAE[q["id"]])
                 _BY.setdefault(_to, []).append(_q)
+    # a new one already asked (same answer, mostly the same question words) by any one-liner, or by an earlier new one
     _seenc = {q["id"] for _v in _BY.values() for q in _v}
-    for _to, _v in _CAN.items():
-        _BY.setdefault(_to, []).extend(q for q in _v if q["id"] not in _seenc)
+    _ans = {}
+    for _v in _BY.values():
+        for q in _v:
+            if 0 <= q.get("a", -1) < len(q.get("o") or []):
+                _ans.setdefault(_n(q["o"][q["a"]]), []).append(set(_n(q["s"]).split()))
+    for _to, _v in sorted(_CAN.items()):
+        for q in _v:
+            _a, _w = _n(q["o"][q["a"]]), set(_n(q["s"]).split())
+            if q["id"] in _seenc or any(len(_w & x) / max(1, len(_w | x)) > 0.5 for x in _ans.get(_a, [])):
+                continue
+            _ans.setdefault(_a, []).append(_w)
+            _seenc.add(q["id"])
+            _BY.setdefault(_to, []).append(q)
     # where each one-liner's fact is taught: the notes line with its answer and its question's key words
     # (tools/notes_match.py). A strong match (answer + 3 or more key words) places it there, in whatever topic; a match
     # inside its own topic picks the subsection; otherwise the subsection whose title and notes are closest.
