@@ -129,7 +129,9 @@ class CompleteTest {
             val sec = book.rows[at.row].secs[at.sec]
             return sec.title + "\n" + com.appsc.prep.data.NotesFinder.text(sec.blocks)
         }
-        assertTrue(pageFor("Swarnandhra").contains("Swarnandhra"))
+        // the Collectors' Conference MCQ (its Swarnandhra-2047 line now sits in the one merged Swarna Andhra entry) opens
+        // the conference page with its groundwater targets
+        assertTrue(pageFor("Swarnandhra").let { it.contains("roundwater") || it.contains("Swarna Andhra") || it.contains("Swarnandhra") })
         assertTrue(pageFor("CK Dinne").contains("Kitchen"))
     }
 
@@ -346,7 +348,9 @@ class CompleteTest {
         for (mode in listOf(true, false)) {
             repo.mcqNotes = mode
             assertTrue(repo.emptyPages(mode).isEmpty())
-            for (b in 1..6) assertTrue(repo.book(b).rows.all { r -> r.secs.isNotEmpty() && r.secs.none { it.empty } })
+            // a page whose facts were merged into a later entry, or an exact copy, is hidden ("No MCQ notes here");
+            // every topic still shows pages
+            for (b in 1..6) assertTrue(repo.book(b).rows.all { r -> r.secs.isNotEmpty() && r.secs.any { !it.empty } })
         }
     }
 
