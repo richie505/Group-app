@@ -79,24 +79,26 @@ class ReviewShotsTest {
         val mcq = runBlocking { app.repo.book(4); app.repo.mcq(4) }
         mcq.rows[10]!!.forEach { app.store.recordAnswer(it.id, true) }
         show(app) { SectionScreen(4, 10, nav) }
-        rule.onNode(hasScrollAction()).performScrollToNode(hasText("Review all 128", substring = true))
+        rule.onNode(hasScrollAction()).performScrollToNode(hasText("Review all ${mcq.rows[10]!!.size}", substring = true))
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/review/7_section_all_finished.png")
     }
 
     @Test fun reviewListShowsKeysAndExplanations() {
-        show(app()) { QuizScreen(QuizSource("sub", 4, 10, 3), "review", "Subsection MCQs", nav) }
-        rule.onNodeWithText("All 10 finished", substring = true).assertExists()
+        val app = app()
+        val n = runBlocking { app.repo.mcq(4) }.subQuestions(10, 3).size
+        show(app) { QuizScreen(QuizSource("sub", 4, 10, 3), "review", "Subsection MCQs", nav) }
+        rule.onNodeWithText("All $n finished", substring = true).assertExists()
         rule.onRoot().captureRoboImage("screenshots/review/3_review_top.png")
-        // one MCQ at a time: Next moves on (Question 2 of 10)
-        rule.onNodeWithText("Question 1 of 10", substring = true).assertExists()
+        // one MCQ at a time: Next moves on (Question 2 of n)
+        rule.onNodeWithText("Question 1 of $n", substring = true).assertExists()
         rule.onNodeWithText("Next").performClick()
         rule.waitForIdle()
-        rule.onNodeWithText("Question 2 of 10", substring = true).assertExists()
+        rule.onNodeWithText("Question 2 of $n", substring = true).assertExists()
         rule.onRoot().captureRoboImage("screenshots/review/4_review_wrong_one.png")
         rule.onNodeWithText("Previous").performClick()
         rule.waitForIdle()
-        rule.onNode(hasScrollAction()).performScrollToNode(hasText("All 10 finished", substring = true))
+        rule.onNode(hasScrollAction()).performScrollToNode(hasText("All $n finished", substring = true))
         rule.waitForIdle()
         rule.onNodeWithText("Wrong").performClick()
         rule.waitForIdle()
@@ -117,8 +119,10 @@ class ReviewShotsTest {
 
     /** "Practise" on a subsection already all finished opens the review, not the same MCQs again. */
     @Test fun practiseWhenAllFinishedOpensReview() {
-        show(app()) { QuizScreen(QuizSource("sub", 4, 10, 3), "new", "Subsection MCQs", nav) }
-        assertTrue(rule.onAllNodes(hasText("All 10 finished", substring = true)).fetchSemanticsNodes().isNotEmpty())
+        val app = app()
+        val n = runBlocking { app.repo.mcq(4) }.subQuestions(10, 3).size
+        show(app) { QuizScreen(QuizSource("sub", 4, 10, 3), "new", "Subsection MCQs", nav) }
+        assertTrue(rule.onAllNodes(hasText("All $n finished", substring = true)).fetchSemanticsNodes().isNotEmpty())
     }
 
     /** At the end of a quiz: "Finished all · review answers". */

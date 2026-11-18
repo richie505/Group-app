@@ -78,8 +78,16 @@ if new:
                 if q["id"].startswith("y") and any(y in (q.get("src") or "") for y in years):
                     old[q["id"]] = norm(q["s"])
     newn = [norm(o["s"]) for o, _, _ in new]
-    copies = {i for i, s in old.items() if len(s) > 15 and any(abs(len(t) - len(s)) < 0.3 * len(s) and
-              difflib.SequenceMatcher(None, s, t).ratio() > 0.85 for t in newn)}
+    # fast pre-filter (TF-IDF cosine > 0.6), then the exact wording check on those pairs only
+    oids = list(old)
+    copies = set()
+    if oids:
+        cv = TfidfVectorizer(sublinear_tf=True).fit(newn + [old[i] for i in oids])
+        C = cosine_similarity(cv.transform([old[i] for i in oids]), cv.transform(newn))
+        for oi, ni in zip(*(C > 0.6).nonzero()):
+            s, t = old[oids[oi]], newn[ni]
+            if len(s) > 15 and abs(len(t) - len(s)) < 0.3 * len(s) and difflib.SequenceMatcher(None, s, t).ratio() > 0.85:
+                copies.add(oids[oi])
     for b in m:
         for r, qs in m[b]["rows"].items():
             subs = m[b]["subs"].get(r) or [-1] * len(qs)
@@ -89,10 +97,14 @@ if new:
                 m[b]["subs"][r] = [s for _, s in keep]
     Q = vec.transform([o["s"] + " " + (o.get("at") or (o["o"][o["a"]] if o.get("a", -1) >= 0 else "")) for o, _, _ in new])
     S = cosine_similarity(Q, D)
+    import numpy as np
+    pb = np.array([p[0] for p in place])
     for i, (o, subj, _) in enumerate(new):
         want = BOOK.get(subj)
-        best = max((j for j in range(len(place)) if want is None or place[j][0] == want), key=lambda j: S[i, j])
-        b, ri, si = place[best]
+        row = S[i].copy()
+        if want is not None:
+            row[pb != want] = -1
+        b, ri, si = place[int(row.argmax())]
         m[b]["rows"].setdefault(str(ri), []).append(o)
         m[b]["subs"].setdefault(str(ri), [-1] * (len(m[b]["rows"][str(ri)]) - 1)).append(si)
     print(f"{A}: {len(new)} questions of {len(glob.glob('data/appscpapers/*.json'))} papers added; {len(copies)} older copies left out")
