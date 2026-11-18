@@ -63,58 +63,41 @@ fun rememberDueStatus(): DueMcqs.Status {
 fun McqsScreen(nav: Nav) {
     val app = LocalApp.current
     val store = app.store
-    val status = rememberDueStatus()
     // this app's MCQs only (a backup also holds other apps' answers, and one-fact MCQs since merged)
     val wrong = remember(store.answers) { app.repo.planIds.let { ids -> store.answers.count { !it.value && (ids.isEmpty() || it.key in ids) } } }
+    // note by note: the MCQs of the notes pages marked read, and how many of them are not tried yet
+    val read = remember(store.done) { com.appsc.prep.ui.screens.readIds(app) }
+    val readLeft = remember(read, store.answers, store.seen) { read.count { !store.attempted(it) } }
 
     Column(Modifier.fillMaxSize()) {
         TopBar("MCQs")
-        val lastPast = status.days.lastOrNull()?.day
         PageList(Modifier.fillMaxSize()) {
             item {
                 Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 20.dp, bottom = 8.dp)) {
-                    Text("Left to finish today", style = TextStyle(fontSize = 13.sp, color = C.Muted))
+                    Text("From the notes you've read", style = TextStyle(fontSize = 13.sp, color = C.Muted))
                     Text(
-                        if (status.left == 0) "All done for today" else "${status.left} MCQs",
-                        style = TextStyle(fontSize = 26.sp, fontWeight = FontWeight.Bold, color = if (status.left == 0) C.Green else C.Ink),
+                        if (read.isEmpty()) "Read a notes page first" else if (readLeft == 0) "All tried" else "$readLeft MCQs to try",
+                        style = TextStyle(fontSize = 26.sp, fontWeight = FontWeight.Bold, color = if (read.isNotEmpty() && readLeft == 0) C.Green else C.Ink),
                     )
-                    Text("Today's ${status.todayLeft} + due ${status.due}", style = TextStyle(fontSize = 13.sp, color = C.Body))
-                    status.today?.let { t ->
+                    if (read.isNotEmpty()) {
                         Spacer(Modifier.height(10.dp))
-                        ProgressLine(t.attempted / t.total.coerceAtLeast(1).toFloat())
+                        ProgressLine((read.size - readLeft) / read.size.coerceAtLeast(1).toFloat())
                         Spacer(Modifier.height(4.dp))
-                        Text(
-                            "Day ${t.day.n}: ${t.attempted} of ${t.total} attempted",
-                            style = TextStyle(fontSize = 12.sp, color = C.Muted),
-                        )
+                        Text("${read.size - readLeft} of ${read.size} tried", style = TextStyle(fontSize = 12.sp, color = C.Muted))
                     }
                 }
             }
             item {
                 CountCard(
-                    icon = Icons.Outlined.EventBusy,
-                    title = "Due MCQs",
-                    count = status.due,
-                    subtitle = when {
-                        lastPast == null -> "None yet. A plan day's MCQs you don't attempt become due the next day."
-                        status.due == 0 -> "Every MCQ from Day 1 to Day ${lastPast.n} is attempted."
-                        else -> "Not attempted yet, from Day 1 to Day ${lastPast.n} (yesterday's plan). Oldest first."
-                    },
-                    ink = C.High,
-                    bg = C.HighSoft,
-                    onClick = if (status.due > 0) ({ nav.quiz("due", 0, 0) }) else null,
+                    icon = Icons.Outlined.Today,
+                    title = "From the notes you've read",
+                    count = readLeft,
+                    subtitle = if (read.isEmpty()) "Mark a notes page read and its MCQs show here." else
+                        "MCQs of the pages you marked read, not tried yet, in book order.",
+                    ink = C.Accent,
+                    bg = C.AccentSoft,
+                    onClick = if (read.isNotEmpty()) ({ nav.quiz("read", 0, 0, "new") }) else null,
                 )
-                status.today?.let { t ->
-                    CountCard(
-                        icon = Icons.Outlined.Today,
-                        title = "Today's MCQs",
-                        count = t.left,
-                        subtitle = "Day ${t.day.n}: ${t.attempted} of ${t.total} attempted. The same MCQs as on the Today tab.",
-                        ink = C.Accent,
-                        bg = C.AccentSoft,
-                        onClick = { nav.quiz("day", 0, t.day.n, "new") },
-                    )
-                }
                 if (wrong > 0) {
                     CountCard(
                         icon = Icons.Outlined.Replay,
@@ -125,14 +108,6 @@ fun McqsScreen(nav: Nav) {
                         bg = C.MedSoft,
                         onClick = { nav.quiz("need", 0, 0, "wrong") },
                     )
-                }
-            }
-            if (status.days.isNotEmpty()) {
-                item { SectionHeader("Due by day, from Day 1") }
-                items(status.days.size) { i ->
-                    val d = status.days[i]
-                    DayLine(d) { nav.quiz("due", 0, d.day.n) }
-                    HorizontalDivider(color = C.Line, modifier = Modifier.padding(horizontal = 20.dp))
                 }
             }
             item { Spacer(Modifier.height(24.dp)) }

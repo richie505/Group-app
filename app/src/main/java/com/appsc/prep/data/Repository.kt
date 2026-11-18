@@ -237,6 +237,24 @@ class Repository(private val open: (String) -> InputStream) {
         DueMcqs.PlanMcqs(plan.days.zip(ids))
     }
 
+    /**
+     * Every MCQ id with its notes page ("book:row:sub"), in the order of the books (topic, then subsection): practice
+     * follows the notes, not a plan. Read once, ids only.
+     */
+    val notesOrder: List<Pair<String, String>> by lazy {
+        runCatching {
+            index.flatMap { b ->
+                val o = readJson("mcq${b.id}.json").jsonObject
+                val rows = o["rows"]!!.jsonObject
+                val subs = (o["subs"] as? JsonObject)
+                rows.entries.sortedBy { it.key.toInt() }.flatMap { (r, qs) ->
+                    val sb = subs?.get(r)?.jsonArray?.map { it.jsonPrimitive.int }
+                    qs.jsonArray.mapIndexed { i, q -> q.jsonObject["id"]!!.jsonPrimitive.content to "${b.id}:$r:${sb?.getOrNull(i) ?: -1}" }
+                }
+            }
+        }.getOrDefault(emptyList())
+    }
+
     /** APPSC Complete: every MCQ id in this app (all of them are on a plan day); empty elsewhere. */
     val planIds: Set<String> by lazy { planMcqs.days.flatMap { it.second }.toHashSet() }
 

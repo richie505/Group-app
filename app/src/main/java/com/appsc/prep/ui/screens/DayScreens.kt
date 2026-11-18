@@ -137,24 +137,60 @@ fun TodayScreen(nav: Nav) {
                 }
             }
         }
-        // APPSC Complete: today's practice first, sized to a sustainable day
-        if (app.repo.complete) item { PracticeTodayCard(nav) }
-        item { HeroCard(day, daysToExam, examLabel, beforePlan, afterPlan, nav) }
+        // no plan: the countdown, where you stopped, the next page to read, and today's practice (note by note)
+        item { CountdownCard(daysToExam, examLabel) }
         item { ContinueCard(nav) }
-        if (afterPlan) {
-            item { SectionHeader("Final buffer") }
-            items(plan.buffer) { b ->
-                Card {
-                    Column(Modifier.padding(14.dp)) {
-                        Text(b.dates, style = TextStyle(fontSize = 13.sp, fontWeight = FontWeight.Bold, color = C.Accent))
-                        Spacer(Modifier.height(2.dp))
-                        Text(b.work, style = TextStyle(fontSize = 15.sp, color = C.Body))
-                    }
-                }
-            }
-        }
-        dayBody(day, nav, showBrief = true)
+        item { NextToReadCard(nav) }
+        if (app.repo.complete) item { PracticeTodayCard(nav) }
         item { Spacer(Modifier.height(24.dp)) }
+    }
+}
+
+/** Days to the next exam (Group 2: Prelims, then Mains). */
+@Composable
+private fun CountdownCard(daysToExam: Long, examLabel: String) {
+    Box(
+        Modifier
+            .padding(horizontal = 16.dp, vertical = 10.dp)
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(18.dp))
+            .background(Brush.linearGradient(listOf(Color(0xFF1E3A8A), Color(0xFF3949AB))))
+            .padding(18.dp),
+    ) {
+        Column {
+            Text("Exam countdown", style = TextStyle(fontSize = 13.sp, color = Color(0xFFC7D2FE), fontWeight = FontWeight.Medium))
+            Text("$daysToExam days", style = TextStyle(fontSize = 30.sp, fontWeight = FontWeight.Bold, color = Color.White))
+            Text(examLabel, style = TextStyle(fontSize = 14.sp, color = Color(0xFFE0E7FF)))
+        }
+    }
+}
+
+/** The first notes page not read yet, from where you stopped (in book order), so you go note by note. */
+@Composable
+private fun NextToReadCard(nav: Nav) {
+    val app = LocalApp.current
+    val done = app.store.done
+    val next = remember(done, app.store.lastRead) {
+        val pages = app.repo.notesOrder.map { it.second }.distinct().filter { !it.endsWith(":-1") }
+        val from = app.store.lastRead?.let { pages.indexOf(it) }?.takeIf { it >= 0 } ?: 0
+        (pages.drop(from) + pages.take(from)).firstOrNull { it !in done }
+    } ?: return
+    val p = next.split(':').mapNotNull { it.toIntOrNull() }
+    if (p.size != 3) return
+    val info = app.repo.rowInfo(p[0], p[1]) ?: return
+    Card(onClick = { nav.read(p[0], p[1], p[2]) }) {
+        Row(Modifier.padding(14.dp), verticalAlignment = Alignment.CenterVertically) {
+            Box(
+                Modifier.size(40.dp).clip(RoundedCornerShape(10.dp)).background(C.GreenSoft),
+                contentAlignment = Alignment.Center,
+            ) { Icon(Icons.AutoMirrored.Filled.MenuBook, null, tint = C.Green) }
+            Spacer(Modifier.width(12.dp))
+            Column(Modifier.weight(1f)) {
+                Text("Next to read", style = TextStyle(fontSize = 12.sp, color = C.Muted))
+                Text(info.title, style = TextStyle(fontSize = 15.sp, fontWeight = FontWeight.Medium, color = C.Ink), maxLines = 1, overflow = TextOverflow.Ellipsis)
+            }
+            Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, null, tint = C.Faint)
+        }
     }
 }
 
@@ -691,7 +727,7 @@ private fun PracticeTodayCard(nav: Nav) {
                 )
             }
             Text(
-                "Each session starts with the MCQs due for revision (wrong or only viewed), then new ones in the plan's order. " +
+                "Each session starts with the MCQs due for revision (wrong or only viewed), then new ones: the notes you've read first, then book order. " +
                     "Nothing carries over to tomorrow.",
                 style = TextStyle(fontSize = 12.sp, lineHeight = 17.sp, color = C.Muted),
                 modifier = Modifier.padding(top = 8.dp),

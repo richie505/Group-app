@@ -64,7 +64,7 @@ class SyncShotsTest {
         val app = app()
         rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { com.appsc.prep.ui.screens.TodayScreen(nav) } } }
         rule.waitForIdle()
-        rule.onNode(hasScrollToNodeAction()).performScrollToNode(hasText("Due MCQs"))
+        rule.onNode(hasScrollToNodeAction()).performScrollToNode(hasText("TODAY'S PRACTICE"))
         rule.waitForIdle()
         rule.onRoot().captureRoboImage("screenshots/sync/today_tab.png")
     }

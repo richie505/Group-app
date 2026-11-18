@@ -100,6 +100,8 @@ fun rememberPool(src: QuizSource): List<Question>? {
             "rowapp", "rowpyq" -> (app.repo.mcq(src.book).rows[src.index] ?: emptyList()).filter { com.appsc.prep.ui.components.isPyq(it) == (src.kind == "rowpyq") }
             "unit" -> app.repo.mcq(src.book).units[src.index] ?: emptyList()
             "due" -> duePool(app, src.index)
+            // the MCQs of the notes pages marked read, in book order
+            "read" -> questions(app, readIds(app))
             // Group 2: an official syllabus leaf's MCQs (all / PYQs / Group 2 PYQs), across every section that has them
             "leaf", "leafpyq", "leafg2" -> app.repo.syllabus?.leaves?.getOrNull(src.index)?.let { l ->
                 app.repo.index.flatMap { b -> app.repo.mcqWhere(b.id) { it.leaf == l.code } }
@@ -144,12 +146,19 @@ private suspend fun questions(app: com.appsc.prep.ui.components.AppState, ids: L
 fun sessionIds(app: com.appsc.prep.ui.components.AppState): List<String> {
     val today = java.time.LocalDate.now()
     val dups = app.repo.duplicates
-    val order = app.repo.planMcqs.days.flatMap { it.second }.filter { it !in dups }
+    // the notes you have read first (their MCQs, in book order), then the rest in book order: practice follows the notes
+    val all = app.repo.notesOrder.ifEmpty { app.repo.planMcqs.days.flatMap { d -> d.second.map { it to "" } } }
+    val done = app.store.done
+    val order = (all.filter { it.second in done } + all.filterNot { it.second in done }).map { it.first }.filter { it !in dups }
     val inApp = order.toHashSet()
     val t = com.appsc.prep.data.DailyTarget.of(app.store.activity, today)
     val revision = com.appsc.prep.data.DailyTarget.dueRevision(app.store.hist, today) { it in inApp }
     return com.appsc.prep.data.DailyTarget.session(t.session, revision, order) { app.store.attempted(it) || it in app.store.hist }
 }
+
+/** The MCQ ids of the notes pages marked read ([com.appsc.prep.data.ProgressStore.done]), in book order. */
+fun readIds(app: com.appsc.prep.ui.components.AppState): List<String> =
+    app.store.done.let { d -> app.repo.notesOrder.filter { it.second in d }.map { it.first } }
 
 /** Due MCQs: not tried yet, from the plan days before today (oldest first), or from plan day [day] alone. */
 suspend fun duePool(app: com.appsc.prep.ui.components.AppState, day: Int = 0): List<Question> {

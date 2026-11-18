@@ -36,7 +36,6 @@ data class Tab(val route: String, val label: String, val icon: ImageVector)
 
 val tabs = listOf(
     Tab("today", "Today", Icons.Outlined.Home),
-    Tab("plan", "Plan", Icons.Outlined.CalendarMonth),
     Tab("books", "Notes", Icons.AutoMirrored.Outlined.MenuBook),
     Tab("progress", "Progress", Icons.Outlined.BarChart),
     Tab("saved", "Saved", Icons.Outlined.BookmarkBorder),
@@ -139,6 +138,7 @@ fun AppNavHost(nav: NavHostController, actions: Nav) {
                 "need" -> "MCQs to practise"
                 "due" -> if (src.index == 0) "Due MCQs" else "Day ${src.index}: due MCQs"
                 "session" -> "Session ${src.index}"
+                "read" -> "From the notes you've read"
                 "leaf", "leafpyq", "leafg2" -> app.repo.syllabus?.leaves?.getOrNull(src.index)?.let { l ->
                     "${l.code}" + when (src.kind) { "leafpyq" -> " · PYQs"; "leafg2" -> " · Group 2 PYQs"; else -> " · MCQs" }
                 } ?: "Syllabus MCQs"

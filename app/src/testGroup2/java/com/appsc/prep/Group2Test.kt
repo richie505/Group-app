@@ -257,10 +257,9 @@ class Group2Test {
         runBlocking { repo.plan.days.take(2).forEach { d -> d.rows.forEach { repo.mcq(it.book) } } }
         shot("2_today") { com.appsc.prep.ui.screens.TodayScreen(nav) }
         rule.onNodeWithText("TODAY'S PRACTICE", substring = true).assertExists()
-        // the day's notes as an audiobook
-        rule.onNode(androidx.compose.ui.test.hasScrollAction()).performScrollToNode(hasText("LISTEN TO TODAY'S NOTES"))
-        rule.onNodeWithText("Listen", substring = true).assertExists()
-        rule.onRoot().captureRoboImage("screenshots/group2/3_listen_card.png")
+        // no plan: the countdown and the next notes page to read (note by note)
+        rule.onNodeWithText("Exam countdown").assertExists()
+        rule.onNodeWithText("Next to read").assertExists()
     }
 
     @Test fun topicAndStatementMcq() {

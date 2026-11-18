@@ -5,6 +5,7 @@ import androidx.compose.ui.test.hasScrollToNodeAction
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performScrollToNode
@@ -561,7 +562,7 @@ class CompleteTest {
         }
         rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { com.appsc.prep.ui.screens.McqsScreen(nav) } } }
         rule.waitForIdle()
-        rule.onNodeWithText("Due MCQs").assertExists()
+        rule.onAllNodesWithText("From the notes you've read").fetchSemanticsNodes().let { assertTrue(it.isNotEmpty()) }
         rule.onRoot().captureRoboImage("screenshots/complete/10_mcqs_tab.png")
     }
 
@@ -589,10 +590,7 @@ class CompleteTest {
         runBlocking { app.repo.plan.days.forEach { d -> d.rows.forEach { app.repo.mcq(it.book) } } }
         rule.setContent { PrepTheme { CompositionLocalProvider(LocalApp provides app) { com.appsc.prep.ui.screens.TodayScreen(nav) } } }
         rule.waitForIdle()
-        if (app.repo.plan.days.any { it.date == today } && past.isNotEmpty()) {
-            rule.onNode(hasScrollToNodeAction()).performScrollToNode(hasText("Due MCQs"))
-            rule.waitForIdle()
-        }
+        rule.onNodeWithText("Next to read").assertExists()
         rule.onRoot().captureRoboImage("screenshots/complete/11_today_tab_due.png")
     }
 }
