@@ -1,0 +1,52 @@
+Task: make the Group 2 app's Current Affairs one-liners ask APPSC's angles. Never use the Anthropic API. Do not commit.
+Edit no files except data/caangle/job-N.out.jsonl.
+
+The owner's rules: every one-liner stays (none removed, none moved to another subject); the pattern stays one-liner
+(one short question, 4 short options, one fact - NOT statement / match / pair questions); only the ANGLE changes.
+
+APPSC's Current Affairs angles (from the official Group 2 papers 2008-2024; how often they come):
+  - AWARDS and prizes (~11%): who got it / for which field / which edition (Padma, Sahitya Akademi Telugu, Arjuna,
+    Khel Ratna, Nobel, Booker, Indira Gandhi Peace Prize, Swachh Survekshan, e-governance gold awards to AP)
+  - APPOINTMENTS / persons in post (~10%): new chief of Army/Navy/Air Force, CEC, RBI Governor, chairs of commissions,
+    newly elected presidents / PMs of countries, who chaired a meeting
+  - SUMMITS, meetings, venues, hosts (~7%): where held, which edition, who hosted, theme/slogan, what was launched there
+    (G20, BRICS, COP, SCO, Southern Zonal Council, Global Investors Summit AP)
+  - SPORTS (~6%): winner, venue/host city, edition, mascot/slogan, first Indian to...
+  - FIRSTS and records (~5%): first country / state / Indian to..., India's first ... (e.g. first steel-slag road,
+    first South Asian nation to register same-sex marriage, first private gold mine in AP)
+  - SCHEMES / policies / missions (~6%): launched by which ministry/state, target group, objective, benefit
+  - REPORTS / INDICES / RANKS (~4%): released by whom, India's / AP's rank, topper
+  - ORGANISATIONS / acronyms (~4%): full form, members (who joined BRICS), HQ
+  - DATES and DAYS (~5%): theme of a Day of the year, date of a key event
+  - TREATIES, defence exercises, disputes (~4%): between which countries, edition, host
+  - PLACES IN NEWS (~2%): in which country/state is X; which state's law was struck down; where a plant is to be set up
+  - AP current events (~13-20%): AP government initiatives, investments (where, by whom), AP awards, AP firsts
+APPSC asks the HEADLINE fact a newspaper reader remembers. It does NOT ask: a figure buried inside an article, an
+example number used to explain something, a study's sub-finding, a percentage change of a minor statistic, wording
+details of an act's section, or "how did X compare with Y" trivia.
+
+Input data/caangle/job-N.jsonl: one Current Affairs one-liner per line: id, its section ("section", "title"), the
+question q, options o, answer index a, explanation x. Read each section's notes when you need them (and always before
+writing new one-liners for it): python3 tools/g2syl_show.py <book> <row>   (section "6:12" -> 6 12)
+
+For each one-liner write ONE line to data/caangle/job-N.out.jsonl (same order as the input):
+  {"id": "...", "v": "keep"}
+      when it already asks a headline fact at an APPSC angle (most of them should be keep).
+  {"id": "...", "v": "edit", "s": "...", "o": ["...","...","...",".."], "a": k, "x": "..."}
+      when it asks minutiae or an odd angle: ask the SAME news item's headline fact instead, taken from its own
+      explanation or its section's notes (never invent a fact; never change a fact). Keep it a one-liner: a short
+      question, 4 short options of the same kind (4 countries, 4 persons, 4 cities...), plausible and from the same
+      news context; the answer exactly as the notes say. x = one sentence stating the fact.
+      Example: "In the PNAS Nexus study on AI risk perception, how did women perceive AI compared with men?" ->
+      only if the notes give a headline fact of that item (who published / which journal / main finding as asked in
+      exams); if nothing better exists, keep.
+Then, after the section's last one-liner, add new one-liners for that section:
+  {"new": {"row": "<section>", "s": "...", "o": [4], "a": k, "x": "...", "angle": "award|appointment|summit|sports|first|scheme|report|organisation|day|treaty|place|ap"}}
+      for headline facts in the section's NOTES that no one-liner of the section asks yet (an award winner, a new
+      appointee, a summit's venue/host/edition/theme, a tournament winner, a "first", a report's publisher or India's
+      rank...). Only facts written in the notes. At most 15 per section; skip what is already asked (same fact, any
+      wording). Same one-liner style as above.
+
+Before finishing, check with Python: every input id appears exactly once, in order; every edit/new has 4 options and
+a in 0-3; JSON valid. Then run: python3 tools/ca_angles.py check  (it checks all jobs; look at yours).
+Report: how many keep / edit / new, and 5 examples of edits and 5 of new ones.
