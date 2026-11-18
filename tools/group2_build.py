@@ -214,15 +214,29 @@ if NOTES_MODE == "oneliners":
             for q in _keep:  # a one-liner judged to be in the wrong topic moves to the right one (data/olmove)
                 _to = _MOVE.get(q["id"], (_b, int(_r)))
                 _BY.setdefault(_to, []).append(dict(q))
-    # the one-liners' subsection numbers are the One-liners edition's (its notes split a topic differently): each
-    # one-liner goes to the subsection of its topic whose title and notes are closest to it
+    # where each one-liner's fact is taught: the notes line with its answer and its question's key words
+    # (tools/notes_match.py). A strong match (answer + 3 or more key words) places it there, in whatever topic; a match
+    # inside its own topic picks the subsection; otherwise the subsection whose title and notes are closest.
+    from notes_match import NotesIndex
+    _NIX = {_b: NotesIndex(_crow[_b]) for _b in range(1, 7)}
+    _AT = {}  # one-liner id -> subsection, when the notes say
+    _BY2 = {}
+    for (_b, _r), _v in _BY.items():
+        for q in _v:
+            _f = _NIX[_b].find(q["s"], q["o"][q["a"]], prefer_row=_r)
+            if _f and (_f[2] >= 3 or _f[0] == _r):
+                _BY2.setdefault((_b, _f[0]), []).append(q)
+                _AT[q["id"]] = _f[1]
+            else:
+                _BY2.setdefault((_b, _r), []).append(q)
+    _BY = _BY2
     for (_b, _r), _v in _BY.items():
         _secs = _crow[_b][_r]["secs"] if _r < len(_crow[_b]) else []
         _st = [_sec["t"] + " " + " ".join("".join(t for t, _ in bl.get("x") or []) for bl in _sec["b"] if bl.get("x")) for _sec in _secs]
         if _st:
             _sv = _TV(stop_words="english", sublinear_tf=True).fit(_st + [q["s"] for q in _v])
             _SS = _cos(_sv.transform([q["s"] + " " + q["o"][q["a"]] for q in _v]), _sv.transform(_st))
-            _subs = [int(_SS[_i].argmax()) for _i in range(len(_v))]
+            _subs = [_AT.get(q["id"], int(_SS[_i].argmax())) for _i, q in enumerate(_v)]
         else:
             _subs = [-1] * len(_v)
         ONE[(_b, _r)] = list(zip(_v, _subs))
