@@ -90,7 +90,7 @@ class Group2Test {
                 qs.forEach { q -> assertTrue(q.answer in -1 until q.options.size && q.options.size >= 2) }
             }
         }
-        assertEquals(73485, mcqs)
+        assertEquals(119108, mcqs)
         assertEquals(mcqs, repo.planIds.size)
     }
 
@@ -225,15 +225,17 @@ class Group2Test {
 
     @Test fun topicAndStatementMcq() {
         repo.mcqNotes = true
-        runBlocking { repo.book(4); repo.mcq(4) }
-        val (ri, sub) = runBlocking {
-            val m = repo.mcq(4)
-            // a section whose first MCQ is a 3-statement set (most MCQs are one-liners now, as in APPSC's papers)
-            m.rows.keys.sorted().flatMap { r -> (0 until 40).map { r to it } }.first { (r, s) ->
-                m.subQuestions(r, s).firstOrNull()?.let { "Consider the following statements" in it.stem && "1, 2 and 3" in it.options } == true
+        // a subsection whose first MCQ is a 3-statement set (most MCQs are one-liners, as in APPSC's papers), in any book
+        val (bk, ri, sub) = runBlocking {
+            (1..6).firstNotNullOf { b ->
+                repo.book(b)
+                val m = repo.mcq(b)
+                m.rows.keys.sorted().flatMap { r -> (0 until 40).map { r to it } }.firstOrNull { (r, s) ->
+                    m.subQuestions(r, s).firstOrNull()?.let { "Consider the following statements" in it.stem && "1, 2 and 3" in it.options } == true
+                }?.let { Triple(b, it.first, it.second) }
             }
         }
-        val app = shot("3_statement_mcq") { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 4, ri, sub), "all", "Section MCQs", nav) }
+        val app = shot("3_statement_mcq") { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", bk, ri, sub), "all", "Section MCQs", nav) }
         rule.onNodeWithText("Consider the following statements", substring = true).assertExists()
         rule.onNodeWithText("1, 2 and 3").performClick()
         rule.waitForIdle()

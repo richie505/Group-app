@@ -176,6 +176,30 @@ W(f"{G}/index.json", dict(idx, books=ib))
 # --- MCQs
 # the Arihant book's PYQs (tools/arihant_apply.py) are APPSC Complete's only
 ARIHANT = set(J("data/pyq/arihant/applied.json")) if os.path.exists("data/pyq/arihant/applied.json") else set()
+# the app's own MCQs: the notes MCQs, or the one-liners of APPSC One-liners in their place (data/g2_notes_mcqs.txt;
+# a one-liner that repeats a PYQ of its topic - same answer, similar question - is left out). PYQs are always kept.
+NOTES_MODE = open("data/g2_notes_mcqs.txt").read().strip() if os.path.exists("data/g2_notes_mcqs.txt") else "notes"
+ONE = {}
+if NOTES_MODE == "oneliners":
+    from sklearn.feature_extraction.text import TfidfVectorizer as _TV
+    from sklearn.metrics.pairwise import cosine_similarity as _cos
+    _n = lambda t: re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
+    _seen1 = set()
+    for _b in range(1, 7):
+        _o = J(f"app/src/oneliner/assets/mcq{_b}.json")
+        _c = J(f"{C}/mcq{_b}.json")
+        for _r, _v in _o["rows"].items():
+            _subs = _o["subs"].get(_r) or [-1] * len(_v)
+            _py = [q for q in _c["rows"].get(_r, []) if q["id"].startswith("y") and q.get("o") and q.get("a", -1) >= 0]
+            _rep = set()
+            if _py:
+                _vec = _TV().fit([q["s"] for q in _py] + [q["s"] for q in _v])
+                _S = _cos(_vec.transform([q["s"] for q in _v]), _vec.transform([q["s"] for q in _py]))
+                for _i, q in enumerate(_v):
+                    if any(_n(q["o"][q["a"]]) == _n(p["o"][p["a"]]) and _S[_i, _j] > 0.3 for _j, p in enumerate(_py)):
+                        _rep.add(_i)
+            ONE[(_b, int(_r))] = [(dict(q), s) for _i, (q, s) in enumerate(zip(_v, _subs)) if _i not in _rep and q["id"] not in _seen1]
+            _seen1 |= {q["id"] for q, _ in ONE[(_b, int(_r))]}  # a one-liner in two topics: the first one only
 ids = set()
 QBY = SY.defaultdict(list)  # official line -> its MCQs
 # the full official Group 2 papers: each question goes under the first section (and subsection) of its official line;
@@ -272,6 +296,8 @@ for b in range(1, 7):
                 if q.get(f):
                     q[f] = [no_g1(t) for t in q[f]]
         # each MCQ: the official line it is asked under ("x" beyond the syllabus); each PYQ: the paper it came from
+        if NOTES_MODE == "oneliners":  # the PYQs, then the topic's one-liners in place of its notes MCQs
+            kept = [(q, sb_) for q, sb_ in kept if q["id"].startswith("y")] + ONE.get((b, int(r)), [])
         kept += PLACE.get((b, int(r)), [])
         for q, sb in kept:
             if not q.get("lf") or not (q["id"].startswith(SY.PAPER_PREFIXES) or q["id"].startswith("g2l")):
