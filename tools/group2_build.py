@@ -9,7 +9,7 @@ fresh: no id moves from older versions.
     python3 tools/build_plan_mcq.py app/src/group2/assets
 """
 import datetime as dt
-import json
+import glob, json
 import os
 import sys
 
@@ -186,6 +186,16 @@ if NOTES_MODE == "oneliners":
     _n = lambda t: re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
     _seen1 = set()
     _crow = {_b: [x for u in J(f"{C}/book{_b}.json")["units"] for x in u["rows"]] for _b in range(1, 7)}
+    _BY = {}
+    # topic moves judged by helpers (data/olmove/job-*.out.jsonl; "to" is a Group 2 row of that time -> Complete row)
+    _MOVE = {}
+    if os.path.exists("data/olmove/rowmap-at-olmove.json"):
+        _RMO = J("data/olmove/rowmap-at-olmove.json")
+        for _f in glob.glob("data/olmove/job-*.out.jsonl"):
+            for _l in open(_f):
+                if _l.strip():
+                    _x = json.loads(_l)
+                    _MOVE[_x["id"]] = tuple(_RMO[_x["to"]])
     for _b in range(1, 7):
         _o = J(f"app/src/oneliner/assets/mcq{_b}.json")
         _c = J(f"{C}/mcq{_b}.json")
@@ -199,18 +209,23 @@ if NOTES_MODE == "oneliners":
                 for _i, q in enumerate(_v):
                     if any(_n(q["o"][q["a"]]) == _n(p["o"][p["a"]]) and _S[_i, _j] > 0.3 for _j, p in enumerate(_py)):
                         _rep.add(_i)
-            # the one-liners' subsection numbers are the One-liners edition's (its notes split a topic differently):
-            # each one-liner goes to the subsection of this topic whose title and notes are closest to it
-            _secs = _crow[_b][int(_r)]["secs"] if int(_r) < len(_crow[_b]) else []
-            _st = [_sec["t"] + " " + " ".join("".join(t for t, _ in bl.get("x") or []) for bl in _sec["b"] if bl.get("x")) for _sec in _secs]
-            if _st:
-                _sv = _TV(stop_words="english", sublinear_tf=True).fit(_st + [q["s"] for q in _v])
-                _SS = _cos(_sv.transform([q["s"] + " " + q["o"][q["a"]] for q in _v]), _sv.transform(_st))
-                _subs = [int(_SS[_i].argmax()) for _i in range(len(_v))]
-            else:
-                _subs = [-1] * len(_v)
-            ONE[(_b, int(_r))] = [(dict(q), s) for _i, (q, s) in enumerate(zip(_v, _subs)) if _i not in _rep and q["id"] not in _seen1]
-            _seen1 |= {q["id"] for q, _ in ONE[(_b, int(_r))]}  # a one-liner in two topics: the first one only
+            _keep = [q for _i, q in enumerate(_v) if _i not in _rep and q["id"] not in _seen1]
+            _seen1 |= {q["id"] for q in _keep}  # a one-liner in two topics: the first one only
+            for q in _keep:  # a one-liner judged to be in the wrong topic moves to the right one (data/olmove)
+                _to = _MOVE.get(q["id"], (_b, int(_r)))
+                _BY.setdefault(_to, []).append(dict(q))
+    # the one-liners' subsection numbers are the One-liners edition's (its notes split a topic differently): each
+    # one-liner goes to the subsection of its topic whose title and notes are closest to it
+    for (_b, _r), _v in _BY.items():
+        _secs = _crow[_b][_r]["secs"] if _r < len(_crow[_b]) else []
+        _st = [_sec["t"] + " " + " ".join("".join(t for t, _ in bl.get("x") or []) for bl in _sec["b"] if bl.get("x")) for _sec in _secs]
+        if _st:
+            _sv = _TV(stop_words="english", sublinear_tf=True).fit(_st + [q["s"] for q in _v])
+            _SS = _cos(_sv.transform([q["s"] + " " + q["o"][q["a"]] for q in _v]), _sv.transform(_st))
+            _subs = [int(_SS[_i].argmax()) for _i in range(len(_v))]
+        else:
+            _subs = [-1] * len(_v)
+        ONE[(_b, _r)] = list(zip(_v, _subs))
 ids = set()
 QBY = SY.defaultdict(list)  # official line -> its MCQs
 # the full official Group 2 papers: each question goes under the first section (and subsection) of its official line;
