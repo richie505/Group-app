@@ -559,3 +559,5 @@ print(f"{len(new)} sections ({len(pre)} Prelims, {len(mains_new)} Mains-only, {l
 import subprocess
 subprocess.run([sys.executable, "tools/flash_options_apply.py", G], check=True)
 subprocess.run([sys.executable, "tools/mcq_layout.py", G], check=True)
+# the notes MCQs (one-liners) linked to the notes line that states their fact (the book icon's "From your notes")
+subprocess.run([sys.executable, "tools/oneliner_notelink.py", G], check=True)

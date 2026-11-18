@@ -279,6 +279,17 @@ class Group2Test {
         app.store.setTarget(null, ""); app.store.changeDailyGoal(0)
     }
 
+    /** A notes MCQ (one-liner) linked to its notes line: the book icon shows the answer, why, and that line. */
+    @Test fun oneLinerBookIconShowsItsLine() {
+        assertTrue("most notes MCQs linked", repo.noteLinks.keys.count { it.startsWith("o") } > 20000)
+        shot("4_oneliner_book_icon") { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 1, 7, 2), "all", "Subsection MCQs", nav) }
+        rule.waitUntil(30_000) { rule.onAllNodes(hasText("A copper dog was found", substring = true)).fetchSemanticsNodes().isNotEmpty() }
+        rule.onNode(androidx.compose.ui.test.hasContentDescription("Read from the notes")).performClick()
+        rule.waitUntil(20_000) { rule.onAllNodes(hasText("The correct answer is", substring = true)).fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("From your notes").assertExists()
+        com.github.takahirom.roborazzi.captureScreenRoboImage("screenshots/group2/4_oneliner_book_icon.png")
+    }
+
     @Test fun topicAndStatementMcq() {
         repo.mcqNotes = true
         // a subsection whose first MCQ is a 3-statement set (most MCQs are one-liners, as in APPSC's papers), in any book

@@ -1250,8 +1250,8 @@ private fun NotesPeek(q: Question, onClose: () -> Unit) {
             var whole by remember(q.id, keys) { mutableStateOf(keys.isEmpty()) }
             if (!whole) {
                 Column(Modifier.weight(1f).fillMaxWidth().verticalScroll(androidx.compose.foundation.rememberScrollState()).padding(horizontal = 20.dp, vertical = 14.dp)) {
-                    // checked lines: the answer first, as a reference answer reads ("The correct answer is (c) …"), then why
-                    if (linkedKeys != null && q.answer in q.options.indices) {
+                    // the answer first, as a reference answer reads ("The correct answer is (c) …"), then why
+                    if (q.answer in q.options.indices && q.kind == 's') {
                         Text(
                             buildAnnotatedString {
                                 append("The correct answer is ")
