@@ -106,7 +106,8 @@ def apply():
                 nb = to_blocks(op["md"], [])
                 remap[(r, s, i)] = None
                 new.extend(nb)
-        rows[r]["secs"][s]["b"] = new
+        # a subsection with nothing left: the app's hidden empty page
+        rows[r]["secs"][s]["b"] = new or [{"k": "n", "x": [["No MCQ notes here: its facts are in the latest entry.", 0]]}]
     open(f"{A}/book6.json", "w").write(json.dumps(bk, ensure_ascii=False, separators=(",", ":")))
     nl = J(f"{A}/notelinks.json")
     moved = gone = 0

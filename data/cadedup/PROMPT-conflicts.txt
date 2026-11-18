@@ -1,0 +1,19 @@
+Task: settle with the web the facts where the Current Affairs notes / one-liners contradict each other (today 18 Nov
+2026). Never use the Anthropic API. Do not commit. Use web search / fetch; prefer official sources (PIB, ministries,
+AP government, RBI, NPCI, FIDE, UNESCO, the report's own site), then major newspapers. Scratch files only in
+/tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/conflicts/.
+
+The items: data/cadedup/conflicts.jsonl (17). For each:
+ 1. find every notes line that states it: grep the text in app/src/complete/assets/book6.json (APPSC Complete's
+    notes = the source of Group 2's); show a section with: NOTES_APP=complete python3 tools/notes_fix.py show 6 <R>
+    (book 6 only; also check books 2-5 if the fact is there);
+ 2. find every one-liner that asks it: app/src/group2/assets/mcq*.json (ids not starting "y");
+ 3. find the true, current fact;
+ 4. notes: write text edits to data/cadedup/conflictfix.json (JSON list) ONLY in the form
+       {"book": 6, "row": R, "sec": s, "find": "<exact text within one bold/plain run>", "replace": "..."}
+    so the wrong / "some sources ..." wording becomes the right fact; dry-run:
+       NOTES_APP=complete python3 tools/notes_fix.py apply data/cadedup/conflictfix.json --dry   (do NOT apply for real)
+ 5. one-liners: append fix lines to data/caangle/fixes.jsonl: {"id", "s", "o": [4], "a": k, "x"} (one per id; if an
+    id is already in that file, replace its line instead of adding a second one).
+ If the web cannot settle an item, leave it and say so.
+Write data/cadedup/conflicts-report.md: per item, the right fact, source URL, what you changed.

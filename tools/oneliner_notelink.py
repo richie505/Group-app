@@ -5,7 +5,7 @@ Offline, no API: each one-liner carries the sentence it was made from ("xs", els
 or a table row) holding the answer's words and most of that sentence's key words is its line; the MCQ's own topic
 first, then its book. A one-liner whose fact no line states keeps the app's own guess.
 
-    python3 tools/oneliner_notelink.py [assets dir=app/src/group2/assets]
+    python3 tools/oneliner_notelink.py [assets dir=app/src/group2/assets] [ids file: link only these, PYQs too]
 """
 import json, math, os, re, sys
 
@@ -13,6 +13,8 @@ sys.path.insert(0, os.path.dirname(__file__))
 from notes_match import STOP
 
 A = sys.argv[1] if len(sys.argv) > 1 else "app/src/group2/assets"
+# optional: a file of ids to (re)link whatever they are (e.g. PYQs whose linked line was merged away)
+ONLY = set(open(sys.argv[2]).read().split()) if len(sys.argv) > 2 else None
 
 
 # question words that say what is asked, not the fact
@@ -66,7 +68,10 @@ def main():
         for r, qs in m["rows"].items():
             subs = m["subs"].get(r) or [-1] * len(qs)
             for q, sub in zip(qs, subs):
-                if q["id"].startswith("y") or q["id"] in links or q.get("k") in ("f", "u"):
+                if ONLY is not None:
+                    if q["id"] not in ONLY or q["id"] in links or q.get("k") in ("f", "u"):
+                        continue
+                elif q["id"].startswith("y") or q["id"] in links or q.get("k") in ("f", "u"):
                     continue
                 if not (0 <= q.get("a", -1) < len(q.get("o") or [])):
                     continue
