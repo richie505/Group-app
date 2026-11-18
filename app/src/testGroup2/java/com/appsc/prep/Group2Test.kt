@@ -190,6 +190,20 @@ class Group2Test {
         assertTrue(rule.onAllNodes(hasText("G1")).fetchSemanticsNodes().isEmpty())
     }
 
+    /** Every MCQ sits in a subsection of its topic, so a topic's subsections add up to the whole section. */
+    @Test fun everyMcqIsInASubsection() = runBlocking {
+        for (b in 1..6) {
+            val book = repo.book(b)
+            val m = repo.mcq(b)
+            for ((r, qs) in m.rows) {
+                val subs = m.subs[r] ?: emptyList()
+                val n = book.rows[r].secs.size
+                assertEquals("book $b row $r", qs.size, subs.size)
+                assertTrue("book $b row $r: ${subs.filter { it !in 0 until n }}", subs.all { it in 0 until n })
+            }
+        }
+    }
+
     @Test fun syllabusScreen() {
         runBlocking { repo.leafOf() }
         shot("5_syllabus") { com.appsc.prep.ui.screens.SyllabusScreen(nav) }

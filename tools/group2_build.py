@@ -185,6 +185,7 @@ if NOTES_MODE == "oneliners":
     from sklearn.metrics.pairwise import cosine_similarity as _cos
     _n = lambda t: re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
     _seen1 = set()
+    _crow = {_b: [x for u in J(f"{C}/book{_b}.json")["units"] for x in u["rows"]] for _b in range(1, 7)}
     for _b in range(1, 7):
         _o = J(f"app/src/oneliner/assets/mcq{_b}.json")
         _c = J(f"{C}/mcq{_b}.json")
@@ -198,6 +199,16 @@ if NOTES_MODE == "oneliners":
                 for _i, q in enumerate(_v):
                     if any(_n(q["o"][q["a"]]) == _n(p["o"][p["a"]]) and _S[_i, _j] > 0.3 for _j, p in enumerate(_py)):
                         _rep.add(_i)
+            # the one-liners' subsection numbers are the One-liners edition's (its notes split a topic differently):
+            # each one-liner goes to the subsection of this topic whose title and notes are closest to it
+            _secs = _crow[_b][int(_r)]["secs"] if int(_r) < len(_crow[_b]) else []
+            _st = [_sec["t"] + " " + " ".join("".join(t for t, _ in bl.get("x") or []) for bl in _sec["b"] if bl.get("x")) for _sec in _secs]
+            if _st:
+                _sv = _TV(stop_words="english", sublinear_tf=True).fit(_st + [q["s"] for q in _v])
+                _SS = _cos(_sv.transform([q["s"] + " " + q["o"][q["a"]] for q in _v]), _sv.transform(_st))
+                _subs = [int(_SS[_i].argmax()) for _i in range(len(_v))]
+            else:
+                _subs = [-1] * len(_v)
             ONE[(_b, int(_r))] = [(dict(q), s) for _i, (q, s) in enumerate(zip(_v, _subs)) if _i not in _rep and q["id"] not in _seen1]
             _seen1 |= {q["id"] for q, _ in ONE[(_b, int(_r))]}  # a one-liner in two topics: the first one only
 ids = set()
@@ -277,7 +288,7 @@ if os.path.exists("data/g2syl/newmcq.jsonl"):
             k = tuple(_RN[o["g2"]])
             q = {"id": "g2l" + hashlib.md5((o["s"] + "|".join(o["o"])).encode()).hexdigest()[:11], "s": o["s"], "o": o["o"],
                  "a": o["a"], "x": o["x"], "src": "app", "lf": o["leaf"]}
-            PLACE[k].append((q, first_sub(k, o["leaf"])))
+            PLACE[k].append((q, first_sub(k, o["leaf"]) if first_sub(k, o["leaf"]) >= 0 else best_place(dict(q, o=q["o"], a=q["a"]), [k])[1]))
 for b in range(1, 7):
     m = J(f"{C}/mcq{b}.json")
     rows, subs = {}, {}
