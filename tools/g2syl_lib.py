@@ -161,9 +161,15 @@ def papers():
         qs = []
         for q in p["questions"]:
             src = f"{p['paper']} · Q{q['n']}"
-            o = {"id": f"y{tag}{q['n']:03d}", "s": q["s"], "o": q["o"], "a": q["a"], "src": src, "ap": 1,
-                 "x": q.get("x", ""), "lf": lv.get(str(q["n"]), "x"), "rl": "g2"}
-            if q.get("deleted") or q["a"] < 0:
+            if "o" in q:
+                o = {"id": f"y{tag}{q['n']:03d}", "s": q["s"], "o": q["o"], "a": q["a"], "src": src, "ap": 1,
+                     "x": q.get("x", ""), "lf": lv.get(str(q["n"]), "x"), "rl": "g2"}
+            else:  # only the keyed answer is printed (Mains 2019 final-key booklets): a question + answer card
+                o = {"id": f"y{tag}{q['n']:03d}", "s": q["s"], "o": ["Knew it", "Did not know"], "a": 0, "k": "f",
+                     "at": q.get("answer", ""), "src": src, "ap": 1, "x": q.get("x", ""), "lf": lv.get(str(q["n"]), "x"), "rl": "g2"}
+                if q.get("deleted") or not q.get("answer"):
+                    o["k"], o["cx"] = "u", 1
+            if "o" in q and (q.get("deleted") or q["a"] < 0):
                 o["k"], o["cx"], o["a"] = "u", 1, -1
                 o["x"] = "Deleted by APPSC in the final key. " + o["x"]
             qs.append(o)
