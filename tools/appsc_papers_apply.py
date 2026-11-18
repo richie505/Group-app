@@ -14,7 +14,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 A = sys.argv[1] if len(sys.argv) > 1 else "app/src/complete/assets"
-TAG = "ya"  # ids of the questions this tool adds
+TAG = "yQ"  # ids of the questions this tool adds (capital Q: never in an existing hex id)
 BOOK = {"History": 1, "AP History & Culture": 1, "Polity": 2, "Indian Society": 2, "Economy": 3, "Geography": 4,
         "Science & Technology": 5, "Current Affairs": 6}
 norm = lambda t: re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
