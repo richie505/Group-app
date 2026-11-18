@@ -128,7 +128,9 @@ def syllabus_json(rows_by_leaf, qs_by_leaf, pri, papers):
 PAPER_TAG = {"prelims-2024": ("P24", "Prelims"), "mains-2025-paper1": ("M25A", "Mains"), "mains-2025-paper2": ("M25B", "Mains"),
              "prelims-2019": ("P19", "Prelims"), "mains-2019-paper1": ("M19A", "Mains"), "mains-2019-paper2": ("M19B", "Mains"),
              "mains-2019-paper3": ("M19C", "Mains"), "prelims-2017": ("P17", "Prelims"), "mains-2017-paper1": ("M17A", "Mains"),
-             "mains-2017-paper2": ("M17B", "Mains"), "mains-2017-paper3": ("M17C", "Mains")}
+             "mains-2017-paper2": ("M17B", "Mains"), "mains-2017-paper3": ("M17C", "Mains"),
+             "group2-2012-paper1": ("G12A", "Mains"), "group2-2012-paper2": ("G12B", "Mains"), "group2-2012-paper3": ("G12C", "Mains"),
+             "group2-2008-paper1": ("G08A", "Mains"), "group2-2008-paper2": ("G08B", "Mains"), "group2-2008-paper3": ("G08C", "Mains")}
 PAPER_NAME = {"P24": "Group 2 Prelims 2024 (25 Feb 2024) · GS, Mental Ability left out",
               "M25A": "Group 2 Mains 2025 Paper I (23 Feb 2025) · AP History & Constitution",
               "M25B": "Group 2 Mains 2025 Paper II (23 Feb 2025) · Economy & Sci-Tech",
@@ -139,7 +141,11 @@ PAPER_NAME = {"P24": "Group 2 Prelims 2024 (25 Feb 2024) · GS, Mental Ability l
               "P17": "Group 2 Prelims 2017 (26 Feb 2017) · GS, Mental Ability left out",
               "M17A": "Group 2 Mains 2017 Paper I (15 Jul 2017) · General Studies",
               "M17B": "Group 2 Mains 2017 Paper II · AP History & Constitution",
-              "M17C": "Group 2 Mains 2017 Paper III · Planning & Economy"}
+              "M17C": "Group 2 Mains 2017 Paper III · Planning & Economy",
+              "G12A": "Group 2 2012 Paper I · General Studies", "G12B": "Group 2 2012 Paper II · AP History & Constitution",
+              "G12C": "Group 2 2012 Paper III · Planning & Economy",
+              "G08A": "Group 2 2008 Paper I · General Studies", "G08B": "Group 2 2008 Paper II · AP History & Constitution",
+              "G08C": "Group 2 2008 Paper III · Planning & Economy"}
 PAPER_YEARS = {name.split("-")[1] for name in PAPER_TAG}
 PAPER_PREFIXES = tuple("y" + t for t, _ in PAPER_TAG.values())
 
