@@ -1,0 +1,21 @@
+Task: repair broken past-paper questions (PYQs) of the APPSC prep apps. Never use the Anthropic API. Do not commit.
+Today is 18 Nov 2026.
+
+Input data/pyqrepair/job-N.jsonl: one broken PYQ per line: id, issue(s), stem s, options o, key a (0-based, -1 none),
+k ("f" = it was turned into a "Knew it / Did not know" card with the answer in "at"), src (the paper it came from), x.
+Issues: "flashcard: options lost" (a match/statement/which-of-the-following question whose 4 options were lost),
+"no key", "duplicate options", "statements/list missing" (options are codes like "1 and 3 only" but the statements or
+lists are not in the stem).
+
+For each, find the ORIGINAL question as asked in that paper (search the web: the paper itself, coaching/PYQ sites such as
+testbook, adda247, sakshieducation, examveda, indiabix, gktoday, jagranjosh, careers360, byjus, vision/drishti, pdf hosts)
+and restore it: the full stem (statements/lists on new lines; a match list as "List I" items then "List II" items, one per
+line), the 4 printed options, and the key (official key where one exists; otherwise the answer you verify is correct).
+If you cannot find the original but the fix is certain from the question itself (e.g. one duplicated option is plainly a
+typo, the key is a settled fact), fix it and say so. If you cannot repair it with confidence, keep it as it is.
+
+Write data/pyqrepair/job-N.out.jsonl, one line per input line, same order:
+{"id": "...", "action": "fix" | "keep", "s": "<full stem>", "o": ["","","",""], "a": <0-based>, "x": "<1-3 sentence
+explanation of the key>", "source": "<url or 'from the question itself'>", "note": "<what was wrong / why kept>"}
+(for "keep" only id, action and note are needed). Check with Python: every id once, fixes have 4 non-empty distinct
+options and a in 0..3. Edit no other files. Report counts and anything uncertain.
