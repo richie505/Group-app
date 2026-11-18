@@ -196,6 +196,26 @@ if NOTES_MODE == "oneliners":
                 if _l.strip():
                     _x = json.loads(_l)
                     _MOVE[_x["id"]] = tuple(_RMO[_x["to"]])
+    # Current Affairs one-liners in APPSC's angles (data/caangle, judged by helpers): a few re-asked at the news item's
+    # headline angle ("edit"), and headline facts of the notes with no one-liner yet ("new"); none moved or removed
+    _CAE, _CAN, _CAPIN = {}, {}, set()
+    if os.path.exists("data/caangle/rowmap-at-caangle.json"):
+        import hashlib as _hl
+        _RMC = J("data/caangle/rowmap-at-caangle.json")
+        for _f in sorted(glob.glob("data/caangle/job-*.out.jsonl")):
+            for _l in open(_f):
+                if not _l.strip():
+                    continue
+                _x = json.loads(_l)
+                if "new" in _x:
+                    _nw = _x["new"]
+                    _to = tuple(_RMC[_nw["row"]])
+                    _nid = "oc" + _hl.md5(f"{_nw['row']}|{_nw['s']}".encode()).hexdigest()[:10]
+                    _CAN.setdefault(_to, []).append({"id": _nid, "s": _nw["s"], "o": _nw["o"], "a": _nw["a"], "x": _nw.get("x", ""), "xs": [_nw.get("x", "")]})
+                    _CAPIN.add(_nid)
+                elif _x.get("v") == "edit":
+                    _CAE[_x["id"]] = {"s": _x["s"], "o": _x["o"], "a": _x["a"], "x": _x.get("x", ""), "xs": [_x.get("x", "")]}
+                    _CAPIN.add(_x["id"])
     for _b in range(1, 7):
         _o = J(f"app/src/oneliner/assets/mcq{_b}.json")
         _c = J(f"{C}/mcq{_b}.json")
@@ -213,7 +233,14 @@ if NOTES_MODE == "oneliners":
             _seen1 |= {q["id"] for q in _keep}  # a one-liner in two topics: the first one only
             for q in _keep:  # a one-liner judged to be in the wrong topic moves to the right one (data/olmove)
                 _to = _MOVE.get(q["id"], (_b, int(_r)))
-                _BY.setdefault(_to, []).append(dict(q))
+                _q = dict(q)
+                if q["id"] in _CAE:
+                    _q.pop("xa", None)
+                    _q.update(_CAE[q["id"]])
+                _BY.setdefault(_to, []).append(_q)
+    _seenc = {q["id"] for _v in _BY.values() for q in _v}
+    for _to, _v in _CAN.items():
+        _BY.setdefault(_to, []).extend(q for q in _v if q["id"] not in _seenc)
     # where each one-liner's fact is taught: the notes line with its answer and its question's key words
     # (tools/notes_match.py). A strong match (answer + 3 or more key words) places it there, in whatever topic; a match
     # inside its own topic picks the subsection; otherwise the subsection whose title and notes are closest.
@@ -224,6 +251,8 @@ if NOTES_MODE == "oneliners":
     for (_b, _r), _v in _BY.items():
         for q in _v:
             _f = _NIX[_b].find(q["s"], q["o"][q["a"]], prefer_row=_r)
+            if q["id"] in _CAPIN and _f and _f[0] != _r:
+                _f = None  # a Current Affairs one-liner the helpers re-asked or added stays in its section
             if _f and (_f[2] >= 3 or _f[0] == _r):
                 _BY2.setdefault((_b, _f[0]), []).append(q)
                 _AT[q["id"]] = _f[1]
