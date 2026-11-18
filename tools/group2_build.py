@@ -222,6 +222,14 @@ if NOTES_MODE == "oneliners":
             if _l.strip():
                 _x = json.loads(_l)
                 _CAE[_x["id"]] = {k: _x[k] for k in ("s", "o", "a", "x") if k in _x} | ({"xs": [_x["x"]]} if "x" in _x else {})
+    # Current Affairs without repeats (data/cadedup/job-*.out.json, tools/ca_dedup.py): one-liners asking the same
+    # fact again are left out; one asking a superseded figure is fixed to the latest
+    _DROP = set()
+    for _f in sorted(glob.glob("data/cadedup/job-*.out.json")):
+        _o = J(_f)
+        _DROP |= set(_o.get("drop", []))
+        for _x in _o.get("fix", []):
+            _CAE[_x["id"]] = {k: _x[k] for k in ("s", "o", "a", "x") if k in _x} | ({"xs": [_x["x"]]} if "x" in _x else {})
     # Current Affairs up to date (data/caupdate/mcq-*.jsonl {"new": {"row", "s", "o", "a", "x", "sub"}}): one-liners
     # on the latest news, in the section's "Latest" subsection ("sub" = that subsection's title)
     _CASUB = {}
@@ -252,7 +260,7 @@ if NOTES_MODE == "oneliners":
                 for _i, q in enumerate(_v):
                     if any(_n(q["o"][q["a"]]) == _n(p["o"][p["a"]]) and _S[_i, _j] > 0.3 for _j, p in enumerate(_py)):
                         _rep.add(_i)
-            _keep = [q for _i, q in enumerate(_v) if _i not in _rep and q["id"] not in _seen1]
+            _keep = [q for _i, q in enumerate(_v) if _i not in _rep and q["id"] not in _seen1 and q["id"] not in _DROP]
             _seen1 |= {q["id"] for q in _keep}  # a one-liner in two topics: the first one only
             for q in _keep:  # a one-liner judged to be in the wrong topic moves to the right one (data/olmove)
                 _to = _MOVE.get(q["id"], (_b, int(_r)))
@@ -271,7 +279,7 @@ if NOTES_MODE == "oneliners":
     for _to, _v in sorted(_CAN.items()):
         for q in _v:
             _a, _w = _n(q["o"][q["a"]]), set(_n(q["s"]).split())
-            if q["id"] in _seenc or any(len(_w & x) / max(1, len(_w | x)) > 0.5 for x in _ans.get(_a, [])):
+            if q["id"] in _seenc or q["id"] in _DROP or any(len(_w & x) / max(1, len(_w | x)) > 0.5 for x in _ans.get(_a, [])):
                 continue
             _ans.setdefault(_a, []).append(_w)
             _seenc.add(q["id"])

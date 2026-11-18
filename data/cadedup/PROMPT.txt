@@ -1,0 +1,34 @@
+Task: take the repeats out of the Current Affairs notes and one-liners (the owner's words: "from the announcement of a
+scheme to its execution there are days or months, so it gives duplication; remove that duplication, keep only what is
+necessary - e.g. the P4 scheme"). Never use the Anthropic API. Do not commit. Write only data/cadedup/job-N.out.json.
+Keep scratch files in /tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/dedup-N/ (shared
+scratchpad: use only your own folder).
+
+Your sections: data/cadedup/job-N.json ("g2": Group 2 section 6:g; "row": its APPSC Complete row R). The sections of
+one category run by period (Apr-Nov 2025, Dec 2025-Feb 2026, Mar-May 2026, Jun-Aug 2026, Sep-4 Nov 2026, plus
+"Overview and data" / "Special topics"). Read each with block numbers:
+    NOTES_APP=complete python3 tools/notes_fix.py show 6 <R>        ("## SUB s | title", then "[i] block")
+The one-liners of a section: app/src/group2/assets/mcq6.json rows["<g>"] (ids starting "y" are PYQs: never touch).
+
+1. Find every item (scheme, policy, project, event, appointment, report, award, case...) that appears in MORE THAN ONE
+   place in your sections (another period, or twice in one section), e.g. P4 announced, launched, its targets, its
+   progress, in five sections.
+2. Keep ONE full, current entry: in the place of its LATEST development (or the Overview section if the item is
+   explained there as a whole). Make it complete: what it is, who launched it, announced (date), launched / carried out
+   (date), the latest figures and status, and the features an exam asks. If the kept block lacks a needed fact that only
+   an older block has, rewrite the kept block with "md" (markdown in the notes' style: "- **Key** ...") to include it.
+3. Older repeats: {"drop": true} when every fact in the block is in the kept entry (or superseded: an old target /
+   figure / status replaced by a newer one - say "revised from X" in the kept entry only if an exam could ask it);
+   {"md": "..."} when the older block also holds OTHER facts: rewrite it without the repeated part.
+   Never remove a fact that is said nowhere else. Never touch PYQ tags like "(APPSC 2019)" in text you keep.
+   Tables: drop or rewrite a whole table only when all of it is repeated; else leave it.
+4. One-liners: "drop" a one-liner that asks the same fact as another one-liner of your sections (keep the best-worded
+   one), and one whose fact is only an outdated stage now superseded (e.g. "how much was proposed" when the scheme now
+   has the final figure, and another one-liner asks the final figure). "fix" a one-liner whose answer is a superseded
+   figure and no other one-liner asks the latest: {"id", "s", "o": [4], "a", "x"} with the latest fact from the notes.
+5. Write data/cadedup/job-N.out.json:
+   {"notes": [{"row": R, "sec": s, "block": i, "drop": true} | {"row": R, "sec": s, "block": i, "md": "..."}],
+    "drop": [ids], "fix": [...], "items": [{"item": "P4", "kept": "6:g sub s", "removed": <blocks dropped or cut>}]}
+   One op per block. Then run: python3 tools/ca_dedup.py check N   (must print no "bad").
+Report: how many items de-duplicated, blocks dropped / rewritten, one-liners dropped / fixed, and 5 examples (item,
+where kept, what went).
