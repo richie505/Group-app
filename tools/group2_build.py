@@ -195,14 +195,54 @@ def first_sub(k, leaf):
     return min((i for i, v in s.items() if v == leaf), default=-1)
 
 
+# where a paper question goes: among the sections that teach its official line, the section and subsection whose
+# titles, notes and MCQs are closest to it (TF-IDF); the subsection must be one tied to that line when there is one
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+_SECS = {}
+for _b in range(1, 7):
+    _flat = [r for u in J(f"{C}/book{_b}.json")["units"] for r in u["rows"]]
+    _m = J(f"{C}/mcq{_b}.json")
+    for _ri, _row in enumerate(_flat):
+        if (_b, _ri) not in new:
+            continue
+        _qs = _m["rows"].get(str(_ri), [])
+        _sb = _m.get("subs", {}).get(str(_ri)) or [-1] * len(_qs)
+        for _si, _sec in enumerate(_row["secs"]):
+            _t = [_row["title"], _sec["t"]] + ["".join(t for t, _ in bl.get("x") or []) for bl in _sec["b"] if bl.get("x")]
+            _t += [q["s"] for q, s in zip(_qs, _sb) if s == _si]
+            _SECS[(_b, _ri, _si)] = " ".join(_t)
+_KEYS = list(_SECS)
+_VEC = TfidfVectorizer(stop_words="english", sublinear_tf=True).fit(_SECS.values())
+_DOC = _VEC.transform([_SECS[k] for k in _KEYS])
+_POS = {k: i for i, k in enumerate(_KEYS)}
+
+
+def best_place(q, cand):
+    v = _VEC.transform([q["s"] + " " + (q.get("at") or (q["o"][q["a"]] if q.get("a", -1) >= 0 and q.get("o") else ""))])
+    opts = []
+    for k in cand:
+        subs = SY.SUBLEAF.get(ckey(k), {})
+        tied = [i for i, l in subs.items() if l == q["lf"]]
+        n_secs = sum(1 for kk in _KEYS if kk[:2] == k)
+        for si in (tied or range(n_secs)):
+            if (k[0], k[1], si) in _POS:
+                opts.append((k, si))
+    if not opts:
+        return cand[0], -1
+    sims = cosine_similarity(v, _DOC[[_POS[(k[0], k[1], si)] for k, si in opts]])[0]
+    return opts[int(sims.argmax())]
+
+
 for meta, qs in PAPERS:
     raw = {q["n"]: q for q in SY.J(f"data/g2papers/{dict((t, n) for n, (t, _) in SY.PAPER_TAG.items())[meta['id']]}.json")["questions"]}
     for q in qs:
-        k = next((k for k in ORDERED if q["lf"] in codes[k]), None)
-        if k is None:  # beyond the official syllabus: the first section of its paper subject
+        cand = [k for k in ORDERED if q["lf"] in codes[k]]
+        if not cand:  # beyond the official syllabus: the sections of its paper subject
             sc = SUBJ_OF_PAPER.get(raw[int(q["id"][-3:])].get("subject"), "P4")
-            k = next(k for k in ORDERED if any(SY.subject_of(c) == sc for c in codes[k]))
-        PLACE[k].append((q, first_sub(k, q["lf"])))
+            cand = [k for k in ORDERED if any(SY.subject_of(c) == sc for c in codes[k])]
+        k, si = best_place(q, cand)
+        PLACE[k].append((q, si))
 # MCQs written for official lines that had almost none (data/g2syl/newmcq.jsonl; "g2" = Group 2 rows of that time)
 import hashlib
 _RN = SY.J("data/g2syl/rowmap-at-newmcq.json")
