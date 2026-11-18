@@ -488,3 +488,8 @@ W(f"{G}/plan.json", dict(old, start=str(START), exam=str(MAINS), examLabel=M_LAB
                                  {"dates": "21 May", "work": "Light review, admit card, centre route, sleep by 22:00"}]))
 print(f"{len(new)} sections ({len(pre)} Prelims, {len(mains_new)} Mains-only, {len(mains_all)} Mains), {len(ids)} MCQs; "
       f"plan {START} - {days[-1]['date']}: Prelims {st1}, Mains {st2} (study, R2, R3, MCQ days, mocks)")
+
+# the official papers' question + answer cards get their options, and every stem is laid out (as in APPSC Complete)
+import subprocess
+subprocess.run([sys.executable, "tools/flash_options_apply.py", G], check=True)
+subprocess.run([sys.executable, "tools/mcq_layout.py", G], check=True)

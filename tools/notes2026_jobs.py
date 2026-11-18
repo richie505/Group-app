@@ -562,6 +562,9 @@ def apply():
     subprocess.run([sys.executable, "tools/pyq_repair_apply.py", A], check=True)
     # the full official papers of other APPSC exams (tools/appsc_papers_apply.py)
     subprocess.run([sys.executable, "tools/appsc_papers_apply.py", A], check=True)
+    # question + answer cards get their options; every stem laid out like a printed paper
+    subprocess.run([sys.executable, "tools/flash_options_apply.py", A], check=True)
+    subprocess.run([sys.executable, "tools/mcq_layout.py", A], check=True)
     # outdated MCQs keep their latest answers (tools/outdated_apply.py)
     subprocess.run([sys.executable, "tools/outdated_apply.py", A], check=True)
     subprocess.run([sys.executable, "tools/build_plan_mcq.py", A], check=True)

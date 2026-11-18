@@ -404,6 +404,7 @@ internal fun QuizRound(
                                 "disputed" -> Tag("Disputed", C.MedSoft, C.Med)
                                 "updated" -> Tag("Updated to latest", C.GreenSoft, C.Green)
                                 "repaired" -> Tag("Repaired from the paper", C.AccentSoft, C.Accent)
+                                "optgen" -> Tag("Options written by the app", C.MedSoft, C.Med)
                             }
                             if (q.id in edits) Tag("Corrected by you", C.GreenSoft, C.Green)
                         }
@@ -950,6 +951,7 @@ private fun ReviewList(
                             "disputed" -> Tag("Disputed", C.MedSoft, C.Med)
                                 "updated" -> Tag("Updated to latest", C.GreenSoft, C.Green)
                                 "repaired" -> Tag("Repaired from the paper", C.AccentSoft, C.Accent)
+                                "optgen" -> Tag("Options written by the app", C.MedSoft, C.Med)
                         }
                     }
                     Spacer(Modifier.height(8.dp))
