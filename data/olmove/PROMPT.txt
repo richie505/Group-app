@@ -1,0 +1,12 @@
+Task: put each Group 2 one-liner MCQ in the right TOPIC (section). Never use the Anthropic API. Do not commit.
+
+Input data/olmove/job-N.jsonl: a one-liner (question q, its answer), the topic it is in now ("now") and the choices: its
+current topic first, then the 1-2 topics whose notes match it best ("g2": "book:row", title). Some are in the wrong
+topic (e.g. an Indus Valley fire-altar question sitting in "Vedic Religion"; "Baba Farid's Sufi order" in "Sultanate
+Society" instead of "Sufi Saints").
+For each line pick the topic a student would look for this fact under: the one whose subject the question is really
+about (the period / dynasty / institution / concept it asks). Keep the current topic when it fits as well as the other
+(when unsure, keep). Read a topic's notes if needed: python3 tools/g2syl_show.py <book> <row>.
+Write data/olmove/job-N.out.jsonl, one line per input line, same order: {"id": "...", "to": "<g2 book:row>"} where "to"
+is one of the line's choices (the current one = keep). Check with Python: every id once; every "to" one of its choices.
+Edit no other files. Report how many moved and a few examples.
