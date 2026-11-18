@@ -183,8 +183,50 @@ def layout(s):
     return re.sub(r"\n{3,}", "\n\n", t)
 
 
+# a degree sign read as a "0" ("820 30' E" = 82° 30' E, "1000C" = 100 °C): coordinates by rule, temperatures one by one
+TEMPS = {"more than 420 C": "more than 42 °C", "100 – 150C temperature": "10 – 15 °C temperature",
+         "below 1000C at higher": "below 100 °C at higher", "about 120 C": "about 120 °C", "(~3000 C)": "(~3000 °C)",
+         "between 160 and 180F": "between 160 and 180 °F", "range of – 400C": "range of – 40 °C"}
+COORD = re.compile(r"(?<![\d.,\-])(\d{1,3})0 ?(\d{1,2}) ?['’′]? ?([NSEW])\b(?![a-z])")
+COORD_TIGHT = re.compile(r"(?<![\d.,\-])(\d{2,3})0(\d{2})['’′] ?([NSEW])\b")
+GEO = re.compile(r"longitude|latitude|meridian|°|⁰|parallel|Greenwich|IST", re.I)
+
+
+def degrees(t):
+    if not t:
+        return t
+    for k, v in TEMPS.items():
+        t = t.replace(k, v)
+    t = re.sub(r"(\d)⁰ ?(\d{1,2}) ?['’′]? ?([NSEW])\b", r"\1° \2' \3", t)
+    t = t.replace("⁰", "°")
+    t = COORD_TIGHT.sub(r"\1° \2' \3", t)
+    t = COORD.sub(lambda m: f"{m.group(1)}° {m.group(2)}' {m.group(3)}" if "'" in m.group(0) or "’" in m.group(0) or "′" in m.group(0) else m.group(0), t)
+    return t
+
+
+def degrees_q(q):
+    """degree fixes in the stem, options and explanation; a lone "150 E" is 15° E only in a longitude/latitude question"""
+    geo = bool(GEO.search(q.get("s", "") + " ".join(q.get("o", []))))
+    def one(t):
+        t = degrees(t)
+        if geo and t:
+            t = re.sub(r"(?<![\d.,\-°])\b(\d{1,3})0 ?([NSEW])$", r"\1° \2", t)
+        return t
+    ch = False
+    for k in ("s", "x", "at"):
+        if q.get(k):
+            n = one(q[k])
+            ch |= n != q[k]
+            q[k] = n
+    if q.get("o"):
+        n = [one(x) for x in q["o"]]
+        ch |= n != q["o"]
+        q["o"] = n
+    return ch
+
+
 def run(A):
-    n = 0
+    n = d = 0
     for b in range(1, 7):
         p = f"{A}/mcq{b}.json"
         m = json.load(open(p))
@@ -194,8 +236,10 @@ def run(A):
                 if t != q["s"]:
                     q["s"] = t
                     n += 1
+                if degrees_q(q):
+                    d += 1
         open(p, "w").write(json.dumps(m, ensure_ascii=False, separators=(",", ":")))
-    print(f"{A}: {n} MCQ stems laid out")
+    print(f"{A}: {n} MCQ stems laid out, {d} MCQs with a degree sign put back")
 
 
 TESTS = [

@@ -90,7 +90,7 @@ class Group2Test {
                 qs.forEach { q -> assertTrue(q.answer in -1 until q.options.size && q.options.size >= 2) }
             }
         }
-        assertEquals(73480, mcqs)
+        assertEquals(73485, mcqs)
         assertEquals(mcqs, repo.planIds.size)
     }
 
