@@ -50,3 +50,7 @@ Then, after the section's last one-liner, add new one-liners for that section:
 Before finishing, check with Python: every input id appears exactly once, in order; every edit/new has 4 options and
 a in 0-3; JSON valid. Then run: python3 tools/ca_angles.py check  (it checks all jobs; look at yours).
 Report: how many keep / edit / new, and 5 examples of edits and 5 of new ones.
+
+ADDED (owner's request): a one-liner that is a STATIC fact (not news: e.g. "In which year was the WHO founded?",
+"Who is the Adi Kavayitri of Telugu?", "Which law replaced the IPC?") is NOT removed, moved or edited: write
+{"id": "...", "v": "keep", "static": true}. The owner will decide what to do with them later.
