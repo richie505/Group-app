@@ -168,9 +168,40 @@ def strip_book_tails(s):
     return BOOK_TAIL.sub(lambda m: "" if m.end() == len(s) or s[m.end()] == "\n" else "\n", s).strip()
 
 
+PIPE_ROW = re.compile(r"^\s*(\(?[A-Za-z0-9]{1,4}[.)]\)?\s.*?)\s+\|\s+(\(?[A-Za-z0-9]{1,4}[.)]\)?\s.*)$")
+
+
+def pipe_tables(s):
+    """The app's match questions written as table rows ("List-I | List-II", "a. Central Asia | i. P. Giles") -> List-I
+    and its items, then List-II and its items, like a printed paper"""
+    if " | " not in s:
+        return s
+    lines = s.split("\n")
+    out, i = [], 0
+    while i < len(lines):
+        j = i
+        rows = []
+        while j < len(lines) and PIPE_ROW.match(lines[j]):
+            rows.append(PIPE_ROW.match(lines[j]).groups())
+            j += 1
+        if len(rows) >= 2:
+            h1 = h2 = None
+            if out and " | " in out[-1] and not PIPE_ROW.match(out[-1]):
+                h1, h2 = [x.strip() for x in out.pop().split(" | ", 1)]
+            out += ([h1] if h1 else []) + [r[0].strip() for r in rows] + ([h2] if h2 else []) + [r[1].strip() for r in rows]
+            i = j
+        else:
+            out.append(lines[i])
+            i += 1
+    return "\n".join(out)
+
+
 def layout(s):
     if not s:
         return s
+    s = s.replace("all the following | C) statements are correct, EXCEPT-45.", "all the following statements are correct, EXCEPT:")
+    s = re.sub(r" \| (?=[a-z])", " ", s)  # a stray "|" inside a sentence
+    s = pipe_tables(s)
     s = strip_book_tails(s)
     s = rows_to_lists(s)
     lines = s.split("\n")

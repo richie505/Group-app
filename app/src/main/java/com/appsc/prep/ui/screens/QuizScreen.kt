@@ -274,12 +274,14 @@ fun QuizScreen(src: QuizSource, mode: String, title: String, nav: Nav) {
         Box(Modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter) {
             Box(Modifier.widthIn(max = 900.dp).fillMaxSize()) {
                 if (currentMode == "review") {
-                    androidx.compose.runtime.SideEffect { canEdit.value = false; shown.value = null }
+                    androidx.compose.runtime.SideEffect { canEdit.value = false }
                     ReviewList(
                         set = set.map { it.edited(store.edits[it.id]) },
                         pool = pool,
                         onNext = { m -> currentMode = m; round++ },
                         onOpenNotes = { b, r, sec -> nav.read(b, r, sec) },
+                        // the MCQ on screen, for the top bar's copy / notes / search, as in practice
+                        onShow = { q -> shown.value = q },
                     )
                     return@Box
                 }
@@ -837,6 +839,7 @@ private fun ReviewList(
     pool: List<Question>,
     onNext: (String) -> Unit,
     onOpenNotes: (book: Int, row: Int, sec: Int) -> Unit,
+    onShow: (Question?) -> Unit = {},
 ) {
     val store = LocalApp.current.store
     var filter by rememberSaveable { mutableStateOf("all") }
@@ -853,6 +856,8 @@ private fun ReviewList(
     // one MCQ at a time, like the quiz: Previous / Next at the bottom
     var pos by rememberSaveable(filter) { mutableStateOf(0) }
     val at = pos.coerceIn(0, (shownSet.size - 1).coerceAtLeast(0))
+    val current = shownSet.getOrNull(at)
+    androidx.compose.runtime.SideEffect { onShow(current) }
     val listState = androidx.compose.foundation.lazy.rememberLazyListState()
     val scope = androidx.compose.runtime.rememberCoroutineScope()
     fun go(to: Int) {

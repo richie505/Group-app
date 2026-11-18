@@ -4,6 +4,7 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.test.hasScrollAction
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.junit4.createComposeRule
+import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
@@ -92,6 +93,8 @@ class ReviewShotsTest {
         rule.onRoot().captureRoboImage("screenshots/review/3_review_top.png")
         // one MCQ at a time: Next moves on (Question 2 of n)
         rule.onNodeWithText("Question 1 of $n", substring = true).assertExists()
+        // the top bar's copy works in review too, as in practice
+        rule.onNodeWithContentDescription("Copy this MCQ").assertExists()
         rule.onNodeWithText("Next").performClick()
         rule.waitForIdle()
         rule.onNodeWithText("Question 2 of $n", substring = true).assertExists()
