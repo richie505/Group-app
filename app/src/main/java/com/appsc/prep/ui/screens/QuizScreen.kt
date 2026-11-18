@@ -403,6 +403,7 @@ internal fun QuizRound(
                                 "added" -> Tag("Option added", C.AccentSoft, C.Accent)
                                 "disputed" -> Tag("Disputed", C.MedSoft, C.Med)
                                 "updated" -> Tag("Updated to latest", C.GreenSoft, C.Green)
+                                "repaired" -> Tag("Repaired from the paper", C.AccentSoft, C.Accent)
                             }
                             if (q.id in edits) Tag("Corrected by you", C.GreenSoft, C.Green)
                         }
@@ -948,6 +949,7 @@ private fun ReviewList(
                             "added" -> Tag("Option added", C.AccentSoft, C.Accent)
                             "disputed" -> Tag("Disputed", C.MedSoft, C.Med)
                                 "updated" -> Tag("Updated to latest", C.GreenSoft, C.Green)
+                                "repaired" -> Tag("Repaired from the paper", C.AccentSoft, C.Accent)
                         }
                     }
                     Spacer(Modifier.height(8.dp))

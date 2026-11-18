@@ -125,10 +125,23 @@ def syllabus_json(rows_by_leaf, qs_by_leaf, pri, papers):
 
 
 # --- the full official Group 2 papers (data/g2papers/<name>.json + <name>.leaves.json: question n -> official leaf)
-PAPER_TAG = {"prelims-2024": ("P24", "Prelims"), "mains-2025-paper1": ("M25A", "Mains"), "mains-2025-paper2": ("M25B", "Mains")}
+PAPER_TAG = {"prelims-2024": ("P24", "Prelims"), "mains-2025-paper1": ("M25A", "Mains"), "mains-2025-paper2": ("M25B", "Mains"),
+             "prelims-2019": ("P19", "Prelims"), "mains-2019-paper1": ("M19A", "Mains"), "mains-2019-paper2": ("M19B", "Mains"),
+             "mains-2019-paper3": ("M19C", "Mains"), "prelims-2017": ("P17", "Prelims"), "mains-2017-paper1": ("M17A", "Mains"),
+             "mains-2017-paper2": ("M17B", "Mains"), "mains-2017-paper3": ("M17C", "Mains")}
 PAPER_NAME = {"P24": "Group 2 Prelims 2024 (25 Feb 2024) · GS, Mental Ability left out",
               "M25A": "Group 2 Mains 2025 Paper I (23 Feb 2025) · AP History & Constitution",
-              "M25B": "Group 2 Mains 2025 Paper II (23 Feb 2025) · Economy & Sci-Tech"}
+              "M25B": "Group 2 Mains 2025 Paper II (23 Feb 2025) · Economy & Sci-Tech",
+              "P19": "Group 2 Prelims 2019 (5 May 2019) · GS, Mental Ability left out",
+              "M19A": "Group 2 Mains 2019 Paper I (18 Jul 2019) · General Studies",
+              "M19B": "Group 2 Mains 2019 Paper II · AP History & Constitution",
+              "M19C": "Group 2 Mains 2019 Paper III · Planning & Economy",
+              "P17": "Group 2 Prelims 2017 (26 Feb 2017) · GS, Mental Ability left out",
+              "M17A": "Group 2 Mains 2017 Paper I (15 Jul 2017) · General Studies",
+              "M17B": "Group 2 Mains 2017 Paper II · AP History & Constitution",
+              "M17C": "Group 2 Mains 2017 Paper III · Planning & Economy"}
+PAPER_YEARS = {name.split("-")[1] for name in PAPER_TAG}
+PAPER_PREFIXES = tuple("y" + t for t, _ in PAPER_TAG.values())
 
 
 def papers():

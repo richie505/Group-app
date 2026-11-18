@@ -182,8 +182,10 @@ QBY = SY.defaultdict(list)  # official line -> its MCQs
 # the partial copies of the same papers' questions already in the notes MCQs are left out
 PAPERS = SY.papers()
 PAPER_QS = [q for _, qs in PAPERS for q in qs]
+PAPER_YRS = {str(SY.year({"src": m["name"]})) for m, _ in PAPERS}  # the years of the full papers in the app
 SUBJ_OF_PAPER = {"History": "P1", "Geography": "P2", "Indian Society": "P3", "Current Affairs": "P4",
-                 "Social & Cultural History of AP": "M1A", "Indian Constitution": "M1B", "Indian & AP Economy": "M2A", "Science & Technology": "M2B"}
+                 "Social & Cultural History of AP": "M1A", "Indian Constitution": "M1B", "Indian & AP Economy": "M2A", "Science & Technology": "M2B",
+                 "General Studies": "P4", "Economy": "M2A", "Planning & Economy": "M2A"}
 ORDERED = sorted(new, key=lambda k: (k[0], new[k]))
 PLACE = SY.defaultdict(list)
 
@@ -221,7 +223,7 @@ for b in range(1, 7):
         sb = m.get("subs", {}).get(r, [-1] * len(v))
         kept = list(zip(v, sb))  # every MCQ and every PYQ of the section (Group 1 and other papers' PYQs too)
         kept = [(q, s) for q, s in kept if not (PAPER_QS and q["id"].startswith("y") and re.search(r"Group[- ]?(II|2)", q.get("src", ""))
-                                                    and re.search(r"2024|2025", q.get("src", "")) and SY.is_copy(q, PAPER_QS))]
+                                                    and any(y in q.get("src", "") for y in PAPER_YRS) and SY.is_copy(q, PAPER_QS))]
         for q, _ in kept:
             for f in ("x", "s"):
                 if q.get(f):
@@ -232,7 +234,7 @@ for b in range(1, 7):
         # each MCQ: the official line it is asked under ("x" beyond the syllabus); each PYQ: the paper it came from
         kept += PLACE.get((b, int(r)), [])
         for q, sb in kept:
-            if not q.get("lf") or not (q["id"].startswith(("yP24", "yM25")) or q["id"].startswith("g2l")):
+            if not q.get("lf") or not (q["id"].startswith(SY.PAPER_PREFIXES) or q["id"].startswith("g2l")):
                 q["lf"] = SY.question_leaf(f"{b}:{r}", sb)
             if q["id"].startswith("y"):
                 q["rl"] = SY.tier(q)
