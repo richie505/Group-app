@@ -195,6 +195,9 @@ GEO = re.compile(r"longitude|latitude|meridian|°|⁰|parallel|Greenwich|IST", r
 def degrees(t):
     if not t:
         return t
+    # no space just inside brackets: "( IMR )" -> "(IMR)", "Reason ( R)" -> "Reason (R)"
+    t = re.sub(r"\( +(?=\S)", "(", t)
+    t = re.sub(r"(?<=\S) +\)", ")", t)
     for k, v in TEMPS.items():
         t = t.replace(k, v)
     t = re.sub(r"(\d)⁰ ?(\d{1,2}) ?['’′]? ?([NSEW])\b", r"\1° \2' \3", t)
