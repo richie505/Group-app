@@ -11,7 +11,7 @@ Only the layout changes, never the words. Idempotent.
 """
 import json, re, sys
 
-JOIN_END = re.compile(r"\b(match|with|as|and|the|of|is|are|labelled|labeled|one|other|from|to|in|following|between|that)\s*$", re.I)
+JOIN_END = re.compile(r"\b(column|match|with|as|and|the|of|is|are|labelled|labeled|one|other|from|to|in|following|between|that)\s*$", re.I)
 FAMILIES = [
     ("roman", r"(?:I{1,3}|IV|V|VI)[.)]"),
     ("proman", r"\((?:i{1,3}|iv|v|vi)\)"),
@@ -92,9 +92,20 @@ def fam(tok):
 def unzip_lists(lines):
     """List I / List II printed row by row: item lines alternate between two families -> each list in turn"""
     idx = [i for i, l in enumerate(lines) if ITEM.match(l)]
-    if len(idx) < 6:
+    if len(idx) < 6 or any(" | " in lines[i] or re.search(r"[-–—:]\s*$", lines[i]) for i in idx):
         return lines
     fams = [fam(ITEM.match(lines[i]).group(1)) for i in idx]
+    # the longest run of consecutive item lines that alternate (a stray "(A) with the ..." line before it is not an item)
+    best = (0, 0)
+    st = 0
+    for j in range(1, len(idx) + 1):
+        if j == len(idx) or idx[j] != idx[j - 1] + 1 or fams[j] == fams[j - 1]:
+            if j - st > best[1] - best[0]:
+                best = (st, j)
+            st = j
+    idx, fams = idx[best[0]:best[1]], fams[best[0]:best[1]]
+    if len(idx) < 6:
+        return lines
     if len(set(fams)) != 2 or any(fams[j] == fams[j + 1] for j in range(len(fams) - 1)):
         return lines
     if idx != list(range(idx[0], idx[0] + len(idx))):
@@ -110,33 +121,57 @@ def unzip_lists(lines):
     return head + a + l2 + b + tail
 
 
+PAIRS = [  # (List I markers, List II markers) that a row-printed match question interleaves
+    (r"[A-D]\.", r"[1-4]\."), (r"[a-d]\.", r"[1-4]\."), (r"[A-D]\.", r"(?:I{1,3}|IV)\."), (r"[a-d]\.", r"(?:I{1,3}|IV)\."),
+    (r"\([A-D]\)", r"\((?:I{1,3}|IV)\)"), (r"\([a-d]\)", r"\((?:i{1,3}|iv)\)"), (r"\([A-D]\)", r"\([1-4]\)"),
+    (r"[a-d]\)", r"[1-4]\)"), (r"[A-D]\)", r"[1-4]\)"), (r"[a-d]\.", r"(?:i{1,3}|iv)\."),
+]
+
+
 def rows_to_lists(s):
-    """A match question printed row by row across lines: List I letters (A. B. C. D.) and List II numbers
-    (1. 2. 3. 4.) interleaved -> each item on its own line (unzip_lists then puts each list together)"""
-    if not re.search(r"List[- ]?I", s, re.I):
+    """A match question printed row by row (List I and List II items alternating, on the same or the next lines)
+    -> each item on its own line (unzip_lists then puts each list together)"""
+    if not re.search(r"List|Column|match", s, re.I) or " | " in s:  # a table row per line ("a. X | i. Y") is already fine
         return s
-    let = [m.start() for m in re.finditer(r"(?:(?<=\s)|^)[A-D]\. (?=\S)", s)]
-    num = [m.start() for m in re.finditer(r"(?:(?<=\s)|^)[1-4]\. (?=\S)", s)]
-    if len(let) < 3 or len(num) < 3:
+    if re.search(r"\S[ \t]+[-–—:][ \t]*\(?(?:[1-6]|I{1,3}|IV|[a-dA-D]|i{1,3}|iv)[.)][ \t]", s):  # "A. Avanti - I. Ujjain": a pair per row
         return s
-    pos = sorted(set(let + num))
-    marks_ = ["L" if p in let else "N" for p in pos]
-    if any(marks_[i] == marks_[i + 1] for i in range(len(marks_) - 1)):
-        return s  # already a list after a list, or not alternating
-    head = s[:pos[0]].rstrip()
-    parts = [s[p:q].strip() for p, q in zip(pos, pos[1:] + [len(s)])]
-    tail = ""
-    # a closing line after the last item ("Codes A B C D", "Select the correct answer...") stays at the end
-    last = parts[-1].split("\n", 1)
-    if len(last) == 2:
-        parts[-1], tail = last[0].strip(), last[1].strip()
-    lines = head.split("\n") + [x.replace("\n", " ") for x in parts] + ([tail] if tail else [])
-    return "\n".join(lines)
+    for p1, p2 in PAIRS:
+        let = [m.start() for m in re.finditer(r"(?:(?<=\s)|^)" + p1 + r" (?=\S)", s)]
+        num = [m.start() for m in re.finditer(r"(?:(?<=\s)|^)" + p2 + r" (?=\S)", s)]
+        if len(let) < 3 or len(num) < 3 or abs(len(let) - len(num)) > 1:
+            continue
+        pos = sorted(set(let + num))
+        marks_ = ["L" if p in let else "N" for p in pos]
+        if any(marks_[i] == marks_[i + 1] for i in range(len(marks_) - 1)):
+            continue
+        head = s[:pos[0]].rstrip()
+        parts = [s[p:q].strip() for p, q in zip(pos, pos[1:] + [len(s)])]
+        tail = ""
+        last = parts[-1].split("\n", 1)
+        if len(last) == 2:
+            parts[-1], tail = last[0].strip(), last[1].strip()
+        lines = head.split("\n") + [x.replace("\n", " ") for x in parts] + ([tail] if tail else [])
+        return "\n".join(lines)
+    return s
+
+
+CHAPTERS = ["Modern Indian History", "Medieval Indian History", "Ancient Indian History", "Indian Art and Culture",
+            "Science and Technology", "General Science", "Physical Geography", "Indian Geography",
+            "Human and Economic Geography", "Geography Mapping", "Environment and Ecology", "Environmental Degradation",
+            "Environmental Legislation", "Protected Area Network and Species", "Indian Agriculture", "International Relations",
+            "Sports, Awards and Other Miscellaneous Topics", r"Indian Polity(?:: [A-Z][A-Za-z ]+?)?", r"Indian Economy(?:: [A-Z][A-Za-z ]+?)?"]
+BOOK_TAIL = re.compile(r"[ \t]*(?:" + "|".join(CHAPTERS) + r")?[ \t]*\bPMF IAS [\w&]{1,5} [–-] ?\d+[ \t]*")
+
+
+def strip_book_tails(s):
+    """page headers/footers of a question book copied into the question ("... Indian Art and Culture PMF IAS IH – 211")"""
+    return BOOK_TAIL.sub(lambda m: "" if m.end() == len(s) or s[m.end()] == "\n" else "\n", s).strip()
 
 
 def layout(s):
     if not s:
         return s
+    s = strip_book_tails(s)
     s = rows_to_lists(s)
     lines = s.split("\n")
     lines = join_broken(lines)
