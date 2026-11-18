@@ -122,8 +122,8 @@ private fun AppRoot() {
                 // APPSC Complete: the MCQs tab shows what is left today (target + due)
                 // APPSC Complete: what is left of today's standard target (never the whole backlog)
                 val left = if (app.repo.complete) {
-                    val t = androidx.compose.runtime.remember(java.time.LocalDate.now()) {
-                        com.appsc.prep.data.DailyTarget.of(app.store.activity, java.time.LocalDate.now())
+                    val t = androidx.compose.runtime.remember(java.time.LocalDate.now(), app.store.dailyGoal) {
+                        com.appsc.prep.data.DailyTarget.of(app.store.activity, java.time.LocalDate.now(), app.store.dailyGoal)
                     }
                     (t.standard - app.store.dayLog().mcqs).coerceAtLeast(0)
                 } else 0

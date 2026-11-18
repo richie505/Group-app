@@ -258,8 +258,25 @@ class Group2Test {
         shot("2_today") { com.appsc.prep.ui.screens.TodayScreen(nav) }
         rule.onNodeWithText("TODAY'S PRACTICE", substring = true).assertExists()
         // no plan: the countdown and the next notes page to read (note by note)
-        rule.onNodeWithText("Exam countdown").assertExists()
+        rule.onNodeWithText("YOUR TARGETS").assertExists()
+        rule.onNodeWithText("Set your target date").assertExists()
         rule.onNodeWithText("Next to read").assertExists()
+    }
+
+    /** The reader sets their own target date and MCQs a day; nothing is assigned. */
+    @Test fun ownTargets() {
+        val app = AppState(repo, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
+        app.store.setTarget(java.time.LocalDate.now().plusDays(90), "Prelims")
+        app.store.changeDailyGoal(250)
+        assertEquals(250, com.appsc.prep.data.DailyTarget.of(app.store.activity, java.time.LocalDate.now(), app.store.dailyGoal).standard)
+        // kept across a restart, and in a backup
+        val again = ProgressStore(PrefsStorage(ctx))
+        assertEquals(250, again.dailyGoal)
+        assertEquals("Prelims", again.targetLabel)
+        shot("2_own_targets", app) { com.appsc.prep.ui.screens.TodayScreen(nav) }
+        rule.onNodeWithText("90 days left").assertExists()
+        rule.onNodeWithText("Your MCQs a day: 250").assertExists()
+        app.store.setTarget(null, ""); app.store.changeDailyGoal(0)
     }
 
     @Test fun topicAndStatementMcq() {

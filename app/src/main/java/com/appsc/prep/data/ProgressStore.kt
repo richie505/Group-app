@@ -162,6 +162,27 @@ class ProgressStore(private val prefs: Storage) {
         return add.size
     }
 
+    /** The reader's own target: a date ("2027-02-21") and what it is for ("Prelims"); null until set. */
+    var targetDate by mutableStateOf(prefs.getString(KEY_TARGET_DATE)?.let { runCatching { java.time.LocalDate.parse(it) }.getOrNull() })
+        private set
+    var targetLabel by mutableStateOf(prefs.getString(KEY_TARGET_LABEL) ?: "")
+        private set
+    /** The reader's own MCQs a day; 0 = not set. */
+    var dailyGoal by mutableStateOf(prefs.getString(KEY_DAILY_GOAL)?.toIntOrNull() ?: 0)
+        private set
+
+    fun setTarget(date: java.time.LocalDate?, label: String) {
+        targetDate = date
+        targetLabel = label.trim()
+        prefs.putString(KEY_TARGET_DATE, date?.toString() ?: "")
+        prefs.putString(KEY_TARGET_LABEL, targetLabel)
+    }
+
+    fun changeDailyGoal(n: Int) {
+        dailyGoal = n.coerceIn(0, 5000)
+        prefs.putString(KEY_DAILY_GOAL, dailyGoal.toString())
+    }
+
     /** APPSC Complete: read the MCQ notes (true, the default) or the full notes. */
     var mcqNotes by mutableStateOf(prefs.getString(KEY_NOTES_MODE) != "full")
         private set
@@ -509,6 +530,9 @@ class ProgressStore(private val prefs: Storage) {
         set("spent", encodeSpent(ownSpent).map { "$device\t$it" } + otherSpent.flatMap { (dev, m) -> encodeSpent(m).map { "$dev\t$it" } })
         put("scale", kotlinx.serialization.json.JsonPrimitive(textScale))
         put("rate", kotlinx.serialization.json.JsonPrimitive(speechRate))
+        targetDate?.let { put("targetDate", kotlinx.serialization.json.JsonPrimitive(it.toString())) }
+        if (targetLabel.isNotEmpty()) put("targetLabel", kotlinx.serialization.json.JsonPrimitive(targetLabel))
+        if (dailyGoal > 0) put("dailyGoal", kotlinx.serialization.json.JsonPrimitive(dailyGoal))
     }.toString()
 
     /** Day of the last backup ("2026-10-04"), or null. */
@@ -641,6 +665,9 @@ class ProgressStore(private val prefs: Storage) {
         }
 
         if (lastRead == null) str("last")?.let { rememberPosition(id(it)) }
+        // the reader's own targets, if this phone has none yet
+        if (targetDate == null) str("targetDate")?.let { d -> runCatching { java.time.LocalDate.parse(d) }.getOrNull()?.let { setTarget(it, str("targetLabel") ?: "") } }
+        if (dailyGoal == 0) str("dailyGoal")?.toIntOrNull()?.let { changeDailyGoal(it) }
         return Restored(newDone.size, incoming.size, inAnswers.size, inNotes.size)
     }
 
@@ -659,6 +686,9 @@ class ProgressStore(private val prefs: Storage) {
         const val KEY_TABLE_VIEW = "table_view"
         const val KEY_RATE = "speech_rate"
         const val KEY_SPEECH_SCOPE = "speech_scope"
+        const val KEY_TARGET_DATE = "target_date"
+        const val KEY_TARGET_LABEL = "target_label"
+        const val KEY_DAILY_GOAL = "daily_goal"
         const val KEY_ANSWERS = "answers"
         const val KEY_SEEN = "seen"
         const val KEY_PICKS = "picks"

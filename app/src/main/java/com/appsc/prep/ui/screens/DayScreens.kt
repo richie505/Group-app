@@ -138,11 +138,139 @@ fun TodayScreen(nav: Nav) {
             }
         }
         // no plan: the countdown, where you stopped, the next page to read, and today's practice (note by note)
-        item { CountdownCard(daysToExam, examLabel) }
+        item { TargetsCard() }
         item { ContinueCard(nav) }
         item { NextToReadCard(nav) }
         if (app.repo.complete) item { PracticeTodayCard(nav) }
         item { Spacer(Modifier.height(24.dp)) }
+    }
+}
+
+/**
+ * The reader's own targets, set by them: a target date (for an exam, or to finish the notes) and MCQs a day.
+ * Nothing is assigned: until a date is set the card asks for one. With a date: days left, and the notes pages a day
+ * that finish the unread ones by then.
+ */
+@OptIn(androidx.compose.material3.ExperimentalMaterial3Api::class)
+@Composable
+fun TargetsCard() {
+    val app = LocalApp.current
+    val store = app.store
+    val today = LocalDate.now()
+    val date = store.targetDate
+    var editDate by remember { mutableStateOf(false) }
+    var editGoal by remember { mutableStateOf(false) }
+    val unread = remember(store.done) { app.repo.notesOrder.map { it.second }.filter { !it.endsWith(":-1") }.distinct().count { it !in store.done } }
+    Box(
+        Modifier
+            .padding(horizontal = 16.dp, vertical = 10.dp)
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(18.dp))
+            .background(Brush.linearGradient(listOf(Color(0xFF1E3A8A), Color(0xFF3949AB))))
+            .padding(18.dp),
+    ) {
+        Column {
+            Text("YOUR TARGETS", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = Color(0xFFC7D2FE), letterSpacing = 0.8.sp))
+            if (date == null) {
+                Text("Set your target date", style = TextStyle(fontSize = 24.sp, fontWeight = FontWeight.Bold, color = Color.White), modifier = Modifier.padding(top = 4.dp))
+                Text("Pick the day you are aiming for (your exam, or when you want the notes done).", style = TextStyle(fontSize = 13.sp, color = Color(0xFFE0E7FF)))
+            } else {
+                val left = ChronoUnit.DAYS.between(today, date)
+                Text(
+                    if (left > 0) "$left days left" else if (left == 0L) "Today is the day" else "${-left} days past",
+                    style = TextStyle(fontSize = 30.sp, fontWeight = FontWeight.Bold, color = Color.White),
+                )
+                Text(
+                    (store.targetLabel.ifEmpty { "Target" }) + " · " + date.format(DateTimeFormatter.ofPattern("d MMM yyyy")),
+                    style = TextStyle(fontSize = 14.sp, color = Color(0xFFE0E7FF)),
+                )
+                if (left > 0 && unread > 0) {
+                    val perDay = (unread + left - 1) / left
+                    Text(
+                        "$unread notes pages unread · about $perDay a day to finish by then",
+                        style = TextStyle(fontSize = 13.sp, color = Color(0xFFE0E7FF)),
+                        modifier = Modifier.padding(top = 4.dp),
+                    )
+                }
+            }
+            Text(
+                if (store.dailyGoal > 0) "Your MCQs a day: ${store.dailyGoal}" else "MCQs a day: not set (the app suggests one from your recent days)",
+                style = TextStyle(fontSize = 13.sp, color = Color(0xFFE0E7FF)),
+                modifier = Modifier.padding(top = 4.dp),
+            )
+            Row(Modifier.padding(top = 12.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                androidx.compose.material3.OutlinedButton(
+                    onClick = { editDate = true },
+                    colors = androidx.compose.material3.ButtonDefaults.outlinedButtonColors(contentColor = Color.White),
+                ) { Text(if (date == null) "Set date" else "Change date") }
+                androidx.compose.material3.OutlinedButton(
+                    onClick = { editGoal = true },
+                    colors = androidx.compose.material3.ButtonDefaults.outlinedButtonColors(contentColor = Color.White),
+                ) { Text("MCQs a day") }
+            }
+        }
+    }
+    if (editDate) {
+        val zone = java.time.ZoneOffset.UTC
+        val state = androidx.compose.material3.rememberDatePickerState(
+            initialSelectedDateMillis = (date ?: today.plusMonths(3)).atStartOfDay(zone).toInstant().toEpochMilli(),
+        )
+        var label by remember { mutableStateOf(store.targetLabel) }
+        androidx.compose.material3.DatePickerDialog(
+            onDismissRequest = { editDate = false },
+            confirmButton = {
+                androidx.compose.material3.TextButton(onClick = {
+                    state.selectedDateMillis?.let { store.setTarget(java.time.Instant.ofEpochMilli(it).atZone(zone).toLocalDate(), label) }
+                    editDate = false
+                }) { Text("Save") }
+            },
+            dismissButton = {
+                Row {
+                    if (date != null) androidx.compose.material3.TextButton(onClick = { store.setTarget(null, ""); editDate = false }) { Text("Clear") }
+                    androidx.compose.material3.TextButton(onClick = { editDate = false }) { Text("Cancel") }
+                }
+            },
+        ) {
+            Column {
+                androidx.compose.material3.OutlinedTextField(
+                    value = label,
+                    onValueChange = { label = it.take(40) },
+                    label = { Text("What for (e.g. Prelims, finish notes)") },
+                    singleLine = true,
+                    modifier = Modifier.fillMaxWidth().padding(horizontal = 24.dp, vertical = 8.dp),
+                )
+                androidx.compose.material3.DatePicker(state = state, title = null, showModeToggle = true)
+            }
+        }
+    }
+    if (editGoal) {
+        var text by remember { mutableStateOf(if (store.dailyGoal > 0) store.dailyGoal.toString() else "") }
+        androidx.compose.material3.AlertDialog(
+            onDismissRequest = { editGoal = false },
+            title = { Text("MCQs a day") },
+            text = {
+                Column {
+                    Text("Your own daily target. Leave it empty to let the app suggest one from your recent days.", style = TextStyle(fontSize = 14.sp, color = C.Body))
+                    Spacer(Modifier.height(10.dp))
+                    androidx.compose.material3.OutlinedTextField(
+                        value = text,
+                        onValueChange = { v -> text = v.filter { it.isDigit() }.take(4) },
+                        label = { Text("MCQs") },
+                        singleLine = true,
+                        keyboardOptions = androidx.compose.foundation.text.KeyboardOptions(keyboardType = androidx.compose.ui.text.input.KeyboardType.Number),
+                    )
+                    Row(Modifier.padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                        listOf(100, 200, 300, 500).forEach { n ->
+                            androidx.compose.material3.AssistChip(onClick = { text = n.toString() }, label = { Text("$n") })
+                        }
+                    }
+                }
+            },
+            confirmButton = {
+                androidx.compose.material3.TextButton(onClick = { store.changeDailyGoal(text.toIntOrNull() ?: 0); editGoal = false }) { Text("Save") }
+            },
+            dismissButton = { androidx.compose.material3.TextButton(onClick = { editGoal = false }) { Text("Cancel") } },
+        )
     }
 }
 
@@ -673,7 +801,7 @@ private fun PracticeTodayCard(nav: Nav) {
     val app = LocalApp.current
     val store = app.store
     val today = LocalDate.now()
-    val t = remember(today) { com.appsc.prep.data.DailyTarget.of(store.activity, today) }
+    val t = remember(today, store.dailyGoal) { com.appsc.prep.data.DailyTarget.of(store.activity, today, store.dailyGoal) }
     val log = store.dayLog(today)
     val done = log.mcqs
     val sessionsDone = (done / t.session).coerceAtMost(t.sessions)

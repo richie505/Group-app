@@ -151,7 +151,7 @@ fun sessionIds(app: com.appsc.prep.ui.components.AppState): List<String> {
     val done = app.store.done
     val order = (all.filter { it.second in done } + all.filterNot { it.second in done }).map { it.first }.filter { it !in dups }
     val inApp = order.toHashSet()
-    val t = com.appsc.prep.data.DailyTarget.of(app.store.activity, today)
+    val t = com.appsc.prep.data.DailyTarget.of(app.store.activity, today, app.store.dailyGoal)
     val revision = com.appsc.prep.data.DailyTarget.dueRevision(app.store.hist, today) { it in inApp }
     return com.appsc.prep.data.DailyTarget.session(t.session, revision, order) { app.store.attempted(it) || it in app.store.hist }
 }

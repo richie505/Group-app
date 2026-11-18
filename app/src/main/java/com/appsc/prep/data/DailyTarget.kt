@@ -20,6 +20,13 @@ object DailyTarget {
 
     private fun down50(x: Int) = x / 50 * 50
 
+    /** The reader's own MCQs a day ([goal] > 0) as the standard target, else the one from their recent days. */
+    fun of(activity: Map<String, DayLog>, today: LocalDate, goal: Int): Targets {
+        if (goal <= 0) return of(activity, today)
+        val session = ((goal / 3 + 5) / 10 * 10).coerceIn(10, goal)
+        return Targets((goal / 2).coerceAtLeast(1), goal, goal + (goal / 4).coerceAtLeast(1), session)
+    }
+
     fun of(activity: Map<String, DayLog>, today: LocalDate): Targets {
         val days = (1..14).mapNotNull { activity[today.minusDays(it.toLong()).toString()]?.mcqs }.filter { it >= 100 }
         var standard = if (days.size < 4) DEFAULT else days.sorted()[days.size / 4]
