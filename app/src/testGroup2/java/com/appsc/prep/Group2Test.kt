@@ -202,6 +202,20 @@ class Group2Test {
         assertEquals(2, sets.practice)
     }
 
+    /** The counts shown for a topic are its MCQs and pages; no MCQ is in two places. */
+    @Test fun shownCountsMatch() = runBlocking {
+        val seen = HashSet<String>()
+        for (info in repo.index) {
+            val book = repo.book(info.id)
+            val m = repo.mcq(info.id)
+            for ((r, row) in info.rows.withIndex()) {
+                assertEquals("${info.id}:$r MCQs", row.questionCount, m.rows[r]?.size ?: 0)
+                assertEquals("${info.id}:$r pages", row.subsectionCount, book.rows[r].secs.size)
+            }
+            for (q in m.rows.values.flatten()) assertTrue("twice: ${q.id}", seen.add(q.id))
+        }
+    }
+
     /** Every MCQ sits in a subsection of its topic, so a topic's subsections add up to the whole section. */
     @Test fun everyMcqIsInASubsection() = runBlocking {
         for (b in 1..6) {
