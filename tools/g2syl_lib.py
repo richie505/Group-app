@@ -62,6 +62,17 @@ for f in sorted(glob.glob("data/g2syl/depth-out-*.jsonl")):
                 ADDS["%d:%d" % tuple(_RM[a["g2"]])].append((o["leaf"], a["title"], a["md"]))
 
 
+# Current Affairs brought up to date (data/caupdate/notes-*.jsonl: {"row": g2 "b:r" of rowmap-at-caupdate, "leaf",
+# "title", "md"}), added as a subsection at the end of its section
+if os.path.exists("data/caupdate/rowmap-at-caupdate.json"):
+    _RU = J("data/caupdate/rowmap-at-caupdate.json")
+    for f in sorted(glob.glob("data/caupdate/notes-*.jsonl")):
+        for l in open(f):
+            if l.strip():
+                o = json.loads(l)
+                ADDS["%d:%d" % tuple(_RU[o["row"]])].append((o.get("leaf", "P4.1.2"), o["title"], o["md"]))
+
+
 def added_secs(key):
     """The added notes of a section as subsections (the app's blocks)."""
     from structured_md import to_blocks

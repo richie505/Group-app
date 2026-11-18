@@ -216,6 +216,29 @@ if NOTES_MODE == "oneliners":
                 elif _x.get("v") == "edit":
                     _CAE[_x["id"]] = {"s": _x["s"], "o": _x["o"], "a": _x["a"], "x": _x.get("x", ""), "xs": [_x.get("x", "")]}
                     _CAPIN.add(_x["id"])
+    # fixes checked on the web (data/caangle/fixes.jsonl: {"id", "s", "o", "a", "x"}), any one-liner
+    if os.path.exists("data/caangle/fixes.jsonl"):
+        for _l in open("data/caangle/fixes.jsonl"):
+            if _l.strip():
+                _x = json.loads(_l)
+                _CAE[_x["id"]] = {k: _x[k] for k in ("s", "o", "a", "x") if k in _x} | ({"xs": [_x["x"]]} if "x" in _x else {})
+    # Current Affairs up to date (data/caupdate/mcq-*.jsonl {"new": {"row", "s", "o", "a", "x", "sub"}}): one-liners
+    # on the latest news, in the section's "Latest" subsection ("sub" = that subsection's title)
+    _CASUB = {}
+    if os.path.exists("data/caupdate/rowmap-at-caupdate.json"):
+        _RU = J("data/caupdate/rowmap-at-caupdate.json")
+        for _f in sorted(glob.glob("data/caupdate/mcq-*.jsonl")):
+            for _l in open(_f):
+                if not _l.strip():
+                    continue
+                _nw = json.loads(_l)["new"]
+                _to = tuple(_RU[_nw["row"]])
+                _nid = "oU" + _hl.md5(f"{_nw['row']}|{_nw['s']}".encode()).hexdigest()[:10]
+                _CAN.setdefault(_to, []).append({"id": _nid, "s": _nw["s"], "o": _nw["o"], "a": _nw["a"], "x": _nw.get("x", ""), "xs": [_nw.get("x", "")]})
+                _CAPIN.add(_nid)
+                _titles = [t for _, t, _ in SY.ADDS.get("%d:%d" % _to, [])]
+                if _nw.get("sub") in _titles:
+                    _CASUB[_nid] = len(_crow[_to[0]][_to[1]]["secs"]) + _titles.index(_nw["sub"])
     for _b in range(1, 7):
         _o = J(f"app/src/oneliner/assets/mcq{_b}.json")
         _c = J(f"{C}/mcq{_b}.json")
@@ -277,7 +300,7 @@ if NOTES_MODE == "oneliners":
         if _st:
             _sv = _TV(stop_words="english", sublinear_tf=True).fit(_st + [q["s"] for q in _v])
             _SS = _cos(_sv.transform([q["s"] + " " + q["o"][q["a"]] for q in _v]), _sv.transform(_st))
-            _subs = [_AT.get(q["id"], int(_SS[_i].argmax())) for _i, q in enumerate(_v)]
+            _subs = [_CASUB.get(q["id"], _AT.get(q["id"], int(_SS[_i].argmax()))) for _i, q in enumerate(_v)]
         else:
             _subs = [-1] * len(_v)
         ONE[(_b, _r)] = list(zip(_v, _subs))

@@ -1,0 +1,18 @@
+Task: settle with the web the facts where the Group 2 app's Current Affairs one-liners and notes disagree or are wrong
+(today 18 Nov 2026). Never use the Anthropic API. Do not commit. Use web search / fetch; prefer official sources
+(PIB, ministries, RBI, IMF, the event's own site), then major newspapers.
+
+The items: data/caangle/notes-for-owner.jsonl (each "id_hint" names the section "6:r" of Group 2 book 6 and the fact),
+plus: (a) 6:3 NDB founding year, (b) NITI Aayog CEO (6:30 vs 6:39). For each item:
+ 1. find the one-liner(s) involved: python3 - read app/src/group2/assets/mcq6.json rows[str(r)] (ids start with "o"),
+    or grep for the key words across all one-liners of all six mcq files;
+ 2. find the true, current fact on the web;
+ 3. if a one-liner is wrong: write a fix line to data/caangle/fixes.jsonl:
+    {"id": "<one-liner id>", "s": "...", "o": [4 options], "a": k, "x": "<one sentence with the right fact>"}
+    (keep the question as it is when only the answer/options/explanation must change);
+ 4. if the NOTES are wrong or out of date: write an edit for APPSC Complete's notes (the source of Group 2's notes) to
+    data/caupdate/notefix.json (a JSON list, format in tools/notes_fix.py's docstring). Group 2 row "6:r" -> Complete
+    row: data/caupdate/rowmap-at-caupdate.json["6:r"] = [6, R]. Show the notes with block text:
+    NOTES_APP=complete python3 tools/notes_fix.py show 6 <R>; dry-run: NOTES_APP=complete python3 tools/notes_fix.py
+    apply data/caupdate/notefix.json --dry  (do NOT apply for real).
+Write data/caupdate/fix-report.md: per item, what was wrong, the right fact, the source URL, what you changed.

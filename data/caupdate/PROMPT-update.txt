@@ -1,0 +1,27 @@
+Task: bring the Group 2 app's Current Affairs up to date (today: 18 November 2026). Never use the Anthropic API.
+Do not commit. Write only your own output files (named below). Use web search / web fetch to find and verify news.
+
+The notes run to 4 Nov 2026. For each of YOUR sections (listed in your job message; "6:r" = Group 2 book 6, row r;
+read one with: python3 tools/g2syl_show.py 6 <r>, and grep the other book-6 sections, to avoid repeating what the
+notes already have) find the news of 5-18 Nov 2026 in that section's category (and any big item of Sep-4 Nov 2026
+the notes missed), that APPSC Group 2 would ask: the syllabus line is "Current Affairs - Major Current Events and
+Issues: International / National / State of Andhra Pradesh". APPSC's angles: awards and prizes (who / field /
+edition), appointments and persons in post, summits and meetings (venue, host, edition, theme, outcome), sports
+(winner, venue, edition, first Indian), firsts and records, schemes (ministry/state, objective, target group),
+reports and indices (publisher, India's / AP's rank, topper), organisations (full form, members, HQ), important days
+(theme), treaties and exercises (countries, edition), places in news, and AP (government decisions, investments,
+MoUs, awards, firsts). Only facts confirmed by a reliable source (PIB, ministries, AP government, The Hindu, Indian
+Express, Times of India, Deccan Chronicle, Eenadu English, official tournament/award sites; coaching sites like
+Testbook, Adda247, GKToday, AffairsCloud are fine for confirming). Never guess; skip anything unconfirmed.
+
+Write data/caupdate/notes-<job>.jsonl, ONE line per section you add to:
+  {"row": "6:r", "leaf": "P4.1.1" (International) | "P4.1.2" (National) | "P4.1.3" (AP),
+   "title": "Latest: 5-18 Nov 2026", "md": "<markdown notes: '- **Bold key** ... ' bullets, one fact cluster each,
+   in the style of the existing notes; dates in the form 12 Nov 2026>"}
+Write data/caupdate/mcq-<job>.jsonl, one line per one-liner (about 1 per bullet, at most 3 per news item):
+  {"new": {"row": "6:r", "sub": "Latest: 5-18 Nov 2026", "s": "<short question>", "o": ["4 short options of the same
+   kind"], "a": <0-3>, "x": "<one sentence stating the fact>", "angle": "award|appointment|summit|sports|first|
+   scheme|report|organisation|day|treaty|place|ap", "src": "<url>"}}
+One-liner style only (no statement / match questions); spread the answers over positions 0-3; options plausible.
+Aim: 10-25 notes bullets per section where news exists. Check your files with Python (valid JSON, 4 options,
+a in 0-3, every mcq row has a notes line). Report: per section bullets and one-liners, and 5 examples.
