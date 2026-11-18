@@ -135,17 +135,17 @@ PAPER_NAME = {"P24": "Group 2 Prelims 2024 (25 Feb 2024) · GS, Mental Ability l
               "M25A": "Group 2 Mains 2025 Paper I (23 Feb 2025) · AP History & Constitution",
               "M25B": "Group 2 Mains 2025 Paper II (23 Feb 2025) · Economy & Sci-Tech",
               "P19": "Group 2 Prelims 2019 (5 May 2019) · GS, Mental Ability left out",
-              "M19A": "Group 2 Mains 2019 Paper I (18 Jul 2019) · General Studies",
-              "M19B": "Group 2 Mains 2019 Paper II · AP History & Constitution",
-              "M19C": "Group 2 Mains 2019 Paper III · Planning & Economy",
-              "P17": "Group 2 Prelims 2017 (26 Feb 2017) · GS, Mental Ability left out",
+              "M19A": "Group 2 Mains 2019 Paper I (29 Aug 2019) · General Studies · question + answer cards",
+              "M19B": "Group 2 Mains 2019 Paper II (Aug 2019) · AP History & Constitution · question + answer cards",
+              "M19C": "Group 2 Mains 2019 Paper III (30 Aug 2019) · Planning & Economy · question + answer cards",
+              "P17": "Group 2 Prelims 2017 (26 Feb 2017) · General Studies",
               "M17A": "Group 2 Mains 2017 Paper I (15 Jul 2017) · General Studies",
-              "M17B": "Group 2 Mains 2017 Paper II · AP History & Constitution",
-              "M17C": "Group 2 Mains 2017 Paper III · Planning & Economy",
-              "G12A": "Group 2 2012 Paper I · General Studies", "G12B": "Group 2 2012 Paper II · AP History & Constitution",
+              "M17B": "Group 2 Mains 2017 Paper II (16 Jul 2017) · AP History & Constitution",
+              "M17C": "Group 2 Mains 2017 Paper III (16 Jul 2017) · Planning & Economy",
+              "G12A": "Group 2 2012 Paper I (Jul 2012) · General Studies", "G12B": "Group 2 2012 Paper II · AP History & Constitution",
               "G12C": "Group 2 2012 Paper III · Planning & Economy",
-              "G08A": "Group 2 2008 Paper I · General Studies", "G08B": "Group 2 2008 Paper II · AP History & Constitution",
-              "G08C": "Group 2 2008 Paper III · Planning & Economy"}
+              "G08A": "Group 2 2008 Paper I (20 Sep 2008) · General Studies · unofficial key", "G08B": "Group 2 2008 Paper II (21 Sep 2008) · AP History & Constitution · unofficial key",
+              "G08C": "Group 2 2008 Paper III (21 Sep 2008) · Planning & Economy · unofficial key"}
 PAPER_YEARS = {name.split("-")[1] for name in PAPER_TAG}
 PAPER_PREFIXES = tuple("y" + t for t, _ in PAPER_TAG.values())
 
