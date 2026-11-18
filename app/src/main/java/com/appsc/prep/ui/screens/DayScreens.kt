@@ -357,7 +357,7 @@ private fun DayPracticeCard(day: PlanDay, nav: Nav) {
     // the day's questions, to count what is left to try and what was got wrong
     val pool = rememberPool(QuizSource("day", 0, day.n))
     val ids = pool?.map { it.id }
-    val sets = ids?.let { practiceSets(it, app.store.answers, app.store.seen) }
+    val sets = pool?.let { practiceSets(it, app.store.answers, app.store.seen) }
     val stats = ids?.let { app.store.quizStats(it) }
     SectionHeader("MCQ practice")
     PracticeCard(

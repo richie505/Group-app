@@ -190,6 +190,18 @@ class Group2Test {
         assertTrue(rule.onAllNodes(hasText("G1")).fetchSemanticsNodes().isEmpty())
     }
 
+    /** "Practise" counts what its set opens: an unscored MCQ (no key / deleted), only viewed, is not one of them. */
+    @Test fun practiseCountMatchesItsSet() {
+        fun q(id: String, kind: Char) = com.appsc.prep.data.Question(id, "Q", emptyList(), listOf("a", "b"), if (kind == 'u') -1 else 0, "", false, "", emptyList(), kind = kind)
+        val qs = listOf(q("ya", 's'), q("yb", 'u'), q("yc", 's'))
+        val seen = setOf("ya", "yb")
+        val answers = mapOf("yc" to false)
+        val sets = com.appsc.prep.ui.components.practiceSets(qs, answers, seen)
+        val opened = com.appsc.prep.ui.screens.pickSet(qs, answers, seen, "practice")
+        assertEquals(opened.size, sets.practice)
+        assertEquals(2, sets.practice)
+    }
+
     /** Every MCQ sits in a subsection of its topic, so a topic's subsections add up to the whole section. */
     @Test fun everyMcqIsInASubsection() = runBlocking {
         for (b in 1..6) {

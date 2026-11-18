@@ -445,8 +445,13 @@ fun ProgressScreen(nav: Nav) {
  */
 @Composable
 private fun McqResults(nav: Nav) {
-    val store = LocalApp.current.store
-    val ids = (store.answers.keys + store.seen).filter(::isNotesMcq)
+    val app = LocalApp.current
+    val store = app.store
+    // MCQs with no official key (or deleted by APPSC): viewed, never answered, and not ones to practise
+    val unscored by androidx.compose.runtime.produceState(emptySet<String>()) {
+        value = app.repo.index.flatMap { b -> app.repo.mcqWhere(b.id) { !it.scored } }.map { it.id }.toSet()
+    }
+    val ids = (store.answers.keys + store.seen).filter(::isNotesMcq).filter { it !in unscored }
     val first = ids.count { store.answers[it] == true && it !in store.missed && it !in store.seen }
     val retry = ids.count { store.answers[it] == true && (it in store.missed || it in store.seen) }
     val wrong = ids.count { store.answers[it] == false }

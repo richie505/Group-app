@@ -443,11 +443,16 @@ fun <T> androidx.compose.foundation.lazy.LazyListScope.gridItems(
 data class PracticeSets(val unattempted: Int, val wrong: Int, val total: Int, val practice: Int = wrong)
 
 /** [PracticeSets] for these question ids from the reader's answers. */
-fun practiceSets(ids: List<String>, answers: Map<String, Boolean>, seen: Set<String>) = PracticeSets(
+/** The sets of these MCQs; "Practise" counts what the practise set opens: scored MCQs only (one with no official key or
+ *  deleted by APPSC, only viewed, is not one to practise - it was counted before and the set then opened empty). */
+fun practiceSets(qs: List<com.appsc.prep.data.Question>, answers: Map<String, Boolean>, seen: Set<String>) =
+    practiceSets(qs.map { it.id }, answers, seen, qs.filterNot { it.scored }.map { it.id }.toSet())
+
+fun practiceSets(ids: List<String>, answers: Map<String, Boolean>, seen: Set<String>, unscored: Set<String> = emptySet()) = PracticeSets(
     unattempted = ids.count { it !in answers && it !in seen },
     wrong = ids.count { answers[it] == false },
     total = ids.size,
-    practice = ids.count { com.appsc.prep.data.needsPractice(it, answers, seen) },
+    practice = ids.count { it !in unscored && com.appsc.prep.data.needsPractice(it, answers, seen) },
 )
 
 @Composable
@@ -584,7 +589,7 @@ fun SplitPracticeCards(
             attempted = Triple(stats.first, stats.second, ids.size),
             onStart = { onQuiz(k, "new") },
             onWrong = { onQuiz(k, "wrong") },
-            sets = practiceSets(ids, store.answers, store.seen),
+            sets = practiceSets(part, store.answers, store.seen),
             onSet = { mode -> onQuiz(k, mode) },
         )
     }

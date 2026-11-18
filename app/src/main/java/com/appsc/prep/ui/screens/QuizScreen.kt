@@ -111,7 +111,7 @@ fun rememberPool(src: QuizSource): List<Question>? {
             "session" -> questions(app, sessionIds(app))
             // every book's MCQs that need practice ([needsPractice])
             "need" -> app.repo.index.flatMap { b ->
-                app.repo.mcqWhere(b.id) { needsPractice(it.id, app.store.answers, app.store.seen) }
+                app.repo.mcqWhere(b.id) { it.scored && needsPractice(it.id, app.store.answers, app.store.seen) }
             }.distinctBy { it.id }
             // a plan day: every MCQ of its sections, in the day's order (read straight from those books: quick);
             // "dayapp" / "daypyq": only the app's own MCQs / only the past-paper questions

@@ -195,9 +195,10 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav, day: Int = 0) {
                                     fontWeight = if (s.universal) FontWeight.SemiBold else FontWeight.Normal,
                                 ),
                             )
-                            val subIds = mcq?.subQuestions(rowIndex, i)?.map { it.id }.orEmpty()
+                            val subQs = mcq?.subQuestions(rowIndex, i).orEmpty()
+                            val subIds = subQs.map { it.id }
                             val subQ = subIds.size
-                            val subSets = practiceSets(subIds, app.store.answers, app.store.seen)
+                            val subSets = practiceSets(subQs, app.store.answers, app.store.seen)
                             if (s.badges.isNotEmpty() || subQ > 0) {
                                 Spacer(Modifier.height(4.dp))
                                 Row(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -271,7 +272,7 @@ fun SectionScreen(bookId: Int, rowIndex: Int, nav: Nav, day: Int = 0) {
                         attempted = stats?.let { Triple(it.first, it.second, ids.size) },
                         onStart = { nav.quiz("row", bookId, rowIndex) },
                         onWrong = { nav.quiz("row", bookId, rowIndex, "wrong") },
-                        sets = ids?.let { practiceSets(it, app.store.answers, app.store.seen) },
+                        sets = mcq?.rows?.get(rowIndex)?.let { practiceSets(it, app.store.answers, app.store.seen) },
                         onSet = { mode -> nav.quiz("row", bookId, rowIndex, mode) },
                     )
                     // the same, the app's own MCQs and the past-paper questions apart
