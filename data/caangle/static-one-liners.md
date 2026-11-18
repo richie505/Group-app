@@ -1,0 +1,4775 @@
+# Current Affairs one-liners marked static (Group 2)
+
+4334 one-liners that are background facts, not news. All are still in the app, unchanged. Tell me what to do with them (keep, move to their subject, or remove).
+
+## Famines Under Colonial Rule and Famine Policy; Famine Commissions (4)
+
+- In which years did the Orissa famine occur? → **1865-66**
+- Under which Viceroy did the Great Famine of 1876-78 occur? → **Lord Lytton**
+- Which of these famines came earliest? → **Great Bengal Famine**
+- In which years did the Orissa and Ganjam famine occur? → **1865-66**
+
+## Later Reorganisation of States – 1960s to 2000; Creation of Telangana 2014 (12)
+
+- Did the AP Reorganisation Act, 2014 require an amendment under Article 368? → **No, Article 4 excludes it**
+- How many mandals of Khammam in the Polavaram submergence area were moved to AP by the Polavaram Ordinance? → **Seven**
+- Which villages were retained in Andhra Pradesh under the Polavaram Ordinance besides the seven Khammam mandals? → **Bhurgumpadu villages**
+- Which Section of the AP Reorganisation Act, 2014 declared Polavaram a national project? → **Section 90**
+- Section 94 of the AP Reorganisation Act, 2014 deals with what? → **Fiscal support and special development package**
+- Who chaired the Section 6 Expert Committee on the new capital for Andhra Pradesh? → **K.C. Sivaramakrishnan**
+- What was the Sivaramakrishnan Expert Committee's stand on a 'super capital' for AP? → **It opposed one**
+- Section 26 of the AP Reorganisation Act, 2014 deals with what? → **Delimitation of Assembly constituencies**
+- How many Rajya Sabha seats were allocated to Telangana under the AP Reorganisation Act, 2014? → **7**
+- Special Category Status for Andhra Pradesh was an assurance given by the Prime Minister in which House? → **Rajya Sabha**
+- What was the original name of the Polavaram project? → **Ramapada Sagaram**
+- Who originally proposed the Polavaram project? → **Sir Shonthi Venkataramamurthy**
+
+## Andhra Pradesh Welfare and Social Security Programmes (7)
+
+- Section 218 of the BNSS came into force on which date? → **1 July 2024**
+- 'New welfarism' is criticised for favouring what over public goods? → **Direct benefit and tangible transfers**
+- From which date did the BNS and BNSS replace the IPC and CrPC? → **1 July 2024**
+- Which helpline backs the One Stop Centres? → **Women Helpline 181**
+- In which year was Women Helpline 181 universalised? → **2019**
+- In which year were Village and Ward Secretariats introduced in AP? → **2019**
+- Over how many services do AP's Village and Ward Secretariats provide? → **500**
+
+## India-pakistan Relations – Kashmir, Terrorism, Indus Waters Treaty, Trade and Dialogue (48)
+
+- Article 370 provided temporary provisions for which region? → **Jammu and Kashmir**
+- Per the Article 370 judgment, who could make Article 370 inoperative? → **The President**
+- Lahore bus diplomacy is associated with which Prime Minister? → **A.B. Vajpayee**
+- When did Nehru take the Kashmir question to the UN Security Council? → **January 1948**
+- Under which Article of the UN Charter was the Kashmir reference made? → **Article 35**
+- In which year was UNSC Resolution 47 on Kashmir adopted? → **1948**
+- Who signed the Instrument of Accession of Jammu and Kashmir? → **Maharaja Hari Singh**
+- On which date did Article 370 become operative? → **17 November 1952**
+- What was India's military operation in the 1999 Kargil conflict called? → **Operation Vijay**
+- Which Pakistani operation began the 1965 war? → **Operation Gibraltar**
+- Kargil was the first war between what kind of states? → **Nuclear-armed states**
+- When was the first India-Pakistan war over Kashmir fought? → **1947-48**
+- Who signed the Simla Agreement? → **Indira Gandhi and Z.A. Bhutto**
+- Who signed the Lahore Declaration? → **Vajpayee and Nawaz Sharif**
+- Which Soviet leader played a key role in mediating the Tashkent Declaration? → **Alexei Kosygin**
+- Under which agreement did the ceasefire line become the Line of Control? → **Simla Agreement**
+- Under the Tashkent Declaration, the strategic Haji Pir Pass was returned to which country? → **Pakistan**
+- Between whom was the Agra Summit of July 2001 held? → **Vajpayee and Pervez Musharraf**
+- How did the Agra Summit of 2001 end? → **Without a joint declaration**
+- In which year was the Karachi Agreement signed? → **1949**
+- Which of these India-Pakistan agreements or events came first? → **Karachi Agreement**
+- On which date was the Simla Agreement signed? → **2 July 1972**
+- Who signed the Simla Agreement with Indira Gandhi? → **Z.A. Bhutto**
+- Under the Simla Agreement, the ceasefire line in Jammu and Kashmir became the? → **Line of Control**
+- In the Sir Creek dispute, which position does Pakistan cite? → **The 1914 map line**
+- In which year was the Samjhauta Express started after the Simla Agreement? → **1976**
+- In which year was the Samjhauta Express hit by a bombing? → **2007**
+- When did the attack on India's Parliament take place? → **13 December 2001**
+- In which year did the Uri attack take place? → **2016**
+- Operation Parakram was India's response to which attack? → **Parliament attack**
+- The Uri attack led to which Indian response? → **Surgical strikes**
+- Under the Simla Agreement, India-Pakistan disputes are to be settled how? → **Bilaterally, with no third-party role**
+- In which year did India grant MFN status to Pakistan? → **1996**
+- Where was the Indus Waters Treaty signed in 1960? → **Karachi**
+- Which Indian Prime Minister signed the Indus Waters Treaty? → **Jawaharlal Nehru**
+- Which institution brokered the Indus Waters Treaty? → **World Bank**
+- Under the Indus Waters Treaty, which rivers are allocated to India for unrestricted use? → **Ravi, Beas, Sutlej**
+- Under the Indus Waters Treaty, which rivers are allocated to Pakistan? → **Indus, Jhelum, Chenab**
+- Which type of hydropower may India develop on the western rivers under the Indus Waters Treaty? → **Run-of-river projects**
+- In which year was the India-Pakistan Composite Dialogue agreed? → **1997**
+- In which year did the India-Pakistan Composite Dialogue resume? → **2004**
+- After which event was the India-Pakistan Composite Dialogue broken off? → **Mumbai 26/11 attacks**
+- In the Sir Creek dispute, which position does India support? → **The mid-channel thalweg rule**
+- In which year did the Mumbai 26/11 attacks take place? → **2008**
+- The Kartarpur Corridor gives Indian pilgrims visa-free access to which shrine? → **Gurdwara Darbar Sahib**
+- From which place in Gurdaspur does the Kartarpur Corridor run? → **Dera Baba Nanak**
+- The UNSC 1267 sanctions committee deals with terrorists linked to which groups? → **ISIL and Al-Qaida**
+- Listing by the UNSC 1267 committee leads to what measures? → **Asset freezes and travel bans**
+
+## India-china Relations – Boundary, Lac, Trade and Neighbourhood (37)
+
+- In which year was the Beijing World Conference on Women held? → **1995**
+- Which boundary line places Aksai Chin in Ladakh? → **Johnson Line**
+- Which boundary line places Aksai Chin under China? → **Macartney-MacDonald Line**
+- Which line is the eastern boundary between Tibet and India? → **McMahon Line**
+- The McMahon Line was drawn at which convention? → **Simla Convention, 1914**
+- In which year was the Johnson Line drawn? → **1865**
+- In which year was the India-China Strategic Economic Dialogue set up? → **2010**
+- India-China flood-season data MoUs cover the Brahmaputra and which other river? → **Sutlej**
+- China occupies about how much territory in Aksai Chin? → **38,000 sq km**
+- China claims about how much territory in India's north-east? → **90,000 sq km**
+- Which sector of the LAC comprises Ladakh and includes Aksai Chin? → **Western sector**
+- Which sector of the LAC is the least contested? → **Middle sector**
+- Which sector of the LAC follows the McMahon Line? → **Eastern sector**
+- The 1962 India-China war lasted from 20 October to which date? → **21 November 1962**
+- How did the 1962 India-China war end? → **China's unilateral ceasefire**
+- Which 1963 report reviewed India's military failure in the 1962 war? → **Henderson Brooks-Bhagat Report**
+- After the 1962 war, what did India seek from the West? → **Military aid**
+- Gwadar port is in which country? → **Pakistan**
+- In which year did India and China sign the Agreement on Confidence-Building Measures in the Military Field? → **1996**
+- In which year did India and China adopt the Declaration on Principles and appoint Special Representatives? → **2003**
+- Where is the headquarters of the Asian Infrastructure Investment Bank? → **Beijing**
+- In which year did India and China sign the Border Defence Cooperation Agreement? → **2013**
+- When did the Sumdorong Chu standoff take place? → **1986-87**
+- In which year did the Depsang standoff take place? → **2013**
+- In which year did the Doklam standoff take place? → **2017**
+- On which date did India recognise the People's Republic of China? → **30 December 1949**
+- India established diplomatic ties with the PRC on 1 April 1950 as the first country of which group? → **First non-socialist-bloc country**
+- Press Note 3 of 2020 concerns FDI from which countries? → **Countries sharing a land border with India**
+- Under Press Note 3 of 2020, FDI from land-border countries requires what? → **Government approval**
+- Hambantota port is in which country? → **Sri Lanka**
+- Chittagong port is in which country? → **Bangladesh**
+- Kyaukphyu port is in which country? → **Myanmar**
+- Which India-China mechanism deals with trans-border rivers? → **Expert Level Mechanism**
+- In which year was Nathu La reopened for India-China trade? → **2006**
+- India's stated position is that relations with China cannot be normal until what? → **The border is peaceful**
+- In which year was the India-China Working Mechanism for Consultation and Coordination set up? → **2012**
+- What is India's membership status in the AIIB? → **Founding member**
+
+## India and Nepal, Bhutan, Bangladesh, Sri Lanka, Myanmar, Maldives, Afghanistan (38)
+
+- Which Amendment operationalised the India-Bangladesh Land Boundary Agreement? → **100th**
+- The India-Bangladesh Land Boundary Agreement was implemented through which Amendment? → **100th Amendment**
+- How many Indian enclaves went to Bangladesh under the Land Boundary Agreement? → **111**
+- Which Indian PM signed the India-Sri Lanka Accord of 1987 with J.R. Jayewardene? → **Rajiv Gandhi**
+- In which year was the India-Bangladesh Land Boundary Agreement signed? → **1974**
+- Which Constitutional Amendment implemented the India-Bangladesh Land Boundary Agreement in 2015? → **100th**
+- How many Indian enclaves were exchanged under the India-Bangladesh Land Boundary Agreement? → **111**
+- How many Bangladeshi enclaves were exchanged under the Land Boundary Agreement? → **51**
+- Who signed the Indo-Sri Lanka Accord of 1987 with Rajiv Gandhi? → **J.R. Jayewardene**
+- Which Sri Lankan provinces were to be merged under the 1987 Indo-Sri Lanka Accord? → **Northern and Eastern**
+- Provincial councils in Sri Lanka under the 1987 Accord came through which amendment? → **13th Amendment**
+- Which Indian force was deployed under the 1987 Indo-Sri Lanka Accord? → **IPKF**
+- The Mahakali Treaty of 1996 was signed between India and which country? → **Nepal**
+- The Ganga Water Treaty of 1996 was signed between India and which country? → **Bangladesh**
+- In which year was the India-Nepal Gandak Agreement signed? → **1959**
+- In which year was the India-Nepal Kosi Agreement signed? → **1954**
+- On which date did Nepal's first Constituent Assembly abolish the monarchy? → **28 May 2008**
+- On which date was Nepal's new Constitution adopted? → **20 September 2015**
+- In which year did the LTTE kill Rajiv Gandhi? → **1991**
+- In which year did India ban the LTTE? → **1992**
+- In which year was the LTTE crushed by Sri Lanka? → **2009**
+- India is building broad-gauge cross-border rail lines with which country? → **Nepal**
+- India imports hydropower from which neighbour? → **Bhutan**
+- Nepal's hydropower potential is estimated at about how much? → **83,000 MW**
+- The Teesta water sharing issue concerns India and which country? → **Bangladesh**
+- The Rohingya issue concerns India along with which countries? → **Myanmar and Bangladesh**
+- The Doklam tri-junction involves India, China and which country? → **Bhutan**
+- What is the length of the India-Bangladesh border? → **4,096.7 km**
+- What is the length of the India-China border? → **3,488 km**
+- What is the length of the India-Nepal border? → **1,751 km**
+- What is the length of the India-Bhutan border? → **699 km**
+- The India-Myanmar-Thailand Trilateral Highway connects Moreh in Manipur with which place? → **Mae Sot**
+- The Arun III hydropower project is in which country? → **Nepal**
+- The Mangdechhu hydropower project is in which country? → **Bhutan**
+- The Rooppur nuclear power plant is in which country? → **Bangladesh**
+- The Maitree thermal power plant (Rampal) is in which country? → **Bangladesh**
+- Who was the first President of the Federal Democratic Republic of Nepal? → **Ram Baran Yadav**
+- Which is India's longest international land border? → **Bangladesh**
+
+## Neighbourhood First, Act East, Link West; Sagar and the Indo-pacific Vision (28)
+
+- The Akhaura-Agartala rail link connects Tripura through which country? → **Bangladesh**
+- Which country is an observer in the Colombo Security Conclave? → **Seychelles**
+- India's Look East Policy was originally focused on which domain? → **Economic ties with ASEAN**
+- At which forum was the Act East Policy launched in 2014? → **East Asia Summit**
+- The Act East Policy was initially conceived as what kind of policy? → **Economic**
+- Beyond East Asia, the Act East Policy covers which wider region? → **Indo-Pacific**
+- Which Asian power's influence was India's Look East Policy partly meant to counter? → **China**
+- Instability in which regions was a driver of India's Look East Policy? → **West and Central Asia**
+- Chabahar port lies in Iran on which water body? → **Gulf of Oman**
+- In which year was India's SAGAR maritime vision launched? → **2015**
+- What is the full form of SAGAR? → **Security and Growth for All in the Region**
+- SAGAR is partly a response to which Chinese strategy? → **String of Pearls**
+- At which summit did PM Modi propose the Indo-Pacific Oceans Initiative in 2019? → **14th East Asia Summit, Bangkok**
+- The Indo-Pacific Oceans Initiative builds on which earlier Indian vision? → **SAGAR**
+- What is the fourth C added in the 4C version of the Act East Policy? → **Capacity building**
+- How many pillars does the Indo-Pacific Oceans Initiative have? → **Seven**
+- What are the 3Cs of India's Act East Policy? → **Commerce, Culture, Connectivity**
+- Under the SAGAR doctrine, India casts itself as what in the Indian Ocean Region? → **Net security provider**
+- The Kaladan project and the Trilateral Highway link India with which regional grouping? → **ASEAN**
+- The Agalega airstrip and jetty built with Indian help are in which country? → **Mauritius**
+- Assumption Island, linked to an Indian project, belongs to which country? → **Seychelles**
+- The Uthuru Thila Falhu harbour project is in which country? → **Maldives**
+- The Hanimaadhoo airport project is in which country? → **Maldives**
+- The Akhaura-Agartala railway link is a project with which country? → **Bangladesh**
+- Since which year has the India-US 2+2 Ministerial Dialogue been held? → **2018**
+- Where is the Information Fusion Centre - Indian Ocean Region located? → **Gurugram**
+- When was the IFC-IOR set up by the Indian Navy? → **December 2018**
+- Agalega, where India built an airstrip and jetty, belongs to which country? → **Mauritius**
+
+## India-usa Relations – Strategic, Defence, Trade, Technology (iCET), Diaspora (25)
+
+- Which 2008 development is seen as the turning point in India-US relations? → **Civil nuclear deal**
+- In which year was the US Pressler Amendment enacted? → **1985**
+- The Pressler Amendment barred US aid to which country without nuclear certification? → **Pakistan**
+- In which year were the Pressler Amendment's provisions applied to Pakistan? → **1990**
+- In which year did the India-US Strategic and Commercial Dialogue begin? → **2015**
+- Which India-US foundational agreement covers protection of shared military information? → **GSOMIA**
+- Which India-US agreement gives access to each other's facilities for refuelling and replenishment? → **LEMOA**
+- Which India-US agreement covers encrypted communications data and equipment? → **COMCASA**
+- Which India-US agreement covers geospatial data for navigation and missile targeting? → **BECA**
+- In which year was the India-US GSOMIA signed? → **2002**
+- In which year was the India-US LEMOA signed? → **2016**
+- In which year was the India-US COMCASA signed? → **2018**
+- In which year was the India-US BECA signed? → **2020**
+- India's STA-1 status with the US gives licence-free access to what? → **US military and dual-use technology**
+- In which year did India get STA-1 status from the US? → **2018**
+- Vajra Prahar is an India-US exercise of which force? → **Special Forces**
+- Cope India is an India-US exercise of which service? → **Air Force**
+- Yudh Abhyas is an India-US exercise of which service? → **Army**
+- Malabar is an exercise of which service? → **Navy**
+- What is the character of the India-US exercise Tiger Triumph? → **Tri-service and amphibious**
+- Red Flag is a multinational exercise of which force? → **US Air Force**
+- In which month and year was the India Semiconductor Mission launched? → **December 2021**
+- What is the outlay of the India Semiconductor Mission? → **₹76,000 crore**
+- Which country has the world's largest Persons of Indian Origin community? → **United States**
+- Which country has the second-largest Persons of Indian Origin community? → **Malaysia**
+
+## India-russia, India-eu, India-japan, India-israel, India-gulf and India-africa Relations (16)
+
+- Which sector is a key pillar of the India-Israel Special Strategic Partnership? → **Defence**
+- Since which year have India and the UAE had a Comprehensive Strategic Partnership? → **2017**
+- In which year did India sign the S-400 deal with Russia? → **2018**
+- Since which year have India-EU BTIA negotiations run? → **2007**
+- Since which year has the India-Japan CEPA been in force? → **2011**
+- Japan ranks at what position among India's FDI sources? → **Fifth**
+- In which year did the India-UAE CEPA become operational? → **2022**
+- Where was the second India-Africa Forum Summit (2011) held? → **Addis Ababa**
+- India extended about how much in lines of credit for water supply in Tanzania? → **$1.1 billion**
+- The Kudankulam nuclear plant built with Russia is in which state? → **Tamil Nadu**
+- BrahMos is named after the Brahmaputra and which river? → **Moskva**
+- The Mumbai-Ahmedabad High Speed Rail uses which country's Shinkansen technology? → **Japan**
+- The Mumbai-Ahmedabad High Speed Rail is supported by what kind of Japanese funding? → **Official Development Assistance**
+- The India-Japan Act East Forum is concerned with which region of India? → **North-East**
+- Where was the first India-Africa Forum Summit (2008) held? → **New Delhi**
+- Where was the third India-Africa Forum Summit (2015) held? → **New Delhi**
+
+## United Nations – Principal Organs, Unga, Unsc and Reform; India's Candidature (35)
+
+- In which year was the UN Commission on the Status of Women set up? → **1946**
+- How many members does the UN General Assembly have? → **193**
+- Who was the first Secretary-General of the United Nations? → **Trygve Lie**
+- Which Article of the UN Charter lists the purposes of the United Nations? → **Article 1**
+- Sovereign equality of members is laid down in which Article of the UN Charter? → **Article 2**
+- Under which Article of the UN Charter do the P5 have the veto? → **Article 27**
+- Which Article of the UN Charter bars immediate re-election of non-permanent UNSC members? → **Article 23**
+- Which is the only UN body whose decisions bind members? → **Security Council**
+- Who heads the UN Secretariat? → **Secretary-General**
+- Since which year has the UN Trusteeship Council been inactive? → **1994**
+- How many members does ECOSOC have? → **54**
+- What is the term of ECOSOC members? → **Three years**
+- The Uniting for Peace resolution lets which body act when a veto blocks the UNSC? → **General Assembly**
+- The IGN on UNSC reform is a working group of which UN organ? → **General Assembly**
+- In which year did Dag Hammarskjold become UN Secretary-General? → **1953**
+- In which year did U Thant become UN Secretary-General? → **1961**
+- In which year did Kurt Waldheim become UN Secretary-General? → **1972**
+- Who was the first Latin American Secretary-General of the UN? → **Javier Perez de Cuellar**
+- ICJ judges are elected by which bodies? → **UNGA and UNSC voting separately**
+- In which year was the Uniting for Peace resolution (Res. 377) adopted? → **1950**
+- The Uniting for Peace resolution was first used in which crisis? → **Suez Crisis, 1956**
+- Which UNSC committee deals with sanctions on Al-Qaida/ISIL and terrorist listings? → **1267**
+- Which UNSC resolution set up the Counter-Terrorism Committee after 9/11? → **1373**
+- Which UNSC resolution aims at stopping WMD reaching non-state actors? → **1540**
+- Which countries form the G4 seeking permanent UNSC seats? → **Brazil, Germany, India, Japan**
+- Which country leads the Uniting for Consensus group on UNSC reform? → **Italy**
+- The Ezulwini Consensus seeks how many permanent UNSC seats for Africa? → **Two, with veto**
+- Which UNSC reform group consists of developing countries from Asia, Africa, Latin America and the Pacific? → **L.69**
+- Uniting for Consensus takes what position on new permanent UNSC seats? → **Opposes them**
+- In which year was the Inter-Governmental Negotiations (IGN) process on UNSC reform set up? → **2008**
+- Which annual document of the IGN maps agreement and disagreement on UNSC reform? → **Elements Paper**
+- In which year did the ICJ deliver its judgment in the Kulbhushan Jadhav case? → **2019**
+- Who was the first Asian Secretary-General of the UN? → **U Thant**
+- Who was the first African Secretary-General of the UN? → **Boutros Boutros-Ghali**
+- Where is the International Court of Justice located? → **The Hague**
+
+## Un Specialised Agencies and Programmes – Who, Ilo, Unesco, Fao, Unicef, Undp, Unep, Unhcr (46)
+
+- UN specialised agencies are linked to which principal organ? → **ECOSOC**
+- Which UN bodies are autonomous organisations with their own treaties and budgets? → **Specialised agencies**
+- UNICEF, UNDP and UNEP belong to which category of UN bodies? → **Funds and programmes**
+- What is UNHCR's status in the UN system? → **Office of the General Assembly**
+- IAEA, WTO and OPCW belong to which category of UN-linked bodies? → **Related organisations**
+- What is UNICEF's mandate? → **Children's rights**
+- Where is the WHO headquartered? → **Geneva**
+- In which year was the IAEA established? → **1957**
+- Where is the ILO headquartered? → **Geneva**
+- Which UN body publishes the State of World Population report? → **UNFPA**
+- In which year was the WHO founded? → **1948**
+- On which date was the FAO founded? → **16 October 1945**
+- In which year was IFAD established? → **1977**
+- Where is UNICEF headquartered? → **New York**
+- Where is UNEP headquartered? → **Nairobi**
+- In which year did the ILO become a UN specialised agency? → **1946**
+- In which ILO bodies does tripartism operate? → **International Labour Conference and Governing Body**
+- The ILO describes itself as the leading normative agency on what? → **Labour standards**
+- Which UN agency runs the Man and the Biosphere Programme? → **UNESCO**
+- World Food Day is associated with which UN body? → **FAO**
+- World Environment Day is associated with which UN body? → **UNEP**
+- UNEP's mandate covers climate, biodiversity and what else? → **Pollution**
+- How is the World Food Programme funded? → **Entirely by voluntary contributions**
+- The Global Multidimensional Poverty Index is co-built by OPHI and which UN body? → **UNDP**
+- Which UN body publishes the Human Development Report? → **UNDP**
+- Which UN body publishes the Emissions Gap Report? → **UNEP**
+- The ILO's tripartite structure comprises governments, employers and whom? → **Workers**
+- India has ratified ILO conventions C29 and C105, which concern what? → **Forced labour**
+- ILO convention C100, ratified by India, concerns what? → **Equal remuneration**
+- Which ILO convention on Domestic Workers has India not ratified? → **C189**
+- In which year did Hyderabad become a UNESCO City of Gastronomy? → **2019**
+- UNESCO leads which Sustainable Development Goal? → **SDG-4**
+- Which UN body publishes the World Employment and Social Outlook? → **ILO**
+- In which year did UNICEF win the Nobel Peace Prize? → **1965**
+- In which year did the ILO win the Nobel Peace Prize? → **1969**
+- In which year did the UN Peacekeeping Forces win the Nobel Peace Prize? → **1988**
+- In which year did the UN and Kofi Annan win the Nobel Peace Prize? → **2001**
+- In which year did the World Food Programme win the Nobel Peace Prize? → **2020**
+- With whom did the IPCC share the 2007 Nobel Peace Prize? → **Al Gore**
+- In which year did the IAEA and ElBaradei win the Nobel Peace Prize? → **2005**
+- Which day is associated with UNHCR? → **World Refugee Day**
+- On which date is World Food Day observed? → **16 October**
+- On which date is World Refugee Day observed? → **20 June**
+- On which date is World Health Day observed? → **7 April**
+- Where is the Universal Postal Union headquartered? → **Bern**
+- Where is UNIDO headquartered? → **Vienna**
+
+## Bretton Woods Institutions – Imf (quota, Sdr), World Bank Group; Adb, Aiib, Ndb (45)
+
+- On which date did the IMF come into formal existence? → **27 December 1945**
+- Which country was the first IMF borrower, on 8 May 1947? → **France**
+- Which two institutions were created at the Bretton Woods Conference? → **IMF and IBRD**
+- Under the Bretton Woods system, the US dollar was pegged to what? → **Gold**
+- About how long did the Smithsonian Agreement last? → **14 months**
+- Which IMF committee advises the Board of Governors? → **IMFC**
+- At whose initiative was the Asian Development Bank set up? → **UN-ESCAP**
+- In which year were the AIIB's Articles of Agreement signed? → **2015**
+- When did the AIIB begin operations? → **January 2016**
+- At which BRICS summit was the New Development Bank idea mooted? → **4th Summit, New Delhi, 2012**
+- In which year did the New Development Bank begin operations? → **2015**
+- Which Indian was IMF Chief Economist during 2003-06? → **Raghuram Rajan**
+- Which loan feature of Bretton Woods institutions is a major criticism? → **Structural adjustment conditions**
+- A criticism of Bretton Woods institutions concerns control of votes by which group? → **Global North**
+- Where is the IMF headquartered? → **Washington D.C.**
+- India's allocated SDRs can be used for what purpose? → **Balance-of-payments needs**
+- Which country alone holds a veto in the IMF? → **United States**
+- Development or project financing is the role of which institution, not the IMF? → **World Bank**
+- The IMF gives financial assistance to members facing what difficulties? → **Balance of payments difficulties**
+- The Smithsonian Agreement of 1971 widened the exchange-rate band to what? → **2.5%**
+- What are IMF Article IV consultations? → **Annual bilateral surveillance of each member**
+- Since October 2016, how many currencies make up the SDR basket? → **Five**
+- Which currency joined the SDR basket in October 2016? → **Chinese renminbi**
+- Which of these does an IMF member's quota determine? → **Its voting power**
+- An IMF member's quota decides its contribution, voting power and what else? → **Access to borrowing**
+- Which World Bank Group body lends to middle-income governments for infrastructure? → **IBRD**
+- Which World Bank Group body settles investment disputes? → **ICSID**
+- Which World Bank Group body gives long-term interest-free credits and grants to the poorest countries? → **IDA**
+- Which World Bank Group body handles private-sector investment, advisory and asset management? → **IFC**
+- Which World Bank Group body gives political-risk insurance to foreign investors? → **MIGA**
+- In which year was the IFC established? → **1956**
+- In which year was the IDA established? → **1960**
+- In which year was MIGA established? → **1988**
+- In which year was ICSID established? → **1966**
+- In which year was the Asian Development Bank established? → **1966**
+- What is the area of focus of the IFC? → **Private sector**
+- What form of assistance does the IDA give? → **Concessional loans and grants**
+- Which country is the largest shareholder of the AIIB? → **China**
+- Which country is the second-largest shareholder of the AIIB? → **India**
+- Where is the New Development Bank headquartered? → **Shanghai**
+- Where is the New Development Bank's regional office in India? → **Ahmedabad/GIFT City**
+- How are votes shared among the NDB's founding members? → **Equally, with no veto**
+- Who was the first President of the New Development Bank? → **K.V. Kamath**
+- On which date did the IMF begin financial operations? → **1 March 1947**
+- Which body filled the gap left by the failed International Trade Organization until 1995? → **GATT**
+
+## World Trade Organization – Structure, Agreements (AoA, Trips, Trims, Gats), Dispute Settlement, India's Issues (33)
+
+- The Uruguay Round was which round of GATT negotiations? → **Eighth**
+- How many countries took part in the Uruguay Round? → **123**
+- Non-tariff barrier codes came from which GATT round? → **Tokyo Round**
+- When was the Kennedy Round of GATT held? → **1964-67**
+- When was the Tokyo Round of GATT held? → **1973-79**
+- How many rounds of trade negotiations did GATT hold? → **Eight**
+- Which GATT Article allows free trade agreements as exceptions to MFN? → **Article XXIV**
+- Under GATT Article XXIV, an FTA qualifies only if it covers what? → **Substantially all trade**
+- Which WTO voting principle gives developing countries bargaining space? → **One-country-one-vote**
+- In which year did the Uruguay Round begin? → **1986**
+- TRIPS, GATS and the Agreement on Agriculture emerged from which round? → **Uruguay Round**
+- In which year was the Doha Development Agenda launched? → **2001**
+- Where is the WTO headquartered? → **Geneva**
+- Which WTO body runs the organisation between Ministerial Conferences? → **General Council**
+- Which WTO body deals with panel and Appellate Body rulings? → **Dispute Settlement Body**
+- Which WTO body periodically reviews members' trade policies? → **Trade Policy Review Body**
+- Which is the highest decision-making body of the WTO? → **Ministerial Conference**
+- How often must the WTO Ministerial Conference meet at least? → **Every two years**
+- Which WTO agreement covers trade in services? → **GATS**
+- Which WTO agreement classifies subsidies as prohibited, actionable and non-actionable? → **SCM**
+- Which WTO agreement sets minimum standards for all forms of intellectual property rights? → **TRIPS**
+- Which WTO agreement deals with investment measures that distort trade? → **TRIMS**
+- Which country challenged the domestic-content rules of India's JNNSM solar programme at the WTO? → **USA**
+- Who brought the WTO case against India's MEIS and SEZ export subsidies? → **USA**
+- In which year did India amend the Patents Act to comply with TRIPS? → **2005**
+- In which year did India enact the Geographical Indications of Goods Act to meet TRIPS? → **1999**
+- Which two countries jointly proposed the COVID-19 TRIPS waiver in 2020? → **India and South Africa**
+- Which WTO Ministerial Conference adopted a limited TRIPS waiver for vaccine patents? → **MC12**
+- Which country wants to deny Special and Differential Treatment to China, India, Brazil and Indonesia? → **USA**
+- What is India's stand on Special and Differential Treatment at the WTO? → **Defends it**
+- What is India's stand on bringing plurilateral initiatives into the WTO rulebook? → **Opposes it**
+- Which organisation was created by the Uruguay Round? → **World Trade Organization**
+- Anti-dumping duties are imposed on goods sold at what price? → **Below normal value**
+
+## Regional Organisations – Saarc, Bimstec, Asean, Eu, African Union, Sco, Gcc, Iora, Bbin (32)
+
+- In which year was the African Union set up? → **2002**
+- The African Union replaced which organisation? → **OAU**
+- The European Union is based on which treaty of 1992/93? → **Maastricht Treaty**
+- How many members does the European Union have? → **27**
+- How many members does the Gulf Cooperation Council have? → **6**
+- How many members does BIMSTEC have? → **Seven**
+- In which year was the Indian Ocean Rim Association formed? → **1997**
+- How many members does the Indian Ocean Rim Association have? → **23**
+- Where is the Council of Europe headquartered? → **Strasbourg**
+- Which is the only ASEAN state bordering India? → **Myanmar**
+- How many members did the Council of Europe have in 2019? → **47**
+- Which country was expelled from the Council of Europe in March 2022? → **Russia**
+- Which satellite initiative did India propose in the SAARC framework? → **South Asia Satellite**
+- In which year did India propose the SAARC COVID emergency fund? → **2020**
+- Which country earlier led the energy sector in BIMSTEC? → **Myanmar**
+- How many members does the East Asia Summit have? → **19**
+- On which date did the United Kingdom leave the European Union? → **31 January 2020**
+- Article 50 of the Treaty on European Union was inserted by which treaty? → **Lisbon Treaty**
+- In which year did Nepal and Bhutan join BIMSTEC? → **2004**
+- At which summit was the BIMSTEC Charter adopted? → **5th Summit, Colombo, 2022**
+- In which year did the ASEAN-India FTA in goods come into force? → **2010**
+- BIMSTEC began as BIST-EC with Bangladesh, India, Sri Lanka and which country? → **Thailand**
+- BIMSTEC reduced its sectors from 14 to how many? → **7**
+- Which BIMSTEC sector does India lead? → **Security**
+- Where was the first BIMSTEC army exercise MILEX held in 2018? → **Pune**
+- In which year did India become a sectoral dialogue partner of ASEAN? → **1992**
+- In which year did India become a full dialogue partner of ASEAN? → **1996**
+- In which year did India become a summit-level partner of ASEAN? → **2002**
+- In which year did India-ASEAN ties become a Comprehensive Strategic Partnership? → **2022**
+- In which year was the ASEAN Regional Forum set up? → **1994**
+- In which year was the East Asia Summit founded? → **2005**
+- Where was the East Asia Summit founded? → **Kuala Lumpur**
+
+## Plurilateral Groupings – G20, G7, Brics, Quad, I2U2, Ibsa, Basic, Colombo Security Conclave (19)
+
+- Besides India, the US and Japan, which country is a member of the Quad? → **Australia**
+- Which non-country entity attends G7 meetings? → **European Union**
+- Which countries form the G4? → **India, Brazil, Germany, Japan**
+- Which countries form MIKTA? → **Mexico, Indonesia, South Korea, Türkiye, Australia**
+- Which countries form the Quad? → **India, USA, Japan, Australia**
+- Russia's association turned the G7 into the G8 in which years? → **1997-98**
+- In which year was Russia suspended from the G8 after the Crimea crisis? → **2014**
+- At which G7 summit was the G20 foreshadowed in June 1999? → **Cologne**
+- When set up on 26 September 1999, the G20 was a forum of whom? → **Finance ministers and central bank governors**
+- Where was the first G20 meeting held in December 1999? → **Berlin**
+- In which year was BRIC formalised? → **2006**
+- Where was the first BRIC summit held in 2009? → **Yekaterinburg**
+- In which year did South Africa join BRIC, making it BRICS? → **2011**
+- Through which declaration was IBSA founded in 2003? → **Brasilia Declaration**
+- What is Bangladesh's status in the Colombo Security Conclave? → **Member**
+- What is the size of the BRICS Contingent Reserve Arrangement liquidity pool? → **$100 billion**
+- Which body manages the IBSA Trust Fund? → **UNOSSC**
+- What is the name of IBSA's naval exercise? → **IBSAMAR**
+- The Colombo Security Conclave originated in 2011 as which arrangement? → **India-Sri Lanka-Maldives maritime trilateral**
+
+## Export Control and Security Regimes – Npt, Ctbt, Nsg, Mtcr, Wassenaar, Australia Group, Fatf, Iaea (52)
+
+- In which year did the OPCW win the Nobel Peace Prize? → **2013**
+- How does the Nuclear Suppliers Group take decisions? → **Consensus**
+- How many members does the Nuclear Suppliers Group have? → **48**
+- The Convention on Certain Conventional Weapons concerns which weapons? → **Inhumane conventional weapons**
+- Besides inspecting weapons destruction, what does the OPCW monitor? → **Chemical industry**
+- In which year did the Biological Weapons Convention enter into force? → **1975**
+- In which year was the Nuclear Suppliers Group formed? → **1975**
+- Which regime controls missiles and drones above the 500 kg / 300 km threshold? → **MTCR**
+- In which year was the MTCR set up? → **1987**
+- Which regime controls conventional arms and dual-use goods? → **Wassenaar Arrangement**
+- Which regime controls chemical and biological weapon precursors? → **Australia Group**
+- Which 2002 instrument deals with transparency on ballistic-missile proliferation? → **Hague Code of Conduct**
+- In which year was the NPT signed? → **1968**
+- In which year did the NPT enter into force? → **1970**
+- In which year was the NPT extended indefinitely? → **1995**
+- In which year did the Treaty on the Prohibition of Nuclear Weapons enter into force? → **2021**
+- Which is the first binding treaty banning nuclear weapons? → **TPNW**
+- India wants the Fissile Material Cut-off Treaty not to cap what? → **Existing stocks**
+- In which year was the CTBT adopted? → **1996**
+- What term has India used for the NPT's unequal obligations? → **Nuclear apartheid**
+- The NPT is criticised for letting recognised nuclear powers modernise arsenals without what? → **Disarmament deadlines**
+- At which forum does India support negotiating the FMCT? → **Conference on Disarmament**
+- Which group of countries does the NPT recognise as nuclear-weapon states? → **The P5**
+- In which year did the United States withdraw from the JCPOA? → **2018**
+- On which date did Iran drop all limits under the JCPOA? → **5 January 2020**
+- In which year was the JCPOA concluded? → **2015**
+- New START (2010) was a treaty between the USA and which country? → **Russia**
+- In which year did the US withdraw from the INF Treaty? → **2019**
+- The INF Treaty of 1987 was concluded between the USA and which country? → **USSR**
+- In which year did India join the IAEA as a founding member? → **1957**
+- In which year was the Chemical Weapons Convention signed? → **1993**
+- In which year did the Chemical Weapons Convention enter into force? → **1997**
+- In which year did India complete destruction of its declared chemical-weapon stockpile? → **2009**
+- Which body implements the Chemical Weapons Convention? → **OPCW**
+- In which year did the OPCW win the Nobel Peace Prize? → **2013**
+- In which year was the Biological Weapons Convention adopted? → **1972**
+- Which body verifies compliance with the Biological Weapons Convention? → **No verification organisation**
+- In which year was the FATF set up by the G7? → **1989**
+- Where is the FATF secretariat located? → **Paris**
+- Since which year has India been a member of the FATF? → **2010**
+- The FATF grey list comprises jurisdictions under what? → **Increased monitoring**
+- Which FATF list comprises high-risk jurisdictions subject to a call for action? → **Black list**
+- IAEA safeguards verify that civil nuclear material is not diverted to what? → **Weapons**
+- India's 2009 IAEA safeguards agreement covers which facilities? → **Civilian facilities**
+- In which year did India's Additional Protocol to IAEA safeguards come into force? → **2014**
+- The Treaty of Tlatelolco set up a nuclear-weapon-free zone in which region? → **Latin America**
+- The Treaty of Rarotonga covers which nuclear-weapon-free zone? → **South Pacific**
+- The Bangkok Treaty covers which nuclear-weapon-free zone? → **Southeast Asia**
+- The Pelindaba Treaty covers which nuclear-weapon-free zone? → **Africa**
+- To how many protocols of the CCW is India a party? → **All five**
+- Which pair of countries is outside both the Wassenaar Arrangement and the MTCR? → **China and Pakistan**
+- Which counter-terror force is popularly called the 'Black Cats'? → **NSG**
+
+## India in Un Peacekeeping; Development Partnership; Diaspora Policy; Soft Power (32)
+
+- On which date is the International Day of Yoga observed? → **21 June**
+- Which UN department manages peacekeeping missions? → **Department of Peace Operations**
+- How are UN peacekeeping missions funded? → **Separate peacekeeping assessment scale**
+- UNMIL was the UN peacekeeping mission in which country? → **Liberia**
+- MINUSTAH was the UN peacekeeping mission in which country? → **Haiti**
+- UNMISET was the UN mission in which country? → **Timor-Leste**
+- UNIFIL is the UN peacekeeping mission in which country? → **Lebanon**
+- MINURCAT was deployed in which countries? → **Central African Republic and Chad**
+- UNDOF is deployed in which area? → **Golan Heights**
+- UNMISS is the UN peacekeeping mission in which country? → **South Sudan**
+- MONUSCO is the UN peacekeeping mission in which country? → **Democratic Republic of the Congo**
+- In which year was the Overseas Citizen of India scheme introduced? → **2005**
+- The Indian Housing Project is in which country? → **Sri Lanka**
+- On which date was India's ITEC programme launched? → **15 September 1964**
+- ITEC is primarily what kind of programme? → **Training-based capacity building**
+- What is the online form of ITEC called? → **e-ITEC**
+- On which date was the EXIM Bank of India established? → **1 January 1982**
+- Where is the EXIM Bank of India headquartered? → **Mumbai**
+- What does EXIM Bank extend to foreign governments to import Indian goods and services? → **Concessional Lines of Credit**
+- In which year was the PIO card merged into OCI? → **2015**
+- Who set up the Indian Council for Cultural Relations in 1950? → **Maulana Abul Kalam Azad**
+- Under which Act was Nalanda University revived? → **Nalanda University Act, 2010**
+- The Salma Dam built with Indian assistance is in which country? → **Afghanistan**
+- Which country received a Parliament building built by India? → **Afghanistan**
+- The Metro Express project supported by India is in which country? → **Mauritius**
+- In which year was the L.M. Singhvi High Level Committee on the Indian Diaspora set up? → **2000**
+- In which year did the L.M. Singhvi Committee submit its report? → **2002**
+- Which annual diaspora event did the L.M. Singhvi Committee recommend? → **Pravasi Bharatiya Divas**
+- What is the highest honour for overseas Indians, conferred by the President at Pravasi Bharatiya Divas? → **Pravasi Bharatiya Samman**
+- Since 2015, how often has Pravasi Bharatiya Divas been held? → **Biennially**
+- In diaspora diplomacy, recognition of diaspora contributions does not by itself amount to what? → **Strategic alignment**
+- In which year was the first Festival of India held in the United Kingdom? → **1982**
+
+## India's Energy and Maritime Diplomacy; Connectivity Projects (chabahar, Instc, Imec) (27)
+
+- Chabahar port gives India access to Afghanistan and Central Asia while bypassing which country? → **Pakistan**
+- In which year was India's SAGAR vision set out? → **2015**
+- In which year did Japan become a permanent participant in Malabar? → **2015**
+- In which year was the Indian Ocean Naval Symposium launched? → **2008**
+- The IFC-IOR is meant for what purpose? → **Maritime domain awareness and information sharing**
+- In which year was the Djibouti Code of Conduct adopted? → **2009**
+- Which UN agency backs the Djibouti Code of Conduct? → **IMO**
+- In which year did India join the Djibouti Code of Conduct as an observer? → **2020**
+- In which year did the Malabar exercise begin as an India-US exercise? → **1992**
+- MILAN is a multilateral exercise hosted by which navy? → **Indian Navy**
+- Where is the headquarters of the Eastern Naval Command? → **Visakhapatnam**
+- By size, how does the Eastern Naval Command rank among India's naval commands? → **Largest**
+- Where was the first Indian Ocean Naval Symposium held? → **New Delhi**
+- Through which company does India develop the Shahid Beheshti terminal at Chabahar? → **India Ports Global Ltd**
+- In which year was the INSTC agreement signed? → **2000**
+- Which countries signed the INSTC agreement in 2000? → **India, Iran, Russia**
+- Through which country does the INSTC's western branch run? → **Azerbaijan**
+- From which Indian port does the INSTC multimodal route start? → **Mumbai**
+- In which year was the Ashgabat Agreement concluded? → **2011**
+- In which year did India join the Ashgabat Agreement? → **2018**
+- Sittwe port is in which country? → **Myanmar**
+- Duqm port is in which country? → **Oman**
+- Sabang port is in which country? → **Indonesia**
+- How far does the Exclusive Economic Zone extend from the baseline? → **200 nautical miles**
+- How far does the territorial sea extend from the baseline? → **12 nautical miles**
+- How far does the contiguous zone extend from the baseline? → **24 nautical miles**
+- Up to how far can the continental shelf extend under UNCLOS? → **350 nautical miles**
+
+## Border Management, Internal Security and External Linkages; Cross-border Terrorism (51)
+
+- Which is India's anti-terror and unlawful-associations law of 1967? → **UAPA**
+- Which central agency can investigate scheduled offences anywhere in India without State consent? → **NIA**
+- In which year was the Indo-Tibetan Border Police raised? → **1962**
+- The ITBP guards the border from Karakoram Pass to which pass? → **Jachep La**
+- ITBP border posts are located at altitudes ranging from 9,000 to how many feet? → **18,800 feet**
+- Which force guards India's border with Myanmar? → **Assam Rifles**
+- Which force guards India's borders with Nepal and Bhutan? → **SSB**
+- Which force guards India's borders with Pakistan and Bangladesh? → **BSF**
+- Which force guards India's border with China? → **ITBP**
+- In which year was the Indian Coast Guard set up? → **1977**
+- In which year was the Assam Rifles raised? → **1835**
+- In which year was the Sashastra Seema Bal raised? → **1963**
+- Which is India's oldest paramilitary force? → **Assam Rifles**
+- Which border is longer than India's border with Pakistan but shorter than that with Bangladesh? → **China**
+- Which force protects the Prime Minister and former Prime Ministers? → **SPG**
+- ULFA is an insurgent group associated with which state? → **Assam**
+- Lashkar-e-Taiba is based in which country? → **Pakistan**
+- What is the length of India's border with Pakistan? → **3,323 km**
+- In Punjab and West Bengal, BSF jurisdiction was extended from 15 km to how far inside the border? → **50 km**
+- Police and Public Order fall in which list of the Seventh Schedule? → **State List**
+- After 26/11, who has overall responsibility for maritime security? → **Indian Navy**
+- In the post-26/11 coastal security set-up, who guards territorial waters? → **Coast Guard**
+- In the post-26/11 coastal security set-up, who guards shallow waters? → **Coastal police**
+- By which Act was the Crown Representative's Police renamed the CRPF? → **CRPF Act, 1949**
+- Which is India's external intelligence agency? → **Research and Analysis Wing**
+- In which year was the Research and Analysis Wing established? → **1968**
+- Whose consent does the NIA not need to investigate scheduled offences anywhere in India? → **The concerned State Government**
+- Which department does the Chief of Defence Staff head? → **Department of Military Affairs**
+- The CDS is the Permanent Chairman of which committee? → **Chiefs of Staff Committee**
+- The CDS is military adviser to which nuclear body? → **Nuclear Command Authority**
+- The CDS is the principal military adviser to whom? → **Defence Minister**
+- On which date did the CRPF begin as the Crown Representative's Police? → **27 July 1939**
+- In which year was TADA enacted? → **1985**
+- In which year did TADA lapse? → **1995**
+- In which year was POTA repealed? → **2004**
+- Under UAPA, the Centre can designate whom as terrorists? → **Individuals**
+- In which year did the Mumbai serial blasts take place? → **1993**
+- In which year was India's Parliament attacked? → **2001**
+- Who leads Lashkar-e-Taiba? → **Hafiz Saeed**
+- Who heads Jaish-e-Mohammed? → **Masood Azhar**
+- Who founded the People's War Group in 1980? → **Kondapalli Seetharamaiah**
+- In which year did the People's War Group merge into the CPI (Maoist)? → **2004**
+- Which countries make up the Golden Crescent? → **Afghanistan, Iran, Pakistan**
+- Which countries make up the Golden Triangle? → **Myanmar, Laos, Thailand**
+- CERT-In functions under which ministry? → **Ministry of Electronics and Information Technology**
+- NSCN is an insurgent group associated with which state? → **Nagaland**
+- Paresh Baruah and Arabinda Rajkhowa are leaders of which group? → **ULFA**
+- Isak Chishi Swu and Th. Muivah were leaders of which group? → **NSCN**
+- In which year was AFSPA enacted? → **1958**
+- In which year was Rajiv Gandhi assassinated? → **1991**
+- In which year did the Coimbatore blasts take place? → **1998**
+
+## Andhra Pradesh Policies and Programmes – Agriculture, Industry, It and Infrastructure (2)
+
+- Polavaram was declared a national project under which Section of the AP Reorganisation Act, 2014? → **Section 90**
+- Under which Section of the AP Reorganisation Act, 2014 is Polavaram a national project? → **Section 90**
+
+## Flagship Programmes – Infrastructure, Industry, Energy and Digital (25)
+
+- What is the nodal ministry for MUDRA? → **Ministry of Finance**
+- When was MUDRA launched? → **April 2015**
+- Which enterprises receive priority under MUDRA? → **SC/ST enterprises**
+- Which body handles MUDRA refinance? → **SIDBI**
+- What type of scheme is the PLI scheme? → **Central Sector**
+- How many sectors does the PLI scheme cover? → **14**
+- What is MUDRA's stated aim? → **Fund the unfunded**
+- In which year was the Solar Charkha Mission launched? → **2018**
+- Through which body is the Solar Charkha Mission implemented? → **KVIC**
+- Which scheme certifies MSMEs on environmental performance? → **ZED**
+- Which body manages the Fund of Funds for Startups? → **SIDBI**
+- Which body implements PMEGP and the Solar Charkha Mission? → **KVIC**
+- PM-DevINE is under which ministry? → **Ministry of DoNER**
+- What is the central funding share under PM-DevINE? → **100%**
+- UDAN supports airlines through what funding mechanism? → **Viability gap funding**
+- What does Component B of PM-KUSUM provide? → **17.5 lakh standalone solar pumps**
+- What does Component C of PM-KUSUM provide? → **Solarisation of 10 lakh grid-connected pumps**
+- Which body finances renewable energy as MNRE's arm? → **IREDA**
+- On which date was Digital India launched? → **1 July 2015**
+- In which Union Budget was PM-DevINE announced? → **2022-23**
+- Which agencies implement the Scheme for New and Novel Uses of Hydrogen? → **NISE and BIRAC**
+- Which agency implements DDUGJY and Saubhagya? → **REC**
+- On which date was Make in India launched? → **25 September 2014**
+- On which date was Startup India launched? → **16 January 2016**
+- When was Atmanirbhar Bharat launched? → **May 2020**
+
+## Krishna and Godavari Water Disputes – Tribunals, Apex Council, Krmb and Grmb (22)
+
+- In which year did KWDT-II make its award? → **2010**
+- KWDT-II dealt with surplus and flows of what dependability? → **65%**
+- Who chairs the Apex Council under the AP Reorganisation Act, 2014? → **Union Minister of Water Resources**
+- Besides the Union Water Resources Minister, who are the members of the Apex Council? → **Chief Ministers of AP and Telangana**
+- New projects on the Krishna and Godavari need Apex Council approval after appraisal by the Board and which body? → **Central Water Commission**
+- Under Section 85(3), what is the status of the Krishna and Godavari River Management Boards? → **Autonomous bodies under the Centre's administrative control**
+- Besides the central expert, which full-time officer does each River Management Board have? → **Member Secretary**
+- Section 89 extended KWDT's term to make project-wise allocations and fix a protocol for what? → **Releases during deficit flows**
+- Who provides the Chairperson of each River Management Board? → **The Centre**
+- Under Section 85(2), where is the headquarters of the Krishna River Management Board? → **Andhra Pradesh**
+- Under Section 85(2), where is the headquarters of the Godavari River Management Board? → **Telangana**
+- Which States raise submergence concerns over Pattiseema and Polavaram? → **Telangana and Odisha**
+- Under Section 84(3), which bodies does the Apex Council supervise? → **Krishna and Godavari River Management Boards**
+- On which river is the Pothireddypadu Head Regulator/Rayalaseema Lift? → **Krishna**
+- On which river is the Kaleshwaram project? → **Godavari**
+- On which river are Pattiseema and Polavaram? → **Godavari**
+- Who allocates the States' shares of Krishna and Godavari waters? → **Water disputes tribunals**
+- Who chairs the Apex Council under Section 84 of APRA 2014? → **Union Water Resources Minister**
+- How many members does the Apex Council under Section 84 of APRA 2014 have? → **Three**
+- Section 89 of APRA 2014 extended the term of which tribunal for project-wise allocation? → **Krishna Water Disputes Tribunal**
+- Under Schedule XI, a new project on the Krishna or Godavari needs sanction from which body? → **Apex Council**
+- Under Schedule XI of APRA 2014, irrigation gets precedence over which use? → **Power**
+
+## Infrastructure - National Infrastructure Pipeline, Pm Gati Shakti, National Monetisation Pipeline, Logistics Policy (11)
+
+- The National Infrastructure Pipeline covered which period? → **FY2019-20 to FY2024-25**
+- What is the paid-up capital of NaBFID? → **₹20,000 crore**
+- Under the National Monetisation Pipeline, ownership of the monetised assets remains with whom? → **The Government**
+- NMP 1.0 covered FY22-FY25 with what value? → **₹6 lakh crore**
+- Which body is a government-anchored, quasi-sovereign wealth fund managing Category II AIFs? → **NIIF**
+- IIFCL, set up for long-term PPP finance, was established in which year? → **2006**
+- NIIF was set up in which year? → **2015**
+- NaBFID was created under the NaBFID Act of which year? → **2021**
+- Which types of infrastructure did the National Infrastructure Pipeline cover? → **Economic and social infrastructure**
+- The National Monetisation Pipeline concerns which type of infrastructure assets? → **Brownfield core infrastructure assets**
+- Under asset monetisation, brownfield public assets are leased for a fixed period while ownership stays with whom? → **The government**
+
+## India and the Wto - Agreements, Ministerial Conferences, Public Stockholding, Fisheries Subsidies, Appellate Body Crisis (31)
+
+- Along with the IMF and the World Bank, the WTO is called which pillar of the world economy? → **Third pillar**
+- Granting the same tariff concession to every foreign trading partner reflects which WTO principle? → **Most Favoured Nation**
+- The WTO Trade Facilitation Agreement aims to simplify what? → **Customs procedures**
+- Which fishing activities are exempt from the WTO Agreement on Fisheries Subsidies? → **Inland fishing and aquaculture**
+- Which body did the WTO replace? → **GATT**
+- Where was the First WTO Ministerial Conference held in 1996? → **Singapore**
+- Where was the Second WTO Ministerial Conference held in 1998? → **Geneva**
+- Where was the Third WTO Ministerial Conference held in 1999? → **Seattle**
+- Where was the Fourth WTO Ministerial Conference held in 2001? → **Doha**
+- Which agenda was launched at the Fourth WTO Ministerial Conference at Doha in 2001? → **Doha Development Agenda**
+- The Doha Ministerial Conference of 2001 adopted a declaration on TRIPS and what? → **Public health**
+- The Trade Facilitation Agreement and interim Peace Clause were adopted at which WTO Ministerial Conference? → **MC9 Bali**
+- Agricultural export subsidies were eliminated at which WTO Ministerial Conference? → **MC10 Nairobi**
+- The Agreement on Fisheries Subsidies was adopted at which WTO Ministerial Conference? → **MC12 Geneva**
+- Which COVID-related waiver was adopted at MC12 in Geneva in June 2022? → **TRIPS waiver**
+- MC9, which adopted the Peace Clause, was held in which year? → **2013**
+- MC12, which adopted Phase 1 of the Fisheries Subsidies Agreement, was held in which year? → **2022**
+- Phase 2 of the WTO fisheries subsidies negotiations deals with subsidies contributing to overcapacity and what? → **Overfishing**
+- What is the highest decision-making body of the WTO? → **Ministerial Conference**
+- Treating an imported product like a similar domestic product for internal taxes and regulation is which WTO principle? → **National treatment**
+- NAMA-11 is a group of developing countries negotiating on what? → **Non-agricultural market access**
+- What happened to the e-commerce customs-duty moratorium at MC12? → **It was extended**
+- The G-90 at the WTO consists of the African Group, ACP and whom? → **LDCs**
+- Under the AoA, India's MSP procurement for the NFSA is calculated using what kind of reference price? → **Historical (outdated) reference price**
+- Since which year has the WTO e-commerce moratorium barred customs duties on electronic transmissions? → **1998**
+- Since when has the WTO Appellate Body been non-functional? → **December 2019**
+- Which country has blocked appointments to the WTO Appellate Body? → **United States**
+- The MPIA, a stop-gap appeal arrangement set up in 2020, is led by whom? → **European Union**
+- In 2019, the WTO panel in the DS541 export subsidies case (MEIS, SEZ, EOU) ruled how? → **Against India**
+- Which WTO group focuses on food security and special products? → **G-33**
+- The remaining quantitative restrictions on imports were removed in which month and year? → **April 2001**
+
+## Urbanisation and Smart Cities in Ap – Amaravati Capital Region, Visakhapatnam, Kakinada, Tirupati (6)
+
+- The Amaravati master plan envisages a water-centric city on which river? → **Krishna**
+- What share of green and blue space does the Amaravati master plan provide? → **51%**
+- The Amaravati master plan follows what kind of city design? → **30-minute city**
+- Under AP's three-capital proposal, which city was to be the judicial seat? → **Kurnool**
+- AP's three-capital proposal was based on the recommendations of which committee? → **G.N. Rao Committee**
+- Along with the G.N. Rao Committee, which study formed the basis of AP's three-capital proposal? → **Boston Consulting Group study**
+
+## Skill Development and Employment in Ap – Apssdc, Employment Schemes (2)
+
+- Which AP body is the nodal agency for placement-linked training through Skill Hubs and Skill Spokes? → **APSSDC**
+- Skill International in AP gives which foreign language training, mainly for nurses? → **German**
+
+## Economic Survey - Structure and Key Themes of the Latest Survey (15)
+
+- When is the Economic Survey presented relative to the Union Budget? → **A day or more before it**
+- Which division prepares the Economic Survey of India? → **Economic Division, Department of Economic Affairs**
+- Under whom is the Economic Survey of India prepared? → **Chief Economic Adviser**
+- For which year was the first Economic Survey of India presented? → **1950-51**
+- Since which year has the Economic Survey been presented separately from the Union Budget? → **1964**
+- Where is the Economic Survey presented? → **Lok Sabha and Rajya Sabha in the Budget Session**
+- Is presenting the Economic Survey before the Budget a constitutional obligation? → **No, it is a convention**
+- Who, as Principal Economic Adviser, was associated with the Economic Survey 2021-22? → **Sanjeev Sanyal**
+- Which CEA prepared the Economic Surveys from 2014-15 to 2017-18? → **Arvind Subramanian**
+- Which CEA prepared the Economic Surveys from 2018-19 to 2020-21? → **K.V. Subramanian**
+- In which year did the RBI Asset Quality Review expose hidden NPAs? → **2015**
+- Which Economic Survey discussed the Chakravyuha challenge? → **2015-16**
+- Which Economic Survey introduced Thalinomics? → **2019-20**
+- Which Economic Survey introduced the Bare Necessities Index? → **2020-21**
+- Along with bank recapitalisation, what answered the Twin Balance Sheet problem? → **Insolvency and Bankruptcy Code**
+
+## Other Global Indices – Ghi, Epi, Ease of Doing Business, Gii, World Happiness Report (19)
+
+- Who introduced the Capability Poverty Measure? → **UNDP**
+- Who publishes the Global Hunger Index? → **Concern Worldwide and Welthungerhilfe**
+- Who publishes the Global Innovation Index? → **WIPO**
+- Who publishes the Agriculture Orientation Index? → **FAO**
+- Who publishes the International IP Index? → **Global Innovation Policy Center**
+- Who publishes the Human Capital Index? → **World Bank**
+- Who publishes the Global Wage Report? → **ILO**
+- Who publishes the Global Financial Stability Report? → **IMF**
+- Who publishes the World Development Report? → **World Bank**
+- Who published the Ease of Doing Business report? → **World Bank**
+- Who publishes the World Economic Outlook? → **IMF**
+- Which of these is published by the World Economic Forum rather than UNDP? → **Global Gender Gap Report**
+- How many input pillars does the Global Innovation Index have? → **Five**
+- How many output pillars does the Global Innovation Index have? → **Two**
+- In the Global Innovation Index, creative outputs is which kind of pillar? → **Output pillar**
+- Which of these is an indicator of the Global Hunger Index? → **Child wasting**
+- Which GHI indicator is not limited to children? → **Undernourishment**
+- India objected that the GHI's undernourishment figure relies on what? → **A small opinion-poll survey**
+- The ILO's World Social Security Report was later renamed as what? → **World Social Protection Report**
+
+## Polavaram Project – Status, Funding, National Project Status, Submergence and R&r (18)
+
+- Polavaram was declared a National Project under which law? → **Andhra Pradesh Reorganisation Act, 2014**
+- According to the CAG, by when were protective embankments for neighbouring States due? → **2014-15**
+- In which year was the Polavaram Project first contemplated? → **1941**
+- Who named the Polavaram proposal 'Ramapada Sagaram'? → **Sir Sonti Venkataramamurthy**
+- Pattiseema is a temporary lift into which canal? → **Polavaram Right Main Canal**
+- Where is the office of the Polavaram Project Authority's CEO? → **New Delhi**
+- Under Section 90(3), how is Telangana's consent to Polavaram treated? → **Deemed to have been given**
+- Under Section 90(4), who shall execute Polavaram and obtain its clearances? → **The Central Government**
+- In practice, who executes Polavaram's irrigation component on behalf of the Government of India? → **Government of Andhra Pradesh**
+- Who constituted the Polavaram Project Authority? → **The Union Government**
+- Of the 35 TMC share from the Godavari diversion, how much does Karnataka get? → **21 TMC**
+- From which district were seven mandals moved to Andhra Pradesh for Polavaram? → **Khammam**
+- Which part of Bhadrachalam mandal was not transferred to Andhra Pradesh? → **The temple town**
+- Which of these was one of the seven Khammam mandals moved to AP? → **Kukunoor**
+- Which two States objected to Polavaram submergence over protective embankments? → **Odisha and Chhattisgarh**
+- Telangana's concern over Polavaram relates to backwater at which place? → **Bhadrachalam**
+- Under which Act is compensation for Polavaram paid? → **RFCTLARR Act, 2013**
+- Polavaram's national-project status was declared under which law? → **AP Reorganisation Act, 2014**
+
+## Special Assistance and the A.p. Reorganisation Act Commitments (3)
+
+- Which Section of APRA 2014 provides a common Governor for both States? → **Section 7**
+- Which Section of APRA 2014 provides for an expert committee on AP's capital? → **Section 6**
+- Committees under which Section of APRA 2014 were criticised for lacking time limits and enforcement? → **Section 108**
+
+## Kadapa Steel Plant, Dugarajapatnam Port, Ramayapatnam Port and Other Act Commitments (22)
+
+- Under the AP Reorganisation Act, GoI was to examine a major port at which place? → **Duggirajupatnam**
+- The Thirteenth Schedule's integrated steel plant was to be in which district? → **YSR Kadapa**
+- The Thirteenth Schedule's crude oil refinery and petrochemical complex is associated with which region? → **Kakinada region**
+- The Thirteenth Schedule's metro rail commitment covers Visakhapatnam and which region? → **Vijayawada-Guntur-Tenali**
+- The Thirteenth Schedule institutions were to be set up during which Plan periods? → **12th and 13th Plans**
+- The NIDM campus under the Thirteenth Schedule was promised for which State? → **Andhra Pradesh**
+- Kakinada lies in which PCPIR? → **Visakhapatnam-Kakinada PCPIR**
+- Which institution was not among the Thirteenth Schedule's educational commitments for AP? → **National Institute of Fashion Technology**
+- IIT Tirupati is located at which place? → **Yerpedu**
+- IIM Visakhapatnam is located at which place? → **Gambheeram**
+- IISER Tirupati is located at which place? → **Yerpedu**
+- Under which scheme was AIIMS Mangalagiri set up? → **PMSSY**
+- Under which Act are IISER Tirupati and NIT Andhra Pradesh governed? → **NITSER Act**
+- IIM Visakhapatnam is governed under which Act? → **IIM Act, 2017**
+- Which Act created the Central University of AP and the Central Tribal University of AP? → **Central Universities (Amendment) Act, 2019**
+- IIITDM Kurnool is an Institution of National Importance under which ministry? → **Ministry of Education**
+- The NIDM Southern Campus at Kondapalli is under which ministry? → **Ministry of Home Affairs**
+- The Central University of Andhra Pradesh is located at which place? → **Janthaluru**
+- The Central Tribal University of AP was first proposed near Visakhapatnam and later moved where? → **Vizianagaram**
+- Where is NIT Andhra Pradesh located? → **Tadepalligudem**
+- Where is the NIT given to residual Andhra Pradesh located? → **Tadepalligudem**
+- The Visakhapatnam-Chennai Industrial Corridor is funded by which agency? → **ADB**
+
+## Andhra Pradesh – Urbanisation, Major Urban Centres, Migration and Metropolitan Regions (2)
+
+- APCRDA plans which region? → **Amaravati capital region**
+- Kopparthy lies on which industrial corridor? → **Visakhapatnam-Chennai Industrial Corridor**
+
+## Science Awards – Bhatnagar Prize, Rashtriya Vigyan Puraskar, Indian-origin Nobel Laureates (47)
+
+- Venkatraman Ramakrishnan won the Nobel for work on? → **Structure and function of the ribosome**
+- Abhijit Banerjee won the Nobel for an experimental approach to? → **Alleviating global poverty**
+- In which year did Venkatraman Ramakrishnan win the Chemistry Nobel? → **2009**
+- In which year did Har Gobind Khorana receive the Nobel in Physiology or Medicine? → **1968**
+- Har Gobind Khorana's Nobel-recognised work concerned? → **Interpretation of the genetic code**
+- Har Gobind Khorana was a citizen of which country when he won the Nobel? → **United States**
+- In which year did S. Chandrasekhar win the Nobel Prize in Physics? → **1983**
+- S. Chandrasekhar won the Nobel for work on? → **Structure and evolution of stars**
+- In which year were the first Nobel Prizes awarded? → **1901**
+- Where does the Norwegian Nobel Committee that awards the Peace Prize sit? → **Oslo**
+- In which year was the Economics prize associated with the Nobel added? → **1968**
+- In which year was the Economics prize associated with the Nobel first awarded? → **1969**
+- The Economics prize associated with the Nobel is officially named after which institution? → **Sveriges Riksbank**
+- Who won the first Nobel Prize in Physics in 1901 for X-rays? → **Wilhelm Röntgen**
+- In which year did Albert Einstein win the Physics Nobel for the photoelectric effect? → **1921**
+- In which year did Max Planck win the Nobel Prize in Physics? → **1918**
+- In which year did James Chadwick win the Nobel Prize in Physics? → **1935**
+- Who won the Nobel Prize in Physics twice, in 1956 and 1972? → **John Bardeen**
+- In which year did Schrödinger and Dirac receive the Nobel Prize in Physics? → **1933**
+- In which year did Niels Bohr receive the Nobel Prize in Physics? → **1922**
+- In which year did Marie Curie win the Nobel Prize in Chemistry? → **1911**
+- In which year did Alfred Nobel invent dynamite? → **1867**
+- Which NASA observatory launched in 1999 is named after S. Chandrasekhar? → **Chandra X-ray Observatory**
+- The Chandrasekhar limit, the maximum mass of a stable white dwarf, is about? → **1.4 solar masses**
+- What happens to a white dwarf that exceeds the Chandrasekhar limit? → **Collapses into a neutron star or black hole**
+- What was S. Chandrasekhar's relation to C.V. Raman? → **Nephew**
+- In which year did S. Chandrasekhar become a US citizen? → **1953**
+- Which body awards the Shanti Swarup Bhatnagar Prize? → **CSIR**
+- Since which year has the Shanti Swarup Bhatnagar Prize been awarded? → **1958**
+- Shanti Swarup Bhatnagar was the founder-director of? → **CSIR**
+- How many domains of science does the Rashtriya Vigyan Puraskar cover? → **13**
+- The Vigyan Yuva-SSB award is for young scientists up to what age? → **45**
+- The Vigyan Team award is given to a team of at least how many researchers? → **Three**
+- Under which Article are Bharat Ratna and Padma awards not considered titles? → **Article 18**
+- What can change hands in the case of a Nobel Prize? → **Only the physical medal**
+- Who was the first Asian to receive the Turing Award? → **Raj Reddy**
+- In which year did Manjul Bhargava win the Fields Medal? → **2014**
+- In which year did Akshay Venkatesh win the Fields Medal? → **2018**
+- The Kalinga Prize is a UNESCO prize for? → **Popularisation of science**
+- The Kalinga Prize was instituted in 1952 with a donation from? → **Biju Patnaik**
+- In which year did Jayant V. Narlikar receive the Kalinga Prize? → **1996**
+- The COSPAR Vikram Sarabhai Medal is awarded for? → **Space research**
+- The Birbal Sahni Medal is awarded in which field? → **Botany or palaeobotany**
+- The Borlaug Award is given in which field? → **Agriculture**
+- The Homi Bhabha Award is given in which field? → **Nuclear energy**
+- Who discovered RDX, patented in 1898? → **George Friedrich Henning**
+- In which war was RDX used extensively? → **World War II**
+
+## Biotechnology – Nature, Scope, Tools; Applications in Agriculture, Medicine and Industry (4)
+
+- The world's first camel hospital is in which place? → **Dubai, UAE**
+- Who was the recipient of an artificial heart? → **Barney Clark**
+- Covishield is associated with AstraZeneca and which university? → **Oxford University**
+- In which year was the ART (Regulation) Act enacted? → **2021**
+
+## Defence Indigenisation – Make in India in Defence, Dap 2020, iDEX, Defence Corridors, Fdi in Defence (4)
+
+- How often is the Naval Commanders' Conference held? → **Twice a year**
+- Which facility is the Eastern Naval Command's refit yard? → **Naval Dockyard, Visakhapatnam**
+- Where is Aero India held? → **Yelahanka Air Force Station, Bengaluru**
+- How often is Aero India held? → **Every two years**
+
+## Apr–Nov 2025: National - economy: Union Budget and Economic Survey highlights, RBI policy, key data releases (51)
+
+- India's defence corridors are located in Uttar Pradesh and which other State? → **Tamil Nadu**
+- Which body sets Maximum Residue Limits for pesticides in food? → **FSSAI**
+- Which country dominates advanced semiconductor nodes below 5 nm? → **Taiwan**
+- Which exchange-rate measure tracks the rupee against a currency basket without inflation adjustment? → **NEER**
+- What approach does the RBI follow in managing the rupee? → **Managed float**
+- In managing the rupee, what does the RBI seek to do? → **Curb volatility**
+- Which exchange-rate measure is inflation-adjusted? → **REER**
+- A rise in NEER indicates what for the rupee? → **Appreciation**
+- A rise in REER indicates what? → **Loss of competitiveness**
+- Besides goods, what does the current account deficit cover? → **Services, income and transfers**
+- What is the premium for selling IPO application rights called? → **Kostak rate**
+- The IMO's 2050 target is a 50% cut in shipping GHG emissions compared with which year? → **2008**
+- In China's EV sector, 'involution' refers to what? → **Excessive competition leading to below-cost price wars**
+- What kind of model is India's dairy sector? → **Smallholder and cooperative-led**
+- The Uttam App of the coal sector deals with what? → **Coal quality**
+- What is the role of the Coal Allocation Monitoring System (CAMS)? → **Coal allocation monitoring**
+- About how many BIS standards exist, most of them voluntary? → **23,000**
+- Which is the most common of the 10 BIS Conformity Assessment Schemes? → **Scheme-I**
+- In which year were India's Production-Linked Incentive schemes launched? → **2020**
+- What is India's rank as a pharma producer in the world? → **Third**
+- Which solar measure restricts imports through an approved list of models and manufacturers? → **ALMM**
+- PM-KUSUM and PM Surya Ghar mainly serve what purpose in the solar sector? → **Creating demand for solar**
+- In which year was India's Agriculture Export Policy introduced? → **2018**
+- Compared with conventional fuel, LNG can reduce NOx emissions by up to? → **90%**
+- Who coined the term 'involution' in 1969 with reference to Java wet-rice cultivation? → **Clifford Geertz**
+- A trade deficit measures what? → **Goods imports minus goods exports**
+- India's foreign-exchange reserves are owned by which entity? → **Government of India**
+- IREDA is a Public Limited Government Company and what kind of institution? → **NBFC**
+- Around which year did solar power achieve parity with coal in India? → **2017**
+- India's cotton production in 2021 was? → **350 lakh bales**
+- In which year did the US withdraw India's GSP status? → **2019**
+- What kind of KYC do mule accounts used to layer stolen funds generally have? → **Incomplete or fake KYC**
+- Which stablecoin is crypto-backed? → **DAI**
+- Which stablecoin was algorithmic? → **TerraUSD**
+- What is the EU's regulatory framework for stablecoins and crypto-assets called? → **MiCA**
+- Which US law regulates stablecoins? → **GENIUS Act**
+- Visa and Mastercard are integrating stablecoin settlement on Ethereum and which other blockchain? → **Solana**
+- Which of these is a semiconductor material? → **Gallium arsenide**
+- What are the majority charge carriers in an N-type semiconductor? → **Electrons**
+- What are the majority charge carriers in a P-type semiconductor? → **Holes**
+- Which country's dual system is cited as a model of academia–industry partnership? → **Germany**
+- Which Section of the BIS Act, 2016 enables the government to make the Standard Mark compulsory? → **Section 16**
+- On which website is a draft Quality Control Order hosted? → **WTO TBT website**
+- What is the usual compliance period given under a Quality Control Order? → **Six months**
+- A DISCOM regulatory asset arises when which cost exceeds the Annual Revenue Requirement? → **Average Cost of Supply**
+- How is a DISCOM regulatory asset recovered? → **Deferred for later recovery with interest**
+- In electricity regulation, what does FPPCA stand for? → **Fuel and Power Purchase Cost Adjustment**
+- In electricity regulation, what does RAB stand for? → **Regulated Asset Base**
+- RIIO in electricity regulation stands for Revenue = Incentives + Innovation + what? → **Outputs**
+- RAB and RIIO are regulatory models of which country? → **United Kingdom**
+- The 11% cotton import duty had been introduced in which Union Budget? → **2021**
+
+## Sep–4 Nov 2026: International - summits, conferences and their outcomes (31)
+
+- In what format was the 13th BRICS summit hosted by India in 2021? → **Virtual**
+- In which year was the Commonwealth Parliamentary Association established? → **1911**
+- Where is the Commonwealth Parliamentary Association headquartered? → **London**
+- In which year was the Inter-Parliamentary Union established? → **1889**
+- Where is the Inter-Parliamentary Union headquartered? → **Geneva**
+- Who is the Head of the Commonwealth? → **King Charles III**
+- How many EU members use the euro? → **21**
+- The Marshall Islands is in free association with the United States under which agreement? → **Compact of Free Association**
+- Which of these BRICS milestones came first? → **BRIC term coined**
+- Where did India host the 8th BRICS summit in 2016? → **Goa**
+- What is the capital of the Marshall Islands? → **Majuro**
+- On which date was the Shanghai Cooperation Organisation founded? → **June 15, 2001**
+- Where is the CITES secretariat located? → **Geneva**
+- Which country was not part of the Shanghai Five and joined when the SCO was founded? → **Uzbekistan**
+- In which city was the SCO founded in 2001? → **Shanghai**
+- How many members does the European Union have? → **27**
+- In which year did the African Union become a permanent member of the G20? → **2023**
+- Where is the ASEAN headquarters? → **Jakarta**
+- Where was the Indus Waters Treaty signed? → **Karachi**
+- Into which sea does the Indus River drain? → **Arabian Sea**
+- In which year was the Permanent Court of Arbitration established? → **1899**
+- In IMEC, the Eastern corridor links India with which region? → **Arabian Gulf**
+- In which year was the G20 established? → **1999**
+- Which currency does the Marshall Islands use? → **US Dollar**
+- In IMEC, the Northern corridor links the Arabian Gulf with which region? → **Europe**
+- What is the nature of the Line of Actual Control? → **A de facto line**
+- The McMahon Line was established through which convention? → **Simla Convention, 1914**
+- What does the Montreux Record list? → **Ramsar sites with adverse ecological change**
+- Where is the Asian Development Bank headquartered? → **Manila**
+- Who coined the term BRIC in 2001? → **Jim O'Neill**
+- Where is the Asian Development Bank headquartered? → **Manila**
+
+## Jun–Aug 2026: International - summits, conferences and their outcomes (11)
+
+- Which BRICS summit did India host in New Delhi in 2012? → **4th**
+- Where is NCPOR located? → **Vasco da Gama, Goa**
+- What is the institutional nature of the G7? → **Informal, with no treaty or secretariat**
+- Which Indian Antarctic station was established in 1983–84 and later closed? → **Dakshin Gangotri**
+- In which year did India–North Macedonia ties begin? → **1995**
+- In which year was the ITEC programme started? → **1964**
+- In which year was the Indian Council for Cultural Relations established? → **1950**
+- What is Yaren's status in Nauru? → **Administrative centre, not official capital**
+- In which year was India's Antarctic station Maitri established? → **1989**
+- In which year was India's Antarctic station Bharati established? → **2012**
+- In what capacity does the EU participate in the G7? → **Non-enumerated member**
+
+## Mar–May 2026: International - summits, conferences and their outcomes (45)
+
+- The World Circular Economy Forum began during the centenary of which country's independence? → **Finland**
+- Which Chola ruler promised the Anaimangalam grant? → **Raja Raja Chola I**
+- Which Chola ruler executed the Anaimangalam grant? → **Rajendra Chola I**
+- The Anaimangalam plates record a grant to which Buddhist vihara? → **Chulamanivarma Vihara**
+- Which copper plates record Mauryan famine relief? → **Sogaura**
+- Which copper plates are the record 57-plate Chola charter of Rajendra I? → **Karandai**
+- In the Anaimangalam plates, which language is used for the boundaries? → **Tamil**
+- What share of renewable electricity does the International Solar Alliance target by 2030? → **50%**
+- Where is the IORA headquartered? → **Ebene, Mauritius**
+- What is the apex body of IORA? → **Council of Foreign Ministers**
+- Which country was among those hit by the largest Ebola outbreak? → **Sierra Leone**
+- Besides Ebola and Sudan, which virus is associated with large Ebola outbreaks? → **Bundibugyo**
+- What is the incubation period of Ebola? → **2–21 days**
+- For how many days is contact tracing carried out for Ebola? → **21 days**
+- The Ebola treatment mAb114 is also known as what? → **Ansuvimab**
+- The Ebola treatment REGN-EB3 is also known as what? → **Inmazeb**
+- What is Ervebo in the context of Ebola? → **A vaccine**
+- Zabdeno + Mvabea are used in which Ebola vaccination strategy? → **Ring vaccination**
+- Which African country is the key source of cobalt? → **Democratic Republic of the Congo**
+- In which year was CDRI founded? → **2019**
+- In which year was the Global Biofuels Alliance founded? → **2023**
+- Where is CDRI's seat? → **New Delhi**
+- What is the currency of Jordan? → **Jordanian Dinar**
+- Who is the King of Jordan? → **Abdullah II**
+- At which summit did India launch the Global Biofuel Alliance in 2023? → **New Delhi G20 Summit**
+- Which African country is the key source of phosphates? → **Morocco**
+- When did Finland join NATO? → **April 2023**
+- How many members does NATO have? → **32**
+- Which country became NATO's 30th member in 2020? → **North Macedonia**
+- Which country became NATO's 32nd member in 2024? → **Sweden**
+- Which of these European countries is not a NATO member? → **Austria**
+- How many diplomatic missions does India have in Africa? → **46**
+- What is India's status in the African Union? → **Not a member**
+- In which year was the Pan-African e-Network established? → **2009**
+- Which Indian company is involved in the Pan-African e-Network along with universities and hospitals? → **TCIL**
+- Which services does the Pan-African e-Network provide? → **Tele-education and telemedicine**
+- Which African countries are cited as crude oil sources? → **Nigeria and Angola**
+- Which African countries are cited as natural gas sources? → **Mozambique and Tanzania**
+- Does the Quad have a permanent secretariat? → **No secretariat**
+- When did the largest Ebola outbreak occur in West Africa? → **2014–16**
+- Where is the SCO Secretariat headquartered? → **Beijing**
+- Which of these countries is an SCO member? → **Belarus**
+- In which year was the Gulf Cooperation Council established? → **1981**
+- How many members does the Gulf Cooperation Council have? → **Six**
+- What is the currency of Kyrgyzstan? → **Som**
+
+## Dec 2025–Feb 2026: International - summits, conferences and their outcomes (38)
+
+- In which year was the New Development Bank established? → **2015**
+- Which Greco-Bactrian ruler expanded into north-western India? → **Demetrius**
+- What is the nature of the Indo-Pacific Oceans Initiative? → **Non-treaty, voluntary**
+- How many countries does the African Continental Free Trade Area integrate? → **54**
+- Rafah in Gaza shares a border with which country? → **Egypt**
+- India's solar module manufacturing capacity was about how much in late 2025? → **144 GW**
+- India's solar cell manufacturing capacity was about how much in late 2025? → **25 GW**
+- China holds about what share of global solar cell capacity? → **70%**
+- During whose G20 Presidency did the African Union become a permanent member? → **India**
+- When did India and Greece establish a Strategic Partnership? → **August 2023**
+- Greece controls about what share of global shipping tonnage? → **About 20%**
+- In which year did Canada join the G7? → **1976**
+- India is among how many priority countries of Germany's International Climate Initiative? → **14**
+- In which year was Brazil's ANVISA established? → **1999**
+- In which year did Alexander advance into India? → **326 BCE**
+- Since which year has Gaza been governed by Hamas? → **2007**
+- In which year was the Traditional Knowledge Digital Library established? → **2001**
+- The TKDL was created after patent disputes over turmeric and which other plant? → **Neem**
+- In which year was CSIR established? → **1942**
+- Where is the permanent headquarters of BRICS? → **It has none**
+- In which year did the United States join the International Solar Alliance? → **2021**
+- How much solar investment does the ISA aim to mobilise by 2030? → **$1 trillion**
+- A 2020 amendment opened ISA membership to whom? → **All UN members**
+- What is the ISA's role regarding solar plants? → **Facilitates finance and de-risking**
+- How much worth of PV modules did India import from China in FY25? → **USD 1.7 billion**
+- How many pillars does the Indo-Pacific Oceans Initiative have? → **Seven**
+- Where was the first G6 summit held in 1975? → **Rambouillet**
+- About how much is India–Greece bilateral trade? → **USD 2 billion**
+- About how much is India's trade with Africa? → **$100 billion**
+- What is India's rank among Africa's trading partners? → **Fourth**
+- China's trade with Africa is over how much? → **$200 billion**
+- India accounts for about what share of Africa's imports? → **6%**
+- By which year is India–Africa trade targeted to double? → **2030**
+- Who founded the Greco-Bactrian kingdom? → **Diodotus**
+- In which year and city was the New Development Bank established? → **2014, Shanghai**
+- In which year was the India–Egypt relationship upgraded to a strategic partnership? → **2023**
+- In which year did Timor-Leste establish a Comprehensive Strategic Partnership with China? → **2023**
+- Which group has governed Gaza since 2007? → **Hamas**
+
+## Apr–Nov 2025: International - summits, conferences and their outcomes (42)
+
+- In which year did India–ASEAN ties become a comprehensive strategic partnership? → **2022**
+- In which year did India become a full ASEAN dialogue partner? → **1995**
+- India became a full dialogue partner of ASEAN in which year? → **1996**
+- The ASEAN-India agreement on trade in services dates to which year? → **2015**
+- On which date were the Panchsheel principles signed? → **29 April 1954**
+- From which month were direct India–China flights suspended? → **January 2020**
+- In which year was the Bandung Conference held? → **1955**
+- In which year did the UNGA adopt a resolution on peaceful coexistence based on Panchsheel? → **1957**
+- Which 1961 NAM conference treated Panchsheel as the principled core of NAM? → **Belgrade Conference**
+- The 1957 Panchsheel-based UNGA resolution was moved by India, Yugoslavia and which country? → **Sweden**
+- In which year did Timor-Leste achieve independence? → **2002**
+- In which year did Timor-Leste sign the ASEAN Treaty of Amity and Cooperation? → **2007**
+- In which year did Timor-Leste apply for ASEAN membership? → **2011**
+- In which year did Timor-Leste receive 'in-principle' ASEAN admission? → **2022**
+- In which year did Indonesia invade Timor-Leste? → **1975**
+- The New York Agreements on Timor-Leste were concluded in which year? → **1999**
+- Which Article of the ASEAN Charter sets ASEAN's admission criteria for new members? → **Article 6**
+- India became a sectoral dialogue partner of ASEAN in which year? → **1992**
+- India–ASEAN ties were raised to summit-level partnership in which year? → **2002**
+- In which year was the United Nations founded? → **1945**
+- The term 'G-2' for US–China first came from discussions between which leaders in 2009? → **Obama and Hu Jintao**
+- China accounted for roughly what share of global rare-earth production in 2025? → **60–70%**
+- China refines roughly what share of the world's rare earths? → **More than 90%**
+- China makes roughly what share of the world's solar modules? → **About 80%**
+- Before 2020, roughly how many weekly direct flights operated between India and China? → **Over 80**
+- India's annual arms imports from Israel amount to roughly how much? → **Over $2 billion**
+- Which historian used the term 'Axis of Upheaval' in 2009 for unstable states? → **Niall Ferguson**
+- Which Madagascar military unit was central to the 2009 coup that brought Rajoelina to power? → **CAPSAT**
+- Madagascar belongs to which regional bloc? → **SADC**
+- What is Africa's largest hydroelectric project? → **Grand Ethiopian Renaissance Dam**
+- The Grand Ethiopian Renaissance Dam is on which river? → **Blue Nile**
+- What is the storage capacity of the Grand Ethiopian Renaissance Dam? → **74 billion cubic metres**
+- How many members does the UN 1267 Sanctions Committee have? → **15**
+- How are decisions taken in the UN 1267 Committee? → **Consensus**
+- Who handles delisting requests under the UN 1267 sanctions regime? → **An Ombudsperson**
+- In which year was the India–Australia Renewable Energy Partnership launched? → **2024**
+- In which year was the Golden Abode of Shakyamuni Buddha in Elista inaugurated? → **1996**
+- PM-KUSUM was launched in 2019 with an allocation of how much? → **₹34,000 crore**
+- Under PM-KUSUM, how many standalone solar pumps were targeted? → **14 lakh**
+- By which year does Australia aim to reach net zero emissions? → **2050**
+- Where is the SCO's Regional Anti-Terrorist Structure (RATS) located? → **Tashkent**
+- Pakistan was removed from the FATF grey list in which month? → **October 2022**
+
+## Overview and data: International - summits, conferences and their outcomes (42)
+
+- At which COP was the Paris Agreement adopted in 2015? → **COP21**
+- Where is the International Solar Alliance headquartered? → **Gurugram**
+- In which year was the International Solar Alliance established? → **2015**
+- In which year was the International Solar Alliance founded? → **2015**
+- Where is the International Solar Alliance headquartered? → **Gurugram**
+- At which conference was the International Solar Alliance launched in 2015? → **COP21, Paris**
+- At which COP was the Paris Agreement adopted in 2015? → **COP21**
+- The G20 presidency rotates annually among how many regional groups? → **Five**
+- The G20 satellite proposed under India's G20 Presidency is meant for what? → **Climate monitoring**
+- The Global Initiative on Digital Health was launched under which country's G20 Presidency? → **India**
+- Which is the first intergovernmental body headquartered in India? → **International Solar Alliance**
+- Where is the secretariat of the Coalition for Disaster Resilient Infrastructure (CDRI)? → **New Delhi**
+- In which year did South Africa join BRICS? → **2011**
+- How many Quad leader-level summits were held during 2021–2024? → **Six**
+- Where was the Summit for a New Global Financing Pact held in June 2023? → **Paris**
+- At which event was the CDRI launched? → **UN Climate Action Summit 2019**
+- Which alliance is associated with sustainable biofuels? → **Global Biofuels Alliance**
+- The 30x30 target belongs to which biodiversity framework? → **Kunming-Montreal Global Biodiversity Framework**
+- The G20 works through the Finance track and which other track? → **Sherpa track**
+- The G20 Troika comprises the present presidency together with which presidencies? → **Previous and next presidencies**
+- Which G20 Summit did India host in 2023? → **18th**
+- What was the theme of India's 2023 G20 Summit? → **One Earth, One Family, One Future**
+- The MAHARISHI initiative launched under India's G20 Presidency concerns research on what? → **Millets**
+- In which year was Russia admitted to the G7, making it the G8? → **1998**
+- Where was the Global Biofuels Alliance launched? → **G20 New Delhi, 2023**
+- The International Solar Alliance was launched by India and which country at COP21 in 2015? → **France**
+- Where was COP29 held? → **Baku**
+- Russia was suspended from the G8 in 2014 after what? → **Annexation of Crimea**
+- Where was the Mekong Ganga Cooperation launched in 2000? → **Vientiane**
+- Which one of these is a member of the Mekong Ganga Cooperation? → **Cambodia**
+- Where was SAARC's last (18th) summit held in 2014? → **Kathmandu**
+- The IBSA Fund is managed by which UN body? → **UNOSSC**
+- IBSA was founded by the Brasilia Declaration in which year? → **2003**
+- Where was the MI-8 Ministerial held in July 2023? → **Goa**
+- Where was the G20 Summit of September 2023 held? → **Bharat Mandapam, New Delhi**
+- Which fund for benefit-sharing from digital sequence information was set up at CBD COP16? → **Cali Fund**
+- Where was the first CBD COP held in 1994? → **Nassau**
+- Which UNFCCC COP has India hosted? → **COP8**
+- Where is the International Solar Alliance headquartered? → **Gurugram**
+- The Global Biofuels Alliance emerged from which presidency? → **India's G20**
+- Where is the International Solar Alliance secretariat located? → **Gurugram**
+- At which COP was the International Solar Alliance launched in 2015? → **COP21**
+
+## Sep–4 Nov 2026: International - treaties, agreements and developments in international organisations (31)
+
+- In which year did the Bretton Woods conference create the IMF? → **1944**
+- Which US department administers the PERM labour certification programme? → **Department of Labor**
+- Which form does an employer file in the US PERM process? → **Form ETA-9089**
+- For how long is a US PERM labour certification valid? → **180 days**
+- What exactly is the US PERM programme? → **A labour certification**
+- Up to how many years does the US H-1B temporary work status last? → **6 years**
+- What kind of US immigration pathway is the Green Card? → **Permanent residence**
+- Which US employment-based Green Card category covers skilled workers? → **EB-3**
+- The State Duma is which house of the Russian legislature? → **Lower house**
+- Where is UN-Habitat headquartered? → **Nairobi**
+- In which year was the Visegrád Group formed? → **1991**
+- Visegrád, after which the Visegrád Group is named, is in which country? → **Hungary**
+- What is the capital of Liberia? → **Monrovia**
+- Which country is the world's largest ship registry by tonnage? → **Liberia**
+- What is the currency of Denmark? → **Danish Krone**
+- In which year did Denmark join NATO as a founding member? → **1949**
+- Which 1998 agreement provides a border poll mechanism for Northern Ireland? → **Good Friday Agreement**
+- In which year was the European Free Trade Association (EFTA) established? → **1960**
+- Where is the EFTA headquartered? → **Geneva**
+- The US EB-2 Green Card category covers which applicants? → **Advanced degrees or exceptional ability**
+- How long is the term of a non-permanent member of the UN Security Council? → **2 years**
+- What is the capital of Greenland? → **Nuuk**
+- Which US military base is located in Greenland? → **Pituffik Space Base**
+- What is the term of members of the Russian State Duma? → **5 years**
+- What share of voters chose independence in Scotland's 2014 referendum? → **45%**
+- In which year was the India Semiconductor Mission launched under MeitY? → **2021**
+- Under the World Heritage Convention, criteria (vii)–(x) relate to which heritage? → **Natural**
+- In which year was the India Semiconductor Mission launched? → **2021**
+- In which year was the Semicon India programme with ₹76,000 crore launched? → **2021**
+- In which year was Ellora inscribed as a World Heritage Site? → **1983**
+- Intellectual property rights come under which WTO agreement? → **TRIPS**
+
+## Jun–Aug 2026: International - treaties, agreements and developments in international organisations (12)
+
+- Who founded the World Economic Forum? → **Klaus Schwab**
+- In which year was the EXIM Bank of India established? → **1982**
+- How many UNSC non-permanent seats are allotted to Africa? → **Three**
+- How many UNSC non-permanent seats are allotted to Eastern Europe? → **One**
+- How many UNSC non-permanent seats are allotted to the Asia group? → **Two**
+- UNSC non-permanent members are elected by the UNGA by what majority? → **Two-thirds majority**
+- Which Indian Prime Minister gifted two peafowls to the UN at Geneva in 1981? → **Indira Gandhi**
+- In which year was the Gulf Cooperation Council established? → **1981**
+- How many permanent members with veto power does the UN Security Council have? → **Five**
+- Where is the Gulf Cooperation Council (GCC) headquartered? → **Riyadh**
+- What is the scientific name of the Indian peafowl? → **Pavo cristatus**
+- Election of UNSC non-permanent members requires what majority in the UNGA? → **Two-thirds majority**
+
+## Mar–May 2026: International - treaties, agreements and developments in international organisations (33)
+
+- NPT Review Conferences have been held every five years since which year? → **1975**
+- Where is the International Atomic Energy Agency headquartered? → **Vienna**
+- Which convention bans hostile environmental modification techniques? → **ENMOD Convention**
+- What is the capital of the UAE? → **Abu Dhabi**
+- Where is OPEC headquartered? → **Vienna**
+- In which year was OPEC founded? → **1960**
+- Since which year had the UAE been a member of OPEC? → **1967**
+- OPEC+ consists of 12 OPEC countries and how many non-OPEC countries? → **10**
+- In which year was the World Health Organization established? → **1948**
+- Where is the World Health Organization headquartered? → **Geneva**
+- In which year was the India–EU Trade and Technology Council launched? → **2022**
+- In which form of trade integration do members keep independent external trade policies? → **Free Trade Agreement**
+- A common external tariff is the defining feature of which arrangement? → **Customs Union**
+- What is the purpose of Rules of Origin in a Free Trade Agreement? → **Preventing trade deflection**
+- Sanitary and phytosanitary measures and technical barriers to trade are which kind of barriers? → **Non-tariff barriers**
+- The Common Criteria Recognition Arrangement deals with mutual recognition of what? → **IT security certificates**
+- OPEC+ accounts for approximately what share of global crude production? → **59%**
+- Since which year has India been a member of the Kimberley Process? → **2003**
+- What is the legal nature of the Kimberley Process? → **Voluntary arrangement**
+- How many participants does the Kimberley Process have, counting the EU as one? → **60**
+- What is the capital of Trinidad and Tobago? → **Port of Spain**
+- Who was the first woman Prime Minister of Trinidad and Tobago? → **Kamla Persad-Bissessar**
+- What is the capital of Turkey? → **Ankara**
+- Where is the European Investment Bank headquartered? → **Luxembourg**
+- Who coined the term 'ecocide' in 1970? → **Arthur W. Galston**
+- Which article of the Rome Statute can treat intentional, widespread, long-term and severe environmental damage as a war crime? → **Article 8**
+- Where is the Council of Europe headquartered? → **Strasbourg**
+- In which year was the term 'ecocide' coined? → **1970**
+- How many members does the UN Security Council have in total? → **15**
+- Where is the IMF headquartered? → **Washington D.C.**
+- Diamond is composed of which element? → **Carbon**
+- The DGCA coordinates with which international body on civil aviation? → **ICAO**
+- The Chicago Convention of 1944 deals with what? → **International civil aviation**
+
+## Dec 2025–Feb 2026: International - treaties, agreements and developments in international organisations (25)
+
+- The India–Euratom Agreement covers what kind of nuclear cooperation? → **Civilian only**
+- The EU Deforestation Regulation (EUDR) addresses deforestation after which year? → **2020**
+- From which year is the EU's Corporate Sustainability Due Diligence Directive (CSDDD) to apply? → **2027**
+- How many members does the Eurozone have (before Bulgaria's entry)? → **20**
+- The Kimberley Process aims to prevent trade in what? → **Conflict diamonds**
+- In which year was the Ministry of AYUSH established? → **2014**
+- Which Indian trade agreement is associated with zero-duty access? → **India–Australia ECTA**
+- The India–Oman CEPA is India's second CEPA with a GCC country after which country's agreement of 2022? → **UAE**
+- Rub al-Khali, partly in Oman, is better known by what name? → **Empty Quarter**
+- Which mountain range lies in northern Oman? → **Hajar Mountains**
+- Which of these countries borders Oman? → **Yemen**
+- ECOSOC runs the High-level Political Forum on which subject? → **Sustainable Development Goals**
+- How many times has India been a non-permanent member of the UN Security Council? → **Eight**
+- Along with India, Germany and Japan, which country is in the G4? → **Brazil**
+- Which convention is known as the Seafarers' Bill of Rights? → **Maritime Labour Convention 2006**
+- The Maritime Labour Convention 2006 is regarded as which pillar of international maritime law? → **Fourth**
+- How is the Maritime Labour Convention 2006 enforced? → **Flag State–Port State inspections**
+- In which year was the World Food Programme established? → **1961**
+- Where is UNESCO headquartered? → **Paris**
+- When was Indonesia's revised Criminal Code passed? → **December 2022**
+- Where was the Maritime Labour Convention 2006 adopted? → **Geneva**
+- Since which year has the India–Oman naval exercise Naseem Al Bahr been held? → **1993**
+- What is the capital of Ecuador? → **Quito**
+- India's CEPA of 2022 was signed with which country? → **UAE**
+- India's first CEPA with a GCC country was with which nation? → **UAE**
+
+## Apr–Nov 2025: International - treaties, agreements and developments in international organisations (42)
+
+- In which year was India's Atomic Energy Act enacted? → **1962**
+- Under Article 127 of the Rome Statute, when does a withdrawal take effect? → **One year after notice**
+- Where is the International Criminal Court headquartered? → **The Hague**
+- Which body brokered the Indus Waters Treaty? → **World Bank (IBRD)**
+- Which of these is a hydroelectric project on the Chenab? → **Baglihar**
+- One constraint on the UN is that its structure reflects which era? → **Post-World War II**
+- What was the legal basis for the PIO category? → **PIO Card Scheme, 2002**
+- Which EU policy needs unanimity, leading European states to recognise Palestine individually? → **Common Foreign and Security Policy**
+- What is Palestine's status at the United Nations? → **Non-member observer state**
+- In which year was the International Criminal Court established? → **2002**
+- In which year did the PLO declare Palestinian statehood? → **1988**
+- The ICC applies which principle, acting only when national courts are unable or unwilling? → **Complementarity**
+- How many doses does the MMR vaccine schedule require? → **Two**
+- Which US visa is an example of skilled migration since the 1990s? → **H-1B**
+- What is the legal basis for the status of an NRI? → **Income Tax Act, 1961**
+- In which year was India's Civil Liability for Nuclear Damage Act enacted? → **2010**
+- In which year was India's Atomic Energy Act enacted? → **1962**
+- In which year did India ratify the Convention on Supplementary Compensation for nuclear damage? → **2016**
+- In which year was the India–US civil nuclear deal concluded? → **2008**
+- In which year were the PIO and OCI schemes merged? → **2015**
+- How many Indian enclaves were transferred to Bangladesh under the 2015 Land Boundary Agreement? → **111**
+- How many Bangladeshi enclaves merged into India under the 2015 Land Boundary Agreement? → **51**
+- How many enclave residents became new Indian citizens after the Land Boundary Agreement? → **14,854**
+- How many people migrated to India from Indian enclaves in Bangladesh? → **922**
+- In which year was the India–Bangladesh Land Boundary Agreement implemented? → **2015**
+- On which date was the India–Bangladesh enclave exchange day observed? → **31 July**
+- Which convention concerns protection of cultural property in armed conflict? → **1954 Hague Convention**
+- Which Act created the OCI scheme through Sections 7A–7D? → **Citizenship (Amendment) Act, 2003**
+- Which is the second-oldest mosque in Palestine, dating to the 7th century? → **Great Omari Mosque**
+- The Al-Qissariya (Gold) Market in Gaza dates from which period? → **Mamluk, 14th century**
+- The Church of Saint Porphyrius in Gaza belongs to which tradition? → **Greek Orthodox**
+- Pasha's Palace (Qasr al-Basha) in Gaza was a castle of which dynasty? → **Radwan Dynasty**
+- Which is Gaza's only surviving Turkish bath? → **Hamam al-Sammara**
+- Which Gaza cultural centre, built in 1985, hosted Arafat–Clinton talks? → **Rashad Al-Shawa Cultural Center**
+- Which is the only Christian-run hospital in Gaza? → **Al-Ahli Arab Baptist Hospital**
+- The Bureij Mosaic found in Gaza in 2022 belongs to which period? → **Byzantine**
+- About what share of US corn in 2024 was genetically modified? → **94%**
+- What is India's policy on imports of genetically modified corn? → **Banned**
+- Which country hosted the Oslo Accords in 1993? → **Norway**
+- When does a state's withdrawal from the ICC take effect after notice to the UN Secretary-General? → **One year**
+- Full UN membership requires approval by which body before the UNGA? → **UN Security Council**
+- GCC countries host mainly which type of migrants? → **Temporary labour migrants**
+
+## Overview and data: International - treaties, agreements and developments in international organisations (75)
+
+- Where was the New Development Bank agreement signed in 2014? → **Fortaleza**
+- Where is the headquarters of the Food and Agriculture Organization? → **Rome**
+- Where is the FAO headquartered? → **Rome**
+- Which is the oldest UN specialised agency, established in 1865? → **International Telecommunication Union**
+- Where are the WHO, ITU, WMO, WTO and ILO all headquartered? → **Geneva**
+- Which UN body serves as the secretariat of the UN Convention against Cybercrime? → **UNODC**
+- On what date did the IMF come into formal existence? → **27 December 1945**
+- IMF lending is intended to address which kind of problems? → **Balance-of-payments problems**
+- Which IMF facility gives quick liquidity without a full economic programme? → **Rapid Financing Instrument**
+- Which WTO body is described as paralysed? → **Appellate Body**
+- Which WTO initiative is India criticised for blocking? → **Investment Facilitation for Development**
+- In which year did India join the International Telecommunication Union? → **1869**
+- The UN Alliance of Civilizations was established in 2005 by Türkiye and which country? → **Spain**
+- In which year was Sri Lanka certified malaria-free? → **2016**
+- In which year was Cabo Verde certified malaria-free? → **2024**
+- Wild poliovirus is now endemic only in Pakistan and which other country? → **Afghanistan**
+- Which country sponsored the Coalition for Disaster Resilient Infrastructure (CDRI)? → **India**
+- When was the UN Convention against Cybercrime adopted by the UNGA? → **December 2024**
+- India's ECTA of December 2022 is with which country? → **Australia**
+- India's TEPA of March 2024 is with which partner? → **EFTA**
+- India's CETA of July 2025 is with which country? → **United Kingdom**
+- The Hague Conventions under HCCH deal with what? → **Private international law**
+- Which convention of 2001 deals with persistent organic pollutants? → **Stockholm Convention**
+- The Vienna Convention of 1985 deals with what? → **Ozone layer protection**
+- Which convention governs transboundary movement of hazardous waste? → **Basel Convention**
+- The Minamata Convention deals with which pollutant? → **Mercury**
+- Under the Minamata Convention, dental amalgam is to be phased out by which year? → **2034**
+- Which of these conventions was adopted first? → **Chicago Convention**
+- In which year was the Basel Convention adopted? → **1989**
+- In which year was the Minamata Convention adopted? → **2013**
+- Where was the UN Water Convention adopted in 1992? → **Helsinki**
+- In which year did the UN Water Convention enter into force? → **1996**
+- The UN Water Convention concerns which water bodies? → **Transboundary rivers and lakes**
+- Which of the five UN outer-space treaties has India signed but not ratified? → **Moon Agreement**
+- What is India's status regarding the BBNJ (High Seas) Treaty? → **Signed but not ratified**
+- The UN Convention against Cybercrime becomes binding 90 days after how many ratifications? → **40**
+- In which year was GATT signed? → **1947**
+- In which year did GATT come into force? → **1948**
+- India's refusal to join the Cybercrime Convention and which other initiative is defended as protecting policy space? → **Investment Facilitation for Development**
+- Where is the New Development Bank headquartered? → **Shanghai**
+- What is India's status in APEC? → **Observer**
+- Where is the APEC Secretariat located? → **Singapore**
+- How many member economies does APEC have? → **21**
+- Which country became NATO's 31st member in 2023? → **Finland**
+- Which country became NATO's 32nd member in 2024? → **Sweden**
+- Which country was invited to join BRICS at Johannesburg in August 2023 but declined? → **Argentina**
+- Which BRICS mechanism serves as an alternative to IMF-type liquidity support? → **Contingency Reserve Arrangement**
+- How long is the term of the UN Secretary-General? → **Five years**
+- The Windsor Framework (2023) concerns UK–EU post-Brexit trade rules for which region? → **Northern Ireland**
+- Which WTO box covers farm support with minimal or no trade distortion and is not capped? → **Green Box**
+- The Uruguay Round was which round of multilateral trade negotiations under GATT? → **Eighth**
+- In which year did the Uruguay Round begin? → **1986**
+- On what date was the WTO created? → **1 January 1995**
+- How many 'encourage' votes in the UNSC does a UN Secretary-General candidate need, with no P5 veto? → **9**
+- Which INTERPOL notice seeks to locate and arrest a wanted person pending extradition? → **Red Notice**
+- Which INTERPOL notice seeks information on a person's identity, location or activities? → **Blue Notice**
+- Which INTERPOL notice is issued for missing persons? → **Yellow Notice**
+- Which INTERPOL notice, the newest, is used to trace criminal assets? → **Silver Notice**
+- On what date did the IMF begin operations? → **1 March 1947**
+- Which Asian currency is part of the IMF's SDR basket along with the yen? → **Chinese yuan**
+- How many currencies make up the SDR basket? → **Five**
+- In 2011, BRICS had about 20% of world GDP but what share of IMF votes? → **11%**
+- The New Development Bank founders' collective vote cannot fall below what share? → **55%**
+- In which year was the Asian Infrastructure Investment Bank established? → **2016**
+- The World Economic Outlook is published by which institution? → **IMF**
+- The Human Capital Index is published by which institution? → **World Bank**
+- The Global Economic Prospects report is published by which institution? → **World Bank**
+- In which months is the World Bank's Global Economic Prospects issued? → **January and June**
+- Which institution publishes the Logistics Performance Index? → **World Bank**
+- On what date was the WHO Pandemic Agreement adopted by the World Health Assembly? → **20 May 2025**
+- Which body for conflict-diamond certification has no headquarters? → **Kimberley Process**
+- The Kimberley Process has 59 countries plus which participant? → **European Union**
+- How many members does the International Telecommunication Union have? → **194**
+- How many Parties does the UNFCCC have? → **198**
+- In which year was the Bretton Woods Conference held? → **1944**
+
+## Sep–4 Nov 2026: International - bilateral visits, defence deals and geopolitical developments (30)
+
+- Ottawa is the capital of which country? → **Canada**
+- On what date did Cyprus become independent? → **16 August 1960**
+- In which year did India and Italy establish diplomatic ties? → **1947**
+- Which of these is an official language of Belgium? → **German**
+- In which war did Indian soldiers serve in Belgium? → **First World War**
+- In which year did India and Japan establish the Special Strategic and Global Partnership? → **2014**
+- In which year did India and Italy establish a Strategic Partnership? → **2023**
+- In which year did India and Vietnam establish diplomatic relations? → **1972**
+- Bangladesh produces approximately what share of the world's Hilsa? → **70%**
+- What does 'Joda Ilish' refer to? → **A pair of Hilsa**
+- Bab el-Mandeb lies between Yemen and which countries? → **Djibouti and Eritrea**
+- Which Iranian island watches the Strait of Hormuz? → **Larak**
+- Which Yemeni island controls Bab el-Mandeb? → **Mayun**
+- The Strait of Hormuz connects the Persian Gulf with which water body? → **Gulf of Oman**
+- From which year did Bangladesh restrict Hilsa exports? → **2012**
+- Hilsa is the State Fish of which Indian state? → **West Bengal**
+- Hilsa is the National Fish of which country? → **Bangladesh**
+- In which year was Mahatma Gandhi born? → **1869**
+- In which year did India and Japan establish the Global Partnership? → **2000**
+- The Bab-el-Mandeb links the Red Sea to which water body? → **Gulf of Aden**
+- What is the capacity of Bhutan's Mangdechhu hydropower project? → **720 MW**
+- In which year was Bhutan's Mangdechhu hydropower project commissioned? → **2019**
+- In which year was the India–Bhutan Treaty of Friendship revised? → **2007**
+- The Strait of Hormuz links the Persian Gulf with which gulf? → **Gulf of Oman**
+- In which year were India–Russia ties upgraded to a Special and Privileged Strategic Partnership? → **2010**
+- Who became the first Indian Commander-in-Chief on 15 January 1949? → **K. M. Cariappa**
+- India–ASEAN ties became a strategic partnership in which year? → **2012**
+- In which year was the Look East Policy upgraded to Act East? → **2014**
+- Varuna is India's exercise with France involving which service? → **Navy**
+- Samudra Shakti is India's naval exercise with which country? → **Indonesia**
+
+## Jun–Aug 2026: International - bilateral visits, defence deals and geopolitical developments (61)
+
+- Vande Mataram was first published in Bangadarshan on which date? → **7 November 1875**
+- The India–Myanmar–Thailand Trilateral Highway runs between which points? → **Moreh and Mae Sot**
+- Which two places does the India–Myanmar–Thailand Trilateral Highway link? → **Moreh–Mae Sot**
+- Where was the first IT Park in Uzbekistan set up in 2019 on the Indian STPI model? → **Tashkent**
+- The Aral Sea lies between Uzbekistan and which country? → **Kazakhstan**
+- Besides Uzbekistan, which is the only other doubly landlocked country? → **Liechtenstein**
+- In which year did India and New Zealand establish diplomatic relations? → **1952**
+- What is the currency of New Zealand? → **New Zealand Dollar**
+- What was the IMO's position on tolls for transit through an international strait? → **No legal basis**
+- Transit passage through an international strait is regarded as what kind of law? → **Customary law**
+- Where is the Prambanan Temple Complex located? → **Yogyakarta**
+- In which year did India and Indonesia form a Comprehensive Strategic Partnership? → **2018**
+- Which Southeast Asian country is a member of the G20? → **Indonesia**
+- In which year was BrahMos Aerospace established? → **1998**
+- BrahMos Aerospace was established by DRDO and which Russian firm? → **NPO Mashinostroyeniya**
+- Where is the Information Fusion Centre–Indian Ocean Region located? → **Gurugram**
+- What is the currency of Indonesia? → **Rupiah**
+- The Prambanan Temple Complex dates from which century? → **9th century**
+- With which dynasty is the Prambanan Temple Complex associated? → **Sanjaya dynasty**
+- In which year was Prambanan recognised as a UNESCO World Heritage Site? → **1991**
+- What is the planned capacity of the Pancheshwar project? → **5,040 MW**
+- How many islands make up Seychelles? → **155**
+- How often is the India–Seychelles exercise LAMITIYE held? → **Biennially**
+- In which year did India and Seychelles establish diplomatic relations? → **1976**
+- How many Indians were among the first settlers of Seychelles in 1770? → **5**
+- In which year did India and Tanzania become strategic partners? → **2023**
+- In which year was the Arab League Joint Defence Treaty signed? → **1950**
+- In which year was the Baghdad Pact (later CENTO) formed? → **1955**
+- In which year was the GCC's Peninsula Shield Force set up? → **1984**
+- In which year was the Islamic Military Counter Terrorism Coalition formed? → **2015**
+- In which year was India's Act East Policy launched? → **2014**
+- Which body is the nodal agency for Startup India? → **DPIIT**
+- In which year did India and Japan establish diplomatic relations? → **1952**
+- In which year was the India–Japan Annual Summit mechanism set up? → **2006**
+- In which year did the India–Japan CEPA come about? → **2011**
+- In which year was the India–Japan Act East Forum established and the Quad revived? → **2017**
+- India's crude oil import dependence is about what level? → **88%+**
+- Which is India's only ASEAN neighbour with both a land and a maritime boundary? → **Myanmar**
+- The India–Myanmar Free Movement Regime allowed visa-free movement up to what distance? → **16 km**
+- Which Myanmar port has been developed by China? → **Kyaukpyu**
+- How long is the India–Myanmar border? → **1,643 km**
+- Besides trade, Lipulekh Pass is used for which pilgrimage? → **Kailash Mansarovar Yatra**
+- How long is the India–Myanmar–Thailand Trilateral Highway? → **1,360 km**
+- Uzbekistan was a founding member of which organisation? → **Shanghai Cooperation Organisation**
+- In which state is the Alang ship recycling yard? → **Gujarat**
+- Which is the only Great Lake lying wholly within the United States? → **Lake Michigan**
+- Where is the National Maritime Heritage Complex located? → **Lothal**
+- Lothal is associated with which Harappan feature? → **Dockyard**
+- Which of these countries is a member of the Mekong–Ganga Cooperation? → **Cambodia**
+- Lipulekh Pass is used for trade between India and which country? → **China**
+- The LHB coach design originated in which country? → **Germany**
+- Where is Bharat Dynamics Limited headquartered? → **Hyderabad**
+- Tolls are legally levied on which kind of waterways? → **Artificial canals**
+- What is the capital of Tanzania? → **Dodoma**
+- What is the capital of Kyrgyzstan? → **Bishkek**
+- What is the capital of Poland? → **Warsaw**
+- What is the capital of Malaysia? → **Kuala Lumpur**
+- Where is Mazagon Dock located? → **Mumbai**
+- Where is Garden Reach Shipbuilders and Engineers (GRSE) located? → **Kolkata**
+- Where is Hindustan Shipyard located? → **Visakhapatnam**
+- In which year did Bankim Chandra Chattopadhyay write Vande Mataram? → **1875**
+
+## Mar–May 2026: International - bilateral visits, defence deals and geopolitical developments (51)
+
+- What is the third stage of India's three-stage nuclear power programme? → **Thorium reactors**
+- Which major power has not ratified UNCLOS? → **United States**
+- After which oil crisis did India approach the IMF? → **1979 crisis**
+- The INSTC links India with Iran, Central Asia, Europe and which other country? → **Russia**
+- The 1979 Oil Crisis was linked to which event? → **Iranian Revolution**
+- The Strait of Hormuz lies between Iran to the north and which countries to the south? → **Oman and the UAE**
+- About how wide is the Strait of Hormuz at its narrowest point? → **33 km**
+- India has large strategic reserves for which fuel? → **Crude oil**
+- Which UNCLOS Article provides the right of transit passage? → **Article 38**
+- Which UNCLOS Article sets out the duties of ships during transit passage? → **Article 39**
+- Which UNCLOS Article bars coastal states from suspending or hampering transit passage? → **Article 44**
+- About what share of global oil and LNG trade passes through the Strait of Hormuz? → **20%**
+- Where is India's Prototype Fast Breeder Reactor located? → **Kalpakkam**
+- What is India's approximate annual uranium need? → **1,500–2,000 tonnes**
+- The 2008 India–Bhutan Hydropower Cooperation Agreement set a target of how much capacity? → **10,000 MW**
+- Which international agency was created as an outcome of the 1973 Oil Price Crisis? → **International Energy Agency**
+- The 1973 Oil Price Crisis is regarded as the first major use of oil as what? → **A geopolitical weapon**
+- The 1973 oil crisis was driven by what kind of supply shock? → **Political oil embargo**
+- In the 1973 crisis, Arab members of OPEC imposed an oil embargo on countries that did what? → **Supported Israel**
+- In which year was the Yom Kippur War fought? → **1973**
+- The end of the gold standard, a factor behind the 1973 Oil Crisis, came in which year? → **1971**
+- Where was the 1st India–Nordic Summit held in 2018? → **Stockholm**
+- Where was the 2nd India–Nordic Summit held in 2022? → **Copenhagen**
+- How many rivers do India and Bangladesh share? → **54**
+- In which year were the Abraham Accords launched? → **2020**
+- Along with the UAE and Bahrain, which country was among the first Abraham Accords signatories? → **Morocco**
+- In which year was the European Political Community established? → **2022**
+- After sanctions in which year did India stop importing Iranian oil? → **2019**
+- What share of its crude oil does India import? → **85–88%**
+- India imports what share of its uranium requirements? → **More than 70%**
+- In which year was India Post established? → **1854**
+- What is the capital of Cyprus? → **Nicosia**
+- What is the currency of Canada? → **Canadian Dollar**
+- The US CAATSA targets Russia, Iran and which other country? → **North Korea**
+- Which nuclear process involves splitting heavy nuclei? → **Fission**
+- Nuclear fusion involves what? → **Combining light nuclei**
+- What is the atomic number of uranium? → **92**
+- Which uranium isotope is fissile? → **U-235**
+- The RAPP nuclear power plant is in which state? → **Rajasthan**
+- Jaduguda uranium mine is in which state? → **Jharkhand**
+- Tummalapalle uranium deposit is in which state? → **Andhra Pradesh**
+- Under UNCLOS, the Contiguous Zone extends up to how many nautical miles? → **24**
+- Under UNCLOS, the Territorial Sea extends up to how many nautical miles? → **12**
+- What is the capacity of Bhutan's Punatsangchhu-I hydropower project? → **1,200 MW**
+- In which year was the US CAATSA enacted? → **2017**
+- On which water body does Chabahar port lie? → **Gulf of Oman**
+- Which company runs the Shahid Beheshti terminal at Chabahar? → **India Ports Global Limited**
+- Where was UNCLOS adopted on 10 December 1982? → **Montego Bay**
+- Unilateral sanctions are imposed without the approval of which body? → **UN Security Council**
+- Hezbollah is associated with which country? → **Lebanon**
+- UCIL functions under which department? → **Department of Atomic Energy**
+
+## Dec 2025–Feb 2026: International - bilateral visits, defence deals and geopolitical developments (36)
+
+- In which year was the India–Nepal Treaty of Peace and Friendship concluded? → **1950**
+- In which year did the US withdraw India's Generalised System of Preferences (GSP) benefits? → **2019**
+- About how large are Venezuela's proven crude oil reserves? → **300 billion barrels**
+- What is the Wangchu river called in India? → **Raidak**
+- Which country brokered the Tashkent Agreement between India and Pakistan? → **USSR**
+- In which year did India and the USSR sign the Treaty of Peace, Friendship and Cooperation? → **1971**
+- Which of these is an India–Russia military exercise? → **INDRA**
+- Where was the World Economic Forum established in 1971? → **Cologny (Geneva)**
+- The Ganga Water Sharing Treaty governs dry-season flows at which barrage? → **Farakka**
+- How can the Ganga Water Sharing Treaty be renewed? → **By mutual consent**
+- Before the 1996 treaty, temporary Ganga arrangements were made in 1977, 1982 and which year? → **1985**
+- In which country were Gaganyaan astronauts trained? → **Russia**
+- Under SAGAR, India is envisaged as what in the Indian Ocean Region? → **Net security provider**
+- In which Canadian province was Hardeep Nijjar killed in June 2023? → **British Columbia**
+- In which year was India's SAGAR vision announced? → **2015**
+- In which year did India and the UAE establish their Comprehensive Strategic Partnership? → **2017**
+- In which year did the India–UAE CEPA come into force? → **2022**
+- What does SAGAR (2015) stand for? → **Security and Growth for All in the Region**
+- The Weimar Triangle consists of France, Germany and which country? → **Poland**
+- In which year was the Weimar Triangle established? → **1991**
+- In which year did James Monroe articulate the Monroe Doctrine? → **1823**
+- In which year was the Roosevelt Corollary added to the Monroe Doctrine? → **1904**
+- What is the currency of Iran? → **Rial**
+- Which of these was an earlier Indian evacuation operation, from Ukraine? → **Operation Ganga**
+- MAHASAGAR (2025) extends SAGAR's scope to which region? → **Global South**
+- Which doctrine did the US invoke in the Venezuela context? → **Monroe Doctrine**
+- What is the capital of Seychelles? → **Victoria**
+- Which form of trade agreement covers only a limited set of goods? → **Partial Scope Agreement**
+- Free movement of capital and labour is the added feature of which form of integration? → **Common Market**
+- Cold Response is an exercise of which country? → **Norway**
+- On what date did India and Pakistan first exchange lists of nuclear installations? → **1 January 1992**
+- On what date was the India–Pakistan Agreement on Prohibition of Attacks against Nuclear Installations signed? → **31 December 1988**
+- On which date every year do India and Pakistan exchange lists of nuclear installations? → **1 January**
+- Which US doctrine is associated with Cold War containment? → **Truman Doctrine**
+- BrahMos is named after the Brahmaputra and which Russian river? → **Moskva**
+- How did India acquire INS Vikramaditya from Russia? → **Purchase**
+
+## Apr–Nov 2025: International - bilateral visits, defence deals and geopolitical developments (33)
+
+- Which US air base is located in Qatar? → **Al-Udeid**
+- Which Indian-built highway project is in Afghanistan? → **Zaranj–Delaram Highway**
+- Which Article of the UN Charter bars the use of force? → **Article 2**
+- When did the United States withdraw from Afghanistan? → **August 2021**
+- Since which year have India and Japan had a Special Strategic and Global Partnership? → **2014**
+- Which country is a member of the Quad along with India, Japan and Australia? → **United States**
+- Sri Lanka's 2022 Aragalaya was directed against whom? → **Gotabaya Rajapaksa**
+- The Houthis, an Iranian proxy group, are associated with which country? → **Yemen**
+- Hezbollah, an Iranian proxy group, is associated with which country? → **Lebanon**
+- Hashd al-Shaabi, an Iranian proxy group, is associated with which country? → **Iraq**
+- The Salma Dam in Afghanistan is also known as what? → **India–Afghanistan Friendship Dam**
+- In which year did the Galwan clash between India and China take place? → **2020**
+- Which Afghan group did India back during 1996–2001? → **Northern Alliance**
+- Morocco is a major supplier of which commodity to India? → **Phosphates and fertilizers**
+- In which year was the JCPOA on Iran's nuclear programme concluded? → **2015**
+- In which year did the United States withdraw from the JCPOA? → **2018**
+- Which India–Pakistan agreement of 1972 contains a non-binding exchanges clause? → **Simla Agreement**
+- The Katas Raj temples are located in which province of Pakistan? → **Punjab**
+- Shadani Darbar is located in which province of Pakistan? → **Sindh**
+- In which year was the Sugauli Treaty concluded? → **1815**
+- Where does the Teesta river originate? → **Tso Lhamo Lake, Sikkim**
+- By which treaty was Katchatheevu placed under Sri Lanka? → **1974 India–Sri Lanka Maritime Boundary Treaty**
+- In which year was the India–Pakistan Protocol on Visits to Religious Shrines signed? → **1974**
+- In which year did Iran sign the NPT? → **1968**
+- In which year did Iran ratify the NPT? → **1970**
+- Which country is not an NPT signatory and has no IAEA inspections of its undeclared arsenal? → **Israel**
+- Where was the Non-Aligned Movement founded in 1961? → **Belgrade**
+- In which year was the Non-Aligned Movement founded? → **1961**
+- Which group is the UK's largest ethnic minority? → **Indian diaspora**
+- What does PTM stand for in the Pakistani context? → **Pashtun Tahafuz Movement**
+- Morocco lies between the Mediterranean and which ocean? → **Atlantic Ocean**
+- Which UNCLOS Article calls for cooperation in semi-enclosed seas like the Palk Bay? → **Article 123**
+- Guru Nanak, born at Nankana Sahib, was born in which year? → **1469**
+
+## Overview and data: International - bilateral visits, defence deals and geopolitical developments (24)
+
+- In which year did India and Vietnam form a Strategic Partnership? → **2007**
+- In which year did India and Vietnam form a Comprehensive Strategic Partnership? → **2016**
+- India's Look East Policy was launched in which year? → **1991**
+- India's policy focusing on Gulf and West Asia energy and diaspora links is called? → **Link West**
+- The origin of Neighbourhood First is associated with the presence of which leaders at the PM's 2014 swearing-in? → **SAARC leaders**
+- Which Indian policy prioritises aid, connectivity and disaster response for neighbouring countries? → **Neighbourhood First**
+- The S-400 Triumf air-defence system is of which origin? → **Russian**
+- In which year did India get STA-1 status from the US? → **2018**
+- In which year did India and the US sign LEMOA? → **2016**
+- In which year did India and the US sign COMCASA? → **2018**
+- In which year did India and the US sign BECA? → **2020**
+- The US-led Indo-Pacific economic framework that includes India is? → **IPEF**
+- Which grouping comprises India, Tanzania and Mozambique? → **IMT-TRILAT**
+- Since which year has Exercise Yudh Abhyas been held? → **2004**
+- Which grouping comprises India, Israel, UAE and US? → **I2U2**
+- Which company makes the Rafale aircraft? → **Dassault**
+- India bought 36 Rafale jets for the IAF under a deal of which year? → **2016**
+- What is the range of the S-400 Triumf? → **400 km**
+- How many rounds of the India-China Strategic Economic Dialogue were held in 2011-2019? → **Six**
+- In which year was the India-China Strategic Economic Dialogue set up? → **2010**
+- Which mechanism does the Quad itself lack, though its members have it bilaterally? → **2+2 Ministerial Dialogue**
+- Which country leads the Indo-Pacific Economic Framework (IPEF)? → **United States**
+- The Javelin ATGM is from which country? → **United States**
+- How many submarines make up the Kalvari class (P-75)? → **Six**
+
+## Sep–4 Nov 2026: Science and technology in news - space missions, defence tests, health and biotech developments (56)
+
+- Nancy Grace Roman was NASA's first what? → **Chief Astronomer**
+- Around which point does the James Webb Space Telescope operate? → **Sun–Earth L2**
+- Since which year has the Hubble Space Telescope operated? → **1990**
+- What is the institutional character of ESA? → **Intergovernmental space organisation**
+- What kind of remote-sensing system is Synthetic Aperture Radar? → **Active, working through clouds and at night**
+- In which year was Project Seabird approved? → **1985**
+- Which was the first ship built in independent India, launched in 1948? → **Jala Usha**
+- In which year was Hindustan Shipyard Ltd established? → **1941**
+- On which date was the Indian Coast Guard established? → **1 February 1977**
+- In which year was the Coast Guard Act enacted? → **1978**
+- What is the motto of the Indian Coast Guard? → **Vayam Rakshamah**
+- In which year did GRSE deliver INS Ajay, the first indigenous warship from an Indian shipyard? → **1961**
+- The Chief of Defence Staff heads which department? → **Department of Military Affairs**
+- JIMEX is an India–Japan exercise of which service? → **Navy**
+- Which naval command is part of the Vizag maritime hub? → **Eastern Naval Command**
+- Where is the ASEAN headquarters located? → **Jakarta**
+- What is the capital of Kazakhstan? → **Astana**
+- Since which year has IBSAMAR been conducted biennially? → **2008**
+- In which year was GRSE established? → **1884**
+- When was the Innovations for Defence Excellence (iDEX) initiative launched? → **April 2018**
+- In which year did No. 17 Squadron 'Golden Arrows' get de Havilland Vampire jets? → **1955**
+- In which year was Skyroot Aerospace founded? → **2018**
+- In which year was IIT Kharagpur established? → **1951**
+- Sweden became NATO's which-numbered member? → **32nd**
+- Which organisation became a member of the G20? → **African Union**
+- Since which year has Yudh Abhyas been conducted? → **2004**
+- Dharma Guardian is an India–Japan exercise of which service? → **Army**
+- Which of these countries is a Quad member? → **Australia**
+- In which year was Agnikul Cosmos established? → **2017**
+- In which year was GalaxEye established in Bengaluru? → **2021**
+- In which year did IIT-BHU receive IIT status? → **2012**
+- Dark energy makes up about what share of the universe? → **68%**
+- India–France space ties date back to which decade? → **1960s**
+- IIT Madras was established in 1959 with aid from which country? → **West Germany**
+- Hindustan Shipyard Ltd functions under which ministry? → **Ministry of Defence**
+- Which underwater vehicle is remotely operated rather than autonomous? → **ROV**
+- In which year were the Artemis Accords launched? → **2020**
+- In which year did India join the Artemis Accords? → **2023**
+- The CDS is the Permanent Chairman of which committee? → **Chiefs of Staff Committee**
+- In which city was Skyroot Aerospace founded? → **Hyderabad**
+- Which radar band is used for localised thunderstorms and lightning? → **X-band**
+- Which radar band is used for rainfall and cyclone tracking? → **C-band**
+- Which radar band is used for deep coastal and long-range cyclone monitoring? → **S-band**
+- Meera Behn was the name given to whom? → **Madeleine Slade**
+- What is a TPU? → **An ASIC that speeds up tensor/matrix computations**
+- Which cattle breed is small, hardy, Himalaya-adapted and holds State Animal status in Uttarakhand? → **Badri**
+- Non-coding DNA makes up approximately what share of the human genome? → **98%**
+- The human genome has approximately how many base pairs? → **3 billion**
+- Single-letter mutations are also called what? → **Single-Nucleotide Variants**
+- Conventional antivenom is produced by injecting venom into which animal? → **Horses**
+- What is the scientific name of foxtail millet? → **Setaria italica**
+- In which year did Bachendri Pal become the first Indian woman to climb Everest? → **1984**
+- World Tuberculosis Day is observed on which date? → **March 24**
+- About how many years ago did the Big Bang occur? → **13.8 billion**
+- India and South Africa share membership of BRICS, IORA, NAM and which trilateral forum? → **IBSA**
+- Project BHISHM falls under which initiative? → **Aarogya Maitri**
+
+## Jun–Aug 2026: Science and technology in news - space missions, defence tests, health and biotech developments (41)
+
+- In which year was the Indian Space Policy released? → **2023**
+- Which EV type combines an engine with a motor, without plug-in charging? → **HEV**
+- Helium belongs to which group of the periodic table? → **Group 18**
+- In which year was NASA established? → **1958**
+- In which year did India leave the FGFA programme? → **2021**
+- Chandrayaan-3 made India the which-numbered country to soft-land on the Moon? → **Fourth**
+- What is the NATO name of the S-400? → **SA-21 Growler**
+- What is the atomic number of helium? → **2**
+- In which year was Sahyog Hop Tac first conducted? → **2018**
+- Which stage of genome capability came first, in the 1970s? → **Reading genomes**
+- Can helium solidify at normal pressure? → **No, it needs high pressure**
+- How many S-400 squadrons did the October 2018 deal cover? → **Five**
+- What was the case fatality rate of Kerala's first Nipah outbreak in 2018? → **91%**
+- Kerala's 2023 Nipah outbreak, the only human-to-human spread since 2018, had how many cases? → **6**
+- What type of disease is dengue? → **Viral**
+- Which EV type runs on battery only? → **BEV**
+- Which EV type is a hybrid with a plug-in battery? → **PHEV**
+- Which EV type uses a fuel cell, usually hydrogen? → **FCEV**
+- Which was the world's first hydrogen passenger train, introduced in 2018? → **Alstom Coradia iLint**
+- Enhanced Geothermal Systems create artificial permeability in which rocks? → **Hot dry rocks**
+- The geothermal gradient refers to what change of temperature with depth? → **Rise**
+- In which region are the Puga, Chumathang, Demchok and Nubra geothermal sites? → **Ladakh**
+- In which state are the Manikaran, Kasol and Tattapani geothermal sites? → **Himachal Pradesh**
+- The Tapoban geothermal site is in which state? → **Uttarakhand**
+- The Yumesamdong geothermal site is in which state? → **Sikkim**
+- What is the boiling point of helium? → **About −269°C**
+- Which two countries developed the SEPECAT Jaguar? → **UK and France**
+- Shakti is India's exercise with France involving which service? → **Army**
+- In which year was Cochin Shipyard established? → **1972**
+- NEST is a division of which ministry? → **Ministry of External Affairs**
+- Writing or synthesising genomes became possible in which period? → **2000s**
+- Modifying (editing) genomes became the main capability in which decade? → **2010s**
+- On which date was the CISF established? → **10 March 1969**
+- The CISF functions under which ministry? → **Ministry of Home Affairs**
+- Where was the International Astronomical Union (IAU) established in 1919? → **Paris**
+- What share of nitrogen does urea contain? → **46%**
+- In which year was Mazagon Dock Shipbuilders established? → **1934**
+- HFO-1234yf is what kind of refrigerant? → **Low-GWP**
+- What type of disease is athlete's foot? → **Fungal**
+- Which organism causes whooping cough? → **Bordetella pertussis**
+- XPoSat is dedicated to which branch of astronomy? → **X-ray astronomy**
+
+## Mar–May 2026: Science and technology in news - space missions, defence tests, health and biotech developments (51)
+
+- In which year was the James Webb Space Telescope launched? → **2021**
+- The James Webb Space Telescope is a project of NASA, ESA and which agency? → **CSA**
+- In space cyber warfare, what does spoofing do? → **Sends false signals**
+- What share of India's defence manufacturing is held by DPSUs? → **Over 70%**
+- In which states are India's Defence Industrial Corridors? → **Uttar Pradesh and Tamil Nadu**
+- The Strategic Partnership Model links foreign OEMs with which firms? → **Private Indian firms**
+- Which phenomenon can offset El Niño's effect on the Indian monsoon? → **Positive Indian Ocean Dipole**
+- On which date is World Stroke Day observed? → **29 October**
+- Which treaty provides for peaceful use of outer space and bans WMD in orbit? → **Outer Space Treaty, 1967**
+- What does the Outer Space Treaty, 1967 say about cyber operations? → **It is silent on them**
+- Which procurement category is included in DAP 2020 as the highest priority? → **Buy (Indian-IDDM)**
+- Objects larger than what size are consistently tracked in low Earth orbit? → **10 cm**
+- What is the de-orbit rule period for satellites in LEO? → **25 years**
+- In which year was the Chinese Academy of Sciences established? → **1949**
+- What is the magnetosphere? → **Region controlled by Earth's magnetic field**
+- In which year was HAL established? → **1940**
+- On which date did India sign the Artemis Accords? → **June 21, 2023**
+- In which year did Keytruda receive US FDA approval? → **2014**
+- Which Artemis mission was the uncrewed Orion flight around the Moon? → **Artemis I**
+- What is Artemis III planned as? → **Crewed lunar landing**
+- In which year was CSIR-NEERI established? → **1958**
+- Under the Outer Space Treaty, 1967, states are responsible for whose space activities? → **National activities including private entities**
+- Under the Liability Convention, 1972, what liability applies to damage in outer space? → **Fault-based**
+- What defence export target by 2025 did DPEPP 2020 set? → **₹35,000 crore**
+- About how many microbial genes does the human gut microbiome have? → **2–20 million**
+- About how many genes do humans have? → **20,000**
+- Project 17A is the follow-on to which frigate class? → **Shivalik-class**
+- How many frigates does Project 17A comprise? → **Seven**
+- In space cyber warfare, what does jamming do? → **Blocks signals**
+- How does Keytruda fight cancer? → **Blocks PD-1 on T-cells to reactivate immunity**
+- Where is CSIR-NEERI located? → **Nagpur**
+- In 2020, FDI in defence through the automatic route was raised to what level? → **74%**
+- What is Operation Sadbhavana? → **Army welfare operations in remote areas**
+- Which solar phenomenon causes space weather? → **Coronal mass ejections**
+- Where is CSIR-NCL, which worked on scaling Dimethyl Ether fuel, located? → **Pune**
+- About what share of Earth's crust is silicon? → **28%**
+- Auroras are usually seen near where? → **The poles**
+- Which body implements the Pradhan Mantri Bhartiya Janaushadhi Pariyojana? → **BPPI**
+- Where is Dai Nippon Printing, established in 1876, headquartered? → **Tokyo**
+- What is the legal nature of IADC and UN COPUOS debris-mitigation guidelines? → **Non-binding and voluntary**
+- On which date did Operation Sankalp begin? → **19 June 2019**
+- Since which event has Sagar Kavach been held? → **2008 Mumbai attacks**
+- Where are most gut microbes located? → **Colon**
+- Which gut-microbe products can reduce inflammation? → **Short-chain fatty acids**
+- Which enzymes digest proteins? → **Trypsin and chymotrypsin**
+- Which of these can disrupt the gut microbiome? → **Artificial sweeteners**
+- The estrobolome is disrupted by what? → **Pesticides**
+- Which microbes can develop antimicrobial resistance? → **Bacteria, viruses and fungi**
+- How does shigellosis spread? → **Through contaminated food and water**
+- Project 17A is the follow-on of Project 17, which built which class? → **Shivalik-class**
+- In which year was Anaemia Mukt Bharat launched? → **2018**
+
+## Dec 2025–Feb 2026: Science and technology in news - space missions, defence tests, health and biotech developments (69)
+
+- The Health Security Framework (2022) belongs to which entity? → **European Union**
+- MILAN was born under which Indian policy? → **Look East Policy**
+- Which ships take part in an International Fleet Review? → **Indian and friendly foreign naval ships**
+- In which year was the Indian Ocean Naval Symposium established? → **2008**
+- Which is India's largest private port? → **Mundra**
+- Mundra port is located on which water body? → **Gulf of Kutch**
+- Prachand is India's first indigenous what? → **Light Combat Helicopter**
+- In which year was the HAL-built Prachand inducted? → **2022**
+- How often is the DOSTI coast guard exercise held? → **Biennially**
+- What are the charge and spin of a deuteron? → **Charge +1, spin 1**
+- Beneficiation, cracking, leaching and solvent extraction belong to which stage of rare-earth processing? → **Midstream**
+- Nonsense mutations account for about what share of disease-causing genetic changes? → **25%**
+- When was the National Biopharma Mission 'Innovate in India (i3)' launched? → **May 2017**
+- Which institution co-funds the National Biopharma Mission? → **World Bank**
+- BIRAC implements the National Biopharma Mission under which department? → **Department of Biotechnology**
+- Which scheme of 2023, with ₹5,000 crore, set up Centres of Excellence at NIPERs? → **PRIP**
+- A solar cycle, during which the Sun's magnetic poles flip, lasts approximately how long? → **11 years**
+- Which Indian framework covers biocontainment? → **Recombinant DNA Research Guidelines, 2017**
+- Which country has the National Biodefense Strategy (2022–28) and 2024 Synthetic DNA Screening Guidance? → **USA**
+- At what charge can sodium-ion batteries be stored and shipped? → **Zero volts**
+- Which metal do sodium-ion batteries use as current collectors on both electrodes? → **Aluminium**
+- Sodium-ion battery energy density is approaching that of which chemistry? → **LFP**
+- Which sodium-ion chemistry outperforms polyanionic and Prussian blue analogues? → **Layered oxide**
+- What is the outlay of the Bio-RIDE scheme (September 2024)? → **₹9,197 crore**
+- In a lithium-ion battery, LiFePO₄ is used as which electrode? → **Cathode**
+- Which material is used as the anode in lithium-ion batteries? → **Graphite**
+- Which type of UAV can neither hover nor land vertically? → **Fixed-wing UAV**
+- Lithium, cobalt, gallium and germanium are classified as what? → **Critical minerals**
+- India's rare-earth reserves, measured as REO, are about how much? → **6.9 million tonnes**
+- Which Indian rules of 1989 deal with genetically engineered organisms? → **Biosafety Rules, 1989**
+- Which rare-earth elements are used in phosphors? → **Europium, terbium and yttrium**
+- Bastnäsite, monazite and which other source are important rare-earth sources? → **Ion-adsorption clays**
+- The China Brain Project is associated with which country? → **China**
+- Which country enacted a Biosecurity Law in 2021? → **China**
+- Which of these countries took part in the first edition of MILAN? → **Thailand**
+- In which city was the Cartagena Protocol on Biosafety adopted on 29 January 2000? → **Montreal**
+- The Cartagena Protocol is a legally binding protocol under which convention? → **Convention on Biological Diversity**
+- Which Indian law deals with hazardous microorganisms and GMOs? → **Environment (Protection) Act, 1986**
+- Which Indian law criminalises biological weapons? → **WMD Act, 2005**
+- Which is India's largest container port? → **JNPT**
+- JNPT is also known by which name? → **Nhava Sheva**
+- The 1992 UN Principles on Nuclear Power Sources in Outer Space were adopted through which UNGA resolution? → **47/68**
+- Which country has the Biosecurity Act (2015)? → **Australia**
+- Which concept seeks to prevent the intentional misuse of biological agents? → **Biosecurity**
+- Which concept seeks to prevent the accidental release of biological agents? → **Biosafety**
+- The Biological Weapons Convention, the first treaty banning bioweapons, dates to which year? → **1975**
+- Which policy stands for Biotechnology for Economy, Environment and Employment? → **BioE3**
+- How many tRNA genes do human cells have? → **418**
+- Which was the first HIV drug, approved in 1987, that targeted reverse transcriptase? → **AZT (zidovudine)**
+- How is Kyasanur Forest Disease transmitted? → **By ticks**
+- The scarcity of rare-earth elements is mainly due to what? → **Difficult separation**
+- Rare-earth magnetism and sharp phosphor emission arise from which localised electrons? → **4f electrons**
+- Which rare-earth element is used in permanent magnets? → **Neodymium**
+- Which rare-earth elements are used in lasers and fibre optics? → **Neodymium and erbium**
+- Which rare-earth elements are used in refining catalysts? → **Lanthanum and cerium**
+- Rare-earth ores such as monazite may contain which radioactive elements? → **Thorium or uranium**
+- EEG headsets are examples of which type of Brain–Computer Interface? → **Non-invasive**
+- Invasive Brain–Computer Interfaces use what? → **Implanted electrodes**
+- Transcranial Magnetic Stimulation is used for which purpose? → **Stroke rehabilitation**
+- Vagus Nerve Stimulation is used to treat which condition? → **Resistant depression**
+- Which neurotechnology is used for epileptic seizures? → **Responsive Neurostimulation**
+- The BRAIN Initiative in neurotechnology is associated with which country? → **USA**
+- Which country amended its Constitution to protect mental integrity (neurorights)? → **Chile**
+- Which US state enacted a brain-data law? → **California**
+- Responsive Neurostimulation is used to treat which condition? → **Epileptic seizures**
+- Spinal Cord Stimulation is used to treat which condition? → **Chronic pain**
+- Retinal implants are used to treat which condition? → **Retinitis pigmentosa**
+- The SSLV can carry up to how much payload to LEO? → **500 kg**
+- Exercise MILAN began at Port Blair in which year? → **1995**
+
+## Apr–Nov 2025: Science and technology in news - space missions, defence tests, health and biotech developments (25)
+
+- When was the ESA–NASA Solar Orbiter launched? → **February 2020**
+- How many ships does Project 17A comprise? → **Seven**
+- Who conducts the ceremonial International Fleet Review of ships in India? → **The President**
+- Where was India's 2001 fleet review held? → **Mumbai**
+- Where was the 2022 President's Fleet Review held? → **Visakhapatnam**
+- The India–UK exercise Konkan is named after which coast? → **Konkan Coast**
+- In which year did Exercise Bright Star originate as a US–Egypt bilateral exercise? → **1980**
+- MILAN, the biennial multilateral naval exercise, is conducted under which command? → **Eastern Naval Command**
+- Semaglutide is marketed as Ozempic for diabetes and as what for weight loss? → **Wegovy**
+- Mounjaro and Zepbound are brand names of which drug? → **Tirzepatide**
+- Naegleria fowleri thrives in warm freshwater up to what temperature? → **46°C**
+- Naegleria fowleri reaches the brain through which nerve? → **Olfactory nerve**
+- Is PAM communicable from person to person? → **No, it is not communicable**
+- In which year was the first Indian case of PAM recorded? → **1971**
+- Where was Kerala's first PAM case reported in 2016? → **Alappuzha**
+- CAR-T therapy engineers which of the patient's own cells to attack cancer? → **T-cells**
+- CAR-T therapy is not yet approved for which cancers? → **Solid tumours**
+- Which blood cancer is among those approved for CAR-T therapy? → **Multiple Myeloma**
+- In which year did the United States eradicate New World screwworm? → **1966**
+- In which part of the hippocampus do new neurons form in adults? → **Dentate gyrus**
+- Which technique did the US use to eradicate New World screwworm? → **Sterile Insect Technique**
+- Where did a New World screwworm outbreak occur in the US in 2017? → **Florida**
+- Brown dwarfs, 'failed stars' unable to sustain hydrogen fusion, may have up to how many times Jupiter's mass? → **70**
+- Which stars are the most common, forming about 70% of Milky Way stars? → **Red dwarfs**
+- Which entangled state is robust to particle loss, unlike the GHZ state? → **W state**
+
+## Overview and data: Science and technology in news - space missions, defence tests, health and biotech developments (11)
+
+- What is the approximate range of the Agni-3 IRBM? → **3,000 km**
+- BrahMos is a joint venture of India and which country? → **Russia**
+- Which Indian body gives clinical-trial and marketing approval for medicines? → **CDSCO**
+- Which department oversees genetic manipulation and biosafety in India? → **DBT**
+- Hantavirus (Andes strain) is transmitted by which animals? → **Rodents**
+- Where is the 2-m Himalayan Chandra Telescope located? → **Hanle, Ladakh**
+- The Himalayan Chandra Telescope is named after whom? → **S. Chandrasekhar**
+- From where is the Himalayan Chandra Telescope operated remotely? → **Hosakote**
+- In which year was the Indian Science Congress Association founded? → **1914**
+- What is DRDO's motto? → **Balasya Mulam Vigyanam**
+- Which animals are associated as hosts of the Nipah virus? → **Bats and pigs**
+
+## Sep–4 Nov 2026: Environment in news - reports, indices, species, protected areas, climate negotiations (10)
+
+- In which year was the Zoological Survey of India established? → **1916**
+- When did India's GI Act come into force? → **15 September 2003**
+- In which year was India's GI Act enacted? → **1999**
+- What do the Battery Waste Management Rules, 2022 say about landfilling and incinerating waste batteries? → **Banned**
+- The E-Waste (Management) Rules, 2022 cover how many categories? → **106**
+- The E-Waste (Management) Rules, 2022 came into force on which date? → **1 April 2023**
+- For how long is a GI registration valid in India? → **10 years, renewable**
+- Which map projection enlarges high-latitude regions? → **Mercator**
+- Why is the Mercator projection useful for navigation? → **Constant compass bearings appear as straight lines**
+- In which year was Kaziranga listed as a UNESCO World Heritage Site? → **1985**
+
+## Mar–May 2026: Environment in news - reports, indices, species, protected areas, climate negotiations (27)
+
+- In which year was the Jal Shakti Ministry formed? → **2019**
+- Mangroves store how much more carbon per hectare than tropical forests? → **3–5 times**
+- Which ecosystem is a blue-carbon ecosystem? → **Seagrass**
+- Lipulekh Pass lies at about what altitude? → **5,334 m**
+- In which year was Oil India Limited established? → **1959**
+- Where is Oil India Limited headquartered? → **Duliajan, Assam**
+- In which state does the Brahmaputra enter India as the Siang/Dihang? → **Arunachal Pradesh**
+- How many national missions does the National Action Plan on Climate Change have? → **Eight**
+- In which year was the National Programme on Climate Change and Human Health established? → **2018**
+- In which year was the National Action Plan on Climate Change established? → **2008**
+- Which agency handles Interlinking of Rivers, including the Ken-Betwa Link? → **National Water Development Agency**
+- The Great Bend of the Brahmaputra is near which peak? → **Namcha Barwa**
+- During which operation did the Indian Army recapture Zoji La on 1 November 1948? → **Operation Bison**
+- Zoji La lies on which national highway? → **NH-1**
+- In which year was the Ministry of Environment, Forest and Climate Change established? → **1985**
+- What does 'Bab-el-Mandeb' mean? → **Gate of Tears**
+- Which country is a major LNG supplier to India? → **Qatar**
+- Which body handles planning and flood forecasting in river-basin management? → **Central Water Commission**
+- Mayon volcano is located in which province? → **Albay**
+- Mount Dukono and Mayon lie in which volcanic belt? → **Pacific Ring of Fire**
+- The Brahmaputra Board handles flood and erosion control in which valleys? → **Brahmaputra and Barak**
+- What is the Brahmaputra called in Tibet? → **Yarlung Tsangpo**
+- Which pass is known as the 'Mountain Pass of Blizzards'? → **Zoji La**
+- In which year did the Antarctic Treaty enter into force? → **1961**
+- In which country is the Chicxulub crater? → **Mexico**
+- Which department is the implementing agency for the GI Act, 1999? → **DPIIT**
+- Which body declares National Geo-Heritage Sites in India? → **Geological Survey of India**
+
+## Dec 2025–Feb 2026: Environment in news - reports, indices, species, protected areas, climate negotiations (30)
+
+- On which date was the Indus Waters Treaty signed? → **September 19, 1960**
+- Which zone contains about 75% of the world's active volcanoes? → **Pacific Ring of Fire**
+- In which year was Palghar district carved out of Thane? → **2014**
+- In which year was the Zoological Survey of India established? → **1916**
+- In which year was the Botanical Survey of India established? → **1890**
+- How many caecilians does India have among its 457 amphibians? → **42**
+- The Red Sea lies between Africa and which region? → **Arabia**
+- Which strait carries about 20% of global crude oil? → **Strait of Hormuz**
+- India's GI Act of 1999 was enacted to meet obligations under which agreement? → **WTO TRIPS**
+- For how long is a Geographical Indication registration valid in India before renewal? → **10 years**
+- Through which straits is the Sea of Japan connected to the East China Sea? → **Tsushima and Korea Straits**
+- In which direction from Port Blair does Barren Island lie? → **North-east**
+- Which channel separates Minicoy from the rest of Lakshadweep? → **Nine Degree Channel**
+- Which channel separates Minicoy from the Maldives? → **Eight Degree Channel**
+- Diego Garcia and the British Indian Ocean Territory are part of which island group? → **Chagos Islands**
+- Under the Indus Waters Treaty, the eastern rivers Ravi, Beas and Sutlej were allocated to which country? → **India**
+- In which year was the Deep Ocean Mission launched? → **2021**
+- Where does the Jhelum river originate? → **Verinag**
+- Which lake is known as the 'Jewel in the crown of Kashmir'? → **Dal Lake**
+- Futala (Telangkhedi) Lake in Nagpur was built under which rule in the 18th century? → **Bhonsle**
+- What type of lake is Futala (Telangkhedi) Lake in Nagpur? → **Man-made**
+- In which year was the Shahpur Kandi Project declared a national project? → **2008**
+- Takeshima/Dokdo is the subject of a sovereignty dispute between Japan and which country? → **South Korea**
+- Which of these is a form of rangeland? → **Steppes**
+- Who discovered the Valley of Flowers in 1931? → **Frank S. Smythe**
+- Through which straits is the Sea of Japan connected to the Okhotsk Sea? → **La Perouse and Tatar Straits**
+- Through which strait is the Sea of Japan connected to the Pacific Ocean? → **Tsugaru Strait**
+- Through which strait is the Sea of Japan connected to the Inland Sea of Japan? → **Kanmon Strait**
+- The GI Registry functions under which department? → **DPIIT, Ministry of Commerce & Industry**
+- Under the Indus Waters Treaty, which group of rivers was allotted for India's exclusive use? → **Ravi, Beas and Sutlej**
+
+## Overview and data: Environment in news - reports, indices, species, protected areas, climate negotiations (1)
+
+- Where was COP28 held? → **Dubai, UAE**
+
+## Sep–4 Nov 2026: Reports and indices - releasing agency, India's rank, key findings (38)
+
+- On which date was the IndiaAI Mission approved? → **7 March 2024**
+- How many targets does the Kunming-Montreal Global Biodiversity Framework have? → **23**
+- In which year was the International Energy Agency established? → **1974**
+- Where is the International Energy Agency headquartered? → **Paris**
+- Where is the International Financial Services Centres Authority headquartered? → **GIFT City**
+- In which year was the Climate and Clean Air Coalition established? → **2012**
+- Which kind of pollutants does the Climate and Clean Air Coalition target? → **Short-lived pollutants**
+- How many targets do the Sustainable Development Goals have? → **169**
+- In which year was the World Economic Forum founded? → **1971**
+- When was the Aspirational Districts Programme launched? → **January 2018**
+- When was Jal Sanchay Jan Bhagidari launched? → **September 2024**
+- What is the capital of Chhattisgarh? → **Raipur**
+- In which year was the Zoological Society of London (ZSL) established? → **1826**
+- When was the Aspirational Blocks Programme launched? → **January 2023**
+- In which year was the FAO established? → **1945**
+- On what date was Chhattisgarh formed? → **1 November 2000**
+- In which year was the Global Coral Reef Monitoring Network established? → **1995**
+- What type of coral reefs are found in Lakshadweep? → **Atolls**
+- What type of coral reefs are found in Andaman and Nicobar? → **Fringing reefs**
+- Where is UNEP headquartered? → **Nairobi**
+- In which year was UNCTAD's first Trade and Development Report published? → **1981**
+- Which day is observed as National Statistics Day in India? → **29 June**
+- In which year was UNCTAD established? → **1964**
+- On what scale does the World Bank report the Gini measure? → **0–100**
+- Under which Act does the Central Electricity Authority now operate? → **Electricity Act, 2003**
+- In which year was Jal Shakti Abhiyan: Catch the Rain launched? → **2021**
+- What share of area under forest and tree cover does the National Forest Policy, 1988 envisage? → **33%**
+- How many goals do the Sustainable Development Goals comprise? → **17**
+- In which year was UN Women established? → **2010**
+- The Central Electricity Authority is under which ministry? → **Ministry of Power**
+- On what date did MoSPI become an independent ministry? → **15 October 1999**
+- In which year was the International Financial Services Centres Authority established? → **2020**
+- Which Constitutional Amendment introduced the Tenth Schedule in 1985? → **52nd**
+- What do corals expel during bleaching? → **Zooxanthellae algae**
+- In which year was the WHO Framework Convention on Tobacco Control adopted? → **2003**
+- In which year did the WHO FCTC come into force? → **2005**
+- In which year was the Aspirational Districts Programme launched? → **2018**
+- Under which ministry does the Registrar General and Census Commissioner function? → **Ministry of Home Affairs**
+
+## Jun–Aug 2026: Reports and indices - releasing agency, India's rank, key findings (57)
+
+- Which mosquito is the vector of Plasmodium falciparum? → **Female Anopheles**
+- The Education 2030 framework is linked to which SDG? → **SDG 4**
+- Which type of hydro is counted in India's renewable energy capacity? → **Small hydro**
+- Since which year has the Global Peace Index been published? → **2007**
+- In which city is the Institute for Economics and Peace based? → **Sydney**
+- In which year was India's nuclear doctrine drafted? → **1999**
+- In which year was India's nuclear doctrine adopted? → **2003**
+- What use policy does India's nuclear doctrine follow? → **No First Use**
+- In which year did India get the India-US civil nuclear deal and NSG waiver? → **2008**
+- What is India's stand on the Treaty on the Prohibition of Nuclear Weapons (TPNW)? → **It opposes it**
+- Which of these export-control regimes is India a member of? → **Wassenaar Arrangement**
+- 100 basis points equal what percentage? → **1%**
+- The under-five mortality rate is linked with which SDG? → **SDG 3**
+- Where is Germanwatch based? → **Bonn**
+- Where is the National Dairy Development Board headquartered? → **Anand, Gujarat**
+- What is UNESCO's education-spending benchmark as a share of GDP? → **4–6%**
+- Who is the Chairperson of NITI Aayog? → **Prime Minister**
+- The National Education Policy 2020 replaced which policy? → **National Policy on Education 1986**
+- What school structure did NEP 2020 introduce? → **5+3+3+4**
+- Which section of UAPA, 1967 defines a terrorist act? → **Section 15**
+- In which year was the National Solar Mission launched under NAPCC? → **2010**
+- On which date is World Malaria Day observed? → **25 April**
+- Since which year has India been a member of FATF? → **2010**
+- A unicorn is a private start-up valued at what? → **USD 1 billion or more**
+- In which year was the Comprehensive Convention on International Terrorism (CCIT) proposed at the UN? → **1996**
+- In which year was UNICEF established? → **1946**
+- In which year was the Indian Cyber Crime Coordination Centre (I4C) established? → **2020**
+- The National Cyber Crime Reporting Portal is under which ministry? → **Ministry of Home Affairs**
+- Which organism causes malaria? → **Plasmodium**
+- Which mosquito transmits malaria? → **Female Anopheles**
+- Which is the most severe malaria species? → **P. falciparum**
+- In which year was India's National Framework for Malaria Elimination established? → **2016**
+- What is the order of India's rural health tiers, from lowest to highest? → **Sub-Centre, PHC, CHC**
+- Under Indian law, a senior citizen is a person aged how many years or above? → **60**
+- In which year was NOTTO established? → **2014**
+- NOTTO is governed by which Act? → **Transplantation of Human Organs and Tissues Act, 1994**
+- In which year was Operation Sindoor carried out? → **2025**
+- On what date was Pokhran-I conducted? → **18 May 1974**
+- Which benchmark is used for the TOP500 list? → **High Performance Linpack**
+- Which international convention on ship recycling did India ratify in 2019? → **Hong Kong Convention**
+- Where is the International Rice Research Institute (IRRI) located? → **Los Baños, Philippines**
+- Since which year has the TOP500 supercomputer list been published? → **1993**
+- In which months is the TOP500 list released each year? → **June and November**
+- In which year was the No Money for Terror conference held in India? → **2022**
+- In which year was Operation Flood launched? → **1970**
+- Which department releases the Basic Animal Husbandry Statistics? → **Department of Animal Husbandry and Dairying**
+- Under UNCLOS, an EEZ may extend up to how far from the baseline? → **200 nautical miles**
+- Where is UNESCO headquartered? → **Paris**
+- Which ministry administers the Maintenance and Welfare of Parents and Senior Citizens Act, 2007? → **Social Justice and Empowerment**
+- The 2019 amendment to which Act let the NIA probe offences abroad? → **NIA Act**
+- In which year were the Surgical Strikes carried out? → **2016**
+- In which year was the Balakot strike carried out? → **2019**
+- On which date is National Technology Day observed? → **11 May**
+- How many nuclear tests were conducted under Operation Shakti in May 1998? → **Five**
+- Where is the OECD headquartered? → **Paris**
+- In which year was Goldman Sachs established? → **1869**
+- Under UNCLOS, the Exclusive Economic Zone extends up to how many nautical miles? → **200**
+
+## Mar–May 2026: Reports and indices - releasing agency, India's rank, key findings (22)
+
+- In which year was the Right to Education Act enacted? → **2009**
+- The Right to Education is provided under which Article of the Constitution? → **Article 21A**
+- Skytrax, the airport rating organisation, is based in which country? → **UK**
+- In which year was the National Statistical Office (NSO) established? → **2019**
+- In which year was the International Labour Organization established? → **1919**
+- Panchayati Raj constitutional provisions do not apply to Nagaland, Mizoram and which other State? → **Meghalaya**
+- Where is SIPRI located? → **Stockholm**
+- Since which year has GMR operated Rajiv Gandhi International Airport, Hyderabad? → **2008**
+- In which year was the Asian Development Bank established? → **1966**
+- Where is IRENA headquartered? → **Abu Dhabi**
+- In which year was IRENA established? → **2009**
+- In which year was the NCRB established? → **1986**
+- In which year was the Unlawful Activities (Prevention) Act enacted? → **1967**
+- In which year was MNRE established? → **1992**
+- In which year was SECI established? → **2011**
+- In which year did the Nagoya Protocol enter into force? → **2014**
+- In which year was Germanwatch established? → **1991**
+- In which year was India's National IPR Policy adopted? → **2016**
+- Under which Article is the District Planning Committee provided for? → **Article 243ZD**
+- Article 243H deals with what? → **Taxes, tolls and fees**
+- Which Constitutional Amendment provides for Nagar Panchayats, Municipal Councils and Municipal Corporations? → **74th**
+- Which organisation publishes the World Drug Report? → **UNODC**
+
+## Dec 2025–Feb 2026: Reports and indices - releasing agency, India's rank, key findings (8)
+
+- In which year was the Rashtriya Gokul Mission launched? → **2014**
+- Where was Transparency International established in 1993? → **Berlin**
+- Which of these reports is published by UNEP? → **Emissions Gap Report**
+- Which of these is a UNEP campaign? → **Beat Pollution**
+- In which year was the Rashtriya Gokul Mission for indigenous cattle breeds launched? → **2014**
+- In which year was the Transplantation of Human Organs Act, 1994 amended? → **2011**
+- Which Rio Convention is associated with restoring 1.5 billion hectares of land by 2030? → **UNCCD**
+- The 30x30 commitment is associated with which Rio Convention? → **CBD**
+
+## Apr–Nov 2025: Reports and indices - releasing agency, India's rank, key findings (7)
+
+- Since which year has the Climate Change Performance Index been published? → **2005**
+- In the SDG Index of the Sustainable Development Report, what score represents full achievement of all 17 SDGs? → **100**
+- What is the WHO annual PM2.5 limit cited in the Air Quality Life Index 2025? → **5 µg/m³**
+- The Graded Response Action Plan (GRAP) for air pollution applies to which region? → **Delhi NCR**
+- Which national programme is identified as India's air-pollution programme alongside GRAP? → **National Clean Air Programme**
+- In which year was the National Clean Air Programme launched? → **2019**
+- The RBD Act, 1969 requires a birth or death to be registered within how many days? → **21**
+
+## Special topics: Reports and indices - releasing agency, India's rank, key findings (3)
+
+- In which year was Reporters Without Borders established? → **1985**
+- Where is the headquarters of Reporters Without Borders? → **Paris**
+- Which Article of the Indian Constitution implicitly protects press freedom? → **Article 19(1)(a)**
+
+## Overview and data: Reports and indices - releasing agency, India's rank, key findings (7)
+
+- Which institution releases the Global Talent Competitiveness Index? → **INSEAD**
+- Which organisation publishes the Global Wage Report? → **ILO**
+- Which organisation publishes the World Social Protection Report? → **ILO**
+- Which organisation publishes the Frontiers Report? → **UNEP**
+- Which body publishes Crime in India? → **NCRB**
+- Which income measure does UNDP's Human Development Index use? → **GNI per capita (PPP)**
+- What kind of mean combines the dimension indices of the Human Development Index? → **Geometric mean**
+
+## Sep–4 Nov 2026: Awards and honours - national civilian awards, international prizes, film and literary awards (64)
+
+- In which year were the Nobel Prizes first awarded? → **1901**
+- What is the maximum number of persons who may generally share one Nobel Prize? → **Three**
+- In which year did UNICEF receive the Nobel Peace Prize? → **1965**
+- Who was the third crew member of Apollo 11 with Armstrong and Aldrin? → **Michael Collins**
+- Which body awards the Nobel Prize in Physics? → **Royal Swedish Academy of Sciences**
+- Which body awards the Nobel Prize in Physiology or Medicine? → **Nobel Assembly at Karolinska Institutet**
+- Which body awards the Nobel Peace Prize? → **Norwegian Nobel Committee**
+- The five members of the Norwegian Nobel Committee are appointed by which body? → **Storting**
+- Where is the Indian National Academy of Engineering headquartered? → **Gurugram**
+- In which year were the Academy Awards first held? → **1929**
+- Where is the Academy of Motion Picture Arts and Sciences headquartered? → **Beverly Hills**
+- On which date is the Nobel Prize ceremony held, marking Alfred Nobel's death anniversary? → **10 December**
+- In which year was the SASTRA-Ramanujan Award instituted? → **2005**
+- The Ramanujan Prize for Young Mathematicians from Developing Countries was instituted in which year? → **2005**
+- Where was Srinivasa Ramanujan born on 22 December 1887? → **Erode**
+- National Mathematics Day is observed every year on which date? → **22 December**
+- On which date did Tenzing Norgay and Edmund Hillary first reach the summit of Everest? → **May 29, 1953**
+- In which year did Bhupen Hazarika receive the Dadasaheb Phalke Award? → **1992**
+- The Legion of Honour, awarded to Sunil Bharti Mittal in 2026, is the highest award of which country? → **France**
+- On which date was UNICEF established? → **11 December 1946**
+- In which year did India ratify the Convention on the Rights of the Child? → **1992**
+- In which year was the American Geophysical Union established? → **1919**
+- Where is the American Geophysical Union headquartered? → **Washington, D.C.**
+- On which date was the Convention on the Rights of the Child adopted? → **20 November 1989**
+- In which city was Salman Rushdie born in 1947? → **Bombay**
+- In which year did Salman Rushdie's Midnight's Children win the Booker Prize? → **1981**
+- The National Commission for Scheduled Castes functions under which Article? → **Article 338**
+- The Sansad Ratna Awards were instituted in 2010 by which organisation? → **Prime Point Foundation**
+- In which year did Reita Faria win Miss World? → **1966**
+- In which year did Aishwarya Rai win Miss World? → **1994**
+- In which year did Diana Hayden win Miss World? → **1997**
+- In which year did Yukta Mookhey win Miss World? → **1999**
+- In which year did Priyanka Chopra win Miss World? → **2000**
+- In which year did Manushi Chhillar win Miss World? → **2017**
+- Who founded the Miss World pageant in 1951? → **Eric Morley**
+- What is the capital of the Dominican Republic? → **Santo Domingo**
+- India shares the record for most Miss World titles (six each) with which country? → **Venezuela**
+- How many Miss World titles has the United Kingdom won? → **Five**
+- In which year was the UNESCO King Sejong Literacy Prize established? → **1989**
+- The Nobel Prize in Economics was created in 1968 by which institution? → **Sweden's central bank**
+- On which date did the Apollo 11 Moon landing take place? → **20 July 1969**
+- The Central Institute of Classical Tamil in Chennai functions under which ministry? → **Ministry of Education**
+- The human brain has approximately 90 billion of what? → **Neurons**
+- P. Vasu was inspired by Gandhi's speech in Kozhikode in which year? → **1934**
+- Jayaprakash Narayan is associated with which party formed in 1934? → **Congress Socialist Party**
+- Which Amendment inserted the word 'Socialist' into the Preamble? → **42nd Amendment, 1976**
+- Margaret Hamilton led the Apollo onboard flight software programme at which institution? → **MIT Instrumentation Lab**
+- In which year did Margaret Hamilton receive the Presidential Medal of Freedom? → **2016**
+- Article 343 provides for Hindi as the official language in which script? → **Devanagari**
+- Hindi Diwas is observed on which date? → **September 14**
+- How many couplets does the Tirukkural contain? → **1,330**
+- In which year was the RSS founded by K.B. Hedgewar in Nagpur? → **1925**
+- Where was Bhupen Hazarika born on September 8, 1926? → **Sadiya**
+- Who is known as the 'Bard of the Brahmaputra'? → **Bhupen Hazarika**
+- In which year did Bhupen Hazarika receive the Padma Vibhushan? → **2012**
+- In which year did Nelson Mandela receive the Sakharov Prize? → **1988**
+- Since which year has International Literacy Day been observed? → **1967**
+- Whose Nobel Assembly picks the Nobel Prize in Physiology or Medicine? → **Karolinska Institutet**
+- In which year was the India–Israel Strategic Partnership established? → **2017**
+- Which organisation instituted the Sansad Ratna Awards? → **Prime Point Foundation**
+- What cash prize does the Jnanpith Award carry? → **₹11 lakh**
+- Who was the first Indian-origin Nobel laureate in Medicine? → **Har Gobind Khorana**
+- V. Ramakrishnan won the 2009 Nobel Prize in Chemistry for work on what? → **Ribosome structure**
+- What cash prize does the Jnanpith Award carry? → **₹11 lakh**
+
+## Jun–Aug 2026: Awards and honours - national civilian awards, international prizes, film and literary awards (40)
+
+- In which year was Project Cheetah launched at Kuno National Park? → **2022**
+- Which was the first site of Project Cheetah, launched in 2022? → **Kuno National Park**
+- In which year did acting awards begin under the National Film Awards? → **1968**
+- Which ministry implements the National Film Awards? → **Information and Broadcasting**
+- Which body organises the National Film Awards and IFFI? → **Directorate of Film Festivals**
+- In which year was the ICTP's Dirac Medal instituted? → **1985**
+- In which year was the International Centre for Theoretical Physics established? → **1964**
+- Kalidasa is linked to which period of Indian history? → **Gupta**
+- In which year did India and Slovakia establish diplomatic ties? → **1993**
+- Bratislava is the capital of which country? → **Slovakia**
+- In which year was National Handloom Day first observed? → **2015**
+- The Padma Shri is India's which-highest civilian award? → **Fourth**
+- In which year was the Lokmanya Tilak National Award established? → **1983**
+- In which year did cricketer Anjum Chopra receive the Padma Shri? → **2014**
+- Who was the first Indian woman to play 100 ODIs? → **Anjum Chopra**
+- In which year did C. Narayana Reddy receive the Jnanpith Award for Vishwambhara? → **1988**
+- In which year was the ICC Hall of Fame launched? → **2009**
+- Which ministry administers the Jeevan Raksha Padak series of awards? → **Ministry of Home Affairs**
+- On which date was the Jeevan Raksha Padak series instituted? → **30 September 1961**
+- Rat-hole coal mining is associated with which State? → **Meghalaya**
+- In which year was the Padma Shri instituted? → **1954**
+- How often is the Fields Medal awarded by the International Mathematical Union? → **Every four years**
+- In which year were the UN Women's Empowerment Principles launched? → **2010**
+- How many principles make up the UN Women's Empowerment Principles? → **Seven**
+- In which year did Sushmita Sen win Miss Universe? → **1994**
+- In which year did Lara Dutta win Miss Universe? → **2000**
+- In which year did Harnaaz Sandhu win Miss Universe? → **2021**
+- How many extensions did the Liberhan Commission on the Babri Masjid demolition receive? → **48**
+- On which date was the Liberhan Commission set up? → **16 December 1992**
+- On which date did the Liberhan Commission submit its report? → **30 June 2009**
+- Araku Valley is located in which State? → **Andhra Pradesh**
+- Abhijnanashakuntalam is a play by which poet? → **Kalidasa**
+- Which of these is a poem by Kalidasa? → **Meghadutam**
+- Who founded the RSS? → **Dr. K. B. Hedgewar**
+- Who is the Sarsanghchalak of the RSS? → **Mohan Bhagwat**
+- National Handloom Day commemorates the launch of which movement on 7 August 1905? → **Swadeshi Movement**
+- On which date is National Handloom Day observed? → **7 August**
+- On which date were the Jeevan Raksha Padak Awards instituted? → **30 September 1961**
+- In which year did C. Narayana Reddy receive the Jnanpith Award? → **1988**
+- The National Awards for e-Governance recognise what? → **ICT-based service delivery**
+
+## Mar–May 2026: Awards and honours - national civilian awards, international prizes, film and literary awards (45)
+
+- In which year did R. Vairamuthu receive the Padma Bhushan? → **2014**
+- In which year did R. Vairamuthu receive the Padma Shri? → **2003**
+- In which year was the International Booker Prize launched as the Man Booker International Prize? → **2005**
+- On which date is the International Day of UN Peacekeepers observed? → **29 May**
+- In which year were the first Sahitya Akademi Awards given? → **1955**
+- What is the prize amount of the Saraswati Samman? → **₹15 lakh**
+- Saraswati Samman considers works published within what period? → **The last 10 years**
+- Which Telugu writer received the Jnanpith Award in 2012? → **Ravuri Bharadwaja**
+- Who received the 51st Jnanpith Award (2015)? → **Raghuveer Chaudhari**
+- Who received the 56th Jnanpith Award (2021)? → **Nilmani Phookan**
+- Who received the 55th Jnanpith Award (2019)? → **Akkitham Achuthan Namboothiri**
+- Who received the 54th Jnanpith Award (2018)? → **Amitav Ghosh**
+- Who received the 53rd Jnanpith Award (2017)? → **Krishna Sobti**
+- What statue is given with the Jnanpith Award? → **Bronze Vagdevi (Saraswati)**
+- In which year was the Cannes Film Festival established? → **1946**
+- In which year was the Academy of Motion Picture Arts and Sciences established? → **1927**
+- On which date is National Reading Day observed? → **19 June**
+- P.N. Panicker contributed to setting up about how many libraries? → **6,000+**
+- How many times has R. Vairamuthu won the National Film Award for Best Lyricist? → **Seven**
+- Which film received India's first Academy Award nomination? → **Mother India**
+- Manindra Agrawal co-developed which primality test with Neeraj Kayal and Nitin Saxena? → **AKS primality test**
+- Who became India's first woman Additional Solicitor General in 2009? → **Indira Jaising**
+- In which year was the Goldman Environmental Prize established? → **1989**
+- Which environmental award is known as the 'Green Nobel Prize'? → **Goldman Environmental Prize**
+- Which was India's first Hindi newspaper? → **Udant Martand**
+- What is the maximum number of persons who may receive the Bharat Ratna in a year? → **Three**
+- Which Article bars titles except military and academic distinctions? → **Article 18(1)**
+- Which 1996 case held that national awards are not titles and cannot be used as prefixes or suffixes? → **Balaji Raghavan v. Union of India**
+- In which year was the Food and Agriculture Organization established? → **1945**
+- In which year was the Rashtriya Gram Swaraj Abhiyan launched? → **2018**
+- In which year was the Ministry of Panchayati Raj set up? → **2004**
+- Which was the first Hindi book to win the International Booker Prize, in 2022? → **Tomb of Sand**
+- In which year was the Protection of Women from Domestic Violence Act enacted? → **2005**
+- In which year was the Jnanpith Award instituted? → **1961**
+- Who received the first Jnanpith Award in 1965? → **G. Sankara Kurup**
+- In which year did Satyajit Ray receive the Honorary Oscar? → **1992**
+- Press freedom in India flows from which Article of the Constitution? → **Article 19(1)(a)**
+- In which year was the Indira Gandhi National Centre for the Arts (IGNCA) established? → **1987**
+- Dag Hammarskjold, who died in an air crash in 1961, was which UN Secretary-General? → **Second**
+- Where is UNESCO headquartered? → **Paris**
+- The Solicitor General is India's second-highest law officer after whom? → **Attorney General**
+- Who is called the 'Father of Kerala's Library Movement'? → **P.N. Panicker**
+- In which year were the Padma Awards instituted? → **1954**
+- Which distinctions does Article 18 exempt from its bar on titles? → **Military and academic**
+- G. Sankara Kurup received the Jnanpith Award in which year? → **1965**
+
+## Dec 2025–Feb 2026: Awards and honours - national civilian awards, international prizes, film and literary awards (28)
+
+- What monetary award comes with the Sarvottam Jeevan Raksha Padak? → **₹2 lakh**
+- Under the National Panchayat Awards, incentives range from Rs 50 lakh up to what amount? → **₹5 crore**
+- Which ministry announces the Padma Awards? → **Ministry of Home Affairs**
+- In which year did Ilaiyaraaja receive the Padma Vibhushan? → **2018**
+- Hockey Olympian Davinder Singh Garcha was part of India's gold-winning team at which Olympics? → **1980 Moscow**
+- In which year were India's peacetime gallantry awards instituted? → **1952**
+- On which date was the Bureau of Energy Efficiency established? → **1 March 2002**
+- The Crawford Prize won by Veerabhadran Ramanathan covers fields such as which one? → **Earth sciences**
+- In which month is the Crawford Prize ceremony held in Stockholm? → **May**
+- In which year was Prof. Nalini Joshi made an Officer of the Order of Australia? → **2016**
+- In which year was the Subhas Chandra Bose Aapda Prabandhan Puraskar instituted? → **2019**
+- What cash award does the Indira Gandhi Peace Prize carry? → **₹1 crore**
+- Which university administers the Tyler Prize? → **University of Southern California**
+- Droupadi Murmu is which President of India? → **15th**
+- In which year did Madhav Gadgil win the Tyler Prize? → **2015**
+- In which year did Ilaiyaraaja receive the Padma Bhushan? → **2010**
+- Which scheme replaced BEE's Perform, Achieve and Trade (PAT) mechanism in 2023? → **Carbon Credit Trading Scheme**
+- In which year was Rajkumari Indira Devi Dhanrajgir's first collection 'The Apostle' published? → **1964**
+- In which year did rice geneticist E. A. Siddiq receive the Padma Shri? → **2011**
+- In which year was the Tyler Prize established? → **1973**
+- During which periods were the Padma Awards suspended? → **1978-79 and 1993-97**
+- What is the maximum number of Padma Awards in a year, excluding posthumous and foreign awardees? → **120**
+- What cash award comes with the Uttam Jeevan Raksha Padak? → **₹1.5 lakh**
+- What cash award comes with the (plain) Jeevan Raksha Padak? → **₹1 lakh**
+- Under which Act was the Bureau of Energy Efficiency established? → **Energy Conservation Act, 2001**
+- Which of these is a Bureau of Energy Efficiency initiative? → **Demand Side Management**
+- Which Indian military operation followed the Pahalgam attack of 22 April 2025? → **Operation Sindoor**
+- On which day are the Padma Awards announced each year? → **Republic Day**
+
+## Apr–Nov 2025: Awards and honours - national civilian awards, international prizes, film and literary awards (45)
+
+- In which year did Alfred Nobel write the will establishing the Nobel Prizes? → **1895**
+- Which body awards the Nobel Prize in Literature? → **Swedish Academy**
+- A Josephson junction consists of two superconductors separated by what? → **A thin insulator**
+- Metal-Organic Frameworks are crystalline porous materials made of metal ions and what? → **Organic ligands**
+- Which of these is an application of Metal-Organic Frameworks? → **Carbon capture**
+- Which Nobel-associated prize is not part of Alfred Nobel's will? → **Economic Sciences**
+- Unlike rigid zeolites, some Metal-Organic Frameworks can do what? → **Breathe**
+- Deletion of self-reactive T-cells in the thymus is called what? → **Central tolerance**
+- In which year was the Economics prize set up by Sweden's central bank? → **1968**
+- With which revolutionary organisation was Batukeshwar Dutt associated? → **HSRA**
+- Which body awards the Sakharov Prize for Freedom of Thought? → **European Parliament**
+- What prize money does the Sakharov Prize carry? → **€50,000**
+- In which year did Malala Yousafzai receive the Sakharov Prize? → **2013**
+- In which year did Denis Mukwege receive the Sakharov Prize? → **2014**
+- In which year did Nadia Murad receive the Sakharov Prize? → **2016**
+- In which year did Vinoba Bhave receive the Ramon Magsaysay Award? → **1958**
+- In which year did Mother Teresa receive the Ramon Magsaysay Award? → **1962**
+- In which year did Jayaprakash Narayan receive the Ramon Magsaysay Award? → **1965**
+- In which year did Motilal Nehru move a motion for a separate Assembly Department? → **1928**
+- On which date are the Padma Awards announced? → **25 January**
+- Who is eligible for the Kirti Chakra? → **Civilians and military personnel**
+- In which year was the Prime Minister's Award for Excellence in Public Administration launched? → **2006**
+- On which date did Batukeshwar Dutt and Bhagat Singh throw bombs in the Central Assembly? → **8 April 1929**
+- What was the intended nature of the bombs thrown in the Central Assembly in 1929? → **Harmless and symbolic**
+- Which slogan was raised along with 'Inquilab Zindabad' during the 1929 Assembly bombing? → **Down with Imperialism**
+- In which jail was Batukeshwar Dutt when Bhagat Singh, Rajguru and Sukhdev were hanged? → **Salem Jail**
+- In which year was Batukeshwar Dutt released from jail before his Quit India re-arrest? → **1938**
+- After his re-arrest in the Quit India Movement (1942), how many more years was Batukeshwar Dutt imprisoned? → **Four**
+- In which city did Batukeshwar Dutt meet Bhagat Singh? → **Kanpur**
+- In which city did Batukeshwar Dutt settle in later life? → **Patna**
+- Where was Batukeshwar Dutt cremated? → **Hussainiwala**
+- Who became the first Indian President of the Central Legislative Assembly on 22 August 1925? → **Vithalbhai Patel**
+- In which year did Vithalbhai Patel co-found the Swaraj Party with Motilal Nehru and C.R. Das? → **1923**
+- In which year was an independent Legislative Assembly Secretariat created? → **1929**
+- Where was Vithalbhai Patel born on 27 September 1873? → **Nadiad**
+- In which year did Vithalbhai Patel enter the Bombay Legislative Council? → **1912**
+- In which year did Vithalbhai Patel enter the Imperial Legislative Council? → **1918**
+- Vithalbhai Patel refused to stand to receive which dignitary, upholding the dignity of the chair? → **The Viceroy**
+- Who presents the Kirti Chakra? → **The President**
+- In which city is the Sakharov Prize ceremony held? → **Strasbourg**
+- In which city is the Ramon Magsaysay Award ceremony held? → **Manila**
+- On which date is the Ramon Magsaysay Award ceremony held? → **31 August**
+- In which year was the Kirti Chakra instituted? → **1952**
+- The AP State Disaster Response Force is constituted under which body? → **State Police**
+- The Kirti Chakra is the which-highest peacetime gallantry award? → **Second**
+
+## Special topics: Awards and honours - national civilian awards, international prizes, film and literary awards (40)
+
+- Which government servants are eligible for the Padma Awards as an exception? → **Doctors and scientists**
+- Which Telugu writer received the Jnanpith Award in 1970? → **Viswanatha Satyanarayana**
+- The Padma Awards are announced through a notification of which ministry? → **Home Affairs**
+- Which body presents the Academy Awards? → **Academy of Motion Picture Arts and Sciences**
+- On which date was the Forward Bloc founded? → **3 May 1939**
+- Which slogan is associated with Netaji Subhas Chandra Bose? → **Chalo Dilli**
+- In which year was Ross Island renamed Netaji Subhas Chandra Bose Island? → **2018**
+- On which date did Rash Behari Bose hand over the INA to Subhas Chandra Bose? → **4 July 1943**
+- A posthumous Padma Award may be given if the person's death occurred within what period? → **One year**
+- What cash prize do the Padma Awards carry? → **No cash prize**
+- Which of these is a listed field for the Padma Awards? → **Civil Services**
+- In which year was the name 'Oscar' adopted for the Academy Award? → **1939**
+- In which year was Mother India nominated for the Academy Award? → **1958**
+- The Golden Globe Awards were originally described as what? → **Hollywood Party of the Year**
+- In which year was the Hollywood Foreign Press Association established? → **1943**
+- Which organisation confers the Jnanpith Award? → **Bharatiya Jnanpith**
+- The Jnanpith Award, first given in 1965, was established in which year? → **1961**
+- To whom was the first Jnanpith Award given in 1965? → **G. Sankara Kurup**
+- In which year did Viswanatha Satyanarayana receive the Jnanpith Award? → **1970**
+- In which year did Ravuri Bharadwaja receive the Jnanpith Award? → **2012**
+- The Jnanpith Award is given for literature in which languages? → **Eighth Schedule languages**
+- On which date was the Azad Hind Fauj originally formed by Raja Mahendra Pratap Singh and others? → **29 October 1915**
+- Which goddess's bronze statue is presented with the Jnanpith Award? → **Vagdevi (Saraswati)**
+- Since 2013, what is the official name of the BAFTA film awards? → **EE British Academy Film Awards**
+- In which year were the Golden Globe Awards first presented? → **1944**
+- Which organisation established the Golden Globe Awards? → **Hollywood Foreign Press Association**
+- During which years did the Indian National Army under Bose exist? → **1943-45**
+- On which date did Bose first call Gandhi 'Father of the Nation' in a radio broadcast from Singapore? → **6 July 1944**
+- On which date is the Subhash Chandra Bose Aapda Prabandhan Puraskar announced every year? → **23 January**
+- Which ministry gives the Subhash Chandra Bose Aapda Prabandhan Puraskar? → **Ministry of Home Affairs**
+- In which year was Netaji's birthday declared Parakram Diwas? → **2021**
+- In which year did Bhanu Athaiya win the Academy Award for Costume Design for Gandhi? → **1983**
+- Who received an Honorary Oscar in 1992? → **Satyajit Ray**
+- In which year was the posthumous Bharat Ratna to Subhas Chandra Bose withdrawn? → **1997**
+- On which date was the Azad Hind Government established at Singapore? → **21 October 1943**
+- On which date did Bose hoist the Tricolour at Port Blair? → **30 December 1943**
+- Boyi Bhimanna won the Sahitya Akademi Award in 1975 for which work? → **Gudisale Kalipotunnayi**
+- Boyi Bhimanna won the Sahitya Akademi Award for which work? → **Gudisale Kalipotunnayi**
+- In which year was the Sahitya Akademi registered as a society? → **1956**
+- On which date was the Sahitya Akademi inaugurated? → **12 March 1954**
+
+## Overview and data: Awards and honours - national civilian awards, international prizes, film and literary awards (27)
+
+- The Tenzing Norgay National Adventure Award is equivalent to which sports award? → **Arjuna Award**
+- Which department gives the Prime Minister's Award for Excellence in Public Administration? → **DARPG**
+- The Vir Chakra is the third-highest gallantry award of which kind? → **Wartime**
+- Which case held that Padma awards cannot be used as a prefix or suffix? → **Balaji Raghavan (1996)**
+- Who is eligible for the Ashoka Chakra besides armed forces personnel? → **Civilians**
+- In which year was the Geological Survey of India founded? → **1851**
+- The Padma Vibhushan is India's which-highest civilian award? → **Second**
+- In which year was the Sangeet Natak Akademi set up? → **1952**
+- Who confers the Sangeet Natak Akademi Fellowships and Awards? → **The President**
+- What cash amount does the Sangeet Natak Akademi Ratna (Fellowship) carry? → **₹3 lakh**
+- What is the maximum number of living Fellows of the Sangeet Natak Akademi? → **40**
+- Which department has organised Civil Services Day since 2006? → **DARPG**
+- In which year was the Khel Ratna (now Major Dhyan Chand Khel Ratna) instituted? → **1991-92**
+- In which year was the Arjuna Award (Lifetime) instituted? → **2024**
+- What cash prize does the Major Dhyan Chand Khel Ratna carry? → **₹25 lakh**
+- The Dronacharya Award is given to whom? → **Coaches**
+- In which year was the Dronacharya Award instituted? → **1985**
+- On which date is Civil Services Day observed? → **21 April**
+- Which department gives the National Awards for e-Governance? → **DARPG**
+- The National Energy Conservation Award is given by BEE on the basis of which index? → **State Energy Efficiency Index**
+- Which Padma award is given for 'distinguished service of high order'? → **Padma Bhushan**
+- Who confers the Padma Awards at Rashtrapati Bhavan? → **The President**
+- Can Padma awards be used as prefixes or suffixes to a recipient's name? → **No, never**
+- In which year was the Sahitya Akademi founded? → **1952**
+- For which work did Ravuri Bharadwaja win the Jnanpith Award? → **Paakudu Raallu**
+- Which awards are known as the 'Green Oscars'? → **Whitley Awards**
+- Which institution administers the Pulitzer Prizes? → **Columbia University**
+
+## Sep–4 Nov 2026: Sports - major tournaments, winners, records and hosting rights (17)
+
+- Where is the Olympic Council of Asia headquartered? → **Kuwait**
+- In which year did the OCA replace the Asian Games Federation? → **1981**
+- In which year did the OCA headquarters move to Kuwait? → **1982**
+- In which year was the ICC established as the Imperial Cricket Conference? → **1909**
+- In which year was the cricket body renamed the International Cricket Council? → **1989**
+- Where is the International Cricket Council headquartered? → **Dubai**
+- How often are the World Athletics Championships held? → **Every two years**
+- Where was the first International Olympiad on Astronomy and Astrophysics held in 2007? → **Chiang Mai, Thailand**
+- In which year was the US Open tennis tournament established? → **1881**
+- On which surface is the US Open played? → **Hard court**
+- In which year was the Women's ODI World Cup first held? → **1973**
+- In which city did India host the World Puzzle Championship in 2008? → **Goa**
+- In which city did India host the World Puzzle Championship in 2017? → **Bengaluru**
+- Where is the Badminton World Federation headquartered? → **Kuala Lumpur**
+- The US Open is held at the USTA Billie Jean King National Tennis Center in which city? → **New York**
+- In which year was World Athletics (formerly IAAF) established? → **1912**
+- Where is the headquarters of the Olympic Council of Asia, established in 1982? → **Kuwait City**
+
+## Jun–Aug 2026: Sports - major tournaments, winners, records and hosting rights (26)
+
+- Which code of 2011 governs national sports federations in India? → **National Sports Development Code of India**
+- Khelo India merged the Rajiv Gandhi Khel Abhiyan, the National Sports Talent Search Scheme and which other scheme? → **Urban Sports Infrastructure Scheme**
+- The KIRTI programme identifies sporting talent in which age group? → **9–18 years**
+- KIRTI aims for India to be among the top 5 sporting nations by which year? → **2047**
+- In which year was the Badminton World Federation established? → **1934**
+- In which year were the first BWF World Championships held? → **1977**
+- Where are the headquarters of the Badminton World Federation? → **Kuala Lumpur**
+- Argentina's women's hockey team is known by which nickname? → **Las Leonas**
+- Where is the International Hockey Federation (FIH) headquartered? → **Lausanne**
+- In which year was the Durand Cup started? → **1888**
+- The Durand Cup, India's oldest football tournament, is run by which body? → **The Armed Forces**
+- Who won India's first-ever medal at the BWF World Championships, a bronze in 1983? → **Prakash Padukone**
+- Which pair won India's first women's doubles medal at the BWF World Championships in 2011? → **Jwala Gutta–Ashwini Ponnappa**
+- The French Open is the only Grand Slam tournament played on which surface? → **Clay**
+- How many norms are required for the chess Grandmaster title? → **Three**
+- What rating is required for the chess Grandmaster title? → **2500**
+- How many members does the South Asian Football Federation have? → **7**
+- Who was India's first chess Grandmaster? → **Viswanathan Anand**
+- How many times was Viswanathan Anand world chess champion? → **Five**
+- Khelo India is administered by which ministry? → **Ministry of Youth Affairs and Sports**
+- Since which year has India participated in the Commonwealth Games? → **1934**
+- Khelo India is which type of scheme? → **Central Sector scheme**
+- SAFF was established in which year and place? → **1997, Dhaka**
+- Where was FIDE established in 1924? → **Lausanne**
+- Which city hosts the 2028 Olympics? → **Los Angeles**
+- Which city hosts the 2032 Olympics? → **Brisbane**
+
+## Mar–May 2026: Sports - major tournaments, winners, records and hosting rights (19)
+
+- Where is the headquarters of the BCCI? → **Mumbai**
+- K2, the second-highest mountain, lies on which border? → **Pakistan–China**
+- In which year was the Thomas Cup established? → **1949**
+- How often are the Commonwealth Games held? → **Every 4 years**
+- In which year was the All England Open Badminton tournament established? → **1899**
+- Where is the Asian Boxing Confederation headquartered? → **Dubai**
+- What is the height of Mount Everest? → **8,849 metres**
+- India won its first Olympic hockey gold in which year and venue? → **1928 Amsterdam**
+- In which year were the first Commonwealth Games held at Hamilton, Canada? → **1930**
+- In which year was the Arjuna Award instituted? → **1961**
+- In which year was the Indian Olympic Association established? → **1927**
+- In which year was the ISSF established? → **1907**
+- In which year was the World Squash Federation established? → **1967**
+- In which year was the International Olympic Committee established? → **1894**
+- In which year was the Sports Authority of India established? → **1984**
+- India–New Zealand sports ties began in 1926 through an Indian Army tour in which sport? → **Hockey**
+- Sport is Entry 33 of which list of the Seventh Schedule? → **State List**
+- Which country holds the record for most Thomas Cup titles, with 14? → **Indonesia**
+- Where is the ISSF headquartered? → **Munich**
+
+## Dec 2025–Feb 2026: Sports - major tournaments, winners, records and hosting rights (16)
+
+- Which team won the ICC Men's T20 World Cup 2022? → **England**
+- In which year was the All India Football Federation established? → **1937**
+- Which team won the ICC Men's T20 World Cup 2014? → **Sri Lanka**
+- Which team won the ICC Men's T20 World Cup 2016? → **West Indies**
+- Which team won the ICC Men's T20 World Cup 2012? → **West Indies**
+- Where is the Asian Cricket Council headquartered? → **Dubai**
+- Aconcagua is the highest peak outside which continent? → **Asia**
+- Aconcagua, the highest peak in South America, lies in which country? → **Argentina**
+- What is the approximate height of Aconcagua? → **6,960 m**
+- The Cook Strait links the South Pacific with which sea? → **Tasman Sea**
+- The Cook Strait lies between the North and South Islands of which country? → **New Zealand**
+- Where is the Asian Football Confederation headquartered? → **Kuala Lumpur**
+- Where is the South Asian Football Federation headquartered? → **Dhaka**
+- Who won India's first Olympic boxing medal, a bronze at Beijing 2008? → **Vijender Singh**
+- In which event did Jinson Johnson win gold at the 2018 Asian Games? → **1500 m**
+- How many T20 World Cup titles had West Indies won before 2026? → **Two**
+
+## Special topics: Sports - major tournaments, winners, records and hosting rights (7)
+
+- Which city hosted the first Commonwealth Games in 1930? → **Hamilton**
+- In which year did the 20-team format of the ICC Men's T20 World Cup begin? → **2024**
+- In which year did the Indian Premier League start? → **2008**
+- Which team were the first IPL champions? → **Rajasthan Royals**
+- Which batter holds the IPL record of 973 runs in a season? → **Virat Kohli**
+- Which player has won a record 3 IPL Orange Caps? → **David Warner**
+- Mumbai Indians and which other team have 5 IPL titles each? → **Chennai Super Kings**
+
+## Overview and data: Sports - major tournaments, winners, records and hosting rights (2)
+
+- Which team won the ICC Men's T20 World Cup 2021? → **Australia**
+- Before Goa 2025, the last FIDE World Cup in India was held in 2002 in which city? → **Hyderabad**
+
+## Sep–4 Nov 2026: Books and authors; important days and their themes (94)
+
+- In which year was the Ministry of Skill Development and Entrepreneurship established? → **2014**
+- The Swachh Bharat Mission was launched on which date? → **October 2, 2014**
+- In which year was the World Food Programme (WFP) established? → **1961**
+- In which year was the Universal Postal Union established? → **1874**
+- In which year did the World Food Programme win the Nobel Peace Prize? → **2020**
+- On what date was the Swachh Bharat Mission launched? → **2 October 2014**
+- The Universal Postal Union was founded on 9 October 1874 through which treaty? → **Treaty of Bern**
+- Where is the headquarters of the Universal Postal Union? → **Bern**
+- On what date did India join the Universal Postal Union? → **1 July 1876**
+- In which year did the UN General Assembly declare World Space Week? → **1999**
+- On what date was Sputnik 1 launched? → **4 October 1957**
+- How many selection criteria does the World Heritage framework have? → **10**
+- In which year did Mahatma Gandhi go to England? → **1888**
+- On what date did Mahatma Gandhi die? → **30 January 1948**
+- Gandhi's Champaran movement of 1917 concerned which group? → **Indigo cultivators**
+- During which period did the Non-Cooperation Movement take place? → **1920–22**
+- On what date did the Dandi March begin? → **12 March 1930**
+- In which year were the Gandhi-Irwin Pact and the Second Round Table Conference? → **1931**
+- World Food Day marks the founding of FAO on 16 October 1945 at which conference? → **Quebec City**
+- In which year was World Food Day first observed? → **1981**
+- Which UNGA resolution declared the International Day of the Girl Child? → **66/170**
+- When was the International Day of the Girl Child first observed? → **11 October 2012**
+- Which SDG target seeks to end child marriage by 2030? → **SDG 5.3**
+- In which year was the UN resolution on the International Day of Rural Women adopted? → **2007**
+- On what date did Himachal Pradesh attain statehood? → **25 January 1971**
+- Where was the National Biodiversity Authority set up in 2003? → **Chennai**
+- On what date was the National Green Tribunal established? → **October 18, 2010**
+- In which year were the National Film Awards first instituted? → **1954**
+- On what date was NITI Aayog established? → **January 1, 2015**
+- On what date was the World Health Organization established? → **April 7, 1948**
+- In which year was the International Day of Rural Women first observed? → **2008**
+- Since which year has Hindi Diwas been observed? → **1953**
+- Since which year has the UN observed the International Day of Charity? → **2012**
+- Since which year has Teachers' Day been observed in India? → **1962**
+- In which year was the Legal Services Authorities Act enacted? → **1987**
+- In which year was the International Film Festival of India first held? → **1952**
+- In which year did the UN General Assembly set the International Day of Clean Air for Blue Skies? → **2019**
+- In which year was the International Day of Clean Air for Blue Skies first observed? → **2020**
+- In India, which bodies propose sites for UNESCO's Tentative List? → **ASI and INCCU**
+- In which year did Mahatma Gandhi go to South Africa? → **1893**
+- In which year did Mahatma Gandhi return to India from South Africa? → **1915**
+- In which month and year did the Quit India Movement begin? → **August 1942**
+- What was the slogan of the Quit India Movement? → **Do or Die**
+- Which stamp, issued in 1852, was the first adhesive stamp in India? → **Scinde Dawk**
+- In which year were postage stamps issued nationwide in India? → **1854**
+- In which year was the Innovations for Defence Excellence (iDEX) initiative established? → **2018**
+- Kathakali is a classical dance-drama of which state? → **Kerala**
+- Which body evaluates cultural heritage nominations for UNESCO? → **ICOMOS**
+- How many members does the World Heritage Committee have? → **21**
+- In which year did India ratify the World Heritage Convention? → **1977**
+- In SVAMITVA, the 'I' in 'Mapping with ___ Technology in Village Areas' stands for? → **Improvised**
+- India's first passenger train ran between which stations on April 16, 1853? → **Mumbai–Thane**
+- Ladakh is which type of Union Territory? → **Without legislature**
+- Where is ICRISAT, established in 1972, based? → **Hyderabad**
+- In which year was the Belgaum Session of the INC, presided over by Gandhi, held? → **1924**
+- In which year was Tamil granted classical language status? → **2004**
+- In which year was Sanskrit granted classical language status? → **2005**
+- In which year was Malayalam granted classical language status? → **2013**
+- In which year was the Hidimba Devi Temple at Manali built? → **1553**
+- In which architectural style is the Hidimba Devi Temple at Manali built? → **Wooden pagoda style**
+- The Ahmedabad Mill Strike of 1918 concerned which group? → **Textile workers**
+- The Kheda movement of 1918 sought relief from what? → **Land revenue**
+- In which year was the Council of Scientific and Industrial Research established? → **1942**
+- In which year was UN Women established? → **2010**
+- In which year was CEDAW adopted? → **1979**
+- Who was Hidimba's son in the Mahabharata tradition? → **Ghatotkacha**
+- Which city is the capital of Himachal Pradesh? → **Shimla**
+- The Musi is a tributary of which river? → **Krishna**
+- Where does the Musi river originate? → **Ananthagiri Hills**
+- In which year was Tata Steel established? → **1907**
+- SVAMITVA was introduced in 2020 by which ministry? → **Ministry of Panchayati Raj**
+- Article 39A of the Constitution provides for what? → **Free legal aid**
+- In which year was ICAR established? → **1929**
+- Where is WWF headquartered? → **Gland**
+- NFDC functions under which ministry? → **Ministry of Information and Broadcasting**
+- How many bits does an IPv6 address use? → **128**
+- How many bits does an IPv4 address use? → **32**
+- How many Regional Internet Registries are there? → **Five**
+- Which body evaluates cultural sites for UNESCO World Heritage? → **ICOMOS**
+- Which body evaluates natural sites for UNESCO World Heritage? → **IUCN**
+- On which date did Vande Mataram become a Swadeshi-era slogan? → **7 August 1905**
+- Who composed Vande Mataram? → **Bankim Chandra Chatterjee**
+- Where is India's National Biodiversity Authority headquartered? → **Chennai**
+- Under which Act was the Central Vigilance Commission made statutory? → **CVC Act 2003**
+- Where is the National Biodiversity Authority headquartered? → **Chennai**
+- In which year was the National Monuments Authority established? → **2010**
+- Where is the headquarters of the National Biodiversity Authority? → **Chennai**
+- In which year was the Universal Postal Union established? → **1874**
+- On which date was Andhra Pradesh formed? → **1 November 1956**
+- In which year was the Central Vigilance Commission set up? → **1964**
+- Pravasi Bharatiya Divas on 9 January marks what event? → **Gandhi's return from South Africa**
+- In which year was Garba of Gujarat inscribed on UNESCO's intangible heritage list? → **2023**
+- Andhra Pradesh was formed in which year? → **1956**
+- The International Booker Prize is given for what kind of fiction? → **Fiction translated into English**
+
+## Jun–Aug 2026: Books and authors; important days and their themes (102)
+
+- On which date is the International Day Against Drug Abuse and Illicit Trafficking observed? → **June 26**
+- Where does India rank in cotton production? → **Second**
+- In which year was the Rome Statute adopted? → **1998**
+- The International Day against Nuclear Tests marks the closure of which test site? → **Semipalatinsk**
+- The UNCCD was adopted on 17 June 1994 in which city? → **Paris**
+- On which date is the World Day to Combat Desertification and Drought observed? → **17 June**
+- Where did Sido and Kanhu Murmu proclaim the Santal Hul? → **Bhognadih**
+- The Santal Hul occurred in Damin-i-Koh, a tract along which hills? → **Rajmahal Hills**
+- What does 'Hul' mean in Santali? → **Rebellion**
+- During which period did the Santal rebellion take place? → **June 1855–January 1856**
+- The Santal rebellion is regarded as a precursor of which event? → **The 1857 revolt**
+- On what date was Jharkhand formed? → **November 15, 2000**
+- Hul Diwas on June 30 commemorates what? → **Santal rebellion of 1855**
+- How many natural World Heritage Sites does India have? → **7**
+- How many members does BIMSTEC have? → **7**
+- ISO 22000:2018 relates to which field? → **Food safety**
+- About how tall is the Dancing Girl of Mohenjo-daro? → **10.5 cm**
+- On which date is National Statistics Day observed in India? → **29 June**
+- Since which year has National Statistics Day been observed? → **2007**
+- On which date is World Oceans Day observed? → **8 June**
+- World Brain Tumour Day is observed by which organisation? → **Deutsche Hirntumorhilfe**
+- On which date is Telangana Formation Day observed? → **2 June**
+- On which date is World Bicycle Day observed? → **3 June**
+- On which date is the International Day of Innocent Children Victims of Aggression observed? → **4 June**
+- On which date is World Environment Day observed? → **5 June**
+- Which organisation is associated with the World Day to Combat Desertification and Drought? → **UNCCD**
+- Sustainable Gastronomy Day is associated with the UN, UNESCO and which other body? → **FAO**
+- World Environment Day is observed under the aegis of which body? → **UNEP**
+- GST Day on July 1 marks GST coming into force in which year? → **2017**
+- On which date is World Zoonoses Day observed? → **July 6**
+- On which date is World Kiswahili Language Day observed? → **July 7**
+- Since which year has World Kiswahili Language Day been observed? → **2022**
+- Nelson Mandela International Day is associated with how many minutes of service? → **67**
+- Since which year has International Chess Day been observed? → **1966**
+- Since which year has Nelson Mandela International Day been observed? → **2010**
+- On what date did the ASEAN–India Trade in Goods Agreement come into force? → **January 1, 2010**
+- The Taman Siswa schools were founded by whom? → **Ki Hajar Dewantara**
+- Who introduced income tax in India on July 24, 1860? → **Sir James Wilson**
+- Kargil Vijay Diwas is associated with which 1999 operation? → **Operation Vijay**
+- Since which year has World Hepatitis Day been observed? → **2010**
+- Since which year has International Tiger Day been observed? → **2010**
+- The International Day of Cooperatives is observed on which day? → **First Saturday of July**
+- On what date was NITI Aayog established? → **1 January 2015**
+- Russian Language Day is associated with the birthday of which poet? → **Alexander Pushkin**
+- Since which year has the International Day for Dialogue among Civilizations been observed? → **2024**
+- Which organisation is associated with the International Day of Family Remittances? → **IFAD**
+- On which date is World Humanitarian Day observed? → **19 August**
+- On which date is World Biofuel Day observed? → **10 August**
+- The Quit India resolution was passed at the Bombay AICC session on which date? → **8 August 1942**
+- On which date is Nagasaki Day observed? → **9 August**
+- On which date is Hiroshima Day observed? → **6 August**
+- On which date is the International Day of the World's Indigenous Peoples observed? → **9 August**
+- Santali was included in which Schedule of the Constitution in 2003? → **Eighth Schedule**
+- How many members does the Asia-Pacific Parliamentary Forum have? → **28**
+- Which major dam is on the Mahanadi? → **Hirakud**
+- In which year was Maritime India Vision 2030 launched? → **2021**
+- From which country was the Annapurna idol returned to India in 2021? → **Canada**
+- Where did the Buddha attain enlightenment before his first sermon at Sarnath? → **Bodh Gaya**
+- The Dhamek Stupa at Sarnath marks the spot of which event? → **Buddha's first sermon**
+- How many cultural World Heritage Sites does India have? → **36**
+- Which is India's only mixed World Heritage Site? → **Khangchendzonga National Park**
+- Which is India's first World Heritage City? → **Historic City of Ahmedabad**
+- In which year was Konark inscribed as a World Heritage Site? → **1984**
+- In which year were Agra Fort and Ajanta among India's first UNESCO inscriptions? → **1983**
+- Which Sarnath find is India's National Emblem? → **Mauryan Lion Capital**
+- The Dharmachakrapravartana Buddha from Sarnath is an example of which art? → **Gupta art**
+- In which year was the Archaeological Survey of India established? → **1861**
+- Where is the Dancing Girl of Mohenjo-daro kept? → **National Museum, New Delhi**
+- Which country proposed the International Day of Yoga? → **India**
+- The Ramappa Temple (Kakatiya Rudreshwara) is in which state? → **Telangana**
+- Which Puri Rath Yatra chariot, with 16 wheels, carries Lord Jagannath? → **Nandighosa**
+- The Taladhwaja chariot with 14 wheels carries which deity? → **Balabhadra**
+- The Darpadalana chariot with 12 wheels carries which deity? → **Subhadra**
+- What is the return journey of the Puri Rath Yatra called? → **Bahuda Yatra**
+- The 12th-century Jagannath Temple at Puri is associated with which ruler? → **Anantavarman Chodaganga Deva**
+- Kolanupaka in Telangana is famous for which kind of temple? → **Jain temple**
+- Since which year has the UN observed the International Day of Cooperatives? → **1995**
+- Since which year has World Oceans Day been officially observed? → **2009**
+- The International Day for Countering Hate Speech is associated with the UN and which body? → **UNESCO**
+- Through which UNGA resolution was the International Day of Yoga adopted in 2014? → **69/131**
+- In which year was World Environment Day first held? → **1973**
+- Who created the Ol Chiki script? → **Pandit Raghunath Murmu**
+- In which year was the Ol Chiki script developed? → **1925**
+- In which year was BIMSTEC established? → **1997**
+- In which year was the Codex Alimentarius Commission set up? → **1961**
+- In which year was the current Consumer Protection Act enacted? → **2019**
+- The Consumer Protection Act, 2019 replaced the Act of which year? → **1986**
+- In which hills does the Mahanadi rise? → **Sihawa Hills**
+- The Mahanadi enters the Bay of Bengal near which place? → **Paradip**
+- Which Jain Tirthankara is depicted with a snake hood? → **Parshvanatha**
+- Kunthunatha, the 17th Tirthankara, has which animal as his symbol? → **Goat**
+- Mahavira is which Tirthankara of Jainism? → **24th**
+- Tagore brought which craft from Indonesia to Bengal? → **Javanese Batik**
+- In which year was the Ministry of Cooperation established? → **2021**
+- Paraquat is what type of herbicide? → **Non-selective contact herbicide**
+- In which year was BRICS formed? → **2006**
+- ISO 21001:2018 relates to which field? → **Education**
+- How many States are members of the North Eastern Council? → **8**
+- In which year did Sikkim join the North Eastern Council? → **2002**
+- GAGAN, a satellite-based augmentation system, was developed by ISRO and which body? → **AAI**
+- The ASEAN-India Trade in Goods Agreement (AITIGA) dates to which year? → **2010**
+- On which date is National Sports Day observed? → **29 August**
+
+## Mar–May 2026: Books and authors; important days and their themes (74)
+
+- World TB Day is observed on which date? → **24 March**
+- The 73rd Constitutional Amendment came into force on which date? → **April 24, 1993**
+- World Wildlife Day marks the adoption of which convention in 1973? → **CITES**
+- Since which year has World Portuguese Language Day been observed? → **2020**
+- Since which year has the UN observed the International Day for Biological Diversity on 22 May? → **2001**
+- Who first formed the Indian National Army in 1942 with Japanese support? → **Captain Mohan Singh**
+- Which women's regiment was part of the Indian National Army? → **Rani of Jhansi Regiment**
+- On which date is National Safety Day observed in India? → **March 4**
+- What does 'Nowruz' mean? → **New Day**
+- Since which year has World Press Freedom Day been observed? → **1993**
+- National Fire Safety Week in India is observed on which dates? → **4 to 10 May**
+- Which day is observed on April 25? → **World Malaria Day**
+- Where is the headquarters of the World Health Organization? → **Geneva**
+- Which Bihu marks the Assamese New Year in April? → **Rongali (Bohag) Bihu**
+- Where was Raja Ravi Varma born on April 29, 1848? → **Kilimanoor**
+- On what date did the Champaran Satyagraha begin? → **April 10, 1917**
+- On what date did the Jallianwala Bagh incident take place? → **April 13, 1919**
+- When was the Hunter Commission on the Jallianwala Bagh incident formed? → **October 1919**
+- Brahmi, Maheshwari, Kaumari, Vaishnavi, Varahi, Indrani and Chamundi together form which group? → **Saptamatrikas**
+- Which slogan was associated with the Indian National Army? → **Jai Hind**
+- In which year were the Manhattan Principles on One Health formulated? → **2004**
+- Since which year has India been a member of the Convention on Migratory Species? → **1983**
+- World Red Cross Day marks the birth anniversary of whom? → **Jean Henry Dunant**
+- In which year did Jean Henry Dunant receive the first Nobel Peace Prize? → **1901**
+- Since which year has WHO observed World No Tobacco Day? → **1988**
+- National Safety Week is observed on which dates? → **March 4 to March 11**
+- Who consecrated the present Somnath temple on 11 May 1951? → **Dr. Rajendra Prasad**
+- The Somnath temple is at Prabhas Patan near which town? → **Veraval**
+- Somnath is which of the 12 Jyotirlingas in the Dwadasha Jyotirlinga Stotram? → **First**
+- Kumarapala is associated with Somnath as a restorer of which century? → **12th**
+- Who described Somnath in Kitab-ul-Hind? → **Al-Biruni**
+- In which year was Somnath conferred Swachh Iconic Place status? → **2018**
+- To which century does the Prambanan temple compound near Yogyakarta date? → **9th century**
+- Which fort has the world's second-largest surviving defensive wall after the Great Wall of China? → **Kumbhalgarh Fort**
+- Kumbhalgarh Fort is in which State? → **Rajasthan**
+- Who built the Brihadisvara Temple at Thanjavur? → **Rajaraja Chola**
+- During which centuries did the Chola Empire flourish? → **9th to 13th**
+- In which year was the Sagarmala programme launched? → **2015**
+- When was Mission Karmayogi launched? → **September 2020**
+- The Mizoram festival Chapchar Kut is held after which jhum activity? → **Clearing**
+- Which was the first UN peacekeeping mission, set up in 1948? → **UNTSO**
+- The Etor Gidi festival belongs to which State? → **Arunachal Pradesh**
+- The UNESCO Convention of which year combats illicit import and export of cultural property? → **1970**
+- Thalassemia is what type of blood disorder? → **Genetic**
+- How many major ports does India have? → **13**
+- In which year did Indian Railways begin? → **1853**
+- In which month is Kati (Kongali) Bihu observed? → **October**
+- In which month is Magh (Bhogali) Bihu observed? → **January**
+- In which year was Jyotirao Phule born? → **1827**
+- In which year did Jyotirao Phule establish the first girls' school? → **1848**
+- Which Article of the Constitution provides for the CAG? → **Article 148**
+- In which year was the Archaeological Survey of India established? → **1861**
+- In which year did Subhas Chandra Bose take over the INA? → **1943**
+- The INA conducted campaigns at Kohima and which other place? → **Imphal**
+- Subhas Chandra Bose's economic vision favoured what kind of planning? → **State-led planning**
+- Rani Lakshmibai is associated with which form of resistance? → **Armed resistance, 1857**
+- Kasturba Gandhi is associated with which movements? → **Gandhian mass movements**
+- Begum Hazrat Mahal is associated with which movement? → **Revolt of 1857**
+- In which year was the Department of Pharmaceuticals established? → **2008**
+- Where is the headquarters of the FAO? → **Rome**
+- Where is the headquarters of UNEP? → **Nairobi**
+- Where is the headquarters of WOAH? → **Paris**
+- Which organisation formulated the Manhattan Principles? → **WCS**
+- In which year was the Convention on Migratory Species adopted? → **1979**
+- Which CMS Appendix provides strict protection? → **Appendix I**
+- How was Samprati related to Ashoka? → **Grandson**
+- Which Mauryan ruler was known as the 'Jain Ashoka'? → **Samprati**
+- ICMR was established in 1911 under which earlier name? → **IRFA**
+- In which year was the WTO established? → **1995**
+- In which year was IRFA renamed ICMR? → **1949**
+- Golestan Palace in Tehran served as a residence of which dynasty? → **Qajar**
+- Sarhul, the Jharkhand tribal festival, involves worship of which tree? → **Sal**
+- Prambanan is associated with which dynasty? → **Sanjaya dynasty**
+- In which year did Subhas Chandra Bose found the Forward Bloc? → **1939**
+
+## Dec 2025–Feb 2026: Books and authors; important days and their themes (95)
+
+- On what date was Rajendra Prasad elected President of the Constituent Assembly? → **11 December 1946**
+- In which language is Vande Mataram written, per the source? → **Sanskritised Bengali**
+- To which year do Nageshwara and Govindeshwara temples at Koravangala date? → **c. 1160 CE**
+- On what date was the NDRF established? → **19 January 2006**
+- Which treaty is regarded as the world's first legally binding international data protection treaty? → **Convention 108**
+- On what date was the Constitution of India adopted? → **26 November 1949**
+- On what date did the Constitution of India come into force? → **26 January 1950**
+- Who first put forward the idea of a Constituent Assembly for India? → **M.N. Roy**
+- On what date did the Constituent Assembly first meet? → **9 December 1946**
+- How long does Earth take to complete one rotation? → **23 h 56 min 4.09 s**
+- On what date was Netaji Subhas Chandra Bose born? → **23 January 1897**
+- On what date was Vande Mataram designated the national song in the Constituent Assembly? → **24 January 1950**
+- During which period was NACP I, India's first comprehensive HIV/AIDS programme, implemented? → **1992–1999**
+- Who represented India at the Comintern in 1920? → **M.N. Roy**
+- Since which year has National Women's Day been observed on 13 February? → **2014**
+- Sarojini Naidu became India's first woman Governor of which State in 1947? → **Uttar Pradesh**
+- In which year did UNESCO declare International Mother Language Day? → **1999**
+- Since which year has World Wetlands Day been observed? → **1997**
+- During 1942–45, the CPI backed which cause over the Quit India movement? → **The anti-Fascist war**
+- The Tebhaga movement is associated with which region? → **Bengal**
+- In which year was the Indian Coast Guard established with 7 vessels? → **1977**
+- How many strings do Kathputli puppets generally have? → **2–5**
+- Which section of the IT Act, 2000 provides for blocking? → **Section 69A**
+- Who was the permanent President of the Constituent Assembly? → **Dr. Rajendra Prasad**
+- On what date was the National Flag adopted by the Constituent Assembly? → **22 July 1947**
+- In which year did Subhas Chandra Bose escape house arrest? → **1941**
+- In the Satya Yuga, the Somnath temple was traditionally built of gold by whom? → **Chandra (Soma)**
+- In which language was Vande Mataram composed, per the source? → **Sanskrit**
+- In 1937, the CWC decided how many stanzas of Vande Mataram should be sung at national gatherings? → **First two**
+- Article 51A(a) mentions the National Flag and which other national symbol? → **National Anthem**
+- Besides the National Flag, which national symbol does the Prevention of Insults to National Honour Act, 1971 cover? → **National anthem**
+- Where was Sree Narayana Guru born on 20 August 1856? → **Chempazhanthy**
+- In which year did Sree Narayana Guru die? → **1928**
+- Who led the Paika Rebellion of 1817? → **Buxi Jagabandhu**
+- On what date was the DPDP Act enacted? → **11 August 2023**
+- In which year were the IT (Intermediary Guidelines) Rules issued? → **2021**
+- In which year was Durga Puja in Kolkata inscribed on UNESCO's intangible heritage list? → **2021**
+- In which year was the Kumbh Mela inscribed on UNESCO's intangible heritage list? → **2017**
+- The Constituent Assembly completed its work in 11 sessions spread over how many days? → **165**
+- Who presided over the first AITUC session in 1920? → **Lala Lajpat Rai**
+- The UN Commission for Social Development works under which body? → **ECOSOC**
+- The UN Commission for Social Development monitors the declaration of which summit? → **Copenhagen (1995)**
+- What period is the mature phase of the Bhirrana settlement? → **2600–1900 BCE**
+- In which year was INTACH established? → **1984**
+- The Lakshminarasimha temple at Javagal is what type of shrine? → **Trikuta**
+- The Panchalingeshwara temple at Mandya is what type of Hoysala monument? → **Panchakuta with five Shiva shrines**
+- What is the Hulikere Kalyani? → **12th-century stepwell**
+- The Keshava temple at Somanathapura is what type of monument? → **13th-century trikuta Vaishnava monument**
+- During which centuries did the Hoysala dynasty rule? → **11th–14th century CE**
+- Who founded the Hoysala dynasty? → **Nripa Kama II**
+- Which city succeeded Belur as the Hoysala capital? → **Dwarasamudra (Halebidu)**
+- In which material were Hoysala temples built? → **Chloritic schist**
+- To which deity is the Chennakeshava temple at Belur dedicated? → **Vishnu**
+- Which Jain basadi at Halebidu dates to 1133? → **Parshvanatha**
+- In which year did the Serengsia battle of the Ho tribal resistance take place? → **1837**
+- In which year did Srila Prabhupada found ISKCON? → **1966**
+- Who was the temporary President of the Constituent Assembly? → **Dr. Sachchidananda Sinha**
+- In which year did Léon Foucault's pendulum demonstrate Earth's rotation? → **1851**
+- Where did Léon Foucault demonstrate his pendulum? → **Panthéon, Paris**
+- Lalitgiri, Udayagiri and Ratnagiri are located in which State? → **Odisha**
+- In which year did the first recorded attack on Somnath occur? → **1026**
+- In which year was I4C established under the Ministry of Home Affairs? → **2018**
+- In the Treta Yuga, the Somnath temple was traditionally built of silver by whom? → **Ravana**
+- In the Dvapara Yuga, the Somnath temple was traditionally built of which material? → **Wood**
+- In the Kali Yuga, the Somnath temple was traditionally built of stone by whom? → **Bhimdev Solanki**
+- Numaish was first held in 1938 by which Nizam? → **7th Nizam**
+- The Sammakka–Saralamma Jatara commemorates resistance against whose taxation? → **Kakatiya**
+- Kathputli is the traditional string puppet theatre of which State? → **Rajasthan**
+- Kathputli is accompanied by the dholak and which instrument? → **Harmonium**
+- The bandhgala originated in which princely state? → **Jodhpur**
+- What was the immediate precursor of the bandhgala? → **Achkan**
+- During which period was NACP III implemented? → **2007–2012**
+- What type of scheme is NACP V? → **Central Sector Scheme**
+- In which year was HIV identified? → **1983**
+- Which cells does HIV attack? → **CD4+ T-cells**
+- Advanced HIV Disease includes a CD4 count below what level? → **200 cells/mm³**
+- Within how many hours of exposure should PEP be taken? → **72**
+- What type of testing do infants with HIV need at birth or 6 weeks? → **Virological testing**
+- Through which process does HIV integrate into host DNA? → **Reverse transcription**
+- A key reason HIV is hard to treat is the existence of what? → **Latent reservoirs**
+- The CPI identifies which conference as its origin? → **Kanpur Conference, 1925**
+- The CPI(M) traces its origin to which city in 1920? → **Tashkent**
+- Which leader headed the early communist group in Calcutta? → **Muzaffar Ahmad**
+- Which leader headed the early communist group in Bombay? → **S.A. Dange**
+- Which leader headed the early communist group in Madras? → **Singaravelu Chettiar**
+- Which leader headed the early communist group in Lahore? → **Ghulam Hussain**
+- Who led the Russian (Bolshevik) Revolution of 1917? → **Lenin**
+- What was the life period of Srimanta Sankardeva? → **1449–1568**
+- Srimanta Sankardeva belonged to which family? → **Siromani Bhuyans**
+- In which year did Srimanta Sankardeva go on his pilgrimage? → **1481**
+- Where did Srimanta Sankardeva compose his first Borgeet? → **Badarikashrama (Badrinath)**
+- What are Namghars in Sankardeva's tradition? → **Prayer halls**
+- What are Satras in Sankardeva's tradition? → **Monasteries**
+- Which work is regarded as Srimanta Sankardeva's magnum opus? → **Kirtana-Ghosha**
+- Which Sankardeva work is a condensed Bhagavata composed in one night? → **Gunamala**
+
+## Apr–Nov 2025: Books and authors; important days and their themes (39)
+
+- Which Act provided for Federal and Provincial Public Service Commissions? → **Government of India Act, 1935**
+- In which year was National Constitution Day (Samvidhan Divas) declared? → **2015**
+- What was Constitution Day earlier observed as? → **Law Day**
+- On what date was the Drafting Committee of the Constitution constituted? → **29 August 1947**
+- On what date was the Constitution of India adopted by the Constituent Assembly? → **26 November 1949**
+- When was the first meeting of the Constituent Assembly held? → **9 December 1946**
+- On what date was the Draft Constitution introduced? → **4 November 1948**
+- The post-1947 Swadeshi approach supported which kind of industry? → **Small-scale industry**
+- From which country did India borrow the parliamentary system and single citizenship? → **United Kingdom**
+- From which country did India borrow a strong Centre and residual powers? → **Canada**
+- From which country did India borrow suspension of rights during Emergency? → **Germany (Weimar)**
+- From which country did India borrow the ideals of Liberty, Equality and Fraternity? → **France**
+- Which Viceroy empowered the Archaeological Survey of India? → **Lord Curzon**
+- The Swadeshi Movement was launched on 7 August of which year? → **1905**
+- In which year was Samagra Shiksha launched? → **2018–19**
+- What does 'Vande Mataram' mean? → **I bow to thee, Mother**
+- Who declared, 'Swarajya is my birthright'? → **Bal Gangadhar Tilak**
+- Who started the newspaper 'Swarajya' in three languages? → **Tanguturi Prakasam**
+- Vande Mataram served as the rallying cry of which movement of 1905–1911? → **Swadeshi Movement**
+- Gandhi's conception of swadeshi had economic, moral and which other dimension? → **Cultural**
+- Which nationalist advocated preferring domestic goods even if they were costlier? → **M.G. Ranade**
+- Who wrote the Economic History of India? → **R.C. Dutt**
+- Who propounded the Drain of Wealth analysis? → **Dadabhai Naoroji**
+- From which source did India borrow the federal structure, Governor and Emergency provisions? → **Government of India Act, 1935**
+- Under which Act is the ASI governed? → **AMASR Act, 1958**
+- The ASI manages more than how many monuments of national importance? → **3,650**
+- Under which ministry does the ASI function? → **Ministry of Culture**
+- Who was the first Director-General of the Archaeological Survey of India? → **Alexander Cunningham**
+- In which year was the Archaeological Survey of India founded? → **1861**
+- The declaration of Constitution Day coincided with which birth anniversary year of Dr. B.R. Ambedkar? → **125th**
+- From which country did India borrow Fundamental Rights and Judicial Review? → **USA**
+- From which country did India borrow 'Procedure Established by Law'? → **Japan**
+- From which country did India borrow the Directive Principles of State Policy? → **Ireland**
+- From which country did India borrow Fundamental Duties? → **USSR**
+- From which country did India borrow the amendment procedure and election of Rajya Sabha members? → **South Africa**
+- Samagra Shiksha merged Sarva Shiksha Abhiyan, RMSA and which scheme? → **Teacher Education**
+- In which novel did Vande Mataram appear? → **Anandamath**
+- In which novel was Vande Mataram included? → **Anandamath**
+- The Beijing Declaration and Platform for Action was adopted in which year? → **1995**
+
+## Overview and data: Books and authors; important days and their themes (15)
+
+- Who wrote the poem 'Jhansi Ki Rani'? → **Subhadra Kumari Chauhan**
+- The International Day of Yoga on 21 June coincides with which event? → **Summer solstice**
+- In which year was Germany's International Climate Initiative established? → **2008**
+- In which year did the UN General Assembly approve World Braille Day? → **2018**
+- In which year was Good Governance Day declared and first observed? → **2014**
+- National Consumer Day marks the assent to the Consumer Protection Act of which year? → **1986**
+- Which body was established by the Consumer Protection Act, 2019? → **CCPA**
+- 2021–2030 is the UN Decade of what for Sustainable Development? → **Ocean Science**
+- Who wrote 'A Walk Up the Hill: Living with People and Nature'? → **Madhav Gadgil**
+- Who wrote '281 and Beyond'? → **V.V.S. Laxman**
+- Who wrote 'Neither Roses Nor Thorns'? → **Justice H.R. Khanna**
+- Who received the first Jnanpith Award in 1965? → **G. Sankara Kurup**
+- IFFI is described as which continent's oldest film festival? → **Asia's**
+- What is the International Booker Prize amount shared by author and translator? → **£50,000**
+- The Booker Prize is associated with what kind of fiction? → **Original English fiction**
+
+## Sep–4 Nov 2026: Persons in news - appointments, resignations and obituaries (23)
+
+- Under Article 155, a Governor is appointed by whom? → **The President**
+- Under Article 159, the Governor takes oath before whom? → **Chief Justice of the High Court**
+- What rank does the Chief of the Air Staff hold? → **Air Chief Marshal**
+- Which Article deals with the transfer of High Court judges? → **Article 222**
+- Which Article deals with the appointment of High Court judges? → **Article 217**
+- Which Article of the Constitution abolishes untouchability? → **Article 17**
+- Which Article provides for a common High Court for two or more States? → **Article 231**
+- The NCSK Chairperson holds the rank of what? → **Union Minister of State**
+- In which year was the Asian-Pacific Postal Union established? → **1962**
+- In which year was the CBSE established? → **1929**
+- In which year was ByteDance founded? → **2012**
+- In which year was the Vir Chakra instituted? → **1950**
+- On what date did the 1965 India–Pakistan ceasefire take effect? → **September 23**
+- In which year was UNCLOS adopted? → **1982**
+- In which year did UNCLOS enter into force? → **1994**
+- UNCLOS is known by which nickname? → **Constitution for the Oceans**
+- From what date did the NCSK Act, 1993 provide for the Commission? → **August 12, 1994**
+- What is the current status of the National Commission for Safai Karamcharis? → **Non-statutory, extended by resolutions**
+- What is the retirement age of High Court judges? → **62 years**
+- In which year was the Insolvency and Bankruptcy Board of India established? → **2016**
+- On what date was the Tashkent Declaration signed? → **January 10, 1966**
+- How long is the open India–Nepal border? → **1,751 km**
+- What is the term of a Governor under Articles 153–162? → **5 years**
+
+## Jun–Aug 2026: Persons in news - appointments, resignations and obituaries (15)
+
+- In which year was THOTA (Transplantation of Human Organs Act) enacted? → **1994**
+- In which year was the Geological Survey of India established? → **1851**
+- On what date was the Reserve Bank of India established? → **1 April 1935**
+- On what date was Doordarshan launched? → **15 September 1959**
+- Who appoints the Cabinet Secretary? → **Appointments Committee of the Cabinet**
+- Up to how many years may the Cabinet Secretary's normal two-year term be extended? → **Four**
+- Where does the Cabinet Secretary rank in the order of precedence? → **11th**
+- Who chairs the Appointments Committee of the Cabinet? → **Prime Minister**
+- In which year was the National Testing Agency established? → **2018**
+- Which committee does the Cabinet Secretary head? → **National Crisis Management Committee**
+- What is the currency of Ukraine? → **Hryvnia**
+- Who led Operation Black Thunder in 1986? → **R. T. Nagrani**
+- On what date was the Indian Air Force established? → **8 October 1932**
+- What is the motto of the Indian Air Force? → **Nabhah Sprisham Diptam**
+- Who is the King of Spain? → **Felipe VI**
+
+## Mar–May 2026: Persons in news - appointments, resignations and obituaries (8)
+
+- On what date was NITI Aayog set up? → **1 January 2015**
+- In which year was the CBI established? → **1963**
+- In which year was the Narcotics Control Bureau established? → **1986**
+- In which year was DRDO established? → **1958**
+- In which year was UIDAI established? → **2009**
+- Under which Act is UIDAI a statutory authority? → **Aadhaar Act, 2016**
+- What is the motto of the Indian Navy? → **Sham No Varunah**
+- On what date does the next UN Secretary-General's term begin? → **1 January 2027**
+
+## Dec 2025–Feb 2026: Persons in news - appointments, resignations and obituaries (6)
+
+- India sends which kind of envoys to Commonwealth countries? → **High Commissioners**
+- On which committee's recommendation was the CVC set up? → **Santhanam Committee**
+- In which year was the NIA established? → **2009**
+- In which year was the BSF established? → **1965**
+- In which year was the ITBP established? → **1962**
+- The Central Silk Board was established in which year? → **1948**
+
+## Apr–Nov 2025: Persons in news - appointments, resignations and obituaries (4)
+
+- In which year was the Indian Red Cross Society established? → **1920**
+- Who is the President of the Indian Red Cross Society? → **President of India**
+- Who is the Chairman of the Indian Red Cross Society? → **Union Health Minister**
+- Which magazine publishes the Person of the Year and the 100 most influential list? → **TIME**
+
+## Overview and data: Persons in news - appointments, resignations and obituaries (4)
+
+- What is the term of the UN Secretary-General? → **Five years**
+- Under which Article of the UN Charter is the Secretary-General appointed? → **Article 97**
+- The CJI's place on the CEC selection panel arose from which case? → **Anoop Baranwal case**
+- Which publication brings out the billionaires list? → **Forbes**
+
+## Sep–4 Nov 2026: National - polity and governance: bills, acts, ordinances, landmark judgments (59)
+
+- India's first Public Service Commission (1926) was set up at which building? → **Metcalfe House, Delhi**
+- In which year was the ICS examination introduced in London? → **1855**
+- In which year did Satyendranath Tagore clear the ICS? → **1863**
+- In which year was the ICS examination first held in India, at Allahabad? → **1922**
+- In 1919, how many of the 1,255 ICS officers were Indian? → **78**
+- In which year did the Lee Commission recommend a statutory Public Service Commission? → **1924**
+- Who became the first Indian Chairman of the Public Service Commission in 1947? → **H.K. Kripalani**
+- India's first Public Service Commission was constituted on which date? → **1 October 1926**
+- In which year was World Mental Health Day first observed? → **1992**
+- The Supreme Court of India was inaugurated on which date? → **28 January 1950**
+- Which case struck down Section 118 of the Indian Succession Act, 1925? → **John Vallamattom**
+- Under Article 323, the UPSC's annual report is submitted to whom? → **The President**
+- Which Article charges UPSC expenses on the Consolidated Fund of India? → **Article 322**
+- Under Article 316, UPSC members are appointed by whom? → **The President**
+- Removal of a UPSC member for misbehaviour requires an inquiry by which body? → **Supreme Court**
+- Which Article makes the UPSC Chairman ineligible for further government employment? → **Article 319**
+- Which Article lays down the functions of PSCs, such as examinations, recruitment and disciplinary matters? → **Article 320**
+- Article 315 allows a Joint Public Service Commission for how many States? → **Two or more**
+- What is the sanctioned strength of the Supreme Court of India, including the CJI? → **34**
+- Article 371F contains special provisions for which state? → **Sikkim**
+- Under Article 192, who decides disqualifications of State legislators other than under the Tenth Schedule? → **The Governor**
+- In which year was the CISF established? → **1969**
+- What type of clocks do NavIC satellites carry? → **Atomic clocks**
+- Which section of the UAPA lets the Centre add or remove organisations in its First Schedule? → **Section 35**
+- Under Article 318, who regulates the conditions of service of UPSC members? → **The President**
+- Which Article provides for Public Service Commissions for the Union and the States? → **Article 315**
+- Which Article provides for a Governor for each State and lets one person be Governor of two or more States? → **Article 153**
+- Which Article provides that the Governor holds office during the pleasure of the President for five years? → **Article 156**
+- Which Article lays down that a Governor must be a citizen aged at least 35? → **Article 157**
+- Which Article gives the Governor pardoning power? → **Article 161**
+- The Uniform Civil Code is mentioned in which Article of the Constitution? → **Article 44**
+- Which Article empowers Parliament to restrict the Fundamental Rights of members of the armed forces? → **Article 33**
+- Article 44, directing the State to secure a Uniform Civil Code, is in which Part of the Constitution? → **Part IV**
+- Which Article of the Constitution deals with freedom of religion? → **Article 25**
+- The Shah Bano case concerned maintenance under which provision? → **Section 125 CrPC**
+- Which case held that conversion for a second marriage is invalid? → **Sarla Mudgal**
+- Which case declared instant triple talaq invalid? → **Shayara Bano**
+- Which case cited Goa as an example of a common civil code? → **Jose Paulo Coutinho**
+- How is the Supreme Court's power under Article 142 best described? → **Broad but not unlimited**
+- Which court has the power under Article 142 to do complete justice? → **Supreme Court**
+- Which case upheld the Muslim Women Act, 1986? → **Daniel Latifi**
+- Which 2024 case held that casteism and gender discrimination cannot claim Article 29 protection? → **Section 6A Citizenship Act case**
+- The Bijoe Emmanuel principles involved Article 25 and which other Article? → **Article 19(1)(a)**
+- Under Paragraph 6 of the Tenth Schedule, who decides disqualification cases, subject to judicial review? → **The Speaker**
+- Where is the headquarters of the UPSC? → **Dholpur House, New Delhi**
+- Article 371D contains special provisions for which states? → **Andhra Pradesh and Telangana**
+- In which year was the BSF established? → **1965**
+- In which year was the CRPF established? → **1939**
+- What accuracy level does NTP time dissemination offer? → **Milliseconds**
+- What accuracy level does PTP time dissemination offer? → **Microseconds**
+- What accuracy level do satellite links offer for time dissemination? → **Nanoseconds**
+- Which time-dissemination technology offers picosecond accuracy? → **Optical links**
+- NavIC (earlier IRNSS) was developed after GPS data was denied during which conflict? → **Kargil War**
+- The Assam Rifles is administratively under which body? → **Ministry of Home Affairs**
+- Which BNSS section bars detention beyond 24 hours without production before a magistrate? → **Section 58**
+- Rabindranath Tagore sang Vande Mataram at which Congress session? → **1896 Calcutta session**
+- Who first sang Vande Mataram at the 1896 INC session in Calcutta? → **Rabindranath Tagore**
+- Which Article empowers Parliament to form new States and alter their area, boundaries and names? → **Article 3**
+- Up to how many years' imprisonment can a Judicial Magistrate (First Class) impose? → **3 years**
+
+## Jun–Aug 2026: National - polity and governance: bills, acts, ordinances, landmark judgments (59)
+
+- Under Section 38 of the BNSS, when may an accused meet an advocate? → **During, but not throughout, interrogation**
+- Under which Article can Parliament alter the name, area or boundaries of a State? → **Article 3**
+- Indian Standard Time is ahead of UTC by how much? → **5 hours 30 minutes**
+- The Industrial Relations Code, 2020 merged the Industrial Disputes Act of which year? → **1947**
+- For how many years is FCRA registration valid? → **5 years**
+- Annual returns under the FCRA are filed in which form? → **Form FC-4**
+- To receive foreign donations under the FCRA, an organisation needs what? → **Registration or prior permission**
+- Which Ministry implements the Digital Personal Data Protection Act, 2023? → **Ministry of Electronics and IT**
+- Which FCRA amendment raised the limit on contributions from relatives? → **2022 amendment**
+- What did the 2020 FCRA amendment do to sub-granting of foreign contribution? → **Banned it**
+- The Foreign Agents Registration Act (FARA) is a law of which country? → **USA**
+- The Foreign Influence Transparency and Accountability Act is a law of which country? → **Canada**
+- Under the BCI Rules, when may an advocate refuse a brief? → **Only in special circumstances**
+- The Public Examinations (Prevention of Unfair Means) Act of which year covers UPSC, SSC, RRB, NTA and IBPS exams? → **2024**
+- Under the Public Examinations Act, 2024, the Rs 10 crore and 10-year penalty applies to which offence? → **Paper leaks**
+- Foreign contribution under the FCRA must be received in a designated account at which bank branch? → **SBI New Delhi Main Branch**
+- Which of these is barred from receiving foreign contribution under the FCRA? → **Journalists**
+- Under Section 187(2) of the BNSS, police custody is capped at how many days in total? → **15 days**
+- Under Section 187(3) BNSS, how long may detention extend for offences punishable with death, life or 10+ years? → **90 days**
+- Under Section 187(3) BNSS, how long may detention extend for other offences before default bail? → **60 days**
+- Under Section 167 CrPC, police custody was generally available within which period? → **The first 15 days**
+- In Bijoe Emmanuel v. State of Kerala, Jehovah's Witness students' silence was protected under Article 25 and which other? → **Article 19(1)(a)**
+- Under Section 356 BNSS, what may an accused who appears later do? → **Cross-examine witnesses**
+- How has the law treated Bar Association resolutions refusing to represent accused persons? → **Illegal, unconstitutional, null and void**
+- The Right to be Forgotten is treated as part of the Right to Privacy under which Article? → **Article 21**
+- Which Article gives an arrested person the right to be defended by a legal practitioner of choice? → **Article 22(1)**
+- A fair trial is treated as part of the right to life under which Article? → **Article 21**
+- In which case did the SC hold Bar boycott resolutions wholly illegal, null and void (2010)? → **A.S. Mohammed Rafi v. State of Tamil Nadu**
+- Which case held that refusal of a brief in special circumstances is for an individual advocate, not the Bar? → **Kuldeep Agarwal v. State of Uttarakhand (2019)**
+- In which case did the Delhi High Court issue guidelines on the Right to be Forgotten? → **Laksh Vir Singh Yadav v. Union of India**
+- The right to be forgotten is linked to informational privacy under which Article? → **Article 21**
+- Which High Court held in 2023 that the right to be forgotten is not automatic for ongoing proceedings? → **Kerala High Court**
+- Which case upheld OBC reservation and the creamy layer for OBCs? → **Indra Sawhney (1992)**
+- Which case held that any creamy-layer exclusion among SCs must come from Parliament? → **E.V. Chinnaiah (2005)**
+- Which case held that the creamy layer does not apply to SCs and STs? → **Ashoka Kumar Thakur (2008)**
+- In which year did the Naxalbari uprising begin in West Bengal? → **1967**
+- In which year was the National Policy and Action Plan to address LWE adopted? → **2015**
+- The 2015 National Policy and Action Plan on LWE is based on Dialogue, Coordination and what? → **Security**
+- Trial in absentia is provided under which section of the BNSS, 2023? → **Section 356**
+- Trial in absentia under the BNSS is available for which accused? → **Proclaimed offenders for serious offences**
+- A proclaimed offender under Section 84 BNSS covers offences punishable with at least how many years? → **10 years**
+- Trial in absentia under Section 356 BNSS may begin only after how many days from framing of charges? → **90 days**
+- Fast Track Courts were first introduced in India in which year? → **2000**
+- In October 1937, the CWC decided that how many stanzas of Vande Mataram be sung at official gatherings? → **The first two**
+- On 24 January 1950, who accorded Vande Mataram equal honour with Jana Gana Mana? → **Rajendra Prasad**
+- Who wrote Jana Gana Mana? → **Rabindranath Tagore**
+- On which date were Vande Mataram and Jana Gana Mana adopted? → **January 24, 1950**
+- The creamy layer principle currently applies to reservations for which group? → **OBCs**
+- CrPC Section 82 concerned what? → **Proclamation against an absconder**
+- CrPC Section 299 concerned what? → **Evidence in absence of an absconder**
+- CrPC Section 317 allowed courts to do what? → **Dispense with personal attendance**
+- Which case recognised privacy, including informational privacy, as a fundamental right? → **K.S. Puttaswamy v. Union of India**
+- CoBRA, the anti-Naxal commando unit, is part of which force? → **CRPF**
+- What is the core operational approach of the strategy against Left-Wing Extremism? → **Trace, Target, Neutralise**
+- The Foreign Influence Transparency Scheme belongs to which country? → **Australia**
+- The Foreign Influence Registration Scheme belongs to which country? → **UK**
+- In Dharamraj Bhanushankar Dave v. State of Gujarat, the Gujarat HC denied removal of what? → **Acquittal details**
+- In a 2022 matter, the Supreme Court directed its Registry to remove a couple's details from where? → **Search engines**
+- In which year was Jana Gana Mana adopted? → **1950**
+
+## Mar–May 2026: National - polity and governance: bills, acts, ordinances, landmark judgments (72)
+
+- Article 239A was inserted by which Constitutional Amendment? → **14th Amendment**
+- The District Planning Committee under Article 243ZD was introduced by which Amendment? → **74th Amendment**
+- Which Article, inserted by the Women's Reservation Act, reserves seats for women in the Lok Sabha? → **Article 330A**
+- Which Article reserves seats for women in State Legislative Assemblies? → **Article 332A**
+- Which Article deals with commencement and duration of women's reservation? → **Article 334A**
+- Which Amendment gave constitutional status to the NCBC? → **102nd Amendment**
+- Which Amendment ensured Article 21 cannot be suspended during an Emergency? → **44th Amendment**
+- The CSWI committee on women's status is associated with which year? → **1971**
+- Under the Anoop Baranwal interim arrangement, the EC selection panel had the PM, LoP and whom? → **Chief Justice of India**
+- Under the Forest Rights Act, what does IFR stand for? → **Individual Forest Rights**
+- Under the Forest Rights Act, what does CFR stand for? → **Community Forest Rights**
+- Besides IFR and CFR, the Forest Rights Act recognises habitat rights for which groups? → **PVTGs**
+- Under the Forest Rights Act, when can eviction of forest dwellers take place? → **Not until verification is complete**
+- Under Article 239, the President administers Union Territories through whom? → **An Administrator**
+- Article 239AB provides for President's Rule in which Union Territory? → **Delhi**
+- Which case recognised the 'third gender' and self-determination of gender identity? → **NALSA v. Union of India (2014)**
+- Under Article 243E, what is the term of a Panchayat? → **5 years**
+- Which Article provides for the State Election Commission for Panchayats? → **Article 243K**
+- Maneka Gandhi (1978) is associated with the Golden Triangle of which Articles? → **Articles 14, 19 and 21**
+- Denominational rights under Article 26 are subject to public order, health and what? → **Morality**
+- In which year was India's first census held? → **1872**
+- In which year was India's first complete (synchronous) census held? → **1881**
+- The Sabarimala temple is located in which protected area? → **Periyar Tiger Reserve**
+- Which body administers the Sabarimala temple? → **Travancore Devaswom Board**
+- How many questions were framed in 2020 following the 2019 Sabarimala reference? → **Seven**
+- Article 21 protects the life and liberty of whom? → **All persons, including non-citizens**
+- Which case laid down arrest memo, informing a relative and medical examination as arrest safeguards? → **D.K. Basu v West Bengal**
+- Which case made CCTV mandatory in police stations? → **Paramvir Singh Saini v Baljit Singh**
+- Clause 3 of the Constitution (SC) Order, 1950 limits SC status to Hindus, Sikhs and which others? → **Buddhists**
+- The Constitution (Scheduled Castes) Order, 1950 was issued under which Article? → **Article 341(1)**
+- Which case recognised a right to die under Article 21 in 1994? → **P. Rathinam**
+- Article 145(3) requires at least how many judges for substantial questions of constitutional interpretation? → **Five**
+- Women of which age group were barred from entering Sabarimala? → **10–50 years**
+- Which Article provides for the State Finance Commission for Panchayats? → **Article 243I**
+- Violations under Section 3 of the Essential Commodities Act attract imprisonment of what range? → **3 months to 7 years**
+- Women's reservation under the 2023 Act covers the Lok Sabha, State Assemblies and which other House? → **Delhi Assembly**
+- What was the fate of the Industrial Disputes (Amendment) Act, 1982 that sought to exclude hospitals and education? → **It was never notified**
+- Which law provided for self-identification, DM certification and a National Council for transgender persons? → **Transgender Persons Act, 2019**
+- About how many transgender persons did Census 2011 record? → **4.88 lakh**
+- Article 44 on the Uniform Civil Code is what type of provision? → **Directive Principle of State Policy**
+- How long is the period of penance before a Sabarimala pilgrimage? → **41 days**
+- Which case established the essential religious practices doctrine? → **Shirur Mutt (1954)**
+- Defying the party whip attracts disqualification unless condoned within how many days? → **15 days**
+- In which year was the Margaret Alva committee associated with women's reservation? → **1987**
+- How many languages does the Eighth Schedule now contain? → **22**
+- Under which Article may a State adopt one or more languages or Hindi as its official language? → **Article 345**
+- Which Article provides for the Official Language Commission and Committee? → **Article 344**
+- Census 2027 is conducted under the Census Act of which year? → **1948**
+- The Census Rules applied to Census 2027 are of which year? → **1990**
+- Who alone can amend the Scheduled Caste list? → **Parliament**
+- What is the basis for Scheduled Caste classification? → **Untouchability**
+- Which institution has the central role under the Forest Rights Act? → **Gram Sabha**
+- In which year was the Women's Reservation Bill first introduced? → **1996**
+- Article 342 concerns the list of which group? → **Scheduled Tribes**
+- How does the one-third women's quota treat SC/ST reserved seats? → **It applies within them too**
+- How does Scheduled Tribe classification differ from SC classification regarding religion? → **ST has no religious restriction**
+- In which year was the Geeta Mukherjee committee on women's reservation set up? → **1996**
+- Women's reservation Bills were introduced in 1996, 1998, 2008 and which other year? → **1999**
+- Which 1996 case overruled P. Rathinam and rejected the right to die? → **Gian Kaur**
+- The 1978 industry judgment brought which institutions under labour law? → **Hospitals, universities and charities**
+- What does the doctrine lex posterior derogat priori mean? → **A later law overrides an earlier law**
+- Puducherry's legislature was created under which Article? → **Article 239A**
+- Delhi's legislature is provided for under which Article? → **Article 239AA**
+- Which Article provides for the development of Hindi? → **Article 351**
+- How many subjects does the Eleventh Schedule contain? → **29**
+- The intermediate Panchayat tier is optional for States with population below what? → **20 lakh**
+- What power does the NHRC have regarding officials responsible for custodial deaths? → **It can only recommend action**
+- Section 176 requires what kind of inquiry into a custodial death? → **Magisterial inquiry**
+- Which of these is a limb of the Triple Test for an 'industry'? → **Systematic activity**
+- Under the Dominant Nature Test, what decides whether an entity is an industry? → **Its primary function**
+- A Lieutenant Governor functions as an Administrator under which Article? → **Article 239**
+- Who gave the lone dissent in the 2018 Sabarimala verdict? → **Justice Indu Malhotra**
+
+## Dec 2025–Feb 2026: National - polity and governance: bills, acts, ordinances, landmark judgments (19)
+
+- Which Act applies to defence personnel even after retirement? → **Official Secrets Act, 1923**
+- The Atomic Energy Act, 1962 replaced the Atomic Energy Act of which year? → **1948**
+- The Tarapur nuclear power plant is in which state? → **Maharashtra**
+- The Rawatbhata nuclear power plant is in which state? → **Rajasthan**
+- The Kakrapar nuclear power plant is in which state? → **Gujarat**
+- The Kudankulam nuclear power plant is in which state? → **Tamil Nadu**
+- In which year was the PUDR (Asiad workers) case decided? → **1982**
+- Which Article provides for the Governor's mandatory address at the first session each year and after a general election? → **Article 176**
+- Which Article concerns the Governor's discretionary address or messages to the House? → **Article 175**
+- Which Article contains the Governor's oath? → **Article 159**
+- Which 7-judge bench case held the Governor is a constitutional head acting on aid and advice? → **Shamsher Singh (1974)**
+- Which case held Articles 175 and 176 are exercised on ministerial advice? → **Nabam Rebia (2016)**
+- Which 2024 case held a Governor's discretion cannot stall an elected government? → **State of Tamil Nadu v. Governor of Tamil Nadu**
+- Which commission called the Governor the 'lynchpin of cooperative federalism'? → **Sarkaria Commission (1988)**
+- What is the effect of procedural defects in delivering the Governor's address on legislative proceedings? → **They do not invalidate them**
+- What did Bachpan Bachao Andolan (2011) concern? → **Rescue and rehabilitation directions**
+- The Bonded Labour system abolition was first promulgated as an ordinance on which date? → **25 October 1975**
+- How many labour laws were consolidated into the four Labour Codes? → **29**
+- Which section of the RTI Act gives every citizen the right to information? → **Section 3**
+
+## Apr–Nov 2025: National - polity and governance: bills, acts, ordinances, landmark judgments (58)
+
+- Which Article deals with religious instruction in educational institutions? → **Article 28**
+- Which Article gives minorities the right to run educational institutions? → **Article 30**
+- At what age does a High Court judge retire? → **62 years**
+- The e-Courts Project originated in the National Policy and Action Plan for ICT in Indian Judiciary of which year? → **2005**
+- In which year was Goa acquired by India? → **1961**
+- The number of Dikkus (outsiders) in Kolhan rose from 1,579 in 1867 to how many in 1897? → **15,755**
+- In which month and year was India's first Public Service Commission set up? → **October 1926**
+- Which Act first envisaged an independent recruitment body (PSC) in India? → **Government of India Act, 1919**
+- In Kolhan's Manki-Munda system, a Manki headed how many villages? → **8–15**
+- How long did the 1975 Emergency last? → **21 months**
+- The 2019 corporate tax cut reduced the rate from 30% to what? → **22%**
+- CAA 2019 covers six minorities from Pakistan, Afghanistan and Bangladesh who entered India before which date? → **31 December 2014**
+- Which authority banned Salwa Judum? → **Supreme Court**
+- In which year was Salwa Judum banned? → **2011**
+- The 40-point roster for judicial service was derived from which case? → **R.K. Sabarwal (1995)**
+- When did the Ho Revolt take place? → **1821–22**
+- In Mora Ho v. State of Bihar (2000), the Patna HC held Wilkinson's Rules to be what? → **Customs, not formal law**
+- Which Constitutional Amendment is described as the 'Mini-Constitution'? → **42nd Amendment (1976)**
+- Which words did the 42nd Amendment add to the Preamble? → **Socialist and Secular**
+- Under the Government of India Act, 1935, what kind of veto did the Governor have? → **Absolute veto**
+- In which year was the Whistle Blowers Protection Act enacted? → **2014**
+- What is ProPublica's organisational model? → **Non-profit**
+- Under Article 233, district judges are appointed by the Governor in consultation with whom? → **The High Court**
+- Judicial officers other than district judges are appointed by the Governor after consulting the High Court and whom? → **State Public Service Commission**
+- Up to how many years' imprisonment can a Chief Judicial Magistrate impose? → **7 years**
+- In which year was the rehabilitation policy for Tibetan refugees adopted? → **2014**
+- Under the All India Judges Association framework, what share of higher judicial posts goes to direct recruitment? → **25%**
+- In which year was the Legal Services Authorities Act enacted? → **1987**
+- What is the minimum age to be elected Vice-President of India? → **35 years**
+- In a Presidential Reference, what can the SC do with its own precedent? → **Only clarify it or suggest a larger bench**
+- Under which Article can Parliament create new All-India Services, including an All-India Judicial Service? → **Article 312**
+- Which Article deals with admission or establishment of new States, as with Sikkim? → **Article 2**
+- In which year was Sikkim acquired by India? → **1975**
+- Which Article recognises minorities' right to establish and administer educational institutions? → **Article 30(1)**
+- Under which Article is a National Emergency declared? → **Article 352**
+- Under which Article is a Financial Emergency declared? → **Article 360**
+- The emergency provisions of the Constitution span which Articles? → **Articles 352–360**
+- On what date was the National Emergency of 1975 declared? → **25 June 1975**
+- On what ground was the 1975 National Emergency declared under Article 352? → **Internal disturbance**
+- Which coercive health measure is associated with the 1975 Emergency? → **Forced sterilisation**
+- Haryana is India's which state in order of formation? → **17th**
+- The Punjab New Capital (Periphery) Control Act, 1952 regulates an area of what radius? → **16 km**
+- The 44th Amendment replaced 'internal disturbance' in Article 352 with what? → **Armed rebellion**
+- Besides civil services, UPSC recruits for which of these? → **Technical and medical services**
+- ProPublica, cited as a journalism model, is from which country? → **USA**
+- Which Articles concern subordinate courts? → **Articles 233–237**
+- About how many Tibetan refugees are there in India? → **63,000**
+- About how many Sri Lankan Tamil refugees are there in India? → **90,000**
+- FARC, cited as a global parallel to LWE, is associated with which country? → **Colombia**
+- The NPA insurgent movement is associated with which country? → **Philippines**
+- Shining Path, a global parallel to LWE, is from which country? → **Peru**
+- Who is the Executive Chairman of NALSA? → **Second senior-most SC judge**
+- Who is the Patron-in-Chief of NALSA? → **Chief Justice of India**
+- Federalism was recognised as part of the Basic Structure in which case? → **Kesavananda Bharati (1973)**
+- Which minority schools did the Society for Unaided Private Schools of Rajasthan case exempt from RTE? → **Unaided minority schools**
+- In Kolhan's Manki-Munda system, what is a Munda? → **Head of one village**
+- When did Jharkhand recognise the Nyaya Panchayat system? → **February 2021**
+- Can a Joint Parliamentary Committee summon officials and documents? → **Yes, it can**
+
+## Special topics: National - polity and governance: bills, acts, ordinances, landmark judgments (6)
+
+- In which year was the Census Act enacted? → **1948**
+- In which year were the Census Rules framed? → **1990**
+- In which year was the first complete census of India conducted? → **1881**
+- In which year was India's first census conducted? → **1872**
+- In which year was India's last census conducted? → **2011**
+- Which Articles link Lok Sabha seats and delimitation to the census? → **Articles 81 and 82**
+
+## Overview and data: National - polity and governance: bills, acts, ordinances, landmark judgments (5)
+
+- Which law replaced the Indian Evidence Act, 1872? → **Bharatiya Sakshya Adhiniyam, 2023**
+- Which law replaced the Indian Penal Code, 1860? → **Bharatiya Nyaya Sanhita, 2023**
+- Which law replaced the Code of Criminal Procedure, 1973? → **Bharatiya Nagarik Suraksha Sanhita, 2023**
+- In which month did the Insolvency and Bankruptcy Code, 2016 receive Presidential assent? → **May 2016**
+- How many members does the Insolvency and Bankruptcy Board of India have? → **10**
+
+## Sep–4 Nov 2026: National - economy: Union Budget and Economic Survey highlights, RBI policy, key data releases (67)
+
+- Kharif crops are sown with the onset of which season? → **Southwest monsoon**
+- Where is the State Bank of India headquartered? → **Mumbai**
+- What is India's CPI inflation target under the monetary policy framework? → **4% ± 2%**
+- Which body compiles India's CPI? → **NSO (MoSPI)**
+- What green hydrogen production does the National Green Hydrogen Mission target by 2030? → **5 MMT**
+- In which year did the IMF begin operations? → **1947**
+- Where is the IMF headquartered? → **Washington, DC**
+- The International Finance Corporation is which arm of the World Bank Group? → **Private-sector arm**
+- Which of these is a component of India's foreign-exchange reserves? → **Reserve Tranche Position with the IMF**
+- Real GDP is measured at which prices? → **Constant prices**
+- Nominal GDP is measured at which prices? → **Current prices**
+- How is GDP derived from GVA? → **GVA + product taxes − product subsidies**
+- Where is DBS Bank headquartered? → **Singapore**
+- In which year was DBS Bank established? → **1968**
+- On which date was the State Bank of India established? → **July 1, 1955**
+- How does a low base affect the appearance of current growth? → **Makes it appear higher**
+- Which of these is a member of the World Bank Group? → **MIGA**
+- In which year did the Global Fintech Fest begin? → **2020**
+- Where does India rank in the production, consumption and import of pulses? → **First**
+- Which body compiles India's WPI? → **Office of the Economic Adviser, DPIIT**
+- How many non-major ports does India have? → **217**
+- What is the area of India's Exclusive Economic Zone? → **2.4 million sq km**
+- How many ships were in India's fleet in mid-2026? → **1,609**
+- Which country is the largest producer of raw jute? → **India**
+- Which of these is a listed energy storage type alongside pumped hydro and BESS? → **Compressed air**
+- About what share of India's maritime trade by value is carried by sea? → **95%**
+- What is the maximum investment for a medium enterprise under MSME classification? → **₹125 crore**
+- What is the maximum investment for a micro enterprise under MSME classification? → **₹2.5 crore**
+- Where is the International Maritime Organization headquartered? → **London**
+- Which ECLGS phase covered MSMEs and Mudra under the Aatmanirbhar Bharat package? → **1.0**
+- In which year did the earlier phases of ECLGS end? → **2023**
+- About how many people does the National Food Security Act, 2013 cover? → **80 crore**
+- What steel capacity did the National Steel Policy 2017 target by 2030–31? → **300 MT**
+- Which organisation is behind UPI? → **NPCI**
+- Which NPCI subsidiary takes UPI and RuPay abroad? → **NIPL**
+- Which of these payment systems is associated with NPCI? → **NETC FASTag**
+- On which date was the PM Gati Shakti National Master Plan launched? → **13 October 2021**
+- What is India's trade position in pulses? → **Net importer**
+- Which department frames India's FDI policy? → **DPIIT**
+- What are the two routes for FDI in India? → **Automatic and Government**
+- What is the nodal department for PM Gati Shakti? → **DPIIT**
+- How many sectors does PM Gati Shakti cover? → **7**
+- Where was the Clydebank Declaration on green shipping corridors launched? → **COP26, Glasgow, 2021**
+- In which year was the National Bamboo Mission launched? → **2006–07**
+- How does a high base affect the appearance of current growth? → **Makes it appear lower**
+- What is the capital of Uzbekistan? → **Tashkent**
+- What is the currency of Uzbekistan? → **Som**
+- Who is the President of Uzbekistan? → **Shavkat Mirziyoyev**
+- In which year was UPI introduced? → **2016**
+- Under the Jute Packaging Materials Act, 1987, what share of sugar must be packed in jute? → **20%**
+- Under the Jute Packaging Materials Act, 1987, what share of foodgrains must be packed in jute? → **100%**
+- Which body is the sole MSP agency for jute? → **Jute Corporation of India**
+- Film Bazaar is held alongside which festival? → **IFFI Goa**
+- In which year was Ramoji Film City established? → **1996**
+- Mumbai Film City was renamed Dadasaheb Phalke Chitranagari in which year? → **2001**
+- Along with Uzbekistan, which is the world's other doubly landlocked country? → **Liechtenstein**
+- When did the Grow More Jute Campaign begin? → **September 1949**
+- Which technology is used in battery energy storage systems? → **Lithium iron phosphate**
+- Where is the International Finance Corporation headquartered? → **Washington, D.C.**
+- The SACHET portal concerns what? → **Illegal deposits**
+- Since when has the National Bamboo Mission been a restructured Centrally Sponsored Scheme? → **2018–19**
+- Bamboo belongs to which plant family? → **Poaceae**
+- Bamboo belongs to which subfamily? → **Bambusoideae**
+- The PM Gati Shakti National Master Plan was launched in which year? → **2021**
+- In which year was the PM Gati Shakti National Master Plan launched? → **2021**
+- India's foreign-exchange reserves are held by which body? → **RBI**
+- Who sets small-savings interest rates every quarter? → **Finance Ministry**
+
+## Jun–Aug 2026: National - economy: Union Budget and Economic Survey highlights, RBI policy, key data releases (141)
+
+- In which year was the State Bank of India established? → **1955**
+- In which year did the SHG-Bank Linkage Programme begin? → **1992**
+- About how many farmers grow cotton in India? → **6 million**
+- What staple length qualifies as long staple cotton? → **27.5–32 mm**
+- About what share of India's GDP does tourism contribute? → **7%**
+- What is India's net-zero target year under Panchamrit? → **2070**
+- Critical minerals are linked with which group of SDGs? → **SDGs 7, 9 and 13**
+- Does WPI include services in its coverage? → **No, it excludes services**
+- Which NRI account is used to manage income earned in India? → **NRO**
+- How is GDP calculated from GVA? → **GVA + Taxes − Subsidies**
+- In which year was the Solar Parks Scheme introduced? → **2014**
+- PM-KUSUM Component A supports what? → **Solar plants on barren land**
+- PM-KUSUM Component B supports what? → **Standalone solar pumps**
+- Monazite sands are a source of what? → **Rare earths**
+- What kind of liability does the Civil Liability for Nuclear Damage Act 2010 provide? → **No-fault liability**
+- In which year were 14 banks nationalised in India? → **1969**
+- In which year was PMJDY launched? → **2014**
+- Which country was the first international deployment of UPI? → **Bhutan**
+- Which organisation developed UPI? → **NPCI**
+- In which year was PM-KUSUM introduced? → **2019**
+- In which year did India propose One Sun One World One Grid? → **2018**
+- When was UPI piloted with 21 banks and rolled out publicly? → **April–August 2016**
+- When was the BHIM app launched? → **December 2016**
+- In which year was Dynamic QR introduced for UPI? → **2017**
+- In which year was UPI 2.0 launched? → **2018**
+- In which year was Credit Line on UPI introduced? → **2023**
+- In which month did UPI first reach 1 billion monthly transactions? → **October 2019**
+- When was the original UDAN launched under the National Civil Aviation Policy, 2016? → **October 2016**
+- In which year was MUDRA launched? → **2015**
+- On which date was NRLM renamed DAY-NRLM? → **29 March 2016**
+- In which year was the National Statistical Office established? → **2019**
+- Which is the world's longest highway tunnel above 10,000 ft? → **Atal Tunnel**
+- In which year was Rashtriya Krishi Vikas Yojana launched? → **2007**
+- In which year was GeM launched? → **2016**
+- Which mineral is used in battery anodes? → **Graphite**
+- In which year was India's solar target revised to 100 GW? → **2015**
+- In which year was the MMDR Act, 1957 amended to let the Centre auction critical minerals? → **2023**
+- G. Arboreum is known as what kind of cotton? → **Asian cotton**
+- G. Herbaceum is known as what kind of cotton? → **Asian cotton**
+- G. Hirsutum is known as what kind of cotton? → **American upland**
+- What staple length qualifies cotton as Extra-Long Staple? → **32.5 mm and above**
+- India's traditional toy heritage goes back about how many years? → **5,000**
+- Which is the nodal ministry for the National Green Hydrogen Mission? → **Ministry of New and Renewable Energy**
+- Which gene in Bt cotton, approved by GEAC in 2002, targets bollworm? → **Cry1Ac**
+- By how much did the 2015 Cotton Seed Price Control Order cut the trait fee? → **74%**
+- What happened to the Bt cotton trait fee in 2020? → **It was eliminated**
+- What monthly pension does PM-KMY provide after the age of 60? → **₹3,000**
+- What central grant does the NAFCC provide? → **100%**
+- Which Bt cotton technology with two stacked genes was introduced in 2006? → **Bollgard II**
+- How many frost-free days does cotton require? → **210**
+- From what is black cotton soil formed? → **Fissure volcanic rock**
+- In which State is Pavagada solar park? → **Karnataka**
+- In which State is Rewa solar park? → **Madhya Pradesh**
+- In which State are the GI-tagged Channapatna Toys and Dolls made? → **Karnataka**
+- In which State is the GI-tagged Thanjavur Doll made? → **Tamil Nadu**
+- Which bridge is the first permanent road link between Assam and Arunachal Pradesh? → **Dhola-Sadiya Bridge**
+- From which date did the Hong Kong Convention on ship recycling become binding? → **26 June 2025**
+- Who is the National Authority under the Ship Recycling Act, 2019? → **Directorate General of Shipping**
+- Where is the Coconut Development Board headquartered? → **Kochi**
+- With which country was the Green Grids Initiative–OSOWOG launched at COP26? → **United Kingdom**
+- On which date is Global Wind Day observed? → **15 June**
+- To which family does the coconut (Cocos nucifera) belong? → **Arecaceae**
+- Under Priority Sector Lending, at least what share of ANBC must go to agriculture? → **18%**
+- Where does India rank in area under cotton cultivation? → **First**
+- How much does one bale of cotton weigh? → **170 kg**
+- Which is the only country growing all four cotton species? → **India**
+- Which cotton species is known as Egyptian cotton? → **G. Barbadense**
+- In which year did Bt cotton become commercial in India? → **2002**
+- Besides Delhi, in which UT is DAY-NRLM not implemented? → **Chandigarh**
+- About how many people work in cotton processing and trade in India? → **40–50 million**
+- Which city is called the 'Manchester of India'? → **Ahmedabad**
+- Which is the nodal agency for cotton procurement in India? → **Cotton Corporation of India**
+- About 90% of India's LPG imports transit which strait? → **Strait of Hormuz**
+- The Red Dane cattle breed originates from which country? → **Denmark**
+- Which cattle breed gives golden milk due to beta-carotene? → **Guernsey**
+- What does MAITRIs stand for? → **Multi-Purpose AI Technicians in Rural India**
+- What is SHIP under the National Green Hydrogen Mission? → **Strategic Hydrogen Innovation Partnership for R&D**
+- What green hydrogen production per year does NGHM target by 2030? → **5 MMT**
+- How much CO2 emission does NGHM aim to avoid per year by 2030? → **50 MMT**
+- Which is India's first cable-stayed railway bridge? → **Anji Khad Bridge**
+- Which is India's first vertical-lift railway sea bridge? → **Pamban Bridge**
+- Maitri Setu connects Tripura with which country? → **Bangladesh**
+- Which is India's first river interlinking project? → **Ken–Betwa**
+- Which NRI account is used to park foreign earnings in India? → **NRE**
+- Which entity sets benchmark and forex reference rates in India? → **FBIL**
+- Where does India rank among the world's milk producers? → **First**
+- What is the world average per capita milk availability per day? → **328 g**
+- Where does India rank globally in egg production? → **Second**
+- Where does India rank globally in meat production? → **Fourth**
+- Which of these is identified as a biofuel feedstock in India? → **Cassava**
+- What is e-NAM? → **A pan-India e-trading portal**
+- The Red Sindhi cattle breed is associated with which place? → **Karachi / Hyderabad**
+- The Sahiwal cattle breed is associated with which place? → **Montgomery**
+- The Jersey cattle breed originates from where? → **Jersey Island, UK**
+- The Ayrshire cattle breed originates from where? → **Scotland**
+- Which of these breeds is exotic and not a registered breed under the Rashtriya Gokul Mission? → **Jersey**
+- What does SIGHT stand for under the National Green Hydrogen Mission? → **Strategic Interventions for Green Hydrogen Transition**
+- How is blue hydrogen produced? → **SMR with carbon capture from natural gas**
+- Which type of hydrogen is produced through coal gasification? → **Brown**
+- Which type of hydrogen is produced through steam methane reforming without carbon capture? → **Grey**
+- Which type of hydrogen is produced through electrolysis using renewable energy? → **Green**
+- Which digital system uses QR-based seed tracing? → **SATHI**
+- Under which ministry is NLCIL? → **Ministry of Coal**
+- Green ammonia used as marine fuel is made with what? → **Green hydrogen from renewables**
+- PM-KUSUM Component C supports what? → **Solarising grid pumps**
+- What is the sequence of the 5F Vision for textiles? → **Farm → Fibre → Factory → Fashion → Foreign**
+- The Atomic Energy Act 1962 replaced an Act of which year? → **1948**
+- In which year was the Department of Atomic Energy established? → **1954**
+- In natural farming, which fermented microbial solution is made from cow dung, urine, jaggery, pulse flour and soil? → **Jeevamrutha**
+- In natural farming, what does Bijamrutha refer to? → **Seed treatment**
+- In natural farming, what does Waaphasa refer to? → **Air–moisture balance in the root zone**
+- In which year was NPCI established? → **2008**
+- In which year was NPCI International Payments Ltd (NIPL) established? → **2020**
+- In which year was CONCOR established? → **1988**
+- Where is JNPA located? → **Navi Mumbai**
+- What is e-Samudra? → **A single-window, faceless digital maritime portal**
+- In which year was PNGRB established? → **2006**
+- A 'Goldilocks' economy means growth is what? → **Balanced: not overheating, not slowing**
+- Soil texture refers to the share of what in soil? → **Sand, silt and clay**
+- In which year was ICAR–NBSS&LUP established? → **1976**
+- In which year was NABARD established? → **1982**
+- In which year was the Kisan Credit Card introduced? → **1998**
+- Which body set up the National Adaptation Fund for Climate Change in 2015? → **NABARD**
+- Through which process is biogas produced? → **Anaerobic digestion**
+- Which initiative offers an affordable insurance product? → **Bima Vistaar**
+- What is Bima Vahak? → **Women distribution channel**
+- In which year did Toycathon begin? → **2021**
+- What is the capital of Greece? → **Athens**
+- Who is the President of Greece? → **Konstantinos Tasoulas**
+- Which two places does the East-West Corridor link? → **Silchar–Porbandar**
+- Which NRI deposit account is a foreign-currency account? → **FCNR(B)**
+- In which currency are NRE and NRO accounts maintained? → **Indian rupee**
+- Per the PYQ, what does devaluation necessarily improve? → **Export competitiveness**
+- What ethanol share does E85 contain? → **51–83%**
+- What is the approximate RON (octane rating) of ethanol? → **108**
+- Which of these is a first-generation ethanol feedstock? → **Molasses**
+- Which of these is a second-generation ethanol feedstock? → **Bagasse**
+- Which is the agriculture-specific language model? → **Agri Param**
+- Which ministry is associated with the Mega Leather, Footwear and Accessories Clusters? → **Ministry of Commerce and Industry**
+- In which year and city was GRSE established? → **1884, Kolkata**
+- Where is CSIR-CECRI located? → **Karaikudi**
+
+## Mar–May 2026: National - economy: Union Budget and Economic Survey highlights, RBI policy, key data releases (94)
+
+- After how many years of being inoperative do deposits become unclaimed? → **10**
+- Superior Kerosene Oil is what kind of crude oil fraction? → **Highly refined middle distillate**
+- From what is LPG sourced? → **Crude refining and gas processing**
+- Which odorant is added to LPG for leak detection? → **Ethyl mercaptan**
+- Which of these is a component of India's foreign-exchange reserves? → **Special Drawing Rights**
+- What is the opposite phase of El Niño? → **La Niña**
+- In which State is the Padur Strategic Petroleum Reserve? → **Karnataka**
+- What is the capacity of the Visakhapatnam Strategic Petroleum Reserve? → **1.33 MMT**
+- What is the capacity of the Mangalore Strategic Petroleum Reserve? → **1.5 MMT**
+- What is the reference period under Usual Status in PLFS? → **Last 365 days**
+- In which year was a Strategic Petroleum Reserve for India first mooted? → **1973**
+- On which date was the Bureau of Energy Efficiency established? → **1 March 2002**
+- In the PNG supply chain, what happens to LNG right after import? → **Regasification at coastal terminals**
+- In the PNG supply chain, what feeds the city network that reaches homes? → **City Gate Station**
+- What does LPG mainly consist of? → **Propane and butane**
+- What is PNG? → **Methane supplied through pipelines**
+- LNG is natural gas cooled to about what temperature? → **−160/−162°C**
+- Which of these is a listed use of Superior Kerosene Oil? → **Wick stoves and lamps**
+- What is Compressed Natural Gas (CNG)? → **Methane compressed at high pressure for transport**
+- LNG is cooled to about –160°C and reduced to what fraction of its volume? → **1/600th**
+- In what kind of tanks is LNG stored? → **Cryogenic tanks**
+- Which of these fuels is heavier than air? → **LPG**
+- Which of these is a use of LNG? → **CNG**
+- What is the N:P₂O₅:K composition of DAP? → **18:46:0**
+- On which date did the National Jute Board become operational? → **12 February 2009**
+- What is the reference period under the Current Weekly Status in PLFS? → **Last 7 days**
+- Which instrument lets small investors invest in real estate? → **REITs**
+- In which year did the NSO launch the PLFS? → **2017**
+- On which date was the IBBI set up? → **1 October 2016**
+- In which year were Section 29A eligibility rules and new voting thresholds added to the IBC? → **2018**
+- In which year did the IBC see COVID suspension and post-resolution immunity? → **2020**
+- In which year was pre-packaged insolvency for MSMEs introduced? → **2021**
+- What is the track width of Broad Gauge in India? → **1,676 mm**
+- In 647 AD, a Chinese mission travelled to which region to learn sugar production? → **Magadha**
+- From what is biodiesel in India mainly produced? → **Non-edible oilseeds like Jatropha and Pongamia**
+- Up to what amount does CGTMSE provide collateral-free loans? → **₹10 crore**
+- How is the Labour Force Participation Rate calculated? → **Labour force / population**
+- What is the approximate water footprint of paddy per kg? → **2,000 litres**
+- What is the approximate water footprint of milled rice per kg? → **3,000 litres**
+- Kolhapur Jaggery is a GI product of which State? → **Maharashtra**
+- Marayoor Jaggery is a GI product of which State? → **Kerala**
+- Central Travancore Jaggery is a GI product of which State? → **Kerala**
+- Since when has India been the world's second-largest steel producer? → **2018**
+- Where is the headquarters of South Central Railway? → **Secunderabad**
+- Visakhapatnam is the headquarters of which railway zone? → **South Coast Railway**
+- What share of the world's jaggery does India produce? → **Over 70%**
+- Which State is India's leading jaggery producer? → **Uttar Pradesh**
+- In which month is basmati rice transplanted? → **July**
+- Since when has India been a key partner of the OECD? → **2007**
+- Kalanamak and Adamchini GI rice varieties belong to which State? → **Uttar Pradesh**
+- Katarni GI rice belongs to which State? → **Bihar**
+- Badshah Bhog GI rice belongs to which State? → **Chhattisgarh**
+- Koraput Kalajeera rice belongs to which State? → **Odisha**
+- Wayanad Jeerakasala rice belongs to which State? → **Kerala**
+- Seeraga Samba rice belongs to which State? → **Tamil Nadu**
+- Which storage technology uses molten salt? → **Concentrating solar-thermal storage**
+- First-generation ethanol uses what feedstock? → **Food crops such as sugarcane and maize**
+- Second-generation ethanol uses what feedstock? → **Agricultural residues**
+- Which generation of ethanol uses algae? → **Third**
+- Fourth-generation ethanol uses what feedstock? → **Genetically engineered biomass**
+- Ethanol has about how much less energy per litre than petrol? → **27%**
+- Flex-fuel vehicles are associated with which country's ethanol model? → **Brazil**
+- Which institution mobilises global and domestic capital for infrastructure? → **NIIF**
+- Which of these is a depleted field suitable for underground storage? → **KG Basin**
+- Under which Act was the PNGRB set up? → **PNGRB Act, 2006**
+- Which activities does PNGRB regulate? → **Downstream activities**
+- Where do appeals against PNGRB decisions lie? → **APTEL**
+- What is India's total national crude-oil storage including commercial storage? → **About 74 days**
+- What is the IEA norm for crude-oil storage? → **90 days**
+- Green and blue bonds finance infrastructure through what? → **Environment-linked bond instruments**
+- In which year was NPCI established? → **2008**
+- In which year was IRDAI established? → **1999**
+- With which agency was the satellite-based Jute Crop Information System built? → **ISRO**
+- In which year was the National Jute Board Act enacted? → **2008**
+- Where is the Spices Board headquartered? → **Kochi**
+- In which year was ICAR established? → **1929**
+- Which pest has developed resistance to Bt cotton? → **Pink bollworm**
+- El Niño involves warming of which ocean region? → **Central and eastern equatorial Pacific**
+- What does renewable curtailment mean? → **Cutting RE output despite availability**
+- To which fund do unclaimed bank deposits go? → **Depositor Education and Awareness Fund**
+- Muzaffarnagar Gur is a GI product of which State? → **Uttar Pradesh**
+- From which Sanskrit word is the word "sugar" derived? → **Sarkara**
+- Under which Act was the Fertiliser Control Order, 1985 issued? → **Essential Commodities Act, 1955**
+- The Suez Canal lies in which country? → **Egypt**
+- In which year was Brazil's Proálcool Programme launched? → **1975**
+- Under which Act is the ATF (Regulation of Marketing) Order, 2001 issued? → **Essential Commodities Act, 1955**
+- How many labour laws were consolidated into the four Labour Codes? → **29**
+- What is the retrenchment threshold under the Labour Codes? → **300 workers**
+- Which institution provides long-term infrastructure finance and ESG financing? → **NaBFID**
+- Which instrument monetises completed infrastructure assets? → **InvITs**
+- What does the Infrastructure Risk Guarantee Fund provide? → **Partial guarantees to lenders**
+- What does the National Monetisation Pipeline do? → **Leases operational assets**
+- Which MSME scheme offers collateral-free credit with guarantee cover up to ₹10 crore? → **CGTMSE**
+- Appeals against PNGRB orders lie with which body? → **APTEL**
+
+## Dec 2025–Feb 2026: National - economy: Union Budget and Economic Survey highlights, RBI policy, key data releases (81)
+
+- GST came into effect in India on which date? → **1 July 2017**
+- International MSME Day is observed on which date? → **27 June**
+- One e₹ (Digital Rupee) is equal in value to what? → **1 ₹**
+- Reaching USD 4,000 per capita income by 2030 would give India which World Bank status? → **Upper-middle-income**
+- The PMUY subsidy of ₹300 applies per cylinder of what size? → **14.2 kg**
+- The Air Corporations Act, 1953 nationalised how many airlines? → **Nine**
+- The Bharatiya Vayuyan Adhiniyam, 2024 replaces which law? → **Aircraft Act, 1934**
+- Under which Act are InvITs recognised as borrowers? → **SARFAESI Act, 2002**
+- How often are Soil Health Cards issued to farmers? → **Every two years**
+- In which year did NITI Aayog launch the Atal Innovation Mission? → **2016**
+- How many irrigations does transplanted paddy require in a season? → **25–27**
+- Infrastructure bonds are regulated by which bodies? → **RBI and SEBI**
+- In which year did the RBI impose its banking ban on cryptocurrency? → **2018**
+- In which year did the Supreme Court lift the RBI's crypto banking ban? → **2020**
+- India's Digital Rupee (e₹) is issued by which body? → **RBI**
+- Under the MSME definition from 1 April 2025, the turnover limit for a small enterprise is? → **₹100 crore**
+- Under the MSME definition from 1 April 2025, the investment limit for a micro enterprise is? → **₹2.5 crore**
+- Under the MSME definition from 1 April 2025, the investment limit for a medium enterprise is? → **₹125 crore**
+- Which MSME scheme deals with cluster development and Common Facility Centres? → **MSE-CDP**
+- ASPIRE, which sets up livelihood business incubators, falls under which ministry? → **Ministry of MSME**
+- What is the turnover cap for a DPIIT-recognised startup? → **₹100 crore**
+- MSME Champions comprises ZED, LEAN and which component? → **Innovative**
+- The MSME ODR Portal is designed to resolve what? → **Delayed payments**
+- Around what share of registered MSME units are micro or small? → **95%**
+- The 2020 composite criteria for classifying MSMEs use which measures? → **Investment and turnover**
+- Under the 2020 MSME criteria, the turnover limit for a medium enterprise was? → **₹250 crore**
+- In which year did the UN General Assembly designate International MSME Day? → **2017**
+- On which date was UDAN launched? → **21 October 2016**
+- Startup India was launched in 2016 by which department? → **DPIIT**
+- The NIDHI startup programme is associated with which department? → **Department of Science and Technology**
+- In MSME data, approximately 62% refers to their share of what? → **Employment**
+- Rice is a staple food for about what share of Indians? → **65%**
+- Rice occupies about what share of India's total cropped area? → **25%**
+- In rice cultivation, what does DSR stand for? → **Direct Seeded Rice**
+- Which rice-production practice, Alternate Wetting and Drying, is known for cutting what? → **Methane emissions**
+- Fortified rice is distributed under NFSA and which other scheme? → **PM-POSHAN**
+- Which body is responsible for promoting India's seafood exports? → **MPEDA**
+- Which scheme builds fisheries infrastructure in India? → **PMMSY**
+- Stand Up India is meant for which entrepreneurs? → **SC/ST and women**
+- Pradhan Mantri Ujjwala Yojana was launched on 1 May 2016 at which place? → **Ballia**
+- India's sugar season runs over which period? → **October–September**
+- The Banking Laws (Amendment) Act, 2025 amends the State Bank of India Act of which year? → **1955**
+- Which RBI Act does the Banking Laws (Amendment) Act, 2025 amend? → **Reserve Bank of India Act, 1934**
+- The Banking Laws (Amendment) Act, 2025 amends the Banking Regulation Act of which year? → **1949**
+- Which Act brought cooperative banks under RBI control? → **Banking Regulation (Amendment) Act, 2020**
+- Urban Cooperative Banks were brought under the Banking Regulation Act by the amendment of which year? → **1966**
+- Which policy was India's first integrated aviation policy, replacing the 5/20 rule with 0/20? → **NCAP 2016**
+- In which year did India introduce a 30% tax on crypto gains with 1% TDS? → **2022**
+- The GST Council is constituted under which Article of the Constitution? → **Article 279A**
+- In which year was the PNGRB Act enacted? → **2006**
+- Which was India's first independent regulator, set up in 1997? → **TRAI**
+- What is the status of the rupee's capital account convertibility? → **Partial**
+- What is the length of the Mumbai–Ahmedabad high-speed rail corridor? → **508 km**
+- What is the Krishi Decision Support System? → **A geo-spatial platform**
+- Which grid does SATHI form? → **National Seed Grid**
+- APEDA was established on which date? → **13 February 1986**
+- The DGCA is an attached office of which ministry? → **Ministry of Civil Aviation**
+- In which year was the Soil Health Card scheme launched? → **2015**
+- Flooded transplanted paddy increases emissions of which greenhouse gas due to anaerobic conditions? → **Methane**
+- NICRA is a programme of which organisation? → **ICAR**
+- ReALCRaft is a web platform for what purpose? → **Registration and licensing of fishing vessels**
+- The Unified Pipeline Tariff is associated with which principle? → **One Nation, One Grid, One Tariff**
+- What is the operating speed of the Mumbai–Ahmedabad high-speed rail? → **320 km/h**
+- What does ISMA stand for? → **Indian Sugar and Bio-Energy Manufacturers Association**
+- The old Pamban bridge was opened in which year? → **1914**
+- What does vehicle-to-vehicle (V2V) communication need to function? → **No mobile network or internet**
+- Which scheme promotes regional air connectivity through Viability Gap Funding? → **UDAN**
+- Which aviation initiative uses facial recognition with no central database? → **DigiYatra**
+- The money market deals with instruments of what maturity? → **Less than one year**
+- The capital market includes which segments? → **Primary and secondary markets**
+- Bank-issued infrastructure bonds enjoy exemptions from which requirements? → **CRR and SLR**
+- What kind of returns do infrastructure bonds give? → **Fixed interest**
+- What kind of returns do InvITs give? → **Market-linked**
+- What is the tenure of infrastructure bonds like? → **Fixed**
+- In its market behaviour, Bitcoin behaves like what? → **A risk asset**
+- Bitcoin, associated with Satoshi Nakamoto, dates from which year? → **2009**
+- Bitcoin's supply is capped at? → **21 million**
+- Bitcoin Cash emerged through a hard fork in which year? → **2017**
+- In which year were Indian crypto exchanges brought under FIU-IND for KYC/AML? → **2023**
+- Which country has made Bitcoin legal tender? → **El Salvador**
+- Which African country has adopted Bitcoin as legal tender? → **Central African Republic**
+
+## Overview and data: National - economy: Union Budget and Economic Survey highlights, RBI policy, key data releases (2)
+
+- Small-savings interest rates are linked to what? → **Government securities yields**
+- Small-savings collections are credited to which fund? → **National Small Savings Fund**
+
+## Sep–4 Nov 2026: National - new central schemes, missions and their features (3)
+
+- How many national missions does the NAPCC have? → **Eight**
+- When was India's National Logistics Policy launched? → **17 September 2022**
+- On which date was PM Surya Ghar Muft Bijli Yojana launched? → **13 February 2024**
+
+## Jun–Aug 2026: National - new central schemes, missions and their features (12)
+
+- Compressed Biogas (CBG) is upgraded to about what share of methane? → **98%**
+- The Limboo community is associated with which State? → **Sikkim**
+- The Karbi community is associated with which State? → **Assam**
+- Biogas typically contains what share of methane? → **55–65%**
+- Which scheme supports solar pumps and small solar plants on unused land? → **PM-KUSUM**
+- SAUBHAGYA was closed after achieving its targets in which month? → **March 2022**
+- What does MISHTI stand for? → **Mangrove Initiative for Shoreline Habitats and Tangible Incomes**
+- The Kaladan project links Sittwe Port to which place by waterway? → **Paletwa**
+- Which places host Border Haats in the North-East? → **Kamalasagar and Bholaganj**
+- Which North-East project is a road–rail bridge over the Brahmaputra? → **Bogibeel Bridge**
+- Sela Tunnel lies on which route? → **Tezpur–Tawang**
+- Where is ARIES headquartered? → **Nainital**
+
+## Dec 2025–Feb 2026: National - new central schemes, missions and their features (5)
+
+- The current law governing the Bureau of Indian Standards is the BIS Act of which year? → **2016**
+- AYUSH covers Ayurveda, Yoga & Naturopathy, Unani, Siddha and which other system? → **Homoeopathy**
+- In which year was the Ministry of AYUSH set up? → **2014**
+- NCISM and which other body regulate the AYUSH sector? → **National Commission for Homoeopathy**
+- Drug inactivation through which enzymes is a mechanism of antimicrobial resistance? → **β-lactamases**
+
+## Apr–Nov 2025: National - new central schemes, missions and their features (11)
+
+- Article 21A provides free and compulsory education for children of which age group? → **6–14 years**
+- How many years of pensionable service are needed for EPS pension eligibility? → **10 years**
+- NEP 2020 provides vocational exposure from which grade? → **Grade 6**
+- Which framework enables credit transfer between vocational and general education? → **National Credit Framework**
+- Which country offers VET-to-university pathways and the SkillsFuture lifelong upskilling programme? → **Singapore**
+- ULLAS considers a region fully literate with at least 95% literacy among people of which age group? → **15 years and above**
+- India's demographic window is expected to extend until which decade? → **2040s**
+- Under the RTE Act, 2009, there is no detention of children till which class? → **Class 8**
+- What share of Class 1 seats in private unaided schools does RTE Section 12(1)(c) reserve? → **25%**
+- Which committees does the RTE Act, 2009 provide for in schools? → **School Management Committees**
+- Which country follows a dual system of VET at upper-secondary level with paid apprenticeships? → **Germany**
+
+## Overview and data: National - new central schemes, missions and their features (3)
+
+- In which year was rural India declared ODF? → **2019**
+- Which is Mizoram's first railway line? → **Bairabi-Sairang**
+- Which is India's first major river-linking project? → **Ken-Betwa**
+
+## Sep–4 Nov 2026: National - committees, commissions and their reports (29)
+
+- The Foreign Contribution (Regulation) Act, 2010 replaced the FCRA of which year? → **1976**
+- Nasha Mukt Bharat Abhiyaan (2020) is run by which ministry? → **Ministry of Social Justice and Empowerment**
+- On which date is the International Day of Older Persons observed? → **1 October**
+- RoDTEP replaced which export incentive scheme? → **MEIS**
+- From which date did RoDTEP become effective? → **1 January 2021**
+- What kind of committee is a Joint Parliamentary Committee? → **Ad hoc**
+- In which year was the National Action Plan on Climate Change launched? → **2008**
+- In which year was the National Perspective Plan for interlinking rivers formulated? → **1980**
+- How many links does the National Perspective Plan for interlinking rivers cover? → **30**
+- In which year was the National Water Development Agency set up? → **1982**
+- The Pennaiyar water dispute is linked to an agreement of which year? → **1892**
+- The Mullaperiyar project diverts water from the Periyar in Kerala to which river in Tamil Nadu? → **Vaigai**
+- The Parambikulam–Aliyar project is shared between Tamil Nadu and which State? → **Kerala**
+- In which year was the Narcotics Control Bureau set up? → **1986**
+- Under the MWPSC Act, 2007, a senior citizen is a person of what age? → **60 years or above**
+- Which section of the MWPSC Act, 2007 allows certain property transfers to be declared void? → **Section 23**
+- Which is the nodal ministry for the Foreign Contribution (Regulation) Act? → **Ministry of Home Affairs**
+- Which Article of the Constitution is associated with elderly welfare? → **Article 41**
+- Which Article deals with devolution to panchayats for economic development and social justice? → **Article 243G**
+- Which Article is the Directive Principle concerning intoxicating substances? → **Article 47**
+- What is the principal cereal of the Kharif season? → **Rice**
+- What is the principal cereal of the Rabi season? → **Wheat**
+- The Krishna Water Supply project supplies water to which city? → **Hyderabad**
+- The Indira Gandhi Canal carries Sutlej–Beas water to which State? → **Rajasthan**
+- At which level do SAPCCs operate? → **State**
+- Which ministry runs the Nasha Mukt Bharat Abhiyaan? → **Ministry of Social Justice**
+- In which year was the International Hockey Federation (FIH) established? → **1924**
+- Under which Act are Scheduled Areas covered by Panchayati Raj? → **PESA**
+- Which body publishes Accidental Deaths and Suicides in India (ADSI)? → **NCRB**
+
+## Jun–Aug 2026: National - committees, commissions and their reports (23)
+
+- In which year was the Model Prisons and Correctional Services Act framed? → **2023**
+- In which year was the Model Prison Manual issued? → **2016**
+- Who appoints the Comptroller and Auditor General of India? → **The President**
+- Which case held that prisoners retain their fundamental rights? → **Sunil Batra v. Delhi Administration**
+- Which is the nodal ministry under the Disaster Management Act, 2005? → **Ministry of Home Affairs**
+- In which year was the Ministry of Human Resource Development renamed the Ministry of Education? → **2020**
+- Under PCPNDT rules, where may a registered ultrasound machine be used? → **Only at its registered location**
+- In which year was Hussainara Khatoon v. State of Bihar, recognising speedy trial under Article 21, decided? → **1979**
+- Under BNSS Section 479, a first-time offender may be released on bond after serving what part of the maximum sentence? → **One-third**
+- Under BNSS Section 479, who must apply for the release on bond of an eligible undertrial? → **The jail superintendent**
+- Which law provides for the Civil Defence Volunteer Force announced from the Red Fort in 2026? → **Civil Defence Act 1968**
+- In which year was the Pre-Natal Diagnostic Techniques Act enacted? → **1994**
+- Which amendment year added pre-conception provisions and renamed the law the PCPNDT Act? → **2003**
+- Under which Act is the National Commission for Minorities a statutory body? → **NCM Act, 1992**
+- Which traditional system is the main competitor to Ayurveda globally? → **Traditional Chinese Medicine**
+- The Line of Control in Jammu and Kashmir lies between India and which country? → **Pakistan**
+- The Line of Actual Control denotes India's boundary with which country? → **China**
+- African Swine Fever is a viral disease of which animal? → **Pigs**
+- Sowa-Rigpa, also called Amchi, is associated with which region? → **Himalayan region**
+- In which year was Sowa-Rigpa officially recognised? → **2010**
+- The Siddha system of medicine is associated with which State? → **Tamil Nadu**
+- Sushruta Samhita is associated with which field? → **Surgery**
+- Annual PLFS estimates are produced by Usual Status and which other approach? → **Current Weekly Status**
+
+## Mar–May 2026: National - committees, commissions and their reports (61)
+
+- The Lt. Gen. S.K. Sinha Report (1998) dealt with what? → **Demographic change in border districts**
+- What was the voter turnout gender gap in the 2014 Lok Sabha election? → **1.5 percentage points**
+- Besides the PM, the CCS comprises the Defence, Home, Finance and which other Minister? → **External Affairs**
+- In which year did the USA grant universal adult franchise through the 19th Amendment? → **1920**
+- In which year did Japan grant universal adult franchise? → **1945**
+- In which year was the Protection of Civil Rights Act enacted? → **1955**
+- What is the maximum strength of the Rajya Sabha? → **250 members**
+- For how long does a patent protect an invention? → **20 years**
+- How many women MPs were elected to the Lok Sabha in 1952? → **22**
+- Which parliamentary committee examines CAG reports? → **Public Accounts Committee**
+- Which parliamentary committee has 30 members, all from the Lok Sabha? → **Estimates Committee**
+- Which parliamentary committee has 22 members, 15 from Lok Sabha and 7 from Rajya Sabha? → **Committee on Public Undertakings**
+- In which case was the BCCI held not to be 'State' under Article 12? → **Zee Telefilms v. Union of India**
+- Which 2005 case held illegal migration into Assam to be external aggression? → **Sarbananda Sonowal case**
+- Which 1994 case held federalism part of the Basic Structure and curbed the use of Article 356? → **S.R. Bommai**
+- Article 1(1) describes India, that is Bharat, as what? → **A Union of States**
+- In which 1962 case did the Supreme Court describe India as quasi-federal? → **State of West Bengal v. Union of India**
+- Which 2023 case held that Governors cannot indefinitely delay assent to Bills? → **State of Punjab v. Principal Secretary to Governor**
+- In which year did SEBI receive statutory status? → **1992**
+- About how many stampede incidents has India had in the last three decades? → **4,000**
+- Indra Sawhney prescribed the creamy-layer principle for which group? → **OBCs only**
+- Which case laid down quantifiable data conditions for promotion quotas? → **M. Nagaraj**
+- What does Protection of Regulatory Data (data exclusivity) protect? → **Test data**
+- The Koshi river is known as the sorrow of which State? → **Bihar**
+- Sri Lanka granted universal adult franchise in 1931 under which constitution? → **Donoughmore Constitution**
+- Which Article provides for the Inter-State Council? → **Article 263**
+- Which Article provides for President's Rule in States? → **Article 356**
+- Which Article vests residuary powers with the Union? → **Article 248**
+- Which Article makes it the Union's duty to protect States from external aggression and internal disturbance? → **Article 355**
+- Which law places the burden of proof of nationality on the individual? → **Foreigners Act, 1946**
+- Section 6A of the Citizenship Act, 1955 relates to which accord? → **Assam Accord**
+- The Santhal Pargana Tenancy Act, 1876 deals with what? → **Protection of tribal land**
+- Which constitutional body under Article 263 has been described as dormant? → **Inter-State Council**
+- Besides the Sarkaria Commission, which commission examined Centre-State relations? → **Punchhi Commission**
+- Which constitutional amendment added Part IX and the 11th Schedule on Panchayati Raj? → **73rd Amendment**
+- Which Article directs the State to organise village panchayats? → **Article 40**
+- How often does the State Finance Commission review panchayat finances? → **Every five years**
+- Which category of Alternative Investment Fund covers startups? → **Category I**
+- Which category of Alternative Investment Fund covers private equity? → **Category II**
+- Which category of Alternative Investment Fund covers hedge funds? → **Category III**
+- Which clause of Article 15 applies to the State and to private places like shops and hotels? → **Article 15(2)**
+- Which clause of Article 15 enables special provisions for SEBCs, SCs and STs? → **Article 15(4)**
+- The Draft Pesticides Management Bill, 2025 replaces the Insecticides Act of which year? → **1968**
+- Under the Gadgil-Mukherjee framework, what kind of terrain qualifies for Special Category Status? → **Hilly and difficult terrain**
+- Which population feature is a criterion for Special Category Status? → **Low population density or sizeable tribal population**
+- What kind of location is a criterion for Special Category Status? → **Strategic location along international borders**
+- Article 17, which abolishes untouchability, is part of which Fundamental Right? → **Right to Equality**
+- Which section of the SC/ST (PoA) Act penalises neglect of duty by officials? → **Section 4**
+- In which year was the domicile requirement for Rajya Sabha membership removed? → **2003**
+- In which year was the National Mission on Edible Oils–Oil Palm launched? → **2021**
+- What was the voter turnout gender gap in the 2009 Lok Sabha election? → **4.4 percentage points**
+- How many women MPs were elected to the Lok Sabha in 2019? → **78**
+- How many women MPs were elected to the Lok Sabha in 2014? → **62**
+- How many women MPs were elected to the Lok Sabha in 2009? → **59**
+- Delays by a Governor in assenting to Bills have been described as what? → **Pocket veto**
+- What is the source of Nipah virus infection? → **Bats, pigs, contaminated fruit**
+- Plague is spread by which source? → **Fleas on rodents**
+- Brucellosis spreads from which source? → **Cattle, goats, unpasteurised milk**
+- Rabies is transmitted mainly by which animals? → **Dogs and bats**
+- Where was SJVN established in 1988? → **Shimla**
+- Which of these countries granted universal adult franchise first? → **USA**
+
+## Dec 2025–Feb 2026: National - committees, commissions and their reports (48)
+
+- Can SECC 2011 data be used for scheme targeting? → **Yes, it is not confidential**
+- On which date was the National Commission for Scheduled Tribes established? → **19 February 2004**
+- Which Article provides for a commission on backward classes? → **Article 340**
+- Which section of the RP Act, 1951 provides disqualification for promoting enmity? → **Section 8**
+- Which case recognised the Right to Privacy as a fundamental right in 2017? → **K.S. Puttaswamy**
+- Which mountain range separates Manipur and Nagaland? → **Barail range**
+- On which date was PM CARES set up as a public charitable trust? → **27 March 2020**
+- Which fund was set up for persons displaced after Partition? → **PMNRF**
+- The Golden Hour provision is linked to which section of the Motor Vehicles Act, 1988? → **Section 162**
+- NATGRID was created in response to which event? → **26/11 Mumbai attacks (2008)**
+- Which fund supports armed forces welfare through a committee chaired by the PM? → **National Defence Fund**
+- Malaria is treated with which therapy? → **ACT**
+- Which 2014 committee dealt with racial and regional discrimination? → **Bezbaruah Committee**
+- The Viswanathan Committee (2015) dealt with what? → **Identity-based offences**
+- Which colonial law labelled tribes as 'born criminals'? → **Criminal Tribes Act, 1871**
+- Which BNS section deals with promoting enmity between groups? → **Section 196**
+- Which BNS section deals with insulting religion? → **Section 299**
+- In which case was Section 66A of the IT Act struck down? → **Shreya Singhal (2015)**
+- Which BNS section concerns incitement to offences endangering public order? → **Section 353**
+- Which 2018 Supreme Court case laid down mob lynching guidelines? → **Tehseen Poonawalla**
+- Which 2022 case required police to file suo motu FIRs on hate speech? → **Shaheen Abdulla**
+- Under which Act is individual census data kept confidential? → **Census Act, 1948**
+- The census subject is placed in which entry of the Union List? → **Entry 69**
+- In which year was the first complete census of a city (Dacca) conducted? → **1830**
+- In which year was the first all-India non-synchronous census held? → **1872**
+- In which year was the first synchronous census held in India? → **1881**
+- Which census year is called the 'Great Divide'? → **1921**
+- SECC 2011 was the first caste enumeration since which year? → **1931**
+- State powers for caste surveys are located in which entry? → **Concurrent List Entry 20**
+- What did the Patna High Court (2023) decide on the Bihar caste survey? → **Upheld it**
+- In which year were Delhi and Mumbai airports privatised? → **2003**
+- Hyderabad and Bengaluru airports were built as greenfield PPPs under which model? → **BOOT**
+- How many AAI airports were awarded in the 2019 privatisation round? → **Six**
+- To how many operators were the airports of the 2019 round awarded? → **A single operator**
+- In which year was National Monetisation Pipeline 1.0 launched? → **2021**
+- Under which Article can retired High Court judges be appointed as ad hoc judges? → **Article 224A**
+- Ad hoc judges in a High Court under Article 224A are capped at what share of sanctioned strength? → **10%**
+- Which mosquito is the vector of lymphatic filariasis? → **Culex quinquefasciatus**
+- Articles 214–231 of the Constitution deal with which institution? → **High Courts**
+- Which organism causes malaria? → **Plasmodium**
+- What is the vector of malaria? → **Female Anopheles**
+- Which organism causes tuberculosis? → **Mycobacterium**
+- Plasmodium belongs to which group of organisms? → **Protozoan**
+- Which malaria vaccines are prioritised for Africa? → **RTS,S and R21**
+- Which is the most severe type of spina bifida? → **Myelomeningocele**
+- Which is the mildest type of spina bifida? → **Spina Bifida Occulta**
+- Which nutrient taken in early pregnancy helps prevent spina bifida? → **Folic acid**
+- Which Article deals with the appointment of High Court judges in the context of constitution of High Courts? → **Article 214**
+
+## Apr–Nov 2025: National - committees, commissions and their reports (31)
+
+- Under which Article may the Governor report for imposition of President's Rule? → **Article 356**
+- Under which Article is President's Rule imposed? → **Article 356**
+- What type of pension scheme is the Old Pension Scheme? → **Non-contributory, defined benefit**
+- What type of pension scheme is the National Pension System? → **Contributory, defined contribution**
+- What is the minimum pension under the Old Pension Scheme? → **₹9,000**
+- What pension does the Old Pension Scheme provide? → **50% of last basic plus DA**
+- How is pension provided under the NPS? → **Market annuity**
+- What share of the NPS corpus can be withdrawn tax-free at retirement? → **60%**
+- In which year did the National Pension System begin for government employees? → **2004**
+- Under which pension scheme do employees make no contribution? → **OPS**
+- Who chaired the 7th Central Pay Commission? → **Justice Ashok Kumar Mathur**
+- In which year did Swami Vivekananda give his Chicago address linking science to Hindu tradition? → **1893**
+- In which year was the SC/ST (Prevention of Atrocities) Act enacted? → **1989**
+- Which law governs abortions in India? → **MTP Act**
+- What does NCRB stand for? → **National Crime Records Bureau**
+- India supplies pharmaceuticals to how many countries? → **200+**
+- Articles 244(1) and 244(2) relate to which Schedules? → **Fifth and Sixth Schedules**
+- What is India's rank in pharmaceutical production by volume? → **Third**
+- Which country saw over 60 child deaths from DEG-contaminated syrup in 2022? → **Gambia**
+- Which country saw at least 18 deaths from DEG-contaminated syrup in 2023? → **Uzbekistan**
+- H5N1 is what type of influenza? → **Highly pathogenic avian influenza**
+- What is the status of human-to-human transmission of H5N1? → **Unconfirmed**
+- What percentage of nitrogen does ammonium sulphate contain? → **20.5%**
+- Article 51A(h) is the duty to develop scientific temper, humanism, spirit of enquiry and what? → **Reform**
+- Which Article defines Scheduled Tribes? → **Article 366(25)**
+- Under which Article does the President specify Scheduled Tribes? → **Article 342**
+- What percentage of sulphur does ammonium sulphate contain? → **23%**
+- Which country uses the High-Tech Strategy and KOINNO for innovation procurement? → **Germany**
+- The SBIR procurement model is associated with which country? → **USA**
+- Which country is associated with pre-commercial procurement? → **South Korea**
+- The Joint Procurement Agreement is associated with which entity? → **EU**
+
+## Overview and data: National - committees, commissions and their reports (31)
+
+- What is the nature of the Law Commission of India? → **Advisory body**
+- To whom does the Law Commission submit its reports? → **Ministry of Law and Justice**
+- Who chaired the first post-independence Law Commission (1955)? → **M.C. Setalvad**
+- Macaulay's colonial Law Commission produced which code? → **Indian Penal Code (1860)**
+- The 14th Law Commission report (1958) dealt with what? → **Reform of judicial administration**
+- Which Law Commission report recommended Gram Nyayalayas? → **114th**
+- The 59th Law Commission report (1974) dealt with what? → **Family courts**
+- Which Law Commission report proposed a National Judicial Service Commission (1987)? → **121st**
+- Which Law Commission report dealt with the 'uncle judge' syndrome in High Courts? → **230th**
+- Which Law Commission report recommended raising Lok Sabha strength by 25% through a party list? → **170th**
+- Which Law Commission report recommended EVM totalisers? → **255th**
+- The 255th Law Commission report recommended de-registering parties that skip elections for how long? → **10 years**
+- Which Law Commission report (2008) reviewed the procedure for appointing judges? → **214th**
+- The 245th Law Commission report dealt with what? → **Arrears and pendency**
+- Which Law Commission report gave a draft model Bilateral Investment Treaty? → **260th**
+- The Shanta Kumar Committee dealt with which subject? → **FCI–PDS reform**
+- Which committee's draft led to NEP 2020? → **K. Kasturirangan Committee**
+- The Urjit Patel Committee's recommendations led to the RBI Act amendment of which year? → **2016**
+- The Nachiket Mor Committee dealt with which subject? → **Financial inclusion**
+- The Ashok Dalwai Committee dealt with which subject? → **Doubling farmers' income**
+- The Santhanam Committee (1962-63) dealt with which subject? → **Prevention of corruption**
+- NCHER was proposed after which committee's report (2009)? → **Yashpal Committee**
+- Which HRD Minister announced NCHER? → **Kapil Sibal**
+- What happened to the NCHER proposal? → **It was never enacted**
+- Which is the nodal institution for the National Family Health Survey? → **IIPS Mumbai**
+- Which body publishes the Sample Registration System bulletin? → **Registrar General of India**
+- Which body publishes Prison Statistics India? → **NCRB**
+- Which organisation conducts ASER? → **Pratham**
+- Which ministry conducts AISHE? → **Ministry of Education**
+- Which agency conducts the Household Consumption Expenditure Survey (HCES)? → **NSO, MoSPI**
+- For what term is the Law Commission of India constituted? → **Three years**
+
+## Jun–Aug 2026: Environment in news - reports, indices, species, protected areas, climate negotiations (49)
+
+- Which institution brokered the Indus Waters Treaty? → **World Bank**
+- Where is the headquarters of the Zoological Survey of India? → **Kolkata**
+- Who built Ana Sagar Lake (1135–1150 AD)? → **Arnoraja Chauhan**
+- Ana Sagar Lake was built by damming which river? → **Luni**
+- In which year was the Botanical Survey of India established? → **1890**
+- Where is India's Geographical Indications Registry located? → **Chennai**
+- Setting forests on fire is punishable under which law? → **Bharatiya Nyaya Sanhita, 2023**
+- Revocation of a GI registration is provided under which section of the GI Act? → **Section 27**
+- The GI Act is administered by which department? → **DPIIT**
+- The degraded Cooum river is associated with which city? → **Chennai**
+- Where is the headquarters of the Border Roads Organisation? → **New Delhi**
+- In which year did the GI Act come into force? → **2003**
+- Pithora Painting dates to which century? → **13th century**
+- Where is India's GI Registry located? → **Chennai**
+- The Ravi–Beas Tribunal involves Punjab, Haryana and which other state? → **Rajasthan**
+- The water tribunals were extended by one year under which Act? → **ISRWD Act, 1956**
+- Which plants are called the 'amphibians of the plant kingdom'? → **Bryophytes**
+- Which type of forest fire is common in India? → **Surface fire**
+- What is the peak forest-fire season in India? → **March to May**
+- The India State of Forest Report is brought out by which body? → **Forest Survey of India**
+- Since which year has Parichha Weir been operational? → **1886**
+- Indira Point, India's southernmost point, was formerly known as what? → **Pygmalion Point**
+- In which year was Pygmalion Point renamed Indira Point? → **1985**
+- Great Nicobar is which island of the Andaman and Nicobar group? → **Southernmost**
+- Which tribe of Great Nicobar is classified as a PVTG? → **Shompen**
+- What kind of command is the Andaman and Nicobar Command? → **India's only tri-service command**
+- Which channel separates the Andaman and Nicobar groups? → **Ten Degree Channel**
+- Biochar is produced by pyrolysis, which is heating under what conditions? → **Oxygen-depleted**
+- Why does biochar store carbon for centuries? → **It decomposes very slowly**
+- Which WTO agreement provides an international framework for Geographical Indications? → **TRIPS**
+- Which convention, besides TRIPS, is an international framework relevant to GIs? → **Paris Convention**
+- ONDC is administered by which body? → **DPIIT**
+- The NDRF functions under which ministry? → **Ministry of Home Affairs**
+- The degraded Musi river is associated with which city? → **Hyderabad**
+- The degraded Vrishabhavathi river is associated with which city? → **Bengaluru**
+- The degraded Bharalu and Bahini rivers are associated with which city? → **Guwahati**
+- The degraded Varuna and Assi rivers are associated with which city? → **Varanasi**
+- The degraded Mula and Mutha rivers are associated with which city? → **Pune**
+- The Border Roads Organisation functions under which ministry? → **Ministry of Defence**
+- A GI tag is a form of what? → **Intellectual property right**
+- Who started Van Mahotsav in 1950? → **K. M. Munshi**
+- The genus Impatiens belongs to which plant family? → **Balsaminaceae**
+- In which year was CMFRI established at Kochi? → **1947**
+- Who founded the Bharatiya Jana Sangh? → **Syama Prasad Mukherjee**
+- The Falkland Islands are what kind of territory? → **British Overseas Territory**
+- The Chenab is formed by the confluence of which two rivers? → **Chandra and Bhaga**
+- KWDT-II concerns the waters of which river? → **Krishna**
+- ATREE was established in 1996 in which city? → **Bengaluru**
+- In which year was the Geographical Indications of Goods (Registration and Protection) Act enacted? → **1999**
+
+## Apr–Nov 2025: Environment in news - reports, indices, species, protected areas, climate negotiations (21)
+
+- What share of India's net sown area is rain-fed? → **60%**
+- Under which ministry does the Geological Survey of India function? → **Ministry of Mines**
+- About how long are the Western Ghats (Sahyadri)? → **About 1,600 km**
+- Which is the highest peak of the Western Ghats? → **Anamudi**
+- What is the elevation of Anamudi? → **2,695 m**
+- About how many plant species are found in the Western Ghats? → **About 7,400**
+- About what share of Western Ghats plant species are endemic? → **About 30%**
+- In which year does the source date the Western Ghats' UNESCO World Heritage listing? → **1987**
+- Kilauea and Santa Maria are examples of which type of volcano? → **Active**
+- Mount Kilimanjaro is an example of which type of volcano? → **Dormant**
+- Dhinodhar Hill in Gujarat is an example of which type of volcano? → **Extinct**
+- Mauna Loa is an example of which type of volcano? → **Shield**
+- Sidoarjo, a known mud-volcano belt, is in which country? → **Indonesia**
+- A well blowout occurs when well pressure overcomes drilling mud and what? → **Blowout preventers**
+- Which of these can cause an oil or gas well blowout? → **Wrong mud weight**
+- Which of these is a toxin released from e-waste? → **Beryllium**
+- The Western Ghats are one of how many 'hottest hotspots' of biodiversity? → **8**
+- How do Urban Heat Island night temperatures compare with surroundings? → **3–5°C higher**
+- In plastic waste policy, what does EPR stand for? → **Extended Producer Responsibility**
+- Since which year have atmospheric CO₂ measurements been made? → **1957**
+- PMMSY is linked to which Sustainable Development Goal? → **SDG 14**
+
+## Apr–Nov 2025: Sports - major tournaments, winners, records and hosting rights (8)
+
+- Which weightlifter was the first Indian woman Olympic medallist, with bronze at Sydney 2000? → **Karnam Malleswari**
+- Which Andhra weightlifter won gold in 85 kg at the Commonwealth Games 2018? → **Ragala Venkat Rahul**
+- Which Andhra weightlifter won silver at the Commonwealth Games 2014? → **Santoshi Matsa**
+- Which Andhra weightlifter received the Arjuna Award? → **E. Kamineni Eswara Rao**
+- How often are the World Transplant Games held? → **Every two years**
+- What vision did the Andhra Pradesh Sports Policy 2017 articulate? → **Sports for All and Excellence in Sports**
+- Which sport did the Andhra Pradesh Sports Policy 2017 identify as a priority sport? → **Badminton**
+- The AP Sports Policy 2017 proposed Sports Cities in Amaravati and which other city? → **Visakhapatnam**
+
+## Sep–4 Nov 2026: Andhra Pradesh - government decisions, new schemes, appointments and administrative changes (10)
+
+- World Habitat Day is observed on which day? → **First Monday of October**
+- In which year was World Habitat Day first observed? → **1986**
+- In which year was THOTA amended? → **2011**
+- What is the legal basis of NAPS 2.0? → **Apprentices Act, 1961**
+- Pulicat Lake is a brackish-water lake shared by Andhra Pradesh and which State? → **Tamil Nadu**
+- In which year was the Ayushman Bharat Digital Mission (ABDM) launched? → **2021**
+- The Jal Jeevan Mission was launched in which year? → **2019**
+- Under the Prohibition of Child Marriage Act, 2006, what is the legal marriage age for women? → **18 years**
+- Under the Prohibition of Child Marriage Act, 2006, what is the legal marriage age for men? → **21 years**
+- In which year was the previous ECI National Conference of State Election Commissions held, before 2026? → **1999**
+
+## Jun–Aug 2026: Andhra Pradesh - government decisions, new schemes, appointments and administrative changes (13)
+
+- Which Sustainable Development Goal concerns sustainable cities? → **SDG 11**
+- Sections 6 and 14(A) of which Act are relevant to AP urban local body elections? → **AP Municipal Corporations Act, 1994**
+- In which year did the national e-Sanjeevani telemedicine programme begin? → **2019**
+- In which year was the Food Planet Prize instituted? → **2019**
+- What was Andhra Pradesh's CAGR during 2014–2019? → **13.5%**
+- Which agency implements the Ayushman Bharat Digital Mission? → **National Health Authority**
+- NdFeB magnets are used in electric vehicles, wind turbines, mobile phones and which sector? → **Defence**
+- Bedford School was founded in 1552 by which king? → **Edward VI**
+- PM SHRI schools are model schools of which kind, aligned with NEP 2020? → **Government schools**
+- HPV is the major cause of which cancer? → **Cervical cancer**
+- Which ministry runs the national e-Sanjeevani telemedicine programme? → **Health Ministry**
+- PM-KISAN provides ₹6,000 a year in how many instalments? → **Three**
+- How much does PM-KISAN provide per year? → **₹6,000**
+
+## Mar–May 2026: Andhra Pradesh - government decisions, new schemes, appointments and administrative changes (76)
+
+- In which year was India's Air Act enacted? → **1981**
+- What is the IUCN status of the Olive Ridley turtle? → **Vulnerable**
+- During COVID-19, the Supreme Court allowed service through email, WhatsApp, Telegram and which app? → **Signal**
+- In which year did Japan introduce the Specified Skilled Worker category? → **2019**
+- Which Act created the CPCB and SPCBs? → **Water Act, 1974**
+- Which Act was enacted after the Stockholm Conference? → **Air Act, 1981**
+- Which Act created the National Green Tribunal? → **NGT Act, 2010**
+- Under Section 5 of the AP Reorganisation Act, 2014, Hyderabad was common capital for not more than how many years? → **10**
+- Until which year was Hyderabad to be the common capital of AP and Telangana? → **2024**
+- What did the AP Reorganisation Act, 2014 say about the future capital of Andhra Pradesh? → **A new capital would be set up, no city named**
+- In which year was AP's three-capital model repealed? → **2021**
+- Under which Articles did the 2022 AP High Court refer to judicial review in the capital case? → **Articles 32 and 226**
+- Whose legitimate expectation did the 2022 AP High Court refer to in the capital case? → **Land Pooling farmers**
+- Under which Article was the AP Reorganisation Act, 2014 enacted? → **Article 3**
+- Which State did the AP Reorganisation Act, 2014 create? → **Telangana**
+- Which is Andhra Pradesh's largest port by cargo? → **Visakhapatnam Port**
+- Which particulate matter is smaller and more harmful than PM10? → **PM2.5**
+- Which scheme provides solar pumps for farmers with sale of surplus power to the grid? → **PM-KUSUM**
+- Which scheme involved State takeover of DISCOM debt? → **UDAY**
+- Which Act deals with national parks and sanctuaries? → **Wildlife (Protection) Act, 1972**
+- In which year was the Brundtland Report 'Our Common Future' published? → **1987**
+- Which is a risk factor for hypertension? → **High salt intake**
+- For how many years was Hyderabad intended to be the common capital of AP and Telangana? → **Ten**
+- Up to when did the Hyderabad common-capital period extend? → **June 2024**
+- What is the approximate outlay of the National Quantum Mission 2023–2031? → **₹6,003 crore**
+- Which bodies monitor lightning in India? → **MoES/IMD**
+- Andhra Pradesh is a leading State in which kind of aquaculture? → **Inland aquaculture**
+- What kind of project is Polavaram? → **Multipurpose**
+- Which support programme for electric mobility had a Phase II? → **FAME India**
+- Rooftop Solar Programme Phase II focuses on which kind of rooftop solar? → **Grid-connected**
+- The Accessible India Campaign is also known as what? → **Sugamya Bharat Abhiyan**
+- Foot-and-Mouth Disease is caused by what kind of pathogen? → **Virus**
+- In Japanese visa terms, what does EHI stand for? → **Engineer/Specialist in Humanities/International Services**
+- Which Article, added by the 42nd Amendment, protects the environment, forests and wildlife as a DPSP? → **Article 48A**
+- Which amendment moved forests and wildlife to the Concurrent List? → **42nd Amendment**
+- Which amendment added Fundamental Duties to the Constitution? → **42nd Amendment**
+- What is the WHO ideal C-section rate? → **10–15%**
+- Which ministry implements the PM Surya Ghar Muft Bijli Yojana? → **Ministry of New and Renewable Energy**
+- Which scheme is associated with support for electric buses? → **PM e-Bus Sewa**
+- Which Article concerns promoting the educational and economic interests of weaker sections? → **Article 46**
+- Which disability scheme funds NGOs? → **Deendayal Disabled Rehabilitation Scheme**
+- Which instrument follows a rights-based approach to disability? → **UNCRPD**
+- Which case took the narrow view that only a statutory procedure is needed under Article 21? → **A.K. Gopalan (1950)**
+- Which Article protects life and dignity? → **Article 21**
+- Which law covers autism, cerebral palsy, mental retardation and multiple disabilities? → **National Trust Act, 1999**
+- SARATHI is the national system for what? → **Driving licences**
+- VAHAN is the national system for what? → **Vehicle registration**
+- Under which AP Chief Minister were equal property rights for women introduced? → **N.T. Rama Rao**
+- Which was India's first major environmental law? → **Water Act, 1974**
+- In which year was NRSC established? → **1974**
+- In which year was MGNREGA implemented? → **2006**
+- What is the status of social audits under MGNREGA? → **Mandatory**
+- On which date is World Hypertension Day observed? → **May 17**
+- Which disease is commonly described as a 'silent killer'? → **Hypertension**
+- In which year was the Forest Survey of India set up in Dehradun? → **1981**
+- Which property do Lithium Iron Phosphate batteries in electric buses have? → **Thermal stability**
+- Under which contract model does a private operator own e-buses and the government pay per km? → **Gross Cost Contract**
+- Which Act gives legal recognition to electronic records and signatures in India? → **Information Technology Act, 2000**
+- Which Act implements the Convention on Biological Diversity in India? → **Biological Diversity Act, 2002**
+- Which cattle are more susceptible to Foot-and-Mouth Disease? → **Cross-bred cattle**
+- Coringa Wildlife Sanctuary lies in which river's estuary? → **Godavari**
+- Coringa is India's second-largest mangrove forest after which? → **Sundarbans**
+- Japan's Specified Skilled Worker category replaced which restrictive programme? → **TITP**
+- The 1930 cyber helpline operates under which body? → **I4C**
+- What share of energy do electric motors convert? → **85–90%**
+- Which scheme focused on household electricity connections? → **Saubhagya**
+- Antyodaya, Sarvodaya, Seva and Trusteeship are associated with whose ideals? → **Gandhian**
+- Which Article lays down the citizen's duty to protect the environment? → **Article 51A(g)**
+- Which Article concerns laws implementing international agreements? → **Article 253**
+- Which report defined sustainable development? → **Brundtland Report**
+- What is the increase of toxins at successive trophic levels called? → **Biomagnification**
+- Which is a non-biodegradable, fat-soluble toxin associated with biomagnification? → **DDT**
+- Are Fundamental Duties justiciable? → **No, they are non-justiciable**
+- Where do blisters appear in Foot-and-Mouth Disease? → **Mouth and between the hooves**
+- In the Nellore traffic system, what does ANPR read? → **Number plates**
+- To which database are High-Security Registration Plates linked? → **VAHAN**
+
+## Dec 2025–Feb 2026: Andhra Pradesh - government decisions, new schemes, appointments and administrative changes (5)
+
+- In which year was the national Mid-Day Meal scheme (now PM POSHAN) launched? → **1995**
+- Public health falls under which list of the Constitution? → **State List**
+- Which was among the diseases notified earlier, before AP made cancer notifiable? → **Tuberculosis**
+- Under which Article may a legislator's seat be declared vacant after 60 days' absence without permission? → **Article 190**
+- In which year was the Mid-Day Meal scheme renamed PM POSHAN? → **2021**
+
+## Apr–Nov 2025: Andhra Pradesh - government decisions, new schemes, appointments and administrative changes (45)
+
+- PM-KISAN pays ₹6,000 a year in instalments of how much each? → **₹2,000**
+- In which year was Samagra Shiksha launched? → **2018**
+- Which MSME scheme gives a credit-linked margin money subsidy for non-farm micro-enterprises? → **PMEGP**
+- What does UDISE+ stand for? → **Unified District Information System for Education**
+- In which year was the AP Metropolitan Region and UDA Act enacted? → **2016**
+- ISO 21001:2018 relates to which area? → **Educational Organisation Management**
+- ISO 50001:2018 relates to which area? → **Energy Management**
+- ISO 14001:2015 relates to which area? → **Environmental Management**
+- Under the RTE Act, 2009, within what distance should a school be for Classes 1–5? → **1 km**
+- How many non-attainment cities does NCAP cover? → **132**
+- What is the project ceiling for a service unit under PMEGP? → **₹20 lakh**
+- In which year was PMEGP launched? → **2008**
+- Which agency implements PMEGP? → **KVIC**
+- In which year was Samagra Shiksha launched, merging SSA, RMSA and Teacher Education? → **2018**
+- In which year was PM SHRI launched? → **2022**
+- In which year was the National Clean Air Programme launched? → **2019**
+- Which is Asia's first women's university? → **SNDT Women's University, Mumbai**
+- Where is the headquarters of the APPSC? → **Vijayawada**
+- What does PM SHRI stand for? → **Pradhan Mantri Schools for Rising India**
+- In which year did the Dantewada (Tadmetla) attack occur? → **2010**
+- In which year did the Jhiram Ghati attack occur? → **2013**
+- In which year did the Sukma/Burkapal attack occur? → **2017**
+- In which year did the Minpa–Burkapal ambushes occur? → **2020**
+- By what majority did the Supreme Court uphold SC sub-classification on 1 August 2024? → **6:1**
+- In which year was the PCPNDT Act, 1994 amended? → **2003**
+- Which Articles are associated with the SC sub-classification issue? → **Articles 14–16**
+- Which Directive Principles are relevant to SC sub-classification? → **38, 39, 41 and 46**
+- On which date was the Aspirational Blocks Programme launched? → **7 January 2023**
+- How many underdeveloped blocks does the Aspirational Blocks Programme cover? → **500**
+- Which area does the Commission for Air Quality Management (CAQM) cover? → **Delhi NCR and adjoining states**
+- In which year was the AP Municipalities Act enacted? → **1965**
+- In which year was the APCRDA Act enacted? → **2014**
+- Which year's Municipal Corporations Act was amended under the AP BPS amendment Bill? → **1955**
+- What sex ratio at birth did NFHS-5 report? → **929 girls per 1,000 boys**
+- What was the armed wing of CPI (Maoist)? → **PLGA**
+- What is the age requirement for PMEGP eligibility? → **Above 18 years**
+- How many indicators does the Aspirational Blocks Programme dashboard track? → **49**
+- What is the subsidy range under PMEGP? → **15%–35% of project cost**
+- Under which ministry does the Agriculture Insurance Company of India function? → **Ministry of Finance**
+- Under which Article is the Andhra Pradesh Public Service Commission constituted? → **Article 315**
+- Who appoints the Chairman and Members of the APPSC? → **Governor**
+- Up to how many weeks does the MTP Act, as amended in 2021, permit termination in certain cases? → **24 weeks**
+- Which country is the second-largest raw cashew nut producer? → **Cambodia**
+- Which ancient text described registers for strangers, travellers and merchants? → **Arthashastra**
+- How many infants does India's Universal Immunisation Programme cover every year? → **2.6 crore**
+
+## Overview and data: Andhra Pradesh - government decisions, new schemes, appointments and administrative changes (3)
+
+- In which year was the Subhash Chandra Bose Aapda Prabandhan Puraskar first conferred? → **2019**
+- In which year was AP's e-Seva launched? → **2001**
+- In which year was AP's Meekosam grievance portal launched? → **2015**
+
+## Jun–Aug 2026: Andhra Pradesh - budget and Socio-Economic Survey highlights of the current year (8)
+
+- In which year did the National AYUSH Mission begin? → **2014**
+- In which year was the Transgender Persons (Protection of Rights) Act enacted? → **2019**
+- What does RAMP stand for? → **Raising and Accelerating MSME Performance**
+- In which year was the National Council for Transgender Persons established? → **2020**
+- Which institution supports the RAMP scheme? → **World Bank**
+- In which year was HUDCO established? → **1970**
+- Under which ministry does HUDCO function? → **MoHUA**
+- The Transgender Persons (Protection of Rights) Act was enacted in which year? → **2019**
+
+## Mar–May 2026: Andhra Pradesh - budget and Socio-Economic Survey highlights of the current year (12)
+
+- How dependent are Rabi crops on the monsoon? → **Low dependence**
+- When does Rabi sowing generally occur? → **October–December**
+- Which mushroom is fast-growing and associated with paddy regions? → **Paddy straw mushroom**
+- When does Rabi harvesting generally occur? → **March–April**
+- Under which Act does the Rubber Board function? → **Rubber Act, 1947**
+- Where is the rubber tree Hevea brasiliensis native to? → **Amazon**
+- Below what temperature should it not fall for rubber cultivation? → **21°C**
+- Vulcanisation involves heating rubber with what? → **Sulphur**
+- Which rubber scheme covers traditional and non-traditional areas? → **Rubber Plantation Development Scheme**
+- In which seasons is paddy grown in Andhra Pradesh? → **Kharif and Rabi**
+- Where is the headquarters of the Rubber Board? → **Kottayam**
+- What is the ideal N:P:K ratio? → **4:2:1**
+
+## Dec 2025–Feb 2026: Andhra Pradesh - budget and Socio-Economic Survey highlights of the current year (2)
+
+- Which Article relates to reservation in Panchayats? → **Article 243D**
+- Which Article relates to reservation in Municipalities? → **Article 243T**
+
+## Apr–Nov 2025: Andhra Pradesh - budget and Socio-Economic Survey highlights of the current year (8)
+
+- What material are High-Security Registration Plates made of? → **1 mm tamper-proof aluminium**
+- Who chairs a District Disaster Management Authority? → **District Collector**
+- How many MSME units does India have? → **63 million+**
+- About what share of India's exports do MSMEs account for? → **48%**
+- What is the general Centre–State funding pattern of Anaemia Mukt Bharat? → **60:40**
+- Anaemia Mukt Bharat is linked with SDG 2 and which other SDG? → **SDG 3**
+- What kind of hologram does a High-Security Registration Plate carry? → **Chromium-based**
+- What are the levels of ZED certification? → **Bronze, Silver and Gold**
+
+## Special topics: Andhra Pradesh - budget and Socio-Economic Survey highlights of the current year (1)
+
+- In which year was NITI Aayog set up? → **2015**
+
+## Overview and data: Andhra Pradesh - budget and Socio-Economic Survey highlights of the current year (3)
+
+- What was Andhra Pradesh's literacy rate in Census 2011? → **67.35%**
+- What was Andhra Pradesh's female literacy rate in Census 2011? → **59.96%**
+- What was the all-India literacy rate in Census 2011? → **72.98%**
+
+## Sep–4 Nov 2026: Andhra Pradesh - projects, investments, MoUs, industrial and infrastructure developments (22)
+
+- An Eco-Sensitive Zone around a protected area is described as what? → **A shock absorber**
+- Under the CAPEX mode of PM-KUSUM feeder solarisation, who owns the project? → **The utility**
+- Which component of PM-KUSUM provides decentralised grid-connected plants of 500 kW–2 MW? → **Component A**
+- Which PM-KUSUM component provides individual grid-connected pump solarisation? → **Component C-IPS**
+- Under PM-KUSUM Component C-IPS, solarisation may be undertaken up to what multiple of pump capacity? → **Twice**
+- In solar cells, what does TOPCon stand for? → **Tunnel Oxide Passivated Contact**
+- Solar cells based on TOPCon technology work through which effect? → **Photovoltaic effect**
+- Under the RESCO mode, for how long does a service company normally operate the project? → **25 years**
+- Under Article 262, adjudication of inter-State river water disputes is assigned to? → **Parliament**
+- The Krishna River Management Board was set up under which law? → **Andhra Pradesh Reorganisation Act, 2014**
+- One TMC-ft of water is approximately equal to? → **28.32 million cubic metres**
+- About how many years ago did the last Ice Age end, per the Valmiki Caves study? → **11,700**
+- How many functions does the 12th Schedule contain? → **18**
+- Which body conducts ASUSE? → **National Statistical Office**
+- Penukonda was which capital of the Vijayanagara Empire? → **Second capital**
+- In which WPA Schedule is the Indian gaur listed? → **Schedule I**
+- What is the IUCN status of the Indian gaur? → **Vulnerable**
+- In which CITES Appendix is the Indian gaur included? → **Appendix I**
+- What is the scientific name of the Indian gaur? → **Bos gaurus**
+- Papikonda National Park lies in which hill system? → **Northern Eastern Ghats**
+- What does a narrow therapeutic index of chloroquine mean? → **Small gap between effective and toxic dose**
+- In which year was the Inter-State River Water Disputes Act enacted? → **1956**
+
+## Jun–Aug 2026: Andhra Pradesh - projects, investments, MoUs, industrial and infrastructure developments (9)
+
+- Maize is India's third most important food crop after which two crops? → **Rice and wheat**
+- Maize is believed to have originated in which region? → **Central America/Mexico**
+- What is the scientific name of maize? → **Zea mays**
+- What is the scientific name of the Asian elephant? → **Elephas maximus**
+- The Asian elephant is recognised as India's what? → **National Heritage Animal**
+- Project Elephant is what type of scheme? → **Centrally Sponsored**
+- Project Elephant was introduced during which year? → **1991–92**
+- Which of these is a tributary of the Krishna River? → **Tungabhadra**
+- In which year was Project Elephant launched? → **1992**
+
+## Mar–May 2026: Andhra Pradesh - projects, investments, MoUs, industrial and infrastructure developments (29)
+
+- The Krishna River rises near which place? → **Mahabaleshwar**
+- What non-fossil capacity target by 2030 is part of Panchamrit? → **500 GW**
+- RRCAT, which built the proton accelerator at Visakhapatnam, is located in which city? → **Indore**
+- The thorium fuel cycle leads to which fissile isotope? → **U-233**
+- What is India's national target of non-fossil capacity by 2030? → **500 GW**
+- Which technology enables secure key sharing in which interception can be detected? → **Quantum Key Distribution**
+- National Technology Day commemorates the Pokhran tests of which year? → **1998**
+- On which date is National Technology Day observed? → **11 May**
+- Amaravati is approximately how far from Vijayawada? → **14 km**
+- Which is the second-largest east-flowing peninsular river after the Godavari? → **Krishna**
+- The CISF is a Central Armed Police Force under which ministry? → **Ministry of Home Affairs**
+- In which beach sand mineral is Andhra Pradesh second-largest in India? → **Ilmenite**
+- What material did the Amaravati School of Art use? → **White limestone**
+- Amaravati lies in the floodplain of which river? → **Krishna**
+- What are hero stones called in Tamil? → **Nadukal**
+- The Penna river rises in which hills? → **Nandi Hills, Karnataka**
+- With which engineer is the Dowleswaram Barrage associated? → **Sir Arthur Cotton**
+- The Tungabhadra is formed by the union of which rivers? → **Tunga and Bhadra**
+- The Gandhara School of art used which material? → **Grey schist**
+- The Gandhara School of art shows which influence? → **Greco-Roman**
+- Nagarjunakonda flourished under the patronage of which dynasty? → **Ikshvakus**
+- The Buddhist site of Salihundam is near which river? → **Vamsadhara**
+- Nagarjunakonda is linked to Nagarjuna of which Buddhist tradition? → **Mahayana**
+- In which year was the Jal Shakti Abhiyan launched? → **2019**
+- The CISF was created to protect what? → **Public sector undertakings**
+- ICDS services are delivered through which centres? → **Anganwadi Centres**
+- How many services does ICDS provide? → **Six**
+- What non-fossil capacity does India target by 2030? → **500 GW**
+- National Technology Day commemorates the Pokhran-II tests of which date? → **11 May 1998**
+
+## Dec 2025–Feb 2026: Andhra Pradesh - projects, investments, MoUs, industrial and infrastructure developments (12)
+
+- About how high is Almatti Dam? → **52.5 metres**
+- What is the area of Sri Venkateswara National Park? → **353 sq km**
+- Prakasam district is a hub for which type of tobacco? → **FCV (Flue-Cured Virginia)**
+- Krishna basin disputes fall under which law? → **Inter-State River Water Disputes Act, 1956**
+- In which city is the building where Potti Sriramulu fasted? → **Chennai**
+- For how many days did Potti Sriramulu fast unto death? → **58**
+- On which date was Andhra State formed? → **1 October 1953**
+- What was the capital of Andhra State formed in 1953? → **Kurnool**
+- Aenictus are which type of army ants? → **Old World army ants**
+- What do Aenictus army ants prey on? → **Ants and termites**
+- Which of these States lies in the Krishna basin? → **Telangana**
+- In which year was the Seshachalam Biosphere Reserve notified? → **2010**
+
+## Apr–Nov 2025: Andhra Pradesh - projects, investments, MoUs, industrial and infrastructure developments (28)
+
+- The Sixth Schedule applies to Assam, Meghalaya, Tripura and which other state? → **Mizoram**
+- What annual green hydrogen target by 2030 does the National Green Hydrogen Mission set? → **5 MMT**
+- In which year was the National Green Hydrogen Mission launched? → **2023**
+- In which year was the National Green Hydrogen Mission launched? → **2023**
+- India's nuclear expansion is aligned with which net-zero target year? → **2070**
+- The EIA Notification of which year mandates EIA for mining, thermal power and river valley projects? → **2006**
+- By which year does India target Net Zero? → **2070**
+- Which city is a major GCC hub in India? → **Pune**
+- On which date did the AP Reorganisation Act, 2014 come into force? → **2 June 2014**
+- What is the wind speed range of an Extremely Severe Cyclonic Storm per IMD? → **166–220 kmph**
+- Above what wind speed is a system classified as a Super Cyclone by IMD? → **221 kmph**
+- What is the wind speed range of a Depression per IMD? → **31–49 kmph**
+- What is the wind speed range of a Deep Depression per IMD? → **50–61 kmph**
+- Sea-surface temperature above what value is a condition for cyclone formation? → **26.5°C**
+- Cyclone formation needs Coriolis force, available beyond about which latitude? → **5°**
+- India has over how many documented sacred groves? → **13,000**
+- The National Green Hydrogen Mission targets how much green hydrogen per year by 2030? → **5 million metric tonnes**
+- Which constitutional article is cited with the Fifth Schedule in opposing the Chelam Hill project? → **Article 244(1)**
+- The EIA Notification cited in the Chelam Hill opposition is of which year? → **2006**
+- Which 1996 law is cited in the opposition to the Chelam Hill project? → **PESA**
+- What are sacred groves called in Andhra Pradesh? → **Pavithravanas**
+- What are sacred groves called in Maharashtra? → **Devrai**
+- What are sacred groves called in Rajasthan? → **Oran**
+- What are sacred groves called in Kerala? → **Sarpa Kavu**
+- What are sacred groves called in Meghalaya? → **Law Lyngdoh**
+- In which year did the Sompeta movement take place? → **2010**
+- In which year did the Kakarapalli movement take place? → **2011**
+- What does iGOT stand for under Mission Karmayogi? → **Integrated Government Online Training**
+
+## Overview and data: Andhra Pradesh - projects, investments, MoUs, industrial and infrastructure developments (7)
+
+- Where is the NID in Andhra Pradesh located? → **Amaravati**
+- Where is the IIFT campus in Andhra Pradesh located? → **Kakinada**
+- Where is the Central Tribal University of Andhra Pradesh located? → **Vizianagaram**
+- Where is the Central University of Andhra Pradesh located? → **Anantapur**
+- Where is the IIT in Andhra Pradesh located? → **Tirupati**
+- Where is the NIT in Andhra Pradesh located? → **Tadepalligudem**
+- Where is the IIM in Andhra Pradesh located? → **Visakhapatnam**
+
+## Sep–4 Nov 2026: Andhra Pradesh - awards, GI tags, cultural events, sports and persons in news (21)
+
+- On which date was PMGSY launched? → **25 December 2000**
+- Which Schedule of the Constitution is part of the framework for tribal connectivity in AP? → **Fifth Schedule**
+- Who founded the SKOCH Group in 1997? → **Sameer Kochhar**
+- In which year did Project Tiger begin? → **1973**
+- Who was the first Director General of the ASI? → **Alexander Cunningham**
+- Which constitutional article is part of the framework for tribal connectivity? → **Article 46**
+- Which Article of the Constitution deals with appointment of district judges? → **Article 233**
+- Which Article gives the High Court control over subordinate courts? → **Article 235**
+- The NTCA is a statutory authority under which Act? → **Wildlife (Protection) Act**
+- In which year was the Archaeological Survey of India established? → **1861**
+- Under the AMASR Act, 1958, a monument must be at least how old to be ancient? → **100 years**
+- Where was Gurajada Apparao born? → **Rayavaram**
+- Which is a famous work of Gurajada Apparao? → **Kanyasulkam**
+- Which is India's largest tiger reserve by area? → **Nagarjunasagar–Srisailam**
+- Nagarjunasagar–Srisailam Tiger Reserve lies in which hills? → **Nallamala**
+- Nagarjunasagar–Srisailam Tiger Reserve spans AP and which other State? → **Telangana**
+- 'Desamunu Preminchumanna' is a song by whom? → **Gurajada Apparao**
+- Which Article gives the High Court control over subordinate courts? → **Article 235**
+- Which Article provides for the appointment of District Judges by the Governor? → **Article 233**
+- Which is the nodal agency for the Aspirational Districts Programme? → **NITI Aayog**
+- Article 233 deals with the appointment of which judges? → **District judges**
+
+## Jun–Aug 2026: Andhra Pradesh - awards, GI tags, cultural events, sports and persons in news (36)
+
+- Kapilendra Deva's kingdom extended from the Ganga in the north to which river in the south? → **Kaveri**
+- Tekkali was a former Odia zamindari of which area? → **Ganjam**
+- The Undavalli Caves are located in which district? → **Guntur**
+- Who founded the Reddy Kingdom? → **Prolaya Vema Reddy**
+- What was the first capital of the Reddy Kingdom? → **Addanki**
+- During which years did Alluri Sitarama Raju lead the Rampa or Manyam Rebellion? → **1922–1924**
+- Where was Alluri Sitarama Raju killed by the British? → **Koyyuru**
+- On which date was Alluri Sitarama Raju killed? → **7 May 1924**
+- What title is given to Alluri Sitarama Raju? → **Manyam Veerudu**
+- In which year was a postal stamp issued on Alluri Sitarama Raju? → **1986**
+- In which year was the film 'Alluri Seetharama Raju' released? → **1974**
+- Who was the first leader from Andhra elected General Secretary of the AICC? → **Duggirala Gopalakrishnayya**
+- Who was known as 'Andhra Gandhi'? → **Duggirala Gopalakrishnayya**
+- What was Duggirala Gopalakrishnayya's early employment? → **Clerk in Bapatla Taluk Office**
+- Duggirala Gopalakrishnayya was the hero of which movement? → **Chirala-Perala movement**
+- What was the name of Duggirala Gopalakrishnayya's volunteer force? → **Ramadandu**
+- The Badami caves are located in which State? → **Karnataka**
+- The Udayagiri caves are located in which State? → **Madhya Pradesh**
+- Kondapalli is known for which traditional craft? → **Wooden toys**
+- Etikoppaka is known for which traditional craft? → **Lacquer toys**
+- Bobbili is known for making which item? → **Veena**
+- Udayagiri is known for which wooden craft? → **Wooden cutlery**
+- In which year was the Sangeet Natak Akademi established? → **1952**
+- How many storeys high is the largest cave at Undavalli? → **Four**
+- The Undavalli Caves were originally what? → **A Buddhist vihara**
+- What is the IUCN status of the Indian Pangolin? → **Endangered**
+- What is the IUCN status of the Chinese Pangolin? → **Critically Endangered**
+- What do pangolins do when threatened? → **Curl into a ball**
+- Who was known as 'Andhra Kesari'? → **Tanguturi Prakasam**
+- What share of India's baryte reserves does Andhra Pradesh hold? → **92%**
+- Mangampeta is one of the world's largest deposits of which mineral? → **Baryte**
+- Baryte is used as a weighting agent in what? → **Drilling fluids**
+- Ganoderma, which causes Basal Stem Rot in oil palm, is what kind of organism? → **Fungus**
+- How many pangolin species are there in total? → **Eight**
+- How many pangolin species are Asian? → **Four**
+- The Godavari meets the Bay of Bengal near which place? → **Antarvedi**
+
+## Mar–May 2026: Andhra Pradesh - awards, GI tags, cultural events, sports and persons in news (57)
+
+- Who currently decides disqualification under the Tenth Schedule? → **Speaker or Chairman**
+- Which Article provides for equal justice and free legal aid as a Directive Principle? → **Article 39A**
+- Who founded the Bharatiya Jana Sangh? → **Syama Prasad Mookerjee**
+- Which Article of the Constitution governs the transfer of High Court judges? → **Article 222**
+- Which Article covers appointment of High Court judges by the President? → **Article 217**
+- To whom does a High Court judge address a resignation? → **President**
+- How many Lok Sabha members must sign a motion for removal of a judge? → **100**
+- How many Rajya Sabha members must sign a motion for removal of a judge? → **50**
+- Inquiry into a judge's removal is held under which Act? → **Judges Inquiry Act, 1968**
+- Which land titling system does India follow, in which the State does not guarantee title? → **Presumptive titling**
+- Which programme digitises land records in India? → **DILRMP**
+- Which law provides the statutory framework for recognition of political parties in India? → **Representation of the People Act, 1951**
+- Which body recognises National and State parties in India? → **Election Commission of India**
+- For National Party status, a party needs 6% of votes in at least how many States, plus Lok Sabha seats? → **Four**
+- The Tirupati Gangamma Jatara is known for what? → **Disguises (Veshalu)**
+- During which festival is the sandalwood paste removed from the Simhachalam deity? → **Chandanotsavam**
+- Garuda Seva is the highlight of which festival? → **Tirupati Brahmotsavam**
+- The Simhachalam temple deity combines which two forms of Vishnu? → **Varaha and Narasimha**
+- In which architectural style is the Simhachalam temple built? → **Kalinga style**
+- Which ruler is associated with the patronage of the Simhachalam temple? → **Kulottunga Chola**
+- Inscriptions of which ruler are found at the Simhachalam temple? → **Sri Krishnadevaraya**
+- Atukuri Molla was born at Gopavaram in which district? → **Kadapa**
+- Atukuri Molla belonged to which century? → **16th century**
+- Who is regarded as the Adi Kavayitri of Telugu? → **Atukuri Molla**
+- In what kind of Telugu is Molla Ramayanam written? → **Simple Telugu**
+- Under which land titling system does the State guarantee title? → **Conclusive titling**
+- About what share of Andhra Pradesh's rainfall comes from the South-West Monsoon? → **60–65%**
+- For National Party status via seats, a party needs what share of Lok Sabha seats from three or more States? → **2%**
+- Under Article 226, High Courts can issue writs for Fundamental Rights and what else? → **Other legal rights**
+- Inam lands were what? → **Pre-Independence grants for services**
+- Who decides disqualification under the Tenth Schedule? → **Speaker or Chairman**
+- Pushkarams are held when which planet enters the zodiac sign of the river? → **Jupiter**
+- What are the first 12 days of a Pushkaram called? → **Adi Pushkaram**
+- What are the last 12 days of a Pushkaram called? → **Antya Pushkaram**
+- What is KOHA? → **Open-source Integrated Library System**
+- Who propounded Integral Humanism? → **Deendayal Upadhyaya**
+- How many years as an HC advocate qualify a person to be an HC judge? → **10 years**
+- The collegium system evolved through which judgments? → **Second and Third Judges Cases**
+- Land is in which entry of the State List? → **Entry 18**
+- Atukuri Molla came from which kind of family? → **Potter's family**
+- Who is regarded as the Adi Kavi of Telugu? → **Nannayya**
+- In which year was Israel's MASHAV established? → **1958**
+- Which AP festival is known for daily alankarams? → **Kanaka Durga Navaratri**
+- Bhogi, Sankranti and Kanuma are part of which festival? → **Sankranti**
+- Under which Article is a High Court a Court of Record with contempt power? → **Article 215**
+- The Manjira is which type of tributary of the Godavari? → **Right-bank**
+- Which is a left-bank tributary of the Godavari? → **Indravati**
+- The Sabari is which type of tributary of the Godavari? → **Left-bank**
+- The North-East Monsoon is vital for Nellore and which other AP district? → **Prakasam**
+- Which section of the Registration Act, 1908 enables States to prohibit registration of certain lands? → **Section 22A**
+- In which year was the Bharatiya Jana Sangh founded? → **1951**
+- In which year was the BJP formed? → **1980**
+- After how long do anti-defection provisions apply to nominated members who join a party? → **Six months**
+- What was the capital of the Gajapati Empire? → **Cuttack**
+- Who founded the Gajapati Empire? → **Kapilendra Deva**
+- Padma awards are not 'titles' under which Article of the Constitution? → **Article 18**
+- Which Article concerns free legal aid and equal justice? → **Article 39A**
+
+## Dec 2025–Feb 2026: Andhra Pradesh - awards, GI tags, cultural events, sports and persons in news (16)
+
+- In which Schedule of the Wildlife (Protection) Act, 1972 are the Indian and Chinese pangolins listed? → **Schedule I**
+- Under which schedule of the Wildlife Protection Act, 1972 is the tiger listed? → **Schedule I**
+- Species in the 2026 AP Legislature calendar are all in which Schedule of the Wildlife (Protection) Act? → **Schedule I**
+- In which year was THOTA amended? → **2011**
+- In which year was THOTA enacted? → **1994**
+- After how many hours was the 1997 Devarapalli blowout in Konaseema capped? → **42 hours**
+- The Pasarlapudi blowout occurred in Devarlanka village of which mandal? → **Allavaram**
+- Within how long was the Tandavapalli blowout capped? → **4 hours**
+- Nelapattu Bird Sanctuary is near which lake? → **Pulicat Lake**
+- Nelapattu Bird Sanctuary is in which district? → **Tirupati**
+- Nelapattu Bird Sanctuary is a breeding ground of which bird? → **Spot-billed pelican**
+- In which year did Narsapuram crochet lace originate? → **1844**
+- Narsapuram crochet lace uses fine cotton thread with what tool? → **A single crochet hook**
+- The Export Promotion Council for Handicrafts is under which ministry? → **Ministry of Textiles**
+- All cetaceans are placed in which Schedule of the Wildlife Protection Act, 1972? → **Schedule I**
+- Under which Schedule of the Wildlife (Protection) Act is the dugong listed? → **Schedule I**
+
+## Apr–Nov 2025: Andhra Pradesh - awards, GI tags, cultural events, sports and persons in news (45)
+
+- In which year were Telugu and Kannada granted classical language status? → **2008**
+- Who appoints High Court Chief Justices? → **The President**
+- The Central Silk Board was established in 1948 under which Ministry? → **Ministry of Textiles**
+- Mount Elbrus (5,642 m) lies in which mountain range? → **Caucasus**
+- Mount Elbrus is what type of volcano? → **Dormant stratovolcano**
+- What is the height of Mount Elbrus? → **5,642 metres**
+- What is the height of Aconcagua, the highest peak of South America? → **6,961 metres**
+- What is the height of Denali, the highest peak of North America? → **6,190 metres**
+- What is the height of Mount Everest, the highest peak of Asia? → **8,848 metres**
+- Which is the highest peak of Africa? → **Kilimanjaro**
+- Which is the highest peak of Europe? → **Elbrus**
+- Which is the highest peak of Antarctica? → **Vinson Massif**
+- Puncak Jaya (Carstensz) and Kosciuszko are listed as the highest peaks of which continent? → **Australia/Oceania**
+- Which strait lies between Tamil Nadu and Sri Lanka? → **Palk Strait**
+- The Palk Strait links the Bay of Bengal with which water body? → **Gulf of Mannar**
+- How many major DRDO laboratories are headquartered in Andhra Pradesh? → **None**
+- In which year was the Sriharikota launch centre named after Dr Satish Dhawan? → **2002**
+- How many operational launch pads does the Satish Dhawan Space Centre have? → **Two**
+- In which year was Telugu recognised as a classical language? → **2008**
+- Ugadi, the Telugu and Kannada New Year, falls on the first day of which month? → **Chaitra**
+- How many years make up the Samvatsara cycle associated with Ugadi? → **60**
+- Which ingredient gives the bitter taste in Ugadi Pachadi? → **Neem flowers**
+- Under which Article may the President transfer a High Court judge after consulting the CJI? → **Article 222(1)**
+- Which case recognised the right to self-identify gender? → **NALSA v. Union of India**
+- Who was the first Chief Minister of Andhra State in 1953? → **Tanguturi Prakasam**
+- Uyyalawada Narasimha Reddy is known for which event? → **Armed uprising of 1846**
+- Kanneganti Hanumanthu is associated with which movement? → **Pullari Satyagraha**
+- Who designed the Indian national flag? → **Pingali Venkayya**
+- Which woman freedom fighter from Andhra was a Constituent Assembly member? → **Durgabai Deshmukh**
+- Which freedom fighter took part in the Salt Satyagraha and later became an MP? → **Sangam Lakshmi Bai**
+- Who organised women in the Civil Disobedience movement in Andhra? → **Bharati Devi Ranga**
+- Garimella Satyanarayana is known for what? → **Patriotic songs**
+- Which leader was known as Andhra Kesari? → **Tanguturi Prakasam**
+- Tanguturi Prakasam earned the title Andhra Kesari for facing the police at which 1928 protest? → **Simon Commission black-flag protest**
+- Andhra State was formed in which year after Potti Sriramulu's death? → **1953**
+- What does MEPMA stand for? → **Mission for Elimination of Poverty in Municipal Areas**
+- In which year was MEPMA launched? → **2007**
+- Which Article of the Constitution bars discrimination on the ground of sex? → **Article 15**
+- Sriharikota's proximity to the equator has what effect on launches? → **Makes them fuel-efficient**
+- Alluri Sitarama Raju is associated with which movement? → **Rampa Rebellion**
+- Who edited Krishna Patrika? → **Konda Venkatappayya**
+- What is Maharashtra's New Year festival called? → **Gudi Padwa**
+- What is Tamil Nadu's New Year festival called? → **Puthandu**
+- What is Kerala's New Year festival called? → **Vishu**
+- Etikoppaka toys, a GI product, belong to which district? → **Anakapalli**
+
+## Overview and data: Andhra Pradesh - awards, GI tags, cultural events, sports and persons in news (17)
+
+- What is the state bird of residual Andhra Pradesh? → **Rose-ringed Parakeet**
+- What is the state tree of residual Andhra Pradesh? → **Neem**
+- What is the state animal of residual Andhra Pradesh? → **Blackbuck**
+- What is the state animal of Telangana? → **Jinka (deer)**
+- Palapitta (Indian Roller) is the state bird of which state? → **Telangana**
+- What is the state tree of Telangana? → **Jammi Chettu**
+- What is the state flower of Telangana? → **Tangedu**
+- Who among these is a Telugu Jnanpith winner? → **Ravuri Bharadwaja**
+- Viswanatha Satyanarayana won the Jnanpith Award for which work? → **Ramayana Kalpavruksham**
+- Tirupati Laddu has a GI tag in which category? → **Foodstuff**
+- Udayagiri wooden cutlery has a GI tag in which category? → **Handicraft**
+- Uppada Jamdani saree has a GI tag in which category? → **Handloom**
+- Kondapalli toys, a GI product, belong to which district? → **NTR**
+- Banganapalle mango, a GI product, is linked with which districts? → **Kurnool/Nandyal**
+- Guntur Sannam chilli has a GI tag in which category? → **Agricultural**
+- Bandaru Laddu, a GI product, belongs to which district? → **Krishna**
+- Red Sanders is endemic to which region of Andhra Pradesh? → **Seshachalam**
