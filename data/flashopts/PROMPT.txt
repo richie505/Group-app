@@ -1,0 +1,20 @@
+Task: turn question + answer cards (PYQs whose printed options were lost; only the official answer is known) into
+proper 4-option MCQs. Never use the Anthropic API. Do not commit. The owner asked for this.
+
+Input data/flashopts/job-N.jsonl: id, stem s, the official answer, src (paper), x (explanation).
+For each line write:
+- "s": the question text, cleanly laid out like a printed MCQ: the lead-in on its own line; each statement / item on
+  its own line ("1. ...", "2. ..." or "I. ..."; match questions as "List I" with its items a., b., c., d. each on a
+  line, then "List II" with i., ii., iii., iv. each on a line); the closing question ("Which of the statements given
+  above is/are correct?") on its own line. Do not change the wording, only the layout (fix obvious OCR typos).
+- "o": 4 options. One is the official answer (its wording cleaned, e.g. "Both a and b"); the other 3 are plausible
+  wrong options of the same kind and length (same type of name/number/date/code), each clearly wrong, none also
+  correct, no "All/None of the above" unless the answer is of that kind. For statement/match questions use APPSC-style
+  codes ("1 and 2 only", "a-ii, b-i, c-iv, d-iii"), and if the stem itself lists a., b., c., d. choices (like
+  "Vernal equinox occurs: a. ... b. ... c. ... d. ..."), make the options the codes the answer belongs to
+  (e.g. "Only a", "Only b", "Both a and b", "Both c and d"). Put the answer in a varied position (not always first).
+- "a": 0-based index of the answer in "o".
+If the answer is empty, wrong for the question, or the question needs a picture, write {"id": "...", "skip": "<why>"}.
+Write data/flashopts/job-N.out.jsonl, one line per input line, same order: {"id","s","o","a"} or {"id","skip"}.
+Check with Python: every id once; 4 distinct non-empty options; a in 0..3; the answer's text is in o[a].
+Edit no other files. Report counts (done/skipped) and a few examples.
