@@ -175,7 +175,8 @@ def apply(q, out, rnd):
         tr = {l: bool(out["truth"].get(l, tr[l])) for l in labels}
     target = {l for l, v in tr.items() if v}
     o, a = options(target, labels, rnd)
-    return dict(q, s="\n".join(lines), o=o, a=a, x=out["x"], tq="statements")
+    # the old bulleted explanations (xs / xa) describe the old truths: only the new explanation stays
+    return {k: v for k, v in dict(q, s="\n".join(lines), o=o, a=a, x=out["x"]).items() if k not in ("xs", "xa")}
 
 
 def load():
