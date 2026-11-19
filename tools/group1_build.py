@@ -35,6 +35,14 @@ if os.path.exists("data/g1syl/depth-out.jsonl"):
             DEPTH[o["host"]].append(o)
 
 
+def ITEM_CODE(leaf):
+    """leaf "A1/3" -> APPSC Complete's code "A-1"; Paper II S&T items 18-22 are its F-1..F-5; current events G-1"""
+    it = leaf.split("/")[0]
+    if it.startswith("E"):
+        return f"F-{int(it[1:]) - 17}"
+    return "G-1" if it == "G" else f"{it[0]}-{it[1:]}"
+
+
 def bold_runs(t):
     """'a **b** c' -> [["a ",0],["b",1],[" c",0]]"""
     out = []
@@ -78,16 +86,20 @@ for b in range(1, 7):
         if whole:
             hidden_rows.add((b, i))
         # Group 1 only: its own codes and tag
-        r["codes"] = [c for c in r.get("codes", []) if G1.match(c)] or r.get("codes", [])[:1]
+        own = [c for c in r.get("codes", []) if G1.match(c)]
+        if not own:  # a section that came from Group 2: the Group 1 Prelims items its pages teach
+            own = sorted({ITEM_CODE(v) for v in o["subs"].values() if v != "beyond"})
+        r["codes"] = own
         r["tag"] = "GROUP-I"
         ir = idx["books"][b - 1]["rows"][i]
         ir["codes"], ir["tag"] = r["codes"], "GROUP-I"
+        g1 = re.search(r"G1 (\d+)", ir.get("pyq", ""))  # Group 1's own past-paper count only
+        ir["pyq"] = f"G1 {g1.group(1)}" if g1 else ""
         ir["q"] = len(m["rows"].get(str(i), []))
         ir["n"] = len(r["secs"])
         ir["leaves"] = sorted({v for v in o["subs"].values() if v != "beyond"})
         if whole:
             ir["hide"] = True
-    idx["books"][b - 1]["pages"] = sum(1 for r in rows for x in r["secs"] if not x.get("empty"))
     W(f"{G}/book{b}.json", bk)
     W(f"{G}/mcq{b}.json", m)
 W(f"{G}/empty.json", empty)

@@ -347,10 +347,11 @@ class CompleteTest {
         val repo = Repository { ctx.assets.open(it) }
         for (mode in listOf(true, false)) {
             repo.mcqNotes = mode
-            assertTrue(repo.emptyPages(mode).isEmpty())
+            // Group 1 Prelims: only the off-syllabus pages are hidden (onlyTheGroup1PrelimsSyllabus)
+            val hiddenRows = (1..6).flatMap { b -> repo.index[b - 1].rows.filter { it.hidden }.map { b to it.index } }.toSet()
             // a page whose facts were merged into a later entry, or an exact copy, is hidden ("No MCQ notes here");
             // every topic still shows pages
-            for (b in 1..6) assertTrue(repo.book(b).rows.all { r -> r.secs.isNotEmpty() && r.secs.any { !it.empty } })
+            for (b in 1..6) assertTrue(repo.book(b).rows.all { r -> (b to r.index) in hiddenRows || (r.secs.isNotEmpty() && r.secs.any { !it.empty }) })
         }
     }
 
@@ -378,22 +379,37 @@ class CompleteTest {
 
     @Test fun edition() {
         val repo = Repository { ctx.assets.open(it) }
-        assertEquals("APPSC Complete", repo.appName)
+        assertEquals("APPSC Group 1 Prelims", repo.appName)
         assertTrue(!repo.revision)
-        assertEquals(listOf("Group 1", "Group 2"), repo.exams.map { it.title })
+        assertEquals(listOf("Group 1 Prelims"), repo.exams.map { it.title })
     }
 
-    @Test fun notesTabGroup1AndGroup2() {
+    /** Group 1 Prelims only: its subjects, no Group 2. */
+    @Test fun notesTabGroup1Prelims() {
         show("1_notes_group1") { BooksScreen(nav) }
-        rule.onNode(hasScrollToNodeAction()).performScrollToNode(hasText("Indian Constitution"))
+        rule.onNode(hasScrollToNodeAction()).performScrollToNode(hasText("Science, Technology & Environment", substring = true))
         rule.waitForIdle()
-        rule.onRoot().captureRoboImage("screenshots/complete/2_notes_group2.png")
+        assertTrue(rule.onAllNodes(hasText("Indian Constitution")).fetchSemanticsNodes().isEmpty())
     }
 
-    @Test fun group2Subject() {
+    /** Only the Group 1 Prelims syllabus: off-syllabus pages are hidden (counted as read), their MCQs gone, and a
+     *  section with nothing the syllabus asks is not listed. */
+    @Test fun onlyTheGroup1PrelimsSyllabus() = runBlocking {
         val repo = Repository { ctx.assets.open(it) }
-        val s = repo.exams[1].subjects.indexOfFirst { it.title == "Indian Constitution" }
-        show("3_group2_constitution") { ExamSubjectScreen(1, s, nav) }
+        val empty = repo.emptyPages(false)
+        assertTrue(empty.size in 100..400)
+        var hidden = 0
+        for (b in 1..6) {
+            val book = repo.book(b); val m = repo.mcq(b)
+            for (r in book.rows) {
+                val info = repo.index[b - 1].rows[r.index]
+                if (info.hidden) { hidden++; assertTrue(m.rows[r.index].isNullOrEmpty()); continue }
+                assertTrue("book $b row ${r.index} shows pages", r.secs.any { !it.empty })
+                r.secs.forEachIndexed { si, sec -> if (sec.empty) assertTrue("$b:${r.index}:$si" in empty) }
+                assertTrue("no MCQ under a hidden page", m.subs[r.index].orEmpty().none { it >= 0 && r.secs[it].empty })
+            }
+        }
+        assertTrue(hidden in 1..20)
     }
 
     /** Every topic is its one-pager (tools/onepager_app.py): a subsection per box, then its full notes, one list. */
