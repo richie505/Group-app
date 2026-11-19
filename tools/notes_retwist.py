@@ -237,7 +237,7 @@ def apply_all(q, plan_, out, rnd):
             key = next((i for i, t in enumerate(q["o"]) if ar_kind(t) == "explains"), None)
             if key is not None:
                 q = {k: v for k, v in dict(q, s=s, a=key, x=o["x"]).items() if k not in ("xs", "xa")}
-        elif not NR.NOT_SET.search(q["s"]):
+        elif not NR.NOT_SET.search(q["s"]) and not (j["make_false"] + j["make_true"] and re.search(r"\bwhich (two|three|one)\b|\bhow many\b", q["s"], re.I)):
             lines, st = NR.parse(q)
             labels = [l for _, l, _ in st]
             tr = NR.truths(q, labels)
