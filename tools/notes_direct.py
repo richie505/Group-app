@@ -36,6 +36,10 @@ def tighten(q):
     k = v[a]
     if len(set(v)) != 4 or k < 20 or all(1000 <= x <= 2100 and float(x).is_integer() for x in v):
         return q
+    # only precise figures (3+ significant digits, e.g. 8,489 / 272 km / 2,303 crore): round "about what share"
+    # options (25% / 50% / 75%) are APPSC's own style and stay
+    if len(ns[a][3].replace(",", "").replace(".", "").strip("0")) < 3 or re.search(r"\b(about|approximately|nearly|roughly|around)\b", q["s"], re.I):
+        return q
     unit = {n[2].strip().lower() for n in ns}
     if len(unit) != 1:
         return q
@@ -62,21 +66,37 @@ def tighten(q):
             target = k * (1 + sgn * (0.05 + 0.035 * j))
             if abs(v[i] - k) <= abs(target - k):
                 continue
-            t = round(target / step) * step
+            t = round(target / step) * step if ints else round(target, len(ns[a][3].split('.')[1]) if '.' in ns[a][3] else 0)
             if t == k or (sgn > 0 and t <= k) or (sgn < 0 and t <= 0) or (sgn < 0 and t >= k):
                 return q
             new[i] = t
     if len(set(new)) != 4 or sorted(range(4), key=lambda i: new[i]) != rank:
         return q
-    d2 = 0 if ints and step >= 1 else max(dec, max(0, -int(math.floor(math.log10(step)))))
+    d2 = len(ns[a][3].split(".")[1]) if "." in ns[a][3] else 0
     out = list(o)
     for i in range(4):
         if new[i] != v[i]:
-            s = f"{new[i]:,.{d2}f}" if "," in ns[i][3] or ("," in ns[a][3]) else f"{new[i]:.{d2}f}"
+            s = _group(f"{new[i]:.{d2}f}", ns[a][3])
             out[i] = ns[i][0] + s + ns[i][2]
     if len(set(out)) != 4:
         return q
     return dict(q, o=out)
+
+
+def _group(s, like):
+    """digit grouping as in the key: 1,75,025 (Indian), 175,025 or none"""
+    if "," not in like:
+        return s
+    w, _, f = s.partition(".")
+    if re.search(r"\d,\d\d,\d{3}", like) or (len(w) == 4 and False):
+        head, tail = w[:-3], w[-3:]
+        parts = []
+        while len(head) > 2:
+            parts.insert(0, head[-2:]); head = head[:-2]
+        w = ",".join(([head] if head else []) + parts + [tail]) if len(w) > 3 else w
+    else:
+        w = f"{int(w):,}"
+    return w + ("." + f if f else "")
 
 
 def _jacc(a, b):
