@@ -101,6 +101,15 @@ DECK = r"""
   all[cur].classList.add('on'); show(cur);
 })();
 """
+START = r"""
+(function start(tries) {
+  const ok = innerWidth > 240 && innerHeight > 200;
+  // in the app the slides are landscape: wait (a little) for the turn, then lay out for the real screen
+  const turned = !window.Android || innerWidth > innerHeight || tries > 40;
+  if (!ok || !turned) return setTimeout(() => start(tries + 1), 50);
+  __layout(); __deck();
+})(0);
+"""
 if os.path.exists(OUT):
     shutil.rmtree(OUT)
 index = {"apps": []}
@@ -118,7 +127,13 @@ for key, A, name, pdfs in APPS:
             f = f"{OUT}/{key}/{b['id']}/{r}.html"
             os.makedirs(os.path.dirname(f), exist_ok=True)
             h = LP.build(A, b["id"], r, f[:-5] + ".pdf", name)
-            doc = open(h).read().replace("</head>", SCREEN + "</head>", 1).replace("</body>", "<script>" + DECK + "</script></body>", 1)
+            doc = open(h).read().replace("</head>", SCREEN + "</head>", 1)
+            # lay the slides out only once the screen has its real size (a WebView can start at 0 x 0, or still in
+            # portrait while it turns): the layout script and the deck run from START, not as the page loads
+            i0 = doc.index("<script>")
+            i1 = doc.index("</script>", i0)
+            doc = doc[:i0] + "<script>function __layout() {" + doc[i0 + 8:i1] + "}</script>" + doc[i1 + 9:]
+            doc = doc.replace("</body>", "<script>function __deck() {" + DECK + "}" + START + "</script></body>", 1)
             if h != f:
                 os.unlink(h)
             open(f, "w").write(doc)
