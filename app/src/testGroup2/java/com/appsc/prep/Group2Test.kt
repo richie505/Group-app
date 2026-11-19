@@ -281,15 +281,25 @@ class Group2Test {
         app.store.setTarget(null, ""); app.store.changeDailyGoal(0)
     }
 
-    /** A notes MCQ (one-liner) linked to its notes line: the book icon shows the answer, why, and that line. */
-    @Test fun oneLinerBookIconShowsItsLine() {
-        assertTrue("most notes MCQs linked", repo.noteLinks.keys.count { it.startsWith("o") } > 20000)
-        shot("4_oneliner_book_icon") { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 1, 7, 2), "all", "Subsection MCQs", nav) }
-        rule.waitUntil(30_000) { rule.onAllNodes(hasText("A copper dog was found", substring = true)).fetchSemanticsNodes().isNotEmpty() }
-        rule.onNode(androidx.compose.ui.test.hasContentDescription("Read from the notes")).performClick()
-        rule.waitUntil(20_000) { rule.onAllNodes(hasText("The correct answer is", substring = true)).fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithText("From your notes").assertExists()
-        com.github.takahirom.roborazzi.captureScreenRoboImage("screenshots/group2/4_oneliner_book_icon.png")
+    /** The notes MCQs follow APPSC's pattern (APPSC: Cracked): statement sets vary in how many are true, and
+     *  "None of the above / Neither" is a real key. */
+    @Test fun notesMcqsFollowAppscPattern() = runBlocking {
+        var three = 0; var threeTwo = 0; var noneKey = 0; var noneHave = 0
+        for (b in 1..6) for (q in repo.mcq(b).rows.values.flatten()) {
+            if (q.id.startsWith("y") || q.answer !in q.options.indices) continue
+            if (q.options.any { it.startsWith("None of the above") || it.startsWith("Neither") }) {
+                noneHave++
+                if (q.options[q.answer].startsWith("None of the above") || q.options[q.answer].startsWith("Neither")) noneKey++
+            }
+            val st = Regex("""(?m)^\s*[1-3]\.\s""").findAll(q.stem).count()
+            if (st == 3 && !Regex("""(?m)^\s*4\.\s""").containsMatchIn(q.stem) && q.stem.contains("correct") && !q.stem.contains("incorrect")) {
+                three++
+                val k = q.options[q.answer]
+                if (Regex("""^\d and \d only$""").matches(k.trim())) threeTwo++
+            }
+        }
+        assertTrue("3-statement sets no longer almost all '2 true' ($threeTwo of $three)", threeTwo < 0.7 * three)
+        assertTrue("None / Neither is a real key ($noneKey of $noneHave)", noneKey > 0.15 * noneHave)
     }
 
     /** "Stuck?": one tap shows the answer and its worked trick; like "From the notes", the pick then counts as a normal answer. */
