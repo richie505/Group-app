@@ -303,7 +303,12 @@ private fun SlidesScreen(app: LectureApp, s: Subject, i: Int, fromEnd: Boolean, 
     AndroidView(
         factory = { ctx ->
             WebView(ctx).apply {
-                webViewClient = WebViewClient()
+                webViewClient = object : WebViewClient() {
+                    override fun onPageFinished(view: WebView, url: String?) { view.scrollTo(0, 0) } // no restored scroll
+                }
+                isVerticalScrollBarEnabled = false
+                isHorizontalScrollBarEnabled = false
+                overScrollMode = WebView.OVER_SCROLL_NEVER
                 settings.javaScriptEnabled = true // the slides lay themselves out for the screen, measuring what fits
                 settings.textZoom = (fontScale * 100).toInt() // the phone's font size
                 setBackgroundColor(android.graphics.Color.rgb(15, 21, 48))

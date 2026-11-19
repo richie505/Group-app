@@ -17,7 +17,10 @@ SCREEN = """<meta name='viewport' content='width=device-width, initial-scale=1, 
   :root { --W: 100vw; --H: 100vh; --f: 16px } /* --W, --H, --f are set in pixels by START (no vw / vh: some WebViews give 0) */
   html, body { margin: 0; height: 100%; overflow: hidden; background: #0f1530; -webkit-tap-highlight-color: transparent }
   section.s, div.s { width: var(--W) !important; height: var(--H) !important; margin: 0; page-break-after: auto }
-  .deck section.s, .deck div.s { display: none } .deck section.s.on, .deck div.s.on { display: block }
+  .deck section.s, .deck div.s { display: none }
+  /* the slide shown is pinned to the screen: no scroll position (a reload restores one) can move it away */
+  .deck section.s.on, .deck div.s.on { display: block; position: fixed !important; left: 0; top: 0; z-index: 1 }
+  #diag { position: fixed; z-index: 20; left: 8px; top: 8px; right: 60px; font: 12px monospace; color: #ffd; background: rgba(0,0,0,.6); padding: 6px; white-space: pre-wrap }
   .bar { height: calc(var(--f) * 2.1); font-size: calc(var(--f) * .7); padding: 0 64px 0 18px; gap: 10px }
   .inner { top: calc(var(--f) * 2.7); left: 58px; right: 58px; bottom: 26px; overflow: hidden }
   h2 { font-size: calc(var(--f) * 1.28); margin: 0 0 .5em; padding-left: 10px; border-left-width: 5px }
@@ -76,7 +79,16 @@ DECK = r"""
   function show(i) {
     all[cur].classList.remove('on'); cur = i; all[cur].classList.add('on');
     ct.textContent = `${cur + 1} / ${N}`; pg.style.width = `${(cur + 1) / N * 100}%`;
-    history.replaceState(null, '', '#p=' + (N > 1 ? cur / (N - 1) : 0));
+    try { history.replaceState(null, '', '#p=' + (N > 1 ? cur / (N - 1) : 0)); } catch (e) {}
+    scrollTo(0, 0); diag();
+  }
+  // if the slide shown is still not on the screen, say what the screen reports (to fix it)
+  function diag() {
+    const r = all[cur].getBoundingClientRect(), bad = r.width < 100 || r.height < 100 || r.bottom < 50 || r.top > innerHeight - 50;
+    let d = document.getElementById('diag');
+    if (!bad) { if (d) d.remove(); return; }
+    if (!d) { d = document.createElement('div'); d.id = 'diag'; document.body.appendChild(d); }
+    d.textContent = `slide ${Math.round(r.left)},${Math.round(r.top)} ${Math.round(r.width)}x${Math.round(r.height)} | inner ${innerWidth}x${innerHeight} | client ${document.documentElement.clientWidth}x${document.documentElement.clientHeight} | laid ${window.__laid} | dpr ${devicePixelRatio} | scroll ${scrollY} | display ${getComputedStyle(all[cur]).display}`;
   }
   const next = () => cur < N - 1 ? show(cur + 1) : (A && A.next());
   const prev = () => cur > 0 ? show(cur - 1) : (A && A.prev());
@@ -104,6 +116,7 @@ DECK = r"""
 })();
 """
 START = r"""
+try { history.scrollRestoration = 'manual'; } catch (e) {}
 (function start(tries) {
   // lay out only on a real, settled landscape screen; sizes in pixels (a WebView can report 0 x 0, a narrow or a
   // short screen while the phone turns, and some give 0 for vh units)
