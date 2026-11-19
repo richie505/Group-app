@@ -136,9 +136,6 @@ def main():
     res["APPSC papers 2017-25"] = profile(pq)
     # the whole PYQ bank (all exams)
     _, BQ, _ = PC.corpus()
-    import appsc_tricks as T2
-    bank = [q for q in BQ if not q.get("match")]
-    S2, _ = T2.statements("b.json", {"questions": [], "date": "2000"})
     res["All PYQs in the app"] = profile(direct([q for q in BQ], []))
     # our direct notes MCQs, per subject
     qs = NP.notes_mcqs()
