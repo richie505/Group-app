@@ -1,0 +1,14 @@
+Task: six Group 1 Prelims syllabus lines are thin in the app. Write, for each, ONE new notes page and 25 new MCQs.
+Never use the Anthropic API. Do not commit. Write only data/g1syl/depth-out.jsonl.
+Scratch in /tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/g1depth/.
+
+Input data/g1syl/depth-job.jsonl: leaf, its text, host section "book:row" (an APPSC Complete section the page is added
+to), the pages it already has (book:row:page title). Read the host's existing notes first so you add what is MISSING,
+not repeats: python3 -c "import json;b,r=1,90;bk=json.load(open('app/src/complete/assets/book%d.json'%b));row=[x for u in bk['units'] for x in u['rows']][r];[print('##',s['t'],'\n',json.dumps(s['b'],ensure_ascii=False)[:3000]) for s in row['secs']]"
+For each line write {"leaf": "...", "host": "b:r", "title": "<page title>", "bullets": ["<fact with **bold** key words>", ...
+ 12-25 bullets, exam-dense, one fact each], "mcqs": [{"s": "<question>", "o": ["","","",""], "a": <0-3>, "x": "<explanation>"}, ...25]}
+MCQs in APPSC's pattern (data/tricks: mix of direct, 2-4 statement sets "Which of the above is/are correct?" with codes
+like "1 and 2 only", matching, assertion-reason; vary the key position; decoys close and plausible). Facts must be
+right (sure knowledge; 2025-26 facts only if certain). D4/7 = manpower-based industries (IT/ITES, BPO, textiles/
+garments, leather, gems and jewellery as labour-intensive industries; World, India and AP).
+Check with Python (6 lines, 25 MCQs each, a in 0..3, 4 distinct options). Report counts and 2 sample MCQs per line.
