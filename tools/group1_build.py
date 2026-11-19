@@ -63,7 +63,8 @@ for b in range(1, 7):
         beyond = {int(j) for j, v in o["subs"].items() if v == "beyond"}
         for j in beyond:
             if j < len(r["secs"]):
-                r["secs"][j]["empty"] = True
+                # the app hides a page whose only block is a "No MCQ ..." note (and counts it as read)
+                r["secs"][j]["b"] = [{"k": "n", "x": [["No MCQ notes here: not in the Group 1 Prelims syllabus.", 0]]}]
                 empty["full"].append(f"{b}:{i}:{j}")
                 stats["pages hidden"] += 1
         # a new page for a thin syllabus line, with its MCQs
@@ -77,6 +78,10 @@ for b in range(1, 7):
                 S.append(j)
                 stats["MCQs added"] += 1
             stats["pages added"] += 1
+        for j, x in enumerate(r["secs"]):  # pages that were already "No MCQ notes" placeholders: hidden too
+            bb = x["b"]
+            if len(bb) == 1 and bb[0].get("k") == "n" and str(bb[0]["x"][0][0]).startswith("No MCQ") and f"{b}:{i}:{j}" not in empty["full"]:
+                empty["full"].append(f"{b}:{i}:{j}")
         whole = not [k for k, v in o["subs"].items() if v != "beyond"]
         L, S = m["rows"].get(str(i), []), m["subs"].get(str(i), [])
         keep = [(q, s) for q, s in zip(L, S) if not whole and s not in beyond]

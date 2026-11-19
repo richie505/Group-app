@@ -397,19 +397,19 @@ class CompleteTest {
     @Test fun onlyTheGroup1PrelimsSyllabus() = runBlocking {
         val repo = Repository { ctx.assets.open(it) }
         val empty = repo.emptyPages(false)
-        assertTrue(empty.size in 100..400)
+        assertTrue("hidden pages ${empty.size}", empty.size in 100..500)
         var hidden = 0
         for (b in 1..6) {
             val book = repo.book(b); val m = repo.mcq(b)
             for (r in book.rows) {
                 val info = repo.index[b - 1].rows[r.index]
-                if (info.hidden) { hidden++; assertTrue(m.rows[r.index].isNullOrEmpty()); continue }
+                if (info.hidden) { hidden++; assertTrue("hidden $b:${r.index} has MCQs", m.rows[r.index].isNullOrEmpty()); continue }
                 assertTrue("book $b row ${r.index} shows pages", r.secs.any { !it.empty })
                 r.secs.forEachIndexed { si, sec -> if (sec.empty) assertTrue("$b:${r.index}:$si" in empty) }
                 assertTrue("no MCQ under a hidden page", m.subs[r.index].orEmpty().none { it >= 0 && r.secs[it].empty })
             }
         }
-        assertTrue(hidden in 1..20)
+        assertTrue("hidden sections $hidden", hidden in 1..20)
     }
 
     /** Every topic is its one-pager (tools/onepager_app.py): a subsection per box, then its full notes, one list. */
