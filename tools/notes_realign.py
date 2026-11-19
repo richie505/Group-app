@@ -24,7 +24,7 @@ TWISTS = {
     "Indian Society": "a wrong year or number on an Act or scheme (POCSO 2012, JJ Act 2015, age limits); a stretched scope (beneficiaries)",
 }
 TRAP = re.compile(r"\b(only|all|every|any|never|always|entirely|solely|must|cannot|not|no|exclusively)\b", re.I)
-NOT_SET = re.compile(r"\bmatch\b|list\s*-?\s*(i|ii|1|2)\b|\barrange\b|\bsequence\b|chronolog|correct order|\bpairs?\b", re.I)
+NOT_SET = re.compile(r"\bmatch(ed)?\b|list\s*-?\s*(i|ii|1|2)\b|\barrange\b|\b(correct|following|right|chronological|proper) (sequence|order)\b|chronolog|\bpairs?\b", re.I)
 STMT = re.compile(r"^(\s*\(?)([0-9]{1,2}|[a-h]|[ivx]{1,4}|[IVX]{1,4})([.)]\s+)(.+)$")
 
 
