@@ -1,0 +1,25 @@
+Task: map APPSC Complete's topics (sections) to the OFFICIAL APPSC Group 1 PRELIMS syllabus, so the app keeps only
+what the syllabus asks. Never use the Anthropic API. Do not commit. Write only data/g1syl/sec-out-N.jsonl.
+Scratch files only in /tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/g1map-N/.
+
+Read data/g1syl/leaves.md: the Group 1 Prelims syllabus (2018) split into leaves with codes (A1/3 = Vedic Age,
+C5/16 = Vizag railway zone, Kadapa steel ...). Paper I: History (A), Polity (B), Economy (C), Geography (D);
+Paper II: Science & Technology (E18-E22) and Current Events (G). Mental Ability is NOT in it (owner's choice).
+
+Input data/g1syl/sec-job-N.jsonl: one section per line: key "book:row", its unit, title, old codes (hints only),
+and its subsections "j. title (n MCQs)". To read a section's notes:
+python3 -c "import json;b,r=1,5;bk=json.load(open('app/src/complete/assets/book%d.json'%b));row=[x for u in bk['units'] for x in u['rows']][r];[print(s['t']) for s in row['secs']]"
+(titles are usually enough).
+
+For each section write {"key": "b:r", "leaves": [<leaf codes it teaches>], "subs": {"<j>": "<one leaf code>" or "beyond"}}
+ - a subsection FITS a leaf if a Group 1 Prelims question could fairly be set from it under that line (the line's
+   topic, its background, causes, features, people, places, related facts). Be fair, not narrow: e.g. Ashokan
+   inscriptions fit "The Mauryas"; Andhra temples of the Kakatiyas fit "Kakatiyas"; a dam on the Krishna fits
+   "Irrigation and water" or "River water sharing disputes"; AP's tribes fit "Racial, tribal ... groups".
+ - "beyond": NOTHING in the syllabus covers it (e.g. Telugu literature of the 20th century, Mains-only essays,
+   mental ability). Use beyond only when no leaf fits at all.
+ - Current-affairs sections (book 6) fit G/1, G/2 or G/3 (regional / national / international) unless they are
+   really a static topic that fits a better leaf.
+ - every subsection index of the section must appear in "subs". "leaves" = the distinct leaves used, [] if all beyond.
+Then check with Python (every key once, in order; every subsection index present; codes exist in leaves.json) and
+report: counts, how many sections / subsections beyond, and 10 examples of beyond with why.
