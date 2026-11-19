@@ -1,0 +1,19 @@
+Task: the Group 2 app must hold ONLY what the official Group 2 syllabus asks. Re-check the content marked "beyond the
+syllabus" and decide, item by item, whether it FITS a syllabus line (keep, with its leaf) or not (remove).
+Never use the Anthropic API. Do not commit. Write only data/g2fit/job-N.out.jsonl.
+Scratch files only in /tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/g2fit-N/.
+
+Read data/g2syl/leaves.md: the official APPSC Group II syllabus (27-04-2023) as leaves (P* = Prelims/Screening,
+M* = Mains). Mental Ability is not in it (owner's choice).
+Input data/g2fit/job-N.jsonl, one Group 2 section per line: key, title, its syllabus leaves, whole_section_beyond
+(the whole section was judged beyond), note, "subsections" {index: title} that were judged beyond, and "mcqs":
+[id, subsection index (-1 = section-wide), stem, answer] of every MCQ judged beyond.
+To read a subsection's notes: python3 tools/g2syl_show.py <book> <row>.
+
+Judge FAIRLY, not narrowly: it FITS if a Group 2 Screening or Mains question could fairly be set from it under a leaf
+(the line's topic, background, causes, features, people, places, related facts). REMOVE only what no line covers
+(e.g. world history not in the syllabus, Group 1-only topics, pure mental ability, trivia unrelated to any line).
+Write {"key": "b:r", "subs": {"<index>": "<leaf code>" or "remove", ...every listed subsection},
+       "mcqs": {"<id>": "<leaf code>" or "remove", ...every listed MCQ}}
+Check with Python: every key once, every listed subsection and MCQ id present, codes exist in data/g2syl/leaves.json.
+Report counts kept / removed (subsections, MCQs) and 10 removal examples with why.
