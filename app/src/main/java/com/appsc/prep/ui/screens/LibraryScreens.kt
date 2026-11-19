@@ -92,6 +92,7 @@ fun BooksScreen(nav: Nav) {
             if (app.repo.hasMcqNotes) item(key = "notes-mode") { NotesModeSwitch() }
             // Group 2: the official APPSC syllabus, line by line, with its MCQs, PYQs and the real papers
             if (app.repo.syllabus != null) item(key = "official-syllabus") { OfficialSyllabusCard(nav) }
+            if (!app.repo.reader) item(key = "tricks") { TricksCard(nav) }
             if (app.repo.exams.isNotEmpty()) {
                 // APPSC Complete: the subjects of each exam on their own, Group 1 then Group 2
                 app.repo.exams.forEachIndexed { ei, exam ->

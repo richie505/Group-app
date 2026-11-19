@@ -17,16 +17,22 @@ object Techniques {
     private fun r(p: String) = Regex(p, RegexOption.IGNORE_CASE)
 
     private val CLUES = listOf(
-        Clue("only", "'only'", true, "wrong 68 in 100, normal 46", r("""\bonly\b""")),
-        Clue("absolute", "a 'no exceptions' word (all the / any / entirely / cannot / never / always)", true, "wrong 60 in 100, normal 44",
+        Clue("only", "'only'", true, "wrong 68 in 100 across 40,000 PYQs, 74 in APPSC; normal 38", r("""\bonly\b""")),
+        Clue("butnot", "'… but … not …'", true, "wrong 73 in 100 across all PYQs, 82 in APPSC; normal 38", r("""\bbut\b.{0,80}\bnot\b""")),
+        Clue("schedule", "a 'Schedule' of the Constitution", true, "wrong 71 in 100 in Polity PYQs, normal 42", r("""\bschedule\b""")),
+        Clue("govt", "'the Government …' / 'cannot be'", true, "wrong 68–69 in 100 in Polity PYQs, normal 42", r("""\bthe government\b|\bcannot be\b""")),
+        Clue("fund", "an electoral or 'Fund' matter", false, "wrong only 13–14 in 100 in Polity PYQs, normal 42", r("""\belectoral\b|\bfund\b""")),
+        Clue("ap", "an Andhra Pradesh fact", false, "wrong only 33 in 100 across all PYQs, 23 in APPSC AP history; normal 38",
+            r("""\b(andhra|amaravati|visakhapatnam|vizag|tirupati|godavari|nellore|kurnool|kadapa|guntur|vijayawada|polavaram|srisailam|satavahana|ikshvaku|kakatiya|vengi|telugu)\b""")),
+        Clue("absolute", "a 'no exceptions' word (all the / any / entirely / cannot / never / always)", true, "wrong 52–58 in 100 across all PYQs, normal 38",
             r("""\b(all the|any|entirely|cannot|can not|never|always)\b""")),
-        Clue("not", "'not / does not'", true, "wrong 51 in 100, normal 38", r("""\b(not|does not|do not|did not|is not|are not|no)\b|n't\b""")),
-        Clue("launched", "'launched / developed / set up by'", true, "wrong 48–56 in 100, normal 36–38",
+        Clue("not", "'not / does not'", true, "wrong 50–61 in 100 (APPSC 61), normal 38", r("""\b(not|does not|do not|did not|is not|are not|no)\b|n't\b""")),
+        Clue("launched", "'launched / developed / set up by'", true, "wrong 53–60 in 100 across all PYQs, normal 38",
             r("""\b(launched|developed|set up|established|introduced|released|published|prepared|constituted) by\b""")),
-        Clue("ministry", "a 'Ministry of / Department of' name", true, "wrong 58 in 100, normal 37", r("""\b(ministry|department) of\b""")),
+        Clue("ministry", "a 'Ministry of / Department of' name", true, "wrong 58–75 in 100 (Economy 75), normal 38", r("""\b(ministry|department) of\b""")),
         Clue("world", "a named world body (UN, WHO, World Bank, IMF…)", true, "wrong 58 in 100, normal 41",
             Regex("""\b(UN|UNO|UNESCO|UNEP|UNDP|UNICEF|UNFCCC|WHO|WTO|IMF|ILO|FAO|OECD|ADB|AIIB|IPCC|IUCN)\b|\b(United Nations|World Bank|World Economic Forum|International Monetary Fund|World Health Organi[sz]ation)\b""")),
-        Clue("member", "'member of / consists of'", true, "wrong 54 in 100, normal 44",
+        Clue("member", "'member of / consists of'", true, "wrong 74 in 100 in Polity PYQs, normal 42",
             r("""\b(members? of|consists? of|comprises?|composed of|member countries|chairman of|chairperson of)\b""")),
         Clue("power", "a power given to a named authority (President, Governor, Speaker…)", true, "wrong 67 in 100, normal 44",
             r("""\b(president|governor|speaker|prime minister|chief minister|chief justice|vice-president|chairman of the rajya sabha)\b.{0,60}\b(can|may|has the power|is empowered|appoints?|removes?|dissolves?|summons?|nominates?|pardons?|issues?|declares?)\b""")),
@@ -41,7 +47,7 @@ object Techniques {
             r("""\bin india\b|\bin the world\b|\bthe state\b|\blargest\b|\bhighest\b""")),
         Clue("located", "'is located in / lies in / headquarters'", true, "wrong 50–61 in 100, normal 39",
             r("""\b(is|are) located\b|\blies in\b|\bheadquarter""")),
-        Clue("compare", "a comparison ('higher than', 'whereas', 'unlike', 'but')", true, "wrong 58 in 100, normal 41",
+        Clue("compare", "a comparison ('higher than', 'whereas', 'unlike', 'but')", true, "wrong 46–62 in 100 (a weak clue), normal 38",
             r("""\b(higher|lower|more|less|greater|smaller|larger|bigger) than\b|\bwhereas\b|\bunlike\b|\bbut\b""")),
         Clue("percent", "a percentage", true, "wrong 52 in 100, normal 46", r("""%|\bper ?cent\b""")),
         Clue("long", "a very long sentence (25+ words)", true, "wrong 43–57 in 100, normal 37", Regex("""(\S+\s+){24,}\S+""")),
@@ -53,12 +59,12 @@ object Techniques {
 
     /** Clues that work (strong) or work a little (weak) in each book's subject, from Part C. Polity 'can' works the OPPOSITE way. */
     private val STRONG = mapOf(
-        1 to setOf("reign"),
-        2 to setOf("only", "absolute", "member", "power", "article", "time", "size", "compare", "percent", "long", "can"),
-        3 to setOf("absolute", "not", "launched", "ministry", "world", "time", "long", "does"),
-        4 to setOf("only", "absolute", "not", "between", "size", "located", "some", "can"),
-        5 to setOf("only", "absolute", "not", "some", "can", "does", "size"),
-        6 to setOf("launched", "ministry", "located"),
+        1 to setOf("reign", "butnot", "only", "ap"),
+        2 to setOf("only", "butnot", "absolute", "member", "power", "article", "time", "size", "compare", "percent", "long", "can", "schedule", "govt", "fund", "ap"),
+        3 to setOf("only", "butnot", "absolute", "not", "launched", "ministry", "world", "time", "long", "does", "ap"),
+        4 to setOf("only", "butnot", "absolute", "not", "between", "size", "located", "some", "can", "ap"),
+        5 to setOf("only", "butnot", "absolute", "not", "some", "can", "does", "size"),
+        6 to setOf("launched", "ministry", "located", "only", "butnot", "ap"),
     )
     private val WEAK = mapOf(
         1 to setOf("absolute", "not", "world", "time", "compare", "some"),
@@ -145,6 +151,8 @@ object Techniques {
             .map { it to (it.id in strong) }
             // Polity: 'can' points to WRONG (setters swap powers)
             .map { (c, s) -> if (book == 2 && c.id == "can") Clue("can", "'can / may' about a power", true, "wrong 65 in 100, normal 47 in Polity", c.re) to s else c to s }
+            // Geography: "located in / lies in" statements are usually TRUE (APPSC: Cracked, whole PYQ bank)
+            .map { (c, s) -> if (book == 4 && c.id == "located") Clue("located", "'is located in / lies in'", false, "wrong only 18 in 100 in Geography PYQs, normal 40", c.re) to s else c to s }
     }
 
     private fun letter(i: Int) = "(${i + 1})"
@@ -185,7 +193,7 @@ object Techniques {
         if (neg) out += "This asks for the NOT correct / EXCEPT one. Every clue below flips: a statement that looks wrong is the one to pick."
         when (kind(q)) {
             Kind.ASSERTION -> {
-                out += "Assertion–Reason: check A and R separately first. In APPSC, 'both true and R explains A' is the answer 43 in 100 times, then 'both true, R does not explain A'. Pick 'A true, R false' or 'A false, R true' only when you are sure one sentence is false."
+                out += "Assertion–Reason: test A on its own, then R on its own, then ask 'does R say WHY A happens?'. In APPSC 2017–25, 'both true and R explains A' was the answer 53 in 100 times; pick a 'false' option only when you are sure one sentence is false."
                 cluesInStatements(q, neg).take(2).forEach { out += it }
             }
             Kind.MATCH -> {
@@ -215,14 +223,20 @@ object Techniques {
                     out += "$names in most of the options. Such statements are true about 79 in 100 times in APPSC: accept ${if (common.size > 1) "them" else "it"} and spend your time on the others."
                 }
                 out += cluesInStatements(q, neg)
-                out += "Find ONE statement you are sure is wrong, then cross out every option that includes it. One sure fact often removes 2 or 3 options."
-                out += "No clue at all on a statement? Lean TRUE: about 65 in 100 statements in these questions are true."
+                out += "Settle the ONE statement you are surest of first and cross out every option that disagrees with it. In a backtest on APPSC 2023–25 this alone left 2–3 options and lifted a guess from 25 to 47 in 100 — the strongest trick there is."
+                when (st.size) {
+                    3 -> out += "With 3 statements, exactly 2 true is the most common answer in APPSC (58 in 100 in Group 1 Prelims); all 3 true about 1 in 4."
+                    4 -> out += "With 4 statements, usually 2 or 3 are true (63 in 100); all four true only 12 in 100 in APPSC Prelims."
+                    else -> {}
+                }
+                if (q.book == 2) out += "Polity is the harshest subject: about half its statements are false. Test each one; don't assume."
+                else if (q.book == 1) out += "History statements are mostly true (only 31 in 100 false, 23 in AP history): look for the one wrong person, place or date."
+                out += "No clue at all on a statement? Lean TRUE: about 60 in 100 statements in these questions are true."
             }
             Kind.NUMBERS -> if (!neg) middleNumbers(o)?.let { m ->
-                out += "Number options: sort them small to big. The answer is one of the two middle values, ${m.sorted().joinToString(" or ") { letter(it) }}, about 61 in 100 times in APPSC (luck 50)."
+                out += "Number options: sort them small to big. The answer is one of the two middle values, ${m.sorted().joinToString(" or ") { letter(it) }}, about 64 in 100 times in APPSC (luck 50)."
             }
             Kind.SENTENCES -> if (!neg) {
-                clearlyLongest(o)?.let { out += "Option ${letter(it)} is clearly the longest. In APPSC the clearly longest option is right 37 in 100 times (luck 25): setters add words to make the right answer exact." }
                 if (q.book in setOf(3, 4, 5, 6)) familyOption(o)?.let { out += "Tie-breaker: ${letter(it)} shares the most words with the other options. Wrong options are often small changes of the right one." }
                 out += cluesInOptions(q, neg)
                 if (neg) out += "Odd one out by meaning: three options belong to the same group or are true facts; the one that does not fit is the answer."
@@ -230,8 +244,8 @@ object Techniques {
             }
             Kind.SHORT -> out += if (neg) "Odd one out by meaning: three options belong to the same group; the one that does not is the answer. Judge by meaning, not by look-alike words." else "This is a name or one-word answer. No trick replaces the fact here, but try 'Who would do this job?' and splitting the options into two small choices to cut the list down."
         }
-        allAbove(o).takeIf { it >= 0 }?.let { if (!neg) out += "'All of the above' ${letter(it)} is a strong answer in APPSC (right 40 in 100, luck 25), especially in Science and Economy. Don't cut it without proof." }
-        noneAbove(o).takeIf { it >= 0 }?.let { out += "Don't throw away 'None of the above' ${letter(it)}: in APPSC it is right 32 in 100 times, more than luck." }
+        allAbove(o).takeIf { it >= 0 }?.let { if (!neg) out += "'All of the above' ${letter(it)} is the key only 28 in 100 times when it appears in APPSC (luck 25): never pick it by habit — prove each part." }
+        noneAbove(o).takeIf { it >= 0 }?.let { out += "Don't throw away 'None of the above' ${letter(it)}: in APPSC it is the key 39 in 100 times it appears — well above luck." }
         if (kind(q) != Kind.STATEMENTS && kind(q) != Kind.ASSERTION && bothOption(o) >= 0 && q.book in setOf(3, 5) && !neg)
             out += "A joined option ('Both…') ${letter(bothOption(o))} is right more often than luck in APPSC ${SUBJECT[q.book]}."
         return out.distinct()
@@ -283,7 +297,7 @@ object Techniques {
                 val keyBoth = kt.contains("both") || (kt.contains("true") && kt.contains("explanation") && !Regex("""\bfalse\b""").containsMatchIn(kt))
                 val keyExplains = keyBoth && !kt.contains("not")
                 when {
-                    keyExplains -> out += "Assertion–Reason: the key is 'both true and R explains A', the most common APPSC answer (43 in 100). Drop it only when you can prove one sentence false; that did not hold here."
+                    keyExplains -> out += "Assertion–Reason: the key is 'both true and R explains A', the most common APPSC answer (53 in 100). Drop it only when you can prove one sentence false; that did not hold here."
                     keyBoth -> out += "Both A and R were true, but R does not explain A. Ask 'does R answer WHY A happens?' The false-sentence options you might pick are under 1 in 5 in APPSC."
                     else -> out += "Here one sentence really was false, the rarer case in APPSC. Check A and R one at a time for a WRONG clue (only / not / wrong person / wrong date) before accepting 'both true'."
                 }
@@ -310,11 +324,10 @@ object Techniques {
             }
             Kind.STATEMENTS -> out += reviewStatements(q, picked, neg)
             Kind.NUMBERS -> middleNumbers(o)?.let { m ->
-                if (!neg && key in m && picked !in m) out += "The key ${letter(key)} is one of the two middle values. Your pick was an extreme; when unsure, APPSC's answer is a middle number 61 in 100 times."
+                if (!neg && key in m && picked !in m) out += "The key ${letter(key)} is one of the two middle values. Your pick was an extreme; when unsure, APPSC's answer is a middle number 64 in 100 times."
                 else if (key !in m) out += "The key is an extreme value, so the middle-number trick fails here. This one needed the exact figure: note it for revision."
             }
             Kind.SENTENCES -> {
-                if (!neg) clearlyLongest(o)?.let { if (it == key) out += "The key ${letter(key)} is the clearly longest option: setters add words to make the right answer exact (right 37 in 100 in APPSC)." }
                 if (!neg && q.book in setOf(3, 4, 5, 6)) familyOption(o)?.let { if (it == key) out += "The key ${letter(key)} shares the most words with the other options; the wrong ones are small changes of it." }
                 val w = cluesIn(o[picked], q.book).filter { it.first.wrong && it.second && it.first.id != "long" }
                 if (!neg && w.isNotEmpty()) out += "Your pick has ${w.first().first.label}, a WRONG clue in ${SUBJECT[q.book]} (${w.first().first.proof})."
@@ -324,9 +337,9 @@ object Techniques {
             Kind.SHORT -> {}
         }
         val all = allAbove(o)
-        if (all == key && !neg) out += "'All of the above' was the answer. In APPSC it wins 40 in 100 times (luck 25): keep it unless you can prove one option wrong."
+        if (all == key && !neg) out += "'All of the above' was the answer here; overall in APPSC it is the key only 28 in 100 times it appears, so it needs proof of every part, not habit."
         val none = noneAbove(o)
-        if (none == key) out += "'None of the above' was the answer. In APPSC it is a real option (right 32 in 100), not a throwaway."
+        if (none == key) out += "'None of the above' was the answer. In APPSC it is a real option (the key 39 in 100 times it appears), not a throwaway."
         if (none == picked && none != key && !neg) out += "'None of the above' is a real option in APPSC, but pick it only after checking each option."
         if (out.isEmpty() || (neg && out.size == 1)) out += when (kind(q)) {
             Kind.SHORT -> "This is a name or one-fact question: about half of APPSC questions are like this and no trick helps. It needs the fact; revise it from the notes for this section."

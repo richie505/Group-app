@@ -273,3 +273,8 @@ data class ExamSubject(val title: String, val sub: String, val groups: List<Exam
 
 /** A topic (Group 1) or a syllabus item (Group 2) and its sections, as (book, row). */
 data class ExamGroup(val title: String, val code: String, val rows: List<Pair<Int, Int>>)
+
+
+/** A worked solution of a question of the latest papers: the method, the tricks used, the steps to the key, the words
+ *  that support the trick (with why), and the one fact to remember. */
+data class Solved(val method: String, val tricks: List<String>, val steps: List<String>, val keys: List<Pair<String, String>>, val fact: String)

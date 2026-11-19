@@ -633,3 +633,5 @@ subprocess.run([sys.executable, "tools/flash_options_apply.py", G], check=True)
 subprocess.run([sys.executable, "tools/mcq_layout.py", G], check=True)
 # the notes MCQs (one-liners) linked to the notes line that states their fact (the book icon's "From your notes")
 subprocess.run([sys.executable, "tools/oneliner_notelink.py", G], check=True)
+# the latest papers' worked solutions (the "Stuck?" answer and its trick), keyed by this app's MCQ ids
+subprocess.run([sys.executable, "tools/solved_asset.py"], check=True)

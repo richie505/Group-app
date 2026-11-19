@@ -88,6 +88,8 @@ interface Nav {
     fun sylSubject(i: Int) {}
     fun leaf(i: Int) {}
     fun weak() {}
+    /** The tested tricks (APPSC: Cracked). */
+    fun tricks() {}
 }
 
 private val dateFmt = DateTimeFormatter.ofPattern("EEE, d MMM yyyy")

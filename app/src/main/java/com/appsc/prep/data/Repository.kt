@@ -190,6 +190,22 @@ class Repository(private val open: (String) -> InputStream) {
      * An own MCQ -> the notes lines that state its answer, checked one by one (tools/notelink.py):
      * "book:row:sec:block" or "book:row:sec:block.tableRow". The book icon shows these instead of a guess.
      */
+    /** The latest papers' worked solutions (solved.json, tools/solved_asset.py): method, tricks, steps, key words, fact. */
+    val solved: Map<String, Solved> by lazy {
+        runCatching {
+            readJson("solved.json").jsonObject.mapValues { (_, v) ->
+                val o = v.jsonObject
+                Solved(
+                    method = (o["m"] as? JsonPrimitive)?.content ?: "",
+                    tricks = (o["t"] as? JsonArray)?.map { it.jsonPrimitive.content } ?: emptyList(),
+                    steps = (o["s"] as? JsonArray)?.map { it.jsonPrimitive.content } ?: emptyList(),
+                    keys = (o["k"] as? JsonArray)?.map { k -> k.jsonArray.let { it[0].jsonPrimitive.content to (it.getOrNull(1)?.jsonPrimitive?.content ?: "") } } ?: emptyList(),
+                    fact = (o["f"] as? JsonPrimitive)?.content ?: "",
+                )
+            }
+        }.getOrDefault(emptyMap())
+    }
+
     val noteLinks: Map<String, List<String>> by lazy {
         runCatching { readJson("notelinks.json").jsonObject.mapValues { (_, v) -> v.jsonArray.map { it.jsonPrimitive.content } } }
             .getOrDefault(emptyMap())

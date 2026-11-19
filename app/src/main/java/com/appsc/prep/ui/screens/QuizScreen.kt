@@ -367,7 +367,8 @@ internal fun QuizRound(
         picks[index] = i
         store.recordPick(q.id, i)
         // an answer seen first ("Show the answer") is practice: attempted, not scored
-        if (q.kind == 'u' || q.id in revealed) store.markSeen(q.id, viewed = q.id in revealed) else store.recordAnswer(q.id, i == q.answer)
+        // an answer shown by "Stuck?" is practice: attempted, not scored, and not counted as an answer seen
+        if (q.kind == 'u' || q.id in revealed) store.markSeen(q.id, viewed = false) else store.recordAnswer(q.id, i == q.answer)
     }
     app.platform.Shortcuts { k ->
         when {
@@ -734,76 +735,84 @@ private fun Bullet(text: String, ink: Color) {
 }
 
 /**
- * "Stuck?" before answering, in two steps: first the techniques (the guide's hints and this question's own
- * technique), then - only if asked - the answer with the technique that gets there.
+ * "Stuck?": one tap shows the answer and the trick that gets there - for the latest papers their worked solution
+ * (method, steps, the words that give it away, the fact to remember), else the tested techniques of APPSC: Cracked.
+ * Picking afterwards is practice: attempted, not scored, and not counted as an answer seen.
  */
 @Composable
 private fun HintBox(q: Question, onReveal: () -> Unit) {
-    val oneliner = LocalApp.current.repo.oneliner
+    val app = LocalApp.current
+    val solved = app.repo.solved[q.id]
     val hints = remember(q.id) { Techniques.hints(q) }
     val hasAnswer = q.answer in q.options.indices
-    if (hints.isEmpty() && q.technique.isBlank() && !hasAnswer) return
+    if (!hasAnswer && hints.isEmpty() && q.technique.isBlank() && solved == null) return
     var open by rememberSaveable(q.id) { mutableStateOf(false) }
-    var answer by rememberSaveable(q.id) { mutableStateOf(false) }
     Spacer(Modifier.height(10.dp))
     if (!open) {
         OutlinedButton(
-            onClick = { open = true },
+            onClick = { open = true; if (hasAnswer) onReveal() },
             modifier = Modifier.fillMaxWidth().height(46.dp),
             shape = RoundedCornerShape(12.dp),
-        ) { Text("Stuck? Show a hint", style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = C.Accent)) }
+        ) { Text("Stuck? Show the answer and the trick", style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = C.Accent)) }
         return
     }
     Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(C.AccentSoft).padding(14.dp)) {
-        Text("HINT · MCQ TECHNIQUE", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
-        if (q.technique.isNotBlank()) {
+        if (hasAnswer) {
+            Text("ANSWER", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Green, letterSpacing = 0.8.sp))
             Text(
-                "This question: ${q.technique}",
-                style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, fontWeight = FontWeight.SemiBold, color = C.Ink),
-                modifier = Modifier.padding(top = 4.dp),
+                "(${q.answer + 1}) ${q.options[q.answer]}",
+                style = TextStyle(fontSize = 15.sp, lineHeight = 21.sp, fontWeight = FontWeight.Bold, color = C.Green),
+                modifier = Modifier.padding(top = 2.dp, bottom = 8.dp),
             )
         }
-        hints.forEach {
-            Text("• $it", style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body), modifier = Modifier.padding(top = 4.dp))
-        }
-        if (hasAnswer && !answer) {
+        if (solved != null) {
             Text(
-                "Still stuck? Show the answer › (it will not count in your score)",
-                style = TextStyle(fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = C.High),
-                modifier = Modifier.padding(top = 10.dp).clickable { answer = true; onReveal() },
+                "HOW TO CRACK IT · ${solved.method.uppercase()}",
+                style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp),
             )
-        }
-        if (hasAnswer && answer) {
-            Spacer(Modifier.height(10.dp))
-            Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).background(Color.White).padding(12.dp)) {
-                Text("ANSWER", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Green, letterSpacing = 0.8.sp))
+            if (solved.tricks.isNotEmpty()) {
                 Text(
-                    "(${q.answer + 1}) ${q.options[q.answer]}",
-                    style = TextStyle(fontSize = 15.sp, lineHeight = 21.sp, fontWeight = FontWeight.Bold, color = C.Green),
-                    modifier = Modifier.padding(top = 2.dp),
-                )
-                // how the technique gets there: the explanation's reasoning
-                if (q.explanation.isNotBlank()) {
-                    Text(
-                        "How the technique gets there: ${q.explanation}",
-                        style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body),
-                        modifier = Modifier.padding(top = 6.dp),
-                    )
-                }
-                Text(
-                    if (oneliner && q.solution.isEmpty() && q.explanation.isBlank()) "Now pick it to move on. Shown answers are practice: not scored."
-                    else "Now pick it to see the full explanation and your notes. Shown answers are practice: not scored.",
-                    style = TextStyle(fontSize = 12.sp, color = C.Muted),
-                    modifier = Modifier.padding(top = 6.dp),
+                    "Tricks: " + solved.tricks.joinToString(" · "),
+                    style = TextStyle(fontSize = 12.sp, color = C.Muted), modifier = Modifier.padding(top = 2.dp),
                 )
             }
+            solved.steps.forEachIndexed { i, st ->
+                Text("${i + 1}. $st", style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body), modifier = Modifier.padding(top = 4.dp))
+            }
+            if (solved.keys.isNotEmpty()) {
+                Text(
+                    buildAnnotatedString {
+                        withStyle(SpanStyle(fontWeight = FontWeight.SemiBold, color = C.Ink)) { append("Words that give it away: ") }
+                        solved.keys.forEachIndexed { i, (w, why) ->
+                            if (i > 0) append("  ·  ")
+                            withStyle(SpanStyle(background = Color(0xFFFEF3C7), textDecoration = androidx.compose.ui.text.style.TextDecoration.Underline, fontWeight = FontWeight.SemiBold, color = Color(0xFF92400E))) { append(w) }
+                            if (why.isNotBlank()) append(" — $why")
+                        }
+                    },
+                    style = TextStyle(fontSize = 13.sp, lineHeight = 19.sp, color = C.Body),
+                    modifier = Modifier.padding(top = 8.dp),
+                )
+            }
+            if (solved.fact.isNotBlank()) {
+                Text("✓ Remember: ${solved.fact}", style = TextStyle(fontSize = 13.sp, lineHeight = 19.sp, color = C.Green), modifier = Modifier.padding(top = 6.dp))
+            }
         } else {
-            Text(
-                "Knowledge first: use these only when you are stuck.",
-                style = TextStyle(fontSize = 12.sp, color = C.Muted),
-                modifier = Modifier.padding(top = 6.dp),
-            )
+            Text("THE TRICK", style = TextStyle(fontSize = 11.sp, fontWeight = FontWeight.Bold, color = C.Accent, letterSpacing = 0.8.sp))
+            if (q.technique.isNotBlank()) {
+                Text("This question: ${q.technique}", style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, fontWeight = FontWeight.SemiBold, color = C.Ink), modifier = Modifier.padding(top = 4.dp))
+            }
+            hints.forEach {
+                Text("• $it", style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body), modifier = Modifier.padding(top = 4.dp))
+            }
+            if (hasAnswer && q.explanation.isNotBlank()) {
+                Text("Why: ${q.explanation}", style = TextStyle(fontSize = 14.sp, lineHeight = 20.sp, color = C.Body), modifier = Modifier.padding(top = 6.dp))
+            }
         }
+        Text(
+            "Pick it to move on: practice only — not scored and not counted as an answer seen.",
+            style = TextStyle(fontSize = 12.sp, color = C.Muted),
+            modifier = Modifier.padding(top = 8.dp),
+        )
     }
 }
 

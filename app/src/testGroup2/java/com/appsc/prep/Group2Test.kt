@@ -5,6 +5,8 @@ import androidx.compose.ui.test.hasScrollToNodeAction
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.onFirst
+import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performScrollToNode
 import androidx.compose.ui.test.performClick
@@ -288,6 +290,32 @@ class Group2Test {
         rule.waitUntil(20_000) { rule.onAllNodes(hasText("The correct answer is", substring = true)).fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithText("From your notes").assertExists()
         com.github.takahirom.roborazzi.captureScreenRoboImage("screenshots/group2/4_oneliner_book_icon.png")
+    }
+
+    /** "Stuck?": one tap shows the answer and its worked trick; picking then is practice, not scored and not counted as seen. */
+    @Test fun stuckShowsAnswerAndTrick() {
+        assertTrue(repo.solved.size >= 600)
+        val app = shot("5_stuck") { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 3, 17, 8), "all", "Subsection MCQs", nav) }
+        rule.waitUntil(30_000) { rule.onAllNodes(hasText("Urban Infrastructure Development Fund", substring = true)).fetchSemanticsNodes().isNotEmpty() }
+        rule.onNode(hasText("Stuck? Show the answer and the trick")).performScrollTo().performClick()
+        rule.waitForIdle()
+        rule.onNodeWithText("HOW TO CRACK IT", substring = true).assertExists()
+        rule.onNodeWithText("Words that give it away", substring = true).assertExists()
+        com.github.takahirom.roborazzi.captureScreenRoboImage("screenshots/group2/5_stuck.png")
+        val q = app.repo.solved.keys.first { it == "yQ1636012260" }
+        val answer = runBlocking { app.repo.mcq(3).rows.values.flatten().first { it.id == q }.answer }
+        rule.onAllNodes(hasText("(${answer + 1})", substring = true)).onFirst()
+        rule.onNode(hasText(runBlocking { app.repo.mcq(3).rows.values.flatten().first { it.id == q }.options[answer] }) and androidx.compose.ui.test.hasClickAction()).performScrollTo().performClick()
+        rule.waitForIdle()
+        assertTrue("attempted", app.store.attempted(q))
+        assertTrue("not scored", q !in app.store.answers)
+        assertEquals("not counted as an answer seen", 0, app.store.dayLog().viewed)
+    }
+
+    @Test fun tricksScreen() {
+        shot("6_tricks") { com.appsc.prep.ui.screens.TricksScreen(nav) }
+        rule.onNodeWithText("THE METHOD").assertExists()
+        rule.onNodeWithText("LEAN FALSE").assertExists()
     }
 
     @Test fun topicAndStatementMcq() {

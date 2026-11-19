@@ -48,7 +48,7 @@ val completeTabs = tabs.take(2) + Tab("mcqs", "MCQs", Icons.Outlined.Quiz) + tab
 fun showTabs(route: String?): Boolean =
     route in completeTabs.map { it.route } || route?.startsWith("day/") == true || route?.startsWith("exam/") == true ||
         route?.startsWith("row/") == true || route?.startsWith("book/") == true || route == "syl" ||
-        route?.startsWith("syl/") == true || route?.startsWith("leaf/") == true || route == "weak"
+        route?.startsWith("syl/") == true || route?.startsWith("leaf/") == true || route == "weak" || route == "tricks"
 
 /** The tab a route belongs to. */
 fun tabFor(route: String?): String = completeTabs.firstOrNull { it.route == route }?.route ?: when {
@@ -90,6 +90,7 @@ class NavImpl(private val nav: NavHostController) : Nav {
     override fun sylSubject(i: Int) = nav.navigate("syl/$i")
     override fun leaf(i: Int) = nav.navigate("leaf/$i")
     override fun weak() = nav.navigate("weak")
+    override fun tricks() = nav.navigate("tricks")
     override fun back() {
         nav.popBackStack()
     }
@@ -161,6 +162,7 @@ fun AppNavHost(nav: NavHostController, actions: Nav) {
             com.appsc.prep.ui.screens.LeafScreen(it.arguments!!.getInt("i"), actions)
         }
         composable("weak") { com.appsc.prep.ui.screens.WeakLeavesScreen(actions) }
+        composable("tricks") { com.appsc.prep.ui.screens.TricksScreen(actions) }
         composable("day/{n}", listOf(navArgument("n") { type = NavType.IntType })) {
             DayScreen(it.arguments!!.getInt("n"), actions)
         }
