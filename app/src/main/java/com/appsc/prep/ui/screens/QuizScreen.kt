@@ -367,8 +367,8 @@ internal fun QuizRound(
         picks[index] = i
         store.recordPick(q.id, i)
         // an answer seen first ("Show the answer") is practice: attempted, not scored
-        // an answer shown by "Stuck?" is practice: attempted, not scored, and not counted as an answer seen
-        if (q.kind == 'u' || q.id in revealed) store.markSeen(q.id, viewed = false) else store.recordAnswer(q.id, i == q.answer)
+        // like "From the notes": after "Stuck?" the pick counts as a normal answer (no "answer seen" mark), so it is done
+        if (q.kind == 'u') store.markSeen(q.id, viewed = false) else store.recordAnswer(q.id, i == q.answer)
     }
     app.platform.Shortcuts { k ->
         when {
@@ -737,7 +737,7 @@ private fun Bullet(text: String, ink: Color) {
 /**
  * "Stuck?": one tap shows the answer and the trick that gets there - for the latest papers their worked solution
  * (method, steps, the words that give it away, the fact to remember), else the tested techniques of APPSC: Cracked.
- * Picking afterwards is practice: attempted, not scored, and not counted as an answer seen.
+ * Like "From the notes", picking afterwards counts as a normal answer (no "answer seen" mark), so it is done.
  */
 @Composable
 private fun HintBox(q: Question, onReveal: () -> Unit) {
@@ -809,7 +809,7 @@ private fun HintBox(q: Question, onReveal: () -> Unit) {
             }
         }
         Text(
-            "Pick it to move on: practice only — not scored and not counted as an answer seen.",
+            "Now pick it: it counts like any answer (no \"answer seen\" mark), so it won't come back.",
             style = TextStyle(fontSize = 12.sp, color = C.Muted),
             modifier = Modifier.padding(top = 8.dp),
         )

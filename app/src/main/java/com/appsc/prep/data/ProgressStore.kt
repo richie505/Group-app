@@ -46,7 +46,12 @@ data class Spent(val sec: Int = 0, val mcqs: Int = 0) {
 
 /** Wrong on the latest attempt, or its answer was seen before picking and not answered on its own since. */
 fun needsPractice(id: String, answers: Map<String, Boolean>, seen: Set<String>) =
-    answers[id] == false || (id in seen && id !in answers)
+    answers[id] == false || (id in seen && id !in answers && id !in Stuck.ids)
+
+/** MCQs whose answer was shown by "Stuck?" and then picked: done, not scored, and never practice again (ProgressStore.stuck). */
+object Stuck {
+    @Volatile var ids: Set<String> = emptySet()
+}
 
 /**
  * Whether an answered id is one of the app's MCQs: answers saved before 2.8 are for PYQs (now in the MCQ app) and have
@@ -87,6 +92,31 @@ class ProgressStore(private val prefs: Storage) {
      */
     var hist by mutableStateOf(loadHist())
         private set
+
+    /** MCQs answered after "Stuck?" showed the answer: attempted (in [seen]), not scored, not counted, not practice. */
+    var stuck by mutableStateOf(
+        prefs.getStringSet(KEY_STUCK).toSet().let { s ->
+            if (prefs.getString(KEY_STUCK_MIGRATED) == null) {
+                // 3.85 kept these as plain "seen" with no history (an answer viewed earlier has a 'V' in its history)
+                val was = seen - answers.keys - hist.keys
+                prefs.putString(KEY_STUCK_MIGRATED, "1")
+                prefs.putStringSet(KEY_STUCK, s + was)
+                s + was
+            } else s
+        }.also { Stuck.ids = it },
+    )
+        private set
+
+    /** The answer was shown by "Stuck?" and then picked: done for good, without counting anywhere. */
+    fun markStuck(questionId: String) {
+        stuck = stuck + questionId
+        Stuck.ids = stuck
+        prefs.putStringSet(KEY_STUCK, stuck)
+        if (questionId !in seen) {
+            seen = seen + questionId
+            prefs.putStringSet(KEY_SEEN, seen)
+        }
+    }
 
     private fun loadHist(): Map<String, McqHist> {
         val kept = prefs.getStringSet(KEY_HIST).mapNotNull { McqHist.decode(it) }.toMap()
@@ -517,6 +547,7 @@ class ProgressStore(private val prefs: Storage) {
         set("dates", activeDates)
         set("answers", answers.map { (k, v) -> "$k:${if (v) 1 else 0}" })
         set("seen", seen)
+        set("stuck", stuck)
         set("picks", picks.map { (k, v) -> "$k:$v" })
         set("missed", missed)
         set("hist", hist.map { (k, v) -> v.encode(k) })
@@ -601,6 +632,9 @@ class ProgressStore(private val prefs: Storage) {
             picks = inPicks + picks
             prefs.putStringSet(KEY_PICKS, picks.map { (k, v) -> "$k:$v" }.toSet())
         }
+        stuck = stuck + list("stuck").flatMap(::linked)
+        Stuck.ids = stuck
+        prefs.putStringSet(KEY_STUCK, stuck)
         seen = seen + list("seen").flatMap(::linked)
         prefs.putStringSet(KEY_SEEN, seen)
         missed = missed + list("missed").flatMap(::linked) + inAnswers.filterValues { !it }.keys
@@ -691,6 +725,8 @@ class ProgressStore(private val prefs: Storage) {
         const val KEY_DAILY_GOAL = "daily_goal"
         const val KEY_ANSWERS = "answers"
         const val KEY_SEEN = "seen"
+        const val KEY_STUCK = "stuck"
+        const val KEY_STUCK_MIGRATED = "stuck_migrated"
         const val KEY_PICKS = "picks"
         const val KEY_HIST = "mcq_hist"
         const val KEY_NOTES_MODE = "notes_mode"

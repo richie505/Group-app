@@ -292,9 +292,12 @@ class Group2Test {
         com.github.takahirom.roborazzi.captureScreenRoboImage("screenshots/group2/4_oneliner_book_icon.png")
     }
 
-    /** "Stuck?": one tap shows the answer and its worked trick; picking then is practice, not scored and not counted as seen. */
+    /** "Stuck?": one tap shows the answer and its worked trick; like "From the notes", the pick then counts as a normal answer. */
     @Test fun stuckShowsAnswerAndTrick() {
         assertTrue(repo.solved.size >= 600)
+        val q = "yQ1636012260"
+        val mq = runBlocking { repo.mcq(3).rows.values.flatten().first { it.id == q } }
+        val answer = mq.answer
         val app = shot("5_stuck") { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 3, 17, 8), "all", "Subsection MCQs", nav) }
         rule.waitUntil(30_000) { rule.onAllNodes(hasText("Urban Infrastructure Development Fund", substring = true)).fetchSemanticsNodes().isNotEmpty() }
         rule.onNode(hasText("Stuck? Show the answer and the trick")).performScrollTo().performClick()
@@ -302,14 +305,15 @@ class Group2Test {
         rule.onNodeWithText("HOW TO CRACK IT", substring = true).assertExists()
         rule.onNodeWithText("Words that give it away", substring = true).assertExists()
         com.github.takahirom.roborazzi.captureScreenRoboImage("screenshots/group2/5_stuck.png")
-        val q = app.repo.solved.keys.first { it == "yQ1636012260" }
-        val answer = runBlocking { app.repo.mcq(3).rows.values.flatten().first { it.id == q }.answer }
-        rule.onAllNodes(hasText("(${answer + 1})", substring = true)).onFirst()
-        rule.onNode(hasText(runBlocking { app.repo.mcq(3).rows.values.flatten().first { it.id == q }.options[answer] }) and androidx.compose.ui.test.hasClickAction()).performScrollTo().performClick()
+        rule.onNode(hasText(mq.options[answer]) and androidx.compose.ui.test.hasClickAction()).performScrollTo().performClick()
         rule.waitForIdle()
-        assertTrue("attempted", app.store.attempted(q))
-        assertTrue("not scored", q !in app.store.answers)
+        // like "From the notes": the pick counts as a normal answer, not as an answer seen, and the MCQ is done
+        assertEquals(true, app.store.answers[q])
         assertEquals("not counted as an answer seen", 0, app.store.dayLog().viewed)
+        assertTrue("not practice again", !app.store.needsPractice(q))
+        val sets = com.appsc.prep.ui.components.practiceSets(listOf(q), app.store.answers, app.store.seen)
+        assertEquals(0, sets.unattempted)
+        assertEquals(0, sets.practice)
     }
 
     @Test fun tricksScreen() {
