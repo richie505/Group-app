@@ -92,7 +92,7 @@ def giveaways(q):
     longest = L[a] > rest and L[a] >= 1.3 * rest and L[a] - rest >= 12
     sc = [sum(_jacc(o[i], o[j]) for j in range(4) if j != i) for i in range(4)]
     others = max(sc[i] for i in range(4) if i != a)
-    family = sc[a] > 0.6 and sc[a] >= 1.5 * max(others, 0.01)
+    family = sc[a] > 0.3 and sc[a] >= 1.2 * max(others, 0.01)
     return longest, family
 
 
