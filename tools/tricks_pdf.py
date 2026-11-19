@@ -318,6 +318,11 @@ ul, ol { margin: 0 0 2.5mm; padding-left: 5mm; } li { margin-bottom: 1mm; }
 .big { font-size: 22pt; font-weight: 800; color: var(--accent); line-height: 1; }
 .cheat { font-size: 9pt; } .cheat h3 { margin-top: 3mm; }
 .toc li { margin-bottom: 1.5mm; }
+.chips { display: flex; flex-wrap: wrap; gap: 1.5mm; margin: 1mm 0; }
+.chip { font-size: 8pt; border-radius: 99px; padding: 0.6mm 2.4mm; }
+.chip.f { background: var(--rsoft); color: var(--red); } .chip.t { background: var(--gsoft); color: var(--green); }
+.chip i { font-style: normal; color: var(--muted); margin-left: 1mm; font-size: 7pt; }
+.ex .truth { color: var(--green); }
 """
 
 
@@ -576,9 +581,138 @@ def cheat(st):
 when you know the fact, the fact wins.</p></section>"""
 
 
+# ---------------------------------------------------------------- Part 8: subject by subject
+SUBJ = json.load(open("data/tricks/subjects.json")) if os.path.exists("data/tricks/subjects.json") else {}
+TW = {}
+for _f in sorted(__import__("glob").glob("data/tricks/twist-job-*.out.jsonl")):
+    for _l in open(_f):
+        if _l.strip():
+            _o = json.loads(_l)
+            TW[_o["id"]] = _o
+FS = [json.loads(l) for l in open("data/tricks/false-statements.jsonl")] if os.path.exists("data/tricks/false-statements.jsonl") else []
+TWN = {"swap-person": "Wrong person", "swap-place": "Wrong place", "swap-body": "Wrong body / office", "wrong-number": "Number changed",
+       "wrong-date": "Date / order changed", "extreme": "Absolute word added", "negation": "\"not\" added or removed",
+       "reversed": "Relation flipped", "wrong-category": "Wrong category", "overreach": "True core + wrong extra",
+       "invented": "Invented claim", "other": "Other"}
+ADVICE = {}  # filled in by hand below the data, per subject
+
+
+def twists_of(sj):
+    rows = [(x, TW.get(x["id"])) for x in FS if x["subject"] == sj]
+    rows = [(x, t) for x, t in rows if t and not t.get("doubt")]
+    c = collections.Counter(t["twist"] for _, t in rows)
+    return rows, c
+
+
+def hl(text, spot):
+    t = E(text)
+    sp = E(spot or "")
+    if sp and sp in t:
+        t = t.replace(sp, f"<mark>{sp}</mark>", 1)
+    return t
+
+
+def mix_bar(m_old, m_new):
+    order = ["direct", "statements", "which-statement", "matching", "assertion", "order"]
+    W, L, h = 640, 90, 15
+    out = []
+    for i, (lab, m) in enumerate((("2017–19", m_old), ("2023–25", m_new))):
+        tot = max(1, sum(m.values()))
+        x, y = L, i * (h + 5)
+        out.append(f"<text x='{L - 8}' y='{y + 11}' text-anchor='end' class='bl'>{lab}</text>")
+        for t in order:
+            w = (W - L - 10) * m.get(t, 0) / tot
+            if w > 0:
+                out.append(f"<rect x='{x:.1f}' y='{y}' width='{w:.1f}' height='{h}' class='t-{t}'/>")
+                if w > 26:
+                    out.append(f"<text x='{x + w / 2:.1f}' y='{y + 11}' text-anchor='middle' class='tv'>{100 * m.get(t, 0) / tot:.0f}%</text>")
+            x += w
+    return f"<svg viewBox='0 0 {W} {2 * (h + 5)}' class='chart' style='max-height:16mm'>{''.join(out)}</svg>"
+
+
+def subject_page(sj, d):
+    base = d["base"]
+    newst = d["mix_new"]
+    nn = max(1, sum(newst.values()))
+    stshare = 100 * (nn - newst.get("direct", 0)) / nn
+    # rules in this subject: compare with the subject's own base
+    rr = []
+    for k, r in sorted(d["rules"].items(), key=lambda kv: -kv[1]["pct"]):
+        diff = r["pct"] - base
+        cls = "strong" if diff >= 20 else "good" if diff >= 10 else "rev" if diff <= -10 else "none"
+        word = "lean FALSE" if diff >= 10 else "lean TRUE" if diff <= -10 else "no edge"
+        rr.append(f"<tr><td>{E(r['title'])}</td><td>{r['n']}</td><td class='{cls}'>{r['pct']:.0f}%</td><td class='{cls}'>{word}</td></tr>")
+    rules = ("<table><tr><th>Rule (in this subject)</th><th>Statements</th><th>False</th><th>Use it as</th></tr>" + "".join(rr) + "</table>") if rr else \
+        "<p class='note'>Too few statements in this subject for any rule to be measured on its own; use the general rules of Part 2.</p>"
+    chip = lambda c, cls: f"<span class='chip {cls}'>{E(c[0])} <b>{c[3]}%</b><i>{c[1]}</i></span>"
+    cues = ""
+    if d["lean_false"] or d["lean_true"]:
+        cues = "<h3>Words found in this subject's statements</h3><div class='chips'>" + \
+               "".join(chip(c, "f") for c in d["lean_false"][:10]) + "".join(chip(c, "t") for c in d["lean_true"][:6]) + \
+               "</div><p class='note'>Red: statements with this word were false that often (number of statements in grey). " \
+               "Green: usually true. Only words seen in 5+ statements and well away from this subject's base rate.</p>"
+    rows, c = twists_of(sj)
+    anat = ""
+    if c:
+        tot = sum(c.values())
+        items = [(TWN.get(k, k), 100 * v / tot, "blue") for k, v in c.most_common(6)]
+        exs = []
+        seen = set()
+        for k, _ in c.most_common(3):
+            for x, t in sorted(rows, key=lambda r: -int(r[0]["year"] or 0)):
+                if t["twist"] == k and x["id"] not in seen and len(x["statement"]) < 180:
+                    seen.add(x["id"])
+                    exs.append(f"<div class='ex'><span class='src'>{E(TWN.get(k, k))}</span><span class='v'>{E(x['exam'].replace('Group ', 'G'))} {x['year']}</span>"
+                               f"<p>✗ {hl(x['statement'], t.get('spot'))}</p><p class='truth'>✓ {E(t.get('truth', ''))}</p></div>")
+                    break
+        anat = f"<h3>Trap anatomy: how APPSC made {tot} false statements in this subject</h3>{bars(items, base=None, h=13)}{''.join(exs)}"
+    dist = []
+    for n in ("3", "4"):
+        v = d["dist"].get(n) or d["dist"].get(int(n)) or []
+        if sum(v) >= 3:
+            dist.append(f"{n}-statement sets ({sum(v)}): " + ", ".join(f"{i} true: {k}" for i, k in enumerate(v)))
+    tops = "".join(f"<tr><td>{E(t['topic'])}</td><td>{t['q17']}</td><td>{t['q23']}</td><td>{t['st']}</td></tr>" for t in d["topics"][:9])
+    hot = ", ".join(E(h) for h in d["hot"][:6])
+    adv = ADVICE.get(sj, "")
+    return f"""<section class='page'><div class='kicker'>Part 8 · subject by subject</div><h2>{E(sj)}</h2>
+<div class='facts' style='margin-top:1mm;grid-template-columns:repeat(4,1fr)'>
+<div class='fact'><b>{d['questions']}</b><span>questions in APPSC papers (all years)</span></div>
+<div class='fact'><b>{stshare:.0f}%</b><span>non-direct in 2023–25 (statements, matching, A–R…)</span></div>
+<div class='fact'><b>{d['statements']}</b><span>statements with a known truth</span></div>
+<div class='fact'><b>{base:.0f}%</b><span>of them false — this subject's base rate</span></div></div>
+{mix_bar(d['mix_old'], d['mix_new'])}
+{('<div class="box green">' + adv + '</div>') if adv else ''}
+<div class='cols'><div>{rules}{cues}</div>
+<div><h3>Most asked topics (2017–25)</h3><table><tr><th>Topic</th><th>Qs</th><th>2023–25</th><th>Stmts</th></tr>{tops}</table>
+{('<p><b>Rising in 2023–25:</b> ' + hot + '</p>') if hot else ''}{('<p class="note">' + '<br>'.join(dist) + '</p>') if dist else ''}</div></div>
+{anat}</section>"""
+
+
+def subjects_overview():
+    rows = []
+    for sj, d in SUBJ.items():
+        nn = max(1, sum(d["mix_new"].values()))
+        rows_, c = twists_of(sj)
+        top = ", ".join(TWN.get(k, k) for k, _ in c.most_common(2)) if c else "—"
+        good = [r["title"] for r in sorted(d["rules"].values(), key=lambda r: -r["pct"]) if r["pct"] - d["base"] >= 10][:2]
+        rev = [r["title"] for r in sorted(d["rules"].values(), key=lambda r: r["pct"]) if r["pct"] - d["base"] <= -10][:2]
+        rows.append(f"<tr><td><b>{E(sj)}</b></td><td>{d['base']:.0f}%</td><td>{100 * (nn - d['mix_new'].get('direct', 0)) / nn:.0f}%</td>"
+                    f"<td>{E(top)}</td><td>{E('; '.join(good)) or '—'}</td><td>{E('; '.join(rev)) or '—'}</td></tr>")
+    return f"""<section class='page'><div class='kicker'>Part 8</div><h2>Subject by subject: at a glance</h2>
+<p>The general rules hide big differences between subjects. In AP history the examiner mostly writes <b>true</b> statements; in
+Polity and Economy about half are false. The trap the examiner prefers also changes by subject. Each subject page that follows
+measures the rules inside that subject, lists the words its statements give away, dissects its real false statements, and ranks
+its topics.</p>
+<table><tr><th>Subject</th><th>Statements false</th><th>Non-direct Qs 2023–25</th><th>Favourite traps</th><th>Lean FALSE on</th><th>Lean TRUE on</th></tr>{''.join(rows)}</table>
+<div class='box blue'><b>Reading the base rate.</b> It is the share of this subject's statements that were false. When it is low
+(AP history ~{SUBJ.get('AP History & Culture', {}).get('base', 0):.0f}%), an unsure statement is more likely true — so in a "which are correct"
+set the option with more statements is the better bet; when it is high (Polity ~{SUBJ.get('Polity & Constitution', {}).get('base', 0):.0f}%), treat every
+statement as a coin you must test.</div></section>"""
+
+
 def main():
     rp, st = rules_page()
-    body = cover() + shift_page() + rp + playbook() + maths() + study() + method() + cheat(st)
+    body = cover() + shift_page() + rp + playbook() + maths() + study() + method() + subjects_overview() + "".join(subject_page(sj, d) for sj, d in SUBJ.items()) + cheat(st)
     doc = f"<!doctype html><html lang='en'><head><meta charset='utf-8'><title>APPSC: Cracked</title><style>{CSS}</style></head><body>{body}</body></html>"
     os.makedirs("docs", exist_ok=True)
     open("docs/APPSC-Cracked.html", "w").write(doc)
