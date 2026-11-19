@@ -1,0 +1,36 @@
+Task: write the SOLUTION PATH for each question of the latest APPSC papers (Group 1 Prelims 2024, Group 2 Prelims 2024,
+Group 2 Mains 2025), showing the method a smart candidate would use, and the exact words that support it.
+Never use the Anthropic API. Do not commit. Write only data/solved/job-N.out.jsonl. Scratch files only in
+/tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/solved-N/.
+
+Background (read docs/APPSC-Cracked.html Parts 2, 4, 8 and 9 quickly, or this summary). Tested on APPSC/PYQ data:
+- lean FALSE: "only" (~70% false), "but ... not" (~75%), extreme words (always/never/all/none/every/any/entirely/must/
+  cannot ~55%), "launched / set up / implemented by <body>" (check the body), negative statements ("not / no / did not"),
+  "main / primary aim"; Polity: "member of", "Schedule", "cannot be", "the Government" lean false.
+- NO edge: exact figures, years, Article numbers, named offices, international organisations -> needs knowledge.
+- lean TRUE: Andhra Pradesh facts; in APPSC Group 2 also "first / largest" claims and long multi-fact statements.
+- Structure is the strongest tool: decide the ONE statement you are surest of, strike every option that contradicts it,
+  then decide between what's left. Matching: fix the surest pair, strike codes without it. Chronology: place the
+  earliest and latest. Assertion-Reason: test A, test R, then "does R explain A". 2-statement sets: decide each.
+  Numbers with no idea: the two middle values are the key ~64% of the time. "None of the above" is the key ~39% when present.
+
+Input data/solved/job-N.jsonl: one question per line: paper, n, subject, s (question), o (options), a (key index,
+0-based; -1 or deleted = no key / deleted), x (the key's explanation), trap_hints (rules my scanner saw, by place).
+The key is final: your path must END at option a (if deleted / a<0: say so and give the method only).
+
+For each question write ONE line to data/solved/job-N.out.jsonl, same order:
+{"paper": "...", "n": 12,
+ "method": "<one of: Recall | Anchor & strike | Trap word | Assertion–Reason | Matching anchor | Chronology ends |
+            Odd one out | Concept logic | Calculation | Number range | AP fact | Current-affairs recall>",
+ "tricks": ["only", "anchor statement"],            short names of the tricks actually used (may be empty for pure recall)
+ "steps": ["step 1 ...", "step 2 ...", "-> answer (b) ..."],   2-5 short steps, plain language, each one concrete:
+            name the statement / option you decide, why (the fact or the trap), what you strike; last step gives the answer
+ "underline": [{"in": "s" | "o0" | "o1" | "o2" | "o3", "text": "<exact substring>", "why": "<few words: trap word: only / anchor fact / key term>"}],
+            1-5 underlines: the words that trigger or support the method (a trap word, the anchor fact's key words, the
+            word that makes an option wrong). "text" must be copied EXACTLY from that field (same case and spacing).
+ "fact": "<the one fact a student must remember from this question, one sentence>"}
+Honesty: if the question is pure recall with no usable trick, say method "Recall" and in steps give the quickest way to
+recall it (association, mnemonic, elimination of absurd options) - never invent a trick that would not work.
+Then check with Python: every input (paper, n) once in order; method from the list; every underline text is a substring
+of its field; the last step names the keyed option's letter (a,b,c,d = 0,1,2,3) unless deleted.
+Report: counts per method and 5 examples.
