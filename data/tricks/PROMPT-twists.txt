@@ -1,0 +1,26 @@
+Task: for each FALSE statement from APPSC papers, say HOW the examiner made it false. Never use the Anthropic API.
+Do not commit. Write only data/tricks/twist-job-N.out.jsonl. Scratch files only in
+/tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/twist-N/.
+
+Input data/tricks/twist-job-N.jsonl: one false statement per line with its question, options, key and the key's
+explanation (and subject, topic). Read the statement against the explanation (use your own knowledge to confirm; if the
+key itself looks wrong, say so with "doubt": true).
+
+Write one line per input line, same order:
+ {"id": "...", "twist": "<one of the list>", "spot": "<the exact word(s) of the statement that carry the error>",
+  "truth": "<the correct fact in one short sentence>", "doubt": false}
+Twists (pick the main one):
+ swap-person   a wrong person / ruler / author / leader / founder
+ swap-place    a wrong place / state / river / city / country
+ swap-body     a wrong ministry / organisation / court / office / authority / agency
+ wrong-number  a number, percentage, count or ratio changed
+ wrong-date    a year, date, century, period or sequence changed
+ extreme       an absolute added (only, all, never, always, every, any, sole, exclusively)
+ negation      a "not / no / never / cannot" added or removed
+ reversed      a relation, comparison, direction or cause flipped (A>B made B>A; X causes Y made Y causes X)
+ wrong-category the right thing put in the wrong class (Fundamental Right vs DPSP, metal vs non-metal, Act vs Rule)
+ overreach     a true core with a wrong extra detail, condition or scope bolted on
+ invented      a claim with no basis at all
+ other
+Then check with Python: every input id once, in order; twist from the list; spot appears in the statement text.
+Report: counts per twist, and 5 examples.
