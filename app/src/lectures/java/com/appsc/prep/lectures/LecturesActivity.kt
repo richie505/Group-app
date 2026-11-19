@@ -78,6 +78,7 @@ data class Subject(val id: Int, val title: String, val short: String, val topics
 data class LectureApp(val key: String, val name: String, val subjects: List<Subject>)
 
 private val Navy = Color(0xFF1E2A5A)
+private val R_PENDING = com.appsc.prep.R.id.lecture_pending
 private val Indigo = Color(0xFF2F3F8F)
 private val Amber = Color(0xFFF6A623)
 private val Page = Color(0xFFF3F5FA)
@@ -307,12 +308,21 @@ private fun SlidesScreen(app: LectureApp, s: Subject, i: Int, fromEnd: Boolean, 
                 settings.textZoom = (fontScale * 100).toInt() // the phone's font size
                 setBackgroundColor(android.graphics.Color.rgb(15, 21, 48))
                 addJavascriptInterface(bridge, "Android")
-                contentDescription = "Lecture slides: ${t.title}"
+                // load a lecture only once this view is laid out in landscape (the phone may still be turning)
+                addOnLayoutChangeListener { v, l, tp, r, b, _, _, _, _ ->
+                    val w = v as WebView
+                    val want = w.getTag(R_PENDING) as? String
+                    if (want != null && r - l > b - tp && b - tp > 0) { w.setTag(R_PENDING, null); w.loadUrl(want) }
+                }
             }
         },
         update = { w ->
             val u = "file:///android_asset/${t.file}" + if (fromEnd) "#end=1" else ""
-            if (w.tag != u) { w.tag = u; w.loadUrl(u); w.contentDescription = "Lecture slides: ${t.title}" }
+            if (w.tag != u) {
+                w.tag = u
+                w.contentDescription = "Lecture slides: ${t.title}"
+                if (w.width > w.height && w.height > 0) w.loadUrl(u) else w.setTag(R_PENDING, u)
+            }
         },
         modifier = Modifier.fillMaxSize().background(Navy),
     )

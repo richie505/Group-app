@@ -51,9 +51,9 @@
     </style><meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'><style>
 @media screen {
   /* one slide = one screen, laid out for this phone: text sized to the screen (and the phone's font size) */
-  :root { --f: clamp(14px, min(2.4vw, 4.4vh), 27px) }
+  :root { --W: 100vw; --H: 100vh; --f: 16px } /* --W, --H, --f are set in pixels by START (no vw / vh: some WebViews give 0) */
   html, body { margin: 0; height: 100%; overflow: hidden; background: #0f1530; -webkit-tap-highlight-color: transparent }
-  section.s, div.s { width: 100vw !important; height: 100vh !important; height: 100dvh !important; margin: 0; page-break-after: auto }
+  section.s, div.s { width: var(--W) !important; height: var(--H) !important; margin: 0; page-break-after: auto }
   .deck section.s, .deck div.s { display: none } .deck section.s.on, .deck div.s.on { display: block }
   .bar { height: calc(var(--f) * 2.1); font-size: calc(var(--f) * .7); padding: 0 64px 0 18px; gap: 10px }
   .inner { top: calc(var(--f) * 2.7); left: 58px; right: 58px; bottom: 26px; overflow: hidden }
@@ -64,9 +64,9 @@
   ul.pts { padding-left: 1.1em } ul.pts li { margin: .22em 0 }
   table { font-size: .86em } th, td { padding: .35em .5em }
   .box { font-size: .92em; padding: .45em .7em; margin: .45em 0 } .box span { font-size: .62em }
-  .s.title, .s.end { padding: 7vh 6vw } .s.title h1, .s.end h1 { font-size: calc(var(--f) * 1.75); margin: .4em 0 .6em }
+  .s.title, .s.end { padding: calc(var(--H) * .07) calc(var(--W) * .06) } .s.title h1, .s.end h1 { font-size: calc(var(--f) * 1.75); margin: .4em 0 .6em }
   .kicker { font-size: calc(var(--f) * .7) } .syl { padding: .7em 1em } .syl ul { font-size: calc(var(--f) * .92) }
-  .syl .lab { font-size: calc(var(--f) * .6) } .foot { bottom: 30px; left: 6vw; font-size: calc(var(--f) * .7) }
+  .syl .lab { font-size: calc(var(--f) * .6) } .foot { bottom: 30px; left: calc(var(--W) * .06); font-size: calc(var(--f) * .7) }
   ol.plan { font-size: var(--f); column-gap: 24px } ol.plan li { margin: 0 0 .5em } .n { width: 1.5em; height: 1.5em; font-size: .7em; margin-right: .5em }
   .meta { font-size: calc(var(--f) * .75) }
   .recap li { font-size: calc(var(--f) * .92); margin: .4em 0 }
@@ -186,16 +186,26 @@
     if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(e.key)) { e.preventDefault(); prev(); }
   });
   // turned the phone: lay the slides out again for the new shape, at the same point of the lecture
-  const w0 = innerWidth, h0 = innerHeight; let t;
-  addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => { if ((innerWidth > innerHeight) !== (w0 > h0) || Math.abs(innerWidth - w0) > w0 * .15) location.reload(); }, 350); });
+  let t;
+  addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => {
+    const [w0, h0] = window.__laid || [0, 0], W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+    if (Math.abs(W - w0) > w0 * .08 || Math.abs(H - h0) > h0 * .08) location.reload(); }, 300); });
   all[cur].classList.add('on'); show(cur);
 })();
 }
 (function start(tries) {
-  const ok = innerWidth > 240 && innerHeight > 200;
-  // in the app the slides are landscape: wait (a little) for the turn, then lay out for the real screen
-  const turned = !window.Android || innerWidth > innerHeight || tries > 40;
-  if (!ok || !turned) return setTimeout(() => start(tries + 1), 50);
+  // lay out only on a real, settled landscape screen; sizes in pixels (a WebView can report 0 x 0, a narrow or a
+  // short screen while the phone turns, and some give 0 for vh units)
+  const W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+  const ok = W > 240 && H > 200 && (!window.Android || W > H || tries > 60);
+  if (!ok) return setTimeout(() => start(tries + 1), 50);
+  const r = document.documentElement.style;
+  r.setProperty('--W', W + 'px'); r.setProperty('--H', H + 'px');
+  r.setProperty('--f', Math.round(Math.max(14, Math.min(27, Math.min(W * .024, H * .044)))) + 'px');
+  window.__laid = [W, H];
   __layout(); __deck();
+  // a sane layout has room on its slides; if not (the screen changed under us), lay out again
+  const b = document.querySelector('.s .body');
+  if (b && b.clientHeight < 120 && tries < 100) setTimeout(() => location.reload(), 300);
 })(0);
 </script></body></html>
