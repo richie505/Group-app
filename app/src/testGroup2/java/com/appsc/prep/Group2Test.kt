@@ -287,6 +287,7 @@ class Group2Test {
         var three = 0; var threeTwo = 0; var noneKey = 0; var noneHave = 0
         for (b in 1..6) for (q in repo.mcq(b).rows.values.flatten()) {
             if (q.id.startsWith("y") || q.answer !in q.options.indices) continue
+            assertTrue("${q.id} carries its APPSC pattern tag", q.tags.any { it.startsWith("pattern:") })
             if (q.options.any { it.startsWith("None of the above") || it.startsWith("Neither") }) {
                 noneHave++
                 if (q.options[q.answer].startsWith("None of the above") || q.options[q.answer].startsWith("Neither")) noneKey++
@@ -327,6 +328,13 @@ class Group2Test {
         val sets = com.appsc.prep.ui.components.practiceSets(listOf(q), app.store.answers, app.store.seen)
         assertEquals(0, sets.unattempted)
         assertEquals(0, sets.practice)
+    }
+
+    /** Every notes MCQ says it follows APPSC's pattern, with its type. */
+    @Test fun notesMcqShowsPatternTag() {
+        shot("7_pattern_tag") { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 3, 17, 8), "all", "Subsection MCQs", nav) }
+        rule.waitUntil(30_000) { rule.onAllNodes(hasText("APPSC pattern · ", substring = true)).fetchSemanticsNodes().isNotEmpty() }
+        com.github.takahirom.roborazzi.captureScreenRoboImage("screenshots/group2/7_pattern_tag.png")
     }
 
     @Test fun tricksScreen() {

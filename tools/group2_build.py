@@ -427,6 +427,17 @@ for b in range(1, 7):
             kept = [(_rt.apply_all(q, _RTP, _RTO, _RR) if not q["id"].startswith("y") else q, sb_) for q, sb_ in kept]
             kept = [(_nd.apply(q, _ND) if not q["id"].startswith("y") else q, sb_) for q, sb_ in kept]
             kept = [(_fx.apply(q, _FX), sb_) for q, sb_ in kept]
+            # every notes MCQ is now in APPSC's pattern: say so on it, with its type (the quiz shows "APPSC pattern · <type>")
+            def _pat(q):
+                if q["id"].startswith("y") or q.get("k") in ("f", "u") or not q.get("o"):
+                    return q
+                s_ = q["s"]
+                t_ = ("Assertion–Reason" if re.search(r"assertion|\(A\).*\(R\)", s_, re.I | re.S) else
+                      "Matching" if _ra.NOT_SET.search(s_) and re.search(r"match|list|pair", s_, re.I) else
+                      "Order" if _ra.NOT_SET.search(s_) else
+                      "Statements" if re.search(r"(?m)^\s*\(?[1-4ivx]+[.)]\s", s_) else "Direct")
+                return dict(q, tg=[x for x in (q.get("tg") or []) if not x.startswith("pattern:")] + ["pattern:" + t_])
+            kept = [(_pat(q), sb_) for q, sb_ in kept]
         for q, sb in kept:
             if not q.get("lf") or not (q["id"].startswith(SY.PAPER_PREFIXES) or q["id"].startswith("g2l")):
                 q["lf"] = SY.question_leaf(f"{b}:{r}", sb)

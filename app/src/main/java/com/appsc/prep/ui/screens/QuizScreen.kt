@@ -417,6 +417,7 @@ internal fun QuizRound(
                                 "updated" -> Tag("Updated to latest", C.GreenSoft, C.Green)
                                 "repaired" -> Tag("Repaired from the paper", C.AccentSoft, C.Accent)
                                 "optgen" -> Tag("Options written by the app", C.MedSoft, C.Med)
+                                else -> if (tg.startsWith("pattern:")) Tag("APPSC pattern · " + tg.substringAfter(':'), C.ExamBg, C.ExamInk)
                             }
                             if (q.id in edits) Tag("Corrected by you", C.GreenSoft, C.Green)
                         }
@@ -975,6 +976,7 @@ private fun ReviewList(
                                 "updated" -> Tag("Updated to latest", C.GreenSoft, C.Green)
                                 "repaired" -> Tag("Repaired from the paper", C.AccentSoft, C.Accent)
                                 "optgen" -> Tag("Options written by the app", C.MedSoft, C.Med)
+                                else -> if (tg.startsWith("pattern:")) Tag("APPSC pattern · " + tg.substringAfter(':'), C.ExamBg, C.ExamInk)
                         }
                     }
                     Spacer(Modifier.height(8.dp))
