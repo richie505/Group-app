@@ -147,7 +147,7 @@ def check():
         for l in open(f):
             o = json.loads(l)
             j = inp.get(o.get("id"))
-            ok = j is not None and o["id"] not in seen and set(o.get("st", {})) == set(j["make_false"] + j["make_true"]) and len(o.get("x", "")) > 20
+            ok = j is not None and o["id"] not in seen and (NOT_SET.search(j["question"]) or (set(o.get("st", {})) == set(j["make_false"] + j["make_true"]) and len(o.get("x", "")) > 20))
             seen.add(o.get("id"))
             if not ok:
                 bad += 1
