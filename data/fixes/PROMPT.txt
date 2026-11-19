@@ -1,0 +1,15 @@
+Task: correct possibly WRONG answers in Group 2's notes MCQs. Never use the Anthropic API. Do not commit.
+Write only data/fixes/job-N.out.jsonl. Scratch files only in
+/tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/fixes-N/.
+
+Input data/fixes/job-N.jsonl: one MCQ per line as it is in the app: s (question), o (options), a (key index 0-3),
+x (explanation), b / r (its notes section: python3 tools/g2syl_show.py <b> <r>), "why" (what looks wrong).
+For each: decide the TRUTH from the notes (or sure knowledge; for 2025-26 current affairs the notes win). Then make
+the question, options, key and explanation AGREE and be correct, changing as little as possible:
+ - key wrong -> new "a"; explanation wrong -> new "x"; a statement or option factually wrong -> fix its text in "s"/"o"
+   (keep the question's style, keep 4 options, keep statement-code options like "1 and 3 only" consistent with the truths).
+ - for "which are NOT correct / incorrect" questions the key names the FALSE statements.
+ - if a fact can't be settled, rewrite that statement to one you ARE sure of (same topic) and fix key/x to match.
+Write {"id": "...", "s"/"o"/"a"/"x": <only the fields you changed, full new values>, "note": "<what was wrong, 1 line>"}
+or {"id": "...", "note": "correct as it is"} if nothing is wrong (e.g. the explanation and key already agree).
+Check with Python: every id once; a in 0..3; 4 distinct options; the key matches x. Report counts + every change in 1 line.
