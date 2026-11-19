@@ -347,7 +347,9 @@ def cover():
 <li><b>Question-type playbook</b> — 2-, 3-, 4-statement sets, All/None of the above, matching, A–R, numbers.</li>
 <li><b>The negative-marking maths</b> — exactly when to guess.</li>
 <li><b>What to study</b> — weightage, repeats from other exams, the Current Affairs window.</li>
-<li><b>Exam-day method</b> and a one-page cheat sheet.</li></ol></div>
+<li><b>Exam-day method.</b></li>
+<li><b>Subject by subject</b> — for each of the eight subjects: the rules that work there, the words its statements give away, how APPSC built its real false statements, and the topics asked most.</li>
+<li>A one-page <b>cheat sheet</b>.</li></ol></div>
 <p class='note'>Data: the full APPSC papers in this app (Group 2 Prelims 2017 / 2019 / 2024, Group 2 Mains 2017 / 2025,
 Group 2 2008 / 2012, Group 1 Prelims 2008–2024, and other APPSC screening tests 2017–2022) with their keys — official final
 keys where APPSC published them; the Group 1 Prelims 2024 key is the initial key and the Group 2 2008 key is unofficial.
@@ -594,13 +596,38 @@ TWN = {"swap-person": "Wrong person", "swap-place": "Wrong place", "swap-body": 
        "wrong-date": "Date / order changed", "extreme": "Absolute word added", "negation": "\"not\" added or removed",
        "reversed": "Relation flipped", "wrong-category": "Wrong category", "overreach": "True core + wrong extra",
        "invented": "Invented claim", "other": "Other"}
-ADVICE = {}  # filled in by hand below the data, per subject
+ADVICE = {
+    "Indian History": "<b>How to crack it:</b> most history statements are <b>true</b> (only 31% false), so in a set expect two or three correct and hunt for "
+        "the <b>one wrong person</b> — a swapped ruler, author, founder or governor-general is the trap in a third of the false ones. Every 3-statement "
+        "set had exactly 2 true; four of five 4-statement sets had 3 true. Still mostly direct questions (68%), so breadth of facts pays most.",
+    "AP History & Culture": "<b>How to crack it:</b> the gentlest subject: only 23% of statements false, and AP-specific claims were true 92% of the time — "
+        "the examiner rewards AP knowledge. The traps are a <b>wrong person</b> (poet, king, leader) or a <b>wrong place</b> (capital, temple, inscription). "
+        "Matching is now 14% of the questions: keep ruler–capital, poet–work, movement–leader pairs.",
+    "Polity & Constitution": "<b>How to crack it:</b> the harshest subject: half the statements are false, and 4-statement sets most often had only <b>1 or 2</b> "
+        "true (all four just 3 of 40). The favourite trap is a <b>\"not\" added or removed</b>, then a <b>wrong category</b> (Fundamental Right vs DPSP, "
+        "Article vs Schedule) and a <b>wrong Article number</b>. \"but\", \"however\", \"the Constitution\", \"Parliament / House / Lok Sabha\" lean false; "
+        "\"elected\" leans true.",
+    "Indian Society": "<b>How to crack it:</b> more than half the statements are false. The traps are mostly <b>a changed year or number</b> on an Act or "
+        "scheme (POCSO 2012, JJ Act 2015, age limits) and a stretched scope. Learn each Act's year and its exact beneficiaries; small sample, so lean on knowledge.",
+    "Economy": "<b>How to crack it:</b> half the statements are false, and the favourite trap is a <b>flipped relation</b> (a third of them): raising CRR "
+        "<i>increases</i> credit, a weaker rupee <i>cuts</i> exports. For every cause–effect, check the direction. Negative statements were false 88% of the time, "
+        "comparisons 78%, extreme words 70%. Assertion–Reason is now 13% of Economy questions.",
+    "Geography": "<b>How to crack it:</b> the traps are a <b>flipped direction</b> (east/west-flowing, higher/lower, north/south) and a <b>wrong place</b> "
+        "(river, pass, state, port). Unlike other subjects, \"first / largest\" claims here were <b>false</b> 67% of the time (the examiner moves the record "
+        "to a neighbour), while packed multi-fact statements were all true. Matching is now 16% of Geography questions — learn location pairs.",
+    "Science, Technology & Environment": "<b>How to crack it:</b> the traps are a <b>wrong agency</b> (ISRO vs DRDO, MoEFCC vs CPCB), a <b>changed number</b> and "
+        "a <b>flipped</b> effect. Years and long technical statements were usually true (only 25% false). Statement sets dominate 2023–25 (28%), with "
+        "\"exactly 2 of 3\" the common answer. Waste, biotechnology and nuclear energy are the rising topics.",
+    "Current Affairs": "<b>How to crack it:</b> the examiner swaps the <b>venue / host country</b> and the <b>organiser / ministry</b> (half the false "
+        "statements). \"First\" claims were almost always true (only 12% false) and \"was held\" statements were true. In 4-statement sets, 3 true was the most "
+        "common answer. For each big event learn venue, host, edition, theme and who organised it.",
+}
 
 
 def twists_of(sj):
     rows = [(x, TW.get(x["id"])) for x in FS if x["subject"] == sj]
     rows = [(x, t) for x, t in rows if t and not t.get("doubt")]
-    c = collections.Counter(t["twist"] for _, t in rows)
+    c = collections.Counter(t["twist"] for _, t in rows if t["twist"] != "other")
     return rows, c
 
 
@@ -646,9 +673,9 @@ def subject_page(sj, d):
         "<p class='note'>Too few statements in this subject for any rule to be measured on its own; use the general rules of Part 2.</p>"
     chip = lambda c, cls: f"<span class='chip {cls}'>{E(c[0])} <b>{c[3]}%</b><i>{c[1]}</i></span>"
     cues = ""
-    if d["lean_false"] or d["lean_true"]:
+    if [c for c in d["lean_false"] if c[2] >= 4] or d["lean_true"]:
         cues = "<h3>Words found in this subject's statements</h3><div class='chips'>" + \
-               "".join(chip(c, "f") for c in d["lean_false"][:10]) + "".join(chip(c, "t") for c in d["lean_true"][:6]) + \
+               "".join(chip(c, "f") for c in d["lean_false"][:10] if c[2] >= 4) + "".join(chip(c, "t") for c in d["lean_true"][:6]) + \
                "</div><p class='note'>Red: statements with this word were false that often (number of statements in grey). " \
                "Green: usually true. Only words seen in 5+ statements and well away from this subject's base rate.</p>"
     rows, c = twists_of(sj)
@@ -665,14 +692,14 @@ def subject_page(sj, d):
                     exs.append(f"<div class='ex'><span class='src'>{E(TWN.get(k, k))}</span><span class='v'>{E(x['exam'].replace('Group ', 'G'))} {x['year']}</span>"
                                f"<p>✗ {hl(x['statement'], t.get('spot'))}</p><p class='truth'>✓ {E(t.get('truth', ''))}</p></div>")
                     break
-        anat = f"<h3>Trap anatomy: how APPSC made {tot} false statements in this subject</h3>{bars(items, base=None, h=13)}{''.join(exs)}"
+        anat = f"<div style='break-inside:avoid'><h3>Trap anatomy: how APPSC built {tot} of its false statements in this subject</h3>{bars(items, base=None, h=13)}{''.join(exs)}</div>"
     dist = []
     for n in ("3", "4"):
         v = d["dist"].get(n) or d["dist"].get(int(n)) or []
         if sum(v) >= 3:
             dist.append(f"{n}-statement sets ({sum(v)}): " + ", ".join(f"{i} true: {k}" for i, k in enumerate(v)))
-    tops = "".join(f"<tr><td>{E(t['topic'])}</td><td>{t['q17']}</td><td>{t['q23']}</td><td>{t['st']}</td></tr>" for t in d["topics"][:9])
-    hot = ", ".join(E(h) for h in d["hot"][:6])
+    tops = "".join(f"<tr><td>{E(t['topic'])}</td><td>{t['q17']}</td><td>{t['q23']}</td><td>{t['st']}</td></tr>" for t in d["topics"][:8])
+    hot = "" if sj == "Current Affairs" else ", ".join(E(h) for h in d["hot"][:6])
     adv = ADVICE.get(sj, "")
     return f"""<section class='page'><div class='kicker'>Part 8 · subject by subject</div><h2>{E(sj)}</h2>
 <div class='facts' style='margin-top:1mm;grid-template-columns:repeat(4,1fr)'>
