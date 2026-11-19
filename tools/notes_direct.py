@@ -123,7 +123,7 @@ def plan():
     for f in glob.glob(f"{D}/job-*.jsonl"):
         if ".out." not in f:
             os.remove(f)
-    size = 450
+    size = 220
     for i in range(0, len(jobs), size):
         with open(f"{D}/job-{i // size + 1}.jsonl", "w") as f:
             for j in sorted(jobs[i:i + size], key=lambda j: (j["b"], j["r"])):

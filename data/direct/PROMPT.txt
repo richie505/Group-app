@@ -1,0 +1,20 @@
+Task: make Group 2's DIRECT notes MCQs follow APPSC's option pattern. Never use the Anthropic API. Do not commit.
+Write only data/direct/job-N.out.jsonl. Scratch files only in
+/tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/direct-N/.
+
+Input data/direct/job-N.jsonl, one MCQ per line: question, options (4), key (index 0-3 of the right option),
+explanation, subject, b, r, and "fix":
+ - "longest": the key is clearly the LONGEST option, a giveaway (APPSC's key is the longest only ~1 in 3 times).
+   Rewrite the decoys so they are as long and as detailed as the key (same kind of answer, same level of detail),
+   so the key no longer stands out by length. You may also make 1 decoy a bit longer than the key.
+ - "family": the key shares the most words with the decoys (the decoys are small variations of the key's words),
+   a giveaway. Rewrite the decoys into DISTINCT but plausible answers of the same kind from the same topic
+   (other real persons / bodies / places / terms the examiner would pair with it), not word-variations of the key.
+Rules: NEVER change the key option or the question. Every decoy must be clearly WRONG for this question (check the
+notes: python3 tools/g2syl_show.py <b> <r>, or sure knowledge) yet plausible. All four options of the same kind and
+style. No "All / None of the above". Options distinct.
+Write {"id": "...", "o": {"<index>": "<new decoy>", ...}} with only the decoy indices you changed (never the key's
+index). If the old explanation discusses an old decoy, also give "x": a new explanation in the same style
+(no option letters). If a question is fine as it is or can't be improved safely, write {"id": "...", "o": {}}.
+Then check with Python (every id once, in order; never the key index; 4 distinct options) and run:
+python3 tools/notes_direct.py check . Report counts and 5 examples (before -> after).
