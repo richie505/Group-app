@@ -1,0 +1,108 @@
+<!doctype html><html><head><meta name='viewport' content='width=1360'><style>
+@media screen { html { background: #dfe3ec; scroll-snap-type: y proximity } body { padding: 28px 0 40px }
+  section.s, div.s { margin: 0 auto 28px; box-shadow: 0 6px 22px rgba(20,30,70,.22); border-radius: 10px; scroll-snap-align: center } }
+</style><meta charset='utf-8'><style>
+    @page { size: 13.333in 7.5in; margin: 0 }
+    * { box-sizing: border-box }
+    body { margin: 0; font-family: Inter, 'Noto Sans', 'Noto Sans Telugu', Arial, sans-serif; color: #1f2430 }
+    section.s, div.s { width: 13.333in; height: 7.5in; position: relative; overflow: hidden; page-break-after: always; background: #fff }
+    .s.title, .s.end { background: linear-gradient(135deg, #1e2a5a 0%, #2f3f8f 60%, #4458c4 100%); color: #fff; padding: 0.9in 1in }
+    .s.title h1, .s.end h1 { font-size: 40px; line-height: 1.18; margin: 14px 0 22px; font-weight: 800; max-width: 11in }
+    .kicker { font-size: 15px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .8; font-weight: 600 }
+    .syl { background: rgba(255,255,255,.1); border-radius: 12px; padding: 16px 22px; max-width: 11.3in }
+    .syl .lab { font-size: 12px; letter-spacing: 1.5px; font-weight: 700; opacity: .75; margin-bottom: 6px }
+    .syl ul { margin: 0; padding-left: 20px; font-size: 18px; line-height: 1.5 }
+    .foot { position: absolute; bottom: .55in; left: 1in; font-size: 14px; opacity: .75 }
+    .bar { position: absolute; top: 0; left: 0; right: 0; height: .5in; background: #1e2a5a; color: #fff; display: flex; align-items: center;
+           padding: 0 .55in; font-size: 13px; letter-spacing: .5px; gap: 18px }
+    .bar .p { font-weight: 700; color: #f6c453 }
+    .bar .t { opacity: .85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+    .inner { position: absolute; top: .72in; left: .6in; right: .6in; bottom: .45in; display: flex; flex-direction: column }
+    h2 { font-size: 30px; margin: 0 0 12px; color: #1e2a5a; font-weight: 800; border-left: 6px solid #f6a623; padding-left: 14px }
+    h2 .cont { font-size: 16px; color: #8a90a6; font-weight: 600 }
+    .body { font-size: 23px; line-height: 1.4; flex: 1; overflow: hidden }
+    .sub { font-size: 23px; font-weight: 800; color: #2f3f8f; margin: 10px 0 4px }
+    ul.pts { margin: 4px 0; padding-left: 24px }
+    ul.pts li { margin: 4px 0 }
+    ul.pts li::marker { color: #f6a623 }
+    b { color: #13194a }
+    table { border-collapse: collapse; width: 100%; font-size: 19px; line-height: 1.3; margin: 6px 0 8px }
+    th { background: #2f3f8f; color: #fff; text-align: left; padding: 7px 10px; font-weight: 700 }
+    th b { color: #fff }
+    td { padding: 6px 10px; border-bottom: 1px solid #e3e6f0; vertical-align: top }
+    tr:nth-child(even) td { background: #f5f7fc }
+    .box { border-radius: 10px; padding: 10px 16px; margin: 10px 0; font-size: 21px; line-height: 1.38 }
+    .box span { display: inline-block; font-size: 11.5px; font-weight: 800; letter-spacing: 1.2px; margin-right: 10px; padding: 2px 8px; border-radius: 5px }
+    .rem { background: #fff6e5; border-left: 5px solid #f6a623 } .rem span { background: #f6a623; color: #fff }
+    .set { background: #eaf6ee; border-left: 5px solid #2e9e5b } .set span { background: #2e9e5b; color: #fff }
+    .note { background: #eef1fb; border-left: 5px solid #4458c4 } .note span { background: #4458c4; color: #fff }
+    ol.plan { list-style: none; padding: 0; margin: 14px 0; columns: 2; column-gap: .5in; font-size: 23px }
+    ol.plan li { display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px; break-inside: avoid }
+    .n { flex: none; display: inline-flex; width: 30px; height: 30px; border-radius: 50%; background: #1e2a5a; color: #fff;
+         align-items: center; justify-content: center; font-weight: 700; font-size: 14px; margin-right: 10px }
+    .meta { color: #6b7185; font-size: 15px; margin-top: 8px }
+    .recap li { font-size: 21px; margin: 12px 0 }
+    .qs2 { display: grid; grid-template-columns: 1fr 1fr; gap: .35in }
+    .q { background: #f7f8fc; border-radius: 12px; padding: 18px 22px; font-size: 23px; line-height: 1.38 }
+    .qs { margin-bottom: 8px; display: flex }
+    ol.opts { list-style: none; padding: 0; margin: 0 }
+    ol.opts li { padding: 5px 10px; border-radius: 7px; margin: 3px 0; background: #fff; border: 1px solid #e3e6f0 }
+    ol.opts li.ok { background: #e3f5ea; border-color: #2e9e5b; font-weight: 700; color: #1d6b3d }
+    .src { color: #8a90a6; font-size: 14px; margin-top: 8px }
+    .num { position: absolute; bottom: .18in; right: .5in; font-size: 12px; color: #9aa0b4 }
+    .brand { position: absolute; bottom: .18in; left: .6in; font-size: 12px; color: #9aa0b4 }
+    </style></head><body><section class='s title'><div class='kicker'>Economy · Andhra Pradesh Economy after Bifurcation (2014) AND the A.P. Reorganisation Act, 2014 - Economic Issues, Centr</div>
+    <h1>Agro-climatic Zones of Andhra Pradesh and Their Cropping Suitability</h1>
+    <div class="syl"><div class="lab">SYLLABUS LINES THIS LESSON COVERS</div><ul><li>AP – initiatives in agriculture</li><li>Major sectors of the economy – agriculture (crops, regions)</li></ul></div>
+    <div class='foot'>APPSC Group 1 Prelims · lecture notes</div></section><section class='s'><div class='bar'><span class='p'>Lesson</span><span class='t'>Agro-climatic Zones of Andhra Pradesh and Their Cropping Suitability</span></div><div class='inner'><h2>Lesson plan</h2><ol class='plan'><li><span class='n'>1</span>Six Agro-climatic Zones and Their Districts</li><li><span class='n'>2</span>Rainfall, Drought and Cloud Seeding</li><li><span class='n'>3</span>Soils, Crop Suitability and Research Stations</li><li><span class='n'>4</span>Agro-climatic and Agro-ecological Zoning of India</li></ol><div class='meta'>4 parts · 33 MCQs in the app on this topic</div></div><div class='brand'>APPSC Group 1 Prelims · Economy</div><div class='num'></div></section><div id='parts'></div><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Agro-climatic Zones of Andhra Pradesh and Their Cropping Suitability</span></div><div class='inner'><h2>Recap</h2><ul class='pts recap'><li><b>Six Agro-climatic Zones and Their Districts</b> — six agro-climatic zones · No &quot;Eastern Zone&quot; · no &quot;Low Altitude&quot; zone · High · Chittoor · Nellore · 7 zones</li><li><b>Rainfall, Drought and Cloud Seeding</b> — Average rainfall · 890-940 mm · 960.3 mm · 860.0 mm · Drought-prone · Cloud seeding · Atmakur (Anantapur)</li><li><b>Soils, Crop Suitability and Research Stations</b> — West Godavari · Southern cotton zone · ICAR-CRIDA · PMDS</li><li><b>Agro-climatic and Agro-ecological Zoning of India</b> — agro-ecological zone</li></ul></div><div class='brand'>APPSC Group 1 Prelims · Economy</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Agro-climatic Zones of Andhra Pradesh and Their Cropping Suitability</span></div><div class='inner'><h2>Quick check</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q1</span>What is the average rainfall of Andhra Pradesh?</div><ol class='opts'><li class=''>(1) 890 millimetres</li><li class=''>(2) 1010 millimetres</li><li class=''>(3) 960 millimetres</li><li class=''>(4) 900 millimetres</li></ol><div class='src'>APPSC Group-I Prelims 2003</div></div><div class='q'><div class='qs'><span class='n'>Q2</span>How many agro-climatic zones are in the State of Andhra Pradesh?</div><ol class='opts'><li class=''>(1) 4</li><li class=''>(2) 5</li><li class=''>(3) 6</li><li class=''>(4) 9</li></ol><div class='src'>APPSC ASO Mains 2017</div></div></div></div><div class='brand'>APPSC Group 1 Prelims · Economy</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Agro-climatic Zones of Andhra Pradesh and Their Cropping Suitability</span></div><div class='inner'><h2>Quick check — answers</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q1</span>What is the average rainfall of Andhra Pradesh?</div><ol class='opts'><li class='ok'>(1) 890 millimetres</li><li class=''>(2) 1010 millimetres</li><li class=''>(3) 960 millimetres</li><li class=''>(4) 900 millimetres</li></ol><div class='src'>APPSC Group-I Prelims 2003</div></div><div class='q'><div class='qs'><span class='n'>Q2</span>How many agro-climatic zones are in the State of Andhra Pradesh?</div><ol class='opts'><li class=''>(1) 4</li><li class=''>(2) 5</li><li class='ok'>(3) 6</li><li class=''>(4) 9</li></ol><div class='src'>APPSC ASO Mains 2017</div></div></div></div><div class='brand'>APPSC Group 1 Prelims · Economy</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Agro-climatic Zones of Andhra Pradesh and Their Cropping Suitability</span></div><div class='inner'><h2>Quick check</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q3</span>Andhra Pradesh has been divided into how many agro-climatic zones?</div><ol class='opts'><li class=''>(1) 7</li><li class=''>(2) 4</li><li class=''>(3) 6</li><li class=''>(4) 5</li></ol><div class='src'>APPSC Group-II Mains Paper-III AP Economy &amp; Indian Economy 2</div></div><div class='q'><div class='qs'><span class='n'>Q4</span>Which of the following is NOT an Agro-Climatic Zone of Andhra Pradesh?</div><ol class='opts'><li class=''>(1) North Coastal Zone</li><li class=''>(2) Eastern Zone</li><li class=''>(3) Krishna Zone</li><li class=''>(4) Southern Zone</li></ol><div class='src'>APPSC Assistant Statistical Officer &amp; Other Posts General St</div></div></div></div><div class='brand'>APPSC Group 1 Prelims · Economy</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Agro-climatic Zones of Andhra Pradesh and Their Cropping Suitability</span></div><div class='inner'><h2>Quick check — answers</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q3</span>Andhra Pradesh has been divided into how many agro-climatic zones?</div><ol class='opts'><li class=''>(1) 7</li><li class=''>(2) 4</li><li class='ok'>(3) 6</li><li class=''>(4) 5</li></ol><div class='src'>APPSC Group-II Mains Paper-III AP Economy &amp; Indian Economy 2</div></div><div class='q'><div class='qs'><span class='n'>Q4</span>Which of the following is NOT an Agro-Climatic Zone of Andhra Pradesh?</div><ol class='opts'><li class=''>(1) North Coastal Zone</li><li class='ok'>(2) Eastern Zone</li><li class=''>(3) Krishna Zone</li><li class=''>(4) Southern Zone</li></ol><div class='src'>APPSC Assistant Statistical Officer &amp; Other Posts General St</div></div></div></div><div class='brand'>APPSC Group 1 Prelims · Economy</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Agro-climatic Zones of Andhra Pradesh and Their Cropping Suitability</span></div><div class='inner'><h2>Quick check</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q5</span>Andhra Pradesh has been divided into how many number of agro-climatic zones</div><ol class='opts'><li class=''>(1) 7</li><li class=''>(2) 4</li><li class=''>(3) 6</li><li class=''>(4) 5</li></ol><div class='src'>APPSC Group-II Mains Paper-III 2017</div></div><div class='q'><div class='qs'><span class='n'>Q6</span>Which of the following is NOT one of Andhra Pradesh&#x27;s six agroclimatic zones?</div><ol class='opts'><li class=''>(1) North coastal zone</li><li class=''>(2) Southern zone</li><li class=''>(3) Scarce rainfall zone</li><li class=''>(4) Low Altitude Zone</li></ol><div class='src'>APPSC Sample Taker 2023</div></div></div></div><div class='brand'>APPSC Group 1 Prelims · Economy</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Agro-climatic Zones of Andhra Pradesh and Their Cropping Suitability</span></div><div class='inner'><h2>Quick check — answers</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q5</span>Andhra Pradesh has been divided into how many number of agro-climatic zones</div><ol class='opts'><li class=''>(1) 7</li><li class=''>(2) 4</li><li class='ok'>(3) 6</li><li class=''>(4) 5</li></ol><div class='src'>APPSC Group-II Mains Paper-III 2017</div></div><div class='q'><div class='qs'><span class='n'>Q6</span>Which of the following is NOT one of Andhra Pradesh&#x27;s six agroclimatic zones?</div><ol class='opts'><li class=''>(1) North coastal zone</li><li class=''>(2) Southern zone</li><li class=''>(3) Scarce rainfall zone</li><li class='ok'>(4) Low Altitude Zone</li></ol><div class='src'>APPSC Sample Taker 2023</div></div></div></div><div class='brand'>APPSC Group 1 Prelims · Economy</div><div class='num'></div></section><section class='s end'><h1>Questions?</h1><div class='kicker'>Agro-climatic Zones of Andhra Pradesh and Their Cropping Suitability</div><div class='foot'>Practise this topic's 33 MCQs in APPSC Group 1 Prelims</div></section><script>
+    const P = [{"title": "Six Agro-climatic Zones and Their Districts", "part": "Part 1 of 4", "items": [{"k": "b", "h": "Residual AP has <b>six agro-climatic zones</b> (SES 2024-25 Table 5.2): regions defined by climate, soil, topography – they decide the best cropping systems."}, {"k": "t", "head": ["#", "Zone", "Districts (13 old districts)"], "rows": [["1", "<b>North Coastal</b>", "Srikakulam, <b>Vizianagaram</b>, Visakhapatnam"], ["2", "<b>Godavari</b>", "East Godavari, West Godavari"], ["3", "<b>Krishna</b>", "Krishna, Guntur, <b>Prakasam</b>"], ["4", "<b>Southern</b>", "<b>Chittoor, YSR Kadapa, SPS Nellore</b>"], ["5", "<b>Scarce Rainfall</b>", "Kurnool, <b>Anantapuramu</b>"], ["6", "<b>High Altitude and Tribal Areas</b>", "Hill and tribal parts of Srikakulam, Visakhapatnam, East Godavari"]]}, {"k": "b", "h": "<b>No &quot;Eastern Zone&quot;</b> and <b>no &quot;Low Altitude&quot; zone</b>: the sixth is <b>High</b> Altitude and Tribal Areas."}, {"k": "b", "h": "<b>Chittoor</b> is Southern, not North Coastal or Scarce Rainfall; <b>Nellore</b> is Southern, not Krishna or Scarce Rainfall; Kurnool is Scarce Rainfall, not Southern."}, {"k": "b", "h": "Undivided AP (NARP): <b>7 zones</b> (incl. North and Southern Telangana; Krishna-Godavari as one zone)."}, {"k": "b", "h": "Not the six <b>Article 371-D</b> zones (administrative zones for public employment)."}, {"k": "b", "h": "Zones are still listed against the <b>13 old districts</b>; AP now has <b>28 districts</b> (Aug 2026)."}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span>Exam angle: number of zones (6), match zone ↔ district, odd-one-out zone name.</div>"}]}, {"title": "Rainfall, Drought and Cloud Seeding", "part": "Part 2 of 4", "items": [{"k": "t", "head": ["Zone", "Annual rainfall"], "rows": [["North Coastal", "1,000-1,100 mm"], ["Krishna-Godavari", "800-1,100 mm"], ["Southern", "700-1,100 mm"], ["Scarce Rainfall", "500-750 mm (lowest)"], ["High Altitude and Tribal", "above 1,400 mm (highest)"]]}, {"k": "b", "h": "<b>Average rainfall</b> of (undivided) AP: about <b>890-940 mm</b> (Group-I 2003 key: 890 mm). June-Dec 2024: <b>960.3 mm</b> vs normal <b>860.0 mm</b> (+11.7%)."}, {"k": "b", "h": "<b>Drought-prone</b>: Scarce Rainfall Zone (Kurnool, Anantapuramu). Highest rainfall: North Coastal + tribal highlands."}, {"k": "b", "h": "<b>Cloud seeding:</b> first artificial rain experiment in AP at <b>Atmakur (Anantapur)</b>; the 2004 programme used <b>silver iodide</b> and <b>sodium chloride</b>."}, {"k": "b", "h": "<b>Kharif 2026</b>: all 28 districts in deficit; worst hit Annamayya, Prakasam, Chittoor, Markapuram, Visakhapatnam (Sep 2026)."}]}, {"title": "Soils, Crop Suitability and Research Stations", "part": "Part 3 of 4", "items": [{"k": "t", "head": ["Zone", "Soils / setting", "Crops", "RARS"], "rows": [["North Coastal", "High rainfall, laterite soils", "Plantation crops, paddy", "Anakapalle"], ["Godavari", "Fertile deltaic alluvium", "&quot;Rice bowl&quot;, aquaculture hub", "Maruteru (not Rajahmundry)"], ["Krishna", "Deltaic and coastal plains", "Paddy, chillies, cotton", "Lam (Guntur)"], ["Southern", "Varied: plains to hills", "Mixed dryland and irrigated", "Tirupati"], ["Scarce Rainfall", "Red and black soils", "Groundnut, dryland crops", "Nandyal"], ["High Altitude and Tribal", "Hill soils", "Coffee, plantation crops", "Chintapalle"]]}, {"k": "b", "h": "<b>West Godavari</b>: first in rice production in recent years (keyed) and largest paddy area in 2016-17 (keyed); East Godavari close behind."}, {"k": "b", "h": "AP lies in the <b>Southern cotton zone</b> with Telangana and Karnataka."}, {"k": "b", "h": "Zones decide region-specific interventions; AP&#x27;s farm-income disparities follow the six zones."}, {"k": "b", "h": "District agricultural contingency plans: <b>ICAR-CRIDA</b>; <b>PMDS</b> under natural farming uses leftover soil moisture in drought-prone areas."}]}, {"title": "Agro-climatic and Agro-ecological Zoning of India", "part": "Part 4 of 4", "items": [{"k": "t", "head": ["Classification", "Number"], "rows": [["<b>Planning Commission agro-climatic zones</b> (1988, for the <b>8th Plan</b>)", "<b>15</b>"], ["NBSS&amp;LUP agro-ecological regions / sub-regions", "20 / 60"], ["<b>Sengupta and Sdasyuk (1968)</b>", "4 macro, 11 meso, <b>60 micro</b> regions"], ["Karnataka agro-climatic zones", "10"], ["AP agro-climatic zones", "6"]]}, {"k": "b", "h": "Planning Commission zones are based on soil, climate, rainfall (basis for state-wise agricultural roadmaps, Apr 2026); <b>agro-ecological zone</b> = agro-climatic zone + overlaid landform."}, {"k": "b", "h": "Sengupta and Sdasyuk: macro = climate, meso = physiography, micro = crop combinations."}]}], APP = "APPSC Group 1 Prelims", SUBJ = "Economy", TOPIC = "Agro-climatic Zones of Andhra Pradesh and Their Cropping Suitability";
+    const host = document.getElementById('parts');
+    function mk(cls, html) { const d = document.createElement('div'); if (cls) d.className = cls; if (html != null) d.innerHTML = html; return d; }
+    function newSlide(p, cont) {
+      const s = mk('s'); s.innerHTML = `<div class='bar'><span class='p'>${p.part}</span><span class='t'>${TOPIC}</span></div>
+        <div class='inner'><h2>${p.title}<span class='cont'></span></h2><div class='body'></div></div>
+        <div class='brand'>${APP} · ${SUBJ}</div><div class='num'></div>`;
+      host.appendChild(s); return s.querySelector('.body');
+    }
+    const over = b => b.scrollHeight > b.clientHeight + 1;
+    for (const p of P) {
+      const made = []; let body = newSlide(p); made.push(body);
+      const fresh = () => { body = newSlide(p); made.push(body); };
+      let ul = null;
+      for (let i = 0; i < p.items.length; i++) {
+        const it = p.items[i];
+        if (it.k === 'b') {
+          if (!ul || ul.parentNode !== body || body.lastChild !== ul) { ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); }
+          const li = document.createElement('li'); li.innerHTML = it.h; ul.appendChild(li);
+          if (over(body) && body.childNodes.length > 1 || over(body) && ul.childNodes.length > 1) {
+            li.remove(); if (!ul.childNodes.length) ul.remove();
+            const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null;
+            fresh(); if (carry) body.appendChild(carry);
+            ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); ul.appendChild(li);
+          }
+          continue;
+        }
+        ul = null;
+        if (it.k === 'h') { body.appendChild(mk('sub', it.h)); if (over(body) && body.childNodes.length > 1) { const h = body.lastChild; h.remove(); fresh(); body.appendChild(h); } continue; }
+        if (it.k === 'x') { const d = mk(null, it.h).firstChild; body.appendChild(d); if (over(body) && body.childNodes.length > 1) { d.remove(); const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; fresh(); if (carry) body.appendChild(carry); body.appendChild(d); } continue; }
+        if (it.k === 't') {
+          const head = it.head.length ? '<tr>' + it.head.map(c => `<th>${c}</th>`).join('') + '</tr>' : '';
+          const newTable = () => { const t = document.createElement('table'); t.innerHTML = head; body.appendChild(t); return t.tBodies[0] || t; };
+          let tb = newTable();
+          for (const r of it.rows) {
+            const tr = document.createElement('tr'); tr.innerHTML = r.map(c => `<td>${c}</td>`).join(''); tb.appendChild(tr);
+            if (over(body) && (tb.querySelectorAll('td').length > r.length || body.childNodes.length > 1)) {
+              tr.remove();
+              const t = tb.closest('table'); let carry = null;
+              if (!t.querySelector('td')) { t.remove(); carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; }
+              fresh(); if (carry) body.appendChild(carry); tb = newTable(); tb.appendChild(tr);
+            }
+          }
+        }
+      }
+      made.forEach((b, k) => { if (made.length > 1) b.parentNode.querySelector('.cont').textContent = ` (${k + 1}/${made.length})`; });
+    }
+    host.replaceWith(...host.childNodes);
+    const all = document.querySelectorAll('section.s, div.s');
+    all.forEach((s, k) => { const n = s.querySelector('.num'); if (n) n.textContent = `${k + 1} / ${all.length}`; });
+    </script></body></html>

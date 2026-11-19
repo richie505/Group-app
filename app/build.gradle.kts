@@ -67,6 +67,12 @@ android {
             versionNameSuffix = "-g2"
             resValue("string", "app_name", "APPSC Group 2")
         }
+        // every topic's lecture slides (both apps, subject-wise and topic-wise) in a slide viewer (tools/lecture_app.py)
+        create("lectures") {
+            dimension = "edition"
+            applicationIdSuffix = ".lectures"
+            resValue("string", "app_name", "APPSC Lectures")
+        }
         // APPSC Complete's full notes for reading only: no MCQs, simple meanings and markers (tools/reader_build.py)
         create("reader") {
             dimension = "edition"

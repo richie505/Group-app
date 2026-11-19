@@ -1,0 +1,108 @@
+<!doctype html><html><head><meta name='viewport' content='width=1360'><style>
+@media screen { html { background: #dfe3ec; scroll-snap-type: y proximity } body { padding: 28px 0 40px }
+  section.s, div.s { margin: 0 auto 28px; box-shadow: 0 6px 22px rgba(20,30,70,.22); border-radius: 10px; scroll-snap-align: center } }
+</style><meta charset='utf-8'><style>
+    @page { size: 13.333in 7.5in; margin: 0 }
+    * { box-sizing: border-box }
+    body { margin: 0; font-family: Inter, 'Noto Sans', 'Noto Sans Telugu', Arial, sans-serif; color: #1f2430 }
+    section.s, div.s { width: 13.333in; height: 7.5in; position: relative; overflow: hidden; page-break-after: always; background: #fff }
+    .s.title, .s.end { background: linear-gradient(135deg, #1e2a5a 0%, #2f3f8f 60%, #4458c4 100%); color: #fff; padding: 0.9in 1in }
+    .s.title h1, .s.end h1 { font-size: 40px; line-height: 1.18; margin: 14px 0 22px; font-weight: 800; max-width: 11in }
+    .kicker { font-size: 15px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .8; font-weight: 600 }
+    .syl { background: rgba(255,255,255,.1); border-radius: 12px; padding: 16px 22px; max-width: 11.3in }
+    .syl .lab { font-size: 12px; letter-spacing: 1.5px; font-weight: 700; opacity: .75; margin-bottom: 6px }
+    .syl ul { margin: 0; padding-left: 20px; font-size: 18px; line-height: 1.5 }
+    .foot { position: absolute; bottom: .55in; left: 1in; font-size: 14px; opacity: .75 }
+    .bar { position: absolute; top: 0; left: 0; right: 0; height: .5in; background: #1e2a5a; color: #fff; display: flex; align-items: center;
+           padding: 0 .55in; font-size: 13px; letter-spacing: .5px; gap: 18px }
+    .bar .p { font-weight: 700; color: #f6c453 }
+    .bar .t { opacity: .85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+    .inner { position: absolute; top: .72in; left: .6in; right: .6in; bottom: .45in; display: flex; flex-direction: column }
+    h2 { font-size: 30px; margin: 0 0 12px; color: #1e2a5a; font-weight: 800; border-left: 6px solid #f6a623; padding-left: 14px }
+    h2 .cont { font-size: 16px; color: #8a90a6; font-weight: 600 }
+    .body { font-size: 23px; line-height: 1.4; flex: 1; overflow: hidden }
+    .sub { font-size: 23px; font-weight: 800; color: #2f3f8f; margin: 10px 0 4px }
+    ul.pts { margin: 4px 0; padding-left: 24px }
+    ul.pts li { margin: 4px 0 }
+    ul.pts li::marker { color: #f6a623 }
+    b { color: #13194a }
+    table { border-collapse: collapse; width: 100%; font-size: 19px; line-height: 1.3; margin: 6px 0 8px }
+    th { background: #2f3f8f; color: #fff; text-align: left; padding: 7px 10px; font-weight: 700 }
+    th b { color: #fff }
+    td { padding: 6px 10px; border-bottom: 1px solid #e3e6f0; vertical-align: top }
+    tr:nth-child(even) td { background: #f5f7fc }
+    .box { border-radius: 10px; padding: 10px 16px; margin: 10px 0; font-size: 21px; line-height: 1.38 }
+    .box span { display: inline-block; font-size: 11.5px; font-weight: 800; letter-spacing: 1.2px; margin-right: 10px; padding: 2px 8px; border-radius: 5px }
+    .rem { background: #fff6e5; border-left: 5px solid #f6a623 } .rem span { background: #f6a623; color: #fff }
+    .set { background: #eaf6ee; border-left: 5px solid #2e9e5b } .set span { background: #2e9e5b; color: #fff }
+    .note { background: #eef1fb; border-left: 5px solid #4458c4 } .note span { background: #4458c4; color: #fff }
+    ol.plan { list-style: none; padding: 0; margin: 14px 0; columns: 2; column-gap: .5in; font-size: 23px }
+    ol.plan li { display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px; break-inside: avoid }
+    .n { flex: none; display: inline-flex; width: 30px; height: 30px; border-radius: 50%; background: #1e2a5a; color: #fff;
+         align-items: center; justify-content: center; font-weight: 700; font-size: 14px; margin-right: 10px }
+    .meta { color: #6b7185; font-size: 15px; margin-top: 8px }
+    .recap li { font-size: 21px; margin: 12px 0 }
+    .qs2 { display: grid; grid-template-columns: 1fr 1fr; gap: .35in }
+    .q { background: #f7f8fc; border-radius: 12px; padding: 18px 22px; font-size: 23px; line-height: 1.38 }
+    .qs { margin-bottom: 8px; display: flex }
+    ol.opts { list-style: none; padding: 0; margin: 0 }
+    ol.opts li { padding: 5px 10px; border-radius: 7px; margin: 3px 0; background: #fff; border: 1px solid #e3e6f0 }
+    ol.opts li.ok { background: #e3f5ea; border-color: #2e9e5b; font-weight: 700; color: #1d6b3d }
+    .src { color: #8a90a6; font-size: 14px; margin-top: 8px }
+    .num { position: absolute; bottom: .18in; right: .5in; font-size: 12px; color: #9aa0b4 }
+    .brand { position: absolute; bottom: .18in; left: .6in; font-size: 12px; color: #9aa0b4 }
+    </style></head><body><section class='s title'><div class='kicker'>Current Affairs · Andhra Pradesh - budget and Socio-Economic Survey highlights of the current year</div>
+    <h1>Dec 2025–Feb 2026: Andhra Pradesh - budget and Socio-Economic Survey highlights of the current year</h1>
+    <div class="syl"><div class="lab">SYLLABUS LINES THIS LESSON COVERS</div><ul><li>Current events – Andhra Pradesh (regional)</li></ul></div>
+    <div class='foot'>APPSC Group 1 Prelims · lecture notes</div></section><section class='s'><div class='bar'><span class='p'>Lesson</span><span class='t'>Dec 2025–Feb 2026: Andhra Pradesh - budget and Socio-Economic Survey highlights of the current year</span></div><div class='inner'><h2>Lesson plan</h2><ol class='plan'><li><span class='n'>1</span>Sector Allocations and New Announcements 2026-27</li><li><span class='n'>2</span>Finance Commission Share and Central Transfers</li><li><span class='n'>3</span>Investment, Farm Credit and Exports</li><li><span class='n'>4</span>Social Indicators – AP vs India</li><li><span class='n'>5</span>Crime Data 2025 and Local-Body Reservation</li></ol><div class='meta'>5 parts · 22 MCQs in the app on this topic</div></div><div class='brand'>APPSC Group 1 Prelims · Current Affairs</div><div class='num'></div></section><div id='parts'></div><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Dec 2025–Feb 2026: Andhra Pradesh - budget and Socio-Economic Survey highlights of the current year</span></div><div class='inner'><h2>Recap</h2><ul class='pts recap'><li><b>Sector Allocations and New Announcements 2026-27</b> — </li><li><b>Finance Commission Share and Central Transfers</b> — higher than the 15th · lower than the 14th · ₹64,362.16 crore · +₹7,620.98 crore · 16th FC · Arvind Panagariya · Article 280</li><li><b>Investment, Farm Credit and Exports</b> — Agricultural credit · ₹2.25 lakh crore · 77% growth · Pankaj Chaudhary · Investment share · 1st · 25.3%</li><li><b>Social Indicators – AP vs India</b> — </li><li><b>Crime Data 2025 and Local-Body Reservation</b> — Rajeev Ranjan Mishra Commission · Article 243D · Panchayats · Article 243T · Municipalities · Overall crime down 5.5% · 6.17%</li></ul></div><div class='brand'>APPSC Group 1 Prelims · Current Affairs</div><div class='num'></div></section><section class='s end'><h1>Questions?</h1><div class='kicker'>Dec 2025–Feb 2026: Andhra Pradesh - budget and Socio-Economic Survey highlights of the current year</div><div class='foot'>Practise this topic's 22 MCQs in APPSC Group 1 Prelims</div></section><script>
+    const P = [{"title": "Sector Allocations and New Announcements 2026-27", "part": "Part 1 of 5", "items": [{"k": "h", "h": "New announcements"}, {"k": "t", "head": ["Announcement", "Fact"], "rows": [["<b>Visakhapatnam Economic Region</b>", "<b>10 districts</b> (Srikakulam to Konaseema); proposals of about <b>₹28,000 crore</b> (incl. metro rail); NITI Aayog-backed master plan, 41 projects"], ["<b>Amaravati Economic Region</b>", "<b>9 districts</b> (NTR, Krishna, Eluru, Guntur, West Godavari, Prakasam, Palnadu, Bapatla, Markapuram)"], ["<b>Rayalaseema Global Horticulture Hub</b>", "proposals of <b>₹30,000 crore</b>; horticulture 8.41 → 14.41 lakh ha by 2030; 10 districts, 303 mandals"], ["Policing", "a dedicated <b>Cybercrime Police Station in every district</b>"]]}]}, {"title": "Finance Commission Share and Central Transfers", "part": "Part 2 of 5", "items": [{"k": "t", "head": ["Finance Commission", "Andhra Pradesh", "Telangana"], "rows": [["14th", "<b>4.305%</b>", "2.147%"], ["15th (2021-26)", "<b>4.047%</b> (4.111% in the 2020-21 interim report)", "2.102%"], ["16th (2026-31)", "<b>4.217%</b> (4.22%)", "2.174%"]]}, {"k": "b", "h": "16th FC share is <b>higher than the 15th</b> but <b>lower than the 14th</b>."}, {"k": "b", "h": "AP devolution <b>₹64,362.16 crore</b> in 2026-27 against ₹56,741.18 crore in 2025-26: <b>+₹7,620.98 crore</b>; gain from the higher weight alone about ₹2,594.64 crore."}, {"k": "b", "h": "<b>16th FC</b> (2026-31; Chair <b>Arvind Panagariya</b>; <b>Article 280</b>, constituted every five years): States&#x27; share kept at <b>41%</b>; it dropped the 15th FC&#x27;s <b>revenue-deficit</b>, sector-specific and State-specific grants."}]}, {"title": "Investment, Farm Credit and Exports", "part": "Part 3 of 5", "items": [{"k": "b", "h": "<b>Agricultural credit:</b> ₹1.27 lakh crore (2023) → <b>₹2.25 lakh crore</b> (2025) = <b>77% growth</b> (national about 41%); stated by MoS Finance <b>Pankaj Chaudhary</b>."}, {"k": "b", "h": "<b>Investment share:</b> AP <b>1st</b> with <b>25.3%</b> of India&#x27;s investments in the first nine months of 2025-26 (<b>Bank of Baroda</b> report on <b>CMIE</b> data); Odisha 13.1%, Maharashtra 12.8%."}, {"k": "b", "h": "<b>Export Preparedness Index 2024 (NITI Aayog):</b> AP <b>5th</b> among large States (20th in 2020)."}, {"k": "b", "h": "<b>Marine products exports:</b> <b>₹24,679 crore</b>, about <b>60% of India&#x27;s</b> marine exports (1st); pharma ₹18,410 crore (5th); total exports ₹1.65 lakh crore (2024)."}]}, {"title": "Social Indicators – AP vs India", "part": "Part 4 of 5", "items": [{"k": "b", "h": "AP had the highest share of neonatal deaths among infant deaths (83.7%) in SRS 2023 (app CA, not re-checked)."}]}, {"title": "Crime Data 2025 and Local-Body Reservation", "part": "Part 5 of 5", "items": [{"k": "h", "h": "BC quota in local bodies"}, {"k": "b", "h": "<b>Rajeev Ranjan Mishra Commission</b> (single member, retired IAS) on BC reservation in local bodies; 45-day deadline."}, {"k": "b", "h": "<b>Article 243D</b> = reservation in <b>Panchayats</b>; <b>Article 243T</b> = reservation in <b>Municipalities</b> (73rd/74th Amendments, 1992)."}, {"k": "h", "h": "Crime 2025 vs 2024 (DGP data at the CM&#x27;s crime review, as in the app&#x27;s CA)"}, {"k": "b", "h": "<b>Overall crime down 5.5%</b>; 16 districts fell, 10 rose. (DGP&#x27;s year-end report of 29 Dec 2025: down <b>6.17%</b>, 1,10,193 → 1,03,397 cases.)"}, {"k": "b", "h": "Highest rise: <b>Annamayya (9.5%)</b>, then Konaseema (8.5%), Nellore (7.8%), Guntur and Tirupati (6.5% each)."}, {"k": "t", "head": ["Category", "2024", "2025"], "rows": [["Crime against women", "16,913", "16,288 (fell)"], ["Economic offences", "7,539", "8,035 (<b>rose 6.6%</b>)"], ["Cyber crime", "2,853", "1,771 (fell)"]]}, {"k": "b", "h": "<b>Economic offences rose</b> while overall crime fell (year-end report: 7,667 → 8,034, +4.78%)."}, {"k": "b", "h": "<b>Operation TRACE:</b> tracing <b>missing women and girls</b> (1,177 girls and 2,483 women in four months)."}]}], APP = "APPSC Group 1 Prelims", SUBJ = "Current Affairs", TOPIC = "Dec 2025\u2013Feb 2026: Andhra Pradesh - budget and Socio-Economic Survey highlights of the current year";
+    const host = document.getElementById('parts');
+    function mk(cls, html) { const d = document.createElement('div'); if (cls) d.className = cls; if (html != null) d.innerHTML = html; return d; }
+    function newSlide(p, cont) {
+      const s = mk('s'); s.innerHTML = `<div class='bar'><span class='p'>${p.part}</span><span class='t'>${TOPIC}</span></div>
+        <div class='inner'><h2>${p.title}<span class='cont'></span></h2><div class='body'></div></div>
+        <div class='brand'>${APP} · ${SUBJ}</div><div class='num'></div>`;
+      host.appendChild(s); return s.querySelector('.body');
+    }
+    const over = b => b.scrollHeight > b.clientHeight + 1;
+    for (const p of P) {
+      const made = []; let body = newSlide(p); made.push(body);
+      const fresh = () => { body = newSlide(p); made.push(body); };
+      let ul = null;
+      for (let i = 0; i < p.items.length; i++) {
+        const it = p.items[i];
+        if (it.k === 'b') {
+          if (!ul || ul.parentNode !== body || body.lastChild !== ul) { ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); }
+          const li = document.createElement('li'); li.innerHTML = it.h; ul.appendChild(li);
+          if (over(body) && body.childNodes.length > 1 || over(body) && ul.childNodes.length > 1) {
+            li.remove(); if (!ul.childNodes.length) ul.remove();
+            const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null;
+            fresh(); if (carry) body.appendChild(carry);
+            ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); ul.appendChild(li);
+          }
+          continue;
+        }
+        ul = null;
+        if (it.k === 'h') { body.appendChild(mk('sub', it.h)); if (over(body) && body.childNodes.length > 1) { const h = body.lastChild; h.remove(); fresh(); body.appendChild(h); } continue; }
+        if (it.k === 'x') { const d = mk(null, it.h).firstChild; body.appendChild(d); if (over(body) && body.childNodes.length > 1) { d.remove(); const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; fresh(); if (carry) body.appendChild(carry); body.appendChild(d); } continue; }
+        if (it.k === 't') {
+          const head = it.head.length ? '<tr>' + it.head.map(c => `<th>${c}</th>`).join('') + '</tr>' : '';
+          const newTable = () => { const t = document.createElement('table'); t.innerHTML = head; body.appendChild(t); return t.tBodies[0] || t; };
+          let tb = newTable();
+          for (const r of it.rows) {
+            const tr = document.createElement('tr'); tr.innerHTML = r.map(c => `<td>${c}</td>`).join(''); tb.appendChild(tr);
+            if (over(body) && (tb.querySelectorAll('td').length > r.length || body.childNodes.length > 1)) {
+              tr.remove();
+              const t = tb.closest('table'); let carry = null;
+              if (!t.querySelector('td')) { t.remove(); carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; }
+              fresh(); if (carry) body.appendChild(carry); tb = newTable(); tb.appendChild(tr);
+            }
+          }
+        }
+      }
+      made.forEach((b, k) => { if (made.length > 1) b.parentNode.querySelector('.cont').textContent = ` (${k + 1}/${made.length})`; });
+    }
+    host.replaceWith(...host.childNodes);
+    const all = document.querySelectorAll('section.s, div.s');
+    all.forEach((s, k) => { const n = s.querySelector('.num'); if (n) n.textContent = `${k + 1} / ${all.length}`; });
+    </script></body></html>
