@@ -24,6 +24,7 @@ TWISTS = {
     "Indian Society": "a wrong year or number on an Act or scheme (POCSO 2012, JJ Act 2015, age limits); a stretched scope (beneficiaries)",
 }
 TRAP = re.compile(r"\b(only|all|every|any|never|always|entirely|solely|must|cannot|not|no|exclusively)\b", re.I)
+NOT_SET = re.compile(r"\bmatch\b|list\s*-?\s*(i|ii|1|2)\b|\barrange\b|\bsequence\b|chronolog|correct order|\bpairs?\b", re.I)
 STMT = re.compile(r"^(\s*\(?)([0-9]{1,2}|[a-h]|[ivx]{1,4}|[IVX]{1,4})([.)]\s+)(.+)$")
 
 
@@ -75,7 +76,7 @@ def plan():
     for q in qs:
         lines, st = parse(q)
         labels = [l for _, l, _ in st]
-        if len(st) not in (2, 3, 4) or len(set(labels)) != len(labels) or not re.fullmatch(r"[0-9]", labels[0] or ""):
+        if NOT_SET.search(q["s"]) or len(st) not in (2, 3, 4) or len(set(labels)) != len(labels) or not re.fullmatch(r"[0-9]", labels[0] or ""):
             continue
         tail = " ".join(l for i, l in enumerate(lines) if not STMT.match(l))
         if re.search(r"\b(incorrect|not correct|false|wrong|NOT)\b", tail):
@@ -158,6 +159,8 @@ def check():
 
 def apply(q, out, rnd):
     """the rewritten MCQ: new statement texts, options and key rebuilt from the new truths (None if it can't be)"""
+    if NOT_SET.search(q["s"]):  # a matching / ordering question read as a statement set: keep it as it is
+        return None
     lines, st = parse(q)
     labels = [l for _, l, _ in st]
     tr = truths(q, labels)
