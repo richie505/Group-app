@@ -85,7 +85,8 @@ def statements(f, p):
             for l, txt in st:
                 true = (l in sel) != neg
                 out.append(dict(base, text=txt, true=true, kind="item" if short and not pairs else ("pair" if pairs else "list"), nst=len(st)))
-        elif not st and re.search(r"statement|pair", s, re.I) and (re.search(r"(which|identify|choose|select|find|pick).{0,50}(statement|following|pair).{0,50}(correct|true|incorrect|false|wrong|not|matched)", s, re.I)
+        elif not st and re.search(r"statement|pair", s, re.I) and not re.search(r"assertion|\breason\b|\(A\)|\(R\)", s, re.I) \
+                and not any(re.search(r"\b(is|are|both)\s+(true|false|correct|incorrect)\b|\bstatement\s*(I|1|II|2)\b", x, re.I) for x in o) and (re.search(r"(which|identify|choose|select|find|pick).{0,50}(statement|following|pair).{0,50}(correct|true|incorrect|false|wrong|not|matched)", s, re.I)
                          or re.search(r"(identify|choose|select|find|pick|which).{0,20}(the\s+)?(in)?correct\s+(statement|pair|one)", s, re.I)) \
                 and (sum(len(x) for x in o) / len(o) > 30 or re.search(r"pair", s, re.I)) and not re.search(r"\b(all|none|both) of (the )?(above|these|them)\b", " ".join(o), re.I):
             neg = bool(NEG.search(s)) or bool(re.search(r"\b(not|incorrectly|wrongly)\s+(correctly\s+)?(matched|paired)\b", s, re.I))

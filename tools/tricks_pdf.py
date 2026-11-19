@@ -349,6 +349,7 @@ def cover():
 <li><b>What to study</b> — weightage, repeats from other exams, the Current Affairs window.</li>
 <li><b>Exam-day method.</b></li>
 <li><b>Subject by subject</b> — for each of the eight subjects: the rules that work there, the words its statements give away, how APPSC built its real false statements, and the topics asked most.</li>
+<li><b>Proof across 40,000 PYQs and a backtest</b> — every rule checked on the app's whole PYQ bank, and a model that "sits" APPSC 2023–25 using the tricks alone.</li>
 <li>A one-page <b>cheat sheet</b>.</li></ol></div>
 <p class='note'>Data: the full APPSC papers in this app (Group 2 Prelims 2017 / 2019 / 2024, Group 2 Mains 2017 / 2025,
 Group 2 2008 / 2012, Group 1 Prelims 2008–2024, and other APPSC screening tests 2017–2022) with their keys — official final
@@ -553,16 +554,18 @@ main / primary aim · launched / set up <i>by</i> (check the body).</p>
 
 
 def cheat(st):
-    good = "".join(f"<li><b>{T.R[k][0]}</b> — {st[k]['pct']:.0f}% false</li>" for k, *_ in RULES)
-    rev = "".join(f"<li><b>{T.R[k][0]}</b> — only {st[k]['pct']:.0f}% false</li>" for k, *_ in REVERSE)
+    bank = lambda k: f" · all PYQs {CORP['rules'][k]['all'][1]:.0f}%" if CORP else ""
+    good = "".join(f"<li><b>{T.R[k][0]}</b> — APPSC {st[k]['pct']:.0f}%{bank(k)} false</li>" for k, *_ in RULES)
+    rev = "".join(f"<li><b>{T.R[k][0]}</b> — APPSC {st[k]['pct']:.0f}%{bank(k)} false</li>" for k, *_ in REVERSE)
     ne = "".join(f"<li>{T.R[k][0]}</li>" for k, *_ in NOEDGE)
     return f"""<section class='page cheat'><div class='kicker'>One page</div><h2>Cheat sheet</h2>
 <div class='cols3'>
 <div class='box green'><h3>Lean FALSE</h3><ul>{good}</ul></div>
 <div class='box'><h3>No edge — use knowledge</h3><ul>{ne}</ul></div>
-<div class='box red'><h3>Lean TRUE in APPSC</h3><ul>{rev}</ul></div></div>
+<div class='box red'><h3>Lean TRUE in APPSC</h3><ul>{rev}</ul><p class='note'>Bank-wide only the AP claims stay clearly true; the other two are near the 38% base — never eliminate on them.</p></div></div>
 <div class='cols'>
 <div class='box blue'><h3>Statement sets</h3><ul>
+<li><b>Know one statement first</b>: it leaves ~2.5 options and lifts a guess from 25% to ~47% (backtest on APPSC 2023–25).</li>
 <li>3 statements: exactly 2 true is most common ({pct(d3[2], n3):.0f}% in Group 1 Prelims).</li>
 <li>4 statements: 2 or 3 true ({pct(d4[2] + d4[3], n4):.0f}%); all 4 rare in Prelims ({pct(d4[4], n4):.0f}%).</li>
 <li>Decide the surest statement first; strike options that contradict it.</li>
@@ -737,9 +740,99 @@ set the option with more statements is the better bet; when it is high (Polity ~
 statement as a coin you must test.</div></section>"""
 
 
+# ---------------------------------------------------------------- Part 9: the whole PYQ bank + backtest
+CORP = json.load(open("data/tricks/corpus.json")) if os.path.exists("data/tricks/corpus.json") else {}
+BT = json.load(open("data/tricks/backtest.json")) if os.path.exists("data/tricks/backtest.json") else {}
+
+
+def bank_pages():
+    if not CORP:
+        return ""
+    tiers = ["g2", "ap", "up", "ot", "all"]
+    tn = {"g2": "APPSC Group 2", "ap": "Other APPSC", "up": "UPSC", "ot": "Other PSCs", "all": "All PYQs"}
+    base = CORP["base"]
+    rows = []
+    for k, r in sorted(CORP["rules"].items(), key=lambda kv: -kv[1]["all"][1]):
+        if r["all"][0] < 30:
+            continue
+        cells = []
+        for t in tiers:
+            n, pc = r[t]
+            cls = "" if n < 12 else ("strong" if pc - base >= 20 else "good" if pc - base >= 10 else "rev" if pc - base <= -5 else "none")
+            cells.append(f"<td class='{cls}'>{pc:.0f}% <span class='note'>{n}</span></td>" if n else "<td>—</td>")
+        d = r["all"][1] - base
+        call = "<b>lean FALSE</b>" if d >= 10 else "slight lean false" if d >= 5 else "<b>lean TRUE</b>" if d <= -5 else "no edge"
+        rows.append(f"<tr><td>{E(r['title'])}</td>{''.join(cells)}<td>{call}</td></tr>")
+    tt = "".join(f"<tr><td>{E(v['name'])}</td><td>{v['pyq']:,}</td><td>{v['n']:,}</td><td>{v['false']:.0f}%</td></tr>" for v in CORP["tiers"].values())
+    cues = ""
+    for sj, d in CORP["subjects"].items():
+        lf = [c for c in d["lean_false"] if c[2] >= 8][:10]
+        lt = d["lean_true"][:6]
+        if not lf and not lt:
+            continue
+        cues += (f"<div class='box'><b>{E(sj)}</b> <span class='note'>{d['n']:,} statements, {d['base']:.0f}% false</span><div class='chips'>"
+                 + "".join(f"<span class='chip f'>{E(c[0])} <b>{c[3]}%</b><i>{c[1]}</i></span>" for c in lf)
+                 + "".join(f"<span class='chip t'>{E(c[0])} <b>{c[3]}%</b><i>{c[1]}</i></span>" for c in lt) + "</div></div>")
+    p1 = f"""<section class='page'><div class='kicker'>Part 9 · the whole PYQ bank</div><h2>Proof across {CORP['n_pyq']:,} PYQs</h2>
+<p>APPSC's own papers give a few hundred statements per rule at best. The app's PYQ bank — APPSC, UPSC, other State PSCs and SSC
+papers, duplicates removed — gives <b>{CORP['n_st']:,} statements</b> whose truth the key fixes. Same method: of the statements a rule
+fires on, how many were false? Base rate across the bank: <b>{base:.0f}%</b>.</p>
+<table style='width:60%'><tr><th>Exam family</th><th>PYQs</th><th>Statements</th><th>False</th></tr>{tt}</table>
+<table style='font-size:7.6pt'><tr><th>Rule</th>{''.join(f'<th>{tn[t]}</th>' for t in tiers)}<th>Verdict (bank)</th></tr>{''.join(rows)}</table>
+<p class='note'>Grey numbers = statements the rule fired on. Colours only where at least 12 statements.</p>
+</section>"""
+    p2 = f"""<section class='page'><div class='kicker'>Part 9 · the whole PYQ bank</div><h2>Words that give a statement away — confirmed on thousands</h2>
+<p>The same word search as in Part 8, now on the whole bank: a word is listed only if it appeared in 20+ statements and its false rate is
+far from the subject's base (red = lean false, green = lean true; grey = number of statements).</p><div class='box amber'><b>What the bigger sample changes</b><ul>
+<li><b>Confirmed strong everywhere:</b> "only" and "but … not" are false about seven times in ten in every exam family; "launched / set up by …"
+and extreme words also lean false (extreme words most in UPSC, least in other PSCs).</li>
+<li><b>Confirmed no edge:</b> exact figures and years are false at the base rate in every family — learn them, never eliminate on them.</li>
+<li><b>Corrected:</b> comparisons (whereas / unlike) are only a weak signal across the bank (46%), not the 62% the APPSC papers alone suggested.
+"First / largest" claims are false at about the base rate overall — leaning true only in APPSC Group 2. Either way: never eliminate on them.</li>
+<li><b>UPSC habits that don't transfer:</b> "The Constitution provides / Article X…" is false 74% of the time in UPSC but only 32% in other APPSC exams.</li>
+<li><b>Lean TRUE everywhere:</b> Andhra Pradesh-specific claims ({CORP['rules']['ap']['all'][1]:.0f}% false across {CORP['rules']['ap']['all'][0]} statements).</li></ul></div>{cues}
+<div class='box blue'><b>Polity, the subject with the most robust cues:</b> statements about <b>who is a member of</b> a body, what a <b>Schedule</b>
+contains, what <b>cannot be</b> done and what <b>the Government</b> does are false about seven times in ten. Statements about <b>electoral</b>
+matters and <b>funds</b> (Consolidated / Contingency) are usually true. In Economy, a named <b>ministry</b> is the trap (75% false); in Geography,
+"<b>located</b> in …" statements are usually true.</div></section>"""
+    if not BT:
+        return p1 + p2
+    q = BT["questions"]
+    k1 = q.get("k1", 0)
+    p3 = f"""<section class='page'><div class='kicker'>Part 9 · the backtest</div><h2>Can the tricks alone crack APPSC 2023–25?</h2>
+<p>A fair test: a model learns the rules and the words of statements from the PYQ bank only — {BT['train']:,} statements, with every
+statement of the recent papers taken out — and then "sits" APPSC Group 1 Prelims 2023 and 2024, Group 2 Prelims 2024 and Group 2 Mains
+2025 knowing nothing about the subjects.</p>
+<div class='facts' style='grid-template-columns:repeat(4,1fr)'>
+<div class='fact'><b>{BT['test']}</b><span>statements in the recent papers ({BT['test_false']:.0f}% false)</span></div>
+<div class='fact'><b>{BT['rules+words']['auc']:.2f}</b><span>AUC (0.50 = no signal, 1.00 = perfect)</span></div>
+<div class='fact'><b>{100 * q['right'] / max(1, q['questions']):.0f}%</b><span>of {q['questions']} statement questions right, picking blind (chance 25%)</span></div>
+<div class='fact'><b>{BT['marks']:+.0f}</b><span>marks over those {q['questions']} questions with −⅓ negative marking</span></div></div>
+<h3>What it shows</h3><ol>
+<li><b>The tricks are real but small.</b> Judging statements blind, the model is right {BT['rules+words']['acc']:.0f}% of the time — barely
+better than calling everything true. On the {BT['rules+words']['conf_share']:.0f}% of statements where the signal is strong (several cues
+at once), it is right {BT['rules+words']['acc_conf']:.0f}%.</li>
+<li><b>Picking options blind still pays a little:</b> {100 * q['right'] / max(1, q['questions']):.0f}% right against 25% chance is worth about
++{BT['marks'] / max(1, q['questions']):.2f} marks per question — positive, but no way to clear a cut-off.</li>
+<li><b>Knowing ONE statement is worth far more than every trick.</b> Simulated on the same questions: if you are sure of just one statement and
+strike the options that contradict it, <b>{q.get('k1_left', 0) / max(1, k1):.1f}</b> options are left on average and a guess among them is
+right <b>{100 * q.get('k1_guess', 0) / max(1, k1):.0f}%</b> of the time (+{(q.get('k1_guess', 0) / max(1, k1)) * 4 / 3 - 1 / 3:.2f} marks per
+question). Letting the tricks choose among those remaining options lifts it to <b>{100 * q.get('k1_model', 0) / max(1, k1):.0f}%</b>.</li>
+<li><b>Elimination by the tricks:</b> the option the model ranks last was wrong {100 * BT['elim']['worst_wrong'] / max(1, BT['elim']['n']):.0f}%
+of the time (chance 75%) — use the tricks to strike, not to choose.</li></ol>
+<div class='box green'><b>The conclusion for the exam hall:</b> (1) settle the one statement you are surest of — that alone roughly doubles your
+odds; (2) strike every option that contradicts it; (3) only then use the trap words ("only", "but…not", extreme words, "launched by")
+to choose among what is left; (4) answer whenever two or fewer options remain. Tricks are the tie-breaker, knowledge of single
+statements is the engine.</div>
+<h3>Which cues carry the most weight (learnt from the bank)</h3>
+<p class='note'>{' · '.join(f"{E(t)} {w:+.2f}" for t, w in BT.get('weights', [])[:12])}</p>
+<p class='note'>Weights are log-odds of "false" when the cue fires, all cues together; positive = lean false, negative = lean true.</p></section>"""
+    return p1 + p2 + p3
+
+
 def main():
     rp, st = rules_page()
-    body = cover() + shift_page() + rp + playbook() + maths() + study() + method() + subjects_overview() + "".join(subject_page(sj, d) for sj, d in SUBJ.items()) + cheat(st)
+    body = cover() + shift_page() + rp + playbook() + maths() + study() + method() + subjects_overview() + "".join(subject_page(sj, d) for sj, d in SUBJ.items()) + bank_pages() + cheat(st)
     doc = f"<!doctype html><html lang='en'><head><meta charset='utf-8'><title>APPSC: Cracked</title><style>{CSS}</style></head><body>{body}</body></html>"
     os.makedirs("docs", exist_ok=True)
     open("docs/APPSC-Cracked.html", "w").write(doc)

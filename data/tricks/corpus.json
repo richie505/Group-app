@@ -1,0 +1,1045 @@
+{
+ "n_pyq": 40557,
+ "n_st": 9168,
+ "tiers": {
+  "g2": {
+   "name": "APPSC Group 2",
+   "n": 306,
+   "false": 38.9,
+   "pyq": 2734
+  },
+  "ap": {
+   "name": "Other APPSC exams",
+   "n": 2374,
+   "false": 39.7,
+   "pyq": 15617
+  },
+  "up": {
+   "name": "UPSC",
+   "n": 1910,
+   "false": 43.2,
+   "pyq": 2361
+  },
+  "ot": {
+   "name": "Other State PSCs & exams",
+   "n": 4578,
+   "false": 34.8,
+   "pyq": 19845
+  }
+ },
+ "rules": {
+  "extreme": {
+   "title": "Extreme words",
+   "g2": [
+    33,
+    57.6
+   ],
+   "ap": [
+    235,
+    57.0
+   ],
+   "up": [
+    238,
+    63.0
+   ],
+   "ot": [
+    400,
+    43.2
+   ],
+   "all": [
+    906,
+    52.5
+   ]
+  },
+  "only": {
+   "title": "The word \"only\"",
+   "g2": [
+    12,
+    50.0
+   ],
+   "ap": [
+    58,
+    72.4
+   ],
+   "up": [
+    69,
+    73.9
+   ],
+   "ot": [
+    82,
+    62.2
+   ],
+   "all": [
+    221,
+    67.9
+   ]
+  },
+  "exactnum": {
+   "title": "Exact figures (not years)",
+   "g2": [
+    57,
+    43.9
+   ],
+   "ap": [
+    437,
+    38.4
+   ],
+   "up": [
+    96,
+    53.1
+   ],
+   "ot": [
+    421,
+    40.1
+   ],
+   "all": [
+    1011,
+    40.9
+   ]
+  },
+  "year": {
+   "title": "A precise year or date",
+   "g2": [
+    43,
+    55.8
+   ],
+   "ap": [
+    313,
+    37.7
+   ],
+   "up": [
+    70,
+    35.7
+   ],
+   "ot": [
+    286,
+    38.1
+   ],
+   "all": [
+    712,
+    38.8
+   ]
+  },
+  "by_institution": {
+   "title": "\"launched / set up / implemented by\" a body",
+   "g2": [
+    4,
+    100.0
+   ],
+   "ap": [
+    48,
+    50.0
+   ],
+   "up": [
+    15,
+    66.7
+   ],
+   "ot": [
+    33,
+    45.5
+   ],
+   "all": [
+    100,
+    53.0
+   ]
+  },
+  "intl_org": {
+   "title": "A named international organisation",
+   "g2": [
+    7,
+    28.6
+   ],
+   "ap": [
+    57,
+    43.9
+   ],
+   "up": [
+    26,
+    53.8
+   ],
+   "ot": [
+    56,
+    33.9
+   ],
+   "all": [
+    146,
+    41.1
+   ]
+  },
+  "constitution": {
+   "title": "\"The Constitution defines / provides / mentions ...\"",
+   "g2": [
+    6,
+    50.0
+   ],
+   "ap": [
+    53,
+    32.1
+   ],
+   "up": [
+    27,
+    74.1
+   ],
+   "ot": [
+    32,
+    50.0
+   ],
+   "all": [
+    118,
+    47.5
+   ]
+  },
+  "but_not": {
+   "title": "\"... but ... not ...\"",
+   "g2": [
+    0,
+    0.0
+   ],
+   "ap": [
+    22,
+    81.8
+   ],
+   "up": [
+    6,
+    83.3
+   ],
+   "ot": [
+    13,
+    53.8
+   ],
+   "all": [
+    41,
+    73.2
+   ]
+  },
+  "because": {
+   "title": "A reason given (because / due to / hence / so)",
+   "g2": [
+    7,
+    42.9
+   ],
+   "ap": [
+    36,
+    41.7
+   ],
+   "up": [
+    9,
+    44.4
+   ],
+   "ot": [
+    61,
+    34.4
+   ],
+   "all": [
+    113,
+    38.1
+   ]
+  },
+  "compare": {
+   "title": "A comparison (whereas / while / unlike / more than / higher than)",
+   "g2": [
+    4,
+    50.0
+   ],
+   "ap": [
+    71,
+    54.9
+   ],
+   "up": [
+    88,
+    43.2
+   ],
+   "ot": [
+    159,
+    44.0
+   ],
+   "all": [
+    322,
+    46.3
+   ]
+  },
+  "trend": {
+   "title": "A steady / continuous trend",
+   "g2": [
+    2,
+    0.0
+   ],
+   "ap": [
+    9,
+    22.2
+   ],
+   "up": [
+    15,
+    73.3
+   ],
+   "ot": [
+    14,
+    35.7
+   ],
+   "all": [
+    40,
+    45.0
+   ]
+  },
+  "contemporary": {
+   "title": "\"X and Y were contemporaries\"",
+   "g2": [
+    0,
+    0.0
+   ],
+   "ap": [
+    1,
+    0.0
+   ],
+   "up": [
+    4,
+    100.0
+   ],
+   "ot": [
+    3,
+    33.3
+   ],
+   "all": [
+    8,
+    62.5
+   ]
+  },
+  "native": {
+   "title": "\"native / endemic / indigenous to\"",
+   "g2": [
+    0,
+    0.0
+   ],
+   "ap": [
+    8,
+    37.5
+   ],
+   "up": [
+    5,
+    40.0
+   ],
+   "ot": [
+    9,
+    33.3
+   ],
+   "all": [
+    22,
+    36.4
+   ]
+  },
+  "main": {
+   "title": "\"main / primary / chief aim\"",
+   "g2": [
+    13,
+    69.2
+   ],
+   "ap": [
+    61,
+    52.5
+   ],
+   "up": [
+    34,
+    47.1
+   ],
+   "ot": [
+    97,
+    27.8
+   ],
+   "all": [
+    205,
+    41.0
+   ]
+  },
+  "authority": {
+   "title": "A named office (President, Governor, Speaker, CM ...)",
+   "g2": [
+    40,
+    37.5
+   ],
+   "ap": [
+    166,
+    53.0
+   ],
+   "up": [
+    142,
+    47.9
+   ],
+   "ot": [
+    338,
+    39.3
+   ],
+   "all": [
+    686,
+    44.3
+   ]
+  },
+  "binding": {
+   "title": "\"legally binding / mandatory / enforceable\"",
+   "g2": [
+    2,
+    50.0
+   ],
+   "ap": [
+    12,
+    50.0
+   ],
+   "up": [
+    16,
+    62.5
+   ],
+   "ot": [
+    14,
+    42.9
+   ],
+   "all": [
+    44,
+    52.3
+   ]
+  },
+  "tax": {
+   "title": "\"tax-free / exempt\"",
+   "g2": [
+    0,
+    0.0
+   ],
+   "ap": [
+    2,
+    0.0
+   ],
+   "up": [
+    1,
+    0.0
+   ],
+   "ot": [
+    1,
+    0.0
+   ],
+   "all": [
+    4,
+    0.0
+   ]
+  },
+  "hq": {
+   "title": "A headquarters city",
+   "g2": [
+    0,
+    0.0
+   ],
+   "ap": [
+    6,
+    33.3
+   ],
+   "up": [
+    3,
+    66.7
+   ],
+   "ot": [
+    12,
+    41.7
+   ],
+   "all": [
+    21,
+    42.9
+   ]
+  },
+  "first": {
+   "title": "\"first / largest / highest / oldest\" claims",
+   "g2": [
+    21,
+    23.8
+   ],
+   "ap": [
+    136,
+    34.6
+   ],
+   "up": [
+    76,
+    44.7
+   ],
+   "ot": [
+    202,
+    38.6
+   ],
+   "all": [
+    435,
+    37.7
+   ]
+  },
+  "multi": {
+   "title": "Two or more facts joined in one statement",
+   "g2": [
+    13,
+    38.5
+   ],
+   "ap": [
+    160,
+    30.6
+   ],
+   "up": [
+    80,
+    52.5
+   ],
+   "ot": [
+    148,
+    29.7
+   ],
+   "all": [
+    401,
+    34.9
+   ]
+  },
+  "negated": {
+   "title": "A statement that itself says \"not / no\"",
+   "g2": [
+    13,
+    61.5
+   ],
+   "ap": [
+    133,
+    57.1
+   ],
+   "up": [
+    133,
+    52.6
+   ],
+   "ot": [
+    247,
+    44.9
+   ],
+   "all": [
+    526,
+    50.4
+   ]
+  },
+  "ap": {
+   "title": "Andhra Pradesh-specific claims",
+   "g2": [
+    35,
+    31.4
+   ],
+   "ap": [
+    186,
+    31.7
+   ],
+   "up": [
+    19,
+    42.1
+   ],
+   "ot": [
+    70,
+    32.9
+   ],
+   "all": [
+    310,
+    32.6
+   ]
+  }
+ },
+ "subjects": {
+  "Indian History": {
+   "n": 1468,
+   "base": 33.7,
+   "rules": {
+    "extreme": {
+     "title": "Extreme words",
+     "n": 84,
+     "pct": 41.7
+    },
+    "exactnum": {
+     "title": "Exact figures (not years)",
+     "n": 60,
+     "pct": 30.0
+    },
+    "year": {
+     "title": "A precise year or date",
+     "n": 146,
+     "pct": 35.6
+    },
+    "authority": {
+     "title": "A named office (President, Governor, Speaker, CM ...)",
+     "n": 34,
+     "pct": 38.2
+    },
+    "first": {
+     "title": "\"first / largest / highest / oldest\" claims",
+     "n": 79,
+     "pct": 34.2
+    },
+    "multi": {
+     "title": "Two or more facts joined in one statement",
+     "n": 45,
+     "pct": 31.1
+    },
+    "negated": {
+     "title": "A statement that itself says \"not / no\"",
+     "n": 56,
+     "pct": 39.3
+    }
+   },
+   "lean_false": [],
+   "lean_true": []
+  },
+  "AP History & Culture": {
+   "n": 369,
+   "base": 30.6,
+   "rules": {
+    "year": {
+     "title": "A precise year or date",
+     "n": 45,
+     "pct": 26.7
+    },
+    "ap": {
+     "title": "Andhra Pradesh-specific claims",
+     "n": 95,
+     "pct": 25.3
+    }
+   },
+   "lean_false": [],
+   "lean_true": []
+  },
+  "Polity & Constitution": {
+   "n": 1828,
+   "base": 41.8,
+   "rules": {
+    "extreme": {
+     "title": "Extreme words",
+     "n": 391,
+     "pct": 48.3
+    },
+    "only": {
+     "title": "The word \"only\"",
+     "n": 93,
+     "pct": 62.4
+    },
+    "exactnum": {
+     "title": "Exact figures (not years)",
+     "n": 251,
+     "pct": 39.0
+    },
+    "year": {
+     "title": "A precise year or date",
+     "n": 116,
+     "pct": 37.9
+    },
+    "intl_org": {
+     "title": "A named international organisation",
+     "n": 51,
+     "pct": 35.3
+    },
+    "constitution": {
+     "title": "\"The Constitution defines / provides / mentions ...\"",
+     "n": 96,
+     "pct": 49.0
+    },
+    "but_not": {
+     "title": "\"... but ... not ...\"",
+     "n": 26,
+     "pct": 69.2
+    },
+    "compare": {
+     "title": "A comparison (whereas / while / unlike / more than / higher than)",
+     "n": 50,
+     "pct": 50.0
+    },
+    "main": {
+     "title": "\"main / primary / chief aim\"",
+     "n": 61,
+     "pct": 45.9
+    },
+    "authority": {
+     "title": "A named office (President, Governor, Speaker, CM ...)",
+     "n": 587,
+     "pct": 44.1
+    },
+    "first": {
+     "title": "\"first / largest / highest / oldest\" claims",
+     "n": 69,
+     "pct": 36.2
+    },
+    "multi": {
+     "title": "Two or more facts joined in one statement",
+     "n": 103,
+     "pct": 43.7
+    },
+    "negated": {
+     "title": "A statement that itself says \"not / no\"",
+     "n": 242,
+     "pct": 43.8
+    }
+   },
+   "lean_false": [
+    [
+     "member of",
+     39,
+     29,
+     74,
+     4.12
+    ],
+    [
+     "constitution of",
+     77,
+     49,
+     64,
+     3.89
+    ],
+    [
+     "but",
+     44,
+     30,
+     68,
+     3.55
+    ],
+    [
+     "the government",
+     36,
+     25,
+     69,
+     3.36
+    ],
+    [
+     "government",
+     72,
+     44,
+     61,
+     3.32
+    ],
+    [
+     "constitution",
+     172,
+     92,
+     53,
+     3.11
+    ],
+    [
+     "member",
+     65,
+     39,
+     60,
+     2.98
+    ],
+    [
+     "schedule",
+     24,
+     17,
+     71,
+     2.88
+    ],
+    [
+     "election",
+     84,
+     48,
+     57,
+     2.85
+    ],
+    [
+     "cannot be",
+     28,
+     19,
+     68,
+     2.8
+    ],
+    [
+     "case",
+     28,
+     19,
+     68,
+     2.8
+    ],
+    [
+     "the constitution",
+     135,
+     72,
+     53,
+     2.72
+    ],
+    [
+     "the election",
+     37,
+     23,
+     62,
+     2.51
+    ]
+   ],
+   "lean_true": [
+    [
+     "electoral",
+     23,
+     3,
+     13,
+     -2.8
+    ],
+    [
+     "fund",
+     22,
+     3,
+     14,
+     -2.68
+    ]
+   ]
+  },
+  "Indian Society": {
+   "n": 227,
+   "base": 37.9,
+   "rules": {
+    "extreme": {
+     "title": "Extreme words",
+     "n": 30,
+     "pct": 50.0
+    },
+    "exactnum": {
+     "title": "Exact figures (not years)",
+     "n": 46,
+     "pct": 41.3
+    },
+    "year": {
+     "title": "A precise year or date",
+     "n": 25,
+     "pct": 48.0
+    }
+   },
+   "lean_false": [],
+   "lean_true": []
+  },
+  "Economy": {
+   "n": 1313,
+   "base": 37.6,
+   "rules": {
+    "extreme": {
+     "title": "Extreme words",
+     "n": 122,
+     "pct": 55.7
+    },
+    "only": {
+     "title": "The word \"only\"",
+     "n": 35,
+     "pct": 77.1
+    },
+    "exactnum": {
+     "title": "Exact figures (not years)",
+     "n": 212,
+     "pct": 42.5
+    },
+    "year": {
+     "title": "A precise year or date",
+     "n": 109,
+     "pct": 40.4
+    },
+    "compare": {
+     "title": "A comparison (whereas / while / unlike / more than / higher than)",
+     "n": 71,
+     "pct": 56.3
+    },
+    "main": {
+     "title": "\"main / primary / chief aim\"",
+     "n": 26,
+     "pct": 46.2
+    },
+    "first": {
+     "title": "\"first / largest / highest / oldest\" claims",
+     "n": 81,
+     "pct": 42.0
+    },
+    "multi": {
+     "title": "Two or more facts joined in one statement",
+     "n": 39,
+     "pct": 35.9
+    },
+    "negated": {
+     "title": "A statement that itself says \"not / no\"",
+     "n": 56,
+     "pct": 62.5
+    },
+    "ap": {
+     "title": "Andhra Pradesh-specific claims",
+     "n": 58,
+     "pct": 32.8
+    }
+   },
+   "lean_false": [
+    [
+     "ministry",
+     20,
+     15,
+     75,
+     3.45
+    ],
+    [
+     "ministry of",
+     20,
+     15,
+     75,
+     3.45
+    ]
+   ],
+   "lean_true": []
+  },
+  "Geography": {
+   "n": 1434,
+   "base": 39.6,
+   "rules": {
+    "extreme": {
+     "title": "Extreme words",
+     "n": 77,
+     "pct": 54.5
+    },
+    "exactnum": {
+     "title": "Exact figures (not years)",
+     "n": 125,
+     "pct": 44.0
+    },
+    "year": {
+     "title": "A precise year or date",
+     "n": 39,
+     "pct": 30.8
+    },
+    "because": {
+     "title": "A reason given (because / due to / hence / so)",
+     "n": 25,
+     "pct": 32.0
+    },
+    "compare": {
+     "title": "A comparison (whereas / while / unlike / more than / higher than)",
+     "n": 63,
+     "pct": 39.7
+    },
+    "main": {
+     "title": "\"main / primary / chief aim\"",
+     "n": 38,
+     "pct": 44.7
+    },
+    "first": {
+     "title": "\"first / largest / highest / oldest\" claims",
+     "n": 88,
+     "pct": 48.9
+    },
+    "multi": {
+     "title": "Two or more facts joined in one statement",
+     "n": 50,
+     "pct": 34.0
+    },
+    "negated": {
+     "title": "A statement that itself says \"not / no\"",
+     "n": 44,
+     "pct": 61.4
+    },
+    "ap": {
+     "title": "Andhra Pradesh-specific claims",
+     "n": 87,
+     "pct": 43.7
+    }
+   },
+   "lean_false": [],
+   "lean_true": [
+    [
+     "located",
+     38,
+     7,
+     18,
+     -2.67
+    ]
+   ]
+  },
+  "Science, Technology & Environment": {
+   "n": 2238,
+   "base": 38.1,
+   "rules": {
+    "extreme": {
+     "title": "Extreme words",
+     "n": 172,
+     "pct": 65.1
+    },
+    "only": {
+     "title": "The word \"only\"",
+     "n": 55,
+     "pct": 76.4
+    },
+    "exactnum": {
+     "title": "Exact figures (not years)",
+     "n": 238,
+     "pct": 43.3
+    },
+    "year": {
+     "title": "A precise year or date",
+     "n": 156,
+     "pct": 41.0
+    },
+    "by_institution": {
+     "title": "\"launched / set up / implemented by\" a body",
+     "n": 28,
+     "pct": 57.1
+    },
+    "intl_org": {
+     "title": "A named international organisation",
+     "n": 34,
+     "pct": 61.8
+    },
+    "because": {
+     "title": "A reason given (because / due to / hence / so)",
+     "n": 40,
+     "pct": 30.0
+    },
+    "compare": {
+     "title": "A comparison (whereas / while / unlike / more than / higher than)",
+     "n": 106,
+     "pct": 42.5
+    },
+    "main": {
+     "title": "\"main / primary / chief aim\"",
+     "n": 38,
+     "pct": 28.9
+    },
+    "first": {
+     "title": "\"first / largest / highest / oldest\" claims",
+     "n": 71,
+     "pct": 31.0
+    },
+    "multi": {
+     "title": "Two or more facts joined in one statement",
+     "n": 116,
+     "pct": 34.5
+    },
+    "negated": {
+     "title": "A statement that itself says \"not / no\"",
+     "n": 101,
+     "pct": 60.4
+    }
+   },
+   "lean_false": [
+    [
+     "countries",
+     32,
+     22,
+     69,
+     3.57
+    ],
+    [
+     "cells",
+     33,
+     21,
+     64,
+     3.02
+    ]
+   ],
+   "lean_true": []
+  },
+  "Current Affairs": {
+   "n": 291,
+   "base": 37.1,
+   "rules": {
+    "exactnum": {
+     "title": "Exact figures (not years)",
+     "n": 61,
+     "pct": 42.6
+    },
+    "year": {
+     "title": "A precise year or date",
+     "n": 76,
+     "pct": 47.4
+    }
+   },
+   "lean_false": [],
+   "lean_true": []
+  }
+ },
+ "base": 37.9
+}

@@ -1,0 +1,120 @@
+{
+ "train": 8317,
+ "test": 858,
+ "test_false": 41.4,
+ "rules": {
+  "auc": 0.612,
+  "acc": 59.0,
+  "conf_share": 7.1,
+  "acc_conf": 63.9
+ },
+ "rules+words": {
+  "auc": 0.616,
+  "acc": 59.0,
+  "conf_share": 23.0,
+  "acc_conf": 64.0
+ },
+ "weights": [
+  [
+   "\"X and Y were contemporaries\"",
+   1.4
+  ],
+  [
+   "The word \"only\"",
+   0.89
+  ],
+  [
+   "\"... but ... not ...\"",
+   0.84
+  ],
+  [
+   "\"launched / set up / implemented by\" a body",
+   0.66
+  ],
+  [
+   "\"legally binding / mandatory / enforceable\"",
+   0.4
+  ],
+  [
+   "A steady / continuous trend",
+   0.4
+  ],
+  [
+   "\"The Constitution defines / provides / mentions ...\"",
+   0.38
+  ],
+  [
+   "Extreme words",
+   0.33
+  ],
+  [
+   "A comparison (whereas / while / unlike / more than / higher than)",
+   0.29
+  ],
+  [
+   "A statement that itself says \"not / no\"",
+   0.26
+  ],
+  [
+   "A named office (President, Governor, Speaker, CM ...)",
+   0.16
+  ],
+  [
+   "A headquarters city",
+   0.11
+  ],
+  [
+   "Exact figures (not years)",
+   0.09
+  ],
+  [
+   "\"first / largest / highest / oldest\" claims",
+   0.09
+  ],
+  [
+   "A named international organisation",
+   0.08
+  ],
+  [
+   "\"main / primary / chief aim\"",
+   0.06
+  ],
+  [
+   "A precise year or date",
+   0.04
+  ],
+  [
+   "A reason given (because / due to / hence / so)",
+   0.04
+  ],
+  [
+   "\"native / endemic / indigenous to\"",
+   -0.12
+  ],
+  [
+   "Two or more facts joined in one statement",
+   -0.17
+  ],
+  [
+   "Andhra Pradesh-specific claims",
+   -0.24
+  ],
+  [
+   "\"tax-free / exempt\"",
+   -0.74
+  ]
+ ],
+ "questions": {
+  "k1": 722,
+  "k1_guess": 337.1666666666666,
+  "k1_left": 1773,
+  "k1_model": 363,
+  "questions": 242,
+  "right": 74
+ },
+ "elim": {
+  "n": 242,
+  "worst_wrong": 190
+ },
+ "marks": 18.0
+}
