@@ -171,6 +171,8 @@ def apply(q, out, rnd):
             m = STMT.match(lines[i])
             lines[i] = m.group(1) + m.group(2) + m.group(3) + out["st"][l].strip()
             tr[l] = not tr[l]
+    if out.get("truth"):  # the original key itself was wrong: the final truths, as checked
+        tr = {l: bool(out["truth"].get(l, tr[l])) for l in labels}
     target = {l for l, v in tr.items() if v}
     o, a = options(target, labels, rnd)
     return dict(q, s="\n".join(lines), o=o, a=a, x=out["x"], tq="statements")
