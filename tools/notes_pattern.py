@@ -8,7 +8,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 import appsc_tricks as T
 import appsc_subjects as AS
 
-A = sys.argv[1] if len(sys.argv) > 1 else "app/src/group2/assets"
+A = sys.argv[1] if len(sys.argv) > 1 and __name__ == "__main__" else "app/src/group2/assets"
 
 
 def notes_mcqs():

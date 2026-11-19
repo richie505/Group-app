@@ -1,0 +1,29 @@
+Task: rewrite statements of Group 2's notes MCQs so they follow APPSC's real pattern (APPSC: Cracked). Never use the
+Anthropic API. Do not commit. Write only data/realign/job-N.out.jsonl. Scratch files only in
+/tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/realign-N/.
+
+Why: in our MCQs almost every 3-statement set has exactly 2 true and our false statements are mostly a changed number,
+so APPSC's trap words ("only", "not", extreme words) wrongly lean TRUE. APPSC builds false statements with subject-typical
+twists and varies how many are true. You change ONLY the statements named in each line; the options and key are rebuilt
+by code afterwards from the new truths.
+
+Input data/realign/job-N.jsonl, one MCQ per line: id, subject, question (with numbered statements), options, key,
+explanation (tells you which statements are true / false and why), truth {label: true/false}, make_false [labels],
+make_true [labels], twists (this subject's typical APPSC traps). Read the section's notes when you need a fact:
+python3 tools/g2syl_show.py <b> <r>.
+
+For each line write ONE line to data/realign/job-N.out.jsonl (same order):
+{"id": "...", "st": {"<label>": "<new statement text>", ...}, "x": "<new explanation>"}
+ - make_false: rewrite that TRUE statement into a FALSE one the APPSC way: change ONE thing using one of this subject's
+   twists (see "twists"); keep it plausible, same length and style, about the same fact. If the statement already has a
+   trap word (only / all / never / not / cannot / every / must / exclusively), prefer making the error sit right there
+   (e.g. remove the real exception, flip the "not"). Never make it absurd or obviously wrong; never use a fact that is
+   itself doubtful.
+ - make_true: rewrite that FALSE statement into its TRUE version (the explanation says what is right).
+ - "st" holds exactly the labels in make_false + make_true, text WITHOUT the "1." label.
+ - "x": the full new explanation in the same style as before: say which statements are correct and, for every false
+   one, what the truth is (one short clause each). Do not mention options or letters.
+Facts must be right: check the notes or your knowledge; if a rewrite would need a fact you are not sure of, choose a
+different twist that you are sure of.
+Then check with Python: every input id once, in order; st keys == make_false + make_true; no label prefix in the text.
+Then run: python3 tools/notes_realign.py check  (look at your job). Report counts and 5 examples (before -> after).

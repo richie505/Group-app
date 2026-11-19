@@ -179,6 +179,10 @@ ARIHANT = set(J("data/pyq/arihant/applied.json")) if os.path.exists("data/pyq/ar
 # the app's own MCQs: the notes MCQs, or the one-liners of APPSC One-liners in their place (data/g2_notes_mcqs.txt;
 # a one-liner that repeats a PYQ of its topic - same answer, similar question - is left out). PYQs are always kept.
 NOTES_MODE = open("data/g2_notes_mcqs.txt").read().strip() if os.path.exists("data/g2_notes_mcqs.txt") else "notes"
+import notes_realign as _ra
+import random as _random
+_RA = _ra.load() if NOTES_MODE == "notes" else {}
+_RR = _random.Random(7)
 ONE = {}
 if NOTES_MODE == "oneliners":
     from sklearn.feature_extraction.text import TfidfVectorizer as _TV
@@ -411,6 +415,8 @@ for b in range(1, 7):
         if NOTES_MODE == "oneliners":  # the PYQs, then the topic's one-liners in place of its notes MCQs
             kept = [(q, sb_) for q, sb_ in kept if q["id"].startswith("y")] + ONE.get((b, int(r)), [])
         kept += PLACE.get((b, int(r)), [])
+        if NOTES_MODE == "notes" and _RA:  # notes MCQs brought to APPSC's pattern (tools/notes_realign.py)
+            kept = [((_ra.apply(q, _RA[q["id"]], _RR) or q) if q["id"] in _RA else q, sb_) for q, sb_ in kept]
         for q, sb in kept:
             if not q.get("lf") or not (q["id"].startswith(SY.PAPER_PREFIXES) or q["id"].startswith("g2l")):
                 q["lf"] = SY.question_leaf(f"{b}:{r}", sb)
