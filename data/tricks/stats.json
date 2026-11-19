@@ -1,0 +1,2974 @@
+{
+ "statements": 983,
+ "items": 275,
+ "false_share": 0.4140386571719227,
+ "rules": {
+  "extreme": {
+   "title": "Extreme words",
+   "total": 112,
+   "right": 65,
+   "pct": 58.0,
+   "rows": [
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2024",
+     "right": 2,
+     "failed": 1,
+     "total": 3,
+     "pct": 66.7,
+     "refs": [
+      30,
+      80
+     ]
+    },
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2019",
+     "right": 0,
+     "failed": 1,
+     "total": 1,
+     "pct": 0.0,
+     "refs": []
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "right": 11,
+     "failed": 12,
+     "total": 23,
+     "pct": 47.8,
+     "refs": [
+      1,
+      27,
+      37,
+      114,
+      119,
+      146
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2017",
+     "right": 8,
+     "failed": 3,
+     "total": 11,
+     "pct": 72.7,
+     "refs": [
+      64,
+      76,
+      93,
+      98,
+      100,
+      117
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 32,
+     "failed": 15,
+     "total": 47,
+     "pct": 68.1,
+     "refs": [
+      3,
+      31,
+      32,
+      33,
+      34,
+      35
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 11,
+     "failed": 12,
+     "total": 23,
+     "pct": 47.8,
+     "refs": [
+      2,
+      34,
+      35,
+      37,
+      61,
+      84
+     ]
+    },
+    {
+     "exam": "Group 2 (old pattern)",
+     "year": "2008",
+     "right": 0,
+     "failed": 1,
+     "total": 1,
+     "pct": 0.0,
+     "refs": []
+    },
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "right": 1,
+     "failed": 2,
+     "total": 3,
+     "pct": 33.3,
+     "refs": [
+      62
+     ]
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "paper": "degree-lecturers-gs-2020",
+     "n": 62,
+     "text": "SPG security is only for current PM and PM's immediate families"
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 2,
+     "text": "Prithvi was considered as the mother of all Gods."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 34,
+     "text": "Its members are drawn from administrative background only."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "paper": "degree-lecturers-gs-2020",
+     "n": 22,
+     "text": "Registration of submersible pumps mandatory"
+    },
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "paper": "degree-lecturers-gs-2020",
+     "n": 22,
+     "text": "Act makes rain water harvesting mandatory in all private schools, colleges"
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 5,
+     "text": "The Monarch’s name was mentioned as Ashoka only in Maski and Gurjara inscriptions."
+    }
+   ]
+  },
+  "only": {
+   "title": "The word \"only\"",
+   "total": 32,
+   "right": 24,
+   "pct": 75.0,
+   "rows": [
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "right": 4,
+     "failed": 4,
+     "total": 8,
+     "pct": 50.0,
+     "refs": [
+      37,
+      149
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2017",
+     "right": 1,
+     "failed": 0,
+     "total": 1,
+     "pct": 100.0,
+     "refs": [
+      93
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 15,
+     "failed": 2,
+     "total": 17,
+     "pct": 88.2,
+     "refs": [
+      31,
+      34,
+      37,
+      39,
+      40,
+      46
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 3,
+     "failed": 2,
+     "total": 5,
+     "pct": 60.0,
+     "refs": [
+      34,
+      37,
+      84
+     ]
+    },
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "right": 1,
+     "failed": 0,
+     "total": 1,
+     "pct": 100.0,
+     "refs": [
+      62
+     ]
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "paper": "degree-lecturers-gs-2020",
+     "n": 62,
+     "text": "SPG security is only for current PM and PM's immediate families"
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 34,
+     "text": "Its members are drawn from administrative background only."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 37,
+     "text": "The Supreme Court Judges can be removed by the Chief Justice of India only."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 5,
+     "text": "The Monarch’s name was mentioned as Ashoka only in Maski and Gurjara inscriptions."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 78,
+     "text": "It is the only active modular space station (habitable artificial satellite) in the Low Earth Orbit (LEO)."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 44,
+     "text": "The expenditure charged on the Consolidated Fund of India can only be discussed."
+    }
+   ]
+  },
+  "exactnum": {
+   "title": "Exact figures (not years)",
+   "total": 173,
+   "right": 81,
+   "pct": 46.8,
+   "rows": [
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2024",
+     "right": 12,
+     "failed": 13,
+     "total": 25,
+     "pct": 48.0,
+     "refs": [
+      30,
+      78,
+      80,
+      81,
+      91,
+      98
+     ]
+    },
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2019",
+     "right": 1,
+     "failed": 1,
+     "total": 2,
+     "pct": 50.0,
+     "refs": [
+      61
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "right": 9,
+     "failed": 13,
+     "total": 22,
+     "pct": 40.9,
+     "refs": [
+      1,
+      30,
+      70,
+      118,
+      122,
+      136
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2017",
+     "right": 4,
+     "failed": 2,
+     "total": 6,
+     "pct": 66.7,
+     "refs": [
+      15,
+      43,
+      76,
+      93
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 30,
+     "failed": 36,
+     "total": 66,
+     "pct": 45.5,
+     "refs": [
+      16,
+      33,
+      38,
+      39,
+      46,
+      48
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 21,
+     "failed": 20,
+     "total": 41,
+     "pct": 51.2,
+     "refs": [
+      9,
+      64,
+      69,
+      73,
+      77,
+      81
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "right": 2,
+     "failed": 5,
+     "total": 7,
+     "pct": 28.6,
+     "refs": [
+      67,
+      83
+     ]
+    },
+    {
+     "exam": "Group 2 (old pattern)",
+     "year": "2008",
+     "right": 0,
+     "failed": 1,
+     "total": 1,
+     "pct": 0.0,
+     "refs": []
+    },
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "right": 2,
+     "failed": 1,
+     "total": 3,
+     "pct": 66.7,
+     "refs": [
+      34
+     ]
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "paper": "degree-lecturers-gs-2020",
+     "n": 34,
+     "text": "This is the 60th flight of PSLV"
+    },
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "paper": "degree-lecturers-gs-2020",
+     "n": 34,
+     "text": "PSLV successfully launched RISAT-2BR1 along with commercial satellites of 6 other countries"
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "paper": "group1-prelims-2019-paper1",
+     "n": 67,
+     "text": "About 60% of agricultural lands have irrigational facilities."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "paper": "degree-lecturers-gs-2020",
+     "n": 33,
+     "text": "Users can explore 2D and 3D representation of earth"
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "paper": "group1-prelims-2019-paper1",
+     "n": 67,
+     "text": "About 55% of net cropped area is rainfed in India."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "paper": "group1-prelims-2019-paper1",
+     "n": 67,
+     "text": "HYVP was mainly constrained for 5 crops."
+    }
+   ]
+  },
+  "year": {
+   "title": "A precise year or date",
+   "total": 110,
+   "right": 51,
+   "pct": 46.4,
+   "rows": [
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2024",
+     "right": 16,
+     "failed": 7,
+     "total": 23,
+     "pct": 69.6,
+     "refs": [
+      7,
+      65,
+      78,
+      80,
+      81,
+      91
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "right": 6,
+     "failed": 10,
+     "total": 16,
+     "pct": 37.5,
+     "refs": [
+      30,
+      34,
+      40,
+      70,
+      93,
+      146
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2017",
+     "right": 4,
+     "failed": 3,
+     "total": 7,
+     "pct": 57.1,
+     "refs": [
+      15,
+      43,
+      76,
+      98
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 16,
+     "failed": 23,
+     "total": 39,
+     "pct": 41.0,
+     "refs": [
+      31,
+      36,
+      46,
+      49,
+      51,
+      53
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 8,
+     "failed": 11,
+     "total": 19,
+     "pct": 42.1,
+     "refs": [
+      53,
+      81,
+      100,
+      103,
+      105,
+      109
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "right": 1,
+     "failed": 4,
+     "total": 5,
+     "pct": 20.0,
+     "refs": [
+      17
+     ]
+    },
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "right": 0,
+     "failed": 1,
+     "total": 1,
+     "pct": 0.0,
+     "refs": []
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "paper": "group1-prelims-2019-paper1",
+     "n": 17,
+     "text": "Montagu-Chelmsford Reforms — 1929"
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 53,
+     "text": "NGT is bound by the procedure laid down under the Code of Civil Procedure, 1908."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 105,
+     "text": "The production of steel in the year 2020 is more than the previous year."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "paper": "degree-lecturers-gs-2020",
+     "n": 62,
+     "text": "Passed in December, 2019 in the Parliament"
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "paper": "group1-prelims-2019-paper1",
+     "n": 17,
+     "text": "Pitt's India Act — 1784"
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "paper": "group1-prelims-2019-paper1",
+     "n": 17,
+     "text": "Morley-Minto Reforms — 1909"
+    }
+   ]
+  },
+  "by_institution": {
+   "title": "\"launched / set up / implemented by\" a body",
+   "total": 20,
+   "right": 12,
+   "pct": 60.0,
+   "rows": [
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2024",
+     "right": 2,
+     "failed": 0,
+     "total": 2,
+     "pct": 100.0,
+     "refs": [
+      7,
+      81
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "right": 3,
+     "failed": 0,
+     "total": 3,
+     "pct": 100.0,
+     "refs": [
+      1,
+      22,
+      27
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 3,
+     "failed": 2,
+     "total": 5,
+     "pct": 60.0,
+     "refs": [
+      12,
+      32,
+      42
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 3,
+     "failed": 6,
+     "total": 9,
+     "pct": 33.3,
+     "refs": [
+      65,
+      66,
+      113
+     ]
+    },
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "right": 1,
+     "failed": 0,
+     "total": 1,
+     "pct": 100.0,
+     "refs": [
+      48
+     ]
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "paper": "degree-lecturers-gs-2020",
+     "n": 48,
+     "text": "This system divided the land into Mahals. Sometimes, a Mahal was constituted by one or more villages."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 65,
+     "text": "It is set up under sponsorship of the Scientific Committee on Problems of the Environment (SCOPE) and United Nations Environment Programme (UNEP)."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 66,
+     "text": "The Indian component of the initiative is implemented by the Ministry of Environment, Forest and Climate Change in partnership with the Ministry of Road Transport and Highways."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 46,
+     "text": "The PM CARES for Children Scheme was launched by the Prime Minister of India on 29th May, 2021 for the children."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 53,
+     "text": "It was set up under the National Green Tribunal Act, 2010."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 55,
+     "text": "It was set up under the National Commission for Minorities Act, 1992."
+    }
+   ]
+  },
+  "intl_org": {
+   "title": "A named international organisation",
+   "total": 24,
+   "right": 10,
+   "pct": 41.7,
+   "rows": [
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2024",
+     "right": 1,
+     "failed": 1,
+     "total": 2,
+     "pct": 50.0,
+     "refs": [
+      81
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "right": 0,
+     "failed": 2,
+     "total": 2,
+     "pct": 0.0,
+     "refs": []
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2017",
+     "right": 0,
+     "failed": 1,
+     "total": 1,
+     "pct": 0.0,
+     "refs": []
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 2,
+     "failed": 4,
+     "total": 6,
+     "pct": 33.3,
+     "refs": [
+      74,
+      92
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 7,
+     "failed": 6,
+     "total": 13,
+     "pct": 53.8,
+     "refs": [
+      65,
+      66,
+      76,
+      105,
+      118,
+      120
+     ]
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 65,
+     "text": "It is set up under sponsorship of the Scientific Committee on Problems of the Environment (SCOPE) and United Nations Environment Programme (UNEP)."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 66,
+     "text": "It is an ASEAN initiative that aims to facilitate a paradigm shift to zero emission transport across Asia."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 76,
+     "text": "ISRO announced Vyommitra, a Male Robot who will accompany other astronauts in the mission."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 46,
+     "text": "It aims to support children who have lost both the parents or legal guardians or adoptive parents or surviving parent to Covid-19 pandemic."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 91,
+     "text": "Andhra Pradesh Integrated Irrigation and Agriculture Transformation Project is aided by the World Bank."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 93,
+     "text": "It is partly funded by loan from Asian Development Bank (ADB)."
+    }
+   ]
+  },
+  "constitution": {
+   "title": "\"The Constitution defines / provides / mentions ...\"",
+   "total": 26,
+   "right": 12,
+   "pct": 46.2,
+   "rows": [
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "right": 2,
+     "failed": 3,
+     "total": 5,
+     "pct": 40.0,
+     "refs": [
+      1,
+      122
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2017",
+     "right": 1,
+     "failed": 0,
+     "total": 1,
+     "pct": 100.0,
+     "refs": [
+      93
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 9,
+     "failed": 10,
+     "total": 19,
+     "pct": 47.4,
+     "refs": [
+      33,
+      38,
+      46,
+      48,
+      49,
+      52
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 0,
+     "failed": 1,
+     "total": 1,
+     "pct": 0.0,
+     "refs": []
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 33,
+     "text": "A Bill requiring prior Presidential sanction but which was however not obtained under Article 304."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 38,
+     "text": "The proceeds of the surcharges that are levied on taxes and duties referred to in Article 269 and Article 270 of the Constitution of India, would be shared between the Centre and the States."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 38,
+     "text": "Article 268A and Article 272 of the Constitution of India were both repealed by same Constitutional Amendment Act."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 31,
+     "text": "Article 243 deals with constitution of finance commission to review financial position of Panchayats."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 33,
+     "text": "A Bill that attracts the provisions of Article 288."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 38,
+     "text": "The net proceeds of tax categories that are falling under Article 269 of the Constitution of India, do not form a part of the Consolidated Fund of India."
+    }
+   ]
+  },
+  "but_not": {
+   "title": "\"... but ... not ...\"",
+   "total": 17,
+   "right": 14,
+   "pct": 82.4,
+   "rows": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 14,
+     "failed": 3,
+     "total": 17,
+     "pct": 82.4,
+     "refs": [
+      31,
+      32,
+      33,
+      34,
+      45,
+      47
+     ]
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 31,
+     "text": "The Chief Whip is not responsible to the leader of the House but is responsible only to the leader of the party that has appointed him/her to the office of Chief Whip."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 32,
+     "text": "A Private Bill will not reflect the policy of the government but upon its approval by the House, a Private Bill would have reflected the policy of the government."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 33,
+     "text": "A Bill requiring prior Presidential sanction but which was however not obtained under Article 304."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 48,
+     "text": "The theory of equality includes distinction of merit but not distinction on account of hereditary titles or nobility as propounded by the Balaji Raghavan Case (1995)."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 54,
+     "text": "The Members cannot be arrested during the session of Parliament but this privilege is available only in civil cases and not in criminal cases or preventive detention cases."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 58,
+     "text": "A Bill that is passed by both the Houses but pending for President's assent will not lapse."
+    }
+   ]
+  },
+  "because": {
+   "title": "A reason given (because / due to / hence / so)",
+   "total": 21,
+   "right": 9,
+   "pct": 42.9,
+   "rows": [
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2024",
+     "right": 1,
+     "failed": 2,
+     "total": 3,
+     "pct": 33.3,
+     "refs": [
+      81
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "right": 1,
+     "failed": 3,
+     "total": 4,
+     "pct": 25.0,
+     "refs": [
+      27
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2017",
+     "right": 1,
+     "failed": 0,
+     "total": 1,
+     "pct": 100.0,
+     "refs": [
+      32
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 5,
+     "failed": 5,
+     "total": 10,
+     "pct": 50.0,
+     "refs": [
+      36,
+      70,
+      73,
+      90
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 1,
+     "failed": 1,
+     "total": 2,
+     "pct": 50.0,
+     "refs": [
+      115
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "right": 0,
+     "failed": 1,
+     "total": 1,
+     "pct": 0.0,
+     "refs": []
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 115,
+     "text": "It will be the first probe to bring back material from the Moon, since NASA’s Luna 24 mission."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 36,
+     "text": "Since its inception, the Election Commission had functioned as a multi-member body."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 70,
+     "text": "SEBI exempted regulations for Infrastructure Investment Trusts (InvITs) and Muncipal Bonds in order to facilitate more efficient infrastructure financing through the capital markets."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "paper": "group1-prelims-2019-paper1",
+     "n": 114,
+     "text": "The word El-Nino means 'Christ Child' because the current appears around Christmas in December."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 78,
+     "text": "It has been functional since 1998."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 48,
+     "text": "The theory of equality includes distinction of merit but not distinction on account of hereditary titles or nobility as propounded by the Balaji Raghavan Case (1995)."
+    }
+   ]
+  },
+  "compare": {
+   "title": "A comparison (whereas / while / unlike / more than / higher than)",
+   "total": 32,
+   "right": 20,
+   "pct": 62.5,
+   "rows": [
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2024",
+     "right": 0,
+     "failed": 1,
+     "total": 1,
+     "pct": 0.0,
+     "refs": []
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "right": 3,
+     "failed": 0,
+     "total": 3,
+     "pct": 100.0,
+     "refs": [
+      27,
+      30,
+      149
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2017",
+     "right": 3,
+     "failed": 1,
+     "total": 4,
+     "pct": 75.0,
+     "refs": [
+      15,
+      117
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 11,
+     "failed": 3,
+     "total": 14,
+     "pct": 78.6,
+     "refs": [
+      35,
+      36,
+      47,
+      48,
+      54,
+      77
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 3,
+     "failed": 7,
+     "total": 10,
+     "pct": 30.0,
+     "refs": [
+      75,
+      105,
+      116
+     ]
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 105,
+     "text": "The production of steel in the year 2020 is more than the previous year."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 75,
+     "text": "Manufacturing dirty bombs is costlier than nuclear weapons."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 116,
+     "text": "COP27 reiterated the goal set by the Paris Agreement at COP21 which was to keep global warming from rising more than 1.5 degrees Celsius from the 2000s."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 37,
+     "text": "While appointing the Supreme Court Judges, the President of India has to consult the Chief Justice of India."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 64,
+     "text": "Fast Breeder Reactors are designed to breed more fuel than they consume."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 64,
+     "text": "In this reactor, Plutonium-239 undergoes fission to produce energy, while the Uranium-238 present in the fuel transmutes to additional Plutonium-239."
+    }
+   ]
+  },
+  "trend": {
+   "title": "A steady / continuous trend",
+   "total": 7,
+   "right": 2,
+   "pct": 28.6,
+   "rows": [
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2024",
+     "right": 0,
+     "failed": 1,
+     "total": 1,
+     "pct": 0.0,
+     "refs": []
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "right": 0,
+     "failed": 1,
+     "total": 1,
+     "pct": 0.0,
+     "refs": []
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 0,
+     "failed": 2,
+     "total": 2,
+     "pct": 0.0,
+     "refs": []
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 2,
+     "failed": 1,
+     "total": 3,
+     "pct": 66.7,
+     "refs": [
+      53,
+      85
+     ]
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 53,
+     "text": "NGT has six places of sitting throughout the country."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 85,
+     "text": "₹ 13,000 is given to a farmer's family in four instalments every year."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 85,
+     "text": "₹ 13,500 is given to a farmer's family in three instalments every year."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 90,
+     "text": "The technology used by the Government of Andhra Pradesh while conducting resurvey of landholdings is referred to as 'Continuously Operating Reference Stations (CORS)' technology."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 103,
+     "text": "Precipitation in this biome is moderately high throughout the year with snow occurring during the winter months."
+    }
+   ]
+  },
+  "contemporary": {
+   "title": "\"X and Y were contemporaries\"",
+   "total": 1,
+   "right": 0,
+   "pct": 0.0,
+   "rows": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 0,
+     "failed": 1,
+     "total": 1,
+     "pct": 0.0,
+     "refs": []
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [],
+   "ex_fail": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 5,
+     "text": "The XIII Rock edict mentioned the names of the five Greek Rulers as his contemporaries."
+    }
+   ]
+  },
+  "native": {
+   "title": "\"native / endemic / indigenous to\"",
+   "total": 1,
+   "right": 1,
+   "pct": 100.0,
+   "rows": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 1,
+     "failed": 0,
+     "total": 1,
+     "pct": 100.0,
+     "refs": [
+      88
+     ]
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 88,
+     "text": "The Cheetahs indigenous to India that went extinct, are African Cheetahs."
+    }
+   ],
+   "ex_fail": []
+  },
+  "main": {
+   "title": "\"main / primary / chief aim\"",
+   "total": 26,
+   "right": 15,
+   "pct": 57.7,
+   "rows": [
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2024",
+     "right": 1,
+     "failed": 0,
+     "total": 1,
+     "pct": 100.0,
+     "refs": [
+      115
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "right": 4,
+     "failed": 3,
+     "total": 7,
+     "pct": 57.1,
+     "refs": [
+      3,
+      11,
+      96,
+      102
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2017",
+     "right": 2,
+     "failed": 1,
+     "total": 3,
+     "pct": 66.7,
+     "refs": [
+      61,
+      65
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 5,
+     "failed": 4,
+     "total": 9,
+     "pct": 55.6,
+     "refs": [
+      31,
+      36,
+      86
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 2,
+     "failed": 1,
+     "total": 3,
+     "pct": 66.7,
+     "refs": [
+      37,
+      94
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "right": 0,
+     "failed": 1,
+     "total": 1,
+     "pct": 0.0,
+     "refs": []
+    },
+    {
+     "exam": "Group 2 (old pattern)",
+     "year": "2008",
+     "right": 1,
+     "failed": 1,
+     "total": 2,
+     "pct": 50.0,
+     "refs": [
+      52
+     ]
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 37,
+     "text": "The Supreme Court Judges can be removed by the Chief Justice of India only."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 94,
+     "text": "GoAP has recently declared Krishnapatnam Port as a Major Port."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 31,
+     "text": "Although not mentioned in the Constitution of India, the office of the 'Whip' has however been incorporated in the Rules of the House by the 'Leaders and Chief Whips of Recognised Parties and Groups in Parliament (Facilities) Act, 1998'."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "paper": "group1-prelims-2019-paper1",
+     "n": 67,
+     "text": "HYVP was mainly constrained for 5 crops."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 37,
+     "text": "While appointing the Supreme Court Judges, the President of India has to consult the Chief Justice of India."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper1",
+     "n": 1,
+     "text": "The late Harappan cultures are primarily Chalcolithic in which tools of stone and copper are used."
+    }
+   ]
+  },
+  "authority": {
+   "title": "A named office (President, Governor, Speaker, CM ...)",
+   "total": 93,
+   "right": 46,
+   "pct": 49.5,
+   "rows": [
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2024",
+     "right": 2,
+     "failed": 3,
+     "total": 5,
+     "pct": 40.0,
+     "refs": [
+      81,
+      115
+     ]
+    },
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2019",
+     "right": 1,
+     "failed": 1,
+     "total": 2,
+     "pct": 50.0,
+     "refs": [
+      61
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "right": 11,
+     "failed": 20,
+     "total": 31,
+     "pct": 35.5,
+     "refs": [
+      96,
+      102,
+      107,
+      114,
+      119,
+      122
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 26,
+     "failed": 9,
+     "total": 35,
+     "pct": 74.3,
+     "refs": [
+      31,
+      32,
+      34,
+      35,
+      36,
+      37
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 4,
+     "failed": 10,
+     "total": 14,
+     "pct": 28.6,
+     "refs": [
+      35,
+      36,
+      37
+     ]
+    },
+    {
+     "exam": "Group 2 (old pattern)",
+     "year": "2008",
+     "right": 1,
+     "failed": 1,
+     "total": 2,
+     "pct": 50.0,
+     "refs": [
+      21
+     ]
+    },
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "right": 1,
+     "failed": 3,
+     "total": 4,
+     "pct": 25.0,
+     "refs": [
+      24
+     ]
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "paper": "degree-lecturers-gs-2020",
+     "n": 24,
+     "text": "It was addressed by US President Donald Trump."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 35,
+     "text": "A Speaker may be removed from office by a resolution of the Assembly passed by a majority of all the then members of the Assembly after fourteen days notice of the intention to move such a resolution."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 35,
+     "text": "The Speaker vacates his office if he ceases to be a member of the Assembly."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "paper": "degree-lecturers-gs-2020",
+     "n": 62,
+     "text": "Passed in December, 2019 in the Parliament"
+    },
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "paper": "degree-lecturers-gs-2020",
+     "n": 62,
+     "text": "SPG security is for the Prime Minister and for a restricted period to ex-PMs"
+    },
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "paper": "degree-lecturers-gs-2020",
+     "n": 62,
+     "text": "The bill is passed by voice vote in Rajya Sabha"
+    }
+   ]
+  },
+  "binding": {
+   "title": "\"legally binding / mandatory / enforceable\"",
+   "total": 4,
+   "right": 1,
+   "pct": 25.0,
+   "rows": [
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "right": 1,
+     "failed": 0,
+     "total": 1,
+     "pct": 100.0,
+     "refs": [
+      118
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 0,
+     "failed": 1,
+     "total": 1,
+     "pct": 0.0,
+     "refs": []
+    },
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "right": 0,
+     "failed": 2,
+     "total": 2,
+     "pct": 0.0,
+     "refs": []
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "paper": "mains-2025-paper1",
+     "n": 118,
+     "text": "Reservation of seats to BCs is a compulsory provision under this Act."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "paper": "degree-lecturers-gs-2020",
+     "n": 22,
+     "text": "Registration of submersible pumps mandatory"
+    },
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "paper": "degree-lecturers-gs-2020",
+     "n": 22,
+     "text": "Act makes rain water harvesting mandatory in all private schools, colleges"
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 117,
+     "text": "It is an intergovernmental alliance with no binding targets."
+    }
+   ]
+  },
+  "tax": {
+   "title": "\"tax-free / exempt\"",
+   "total": 1,
+   "right": 0,
+   "pct": 0.0,
+   "rows": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 0,
+     "failed": 1,
+     "total": 1,
+     "pct": 0.0,
+     "refs": []
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [],
+   "ex_fail": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 92,
+     "text": "The Diesel Oil Subsidy for fishermen boats is associated with exemption of sales tax on HSD oil."
+    }
+   ]
+  },
+  "hq": {
+   "title": "A headquarters city",
+   "total": 2,
+   "right": 2,
+   "pct": 100.0,
+   "rows": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 1,
+     "failed": 0,
+     "total": 1,
+     "pct": 100.0,
+     "refs": [
+      107
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 1,
+     "failed": 0,
+     "total": 1,
+     "pct": 100.0,
+     "refs": [
+      114
+     ]
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 114,
+     "text": "SWIFT is a global member-owned cooperative that is headquartered in Switzerland."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "paper": "group1-prelims-2024-paper2",
+     "n": 107,
+     "text": "The Union Cabinet approved the establishment of International Big Cat Alliance headquarters in India with a one-time budgetary support of ₹ 150 crores for a period of 2 years from 2023 – 24 to 2024 – 2025."
+    }
+   ],
+   "ex_fail": []
+  },
+  "first": {
+   "title": "\"first / largest / highest / oldest\" claims",
+   "total": 52,
+   "right": 16,
+   "pct": 30.8,
+   "rows": [
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2024",
+     "right": 4,
+     "failed": 9,
+     "total": 13,
+     "pct": 30.8,
+     "refs": [
+      37,
+      65,
+      109
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "right": 1,
+     "failed": 5,
+     "total": 6,
+     "pct": 16.7,
+     "refs": [
+      93
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 5,
+     "failed": 11,
+     "total": 16,
+     "pct": 31.2,
+     "refs": [
+      3,
+      26,
+      44,
+      47,
+      101
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 4,
+     "failed": 9,
+     "total": 13,
+     "pct": 30.8,
+     "refs": [
+      62,
+      71,
+      105,
+      115
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "right": 1,
+     "failed": 2,
+     "total": 3,
+     "pct": 33.3,
+     "refs": [
+      101
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2008",
+     "right": 1,
+     "failed": 0,
+     "total": 1,
+     "pct": 100.0,
+     "refs": [
+      66
+     ]
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2008",
+     "paper": "group1-prelims-2008",
+     "n": 66,
+     "text": "The biggest oil refinery is at Haldia."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "paper": "group1-prelims-2019-paper2",
+     "n": 101,
+     "text": "India is the biggest producer of vegetables in the world."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 105,
+     "text": "India is ranked first in the production of crude steel."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "paper": "group1-prelims-2019-paper2",
+     "n": 101,
+     "text": "India is the second largest producer of fruits in the world."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "paper": "group1-prelims-2019-paper2",
+     "n": 101,
+     "text": "Uttar Pradesh is the largest producer of wheat in India."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 105,
+     "text": "India is the second largest producer of steel in the word."
+    }
+   ]
+  },
+  "multi": {
+   "title": "Two or more facts joined in one statement",
+   "total": 59,
+   "right": 22,
+   "pct": 37.3,
+   "rows": [
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2024",
+     "right": 3,
+     "failed": 3,
+     "total": 6,
+     "pct": 50.0,
+     "refs": [
+      65,
+      80,
+      100
+     ]
+    },
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2019",
+     "right": 0,
+     "failed": 1,
+     "total": 1,
+     "pct": 0.0,
+     "refs": []
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "right": 1,
+     "failed": 5,
+     "total": 6,
+     "pct": 16.7,
+     "refs": [
+      149
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2017",
+     "right": 1,
+     "failed": 0,
+     "total": 1,
+     "pct": 100.0,
+     "refs": [
+      61
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 14,
+     "failed": 17,
+     "total": 31,
+     "pct": 45.2,
+     "refs": [
+      31,
+      38,
+      40,
+      41,
+      42,
+      45
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 3,
+     "failed": 11,
+     "total": 14,
+     "pct": 21.4,
+     "refs": [
+      62,
+      66,
+      96
+     ]
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 62,
+     "text": "The biggest demerit of facial recognition technology is its limitation in identifying people in real-time and not in photos and videos."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 66,
+     "text": "The Indian component of the initiative is implemented by the Ministry of Environment, Forest and Climate Change in partnership with the Ministry of Road Transport and Highways."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 96,
+     "text": "‘YSR Sampoorna Poshana Plus +’ scheme provides nutritional support to pregnant women and lactating mothers in all the mandals except the 77 Scheduled and Tribals sub-mandals."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 2,
+     "text": "Cow sacrifice was also the part of worship."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 31,
+     "text": "It recommends the determination of taxes, duties, tolls and fees assigned to the Panchayats and Municipalities."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 34,
+     "text": "Its jurisdiction covers the members of All-India services as well as Central services and Central Government posts."
+    }
+   ]
+  },
+  "negated": {
+   "title": "A statement that itself says \"not / no\"",
+   "total": 74,
+   "right": 45,
+   "pct": 60.8,
+   "rows": [
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2019",
+     "right": 1,
+     "failed": 1,
+     "total": 2,
+     "pct": 50.0,
+     "refs": [
+      61
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "right": 3,
+     "failed": 3,
+     "total": 6,
+     "pct": 50.0,
+     "refs": [
+      1,
+      146,
+      149
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2017",
+     "right": 3,
+     "failed": 2,
+     "total": 5,
+     "pct": 60.0,
+     "refs": [
+      15,
+      93,
+      98
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 34,
+     "failed": 13,
+     "total": 47,
+     "pct": 72.3,
+     "refs": [
+      1,
+      3,
+      31,
+      32,
+      33,
+      34
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 3,
+     "failed": 8,
+     "total": 11,
+     "pct": 27.3,
+     "refs": [
+      35,
+      61,
+      62
+     ]
+    },
+    {
+     "exam": "Group 2 (old pattern)",
+     "year": "2008",
+     "right": 0,
+     "failed": 1,
+     "total": 1,
+     "pct": 0.0,
+     "refs": []
+    },
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "right": 1,
+     "failed": 1,
+     "total": 2,
+     "pct": 50.0,
+     "refs": [
+      22
+     ]
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "paper": "degree-lecturers-gs-2020",
+     "n": 22,
+     "text": "The Act does not penalize persons polluting ground water through boring pipes"
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 35,
+     "text": "He has no veto except in case of a tie."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 61,
+     "text": "The test was done in the upper atmosphere to ensure that there is no space debris."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Other APPSC screening tests",
+     "year": "2020",
+     "paper": "degree-lecturers-gs-2020",
+     "n": 24,
+     "text": "it aimed to bring upon gender equality in other crucial areas where women have still not earned their recognition"
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 34,
+     "text": "It is not bound by the procedure prescribed in the Code of Civil Procedure."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 37,
+     "text": "The salaries of the Judges are charged on the Consolidated Fund of India on which the legislature does not have to vote."
+    }
+   ]
+  },
+  "ap": {
+   "title": "Andhra Pradesh-specific claims",
+   "total": 65,
+   "right": 23,
+   "pct": 35.4,
+   "rows": [
+    {
+     "exam": "Group 2 Prelims",
+     "year": "2024",
+     "right": 6,
+     "failed": 3,
+     "total": 9,
+     "pct": 66.7,
+     "refs": [
+      78,
+      107,
+      109,
+      112
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2025",
+     "right": 2,
+     "failed": 23,
+     "total": 25,
+     "pct": 8.0,
+     "refs": [
+      27,
+      40
+     ]
+    },
+    {
+     "exam": "Group 2 Mains",
+     "year": "2017",
+     "right": 4,
+     "failed": 0,
+     "total": 4,
+     "pct": 100.0,
+     "refs": [
+      98,
+      117
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2024",
+     "right": 3,
+     "failed": 5,
+     "total": 8,
+     "pct": 37.5,
+     "refs": [
+      87,
+      90
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "right": 6,
+     "failed": 9,
+     "total": 15,
+     "pct": 40.0,
+     "refs": [
+      85,
+      91,
+      92,
+      100
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "right": 1,
+     "failed": 0,
+     "total": 1,
+     "pct": 100.0,
+     "refs": [
+      113
+     ]
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2008",
+     "right": 1,
+     "failed": 0,
+     "total": 1,
+     "pct": 100.0,
+     "refs": [
+      66
+     ]
+    },
+    {
+     "exam": "Group 2 (old pattern)",
+     "year": "2008",
+     "right": 0,
+     "failed": 2,
+     "total": 2,
+     "pct": 0.0,
+     "refs": []
+    }
+   ],
+   "base": {
+    "Group 2 Prelims": 0.45555555555555555,
+    "Group 2 Mains": 0.3788546255506608,
+    "Group 1 Prelims": 0.4251968503937008,
+    "Group 2 (old pattern)": 0.25,
+    "Other APPSC screening tests": 0.34782608695652173
+   },
+   "ex_right": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2008",
+     "paper": "group1-prelims-2008",
+     "n": 66,
+     "text": "Andhra Pradesh coast is a part of Konkan coast."
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2019",
+     "paper": "group1-prelims-2019-paper1",
+     "n": 113,
+     "text": "Kolleru Lake — Krishna"
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 85,
+     "text": "₹ 7,000 is given by Government of Andhra Pradesh and ₹ 6,000 is given by the Government of India."
+    }
+   ],
+   "ex_fail": [
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 15,
+     "text": "Domingo Paes – Described the rule of Krishna Devaraya"
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper1",
+     "n": 15,
+     "text": "Caesar Frederick – Wrote about the conditions of Vijayanagara after the battle of Rakshasa Tangadi"
+    },
+    {
+     "exam": "Group 1 Prelims",
+     "year": "2023",
+     "paper": "group1-prelims-2023-paper2",
+     "n": 91,
+     "text": "Andhra Pradesh Integrated Irrigation and Agriculture Transformation Project is aided by the World Bank."
+    }
+   ]
+  }
+ },
+ "byexam": {
+  "Group 2 Prelims": {
+   "statements": 90,
+   "false": 41,
+   "questions": 399
+  },
+  "Group 2 Mains": {
+   "statements": 227,
+   "false": 86,
+   "questions": 722
+  },
+  "Group 1 Prelims": {
+   "statements": 635,
+   "false": 270,
+   "questions": 1166
+  },
+  "Group 2 (old pattern)": {
+   "statements": 8,
+   "false": 2,
+   "questions": 550
+  },
+  "Other APPSC screening tests": {
+   "statements": 23,
+   "false": 8,
+   "questions": 553
+  }
+ },
+ "questions": {
+  "Group 2 Prelims": {
+   "questions": 399,
+   "pos": {
+    "0": 108,
+    "1": 93,
+    "2": 102,
+    "3": 96
+   },
+   "allabove": [
+    8,
+    1
+   ],
+   "nota": [
+    11,
+    6
+   ],
+   "ar": {},
+   "ar_n": 0,
+   "stdist": {
+    "2": {
+     "0": 2,
+     "1": 1,
+     "2": 1
+    },
+    "3": {
+     "0": 2,
+     "1": 4,
+     "2": 3,
+     "3": 0
+    },
+    "4": {
+     "0": 0,
+     "1": 0,
+     "2": 3,
+     "3": 3,
+     "4": 0
+    }
+   },
+   "numeric": [
+    34,
+    14
+   ],
+   "longest": [
+    60,
+    15
+   ],
+   "statement_qs": 19,
+   "matching": [
+    14,
+    12,
+    3
+   ],
+   "chronology": 4
+  },
+  "Group 2 Mains": {
+   "questions": 722,
+   "pos": {
+    "0": 195,
+    "1": 193,
+    "2": 160,
+    "3": 174
+   },
+   "allabove": [
+    27,
+    11
+   ],
+   "nota": [
+    23,
+    7
+   ],
+   "ar": {
+    "A false, R true": 3,
+    "A true, R false": 4,
+    "Both true, R does not explain A": 5,
+    "Both true, R explains A": 9,
+    "other": 2
+   },
+   "ar_n": 23,
+   "stdist": {
+    "2": {
+     "0": 0,
+     "1": 1,
+     "2": 4
+    },
+    "3": {
+     "0": 0,
+     "1": 1,
+     "2": 9,
+     "3": 3
+    },
+    "4": {
+     "0": 1,
+     "1": 1,
+     "2": 6,
+     "3": 7,
+     "4": 5
+    }
+   },
+   "numeric": [
+    34,
+    20
+   ],
+   "longest": [
+    188,
+    63
+   ],
+   "statement_qs": 40,
+   "matching": [
+    16,
+    7,
+    2
+   ],
+   "chronology": 8
+  },
+  "Group 1 Prelims": {
+   "questions": 1166,
+   "pos": {
+    "0": 296,
+    "1": 316,
+    "2": 282,
+    "3": 272
+   },
+   "allabove": [
+    44,
+    12
+   ],
+   "nota": [
+    40,
+    16
+   ],
+   "ar": {
+    "Both true, R explains A": 10,
+    "other": 1,
+    "A true, R false": 2
+   },
+   "ar_n": 13,
+   "stdist": {
+    "2": {
+     "0": 7,
+     "1": 9,
+     "2": 5
+    },
+    "3": {
+     "0": 0,
+     "1": 4,
+     "2": 24,
+     "3": 14
+    },
+    "4": {
+     "0": 6,
+     "1": 21,
+     "2": 24,
+     "3": 26,
+     "4": 6
+    }
+   },
+   "numeric": [
+    53,
+    34
+   ],
+   "longest": [
+    184,
+    54
+   ],
+   "statement_qs": 153,
+   "matching": [
+    14,
+    10,
+    3
+   ],
+   "chronology": 17
+  },
+  "Group 2 (old pattern)": {
+   "questions": 550,
+   "pos": {
+    "0": 144,
+    "1": 163,
+    "2": 129,
+    "3": 114
+   },
+   "allabove": [
+    18,
+    13
+   ],
+   "nota": [
+    21,
+    3
+   ],
+   "ar": {},
+   "ar_n": 0,
+   "stdist": {
+    "2": {
+     "0": 0,
+     "1": 0,
+     "2": 0
+    },
+    "3": {
+     "0": 0,
+     "1": 0,
+     "2": 0,
+     "3": 0
+    },
+    "4": {
+     "0": 0,
+     "1": 0,
+     "2": 0,
+     "3": 1,
+     "4": 0
+    }
+   },
+   "numeric": [
+    60,
+    37
+   ],
+   "longest": [
+    30,
+    8
+   ],
+   "statement_qs": 1,
+   "matching": [
+    0,
+    0,
+    0
+   ],
+   "chronology": 3
+  },
+  "Other APPSC screening tests": {
+   "questions": 553,
+   "pos": {
+    "0": 138,
+    "1": 164,
+    "2": 145,
+    "3": 106
+   },
+   "allabove": [
+    3,
+    1
+   ],
+   "nota": [
+    9,
+    2
+   ],
+   "ar": {},
+   "ar_n": 0,
+   "stdist": {
+    "2": {
+     "0": 0,
+     "1": 0,
+     "2": 0
+    },
+    "3": {
+     "0": 0,
+     "1": 0,
+     "2": 1,
+     "3": 0
+    },
+    "4": {
+     "0": 0,
+     "1": 0,
+     "2": 0,
+     "3": 0,
+     "4": 0
+    }
+   },
+   "numeric": [
+    75,
+    58
+   ],
+   "longest": [
+    61,
+    17
+   ],
+   "statement_qs": 1,
+   "matching": [
+    3,
+    1,
+    0
+   ],
+   "chronology": 1
+  }
+ },
+ "weightage": {
+  "Other APPSC screening tests 2020": {
+   "Current Affairs": 68,
+   "General Studies": 7,
+   "Science & Technology": 44,
+   "History": 27,
+   "AP History & Culture": 55,
+   "Polity": 30,
+   "Geography": 88,
+   "Economy": 29,
+   "Indian Society": 1
+  },
+  "Group 1 Prelims 2008": {
+   "History": 23,
+   "AP History & Culture": 4,
+   "Science & Technology": 29,
+   "Geography": 22,
+   "Economy": 13,
+   "Polity": 10,
+   "Indian Society": 2,
+   "Current Affairs": 21
+  },
+  "Group 1 Prelims 2010": {
+   "Geography": 38,
+   "AP History & Culture": 18,
+   "Polity": 11,
+   "Economy": 36,
+   "Science & Technology": 55,
+   "Current Affairs": 43,
+   "General Studies": 11,
+   "History": 39,
+   "Indian Society": 1
+  },
+  "Group 1 Prelims 2012": {
+   "Science & Technology": 25,
+   "Current Affairs": 15,
+   "Economy": 8,
+   "History": 19,
+   "Indian Society": 3,
+   "Geography": 19,
+   "Polity": 12,
+   "General Studies": 14,
+   "AP History & Culture": 8
+  },
+  "Group 1 Prelims 2017": {
+   "Polity": 13,
+   "Economy": 37,
+   "Current Affairs": 35,
+   "Indian Society": 3,
+   "Geography": 22,
+   "Science & Technology": 14,
+   "History": 11
+  },
+  "Group 1 Prelims 2019": {
+   "History": 29,
+   "Polity": 28,
+   "Economy": 28,
+   "Geography": 30,
+   "Science & Technology": 29,
+   "Current Affairs": 29
+  },
+  "Group 1 Prelims 2023": {
+   "History": 29,
+   "AP History & Culture": 1,
+   "Polity": 30,
+   "Economy": 25,
+   "Current Affairs": 33,
+   "Geography": 29,
+   "Indian Society": 2,
+   "Science & Technology": 30
+  },
+  "Group 1 Prelims 2024": {
+   "History": 29,
+   "AP History & Culture": 1,
+   "Polity": 30,
+   "Economy": 30,
+   "Geography": 32,
+   "Current Affairs": 40,
+   "Science & Technology": 18
+  },
+  "Other APPSC screening tests 2017": {
+   "Economy": 45,
+   "Current Affairs": 16,
+   "Polity": 47,
+   "AP History & Culture": 4,
+   "Indian Society": 3,
+   "History": 13,
+   "Science & Technology": 9,
+   "Geography": 1
+  },
+  "Other APPSC screening tests 2019": {
+   "Current Affairs": 12,
+   "Geography": 9,
+   "Science & Technology": 10,
+   "AP History & Culture": 4,
+   "Economy": 14,
+   "Polity": 8,
+   "History": 6,
+   "Indian Society": 3
+  },
+  "Group 2 (old pattern) 2008": {
+   "Science & Technology": 40,
+   "Current Affairs": 40,
+   "History": 25,
+   "Geography": 15,
+   "Social & Cultural History of AP": 75,
+   "Indian Constitution": 75,
+   "Indian & AP Economy": 149
+  },
+  "Group 2 (old pattern) 2012": {
+   "Science & Technology": 31,
+   "Current Affairs": 28,
+   "History": 28,
+   "Geography": 27,
+   "General Studies": 9,
+   "Indian & AP Economy": 2,
+   "Social & Cultural History of AP": 4,
+   "Indian Society": 2
+  },
+  "Group 2 Mains 2017": {
+   "Current Affairs": 26,
+   "Science & Technology": 13,
+   "Geography": 44,
+   "History": 13,
+   "Indian Constitution": 86,
+   "Indian & AP Economy": 167,
+   "Social & Cultural History of AP": 73
+  },
+  "Group 2 Mains 2025": {
+   "Social & Cultural History of AP": 75,
+   "Indian Constitution": 75,
+   "Indian & AP Economy": 75,
+   "Science & Technology": 75
+  },
+  "Group 2 Prelims 2017": {
+   "Current Affairs": 53,
+   "General Studies": 78,
+   "History": 11,
+   "Indian Society": 5
+  },
+  "Group 2 Prelims 2019": {
+   "Current Affairs": 14,
+   "General Studies": 76,
+   "Geography": 10,
+   "Indian Society": 6,
+   "History": 28
+  },
+  "Group 2 Prelims 2024": {
+   "History": 30,
+   "Geography": 28,
+   "Indian Society": 30,
+   "Current Affairs": 30
+  }
+ }
+}
