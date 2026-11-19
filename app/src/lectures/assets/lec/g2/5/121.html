@@ -1,7 +1,4 @@
-<!doctype html><html><head><meta name='viewport' content='width=1360'><style>
-@media screen { html { background: #dfe3ec; scroll-snap-type: y proximity } body { padding: 28px 0 40px }
-  section.s, div.s { margin: 0 auto 28px; box-shadow: 0 6px 22px rgba(20,30,70,.22); border-radius: 10px; scroll-snap-align: center } }
-</style><meta charset='utf-8'><style>
+<!doctype html><html><head><meta charset='utf-8'><style>
     @page { size: 13.333in 7.5in; margin: 0 }
     * { box-sizing: border-box }
     body { margin: 0; font-family: Inter, 'Noto Sans', 'Noto Sans Telugu', Arial, sans-serif; color: #1f2430 }
@@ -51,7 +48,44 @@
     .src { color: #8a90a6; font-size: 14px; margin-top: 8px }
     .num { position: absolute; bottom: .18in; right: .5in; font-size: 12px; color: #9aa0b4 }
     .brand { position: absolute; bottom: .18in; left: .6in; font-size: 12px; color: #9aa0b4 }
-    </style></head><body><section class='s title'><div class='kicker'>Science &amp; Tech · Beyond the official syllabus (kept for practice)</div>
+    </style><meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'><style>
+@media screen {
+  /* one slide = one screen, laid out for this phone: text sized to the screen (and the phone's font size) */
+  :root { --f: clamp(14px, min(2.4vw, 4.4vh), 27px) }
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #0f1530; -webkit-tap-highlight-color: transparent }
+  section.s, div.s { width: 100vw !important; height: 100vh !important; height: 100dvh !important; margin: 0; page-break-after: auto }
+  .deck section.s, .deck div.s { display: none } .deck section.s.on, .deck div.s.on { display: block }
+  .bar { height: calc(var(--f) * 2.1); font-size: calc(var(--f) * .7); padding: 0 64px 0 18px; gap: 10px }
+  .inner { top: calc(var(--f) * 2.7); left: 58px; right: 58px; bottom: 26px; overflow: hidden }
+  h2 { font-size: calc(var(--f) * 1.28); margin: 0 0 .5em; padding-left: 10px; border-left-width: 5px }
+  h2 .cont { font-size: .6em }
+  .body { font-size: var(--f) }
+  .sub { font-size: 1.04em; margin: .45em 0 .15em }
+  ul.pts { padding-left: 1.1em } ul.pts li { margin: .22em 0 }
+  table { font-size: .86em } th, td { padding: .35em .5em }
+  .box { font-size: .92em; padding: .45em .7em; margin: .45em 0 } .box span { font-size: .62em }
+  .s.title, .s.end { padding: 7vh 6vw } .s.title h1, .s.end h1 { font-size: calc(var(--f) * 1.75); margin: .4em 0 .6em }
+  .kicker { font-size: calc(var(--f) * .7) } .syl { padding: .7em 1em } .syl ul { font-size: calc(var(--f) * .92) }
+  .syl .lab { font-size: calc(var(--f) * .6) } .foot { bottom: 30px; left: 6vw; font-size: calc(var(--f) * .7) }
+  ol.plan { font-size: var(--f); column-gap: 24px } ol.plan li { margin: 0 0 .5em } .n { width: 1.5em; height: 1.5em; font-size: .7em; margin-right: .5em }
+  .meta { font-size: calc(var(--f) * .75) }
+  .recap li { font-size: calc(var(--f) * .92); margin: .4em 0 }
+  .q { font-size: calc(var(--f) * .92); padding: .7em .9em } .src { font-size: .65em }
+  .qs2 { gap: 14px }
+  .brand, .num { display: none }
+  @media (orientation: portrait) { ol.plan { columns: 1 } .qs2 { grid-template-columns: 1fr } }
+  /* the controls: close, previous, slide n of N, next; a progress line */
+  #ctl button { position: fixed; z-index: 9; border: 0; border-radius: 50%; width: 48px; height: 48px; font-size: 26px; line-height: 48px;
+    background: rgba(15,21,48,.55); color: #fff; padding: 0 }
+  #ctl #cl { top: 4px; right: 8px; width: 42px; height: 42px; line-height: 42px; font-size: 20px; background: rgba(255,255,255,.18) }
+  #ctl #pv { top: 50%; left: 6px; transform: translateY(-50%) } #ctl #nx { top: 50%; right: 6px; transform: translateY(-50%) }
+  #ctl #pv, #ctl #nx { background: rgba(15,21,48,.28); color: #fff }
+  #ctl #ct { position: fixed; z-index: 9; bottom: 6px; right: 14px; font: 600 12px Inter, Arial, sans-serif;
+    color: #fff; background: rgba(15,21,48,.5); padding: 2px 10px; border-radius: 10px }
+  #ctl #pg { position: fixed; z-index: 9; bottom: 0; left: 0; height: 4px; background: #f6a623; transition: width .2s }
+  .s.title #x, .s.end #x { display: none }
+}
+</style></head><body><section class='s title'><div class='kicker'>Science &amp; Tech · Beyond the official syllabus (kept for practice)</div>
     <h1>Space Debris, Space Situational Awareness and International Space Law</h1>
     
     <div class='foot'>APPSC Group 2 · lecture notes</div></section><section class='s'><div class='bar'><span class='p'>Lesson</span><span class='t'>Space Debris, Space Situational Awareness and International Space Law</span></div><div class='inner'><h2>Lesson plan</h2><ol class='plan'><li><span class='n'>1</span>Space Situational Awareness – NETRA, IS4OM and Digantara</li><li><span class='n'>2</span>Space Debris and Re-entry</li><li><span class='n'>3</span>Space Law – Treaties and the Space Activities Bill</li><li><span class='n'>4</span>Mitigation and Debris-free Missions</li><li><span class='n'>5</span>Bodies, Accords and Weaponisation</li></ol><div class='meta'>5 parts · 24 MCQs in the app on this topic</div></div><div class='brand'>APPSC Group 2 · Science &amp; Tech</div><div class='num'></div></section><div id='parts'></div><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Space Debris, Space Situational Awareness and International Space Law</span></div><div class='inner'><h2>Recap</h2><ul class='pts recap'><li><b>Space Situational Awareness – NETRA, IS4OM and Digantara</b> — SSA · detect, track, monitor and predict · ISSAR 2025 (8 Apr 2026) · 18 collision avoidance manoeuvres · RISAT-2B · ISRO · safeguard Indian space assets</li><li><b>Space Debris and Re-entry</b> — Space debris · non-functional man-made objects · Main source = fragmentation · ASAT tests · Mission Shakti · 1.2 million objects &gt; 1 cm · Kessler Syndrome</li><li><b>Space Law – Treaties and the Space Activities Bill</b> — regulatory body to license · IPR · not · no Space Activities Act</li><li><b>Mitigation and Debris-free Missions</b> — 2024 IADC · 25-year rule · graveyard orbit · Active Debris Removal · robotic arm or net · PSLV-C62 · 2026 re-entry rules</li><li><b>Bodies, Accords and Weaponisation</b> — PAROS · Conference on Disarmament · April 2022 · SSA data-sharing · cooperation over confrontation</li></ul></div><div class='brand'>APPSC Group 2 · Science &amp; Tech</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Space Debris, Space Situational Awareness and International Space Law</span></div><div class='inner'><h2>Quick check</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q1</span>Which agency has initiated the Project NETRA?</div><ol class='opts'><li class=''>(1) ISRO</li><li class=''>(2) RBI</li><li class=''>(3) ICSSR</li><li class=''>(4) ICHR</li></ol><div class='src'>APPSC Junior Lecturers General Studies &amp; Mental Ability 2020</div></div><div class='q'><div class='qs'><span class='n'>Q2</span>Digantara Research and Technologies Pvt. Ltd. based at ___, was authorised by IN-SPACe on June 24 to launch their payloads.</div><ol class='opts'><li class=''>(1) New Delhi</li><li class=''>(2) Bengaluru</li><li class=''>(3) Pune</li><li class=''>(4) Kochi</li></ol><div class='src'>APPSC Divisional Accounts Officer, Asst. Public Relation Off</div></div></div></div><div class='brand'>APPSC Group 2 · Science &amp; Tech</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Space Debris, Space Situational Awareness and International Space Law</span></div><div class='inner'><h2>Quick check — answers</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q1</span>Which agency has initiated the Project NETRA?</div><ol class='opts'><li class='ok'>(1) ISRO</li><li class=''>(2) RBI</li><li class=''>(3) ICSSR</li><li class=''>(4) ICHR</li></ol><div class='src'>APPSC Junior Lecturers General Studies &amp; Mental Ability 2020</div></div><div class='q'><div class='qs'><span class='n'>Q2</span>Digantara Research and Technologies Pvt. Ltd. based at ___, was authorised by IN-SPACe on June 24 to launch their payloads.</div><ol class='opts'><li class=''>(1) New Delhi</li><li class='ok'>(2) Bengaluru</li><li class=''>(3) Pune</li><li class=''>(4) Kochi</li></ol><div class='src'>APPSC Divisional Accounts Officer, Asst. Public Relation Off</div></div></div></div><div class='brand'>APPSC Group 2 · Science &amp; Tech</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Space Debris, Space Situational Awareness and International Space Law</span></div><div class='inner'><h2>Quick check</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q3</span>What is the aim of ISRO&#x27;s project NETRA?</div><ol class='opts'><li class=''>(1) Set up space station for India</li><li class=''>(2) Safeguard Indian space assets</li><li class=''>(3) Send astronauts to space by 2022</li><li class=''>(4) Search for missing lander of Chandrayaan 2 mission</li></ol><div class='src'>Divisional Accounts Officer (Grade-II) 2020</div></div><div class='q'><div class='qs'><span class='n'>Q4</span>Which of the following statements is incorrect regarding the Space Activities Bill?</div><ol class='opts'><li class=''>(1) The objective of the Space Bill is to facilitate the overall growth of the space activities in India</li><li class=''>(2) The Bill provides for establishment of a regulatory body for the purpose of licensing of space activities</li><li class=''>(3) The Bill provides for the creation of a military wing of the armed forces in outer space</li><li class=''>(4) The Bill has provisions for the protection of Intellectual Property Rights created through space activity</li></ol><div class='src'>Grama Ward Sachivalayam Category-III Ward Welfare &amp; Developm</div></div></div></div><div class='brand'>APPSC Group 2 · Science &amp; Tech</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Space Debris, Space Situational Awareness and International Space Law</span></div><div class='inner'><h2>Quick check — answers</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q3</span>What is the aim of ISRO&#x27;s project NETRA?</div><ol class='opts'><li class=''>(1) Set up space station for India</li><li class='ok'>(2) Safeguard Indian space assets</li><li class=''>(3) Send astronauts to space by 2022</li><li class=''>(4) Search for missing lander of Chandrayaan 2 mission</li></ol><div class='src'>Divisional Accounts Officer (Grade-II) 2020</div></div><div class='q'><div class='qs'><span class='n'>Q4</span>Which of the following statements is incorrect regarding the Space Activities Bill?</div><ol class='opts'><li class=''>(1) The objective of the Space Bill is to facilitate the overall growth of the space activities in India</li><li class=''>(2) The Bill provides for establishment of a regulatory body for the purpose of licensing of space activities</li><li class='ok'>(3) The Bill provides for the creation of a military wing of the armed forces in outer space</li><li class=''>(4) The Bill has provisions for the protection of Intellectual Property Rights created through space activity</li></ol><div class='src'>Grama Ward Sachivalayam Category-III Ward Welfare &amp; Developm</div></div></div></div><div class='brand'>APPSC Group 2 · Science &amp; Tech</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Space Debris, Space Situational Awareness and International Space Law</span></div><div class='inner'><h2>Quick check</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q5</span>ISRO’s module reentered the atmosphere and impacted the Indian Ocean on April 4, 2025. Name the module.</div><ol class='opts'><li class=''>(1) POEM-X-R</li><li class=''>(2) POEM-4</li><li class=''>(3) POEM-6</li><li class=''>(4) POEM-K</li></ol><div class='src'>Uttarakhand P.C.S. (Pre) 2025</div></div><div class='q'><div class='qs'><span class='n'>Q6</span>In August 2019, where did ISRO lay the foundation stone for the Space Situational Awareness Control Centre?</div><ol class='opts'><li class=''>(1) Sriharikota</li><li class=''>(2) Bengaluru</li><li class=''>(3) Shillong</li><li class=''>(4) Thiruvananthapuram</li></ol><div class='src'>TS High Court Junior Assistant 2023</div></div></div></div><div class='brand'>APPSC Group 2 · Science &amp; Tech</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Space Debris, Space Situational Awareness and International Space Law</span></div><div class='inner'><h2>Quick check — answers</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q5</span>ISRO’s module reentered the atmosphere and impacted the Indian Ocean on April 4, 2025. Name the module.</div><ol class='opts'><li class=''>(1) POEM-X-R</li><li class='ok'>(2) POEM-4</li><li class=''>(3) POEM-6</li><li class=''>(4) POEM-K</li></ol><div class='src'>Uttarakhand P.C.S. (Pre) 2025</div></div><div class='q'><div class='qs'><span class='n'>Q6</span>In August 2019, where did ISRO lay the foundation stone for the Space Situational Awareness Control Centre?</div><ol class='opts'><li class=''>(1) Sriharikota</li><li class='ok'>(2) Bengaluru</li><li class=''>(3) Shillong</li><li class=''>(4) Thiruvananthapuram</li></ol><div class='src'>TS High Court Junior Assistant 2023</div></div></div></div><div class='brand'>APPSC Group 2 · Science &amp; Tech</div><div class='num'></div></section><section class='s end'><h1>Questions?</h1><div class='kicker'>Space Debris, Space Situational Awareness and International Space Law</div><div class='foot'>Practise this topic's 24 MCQs in APPSC Group 2</div></section><script>
@@ -105,4 +139,55 @@
     host.replaceWith(...host.childNodes);
     const all = document.querySelectorAll('section.s, div.s');
     all.forEach((s, k) => { const n = s.querySelector('.num'); if (n) n.textContent = `${k + 1} / ${all.length}`; });
-    </script></body></html>
+    </script><script>
+(function () {
+  // static slides (title, plan, recap, quick check) that overflow this screen are split, item by item
+  function split(s) {
+    const inner = s.querySelector('.inner'); const box = s.querySelector('.qs2, ul.recap, ol.plan');
+    if (!inner || !box) return;
+    const moved = [];
+    while (inner.scrollHeight > inner.clientHeight + 1 && box.children.length > 1) moved.unshift(box.lastElementChild), box.lastElementChild.remove();
+    if (!moved.length) return;
+    const c = s.cloneNode(true); const cb = c.querySelector('.qs2, ul.recap, ol.plan');
+    cb.innerHTML = ''; moved.forEach(m => cb.appendChild(m));
+    s.after(c); split(c);
+  }
+  document.querySelectorAll('section.s').forEach(split);
+  const all = [...document.querySelectorAll('section.s, div.s')], N = all.length;
+  all.forEach((s, i) => { s.setAttribute('role', 'group'); s.setAttribute('aria-roledescription', 'slide'); s.setAttribute('aria-label', `Slide ${i + 1} of ${N}`); });
+  document.documentElement.classList.add('deck');
+  const ctl = document.createElement('div'); ctl.id = 'ctl';
+  ctl.innerHTML = `<button id='cl' aria-label='Close lecture'>✕</button><button id='pv' aria-label='Previous slide'>‹</button>
+    <span id='ct' role='status' aria-live='polite'></span><button id='nx' aria-label='Next slide'>›</button><div id='pg' aria-hidden='true'></div>`;
+  document.body.appendChild(ctl);
+  const A = window.Android, ct = ctl.querySelector('#ct'), pg = ctl.querySelector('#pg');
+  const h = new URLSearchParams(location.hash.slice(1));
+  let cur = h.has('end') ? N - 1 : Math.min(N - 1, Math.max(0, Math.round(parseFloat(h.get('p') || '0') * (N - 1))));
+  function show(i) {
+    all[cur].classList.remove('on'); cur = i; all[cur].classList.add('on');
+    ct.textContent = `${cur + 1} / ${N}`; pg.style.width = `${(cur + 1) / N * 100}%`;
+    history.replaceState(null, '', '#p=' + (N > 1 ? cur / (N - 1) : 0));
+  }
+  const next = () => cur < N - 1 ? show(cur + 1) : (A && A.next());
+  const prev = () => cur > 0 ? show(cur - 1) : (A && A.prev());
+  ctl.querySelector('#nx').onclick = e => { e.stopPropagation(); next(); };
+  ctl.querySelector('#pv').onclick = e => { e.stopPropagation(); prev(); };
+  ctl.querySelector('#cl').onclick = e => { e.stopPropagation(); A && A.close(); };
+  // tap the left third for the previous slide, anywhere else for the next; or swipe; or the arrow keys
+  let x0 = null, y0 = null, swiped = false;
+  document.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; swiped = false; }, { passive: true });
+  document.addEventListener('touchend', e => {
+    if (x0 == null) return; const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) { swiped = true; dx < 0 ? next() : prev(); } x0 = null;
+  }, { passive: true });
+  document.addEventListener('click', e => { if (swiped || e.target.closest('button')) return; e.clientX < innerWidth * 0.3 ? prev() : next(); });
+  document.addEventListener('keydown', e => {
+    if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(e.key)) { e.preventDefault(); next(); }
+    if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(e.key)) { e.preventDefault(); prev(); }
+  });
+  // turned the phone: lay the slides out again for the new shape, at the same point of the lecture
+  const w0 = innerWidth, h0 = innerHeight; let t;
+  addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => { if ((innerWidth > innerHeight) !== (w0 > h0) || Math.abs(innerWidth - w0) > w0 * .15) location.reload(); }, 350); });
+  all[cur].classList.add('on'); show(cur);
+})();
+</script></body></html>

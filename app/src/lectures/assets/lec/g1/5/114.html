@@ -1,7 +1,4 @@
-<!doctype html><html><head><meta name='viewport' content='width=1360'><style>
-@media screen { html { background: #dfe3ec; scroll-snap-type: y proximity } body { padding: 28px 0 40px }
-  section.s, div.s { margin: 0 auto 28px; box-shadow: 0 6px 22px rgba(20,30,70,.22); border-radius: 10px; scroll-snap-align: center } }
-</style><meta charset='utf-8'><style>
+<!doctype html><html><head><meta charset='utf-8'><style>
     @page { size: 13.333in 7.5in; margin: 0 }
     * { box-sizing: border-box }
     body { margin: 0; font-family: Inter, 'Noto Sans', 'Noto Sans Telugu', Arial, sans-serif; color: #1f2430 }
@@ -51,7 +48,44 @@
     .src { color: #8a90a6; font-size: 14px; margin-top: 8px }
     .num { position: absolute; bottom: .18in; right: .5in; font-size: 12px; color: #9aa0b4 }
     .brand { position: absolute; bottom: .18in; left: .6in; font-size: 12px; color: #9aa0b4 }
-    </style></head><body><section class='s title'><div class='kicker'>Science, Tech &amp; Environment · Environmental Science - Issues and Concerns, Legal Aspects and Treaties, Biodiversity, Climate Change, Forest </div>
+    </style><meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'><style>
+@media screen {
+  /* one slide = one screen, laid out for this phone: text sized to the screen (and the phone's font size) */
+  :root { --f: clamp(14px, min(2.4vw, 4.4vh), 27px) }
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #0f1530; -webkit-tap-highlight-color: transparent }
+  section.s, div.s { width: 100vw !important; height: 100vh !important; height: 100dvh !important; margin: 0; page-break-after: auto }
+  .deck section.s, .deck div.s { display: none } .deck section.s.on, .deck div.s.on { display: block }
+  .bar { height: calc(var(--f) * 2.1); font-size: calc(var(--f) * .7); padding: 0 64px 0 18px; gap: 10px }
+  .inner { top: calc(var(--f) * 2.7); left: 58px; right: 58px; bottom: 26px; overflow: hidden }
+  h2 { font-size: calc(var(--f) * 1.28); margin: 0 0 .5em; padding-left: 10px; border-left-width: 5px }
+  h2 .cont { font-size: .6em }
+  .body { font-size: var(--f) }
+  .sub { font-size: 1.04em; margin: .45em 0 .15em }
+  ul.pts { padding-left: 1.1em } ul.pts li { margin: .22em 0 }
+  table { font-size: .86em } th, td { padding: .35em .5em }
+  .box { font-size: .92em; padding: .45em .7em; margin: .45em 0 } .box span { font-size: .62em }
+  .s.title, .s.end { padding: 7vh 6vw } .s.title h1, .s.end h1 { font-size: calc(var(--f) * 1.75); margin: .4em 0 .6em }
+  .kicker { font-size: calc(var(--f) * .7) } .syl { padding: .7em 1em } .syl ul { font-size: calc(var(--f) * .92) }
+  .syl .lab { font-size: calc(var(--f) * .6) } .foot { bottom: 30px; left: 6vw; font-size: calc(var(--f) * .7) }
+  ol.plan { font-size: var(--f); column-gap: 24px } ol.plan li { margin: 0 0 .5em } .n { width: 1.5em; height: 1.5em; font-size: .7em; margin-right: .5em }
+  .meta { font-size: calc(var(--f) * .75) }
+  .recap li { font-size: calc(var(--f) * .92); margin: .4em 0 }
+  .q { font-size: calc(var(--f) * .92); padding: .7em .9em } .src { font-size: .65em }
+  .qs2 { gap: 14px }
+  .brand, .num { display: none }
+  @media (orientation: portrait) { ol.plan { columns: 1 } .qs2 { grid-template-columns: 1fr } }
+  /* the controls: close, previous, slide n of N, next; a progress line */
+  #ctl button { position: fixed; z-index: 9; border: 0; border-radius: 50%; width: 48px; height: 48px; font-size: 26px; line-height: 48px;
+    background: rgba(15,21,48,.55); color: #fff; padding: 0 }
+  #ctl #cl { top: 4px; right: 8px; width: 42px; height: 42px; line-height: 42px; font-size: 20px; background: rgba(255,255,255,.18) }
+  #ctl #pv { top: 50%; left: 6px; transform: translateY(-50%) } #ctl #nx { top: 50%; right: 6px; transform: translateY(-50%) }
+  #ctl #pv, #ctl #nx { background: rgba(15,21,48,.28); color: #fff }
+  #ctl #ct { position: fixed; z-index: 9; bottom: 6px; right: 14px; font: 600 12px Inter, Arial, sans-serif;
+    color: #fff; background: rgba(15,21,48,.5); padding: 2px 10px; border-radius: 10px }
+  #ctl #pg { position: fixed; z-index: 9; bottom: 0; left: 0; height: 4px; background: #f6a623; transition: width .2s }
+  .s.title #x, .s.end #x { display: none }
+}
+</style></head><body><section class='s title'><div class='kicker'>Science, Tech &amp; Environment · Environmental Science - Issues and Concerns, Legal Aspects and Treaties, Biodiversity, Climate Change, Forest </div>
     <h1>Health and Environment – Vector-borne and Water-borne Diseases, Air Pollution, Amr, One Health</h1>
     <div class="syl"><div class="lab">SYLLABUS LINES THIS LESSON COVERS</div><ul><li>Health and environment</li></ul></div>
     <div class='foot'>APPSC Group 1 Prelims · lecture notes</div></section><section class='s'><div class='bar'><span class='p'>Lesson</span><span class='t'>Health and Environment – Vector-borne and Water-borne Diseases, Air Pollution, Amr, One Health</span></div><div class='inner'><h2>Lesson plan</h2><ol class='plan'><li><span class='n'>1</span>Bacterial and Viral Diseases – Quick Match</li><li><span class='n'>2</span>Water-borne and Faeco-oral Diseases</li><li><span class='n'>3</span>Mosquito-borne Diseases – Vectors and Pathogens</li><li><span class='n'>4</span>Zoonotic and Animal Diseases</li><li><span class='n'>5</span>Antibiotics and Antimicrobial Resistance</li><li><span class='n'>6</span>Worm (Helminth) Diseases</li><li><span class='n'>7</span>Infection, Immunity and Vaccination</li><li><span class='n'>8</span>Malaria and Plasmodium</li><li><span class='n'>9</span>Fungal Diseases, Mycotoxins and Plant Diseases</li><li><span class='n'>10</span>Air Pollution and Health</li><li><span class='n'>11</span>Sandfly, Tsetse Fly, Kissing Bug and Other Vectors</li><li><span class='n'>12</span>Vector Control, Insecticide Resistance and Elimination</li><li><span class='n'>13</span>One Health, Surveillance and Programmes</li><li><span class='n'>14</span>Climate-sensitive Diseases</li><li><span class='n'>15</span>Andhra Pradesh – Disease Burden and Response</li></ol><div class='meta'>15 parts · 335 MCQs in the app on this topic</div></div><div class='brand'>APPSC Group 1 Prelims · Science, Tech &amp; Environment</div><div class='num'></div></section><div id='parts'></div><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Health and Environment – Vector-borne and Water-borne Diseases, Air Pollution, Amr, One Health</span></div><div class='inner'><h2>Recap</h2><ul class='pts recap'><li><b>Bacterial and Viral Diseases – Quick Match</b> — Meningitis · meninges · Pneumonia · alveoli · Triple antigen (DPT) · Haemophilus influenzae (Hib) · Chickenpox</li><li><b>Water-borne and Faeco-oral Diseases</b> — Unsafe water + poor sanitation · 5,000 children die daily · Kwashiorkor · Floods · leptospirosis · Shallow hand-pump · NOT fluorosis</li><li><b>Mosquito-borne Diseases – Vectors and Pathogens</b> — Vector · vectors · Only female mosquitoes suck blood · bigger wings · males feed on plant juices/nectar · Culex, Anopheles and Aedes · NOT mosquito-borne</li><li><b>Zoonotic and Animal Diseases</b> — Rabies, Ebola, Nipah = zoonotic viral · malaria = vector-borne, not zoonotic · Fever types · remittent · more than 2°F · Anthrax · biological weapon</li><li><b>Antibiotics and Antimicrobial Resistance</b> — Fleming: penicillin, 1928 · Waksman · streptomycin · natural or semi-synthetic · Prontosil · Griseofulvin · Acetobacter</li><li><b>Worm (Helminth) Diseases</b> — Tapeworm = hermaphrodite · roundworm = separate sexes · filaria is caused by a nematode · Livestock worms · deworming (anthelmintics) · Amphistomiasis · snail control</li><li><b>Infection, Immunity and Vaccination</b> — Disease vs symptom · cholera · fever · Contagious · yawning · not spread by casual contact · Measles</li><li><b>Malaria and Plasmodium</b> — Pathogen · *Plasmodium · liver · red blood cells · spleen · Five · several species</li></ul></div><div class='brand'>APPSC Group 1 Prelims · Science, Tech &amp; Environment</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Health and Environment – Vector-borne and Water-borne Diseases, Air Pollution, Amr, One Health</span></div><div class='inner'><h2>Recap (cont.)</h2><ul class='pts recap'><li><b>Fungal Diseases, Mycotoxins and Plant Diseases</b> — Baldness · colour blindness = genetic · Epidemic dropsy</li><li><b>Air Pollution and Health</b> — respiratory system · PM2.5 raises heart disease · natural sources too · planting trees reduces · WHO · 4.2 million · ambient</li><li><b>Sandfly, Tsetse Fly, Kissing Bug and Other Vectors</b> — not kala-azar</li><li><b>Vector Control, Insecticide Resistance and Elimination</b> — DDT resistance · natural selection · 50-60% · &#x27;Debug&#x27; · NCVBDC · Elimination · 2027</li><li><b>One Health, Surveillance and Programmes</b> — One Health · One Health Summit 2026 · National One Health Mission · PM-STIAC · BCG · at birth · WHO definition of health (1948)</li><li><b>Climate-sensitive Diseases</b> — 3.6 billion+ · WHO · 2.5 lakh extra deaths a year · child undernutrition 95,000 · 58% (218 of 375) · &#x27;Under the Weather&#x27; · 40% of districts</li><li><b>Andhra Pradesh – Disease Burden and Response</b> — ASR, Polavaram, Vizianagaram · 941 · Agency (tribal) districts · IRS, LLINs, source reduction · Adult BCG drive · 16 May 2024 · 70.3</li></ul></div><div class='brand'>APPSC Group 1 Prelims · Science, Tech &amp; Environment</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Health and Environment – Vector-borne and Water-borne Diseases, Air Pollution, Amr, One Health</span></div><div class='inner'><h2>Quick check</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q1</span>Prontosil is a</div><ol class='opts'><li class=''>(1) Drug</li><li class=''>(2) Pro-drug</li><li class=''>(3) Over-the-counter drug</li><li class=''>(4) Synthetic penicillin</li></ol><div class='src'>APPSC Group-I Services Preliminary (Screening) Test - General Studies &amp; Mental Ability, held 20-04-2008 · Q135</div></div><div class='q'><div class='qs'><span class='n'>Q2</span>Trontosil is a:</div><ol class='opts'><li class=''>(1) Drug</li><li class=''>(2) Pro-drug</li><li class=''>(3) Over-the-counter drug</li><li class=''>(4) Synthetic penicillin</li></ol><div class='src'>APPSC Group-I Prelims 2008 (20-04-2008)</div></div></div></div><div class='brand'>APPSC Group 1 Prelims · Science, Tech &amp; Environment</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Health and Environment – Vector-borne and Water-borne Diseases, Air Pollution, Amr, One Health</span></div><div class='inner'><h2>Quick check — answers</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q1</span>Prontosil is a</div><ol class='opts'><li class=''>(1) Drug</li><li class='ok'>(2) Pro-drug</li><li class=''>(3) Over-the-counter drug</li><li class=''>(4) Synthetic penicillin</li></ol><div class='src'>APPSC Group-I Services Preliminary (Screening) Test - General Studies &amp; Mental Ability, held 20-04-2008 · Q135</div></div><div class='q'><div class='qs'><span class='n'>Q2</span>Trontosil is a:</div><ol class='opts'><li class=''>(1) Drug</li><li class='ok'>(2) Pro-drug</li><li class=''>(3) Over-the-counter drug</li><li class=''>(4) Synthetic penicillin</li></ol><div class='src'>APPSC Group-I Prelims 2008 (20-04-2008)</div></div></div></div><div class='brand'>APPSC Group 1 Prelims · Science, Tech &amp; Environment</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Health and Environment – Vector-borne and Water-borne Diseases, Air Pollution, Amr, One Health</span></div><div class='inner'><h2>Quick check</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q3</span>What causes AIDS?</div><ol class='opts'><li class=''>(1) Bacteria</li><li class=''>(2) Mildew</li><li class=''>(3) Amoeba</li><li class=''>(4) Virus</li></ol><div class='src'>APPSC Polytechnic Lecturers (S1) General Studies &amp; Mental Ab</div></div><div class='q'><div class='qs'><span class='n'>Q4</span>What causes AIDS?</div><ol class='opts'><li class=''>(1) Bacteria</li><li class=''>(2) Mildew</li><li class=''>(3) Amoeba</li><li class=''>(4) Virus</li></ol><div class='src'>APPSC Lecturers in Government Polytechnic Colleges (Notification No. 23/2018) Screening Test - General Studies &amp; Mental Ability, held 12-03-2020 (Session 1) · Q31</div></div></div></div><div class='brand'>APPSC Group 1 Prelims · Science, Tech &amp; Environment</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Health and Environment – Vector-borne and Water-borne Diseases, Air Pollution, Amr, One Health</span></div><div class='inner'><h2>Quick check — answers</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q3</span>What causes AIDS?</div><ol class='opts'><li class=''>(1) Bacteria</li><li class=''>(2) Mildew</li><li class=''>(3) Amoeba</li><li class='ok'>(4) Virus</li></ol><div class='src'>APPSC Polytechnic Lecturers (S1) General Studies &amp; Mental Ab</div></div><div class='q'><div class='qs'><span class='n'>Q4</span>What causes AIDS?</div><ol class='opts'><li class=''>(1) Bacteria</li><li class=''>(2) Mildew</li><li class=''>(3) Amoeba</li><li class='ok'>(4) Virus</li></ol><div class='src'>APPSC Lecturers in Government Polytechnic Colleges (Notification No. 23/2018) Screening Test - General Studies &amp; Mental Ability, held 12-03-2020 (Session 1) · Q31</div></div></div></div><div class='brand'>APPSC Group 1 Prelims · Science, Tech &amp; Environment</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Health and Environment – Vector-borne and Water-borne Diseases, Air Pollution, Amr, One Health</span></div><div class='inner'><h2>Quick check</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q5</span>Plague is spread by</div><ol class='opts'><li class=''>(1) Cats</li><li class=''>(2) Cockroaches</li><li class=''>(3) Rodents</li><li class=''>(4) Virus</li></ol><div class='src'>APPSC Inspector of Factories, Civil Assistant Surgeons &amp; Fis</div></div><div class='q'><div class='qs'><span class='n'>Q6</span>Identify the odd one:</div><ol class='opts'><li class=''>(1) Jaundice</li><li class=''>(2) Typhoid</li><li class=''>(3) T. B</li><li class=''>(4) Pneumonia</li></ol><div class='src'>APPSC Group-1 PYQ</div></div></div></div><div class='brand'>APPSC Group 1 Prelims · Science, Tech &amp; Environment</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Health and Environment – Vector-borne and Water-borne Diseases, Air Pollution, Amr, One Health</span></div><div class='inner'><h2>Quick check — answers</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q5</span>Plague is spread by</div><ol class='opts'><li class=''>(1) Cats</li><li class=''>(2) Cockroaches</li><li class='ok'>(3) Rodents</li><li class=''>(4) Virus</li></ol><div class='src'>APPSC Inspector of Factories, Civil Assistant Surgeons &amp; Fis</div></div><div class='q'><div class='qs'><span class='n'>Q6</span>Identify the odd one:</div><ol class='opts'><li class='ok'>(1) Jaundice</li><li class=''>(2) Typhoid</li><li class=''>(3) T. B</li><li class=''>(4) Pneumonia</li></ol><div class='src'>APPSC Group-1 PYQ</div></div></div></div><div class='brand'>APPSC Group 1 Prelims · Science, Tech &amp; Environment</div><div class='num'></div></section><section class='s end'><h1>Questions?</h1><div class='kicker'>Health and Environment – Vector-borne and Water-borne Diseases, Air Pollution, Amr, One Health</div><div class='foot'>Practise this topic's 335 MCQs in APPSC Group 1 Prelims</div></section><script>
@@ -105,4 +139,55 @@
     host.replaceWith(...host.childNodes);
     const all = document.querySelectorAll('section.s, div.s');
     all.forEach((s, k) => { const n = s.querySelector('.num'); if (n) n.textContent = `${k + 1} / ${all.length}`; });
-    </script></body></html>
+    </script><script>
+(function () {
+  // static slides (title, plan, recap, quick check) that overflow this screen are split, item by item
+  function split(s) {
+    const inner = s.querySelector('.inner'); const box = s.querySelector('.qs2, ul.recap, ol.plan');
+    if (!inner || !box) return;
+    const moved = [];
+    while (inner.scrollHeight > inner.clientHeight + 1 && box.children.length > 1) moved.unshift(box.lastElementChild), box.lastElementChild.remove();
+    if (!moved.length) return;
+    const c = s.cloneNode(true); const cb = c.querySelector('.qs2, ul.recap, ol.plan');
+    cb.innerHTML = ''; moved.forEach(m => cb.appendChild(m));
+    s.after(c); split(c);
+  }
+  document.querySelectorAll('section.s').forEach(split);
+  const all = [...document.querySelectorAll('section.s, div.s')], N = all.length;
+  all.forEach((s, i) => { s.setAttribute('role', 'group'); s.setAttribute('aria-roledescription', 'slide'); s.setAttribute('aria-label', `Slide ${i + 1} of ${N}`); });
+  document.documentElement.classList.add('deck');
+  const ctl = document.createElement('div'); ctl.id = 'ctl';
+  ctl.innerHTML = `<button id='cl' aria-label='Close lecture'>✕</button><button id='pv' aria-label='Previous slide'>‹</button>
+    <span id='ct' role='status' aria-live='polite'></span><button id='nx' aria-label='Next slide'>›</button><div id='pg' aria-hidden='true'></div>`;
+  document.body.appendChild(ctl);
+  const A = window.Android, ct = ctl.querySelector('#ct'), pg = ctl.querySelector('#pg');
+  const h = new URLSearchParams(location.hash.slice(1));
+  let cur = h.has('end') ? N - 1 : Math.min(N - 1, Math.max(0, Math.round(parseFloat(h.get('p') || '0') * (N - 1))));
+  function show(i) {
+    all[cur].classList.remove('on'); cur = i; all[cur].classList.add('on');
+    ct.textContent = `${cur + 1} / ${N}`; pg.style.width = `${(cur + 1) / N * 100}%`;
+    history.replaceState(null, '', '#p=' + (N > 1 ? cur / (N - 1) : 0));
+  }
+  const next = () => cur < N - 1 ? show(cur + 1) : (A && A.next());
+  const prev = () => cur > 0 ? show(cur - 1) : (A && A.prev());
+  ctl.querySelector('#nx').onclick = e => { e.stopPropagation(); next(); };
+  ctl.querySelector('#pv').onclick = e => { e.stopPropagation(); prev(); };
+  ctl.querySelector('#cl').onclick = e => { e.stopPropagation(); A && A.close(); };
+  // tap the left third for the previous slide, anywhere else for the next; or swipe; or the arrow keys
+  let x0 = null, y0 = null, swiped = false;
+  document.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; swiped = false; }, { passive: true });
+  document.addEventListener('touchend', e => {
+    if (x0 == null) return; const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) { swiped = true; dx < 0 ? next() : prev(); } x0 = null;
+  }, { passive: true });
+  document.addEventListener('click', e => { if (swiped || e.target.closest('button')) return; e.clientX < innerWidth * 0.3 ? prev() : next(); });
+  document.addEventListener('keydown', e => {
+    if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(e.key)) { e.preventDefault(); next(); }
+    if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(e.key)) { e.preventDefault(); prev(); }
+  });
+  // turned the phone: lay the slides out again for the new shape, at the same point of the lecture
+  const w0 = innerWidth, h0 = innerHeight; let t;
+  addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => { if ((innerWidth > innerHeight) !== (w0 > h0) || Math.abs(innerWidth - w0) > w0 * .15) location.reload(); }, 350); });
+  all[cur].classList.add('on'); show(cur);
+})();
+</script></body></html>

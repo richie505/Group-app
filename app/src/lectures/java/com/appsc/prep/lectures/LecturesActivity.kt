@@ -5,6 +5,10 @@ import android.content.Context
 import android.content.pm.ActivityInfo
 import android.os.Bundle
 import android.webkit.WebView
+import androidx.compose.runtime.rememberUpdatedState
+import androidx.compose.runtime.DisposableEffect
+import android.webkit.JavascriptInterface
+import android.view.WindowManager
 import android.webkit.WebViewClient
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
@@ -30,11 +34,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.automirrored.filled.NavigateBefore
-import androidx.compose.material.icons.automirrored.filled.NavigateNext
 import androidx.compose.material.icons.filled.CheckCircle
-import androidx.compose.material.icons.filled.Fullscreen
-import androidx.compose.material.icons.filled.FullscreenExit
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -57,6 +57,9 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.semantics.heading
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.stateDescription
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.view.WindowCompat
@@ -102,7 +105,7 @@ private sealed class Screen {
     data object Home : Screen()
     data class Subjects(val app: Int) : Screen()
     data class Topics(val app: Int, val subject: Int) : Screen()
-    data class Slides(val app: Int, val subject: Int, val topic: Int) : Screen()
+    data class Slides(val app: Int, val subject: Int, val topic: Int, val fromEnd: Boolean = false) : Screen()
 }
 
 class LecturesActivity : ComponentActivity() {
@@ -135,8 +138,8 @@ class LecturesActivity : ComponentActivity() {
                             open(sc.app, sc.subject, it); go(Screen.Slides(sc.app, sc.subject, it))
                         }
                         is Screen.Slides -> SlidesScreen(
-                            apps[sc.app], apps[sc.app].subjects[sc.subject], sc.topic, back,
-                        ) { t -> open(sc.app, sc.subject, t); stack = stack.dropLast(1) + Screen.Slides(sc.app, sc.subject, t) }
+                            apps[sc.app], apps[sc.app].subjects[sc.subject], sc.topic, sc.fromEnd, back,
+                        ) { t, end -> open(sc.app, sc.subject, t); stack = stack.dropLast(1) + Screen.Slides(sc.app, sc.subject, t, end) }
                     }
                 }
             }
@@ -243,13 +246,15 @@ private fun TopicsScreen(app: LectureApp, s: Subject, seen: Set<String>, onBack:
                     val u = t.unit
                     item(key = "u$i") {
                         Text(u.uppercase(), color = Indigo, fontSize = 11.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.sp,
-                            maxLines = 2, overflow = TextOverflow.Ellipsis, modifier = Modifier.padding(top = 16.dp, bottom = 2.dp))
+                            maxLines = 2, overflow = TextOverflow.Ellipsis, modifier = Modifier.padding(top = 16.dp, bottom = 2.dp).semantics { heading() })
                     }
                 }
                 item(key = "t$i") {
                     Row(
                         Modifier.fillMaxWidth().padding(top = 6.dp).clip(RoundedCornerShape(12.dp)).background(Color.White)
-                            .clickable { onOpen(i) }.padding(14.dp),
+                            .clickable(onClickLabel = "Open lecture") { onOpen(i) }
+                            .semantics(mergeDescendants = true) { stateDescription = if (t.file in seen) "Opened" else "Not opened" }
+                            .padding(14.dp),
                         verticalAlignment = Alignment.CenterVertically,
                     ) {
                         Text("%03d".format(t.n), color = Muted, fontSize = 12.sp, fontWeight = FontWeight.Bold, modifier = Modifier.width(38.dp))
@@ -266,58 +271,58 @@ private fun TopicsScreen(app: LectureApp, s: Subject, seen: Set<String>, onBack:
     }
 }
 
+/** A lecture, full screen in landscape: one slide at a time, laid out for this screen; tap (right side = next,
+ *  left = previous), swipe, or use the on-screen buttons. Past the last slide comes the next lecture. */
 @SuppressLint("SetJavaScriptEnabled")
 @Composable
-private fun SlidesScreen(app: LectureApp, s: Subject, i: Int, onBack: () -> Unit, onTopic: (Int) -> Unit) {
+private fun SlidesScreen(app: LectureApp, s: Subject, i: Int, fromEnd: Boolean, onBack: () -> Unit, onTopic: (Int, Boolean) -> Unit) {
     val t = s.topics[i]
     val activity = LocalContext.current as ComponentActivity
-    var present by remember { mutableStateOf(false) }
-    fun setPresent(on: Boolean) {
-        present = on
-        activity.requestedOrientation = if (on) ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE else ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED
+    DisposableEffect(Unit) {
+        activity.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE
         val c = WindowCompat.getInsetsController(activity.window, activity.window.decorView)
-        if (on) { c.hide(WindowInsetsCompat.Type.systemBars()); c.systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE }
-        else c.show(WindowInsetsCompat.Type.systemBars())
-    }
-    BackHandler { if (present) setPresent(false) else onBack() }
-    Column(Modifier.fillMaxSize().background(Color(0xFFDFE3EC))) {
-        if (!present) Bar(t.title, "${s.short} · lecture ${t.n} of ${s.topics.size} · ${t.slides} slides", onBack) {
-            IconButton(onClick = { if (i > 0) onTopic(i - 1) }, enabled = i > 0) {
-                Icon(Icons.AutoMirrored.Filled.NavigateBefore, "Previous lecture", tint = if (i > 0) Color.White else Color.White.copy(alpha = .3f))
-            }
-            IconButton(onClick = { if (i < s.topics.size - 1) onTopic(i + 1) }, enabled = i < s.topics.size - 1) {
-                Icon(Icons.AutoMirrored.Filled.NavigateNext, "Next lecture", tint = if (i < s.topics.size - 1) Color.White else Color.White.copy(alpha = .3f))
-            }
-            IconButton(onClick = { setPresent(true) }) { Icon(Icons.Filled.Fullscreen, "Present", tint = Color.White) }
-        }
-        Box(Modifier.weight(1f)) {
-            AndroidView(
-                factory = { ctx ->
-                    WebView(ctx).apply {
-                        webViewClient = WebViewClient()
-                        settings.javaScriptEnabled = true // the slides lay themselves out, measuring what fits
-                        settings.useWideViewPort = true
-                        settings.loadWithOverviewMode = true
-                        settings.builtInZoomControls = true
-                        settings.displayZoomControls = false
-                        setBackgroundColor(android.graphics.Color.rgb(223, 227, 236))
-                    }
-                },
-                update = { w -> val u = "file:///android_asset/${t.file}"; if (w.url != u) w.loadUrl(u) },
-                modifier = Modifier.fillMaxSize(),
-            )
-            if (present) IconButton(
-                onClick = { setPresent(false) },
-                modifier = Modifier.align(Alignment.TopEnd).padding(8.dp).clip(CircleShape).background(Navy.copy(alpha = .55f)),
-            ) { Icon(Icons.Filled.FullscreenExit, "Exit presenting", tint = Color.White) }
+        c.systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+        c.hide(WindowInsetsCompat.Type.systemBars())
+        activity.window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON) // no dimming mid-lecture
+        onDispose {
+            activity.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED
+            c.show(WindowInsetsCompat.Type.systemBars())
+            activity.window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
         }
     }
+    val cur = rememberUpdatedState(i)
+    val bridge = remember {
+        object {
+            @JavascriptInterface fun next() = activity.runOnUiThread { if (cur.value < s.topics.size - 1) onTopic(cur.value + 1, false) else onBack() }
+            @JavascriptInterface fun prev() = activity.runOnUiThread { if (cur.value > 0) onTopic(cur.value - 1, true) }
+            @JavascriptInterface fun close() = activity.runOnUiThread { onBack() }
+        }
+    }
+    val fontScale = LocalContext.current.resources.configuration.fontScale
+    AndroidView(
+        factory = { ctx ->
+            WebView(ctx).apply {
+                webViewClient = WebViewClient()
+                settings.javaScriptEnabled = true // the slides lay themselves out for the screen, measuring what fits
+                settings.textZoom = (fontScale * 100).toInt() // the phone's font size
+                setBackgroundColor(android.graphics.Color.rgb(15, 21, 48))
+                addJavascriptInterface(bridge, "Android")
+                contentDescription = "Lecture slides: ${t.title}"
+            }
+        },
+        update = { w ->
+            val u = "file:///android_asset/${t.file}" + if (fromEnd) "#end=1" else ""
+            if (w.tag != u) { w.tag = u; w.loadUrl(u); w.contentDescription = "Lecture slides: ${t.title}" }
+        },
+        modifier = Modifier.fillMaxSize().background(Navy),
+    )
 }
 
 @Composable
 private fun Card(modifier: Modifier = Modifier, onClick: () -> Unit, body: @Composable () -> Unit) {
     Column(
-        modifier.fillMaxWidth().clip(RoundedCornerShape(16.dp)).background(Color.White).clickable(onClick = onClick).padding(16.dp),
+        modifier.fillMaxWidth().clip(RoundedCornerShape(16.dp)).background(Color.White).clickable(onClick = onClick)
+            .semantics(mergeDescendants = true) {}.padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(2.dp),
     ) { body() }
 }

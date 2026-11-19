@@ -1,7 +1,4 @@
-<!doctype html><html><head><meta name='viewport' content='width=1360'><style>
-@media screen { html { background: #dfe3ec; scroll-snap-type: y proximity } body { padding: 28px 0 40px }
-  section.s, div.s { margin: 0 auto 28px; box-shadow: 0 6px 22px rgba(20,30,70,.22); border-radius: 10px; scroll-snap-align: center } }
-</style><meta charset='utf-8'><style>
+<!doctype html><html><head><meta charset='utf-8'><style>
     @page { size: 13.333in 7.5in; margin: 0 }
     * { box-sizing: border-box }
     body { margin: 0; font-family: Inter, 'Noto Sans', 'Noto Sans Telugu', Arial, sans-serif; color: #1f2430 }
@@ -51,7 +48,44 @@
     .src { color: #8a90a6; font-size: 14px; margin-top: 8px }
     .num { position: absolute; bottom: .18in; right: .5in; font-size: 12px; color: #9aa0b4 }
     .brand { position: absolute; bottom: .18in; left: .6in; font-size: 12px; color: #9aa0b4 }
-    </style></head><body><section class='s title'><div class='kicker'>Economy · Indian and AP Economy (Mains · Paper II · Section A)</div>
+    </style><meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'><style>
+@media screen {
+  /* one slide = one screen, laid out for this phone: text sized to the screen (and the phone's font size) */
+  :root { --f: clamp(14px, min(2.4vw, 4.4vh), 27px) }
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #0f1530; -webkit-tap-highlight-color: transparent }
+  section.s, div.s { width: 100vw !important; height: 100vh !important; height: 100dvh !important; margin: 0; page-break-after: auto }
+  .deck section.s, .deck div.s { display: none } .deck section.s.on, .deck div.s.on { display: block }
+  .bar { height: calc(var(--f) * 2.1); font-size: calc(var(--f) * .7); padding: 0 64px 0 18px; gap: 10px }
+  .inner { top: calc(var(--f) * 2.7); left: 58px; right: 58px; bottom: 26px; overflow: hidden }
+  h2 { font-size: calc(var(--f) * 1.28); margin: 0 0 .5em; padding-left: 10px; border-left-width: 5px }
+  h2 .cont { font-size: .6em }
+  .body { font-size: var(--f) }
+  .sub { font-size: 1.04em; margin: .45em 0 .15em }
+  ul.pts { padding-left: 1.1em } ul.pts li { margin: .22em 0 }
+  table { font-size: .86em } th, td { padding: .35em .5em }
+  .box { font-size: .92em; padding: .45em .7em; margin: .45em 0 } .box span { font-size: .62em }
+  .s.title, .s.end { padding: 7vh 6vw } .s.title h1, .s.end h1 { font-size: calc(var(--f) * 1.75); margin: .4em 0 .6em }
+  .kicker { font-size: calc(var(--f) * .7) } .syl { padding: .7em 1em } .syl ul { font-size: calc(var(--f) * .92) }
+  .syl .lab { font-size: calc(var(--f) * .6) } .foot { bottom: 30px; left: 6vw; font-size: calc(var(--f) * .7) }
+  ol.plan { font-size: var(--f); column-gap: 24px } ol.plan li { margin: 0 0 .5em } .n { width: 1.5em; height: 1.5em; font-size: .7em; margin-right: .5em }
+  .meta { font-size: calc(var(--f) * .75) }
+  .recap li { font-size: calc(var(--f) * .92); margin: .4em 0 }
+  .q { font-size: calc(var(--f) * .92); padding: .7em .9em } .src { font-size: .65em }
+  .qs2 { gap: 14px }
+  .brand, .num { display: none }
+  @media (orientation: portrait) { ol.plan { columns: 1 } .qs2 { grid-template-columns: 1fr } }
+  /* the controls: close, previous, slide n of N, next; a progress line */
+  #ctl button { position: fixed; z-index: 9; border: 0; border-radius: 50%; width: 48px; height: 48px; font-size: 26px; line-height: 48px;
+    background: rgba(15,21,48,.55); color: #fff; padding: 0 }
+  #ctl #cl { top: 4px; right: 8px; width: 42px; height: 42px; line-height: 42px; font-size: 20px; background: rgba(255,255,255,.18) }
+  #ctl #pv { top: 50%; left: 6px; transform: translateY(-50%) } #ctl #nx { top: 50%; right: 6px; transform: translateY(-50%) }
+  #ctl #pv, #ctl #nx { background: rgba(15,21,48,.28); color: #fff }
+  #ctl #ct { position: fixed; z-index: 9; bottom: 6px; right: 14px; font: 600 12px Inter, Arial, sans-serif;
+    color: #fff; background: rgba(15,21,48,.5); padding: 2px 10px; border-radius: 10px }
+  #ctl #pg { position: fixed; z-index: 9; bottom: 0; left: 0; height: 4px; background: #f6a623; transition: width .2s }
+  .s.title #x, .s.end #x { display: none }
+}
+</style></head><body><section class='s title'><div class='kicker'>Economy · Indian and AP Economy (Mains · Paper II · Section A)</div>
     <h1>Bifurcation and Ap&#x27;s State Revenue – Revenue Deficit, Loss of Hyderabad, Resource Gap</h1>
     <div class="syl"><div class="lab">SYLLABUS LINES THIS LESSON COVERS</div><ul><li>AP tax revenue</li><li>AP non-tax revenue</li><li>AP state expenditure</li><li>AP debts</li><li>Interest payments</li><li>Central Assistance</li></ul></div>
     <div class='foot'>APPSC Group 2 · lecture notes</div></section><section class='s'><div class='bar'><span class='p'>Lesson</span><span class='t'>Bifurcation and Ap&#x27;s State Revenue – Revenue Deficit, Loss of Hyderabad, Resource Gap</span></div><div class='inner'><h2>Lesson plan</h2><ol class='plan'><li><span class='n'>1</span>Resource Gap and Deficits of the Bifurcation Year (2014-15)</li><li><span class='n'>2</span>Loss of Hyderabad – Revenue Base and Challenges</li><li><span class='n'>3</span>Deficits After 2014-15</li><li><span class='n'>4</span>Power Sector – Reforms, Discoms and Dues</li><li><span class='n'>5</span>Welfare and Committed Spending</li><li><span class='n'>6</span>Demands to the Centre – Special Category Status</li><li><span class='n'>7</span>Central Assistance and Finance Commissions</li><li><span class='n'>8</span>FRBM Breaches, Debt and CAG Remarks</li></ol><div class='meta'>8 parts · 39 MCQs in the app on this topic</div></div><div class='brand'>APPSC Group 2 · Economy</div><div class='num'></div></section><div id='parts'></div><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Bifurcation and Ap&#x27;s State Revenue – Revenue Deficit, Loss of Hyderabad, Resource Gap</span></div><div class='inner'><h2>Recap</h2><ul class='pts recap'><li><b>Resource Gap and Deficits of the Bifurcation Year (2014-15)</b> — Appointed day = 2 June 2014 · assent on 1 March 2014 · Resource gap · revenue deficit · first ten months · Centre · excluded new State schemes</li><li><b>Loss of Hyderabad – Revenue Base and Challenges</b> — nearly 50% · tax and non-tax revenue · Srikrishna Committee (2010) · 18% (1999-2000) to about 25% (2005-06) · agricultural base · population ratio 58.32 : 41.68 · Schedule IX and X institutions</li><li><b>Deficits After 2014-15</b> — 3.2% of GDP · 18 States · ₹17,000 crore = 1.27% of GSDP</li><li><b>Power Sector – Reforms, Discoms and Dues</b> — Department of Expenditure · 0.5% of GSDP · power-sector reforms · 4 February 2021 · second State · DBT of electricity subsidy to farmers · ₹1,515 crore</li><li><b>Welfare and Committed Spending</b> — revenue spending ₹2,24,343 crore · capital outlay only ₹24,072 crore · Own tax revenue · 73% · own revenues · salaries and pensions</li><li><b>Demands to the Centre – Special Category Status</b> — N. Chandrababu Naidu · Special Category Status (SCS) · 5 years · Rajya Sabha (2014) · Centre bears 90% · 14th FC · 32% → 42%</li><li><b>Central Assistance and Finance Commissions</b> — Central institutions</li><li><b>FRBM Breaches, Debt and CAG Remarks</b> — Accounts at a Glance 2024-25 · RD 3.75% vs FRBM target 2.70% · FD 5.05% vs 4% ceiling · Off-budget borrowings · Guarantees</li></ul></div><div class='brand'>APPSC Group 2 · Economy</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Bifurcation and Ap&#x27;s State Revenue – Revenue Deficit, Loss of Hyderabad, Resource Gap</span></div><div class='inner'><h2>Quick check</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q1</span>The bifurcation will have an adverse affect in regard to revenue on</div><ol class='opts'><li class=''>(1) Telangana State</li><li class=''>(2) Both states equally</li><li class=''>(3) Neither state</li><li class=''>(4) Andhra Pradesh State</li></ol><div class='src'>APPSC Extension Officer Grade-I Common Paper General Studies</div></div><div class='q'><div class='qs'><span class='n'>Q2</span>In the 1st Five Year Plan of Andhra Pradesh, the estimated outlay was about</div><ol class='opts'><li class=''>(1) Rs. 100 crores</li><li class=''>(2) Rs. 200 crores</li><li class=''>(3) Rs. 250 crores</li><li class=''>(4) Rs. 300 crores</li></ol><div class='src'>APPSC Group-II Services Examination 2008, Paper III: Planning in India and Indian Economy (with Andhra Pradesh Economy), held 21-09-2008 (Series C, GTG/202) · Q136</div></div></div></div><div class='brand'>APPSC Group 2 · Economy</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Bifurcation and Ap&#x27;s State Revenue – Revenue Deficit, Loss of Hyderabad, Resource Gap</span></div><div class='inner'><h2>Quick check — answers</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q1</span>The bifurcation will have an adverse affect in regard to revenue on</div><ol class='opts'><li class=''>(1) Telangana State</li><li class=''>(2) Both states equally</li><li class=''>(3) Neither state</li><li class='ok'>(4) Andhra Pradesh State</li></ol><div class='src'>APPSC Extension Officer Grade-I Common Paper General Studies</div></div><div class='q'><div class='qs'><span class='n'>Q2</span>In the 1st Five Year Plan of Andhra Pradesh, the estimated outlay was about</div><ol class='opts'><li class='ok'>(1) Rs. 100 crores</li><li class=''>(2) Rs. 200 crores</li><li class=''>(3) Rs. 250 crores</li><li class=''>(4) Rs. 300 crores</li></ol><div class='src'>APPSC Group-II Services Examination 2008, Paper III: Planning in India and Indian Economy (with Andhra Pradesh Economy), held 21-09-2008 (Series C, GTG/202) · Q136</div></div></div></div><div class='brand'>APPSC Group 2 · Economy</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Bifurcation and Ap&#x27;s State Revenue – Revenue Deficit, Loss of Hyderabad, Resource Gap</span></div><div class='inner'><h2>Quick check</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q3</span>Which date is the &quot;appointed day&quot; prescribed for Reorganization of Andhra Pradesh?</div><ol class='opts'><li class=''>(1) 2nd March, 2014</li><li class=''>(2) 1st May, 2014</li><li class=''>(3) 1st April, 2014</li><li class=''>(4) 2nd June, 2014</li></ol><div class='src'>APPSC Civil Assistant Surgeon (Specialist) in AP Vaidya Vidh</div></div><div class='q'><div class='qs'><span class='n'>Q4</span>As per the AP State Reoganization Act 2014, the Tax Revenue from Hyderabad City is</div><ol class='opts'><li class=''>(1) Sharable at 50:50 percent between A.P and Telangana</li><li class=''>(2) Sharable at 30:70 percent between A.P Telangana</li><li class=''>(3) Sharable at 20:80 percent between A.P Telangana</li><li class=''>(4) No share will be given to AP</li></ol><div class='src'>APPSC Technical Assistant (Hydrology), Laboratory Assistant,</div></div></div></div><div class='brand'>APPSC Group 2 · Economy</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Bifurcation and Ap&#x27;s State Revenue – Revenue Deficit, Loss of Hyderabad, Resource Gap</span></div><div class='inner'><h2>Quick check — answers</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q3</span>Which date is the &quot;appointed day&quot; prescribed for Reorganization of Andhra Pradesh?</div><ol class='opts'><li class=''>(1) 2nd March, 2014</li><li class=''>(2) 1st May, 2014</li><li class=''>(3) 1st April, 2014</li><li class='ok'>(4) 2nd June, 2014</li></ol><div class='src'>APPSC Civil Assistant Surgeon (Specialist) in AP Vaidya Vidh</div></div><div class='q'><div class='qs'><span class='n'>Q4</span>As per the AP State Reoganization Act 2014, the Tax Revenue from Hyderabad City is</div><ol class='opts'><li class=''>(1) Sharable at 50:50 percent between A.P and Telangana</li><li class=''>(2) Sharable at 30:70 percent between A.P Telangana</li><li class=''>(3) Sharable at 20:80 percent between A.P Telangana</li><li class='ok'>(4) No share will be given to AP</li></ol><div class='src'>APPSC Technical Assistant (Hydrology), Laboratory Assistant,</div></div></div></div><div class='brand'>APPSC Group 2 · Economy</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Bifurcation and Ap&#x27;s State Revenue – Revenue Deficit, Loss of Hyderabad, Resource Gap</span></div><div class='inner'><h2>Quick check</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q5</span>Revenue deficit in 2022-23 is estimated to be what percentage of GSDP in Andhra Pradesh?</div><ol class='opts'><li class=''>(1) 1.27</li><li class=''>(2) 1.63</li><li class=''>(3) 2.37</li><li class=''>(4) 3.17</li></ol><div class='src'>APPSC Endowment Paper-I Executive Officer Grade-III 2023</div></div><div class='q'><div class='qs'><span class='n'>Q6</span>As per reports of C&amp;AG, the revenue deficit of Andhra Pradesh during 02-06-2014 to 31-08-15 was?</div><ol class='opts'><li class=''>(1) Rs 20,745 Cr</li><li class=''>(2) Rs 16,211 Cr</li><li class=''>(3) Rs 21,481 Cr</li><li class=''>(4) Rs 13,776 Cr</li></ol><div class='src'>APPSC Degree Lecturers 2017</div></div></div></div><div class='brand'>APPSC Group 2 · Economy</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Quick check</span><span class='t'>Bifurcation and Ap&#x27;s State Revenue – Revenue Deficit, Loss of Hyderabad, Resource Gap</span></div><div class='inner'><h2>Quick check — answers</h2><div class='qs2'><div class='q'><div class='qs'><span class='n'>Q5</span>Revenue deficit in 2022-23 is estimated to be what percentage of GSDP in Andhra Pradesh?</div><ol class='opts'><li class='ok'>(1) 1.27</li><li class=''>(2) 1.63</li><li class=''>(3) 2.37</li><li class=''>(4) 3.17</li></ol><div class='src'>APPSC Endowment Paper-I Executive Officer Grade-III 2023</div></div><div class='q'><div class='qs'><span class='n'>Q6</span>As per reports of C&amp;AG, the revenue deficit of Andhra Pradesh during 02-06-2014 to 31-08-15 was?</div><ol class='opts'><li class=''>(1) Rs 20,745 Cr</li><li class=''>(2) Rs 16,211 Cr</li><li class=''>(3) Rs 21,481 Cr</li><li class='ok'>(4) Rs 13,776 Cr</li></ol><div class='src'>APPSC Degree Lecturers 2017</div></div></div></div><div class='brand'>APPSC Group 2 · Economy</div><div class='num'></div></section><section class='s end'><h1>Questions?</h1><div class='kicker'>Bifurcation and Ap&#x27;s State Revenue – Revenue Deficit, Loss of Hyderabad, Resource Gap</div><div class='foot'>Practise this topic's 39 MCQs in APPSC Group 2</div></section><script>
@@ -105,4 +139,55 @@
     host.replaceWith(...host.childNodes);
     const all = document.querySelectorAll('section.s, div.s');
     all.forEach((s, k) => { const n = s.querySelector('.num'); if (n) n.textContent = `${k + 1} / ${all.length}`; });
-    </script></body></html>
+    </script><script>
+(function () {
+  // static slides (title, plan, recap, quick check) that overflow this screen are split, item by item
+  function split(s) {
+    const inner = s.querySelector('.inner'); const box = s.querySelector('.qs2, ul.recap, ol.plan');
+    if (!inner || !box) return;
+    const moved = [];
+    while (inner.scrollHeight > inner.clientHeight + 1 && box.children.length > 1) moved.unshift(box.lastElementChild), box.lastElementChild.remove();
+    if (!moved.length) return;
+    const c = s.cloneNode(true); const cb = c.querySelector('.qs2, ul.recap, ol.plan');
+    cb.innerHTML = ''; moved.forEach(m => cb.appendChild(m));
+    s.after(c); split(c);
+  }
+  document.querySelectorAll('section.s').forEach(split);
+  const all = [...document.querySelectorAll('section.s, div.s')], N = all.length;
+  all.forEach((s, i) => { s.setAttribute('role', 'group'); s.setAttribute('aria-roledescription', 'slide'); s.setAttribute('aria-label', `Slide ${i + 1} of ${N}`); });
+  document.documentElement.classList.add('deck');
+  const ctl = document.createElement('div'); ctl.id = 'ctl';
+  ctl.innerHTML = `<button id='cl' aria-label='Close lecture'>✕</button><button id='pv' aria-label='Previous slide'>‹</button>
+    <span id='ct' role='status' aria-live='polite'></span><button id='nx' aria-label='Next slide'>›</button><div id='pg' aria-hidden='true'></div>`;
+  document.body.appendChild(ctl);
+  const A = window.Android, ct = ctl.querySelector('#ct'), pg = ctl.querySelector('#pg');
+  const h = new URLSearchParams(location.hash.slice(1));
+  let cur = h.has('end') ? N - 1 : Math.min(N - 1, Math.max(0, Math.round(parseFloat(h.get('p') || '0') * (N - 1))));
+  function show(i) {
+    all[cur].classList.remove('on'); cur = i; all[cur].classList.add('on');
+    ct.textContent = `${cur + 1} / ${N}`; pg.style.width = `${(cur + 1) / N * 100}%`;
+    history.replaceState(null, '', '#p=' + (N > 1 ? cur / (N - 1) : 0));
+  }
+  const next = () => cur < N - 1 ? show(cur + 1) : (A && A.next());
+  const prev = () => cur > 0 ? show(cur - 1) : (A && A.prev());
+  ctl.querySelector('#nx').onclick = e => { e.stopPropagation(); next(); };
+  ctl.querySelector('#pv').onclick = e => { e.stopPropagation(); prev(); };
+  ctl.querySelector('#cl').onclick = e => { e.stopPropagation(); A && A.close(); };
+  // tap the left third for the previous slide, anywhere else for the next; or swipe; or the arrow keys
+  let x0 = null, y0 = null, swiped = false;
+  document.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; swiped = false; }, { passive: true });
+  document.addEventListener('touchend', e => {
+    if (x0 == null) return; const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) { swiped = true; dx < 0 ? next() : prev(); } x0 = null;
+  }, { passive: true });
+  document.addEventListener('click', e => { if (swiped || e.target.closest('button')) return; e.clientX < innerWidth * 0.3 ? prev() : next(); });
+  document.addEventListener('keydown', e => {
+    if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(e.key)) { e.preventDefault(); next(); }
+    if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(e.key)) { e.preventDefault(); prev(); }
+  });
+  // turned the phone: lay the slides out again for the new shape, at the same point of the lecture
+  const w0 = innerWidth, h0 = innerHeight; let t;
+  addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => { if ((innerWidth > innerHeight) !== (w0 > h0) || Math.abs(innerWidth - w0) > w0 * .15) location.reload(); }, 350); });
+  all[cur].classList.add('on'); show(cur);
+})();
+</script></body></html>
