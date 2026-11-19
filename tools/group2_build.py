@@ -182,6 +182,8 @@ NOTES_MODE = open("data/g2_notes_mcqs.txt").read().strip() if os.path.exists("da
 import notes_realign as _ra
 import random as _random
 _RA = _ra.load() if NOTES_MODE == "notes" else {}
+import notes_retwist as _rt
+_RTP, _RTO = _rt.load() if NOTES_MODE == "notes" else ({}, {})
 _RR = _random.Random(7)
 ONE = {}
 if NOTES_MODE == "oneliners":
@@ -417,6 +419,8 @@ for b in range(1, 7):
         kept += PLACE.get((b, int(r)), [])
         if NOTES_MODE == "notes" and _RA:  # notes MCQs brought to APPSC's pattern (tools/notes_realign.py)
             kept = [((_ra.apply(q, _RA[q["id"]], _RR) or q) if q["id"] in _RA else q, sb_) for q, sb_ in kept]
+            # second pass (tools/notes_retwist.py): every other notes MCQ in APPSC's pattern too
+            kept = [(_rt.apply_all(q, _RTP, _RTO, _RR) if not q["id"].startswith("y") else q, sb_) for q, sb_ in kept]
         for q, sb in kept:
             if not q.get("lf") or not (q["id"].startswith(SY.PAPER_PREFIXES) or q["id"].startswith("g2l")):
                 q["lf"] = SY.question_leaf(f"{b}:{r}", sb)

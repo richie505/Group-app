@@ -1,0 +1,30 @@
+Task (second pass): make Group 2's notes MCQs follow APPSC's real pattern (APPSC: Cracked). Never use the Anthropic
+API. Do not commit. Write only data/retwist/job-N.out.jsonl. Scratch files only in
+/tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/retwist-N/.
+
+Input data/retwist/job-N.jsonl, one MCQ per line, "type" "st" (a statement set) or "ar" (Assertion-Reason).
+Read a section's notes when you need a fact: python3 tools/g2syl_show.py <b> <r>.
+
+TYPE "st": question, options, key, truth {label: true/false}, and three lists:
+ - retwist: FALSE statements to rebuild so they are false THE APPSC WAY (they stay false). APPSC changes ONE thing with
+   this subject's typical twist (see "twists": wrong person / place / body / Article / date, a flipped relation or
+   direction, a "not" added or removed, a trap word like only / all / never / cannot placed on the error). Ours were
+   mostly a changed number. Rewrite it with a subject twist; if it ALREADY is a good APPSC-style twist (not just a
+   number change), you may return its text unchanged.
+ - make_false: TRUE statements to turn false the same APPSC way (prefer putting the error on a trap word it already has).
+ - make_true: FALSE statements to rewrite into their TRUE version.
+Write {"id": "...", "st": {"<label>": "<text WITHOUT the '1.' label>", ...}, "x": "<new explanation>"} where st has
+EXACTLY the labels in retwist + make_false + make_true. "x": in the old explanation's style: which statements are
+correct, and for every false one the truth in a short clause. No option letters.
+
+TYPE "ar": question (Assertion (A): ... / Reason (R): ...), options, key, "from" (current answer: A-false = A is false;
+both-not = both true but R does not explain A; A-true = A true but R false), "to": "explains".
+Rewrite A and/or R so that BOTH are true and R is the correct explanation of A (R gives the real reason / cause /
+basis of A), keeping the same topic and fact family. Write {"id": "...", "A": "<new A or omit>", "R": "<new R or omit>",
+"x": "<why both are true and how R explains A>"}; text without the "Assertion (A):" / "Reason (R):" prefixes.
+
+Facts must be right (notes or sure knowledge); if unsure, choose another twist you are sure of. If an input line looks
+wrong (the given truth contradicts the notes), follow the notes in "x" and add "truth": {"<label>": true/false, ...}
+with the FINAL truth of every label.
+Then check with Python (every id once, in order; the label sets exact; no prefixes) and run:
+python3 tools/notes_retwist.py check . Report counts and 5 examples (before -> after).
