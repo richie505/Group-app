@@ -8,6 +8,7 @@ import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.booleanOrNull
 import kotlinx.serialization.json.JsonPrimitive
 import kotlinx.serialization.json.int
 import kotlinx.serialization.json.jsonArray
@@ -544,6 +545,7 @@ class Repository(private val open: (String) -> InputStream) {
                         title = r.str("title"), tag = r.str("tag"), pyq = r.str("pyq"),
                         p1 = r.intOr("p1"), p2 = r.intOr("p2"), subsectionCount = r.intOr("n"),
                         questionCount = r.intOr("q"),
+                        hidden = (r.jsonObject["hide"] as? JsonPrimitive)?.booleanOrNull == true,
                     )
                 },
                 unitQuestions = (b.jsonObject["uq"] as? JsonObject)?.entries

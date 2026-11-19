@@ -80,7 +80,7 @@ fun mcqCount(n: Int): String = if (n == 1) "1 MCQ" else "$n MCQs"
 @Composable
 private fun bookDone(b: BookInfo): Int {
     val store = LocalApp.current.store
-    return b.rows.sumOf { store.doneCount(b.id, it.index, it.subsectionCount) }
+    return b.rows.filter { !it.hidden }.sumOf { store.doneCount(b.id, it.index, it.subsectionCount) }
 }
 
 @Composable
@@ -124,7 +124,7 @@ fun BooksScreen(nav: Nav) {
                         Column(Modifier.weight(1f)) {
                             Text(b.title, style = TextStyle(fontSize = 15.sp, lineHeight = 20.sp, fontWeight = FontWeight.SemiBold, color = C.Ink))
                             Text(
-                                "${b.units.size} topics · ${b.rows.size} sections · ${b.pages} pages",
+                                "${b.units.size} topics · ${b.rows.count { !it.hidden }} sections · ${b.pages} pages",
                                 style = TextStyle(fontSize = 12.sp, color = C.Muted),
                                 modifier = Modifier.padding(top = 2.dp),
                             )
@@ -282,7 +282,7 @@ fun BookScreen(id: Int, nav: Nav) {
             b.units.forEachIndexed { ui, unit ->
                 item(key = "u$ui") {
                     var open by rememberSaveable { mutableStateOf(b.units.size == 1) }
-                    val rows = b.rows.filter { it.unitIndex == ui }
+                    val rows = b.rows.filter { it.unitIndex == ui && !it.hidden }
                     val total = rows.sumOf { it.subsectionCount }
                     val done = rows.sumOf { app.store.doneCount(b.id, it.index, it.subsectionCount) }
                     Column {

@@ -99,6 +99,8 @@ data class RowInfo(
     val p2: Int,
     val subsectionCount: Int,
     val questionCount: Int,
+    /** Group 1 Prelims: a section with nothing the syllabus asks (every page beyond it): not listed. */
+    val hidden: Boolean = false,
 )
 
 data class BookInfo(

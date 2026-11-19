@@ -45,7 +45,7 @@ android {
         create("complete") {
             dimension = "edition"
             applicationIdSuffix = ".complete"
-            resValue("string", "app_name", "APPSC Complete")
+            resValue("string", "app_name", "APPSC Group 1 Prelims")
         }
         // APPSC Complete with every MCQ as one-liners, one per fact, no explanations (tools/oneliner_import.py)
         create("oneliner") {
@@ -77,6 +77,9 @@ android {
     // its assets: APPSC Complete's, with its own MCQs, topic counts and edition (src/oneliner/assets) in their place
     sourceSets["oneliner"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/onelinerAssets")))
     sourceSets["reader"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/readerAssets")))
+    // APPSC Complete ships as APPSC Group 1 Prelims: its notes and MCQs cut to the Group 1 Prelims syllabus
+    // (tools/group1_build.py writes src/group1/assets from src/complete/assets, which stays the master copy)
+    sourceSets["complete"].assets.setSrcDirs(listOf("src/group1/assets"))
     sourceSets["complete2"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/complete2Assets")))
     // APPSC Complete: ONE set of notes (book*.json, rebuilt 2026 from the PYQ blueprints, every MCQ linked to them).
     // The old "MCQ notes" (mbook*.json) are no longer shipped, so the MCQ/Full notes switch disappears.
