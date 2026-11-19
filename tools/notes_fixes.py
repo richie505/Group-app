@@ -8,9 +8,9 @@ import glob, json
 D = "data/fixes"
 
 
-def load():
+def load(d=D):
     out = {}
-    for f in sorted(glob.glob(f"{D}/job-*.out.jsonl")):
+    for f in sorted(glob.glob(f"{d}/job-*.out.jsonl")):
         inp = {j["id"]: j for j in map(json.loads, open(f.replace(".out", "")))}
         for l in open(f):
             if l.strip():

@@ -1,0 +1,25 @@
+Task: bring Group 1 Prelims notes MCQs to APPSC's real question pattern (as was done for every Group 2 notes MCQ).
+Never use the Anthropic API. Do not commit. Write only data/g1pattern/job-N.out.jsonl.
+Scratch only in /tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/g1pattern-N/.
+
+Read first: the APPSC pattern numbers in app/src/main/java/com/appsc/prep/ui/screens/TricksScreen.kt and the twist
+rules in data/retwist/PROMPT.txt and data/direct/PROMPT.txt. Input data/g1pattern/job-N.jsonl: one MCQ per line
+(id, b, r = its section in app/src/complete/assets, type, s, o, a = key index, x).
+Notes of a section: python3 -c "import json;b,r=1,5;bk=json.load(open('app/src/group1/assets/book%d.json'%b));row=[x for u in bk['units'] for x in u['rows']][r];[print('##',s['t'],json.dumps(s['b'],ensure_ascii=False)[:2500]) for s in row['secs']]"
+
+What APPSC does (make the set as a whole look like this):
+ - STATEMENT SETS: false statements carry ONE subject twist (wrong person / place / body / Article / date, a flipped
+   relation or direction, a "not" added or removed, a trap word only/all/never placed on the error), not a bare
+   number change. Across the 3-statement sets: about 3% none true, 14% one, 57% two, 26% all three; 4-statement sets
+   6/20/31/32/11%. "None of the above"/"Neither" is a real key (~40% of the times it appears). Options are statement
+   codes ("1 and 2 only", "2 only", "1, 2 and 3", "None of the above"; for 2 statements the fixed four "1 only / 2 only
+   / Both 1 and 2 / Neither 1 nor 2"); options and key must match the truths.
+ - ASSERTION-REASON: ~53% both true and R explains A, 15% both true R does not explain, 22% A true R false, 10% A false.
+ - DIRECT: the key must not be the clearly longest option nor a word-variation of the decoys; decoys distinct,
+   plausible, same kind; number decoys close to the key (5-10%).
+ - MATCHING / ORDER: keep; only fix if a giveaway (e.g. the straight a-1, b-2 code as key too often) or wrong.
+Change as little as needed; many MCQs may already be fine. Facts must be right (notes or sure knowledge).
+Write {"id": "...", <only changed fields of "s", "o", "a", "x" with FULL new values>} or {"id": "..."} if unchanged.
+"x": in the old style, no option letters; must agree with the key.
+Check with Python (every id once; a in 0..3; 4 distinct options; key agrees with x). Report counts by type of what you
+changed, the 3-statement true-count distribution after, and 5 examples.

@@ -9,7 +9,31 @@ the "complete" app (it replaces APPSC Complete; same rows, pages and MCQ ids, so
 
     python3 tools/group1_build.py && python3 tools/build_plan_mcq.py app/src/group1/assets
 """
-import collections, glob, hashlib, json, os, re, shutil
+import collections, glob, hashlib, json, os, random, re, shutil, sys
+
+sys.path.insert(0, os.path.dirname(__file__))
+# the notes MCQs in APPSC's pattern, the same passes as Group 2 (same MCQ ids): realign, retwist, direct, fixes
+import notes_realign as _ra, notes_retwist as _rt, notes_direct as _nd, notes_fixes as _fx
+_RA, (_RTP, _RTO), _ND, _FX = _ra.load(), _rt.load(), _nd.load(), _fx.load()
+_RR = random.Random(7)
+_G1P = _fx.load("data/g1pattern")  # Group 1-only notes MCQs brought to the pattern by hand (same format as the fixes)
+
+
+def pattern(q):
+    """a notes MCQ through APPSC's pattern, tagged "APPSC pattern · <type>" (as in Group 2)"""
+    if q["id"].startswith("y"):
+        return q
+    if q["id"] in _RA:
+        q = _ra.apply(q, _RA[q["id"]], _RR) or q
+    q = _fx.apply(_fx.apply(_nd.apply(_rt.apply_all(q, _RTP, _RTO, _RR), _ND), _FX), _G1P)
+    if q.get("k") in ("f", "u") or not q.get("o"):
+        return q
+    s_ = q["s"]
+    t_ = ("Assertion–Reason" if re.search(r"assertion|\(A\).*\(R\)", s_, re.I | re.S) else
+          "Matching" if _ra.NOT_SET.search(s_) and re.search(r"match|list|pair", s_, re.I) else
+          "Order" if _ra.NOT_SET.search(s_) else
+          "Statements" if re.search(r"(?m)^\s*\(?[1-4ivx]+[.)]\s", s_) else "Direct")
+    return dict(q, tg=[x for x in (q.get("tg") or []) if not x.startswith("pattern:")] + ["pattern:" + t_])
 
 C = "app/src/complete/assets"
 G = "app/src/group1/assets"
@@ -86,6 +110,7 @@ for b in range(1, 7):
         L, S = m["rows"].get(str(i), []), m["subs"].get(str(i), [])
         keep = [(q, s) for q, s in zip(L, S) if not whole and s not in beyond]
         stats["MCQs removed"] += len(L) - len(keep)
+        keep = [(pattern(q), s) for q, s in keep]
         if str(i) in m["rows"]:
             m["rows"][str(i)], m["subs"][str(i)] = [q for q, _ in keep], [s for _, s in keep]
         if whole:
