@@ -92,7 +92,7 @@ class Group2Test {
                 qs.forEach { q -> assertTrue(q.answer in -1 until q.options.size && q.options.size >= 2) }
             }
         }
-        assertEquals(73485, mcqs)
+        assertEquals(68688, mcqs)
         assertEquals(mcqs, repo.planIds.size)
     }
 
@@ -137,8 +137,11 @@ class Group2Test {
         assertEquals(java.time.LocalDate.of(2027, 5, 19), p.days.last().date)
         assertEquals(185, p.days.size)
         val study = p.days.filter { it.type == "study" }.flatMap { d -> d.rows.map { it.book to it.row } }
-        assertEquals(927, study.size)
-        assertEquals(927, study.toSet().size)
+        // every listed section once (one is hidden: nothing in it is in the Group 2 syllabus, tools/group2_fit.py)
+        val listed = (1..6).sumOf { b -> repo.index[b - 1].rows.count { !it.hidden } }
+        assertEquals(926, listed)
+        assertEquals(listed, study.size)
+        assertEquals(listed, study.toSet().size)
         assertEquals(12, p.days.count { it.type == "mock" })  // 5 Screening, 6 Mains, the Prelims day
         assertTrue(p.days.filter { it.date < java.time.LocalDate.of(2027, 2, 21) }.all { it.phase.startsWith("PRELIMS") })
         assertTrue(p.days.filter { it.date > java.time.LocalDate.of(2027, 2, 21) }.all { it.phase.startsWith("MAINS") })
