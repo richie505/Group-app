@@ -308,7 +308,10 @@ class Group2Test {
         val q = "yQ1636012260"
         val mq = runBlocking { repo.mcq(3).rows.values.flatten().first { it.id == q } }
         val answer = mq.answer
-        val app = shot("5_stuck") { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 3, 17, 8), "all", "Subsection MCQs", nav) }
+        // the subsection also holds notes MCQs: answer them first so "new" opens on the worked PYQ
+        val app0 = AppState(repo, ProgressStore(PrefsStorage(ctx)), AndroidPlatform(ctx))
+        listOf("f0f791115fe35", "cp5b62f81bb432", "cpf2972849e383").forEach { app0.store.recordAnswer(it, true) }
+        val app = shot("5_stuck", app0) { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", 3, 17, 8), "new", "Subsection MCQs", nav) }
         rule.waitUntil(30_000) { rule.onAllNodes(hasText("Urban Infrastructure Development Fund", substring = true)).fetchSemanticsNodes().isNotEmpty() }
         rule.onNode(hasText("Stuck? Show the answer and the trick")).performScrollTo().performClick()
         rule.waitForIdle()
