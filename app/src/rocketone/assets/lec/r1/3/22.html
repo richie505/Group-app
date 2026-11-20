@@ -1,0 +1,224 @@
+<!doctype html><html><head><meta charset='utf-8'><style>
+    @page { size: 13.333in 7.5in; margin: 0 }
+    * { box-sizing: border-box }
+    body { margin: 0; font-family: Inter, 'Noto Sans', 'Noto Sans Telugu', Arial, sans-serif; color: #1f2430 }
+    section.s, div.s { width: 13.333in; height: 7.5in; position: relative; overflow: hidden; page-break-after: always; background: #fff }
+    .s.title, .s.end { background: linear-gradient(135deg, #1e2a5a 0%, #2f3f8f 60%, #4458c4 100%); color: #fff; padding: 0.9in 1in }
+    .s.title h1, .s.end h1 { font-size: 40px; line-height: 1.18; margin: 14px 0 22px; font-weight: 800; max-width: 11in }
+    .kicker { font-size: 15px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .8; font-weight: 600 }
+    .syl { background: rgba(255,255,255,.1); border-radius: 12px; padding: 16px 22px; max-width: 11.3in }
+    .syl .lab { font-size: 12px; letter-spacing: 1.5px; font-weight: 700; opacity: .75; margin-bottom: 6px }
+    .syl ul { margin: 0; padding-left: 20px; font-size: 18px; line-height: 1.5 }
+    .foot { position: absolute; bottom: .55in; left: 1in; font-size: 14px; opacity: .75 }
+    .bar { position: absolute; top: 0; left: 0; right: 0; height: .5in; background: #1e2a5a; color: #fff; display: flex; align-items: center;
+           padding: 0 .55in; font-size: 13px; letter-spacing: .5px; gap: 18px }
+    .bar .p { font-weight: 700; color: #f6c453 }
+    .bar .t { opacity: .85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+    .inner { position: absolute; top: .72in; left: .6in; right: .6in; bottom: .45in; display: flex; flex-direction: column }
+    h2 { font-size: 30px; margin: 0 0 12px; color: #1e2a5a; font-weight: 800; border-left: 6px solid #f6a623; padding-left: 14px }
+    h2 .cont { font-size: 16px; color: #8a90a6; font-weight: 600 }
+    .body { font-size: 23px; line-height: 1.4; flex: 1; overflow: hidden }
+    .sub { font-size: 23px; font-weight: 800; color: #2f3f8f; margin: 10px 0 4px }
+    ul.pts { margin: 4px 0; padding-left: 24px }
+    ul.pts li { margin: 4px 0 }
+    ul.pts li::marker { color: #f6a623 }
+    b { color: #13194a }
+    table { border-collapse: collapse; width: 100%; font-size: 19px; line-height: 1.3; margin: 6px 0 8px }
+    th { background: #2f3f8f; color: #fff; text-align: left; padding: 7px 10px; font-weight: 700 }
+    th b { color: #fff }
+    td { padding: 6px 10px; border-bottom: 1px solid #e3e6f0; vertical-align: top }
+    tr:nth-child(even) td { background: #f5f7fc }
+    .box { border-radius: 10px; padding: 10px 16px; margin: 10px 0; font-size: 21px; line-height: 1.38 }
+    .box span { display: inline-block; font-size: 11.5px; font-weight: 800; letter-spacing: 1.2px; margin-right: 10px; padding: 2px 8px; border-radius: 5px }
+    .rem { background: #fff6e5; border-left: 5px solid #f6a623 } .rem span { background: #f6a623; color: #fff }
+    .set { background: #eaf6ee; border-left: 5px solid #2e9e5b } .set span { background: #2e9e5b; color: #fff }
+    .note { background: #eef1fb; border-left: 5px solid #4458c4 } .note span { background: #4458c4; color: #fff }
+    ol.plan { list-style: none; padding: 0; margin: 14px 0; columns: 2; column-gap: .5in; font-size: 23px }
+    ol.plan li { display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px; break-inside: avoid }
+    .n { flex: none; display: inline-flex; width: 30px; height: 30px; border-radius: 50%; background: #1e2a5a; color: #fff;
+         align-items: center; justify-content: center; font-weight: 700; font-size: 14px; margin-right: 10px }
+    .meta { color: #6b7185; font-size: 15px; margin-top: 8px }
+    .recap li { font-size: 21px; margin: 12px 0 }
+    .qs2 { display: grid; grid-template-columns: 1fr 1fr; gap: .35in }
+    .q { background: #f7f8fc; border-radius: 12px; padding: 18px 22px; font-size: 23px; line-height: 1.38 }
+    .qs { margin-bottom: 8px; display: flex }
+    ol.opts { list-style: none; padding: 0; margin: 0 }
+    ol.opts li { padding: 5px 10px; border-radius: 7px; margin: 3px 0; background: #fff; border: 1px solid #e3e6f0 }
+    ol.opts li.ok { background: #e3f5ea; border-color: #2e9e5b; font-weight: 700; color: #1d6b3d }
+    .src { color: #8a90a6; font-size: 14px; margin-top: 8px }
+    .num { position: absolute; bottom: .18in; right: .5in; font-size: 12px; color: #9aa0b4 }
+    .brand { position: absolute; bottom: .18in; left: .6in; font-size: 12px; color: #9aa0b4 }
+    </style><meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'><style>
+@media screen {
+  /* one slide = one screen, laid out for this phone: text sized to the screen (and the phone's font size) */
+  :root { --W: 100vw; --H: 100vh; --f: 16px } /* --W, --H, --f are set in pixels by START (no vw / vh: some WebViews give 0) */
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #0f1530; -webkit-tap-highlight-color: transparent }
+  section.s, div.s { width: var(--W) !important; height: var(--H) !important; margin: 0; page-break-after: auto }
+  .deck section.s, .deck div.s { display: none }
+  /* the slide shown is pinned to the screen: no scroll position (a reload restores one) can move it away */
+  .deck section.s.on, .deck div.s.on { display: block; position: fixed !important; left: 0; top: 0; z-index: 1 }
+  #diag { position: fixed; z-index: 20; left: 8px; top: 8px; right: 60px; font: 12px monospace; color: #ffd; background: rgba(0,0,0,.6); padding: 6px; white-space: pre-wrap }
+  .bar { height: calc(var(--f) * 2.1); font-size: calc(var(--f) * .7); padding: 0 64px 0 18px; gap: 10px }
+  .inner { top: calc(var(--f) * 2.7); left: 58px; right: 58px; bottom: 26px; overflow: hidden }
+  h2 { font-size: calc(var(--f) * 1.28); margin: 0 0 .5em; padding-left: 10px; border-left-width: 5px }
+  h2 .cont { font-size: .6em }
+  .body { font-size: var(--f) }
+  .sub { font-size: 1.04em; margin: .45em 0 .15em }
+  ul.pts { padding-left: 1.1em } ul.pts li { margin: .22em 0 }
+  table { font-size: .86em } th, td { padding: .35em .5em }
+  .box { font-size: .92em; padding: .45em .7em; margin: .45em 0 } .box span { font-size: .62em }
+  .s.title, .s.end { padding: calc(var(--H) * .07) calc(var(--W) * .06) } .s.title h1, .s.end h1 { font-size: calc(var(--f) * 1.75); margin: .4em 0 .6em }
+  .kicker { font-size: calc(var(--f) * .7) } .syl { padding: .7em 1em } .syl ul { font-size: calc(var(--f) * .92) }
+  .syl .lab { font-size: calc(var(--f) * .6) } .foot { bottom: 30px; left: calc(var(--W) * .06); font-size: calc(var(--f) * .7) }
+  ol.plan { font-size: var(--f); column-gap: 24px } ol.plan li { margin: 0 0 .5em } .n { width: 1.5em; height: 1.5em; font-size: .7em; margin-right: .5em }
+  .meta { font-size: calc(var(--f) * .75) }
+  .recap li { font-size: calc(var(--f) * .92); margin: .4em 0 }
+  .q { font-size: calc(var(--f) * .92); padding: .7em .9em } .src { font-size: .65em }
+  .qs2 { gap: 14px }
+  .brand, .num { display: none }
+  @media (orientation: portrait) { ol.plan { columns: 1 } .qs2 { grid-template-columns: 1fr } }
+  /* the controls: close, previous, slide n of N, next; a progress line */
+  #ctl button { position: fixed; z-index: 9; border: 0; border-radius: 50%; width: 48px; height: 48px; font-size: 26px; line-height: 48px;
+    background: rgba(15,21,48,.55); color: #fff; padding: 0 }
+  #ctl #cl { top: 4px; right: 8px; width: 42px; height: 42px; line-height: 42px; font-size: 20px; background: rgba(255,255,255,.18) }
+  #ctl #pv { top: 50%; left: 6px; transform: translateY(-50%) } #ctl #nx { top: 50%; right: 6px; transform: translateY(-50%) }
+  #ctl #pv, #ctl #nx { background: rgba(15,21,48,.28); color: #fff }
+  #ctl #ct { position: fixed; z-index: 9; bottom: 6px; right: 14px; font: 600 12px Inter, Arial, sans-serif;
+    color: #fff; background: rgba(15,21,48,.5); padding: 2px 10px; border-radius: 10px }
+  #ctl #pg { position: fixed; z-index: 9; bottom: 0; left: 0; height: 4px; background: #f6a623; transition: width .2s }
+  .s.title #x, .s.end #x { display: none }
+}
+</style></head><body><section class='s title'><div class='kicker'>Economy · Indian Agriculture –Irrigation and water – Inputs of agriculture – Agricultural Strategy and Agricultural Poli</div>
+    <h1>International trade and balance of payments</h1>
+    <div class="syl"><div class="lab">SYLLABUS LINES THIS LESSON COVERS</div><ul><li>International trade and balance of payments</li></ul></div>
+    <div class='foot'>RocketOne · Group 1 Prelims · lecture notes</div></section><section class='s'><div class='bar'><span class='p'>Lesson</span><span class='t'>International trade and balance of payments</span></div><div class='inner'><h2>Lesson plan</h2><ol class='plan'><li><span class='n'>1</span>Trade terms: exports, imports and balance of trade</li><li><span class='n'>2</span>Services exports and invisibles</li><li><span class='n'>3</span>Balance of Payments and Balance of Trade</li><li><span class='n'>4</span>Current account and capital account</li><li><span class='n'>5</span>Convertibility of the rupee</li><li><span class='n'>6</span>Foreign Direct Investment (FDI)</li><li><span class='n'>7</span>FDI compared with FPI and FII</li><li><span class='n'>8</span>Foreign-exchange reserves and SDR</li><li><span class='n'>9</span>Exchange rate: the basic terms</li><li><span class='n'>10</span>Devaluation of the rupee</li><li><span class='n'>11</span>NEER and REER</li><li><span class='n'>12</span>Export promotion institutions and instruments</li><li><span class='n'>13</span>Trade policy terms</li></ol><div class='meta'>13 parts</div></div><div class='brand'>RocketOne · Group 1 Prelims · Economy</div><div class='num'></div></section><div id='parts'></div><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>International trade and balance of payments</span></div><div class='inner'><h2>Recap</h2><ul class='pts recap'><li><b>Trade terms: exports, imports and balance of trade</b> — Positive net exports · Negative net exports · Major imports hierarchy</li><li><b>Services exports and invisibles</b> — Invisible exports · Services Exports · Examples · Foreign tourist spending in India</li><li><b>Balance of Payments and Balance of Trade</b> — Balance of Payments (BoP)</li><li><b>Current account and capital account</b> — Current Account · Current Account contains · Capital Account · Current Account Deficit (CAD)</li><li><b>Convertibility of the rupee</b> — Current Account Convertibility · Capital Account Convertibility</li><li><b>Foreign Direct Investment (FDI)</b> — FDI · FDI is associated with · FDI includes · Does NOT automatically mean FDI · FDI can be made through · Automatic Route · Government Route</li><li><b>FDI compared with FPI and FII</b> — Direct investment · Portfolio investment</li><li><b>Foreign-exchange reserves and SDR</b> — SDR · “Paper Gold” · SDR valuation</li></ul></div><div class='brand'>RocketOne · Group 1 Prelims · Economy</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>International trade and balance of payments</span></div><div class='inner'><h2>Recap (cont.)</h2><ul class='pts recap'><li><b>Exchange rate: the basic terms</b> — Exchange Rate</li><li><b>Devaluation of the rupee</b> — Devaluation · Effect of devaluation · The rupee was devalued in · In 1991</li><li><b>NEER and REER</b> — Nominal Effective Exchange Rate (NEER) · Real Effective Exchange Rate (REER)</li><li><b>Export promotion institutions and instruments</b> — Export-Import Bank of India (EXIM Bank) · EXIM Policy · India Brand Equity Foundation (IBEF) · EPCG · Duty Drawback · NIRVIK (Niryat Rin Vikas Yojana)</li><li><b>Trade policy terms</b> — Tariff · Import Quota · Import licensing · Anti-dumping · Free Trade · Rules of Origin · Entrepot trade</li></ul></div><div class='brand'>RocketOne · Group 1 Prelims · Economy</div><div class='num'></div></section><section class='s end'><h1>Questions?</h1><div class='kicker'>International trade and balance of payments</div><div class='foot'>RocketOne · Group 1 Prelims</div></section><script>function __layout() {
+    const P = [{"title": "Trade terms: exports, imports and balance of trade", "part": "Part 1 of 13", "items": [{"k": "t", "head": ["Term", "Fact"], "rows": [["<b>Exports</b>", "Goods/services sold to rest of world"], ["<b>Imports</b>", "Goods/services purchased from rest of world"], ["<b>Net Exports</b>", "X−M"], ["<b>Trade Surplus</b>", "Exports &gt; Imports"], ["<b>Trade Deficit</b>", "Imports &gt; Exports"], ["<b>Balance of Trade (BoT)</b>", "Only goods/visible trade"], ["<b>BoT Surplus</b>", "Goods exports &gt; goods imports"], ["<b>BoT Deficit</b>", "Goods imports &gt; goods exports"], ["<b>Closed economy</b>", "Neither exports nor imports"]]}, {"k": "b", "h": "<b>Positive net exports:</b> Trade Surplus."}, {"k": "b", "h": "<b>Negative net exports:</b> Trade Deficit."}, {"k": "b", "h": "<b>Major imports hierarchy:</b> Fuel &gt; Petroleum, Oil &amp; Lubricants &gt; Capital Goods &gt; Chemicals &gt; Gold/Silver."}]}, {"title": "Services exports and invisibles", "part": "Part 2 of 13", "items": [{"k": "b", "h": "<b>Invisible exports:</b> mainly services — IT, tourism, banking, insurance etc."}, {"k": "b", "h": "<b>Services Exports:</b> invisible export → services."}, {"k": "b", "h": "<b>Examples:</b> IT/software; Tourism; Banking; Insurance; Financial services; Advertising."}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span><b>Foreign tourist spending in India</b> = export of services / invisible export.</div>"}]}, {"title": "Balance of Payments and Balance of Trade", "part": "Part 3 of 13", "items": [{"k": "b", "h": "<b>Balance of Payments (BoP):</b> a systematic/complete record of all economic transactions between residents of a country and the rest of the world during a specified period, normally a year."}, {"k": "t", "head": ["Balance of Trade (BoT)", "Balance of Payments (BoP)"], "rows": [["<b>Goods only</b>", "<b>All international economic transactions</b>"], ["Visible trade", "Goods + services + transfers + capital transactions"], ["Exports of goods − imports of goods", "Broader external account"], ["Part of Current Account", "Includes Current + Capital/financial transactions"]]}]}, {"title": "Current account and capital account", "part": "Part 4 of 13", "items": [{"k": "b", "h": "<b>Current Account:</b> Goods + Services + Income + Transfers."}, {"k": "b", "h": "<b>Current Account contains:</b> 1. Visible trade → export/import of goods; 2. Invisible transactions → services + transfer payments + net income."}, {"k": "b", "h": "<b>Capital Account:</b> cross-border capital movements. Includes: Foreign Loans; Foreign Direct Investment (FDI); Portfolio Investment; International purchase/sale of assets."}, {"k": "t", "head": ["Item", "Account"], "rows": [["<b>Foreign Loans</b>", "Capital"], ["<b>FDI</b>", "Capital"], ["<b>Portfolio Investment</b>", "Capital"], ["<b>Private Remittances</b>", "Current"]]}, {"k": "b", "h": "<b>Current Account Deficit (CAD):</b> occurs when Payments &gt; Receipts from: Goods; Services; Transfers; Net income."}]}, {"title": "Convertibility of the rupee", "part": "Part 5 of 13", "items": [{"k": "b", "h": "<b>Current Account Convertibility:</b> freedom to convert domestic currency into foreign currency for current international transactions."}, {"k": "b", "h": "<b>Capital Account Convertibility:</b> freedom to conduct investment/financial-asset transactions without capital controls."}, {"k": "t", "head": ["Committee", "Chairman", "Focus Area / Recommendation"], "rows": [["<b>Tarapore Committee – I</b>", "S.S. Tarapore", "Capital Account Convertibility (CAC)"], ["<b>Tarapore Committee – II</b>", "S.S. Tarapore", "Fuller Capital Account Convertibility (FCAC)"]]}]}, {"title": "Foreign Direct Investment (FDI)", "part": "Part 6 of 13", "items": [{"k": "b", "h": "<b>FDI:</b> a largely non-debt-creating capital flow; generally represents longer-term foreign investment in Indian enterprises."}, {"k": "b", "h": "<b>FDI is associated with:</b> Capital; Technology transfer; Management skills; Innovation; Competition; Employment; Export competitiveness."}, {"k": "b", "h": "<b>FDI includes:</b> Subsidiaries of foreign companies in India; Majority foreign equity holding in Indian companies; Companies exclusively financed by foreign companies."}, {"k": "b", "h": "<b>Does NOT automatically mean FDI:</b> Portfolio investment."}, {"k": "h", "h": "Capital instruments"}, {"k": "b", "h": "<b>FDI can be made through:</b> Equity shares; Debentures; Preference shares; Share warrants."}, {"k": "h", "h": "Entry routes"}, {"k": "b", "h": "<b>Automatic Route:</b> no prior government approval required, subject to applicable conditions."}, {"k": "b", "h": "<b>Government Route:</b> prior government approval required."}, {"k": "b", "h": "<b>Marketplace model:</b> FDI permitted."}, {"k": "b", "h": "<b>Inventory-based model:</b> FDI not permitted."}]}, {"title": "FDI compared with FPI and FII", "part": "Part 7 of 13", "items": [{"k": "t", "head": ["FDI", "FPI"], "rows": [["<b>Direct investment</b>", "<b>Portfolio investment</b>"], ["Relatively stable/long-term", "More volatile"], ["Can bring technology + management skills", "Primarily financial capital"], ["Targets specific sectors/enterprises", "Primarily investment in securities"], ["Greater involvement/control", "No comparable direct managerial involvement"]]}, {"k": "h", "h": "Foreign Institutional Investor (FII)"}, {"k": "t", "head": ["FII", "FDI"], "rows": [["<b>Portfolio investment</b>", "<b>Direct investment</b>"], ["Primarily financial capital", "Capital + technology/management"], ["More short-term / buoyant", "Relatively stable / long-term"], ["Primarily associated with securities markets", "Investment in enterprises/sectors"], ["More volatile", "Less volatile than FII"]]}]}, {"title": "Foreign-exchange reserves and SDR", "part": "Part 8 of 13", "items": [{"k": "b", "h": "<b>India&#x27;s foreign-exchange reserves include:</b> 1. Foreign Currency Assets (FCA); 2. Gold; 3. Special Drawing Rights (SDRs); 4. Reserve Tranche Position (RTP) with IMF."}, {"k": "b", "h": "<b>SDR:</b> an international reserve asset created by the IMF in 1969 to supplement member countries’ official reserves."}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span>The term <b>“Paper Gold”</b> refers to SDR.</div>"}, {"k": "b", "h": "<b>SDR valuation:</b> SDR was defined in terms of gold. After the collapse of the Bretton Woods System in 1973, SDR was redefined in terms of a basket of currencies."}, {"k": "t", "head": ["SDR", "Reserve Tranche Position"], "rows": [["<b>Special Drawing Rights</b>", "<b>Reserve position with IMF</b>"], ["IMF-created reserve asset", "Member&#x27;s unconditional drawing position"], ["“Paper Gold”", "Also called Gold Tranche historically"], ["Part of forex reserves", "Part of forex reserves"]]}]}, {"title": "Exchange rate: the basic terms", "part": "Part 9 of 13", "items": [{"k": "b", "h": "<b>Exchange Rate:</b> the price/value of one currency expressed in terms of another currency."}, {"k": "t", "head": ["Situation", "Answer"], "rows": [["Market determines currency value", "<b>Flexible/Floating</b>"], ["Officially reduced currency value", "<b>Devaluation</b>"], ["Officially increased currency value", "<b>Revaluation</b>"], ["Market-driven rise in currency value", "<b>Appreciation</b>"], ["Market-driven fall in currency value", "<b>Depreciation</b>"], ["$1 = ₹60 → ₹58", "<b>Rupee appreciation</b>"], ["$1 = ₹60 → ₹65", "<b>Rupee depreciation</b>"]]}, {"k": "t", "head": ["Situation", "Answer"], "rows": [["<b>Flexible exchange rate</b> → depreciation/appreciation", "YES"], ["<b>Fixed exchange rate</b> → devaluation/revaluation", "YES"], ["<b>World Bank</b> determines currency price", "NO"], ["<b>Demand/supply</b> influence exchange rate", "YES"], ["<b>Inflation</b> can affect exchange value", "YES"], ["<b>Fiscal deficit</b> can affect exchange value", "YES"]]}]}, {"title": "Devaluation of the rupee", "part": "Part 10 of 13", "items": [{"k": "b", "h": "<b>Devaluation:</b> official reduction in currency value under a fixed exchange-rate system."}, {"k": "b", "h": "<b>Effect of devaluation:</b> domestic currency becomes cheaper → domestic exports become relatively cheaper abroad → export competitiveness may improve → imports become relatively expensive."}, {"k": "b", "h": "<b>The rupee was devalued in:</b> 1949 – 1966 – 1991."}, {"k": "b", "h": "<b>In 1991:</b> devaluation occurred in two steps — July 1 and July 3."}, {"k": "t", "head": ["Situation", "Answer"], "rows": [["Devaluation makes <b>exports relatively cheaper</b>", "YES"], ["Devaluation necessarily <b>improves trade balance</b>", "NO"], ["<b>First Indian rupee devaluation</b>", "1949"], ["Rupee devalued in <b>1966</b>", "YES"], ["Rupee devalued <b>twice in 1991</b>", "July 1 + July 3"]]}]}, {"title": "NEER and REER", "part": "Part 11 of 13", "items": [{"k": "b", "h": "<b>Nominal Effective Exchange Rate (NEER):</b> weighted average of bilateral nominal exchange rates against a basket of trading-partner currencies."}, {"k": "b", "h": "<b>Real Effective Exchange Rate (REER):</b> NEER adjusted for relative price/inflation differentials between domestic and foreign economies."}, {"k": "t", "head": ["Situation", "Answer"], "rows": [["<b>NEER increase</b> → appreciation", "NO"], ["<b>REER increase</b> → automatically better competitiveness", "NO"]]}]}, {"title": "Export promotion institutions and instruments", "part": "Part 12 of 13", "items": [{"k": "t", "head": ["Institution / instrument", "Fact"], "rows": [["<b>Export-Import Bank of India (EXIM Bank)</b>", "Established 1982"], ["<b>EXIM Policy</b>", "2000 (announced on March 31, 2000, as part of the 1997–2002 framework)"], ["<b>Export Credit Guarantee Corporation of India (ECGC)</b>", "Export credit-risk insurance"], ["<b>Minerals and Metals Trading Corporation of India Limited (MMTC)</b>", "Foreign trade / trading organisation"], ["<b>State Trading Corporation of India Limited (STC)</b>", "Foreign trade"], ["<b>India Brand Equity Foundation (IBEF)</b>", "Established 1996, promotes India Brand internationally"], ["<b>EPCG</b>", "Export Promotion Capital Goods"], ["<b>Duty Drawback</b>", "Refund of duties on inputs used for export production"], ["<b>NIRVIK (Niryat Rin Vikas Yojana)</b>", "Export credit insurance / enhanced insurance cover"]]}]}, {"title": "Trade policy terms", "part": "Part 13 of 13", "items": [{"k": "t", "head": ["Term", "Meaning"], "rows": [["<b>Tariff</b>", "Tax on imports"], ["<b>Import Quota</b>", "Quantity restriction on imports"], ["<b>Import licensing</b>", "Administrative restriction on imports"], ["<b>Anti-dumping</b>", "Protection against goods exported below normal value"], ["<b>Free Trade</b>", "Little/no tariff or quantitative restriction; reduction/removal of trade barriers"], ["<b>Rules of Origin</b>", "Determine country of origin for trade-policy purposes"], ["<b>Entrepot trade</b>", "Import → store/trade → re-export"]]}, {"k": "h", "h": "Trade agreements and stages of integration"}, {"k": "t", "head": ["Term", "Meaning"], "rows": [["<b>FTA</b>", "Free Trade Agreement"], ["<b>CEPA</b>", "Comprehensive Economic Partnership Agreement"], ["<b>CECA</b>", "Comprehensive Economic Cooperation Agreement"], ["<b>Customs Union</b>", "Common external tariff + free internal trade"], ["<b>Common Market</b>", "Customs union + free movement of factors"], ["<b>Economic Union</b>", "Common market + coordinated economic policies"]]}]}], APP = "RocketOne \u00b7 Group 1 Prelims", SUBJ = "Economy", TOPIC = "International trade and balance of payments";
+    const host = document.getElementById('parts');
+    function mk(cls, html) { const d = document.createElement('div'); if (cls) d.className = cls; if (html != null) d.innerHTML = html; return d; }
+    function newSlide(p, cont) {
+      const s = mk('s'); s.innerHTML = `<div class='bar'><span class='p'>${p.part}</span><span class='t'>${TOPIC}</span></div>
+        <div class='inner'><h2>${p.title}<span class='cont'></span></h2><div class='body'></div></div>
+        <div class='brand'>${APP} · ${SUBJ}</div><div class='num'></div>`;
+      host.appendChild(s); return s.querySelector('.body');
+    }
+    const over = b => b.scrollHeight > b.clientHeight + 1;
+    for (const p of P) {
+      const made = []; let body = newSlide(p); made.push(body);
+      const fresh = () => { body = newSlide(p); made.push(body); };
+      let ul = null;
+      for (let i = 0; i < p.items.length; i++) {
+        const it = p.items[i];
+        if (it.k === 'b') {
+          if (!ul || ul.parentNode !== body || body.lastChild !== ul) { ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); }
+          const li = document.createElement('li'); li.innerHTML = it.h; ul.appendChild(li);
+          if (over(body) && body.childNodes.length > 1 || over(body) && ul.childNodes.length > 1) {
+            li.remove(); if (!ul.childNodes.length) ul.remove();
+            const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null;
+            fresh(); if (carry) body.appendChild(carry);
+            ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); ul.appendChild(li);
+          }
+          continue;
+        }
+        ul = null;
+        if (it.k === 'h') { body.appendChild(mk('sub', it.h)); if (over(body) && body.childNodes.length > 1) { const h = body.lastChild; h.remove(); fresh(); body.appendChild(h); } continue; }
+        if (it.k === 'x') { const d = mk(null, it.h).firstChild; body.appendChild(d); if (over(body) && body.childNodes.length > 1) { d.remove(); const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; fresh(); if (carry) body.appendChild(carry); body.appendChild(d); } continue; }
+        if (it.k === 't') {
+          const head = it.head.length ? '<tr>' + it.head.map(c => `<th>${c}</th>`).join('') + '</tr>' : '';
+          const newTable = () => { const t = document.createElement('table'); t.innerHTML = head; body.appendChild(t); return t.tBodies[0] || t; };
+          let tb = newTable();
+          for (const r of it.rows) {
+            const tr = document.createElement('tr'); tr.innerHTML = r.map(c => `<td>${c}</td>`).join(''); tb.appendChild(tr);
+            if (over(body) && (tb.querySelectorAll('td').length > r.length || body.childNodes.length > 1)) {
+              tr.remove();
+              const t = tb.closest('table'); let carry = null;
+              if (!t.querySelector('td')) { t.remove(); carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; }
+              fresh(); if (carry) body.appendChild(carry); tb = newTable(); tb.appendChild(tr);
+            }
+          }
+        }
+      }
+      made.forEach((b, k) => { if (made.length > 1) b.parentNode.querySelector('.cont').textContent = ` (${k + 1}/${made.length})`; });
+    }
+    host.replaceWith(...host.childNodes);
+    const all = document.querySelectorAll('section.s, div.s');
+    all.forEach((s, k) => { const n = s.querySelector('.num'); if (n) n.textContent = `${k + 1} / ${all.length}`; });
+    }</script><script>function __deck() {
+(function () {
+  // static slides (title, plan, recap, quick check) that overflow this screen are split, item by item
+  function split(s) {
+    const inner = s.querySelector('.inner'); const box = s.querySelector('.qs2, ul.recap, ol.plan');
+    if (!inner || !box) return;
+    const moved = [];
+    while (inner.scrollHeight > inner.clientHeight + 1 && box.children.length > 1) moved.unshift(box.lastElementChild), box.lastElementChild.remove();
+    if (!moved.length) return;
+    const c = s.cloneNode(true); const cb = c.querySelector('.qs2, ul.recap, ol.plan');
+    cb.innerHTML = ''; moved.forEach(m => cb.appendChild(m));
+    s.after(c); split(c);
+  }
+  document.querySelectorAll('section.s').forEach(split);
+  const all = [...document.querySelectorAll('section.s, div.s')], N = all.length;
+  all.forEach((s, i) => { s.setAttribute('role', 'group'); s.setAttribute('aria-roledescription', 'slide'); s.setAttribute('aria-label', `Slide ${i + 1} of ${N}`); });
+  document.documentElement.classList.add('deck');
+  const ctl = document.createElement('div'); ctl.id = 'ctl';
+  ctl.innerHTML = `<button id='cl' aria-label='Close lecture'>✕</button><button id='pv' aria-label='Previous slide'>‹</button>
+    <span id='ct' role='status' aria-live='polite'></span><button id='nx' aria-label='Next slide'>›</button><div id='pg' aria-hidden='true'></div>`;
+  document.body.appendChild(ctl);
+  const A = window.Android, ct = ctl.querySelector('#ct'), pg = ctl.querySelector('#pg');
+  const h = new URLSearchParams(location.hash.slice(1));
+  let cur = h.has('end') ? N - 1 : Math.min(N - 1, Math.max(0, Math.round(parseFloat(h.get('p') || '0') * (N - 1))));
+  function show(i) {
+    all[cur].classList.remove('on'); cur = i; all[cur].classList.add('on');
+    ct.textContent = `${cur + 1} / ${N}`; pg.style.width = `${(cur + 1) / N * 100}%`;
+    try { history.replaceState(null, '', '#p=' + (N > 1 ? cur / (N - 1) : 0)); } catch (e) {}
+    scrollTo(0, 0); diag();
+  }
+  // if the slide shown is still not on the screen, say what the screen reports (to fix it)
+  function diag() {
+    const r = all[cur].getBoundingClientRect(), bad = r.width < 100 || r.height < 100 || r.bottom < 50 || r.top > innerHeight - 50;
+    let d = document.getElementById('diag');
+    if (!bad) { if (d) d.remove(); return; }
+    if (!d) { d = document.createElement('div'); d.id = 'diag'; document.body.appendChild(d); }
+    d.textContent = `slide ${Math.round(r.left)},${Math.round(r.top)} ${Math.round(r.width)}x${Math.round(r.height)} | inner ${innerWidth}x${innerHeight} | client ${document.documentElement.clientWidth}x${document.documentElement.clientHeight} | laid ${window.__laid} | dpr ${devicePixelRatio} | scroll ${scrollY} | display ${getComputedStyle(all[cur]).display}`;
+  }
+  const next = () => cur < N - 1 ? show(cur + 1) : (A && A.next());
+  const prev = () => cur > 0 ? show(cur - 1) : (A && A.prev());
+  ctl.querySelector('#nx').onclick = e => { e.stopPropagation(); next(); };
+  ctl.querySelector('#pv').onclick = e => { e.stopPropagation(); prev(); };
+  ctl.querySelector('#cl').onclick = e => { e.stopPropagation(); A && A.close(); };
+  // tap the left third for the previous slide, anywhere else for the next; or swipe; or the arrow keys
+  let x0 = null, y0 = null, swiped = false;
+  document.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; swiped = false; }, { passive: true });
+  document.addEventListener('touchend', e => {
+    if (x0 == null) return; const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) { swiped = true; dx < 0 ? next() : prev(); } x0 = null;
+  }, { passive: true });
+  document.addEventListener('click', e => { if (swiped || e.target.closest('button')) return; e.clientX < innerWidth * 0.3 ? prev() : next(); });
+  document.addEventListener('keydown', e => {
+    if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(e.key)) { e.preventDefault(); next(); }
+    if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(e.key)) { e.preventDefault(); prev(); }
+  });
+  // turned the phone: lay the slides out again for the new shape, at the same point of the lecture
+  let t;
+  addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => {
+    const [w0, h0] = window.__laid || [0, 0], W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+    if (Math.abs(W - w0) > w0 * .08 || Math.abs(H - h0) > h0 * .08) location.reload(); }, 300); });
+  all[cur].classList.add('on'); show(cur);
+})();
+}
+try { history.scrollRestoration = 'manual'; } catch (e) {}
+(function start(tries) {
+  // lay out only on a real, settled landscape screen; sizes in pixels (a WebView can report 0 x 0, a narrow or a
+  // short screen while the phone turns, and some give 0 for vh units)
+  const W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+  const ok = W > 240 && H > 200 && (!window.Android || W > H || tries > 60);
+  if (!ok) return setTimeout(() => start(tries + 1), 50);
+  const r = document.documentElement.style;
+  r.setProperty('--W', W + 'px'); r.setProperty('--H', H + 'px');
+  r.setProperty('--f', Math.round(Math.max(14, Math.min(27, Math.min(W * .024, H * .044)))) + 'px');
+  window.__laid = [W, H];
+  __layout(); __deck();
+  // a sane layout has room on its slides; if not (the screen changed under us), lay out again
+  const b = document.querySelector('.s .body');
+  if (b && b.clientHeight < 120 && tries < 100) setTimeout(() => location.reload(), 300);
+})(0);
+</script></body></html>

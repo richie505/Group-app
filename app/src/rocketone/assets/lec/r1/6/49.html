@@ -1,0 +1,224 @@
+<!doctype html><html><head><meta charset='utf-8'><style>
+    @page { size: 13.333in 7.5in; margin: 0 }
+    * { box-sizing: border-box }
+    body { margin: 0; font-family: Inter, 'Noto Sans', 'Noto Sans Telugu', Arial, sans-serif; color: #1f2430 }
+    section.s, div.s { width: 13.333in; height: 7.5in; position: relative; overflow: hidden; page-break-after: always; background: #fff }
+    .s.title, .s.end { background: linear-gradient(135deg, #1e2a5a 0%, #2f3f8f 60%, #4458c4 100%); color: #fff; padding: 0.9in 1in }
+    .s.title h1, .s.end h1 { font-size: 40px; line-height: 1.18; margin: 14px 0 22px; font-weight: 800; max-width: 11in }
+    .kicker { font-size: 15px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .8; font-weight: 600 }
+    .syl { background: rgba(255,255,255,.1); border-radius: 12px; padding: 16px 22px; max-width: 11.3in }
+    .syl .lab { font-size: 12px; letter-spacing: 1.5px; font-weight: 700; opacity: .75; margin-bottom: 6px }
+    .syl ul { margin: 0; padding-left: 20px; font-size: 18px; line-height: 1.5 }
+    .foot { position: absolute; bottom: .55in; left: 1in; font-size: 14px; opacity: .75 }
+    .bar { position: absolute; top: 0; left: 0; right: 0; height: .5in; background: #1e2a5a; color: #fff; display: flex; align-items: center;
+           padding: 0 .55in; font-size: 13px; letter-spacing: .5px; gap: 18px }
+    .bar .p { font-weight: 700; color: #f6c453 }
+    .bar .t { opacity: .85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+    .inner { position: absolute; top: .72in; left: .6in; right: .6in; bottom: .45in; display: flex; flex-direction: column }
+    h2 { font-size: 30px; margin: 0 0 12px; color: #1e2a5a; font-weight: 800; border-left: 6px solid #f6a623; padding-left: 14px }
+    h2 .cont { font-size: 16px; color: #8a90a6; font-weight: 600 }
+    .body { font-size: 23px; line-height: 1.4; flex: 1; overflow: hidden }
+    .sub { font-size: 23px; font-weight: 800; color: #2f3f8f; margin: 10px 0 4px }
+    ul.pts { margin: 4px 0; padding-left: 24px }
+    ul.pts li { margin: 4px 0 }
+    ul.pts li::marker { color: #f6a623 }
+    b { color: #13194a }
+    table { border-collapse: collapse; width: 100%; font-size: 19px; line-height: 1.3; margin: 6px 0 8px }
+    th { background: #2f3f8f; color: #fff; text-align: left; padding: 7px 10px; font-weight: 700 }
+    th b { color: #fff }
+    td { padding: 6px 10px; border-bottom: 1px solid #e3e6f0; vertical-align: top }
+    tr:nth-child(even) td { background: #f5f7fc }
+    .box { border-radius: 10px; padding: 10px 16px; margin: 10px 0; font-size: 21px; line-height: 1.38 }
+    .box span { display: inline-block; font-size: 11.5px; font-weight: 800; letter-spacing: 1.2px; margin-right: 10px; padding: 2px 8px; border-radius: 5px }
+    .rem { background: #fff6e5; border-left: 5px solid #f6a623 } .rem span { background: #f6a623; color: #fff }
+    .set { background: #eaf6ee; border-left: 5px solid #2e9e5b } .set span { background: #2e9e5b; color: #fff }
+    .note { background: #eef1fb; border-left: 5px solid #4458c4 } .note span { background: #4458c4; color: #fff }
+    ol.plan { list-style: none; padding: 0; margin: 14px 0; columns: 2; column-gap: .5in; font-size: 23px }
+    ol.plan li { display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px; break-inside: avoid }
+    .n { flex: none; display: inline-flex; width: 30px; height: 30px; border-radius: 50%; background: #1e2a5a; color: #fff;
+         align-items: center; justify-content: center; font-weight: 700; font-size: 14px; margin-right: 10px }
+    .meta { color: #6b7185; font-size: 15px; margin-top: 8px }
+    .recap li { font-size: 21px; margin: 12px 0 }
+    .qs2 { display: grid; grid-template-columns: 1fr 1fr; gap: .35in }
+    .q { background: #f7f8fc; border-radius: 12px; padding: 18px 22px; font-size: 23px; line-height: 1.38 }
+    .qs { margin-bottom: 8px; display: flex }
+    ol.opts { list-style: none; padding: 0; margin: 0 }
+    ol.opts li { padding: 5px 10px; border-radius: 7px; margin: 3px 0; background: #fff; border: 1px solid #e3e6f0 }
+    ol.opts li.ok { background: #e3f5ea; border-color: #2e9e5b; font-weight: 700; color: #1d6b3d }
+    .src { color: #8a90a6; font-size: 14px; margin-top: 8px }
+    .num { position: absolute; bottom: .18in; right: .5in; font-size: 12px; color: #9aa0b4 }
+    .brand { position: absolute; bottom: .18in; left: .6in; font-size: 12px; color: #9aa0b4 }
+    </style><meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'><style>
+@media screen {
+  /* one slide = one screen, laid out for this phone: text sized to the screen (and the phone's font size) */
+  :root { --W: 100vw; --H: 100vh; --f: 16px } /* --W, --H, --f are set in pixels by START (no vw / vh: some WebViews give 0) */
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #0f1530; -webkit-tap-highlight-color: transparent }
+  section.s, div.s { width: var(--W) !important; height: var(--H) !important; margin: 0; page-break-after: auto }
+  .deck section.s, .deck div.s { display: none }
+  /* the slide shown is pinned to the screen: no scroll position (a reload restores one) can move it away */
+  .deck section.s.on, .deck div.s.on { display: block; position: fixed !important; left: 0; top: 0; z-index: 1 }
+  #diag { position: fixed; z-index: 20; left: 8px; top: 8px; right: 60px; font: 12px monospace; color: #ffd; background: rgba(0,0,0,.6); padding: 6px; white-space: pre-wrap }
+  .bar { height: calc(var(--f) * 2.1); font-size: calc(var(--f) * .7); padding: 0 64px 0 18px; gap: 10px }
+  .inner { top: calc(var(--f) * 2.7); left: 58px; right: 58px; bottom: 26px; overflow: hidden }
+  h2 { font-size: calc(var(--f) * 1.28); margin: 0 0 .5em; padding-left: 10px; border-left-width: 5px }
+  h2 .cont { font-size: .6em }
+  .body { font-size: var(--f) }
+  .sub { font-size: 1.04em; margin: .45em 0 .15em }
+  ul.pts { padding-left: 1.1em } ul.pts li { margin: .22em 0 }
+  table { font-size: .86em } th, td { padding: .35em .5em }
+  .box { font-size: .92em; padding: .45em .7em; margin: .45em 0 } .box span { font-size: .62em }
+  .s.title, .s.end { padding: calc(var(--H) * .07) calc(var(--W) * .06) } .s.title h1, .s.end h1 { font-size: calc(var(--f) * 1.75); margin: .4em 0 .6em }
+  .kicker { font-size: calc(var(--f) * .7) } .syl { padding: .7em 1em } .syl ul { font-size: calc(var(--f) * .92) }
+  .syl .lab { font-size: calc(var(--f) * .6) } .foot { bottom: 30px; left: calc(var(--W) * .06); font-size: calc(var(--f) * .7) }
+  ol.plan { font-size: var(--f); column-gap: 24px } ol.plan li { margin: 0 0 .5em } .n { width: 1.5em; height: 1.5em; font-size: .7em; margin-right: .5em }
+  .meta { font-size: calc(var(--f) * .75) }
+  .recap li { font-size: calc(var(--f) * .92); margin: .4em 0 }
+  .q { font-size: calc(var(--f) * .92); padding: .7em .9em } .src { font-size: .65em }
+  .qs2 { gap: 14px }
+  .brand, .num { display: none }
+  @media (orientation: portrait) { ol.plan { columns: 1 } .qs2 { grid-template-columns: 1fr } }
+  /* the controls: close, previous, slide n of N, next; a progress line */
+  #ctl button { position: fixed; z-index: 9; border: 0; border-radius: 50%; width: 48px; height: 48px; font-size: 26px; line-height: 48px;
+    background: rgba(15,21,48,.55); color: #fff; padding: 0 }
+  #ctl #cl { top: 4px; right: 8px; width: 42px; height: 42px; line-height: 42px; font-size: 20px; background: rgba(255,255,255,.18) }
+  #ctl #pv { top: 50%; left: 6px; transform: translateY(-50%) } #ctl #nx { top: 50%; right: 6px; transform: translateY(-50%) }
+  #ctl #pv, #ctl #nx { background: rgba(15,21,48,.28); color: #fff }
+  #ctl #ct { position: fixed; z-index: 9; bottom: 6px; right: 14px; font: 600 12px Inter, Arial, sans-serif;
+    color: #fff; background: rgba(15,21,48,.5); padding: 2px 10px; border-radius: 10px }
+  #ctl #pg { position: fixed; z-index: 9; bottom: 0; left: 0; height: 4px; background: #f6a623; transition: width .2s }
+  .s.title #x, .s.end #x { display: none }
+}
+</style></head><body><section class='s title'><div class='kicker'>Current Affairs · Science and technology - space, defence technology, health and biotech</div>
+    <h1>Institutions in news: health, science, space and environment</h1>
+    <div class="syl"><div class="lab">SYLLABUS LINES THIS LESSON COVERS</div><ul><li>Current events – national</li><li>Current events – international</li></ul></div>
+    <div class='foot'>RocketOne · Group 1 Prelims · lecture notes</div></section><section class='s'><div class='bar'><span class='p'>Lesson</span><span class='t'>Institutions in news: health, science, space and environment</span></div><div class='inner'><h2>Lesson plan</h2><ol class='plan'><li><span class='n'>1</span>ICMR and Mission SEHAT</li><li><span class='n'>2</span>National Health Authority and digital health platforms</li><li><span class='n'>3</span>BSL-4 laboratories: NIV Pune and GBRC Gandhinagar</li><li><span class='n'>4</span>Ayurveda, disease control and other health bodies</li><li><span class='n'>5</span>IISc and the IITs</li><li><span class='n'>6</span>Space, polar and astronomy institutions</li><li><span class='n'>7</span>Telecom, semiconductors, DRDO and Survey of India</li><li><span class='n'>8</span>Wildlife and biodiversity institutions</li><li><span class='n'>9</span>Agriculture, energy and skilling institutions</li><li><span class='n'>10</span>Centres and facilities: where they are</li><li><span class='n'>11</span>Institutions and what they are linked with</li></ol><div class='meta'>11 parts</div></div><div class='brand'>RocketOne · Group 1 Prelims · Current Affairs</div><div class='num'></div></section><div id='parts'></div><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Institutions in news: health, science, space and environment</span></div><div class='inner'><h2>Recap</h2><ul class='pts recap'><li><b>ICMR and Mission SEHAT</b> — Purpose of the centre · RMRC, Bhubaneswar · AdFalciVax · ICMR–ICAR collaboration · Launch · What it does · Objective</li><li><b>National Health Authority and digital health platforms</b> — BODH working · National Health Claims Exchange (NHCX)</li><li><b>BSL-4 laboratories: NIV Pune and GBRC Gandhinagar</b> — National Institute of Virology (NIV) · NIV in news · BSL-4 · GBRC BSL-4 Bio-Containment Facility · Purpose</li><li><b>Ayurveda, disease control and other health bodies</b> — All India Institute of Ayurveda (AIIA) · Saushrutam 2026 · NCISM role</li><li><b>IISc and the IITs</b> — IISc, Bengaluru · IISc in rankings and coverage · IIT Kanpur · GeodCon-26 · Inauguration · Location and type · Research applications</li><li><b>Space, polar and astronomy institutions</b> — Indian Institute of Astrophysics · Allied Orbits · The project · Consortium&#x27;s task · SpaDeX · BlueBird Block-2 · ISTRAC–SAMEER agreement</li><li><b>Telecom, semiconductors, DRDO and Survey of India</b> — 3D Glass Solutions · Nature of the unit · Pinaka Long Range Guided Rocket · SSPL · GAETEC, Hyderabad · Arunachal Pradesh place names</li><li><b>Wildlife and biodiversity institutions</b> — Wildlife Institute of India (WII) · Also launched · Released · Aim of the centre · Bhavasagara Referral Centre · Purpose of the designation · Geological Survey of India (GSI)</li></ul></div><div class='brand'>RocketOne · Group 1 Prelims · Current Affairs</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Institutions in news: health, science, space and environment</span></div><div class='inner'><h2>Recap (cont.)</h2><ul class='pts recap'><li><b>Agriculture, energy and skilling institutions</b> — ICAR–FCI MoU · Objective · Programme design · Context of the estimate · NSTI Hyderabad · NSTI Bhubaneswar</li><li><b>Centres and facilities: where they are</b> — BSL-4 Bio-Containment Facility · Department of Military Medicine · National Repository for Deep-Sea Fauna · Natural History Museum · PARAM Pragya · COSMOS-2 Planetarium · National Centre for Geodesy</li><li><b>Institutions and what they are linked with</b> — ICMR · RMRC Bhubaneswar · NIV Pune · GBRC Gandhinagar · NHA · IISc Bengaluru · IIT Kanpur</li></ul></div><div class='brand'>RocketOne · Group 1 Prelims · Current Affairs</div><div class='num'></div></section><section class='s end'><h1>Questions?</h1><div class='kicker'>Institutions in news: health, science, space and environment</div><div class='foot'>RocketOne · Group 1 Prelims</div></section><script>function __layout() {
+    const P = [{"title": "ICMR and Mission SEHAT", "part": "Part 1 of 11", "items": [{"k": "b", "h": "<b>ICMR Centre for High Altitude Medicine and Public Health Research:</b> foundation stone laid on 12 October 2026 at Keylong, Lahaul and Spiti, Himachal Pradesh."}, {"k": "b", "h": "<b>Purpose of the centre:</b> research on high-altitude health, extreme weather, geographical isolation, climate variability and related illnesses."}, {"k": "b", "h": "<b>RMRC, Bhubaneswar:</b> developed the recombinant multi-stage malaria vaccine candidate <b>AdFalciVax</b>."}, {"k": "b", "h": "<b>ICMR–ICAR collaboration:</b> Mission SEHAT – Science Excellence for Health through Agricultural Transformation."}, {"k": "h", "h": "Mission SEHAT"}, {"k": "b", "h": "<b>Launch:</b> 11 May 2026 in New Delhi, jointly by Union Health Minister Jagat Prakash Nadda and Agriculture Minister Shivraj Singh Chouhan."}, {"k": "b", "h": "<b>What it does:</b> connects agricultural science, nutrition research and public-health policy."}, {"k": "b", "h": "<b>Objective:</b> “Healthy Food, Healthy Farms and a Healthy India”."}]}, {"title": "National Health Authority and digital health platforms", "part": "Part 2 of 11", "items": [{"k": "t", "head": ["Initiative / platform", "Notes"], "rows": [["<b>Secure Data Environment (SDE)</b>", "Developed by NHA with support from IISc Bengaluru"], ["<b>Purpose of SDE</b>", "Secure, governed analysis of health data under AB PM-JAY and ABDM"], ["<b>BODH</b>", "Developed by IIT Kanpur in collaboration with NHA"], ["<b>Aarogya Setu 2.0</b>", "Redesigned as a citizen-facing digital health platform"], ["<b>National Healthcare Providers Registry Mobile App</b>", "Combines HPR and HFR services"], ["<b>NHCX Implementation Guide</b>", "Guidance for insurers, TPAs and other payers"], ["<b>Model Digital Health Facility Guidebook</b>", "Guidelines for digitally enabled hospitals and health institutions"]]}, {"k": "b", "h": "<b>BODH – Benchmarking Open Data Platform for Health AI:</b> a privacy-preserving benchmarking platform."}, {"k": "b", "h": "<b>BODH working:</b> allows evaluation of AI models on diverse, anonymised real-world health data; does not require sharing underlying datasets."}, {"k": "b", "h": "<b>National Resource Centre for EHR Standards (NRCeS):</b> associated with digital-health initiatives launched with NHA."}, {"k": "b", "h": "<b>National Health Claims Exchange (NHCX):</b> standardised exchange of health-claim information between hospitals and payers."}]}, {"title": "BSL-4 laboratories: NIV Pune and GBRC Gandhinagar", "part": "Part 3 of 11", "items": [{"k": "b", "h": "<b>National Institute of Virology (NIV):</b> located in Pune, Maharashtra; India&#x27;s only functional civilian BSL-4 laboratory at the time of publication."}, {"k": "b", "h": "<b>NIV in news:</b> mentioned in connection with India&#x27;s high-containment laboratory infrastructure."}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span><b>BSL-4</b> is the highest biological containment level.</div>"}, {"k": "b", "h": "<b>Gujarat Biotechnology Research Centre (GBRC):</b> Gandhinagar, Gujarat."}, {"k": "b", "h": "<b>GBRC BSL-4 Bio-Containment Facility:</b> foundation stone for the state-funded facility laid on 13 January 2026 by Union Home Minister Amit Shah."}, {"k": "b", "h": "<b>Purpose:</b> research involving highly dangerous pathogens, including Ebola, Nipah and Marburg."}]}, {"title": "Ayurveda, disease control and other health bodies", "part": "Part 4 of 11", "items": [{"k": "b", "h": "<b>All India Institute of Ayurveda (AIIA):</b> New Delhi; hosted <b>Saushrutam 2026</b> on 15 July 2026, held on Sushruta Jayanti."}, {"k": "b", "h": "<b>Saushrutam 2026:</b> inaugurated by President Droupadi Murmu; an AI-enabled 3 Tesla High-Field MRI facility was also inaugurated."}, {"k": "b", "h": "<b>National Commission for Indian System of Medicine (NCISM):</b> released a study on the professional careers of women Ayurveda graduates at Saushrutam 2026."}, {"k": "b", "h": "<b>NCISM role:</b> connected with the regulation and development of Indian systems of medicine."}, {"k": "b", "h": "<b>National Centre for Vector Borne Diseases Control (NCVBDC):</b> dengue cases and deaths for 2023, 2024, 2025 and provisional 2026 figures are reproduced from its data."}, {"k": "t", "head": ["Institution", "Note"], "rows": [["<b>NIFTEM-K</b> (National Institute of Food Technology Entrepreneurship and Management – Kundli)", "Organised ANVESH–2026 at Sonipat, Haryana"], ["<b>Command Hospital, Central Command</b>", "India&#x27;s first dedicated Department of Military Medicine established here in Lucknow"], ["<b>WHO</b>", "Validated Bhutan&#x27;s elimination of dog-transmitted human rabies; released Global TB Report 2025"], ["<b>CDSCO</b>", "Granted marketing authorisation for Qdenga in India"]]}]}, {"title": "IISc and the IITs", "part": "Part 5 of 11", "items": [{"k": "b", "h": "<b>IISc, Bengaluru:</b> supported NHA in developing the Secure Data Environment application, which provides secure analysis of health data generated under AB PM-JAY and ABDM."}, {"k": "b", "h": "<b>IISc in rankings and coverage:</b> mentioned in the Times Higher Education Asia University Rankings 2026; listed among India&#x27;s prominent higher-education institutions in the Bharat Innovates 2026 coverage."}, {"k": "b", "h": "<b>IIT Kanpur:</b> developed BODH with the National Health Authority, a privacy-preserving platform for benchmarking Health AI."}, {"k": "b", "h": "<b>GeodCon-26:</b> organised by IIT Kanpur&#x27;s National Centre for Geodesy from 11–13 March 2026; described as India&#x27;s first national conference on geodesy."}, {"k": "h", "h": "IIT Delhi: PARAM Pragya supercomputer"}, {"k": "b", "h": "<b>Inauguration:</b> remotely by Prime Minister Narendra Modi on 8 August 2026 during IIT Delhi&#x27;s 57th Convocation."}, {"k": "b", "h": "<b>Location and type:</b> installed at IIT Delhi&#x27;s Sonipat campus, Haryana; an AI-oriented high-performance computing facility."}, {"k": "t", "head": ["Parameter", "Notes"], "rows": [["<b>GPUs</b>", "400 NVIDIA A100"], ["<b>Memory per GPU</b>", "80 GB"], ["<b>Computing capacity</b>", "250 AI petaflops"], ["<b>Announced funding</b>", "₹120 crore"], ["<b>Funding sources</b>", "Government through DST and MeitY"]]}, {"k": "b", "h": "<b>Research applications:</b> large-scale AI models, material discovery, energy, healthcare and robotics."}, {"k": "b", "h": "<b>National Supercomputing Mission:</b> the DST Annual Report 2025–26 lists PARAM Pragya under it."}]}, {"title": "Space, polar and astronomy institutions", "part": "Part 6 of 11", "items": [{"k": "b", "h": "<b>Indian Institute of Astrophysics:</b> implementing agency for the COSMOS-2 Planetarium, to be constructed at Amaravati; connected with astronomy education and public outreach."}, {"k": "b", "h": "<b>IN-SPACe (Indian National Space Promotion and Authorisation Centre):</b> on 21 January 2026 formalised an agreement with a Pixxel-led consortium called <b>Allied Orbits</b>."}, {"k": "b", "h": "<b>The project:</b> India&#x27;s first indigenous commercial Earth Observation satellite constellation, developed under the Earth Observation Public-Private Partnership (EO-PPP) programme."}, {"k": "b", "h": "<b>Consortium&#x27;s task:</b> selected to design, build and operate the constellation."}, {"k": "h", "h": "ISRO"}, {"k": "b", "h": "<b>SpaDeX:</b> India became the fourth nation to achieve autonomous satellite docking."}, {"k": "b", "h": "<b>BlueBird Block-2:</b> launched by ISRO using LVM3 on 24 December 2025; placed in its intended low Earth orbit; the mission&#x27;s payload weighed 6,100 kg."}, {"k": "b", "h": "<b>ISTRAC–SAMEER agreement:</b> ISRO&#x27;s ISTRAC entered into an agreement with SAMEER for X-band deep-space communication amplifiers using indigenous GaN chips."}, {"k": "b", "h": "<b>Vikram Sarabhai Space Centre (VSSC):</b> ISRO centre located in Thiruvananthapuram, Kerala; received a new Director in July 2026."}, {"k": "b", "h": "<b>VSSC Director:</b> Dr Upendra P. Rajeev assumed charge on 1 July 2026."}, {"k": "h", "h": "National Centre for Polar and Ocean Research (NCPOR)"}, {"k": "b", "h": "<b>NCPOR:</b> based in Goa; implementing agency for India&#x27;s proposed <b>Maitri II</b> research station in Antarctica, with a planned completion year of 2032."}, {"k": "b", "h": "<b>Existing Indian Antarctic stations:</b> Dakshin Gangotri, Maitri and Bharati."}, {"k": "b", "h": "<b>Antarctic research cooperation:</b> an agreement with the University of Canterbury, New Zealand, is mentioned."}]}, {"title": "Telecom, semiconductors, DRDO and Survey of India", "part": "Part 7 of 11", "items": [{"k": "b", "h": "<b>Centre for Development of Telematics (C-DOT):</b> received the SKOCH Award 2025 on 19 January 2026, recognised for its Cell Broadcast Solution (CBS)."}, {"k": "h", "h": "Gujarat Engineering Research / semiconductor ecosystem"}, {"k": "b", "h": "<b>3D Glass Solutions:</b> promoted the Heterogeneous Integration Packaging Solutions project."}, {"k": "b", "h": "<b>India&#x27;s first advanced 3D chip packaging unit:</b> foundation stone laid at Info Valley, Bhubaneswar."}, {"k": "b", "h": "<b>Nature of the unit:</b> an advanced packaging and embedded glass-substrate ATMP facility, not a conventional semiconductor fabrication plant."}, {"k": "h", "h": "DRDO and its laboratories"}, {"k": "b", "h": "<b>Pinaka Long Range Guided Rocket:</b> DRDO conducted a successful flight test on 8 July 2026 at Integrated Test Range, Chandipur."}, {"k": "b", "h": "<b>SSPL:</b> developed indigenous processes for manufacturing 4-inch Silicon Carbide wafers."}, {"k": "b", "h": "<b>GAETEC, Hyderabad:</b> mentioned in connection with limited production capability for indigenous GaN-on-SiC MMICs."}, {"k": "h", "h": "Survey of India"}, {"k": "b", "h": "<b>Arunachal Pradesh place names:</b> on 7 August 2026 the Government of India, in consultation with Arunachal Pradesh, identified 27 places/features in the State by standard place and feature names on official Survey of India maps."}]}, {"title": "Wildlife and biodiversity institutions", "part": "Part 8 of 11", "items": [{"k": "b", "h": "<b>Wildlife Institute of India (WII):</b> described as a premier wildlife research institute."}, {"k": "b", "h": "<b>Centre of Excellence on Human–Wildlife Conflict:</b> national-level centre established at WII–SACON, Coimbatore; inaugurated on 10 July 2026 by Union Environment Minister Bhupender Yadav."}, {"k": "b", "h": "<b>Also launched:</b> the National Human–Wildlife Conflict Portal."}, {"k": "b", "h": "<b>Released:</b> the first edition of *Current Status of Human–Wildlife Conflict in India: An Overview*."}, {"k": "b", "h": "<b>Salim Ali Centre for Ornithology and Natural History (SACON):</b> Coimbatore, Tamil Nadu; associated with WII; hosts the Centre of Excellence on Human–Wildlife Conflict."}, {"k": "b", "h": "<b>Aim of the centre:</b> to strengthen research and response to human–wildlife conflict."}, {"k": "b", "h": "<b>Centre for Marine Living Resources and Ecology (CMLRE):</b> Kochi, Kerala; associated with the Ministry of Earth Sciences."}, {"k": "b", "h": "<b>Bhavasagara Referral Centre:</b> designated as the National Repository for Deep-Sea Fauna; holds more than 3,560 taxonomically identified, geo-referenced voucher specimens."}, {"k": "b", "h": "<b>Natural History Museum, Mizoram University:</b> at Aizawl, Mizoram; designated India&#x27;s 21st Designated Repository under Section 39 of the Biological Diversity Act, 2002."}, {"k": "b", "h": "<b>Purpose of the designation:</b> related to the conservation and preservation of biological specimens."}, {"k": "b", "h": "<b>Geological Survey of India (GSI):</b> Varsha Ashok Aglawe was appointed as the 54th Director General, the first woman to hold the position; GSI is also mentioned in the appointments section."}]}, {"title": "Agriculture, energy and skilling institutions", "part": "Part 9 of 11", "items": [{"k": "b", "h": "<b>ICAR–FCI MoU:</b> ICAR and the Food Corporation of India signed an MoU on 30 September 2026."}, {"k": "b", "h": "<b>Objective:</b> research on alternative fumigation technologies for safe and sustainable food-commodity storage."}, {"k": "b", "h": "<b>ICAR-CIPHET (Central Institute of Post-Harvest Engineering and Technology):</b> Ludhiana, Punjab; implementing institution for the ICAR–FCI research programme."}, {"k": "b", "h": "<b>Programme design:</b> planned in two phases; the first phase has an approved outlay of ₹3.28 crore for two years."}, {"k": "b", "h": "<b>National Institute of Solar Energy (NISE):</b> estimated approximately 102.18 GWp of floating-solar potential across reservoirs and suitable inland water bodies."}, {"k": "b", "h": "<b>Context of the estimate:</b> mentioned in connection with the PM-SSY floating-solar scheme."}, {"k": "b", "h": "<b>NSTI Hyderabad:</b> a renewable-energy skilling Centre of Excellence was proposed here in the India–Germany cooperation section."}, {"k": "b", "h": "<b>NSTI Bhubaneswar:</b> a mining Centre of Excellence was proposed here in the India–Australia cooperation section."}]}, {"title": "Centres and facilities: where they are", "part": "Part 10 of 11", "items": [{"k": "t", "head": ["Centre / facility", "Location", "Note"], "rows": [["<b>ICMR Centre for High Altitude Medicine and Public Health Research</b>", "Keylong, Himachal Pradesh", "High-altitude health research"], ["<b>BSL-4 Bio-Containment Facility</b>", "GBRC, Gandhinagar", "Highest-level biological containment"], ["<b>Department of Military Medicine</b>", "Command Hospital, Lucknow", "First dedicated department of its kind in India"], ["<b>Centre of Excellence on Human–Wildlife Conflict</b>", "WII–SACON, Coimbatore", "Human–wildlife conflict research"], ["<b>National Repository for Deep-Sea Fauna</b>", "Bhavasagara Referral Centre", "Deep-sea fauna specimens"], ["<b>Natural History Museum</b>", "Mizoram University, Aizawl", "India&#x27;s 21st Designated Repository"], ["<b>PARAM Pragya</b>", "IIT Delhi&#x27;s Sonipat campus", "AI high-performance computing"], ["<b>COSMOS-2 Planetarium</b>", "Amaravati", "Indian Institute of Astrophysics"], ["<b>India&#x27;s first advanced 3D chip packaging unit</b>", "Info Valley, Bhubaneswar", "3D Glass Solutions"], ["<b>National Centre for Geodesy</b>", "IIT Kanpur", "Geodesy research"], ["<b>Regional Meteorological Centre</b>", "Jammu", "India Meteorological Department"], ["<b>IndiaAI Centre of Excellence</b>", "Thiruvananthapuram", "Artificial Intelligence"], ["<b>RBI Data Centre and Cybersecurity Training Institute</b>", "Bhubaneswar", "RBI"], ["<b>First National AI &amp; Digital Water Summit</b>", "Bengaluru", "Digital water technology"], ["<b>Centre of Excellence for renewable-energy skilling</b>", "NSTI Hyderabad", "India–Germany cooperation"], ["<b>Centre of Excellence for mining</b>", "NSTI Bhubaneswar", "India–Australia cooperation"]]}]}, {"title": "Institutions and what they are linked with", "part": "Part 11 of 11", "items": [{"k": "t", "head": ["Institution", "Note"], "rows": [["<b>ICMR</b>", "Medical research"], ["<b>RMRC Bhubaneswar</b>", "AdFalciVax malaria vaccine candidate"], ["<b>NIV Pune</b>", "BSL-4 laboratory"], ["<b>GBRC Gandhinagar</b>", "New BSL-4 facility"], ["<b>NHA</b>", "ABDM and PM-JAY digital health"], ["<b>IISc Bengaluru</b>", "Secure Data Environment support"], ["<b>IIT Kanpur</b>", "BODH and National Centre for Geodesy"], ["<b>IIT Delhi</b>", "PARAM Pragya"], ["<b>IN-SPACe</b>", "Private-sector space activity"], ["<b>ISRO</b>", "Space missions and satellite launches"], ["<b>VSSC</b>", "Space launch vehicle research and development"], ["<b>NCPOR</b>", "Polar and Antarctic research"], ["<b>WII</b>", "Wildlife research"], ["<b>SACON</b>", "Ornithology and natural history"], ["<b>CMLRE</b>", "Marine living resources and deep-sea fauna"], ["<b>ICAR-CIPHET</b>", "Post-harvest engineering and technology"], ["<b>ICAR</b>", "Agricultural research"], ["<b>ISI</b>", "Statistics and statistical research"], ["<b>NSO</b>", "Official statistics"], ["<b>QCI</b>", "Quality and accreditation ecosystem"], ["<b>NABL</b>", "Laboratory accreditation"], ["<b>BIS</b>", "Standards and certification"], ["<b>NABARD</b>", "Agriculture and rural development finance"], ["<b>NSDC</b>", "Skill development"], ["<b>CDSCO</b>", "Drug and vaccine regulatory authorisation"], ["<b>NTC</b>", "Tribunal appointments and oversight"], ["<b>ITLA</b>", "Integrated transport and logistics"], ["<b>SISC</b>", "Steel industry safety"], ["<b>C-DOT</b>", "Telecommunications research"], ["<b>DRDO</b>", "Defence research and development"], ["<b>GTRE</b>", "Gas turbine research"], ["<b>SSPL</b>", "Solid-state physics and semiconductor technology"], ["<b>GAETEC</b>", "GaN-on-SiC production capability"], ["<b>APEDA</b>", "Agricultural and processed food exports"], ["<b>NHAI</b>", "National highways"], ["<b>TRAI</b>", "Telecommunications regulation"]]}, {"k": "t", "head": ["International body", "Note"], "rows": [["<b>WHO</b>", "Global public health"], ["<b>WIPO</b>", "Intellectual property"], ["<b>WEF</b>", "Global Gender Gap Report"], ["<b>IMD</b>", "World Competitiveness Ranking"], ["<b>IEP</b>", "Global Terrorism Index"], ["<b>UNDP</b>", "Human Development Report"], ["<b>UNESCO</b>", "Education, science and culture"], ["<b>ITLOS</b>", "Law of the Sea"]]}]}], APP = "RocketOne \u00b7 Group 1 Prelims", SUBJ = "Current Affairs", TOPIC = "Institutions in news: health, science, space and environment";
+    const host = document.getElementById('parts');
+    function mk(cls, html) { const d = document.createElement('div'); if (cls) d.className = cls; if (html != null) d.innerHTML = html; return d; }
+    function newSlide(p, cont) {
+      const s = mk('s'); s.innerHTML = `<div class='bar'><span class='p'>${p.part}</span><span class='t'>${TOPIC}</span></div>
+        <div class='inner'><h2>${p.title}<span class='cont'></span></h2><div class='body'></div></div>
+        <div class='brand'>${APP} · ${SUBJ}</div><div class='num'></div>`;
+      host.appendChild(s); return s.querySelector('.body');
+    }
+    const over = b => b.scrollHeight > b.clientHeight + 1;
+    for (const p of P) {
+      const made = []; let body = newSlide(p); made.push(body);
+      const fresh = () => { body = newSlide(p); made.push(body); };
+      let ul = null;
+      for (let i = 0; i < p.items.length; i++) {
+        const it = p.items[i];
+        if (it.k === 'b') {
+          if (!ul || ul.parentNode !== body || body.lastChild !== ul) { ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); }
+          const li = document.createElement('li'); li.innerHTML = it.h; ul.appendChild(li);
+          if (over(body) && body.childNodes.length > 1 || over(body) && ul.childNodes.length > 1) {
+            li.remove(); if (!ul.childNodes.length) ul.remove();
+            const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null;
+            fresh(); if (carry) body.appendChild(carry);
+            ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); ul.appendChild(li);
+          }
+          continue;
+        }
+        ul = null;
+        if (it.k === 'h') { body.appendChild(mk('sub', it.h)); if (over(body) && body.childNodes.length > 1) { const h = body.lastChild; h.remove(); fresh(); body.appendChild(h); } continue; }
+        if (it.k === 'x') { const d = mk(null, it.h).firstChild; body.appendChild(d); if (over(body) && body.childNodes.length > 1) { d.remove(); const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; fresh(); if (carry) body.appendChild(carry); body.appendChild(d); } continue; }
+        if (it.k === 't') {
+          const head = it.head.length ? '<tr>' + it.head.map(c => `<th>${c}</th>`).join('') + '</tr>' : '';
+          const newTable = () => { const t = document.createElement('table'); t.innerHTML = head; body.appendChild(t); return t.tBodies[0] || t; };
+          let tb = newTable();
+          for (const r of it.rows) {
+            const tr = document.createElement('tr'); tr.innerHTML = r.map(c => `<td>${c}</td>`).join(''); tb.appendChild(tr);
+            if (over(body) && (tb.querySelectorAll('td').length > r.length || body.childNodes.length > 1)) {
+              tr.remove();
+              const t = tb.closest('table'); let carry = null;
+              if (!t.querySelector('td')) { t.remove(); carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; }
+              fresh(); if (carry) body.appendChild(carry); tb = newTable(); tb.appendChild(tr);
+            }
+          }
+        }
+      }
+      made.forEach((b, k) => { if (made.length > 1) b.parentNode.querySelector('.cont').textContent = ` (${k + 1}/${made.length})`; });
+    }
+    host.replaceWith(...host.childNodes);
+    const all = document.querySelectorAll('section.s, div.s');
+    all.forEach((s, k) => { const n = s.querySelector('.num'); if (n) n.textContent = `${k + 1} / ${all.length}`; });
+    }</script><script>function __deck() {
+(function () {
+  // static slides (title, plan, recap, quick check) that overflow this screen are split, item by item
+  function split(s) {
+    const inner = s.querySelector('.inner'); const box = s.querySelector('.qs2, ul.recap, ol.plan');
+    if (!inner || !box) return;
+    const moved = [];
+    while (inner.scrollHeight > inner.clientHeight + 1 && box.children.length > 1) moved.unshift(box.lastElementChild), box.lastElementChild.remove();
+    if (!moved.length) return;
+    const c = s.cloneNode(true); const cb = c.querySelector('.qs2, ul.recap, ol.plan');
+    cb.innerHTML = ''; moved.forEach(m => cb.appendChild(m));
+    s.after(c); split(c);
+  }
+  document.querySelectorAll('section.s').forEach(split);
+  const all = [...document.querySelectorAll('section.s, div.s')], N = all.length;
+  all.forEach((s, i) => { s.setAttribute('role', 'group'); s.setAttribute('aria-roledescription', 'slide'); s.setAttribute('aria-label', `Slide ${i + 1} of ${N}`); });
+  document.documentElement.classList.add('deck');
+  const ctl = document.createElement('div'); ctl.id = 'ctl';
+  ctl.innerHTML = `<button id='cl' aria-label='Close lecture'>✕</button><button id='pv' aria-label='Previous slide'>‹</button>
+    <span id='ct' role='status' aria-live='polite'></span><button id='nx' aria-label='Next slide'>›</button><div id='pg' aria-hidden='true'></div>`;
+  document.body.appendChild(ctl);
+  const A = window.Android, ct = ctl.querySelector('#ct'), pg = ctl.querySelector('#pg');
+  const h = new URLSearchParams(location.hash.slice(1));
+  let cur = h.has('end') ? N - 1 : Math.min(N - 1, Math.max(0, Math.round(parseFloat(h.get('p') || '0') * (N - 1))));
+  function show(i) {
+    all[cur].classList.remove('on'); cur = i; all[cur].classList.add('on');
+    ct.textContent = `${cur + 1} / ${N}`; pg.style.width = `${(cur + 1) / N * 100}%`;
+    try { history.replaceState(null, '', '#p=' + (N > 1 ? cur / (N - 1) : 0)); } catch (e) {}
+    scrollTo(0, 0); diag();
+  }
+  // if the slide shown is still not on the screen, say what the screen reports (to fix it)
+  function diag() {
+    const r = all[cur].getBoundingClientRect(), bad = r.width < 100 || r.height < 100 || r.bottom < 50 || r.top > innerHeight - 50;
+    let d = document.getElementById('diag');
+    if (!bad) { if (d) d.remove(); return; }
+    if (!d) { d = document.createElement('div'); d.id = 'diag'; document.body.appendChild(d); }
+    d.textContent = `slide ${Math.round(r.left)},${Math.round(r.top)} ${Math.round(r.width)}x${Math.round(r.height)} | inner ${innerWidth}x${innerHeight} | client ${document.documentElement.clientWidth}x${document.documentElement.clientHeight} | laid ${window.__laid} | dpr ${devicePixelRatio} | scroll ${scrollY} | display ${getComputedStyle(all[cur]).display}`;
+  }
+  const next = () => cur < N - 1 ? show(cur + 1) : (A && A.next());
+  const prev = () => cur > 0 ? show(cur - 1) : (A && A.prev());
+  ctl.querySelector('#nx').onclick = e => { e.stopPropagation(); next(); };
+  ctl.querySelector('#pv').onclick = e => { e.stopPropagation(); prev(); };
+  ctl.querySelector('#cl').onclick = e => { e.stopPropagation(); A && A.close(); };
+  // tap the left third for the previous slide, anywhere else for the next; or swipe; or the arrow keys
+  let x0 = null, y0 = null, swiped = false;
+  document.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; swiped = false; }, { passive: true });
+  document.addEventListener('touchend', e => {
+    if (x0 == null) return; const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) { swiped = true; dx < 0 ? next() : prev(); } x0 = null;
+  }, { passive: true });
+  document.addEventListener('click', e => { if (swiped || e.target.closest('button')) return; e.clientX < innerWidth * 0.3 ? prev() : next(); });
+  document.addEventListener('keydown', e => {
+    if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(e.key)) { e.preventDefault(); next(); }
+    if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(e.key)) { e.preventDefault(); prev(); }
+  });
+  // turned the phone: lay the slides out again for the new shape, at the same point of the lecture
+  let t;
+  addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => {
+    const [w0, h0] = window.__laid || [0, 0], W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+    if (Math.abs(W - w0) > w0 * .08 || Math.abs(H - h0) > h0 * .08) location.reload(); }, 300); });
+  all[cur].classList.add('on'); show(cur);
+})();
+}
+try { history.scrollRestoration = 'manual'; } catch (e) {}
+(function start(tries) {
+  // lay out only on a real, settled landscape screen; sizes in pixels (a WebView can report 0 x 0, a narrow or a
+  // short screen while the phone turns, and some give 0 for vh units)
+  const W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+  const ok = W > 240 && H > 200 && (!window.Android || W > H || tries > 60);
+  if (!ok) return setTimeout(() => start(tries + 1), 50);
+  const r = document.documentElement.style;
+  r.setProperty('--W', W + 'px'); r.setProperty('--H', H + 'px');
+  r.setProperty('--f', Math.round(Math.max(14, Math.min(27, Math.min(W * .024, H * .044)))) + 'px');
+  window.__laid = [W, H];
+  __layout(); __deck();
+  // a sane layout has room on its slides; if not (the screen changed under us), lay out again
+  const b = document.querySelector('.s .body');
+  if (b && b.clientHeight < 120 && tries < 100) setTimeout(() => location.reload(), 300);
+})(0);
+</script></body></html>

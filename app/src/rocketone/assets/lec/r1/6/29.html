@@ -1,0 +1,224 @@
+<!doctype html><html><head><meta charset='utf-8'><style>
+    @page { size: 13.333in 7.5in; margin: 0 }
+    * { box-sizing: border-box }
+    body { margin: 0; font-family: Inter, 'Noto Sans', 'Noto Sans Telugu', Arial, sans-serif; color: #1f2430 }
+    section.s, div.s { width: 13.333in; height: 7.5in; position: relative; overflow: hidden; page-break-after: always; background: #fff }
+    .s.title, .s.end { background: linear-gradient(135deg, #1e2a5a 0%, #2f3f8f 60%, #4458c4 100%); color: #fff; padding: 0.9in 1in }
+    .s.title h1, .s.end h1 { font-size: 40px; line-height: 1.18; margin: 14px 0 22px; font-weight: 800; max-width: 11in }
+    .kicker { font-size: 15px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .8; font-weight: 600 }
+    .syl { background: rgba(255,255,255,.1); border-radius: 12px; padding: 16px 22px; max-width: 11.3in }
+    .syl .lab { font-size: 12px; letter-spacing: 1.5px; font-weight: 700; opacity: .75; margin-bottom: 6px }
+    .syl ul { margin: 0; padding-left: 20px; font-size: 18px; line-height: 1.5 }
+    .foot { position: absolute; bottom: .55in; left: 1in; font-size: 14px; opacity: .75 }
+    .bar { position: absolute; top: 0; left: 0; right: 0; height: .5in; background: #1e2a5a; color: #fff; display: flex; align-items: center;
+           padding: 0 .55in; font-size: 13px; letter-spacing: .5px; gap: 18px }
+    .bar .p { font-weight: 700; color: #f6c453 }
+    .bar .t { opacity: .85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+    .inner { position: absolute; top: .72in; left: .6in; right: .6in; bottom: .45in; display: flex; flex-direction: column }
+    h2 { font-size: 30px; margin: 0 0 12px; color: #1e2a5a; font-weight: 800; border-left: 6px solid #f6a623; padding-left: 14px }
+    h2 .cont { font-size: 16px; color: #8a90a6; font-weight: 600 }
+    .body { font-size: 23px; line-height: 1.4; flex: 1; overflow: hidden }
+    .sub { font-size: 23px; font-weight: 800; color: #2f3f8f; margin: 10px 0 4px }
+    ul.pts { margin: 4px 0; padding-left: 24px }
+    ul.pts li { margin: 4px 0 }
+    ul.pts li::marker { color: #f6a623 }
+    b { color: #13194a }
+    table { border-collapse: collapse; width: 100%; font-size: 19px; line-height: 1.3; margin: 6px 0 8px }
+    th { background: #2f3f8f; color: #fff; text-align: left; padding: 7px 10px; font-weight: 700 }
+    th b { color: #fff }
+    td { padding: 6px 10px; border-bottom: 1px solid #e3e6f0; vertical-align: top }
+    tr:nth-child(even) td { background: #f5f7fc }
+    .box { border-radius: 10px; padding: 10px 16px; margin: 10px 0; font-size: 21px; line-height: 1.38 }
+    .box span { display: inline-block; font-size: 11.5px; font-weight: 800; letter-spacing: 1.2px; margin-right: 10px; padding: 2px 8px; border-radius: 5px }
+    .rem { background: #fff6e5; border-left: 5px solid #f6a623 } .rem span { background: #f6a623; color: #fff }
+    .set { background: #eaf6ee; border-left: 5px solid #2e9e5b } .set span { background: #2e9e5b; color: #fff }
+    .note { background: #eef1fb; border-left: 5px solid #4458c4 } .note span { background: #4458c4; color: #fff }
+    ol.plan { list-style: none; padding: 0; margin: 14px 0; columns: 2; column-gap: .5in; font-size: 23px }
+    ol.plan li { display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px; break-inside: avoid }
+    .n { flex: none; display: inline-flex; width: 30px; height: 30px; border-radius: 50%; background: #1e2a5a; color: #fff;
+         align-items: center; justify-content: center; font-weight: 700; font-size: 14px; margin-right: 10px }
+    .meta { color: #6b7185; font-size: 15px; margin-top: 8px }
+    .recap li { font-size: 21px; margin: 12px 0 }
+    .qs2 { display: grid; grid-template-columns: 1fr 1fr; gap: .35in }
+    .q { background: #f7f8fc; border-radius: 12px; padding: 18px 22px; font-size: 23px; line-height: 1.38 }
+    .qs { margin-bottom: 8px; display: flex }
+    ol.opts { list-style: none; padding: 0; margin: 0 }
+    ol.opts li { padding: 5px 10px; border-radius: 7px; margin: 3px 0; background: #fff; border: 1px solid #e3e6f0 }
+    ol.opts li.ok { background: #e3f5ea; border-color: #2e9e5b; font-weight: 700; color: #1d6b3d }
+    .src { color: #8a90a6; font-size: 14px; margin-top: 8px }
+    .num { position: absolute; bottom: .18in; right: .5in; font-size: 12px; color: #9aa0b4 }
+    .brand { position: absolute; bottom: .18in; left: .6in; font-size: 12px; color: #9aa0b4 }
+    </style><meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'><style>
+@media screen {
+  /* one slide = one screen, laid out for this phone: text sized to the screen (and the phone's font size) */
+  :root { --W: 100vw; --H: 100vh; --f: 16px } /* --W, --H, --f are set in pixels by START (no vw / vh: some WebViews give 0) */
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #0f1530; -webkit-tap-highlight-color: transparent }
+  section.s, div.s { width: var(--W) !important; height: var(--H) !important; margin: 0; page-break-after: auto }
+  .deck section.s, .deck div.s { display: none }
+  /* the slide shown is pinned to the screen: no scroll position (a reload restores one) can move it away */
+  .deck section.s.on, .deck div.s.on { display: block; position: fixed !important; left: 0; top: 0; z-index: 1 }
+  #diag { position: fixed; z-index: 20; left: 8px; top: 8px; right: 60px; font: 12px monospace; color: #ffd; background: rgba(0,0,0,.6); padding: 6px; white-space: pre-wrap }
+  .bar { height: calc(var(--f) * 2.1); font-size: calc(var(--f) * .7); padding: 0 64px 0 18px; gap: 10px }
+  .inner { top: calc(var(--f) * 2.7); left: 58px; right: 58px; bottom: 26px; overflow: hidden }
+  h2 { font-size: calc(var(--f) * 1.28); margin: 0 0 .5em; padding-left: 10px; border-left-width: 5px }
+  h2 .cont { font-size: .6em }
+  .body { font-size: var(--f) }
+  .sub { font-size: 1.04em; margin: .45em 0 .15em }
+  ul.pts { padding-left: 1.1em } ul.pts li { margin: .22em 0 }
+  table { font-size: .86em } th, td { padding: .35em .5em }
+  .box { font-size: .92em; padding: .45em .7em; margin: .45em 0 } .box span { font-size: .62em }
+  .s.title, .s.end { padding: calc(var(--H) * .07) calc(var(--W) * .06) } .s.title h1, .s.end h1 { font-size: calc(var(--f) * 1.75); margin: .4em 0 .6em }
+  .kicker { font-size: calc(var(--f) * .7) } .syl { padding: .7em 1em } .syl ul { font-size: calc(var(--f) * .92) }
+  .syl .lab { font-size: calc(var(--f) * .6) } .foot { bottom: 30px; left: calc(var(--W) * .06); font-size: calc(var(--f) * .7) }
+  ol.plan { font-size: var(--f); column-gap: 24px } ol.plan li { margin: 0 0 .5em } .n { width: 1.5em; height: 1.5em; font-size: .7em; margin-right: .5em }
+  .meta { font-size: calc(var(--f) * .75) }
+  .recap li { font-size: calc(var(--f) * .92); margin: .4em 0 }
+  .q { font-size: calc(var(--f) * .92); padding: .7em .9em } .src { font-size: .65em }
+  .qs2 { gap: 14px }
+  .brand, .num { display: none }
+  @media (orientation: portrait) { ol.plan { columns: 1 } .qs2 { grid-template-columns: 1fr } }
+  /* the controls: close, previous, slide n of N, next; a progress line */
+  #ctl button { position: fixed; z-index: 9; border: 0; border-radius: 50%; width: 48px; height: 48px; font-size: 26px; line-height: 48px;
+    background: rgba(15,21,48,.55); color: #fff; padding: 0 }
+  #ctl #cl { top: 4px; right: 8px; width: 42px; height: 42px; line-height: 42px; font-size: 20px; background: rgba(255,255,255,.18) }
+  #ctl #pv { top: 50%; left: 6px; transform: translateY(-50%) } #ctl #nx { top: 50%; right: 6px; transform: translateY(-50%) }
+  #ctl #pv, #ctl #nx { background: rgba(15,21,48,.28); color: #fff }
+  #ctl #ct { position: fixed; z-index: 9; bottom: 6px; right: 14px; font: 600 12px Inter, Arial, sans-serif;
+    color: #fff; background: rgba(15,21,48,.5); padding: 2px 10px; border-radius: 10px }
+  #ctl #pg { position: fixed; z-index: 9; bottom: 0; left: 0; height: 4px; background: #f6a623; transition: width .2s }
+  .s.title #x, .s.end #x { display: none }
+}
+</style></head><body><section class='s title'><div class='kicker'>Current Affairs · International - summits and conferences</div>
+    <h1>Conferences of 2025-26: governance, health, technology, energy, UN, finance</h1>
+    <div class="syl"><div class="lab">SYLLABUS LINES THIS LESSON COVERS</div><ul><li>Current events – national</li><li>Current events – international</li></ul></div>
+    <div class='foot'>RocketOne · Group 1 Prelims · lecture notes</div></section><section class='s'><div class='bar'><span class='p'>Lesson</span><span class='t'>Conferences of 2025-26: governance, health, technology, energy, UN, finance</span></div><div class='inner'><h2>Lesson plan</h2><ol class='plan'><li><span class='n'>1</span>Governance, administration and public policy</li><li><span class='n'>2</span>Health and medical sciences</li><li><span class='n'>3</span>Agriculture, food and rural development</li><li><span class='n'>4</span>Technology, AI, electronics and telecommunications</li><li><span class='n'>5</span>Energy, environment and water</li><li><span class='n'>6</span>United Nations, climate and environment</li><li><span class='n'>7</span>International economic, financial and trade conferences</li></ol><div class='meta'>7 parts</div></div><div class='brand'>RocketOne · Group 1 Prelims · Current Affairs</div><div class='num'></div></section><div id='parts'></div><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Conferences of 2025-26: governance, health, technology, energy, UN, finance</span></div><div class='inner'><h2>Recap</h2><ul class='pts recap'><li><b>Governance, administration and public policy</b> — Date · Theme · Jaipur Declaration</li><li><b>Health and medical sciences</b> — Organiser · Platform · Main objective · Inaugurated by · MRI facility · NCISM study · Participation</li><li><b>Agriculture, food and rural development</b> — Venue and date · Indore Declaration · Focus areas · More focus areas</li><li><b>Technology, AI, electronics and telecommunications</b> — Three guiding principles · Seven thematic Chakras · Global AI Impact Commons · SAHI and BODH · Inaugurated by · Venue · Focus</li><li><b>Energy, environment and water</b> — Bharat Electricity Summit 2026 · 2nd Bharat Green Hydrogen Summit 2026 · Global Dryland Congress 2026 · World Circular Economy Forum 2026 · India International Water Week 2026 · 8th Windergy India · 5th India Energy Week 2027</li><li><b>United Nations, climate and environment</b> — Basis · Panel · Co-Chairs · Powers · 20th session · Deepavali · Session chair</li><li><b>International economic, financial and trade conferences</b> — Global Fintech Fest 2026</li></ul></div><div class='brand'>RocketOne · Group 1 Prelims · Current Affairs</div><div class='num'></div></section><section class='s end'><h1>Questions?</h1><div class='kicker'>Conferences of 2025-26: governance, health, technology, energy, UN, finance</div><div class='foot'>RocketOne · Group 1 Prelims</div></section><script>function __layout() {
+    const P = [{"title": "Governance, administration and public policy", "part": "Part 1 of 7", "items": [{"k": "h", "h": "29th National e-Governance Conference"}, {"k": "b", "h": "<b>Date:</b> 1–2 July 2026; venue: Jaipur, Rajasthan."}, {"k": "b", "h": "<b>Theme:</b> “Viksit Bharat 2047: AI-enabled, Data-driven and Secure Digital Governance.”"}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span><b>Jaipur Declaration</b> was adopted at the 29th National e-Governance Conference.</div>"}, {"k": "h", "h": "Other conferences"}, {"k": "t", "head": ["Conference", "Date", "Venue", "Notes"], "rows": [["<b>First-ever Strategic Communication Conclave</b>", "7 March 2026", "Lucknow, Uttar Pradesh", "Conducted by the Indian Army&#x27;s Central Command"], ["<b>11th National Conference on Economics of Competition Law</b>", "16 March 2026", "Bharat Mandapam, New Delhi", "Organised by the Competition Commission of India (CCI)"], ["<b>National Conference on Strengthening Legal Education through Integration of Regional Languages</b>", "11 July 2026", "Bar Council of India premises, New Delhi", "National legal education and regional-language integration"], ["<b>National Conference on NextGen Administrative and e-Governance Reforms</b>", "13–14 July 2026", "Shillong, Meghalaya", "Department of Administrative Reforms and Public Grievances (DARPG), with Government of Meghalaya"], ["<b>4th National Conference on Responsible Business Conduct (NCRBC) 2026</b>", "15–16 July 2026", "New Delhi", "Theme: “ESG-led Transformation for Viksit Bharat.”"], ["<b>2nd National Port Security Conference 2026</b>", "6 August 2026", "New Delhi", "Port security"], ["<b>National Sports Federation Conclave 2026</b>", "7 August 2026", "New Delhi", "National Sports Federation-related deliberations"], ["<b>National Handloom Designers&#x27; Conclave 2026</b>", "10 August 2026", "Dr. Ambedkar International Centre, New Delhi", "National handloom and design sector"], ["<b>6th All India Official Language Conference</b>", "14 September 2026", "Mumbai", "Official-language implementation"]]}]}, {"title": "Health and medical sciences", "part": "Part 2 of 7", "items": [{"k": "t", "head": ["Conference / event", "Date", "Venue", "Notes"], "rows": [["<b>National Arogya Fair 2026</b>", "25–28 February 2026", "Shegaon, Buldhana, Maharashtra", "Ministry of Ayush and All India Ayurvedic Congress"], ["<b>International Malaria Conference 2026</b>", "7–9 March 2026", "New Delhi", "Theme: “Discovery, Development and Delivery: Driving Malaria Elimination and Beyond.”"], ["<b>10th National Summit on Innovation and Inclusivity</b>", "30 April–1 May 2026", "Chandigarh", "Organised by Ministry of Health and Family Welfare; theme: “Best Practices Shaping India&#x27;s Health Future.”"], ["<b>Saushrutam 2026</b>", "15–17 July 2026", "New Delhi", "Hosted by AIIA; held around Sushruta Jayanti; international participation from nine countries"], ["<b>3rd BIMSTEC Conference on Traditional Medicine Knowledge, Genetic Resources and Intellectual Property Rights</b>", "16–17 September 2026", "Goa", "Ministry of Ayush and All India Institute of Ayurveda (AIIA), Goa"], ["<b>6th National Pharmacovigilance Week</b>", "17–23 September 2026", "—", "Theme: “Promoting Rational Use of Medicines through Pharmacovigilance – A Step Towards Safer Healthcare.”"], ["<b>Aarogya Manthan 2026</b>", "25 September 2026", "Vigyan Bhawan, New Delhi", "Organised by National Health Authority; marked eight years of AB-PMJAY and five years of ABDM"]]}, {"k": "h", "h": "10th National Summit on Innovation and Inclusivity"}, {"k": "b", "h": "<b>Organiser:</b> Union Ministry of Health and Family Welfare; inaugurated by Union Health Minister J.P. Nadda."}, {"k": "b", "h": "<b>Platform:</b> for States and UTs to present innovations and best practices."}, {"k": "b", "h": "<b>Main objective:</b> make healthcare more inclusive, accessible and affordable."}, {"k": "h", "h": "Saushrutam 2026"}, {"k": "b", "h": "<b>Inaugurated by:</b> President Droupadi Murmu; venue: All India Institute of Ayurveda, New Delhi."}, {"k": "b", "h": "<b>MRI facility:</b> AI-enabled 3 Tesla High-Field MRI facility inaugurated."}, {"k": "b", "h": "<b>NCISM study:</b> on professional careers of women Ayurveda graduates, released."}, {"k": "b", "h": "<b>Participation:</b> experts from nine countries participated."}, {"k": "b", "h": "<b>Main subjects:</b> Shalya Tantra, Kshara Sutra, Agnikarma and integrative oncology."}]}, {"title": "Agriculture, food and rural development", "part": "Part 3 of 7", "items": [{"k": "t", "head": ["Conference / event", "Date", "Venue", "Notes"], "rows": [["<b>National Tribal Literary Fest 2025</b>", "11–12 November 2025", "New Delhi", "National Tribal Research Institute and Ministry of Tribal Affairs"], ["<b>Tribal Business Conclave 2025</b>", "12 November 2025", "New Delhi", "DPIIT, Ministry of Tribal Affairs, Ministry of Culture and FICCI"], ["<b>6th National Crop Nutrition Summit and B2B Expo 2026</b>", "5–6 February 2026", "Mumbai", "Theme: “Converge, Collaborate &amp; Co-create – Elevating India as the World&#x27;s Agri Input Manufacturing Hub.”"], ["<b>ANVESH–2026</b>", "26–28 February 2026", "Sonipat, Haryana", "Organised by NIFTEM-K"], ["<b>National Conference on Agriculture for Kharif Campaign 2026</b>", "28–29 May 2026", "New Delhi", "Ministry of Agriculture and Farmers&#x27; Welfare; chaired by Union Agriculture Minister Shivraj Singh Chouhan"], ["<b>BRICS Agriculture Conference</b>", "9–13 June 2026", "Indore, Madhya Pradesh", "Adopted Indore Declaration"], ["<b>National Conference on Agriculture for Rabi Campaign 2026</b>", "28–29 September 2026", "NASC Complex, Pusa, New Delhi", "Inaugurated by Agriculture Minister Shivraj Singh Chouhan"]]}, {"k": "h", "h": "BRICS Agriculture Conference: Indore Declaration"}, {"k": "b", "h": "<b>Venue and date:</b> Indore, 9–13 June 2026; participants: 21 countries."}, {"k": "b", "h": "<b>Indore Declaration:</b> adopted unanimously."}, {"k": "b", "h": "<b>Focus areas:</b> sustainable agriculture; digital agriculture; farmers&#x27; welfare; food and nutrition security; climate-resilient agriculture."}, {"k": "b", "h": "<b>More focus areas:</b> artificial intelligence and machine learning; smallholder farmers&#x27; access to technology and markets."}]}, {"title": "Technology, AI, electronics and telecommunications", "part": "Part 4 of 7", "items": [{"k": "t", "head": ["Conference / event", "Date", "Venue", "Notes"], "rows": [["<b>Consumer Electronics Show (CES 2026)</b>", "6–9 January 2026", "Las Vegas, USA", "Electronics and technology exhibition"], ["<b>AI-Led Innovation and Capacity Building Conference</b>", "20 January 2026", "Lucknow, Uttar Pradesh", "BHASHINI showcased its voice-first multilingual AI platform"], ["<b>India-AI Impact Summit 2026</b>", "16–20 February 2026 in the calendar; 16–21 February in the chapter", "Bharat Mandapam, New Delhi", "Theme: “Welfare for All, Happiness of All.”"], ["<b>AI4Agri 2026 Summit</b>", "22–23 February 2026", "Jio World Convention Centre, Mumbai", "Hosted by Government of Maharashtra"], ["<b>Mobile World Congress 2026</b>", "2–5 March 2026", "Barcelona, Spain", "Indian delegation led by Jyotiraditya Scindia"], ["<b>“AI Champions for Digital Governance” Summit</b>", "13–15 July 2026", "New Delhi", "AI and digital governance"], ["<b>SEMICON India 2026</b>", "17–19 September 2026", "Yashobhoomi, New Delhi", "Theme: “Silicon to Systems: Building the Ecosystem.”"], ["<b>10th India Mobile Congress</b>", "7–10 October 2026", "Yashobhoomi, New Delhi", "Theme: “Scale Without Boundaries”; DoT and COAI"]]}, {"k": "h", "h": "India-AI Impact Summit 2026"}, {"k": "b", "h": "<b>Three guiding principles:</b> People, Planet and Progress."}, {"k": "b", "h": "<b>Seven thematic Chakras:</b> Human Capital; Inclusion for Social Empowerment; Safe and Trusted AI; Resilience, Innovation and Efficiency; Science; Democratising AI Resources; AI for Economic Development and Social Good."}, {"k": "b", "h": "<b>Global AI Impact Commons:</b> launched, with more than 80 impact stories from over 30 countries."}, {"k": "b", "h": "<b>SAHI and BODH:</b> health-AI initiatives launched on 17 February 2026 during the summit."}, {"k": "h", "h": "SEMICON India 2026"}, {"k": "b", "h": "<b>Inaugurated by:</b> Prime Minister Narendra Modi on 17 September 2026."}, {"k": "b", "h": "<b>Venue:</b> Yashobhoomi, India International Convention and Expo Centre, New Delhi."}, {"k": "b", "h": "<b>Focus:</b> developing a complete semiconductor value chain in India."}]}, {"title": "Energy, environment and water", "part": "Part 5 of 7", "items": [{"k": "t", "head": ["Conference / event", "Date", "Venue", "Notes"], "rows": [["<b>Bharat Electricity Summit 2026</b>", "19–22 March 2026", "Yashobhoomi, New Delhi", "“Electrifying Growth. Empowering Sustainability. Connecting Globally.”"], ["<b>2nd Bharat Green Hydrogen Summit 2026</b>", "23 July 2026", "New Delhi", "FICCI; “Positioning India as a Global Hydrogen Hub.”"], ["<b>Global Dryland Congress 2026</b>", "10–12 September 2026", "New Delhi", "“Transforming Dryland Agriculture with South-South Cooperation.”"], ["<b>World Circular Economy Forum 2026</b>", "15–18 September 2026", "Gandhinagar, Gujarat", "“Circular Economy: Transition for People and Prosperity.”"], ["<b>International Conference on “The Future of Environment and Climate Dynamics”</b>", "19–20 September 2026", "Vigyan Bhawan, New Delhi", "Inaugurated by Prime Minister Narendra Modi"], ["<b>India International Water Week 2026</b>", "22–26 September 2026", "Bharat Mandapam, New Delhi", "“Climate Resilient Water Management.”"], ["<b>8th Windergy India</b>", "7–9 October 2026", "Chennai", "Inaugurated by Union Minister Pralhad Joshi; IWTMA and PDA Ventures"], ["<b>5th India Energy Week 2027</b>", "28–31 January 2027", "New Town Convention Centre, Kolkata", "“Unlocking Innovation. Securing Energy. Shaping Tomorrow.”"]]}, {"k": "b", "h": "<b>Bharat Electricity Summit 2026, two important reports:</b> National Resource Adequacy Plan; Transmission Plan for Integration of over 900 GW Non-Fossil Fuel Capacity by 2035–36."}]}, {"title": "United Nations, climate and environment", "part": "Part 6 of 7", "items": [{"k": "t", "head": ["Conference / event", "Date", "Venue", "Notes"], "rows": [["<b>UNFCCC COP30</b>", "10–21 November 2025", "Belém, Brazil", "Climate-change conference"], ["<b>20th UNESCO Intergovernmental Committee for Safeguarding Intangible Cultural Heritage</b>", "8–13 December 2025", "Red Fort, New Delhi", "Deepavali inscribed on UNESCO&#x27;s Representative List of Intangible Cultural Heritage"], ["<b>UN Global Dialogue on AI Governance</b>", "6–7 July 2026", "Geneva, Switzerland", "Inaugural dialogue informed by the UN Scientific Panel&#x27;s preliminary AI assessment"], ["<b>UNFCCC COP31</b>", "9–20 November 2026", "Antalya, Türkiye", "Scheduled under Türkiye&#x27;s hosting"], ["<b>17th Conference of the Parties to UNCCD (COP17)</b>", "2026", "Ulaanbaatar, Mongolia", "India released a guide on grasslands and other open natural ecosystems at an official side event on 17 August 2026"], ["<b>15th Conference of the Parties to the Convention on Migratory Species (CMS COP15)</b>", "2026", "—", "Decisions included new or upgraded treaty protection for 40 species, subspecies and populations"], ["<b>28th FAO Committee on Forestry (COFO)</b>", "2026", "Rome, Italy", "Theme: “Forests for Food, Resilience and Prosperity”; 10th World Forest Week organised alongside it"]]}, {"k": "h", "h": "UN Global Dialogue on AI Governance"}, {"k": "b", "h": "<b>Basis:</b> informed by the first preliminary report of the Independent International Scientific Panel on AI, released on 1 July 2026."}, {"k": "b", "h": "<b>Panel:</b> established under UN General Assembly Resolution A/RES/79/325; comprised 40 independent experts from the five UN regional groups."}, {"k": "b", "h": "<b>Co-Chairs:</b> Yoshua Bengio, Canada, and Maria Ressa, Philippines."}, {"k": "b", "h": "<b>Powers:</b> the panel&#x27;s assessments are non-prescriptive; it has no regulatory or enforcement powers."}, {"k": "h", "h": "UNESCO Intangible Cultural Heritage Committee"}, {"k": "b", "h": "<b>20th session:</b> 8–13 December 2025; venue: Red Fort, New Delhi."}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span><b>Deepavali</b> was inscribed on UNESCO&#x27;s Representative List of Intangible Cultural Heritage of Humanity on 10 December 2025; it became India&#x27;s 16th ICH element.</div>"}, {"k": "b", "h": "<b>Session chair:</b> Vishal V. Sharma, India&#x27;s Permanent Delegate to UNESCO."}]}, {"title": "International economic, financial and trade conferences", "part": "Part 7 of 7", "items": [{"k": "t", "head": ["Conference / meeting", "Date", "Venue", "Notes"], "rows": [["<b>11th National Conference on Economics of Competition Law</b>", "16 March 2026", "Bharat Mandapam, New Delhi", "Organised by CCI"], ["<b>13th ASEAN–India Trade in Goods Agreement Joint Committee and related meetings</b>", "6–10 July 2026", "Vanijya Bhawan, New Delhi", "Trade in goods agreement"], ["<b>G20 Innovation Ministers&#x27; Meeting</b>", "1–2 September 2026", "Chapel Hill, North Carolina, USA", "Hosted by US Department of Commerce and White House OSTP"], ["<b>7th Global Fintech Fest 2026</b>", "8–11 September 2026", "Mumbai", "Theme: “Potential to Impact: Agentic AI | Tokenisation | Quantum: Trusted, Connected, Global Systems for Inclusive Finance.”"], ["<b>BRICS Finance Ministers&#x27; and Central Bank Governors&#x27; Meeting</b>", "9–10 September 2026", "Mumbai", "BRICS financial cooperation"], ["<b>G20 Energy Abundance Ministerial Meeting</b>", "14–16 September 2026", "Houston, USA", "Energy abundance"], ["<b>11th Annual Meeting of the AIIB Board of Governors</b>", "28–29 September 2026", "Doha, Qatar", "“Tomorrow&#x27;s Infrastructure: Impact and Innovation.”"], ["<b>5th Kautilya Economic Conclave 2026</b>", "3–5 October 2026", "New Delhi", "Theme: “Resilience in an Age of Flux.”"]]}, {"k": "b", "h": "<b>Global Fintech Fest 2026:</b> 8–11 September 2026, Mumbai; agentic AI, tokenisation and quantum technologies."}]}], APP = "RocketOne \u00b7 Group 1 Prelims", SUBJ = "Current Affairs", TOPIC = "Conferences of 2025-26: governance, health, technology, energy, UN, finance";
+    const host = document.getElementById('parts');
+    function mk(cls, html) { const d = document.createElement('div'); if (cls) d.className = cls; if (html != null) d.innerHTML = html; return d; }
+    function newSlide(p, cont) {
+      const s = mk('s'); s.innerHTML = `<div class='bar'><span class='p'>${p.part}</span><span class='t'>${TOPIC}</span></div>
+        <div class='inner'><h2>${p.title}<span class='cont'></span></h2><div class='body'></div></div>
+        <div class='brand'>${APP} · ${SUBJ}</div><div class='num'></div>`;
+      host.appendChild(s); return s.querySelector('.body');
+    }
+    const over = b => b.scrollHeight > b.clientHeight + 1;
+    for (const p of P) {
+      const made = []; let body = newSlide(p); made.push(body);
+      const fresh = () => { body = newSlide(p); made.push(body); };
+      let ul = null;
+      for (let i = 0; i < p.items.length; i++) {
+        const it = p.items[i];
+        if (it.k === 'b') {
+          if (!ul || ul.parentNode !== body || body.lastChild !== ul) { ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); }
+          const li = document.createElement('li'); li.innerHTML = it.h; ul.appendChild(li);
+          if (over(body) && body.childNodes.length > 1 || over(body) && ul.childNodes.length > 1) {
+            li.remove(); if (!ul.childNodes.length) ul.remove();
+            const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null;
+            fresh(); if (carry) body.appendChild(carry);
+            ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); ul.appendChild(li);
+          }
+          continue;
+        }
+        ul = null;
+        if (it.k === 'h') { body.appendChild(mk('sub', it.h)); if (over(body) && body.childNodes.length > 1) { const h = body.lastChild; h.remove(); fresh(); body.appendChild(h); } continue; }
+        if (it.k === 'x') { const d = mk(null, it.h).firstChild; body.appendChild(d); if (over(body) && body.childNodes.length > 1) { d.remove(); const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; fresh(); if (carry) body.appendChild(carry); body.appendChild(d); } continue; }
+        if (it.k === 't') {
+          const head = it.head.length ? '<tr>' + it.head.map(c => `<th>${c}</th>`).join('') + '</tr>' : '';
+          const newTable = () => { const t = document.createElement('table'); t.innerHTML = head; body.appendChild(t); return t.tBodies[0] || t; };
+          let tb = newTable();
+          for (const r of it.rows) {
+            const tr = document.createElement('tr'); tr.innerHTML = r.map(c => `<td>${c}</td>`).join(''); tb.appendChild(tr);
+            if (over(body) && (tb.querySelectorAll('td').length > r.length || body.childNodes.length > 1)) {
+              tr.remove();
+              const t = tb.closest('table'); let carry = null;
+              if (!t.querySelector('td')) { t.remove(); carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; }
+              fresh(); if (carry) body.appendChild(carry); tb = newTable(); tb.appendChild(tr);
+            }
+          }
+        }
+      }
+      made.forEach((b, k) => { if (made.length > 1) b.parentNode.querySelector('.cont').textContent = ` (${k + 1}/${made.length})`; });
+    }
+    host.replaceWith(...host.childNodes);
+    const all = document.querySelectorAll('section.s, div.s');
+    all.forEach((s, k) => { const n = s.querySelector('.num'); if (n) n.textContent = `${k + 1} / ${all.length}`; });
+    }</script><script>function __deck() {
+(function () {
+  // static slides (title, plan, recap, quick check) that overflow this screen are split, item by item
+  function split(s) {
+    const inner = s.querySelector('.inner'); const box = s.querySelector('.qs2, ul.recap, ol.plan');
+    if (!inner || !box) return;
+    const moved = [];
+    while (inner.scrollHeight > inner.clientHeight + 1 && box.children.length > 1) moved.unshift(box.lastElementChild), box.lastElementChild.remove();
+    if (!moved.length) return;
+    const c = s.cloneNode(true); const cb = c.querySelector('.qs2, ul.recap, ol.plan');
+    cb.innerHTML = ''; moved.forEach(m => cb.appendChild(m));
+    s.after(c); split(c);
+  }
+  document.querySelectorAll('section.s').forEach(split);
+  const all = [...document.querySelectorAll('section.s, div.s')], N = all.length;
+  all.forEach((s, i) => { s.setAttribute('role', 'group'); s.setAttribute('aria-roledescription', 'slide'); s.setAttribute('aria-label', `Slide ${i + 1} of ${N}`); });
+  document.documentElement.classList.add('deck');
+  const ctl = document.createElement('div'); ctl.id = 'ctl';
+  ctl.innerHTML = `<button id='cl' aria-label='Close lecture'>✕</button><button id='pv' aria-label='Previous slide'>‹</button>
+    <span id='ct' role='status' aria-live='polite'></span><button id='nx' aria-label='Next slide'>›</button><div id='pg' aria-hidden='true'></div>`;
+  document.body.appendChild(ctl);
+  const A = window.Android, ct = ctl.querySelector('#ct'), pg = ctl.querySelector('#pg');
+  const h = new URLSearchParams(location.hash.slice(1));
+  let cur = h.has('end') ? N - 1 : Math.min(N - 1, Math.max(0, Math.round(parseFloat(h.get('p') || '0') * (N - 1))));
+  function show(i) {
+    all[cur].classList.remove('on'); cur = i; all[cur].classList.add('on');
+    ct.textContent = `${cur + 1} / ${N}`; pg.style.width = `${(cur + 1) / N * 100}%`;
+    try { history.replaceState(null, '', '#p=' + (N > 1 ? cur / (N - 1) : 0)); } catch (e) {}
+    scrollTo(0, 0); diag();
+  }
+  // if the slide shown is still not on the screen, say what the screen reports (to fix it)
+  function diag() {
+    const r = all[cur].getBoundingClientRect(), bad = r.width < 100 || r.height < 100 || r.bottom < 50 || r.top > innerHeight - 50;
+    let d = document.getElementById('diag');
+    if (!bad) { if (d) d.remove(); return; }
+    if (!d) { d = document.createElement('div'); d.id = 'diag'; document.body.appendChild(d); }
+    d.textContent = `slide ${Math.round(r.left)},${Math.round(r.top)} ${Math.round(r.width)}x${Math.round(r.height)} | inner ${innerWidth}x${innerHeight} | client ${document.documentElement.clientWidth}x${document.documentElement.clientHeight} | laid ${window.__laid} | dpr ${devicePixelRatio} | scroll ${scrollY} | display ${getComputedStyle(all[cur]).display}`;
+  }
+  const next = () => cur < N - 1 ? show(cur + 1) : (A && A.next());
+  const prev = () => cur > 0 ? show(cur - 1) : (A && A.prev());
+  ctl.querySelector('#nx').onclick = e => { e.stopPropagation(); next(); };
+  ctl.querySelector('#pv').onclick = e => { e.stopPropagation(); prev(); };
+  ctl.querySelector('#cl').onclick = e => { e.stopPropagation(); A && A.close(); };
+  // tap the left third for the previous slide, anywhere else for the next; or swipe; or the arrow keys
+  let x0 = null, y0 = null, swiped = false;
+  document.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; swiped = false; }, { passive: true });
+  document.addEventListener('touchend', e => {
+    if (x0 == null) return; const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) { swiped = true; dx < 0 ? next() : prev(); } x0 = null;
+  }, { passive: true });
+  document.addEventListener('click', e => { if (swiped || e.target.closest('button')) return; e.clientX < innerWidth * 0.3 ? prev() : next(); });
+  document.addEventListener('keydown', e => {
+    if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(e.key)) { e.preventDefault(); next(); }
+    if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(e.key)) { e.preventDefault(); prev(); }
+  });
+  // turned the phone: lay the slides out again for the new shape, at the same point of the lecture
+  let t;
+  addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => {
+    const [w0, h0] = window.__laid || [0, 0], W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+    if (Math.abs(W - w0) > w0 * .08 || Math.abs(H - h0) > h0 * .08) location.reload(); }, 300); });
+  all[cur].classList.add('on'); show(cur);
+})();
+}
+try { history.scrollRestoration = 'manual'; } catch (e) {}
+(function start(tries) {
+  // lay out only on a real, settled landscape screen; sizes in pixels (a WebView can report 0 x 0, a narrow or a
+  // short screen while the phone turns, and some give 0 for vh units)
+  const W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+  const ok = W > 240 && H > 200 && (!window.Android || W > H || tries > 60);
+  if (!ok) return setTimeout(() => start(tries + 1), 50);
+  const r = document.documentElement.style;
+  r.setProperty('--W', W + 'px'); r.setProperty('--H', H + 'px');
+  r.setProperty('--f', Math.round(Math.max(14, Math.min(27, Math.min(W * .024, H * .044)))) + 'px');
+  window.__laid = [W, H];
+  __layout(); __deck();
+  // a sane layout has room on its slides; if not (the screen changed under us), lay out again
+  const b = document.querySelector('.s .body');
+  if (b && b.clientHeight < 120 && tries < 100) setTimeout(() => location.reload(), 300);
+})(0);
+</script></body></html>

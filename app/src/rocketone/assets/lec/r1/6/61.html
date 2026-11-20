@@ -1,0 +1,224 @@
+<!doctype html><html><head><meta charset='utf-8'><style>
+    @page { size: 13.333in 7.5in; margin: 0 }
+    * { box-sizing: border-box }
+    body { margin: 0; font-family: Inter, 'Noto Sans', 'Noto Sans Telugu', Arial, sans-serif; color: #1f2430 }
+    section.s, div.s { width: 13.333in; height: 7.5in; position: relative; overflow: hidden; page-break-after: always; background: #fff }
+    .s.title, .s.end { background: linear-gradient(135deg, #1e2a5a 0%, #2f3f8f 60%, #4458c4 100%); color: #fff; padding: 0.9in 1in }
+    .s.title h1, .s.end h1 { font-size: 40px; line-height: 1.18; margin: 14px 0 22px; font-weight: 800; max-width: 11in }
+    .kicker { font-size: 15px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .8; font-weight: 600 }
+    .syl { background: rgba(255,255,255,.1); border-radius: 12px; padding: 16px 22px; max-width: 11.3in }
+    .syl .lab { font-size: 12px; letter-spacing: 1.5px; font-weight: 700; opacity: .75; margin-bottom: 6px }
+    .syl ul { margin: 0; padding-left: 20px; font-size: 18px; line-height: 1.5 }
+    .foot { position: absolute; bottom: .55in; left: 1in; font-size: 14px; opacity: .75 }
+    .bar { position: absolute; top: 0; left: 0; right: 0; height: .5in; background: #1e2a5a; color: #fff; display: flex; align-items: center;
+           padding: 0 .55in; font-size: 13px; letter-spacing: .5px; gap: 18px }
+    .bar .p { font-weight: 700; color: #f6c453 }
+    .bar .t { opacity: .85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+    .inner { position: absolute; top: .72in; left: .6in; right: .6in; bottom: .45in; display: flex; flex-direction: column }
+    h2 { font-size: 30px; margin: 0 0 12px; color: #1e2a5a; font-weight: 800; border-left: 6px solid #f6a623; padding-left: 14px }
+    h2 .cont { font-size: 16px; color: #8a90a6; font-weight: 600 }
+    .body { font-size: 23px; line-height: 1.4; flex: 1; overflow: hidden }
+    .sub { font-size: 23px; font-weight: 800; color: #2f3f8f; margin: 10px 0 4px }
+    ul.pts { margin: 4px 0; padding-left: 24px }
+    ul.pts li { margin: 4px 0 }
+    ul.pts li::marker { color: #f6a623 }
+    b { color: #13194a }
+    table { border-collapse: collapse; width: 100%; font-size: 19px; line-height: 1.3; margin: 6px 0 8px }
+    th { background: #2f3f8f; color: #fff; text-align: left; padding: 7px 10px; font-weight: 700 }
+    th b { color: #fff }
+    td { padding: 6px 10px; border-bottom: 1px solid #e3e6f0; vertical-align: top }
+    tr:nth-child(even) td { background: #f5f7fc }
+    .box { border-radius: 10px; padding: 10px 16px; margin: 10px 0; font-size: 21px; line-height: 1.38 }
+    .box span { display: inline-block; font-size: 11.5px; font-weight: 800; letter-spacing: 1.2px; margin-right: 10px; padding: 2px 8px; border-radius: 5px }
+    .rem { background: #fff6e5; border-left: 5px solid #f6a623 } .rem span { background: #f6a623; color: #fff }
+    .set { background: #eaf6ee; border-left: 5px solid #2e9e5b } .set span { background: #2e9e5b; color: #fff }
+    .note { background: #eef1fb; border-left: 5px solid #4458c4 } .note span { background: #4458c4; color: #fff }
+    ol.plan { list-style: none; padding: 0; margin: 14px 0; columns: 2; column-gap: .5in; font-size: 23px }
+    ol.plan li { display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px; break-inside: avoid }
+    .n { flex: none; display: inline-flex; width: 30px; height: 30px; border-radius: 50%; background: #1e2a5a; color: #fff;
+         align-items: center; justify-content: center; font-weight: 700; font-size: 14px; margin-right: 10px }
+    .meta { color: #6b7185; font-size: 15px; margin-top: 8px }
+    .recap li { font-size: 21px; margin: 12px 0 }
+    .qs2 { display: grid; grid-template-columns: 1fr 1fr; gap: .35in }
+    .q { background: #f7f8fc; border-radius: 12px; padding: 18px 22px; font-size: 23px; line-height: 1.38 }
+    .qs { margin-bottom: 8px; display: flex }
+    ol.opts { list-style: none; padding: 0; margin: 0 }
+    ol.opts li { padding: 5px 10px; border-radius: 7px; margin: 3px 0; background: #fff; border: 1px solid #e3e6f0 }
+    ol.opts li.ok { background: #e3f5ea; border-color: #2e9e5b; font-weight: 700; color: #1d6b3d }
+    .src { color: #8a90a6; font-size: 14px; margin-top: 8px }
+    .num { position: absolute; bottom: .18in; right: .5in; font-size: 12px; color: #9aa0b4 }
+    .brand { position: absolute; bottom: .18in; left: .6in; font-size: 12px; color: #9aa0b4 }
+    </style><meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'><style>
+@media screen {
+  /* one slide = one screen, laid out for this phone: text sized to the screen (and the phone's font size) */
+  :root { --W: 100vw; --H: 100vh; --f: 16px } /* --W, --H, --f are set in pixels by START (no vw / vh: some WebViews give 0) */
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #0f1530; -webkit-tap-highlight-color: transparent }
+  section.s, div.s { width: var(--W) !important; height: var(--H) !important; margin: 0; page-break-after: auto }
+  .deck section.s, .deck div.s { display: none }
+  /* the slide shown is pinned to the screen: no scroll position (a reload restores one) can move it away */
+  .deck section.s.on, .deck div.s.on { display: block; position: fixed !important; left: 0; top: 0; z-index: 1 }
+  #diag { position: fixed; z-index: 20; left: 8px; top: 8px; right: 60px; font: 12px monospace; color: #ffd; background: rgba(0,0,0,.6); padding: 6px; white-space: pre-wrap }
+  .bar { height: calc(var(--f) * 2.1); font-size: calc(var(--f) * .7); padding: 0 64px 0 18px; gap: 10px }
+  .inner { top: calc(var(--f) * 2.7); left: 58px; right: 58px; bottom: 26px; overflow: hidden }
+  h2 { font-size: calc(var(--f) * 1.28); margin: 0 0 .5em; padding-left: 10px; border-left-width: 5px }
+  h2 .cont { font-size: .6em }
+  .body { font-size: var(--f) }
+  .sub { font-size: 1.04em; margin: .45em 0 .15em }
+  ul.pts { padding-left: 1.1em } ul.pts li { margin: .22em 0 }
+  table { font-size: .86em } th, td { padding: .35em .5em }
+  .box { font-size: .92em; padding: .45em .7em; margin: .45em 0 } .box span { font-size: .62em }
+  .s.title, .s.end { padding: calc(var(--H) * .07) calc(var(--W) * .06) } .s.title h1, .s.end h1 { font-size: calc(var(--f) * 1.75); margin: .4em 0 .6em }
+  .kicker { font-size: calc(var(--f) * .7) } .syl { padding: .7em 1em } .syl ul { font-size: calc(var(--f) * .92) }
+  .syl .lab { font-size: calc(var(--f) * .6) } .foot { bottom: 30px; left: calc(var(--W) * .06); font-size: calc(var(--f) * .7) }
+  ol.plan { font-size: var(--f); column-gap: 24px } ol.plan li { margin: 0 0 .5em } .n { width: 1.5em; height: 1.5em; font-size: .7em; margin-right: .5em }
+  .meta { font-size: calc(var(--f) * .75) }
+  .recap li { font-size: calc(var(--f) * .92); margin: .4em 0 }
+  .q { font-size: calc(var(--f) * .92); padding: .7em .9em } .src { font-size: .65em }
+  .qs2 { gap: 14px }
+  .brand, .num { display: none }
+  @media (orientation: portrait) { ol.plan { columns: 1 } .qs2 { grid-template-columns: 1fr } }
+  /* the controls: close, previous, slide n of N, next; a progress line */
+  #ctl button { position: fixed; z-index: 9; border: 0; border-radius: 50%; width: 48px; height: 48px; font-size: 26px; line-height: 48px;
+    background: rgba(15,21,48,.55); color: #fff; padding: 0 }
+  #ctl #cl { top: 4px; right: 8px; width: 42px; height: 42px; line-height: 42px; font-size: 20px; background: rgba(255,255,255,.18) }
+  #ctl #pv { top: 50%; left: 6px; transform: translateY(-50%) } #ctl #nx { top: 50%; right: 6px; transform: translateY(-50%) }
+  #ctl #pv, #ctl #nx { background: rgba(15,21,48,.28); color: #fff }
+  #ctl #ct { position: fixed; z-index: 9; bottom: 6px; right: 14px; font: 600 12px Inter, Arial, sans-serif;
+    color: #fff; background: rgba(15,21,48,.5); padding: 2px 10px; border-radius: 10px }
+  #ctl #pg { position: fixed; z-index: 9; bottom: 0; left: 0; height: 4px; background: #f6a623; transition: width .2s }
+  .s.title #x, .s.end #x { display: none }
+}
+</style></head><body><section class='s title'><div class='kicker'>Current Affairs · Awards and honours</div>
+    <h1>Awards and honours 2025-26</h1>
+    <div class="syl"><div class="lab">SYLLABUS LINES THIS LESSON COVERS</div><ul><li>Current events – national</li><li>Current events – international</li></ul></div>
+    <div class='foot'>RocketOne · Group 1 Prelims · lecture notes</div></section><section class='s'><div class='bar'><span class='p'>Lesson</span><span class='t'>Awards and honours 2025-26</span></div><div class='inner'><h2>Lesson plan</h2><ol class='plan'><li><span class='n'>1</span>National Panchayat Awards 2025 and e-Governance awards</li><li><span class='n'>2</span>Other national awards</li><li><span class='n'>3</span>Sahitya Akademi Awards 2025</li><li><span class='n'>4</span>Jnanpith Award and Saraswati Samman</li><li><span class='n'>5</span>International Booker Prize and Pulitzer Prize 2026</li><li><span class='n'>6</span>Science, mathematics and technology awards</li><li><span class='n'>7</span>Environment and conservation awards</li><li><span class='n'>8</span>Ramon Magsaysay Award 2026 and Légion d&#x27;Honneur</li><li><span class='n'>9</span>International honours for Indians</li><li><span class='n'>10</span>UN honours and the Indira Gandhi Prize</li><li><span class='n'>11</span>72nd National Film Awards</li><li><span class='n'>12</span>98th Academy Awards – Oscars 2026</li><li><span class='n'>13</span>Film festival, pageant and other awards</li><li><span class='n'>14</span>Sports awards</li></ol><div class='meta'>14 parts</div></div><div class='brand'>RocketOne · Group 1 Prelims · Current Affairs</div><div class='num'></div></section><div id='parts'></div><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Awards and honours 2025-26</span></div><div class='inner'><h2>Recap</h2><ul class='pts recap'><li><b>National Panchayat Awards 2025 and e-Governance awards</b> — Announced by · Total selected Panchayats · Award ceremony · Karnataka · Andhra Pradesh and Odisha · five · Gold Award</li><li><b>Other national awards</b> — 16th Sansad Ratna Awards 2026 · Lokmanya Tilak National Award 2026 · Padmapani Award 2026 · 47th Sarala Puraskar 2026 · Ila-Bansidhar Panda Kala Samman · Prof. M.S. Swaminathan Award 2024–25 · Keralasree Award 2022</li><li><b>Sahitya Akademi Awards 2025</b> — Announced · Coverage · 24 Indian languages · Sahitya Akademi Award – Urdu, 1999 · Bashir Badr · Aas</li><li><b>Jnanpith Award and Saraswati Samman</b> — Awardee · R. Vairamuthu · Field · Presented · Karan Singh · Third Tamil literary figure · Bharatiya Jnanpith</li><li><b>International Booker Prize and Pulitzer Prize 2026</b> — Taiwan Travelogue · Yáng Shuāng-zi · Translator · Lin King · Announced · From 2027 · Bukhman International Booker Prize</li><li><b>Science, mathematics and technology awards</b> — Winner · Mahesh Kakde · fifth Indian recipient · Prize amount · ICTP and IMU · Awardee · Chandrayaan-3</li><li><b>Environment and conservation awards</b> — Goldman Environmental Prize · Green Nobel · 20 April 2026 · San Francisco · all six recipients were women · Whitley Awards · Green Oscars</li><li><b>Ramon Magsaysay Award 2026 and Légion d&#x27;Honneur</b> — Ramon Magsaysay Award 2026 – announced · Theme of the 68th awards · Awardee · Sunil Bharti Mittal · Rank · Emmanuel Macron</li></ul></div><div class='brand'>RocketOne · Group 1 Prelims · Current Affairs</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Awards and honours 2025-26</span></div><div class='inner'><h2>Recap (cont.)</h2><ul class='pts recap'><li><b>International honours for Indians</b> — Order of the White Double Cross · Bintang Adipurna · Great Honour Nishan · Oliy Darajali Do‘stlik Order · Agricola Medal · France&#x27;s Légion d&#x27;Honneur – Knight rank · Sri Lanka&#x27;s highest state honour</li><li><b>UN honours and the Indira Gandhi Prize</b> — Award · UN Secretary-General&#x27;s Award 2025 · Initiative · UNIFIL in Lebanon · Major Abhilasha Barak · first woman combat helicopter pilot · Dag Hammarskjöld Medal (United Nations)</li><li><b>72nd National Film Awards</b> — Winners announced · Coverage · Jury · Jayaraj · Presentation ceremony</li><li><b>98th Academy Awards – Oscars 2026</b> — Ceremony · Venue · Host · One Battle After Another · six · Sinners · four</li><li><b>Film festival, pageant and other awards</b> — TIFF Platform Prize 2026 · 79th Locarno Film Festival Career Award · Women Empowerment Award · Miss World 2026 · Miss Universe India 2026 · Miss Universe 2025 · PETA India Person of the Year 2025</li><li><b>Sports awards</b> — Best Female Athlete · Best Male Athlete · Raja Randhir Singh Award · Presented</li></ul></div><div class='brand'>RocketOne · Group 1 Prelims · Current Affairs</div><div class='num'></div></section><section class='s end'><h1>Questions?</h1><div class='kicker'>Awards and honours 2025-26</div><div class='foot'>RocketOne · Group 1 Prelims</div></section><script>function __layout() {
+    const P = [{"title": "National Panchayat Awards 2025 and e-Governance awards", "part": "Part 1 of 14", "items": [{"k": "b", "h": "<b>Announced by:</b> Ministry of Panchayati Raj."}, {"k": "b", "h": "<b>Total selected Panchayats:</b> 42, from 17 States and UTs."}, {"k": "b", "h": "<b>Award ceremony:</b> 3 June 2026, New Delhi."}, {"k": "b", "h": "<b>Karnataka</b> received the highest number of awards: <b>6</b>. <b>Andhra Pradesh and Odisha</b> received <b>five</b> awards each."}, {"k": "t", "head": ["Category", "Winner", "State", "Prize"], "rows": [["Best District Panchayat – Rank 1", "<b>Sepahijala</b>", "Tripura", "₹5 crore"], ["Best District Panchayat – Rank 2", "<b>Ganjam</b>", "Odisha", "₹3 crore"], ["Best District Panchayat – Rank 3", "<b>Coimbatore</b>", "Tamil Nadu", "₹2 crore"], ["Best Block Panchayat – Rank 1", "<b>Harippad, Alappuzha</b>", "Kerala", "₹2 crore"], ["Best Gram Panchayat – Rank 1", "<b>New Napam, Sonitpur</b>", "Assam", "₹1.5 crore"]]}, {"k": "h", "h": "National Awards for e-Governance 2026"}, {"k": "b", "h": "<b>Gold Award:</b> the <b>Panchayat Advancement Index (PAI)</b>, a flagship data-driven Panchayati Raj governance initiative."}]}, {"title": "Other national awards", "part": "Part 2 of 14", "items": [{"k": "t", "head": ["Award", "Awardee / Notes"], "rows": [["<b>Dr. APJ Abdul Kalam Jan Seva Puraskar 2026</b>", "Kishor Makwana, Chairman, National Commission for Scheduled Castes"], ["<b>16th Sansad Ratna Awards 2026</b>", "Dr. APJ Abdul Kalam Jan Seva Puraskar presented during the ceremony"], ["<b>Lokmanya Tilak National Award 2026</b>", "National Security Adviser Ajit Doval"], ["<b>Rashtriya Lata Mangeshkar Alankaran Samman 2026</b>", "Music director Shantanu Moitra"], ["<b>Padmapani Award 2026</b>", "Ilaiyaraaja"], ["<b>Karnataka Janapada Academy annual honorary award 2026</b>", "Devadas Chimakode"], ["<b>47th Sarala Puraskar 2026</b>", "Dr. Ashutosh Parida"], ["<b>Ila-Bansidhar Panda Kala Samman</b>", "Odissi maestro Padma Guru Durga Charan Ranbir and sculptor-educator Damodar Behera"], ["<b>Prof. M.S. Swaminathan Award 2024–25</b>", "Dr. Ch. Srinivasa Rao"], ["<b>Keralasree Award 2022</b>", "Dr. M.P. Parameswaran"]]}]}, {"title": "Sahitya Akademi Awards 2025", "part": "Part 3 of 14", "items": [{"k": "b", "h": "<b>Announced:</b> 16 March 2026."}, {"k": "b", "h": "<b>Coverage:</b> awards announced for <b>24 Indian languages</b>; winners in 16 languages are listed below."}, {"k": "t", "head": ["Language", "Book / Work", "Genre", "Awardee"], "rows": [["Assamese", "<b>Karhi Khelar Sadhu</b>", "Novel", "Devabrat Das"], ["Bengali", "<b>Shrestha Kabita</b>", "Poetry", "Prasun Bandyopadhyay"], ["English", "<b>Crimson Spring</b>", "Novel", "Navtej Sarna"], ["Gujarati", "<b>Bhattkhadaki</b>", "Poetry", "Yogesh Vaidya"], ["Hindi", "<b>Jeete Jee Allahabad</b>", "Memoir", "Mamta Kalia"], ["Kashmiri", "<b>Najdavanek’y Pot Aalav</b>", "Poetry", "Ali Shaida"], ["Maithili", "<b>Dhatri Paat San Gaam</b>", "Memoir", "Mahendra"], ["Malayalam", "<b>Maayaamanushyar</b>", "Novel", "N. Prabhakaran"], ["Manipuri", "<b>Kanglamdriba Eephut</b>", "Short Stories", "Haobam Nalini"], ["Marathi", "<b>Kalyanilya Resha</b>", "Autobiography", "Raju Baviskar"], ["Nepali", "<b>Nepali Paramparik Sanskriti Ra Sabhyata Ko Dukuti</b>", "Essays", "Prakash Bhattarai"], ["Rajasthani", "<b>Bharkhama</b>", "Stories", "Jitender Kumar Soni"], ["Sanskrit", "<b>Prasthanacatustaye Brahmaghosah</b>", "Poetry", "Mahamahopadhyaya Sadhu Bhadreshdas"], ["Sindhi", "<b>Waghoo</b>", "Stories", "Bhagwan Atlani"], ["Tamil", "<b>Thamiz Sirukathaiyin Thadangal</b>", "Literary Criticism", "Sa. Tamilselvan"], ["Urdu", "<b>Safar Jaari Hai</b>", "Poetry", "Pritpal Singh Betab"]]}, {"k": "b", "h": "<b>Sahitya Akademi Award – Urdu, 1999:</b> <b>Bashir Badr</b>, for the poetry collection <b>Aas</b>."}]}, {"title": "Jnanpith Award and Saraswati Samman", "part": "Part 4 of 14", "items": [{"k": "h", "h": "60th Jnanpith Award"}, {"k": "b", "h": "<b>Awardee:</b> <b>R. Vairamuthu</b>. <b>Field:</b> Tamil poetry and lyric writing."}, {"k": "b", "h": "<b>Award:</b> 60th Jnanpith Award for 2025."}, {"k": "b", "h": "<b>Presented:</b> 13 July 2026, New Delhi, by <b>Karan Singh</b>."}, {"k": "b", "h": "<b>Third Tamil literary figure</b> to receive the award."}, {"k": "b", "h": "<b>Bharatiya Jnanpith</b> was established in <b>1944</b>."}, {"k": "h", "h": "35th Saraswati Samman"}, {"k": "b", "h": "<b>Awardee:</b> <b>Ramkumar Mukhopadhyay</b>. <b>Year:</b> 2025. <b>Work:</b> Hara Parbati Katha."}]}, {"title": "International Booker Prize and Pulitzer Prize 2026", "part": "Part 5 of 14", "items": [{"k": "b", "h": "<b>International Booker Prize 2026 – winner:</b> <b>Taiwan Travelogue</b>, by <b>Yáng Shuāng-zi</b>."}, {"k": "b", "h": "<b>Translator:</b> <b>Lin King</b>, Mandarin Chinese to English."}, {"k": "b", "h": "<b>Announced:</b> 19 May 2026, Tate Modern, London."}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span><b>Taiwan Travelogue</b> is the first Mandarin Chinese translation to win the International Booker Prize.</div>"}, {"k": "b", "h": "<b>From 2027:</b> the prize is to be renamed the <b>Bukhman International Booker Prize</b>, in partnership with Bukhman Philanthropies."}, {"k": "b", "h": "<b>Prize money from 2027:</b> £100,000, shared equally by author and translator."}, {"k": "h", "h": "Pulitzer Prize 2026"}, {"k": "b", "h": "<b>Category:</b> Illustrated Reporting and Commentary. <b>Award-winning project:</b> <b>trAPPed</b>."}, {"k": "b", "h": "<b>Indian journalists:</b> <b>Anand RK</b> and <b>Suparna Sharma</b>; shared with <b>Natalie Obiko Pearson</b> of Bloomberg."}, {"k": "h", "h": "UNESCO/Guillermo Cano World Press Freedom Prize 2026"}, {"k": "b", "h": "<b>Recipient:</b> <b>Sudanese Journalists Syndicate</b>. <b>Date mentioned:</b> 4 May 2026."}]}, {"title": "Science, mathematics and technology awards", "part": "Part 6 of 14", "items": [{"k": "t", "head": ["Award", "Awardee / Notes"], "rows": [["<b>2026 Abel Prize</b>", "Gerd Faltings, Germany"], ["<b>2026 Ramanujan Prize for Young Mathematicians from Developing Countries</b>", "Mahesh Kakde, IISc Bengaluru"], ["<b>2026 ICTP Dirac Medal</b>", "Deepak Dhar, Bernard Derrida, Marc Mézard and Haim Sompolinsky"], ["<b>Vigyan Ratna Award</b>", "Prof. Jayant Vishnu Narlikar (Posthumous)"], ["<b>2026 Goddard Astronautics Award</b>", "Chandrayaan-3"], ["<b>Arthur M. Bueche Award 2026</b>", "Sethuraman Panchanathan"], ["<b>2026 International Linguistics Olympiad</b>", "India: one gold, three bronze medals and one honourable mention"]]}, {"k": "h", "h": "Ramanujan Prize 2026"}, {"k": "b", "h": "<b>Winner:</b> <b>Mahesh Kakde</b>, professor at IISc Bengaluru; the <b>fifth Indian recipient</b>."}, {"k": "b", "h": "<b>Prize amount:</b> US$10,000. Jointly administered by <b>ICTP and IMU</b>."}, {"k": "h", "h": "2026 Goddard Astronautics Award"}, {"k": "b", "h": "<b>Awardee:</b> <b>Chandrayaan-3</b>. <b>Presented by:</b> American Institute of Aeronautics and Astronautics (<b>AIAA</b>). <b>Year:</b> 2026."}]}, {"title": "Environment and conservation awards", "part": "Part 7 of 14", "items": [{"k": "h", "h": "Goldman Environmental Prize 2026"}, {"k": "b", "h": "<b>Goldman Environmental Prize:</b> also known as the <b>Green Nobel</b>."}, {"k": "b", "h": "The 2026 awards were presented on <b>20 April 2026</b> in <b>San Francisco</b>."}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span>For the first time in the Goldman prize&#x27;s history, <b>all six recipients were women</b>.</div>"}, {"k": "t", "head": ["Awardee", "Country"], "rows": [["<b>Iroro Tanshi</b>", "Nigeria"], ["<b>Borim Kim</b>", "South Korea"], ["<b>Sarah Finch</b>", "United Kingdom"], ["<b>Theonila Roka Matbob</b>", "Papua New Guinea"], ["<b>Alannah Acaq Hurley</b>", "United States"], ["<b>Yuvelis Morales Blanco</b>", "Colombia"]]}, {"k": "h", "h": "Whitley Awards 2026"}, {"k": "b", "h": "<b>Whitley Awards:</b> known as the <b>Green Oscars</b>; six recipients in 2026."}, {"k": "b", "h": "<b>Indian conservationists mentioned:</b> <b>Parveen Shaikh</b> and <b>Barkha Subba</b>."}, {"k": "b", "h": "The UK-based <b>Whitley Fund for Nature</b> provides each winner <b>£50,000</b>, training and international support."}, {"k": "h", "h": "FAO&#x27;s 100 Women Heroes Initiative"}, {"k": "b", "h": "<b>Date mentioned:</b> 15 October 2026. Recognises women&#x27;s contributions to sustainable agriculture, entrepreneurship and rural development."}, {"k": "b", "h": "<b>Indian awardees:</b> <b>ZT Lalrithangi</b> – Mizoram; <b>Priyanka Mahesh Shelke</b> – Maharashtra."}, {"k": "h", "h": "The Earth Prize 2026"}, {"k": "b", "h": "<b>The Earth Prize 2026:</b> Indian teenagers <b>Vivaan Chhawchharia, Ariana Agarwal and Avyana Mehta</b>; the first team from India to win the global award."}, {"k": "b", "h": "<b>Their project:</b> <b>Plas-Stick</b>, a low-cost method to remove microplastics from water."}]}, {"title": "Ramon Magsaysay Award 2026 and Légion d'Honneur", "part": "Part 8 of 14", "items": [{"k": "b", "h": "<b>Ramon Magsaysay Award 2026 – announced:</b> 31 August 2026. <b>Theme of the 68th awards:</b> “A World for All.”"}, {"k": "t", "head": ["Awardee", "Country", "Contribution"], "rows": [["<b>Tommy Koh</b>", "Singapore", "Justice, human dignity, peaceful diplomacy, international law and cooperation"], ["<b>Runa Khan</b>", "Bangladesh", "Founded and led Friendship, serving impoverished communities through healthcare and opportunity"], ["<b>Bo Kyi</b>", "Myanmar", "Defended truth, democracy, human rights, accountability and justice"]]}, {"k": "h", "h": "France&#x27;s Légion d&#x27;Honneur"}, {"k": "b", "h": "<b>Awardee:</b> <b>Sunil Bharti Mittal</b>, Founder and Chairman of Bharti Enterprises."}, {"k": "b", "h": "<b>Rank:</b> Knight of the National Order of the Legion of Honour; conferred by French President <b>Emmanuel Macron</b>."}]}, {"title": "International honours for Indians", "part": "Part 9 of 14", "items": [{"k": "t", "head": ["Award", "Awardee", "Country / Organisation"], "rows": [["<b>Order of the White Double Cross</b>", "Narendra Modi", "Slovakia"], ["<b>Bintang Adipurna</b>", "Narendra Modi", "Indonesia"], ["<b>Great Honour Nishan</b>", "Narendra Modi", "Ethiopia"], ["<b>Oliy Darajali Do‘stlik Order</b>", "Narendra Modi", "Uzbekistan"], ["<b>Agricola Medal</b>", "Narendra Modi", "FAO"], ["<b>France&#x27;s Légion d&#x27;Honneur – Knight rank</b>", "Sunil Bharti Mittal", "France"], ["<b>Sri Lanka&#x27;s highest state honour</b>", "Dr. L. Subramaniam", "Sri Lanka"], ["<b>Israel&#x27;s Presidential Award for Civilian Heroism</b>", "Captain Smit Machchhar", "Israel"]]}]}, {"title": "UN honours and the Indira Gandhi Prize", "part": "Part 10 of 14", "items": [{"k": "h", "h": "Major Swathi Shantha Kumar"}, {"k": "b", "h": "<b>Award:</b> <b>UN Secretary-General&#x27;s Award 2025</b>, Gender Category. <b>Initiative:</b> Equal Partners, Lasting Peace."}, {"k": "h", "h": "Major Abhilasha Barak"}, {"k": "b", "h": "<b>Award:</b> <b>2025 UN Military Gender Advocate of the Year</b>; served with <b>UNIFIL in Lebanon</b>."}, {"k": "b", "h": "<b>Major Abhilasha Barak</b> is the Indian Army&#x27;s <b>first woman combat helicopter pilot</b>."}, {"k": "h", "h": "Dag Hammarskjöld Medal"}, {"k": "b", "h": "<b>Dag Hammarskjöld Medal (United Nations):</b> <b>Lance Havildar Harbhajan Singh</b> and <b>Naib Subedar Sujit Kumar Pradhan</b>; both received the medal posthumously."}, {"k": "h", "h": "Indira Gandhi Prize for Peace, Disarmament and Development"}, {"k": "b", "h": "<b>Award year:</b> 2024. <b>Recipient:</b> <b>Michelle Bachelet</b>. Country / organisation of the prize: India."}, {"k": "b", "h": "<b>Presented:</b> 19 November 2025, by <b>Sonia Gandhi</b>."}, {"k": "b", "h": "<b>Michelle Bachelet</b> was the first and only woman President of Chile and a former UN High Commissioner for Human Rights."}]}, {"title": "72nd National Film Awards", "part": "Part 11 of 14", "items": [{"k": "b", "h": "<b>Winners announced:</b> 18 July 2026."}, {"k": "b", "h": "<b>Coverage:</b> films certified by CBFC between 1 January and 31 December 2024."}, {"k": "b", "h": "<b>Jury</b> headed by Malayalam filmmaker <b>Jayaraj</b>."}, {"k": "b", "h": "<b>Presentation ceremony:</b> 22 September 2026, Ekta Nagar, Gujarat."}, {"k": "t", "head": ["Category", "Winner"], "rows": [["<b>Best Feature Film</b>", "Article 370"], ["<b>Best Hindi Film</b>", "Srikanth"], ["<b>Best Marathi Film</b>", "Mukkham Post Bombilwadi"], ["<b>Best Malayalam Film</b>", "Feminichi Fathima"], ["<b>Best Gujarati Film</b>", "Maaran"], ["<b>Best Bengali Film</b>", "Chalchithra Ekhon"], ["<b>Best Actor – Leading Role</b>", "Kartik Aaryan – Chandu Champion; Mammootty – Bramayugam (shared)"], ["<b>Best Actress – Leading Role</b>", "Yami Gautam – Article 370"], ["<b>Best Direction</b>", "Rajkumar Periasamy – Amaran"], ["<b>Best Children&#x27;s Film</b>", "35 – Chinna Katha Kaadu"], ["<b>Best Debut Film of a Director</b>", "Swatantrya Veer Savarkar – Randeep Hooda"], ["<b>Best Popular Film Providing Wholesome Entertainment</b>", "Kalki 2898 AD"], ["<b>Best Lyrics</b>", "Manoj Muntashir – Jaane Do, Maidaan"], ["<b>Best Music Direction – Songs</b>", "G.V. Prakash Kumar – Amaran; Shashwat Sachdev – Article 370"], ["<b>Best Choreography</b>", "Vijay Ganguly – Aaj Ki Raat, Stree 2"], ["<b>Best Short Film</b>", "Hamsafar"], ["<b>Best Cinematography</b>", "Life in Loom"], ["<b>Best Documentary</b>", "Ram-Nami"], ["<b>Best Film Critic</b>", "Sanjeev Shrivastava"]]}, {"k": "h", "h": "Dadasaheb Phalke Award"}, {"k": "t", "head": ["Award year", "Recipient"], "rows": [["2024", "<b>Anant Nag</b>"], ["2023", "<b>Mohanlal</b>"], ["2022", "<b>Mithun Chakraborty</b>"]]}]}, {"title": "98th Academy Awards – Oscars 2026", "part": "Part 12 of 14", "items": [{"k": "b", "h": "<b>Ceremony:</b> 15 March 2026. <b>Venue:</b> Dolby Theatre, Los Angeles. <b>Host:</b> Conan O&#x27;Brien."}, {"k": "b", "h": "<b>One Battle After Another</b> led with <b>six</b> awards; <b>Sinners</b> won <b>four</b> awards; <b>Frankenstein</b> won <b>three</b> awards."}, {"k": "t", "head": ["Category", "Winner"], "rows": [["<b>Best Picture</b>", "One Battle After Another"], ["<b>Actor in a Leading Role</b>", "Michael B. Jordan – Sinners"], ["<b>Actress in a Leading Role</b>", "Jessie Buckley – Hamnet"], ["<b>Directing</b>", "Paul Thomas Anderson – One Battle After Another"], ["<b>Cinematography</b>", "Sinners – Autumn Durald Arkapaw"], ["<b>Animated Feature Film</b>", "KPop Demon Hunters"], ["<b>Animated Short Film</b>", "The Girl Who Cried Pearls"], ["<b>Documentary Feature Film</b>", "Mr. Nobody Against Putin"], ["<b>Documentary Short Film</b>", "All the Empty Rooms"], ["<b>International Feature Film</b>", "Norway – Sentimental Value"], ["<b>Music – Original Score</b>", "Sinners – Ludwig Göransson"]]}, {"k": "b", "h": "<b>India&#x27;s official entry</b> for the 98th Academy Awards: <b>Homebound</b>, directed by <b>Neeraj Ghaywan</b>."}]}, {"title": "Film festival, pageant and other awards", "part": "Part 13 of 14", "items": [{"k": "t", "head": ["Award", "Winner / Notes"], "rows": [["<b>TIFF Platform Prize 2026</b>", "Angh, directed by Theja Rio"], ["<b>79th Locarno Film Festival Career Award</b>", "James Gray – Pardo alla Carriera"], ["<b>International Film Festival of Australia – Best Actress</b>", "Shubhangi Dutt for Tanvi The Great"], ["<b>Women Empowerment Award</b>", "Rituparna Sengupta"], ["<b>Miss World 2026</b>", "Joheirry Mola Dominguez, Dominican Republic"], ["<b>Miss Universe India 2026</b>", "Kaziah Liz Mejo, Kerala"], ["<b>Miss Universe 2025</b>", "Fatima Bosch, Mexico"], ["<b>PETA India Person of the Year 2025</b>", "Raveena Tandon"]]}]}, {"title": "Sports awards", "part": "Part 14 of 14", "items": [{"k": "h", "h": "Cricket"}, {"k": "t", "head": ["Award", "Winner / Notes"], "rows": [["<b>ICC Men&#x27;s Player of the Month – September 2026</b>", "Shubman Gill"], ["<b>ICC Women&#x27;s Player of the Month – September 2026</b>", "Shafali Verma"], ["<b>Shubman Gill&#x27;s record</b>", "Named ICC Men&#x27;s Player of the Month five times"]]}, {"k": "h", "h": "Asian Games 2026 – Individual honours"}, {"k": "b", "h": "<b>Best Female Athlete:</b> Yu Zidi, China, swimming. <b>Best Male Athlete:</b> Puripol Boonson, Thailand, sprinting."}, {"k": "b", "h": "<b>India&#x27;s best female athlete selected by IOA:</b> Kumkum Mohod, archery."}, {"k": "b", "h": "<b>India&#x27;s best male athlete selected by IOA:</b> Sujeet Kalkal, wrestling; Sujeet Kalkal received the <b>Raja Randhir Singh Award</b>."}, {"k": "h", "h": "Hockey India Annual Awards 2025"}, {"k": "b", "h": "<b>Presented:</b> 27 March 2026, New Delhi."}, {"k": "t", "head": ["Award", "Winner"], "rows": [["<b>Balbir Singh Sr Award – Men&#x27;s Player of the Year</b>", "Hardik Singh"], ["<b>Women&#x27;s Player of the Year</b>", "Navneet Kaur"], ["<b>Goalkeeper of the Year</b>", "Bichu Devi Kharibam"], ["<b>Major Dhyan Chand Lifetime Achievement Award</b>", "Zafar Iqbal"]]}]}], APP = "RocketOne \u00b7 Group 1 Prelims", SUBJ = "Current Affairs", TOPIC = "Awards and honours 2025-26";
+    const host = document.getElementById('parts');
+    function mk(cls, html) { const d = document.createElement('div'); if (cls) d.className = cls; if (html != null) d.innerHTML = html; return d; }
+    function newSlide(p, cont) {
+      const s = mk('s'); s.innerHTML = `<div class='bar'><span class='p'>${p.part}</span><span class='t'>${TOPIC}</span></div>
+        <div class='inner'><h2>${p.title}<span class='cont'></span></h2><div class='body'></div></div>
+        <div class='brand'>${APP} · ${SUBJ}</div><div class='num'></div>`;
+      host.appendChild(s); return s.querySelector('.body');
+    }
+    const over = b => b.scrollHeight > b.clientHeight + 1;
+    for (const p of P) {
+      const made = []; let body = newSlide(p); made.push(body);
+      const fresh = () => { body = newSlide(p); made.push(body); };
+      let ul = null;
+      for (let i = 0; i < p.items.length; i++) {
+        const it = p.items[i];
+        if (it.k === 'b') {
+          if (!ul || ul.parentNode !== body || body.lastChild !== ul) { ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); }
+          const li = document.createElement('li'); li.innerHTML = it.h; ul.appendChild(li);
+          if (over(body) && body.childNodes.length > 1 || over(body) && ul.childNodes.length > 1) {
+            li.remove(); if (!ul.childNodes.length) ul.remove();
+            const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null;
+            fresh(); if (carry) body.appendChild(carry);
+            ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); ul.appendChild(li);
+          }
+          continue;
+        }
+        ul = null;
+        if (it.k === 'h') { body.appendChild(mk('sub', it.h)); if (over(body) && body.childNodes.length > 1) { const h = body.lastChild; h.remove(); fresh(); body.appendChild(h); } continue; }
+        if (it.k === 'x') { const d = mk(null, it.h).firstChild; body.appendChild(d); if (over(body) && body.childNodes.length > 1) { d.remove(); const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; fresh(); if (carry) body.appendChild(carry); body.appendChild(d); } continue; }
+        if (it.k === 't') {
+          const head = it.head.length ? '<tr>' + it.head.map(c => `<th>${c}</th>`).join('') + '</tr>' : '';
+          const newTable = () => { const t = document.createElement('table'); t.innerHTML = head; body.appendChild(t); return t.tBodies[0] || t; };
+          let tb = newTable();
+          for (const r of it.rows) {
+            const tr = document.createElement('tr'); tr.innerHTML = r.map(c => `<td>${c}</td>`).join(''); tb.appendChild(tr);
+            if (over(body) && (tb.querySelectorAll('td').length > r.length || body.childNodes.length > 1)) {
+              tr.remove();
+              const t = tb.closest('table'); let carry = null;
+              if (!t.querySelector('td')) { t.remove(); carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; }
+              fresh(); if (carry) body.appendChild(carry); tb = newTable(); tb.appendChild(tr);
+            }
+          }
+        }
+      }
+      made.forEach((b, k) => { if (made.length > 1) b.parentNode.querySelector('.cont').textContent = ` (${k + 1}/${made.length})`; });
+    }
+    host.replaceWith(...host.childNodes);
+    const all = document.querySelectorAll('section.s, div.s');
+    all.forEach((s, k) => { const n = s.querySelector('.num'); if (n) n.textContent = `${k + 1} / ${all.length}`; });
+    }</script><script>function __deck() {
+(function () {
+  // static slides (title, plan, recap, quick check) that overflow this screen are split, item by item
+  function split(s) {
+    const inner = s.querySelector('.inner'); const box = s.querySelector('.qs2, ul.recap, ol.plan');
+    if (!inner || !box) return;
+    const moved = [];
+    while (inner.scrollHeight > inner.clientHeight + 1 && box.children.length > 1) moved.unshift(box.lastElementChild), box.lastElementChild.remove();
+    if (!moved.length) return;
+    const c = s.cloneNode(true); const cb = c.querySelector('.qs2, ul.recap, ol.plan');
+    cb.innerHTML = ''; moved.forEach(m => cb.appendChild(m));
+    s.after(c); split(c);
+  }
+  document.querySelectorAll('section.s').forEach(split);
+  const all = [...document.querySelectorAll('section.s, div.s')], N = all.length;
+  all.forEach((s, i) => { s.setAttribute('role', 'group'); s.setAttribute('aria-roledescription', 'slide'); s.setAttribute('aria-label', `Slide ${i + 1} of ${N}`); });
+  document.documentElement.classList.add('deck');
+  const ctl = document.createElement('div'); ctl.id = 'ctl';
+  ctl.innerHTML = `<button id='cl' aria-label='Close lecture'>✕</button><button id='pv' aria-label='Previous slide'>‹</button>
+    <span id='ct' role='status' aria-live='polite'></span><button id='nx' aria-label='Next slide'>›</button><div id='pg' aria-hidden='true'></div>`;
+  document.body.appendChild(ctl);
+  const A = window.Android, ct = ctl.querySelector('#ct'), pg = ctl.querySelector('#pg');
+  const h = new URLSearchParams(location.hash.slice(1));
+  let cur = h.has('end') ? N - 1 : Math.min(N - 1, Math.max(0, Math.round(parseFloat(h.get('p') || '0') * (N - 1))));
+  function show(i) {
+    all[cur].classList.remove('on'); cur = i; all[cur].classList.add('on');
+    ct.textContent = `${cur + 1} / ${N}`; pg.style.width = `${(cur + 1) / N * 100}%`;
+    try { history.replaceState(null, '', '#p=' + (N > 1 ? cur / (N - 1) : 0)); } catch (e) {}
+    scrollTo(0, 0); diag();
+  }
+  // if the slide shown is still not on the screen, say what the screen reports (to fix it)
+  function diag() {
+    const r = all[cur].getBoundingClientRect(), bad = r.width < 100 || r.height < 100 || r.bottom < 50 || r.top > innerHeight - 50;
+    let d = document.getElementById('diag');
+    if (!bad) { if (d) d.remove(); return; }
+    if (!d) { d = document.createElement('div'); d.id = 'diag'; document.body.appendChild(d); }
+    d.textContent = `slide ${Math.round(r.left)},${Math.round(r.top)} ${Math.round(r.width)}x${Math.round(r.height)} | inner ${innerWidth}x${innerHeight} | client ${document.documentElement.clientWidth}x${document.documentElement.clientHeight} | laid ${window.__laid} | dpr ${devicePixelRatio} | scroll ${scrollY} | display ${getComputedStyle(all[cur]).display}`;
+  }
+  const next = () => cur < N - 1 ? show(cur + 1) : (A && A.next());
+  const prev = () => cur > 0 ? show(cur - 1) : (A && A.prev());
+  ctl.querySelector('#nx').onclick = e => { e.stopPropagation(); next(); };
+  ctl.querySelector('#pv').onclick = e => { e.stopPropagation(); prev(); };
+  ctl.querySelector('#cl').onclick = e => { e.stopPropagation(); A && A.close(); };
+  // tap the left third for the previous slide, anywhere else for the next; or swipe; or the arrow keys
+  let x0 = null, y0 = null, swiped = false;
+  document.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; swiped = false; }, { passive: true });
+  document.addEventListener('touchend', e => {
+    if (x0 == null) return; const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) { swiped = true; dx < 0 ? next() : prev(); } x0 = null;
+  }, { passive: true });
+  document.addEventListener('click', e => { if (swiped || e.target.closest('button')) return; e.clientX < innerWidth * 0.3 ? prev() : next(); });
+  document.addEventListener('keydown', e => {
+    if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(e.key)) { e.preventDefault(); next(); }
+    if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(e.key)) { e.preventDefault(); prev(); }
+  });
+  // turned the phone: lay the slides out again for the new shape, at the same point of the lecture
+  let t;
+  addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => {
+    const [w0, h0] = window.__laid || [0, 0], W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+    if (Math.abs(W - w0) > w0 * .08 || Math.abs(H - h0) > h0 * .08) location.reload(); }, 300); });
+  all[cur].classList.add('on'); show(cur);
+})();
+}
+try { history.scrollRestoration = 'manual'; } catch (e) {}
+(function start(tries) {
+  // lay out only on a real, settled landscape screen; sizes in pixels (a WebView can report 0 x 0, a narrow or a
+  // short screen while the phone turns, and some give 0 for vh units)
+  const W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+  const ok = W > 240 && H > 200 && (!window.Android || W > H || tries > 60);
+  if (!ok) return setTimeout(() => start(tries + 1), 50);
+  const r = document.documentElement.style;
+  r.setProperty('--W', W + 'px'); r.setProperty('--H', H + 'px');
+  r.setProperty('--f', Math.round(Math.max(14, Math.min(27, Math.min(W * .024, H * .044)))) + 'px');
+  window.__laid = [W, H];
+  __layout(); __deck();
+  // a sane layout has room on its slides; if not (the screen changed under us), lay out again
+  const b = document.querySelector('.s .body');
+  if (b && b.clientHeight < 120 && tries < 100) setTimeout(() => location.reload(), 300);
+})(0);
+</script></body></html>

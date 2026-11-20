@@ -224,3 +224,10 @@ Ctrl+1…5 switch tabs, Ctrl+= / Ctrl+− text size.
 
 Both builds are signed with `keystore/appsc-prep.jks`, so a new APK installs over the old one
 and keeps your progress.
+
+## RocketOne (a separate lecture app)
+
+`apks/RocketOne-1.0.apk`: Group 1 Prelims lectures written only from the NextGen Rocket Sheets and Rocket Current
+Affairs 2026, in the APPSC Lectures slide viewer (494 lectures, 5,670 slides; no MCQs). Where Rocket disagreed with
+itself or with the verified fact, the slide has the corrected line and `data/rocketone/CORRECTIONS.md` has what Rocket
+said. How it is built: `data/rocketone/README.md` (`tools/rocketone.py`, flavor `rocketone`).
