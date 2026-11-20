@@ -218,7 +218,7 @@ try { history.scrollRestoration = 'manual'; } catch (e) {}
   window.__laid = [W, H];
   __layout(); __deck();
   // a sane layout has room on its slides; if not (the screen changed under us), lay out again
-  const b = document.querySelector('.s .body');
+  const b = document.querySelector('.s.on .body');
   if (b && b.clientHeight < 120 && tries < 100) setTimeout(() => location.reload(), 300);
 })(0);
 </script></body></html>

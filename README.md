@@ -235,7 +235,7 @@ said. How it is built: `data/rocketone/README.md` (`tools/rocketone.py`, flavor 
 
 ## APPSC Lectures for the desktop (with RocketOne)
 
-`apks/APPSC-Lectures-Desktop-1.0-Setup.exe` (Windows 10/11): the APPSC Lectures decks and the RocketOne decks, Group 1
+`apks/APPSC-Lectures-Desktop-1.1-Setup.exe` (Windows 10/11): the APPSC Lectures decks and the RocketOne decks, Group 1
 Prelims and Group 2 of each (2,837 lectures), in one desktop app: library pane, search over every title and heading,
 resume where you stopped, done marks, saved lectures, full-screen presenting, keyboard shortcuts (Help in the app).
 It is an HTML app (`desktop-lectures/web`) shown in an Edge/Chrome app window by a small launcher
