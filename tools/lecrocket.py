@@ -187,6 +187,8 @@ def assemble():
                 except Exception:
                     pass
     topics, n = {}, 0
+    # a page left with only headings (its notes were all citations) keeps its own slides
+    got = {h: b for h, b in got.items() if any(x.get("k") != "h" for x in b)}
     for h, where, *_ in pages():
         if h in got:
             for g, b, i, j in where:
