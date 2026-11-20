@@ -1,0 +1,691 @@
+{
+"0": [
+{
+"k": "h",
+"x": "Order of the spectrum"
+},
+{
+"k": "b",
+"x": "Wavelength falls: **radio (incl. microwave) → infrared → visible (red … violet) → ultraviolet → X-rays → gamma rays**."
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Colour**",
+"Set by the light's **wavelength**; **red** longest and **violet** shortest in visible light"
+],
+[
+"**Infrared**",
+"Longer than red"
+],
+[
+"Gamma rays",
+"Shortest of all"
+],
+[
+"**X-rays**",
+"Strongly darken (expose) **photographic plates and film** – the basis of radiography"
+]
+]
+},
+{
+"k": "h",
+"x": "Passive and active sensors"
+},
+{
+"k": "t",
+"h": [
+"Type",
+"Energy",
+"Examples"
+],
+"r": [
+[
+"**Passive**",
+"Reflected sunlight or emitted heat",
+"Cameras (visible, infrared, multispectral), radiometers, **MODIS**"
+],
+[
+"**Active**",
+"Sends its own pulse, reads the echo",
+"**Radar/SAR** (microwave), **laser / LiDAR**, altimeters"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**LiDAR**",
+"**Light Detection And Ranging**: pulsed laser measures distances → elevation, 3D terrain, canopy height"
+],
+[
+"**Airborne Laser Terrain Mapping (ALTM)**",
+"Airborne LiDAR – fast, accurate, cost-effective 3D picture of the ground, mainly for mapping and survey"
+],
+[
+"Laser uses",
+"**LASIK**, LiDAR, holography"
+],
+[
+"**MRI**",
+"Uses magnets and radio waves, not a laser"
+]
+]
+},
+{
+"k": "h",
+"x": "Which band for what"
+},
+{
+"k": "t",
+"h": [
+"Band",
+"Use"
+],
+"r": [
+[
+"Optical (visible/NIR)",
+"Reflected light; needs daylight and clear sky"
+],
+[
+"**Thermal infrared**",
+"Emitted heat → **volcanic eruptions**, forest fires, urban heat"
+],
+[
+"**Microwave (radio region)** – SAR",
+"**Penetrates clouds** and darkness → all-weather imaging of cloud-covered disaster areas"
+],
+[
+"Hyperspectral",
+"Hundreds of narrow bands → materials and chemicals"
+]
+]
+},
+{
+"k": "x",
+"x": "Cloud-covered disaster area → **radio/microwave** band; visible light cannot pass through cloud."
+}
+],
+"1": [
+{
+"k": "t",
+"h": [
+"Series / satellite",
+"Function"
+],
+"r": [
+[
+"**Resourcesat** (**2003, 2011, 2016**)",
+"Crops, watershed, precision farming (LISS-III/IV, AWiFS); **Resourcesat-2A** on PSLV-C36, **7 Dec 2016**"
+],
+[
+"**Cartosat**",
+"**Mapping** (cartography), city mapping, surveillance – Earth observation"
+],
+[
+"**Oceansat-1** (**1999**, PSLV-C2), **Oceansat-2** (**2009**, **PSLV-C14**), **Oceansat-3 = EOS-06** (**2022**, PSLV-C54)",
+"Ocean colour, SST, winds; **PFZ** fishing advisories"
+],
+[
+"**Oceansat-2**",
+"Estimates **atmospheric water vapour**, predicts **monsoon onset**, monitors **coastal-water pollution**"
+],
+[
+"**RISAT**",
+"**Microwave SAR** – all-weather, day-night imaging"
+],
+[
+"**SCATSAT-1** (**2016**)",
+"Scatterometer – ocean winds → **weather forecasting**, cyclones"
+],
+[
+"**HySIS**",
+"Hyperspectral imaging"
+],
+[
+"**SARAL**",
+"ISRO–**CNES (France)** **AltiKa** Ka-band **altimeter** (sea-surface height)"
+],
+[
+"**IMS-1** (**2008**)",
+"Small satellite with multispectral and hyperspectral cameras"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Mission",
+"Function"
+],
+"r": [
+[
+"**GAGAN**",
+"Navigation"
+],
+[
+"**GSAT**",
+"Communication"
+],
+[
+"**Mangalyaan**",
+"Traces of methane"
+]
+]
+},
+{
+"k": "b",
+"x": "**CNES** is the space agency of **France**; ISRO–CNES **maritime surveillance** pact, March **2019**."
+},
+{
+"k": "b",
+"x": "**IRS satellites:** ResourceSat and OceanSat (earth observation). **AstroSat** (space observatory) and NavIC (navigation) are not IRS satellites."
+},
+{
+"k": "h",
+"x": "EOS renamings"
+},
+{
+"k": "t",
+"h": [
+"EOS name",
+"Earlier name",
+"Key detail"
+],
+"r": [
+[
+"**EOS-03**",
+"GISAT-1",
+"**Geo-imaging** for near-real-time flood/cyclone watch (announced July **2021**); lost on GSLV-F10, Aug 2021 (cryogenic stage)"
+],
+[
+"**EOS-04**",
+"RISAT-1A",
+"SAR; used in NRSC CROP wheat estimates"
+],
+[
+"**EOS-05**",
+"GISAT-1A",
+"GSLV-F17, **4 Sep 2026** – first geosynchronous land imager"
+],
+[
+"**EOS-06**",
+"Oceansat-3",
+"PFZ advisories"
+]
+]
+}
+],
+"2": [
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Remote sensing**",
+"Gathering information about an object **without physical contact**, by measuring **reflected and emitted electromagnetic radiation** from a distance (satellite, aircraft, drone)"
+],
+[
+"Medium",
+"**Electromagnetic waves** (not sonar or electric waves)"
+]
+]
+},
+{
+"k": "h",
+"x": "Components (stages)"
+},
+{
+"k": "b",
+"x": "1. Energy source / illumination → 2. Radiation through the atmosphere → 3. **Interaction with the target** → 4. Recording by the sensor → 5. **Transmission, reception and processing** → 6. Interpretation and analysis → 7. Application."
+},
+{
+"k": "b",
+"x": "\"Interaction of Energy with **Minimisation**\" is not a component."
+},
+{
+"k": "h",
+"x": "Disaster uses and platforms"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Disaster applications",
+"**Glacial lakes**, **wildfires**, **wind/cyclone tracking**, floods, landslides (\"hills management\" is not one)"
+],
+[
+"**UAV (drone)**",
+"Best for **detailed, localised** damage assessment; satellites for wide areas"
+],
+[
+"**Infrared (thermal) cameras**",
+"Detect people trapped under **rubble** after an earthquake by their body heat"
+],
+[
+"**GEOSS**",
+"**Global Earth Observation System of Systems** – built by the Group on Earth Observations (**GEO**)"
+],
+[
+"**JACIE**",
+"**Joint Agency Commercial Imagery Evaluation** – five US federal agencies (**NASA, NOAA, NGA, USGS, USDA**), major users and producers of satellite land remote-sensing data"
+]
+]
+}
+],
+"3": [
+{
+"k": "t",
+"h": [
+"Satellite",
+"Launch",
+"Feature"
+],
+"r": [
+[
+"**Cartosat-1**",
+"**2005**, PSLV-C6",
+"**India's first mapping satellite**; stereo images for 3D maps"
+],
+[
+"**Cartosat-2 series**",
+"**2007–2018**, PSLV",
+"Sub-metre; **Cartosat-2E** (land survey) on PSLV-C38, **June 2017**; Cartosat-2 + **30** co-passengers (**31** satellites) on **PSLV-C40, 12 Jan 2018**"
+],
+[
+"**Cartosat-2 series** (**714 kg**)",
+"PSLV-C37, **15 Feb 2017**",
+"Record **104** satellites into a **506 km** SSO"
+],
+[
+"**Cartosat-3**",
+"**27 Nov 2019**, **PSLV-C47**",
+"Third-generation agile satellite, **~25 cm**, with **13 US nanosatellites**"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Use",
+"Key detail"
+],
+"r": [
+[
+"**Cartosat-2S**",
+"Images showed **Joshimath** subsidence (NRSC, Jan **2023**)"
+],
+[
+"Cartosat-3 imagery",
+"Gati Shakti, borders, **KASTURI** and **Bharat Darshan** heritage apps"
+]
+]
+}
+],
+"4": [
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Start of IRS",
+"**17 Mar 1988** with **IRS-1A** – India's **first operational remote-sensing satellite**"
+],
+[
+"IRS-1A launch",
+"From **Baikonur** (USSR, Kazakhstan) on a Soviet **Vostok** rocket"
+],
+[
+"Scale",
+"One of the **world's largest civilian remote-sensing constellations**"
+],
+[
+"Data",
+"Via NRSC and **Bhuvan**"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Satellite",
+"Year",
+"Key detail"
+],
+"r": [
+[
+"**Bhaskara I**",
+"**1979**",
+"First experimental EO satellite"
+],
+[
+"Rohini RS-1 / **RS-D1**",
+"**1980** / **31 May 1981**",
+"Satellites launched by the **SLV-3** launch vehicle"
+],
+[
+"IRS-1A",
+"**1988**",
+"Baikonur, Vostok"
+],
+[
+"IRS-1B / 1C",
+"**1991** / **1995**",
+"Baikonur, Soviet/Russian rockets"
+],
+[
+"**IRS-P2**",
+"**1994**",
+"First IRS launched successfully by **PSLV** (PSLV-D2)"
+],
+[
+"IRS-1D",
+"**1997**",
+"PSLV-C1 – first operational PSLV"
+]
+]
+},
+{
+"k": "b",
+"x": "**IRS uses:** crop productivity, **groundwater**, **mineral exploration**, land use, forests, floods, drought (not telecommunications or traffic studies)."
+}
+],
+"5": [
+{
+"k": "h",
+"x": "NRSC and Bhuvan"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Data chain",
+"Ground station → processing at **NRSC, Hyderabad** (nodal) → users"
+],
+[
+"Training",
+"**IIRS** and **CSSTEAP**, both **Dehradun**"
+],
+[
+"**Bhuvan**",
+"ISRO's (**NRSC**'s) web-based **geoportal** with **3-D imaging**, open to the public"
+],
+[
+"Other platforms",
+"**Bhoonidhi, MOSDAC, VEDAS**"
+],
+[
+"Uses",
+"Groundwater prospects, wastelands, **FASAL** crop forecasting, drought, NUIS, SIS-DP, **INFFRAS** (Indian Forest Fire Response and Assessment System)"
+]
+]
+},
+{
+"k": "h",
+"x": "In the news"
+},
+{
+"k": "t",
+"h": [
+"Item",
+"Agency / satellite"
+],
+"r": [
+[
+"**Joshimath (Uttarakhand)** subsidence",
+"NRSC with **Cartosat-2S** – sank **5.4 cm in 12 days** (**27 Dec 2022 – 8 Jan 2023**)"
+],
+[
+"Landslide Atlas of India",
+"NRSC (**2023**)"
+],
+[
+"CROP crop-progress framework",
+"NRSC with EOS-04 SAR"
+],
+[
+"Glacial lakes",
+"CWC since **2011** with NRSC imagery; Glacial Lake Atlas 2023: **7,570** lakes; Himalayan lake area up ~**9%** 2011–2025"
+],
+[
+"**PARIMAN**",
+"Portal for Analytical Regional Information and Mapping of NCR – **NIC**-developed web geo-portal of the NCR Planning Board for remote sensing and GIS (**2021**; public July **2022**)"
+]
+]
+},
+{
+"k": "h",
+"x": "Andhra Pradesh"
+},
+{
+"k": "b",
+"x": "**APSAC** (AP Space Applications Centre) is the state remote-sensing agency; **SDSC-SHAR** (Tirupati district) gives Bay of Bengal cyclone data to **APSDMA**."
+}
+],
+"6": [
+{
+"k": "t",
+"h": [
+"Resolution",
+"Meaning"
+],
+"r": [
+[
+"**Spatial**",
+"Smallest object seen"
+],
+[
+"**Spectral**",
+"Number and width of bands"
+],
+[
+"**Temporal**",
+"**How often** a satellite revisits the same place"
+],
+[
+"**Radiometric**",
+"Sensitivity to small energy differences"
+]
+]
+},
+{
+"k": "b",
+"x": "There are four resolutions; \"**Chemical**\" resolution does not exist."
+},
+{
+"k": "t",
+"h": [
+"Technique",
+"Maps"
+],
+"r": [
+[
+"**InSAR**",
+"Ground deformation – subsidence, earthquake/volcano uplift"
+],
+[
+"**LiDAR**",
+"Elevation, 3D terrain, canopy height"
+],
+[
+"**NDVI**",
+"Vegetation health (**chlorophyll**) from red vs near-infrared reflectance"
+],
+[
+"Thermal infrared",
+"Land surface temperature, fires, volcanic heat"
+],
+[
+"Hyperspectral",
+"Materials and chemicals"
+]
+]
+},
+{
+"k": "b",
+"x": "Satellite data estimate **chlorophyll**, **greenhouse-gas emissions from rice paddies** and **land surface temperature**."
+},
+{
+"k": "b",
+"x": "**MODIS = Moderate Resolution Imaging Spectro-radiometer** (NASA Terra/Aqua): **52,785 forest fires** detected Nov **2020** – Jun **2021**."
+},
+{
+"k": "b",
+"x": "**Tectonic plate movement** is monitored by **VLBI, SLR and GPS**."
+}
+],
+"7": [
+{
+"k": "t",
+"h": [
+"Orbit",
+"Altitude",
+"Use"
+],
+"r": [
+[
+"**LEO** (Low Earth Orbit)",
+"**200–2,000 km**",
+"Earth observation, ISS"
+],
+[
+"**SSPO** (sun-synchronous polar)",
+"~**500–900 km**",
+"Most EO satellites (IRS, Cartosat, NISAR)"
+],
+[
+"**MEO**",
+"**2,000–35,786 km**",
+"Navigation (GPS)"
+],
+[
+"**GEO** (geostationary)",
+"**35,786 km** (**22,236 miles**) over the equator",
+"Communication, weather; appears fixed"
+],
+[
+"**GSO** (geosynchronous, inclined)",
+"Same height",
+"Figure-8 track; NavIC's **4** inclined satellites"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Geostationary**",
+"Geosynchronous + **circular** + in the **plane of the equator**; also called **Clarke's orbit**"
+],
+[
+"Period",
+"One sidereal day, **23 h 56 min 4 s**"
+],
+[
+"Height in miles",
+"**22,236** is the height in miles, not km"
+],
+[
+"**Sun-synchronous**",
+"Passes each place at the **same local solar time** → even lighting"
+],
+[
+"Why a satellite does not fall",
+"Earth's gravity **provides the centripetal acceleration** for its orbit"
+],
+[
+"LEO vs geosynchronous imagers",
+"LEO: finer detail, periodic revisit; geosynchronous: coarser detail, near-continuous viewing"
+]
+]
+}
+],
+"8": [
+{
+"k": "h",
+"x": "NISAR"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**NISAR**",
+"**NASA-ISRO Synthetic Aperture Radar** – joint **Earth-observation** mission; partnership signed **2014**"
+],
+[
+"Radar",
+"**NASA L-band + ISRO S-band** – world's first dual-frequency radar satellite; **12 m** reflector"
+],
+[
+"Launch",
+"**30 July 2025**, **GSLV-F16**, Sriharikota"
+],
+[
+"Orbit",
+"**Sun-synchronous LEO** (about **747 km**), not a High Earth Orbit; now operational"
+]
+]
+},
+{
+"k": "x",
+"x": "**NISAR** flew on **30 July 2025** (earlier plans: January 2024, then June 2025)."
+},
+{
+"k": "b",
+"x": "**EOS-05** (GISAT-1A): GSLV-F17, **4 Sep 2026**, **2,367 kg**; visible to long-wave IR; floods, cyclones, fires, crops."
+},
+{
+"k": "t",
+"h": [
+"Lost satellite",
+"Vehicle / date"
+],
+"r": [
+[
+"**EOS-03** (GISAT-1)",
+"GSLV-F10, Aug **2021**"
+],
+[
+"**EOS-09** (RISAT-1B, C-band SAR)",
+"PSLV-C61, May **2025**"
+],
+[
+"DRDO **EOS-N1 \"Anvesha\"**",
+"PSLV-C62, Jan **2026**"
+]
+]
+}
+]
+}

@@ -1,0 +1,893 @@
+{
+"0": [
+{
+"k": "h",
+"x": "Magnitude and intensity"
+},
+{
+"k": "t",
+"h": [
+"Feature",
+"Magnitude",
+"Intensity"
+],
+"r": [
+[
+"Measures",
+"**Energy released at the focus** (from the **amplitude of seismic waves**)",
+"**Degree of shaking and damage** observed at a place"
+],
+[
+"Nature",
+"Quantitative; **one value** per earthquake",
+"Qualitative; **varies from place to place**, falls with distance from the epicentre"
+],
+[
+"Scale",
+"**Richter** (Charles F. Richter, **1935**); now **Moment Magnitude (Mw)**",
+"**Modified Mercalli (MMI)**, **MSK-64**, old Rossi-Forel – all **I to XII**"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Scale",
+"Key detail"
+],
+"r": [
+[
+"**Richter scale**",
+"Logarithmic, based on the **amplitude of seismic waves**; each whole number = **10× amplitude** and about **31–32× energy** (two steps ≈ 1,000×)"
+],
+[
+"**Moment magnitude (Mw)**",
+"Based on the **rupture area of the fault** and the size of the waves; preferred for large quakes (Richter works best for regional quakes up to ~M5)"
+],
+[
+"**Mercalli scale**",
+"Measures **earthquakes** (intensity, from observed effects) – not cyclones, floods or tornadoes"
+],
+[
+"**MSK-64** (Medvedev–Sponheuer–Karnik)",
+"Intensity scale recommended in **1964** at the UNESCO intergovernmental meeting; used in India (BIS zones are defined in MSK)"
+],
+[
+"**Mercator**",
+"A map projection, not a seismic scale"
+]
+]
+},
+{
+"k": "b",
+"x": "Richter measures magnitude and **Mercalli** measures intensity; in loose usage the Richter scale is also called the scale of earthquake intensity."
+},
+{
+"k": "t",
+"h": [
+"Magnitude",
+"Effect"
+],
+"r": [
+[
+"below 3.0",
+"Micro/minor – recorded, rarely felt, **no damage**"
+],
+[
+"3.0–3.9",
+"Often felt, very rarely damage"
+],
+[
+"4.0–4.9",
+"Light – felt by most, none to minimal damage"
+],
+[
+"5.0–5.9",
+"Moderate – damages poorly built houses"
+],
+[
+"6.0–6.9",
+"Strong (Latur 1993 6.2–6.4)"
+],
+[
+"7.0–7.9",
+"Major (Bhuj 2001 Mw 7.7)"
+],
+[
+"8.0 +",
+"Great (Assam–Tibet 1950 8.6; Chile 1960 9.5)"
+]
+]
+},
+{
+"k": "h",
+"x": "Instruments"
+},
+{
+"k": "t",
+"h": [
+"Instrument",
+"Use"
+],
+"r": [
+[
+"**Seismograph**",
+"**Detects and records seismic waves**; its readings give magnitude (books also call it the device for intensity)"
+],
+[
+"Seismometer",
+"The sensor (pendulum / spring mass) inside a seismograph"
+],
+[
+"Seismogram",
+"The recording itself"
+],
+[
+"Seismoscope",
+"Only shows that a tremor occurred and its time"
+],
+[
+"Tiltmeter / Creepmeter",
+"Ground tilt / slow slip (creep) along a fault"
+]
+]
+},
+{
+"k": "x",
+"x": "Richter = magnitude; Mercalli/MSK = intensity; seismograph = recording device."
+}
+],
+"1": [
+{
+"k": "h",
+"x": "Seismic zones of India"
+},
+{
+"k": "t",
+"h": [
+"Zone",
+"Risk",
+"MSK intensity",
+"Zone factor",
+"Areas"
+],
+"r": [
+[
+"V",
+"Very high – **most earthquake-prone**",
+"IX +",
+"0.36",
+"Entire North-East (Shillong, Guwahati, Imphal), J&K, Ladakh, Himachal, Uttarakhand, north Bihar (Darbhanga), **Kutch (Bhuj)**, A&N"
+],
+[
+"**IV**",
+"High",
+"VIII",
+"0.24",
+"**New Delhi**, rest of Bihar, parts of UP, Punjab, Himalayan foothills"
+],
+[
+"III",
+"Moderate",
+"VII",
+"0.16",
+"Kerala, **Goa**, coastal areas, Chennai, **Vijayawada**, much of coastal AP"
+],
+[
+"**II**",
+"Low – **least active**",
+"VI or less",
+"0.10",
+"Stable Peninsula: **Visakhapatnam**, Hyderabad"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Number of zones",
+"**Four** (IS 1893: 2002/2016); **Zone I was merged into Zone II** after **Latur 1993**"
+],
+[
+"Zones III–V",
+"About **56–59%** of India's area"
+],
+[
+"**Andhra Pradesh**",
+"**Zones II and III**; no area in Zone V (Assam, Bihar, J&K have Zone V areas)"
+],
+[
+"Most earthquakes",
+"**Himalayan belt** (many longitudinal thrusts – MBT, MCT, HFT); the **Karnataka plateau** is not a high-intensity zone"
+]
+]
+},
+{
+"k": "h",
+"x": "2025 code"
+},
+{
+"k": "t",
+"h": [
+"Code",
+"Date",
+"Provision"
+],
+"r": [
+[
+"IS 1893 (Part 1): 2025",
+"Notified 6 Nov 2025",
+"PSHA model by **IIT-Madras** for NDMA; new top **Zone VI** (parts of Kashmir, North-East, Kutch)"
+],
+[
+"Withdrawal",
+"3 Mar 2026",
+"Cost objections from MoHUA, Metro Rail corporations, NDSA; **2016 four-zone map restored**"
+]
+]
+},
+{
+"k": "b",
+"x": "Experts later said the restored 2016 values are **too low for the Himalaya** (22 Mar 2026)."
+}
+],
+"2": [
+{
+"k": "h",
+"x": "Basic terms"
+},
+{
+"k": "t",
+"h": [
+"Term",
+"Meaning"
+],
+"r": [
+[
+"**Focus / hypocentre**",
+"Point **inside the Earth where the earthquake originates** – energy is released here"
+],
+[
+"**Epicentre**",
+"Point on the surface **directly above** the focus; **first surface point to receive the waves**; **intensity and damage are greatest here**"
+],
+[
+"**Isoseismal line**",
+"Joins places of **equal intensity**"
+],
+[
+"**Homoseismal (coseismal) line**",
+"Joins places where the shock arrives **at the same time**"
+],
+[
+"**Seismology**",
+"Branch of geology that studies earthquakes; the scientist = **seismologist**"
+],
+[
+"Foreshock / aftershock / swarm",
+"Before / after / many small quakes"
+],
+[
+"**Seismic doublet**",
+"Two independent quakes of similar magnitude close in time and place"
+]
+]
+},
+{
+"k": "b",
+"x": "**John Milne** = **Father of Modern Seismology** (horizontal seismograph)."
+},
+{
+"k": "b",
+"x": "The epicentre lies directly above the focus; the point of origin is the focus."
+},
+{
+"k": "t",
+"h": [
+"Depth of focus",
+"Range"
+],
+"r": [
+[
+"Shallow",
+"**0–70 km** – **most damaging** (energy hits a small area)"
+],
+[
+"Intermediate",
+"70–300 km"
+],
+[
+"Deep",
+"300–700 km – energy spread over a wide area"
+]
+]
+},
+{
+"k": "b",
+"x": "Rare continental-mantle quakes start 80+ km below the Moho; **Stanford** made the first global map of them. **26 Jun 2026**: USGS-described doublet at **Caracas, Venezuela** (M 7.1 and 7.5)."
+}
+],
+"3": [
+{
+"k": "h",
+"x": "Classification"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Earthquake",
+"A **natural**, **geological** disaster"
+],
+[
+"Atmospheric disasters",
+"Blizzards, lightning, hailstorms"
+],
+[
+"Man-made disasters",
+"War, industrial and train accidents"
+],
+[
+"**High Powered Committee (J.C. Pant, 1999)** – geologically related disasters",
+"**Landslides and mudflows, earthquakes, dam failures/dam bursts, mine fires**"
+],
+[
+"Biological",
+"Cattle epidemics"
+],
+[
+"Hydro-meteorological",
+"**Sea surge / storm surge**"
+]
+]
+},
+{
+"k": "h",
+"x": "Prediction"
+},
+{
+"k": "b",
+"x": "**Prediction:** earthquakes **cannot yet be predicted accurately** (time, place, magnitude); science only gives **probabilities** of future events from data. Thunderstorms, floods and hailstorms can be forecast to an extent."
+},
+{
+"k": "b",
+"x": "Possible precursors studied: foreshocks, changes in well-water and **oil-well flow**, radon emission, animal behaviour."
+},
+{
+"k": "b",
+"x": "**Tremors** are not caused only by earthquakes – a **meteor impact**, volcanic eruption, explosion or collapse can also shake the ground."
+}
+],
+"4": [
+{
+"k": "h",
+"x": "Major earthquakes of India"
+},
+{
+"k": "t",
+"h": [
+"Earthquake",
+"Year",
+"Magnitude",
+"Key detail"
+],
+"r": [
+[
+"Assam",
+"1897",
+"8.1",
+"Studied by R.D. Oldham (GSI)"
+],
+[
+"Kangra",
+"1905",
+"7.8",
+"~20,000 deaths"
+],
+[
+"Bihar–Nepal",
+"1934",
+"8.1",
+"Damage in the Gangetic plains"
+],
+[
+"**Assam–Tibet**",
+"**15 Aug 1950**",
+"**8.6**",
+"**Strongest earthquake in India**"
+],
+[
+"**Koyna**",
+"**1967**",
+"6.3",
+"Reservoir-induced"
+],
+[
+"Uttarkashi",
+"20 Oct 1991",
+"Mw 6.8",
+"Himalayan thrust zone"
+],
+[
+"**Latur / Killari**",
+"**30 Sep 1993**",
+"6.2–6.4",
+"~8,000–10,000 dead; intraplate; area then in Zone I"
+],
+[
+"**Bhuj (Kutch)**",
+"**26 Jan 2001** (Republic Day)",
+"**Mw 7.7** (IMD Richter 6.9)",
+"13,000–20,000 dead; with the 2004 tsunami led to the **DM Act 2005**"
+],
+[
+"Sikkim",
+"2011",
+"6.9",
+"Himalayan"
+],
+[
+"Gorkha (Nepal)",
+"2015",
+"7.8",
+"Main Himalayan Thrust; liquefaction in Bihar, UP, WB"
+]
+]
+},
+{
+"k": "b",
+"x": "**Latur – why so much damage at only 6.2–6.4:** **weak, non-engineered houses** (random-rubble stone walls, heavy mud roofs) collapsed on sleeping people (3:56 am); the very **shallow focus** (~5–12 km) added to it."
+},
+{
+"k": "b",
+"x": "**Koraput–Jeypore** (Odisha), **6 Apr 2026**: M 4.4, 5 km deep; shook **Araku and Paderu** (ASR district, AP)."
+},
+{
+"k": "h",
+"x": "World"
+},
+{
+"k": "t",
+"h": [
+"Earthquake",
+"Year",
+"Key detail"
+],
+"r": [
+[
+"**Valdivia, Chile**",
+"**22 May 1960**",
+"**M 9.5 – largest ever recorded**"
+],
+[
+"Alaska",
+"1964",
+"M 9.2"
+],
+[
+"Indian Ocean (Sumatra)",
+"2004",
+"M 9.1; tsunami, 2.27 lakh dead"
+],
+[
+"**L'Aquila, Italy**",
+"2009",
+"Central Italy (Abruzzo)"
+],
+[
+"**Tohoku, Japan**",
+"2011",
+"M 9.0–9.1; Pacific plate subduction; tsunami, Fukushima"
+],
+[
+"Turkey–Syria",
+"Feb 2023",
+"East Anatolian Fault"
+],
+[
+"Myanmar (Mandalay)",
+"2025",
+"M 7.7; Sagaing Fault (Indian vs Eurasian plate)"
+],
+[
+"Kamchatka (Russia)",
+"Aug 2025",
+"M 8.8 megathrust; only a limited tsunami"
+],
+[
+"Mindanao (Philippines) / Kyushu (Japan) / Flores (Indonesia)",
+"Jun / Jul / Aug 2026",
+"Kyushu M 7.1; Flores M 7.7"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Disaster",
+"Country / region"
+],
+"r": [
+[
+"**Bhola cyclone** (1970)",
+"**Bangladesh**"
+],
+[
+"**Tohoku earthquake**",
+"**Japan**"
+],
+[
+"**365 AD Crete tsunami**",
+"**Europe** (Mediterranean)"
+],
+[
+"**Yellow River floods**",
+"**China**"
+]
+]
+}
+],
+"5": [
+{
+"k": "h",
+"x": "Tsunami"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Tsunami** (Japanese word)",
+"Large waves from sudden **displacement of the sea floor**"
+],
+[
+"Causes",
+"Most commonly **undersea (sea) earthquakes**; also submarine landslides, volcanic eruptions, explosions, meteor impacts (not heavy rain, wind storms or deserts)"
+],
+[
+"Tsunamigenic conditions",
+"Magnitude above ~6.5, **shallow focus** (< ~70 km), **vertical** sea-floor movement; over 80% from megathrust subduction quakes"
+],
+[
+"**Indian coast**",
+"The quake must be **above M 7**"
+],
+[
+"Major earthquakes",
+"**Not all** are tsunamigenic; slow-rupture \"tsunami earthquakes\" make **larger** tsunamis than their magnitude suggests"
+],
+[
+"Warning",
+"**ITEWC at INCOIS, Hyderabad** (set up after the **2004** tsunami)"
+]
+]
+},
+{
+"k": "h",
+"x": "Other effects"
+},
+{
+"k": "t",
+"h": [
+"Effect",
+"Where / why"
+],
+"r": [
+[
+"Ground shaking and rupture",
+"Collapse of buildings, dams, bridges; ~95% of quake deaths in poorly built 1–3 storey houses"
+],
+[
+"Landslides",
+"Fragile Himalaya and North-East"
+],
+[
+"Liquefaction",
+"Water-saturated soft soils – Indo-Gangetic Plain"
+],
+[
+"Fires",
+"Broken gas and power lines (San Francisco 1906, Tokyo 1923)"
+],
+[
+"Floods, seiches",
+"Dam damage; standing waves in lakes and reservoirs"
+]
+]
+},
+{
+"k": "b",
+"x": "**\"Earthquakes don't kill people, buildings do\":** most deaths come from the collapse of **badly designed, non-engineered buildings** – a badly designed large building kills more people than the shaking itself."
+},
+{
+"k": "b",
+"x": "**Site effect:** ground shaking is **amplified on soft soil** (loose alluvium, filled land) and is least on hard bedrock."
+}
+],
+"6": [
+{
+"k": "h",
+"x": "Types of earthquakes"
+},
+{
+"k": "t",
+"h": [
+"Type",
+"Cause",
+"Example"
+],
+"r": [
+[
+"**Tectonic**",
+"Sudden release of stress along a **fault** at plate boundaries – the main cause (**tectonism**)",
+"Himalaya; San Andreas (transform)"
+],
+[
+"Volcanic",
+"Magma movement, eruptions; usually milder",
+"Ring of Fire volcanoes"
+],
+[
+"**Reservoir-induced**",
+"Water load and seepage reactivate an **old fault**",
+"**Koyna 1967** (M 6.3), Maharashtra"
+],
+[
+"**Intraplate**",
+"Hidden old faults in the stable shield",
+"**Latur (Killari) 1993**, Jabalpur 1997, Bhuj (Kutch)"
+],
+[
+"Human-induced (other)",
+"Mining, fracking, nuclear tests; low magnitude",
+"–"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Where likely",
+"Earthquakes are most likely **near faults**"
+],
+[
+"Causes",
+"Development of a fault, movement along a fault, volcanic eruption, folding of rocks"
+],
+[
+"Not causes",
+"Denudation, rotation and revolution"
+],
+[
+"**Koyna**",
+"Dam on an **old fault plane**, activated by changes in reservoir water level → the region is likely to become more quake-prone"
+],
+[
+"**Latur 1993**",
+"Far from any plate boundary → quakes can occur in **stable areas along hidden faults**"
+],
+[
+"San Andreas",
+"Movement is tectonic, not induced"
+],
+[
+"**AP**",
+"Reservoir-triggered tremors possible near **Nagarjuna Sagar, Srisailam, Polavaram** and old Eastern Ghats faults"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Plate setting",
+"Example"
+],
+"r": [
+[
+"Transform boundary",
+"San Andreas"
+],
+[
+"Divergent",
+"Mid-Atlantic Ridge"
+],
+[
+"Convergent",
+"Himalaya; the Ring of Fire is a convergent (subduction) belt"
+]
+]
+}
+],
+"7": [
+{
+"k": "h",
+"x": "Monitoring and management"
+},
+{
+"k": "t",
+"h": [
+"Body / system",
+"Key detail"
+],
+"r": [
+[
+"First seismological observatory",
+"**Alipore, Calcutta (Kolkata), 1898**"
+],
+[
+"**National Centre for Seismology (NCS)**",
+"**MoES**; nodal agency for earthquake monitoring; ~160 observatories; detects Indian quakes M 3.0+ and global M 6.0+"
+],
+[
+"IndiaQuake / RISEQ (\"Bhookamp\")",
+"NCS / MoES public-alert apps"
+],
+[
+"**Uttarakhand Bhookamp Alert** (4 Aug 2021)",
+"**India's first earthquake early warning app**, by **IIT Roorkee**"
+],
+[
+"NDMA",
+"Guidelines; National Earthquake Risk Mitigation Project"
+],
+[
+"BIS IS 1893 / NBC",
+"Earthquake-resistant design codes"
+],
+[
+"NDRF",
+"Search and rescue including CSSR"
+],
+[
+"Microzonation",
+"Delhi, Guwahati"
+],
+[
+"**Urban Earthquake Vulnerability Reduction Project (GoI–UNDP)**",
+"**38 cities** in Zones III, IV and V with population of **half a million+** (MHA 'Disaster Management in India', 2005)"
+]
+]
+},
+{
+"k": "b",
+"x": "Using **heavy materials** in construction in vulnerable areas is not a preparedness measure – it adds to the risk."
+}
+],
+"8": [
+{
+"k": "h",
+"x": "World distribution"
+},
+{
+"k": "t",
+"h": [
+"Belt",
+"Share",
+"Examples"
+],
+"r": [
+[
+"**Circum-Pacific (Ring of Fire)**",
+"Most earthquakes – about **68–70%** (often quoted ~90%)",
+"Japan, Philippines, Indonesia, **Chile**, Alaska, California, New Zealand"
+],
+[
+"Mid-Continental (Alpine–Himalayan / Mediterranean–Himalayan)",
+"~15–20%",
+"Italy, Türkiye, Iran, **Himalaya, India**"
+],
+[
+"Mid-oceanic ridges, East African rift",
+"Shallow, milder",
+"Iceland, Mid-Atlantic"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Ring of Fire**",
+"Associated with **earthquakes, volcanoes and the Pacific Ocean** (not forest fires); holds about **75% of the world's active volcanoes**"
+],
+[
+"**Japan**",
+"The most earthquake-prone nation (on the Ring of Fire; densest seismic network, records the most quakes)"
+],
+[
+"**Hotspots** (Hawaii, Galapagos, Reunion)",
+"Volcanism and quakes over **mantle plumes** beneath a moving plate, away from plate boundaries"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Belt",
+"Plate setting"
+],
+"r": [
+[
+"Circum-Pacific",
+"Subduction around the Pacific basin"
+],
+[
+"Mediterranean–Himalayan",
+"Continental collision"
+],
+[
+"Mid-ocean ridges",
+"Divergence"
+],
+[
+"Hotspots",
+"Mantle plumes under a moving plate"
+]
+]
+}
+],
+"9": [
+{
+"k": "h",
+"x": "Seismic waves"
+},
+{
+"k": "t",
+"h": [
+"Wave",
+"Arrival",
+"Motion",
+"Medium"
+],
+"r": [
+[
+"**P (primary)**",
+"**First – fastest** (~1.7× S)",
+"Longitudinal, push-pull",
+"Solid, liquid, gas"
+],
+[
+"S (secondary)",
+"Second",
+"Transverse",
+"**Solids only**"
+],
+[
+"**Surface (L): Love + Rayleigh**",
+"Last – slowest",
+"Love side to side; Rayleigh rolling",
+"Surface only; **most damage**"
+]
+]
+},
+{
+"k": "b",
+"x": "Most surface damage = **R & L (Rayleigh and Love) waves**; P-waves are the least destructive."
+},
+{
+"k": "b",
+"x": "**S-wave shadow zone** beyond ~**103–105°** → **outer core is liquid**; P-wave shadow 103°–142°."
+}
+]
+}

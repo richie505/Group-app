@@ -1,0 +1,376 @@
+{
+"0": [
+{
+"k": "h",
+"x": "Names and genesis"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**IRNSS**",
+"**Indian Regional Navigation Satellite System**"
+],
+[
+"**NavIC**",
+"Operational name: **Navigation with Indian Constellation**, given by PM **Narendra Modi** (**2016**)"
+],
+[
+"Genesis",
+"The US denied GPS data to India in the **1999 Kargil War** (**Operation Vijay**)"
+],
+[
+"Independence",
+"Keeps its own **Indian time** (IRNSS Network Time, from on-board atomic clocks), not GPS time"
+],
+[
+"PNT service",
+"Since **2018**; India is the **only developing country** with its own independent regional system"
+]
+]
+},
+{
+"k": "h",
+"x": "Constellation and coverage"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Satellites",
+"**7: 3 GEO + 4 inclined GSO** (at **29°**), about **36,000 km** up"
+],
+[
+"Coverage",
+"India and **about 1,500 km** beyond its borders – **regional, not global**"
+],
+[
+"Signals",
+"**L5 and S bands**; the new **NVS** satellites add a civilian **L1** signal"
+],
+[
+"Nodal body (NavIC and GAGAN)",
+"**Satellite Navigation Programme Office**, ISRO"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Service",
+"Users",
+"Accuracy"
+],
+"r": [
+[
+"**Standard Positioning Service (SPS)**",
+"All civilians (open)",
+"Better than **20 m** (about **5 m** in practice)"
+],
+[
+"**Restricted Service (RS)**",
+"Military / authorised",
+"**Encrypted**"
+]
+]
+}
+],
+"1": [
+{
+"k": "h",
+"x": "Four global, two regional systems"
+},
+{
+"k": "t",
+"h": [
+"System",
+"Owner",
+"Scope"
+],
+"r": [
+[
+"**GPS** – Global Positioning System",
+"**USA** (Dept of Defense)",
+"Global"
+],
+[
+"**GLONASS**",
+"**Russia**",
+"Global"
+],
+[
+"**Galileo** – Europe's **multi-satellite navigation** project",
+"**European Union** – live **2016**, under **civilian control**, works with GPS and GLONASS",
+"Global"
+],
+[
+"**BeiDou**",
+"**China**",
+"Global"
+],
+[
+"**NavIC** (formerly IRNSS)",
+"**India**",
+"Regional"
+],
+[
+"**QZSS** (Michibiki)",
+"**Japan**",
+"Regional"
+]
+]
+},
+{
+"k": "b",
+"x": "Of **Australia, Canada, Israel and Japan**, only **Japan** (QZSS) has its own system."
+},
+{
+"k": "h",
+"x": "GPS basics"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Timeline",
+"Programme begun **1973**; first satellite **1978**; fully operational **1995**"
+],
+[
+"Constellation",
+"Original design **24 satellites in 6 orbits** at about **20,200 km** (MEO); about **30** in use (**2026**)"
+],
+[
+"Orbit",
+"Each satellite circles Earth **twice a day**"
+],
+[
+"Signals",
+"**L1** and **L2** bands"
+],
+[
+"Clock error",
+"**1 microsecond** ≈ **300 m** position error"
+],
+[
+"Fix",
+"A receiver needs **4 satellites**: 3 for position, 1 to correct its own clock error (**trilateration**)"
+]
+]
+}
+],
+"2": [
+{
+"k": "h",
+"x": "Applications"
+},
+{
+"k": "t",
+"h": [
+"Use",
+"Key detail"
+],
+"r": [
+[
+"**Satellite timing** (GPS)",
+"**Mobile phone networks, banking and power grids**"
+],
+[
+"**Tectonic plate movement**",
+"Monitored with **GPS** (with VLBI and SLR)"
+],
+[
+"NavIC uses",
+"Terrestrial, aerial and marine navigation; **disaster management**; vehicle tracking and **fleet management**; precise timing (IST, power, telecom, banking); mapping and geodesy; **precision farming**; hikers and drivers"
+],
+[
+"**MoRTH AIS-140**",
+"NavIC/GPS trackers and panic buttons compulsory in **public transport and commercial vehicles** (not all private cars)"
+],
+[
+"**Qualcomm Snapdragon**",
+"Chipsets support NavIC"
+],
+[
+"Fishermen",
+"Reconfigured **IRNSS-1A** and **GEMINI** devices send cyclone, tsunami and high-wave alerts"
+],
+[
+"**Elena Geo Systems**",
+"India's **first NavIC-based device** – precise directions on infrastructure projects"
+],
+[
+"**Himachal Pradesh**",
+"**GPS device mandatory for trekkers** (June **2019**)"
+],
+[
+"**APSDMA**",
+"**Satellite Based Mobile Data Voice (SBMDV)** terminals for real-time satellite communication (IRNSS, NavIC and SBAS are navigation systems)"
+],
+[
+"Strategic autonomy",
+"Forces need not depend on foreign systems in a conflict"
+]
+]
+},
+{
+"k": "h",
+"x": "Solar storms"
+},
+{
+"k": "b",
+"x": "A major **solar storm** can make **GPS fail**, damage **power grids**, cause **auroras** far from the poles, disturb **satellite orbits** and cut **shortwave radio** on polar flights; it does not cause tsunamis or forest fires."
+}
+],
+"3": [
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**GAGAN**",
+"**GPS Aided GEO Augmented Navigation** – India's **SBAS**"
+],
+[
+"Built by",
+"**ISRO + Airports Authority of India**"
+],
+[
+"Operational",
+"Since **2015** (DGCA-certified)"
+],
+[
+"How it works",
+"Augments GPS: ground reference stations compute live corrections for orbit, clock and **ionospheric delay**, sent via **GEO** satellites → more **accuracy and integrity**"
+],
+[
+"Payloads",
+"**GSAT-8, GSAT-10, GSAT-15**"
+],
+[
+"Coverage",
+"The **Indian Flight Information Region**; precision-like approach (**APV-I**) without ILS"
+],
+[
+"Benefits",
+"**Beyond aviation** – maritime (**GEMINI**), railways, roads, survey, disaster response"
+],
+[
+"ISRO navigation services",
+"GAGAN (INSAT, IRS, AstroSat are not navigation systems)"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"SBAS",
+"Region"
+],
+"r": [
+[
+"**WAAS**",
+"USA"
+],
+[
+"**EGNOS**",
+"Europe"
+],
+[
+"**MSAS**",
+"Japan"
+],
+[
+"**GAGAN**",
+"India"
+]
+]
+}
+],
+"4": [
+{
+"k": "h",
+"x": "Launches"
+},
+{
+"k": "b",
+"x": "**IRNSS-1A**, India's first dedicated navigation satellite: **PSLV-C22**, **1 July 2013**, **Sriharikota**; the whole IRNSS-1 series flew on **PSLV**. **11** navigation satellites have been launched since **2013**, all from Sriharikota."
+},
+{
+"k": "t",
+"h": [
+"Satellite",
+"Vehicle / date",
+"Key detail"
+],
+"r": [
+[
+"**IRNSS-1H**",
+"PSLV-C39, **31 Aug 2017**",
+"**Failed** – the **heat shield (payload fairing) did not separate**; the satellite stayed trapped inside"
+],
+[
+"**NVS-01** (2nd generation)",
+"GSLV-F12, May **2023**",
+"First **indigenous rubidium clock**"
+],
+[
+"**NVS-02**",
+"GSLV-F15, **29 Jan 2025**",
+"**100th** Sriharikota launch; valve (pyro connector) glitch → wrong orbit"
+]
+]
+},
+{
+"k": "h",
+"x": "Atomic clocks"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Caesium** clock",
+"The world's **standard of time** (the SI second)"
+],
+[
+"**Rubidium** clocks",
+"On NavIC satellites (three each) – smaller but slightly less accurate"
+],
+[
+"Failure",
+"First-generation clocks from Swiss firm **SpectraTime** failed → indigenous clocks by **SAC, Ahmedabad**"
+],
+[
+"**13 Mar 2026**",
+"Last clock on **IRNSS-1F** stopped → only **3** PNT satellites (1B, 1I, NVS-01), below the **4** needed for a fix"
+]
+]
+},
+{
+"k": "h",
+"x": "Limitations"
+},
+{
+"k": "b",
+"x": "**Regional** coverage only; thin **receiver** ecosystem (L5/S rarely in phone chips; L1 on NVS helps); clock failures and the NVS-02 failure meant NavIC could not fully replace GPS (Mar **2026**)."
+}
+]
+}

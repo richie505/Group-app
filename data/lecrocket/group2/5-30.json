@@ -1,0 +1,591 @@
+{
+"0": [
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**GIS**",
+"**Geographic Information System** – a computer system to **store, manipulate, analyse and present** all types of geographical (**spatial**) data"
+],
+[
+"Strength",
+"The most complete system for modelling spatial data and community vulnerability"
+],
+[
+"**Father of GIS**",
+"**Roger Tomlinson** – coined the term for the Canada GIS (**1960s**)"
+],
+[
+"Structure",
+"Each theme is a **layer**; **overlay analysis** combines layers; data = spatial (vector, raster) + attribute tables"
+],
+[
+"**Decision Support System**",
+"Data systems for planning"
+],
+[
+"**Survey of India**",
+"Prepares India's **topographical maps**"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Component",
+"Examples"
+],
+"r": [
+[
+"Hardware",
+"Computer, **digitizer** (tablet/table converting analog data to digital), scanner, GPS receiver, plotter"
+],
+[
+"Software",
+"**QGIS** – free, open-source, cross-platform desktop GIS"
+],
+[
+"Data",
+"Spatial (points, lines, polygons; satellite images) + attributes"
+]
+]
+},
+{
+"k": "b",
+"x": "**Remote sensing + GIS:** maps prepared from satellite data or aerial photos are digitised and stored in GIS; manual maps are slow to prepare and hard to update."
+},
+{
+"k": "h",
+"x": "GIS in disasters"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Situational awareness map**",
+"Real-time weather, hospitals and shelters, damage imagery; **pre-disaster population density maps** are least useful in the live response"
+],
+[
+"Real-time sources",
+"Satellite imagery, weather data, sensor networks (not **news channels**)"
+],
+[
+"Earthquake **magnitude and epicentre**",
+"From **seismographs**, not GIS"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Remote sensing",
+"GIS"
+],
+"r": [
+[
+"Rainfall estimation during a cyclone; post-disaster damage",
+"Mapping the spread of infectious diseases; landslide hazard zonation"
+]
+]
+}
+],
+"1": [
+{
+"k": "t",
+"h": [
+"Can be monitored from space",
+"Cannot"
+],
+"r": [
+[
+"Floods, cyclones, drought, forest fires, tsunami inundation, landslides, post-quake ground deformation",
+"**Spread of a disease among humans**, **heart attack**; **earthquake prediction**"
+]
+]
+},
+{
+"k": "b",
+"x": "Satellites give **near-real-time images** (remote sensing) for disaster management."
+},
+{
+"k": "h",
+"x": "NRSC and Bhuvan"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Fire alert system**",
+"Thermal-infrared **MODIS** (Terra/Aqua) and **VIIRS** (Suomi-NPP) hotspots, received at **Shadnagar** (NRSC) → **Forest Survey of India** alerts (not IMD)"
+],
+[
+"**NRSC activities**",
+"Near-real-time flood and cyclone mapping, forest-fire alerts, spatial flood early warning, **rapid damage assessment of landslides**; **Decision Support Centre**; **NDEM** (National Database for Emergency Management)"
+],
+[
+"**Bhuvan disaster services**",
+"NDEM, drought monitoring, flood monitoring (no nuclear-hazard warning)"
+],
+[
+"Most flood-prone area",
+"**Ganga-Brahmaputra basin** (NRSC)"
+],
+[
+"**Landslides**",
+"**DInSAR** – repeat-pass slope-deformation monitoring before visible failure, without a ground instrument network"
+],
+[
+"**Global Forest Watch (WRI)**",
+"Custom maps, forest trends, alerts"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Satellite",
+"Use"
+],
+"r": [
+[
+"**RISAT** / SAR",
+"Flood mapping through clouds"
+],
+[
+"**INSAT-3DS**",
+"Cyclone tracks"
+],
+[
+"**Cartosat**",
+"Damage mapping"
+]
+]
+},
+{
+"k": "h",
+"x": "Programmes and bodies"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**DMSP** (ISRO)",
+"INSAT and IRS for imaging and communication; States must request data from NRSC"
+],
+[
+"**INSAT Disaster Warning System**",
+"Cyclone Warning Centre **Chennai → C-band uplink → S-band downlink**"
+],
+[
+"**NDMA**",
+"Uses GIS for planning, decision support, guidelines"
+],
+[
+"**International Charter Space and Major Disasters**",
+"Led by **ISRO** from **April 2025** (**6** months)"
+]
+]
+}
+],
+"2": [
+{
+"k": "t",
+"h": [
+"Agency",
+"Role"
+],
+"r": [
+[
+"**NRSC, Hyderabad**",
+"Nodal agency – data acquisition, processing, dissemination, aerial remote sensing, disaster decision support; runs Bhuvan; earth station at **Shadnagar**"
+],
+[
+"**IIRS, Dehradun**",
+"Training and education in remote sensing and GIS"
+],
+[
+"**SAC, Ahmedabad**",
+"Sensors; MOSDAC, VEDAS, Nabhmitra"
+],
+[
+"**NESAC, Umiam** (Meghalaya)",
+"North-East applications"
+],
+[
+"**RRSCs**",
+"**5** (Bengaluru, Jodhpur, Kharagpur, Nagpur, Delhi) – none in Hyderabad"
+]
+]
+},
+{
+"k": "b",
+"x": "**SPOT** and **EROS** are foreign satellites, not Indian agencies."
+},
+{
+"k": "b",
+"x": "**Bhuvan:** ISRO's **geoportal** (\"India's Google Earth\"), by **NRSC**, launched **2009**; 2D/3D imagery – not a spacecraft or telescope."
+},
+{
+"k": "t",
+"h": [
+"Portal",
+"Use"
+],
+"r": [
+[
+"**Bhuvan Panchayat**",
+"Gram panchayat planning; powered by **ISRO/NRSC**"
+],
+[
+"**Bhoonidhi** (NRSC)",
+"EO data archive since **1988**"
+],
+[
+"**MOSDAC** (SAC)",
+"**Meteorological & Oceanographic Satellite Data Archival Centre**; disaster alerts"
+],
+[
+"**Yuktdhara**",
+"MGNREGA asset planning"
+],
+[
+"**SVAMITVA**",
+"Drone mapping with **Survey of India**"
+],
+[
+"**PM Gati Shakti**",
+"National Master Plan GIS, by **BISAG-N**"
+]
+]
+}
+],
+"3": [
+{
+"k": "b",
+"x": "**Remote sensing:** gathering **images**/information about Earth **without physical contact**, from reflected or emitted radiation; it covers dangerous or inaccessible areas."
+},
+{
+"k": "t",
+"h": [
+"Type",
+"Energy",
+"Example"
+],
+"r": [
+[
+"**Active**",
+"Sends its own signal",
+"**RISAT** radar, LiDAR"
+],
+[
+"**Passive**",
+"Natural radiation (sunlight)",
+"Resourcesat, Oceansat"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Microwave / SAR**",
+"Sees through cloud and darkness; best for **soil moisture**"
+],
+[
+"**InSAR**",
+"Compares the **phase** of radar images from **orbiting** satellites → **ground deformation** (quakes, subsidence, landslides)"
+],
+[
+"**NISAR**",
+"Radar, **L-band and S-band**; centimetre-scale ground movement"
+],
+[
+"Applications",
+"Land cover, vegetation, forests, **surface and groundwater**, snow, wetlands, **minerals and hydrocarbons**, crop area and **crop yield**"
+],
+[
+"Soil nutrient testing",
+"Done by **chemical analysis**, not remote sensing"
+]
+]
+},
+{
+"k": "h",
+"x": "Indices"
+},
+{
+"k": "t",
+"h": [
+"Term",
+"Meaning"
+],
+"r": [
+[
+"**NDVI**",
+"**Normalized Difference Vegetation Index** = (NIR − Red)/(NIR + Red); healthy vegetation reflects **near-infrared**; range **−1 to +1**; most used for **drought**"
+],
+[
+"**VCI**",
+"Derived from NDVI; drought declaration"
+],
+[
+"Ecology index",
+"Vegetation, water content, biological quantity (not cost and production)"
+],
+[
+"**NH Green Cover Index 2025-26**",
+"**NHAI + NRSC**; satellite green cover of **national highways**"
+]
+]
+},
+{
+"k": "b",
+"x": "**National Carbon Project** (ISRO-GBP): **carbon pools, fluxes and net carbon balance** of the terrestrial biosphere – vegetation pools, soil pools, fluxes."
+}
+],
+"4": [
+{
+"k": "h",
+"x": "Fisheries"
+},
+{
+"k": "b",
+"x": "**PFZ advisories** from **chlorophyll and SST**, issued by **INCOIS, Hyderabad** (EOS-06); INCOIS also issues the Ocean State Forecast."
+},
+{
+"k": "t",
+"h": [
+"Device",
+"Developer",
+"Key detail"
+],
+"r": [
+[
+"**Nabhmitra**",
+"ISRO **SAC, Ahmedabad**",
+"Fishermen's safety device; tested at **Neendakara (Kerala), Aug 2023**"
+],
+[
+"**GEMINI**",
+"INCOIS with AAI (GAGAN)",
+"PFZ, ocean-state and disaster alerts"
+],
+[
+"**DAT-SG**",
+"ISRO",
+"NavIC distress transmitter; sends an acknowledgement back"
+]
+]
+},
+{
+"k": "h",
+"x": "Weather apps"
+},
+{
+"k": "t",
+"h": [
+"App",
+"Developer / purpose"
+],
+"r": [
+[
+"**Damini**",
+"Lightning – IITM Pune"
+],
+[
+"**Mausam**",
+"IMD"
+],
+[
+"**Andhra Pradesh Varuna** (**2017**)",
+"AP: **automatic weather stations + groundwater piezometers + ISRO forecasts**"
+],
+[
+"**City Flood Alert** (AP)",
+"RTGS + APSDMA + IIT Gandhinagar; first in Vijayawada"
+],
+[
+"**Solar calculator app**",
+"**ISRO** (Space Applications Centre) – uses satellite data to estimate the benefit of solar panels across India"
+]
+]
+},
+{
+"k": "h",
+"x": "APSAC and AP"
+},
+{
+"k": "t",
+"h": [
+"Technology",
+"Purpose"
+],
+"r": [
+[
+"Drought monitoring (VCI)",
+"**Assessment of vegetation**; **103** drought mandals (**2024-25**)"
+],
+[
+"**YES-TECH**",
+"**Rice yield** estimation; pilots in Nandyal and Kakinada"
+],
+[
+"RWS pipeline mapping",
+"Water-supply assets via a **mobile app** and dashboard"
+],
+[
+"**APMVTS**",
+"**Real-time tracking of mineral vehicles** (AIS-140, **50,000**)"
+],
+[
+"APSSDI",
+"**74** GIS layers"
+],
+[
+"PM Gati Shakti AP",
+"**271** layers"
+],
+[
+"APSDMA–NRSC MoU",
+"**15 Apr 2026**, on lightning deaths"
+],
+[
+"RTGS hub, Vijayawada",
+"Alerts fishermen on cyclones, high waves, fish shoals; shoreline mapping of the **1,053 km** coast"
+]
+]
+}
+],
+"5": [
+{
+"k": "h",
+"x": "Tele-education and telemedicine"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"INSAT/GSAT services",
+"**Tele-education (EDUSAT, GRAMSAT)**, **telemedicine** and ISRO **Village Resource Centres**"
+],
+[
+"**Swayam Prabha**",
+"Group of **40 free educational DTH channels on GSAT-15**"
+],
+[
+"**Eklavya**",
+"Educational TV channel for **engineering and technology** subjects"
+],
+[
+"**Telehealth**",
+"Used worldwide, India included (**eSanjeevani**); mobile apps such as Doctor on Demand connect patients and doctors"
+]
+]
+},
+{
+"k": "h",
+"x": "Navigation and timing"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Satellite timing",
+"Banks time-stamp transactions; power grids synchronise phase; GPS is still the IST reference"
+],
+[
+"**March 2026**",
+"IRNSS-1F clock failed – only **3 PNT-capable** NavIC satellites; **NVS-02** stranded in an incorrect orbit"
+],
+[
+"**GAGAN** (ISRO-AAI)",
+"Payloads on **GSAT-8, 10, 15**"
+]
+]
+}
+],
+"6": [
+{
+"k": "t",
+"h": [
+"Programme",
+"Purpose"
+],
+"r": [
+[
+"**FASAL**",
+"Forecasting Agricultural output using **Space, Agro-meteorology and Land-based observations** (no revenue records)"
+],
+[
+"**MNCFC** (**2012**)",
+"Mahalanobis National Crop Forecast Centre – runs FASAL"
+],
+[
+"**YES-TECH**",
+"**Yield estimation** (rice) for PMFBY"
+],
+[
+"**CHAMAN**",
+"Horticulture area and production"
+],
+[
+"**NADAMS**",
+"Agricultural drought monitoring"
+],
+[
+"**CROP framework**",
+"Rabi **2024-25** wheat **122.724 MT**"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Resourcesat**",
+"Crop acreage, watershed management, precision farming"
+],
+[
+"**SLUSI**",
+"Maps soils"
+],
+[
+"**Meghdoot**",
+"Agro-met advisory app of **IMD and ICAR**"
+]
+]
+}
+]
+}

@@ -1,0 +1,414 @@
+{
+"1": [
+{
+"k": "h",
+"x": "Agencies and sources"
+},
+{
+"k": "t",
+"h": [
+"Body",
+"Role"
+],
+"r": [
+[
+"**NSSO (now NSO)**",
+"**Collects and publishes** unemployment data – quinquennial Employment-Unemployment rounds (**27th to 68th**); PLFS since **2017**"
+],
+[
+"CSO",
+"Official statistics; merged with NSSO into **NSO (2019)**"
+],
+[
+"**Labour Bureau** (**1920**, Ministry of Labour and Employment)",
+"EUS and **Quarterly Employment Survey**; labour statistics including **industrial disputes, closures, retrenchments and lay-offs** in factories"
+],
+[
+"**CMIE**",
+"Private; monthly **CPHS**, larger sample, different method, higher UR"
+],
+[
+"DGE&T / Employment Exchanges",
+"Job-seeker registration"
+],
+[
+"Census of India",
+"Main / marginal workers every **10** years"
+]
+]
+},
+{
+"k": "b",
+"x": "**Before NITI Aayog** (and still), unemployment data came mainly from the **NSSO** – also described as collected by **CSO and NSSO** (the NSSO was then under the CSO's ministry); not the Planning or Finance Commission, the UNO or a \"Rangarajan / Lakdawala formula\"."
+}
+],
+"2": [
+{
+"k": "h",
+"x": "Status approaches"
+},
+{
+"k": "t",
+"h": [
+"Approach",
+"Reference period / unit",
+"Counted employed if",
+"Captures"
+],
+"r": [
+[
+"**UPS** (Usual Principal Status)",
+"**365 days**",
+"Worked the major time (**183 days or more**)",
+"**Chronic** (long-term) unemployment"
+],
+[
+"**UPSS** (Principal + Subsidiary)",
+"365 days",
+"Also subsidiary work for at least **30 days**",
+"Broadest worker count"
+],
+[
+"**CWS** (Current Weekly Status)",
+"**7 days**",
+"Worked at least **1 hour on any day**",
+"**Chronic + seasonal**"
+],
+[
+"**CDS** (Current Daily Status)",
+"Each day of the reference week; unit = **half day**",
+"**4 hours or more** = full day; **1-4** hours = half day",
+"Daily / intermittent; **highest rate**"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Unemployed for a major part of the year",
+"**Usual status** unemployment"
+],
+[
+"Chronic unemployment",
+"Measured with **usual status** data; the weekly status also captures it"
+],
+[
+"**CDS gives the highest rate**",
+"It also counts the days of unemployment of persons recorded as employed under CWS"
+],
+[
+"NSS reference periods",
+"**Three** (year, week, day); there is no \"Usual / Current Monthly Status\" approach"
+],
+[
+"**Census**",
+"**Main worker = worked 183 days or more** in the year; marginal worker = less than 183 days (a Census line, not an NSS approach)"
+]
+]
+},
+{
+"k": "x",
+"x": "Chronic unemployment = **usual status**; NSS has year, week and day approaches – no monthly one."
+}
+],
+"3": [
+{
+"k": "h",
+"x": "Definitions"
+},
+{
+"k": "t",
+"h": [
+"Indicator",
+"Definition"
+],
+"r": [
+[
+"**Labour force**",
+"**Employed + unemployed** (seeking or available for work); workforce = employed only"
+],
+[
+"**LFPR**",
+"Labour force (employed + those willing and available) ÷ **working-age** population (per **100** / **1000**)"
+],
+[
+"**WPR** (Worker Population Ratio)",
+"**Employed persons as a percentage of the total population**"
+],
+[
+"**UR** (Unemployment Rate)",
+"Unemployed ÷ **labour force** × 100"
+],
+[
+"**PU** (Proportion Unemployed)",
+"Unemployed ÷ population"
+],
+[
+"Identity",
+"**WPR = LFPR × (1 − UR)**"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Outside the labour force",
+"**Students, homemakers** and others not seeking work"
+],
+[
+"Casual worker",
+"Non-regular employment"
+],
+[
+"Fixed-term worker",
+"Employed for a predetermined period"
+],
+[
+"Census WPR (NCERT)",
+"About **35 of every 100** persons are workers"
+],
+[
+"PLFS **2022-23** WPR (15+, usual status)",
+"**56.0%**"
+]
+]
+},
+{
+"k": "x",
+"x": "Percentage of employed persons in the population = **WPR**."
+}
+],
+"4": [
+{
+"k": "h",
+"x": "PLFS"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Conducted by",
+"**National Statistical Office (NSO), MoSPI** – NSO's **standard method** for measuring unemployment since **2017**"
+],
+[
+"Designed by",
+"**Standing Committee on Labour Force Statistics (SCLFS)**, set up on the advice of the **National Statistical Commission**"
+],
+[
+"Launch",
+"**April 2017**; **first annual report (2017-18) released May 2019**"
+],
+[
+"Replaced",
+"Quinquennial NSSO rounds (last = **68th, 2011-12**)"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Feature",
+"Original",
+"From January 2025"
+],
+"r": [
+[
+"Monthly",
+"–",
+"**Monthly all-India CWS** estimates (LFPR, WPR, UR)"
+],
+[
+"Quarterly",
+"**Urban only** (CWS)",
+"Extended to rural"
+],
+[
+"Annual",
+"Rural + urban, UPSS and CWS",
+"Calendar year (Jan-Dec)"
+],
+[
+"Sample",
+"–",
+"**Raised** to about **2,72,304 households**"
+]
+]
+},
+{
+"k": "b",
+"x": "**Criticism:** CWS (**1** hour a week = employed) **masks underemployment** and misses **circular migration**; CMIE and PLFS diverge (monthly, larger sample, different method)."
+}
+],
+"5": [
+{
+"k": "h",
+"x": "AP in PLFS 2023-24"
+},
+{
+"k": "t",
+"h": [
+"Indicator (usual status, 15+)",
+"AP",
+"India"
+],
+"r": [
+[
+"**Unemployment rate**",
+"**4.1%**",
+"**3.2%**"
+],
+[
+"Rural / urban UR",
+"**3.4% / 5.9%**",
+"**2.5% / 5.1%**"
+],
+[
+"Male / female UR",
+"**4.3% / 3.7%**",
+"**3.2% / 3.2%**"
+],
+[
+"Youth (15-29) UR",
+"**17.5%** (rural **15.5**, urban **22.7**)",
+"**10.2%**"
+],
+[
+"Urban female youth UR",
+"**29.1%**",
+"**20.1%**"
+]
+]
+},
+{
+"k": "b",
+"x": "AP is **above** the national rate, driven by urban and youth unemployment; AP female UR (**3.7%**) is **below** male (**4.3%**)."
+}
+],
+"6": [
+{
+"k": "h",
+"x": "Committees on employment statistics"
+},
+{
+"k": "t",
+"h": [
+"Committee",
+"Year",
+"Contribution"
+],
+"r": [
+[
+"**Dantwala** (Expert Committee on Unemployment Estimates)",
+"**1970**",
+"Rejected a single number; **separate estimates by status and by category**"
+],
+[
+"**Bhagwati** (Committee on Unemployment)",
+"**1973**",
+"Reviewed estimates and employment-oriented policies"
+],
+[
+"SCLFS",
+"**2017**",
+"Designed PLFS"
+]
+]
+}
+],
+"0": [
+{
+"k": "t",
+"h": [
+"Survey / source",
+"Unemployment rate",
+"Note"
+],
+"r": [
+[
+"NSS 61st (2004-05)",
+"Usual status **2.3%** (2.2% in 1999-2000); CDS **8.2%**",
+"CDS had risen from 6.1% (1993-94)"
+],
+[
+"NSS 66th (2009-10)",
+"CDS **6.6%**",
+"Down from 8.2% (2004-05)"
+],
+[
+"**NSS 68th (2011-12)**",
+"**UPS 2.7%, CWS 3.7%, CDS 5.6%** (UPSS about 2.2%)",
+"Last quinquennial round; **UPS < CWS < CDS**"
+],
+[
+"PLFS 2017-18",
+"6.1%",
+"First PLFS; \"45-year high\""
+],
+[
+"**PLFS 2019-20**",
+"**4.8%** (15+, UPSS)",
+"–"
+],
+[
+"PLFS 2022-23",
+"3.2%",
+"Graduates about 13%"
+],
+[
+"PLFS 2023-24",
+"**3.2%** (UPSS)",
+"Rural **2.5%**, urban **5.1%**"
+],
+[
+"PLFS 2025 (calendar)",
+"**3.1%**",
+"LFPR about 59%, WPR about 57%"
+],
+[
+"CMIE",
+"**53 million** unemployed (Dec 2021); UR **6.57%** (Jan 2022); **8.30%** (Dec 2022)",
+"Private, monthly"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Monthly CWS (2026)",
+"5.1% (Mar) → 5.2% (Apr) → **5.5% (May)**"
+],
+[
+"Quarterly, Jan-Mar 2026",
+"5.0% (**urban 6.6%**, rural 4.3%)"
+],
+[
+"Employed males per 1,000, urban (1999-2000)",
+"Descending: West Bengal, Assam, Nagaland, Meghalaya"
+]
+]
+},
+{
+"k": "b",
+"x": "**CWS rates exceed UPSS** because the 7-day period captures **seasonal** unemployment."
+}
+]
+}

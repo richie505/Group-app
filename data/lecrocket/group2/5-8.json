@@ -1,0 +1,334 @@
+{
+"0": [
+{
+"k": "h",
+"x": "Cryptocurrency"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Cryptocurrency**",
+"Money transfers secured with **encryption (cryptography)**; peer-to-peer; **without a central bank**"
+],
+[
+"**Bitcoin** (**2009**)",
+"First cryptocurrency, by pseudonymous **Satoshi Nakamoto**; decentralised"
+],
+[
+"Creation",
+"Coins created by **mining** (complex software / computation)"
+],
+[
+"Tracking",
+"**Not tracked by central banks**"
+],
+[
+"Use",
+"Anyone with an address can send/receive; payments possible **without either side knowing the other's identity**"
+],
+[
+"RBI",
+"**Never recognised it as legal tender**"
+]
+]
+},
+{
+"k": "h",
+"x": "Countries and platforms"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Japan**",
+"Recognised Bitcoin as a **legal payment method from 1 April 2017**; the **Yen** is Japan's fiat currency"
+],
+[
+"**BuyUcoin**",
+"First Indian platform for **wholesale crypto trading** (April 2019)"
+]
+]
+},
+{
+"k": "h",
+"x": "India's rules"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Status",
+"Crypto **not legal tender**"
+],
+[
+"VDA providers",
+"Under **PMLA (March 2023)**"
+],
+[
+"Tax",
+"**30%** on VDA gains (**Sec 115BBH**, Finance Act **2022**) + **1% TDS** (**Sec 194S**); losses cannot be set off"
+]
+]
+}
+],
+"1": [
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Blockchain**",
+"A **time-stamped series of immutable records** managed by a **cluster of computers not owned by any single entity**"
+],
+[
+"Origin",
+"First introduced in **Bitcoin** (Satoshi Nakamoto)"
+],
+[
+"Ledger",
+"Public; anyone can inspect it; no single user controls it"
+],
+[
+"Data",
+"Not limited to cryptocurrency"
+],
+[
+"Apps",
+"Can be built **without anybody's permission**"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Term",
+"Meaning"
+],
+"r": [
+[
+"Distributed ledger",
+"Shared ledger copied across nodes; single source of truth; no central validator"
+],
+[
+"Block",
+"Transactions + **timestamp** + **hash of the previous block**"
+],
+[
+"Hash / node",
+"Cryptographic fingerprint of a block / a computer holding a ledger copy"
+],
+[
+"Immutability",
+"Cannot be altered without consensus – no central authority changes data"
+],
+[
+"Consensus",
+"Rule by which nodes agree on valid transactions"
+]
+]
+},
+{
+"k": "b",
+"x": "Stakeholders **hold copies** and changes need **consensus** – so records are visible but not alterable."
+},
+{
+"k": "b",
+"x": "**Uses:** land records, certificates, supply chain, **e-voting**, health records, e-Notary, farm insurance."
+}
+],
+"2": [
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Digital rupee (e₹)**",
+"India's **CBDC** – **sovereign currency issued by the RBI**; legal tender"
+],
+[
+"Balance sheet",
+"A **direct liability on the RBI's balance sheet**"
+],
+[
+"Convertibility",
+"**Freely convertible against commercial bank money and cash**"
+],
+[
+"Inflation",
+"Not \"insured against inflation\""
+]
+]
+},
+{
+"k": "b",
+"x": "RBI **concept note on CBDC: October 2022**."
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"e-rupee vs UPI",
+"e-rupee is RBI money; UPI only moves bank-account money"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Pilot",
+"Start",
+"Use"
+],
+"r": [
+[
+"Wholesale (e₹-W)",
+"**1 Nov 2022**",
+"Settlement of **secondary-market government securities**"
+],
+[
+"Retail (e₹-R)",
+"**1 Dec 2022**",
+"Closed user group – **Mumbai, New Delhi, Bengaluru, Bhubaneswar**"
+]
+]
+}
+],
+"3": [
+{
+"k": "t",
+"h": [
+"Public / permissionless",
+"Private / permissioned"
+],
+"r": [
+[
+"Anyone can join, read, validate (**Bitcoin**)",
+"Only authorised entities (**AP DigiVerify**)"
+],
+[
+"**Proof of Work** – miners race to solve puzzles; far more energy",
+"**Proof of Stake** – validators chosen by coins staked"
+],
+[
+"Bitcoin still PoW",
+"**Ethereum** since **The Merge (Sept 2022)**"
+]
+]
+}
+],
+"4": [
+{
+"k": "t",
+"h": [
+"Term",
+"Meaning"
+],
+"r": [
+[
+"NFT",
+"**Non-Fungible Token** – unique, not exchangeable at equivalency"
+],
+[
+"Smart contract",
+"Self-executing code; cuts intermediaries"
+],
+[
+"DeFi",
+"Lending/trading via smart contracts without banks"
+],
+[
+"Stablecoin",
+"Pegged to fiat, commodities or crypto"
+],
+[
+"Tokenisation",
+"Ownership rights in an asset → blockchain token"
+]
+]
+}
+],
+"5": [
+{
+"k": "t",
+"h": [
+"Initiative",
+"Body / year",
+"Key detail"
+],
+"r": [
+[
+"National Strategy on Blockchain",
+"**MeitY (Dec 2021)**",
+"National strategy"
+],
+[
+"Distributed CoE in Blockchain",
+"MeitY; C-DAC, **IDRBT Hyderabad**, VJTI Mumbai",
+"Property pilot **Shamshabad (Telangana)**; Proof-of-Existence for **certificates**"
+],
+[
+"**Vishvasya**",
+"MeitY (2024)",
+"**Blockchain-as-a-Service** on **NIC** data centres; builds on the National Blockchain Framework"
+],
+[
+"Drunix",
+"NPCI (Jun 2026)",
+"Rebuilt from **Hyperledger Fabric**; NPCI's 2nd after **Falcon**"
+]
+]
+},
+{
+"k": "h",
+"x": "Andhra Pradesh"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**AP DigiVerify**",
+"Permissioned-blockchain PaaS for certificate verification"
+],
+[
+"**Mee Bhoomi-Mee Hakku** (10 Apr 2026)",
+"Tamper-proof **pattadar passbooks**"
+],
+[
+"**Mee Bhoomi-Blockchain** pilot",
+"CM Naidu, **23 Jul 2026**; unifies **Revenue, Survey, Registration**"
+],
+[
+"**1 Jan 2026**",
+"Supreme Court suggested blockchain for **land records**"
+]
+]
+}
+]
+}

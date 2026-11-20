@@ -1,0 +1,285 @@
+{
+"0": [
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Cloud computing**",
+"Hosted computing services (storage, servers, databases, software) over the internet **on demand**, pay-as-you-go"
+],
+[
+"Features",
+"On-demand self-service, broad network access, **resource pooling** (many users share resources), **elasticity** (resources grow/shrink with demand), measured service"
+],
+[
+"Deployment models",
+"Public, private, hybrid, community"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Model",
+"User gets",
+"Example"
+],
+"r": [
+[
+"**IaaS**",
+"Servers, storage, network (includes \"**Hardware as a Service**\")",
+"**Amazon EC2**, AWS"
+],
+[
+"**PaaS** (**Platform as a Service**)",
+"Platform to develop, test, deploy, run apps",
+"**Google App Engine**"
+],
+[
+"**SaaS**",
+"Ready software over the web; mobile access, customisable",
+"Gmail, Outlook"
+]
+]
+},
+{
+"k": "b",
+"x": "**Allotment of electromagnetic spectrum** is not a cloud service."
+},
+{
+"k": "t",
+"h": [
+"Storage service",
+"Company"
+],
+"r": [
+[
+"**SkyDrive** (now OneDrive)",
+"**Microsoft**"
+],
+[
+"S3",
+"Amazon Web Services"
+],
+[
+"iCloud / Google Drive / Dropbox",
+"Apple / Google / Dropbox"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**MeghRaj (GI Cloud)**",
+"Government of India cloud for e-services on **NIC** infrastructure"
+]
+]
+}
+],
+"1": [
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Big data**",
+"Large volume of **high-velocity, complex and variable** data"
+],
+[
+"Classic **3 Vs**",
+"**Volume, Velocity, Variety**; **Veracity** and **Value** added later"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Term",
+"Meaning"
+],
+"r": [
+[
+"Data mining",
+"Finding patterns in large datasets"
+],
+[
+"Data warehouse",
+"Cleaned, **structured** data for analysis"
+],
+[
+"Data lake",
+"**Raw** data in native format"
+],
+[
+"Metadata",
+"Data about data"
+],
+[
+"R",
+"Language used for **statistical computing**"
+]
+]
+},
+{
+"k": "b",
+"x": "AI, quantum computing and data science improve environmental management by **analysing large datasets** to predict pollution, optimise resources and simulate climate models."
+},
+{
+"k": "h",
+"x": "India"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**NDGF Policy (MeitY, 2022)**",
+"India Data Management Office + India Datasets Programme"
+],
+[
+"**OGD Platform**",
+"NDSAP **2012**"
+],
+[
+"IndiaAI Datasets Platform",
+"**AI-Kosh**"
+],
+[
+"UN",
+"Member of the **UN Committee of Experts on Big Data and Data Science** and its Advisory Board"
+],
+[
+"**ES 2025-26**",
+"UDISE+, AISHE, ABDM surveys + AI for health hotspots"
+]
+]
+}
+],
+"2": [
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**HyperVault AI Data Centre Ltd**",
+"**TCS + TPG** joint venture (2025) for AI-focused, sovereign data centres"
+],
+[
+"Capacity",
+"**375 MW (2020) → 1.57 GW (2026) → ~8 GW (2030)**; **Mumbai** has the largest share (~52%)"
+],
+[
+"**PUE**",
+"Total facility energy ÷ IT energy; **closer to 1 = better** (1.1 best)"
+],
+[
+"**Uptime Tier IV**",
+"Fully fault-tolerant, **~99.995%**"
+],
+[
+"**Draft Data Centre Policy (Sep 2025)**",
+"**20-year** tax holiday"
+],
+[
+"Power use",
+"Data centres use ~**1%** of global electricity"
+]
+]
+},
+{
+"k": "h",
+"x": "Visakhapatnam"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Projection",
+"Biggest hub (~6 GW over 10 years)"
+],
+[
+"Site",
+"Vizag–Kapuluppada corridor in **Seismic Zone II**"
+],
+[
+"Advantages",
+"Submarine cables, sea-breeze cooling, nearness to **Southeast Asia**"
+],
+[
+"Projects",
+"**Google $15 billion, 1 GW AI hub** (Oct 2025); **TCS – HyperVault**"
+]
+]
+}
+],
+"3": [
+{
+"k": "t",
+"h": [
+"Model",
+"Where",
+"Feature"
+],
+"r": [
+[
+"Cloud",
+"Distant central data centres",
+"Heavy storage, analytics"
+],
+[
+"**Fog**",
+"**Between edge and cloud**",
+"Local aggregation"
+],
+[
+"**Edge**",
+"**On / near the device**",
+"**Lowest latency**; saves bandwidth"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Virtualisation**",
+"One server runs many VMs, each with its own OS"
+],
+[
+"**Containers** (Docker)",
+"Lighter – **share the host OS kernel**"
+],
+[
+"**Serverless**",
+"Provider runs and scales servers, bills per use (AWS Lambda)"
+]
+]
+}
+]
+}

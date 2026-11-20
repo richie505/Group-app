@@ -1,0 +1,562 @@
+{
+"0": [
+{
+"k": "h",
+"x": "The rule"
+},
+{
+"k": "b",
+"x": "Earth turns **360° in 24 h**, **west to east** → **15° = 1 hour**, **1° = 4 minutes**, **1' of arc = 4 seconds**."
+},
+{
+"k": "t",
+"h": [
+"Longitude gap",
+"Time gap"
+],
+"r": [
+[
+"1°",
+"**4 minutes**"
+],
+[
+"15°",
+"**1 hour (60 min)**"
+],
+[
+"90°",
+"6 hours"
+],
+[
+"180°",
+"**12 hours** (720 min)"
+],
+[
+"1' of arc",
+"4 seconds"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Direction",
+"**East is ahead (add), west is behind (subtract)**; moving westward, local time **falls behind**"
+],
+[
+"Examples",
+"A place 30° west of Greenwich is **2 hours behind** GMT; the 15°E meridian is **1 hour fast**"
+],
+[
+"**Same side** of Greenwich",
+"Subtract the longitudes"
+],
+[
+"**Opposite sides**",
+"Add them (25°E and 35°W = 60° = **4 h**; 6°W and 9°E = 15° = 1 h)"
+],
+[
+"**Same meridian**",
+"**Same local time**, however far apart north–south"
+],
+[
+"Journey / message",
+"Arrival local time = departure + travel time ± longitude time"
+]
+]
+},
+{
+"k": "b",
+"x": "Method: find the longitude gap, multiply by 4 min, then add (east) or subtract (west) – check the side of Greenwich first."
+},
+{
+"k": "h",
+"x": "Worked examples"
+},
+{
+"k": "t",
+"h": [
+"Given",
+"Result"
+],
+"r": [
+[
+"Flight 10:00 a.m., 3 h, 15° east",
+"**2:00 p.m.**"
+],
+[
+"Telegram from Greenwich at noon, 12 min in transit, arrives 6:00 p.m.",
+"5 h 48 min = 348 min ÷ 4 = **87°E**"
+],
+[
+"A 6°W at 10 a.m. → B 9°E",
+"15° = 1 h → **11 a.m.**"
+],
+[
+"A 60°W at 10 a.m. → B 90°E",
+"150° = 10 h → **8 p.m.**"
+],
+[
+"3:40 p.m. GMT → 10°W, West Africa",
+"40 min behind → **3:00 p.m.**"
+],
+[
+"Noon GMT, place at 6 a.m.",
+"**90°W**"
+],
+[
+"Noon at IST meridian, place at 6 a.m.",
+"82°30'E − 90° = **7°30'W**"
+],
+[
+"Noon at 82°30'E, place at 6:30 a.m.",
+"5½ h = 82°30' west → **0°**"
+],
+[
+"Midnight IST, place at 6 a.m.",
+"82°30' + 90° = **172°30'E**"
+],
+[
+"Noon IST → 120°E",
+"37°30' × 4 = 150 min → **14:30**"
+],
+[
+"10:00 a.m. IST → Shillong 92°E",
+"9.5° × 4 = 38 min → **10:38 a.m.**"
+],
+[
+"Greenwich noon → 5 p.m. local",
+"**75°E**"
+],
+[
+"GMT 3 a.m., local 6 a.m.",
+"**45°E**"
+],
+[
+"Cairo 2 h ahead of Greenwich",
+"**30°E**"
+],
+[
+"Thimphu 90°E at Greenwich noon",
+"**6:00 p.m.**"
+],
+[
+"Sunrise Tirap (Arunachal) 5 a.m. → Kandla (Gujarat, ~70°E)",
+"~25° ≈ 1 h 40 min → **about 7:00 a.m.**"
+]
+]
+},
+{
+"k": "b",
+"x": "**Ship** sailing west at the speed of rotation, **10:00 Monday** at 90°W: it keeps pace with the Sun, so at the Date Line it is still 10:00 Monday."
+},
+{
+"k": "b",
+"x": "**Rotation reversed**: normally IST is 5½ h ahead of GMT and the 180°W side 12 h behind; reversed, IST would be 17½ h behind the Date Line → noon there = **18:30 hrs IST**."
+}
+],
+"1": [
+{
+"k": "h",
+"x": "IST"
+},
+{
+"k": "t",
+"h": [
+"Item",
+"Key detail"
+],
+"r": [
+[
+"**Standard meridian**",
+"**82°30'E (82.5°E)** – India's central meridian"
+],
+[
+"IST vs GMT",
+"**GMT + 5 h 30 min** (82.5 × 4 = 330 min), i.e. **5½ h ahead**; 0000 UTC = **5:30 a.m. IST**"
+],
+[
+"Reference town",
+"**Mirzapur, UP** (clock tower); the meridian passes just east of **Prayagraj (Allahabad – Naini)**"
+],
+[
+"City closest",
+"**Rewa** (MP, ~81°18'E)"
+],
+[
+"States crossed, W→E",
+"**Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha, Andhra Pradesh** – 5 (West Bengal lies east of it); last state = **Andhra Pradesh** (Kakinada district)"
+],
+[
+"Meets the Tropic of Cancer",
+"**Koriya district, Chhattisgarh**, on the **Baghelkhand Plateau**"
+],
+[
+"Keeper",
+"**CSIR-National Physical Laboratory, New Delhi**"
+]
+]
+},
+{
+"k": "x",
+"x": "The Tropic crosses 8 states, the IST line 5; **Chhattisgarh** is on both."
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**History**",
+"Time zones set in **1884** – **Bombay Time** (GMT + 4 h 51 min) and **Calcutta Time** (GMT + 5 h 53 min 20 s); a single IST adopted after Independence (**1947**; Calcutta Time lasted till 1948, Bombay Time till 1955)"
+],
+[
+"**Basis of standard time**",
+"The local time of a **chosen longitude** (usually the central meridian), counted from Greenwich"
+],
+[
+"**City longitudes**",
+"Delhi ~77°12'E – closest: **Bengaluru** (~77°35'E); Hyderabad ~78°29'E, Nagpur ~79°05'E, Pune ~73°51'E"
+]
+]
+},
+{
+"k": "h",
+"x": "India's span and the two-time-zone debate"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Longitude",
+"**68°7'E (Guhar Moti, Kutch)** to **97°25'E** (Arunachal; easternmost between 97°25' and 97°30'E) → ~29° ≈ 116 min → **about 2 hours** between Arunachal and Gujarat"
+],
+[
+"Latitude",
+"**8°4'N** (mainland, Kanyakumari) to **37°6'N** (Indira Col); both extents **about 30°**; older texts: **8°4'28\"N to 37°17'53\"N**"
+],
+[
+"Andhra Pradesh",
+"**12°41'N – 19°07'N**, ~77°E – 84°40'E"
+],
+[
+"Proposals",
+"The North-East loses daylight hours: advance IST by **30 min**, or a second zone ~1 h ahead"
+],
+[
+"**\"Bagan time\" (Chaibagaan time)**",
+"Informal Assam tea-garden time, 1 h ahead of IST – not official"
+]
+]
+},
+{
+"k": "h",
+"x": "IST in 2026"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**White Rabbit** network (Jul 2026)",
+"IST distribution at the Regional Reference Standards Laboratory, **Jakkur (Bengaluru)** – sub-nanosecond sync over fibre, independent of GPS; protocol developed at **CERN**; \"One Nation, One Time\" (NPL–ISRO)"
+],
+[
+"Uses",
+"Synchronised high-precision IST time-stamps for banking, payments, railways, airports, power grids and telecom; guards against GPS spoofing"
+],
+[
+"**Legal Metrology (Indian Standard Time) Rules, 2026**",
+"Notified by the Consumer Affairs Ministry on **27 Aug 2026** – IST the single legal reference; in force **180 days** after Gazette publication"
+]
+]
+}
+],
+"2": [
+{
+"k": "h",
+"x": "Tropic of Cancer"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Latitude",
+"**23°26'N** (written **23½°N / 23°30'N**)"
+],
+[
+"Position",
+"Divides India into **almost two equal halves**; it is not an international boundary"
+],
+[
+"States crossed",
+"**8 states**, W→E: **Gujarat** (first), **Rajasthan**, **Madhya Pradesh**, **Chhattisgarh**, **Jharkhand**, **West Bengal**, **Tripura**, **Mizoram** (last)"
+],
+[
+"States not crossed",
+"**Odisha**, **Uttar Pradesh**, **Bihar**, Himachal, J&K, Assam, AP"
+],
+[
+"Bihar and Jharkhand",
+"Older lists write \"Bihar (Jharkhand)\" – Jharkhand was then part of Bihar"
+],
+[
+"States wholly north",
+"UP, Bihar, Punjab, Haryana, Himachal, Uttarakhand, Sikkim, Assam, Meghalaya, Arunachal, Nagaland, **Manipur**"
+],
+[
+"State wholly south",
+"**Andhra Pradesh lies wholly south**"
+],
+[
+"East–west line",
+"The line joining India's **easternmost and westernmost points lies north** of the Tropic; the maximum east–west extent does not run along the Tropic"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"City",
+"Latitude"
+],
+"r": [
+[
+"**Gandhinagar**",
+"23°13'N"
+],
+[
+"**Jabalpur**",
+"23°11'N"
+],
+[
+"Ujjain",
+"23°9'N"
+],
+[
+"Ahmedabad",
+"23°2'N"
+],
+[
+"Agartala",
+"23°50'N"
+],
+[
+"**Kolkata**",
+"22°34'N"
+]
+]
+},
+{
+"k": "b",
+"x": "Other cities near it: Bhopal and Ujjain (MP), **Ranchi (Jharkhand)**, Agartala (Tripura), Aizawl (Mizoram)."
+},
+{
+"k": "b",
+"x": "**Mahi** crosses it **twice**: rises in MP, flows through Rajasthan and Gujarat into the **Gulf of Khambhat**."
+},
+{
+"k": "h",
+"x": "World"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Tropic of Cancer",
+"Crosses **17 countries** (Mexico, Egypt, Saudi Arabia, UAE, Oman, India, Bangladesh, Myanmar, China …); it does not cross Iran"
+],
+[
+"**Equator**",
+"Passes Kenya, Colombia, **Indonesia**"
+],
+[
+"Globe",
+"**179 parallels** and **360 meridians** at 1° interval"
+]
+]
+},
+{
+"k": "x",
+"x": "Tropic of Cancer: does not pass through **Odisha** or **UP**; **Manipur** lies wholly north of it."
+}
+],
+"3": [
+{
+"k": "h",
+"x": "Time terms"
+},
+{
+"k": "t",
+"h": [
+"Term",
+"Meaning"
+],
+"r": [
+[
+"**GMT**",
+"Mean solar time at the Royal Observatory, **Greenwich (0°)**; Prime Meridian adopted at the International Meridian Conference, **1884**"
+],
+[
+"**UTC**",
+"World time kept by **caesium atomic clocks**; kept in step with the slowing Earth by **leap seconds**"
+],
+[
+"**Leap second**",
+"Added (e.g. **31 Dec 2016**, just before midnight) because the **Earth's rotation is slowing**"
+],
+[
+"**Daylight Saving Time**",
+"Clocks advanced **1 h in summer** to use evening light; **India does not use it**"
+],
+[
+"Natural units",
+"Day (rotation), **month (Moon's revolution)**, year (Earth's revolution)"
+],
+[
+"**NavIC**",
+"7 satellites (3 GEO + 4 GSO); times its signals with **rubidium** atomic clocks"
+]
+]
+},
+{
+"k": "h",
+"x": "Zones"
+},
+{
+"k": "b",
+"x": "**24 theoretical zones** of 15° each; more in practice (half- and quarter-hour offsets)."
+},
+{
+"k": "t",
+"h": [
+"Country / city",
+"Key detail"
+],
+"r": [
+[
+"**France** (with overseas territories)",
+"**12 zones – most**"
+],
+[
+"Russia",
+"**11**"
+],
+[
+"**UK 9, Australia 9, Denmark 5, New Zealand 5** (with territories)",
+"**More than four**"
+],
+[
+"**Brazil**",
+"Exactly 4"
+],
+[
+"**China**",
+"**One** zone despite its width"
+],
+[
+"**Colombo** (Sri Lanka)",
+"Same clock as Mumbai, Kolkata, Chennai (UTC+5:30)"
+],
+[
+"**Nepal**",
+"**UTC+5:45**"
+],
+[
+"**Accra, Dublin, Lisbon, London**",
+"GMT"
+],
+[
+"**Madrid** / **Addis Ababa**",
+"CET / UTC+3"
+]
+]
+},
+{
+"k": "b",
+"x": "Ahead → behind GMT: **Japan (+9) > Iraq (+3) > Greece (+2) > Cuba (−5) > Costa Rica (−6)**."
+}
+],
+"4": [
+{
+"k": "h",
+"x": "International Date Line"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Line",
+"Imaginary **pole-to-pole** line roughly along **180°** in the **middle of the Pacific Ocean**"
+],
+[
+"Time difference",
+"**12 hours** (720 min) from Greenwich, because it is the 180° meridian"
+],
+[
+"Nearest strait",
+"**Bering Strait** – between the **Chukchi** (Russia) and **Seward** (Alaska) peninsulas"
+],
+[
+"Shape",
+"**Zigzags** where **land is in the way**: Chukotka, Aleutians, Kiribati, Fiji, Tonga, Samoa"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Crossing",
+"Date change"
+],
+"r": [
+[
+"**Eastward** (Asia → America)",
+"**Subtract a day** (gain a day)"
+],
+[
+"**Westward** (America → Asia)",
+"**Add a day** (lose a day)"
+]
+]
+},
+{
+"k": "b",
+"x": "**Big Diomede (Russia) and Little Diomede (USA)** are neighbours on opposite sides, a day apart."
+},
+{
+"k": "b",
+"x": "**Samoa** moved to the Asian side in **2011**; **Kiribati's Line Islands** (UTC+14) are first to see a new day."
+},
+{
+"k": "b",
+"x": "A ship's least-time path is often given as \"along the meridian\"; strictly the shortest route is a **great-circle** route (meridians are great circles)."
+}
+]
+}

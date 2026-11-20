@@ -1,0 +1,587 @@
+{
+"0": [
+{
+"k": "h",
+"x": "Basics"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Malware** (malicious software)",
+"Single word for viruses, worms, trojans etc.: software **designed to disrupt, damage or gain unauthorised access** to a computer (not merely buggy software)"
+],
+[
+"**VIRUS**",
+"\"**Vital Information Resources Under Siege**\"; a program that **replicates itself**, **attaches to files** and spreads from computer to computer"
+],
+[
+"Virus entry",
+"Via **images, audio/video files, downloads, attachments**; infects storage such as a **pen drive**, not a display or keyboard"
+],
+[
+"**Bug**",
+"A fault in a program that stops it working correctly"
+],
+[
+"**Father of computer virology**",
+"**John von Neumann** (1949 theory of self-reproducing automata)"
+]
+]
+},
+{
+"k": "h",
+"x": "Types of malware"
+},
+{
+"k": "t",
+"h": [
+"Type",
+"Defining behaviour",
+"Example"
+],
+"r": [
+[
+"**Virus**",
+"**Attaches to files**, reproduces and spreads; the user must run the infected file",
+"Brain, Michelangelo"
+],
+[
+"**Worm**",
+"Uses the **network to send copies of itself without user action**; needs no host program",
+"WannaCry, Morris"
+],
+[
+"**Trojan**",
+"**Looks like legitimate software**, tricks the user into installing it, then acts like a virus/worm; no self-replication; backdoor",
+"Zeus"
+],
+[
+"Ransomware",
+"Encrypts files, demands ransom (often crypto)",
+"WannaCry, Petya"
+],
+[
+"Spyware",
+"Secret surveillance; steals passwords, banking data",
+"Pegasus"
+],
+[
+"Adware",
+"Unwanted ads; bundled with free/pirated software",
+"Fireball"
+],
+[
+"**Rootkit**",
+"Administrator-level access; **modifies the host OS to hide malware**; hardest to detect",
+"Stuxnet parts"
+],
+[
+"**Stealth virus**",
+"Designed to **hide from antivirus** detection",
+"–"
+],
+[
+"Keylogger",
+"Records keystrokes (passwords, PINs, OTPs)",
+"DarkHotel"
+],
+[
+"Botnet",
+"Network of hijacked \"zombie\" devices for DDoS, spam",
+"Mirai (IoT)"
+]
+]
+},
+{
+"k": "b",
+"x": "**Antivirus** software: McAfee, Kaspersky, Avast, **Webroot**, Norton; a rootkit is malware."
+},
+{
+"k": "b",
+"x": "Viruses, worms and trojans all threaten **electronic payment systems**."
+},
+{
+"k": "x",
+"x": "Spreads over the network by itself without user action = **worm**; disguised as genuine software, no self-replication = **trojan**."
+}
+],
+"1": [
+{
+"k": "h",
+"x": "Attack techniques"
+},
+{
+"k": "b",
+"x": "**Cyber attack** = any attempt to harm, damage or threaten a computer system or network."
+},
+{
+"k": "t",
+"h": [
+"Threat",
+"Meaning"
+],
+"r": [
+[
+"Hacking",
+"Unauthorised access to or manipulation of a system"
+],
+[
+"**Phishing**",
+"**Deceptive e-mails/texts** that look legitimate, tricking users into **revealing sensitive information** (card details, PIN) or installing software"
+],
+[
+"Vishing",
+"Phishing by voice calls"
+],
+[
+"**Spoofing**",
+"E-mail **appears to come from one source but is sent from another**; a **fake website posing as a legitimate one** steals user data"
+],
+[
+"**Spam**",
+"**Junk / unsolicited bulk e-mail** (a computer term)"
+],
+[
+"**E-mail bombing**",
+"**Identical e-mail sent repeatedly** to one address to overflow it"
+],
+[
+"Sniffing",
+"Capturing data packets on a network"
+],
+[
+"**DoS / DDoS**",
+"**Denial of Service**: **flooding** a server with fake traffic so genuine users **cannot access** it; DDoS uses many machines (botnet)"
+],
+[
+"Ransomware",
+"Locks data and demands payment"
+],
+[
+"Man-in-the-middle",
+"Secretly intercepts/alters communication between two parties"
+],
+[
+"SQL injection",
+"Malicious database code via website input fields"
+],
+[
+"Zero-day",
+"Exploits an unknown, unpatched flaw (e.g. Pegasus)"
+],
+[
+"Supply-chain attack",
+"Compromises a trusted vendor, e.g. SolarWinds (2020)"
+],
+[
+"**Social engineering**",
+"**Exploiting the human element** (trust, urgency, curiosity) to gain access"
+]
+]
+}
+],
+"2": [
+{
+"k": "h",
+"x": "Named malware and attacks"
+},
+{
+"k": "t",
+"h": [
+"Name",
+"Type",
+"Origin / note"
+],
+"r": [
+[
+"**Creeper (1971)**",
+"**First** self-copying program/virus",
+"ARPANET (Bob Thomas, BBN); removed by **Reaper**"
+],
+[
+"Elk Cloner (1982)",
+"First virus \"in the wild\"",
+"Apple II, Rich Skrenta"
+],
+[
+"**Brain (1986)**",
+"First IBM-PC boot-sector virus",
+"**Alvi brothers, Lahore, Pakistan**"
+],
+[
+"**Michelangelo**",
+"Virus",
+"Made to infect **MS-DOS on 6 March 1992**; first found in Australia (1991)"
+],
+[
+"**Stuxnet (2010)**",
+"Worm with rootkit parts",
+"**Sabotaged uranium centrifuges** at Natanz, Iran (industrial control systems)"
+],
+[
+"**Petya (2016) / NotPetya (June 2017)**",
+"**Ransomware**",
+"Encrypts the master boot record; NotPetya hit Ukraine"
+],
+[
+"**WannaCry (May 2017)**",
+"**Ransomware** spreading as a worm",
+"Paralysed networks in 150 countries; used **EternalBlue**; Lazarus group (North Korea)"
+],
+[
+"EternalBlue",
+"Exploit of a Windows SMB flaw",
+"US **NSA**; leaked by Shadow Brokers (2017)"
+],
+[
+"**StrandHogg (2019)**",
+"**Android** vulnerability",
+"Malware **poses as genuine apps**; MHA alert; found by Promon (Norway)"
+],
+[
+"**Pegasus**",
+"Zero-click spyware",
+"**NSO Group, Israel**"
+],
+[
+"Mirai",
+"Botnet",
+"Hijacked IoT devices for DDoS"
+]
+]
+},
+{
+"k": "b",
+"x": "CERT-In flags (2014): Hikti, Dyreza Trojan, Shellshock."
+},
+{
+"k": "x",
+"x": "WannaCry, Petya and EternalBlue = **cyber attacks / ransomware**; Petya was the latest virus of 2017, and many ransomware strains have come since."
+}
+],
+"3": [
+{
+"k": "h",
+"x": "Tools"
+},
+{
+"k": "t",
+"h": [
+"Tool",
+"Function"
+],
+"r": [
+[
+"**Firewall**",
+"**Filters** incoming/outgoing internet traffic by rules; **blocks unauthorised access**; hardware, software or both"
+],
+[
+"Antivirus",
+"Prevents and heals infections"
+],
+[
+"**Password**",
+"Improves **security**"
+],
+[
+"MFA / 2FA",
+"Password + OTP/biometric"
+],
+[
+"Honeypot",
+"Decoy system to trap attackers"
+],
+[
+"**Virtual keyboard**",
+"Defeats **keyloggers**: protects against **password theft, trojans and spyware**"
+],
+[
+"**M-Kavach**",
+"Indigenous; **C-DAC Hyderabad**"
+],
+[
+"**CERT-In**",
+"CVE Numbering Authority"
+]
+]
+},
+{
+"k": "h",
+"x": "CIA triad"
+},
+{
+"k": "t",
+"h": [
+"Principle",
+"Meaning"
+],
+"r": [
+[
+"**Confidentiality**",
+"Procedures, policies and controls securing data **against illicit access or use**"
+],
+[
+"Integrity",
+"Protection against alteration"
+],
+[
+"Availability",
+"Access for authorised users (denial = availability lost)"
+]
+]
+},
+{
+"k": "b",
+"x": "Full list: confidentiality, integrity, availability, **accountability, non-repudiation**; the **IRDAI** (2021) retail cyber cover excludes **gross negligence**."
+},
+{
+"k": "h",
+"x": "Cryptography"
+},
+{
+"k": "t",
+"h": [
+"Term",
+"Key point"
+],
+"r": [
+[
+"**Symmetric**",
+"Same key encrypts and decrypts – AES, **Blowfish** (**Bruce Schneier, 1993**; faster alternative to DES)"
+],
+[
+"Asymmetric",
+"Public-private key pair – **RSA**; basis of PKI"
+],
+[
+"Digital signature",
+"Signed with the sender's **private** key, verified with the **public** key"
+],
+[
+"Hashing",
+"One-way, fixed-length digest (**SHA-256**)"
+]
+]
+}
+],
+"4": [
+{
+"k": "h",
+"x": "Cybercrime and hackers"
+},
+{
+"k": "b",
+"x": "**Cybercrime** = any crime involving a computer and a network: **hacking, stalking, DoS attacks**, spam, online fraud, cyber terrorism (**online chatting is not a cybercrime**); deviant acts through IT = **cyber crimes**."
+},
+{
+"k": "t",
+"h": [
+"Actor",
+"Meaning"
+],
+"r": [
+[
+"**Hacker**",
+"Person who **gains illegal/unauthorised access** to a computer system"
+],
+[
+"**Cracker = black-hat hacker**",
+"Malicious hacker: destroys data, **denies service**"
+],
+[
+"White-hat hacker",
+"Ethical hacker"
+]
+]
+},
+{
+"k": "h",
+"x": "Crimes against persons"
+},
+{
+"k": "t",
+"h": [
+"Crime",
+"Modus operandi / law"
+],
+"r": [
+[
+"**Digital arrest**",
+"**Not a real police power** – a **term used by cyber criminals to scare victims**: posing as police/CBI on a video call and extorting money"
+],
+[
+"Cyber slavery",
+"Trafficking people and forcing them to run cyber fraud from scam centres (**Myanmar and Laos**, MEA 2025)"
+],
+[
+"Identity theft",
+"IT Act Sec. **66C**"
+],
+[
+"Sextortion",
+"Blackmail with intimate images; **66E/67A**"
+],
+[
+"Dark web",
+"Hidden internet via **Tor**; illegal marketplaces, data dumps"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Telangana** police",
+"One of India's first cases of trafficking for cyber fraud (INTERPOL); FIU-India flagged **Rs 800 crore** laundering"
+],
+[
+"**Supreme Court**",
+"Centre, States, RBI and **telecom authorities** to frame SOPs and use zero FIRs"
+],
+[
+"Digital-arrest complaints on NCRP",
+"1,23,672 (2024) to 58,249 (2025)"
+]
+]
+},
+{
+"k": "h",
+"x": "Financial cyber frauds"
+},
+{
+"k": "t",
+"h": [
+"Fraud",
+"Modus operandi"
+],
+"r": [
+[
+"SIM swap",
+"Duplicate SIM to **intercept OTPs**"
+],
+[
+"UPI / QR fraud",
+"A QR code is scanned only to **pay**, never to receive"
+],
+[
+"Crime-as-a-service",
+"Syndicates rent out ransomware and fraud tools"
+],
+[
+"Crypto-jacking",
+"Secretly using a victim's device to mine cryptocurrency"
+]
+]
+}
+],
+"5": [
+{
+"k": "h",
+"x": "Attacks on Indian systems"
+},
+{
+"k": "t",
+"h": [
+"Incident",
+"Target / State"
+],
+"r": [
+[
+"**e-Nagarpalika portal (Dec 2023)**",
+"Online civic tax portal, **Madhya Pradesh**"
+],
+[
+"**Power utilities (2019)**",
+"**Ransomware** on servers of **Telangana and Andhra Pradesh** power utilities"
+],
+[
+"AIIMS Delhi (2022)",
+"Ransomware on hospital servers"
+],
+[
+"Kudankulam NPP (2019)",
+"Malware on the admin network, Tamil Nadu"
+],
+[
+"Cosmos Bank (2018)",
+"~Rs 94 crore ATM/SWIFT fraud, **Pune**"
+]
+]
+},
+{
+"k": "b",
+"x": "**AP:** **APTS** watches Critical Government Infrastructure via **APCSOC**; audited **270** GoAP apps; AP Police–**IIT Tirupati** MoU (Cyber Crime Investigation and Training Academy)."
+},
+{
+"k": "h",
+"x": "Cyber warfare and emerging threats"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Cyber espionage**",
+"Often **state-sponsored** (**APT groups**)"
+],
+[
+"**Cyber terrorism**",
+"Targets critical infrastructure"
+],
+[
+"Tracing",
+"Hard – VPNs, proxies, **botnets**"
+],
+[
+"Emerging threats",
+"AI-powered malware, ransomware-as-a-service, deepfakes"
+],
+[
+"**MeitY 2nd Digital Threat Report 2025-26**",
+"**BFSI**"
+],
+[
+"**Exercise Cyber Suraksha**",
+"DRDO-led, **12 days**, armed forces"
+]
+]
+},
+{
+"k": "h",
+"x": "Data"
+},
+{
+"k": "t",
+"h": [
+"Data",
+"Figure"
+],
+"r": [
+[
+"NCRB 2023 cyber crime cases",
+"**86,420** (+31.2%); fraud **~69%**"
+],
+[
+"Top state (NCRB 2023)",
+"**Karnataka** (21,889)"
+],
+[
+"CERT-In incidents",
+"**29.44 lakh** (2025; highest in five years)"
+]
+]
+}
+]
+}

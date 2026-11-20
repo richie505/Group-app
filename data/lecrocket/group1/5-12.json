@@ -1,0 +1,1583 @@
+{
+"9": [
+{
+"k": "h",
+"x": "ICT – nature and scope"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**ICT**",
+"**Information and Communication Technology** – devices and applications used to **access, store, transmit and manipulate digital information**: hardware, software, networks, data, people, services and infrastructure"
+],
+[
+"**Aim**",
+"Smooth **human-human, human-machine and machine-machine (M2M)** communication"
+],
+[
+"**Information Technology**",
+"**Connectivity + hardware**; also taught as computers + communication"
+],
+[
+"**Concerns**",
+"Privacy, **digital divide**, job insecurity, over-reliance"
+],
+[
+"**Positive impact of the internet**",
+"Best source of knowledge at a click"
+]
+]
+},
+{
+"k": "h",
+"x": "Terms"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Cybernetics**",
+"Study of **automation and communication between human and machine** – term by **Norbert Wiener**"
+],
+[
+"**Artificial Intelligence**",
+"Makes machines intelligent; mimics human actions"
+],
+[
+"**Technology preservation**",
+"**Computer museum**"
+],
+[
+"**IT terms**",
+"Cyberspace, upload, modem"
+],
+[
+"**Smart card**",
+"Plastic card with an **embedded microchip**"
+],
+[
+"**Digital technology**",
+"Works with satellite and fibre-optic transmission"
+],
+[
+"Digital library",
+"Available beyond the internet as well"
+],
+[
+"Open-source digital platforms",
+"**Aarogya Setu, CoWIN, DigiLocker, DIKSHA**"
+]
+]
+},
+{
+"k": "b",
+"x": "**A computer** only follows the instructions given to it; with no intelligence of its own, it does not replace the human brain."
+}
+],
+"0": [
+{
+"k": "h",
+"x": "Software types"
+},
+{
+"k": "b",
+"x": "**Software** = programs that let the user and the **hardware communicate** and work; two major types: **system** and **application**."
+},
+{
+"k": "t",
+"h": [
+"Type",
+"Examples"
+],
+"r": [
+[
+"System software",
+"OS (Windows, Linux, macOS, Android, iOS), **device drivers**, utilities, firmware, translators (**compiler**, **assembler** – programs, not hardware)"
+],
+[
+"Utility software",
+"Antivirus, disk cleanup, backup, compression"
+],
+[
+"Application software",
+"Word processors (MS Word, **WordStar** by MicroPro), **spreadsheets (\"what if\" analysis)**, presentation, DTP (**PageMaker**), browsers; graphics (Photoshop, CorelDRAW); multimedia (players, editors, **Final Cut Pro – video production**); database (Oracle, MySQL, MS Access); MS Outlook (e-mail)"
+],
+[
+"Security software",
+"Firewalls, antivirus, encryption, IDS"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**MS Office**",
+"Office suite (Word, Excel, PowerPoint, Outlook, Access) – an application, not an OS; Media Player is not part of it"
+],
+[
+"**Open source**",
+"Source code free to view, modify and share; **Internet Explorer** = closed source"
+],
+[
+"**GNU**",
+"**\"GNU's Not Unix\"** – **Unix-compatible** but contains no Unix code"
+],
+[
+"**Beerware**",
+"Licence letting users do anything with the code (buy the author a beer); term by **John Bristow** (1987)"
+],
+[
+"**File**",
+"A Word document, video or MP3; the **extension** shows its type (.doc = Word)"
+],
+[
+"CAD drawings",
+"Saved as **electronic files**"
+],
+[
+"**CADD**",
+"Computer-Aided Design & Drafting – creates, modifies and analyses designs; photo-simulations for Environmental Impact Reports"
+],
+[
+"**Web browser**",
+"Fetches webpages and displays them (Chrome, Firefox, Edge)"
+],
+[
+"Software applications",
+"Characterised by information **content and determinacy** (Pressman)"
+],
+[
+"**Daemon**",
+"Background program in multitasking OSs; term coined by MIT's **Project MAC** (1963)"
+]
+]
+},
+{
+"k": "h",
+"x": "Office tools"
+},
+{
+"k": "t",
+"h": [
+"Task",
+"Tool / shortcut"
+],
+"r": [
+[
+"MS Word: break column, start a new one",
+"**Ctrl + Shift + Enter**"
+],
+[
+"Windows logo key + D",
+"Display and hide the desktop"
+],
+[
+"Excel: Format as Table",
+"**Home** tab"
+],
+[
+"Excel: pop-up comment on a selected cell",
+"Cell Tip"
+],
+[
+"PowerPoint chart for a timeline",
+"Line chart"
+],
+[
+"Save / close / underline",
+"Ctrl+S / **Ctrl+W** / **Ctrl+U**"
+],
+[
+"Spelling & grammar / print preview",
+"**F7** / **Ctrl+F2**"
+],
+[
+"Cut / copy / paste / undo",
+"**Ctrl + X** (copy to clipboard and delete) / Ctrl + C / Ctrl + V / Ctrl + Z"
+],
+[
+"**Copy–paste**",
+"Leaves the original unchanged and creates a new copy (**cut–paste** moves it)"
+],
+[
+"**Word Count**",
+"Pages, words, characters (with and without spaces), paragraphs and lines"
+],
+[
+"**MS Excel**",
+"Spreadsheet: a workbook is a set of **worksheets**; the **cell** is the basic unit of data entry"
+],
+[
+"**MS PowerPoint**",
+"Audio-visual presentations (slides)"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Word processors / DTP",
+"**MS Word, WordStar** / **PageMaker**"
+],
+[
+"DBMSs",
+"MS Access, MySQL, Oracle, IBM DB2 – MS Excel is a spreadsheet"
+],
+[
+"**Database** terms",
+"**Field** = one category of information (column); record = set of related fields; table = related records"
+]
+]
+},
+{
+"k": "h",
+"x": "Operating systems"
+},
+{
+"k": "b",
+"x": "**OS functions:** manages hardware, memory, processes, files, devices, security and I/O; gives the user interface."
+},
+{
+"k": "t",
+"h": [
+"OS type",
+"Feature / example"
+],
+"r": [
+[
+"Time-sharing / multi-user",
+"Many users share CPU time – UNIX (AT&T, **1969**; kernel = main part)"
+],
+[
+"Real-time",
+"Fixed response deadlines – missile guidance, air-traffic control"
+],
+[
+"Batch",
+"Groups jobs and runs them without user interaction"
+],
+[
+"Mobile",
+"Android (**Linux-based**, Google; **Android 6.0 = Marshmallow**, 2015), iOS, BharOS (**IIT Madras**)"
+],
+[
+"CLI (command-line)",
+"MS-DOS (Microsoft, Aug 1981, Tim Paterson), UNIX shell"
+],
+[
+"GUI (icons, windows, mouse)",
+"**Windows** (Microsoft; Windows 3 – 1990; **Windows 11 – Oct 2021**), macOS"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"OSs",
+"**Linux, Windows, UNIX, Android, MS-DOS**; **IBM AIX, Sun Solaris** (UNIX OSs)"
+],
+[
+"Not OSs",
+"Java, COBOL, **Firefox** (browser), **MS Office**, MS Word"
+],
+[
+"**Apple's OSs**",
+"**iOS** and macOS"
+],
+[
+"Linux distributions",
+"Red Hat, Fedora, Ubuntu"
+],
+[
+"**Windows**",
+"GUI **multi-tasking** OS made by **Microsoft**"
+],
+[
+"**Multiprogramming**",
+"Several programs in memory sharing one CPU"
+],
+[
+"**UNIX**",
+"Multitasking, multi-user; rewritten in C (1973) – mostly C with a little assembly; runs **web/internet servers**, workstations and mainframes"
+],
+[
+"**UNIX tools**",
+"**lint** = C program-checking tool; kernel = core; C shell = command interpreter"
+],
+[
+"**Mac OS X versions**",
+"Big-cat and place names: Cheetah, Puma, Jaguar, Panther, Tiger, Leopard, Snow Leopard, Lion, Mountain Lion, Mavericks, Yosemite"
+],
+[
+"**Spooler**",
+"Queues print jobs so the CPU runs user programs while the printer prints"
+],
+[
+"**FAT**",
+"**File Allocation Table** – DOS/Windows table tracking where files sit on the disk"
+]
+]
+},
+{
+"k": "h",
+"x": "Booting"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Booting**",
+"Loads the OS after **POST** checks the hardware; no OS = no boot"
+],
+[
+"**Warm (soft) reboot**",
+"Restart under software control without cutting power"
+],
+[
+"**Cold boot**",
+"Start from power-off; needs a **system disk** holding the OS boot files"
+]
+]
+}
+],
+"1": [
+{
+"k": "h",
+"x": "Units in order"
+},
+{
+"k": "b",
+"x": "**Bit** (binary digit) = the **smallest unit** of data; **nibble = 4 bits**; **byte = 8 bits**."
+},
+{
+"k": "b",
+"x": "**Order:** bit < nibble < byte < **KB** < MB < GB < TB < PB < EB < ZB < YB."
+},
+{
+"k": "t",
+"h": [
+"Unit",
+"Equals"
+],
+"r": [
+[
+"1 byte",
+"8 bits"
+],
+[
+"1 KB",
+"1024 bytes = **8192 bits**"
+],
+[
+"1024 bits",
+"**128 bytes** (÷ 8)"
+],
+[
+"1 MB",
+"1024 KB (about a million characters)"
+],
+[
+"1 GB",
+"1024 MB (about **one billion characters**)"
+],
+[
+"1 TB",
+"1024 GB"
+]
+]
+},
+{
+"k": "b",
+"x": "**Time units:** **picosecond** (10⁻¹²) < nanosecond (10⁻⁹) < microsecond (10⁻⁶) < second."
+},
+{
+"k": "h",
+"x": "Primary memory"
+},
+{
+"k": "t",
+"h": [
+"Memory",
+"Nature"
+],
+"r": [
+[
+"RAM (Random Access Memory)",
+"**Primary**, **volatile**, temporary working store – lost when power goes off; SRAM = cache (faster), DRAM = main memory; RAM sticks use **DDR** (Double Data Rate)"
+],
+[
+"ROM (Read-Only Memory)",
+"**Non-volatile**, **permanent** memory built into the computer; holds firmware/**BIOS** (Basic Input-Output System); PROM, EPROM, EEPROM"
+],
+[
+"Cache",
+"Small, **extremely fast** memory **between CPU and main memory**; **shortest access time**; speeds up processing; made of **SRAM**"
+],
+[
+"Registers",
+"Fastest memory, **embedded on the CPU chip**"
+],
+[
+"EPROM",
+"Erased by ultraviolet light"
+],
+[
+"EEPROM",
+"Erased electrically"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Speed order**",
+"Registers > cache > RAM > SSD > HDD > optical disc > magnetic tape"
+],
+[
+"Speed",
+"**Static RAM is faster than dynamic RAM**; **primary storage is faster than secondary**"
+],
+[
+"**Memory types**",
+"**Semiconductor** (primary), **magnetic** and **optical** (secondary)"
+],
+[
+"**Virtual memory**",
+"Size (virtual address space) depends on the CPU's **address lines** (32 lines → 2³² bytes)"
+],
+[
+"**DIMM**",
+"**Dual In-line Memory Module** (RAM stick; older SIMM; laptops SO-DIMM)"
+],
+[
+"Von Neumann",
+"Stored-program digital computer"
+]
+]
+},
+{
+"k": "h",
+"x": "Secondary storage"
+},
+{
+"k": "t",
+"h": [
+"Storage",
+"Key detail"
+],
+"r": [
+[
+"HDD",
+"Magnetic disk, non-volatile; first commercial hard disk drive by **IBM** (RAMAC 350, 1956); SATA hard disk = **magnetic** memory"
+],
+[
+"SSD",
+"Flash memory, no moving parts, faster"
+],
+[
+"Magnetic tape",
+"Plastic ribbon about **half an inch wide**, coated on one side with magnetisable **iron oxide**; sequential access, slowest; backup and archival"
+],
+[
+"Flash drive / pen drive",
+"EEPROM-based flash; keeps data without power; low power; **costlier** than mechanical disk drives"
+],
+[
+"CD-ROM (**Compact Disc Read Only Memory**)",
+"About 700 MB"
+],
+[
+"DVD (**Digital Versatile Disc**)",
+"4.7 GB single layer; 8.5 GB dual layer"
+],
+[
+"Blu-ray",
+"25 GB single layer; 50 GB dual layer; both BD and DVD are **1.2 mm** thick; BD carries HD video, about 5x the capacity (25 vs 4.7 GB)"
+]
+]
+},
+{
+"k": "b",
+"x": "**Capacity order (decreasing):** Blu-ray > **DVD > CD-ROM > floppy disk**."
+},
+{
+"k": "b",
+"x": "**Secondary memory:** SSD, hard disk, optical disk, flash drive, floppy, USB pen drive – RAM is primary. **Bulk storage:** **magnetic tape** and **magnetic disk**."
+},
+{
+"k": "b",
+"x": "**Human memory (psychology):** MCQs use **recognition**; essay and fill-in answers use **recall**."
+}
+],
+"2": [
+{
+"k": "h",
+"x": "Language levels"
+},
+{
+"k": "t",
+"h": [
+"Level",
+"Key detail"
+],
+"r": [
+[
+"1GL machine language",
+"Only 0 and 1 (rests on **Boolean algebra**); the only language run directly; **first computers** were programmed in it"
+],
+[
+"2GL assembly",
+"Mnemonics; converted by an **assembler**"
+],
+[
+"3GL high-level (problem-oriented)",
+"**FORTRAN** (Formula Translation, IBM 1957, first HLL, scientific/HPC), **COBOL** (business; not OO, not numeric), **BASIC**, PASCAL, C (system software), C++, Java, Python"
+],
+[
+"4GL",
+"Query, application generators"
+],
+[
+"5GL",
+"Natural language"
+],
+[
+"AI languages",
+"**PROLOG** and LISP"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Computer languages",
+"**Cobra, Python, Squirrel, Java**"
+],
+[
+"Not languages",
+"**Linux**, **Paint brush**, **Lotus** (1-2-3 spreadsheet), FAST, ROM"
+],
+[
+"**BASIC**",
+"Beginner's **All-purpose** Symbolic Instruction Code (**Kemeny & Kurtz**, 1964) – general-purpose, **procedural**, education; usually run by an **interpreter**"
+],
+[
+"**C++** (Stroustrup)",
+"**Object-oriented**, backward compatible with C, widely available"
+],
+[
+"**JavaScript**",
+"1995 (Brendan Eich, Netscape)"
+],
+[
+"**Turbo C++** (Borland)",
+"Compiler/IDE (Windows 98 = OS; Java, BASIC = languages)"
+],
+[
+"**Embedded systems**",
+"Mostly programmed in C"
+]
+]
+},
+{
+"k": "h",
+"x": "C++ rules"
+},
+{
+"k": "b",
+"x": "**Operator overloading:** only **existing** operators can be overloaded; at least one operand must be of the class type; the original syntax rules stay."
+},
+{
+"k": "b",
+"x": "**C++:** ternary = **conditional (?:)** operator; function overloading resolved at **compile time**; 16-bit int = **−32768 to +32767**."
+},
+{
+"k": "h",
+"x": "Programming terms"
+},
+{
+"k": "t",
+"h": [
+"Term",
+"Meaning"
+],
+"r": [
+[
+"Compiler",
+"Translates the whole program at once"
+],
+[
+"Interpreter",
+"Translates and runs line by line"
+],
+[
+"Algorithm / Flowchart / Pseudocode",
+"Step-by-step procedure / its **pictorial** form / English-like outline"
+],
+[
+"**Program**",
+"An algorithm written in a programming language with its syntax"
+],
+[
+"**Coding** / **bug**",
+"Writing instructions in a language / program error giving wrong results"
+],
+[
+"**Push** / **pop**",
+"Inserting an element on a stack (array) / removing the top element"
+],
+[
+"**DFD**",
+"**Data Flow Diagram**"
+],
+[
+"**BCD**",
+"**Binary Coded Decimal** – each decimal digit as 4 bits"
+]
+]
+},
+{
+"k": "b",
+"x": "**Flowchart symbols:** oval = start/end, **parallelogram = input/output**, rectangle = process, **diamond = decision**."
+},
+{
+"k": "h",
+"x": "Number systems and logic"
+},
+{
+"k": "b",
+"x": "Binary (2), octal (8), decimal (10), **hexadecimal (16; 0–9 and A–F)**; (1010)₂ = 10; **(FF)₁₆ = 255**; **7 = 111** (0111 in 4 bits)."
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Universal gates**",
+"**NAND and NOR**"
+],
+[
+"**XOR**",
+"1 when inputs differ"
+],
+[
+"**OR gate**",
+"Output 1 if **any** input is 1; AND needs all inputs 1; NOR is the inverse of OR"
+],
+[
+"**Boolean**",
+"A + A = A; A·A′ = 0; **De Morgan: (A + B)′ = A′·B′**"
+],
+[
+"**Mode (statistics)**",
+"Value with the **maximum frequency**; mean = average, median = middle value"
+]
+]
+}
+],
+"3": [
+{
+"k": "h",
+"x": "CPU – the brain"
+},
+{
+"k": "b",
+"x": "**CPU = Central Processing Unit** – the **brain**, the **controlling unit** and the **most important part** of the computer; most processing happens here. The **CPU is hardware**."
+},
+{
+"k": "b",
+"x": "**Processor parts:** **Control Unit + ALU** (with registers); main memory and storage are outside the processor."
+},
+{
+"k": "t",
+"h": [
+"Component",
+"Function"
+],
+"r": [
+[
+"ALU (**Arithmetic Logic Unit**)",
+"Arithmetic and logical operations – performs **calculations and makes decisions**"
+],
+[
+"CU (Control Unit)",
+"Fetches and **decodes program instructions**, makes control signals, directs the other units"
+],
+[
+"Registers",
+"Fastest storage inside the CPU (address, data, instruction registers)"
+],
+[
+"PSU",
+"Only supplies power"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Main components of a computer**",
+"Input unit, output unit, processing unit, memory unit, secondary storage"
+],
+[
+"**Microcomputer hardware (3 categories)**",
+"**System unit, input/output, secondary storage**"
+],
+[
+"Mouse **double-click**",
+"Information goes to the **CPU**"
+]
+]
+},
+{
+"k": "h",
+"x": "Buses, chips and processors"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Buses**",
+"Wire pathways that **connect the different parts** of a computer (data, address and control buses)"
+],
+[
+"**IC chips**",
+"**IC chips are made of silicon** (a semiconductor) – not silica (SiO₂)"
+],
+[
+"**Celeron, Pentium, Core**",
+"Series of Intel **processors**; **Intel Core i9** = high-end, **8 to 24 cores**"
+],
+[
+"**Clock speed**",
+"Measured in **hertz – gigahertz (GHz)**"
+],
+[
+"**IBM**",
+"**IBM = International Business Machine(s)**"
+],
+[
+"**Modem**",
+"**Modem = modulator-demodulator** – converts digital data into analog signals and back"
+],
+[
+"**UPS**",
+"**UPS = Uninterrupted Power Supply** – keeps the computer running briefly when power fails"
+],
+[
+"**SMPS**",
+"**SMPS = Switched Mode Power Supply** – rectified AC to low-voltage DC"
+],
+[
+"**Peripheral device**",
+"Equipment added to enhance a computer's functionality (printer, scanner, webcam)"
+]
+]
+}
+],
+"4": [
+{
+"k": "h",
+"x": "Generations → core technology"
+},
+{
+"k": "t",
+"h": [
+"Generation",
+"Basis",
+"Example"
+],
+"r": [
+[
+"First (1940s-56)",
+"Vacuum tubes",
+"ENIAC, **UNIVAC**"
+],
+[
+"Second (1956-63)",
+"**Transistors**",
+"–"
+],
+[
+"Third (1964-71)",
+"Integrated circuits",
+"–"
+],
+[
+"Fourth",
+"**VLSI and microprocessors**",
+"Intel 4004 era"
+],
+[
+"Fifth",
+"Artificial intelligence, ULSI, parallel processing",
+"–"
+]
+]
+},
+{
+"k": "b",
+"x": "**Miniaturisation** of computers came from **IC chips** (invented **1958**, replaced transistors)."
+},
+{
+"k": "b",
+"x": "**ICs by transistors per chip:** **SSI 3–30, MSI 30–300, LSI 300–3,000**, then VLSI, ULSI."
+},
+{
+"k": "h",
+"x": "Firsts"
+},
+{
+"k": "t",
+"h": [
+"First",
+"Key detail"
+],
+"r": [
+[
+"Word \"computer\"",
+"From Latin **computare** (to calculate)"
+],
+[
+"Pascaline (1642)",
+"First mechanical calculating machine – **Blaise Pascal**"
+],
+[
+"Punched cards (1890 US census)",
+"**Herman Hollerith** – father of punched-card processing"
+],
+[
+"ENIAC (1946)",
+"**Electronic Numerical Integrator And Computer** – first general-purpose electronic computer, **Eckert and Mauchly**"
+],
+[
+"BESK (1953)",
+"Binary Electronic Sequence Calculator – Sweden's first **electronic computer**"
+],
+[
+"Osborne 1 (1981)",
+"First commercial portable computer – **Adam Osborne** (died at **Kodaikanal, 18 March 2003**)"
+],
+[
+"Intel 4004 (1971)",
+"First commercial microprocessor"
+],
+[
+"TIFRAC",
+"India's first indigenous computer"
+],
+[
+"**Siddhartha**",
+"First computer made by **ECIL** (Electronics Corporation of India Ltd, Hyderabad)"
+],
+[
+"PARAM 8000 (1991)",
+"India's first supercomputer"
+],
+[
+"Mobilis (2005)",
+"Bangalore's **Encore Software** \"anytime, anywhere\" low-cost mobile computer (Encore also made the Simputer)"
+]
+]
+},
+{
+"k": "h",
+"x": "Persons → contribution"
+},
+{
+"k": "t",
+"h": [
+"Person",
+"Contribution"
+],
+"r": [
+[
+"**Charles Babbage**",
+"**Father of Computers**; Analytical Engine; conceptual foundations 1833-1871"
+],
+[
+"Alan Turing",
+"Turing machine; wartime code-breaking computers – credited with inventing the electronic computer"
+],
+[
+"George Stibitz",
+"A **father of the modern digital computer** (relay binary calculator, Bell Labs 1937)"
+],
+[
+"Ada Lovelace",
+"First programmer"
+],
+[
+"George Boole",
+"**Boolean algebra** – devised the logical operators **AND, OR, Not**"
+],
+[
+"Douglas Engelbart",
+"Mouse"
+],
+[
+"Larry Tesler",
+"Cut, **copy and paste**"
+],
+[
+"**Tim Berners-Lee**",
+"WWW (1989-91)"
+],
+[
+"**Richard Stallman**",
+"GNU project (1983), GPL licence; founded the **Free Software Foundation** (1985)"
+],
+[
+"Linus Torvalds",
+"Linux kernel (1991)"
+],
+[
+"Dennis Ritchie / James Gosling / Guido van Rossum / Bjarne Stroustrup",
+"C / **Java** (1991-95) / Python / C++"
+],
+[
+"Tim Paterson",
+"MS-DOS (from 86-DOS)"
+],
+[
+"David S. Lee",
+"Daisy-wheel printer (1969, Diablo Data Systems)"
+],
+[
+"Alexander Bain (Scottish)",
+"Fax (1842)"
+],
+[
+"Peter Shor",
+"Shor's algorithm (1994)"
+]
+]
+},
+{
+"k": "x",
+"x": "\"Father of the Computer\" = **Babbage**; **Berners-Lee** = WWW."
+}
+],
+"5": [
+{
+"k": "h",
+"x": "Input vs output"
+},
+{
+"k": "t",
+"h": [
+"Input",
+"Output"
+],
+"r": [
+[
+"Keyboard (most common; **QWERTY** layout)",
+"Monitor (CRT, LCD, OLED)"
+],
+[
+"Mouse (**standard pointing device in a GUI**)",
+"Printer"
+],
+[
+"Microphone",
+"Speaker, earphones, headphones"
+],
+[
+"Scanner",
+"Projector"
+],
+[
+"Joystick (lever moving in several directions)",
+"Plotter (drum pen plotter)"
+],
+[
+"Trackball, light pen, touchpad",
+"Visual Display Unit"
+],
+[
+"Webcam (**compulsory for video conferencing**)",
+"–"
+],
+[
+"Digital camera",
+"–"
+],
+[
+"Barcode reader, OCR, MICR (cheques), OMR (answer sheets), badge reader",
+"–"
+]
+]
+},
+{
+"k": "b",
+"x": "**Touch screen** = both input and output. **Only input:** mouse, keyboard, scanner. **Only output:** plotter, printer, monitor."
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Scanner**",
+"Light-sensitive device that turns drawings, printed data and images into digital form"
+],
+[
+"**Digitizer**",
+"Converts analogue information (drawings, maps) into digital form"
+],
+[
+"**Badge reader**",
+"Reads data encoded in a small plastic card"
+],
+[
+"**Barcode**",
+"Machine-readable code of **vertical bars of varying widths**"
+],
+[
+"**OCR**",
+"**Optical Character Recognition**"
+],
+[
+"**Caps Lock**",
+"**Toggle key** – its function goes back and forth each time it is pressed"
+],
+[
+"**Telefax (fax)**",
+"Sends text and pictures over telephone lines – dialled on the telephone and read on a screen"
+]
+]
+},
+{
+"k": "h",
+"x": "Printers and displays"
+},
+{
+"k": "t",
+"h": [
+"Impact",
+"Non-impact"
+],
+"r": [
+[
+"Dot-matrix, daisy-wheel, line, drum, serial",
+"Inkjet, **laser**, thermal"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Laser printer**",
+"Fastest of the common printers; the standard **non-impact** printer; used for **desktop printing (DTP)**; uses a **semiconductor laser** (also in CD/DVD players)"
+],
+[
+"**Excimer (exciplex) laser**",
+"Ultraviolet; used to make microelectronic devices"
+],
+[
+"**OLED advantages over LCD**",
+"Made on **flexible plastic substrates**; **roll-up displays in clothing**; **transparent displays**"
+],
+[
+"**Screen resolution**",
+"Number of **horizontal and vertical pixels** displayed (e.g. 1920 × 1080)"
+]
+]
+}
+],
+"6": [
+{
+"k": "h",
+"x": "Computer types"
+},
+{
+"k": "t",
+"h": [
+"Type",
+"Feature / example"
+],
+"r": [
+[
+"Analog",
+"Continuous quantities – **car speedometer**, thermometer"
+],
+[
+"Digital",
+"Discrete (binary) data – PCs; works on the **logical** principle (Boolean 0/1)"
+],
+[
+"Hybrid",
+"Analog + digital features; **converts analog output into digital form** – ICU monitors, ECG"
+],
+[
+"Micro / personal",
+"**Most widely used** – desktop, laptop, tablet, smartphone, wearables"
+],
+[
+"Embedded",
+"Dedicated function inside a larger system – **digital watch**"
+],
+[
+"Supercomputer",
+"**Largest, fastest and costliest**; speed in FLOPS"
+],
+[
+"Quantum computer",
+"Uses **qubits** (superposition, entanglement); the \"smallest and fastest computer imitating brain working\""
+],
+[
+"**Teacube**",
+"A **2-inch cube-shaped computer**"
+]
+]
+},
+{
+"k": "b",
+"x": "**Q-Day:** when quantum computers may break **RSA-2048** encryption with **Shor's algorithm (1994)**. Oxford researchers made **10 billion quantum entanglements** in silicon."
+},
+{
+"k": "b",
+"x": "**Parallel computing:** a large problem is split into smaller parts solved **simultaneously** on many processors."
+},
+{
+"k": "h",
+"x": "Supercomputers – dated"
+},
+{
+"k": "t",
+"h": [
+"Year",
+"Event"
+],
+"r": [
+[
+"Late 1980s",
+"India's supercomputing programme begins (C-DAC 1988); **PARAM 8000** (1991)"
+],
+[
+"2002-03",
+"**PARAM Padma** (C-DAC) – an Indian **supercomputer**"
+],
+[
+"2007",
+"**IBM Blue Gene/L** fastest; India's **Eka** (CRL, Tata) ranked **4th** (Nov 2007)"
+],
+[
+"2010, 2014",
+"**Tianhe** (Tianhe-1A 2010; Tianhe-2 fastest in TOP500, June 2014) – developed by **China** (NUDT)"
+],
+[
+"2018",
+"**Pratyush** at IITM Pune"
+],
+[
+"Jan 2026",
+"**Param Shakti** – 3.1 petaflops, launched by **MeitY** at **IIT Madras** on RUDRA servers, under the **National Supercomputing Mission**"
+],
+[
+"**ISC 2026**",
+"**LineShine** (China) fastest, replacing El Capitan"
+]
+]
+},
+{
+"k": "h",
+"x": "Measures of computer power"
+},
+{
+"k": "t",
+"h": [
+"Term",
+"Meaning / unit"
+],
+"r": [
+[
+"Word length",
+"Bits the CPU handles at once (32-bit, 64-bit) – data width"
+],
+[
+"Clock speed",
+"Hertz (GHz)"
+],
+[
+"**Bandwidth**",
+"Data-transfer rate in bits per second (bps)"
+],
+[
+"MIPS",
+"Million Instructions Per Second"
+],
+[
+"FLOPS",
+"Floating-point Operations Per Second – supercomputer speed"
+],
+[
+"Linpack (HPL)",
+"Floating-point benchmark on large dense linear systems – basis of world rankings"
+]
+]
+}
+],
+"7": [
+{
+"k": "h",
+"x": "File formats and acronyms"
+},
+{
+"k": "t",
+"h": [
+"Acronym",
+"Expansion",
+"Type"
+],
+"r": [
+[
+"PDF",
+"Portable Document Format (Adobe)",
+"Document"
+],
+[
+"MP3",
+"MPEG-1 Audio Layer 3",
+"Audio"
+],
+[
+"MP4 / MOV / AVI",
+"MPEG-4 Part 14 / QuickTime Movie (Apple) / Audio Video Interleave (Microsoft)",
+"Video"
+],
+[
+"JPEG",
+"Joint Photographic Experts Group",
+"Image"
+],
+[
+"GIF / PNG",
+"Graphics Interchange Format / Portable Network Graphics",
+"Image"
+],
+[
+"**BMP**",
+"**BMP (Bitmap)** – old **raster image file format** storing an image as a grid of pixels",
+"Image"
+],
+[
+"**MPEG**",
+"**MPEG = Moving Picture Experts Group**",
+"Video standard"
+],
+[
+"ASCII",
+"American Standard Code for Information Interchange",
+"7-bit, 128 characters; Unicode extends it"
+],
+[
+"**LED**",
+"**LED = Light Emitting Diode** – light by **electroluminescence**",
+"Device"
+],
+[
+"**LCD**",
+"**LCD = Liquid Crystal Display**",
+"Display"
+],
+[
+"**USB**",
+"**USB = Universal Serial Bus** – standard port and cable for peripherals (pen drives, keyboards, printers)",
+"Port"
+],
+[
+"**ATM**",
+"**ATM = Automated Teller Machine**",
+"Machine"
+]
+]
+},
+{
+"k": "h",
+"x": "Transmission modes"
+},
+{
+"k": "t",
+"h": [
+"Mode",
+"Example"
+],
+"r": [
+[
+"Simplex (one-way)",
+"Television; **mouse to computer**"
+],
+[
+"Half duplex",
+"Walkie-talkie"
+],
+[
+"Full duplex",
+"Telephone"
+]
+]
+},
+{
+"k": "b",
+"x": "**Multiplexing** joins several signals on one channel."
+},
+{
+"k": "b",
+"x": "**Fax** goes as an analog signal over phone lines, **e-mail** as digital."
+}
+],
+"8": [
+{
+"k": "h",
+"x": "Word and PowerPoint"
+},
+{
+"k": "t",
+"h": [
+"Feature",
+"What it does"
+],
+"r": [
+[
+"**Mail Merge** (Word)",
+"Produces **bulk personalised letters** from one main document + a data list (templates only give a layout; Envelopes prints single envelopes)"
+],
+[
+"**Ctrl + End** (Word)",
+"Moves to the **bottom (end) of the document**; End alone = end of the current line; Ctrl + Home = top"
+],
+[
+"**Motion path** (PowerPoint)",
+"An animation that **moves an item such as a picture along a path on a slide**"
+],
+[
+"**Transitions** (PowerPoint)",
+"**Effects that introduce slides** – the visual effect as one slide gives way to the next (animations act on objects within a slide)"
+],
+[
+"**Slide Sorter view** (View tab)",
+"Shows **all slides as thumbnails on one screen**; Slide Show runs them one by one; Master view edits the template"
+]
+]
+},
+{
+"k": "h",
+"x": "Excel and Access"
+},
+{
+"k": "t",
+"h": [
+"Feature",
+"What it does"
+],
+"r": [
+[
+"**Nested function**",
+"A function used **inside another function**, e.g. =ROUND(SUM(A1:A5),0)"
+],
+[
+"**Goal Seek**",
+"**What-If Analysis** tool that finds the input needed for a target result (other What-If tools: Scenario Manager, Data Table)"
+],
+[
+"**AutoComplete**",
+"When you start typing a value already in the column, Excel **suggests the rest of the entry** (AutoFill extends a series; AutoCorrect fixes typos)"
+],
+[
+"**Lookup Wizard** (Access)",
+"Makes a field that **selects its value from another table** (or a value list)"
+]
+]
+},
+{
+"k": "h",
+"x": "Windows and Tally"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Title-bar buttons**",
+"**Minus (–) = minimise**, square = maximise/restore, × = close"
+],
+[
+"**My Computer / This PC**",
+"Shows the drives and the **used and free space** on each"
+],
+[
+"**Tally: Ctrl + Q**",
+"Quit from the **Gateway of Tally** (or the current screen)"
+],
+[
+"Tally ERP 9 voucher keys",
+"**Alt + 2 = duplicate**, **Alt + A = add**, **Alt + I = insert**, **Alt + D = delete** (a voucher, a master, or a company in Company Alteration)"
+],
+[
+"**Microsoft** headquarters",
+"**Redmond, Washington** (USA)"
+]
+]
+}
+],
+"10": [
+{
+"k": "t",
+"h": [
+"Term",
+"Meaning"
+],
+"r": [
+[
+"**Datum**",
+"Singular of data – **a single piece of information** (a fact)"
+],
+[
+"**Information**",
+"**Processed (organised) data** that has meaning; **communicated information = a message**"
+],
+[
+"**Information vs knowledge**",
+"Information is piecemeal, **fragmented** and particular; knowledge is **structured** and coherent"
+],
+[
+"**Digitisation**",
+"Making text, images, sound or video into **computer-readable (digital) form**"
+],
+[
+"**Primary sources of information**",
+"Original records: **patents, standards, theses, journal articles** (secondary = indexes, reviews, textbooks)"
+],
+[
+"**Critical abstract**",
+"Describes the content of a work **and also evaluates** it and its presentation (informative / indicative abstracts only describe)"
+],
+[
+"**Encapsulation** (digital preservation)",
+"A digital object packaged with its metadata and the information needed to render it later"
+],
+[
+"**Inferential statistics**",
+"The **sampling procedure** used decides how far sample results can be generalised to the population"
+]
+]
+}
+],
+"11": [
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Database**",
+"An **organised collection of data that can be stored, manipulated and retrieved**"
+],
+[
+"**RDBMS**",
+"A **collection of tables** (relations) made of records (rows) and fields (columns)"
+],
+[
+"**SQL = Structured Query Language**",
+"Manages relational databases"
+],
+[
+"**Cardinality** (ER model)",
+"The **number of times an entity of an entity set participates in a relationship set** – one-to-one, one-to-many, many-to-many"
+]
+]
+},
+{
+"k": "h",
+"x": "SQL commands"
+},
+{
+"k": "t",
+"h": [
+"SQL command",
+"Type",
+"Does"
+],
+"r": [
+[
+"**ALTER**",
+"DDL",
+"**Modifies the structure** of a table/database"
+],
+[
+"UPDATE",
+"DML",
+"Changes the data in rows"
+],
+[
+"REVOKE",
+"DCL",
+"Removes privileges"
+]
+]
+}
+]
+}
