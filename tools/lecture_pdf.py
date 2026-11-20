@@ -135,7 +135,7 @@ def build(A, B, R, OUT, APP="APPSC"):
     parts = [(j, s) for j, s in enumerate(row["secs"]) if not hidden(s) and s["b"]]
     # lesson plan
     plan = "".join(f"<li><span class='n'>{i + 1}</span>{html.escape(s['t'])}</li>" for i, (_, s) in enumerate(parts))
-    slide("plan", f"<h2>Lesson plan</h2><ol class='plan'>{plan}</ol><div class='meta'>{len(parts)} parts · {len(qs)} MCQs in the app on this topic</div>")
+    slide("plan", f"<h2>Lesson plan</h2><ol class='plan'>{plan}</ol><div class='meta'>{len(parts)} parts{f' · {len(qs)} MCQs in the app on this topic' if qs else ''}</div>")
     # every part: its blocks as data; the browser lays them out slide by slide, measuring what fits
     PARTS = []
 
@@ -172,6 +172,12 @@ def build(A, B, R, OUT, APP="APPSC"):
                     t = r[0].strip(" :;,.⚠→") if isinstance(r, list) and len(r) > 1 and r[1] else ""
                     if 2 < len(t) < 40 and not any(t.lower() in x.lower() for x in terms):
                         terms.append(t)
+        if not terms:  # a part that is all tables: the bold terms of its first columns
+            for bl in s["b"]:
+                for r in (bl.get("r") or []) if bl["k"] == "t" else []:
+                    t = "".join(x[0] for x in r[0] if isinstance(x, list) and len(x) > 1 and x[1]).strip() if r else ""
+                    if 2 < len(t) < 40 and t not in terms:
+                        terms.append(t)
         rec.append(f"<li><b>{html.escape(s['t'])}</b> — {html.escape(' · '.join(terms[:7]))}</li>")
     for k in range(0, len(rec), 8):
         slide("content", f"<h2>Recap{' (cont.)' if k else ''}</h2><ul class='pts recap'>{''.join(rec[k:k + 8])}</ul>", "Recap", "")
@@ -189,7 +195,7 @@ def build(A, B, R, OUT, APP="APPSC"):
             two = pick[k:k + 2]
             slide("content", "<h2>Quick check</h2><div class='qs2'>" + "".join(qhtml(k + n + 1, q, False) for n, q in enumerate(two)) + "</div>", "Quick check", "")
             slide("content", "<h2>Quick check — answers</h2><div class='qs2'>" + "".join(qhtml(k + n + 1, q, True) for n, q in enumerate(two)) + "</div>", "Quick check", "")
-    slide("end", f"<h1>Questions?</h1><div class='kicker'>{html.escape(row['title'])}</div><div class='foot'>Practise this topic's {len(qs)} MCQs in {html.escape(APP)}</div>")
+    slide("end", f"<h1>Questions?</h1><div class='kicker'>{html.escape(row['title'])}</div><div class='foot'>{f"Practise this topic's {len(qs)} MCQs in {html.escape(APP)}" if qs else html.escape(APP)}</div>")
 
     CSS = """
     @page { size: 13.333in 7.5in; margin: 0 }
