@@ -5,7 +5,7 @@ import re
 EXAMS = (r"APPSC|UPSC|UPPCS|UPPSC|UPSSSC|RAS|RPSC|IAS|CDS|NDA|JKPSC|JKSSB|JPSC|BPSC|MPPSC|MPSC|TNPSC|KPSC|HPSC|HPPSC|OPSC|TSPSC|"
          r"WBCS|WBPSC|SSC|CGL|CHSL|CAPF|CSE|CSAT|UKPSC|UKPCS|CGPSC|GPSC|PCS|PSC|RRB|NTPC|IBPS|SBI|LIC|AFCAT|ACF|TET|DSC|Sachivalayam|"
          r"Group[- ]?(?:I|II|III|IV|1|2|3|4)\b|G-?[12]\b|UP Lower|State PSC|Civil Services")
-BOOKS = r"PMF|NextGen|Rocket|Lucent|Laxmikanth|Spectrum|Drishti|Vision IAS|OnlyIAS|Wikipedia|Britannica|New World Encyclopedia|gktoday|app notes|ClearIAS|Testbook|Adda247"
+BOOKS = r"PMF|NextGen|Rocket(?= (?:Sheets?|notes|Indian|AP|Economy|Polity|Geography|History)\b| p\.)|Lucent|Laxmikanth|Spectrum(?= (?:Modern|A Brief|gives|says|p\.)|,)|Drishti|Vision IAS|OnlyIAS|Wikipedia|Britannica|New World Encyclopedia|gktoday|app notes|ClearIAS|Testbook|Adda247"
 SUF = r"G-?[12]|Group[- ]?(?:I|II|III|IV|1|2|3|4)|GS|ASO|AEE|AE|EO|CPO|Pre|Prelims|Mains|Re-?exam|Screening|Paper[- ]?[IVX0-9]+|Lower|[A-Z]{2,5}"
 # an exam is a citation only with a year / key / "PYQ" after it, or as an APPSC Group tag: "UPSC" alone (Article 315),
 # "SBI", "NTPC", "LIC", "NDA", "CDS", "Civil Services", "Group 1" (a ranking group) are real content and stay
