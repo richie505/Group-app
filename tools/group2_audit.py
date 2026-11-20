@@ -44,8 +44,31 @@ def add_pages():
             if l.strip():
                 o = json.loads(l)
                 adds.append(("CA", o["title"], o["bullets"], o["mcqs"], leaf.get(o.get("area"), "P4.1.2")))
+    # current affairs 5-18 Nov 2026: the MCQs of the "Latest" pages (Group 2 had them only in the one-liner mode)
+    import ca_latest as _cal
+    inv = {tuple(v): k for k, v in J("data/g2syl/rowmap.json").items()}  # Complete row -> Group 2 "b:i"
+    nq0 = 0
+    for (cb, cr), L0 in _cal.mcqs().items():
+        k = inv.get((cb, cr))
+        if not k:
+            continue
+        b, i = map(int, k.split(":"))
+        bk, m = J(f"{G}/book{b}.json"), J(f"{G}/mcq{b}.json")
+        r = [x for u in bk["units"] for x in u["rows"]][i]
+        L, S = m["rows"].setdefault(str(i), []), m["subs"].setdefault(str(i), [])
+        have = {q["id"] for q in L}
+        leaf = {lf: t for lf, t, _ in _cal.pages().get((cb, cr), [])}
+        for t, q in L0:
+            if q["id"] in have:
+                continue
+            j = next((n for n, x in enumerate(r["secs"]) if x["t"] == t), -1)
+            lf = next((lf for lf, tt, _ in _cal.pages().get((cb, cr), []) if tt == t), "P4.1.2")
+            L.append(dict(q, lf=lf, tg=["pattern:Direct"]))
+            S.append(j)
+            nq0 += 1
+        W(f"{G}/mcq{b}.json", m)
     if not adds:
-        return 0, 0
+        return 0, nq0
     np = nq = 0
     for b in range(1, 7):
         bk, m, idx = J(f"{G}/book{b}.json"), J(f"{G}/mcq{b}.json"), J(f"{G}/index.json")
@@ -76,7 +99,7 @@ def add_pages():
             W(f"{G}/book{b}.json", bk)
             W(f"{G}/mcq{b}.json", m)
             W(f"{G}/index.json", idx)
-    return np, nq
+    return np, nq + nq0
 
 
 def facts(pattern="data/g2audit/facts-*.out.jsonl"):

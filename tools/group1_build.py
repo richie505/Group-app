@@ -71,6 +71,9 @@ for f in sorted(glob.glob("data/g1audit/pyq-*.out.jsonl")):
 CA_NEW = [json.loads(l) for l in open("data/g2audit/ca-out.jsonl") if l.strip()] if os.path.exists("data/g2audit/ca-out.jsonl") else []
 SEEN = set()
 CA_AT = []  # the one section that takes the latest current affairs
+import ca_latest as _cal
+CAL_P, CAL_Q = _cal.pages(), _cal.mcqs()  # current affairs 5-18 Nov 2026 (as in Group 2)
+G1_OF = {"P4.1.3": "G/1", "P4.1.2": "G/2", "P4.1.1": "G/3"}
 if os.path.exists("data/g1syl/depth-out.jsonl"):
     for l in open("data/g1syl/depth-out.jsonl"):
         if l.strip():
@@ -121,6 +124,17 @@ for b in range(1, 7):
                 S.append(j)
                 stats["MCQs added"] += 1
             stats["pages added"] += 1
+        for leaf, t, blocks in CAL_P.get((b, i), []):
+            if any(x["t"] == t for x in r["secs"]):
+                continue
+            r["secs"].append({"t": t, "badges": [], "b": blocks, "p": r["secs"][-1].get("p", 0)})
+            o["subs"][str(len(r["secs"]) - 1)] = G1_OF.get(leaf, "G/2")
+            stats["pages added"] += 1
+        for t, q in CAL_Q.get((b, i), []):
+            j = next((k for k, x in enumerate(r["secs"]) if x["t"] == t), -1)
+            m["rows"].setdefault(str(i), []).append(dict(q))
+            m["subs"].setdefault(str(i), []).append(j)
+            stats["MCQs added"] += 1
         if b == 6 and not CA_AT and any("New Current Affairs: 5–14 Nov 2026" in x["t"] for x in r["secs"]):
             CA_AT.append(i)
             for ca in CA_NEW:  # current affairs 15-20 Nov 2026 (as in Group 2)
