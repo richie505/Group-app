@@ -234,6 +234,14 @@ def collect():
                 out.append((book, items.get(item, item), (lorder[leaf], "", job, n), lec, [leaf]))
         for c in d.get("corrections") or []:
             corr.append({**c, "job": job})
+    # a lecture of one or two lines is not a lecture: those of a subject become the parts of one "Short notes" lecture
+    small = [x for x in out if x[0] != 6 and sum(len(p["items"]) for p in x[3]["parts"]) <= 2]
+    out = [x for x in out if not any(x is y for y in small)]
+    for b in sorted({x[0] for x in small}):
+        mine = sorted([x for x in small if x[0] == b], key=lambda x: (x[2][0] == 999, x[2]))
+        parts = [{"t": x[3]["title"][:70], "items": [it for p in x[3]["parts"] for it in p["items"]]} for x in mine]
+        leaves_ = [l for x in mine for l in x[4]]
+        out.append((b, "Short notes", (998, "", "", 0), {"title": "Short notes: single facts on other syllabus lines", "parts": parts}, leaves_[:8]))
     return out, corr
 
 
