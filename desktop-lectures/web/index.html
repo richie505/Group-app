@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>APPSC Lectures</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="icon.png">
+<style>
+:root { --navy:#1e2a5a; --indigo:#2f3f8f; --blue:#4458c4; --amber:#f6a623; --page:#f3f5fa; --ink:#1f2430; --muted:#6b7185;
+  --line:#e3e6f0; --card:#fff; --ok:#2e9e5b; --side:320px }
+* { box-sizing:border-box }
+html, body { height:100%; margin:0 }
+body { font:15px/1.45 "Segoe UI", Inter, system-ui, -apple-system, Arial, sans-serif; color:var(--ink); background:var(--page); overflow:hidden }
+button { font:inherit; color:inherit; cursor:pointer; border:0; background:none }
+button:focus-visible, input:focus-visible, [tabindex]:focus-visible { outline:3px solid var(--amber); outline-offset:1px }
+#app { display:grid; grid-template-rows:56px 1fr; grid-template-columns:var(--side) 1fr; height:100% }
+#app.noside { grid-template-columns:0 1fr }
+#app.noside #side { display:none }
+
+/* top bar */
+header { grid-column:1 / 3; background:var(--navy); color:#fff; display:flex; align-items:center; gap:12px; padding:0 14px }
+.ib { width:38px; height:38px; border-radius:9px; display:inline-flex; align-items:center; justify-content:center; font-size:19px; flex:none }
+.ib:hover { background:rgba(255,255,255,.14) }
+.brand { font-weight:800; letter-spacing:.3px; font-size:17px; white-space:nowrap; cursor:pointer }
+.brand small { color:var(--amber); font-weight:700; margin-left:6px; font-size:12px; letter-spacing:1px }
+#q { flex:1; max-width:640px; margin:0 auto; height:38px; border-radius:10px; border:0; padding:0 14px 0 38px; font:inherit; color:var(--ink);
+  background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%236b7185' stroke-width='2.4' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20l-3.5-3.5'/%3E%3C/svg%3E") 11px center no-repeat }
+.tb { height:36px; padding:0 13px; border-radius:9px; font-weight:600; font-size:14px; white-space:nowrap }
+.tb:hover { background:rgba(255,255,255,.14) }
+.tb.on { background:rgba(255,255,255,.2) }
+
+/* library */
+#side { background:#fff; border-right:1px solid var(--line); display:flex; flex-direction:column; min-height:0 }
+.seg { display:flex; margin:12px 12px 0; background:var(--page); border-radius:10px; padding:3px }
+.seg button { flex:1; padding:7px 4px; border-radius:8px; font-weight:600; font-size:13.5px; color:var(--muted) }
+.seg button.on { background:#fff; color:var(--navy); box-shadow:0 1px 3px rgba(30,42,90,.18) }
+.sidehint { padding:10px 14px 4px; color:var(--muted); font-size:12px }
+#tree { overflow:auto; padding:4px 8px 16px; flex:1 }
+.subj { margin-top:4px }
+.subj > button.sb { width:100%; text-align:left; padding:9px 10px; border-radius:9px; display:flex; gap:8px; align-items:center; font-weight:600 }
+.subj > button.sb:hover { background:var(--page) }
+.subj.open > button.sb { background:#eef1fb; color:var(--navy) }
+.subj .n { width:24px; height:24px; border-radius:50%; background:var(--navy); color:#fff; font-size:12px; display:inline-flex; align-items:center; justify-content:center; flex:none }
+.subj .tt { flex:1; min-width:0 }
+.subj .ct { color:var(--muted); font-size:12px; font-weight:500 }
+.subj .ch { color:var(--muted); transition:transform .15s }
+.subj.open .ch { transform:rotate(90deg) }
+.unit { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; margin:10px 10px 3px 12px; padding:0 !important; font-size:10.5px; letter-spacing:.8px; text-transform:uppercase; color:var(--indigo); font-weight:700; padding:10px 10px 3px 12px; line-height:1.35 }
+.lec { width:100%; text-align:left; padding:6px 8px 6px 12px; border-radius:7px; display:flex; gap:8px; align-items:flex-start; font-size:13.5px; line-height:1.35 }
+.lec:hover { background:var(--page) }
+.lec.cur { background:#fff3dc; font-weight:600 }
+.dot { width:9px; height:9px; border-radius:50%; border:2px solid #c3c8da; margin-top:5px; flex:none }
+.dot.part { border-color:var(--amber); background:linear-gradient(90deg,var(--amber) 50%,transparent 50%) }
+.dot.done { border-color:var(--ok); background:var(--ok) }
+
+/* main */
+main { min-width:0; min-height:0; overflow:auto; position:relative }
+.wrap { max-width:1080px; margin:0 auto; padding:26px 28px 60px }
+.hero { background:linear-gradient(135deg,var(--navy),var(--indigo) 60%,var(--blue)); color:#fff; border-radius:18px; padding:26px 30px }
+.hero .k { color:var(--amber); font-size:12px; font-weight:700; letter-spacing:1.5px }
+.hero h1 { margin:4px 0 6px; font-size:28px }
+.hero p { margin:0; opacity:.82 }
+h2 { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; font-size:13px; letter-spacing:1.2px; text-transform:uppercase; color:var(--muted); margin:26px 2px 10px }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:14px }
+.card { background:var(--card); border-radius:14px; padding:16px 18px; text-align:left; display:block; width:100%; border:1px solid var(--line); transition:box-shadow .15s, transform .15s }
+button.card:hover { box-shadow:0 6px 18px rgba(30,42,90,.13); transform:translateY(-1px) }
+.card .t { font-weight:700; color:var(--navy); font-size:16px }
+.card .s { color:var(--muted); font-size:13px; margin-top:2px }
+.card .tag { font-size:11px; font-weight:700; letter-spacing:1px; color:var(--amber) }
+.bar { height:6px; border-radius:3px; background:var(--line); margin-top:12px; overflow:hidden }
+.bar i { display:block; height:100%; background:var(--amber); border-radius:3px }
+.pct { font-size:12px; color:var(--muted); margin-top:5px }
+.rows { background:#fff; border:1px solid var(--line); border-radius:14px; overflow:hidden }
+.row { display:flex; gap:12px; align-items:center; width:100%; text-align:left; padding:11px 16px; border-top:1px solid var(--line) }
+.row:first-child { border-top:0 }
+.row:hover { background:#f7f8fc }
+.row .no { color:var(--muted); font-size:12px; font-weight:700; width:34px; flex:none }
+.row .tt { flex:1; min-width:0 }
+.row .tt b { font-weight:600; display:block }
+.row .tt span { color:var(--muted); font-size:12.5px; display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis }
+.row .m { color:var(--muted); font-size:12.5px; white-space:nowrap }
+.badge { font-size:11px; font-weight:700; padding:2px 8px; border-radius:20px; background:#eef1fb; color:var(--indigo); white-space:nowrap }
+.badge.r { background:#fff3dc; color:#9a6200 }
+.crumb { color:var(--muted); font-size:13px; margin-bottom:4px }
+.title { font-size:24px; font-weight:800; color:var(--navy); margin:0 0 4px }
+.empty { color:var(--muted); padding:30px 0; text-align:center }
+mark { background:#ffe7a8; color:inherit; border-radius:3px; padding:0 1px }
+.tip { color:var(--muted); font-size:13px; margin-top:22px }
+kbd { background:#fff; border:1px solid var(--line); border-bottom-width:2px; border-radius:5px; padding:1px 6px; font:12px "Segoe UI",sans-serif }
+
+/* viewer */
+#view { position:absolute; inset:0; display:none; flex-direction:column; background:#0f1530 }
+#view.on { display:flex }
+#vbar { height:48px; background:#fff; border-bottom:1px solid var(--line); display:flex; align-items:center; gap:6px; padding:0 10px; flex:none }
+#vbar .ib:hover, #vbar .vb:hover { background:var(--page) }
+#vbar .vt { flex:1; min-width:0 }
+#vbar .vt b { display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:14.5px; color:var(--navy) }
+#vbar .vt span { display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:12px; color:var(--muted) }
+.vb { height:34px; padding:0 11px; border-radius:8px; font-weight:600; font-size:13.5px; white-space:nowrap; color:var(--navy) }
+.vb[disabled] { opacity:.35; cursor:default }
+#vcount { font-weight:700; color:var(--navy); font-size:13.5px; min-width:64px; text-align:center }
+#star.on { color:#e39400 }
+#frame { flex:1; border:0; width:100%; background:#0f1530 }
+#view:fullscreen #vbar { display:none }
+#toast { position:fixed; left:50%; bottom:26px; transform:translateX(-50%); background:var(--navy); color:#fff; padding:9px 16px; border-radius:22px; font-size:13.5px; opacity:0; transition:opacity .25s; pointer-events:none; z-index:50 }
+#toast.on { opacity:.96 }
+@media (max-width:900px) { :root { --side:270px } .brand small { display:none } }
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <button class="ib" id="menu" title="Show or hide the library (Ctrl+B)" aria-label="Show or hide the library">☰</button>
+    <div class="brand" id="home" role="button" tabindex="0" title="Home">APPSC Lectures<small>+ ROCKETONE</small></div>
+    <input id="q" type="search" placeholder="Search every lecture…  (Ctrl+K)" aria-label="Search lectures" autocomplete="off" spellcheck="false">
+    <button class="tb" id="savedBtn" title="Lectures you starred">★ Saved</button>
+    <button class="tb" id="helpBtn" title="Keyboard shortcuts">Help</button>
+  </header>
+  <nav id="side" aria-label="Library">
+    <div class="seg" id="segA" role="tablist" aria-label="Collection"></div>
+    <div class="seg" id="segB" role="tablist" aria-label="Exam"></div>
+    <div class="sidehint" id="sidehint"></div>
+    <div id="tree"></div>
+  </nav>
+  <main id="main">
+    <div class="wrap" id="page"></div>
+    <section id="view" aria-label="Lecture">
+      <div id="vbar">
+        <button class="ib" id="vback" title="Back to the list (Esc)" aria-label="Back to the list">←</button>
+        <div class="vt"><b id="vtitle"></b><span id="vsub"></span></div>
+        <button class="vb" id="vprevL" title="Previous lecture ( [ )">‹ Lecture</button>
+        <button class="vb" id="vprev" title="Previous slide (←)" aria-label="Previous slide">◀</button>
+        <span id="vcount" aria-live="polite"></span>
+        <button class="vb" id="vnext" title="Next slide (→ or Space)" aria-label="Next slide">▶</button>
+        <button class="vb" id="vnextL" title="Next lecture ( ] )">Lecture ›</button>
+        <button class="ib" id="star" title="Save this lecture (S)" aria-label="Save this lecture">★</button>
+        <button class="vb" id="full" title="Present full screen (F)">⛶ Present</button>
+      </div>
+      <iframe id="frame" title="Lecture slides" allow="fullscreen"></iframe>
+    </section>
+  </main>
+</div>
+<div id="toast" role="status"></div>
+<script src="library.js"></script>
+<script>
+(function () {
+'use strict';
+const $ = s => document.querySelector(s), el = (t, c, h) => { const e = document.createElement(t); if (c) e.className = c; if (h != null) e.innerHTML = h; return e; };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+// ---- library: groups (APPSC Lectures, RocketOne) -> editions (Group 1 Prelims, Group 2) -> subjects -> units -> lectures
+const ALL = [], BY = {};
+LIB.groups.forEach((g, gi) => g.eds.forEach((ed, ei) => ed.subjects.forEach((s, si) => {
+  let n = 0;
+  s.units.forEach(u => u.lectures.forEach(l => {
+    l.n = ++n; l.g = gi; l.e = ei; l.s = si; l.unit = u.t; l.i = ALL.length;
+    l.hay = (l.t + ' ' + u.t + ' ' + (l.p || []).join(' ')).toLowerCase();
+    ALL.push(l); BY[l.f] = l;
+  }));
+  s.count = n; s.slides = s.units.reduce((a, u) => a + u.lectures.reduce((b, l) => b + l.sl, 0), 0);
+})));
+const edOf = l => LIB.groups[l.g].eds[l.e], subjOf = l => edOf(l).subjects[l.s];
+const edName = (g, e) => LIB.groups[g].name + ' · ' + LIB.groups[g].eds[e].name;
+
+// ---- what the reader has done (kept on this computer)
+const KEY = 'appsc-lectures-v1';
+let S = { seen: {}, saved: [], last: '', g: 0, e: 0, side: true };
+try { Object.assign(S, JSON.parse(localStorage.getItem(KEY) || '{}')); } catch (e) {}
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };
+const stat = l => { const x = S.seen[l.f]; return !x ? '' : x.d ? 'done' : 'part'; };
+const doneIn = ls => ls.filter(l => (S.seen[l.f] || {}).d).length;
+const lecturesOf = (g, e, s) => ALL.filter(l => l.g === g && l.e === e && (s == null || l.s === s));
+
+let cur = null, openSubj = null, mode = 'home';
+const page = $('#page'), view = $('#view'), frame = $('#frame'), tree = $('#tree');
+function toast(t) { const o = $('#toast'); o.textContent = t; o.classList.add('on'); clearTimeout(toast.t); toast.t = setTimeout(() => o.classList.remove('on'), 1800); }
+
+// ---- sidebar
+function segs() {
+  const a = $('#segA'), b = $('#segB'); a.innerHTML = ''; b.innerHTML = '';
+  LIB.groups.forEach((g, i) => { const x = el('button', i === S.g ? 'on' : '', esc(g.name)); x.setAttribute('role', 'tab'); x.onclick = () => { S.g = i; S.e = Math.min(S.e, g.eds.length - 1); openSubj = null; save(); side(); home(); }; a.appendChild(x); });
+  LIB.groups[S.g].eds.forEach((ed, i) => { const x = el('button', i === S.e ? 'on' : '', esc(ed.name)); x.setAttribute('role', 'tab'); x.onclick = () => { S.e = i; openSubj = null; save(); side(); home(); }; b.appendChild(x); });
+  $('#sidehint').textContent = LIB.groups[S.g].note;
+}
+function side() {
+  segs(); tree.innerHTML = '';
+  LIB.groups[S.g].eds[S.e].subjects.forEach((s, si) => {
+    if (!s.count) return;
+    const d = el('div', 'subj' + (openSubj === si ? ' open' : ''));
+    const ls = lecturesOf(S.g, S.e, si);
+    const b = el('button', 'sb', `<span class="n">${si + 1}</span><span class="tt">${esc(s.title)}<br><span class="ct">${doneIn(ls)} of ${s.count} done</span></span><span class="ch">›</span>`);
+    b.setAttribute('aria-expanded', openSubj === si);
+    b.onclick = () => { openSubj = openSubj === si ? null : si; side(); if (openSubj != null) subject(S.g, S.e, si); };
+    d.appendChild(b);
+    if (openSubj === si) s.units.forEach(u => {
+      if (!u.lectures.length) return;
+      { const ud = el('div', 'unit', esc(u.t)); ud.title = u.t; d.appendChild(ud); }
+      u.lectures.forEach(l => {
+        const r = el('button', 'lec' + (cur === l ? ' cur' : ''), `<span class="dot ${stat(l)}"></span><span>${esc(l.t)}</span>`);
+        r.title = l.t; r.onclick = () => open(l); d.appendChild(r);
+      });
+    });
+    tree.appendChild(d);
+  });
+  const c = tree.querySelector('.lec.cur'); if (c) c.scrollIntoView({ block: 'nearest' });
+}
+
+// ---- pages
+function show(m) { mode = m; view.classList.toggle('on', m === 'view'); if (m !== 'view') { cur = null; frame.src = 'about:blank'; document.title = 'APPSC Lectures'; } $('#savedBtn').classList.toggle('on', m === 'saved'); }
+function rowsOf(ls, withEd) {
+  const box = el('div', 'rows');
+  ls.forEach(l => {
+    const x = S.seen[l.f], st = stat(l);
+    const sub = withEd ? `${esc(subjOf(l).short)} · ${esc(l.unit)}` : (l.p || []).slice(0, 6).map(esc).join(' · ');
+    const r = el('button', 'row', `<span class="dot ${st}"></span><span class="no">${String(l.n).padStart(3, '0')}</span>
+      <span class="tt"><b>${l.h || esc(l.t)}</b><span>${sub}</span></span>
+      ${withEd ? `<span class="badge${l.g ? ' r' : ''}">${esc(edName(l.g, l.e))}</span>` : ''}
+      <span class="m">${st === 'done' ? 'Done' : st === 'part' ? Math.round((x.p || 0) * 100) + '%' : l.sl + ' slides'}</span>`);
+    r.onclick = () => open(l); box.appendChild(r);
+  });
+  return box;
+}
+function home() {
+  show('home'); page.innerHTML = '';
+  const tot = ALL.length, done = doneIn(ALL);
+  page.appendChild(el('div', 'hero', `<div class="k">APPSC LECTURES + ROCKETONE</div><h1>Every topic, slide by slide</h1>
+    <p>${tot.toLocaleString()} lectures · ${ALL.reduce((a, l) => a + l.sl, 0).toLocaleString()} slides · ${done} done</p>`));
+  const last = BY[S.last];
+  if (last) {
+    page.appendChild(el('h2', '', 'Continue'));
+    const x = S.seen[last.f] || {};
+    const c = el('button', 'card', `<div class="tag">${esc(edName(last.g, last.e)).toUpperCase()}</div><div class="t">${esc(last.t)}</div>
+      <div class="s">${esc(subjOf(last).short)} · ${esc(last.unit)}</div><div class="bar"><i style="width:${Math.round((x.d ? 1 : x.p || 0) * 100)}%"></i></div>`);
+    c.onclick = () => open(last); page.appendChild(c);
+  }
+  LIB.groups.forEach((g, gi) => {
+    page.appendChild(el('h2', '', esc(g.name) + ' — ' + esc(g.note)));
+    const grid = el('div', 'grid');
+    g.eds.forEach((ed, ei) => {
+      const ls = lecturesOf(gi, ei), d = doneIn(ls);
+      const c = el('button', 'card', `<div class="t">${esc(ed.name)}</div><div class="s">${ed.subjects.filter(s => s.count).length} subjects · ${ls.length} lectures · ${ls.reduce((a, l) => a + l.sl, 0).toLocaleString()} slides</div>
+        <div class="bar"><i style="width:${ls.length ? d / ls.length * 100 : 0}%"></i></div><div class="pct">${d} of ${ls.length} done</div>`);
+      c.onclick = () => { S.g = gi; S.e = ei; openSubj = null; save(); side(); edition(gi, ei); };
+      grid.appendChild(c);
+    });
+    page.appendChild(grid);
+  });
+  const rec = Object.keys(S.seen).map(f => BY[f]).filter(Boolean).sort((a, b) => (S.seen[b.f].t || 0) - (S.seen[a.f].t || 0)).slice(0, 6);
+  if (rec.length > 1) { page.appendChild(el('h2', '', 'Recently opened')); page.appendChild(rowsOf(rec, true)); }
+  page.appendChild(el('div', 'tip', 'Tip: press <kbd>Ctrl</kbd> + <kbd>K</kbd> to search, <kbd>→</kbd> <kbd>←</kbd> to change slides, <kbd>F</kbd> to present full screen.'));
+  $('#main').scrollTop = 0;
+}
+function edition(g, e) {
+  show('ed'); page.innerHTML = '';
+  const ed = LIB.groups[g].eds[e];
+  page.appendChild(el('div', 'crumb', esc(LIB.groups[g].name)));
+  page.appendChild(el('h1', 'title', esc(ed.name)));
+  const grid = el('div', 'grid'); grid.style.marginTop = '16px';
+  ed.subjects.forEach((s, si) => {
+    if (!s.count) return;
+    const ls = lecturesOf(g, e, si), d = doneIn(ls);
+    const c = el('button', 'card', `<div class="t">${esc(s.title)}</div><div class="s">${s.count} lectures · ${s.slides.toLocaleString()} slides</div>
+      <div class="bar"><i style="width:${d / s.count * 100}%"></i></div><div class="pct">${d} of ${s.count} done</div>`);
+    c.onclick = () => { openSubj = si; side(); subject(g, e, si); };
+    grid.appendChild(c);
+  });
+  page.appendChild(grid); $('#main').scrollTop = 0;
+}
+function subject(g, e, si) {
+  show('subj'); page.innerHTML = '';
+  const s = LIB.groups[g].eds[e].subjects[si];
+  page.appendChild(el('div', 'crumb', esc(edName(g, e))));
+  page.appendChild(el('h1', 'title', esc(s.title)));
+  page.appendChild(el('div', 'crumb', `${s.count} lectures · ${s.slides.toLocaleString()} slides · ${doneIn(lecturesOf(g, e, si))} done`));
+  s.units.forEach(u => { if (!u.lectures.length) return; { const h = el('h2', '', esc(u.t)); h.title = u.t; page.appendChild(h); } page.appendChild(rowsOf(u.lectures)); });
+  $('#main').scrollTop = 0;
+}
+function savedPage() {
+  show('saved'); page.innerHTML = '';
+  page.appendChild(el('h1', 'title', 'Saved lectures'));
+  const ls = S.saved.map(f => BY[f]).filter(Boolean);
+  page.appendChild(ls.length ? rowsOf(ls, true) : el('div', 'empty', 'Nothing saved yet. Open a lecture and press ★ (or S) to keep it here.'));
+}
+function helpPage() {
+  show('help'); page.innerHTML = '';
+  page.appendChild(el('h1', 'title', 'Keyboard and mouse'));
+  const k = [['→  Space  PageDown', 'Next slide'], ['←  PageUp', 'Previous slide'], ['Click the slide', 'Right two-thirds: next slide; left third: previous'], [']  [', 'Next / previous lecture'],
+    ['F', 'Present full screen (Esc to leave)'], ['S', 'Save / unsave the lecture'], ['Esc', 'Back to the list'], ['Ctrl + K  or  /', 'Search every lecture'], ['Ctrl + B', 'Show or hide the library']];
+  const box = el('div', 'rows'); box.style.marginTop = '14px';
+  k.forEach(([a, b]) => box.appendChild(el('div', 'row', `<span class="tt"><b>${esc(b)}</b></span><span class="m"><kbd>${esc(a)}</kbd></span>`)));
+  page.appendChild(box);
+  page.appendChild(el('div', 'tip', 'Your place in each lecture, the lectures you finished and the ones you saved are kept on this computer. A lecture is marked done when you reach its last slide.'));
+}
+
+// ---- search
+function search(q) {
+  const words = q.toLowerCase().split(/\s+/).filter(Boolean);
+  if (!words.length) return home();
+  show('search'); page.innerHTML = '';
+  const hit = ALL.filter(l => words.every(w => l.hay.includes(w)));
+  const rank = l => { const t = l.t.toLowerCase(); return (words.every(w => t.includes(w)) ? 0 : 2) + (l.g === S.g && l.e === S.e ? 0 : 1); };
+  hit.sort((a, b) => rank(a) - rank(b) || a.i - b.i);
+  page.appendChild(el('h1', 'title', hit.length ? `${hit.length} lecture${hit.length > 1 ? 's' : ''} for “${esc(q)}”` : `Nothing for “${esc(q)}”`));
+  if (!hit.length) return page.appendChild(el('div', 'empty', 'Try fewer or shorter words: the search looks in lecture titles, unit names and the headings inside each lecture.'));
+  const rx = new RegExp('(' + words.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')', 'ig');
+  const show_ = hit.slice(0, 200); show_.forEach(l => l.h = esc(l.t).replace(rx, '<mark>$1</mark>'));
+  const box = rowsOf(show_, true); box.style.marginTop = '14px'; page.appendChild(box);
+  show_.forEach(l => delete l.h);
+  if (hit.length > 200) page.appendChild(el('div', 'tip', 'Showing the first 200. Add a word to narrow it down.'));
+  search.first = hit[0]; $('#main').scrollTop = 0;
+}
+
+// ---- a lecture
+function open(l, fromEnd) {
+  cur = l; S.last = l.f; S.g = l.g; S.e = l.e; openSubj = l.s;
+  const x = S.seen[l.f] = S.seen[l.f] || { p: 0 }; x.t = Date.now(); save();
+  show('view'); cur = l;
+  $('#vtitle').textContent = l.t; $('#vsub').textContent = edName(l.g, l.e) + ' · ' + subjOf(l).short + ' · ' + l.unit;
+  $('#vcount').textContent = ''; document.title = l.t + ' – APPSC Lectures';
+  const ls = lecturesOf(l.g, l.e, l.s), k = ls.indexOf(l);
+  $('#vprevL').disabled = k <= 0; $('#vnextL').disabled = k >= ls.length - 1;
+  $('#star').classList.toggle('on', S.saved.includes(l.f));
+  frame.src = l.f + (fromEnd ? '#end=1' : x.p > 0 && !x.d ? '#p=' + x.p : '');
+  side(); setTimeout(() => frame.focus(), 50);
+}
+function step(d, fromEnd) {
+  if (!cur) return;
+  const ls = lecturesOf(cur.g, cur.e, cur.s), k = ls.indexOf(cur) + d;
+  if (k >= 0 && k < ls.length) open(ls[k], fromEnd); else if (d > 0) toast('That was the last lecture of this subject');
+}
+const key = k => frame.contentWindow && frame.contentWindow.postMessage({ key: k }, '*');
+function back() { if (!cur) return; const l = cur; side(); subject(l.g, l.e, l.s); side(); }
+function star() {
+  if (!cur) return;
+  const i = S.saved.indexOf(cur.f); if (i < 0) S.saved.unshift(cur.f); else S.saved.splice(i, 1);
+  save(); $('#star').classList.toggle('on', i < 0); toast(i < 0 ? 'Saved' : 'Removed from Saved');
+}
+function full() { if (document.fullscreenElement) document.exitFullscreen(); else view.requestFullscreen().then(() => frame.focus()).catch(() => {}); }
+addEventListener('message', e => {
+  const m = e.data || {}; if (e.source !== frame.contentWindow || !cur) return;
+  if (m.t === 'slide') {
+    $('#vcount').textContent = m.cur + ' / ' + m.n;
+    const x = S.seen[cur.f]; x.p = m.n > 1 ? (m.cur - 1) / (m.n - 1) : 1;
+    if (m.cur === m.n && !x.d) { x.d = 1; side(); }
+    save();
+  } else if (m.t === 'next') step(1); else if (m.t === 'prev') step(-1, true); else if (m.t === 'close') back();
+  else if (m.t === 'key') hot(m.key, m.ctrl);
+});
+function hot(k, ctrl) {
+  if (ctrl && (k === 'k' || k === 'K')) { if (document.fullscreenElement) document.exitFullscreen(); $('#q').focus(); $('#q').select(); return true; }
+  if (ctrl && (k === 'b' || k === 'B')) { toggleSide(); return true; }
+  if (ctrl) return false;
+  if (k === '/') { $('#q').focus(); $('#q').select(); return true; }
+  if (mode !== 'view') return false;
+  if (k === 'Escape') { if (!document.fullscreenElement) back(); return true; }
+  if (k === 'f' || k === 'F') { full(); return true; }
+  if (k === 's' || k === 'S') { star(); return true; }
+  if (k === ']') { step(1); return true; }
+  if (k === '[') { step(-1); return true; }
+  if (['ArrowRight', 'ArrowDown', 'PageDown', ' ', 'ArrowLeft', 'ArrowUp', 'PageUp'].includes(k)) { key(k); return true; }
+  return false;
+}
+addEventListener('keydown', e => {
+  const inQ = e.target === $('#q');
+  if (inQ && e.key === 'Escape') { $('#q').value = ''; $('#q').blur(); if (mode === 'search') home(); return; }
+  if (inQ && e.key === 'Enter' && search.first && mode === 'search') { open(search.first); $('#q').blur(); return; }
+  if (inQ && !(e.ctrlKey || e.metaKey)) return;
+  if (hot(e.key, e.ctrlKey || e.metaKey)) e.preventDefault();
+});
+function toggleSide() { S.side = !S.side; save(); $('#app').classList.toggle('noside', !S.side); }
+
+$('#menu').onclick = toggleSide;
+$('#home').onclick = home; $('#home').onkeydown = e => { if (e.key === 'Enter') home(); };
+$('#savedBtn').onclick = savedPage; $('#helpBtn').onclick = helpPage;
+$('#q').oninput = e => search(e.target.value.trim());
+$('#vback').onclick = back; $('#vprev').onclick = () => { key('ArrowLeft'); frame.focus(); }; $('#vnext').onclick = () => { key('ArrowRight'); frame.focus(); };
+$('#vprevL').onclick = () => step(-1); $('#vnextL').onclick = () => step(1); $('#star').onclick = star; $('#full').onclick = full;
+$('#q').placeholder = `Search ${ALL.length.toLocaleString()} lectures…  (Ctrl+K)`;
+$('#app').classList.toggle('noside', !S.side);
+if (!LIB.groups[S.g] || !LIB.groups[S.g].eds[S.e]) { S.g = 0; S.e = 0; }
+side(); home();
+})();
+</script>
+</body>
+</html>

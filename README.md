@@ -232,3 +232,13 @@ APPSC Lectures slide viewer, arranged two ways in one app: by the Group 1 Prelim
 Group 2 syllabus (496 lectures, the same notes re-filed; `data/rocketone/g2map`). No MCQs. Where Rocket disagreed with
 itself or with the verified fact, the slide has the corrected line and `data/rocketone/CORRECTIONS.md` has what Rocket
 said. How it is built: `data/rocketone/README.md` (`tools/rocketone.py`, flavor `rocketone`).
+
+## APPSC Lectures for the desktop (with RocketOne)
+
+`apks/APPSC-Lectures-Desktop-1.0-Setup.exe` (Windows 10/11): the APPSC Lectures decks and the RocketOne decks, Group 1
+Prelims and Group 2 of each (2,837 lectures), in one desktop app: library pane, search over every title and heading,
+resume where you stopped, done marks, saved lectures, full-screen presenting, keyboard shortcuts (Help in the app).
+It is an HTML app (`desktop-lectures/web`) shown in an Edge/Chrome app window by a small launcher
+(`desktop-lectures/windows/launcher.c`); `app/index.html` also opens in any browser on any system.
+Build: `desktop-lectures/windows/build.sh <version>` (needs gcc-mingw-w64-x86-64, nsis, zip) after the phone apps'
+decks are built; `tools/desklec_build.py` assembles the app into `out/desktop-lectures/`.
