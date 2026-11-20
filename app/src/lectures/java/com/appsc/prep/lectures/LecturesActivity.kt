@@ -85,8 +85,17 @@ private val Page = Color(0xFFF3F5FA)
 private val Ink = Color(0xFF1F2430)
 private val Muted = Color(0xFF6B7185)
 
-fun loadIndex(ctx: Context): List<LectureApp> {
+/** The home screen's words: APPSC Lectures' own, or the ones lec/index.json gives (RocketOne). */
+data class Brand(val name: String, val headline: String, val from: String)
+
+fun loadIndex(ctx: Context): List<LectureApp> = loadIndexAndBrand(ctx).first
+
+fun loadIndexAndBrand(ctx: Context): Pair<List<LectureApp>, Brand> {
     val root = Json.parseToJsonElement(ctx.assets.open("lec/index.json").bufferedReader().readText()).jsonObject
+    val brand = Brand(
+        root.s("brand").ifEmpty { "APPSC LECTURES" }, root.s("headline").ifEmpty { "Teach every topic, slide by slide" },
+        root.s("from").ifEmpty { "From the notes of APPSC Group 1 Prelims and APPSC Group 2" },
+    )
     return root["apps"]!!.jsonArray.map { a ->
         val o = a.jsonObject
         LectureApp(o.s("key"), o.s("name"), o["subjects"]!!.jsonArray.map { s ->
@@ -96,7 +105,7 @@ fun loadIndex(ctx: Context): List<LectureApp> {
                 Topic(to["n"]!!.jsonPrimitive.int, to.s("title"), to.s("unit"), to["slides"]!!.jsonPrimitive.int, to["q"]!!.jsonPrimitive.int, to.s("file"))
             })
         })
-    }
+    } to brand
 }
 
 private fun JsonObject.s(k: String) = this[k]?.jsonPrimitive?.content ?: ""
@@ -113,7 +122,7 @@ class LecturesActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        val apps = loadIndex(this)
+        val (apps, brand) = loadIndexAndBrand(this)
         val prefs = getSharedPreferences("lectures", MODE_PRIVATE)
         setContent {
             MaterialTheme(colorScheme = lightColorScheme(primary = Indigo, background = Page, surface = Color.White)) {
@@ -131,7 +140,7 @@ class LecturesActivity : ComponentActivity() {
                 }
                 Surface(Modifier.fillMaxSize(), color = Page) {
                     when (val sc = stack.last()) {
-                        Screen.Home -> HomeScreen(apps, seen, last) { a, s, t ->
+                        Screen.Home -> HomeScreen(apps, brand, seen, last) { a, s, t ->
                             if (s < 0) go(Screen.Subjects(a)) else { open(a, s, t); go(Screen.Slides(a, s, t)) }
                         }
                         is Screen.Subjects -> SubjectsScreen(apps[sc.app], seen, back) { go(Screen.Topics(sc.app, it)) }
@@ -165,16 +174,16 @@ private fun Bar(title: String, sub: String = "", onBack: (() -> Unit)?, actions:
 }
 
 @Composable
-private fun HomeScreen(apps: List<LectureApp>, seen: Set<String>, last: String, onOpen: (Int, Int, Int) -> Unit) {
+private fun HomeScreen(apps: List<LectureApp>, brand: Brand, seen: Set<String>, last: String, onOpen: (Int, Int, Int) -> Unit) {
     Column(Modifier.fillMaxSize()) {
         Box(
             Modifier.fillMaxWidth().background(Brush.linearGradient(listOf(Navy, Indigo, Color(0xFF4458C4)))).safeDrawingPadding()
                 .padding(horizontal = 22.dp, vertical = 26.dp),
         ) {
             Column {
-                Text("APPSC LECTURES", color = Amber, fontSize = 12.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.5.sp)
-                Text("Teach every topic, slide by slide", color = Color.White, fontSize = 24.sp, fontWeight = FontWeight.ExtraBold, modifier = Modifier.padding(top = 4.dp))
-                Text("From the notes of APPSC Group 1 Prelims and APPSC Group 2", color = Color.White.copy(alpha = .75f), fontSize = 14.sp, modifier = Modifier.padding(top = 4.dp))
+                Text(brand.name, color = Amber, fontSize = 12.sp, fontWeight = FontWeight.Bold, letterSpacing = 1.5.sp)
+                Text(brand.headline, color = Color.White, fontSize = 24.sp, fontWeight = FontWeight.ExtraBold, modifier = Modifier.padding(top = 4.dp))
+                Text(brand.from, color = Color.White.copy(alpha = .75f), fontSize = 14.sp, modifier = Modifier.padding(top = 4.dp))
             }
         }
         LazyColumn(Modifier.fillMaxSize().padding(horizontal = 16.dp)) {
@@ -261,7 +270,7 @@ private fun TopicsScreen(app: LectureApp, s: Subject, seen: Set<String>, onBack:
                         Text("%03d".format(t.n), color = Muted, fontSize = 12.sp, fontWeight = FontWeight.Bold, modifier = Modifier.width(38.dp))
                         Column(Modifier.weight(1f)) {
                             Text(t.title, color = Ink, fontSize = 15.sp, fontWeight = FontWeight.Medium, maxLines = 3, overflow = TextOverflow.Ellipsis)
-                            Text("${t.slides} slides · ${t.mcqs} MCQs in the app", color = Muted, fontSize = 12.sp)
+                            Text("${t.slides} slides" + if (t.mcqs > 0) " · ${t.mcqs} MCQs in the app" else "", color = Muted, fontSize = 12.sp)
                         }
                         if (t.file in seen) Icon(Icons.Filled.CheckCircle, "Opened", tint = Color(0xFF2E9E5B), modifier = Modifier.padding(start = 8.dp))
                     }

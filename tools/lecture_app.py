@@ -133,44 +133,50 @@ try { history.scrollRestoration = 'manual'; } catch (e) {}
   if (b && b.clientHeight < 120 && tries < 100) setTimeout(() => location.reload(), 300);
 })(0);
 """
-if os.path.exists(OUT):
-    shutil.rmtree(OUT)
-index = {"apps": []}
-for key, A, name, pdfs in APPS:
-    books = json.load(open(f"{A}/index.json"))["books"]
-    app = {"key": key, "name": name, "subjects": []}
-    for b in books:
-        sj = {"id": b["id"], "title": b["title"], "short": b.get("short") or b["title"], "topics": []}
-        units = [u["title"] for u in b["units"]]
-        n = 0
-        for r, info in enumerate(b["rows"]):
-            if info.get("hide"):
-                continue
-            n += 1
-            f = f"{OUT}/{key}/{b['id']}/{r}.html"
-            os.makedirs(os.path.dirname(f), exist_ok=True)
-            h = LP.build(A, b["id"], r, f[:-5] + ".pdf", name)
-            doc = open(h).read().replace("</head>", SCREEN + "</head>", 1)
-            # lay the slides out only once the screen has its real size (a WebView can start at 0 x 0, or still in
-            # portrait while it turns): the layout script and the deck run from START, not as the page loads
-            i0 = doc.index("<script>")
-            i1 = doc.index("</script>", i0)
-            doc = doc[:i0] + "<script>function __layout() {" + doc[i0 + 8:i1] + "}</script>" + doc[i1 + 9:]
-            doc = doc.replace("</body>", "<script>function __deck() {" + DECK + "}" + START + "</script></body>", 1)
-            if h != f:
-                os.unlink(h)
-            open(f, "w").write(doc)
-            # its slide count, from the PDF made by tools/lecture_all.py
-            pdf = glob.glob(f"{pdfs}/{b['id']:02d} */{n:03d} *.pdf")
-            pages = 0
-            if pdf:
-                m = re.search(r"Pages:\s+(\d+)", subprocess.run(["pdfinfo", pdf[0]], capture_output=True, text=True).stdout)
-                pages = int(m.group(1)) if m else 0
-            sj["topics"].append({"n": n, "row": r, "title": info["title"], "unit": units[info.get("u", 0)] if units else "",
-                                 "slides": pages, "q": info.get("q", 0), "file": f"lec/{key}/{b['id']}/{r}.html"})
-        app["subjects"].append(sj)
-    index["apps"].append(app)
-    print(name, sum(len(s["topics"]) for s in app["subjects"]), "lectures")
-json.dump(index, open(f"{OUT}/index.json", "w"), ensure_ascii=False, separators=(",", ":"))
-tot = sum(os.path.getsize(os.path.join(d, x)) for d, _, fs in os.walk(OUT) for x in fs)
-print(f"{tot / 1e6:.0f} MB of HTML")
+def export(APPS=APPS, OUT=OUT, extra=None):
+    """the slide decks of these apps (key, assets, name, folder of their PDFs) as HTML + index.json under OUT"""
+    if os.path.exists(OUT):
+        shutil.rmtree(OUT)
+    index = {"apps": [], **(extra or {})}
+    for key, A, name, pdfs in APPS:
+        books = json.load(open(f"{A}/index.json"))["books"]
+        app = {"key": key, "name": name, "subjects": []}
+        for b in books:
+            sj = {"id": b["id"], "title": b["title"], "short": b.get("short") or b["title"], "topics": []}
+            units = [u["title"] for u in b["units"]]
+            n = 0
+            for r, info in enumerate(b["rows"]):
+                if info.get("hide"):
+                    continue
+                n += 1
+                f = f"{OUT}/{key}/{b['id']}/{r}.html"
+                os.makedirs(os.path.dirname(f), exist_ok=True)
+                h = LP.build(A, b["id"], r, f[:-5] + ".pdf", name)
+                doc = open(h).read().replace("</head>", SCREEN + "</head>", 1)
+                # lay the slides out only once the screen has its real size (a WebView can start at 0 x 0, or still in
+                # portrait while it turns): the layout script and the deck run from START, not as the page loads
+                i0 = doc.index("<script>")
+                i1 = doc.index("</script>", i0)
+                doc = doc[:i0] + "<script>function __layout() {" + doc[i0 + 8:i1] + "}</script>" + doc[i1 + 9:]
+                doc = doc.replace("</body>", "<script>function __deck() {" + DECK + "}" + START + "</script></body>", 1)
+                if h != f:
+                    os.unlink(h)
+                open(f, "w").write(doc)
+                # its slide count, from the PDF made by tools/lecture_all.py
+                pdf = glob.glob(f"{pdfs}/{b['id']:02d} */{n:03d} *.pdf")
+                pages = 0
+                if pdf:
+                    m = re.search(r"Pages:\s+(\d+)", subprocess.run(["pdfinfo", pdf[0]], capture_output=True, text=True).stdout)
+                    pages = int(m.group(1)) if m else 0
+                sj["topics"].append({"n": n, "row": r, "title": info["title"], "unit": units[info.get("u", 0)] if units else "",
+                                     "slides": pages, "q": info.get("q", 0), "file": f"lec/{key}/{b['id']}/{r}.html"})
+            app["subjects"].append(sj)
+        index["apps"].append(app)
+        print(name, sum(len(s["topics"]) for s in app["subjects"]), "lectures")
+    json.dump(index, open(f"{OUT}/index.json", "w"), ensure_ascii=False, separators=(",", ":"))
+    tot = sum(os.path.getsize(os.path.join(d, x)) for d, _, fs in os.walk(OUT) for x in fs)
+    print(f"{tot / 1e6:.0f} MB of HTML")
+
+
+if __name__ == "__main__":
+    export()

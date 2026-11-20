@@ -73,6 +73,13 @@ android {
             applicationIdSuffix = ".lectures"
             resValue("string", "app_name", "APPSC Lectures")
         }
+        // RocketOne: Group 1 Prelims lectures written only from the Rocket Sheets and Rocket Current Affairs
+        // (tools/rocketone.py); the Lectures app's slide viewer with its own lectures; installs beside the others
+        create("rocketone") {
+            dimension = "edition"
+            applicationIdSuffix = ".rocketone"
+            resValue("string", "app_name", "RocketOne")
+        }
         // APPSC Complete's full notes for reading only: no MCQs, simple meanings and markers (tools/reader_build.py)
         create("reader") {
             dimension = "edition"
@@ -86,6 +93,11 @@ android {
     // APPSC Complete ships as APPSC Group 1 Prelims: its notes and MCQs cut to the Group 1 Prelims syllabus
     // (tools/group1_build.py writes src/group1/assets from src/complete/assets, which stays the master copy)
     sourceSets["complete"].assets.setSrcDirs(listOf("src/group1/assets"))
+    // RocketOne = the Lectures app's code with its own assets only (none of the study apps' notes)
+    sourceSets["rocketone"].java.srcDir("src/lectures/java")
+    sourceSets["rocketone"].res.srcDir("src/lectures/res")
+    sourceSets["rocketone"].manifest.srcFile("src/lectures/AndroidManifest.xml")
+    if (gradle.startParameter.taskNames.any { it.contains("Rocketone", ignoreCase = true) }) sourceSets["main"].assets.setSrcDirs(emptyList<String>())
     sourceSets["complete2"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/complete2Assets")))
     // APPSC Complete: ONE set of notes (book*.json, rebuilt 2026 from the PYQ blueprints, every MCQ linked to them).
     // The old "MCQ notes" (mbook*.json) are no longer shipped, so the MCQ/Full notes switch disappears.
