@@ -272,40 +272,99 @@ def collect():
                 out.append((book, items.get(item, item), (lorder[leaf], "", job, n), lec, [leaf]))
         for c in d.get("corrections") or []:
             corr.append({**c, "job": job})
-    # a lecture of one or two lines is not a lecture: those of a subject become the parts of one "Short notes" lecture
-    small = [x for x in out if x[0] != 6 and sum(len(p["items"]) for p in x[3]["parts"]) <= 2]
+    out = _short_notes(out, 6)
+    return out, corr
+
+
+G2SYL = "app/src/group2/assets/syllabus.json"
+G2MAP = "data/rocketone/g2map"
+EDITIONS = [  # key in the app, name, notes in the app's format, folder of its PDFs
+    ("r1", "RocketOne · Group 1 Prelims", "data/rocketone/assets", "RocketOne-Group1-Prelims-Lectures"),
+    ("r2", "RocketOne · Group 2", "data/rocketone/assets-g2", "RocketOne-Group2-Lectures"),
+]
+
+
+def _short_notes(out, ca_book):
+    """a lecture of one or two lines is not a lecture: those of a subject become the parts of one "Short notes" lecture"""
+    small = [x for x in out if x[0] != ca_book and sum(len(p["items"]) for p in x[3]["parts"]) <= 2]
     out = [x for x in out if not any(x is y for y in small)]
     for b in sorted({x[0] for x in small}):
         mine = sorted([x for x in small if x[0] == b], key=lambda x: (x[2][0] == 999, x[2]))
         parts = [{"t": x[3]["title"][:70], "items": [it for p in x[3]["parts"] for it in p["items"]]} for x in mine]
-        leaves_ = [l for x in mine for l in x[4]]
-        out.append((b, "Short notes", (998, "", "", 0), {"title": "Short notes: single facts on other syllabus lines", "parts": parts}, leaves_[:8]))
-    return out, corr
+        lines = [l for x in mine for l in x[4]]
+        out.append((b, "Short notes", (998, "", "", 0), {"title": "Short notes: single facts on other syllabus lines", "parts": parts}, lines[:8]))
+    return out
 
 
-def build(*args):
-    """notes -> the app's books and index, the lecture PDFs (subject-wise) and the app's slide decks"""
-    import shutil, zipfile
-    import lecture_pdf as LP
-    lecs, corr = collect()
-    for d in (DATA,):
-        shutil.rmtree(d, ignore_errors=True)
-        os.makedirs(d)
+def collect_g2():
+    """the same lectures, filed under the Group 2 syllabus (data/rocketone/g2map: lecture -> Group 2 syllabus line)"""
+    syl = json.load(open(G2SYL))
+    where, books, n = {}, [], 0
+    for b, sj in enumerate(syl["subjects"], 1):
+        books.append((b, f"{sj['stage']} · {sj['title']}", sj["title"], sj["code"]))
+        for u in sj["units"]:
+            for ph in u["phrases"]:
+                for lf in ph["leaves"]:
+                    n += 1
+                    where[lf["code"]] = (b, u["title"], n, lf["text"])
+    more = len(books) + 1
+    books.append((more, "More from the Rocket Sheets (outside the Group 2 syllabus)", MORE, "X"))
+    m = {}
+    for f in sorted(glob.glob(f"{G2MAP}/*.json")):
+        m.update(json.load(open(f)))
+    out, missing = [], []
+    ca_book = next(b for b, _, _, c in books if c == "P4")
+    for f in sorted(glob.glob(f"{NOTES}/*.json")):
+        job = os.path.basename(f)[:-5]
+        for k, lec in enumerate(json.load(open(f))["lectures"]):
+            code = m.get(f"{job}#{k}")
+            if code in where:
+                b, ut, o, text = where[code]
+                out.append((b, ut, (o, "", job, k), lec, [text]))
+            else:
+                if code != "X":
+                    missing.append(f"{job}#{k}")
+                out.append((more, MORE, (999, "", job, k), lec, []))
+    if missing:
+        print("NOT FILED for Group 2 (put under More):", len(missing), missing[:8])
+    return _short_notes(out, ca_book), books
+
+
+def write_edition(lecs, books, DATA):
+    """lectures (book, unit, order, lecture, syllabus lines) -> the app's books and index"""
+    import shutil
+    shutil.rmtree(DATA, ignore_errors=True)
+    os.makedirs(DATA)
     index = {"books": []}
-    for b, title, short, _ in BOOKS:
+    for b, title, short, _ in books:
         mine = sorted([x for x in lecs if x[0] == b], key=lambda x: (x[2][0] == 999, x[2]))
-        units, rows, irows = [], [], []
-        for _, ut, _, lec, lv in mine:
+        units, irows = [], []
+        for _, ut, _, lec, lines in mine:
             if not units or units[-1]["title"] != ut:
                 units.append({"code": "", "title": ut, "rows": []})
             secs = [{"t": p["t"], "badges": [], "b": _blocks(p["items"])} for p in lec["parts"]]
-            units[-1]["rows"].append({"codes": [], "tag": "GROUP-I", "title": lec["title"], "secs": secs})
-            irows.append({"u": len(units) - 1, "title": lec["title"], "leaves": lv, "q": 0})
+            units[-1]["rows"].append({"codes": [], "tag": "", "title": lec["title"], "secs": secs})
+            irows.append({"u": len(units) - 1, "title": lec["title"], "lines": lines, "q": 0})
         json.dump({"id": b, "title": title, "short": short, "units": units}, open(f"{DATA}/book{b}.json", "w"), ensure_ascii=False)
         json.dump({"rows": {}, "units": {}, "subs": {}}, open(f"{DATA}/mcq{b}.json", "w"))
         index["books"].append({"id": b, "title": title, "short": short, "units": [{"title": u["title"]} for u in units], "rows": irows})
-        print(f"{short}: {len(irows)} lectures in {len(units)} units")
+        print(f"  {short}: {len(irows)} lectures in {len(units)} units")
     json.dump(index, open(f"{DATA}/index.json", "w"), ensure_ascii=False)
+    return index
+
+
+def build(*args):
+    """notes -> both editions' books and index, CORRECTIONS.md, the lecture PDFs (subject-wise) and the app's slide decks"""
+    import shutil, zipfile
+    import lecture_pdf as LP
+    lecs, corr = collect()
+    g1 = {x["leaf"]: x["text"] for x in leaves()["leaves"]}
+    lecs = [(b, u, o, lec, [g1[c] for c in lv if c in g1]) for b, u, o, lec, lv in lecs]
+    lecs2, books2 = collect_g2()
+    indexes = {}
+    for (key, name, DATA, _), (L, B) in zip(EDITIONS, [(lecs, BOOKS), (lecs2, books2)]):
+        print(name)
+        indexes[key] = write_edition(L, B, DATA)
     # the corrections made (not shown on the slides)
     with open("data/rocketone/CORRECTIONS.md", "w") as f:
         f.write("# RocketOne: where the Rocket material disagreed, and what the notes say instead\n\n"
@@ -323,25 +382,28 @@ def build(*args):
     if "data" in args:
         return
     # lecture PDFs, subject-wise (as tools/lecture_all.py), then the app's decks (tools/lecture_app.py)
-    root = "out/rocketone/RocketOne-Lectures"
     shutil.rmtree("out/rocketone", ignore_errors=True)
     safe = lambda t, n=80: re.sub(r"\s+", " ", re.sub(r"[\\/:*?\"<>|]", "-", t)).strip()[:n].rstrip(" .-")
-    for bk in index["books"]:
-        sub = f"{root}/{bk['id']:02d} {safe(bk['short'], 50)}"
-        os.makedirs(sub, exist_ok=True)
-        pairs = []
-        for r, info in enumerate(bk["rows"]):
-            pdf = f"{sub}/{r + 1:03d} {safe(info['title'])}.pdf"
-            pairs.append((LP.build(DATA, bk["id"], r, pdf, APP), pdf))
-        LP.render(pairs)
-        for h, _ in pairs:
-            os.unlink(h)
-        print(f"{bk['short']}: {len(pairs)} PDFs", flush=True)
-    with zipfile.ZipFile("out/rocketone/RocketOne-Lectures.zip", "w", zipfile.ZIP_DEFLATED) as zf:
-        for d, _, fs in os.walk(root):
-            for x in sorted(fs):
-                zf.write(os.path.join(d, x), os.path.relpath(os.path.join(d, x), "out/rocketone"))
+    apps = []
+    for key, name, DATA, folder in EDITIONS:
+        root = f"out/rocketone/{folder}"
+        for bk in indexes[key]["books"]:
+            sub = f"{root}/{bk['id']:02d} {safe(bk['short'], 50)}"
+            os.makedirs(sub, exist_ok=True)
+            pairs = []
+            for r, info in enumerate(bk["rows"]):
+                pdf = f"{sub}/{r + 1:03d} {safe(info['title'])}.pdf"
+                pairs.append((LP.build(DATA, bk["id"], r, pdf, name), pdf))
+            LP.render(pairs)
+            for h, _ in pairs:
+                os.unlink(h)
+            print(f"{name} · {bk['short']}: {len(pairs)} PDFs", flush=True)
+        with zipfile.ZipFile(f"out/rocketone/{folder}.zip", "w", zipfile.ZIP_DEFLATED) as zf:
+            for d, _, fs in os.walk(root):
+                for x in sorted(fs):
+                    zf.write(os.path.join(d, x), os.path.relpath(os.path.join(d, x), "out/rocketone"))
+        apps.append((key, DATA, name, root))
     import lecture_app as LA
-    LA.export([("r1", DATA, APP, root)], f"{ASSETS}/lec",
-              {"brand": "ROCKETONE", "headline": "Group 1 Prelims, slide by slide",
+    LA.export(apps, f"{ASSETS}/lec",
+              {"brand": "ROCKETONE", "headline": "Group 1 Prelims and Group 2, slide by slide",
                "from": "Only from the NextGen Rocket Sheets and Rocket Current Affairs 2026"})

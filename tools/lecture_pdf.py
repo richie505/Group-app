@@ -35,7 +35,9 @@ def build(A, B, R, OUT, APP="APPSC"):
 
     # the syllabus lines this topic teaches (Group 1: leaves; Group 2: its syllabus codes)
     lines = []
-    if os.path.exists("data/g1syl/leaves.json") and idx.get("leaves"):
+    if idx.get("lines"):  # given outright (RocketOne)
+        lines = list(idx["lines"])
+    elif os.path.exists("data/g1syl/leaves.json") and idx.get("leaves"):
         L = {x["leaf"]: x["text"] for x in J("data/g1syl/leaves.json")["leaves"]}
         lines = [L[c] for c in idx["leaves"] if c in L]
     elif os.path.exists(f"{A}/syllabus.json"):
