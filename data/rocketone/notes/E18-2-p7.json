@@ -1,0 +1,1353 @@
+{
+ "lectures": [
+  {
+   "leaf": "E18/2",
+   "title": "Chemistry: Hydrogen and green hydrogen",
+   "parts": [
+    {
+     "t": "Properties of hydrogen",
+     "items": [
+      [
+       "t",
+       [
+        "Property",
+        "Detail"
+       ],
+       [
+        [
+         "**Physical**",
+         "Colourless, odourless, tasteless gas; lightest element"
+        ],
+        [
+         "**Density**",
+         "Lowest density gas"
+        ],
+        [
+         "**Calorific Value**",
+         "Highest among common fuels (~1,50,000 kJ/kg)"
+        ],
+        [
+         "**Reactivity**",
+         "Highly flammable; burns with pale blue flame"
+        ],
+        [
+         "**Combustion Product**",
+         "Only water (H₂O) → clean"
+        ],
+        [
+         "**Energy Carrier**",
+         "Not a primary energy source; stores & transports energy"
+        ]
+       ],
+       "Chemistry #10"
+      ],
+      [
+       "x",
+       "**Hydrogen** is an energy carrier, not a primary energy source: it stores and transports energy.",
+       "Chemistry #10"
+      ]
+     ]
+    },
+    {
+     "t": "Colours (types) of hydrogen",
+     "items": [
+      [
+       "t",
+       [
+        "Colour / Type",
+        "Production method",
+        "CO₂ emissions",
+        "Note"
+       ],
+       [
+        [
+         "**Grey**",
+         "Steam Methane Reforming (SMR) of natural gas or Coal gasification",
+         "High (released)",
+         "~95% of current global production; cheapest"
+        ],
+        [
+         "**Blue**",
+         "SMR + Carbon Capture & Storage (CCS)",
+         "Low (captured)",
+         "Transitional; not fully zero-carbon"
+        ],
+        [
+         "**Green**",
+         "Electrolysis of water using renewable electricity (solar/wind/hydro)",
+         "Zero",
+         "Cleanest; India’s Mission focus"
+        ],
+        [
+         "**Pink / Purple**",
+         "Electrolysis using nuclear electricity",
+         "Near-zero",
+         "—"
+        ],
+        [
+         "**Turquoise**",
+         "Methane pyrolysis (produces solid carbon)",
+         "Near-zero (solid C)",
+         "Emerging"
+        ],
+        [
+         "**Brown / Black**",
+         "Coal gasification (no CCS)",
+         "Very high",
+         "Dirtiest"
+        ]
+       ],
+       "Chemistry #10"
+      ],
+      [
+       "x",
+       "**Green hydrogen** (electrolysis of water using renewable electricity, zero CO₂) is the cleanest and is India's Mission focus.",
+       "Chemistry #10"
+      ]
+     ]
+    },
+    {
+     "t": "Production methods and sources",
+     "items": [
+      [
+       "t",
+       [
+        "Method",
+        "Source / Process",
+        "Type produced"
+       ],
+       [
+        [
+         "**Steam Methane Reforming (SMR)**",
+         "Natural gas + steam",
+         "Grey / Blue (with CCS)"
+        ],
+        [
+         "**Coal / Biomass Gasification**",
+         "Coal or biomass",
+         "Grey / Brown"
+        ],
+        [
+         "**Water Electrolysis**",
+         "Water + electricity (renewable)",
+         "Green"
+        ],
+        [
+         "**Methane Pyrolysis**",
+         "Natural gas (high temp, no O₂)",
+         "Turquoise"
+        ],
+        [
+         "**Nuclear-powered Electrolysis**",
+         "Water + nuclear electricity",
+         "Pink"
+        ],
+        [
+         "**Biological / Photobiological**",
+         "Microbes / algae",
+         "Emerging green routes"
+        ]
+       ],
+       "Chemistry #10"
+      ]
+     ]
+    },
+    {
+     "t": "Uses of hydrogen",
+     "items": [
+      [
+       "t",
+       [
+        "Sector",
+        "Application"
+       ],
+       [
+        [
+         "**Industry**",
+         "Petroleum refining (desulphurisation), Ammonia (fertilisers), Methanol, Steel (DRI process)"
+        ],
+        [
+         "**Fuel / Transport**",
+         "Fuel-cell vehicles (buses, trucks, trains, ships), Rocket fuel, Blending in CNG"
+        ],
+        [
+         "**Power**",
+         "Fuel cells for electricity generation, Backup power, Grid balancing (storage of excess RE)"
+        ],
+        [
+         "**Domestic / Other**",
+         "Heating (future), Chemical feedstock"
+        ]
+       ],
+       "Chemistry #10"
+      ],
+      [
+       "b",
+       "**Fuel cell:** an electrochemical device: H₂ + O₂ → Electricity + H₂O (high efficiency, zero emission at point of use).",
+       "Chemistry #10"
+      ]
+     ]
+    },
+    {
+     "t": "Applications of green hydrogen",
+     "items": [
+      [
+       "t",
+       [
+        "Sector",
+        "Specific use"
+       ],
+       [
+        [
+         "**Hard-to-abate industries**",
+         "Green steel (replaces coking coal), Fertiliser (green ammonia), Refineries"
+        ],
+        [
+         "**Transport**",
+         "Heavy-duty vehicles, Shipping, Aviation (synthetic fuels), Railways"
+        ],
+        [
+         "**Power & Storage**",
+         "Long-duration energy storage, Peak power"
+        ],
+        [
+         "**Chemicals**",
+         "Green methanol, other derivatives"
+        ],
+        [
+         "**Export**",
+         "Green ammonia / methanol as energy carriers"
+        ]
+       ],
+       "Chemistry #10"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "leaf": "E18/2",
+   "title": "Chemistry: Structure of the atom and radioactivity",
+   "parts": [
+    {
+     "t": "Subatomic particles",
+     "items": [
+      [
+       "t",
+       [
+        "Particle",
+        "Charge",
+        "Mass",
+        "Location"
+       ],
+       [
+        [
+         "**Electron (e⁻)**",
+         "–1.6022 × 10⁻¹⁹ C (–1 unit)",
+         "9.109 × 10⁻³¹ kg (≈ 1/1837 of proton)",
+         "Outside nucleus (shells)"
+        ],
+        [
+         "**Proton (p⁺)**",
+         "+1.6022 × 10⁻¹⁹ C (+1 unit)",
+         "1.6726 × 10⁻²⁷ kg (≈ 1 amu)",
+         "Inside nucleus"
+        ],
+        [
+         "**Neutron (n⁰)**",
+         "Zero (neutral)",
+         "1.0087 amu (slightly > proton)",
+         "Inside nucleus"
+        ]
+       ],
+       "Chemistry #11"
+      ]
+     ]
+    },
+    {
+     "t": "Atomic number and mass number",
+     "items": [
+      [
+       "b",
+       "**Atomic Number (Z):** number of protons in the nucleus.",
+       "Chemistry #11"
+      ],
+      [
+       "b",
+       "**Z determines:** the identity of the element and its position in the periodic table.",
+       "Chemistry #11"
+      ],
+      [
+       "b",
+       "**Z equals:** the number of electrons in a neutral atom.",
+       "Chemistry #11"
+      ],
+      [
+       "b",
+       "**Mass Number (A):** total number of protons + neutrons (nucleons).",
+       "Chemistry #11"
+      ],
+      [
+       "b",
+       "**Formula:** A = Z + Number of neutrons.",
+       "Chemistry #11"
+      ],
+      [
+       "b",
+       "**Note:** mass number is not fundamental; isotopes of the same element have different A.",
+       "Chemistry #11"
+      ]
+     ]
+    },
+    {
+     "t": "Isotopes, isobars and isotones",
+     "items": [
+      [
+       "t",
+       [
+        "Term",
+        "Definition",
+        "Example"
+       ],
+       [
+        [
+         "**Isotope**",
+         "Same atomic number (Z), different mass number (A)",
+         "¹H, ²H (Deuterium), ³H (Tritium); ¹⁶O, ¹⁷O, ¹⁸O"
+        ],
+        [
+         "**Isobar**",
+         "Same mass number (A), different atomic number (Z)",
+         "³H and ³He"
+        ],
+        [
+         "**Isotone (Isoneutronic)**",
+         "Same number of neutrons, different Z&A",
+         "³H & ⁴He (both 2 neutrons); ¹⁴C, ¹⁵N, ¹⁶O (all 8 neutrons)"
+        ]
+       ],
+       "Chemistry #11"
+      ]
+     ]
+    },
+    {
+     "t": "Radioactivity",
+     "items": [
+      [
+       "b",
+       "**Nature:** radioactivity is a nuclear phenomenon (not chemical).",
+       "Chemistry #11"
+      ],
+      [
+       "b",
+       "**Particles emitted:** α (He nucleus, +2), β (electron/positron), γ (EM radiation).",
+       "Chemistry #11"
+      ],
+      [
+       "t",
+       [
+        "Particle",
+        "Charge",
+        "Mass",
+        "Location"
+       ],
+       [
+        [
+         "**α-particle**",
+         "+2",
+         "≈ 4 amu (He nucleus)",
+         "Emitted in radioactivity"
+        ],
+        [
+         "**β-particle**",
+         "–1 (or +1 for positron)",
+         "≈ electron mass",
+         "Emitted in radioactivity"
+        ],
+        [
+         "**γ-ray**",
+         "Zero",
+         "Zero (EM radiation)",
+         "Emitted in radioactivity"
+        ]
+       ],
+       "Chemistry #11"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "leaf": "E18/2",
+   "title": "Chemistry: Common gases and non-metals",
+   "parts": [
+    {
+     "t": "Formula, colour and smell of gases",
+     "items": [
+      [
+       "t",
+       [
+        "Gas",
+        "Formula",
+        "Colour",
+        "Smell"
+       ],
+       [
+        [
+         "**Hydrogen**",
+         "H₂",
+         "Colourless",
+         "Odourless"
+        ],
+        [
+         "**Oxygen**",
+         "O₂",
+         "Colourless",
+         "Odourless"
+        ],
+        [
+         "**Nitrogen**",
+         "N₂",
+         "Colourless",
+         "Odourless"
+        ],
+        [
+         "**Chlorine**",
+         "Cl₂",
+         "Greenish-yellow",
+         "Pungent, choking"
+        ],
+        [
+         "**Ammonia**",
+         "NH₃",
+         "Colourless",
+         "Pungent, sharp"
+        ],
+        [
+         "**Sulphur dioxide**",
+         "SO₂",
+         "Colourless",
+         "Pungent, suffocating"
+        ],
+        [
+         "**Carbon monoxide**",
+         "CO",
+         "Colourless",
+         "Odourless"
+        ],
+        [
+         "**Carbon dioxide**",
+         "CO₂",
+         "Colourless",
+         "Odourless"
+        ],
+        [
+         "**Hydrogen sulphide**",
+         "H₂S",
+         "Colourless",
+         "Rotten egg"
+        ],
+        [
+         "**Nitrogen dioxide**",
+         "NO₂",
+         "Reddish-brown",
+         "Pungent, choking"
+        ],
+        [
+         "**Nitrous oxide**",
+         "N₂O",
+         "Colourless",
+         "Slightly sweet (laughing gas)"
+        ],
+        [
+         "**Ozone**",
+         "O₃",
+         "Pale blue",
+         "Characteristic sharp"
+        ],
+        [
+         "**Fluorine**",
+         "F₂",
+         "Pale yellow",
+         "Pungent, irritating"
+        ],
+        [
+         "**Phosphine**",
+         "PH₃",
+         "Colourless",
+         "Rotten fish"
+        ]
+       ],
+       "Chemistry #12"
+      ]
+     ]
+    },
+    {
+     "t": "Key properties and toxicity",
+     "items": [
+      [
+       "t",
+       [
+        "Gas",
+        "Key properties",
+        "Toxicity"
+       ],
+       [
+        [
+         "**H₂**",
+         "Lightest, highly flammable, burns with pale blue flame",
+         "Non-toxic (but asphyxiant in high conc.)"
+        ],
+        [
+         "**O₂**",
+         "Supports combustion, paramagnetic",
+         "Non-toxic (essential for life)"
+        ],
+        [
+         "**N₂**",
+         "Inert, low reactivity",
+         "Non-toxic (asphyxiant)"
+        ],
+        [
+         "**Cl₂**",
+         "Strong oxidising agent, denser than air",
+         "Highly toxic"
+        ],
+        [
+         "**NH₃**",
+         "Basic, highly soluble in water, lighter than air",
+         "Toxic (irritant to eyes/respiratory system)"
+        ],
+        [
+         "**SO₂**",
+         "Acidic oxide, soluble in water",
+         "Toxic (respiratory irritant)"
+        ],
+        [
+         "**CO**",
+         "Forms stable complex with haemoglobin",
+         "Highly toxic (colourless & odourless → silent killer)"
+        ],
+        [
+         "**CO₂**",
+         "Heavier than air, acidic oxide",
+         "Non-toxic in low conc.; asphyxiant in high"
+        ],
+        [
+         "**H₂S**",
+         "Highly toxic, denser than air",
+         "Extremely toxic (paralyses olfactory nerve)"
+        ],
+        [
+         "**NO₂**",
+         "Acidic, strong oxidiser",
+         "Highly toxic"
+        ],
+        [
+         "**O₃**",
+         "Strong oxidising agent",
+         "Toxic at ground level"
+        ]
+       ],
+       "Chemistry #12"
+      ],
+      [
+       "x",
+       "**CO** forms a stable complex with haemoglobin; being colourless and odourless it is a silent killer.",
+       "Chemistry #12"
+      ]
+     ]
+    },
+    {
+     "t": "Natural sources and preparation",
+     "items": [
+      [
+       "t",
+       [
+        "Gas",
+        "Natural source",
+        "Lab / Industrial preparation"
+       ],
+       [
+        [
+         "**H₂**",
+         "Water, hydrocarbons",
+         "Electrolysis of water; Zn + dil. H₂SO₄; Steam reforming"
+        ],
+        [
+         "**O₂**",
+         "Air (21%), water",
+         "Fractional distillation of liquid air; Heating KMnO₄ / KClO₃"
+        ],
+        [
+         "**N₂**",
+         "Air (78%)",
+         "Fractional distillation of liquid air; Heating NH₄NO₂"
+        ],
+        [
+         "**Cl₂**",
+         "Sea water (as chlorides)",
+         "Electrolysis of brine; MnO₂ + conc. HCl"
+        ],
+        [
+         "**NH₃**",
+         "—",
+         "Haber process (N₂ + H₂); NH₄Cl + Ca(OH)₂"
+        ],
+        [
+         "**SO₂**",
+         "Volcanoes, fossil fuels",
+         "Burning S; Cu + conc. H₂SO₄; FeS₂ roasting"
+        ],
+        [
+         "**CO**",
+         "Incomplete combustion",
+         "Heating formic acid with conc. H₂SO₄; Producer gas"
+        ],
+        [
+         "**CO₂**",
+         "Respiration, combustion, volcanoes",
+         "Heating carbonates; CaCO₃ + dil. HCl"
+        ],
+        [
+         "**H₂S**",
+         "Natural gas, petroleum, volcanoes",
+         "FeS + dil. HCl"
+        ]
+       ],
+       "Chemistry #12"
+      ]
+     ]
+    },
+    {
+     "t": "Main uses of gases",
+     "items": [
+      [
+       "t",
+       [
+        "Gas",
+        "Main uses / Applications"
+       ],
+       [
+        [
+         "**H₂**",
+         "Ammonia synthesis, hydrogenation of oils, rocket fuel, fuel cells, reducing agent"
+        ],
+        [
+         "**O₂**",
+         "Respiration, steel making, oxy-acetylene welding, medical (hospitals), rocket oxidiser"
+        ],
+        [
+         "**N₂**",
+         "Fertiliser (via ammonia), inert atmosphere, food packaging, liquid N₂ (cryogenics)"
+        ],
+        [
+         "**Cl₂**",
+         "Water purification, PVC, bleaching, disinfectants, HCl manufacture"
+        ],
+        [
+         "**NH₃**",
+         "Fertilisers (urea, ammonium salts), nitric acid, refrigeration, cleaning agents"
+        ],
+        [
+         "**SO₂**",
+         "Bleaching agent, preservative, sulphuric acid manufacture, refrigerant"
+        ],
+        [
+         "**CO**",
+         "Reducing agent in metallurgy (e.g., iron extraction)"
+        ],
+        [
+         "**CO₂**",
+         "Soft drinks, fire extinguishers, dry ice, photosynthesis"
+        ],
+        [
+         "**N₂O**",
+         "Anaesthetic (laughing gas), propellant (whipped cream), rocket oxidiser"
+        ],
+        [
+         "**O₃**",
+         "Water purification, bleaching, disinfectant"
+        ]
+       ],
+       "Chemistry #12"
+      ]
+     ]
+    },
+    {
+     "t": "Non-metals: physical state and reactivity",
+     "items": [
+      [
+       "t",
+       [
+        "Element",
+        "Physical state (room temp.)",
+        "Reactivity"
+       ],
+       [
+        [
+         "**Hydrogen**",
+         "Gas",
+         "Highly reactive (forms compounds with most elements)"
+        ],
+        [
+         "**Oxygen**",
+         "Gas",
+         "Highly reactive (supports combustion)"
+        ],
+        [
+         "**Nitrogen**",
+         "Gas",
+         "Low reactivity (inert at room temp. due to triple bond)"
+        ],
+        [
+         "**Fluorine**",
+         "Gas",
+         "Most reactive non-metal"
+        ],
+        [
+         "**Chlorine**",
+         "Gas",
+         "Highly reactive"
+        ],
+        [
+         "**Bromine**",
+         "Liquid",
+         "Reactive"
+        ],
+        [
+         "**Iodine**",
+         "Solid",
+         "Least reactive halogen"
+        ],
+        [
+         "**Sulphur**",
+         "Solid",
+         "Moderately reactive"
+        ],
+        [
+         "**Phosphorus (White)**",
+         "Solid",
+         "Highly reactive (stored under water)"
+        ],
+        [
+         "**Carbon**",
+         "Solid",
+         "Varies (diamond inert, graphite less reactive)"
+        ],
+        [
+         "**Noble gases (He, Ne, Ar…)**",
+         "Gas",
+         "Extremely low reactivity (inert)"
+        ]
+       ],
+       "Chemistry #12"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "leaf": "E18/2",
+   "title": "Chemistry: Physical and chemical changes",
+   "parts": [
+    {
+     "t": "Physical versus chemical change",
+     "items": [
+      [
+       "t",
+       [
+        "Aspect",
+        "Physical change",
+        "Chemical change"
+       ],
+       [
+        [
+         "**New substance**",
+         "Not formed",
+         "Formed"
+        ],
+        [
+         "**Composition**",
+         "Remains same",
+         "Changes"
+        ],
+        [
+         "**Reversibility**",
+         "Usually reversible",
+         "Usually irreversible"
+        ],
+        [
+         "**Energy change**",
+         "Little or none",
+         "Significant (heat/light absorbed or released)"
+        ],
+        [
+         "**Mass**",
+         "Conserved (no change)",
+         "Conserved (Law of Conservation of Mass)"
+        ],
+        [
+         "**Example**",
+         "Melting of ice",
+         "Burning of paper"
+        ]
+       ],
+       "Chemistry #13"
+      ]
+     ]
+    },
+    {
+     "t": "Examples of physical change",
+     "items": [
+      [
+       "t",
+       [
+        "Example",
+        "Reason (no new substance formed)"
+       ],
+       [
+        [
+         "**Melting of ice / wax**",
+         "Solid → Liquid (same substance)"
+        ],
+        [
+         "**Boiling / Evaporation of water**",
+         "Liquid → Gas"
+        ],
+        [
+         "**Freezing of water**",
+         "Liquid → Solid"
+        ],
+        [
+         "**Dissolving salt / sugar in water**",
+         "Solution forms; solute recoverable"
+        ],
+        [
+         "**Breaking of glass / chalk**",
+         "Change in size/shape only"
+        ],
+        [
+         "**Stretching of rubber band**",
+         "Temporary change in shape"
+        ],
+        [
+         "**Cutting of paper / wood**",
+         "Change in size only"
+        ],
+        [
+         "**Magnetisation of iron**",
+         "Temporary property change"
+        ],
+        [
+         "**Expansion of metals on heating**",
+         "Change in volume"
+        ],
+        [
+         "**Sublimation of camphor / ammonium chloride**",
+         "Solid → Gas (same substance)"
+        ]
+       ],
+       "Chemistry #13"
+      ]
+     ]
+    },
+    {
+     "t": "Examples of chemical change",
+     "items": [
+      [
+       "t",
+       [
+        "Example",
+        "Reason (new substance formed)"
+       ],
+       [
+        [
+         "**Burning of paper / wood / candle**",
+         "Ash, CO₂, H₂O formed"
+        ],
+        [
+         "**Rusting of iron**",
+         "Iron oxide (Fe₂O₃·xH₂O) formed"
+        ],
+        [
+         "**Cooking / Baking of food**",
+         "New compounds formed"
+        ],
+        [
+         "**Digestion of food**",
+         "Complex molecules broken down"
+        ],
+        [
+         "**Formation of curd from milk**",
+         "Lactic acid bacteria convert lactose"
+        ],
+        [
+         "**Photosynthesis**",
+         "CO₂ + H₂O → Glucose + O₂"
+        ],
+        [
+         "**Respiration**",
+         "Glucose + O₂ → CO₂ + H₂O + Energy"
+        ],
+        [
+         "**Souring of milk**",
+         "Lactic acid formed"
+        ],
+        [
+         "**Explosion of fireworks**",
+         "New gases & compounds"
+        ],
+        [
+         "**Electrolysis of water**",
+         "H₂ and O₂ gases produced"
+        ],
+        [
+         "**Reaction of acid + base (neutralisation)**",
+         "Salt + Water formed"
+        ]
+       ],
+       "Chemistry #13"
+      ]
+     ]
+    },
+    {
+     "t": "Reversible changes",
+     "items": [
+      [
+       "t",
+       [
+        "Change",
+        "Type",
+        "Example"
+       ],
+       [
+        [
+         "**Melting ⇌ Freezing**",
+         "Physical",
+         "Ice ⇌ Water"
+        ],
+        [
+         "**Evaporation ⇌ Condensation**",
+         "Physical",
+         "Water ⇌ Steam"
+        ],
+        [
+         "**Sublimation ⇌ Deposition**",
+         "Physical",
+         "Camphor / NH₄Cl"
+        ],
+        [
+         "**Dissolution ⇌ Crystallisation**",
+         "Physical",
+         "Salt in water"
+        ],
+        [
+         "**Expansion ⇌ Contraction**",
+         "Physical",
+         "Metals on heating/cooling"
+        ],
+        [
+         "**Some chemical equilibria**",
+         "Chemical",
+         "N₂ + 3H₂ ⇌ 2NH₃ (Haber process)"
+        ]
+       ],
+       "Chemistry #13"
+      ]
+     ]
+    },
+    {
+     "t": "Irreversible changes",
+     "items": [
+      [
+       "t",
+       [
+        "Change",
+        "Type",
+        "Example"
+       ],
+       [
+        [
+         "**Burning**",
+         "Chemical",
+         "Paper, wood, fuels"
+        ],
+        [
+         "**Rusting**",
+         "Chemical",
+         "Iron → Rust"
+        ],
+        [
+         "**Cooking / Digestion**",
+         "Chemical",
+         "Food changes permanently"
+        ],
+        [
+         "**Curdling of milk**",
+         "Chemical",
+         "Milk → Curd"
+        ],
+        [
+         "**Souring of milk**",
+         "Chemical",
+         "Milk → Lactic acid"
+        ],
+        [
+         "**Breaking / Cutting**",
+         "Physical",
+         "Glass, chalk (cannot rejoin easily)"
+        ],
+        [
+         "**Explosion**",
+         "Chemical",
+         "Fireworks, bombs"
+        ]
+       ],
+       "Chemistry #13"
+      ]
+     ]
+    },
+    {
+     "t": "Reasons and applications of common changes",
+     "items": [
+      [
+       "t",
+       [
+        "Change",
+        "Reason",
+        "Application / Importance"
+       ],
+       [
+        [
+         "**Melting of ice**",
+         "Heat overcomes intermolecular forces",
+         "Cooling, refrigeration, weather"
+        ],
+        [
+         "**Rusting of iron**",
+         "Fe + O₂ + H₂O → Fe₂O₃·xH₂O",
+         "Prevention by painting, galvanisation, alloying"
+        ],
+        [
+         "**Burning of fuels**",
+         "Combustion releases energy",
+         "Cooking, transport, power generation"
+        ],
+        [
+         "**Photosynthesis**",
+         "Light energy converts CO₂ + H₂O to glucose",
+         "Food production, O₂ release"
+        ],
+        [
+         "**Neutralisation**",
+         "Acid + Base → Salt + Water",
+         "Antacids, soil treatment, industrial processes"
+        ],
+        [
+         "**Electrolysis of water**",
+         "Electric current decomposes H₂O",
+         "Production of H₂ and O₂"
+        ],
+        [
+         "**Formation of curd**",
+         "Microbial action (Lactobacillus)",
+         "Food preservation & nutrition"
+        ],
+        [
+         "**Dissolving salt**",
+         "Physical dispersion of ions",
+         "Cooking, intravenous saline"
+        ]
+       ],
+       "Chemistry #13"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "leaf": "E18/2",
+   "title": "Chemistry: Solutions, colloids and osmosis",
+   "parts": [
+    {
+     "t": "Solute, solvent and solution",
+     "items": [
+      [
+       "t",
+       [
+        "Term",
+        "Definition"
+       ],
+       [
+        [
+         "**Solute**",
+         "Substance that is dissolved"
+        ],
+        [
+         "**Solvent**",
+         "Substance that dissolves the solute (can be solid, liquid or gas)"
+        ],
+        [
+         "**Solution**",
+         "Homogeneous mixture of solute + solvent"
+        ]
+       ],
+       "Chemistry #14"
+      ]
+     ]
+    },
+    {
+     "t": "Types of solution by composition",
+     "items": [
+      [
+       "t",
+       [
+        "Type of solution",
+        "Solute",
+        "Solvent",
+        "Example"
+       ],
+       [
+        [
+         "Gaseous",
+         "Gas",
+         "Gas",
+         "**Air (O₂ in N₂)**"
+        ],
+        [
+         "Liquid",
+         "Gas",
+         "Liquid",
+         "**O₂ in water**"
+        ],
+        [
+         "Liquid",
+         "Liquid",
+         "Liquid",
+         "**Ethanol in water (alcohol)**"
+        ],
+        [
+         "Liquid",
+         "Solid",
+         "Liquid",
+         "**NaCl / Sucrose in water**"
+        ],
+        [
+         "Solid",
+         "Gas",
+         "Solid",
+         "**H₂ in palladium**"
+        ],
+        [
+         "Solid",
+         "Liquid",
+         "Solid",
+         "**Mercury in gold (amalgam)**"
+        ],
+        [
+         "Solid",
+         "Solid",
+         "Solid",
+         "**Alloys (Brass = Cu + Zn; Bronze = Cu + Sn)**"
+        ]
+       ],
+       "Chemistry #14"
+      ]
+     ]
+    },
+    {
+     "t": "Solutions by concentration",
+     "items": [
+      [
+       "t",
+       [
+        "Type",
+        "Description"
+       ],
+       [
+        [
+         "**Unsaturated**",
+         "Can dissolve more solute"
+        ],
+        [
+         "**Saturated**",
+         "Maximum solute dissolved at given T & P; excess remains undissolved"
+        ],
+        [
+         "**Concentrated**",
+         "Large amount of solute relative to solvent"
+        ],
+        [
+         "**Dilute**",
+         "Small amount of solute"
+        ],
+        [
+         "**Ideal solution**",
+         "ΔH_mix = 0; intermolecular forces identical"
+        ]
+       ],
+       "Chemistry #14"
+      ]
+     ]
+    },
+    {
+     "t": "Properties of a true solution and solubility",
+     "items": [
+      [
+       "h",
+       "Properties of true solution"
+      ],
+      [
+       "b",
+       "**Particles:** invisible to the naked eye.",
+       "Chemistry #14"
+      ],
+      [
+       "b",
+       "**No Tyndall effect:** a true solution does not scatter light.",
+       "Chemistry #14"
+      ],
+      [
+       "b",
+       "**Stable.**",
+       "Chemistry #14"
+      ],
+      [
+       "b",
+       "**Filtration:** the solute cannot be separated by filtration.",
+       "Chemistry #14"
+      ],
+      [
+       "h",
+       "Solubility"
+      ],
+      [
+       "t",
+       [
+        "Factor",
+        "Effect"
+       ],
+       [
+        [
+         "**Temperature & Pressure**",
+         "Solubility defined under specified T & P"
+        ],
+        [
+         "**Nature of solute & solvent**",
+         "“Like dissolves like”"
+        ],
+        [
+         "**Expression**",
+         "g solute / 100 g or 100 mL solvent; or molarity, molality, mole fraction"
+        ]
+       ],
+       "Chemistry #14"
+      ]
+     ]
+    },
+    {
+     "t": "Types of colloids",
+     "items": [
+      [
+       "t",
+       [
+        "Name of colloid",
+        "Dispersed phase",
+        "Dispersion medium",
+        "Examples"
+       ],
+       [
+        [
+         "**Solid Aerosol**",
+         "Solid",
+         "Gas",
+         "Smoke, Dust"
+        ],
+        [
+         "**Liquid Aerosol**",
+         "Liquid",
+         "Gas",
+         "Cloud, Mist, Fog"
+        ],
+        [
+         "**Emulsion**",
+         "Liquid",
+         "Liquid",
+         "Milk, Cream, Mayonnaise"
+        ],
+        [
+         "**Gel**",
+         "Liquid",
+         "Solid",
+         "Jelly, Butter, Cheese"
+        ],
+        [
+         "**Sol**",
+         "Solid",
+         "Liquid",
+         "Gold sol, Sulfur sol"
+        ],
+        [
+         "**Solid-sol**",
+         "Solid",
+         "Solid",
+         "Coloured glass, Gems, Ruby glass"
+        ],
+        [
+         "**Foam**",
+         "Gas",
+         "Liquid",
+         "Whipped cream, Soap lather"
+        ],
+        [
+         "**Solid Foam**",
+         "Gas",
+         "Solid",
+         "Pumice stone, Foam rubber"
+        ]
+       ],
+       "Chemistry #14"
+      ],
+      [
+       "b",
+       "**Milk:** an oil-in-water emulsion; cream and mayonnaise are also emulsions.",
+       "Chemistry #14"
+      ],
+      [
+       "x",
+       "**Honey** is not a colloid (supercooled liquid).",
+       "Chemistry #14"
+      ]
+     ]
+    },
+    {
+     "t": "Osmosis and reverse osmosis",
+     "items": [
+      [
+       "b",
+       "**Osmosis:** movement of solvent (water) through a semi-permeable membrane from low solute concentration → high solute concentration.",
+       "Chemistry #14"
+      ],
+      [
+       "b",
+       "**Application of osmosis:** absorption of water by plant roots.",
+       "Chemistry #14"
+      ],
+      [
+       "b",
+       "**Reverse Osmosis:** external pressure applied on the concentrated side → solvent moves from high concentration → low concentration.",
+       "Chemistry #14"
+      ],
+      [
+       "b",
+       "**Application of reverse osmosis:** desalination of sea water / purification of water (removes ions, bacteria etc.).",
+       "Chemistry #14"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "corrections": []
+}
