@@ -30,7 +30,21 @@ def build(A, B, R, OUT, APP="APPSC"):
     rows = [r for u in bk["units"] for r in u["rows"]]
     units = {id(r): u for u in bk["units"] for r in u["rows"]}
     row = rows[R]
-    unit = units[id(row)]
+    # Rocket-style rewrite of this topic's slides, if made (data/lecrocket/<group1|group2>/<book>-<row>.json):
+    # {"<page index>": [{"k": "h"|"b"|"x", "x": "text with **bold**"} | {"k": "t", "h": [...], "r": [[...]]}]}
+    rk = f"data/lecrocket/{os.path.basename(os.path.dirname(os.path.abspath(A)))}/{B}-{R}.json"
+    if os.path.exists(rk):
+        import copy
+        def runs_of(t):
+            return [[p, i % 2] for i, p in enumerate(re.split(r"\*\*", str(t))) if p]
+        def blk(b):
+            if b["k"] == "t":
+                return {"k": "t", "h": [runs_of(c) for c in b.get("h", [])], "r": [[runs_of(c) for c in r] for r in b["r"]]}
+            return {"k": b["k"], "x": runs_of(b["x"])}
+        row = copy.deepcopy(row)
+        for j, bl in J(rk).items():
+            row["secs"][int(j)]["b"] = [blk(b) for b in bl]
+    unit = units[id(rows[R])]
     subject = J(f"{A}/index.json")["books"][B - 1].get("short") or bk.get("title", "")
     mq = J(f"{A}/mcq{B}.json")
     qs, subs = mq["rows"].get(str(R), []), mq["subs"].get(str(R), [])
