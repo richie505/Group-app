@@ -1,0 +1,15 @@
+Task: check that the Group 1 Prelims app's notes are UP TO DATE as of 20 November 2026. Never use the Anthropic API. Do not
+commit. Write only data/g1audit/facts-N.out.jsonl. Scratch only in
+/tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/g1facts-N/.
+
+Input data/g1audit/facts-N.jsonl: one notes line per row that states something that changes over time (an office
+holder, a rate, a rank, a "current / latest" figure): page, section, sub (page title), text.
+For EVERY line, check it with WebSearch (and the web-fetch agent when a page must be read) against reliable sources
+(government sites, RBI, PIB, ECI, Supreme Court, official AP sites, major newspapers), as of 20 Nov 2026.
+ - Still right -> {"page": "...", "text": "<the input text>", "ok": true}
+ - Out of date or wrong -> {"page": "...", "text": "<the input text exactly>", "new": "<the corrected line in the same
+   style, markdown **bold** for key words; keep the rest of the line>", "why": "<one line: what changed>", "src": "<url>"}
+ - Historical facts that cannot change (who was X in 1950, a past report's figure) are ok without searching.
+Be careful: only change a line when a reliable source shows it is out of date; never invent. Keep the exam-relevant
+wording. Check with Python (every input row once, in order; "text" identical to the input). Report: how many
+checked, how many updated, and every update in one line each.

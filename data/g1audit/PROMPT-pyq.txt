@@ -1,0 +1,13 @@
+Task: a second, independent check of PYQs (past exam questions) that were REMOVED from the APPSC Group 1 Prelims app
+as outside its official syllabus. Never use the Anthropic API. Do not commit. Write only data/g1audit/pyq-N.out.jsonl.
+Scratch only in /tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/g1pyq-N/.
+
+Read data/g1syl/leaves.md: the official Group 1 Prelims syllabus (2018) as leaves (Paper I A History, B Polity, C
+Economy, D Geography; Paper II E18-E22 Science & Technology, G current events). Mental Ability is left out (owner's
+choice). Input data/g1audit/pyq-N.jsonl: id, the section and page it sat in, question, options, answer, source.
+Decide each: KEEP with the leaf code a Group 1 Prelims question could fairly be set under (the line's topic,
+background, people, places, related facts), or REMOVE when no line covers it. Be fair, not narrow, but do not
+stretch: world history, psychology, pedagogy, statistics, sociology theory, folk arts with no line, Telugu literature
+after 1956, AP politics after 1956, mental ability stay removed. Old news is not a current event.
+Write {"id": "...", "d": "<leaf code>" or "remove", "why": "<few words>"} for every row, in order. Check with Python
+(every id once; codes exist in data/g1syl/leaves.json). Report keep / remove counts by topic and 10 examples of each.
