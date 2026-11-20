@@ -17,7 +17,9 @@ def load():
         for l in open(f):
             if l.strip():
                 o = json.loads(l)
-                if o.get("id") in inp and o.get("q"):
+                # Assertion-Reason and matching MCQs stay as they are (the owner's choice): only statement sets
+                # and ordering questions take the Group 2 style
+                if o.get("id") in inp and o.get("q") and inp[o["id"]].get("type") not in ("AR", "match"):
                     out[o["id"]] = (inp[o["id"]], o["q"])
     return out
 
