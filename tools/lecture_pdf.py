@@ -5,8 +5,8 @@ pages, slide by slide, ready to teach from.
     e.g. python3 tools/lecture_pdf.py app/src/group1/assets 1 37 docs/lectures/pilot.pdf "APPSC Group 1 Prelims"
 
 Each topic: a title slide (subject, syllabus lines it covers), the lesson plan (its parts), then every part's notes
-(headings, every bullet, every table, the "remember" boxes), a recap of the key terms, and a quick check
-of past questions with the answers on the slide after. Citations are left out (tools/lecture_clean.py): source lists, exam / paper tags, book names, "settled" source notes.
+(headings, every bullet, every table, the "remember" boxes), a recap of the key terms. Plain lessons: nothing
+left of the MCQs the notes were written from (answers, wrong options, statement checks), no quick check. Citations are left out (tools/lecture_clean.py): source lists, exam / paper tags, book names, "settled" source notes.
 """
 import html, json, os, re, subprocess, sys
 
@@ -206,7 +206,7 @@ def build(A, B, R, OUT, APP="APPSC"):
     # quick check: up to 6 past questions (APPSC first), answers on the next slide
     pyq = [q for q in qs if q["id"].startswith("y") and q.get("o") and 0 <= q.get("a", -1) < len(q["o"]) and len(q["o"]) == 4 and len(q["s"]) < 420]
     pyq.sort(key=lambda q: (0 if "APPSC" in (q.get("src") or "").upper() else 1, len(q["s"])))
-    pick = pyq[:6]
+    pick = []  # plain lessons: no quick check of past questions with their options (the app has the MCQs)
     if pick:
         def qhtml(n, q, ans):
             st = html.escape(LC.clean_text(q["s"]) or q["s"]).replace("\n", "<br>")

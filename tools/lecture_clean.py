@@ -30,6 +30,12 @@ def _paren(m):
 
 
 def clean_text(t):
+    """one line of notes for a lecture: no citations, nothing left of the MCQ it came from ('' if nothing is left)"""
+    c = _cite(t)
+    return plain(c) if c else c
+
+
+def _cite(t):
     """one line of notes without its citations ('' if nothing is left)"""
     o = t
     # "exam keys give 1877 ..." is a teaching point: "exams give 1877 ..."
@@ -71,6 +77,64 @@ def clean_text(t):
         return ""
     i = next((n for n, ch in enumerate(t) if ch.isalpha()), None)
     return t[:i] + t[i].upper() + t[i + 1:] if i is not None and t[i].islower() and not re.match(r"[a-z]+[A-Z]", t[i:]) else t
+
+
+# --- what is left of the MCQs a line was written from: answers, options, statement checks, exam labels ---------------
+ANS = r"(?:\(?[a-d]\)?|\(?[A-D]\)?|[IVX]{1,4}|[1-4])"
+QUIZ = re.compile(
+    r"\(\s*[a-d]\s*\)\s*(?:is|are)\b|\b(?:all|both)(?: (?:are|four|three|of these|statements?))? (?:true|correct|false|wrong)\b|"
+    r"\b(?:is|are|was) (?:false|true|correct|wrong|incorrect)\b|\bA and R\b|\bR (?:is |does not |not )?(?:the )?(?:correct )?expla|"
+    r"\b(?:wrong|correct|incorrect|false|true) (?:statement|pair|option|answer|match)s?\b|\bthe answer\b|\boptions\b|\boption \(?[a-d1-4]\b|"
+    r"\bonly (?:I|II|III|IV|1|2|3|4)\b|\bstatements? (?:[IVX1-4]|one|two|three)|\b(?:correctly|wrongly) (?:matched|paired)\b|"
+    r"\bodd one\b|\bnone of the above\b|\ball of the above\b|\bkeyed\b|\bpick\b|\bdistractor")
+LABEL = re.compile(
+    r"^\W*(?:⚠\s*)?(?:Statement (?:angle|check|set|trap)s?|Angles?|Traps?|Statements?|A-?R|Assertion[- ]Reason|(?:Wrong|Correct|Odd) (?:pair|one out|match)s?|"
+    r"Match(?: drill| angle)?|Matching|Trap|Order(?: angle)?|Sequence|Exam angle|Angle|Calculation angle|Disputed(?: key)?|Not true)\s*(?:\([^)]*\))?\s*[:–-]\s*", re.I)
+
+
+def plain(t):
+    """a lecture line without the MCQ it came from: no answers ("(b) is false -> a, c, d", "= IV, I, II, III"), no wrong
+    options ("- not Vijnaneshvara, Narada or Jimutavahana"), no statement checks (✓ / ✗), no exam labels"""
+    o = t
+    if len(re.findall("[✓✗]", t)) >= 2:  # a statement check, item by item
+        return ""
+    t = LABEL.sub("", t)
+    # the verdict at the end: "-> A and R true, R not the explanation", "- both true", "; all four correct"
+    t = re.sub(r"\s*(?:→|=>|[–—;,])\s*(?:both|all|A and R|A,? R|A|R)\b[^.;]*?\b(?:true|false|correct|wrong|explanation|explains)\b[^.;]*", "", t)
+    # brackets about the exam: "(AP recruitment)", "(asked twice)", "(options: ...)"
+    t = re.sub(r"\s*\([^()]*\b(?:recruitment|exam|papers?|questions?|asked|options?|answers?|keys?|PSC|APPSC|statements?)\b[^()]*\)", "", t, flags=re.I)
+    # the answer at the end: "-> a, c, d", "= IV, I, II, III", "-> \"only I\"", "-> (c)"
+    t = re.sub(rf"\s*(?:→|=>|=|:)\s*[\"“]?(?:only |both |all )?{ANS}(?:\s*(?:,|and|&|–|-)\s*{ANS})*[\"”]?\s*(?=[.;]?\s*$)", "", t)
+    t = re.sub(r"\s*(?:→|=>)\s*[\"“][^\"”]{1,30}[\"”]\s*(?=[.;)]?\s*$)", "", t)
+    # the wrong options: "- not A, B or C" / "; not A or B"
+    t = re.sub(r"\s*(?:[–—]|;|,)\s*not\s+(?:the\s+|a\s+|an\s+)?[^.;()]*?(?:\b(?:or|nor)\b|,\s*not\b)[^.;()]*", "", t)
+    # statement checks: "X ✓, Y ✗ (Bombay)" -> X
+    t = re.sub(r"[^,;:.]*✗(?:\s*\([^)]*\))?", "", t)
+    t = t.replace("✓", "")
+    # clauses that only work the answer out: "all true", "so (b) is false", "both true, R explains A"
+    bits = re.split(r"(;\s+|\s+[–—]\s+|,\s+(?=so\b|hence\b|thus\b)|\.\s+)", t)
+    keep = []
+    for i in range(0, len(bits), 2):
+        c = bits[i]
+        if QUIZ.search(c):
+            continue
+        if keep:
+            keep.append(bits[i - 1])
+        keep.append(c)
+    t = "".join(keep)
+    t = re.sub(r"\s{2,}", " ", t)
+    t = re.sub(r"\s+([,.;:)])", r"\1", t)
+    t = re.sub(r"[,;:\s–—-]+([.)]?)\s*$", r"\1", t).strip()
+    t = re.sub(r"\(\s*\)", "", t).strip()
+    if t != o.strip():
+        if len(re.sub(r"[^A-Za-z]", "", t)) < 12:
+            return ""
+        i = next((n for n, ch in enumerate(t) if ch.isalpha()), None)
+        if i is not None and t[i].islower() and not re.match(r"[a-z]+[A-Z]", t[i:]):
+            t = t[:i] + t[i].upper() + t[i + 1:]
+        if t and t[-1] not in ".?!)\"”":
+            t += "."
+    return t
 
 
 def drop_block(kind, text):
