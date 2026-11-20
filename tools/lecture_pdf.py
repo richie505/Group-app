@@ -38,9 +38,10 @@ def build(A, B, R, OUT, APP="APPSC"):
         def runs_of(t):
             return [[p, i % 2] for i, p in enumerate(re.split(r"\*\*", str(t))) if p]
         def blk(b):
+            # "rk": already clean (no citation cleaning: "LIC 1956" is a fact here, not an exam tag)
             if b["k"] == "t":
-                return {"k": "t", "h": [runs_of(c) for c in b.get("h", [])], "r": [[runs_of(c) for c in r] for r in b["r"]]}
-            return {"k": b["k"], "x": runs_of(b["x"])}
+                return {"k": "t", "rk": 1, "h": [runs_of(c) for c in b.get("h", [])], "r": [[runs_of(c) for c in r] for r in b["r"]]}
+            return {"k": b["k"], "rk": 1, "x": runs_of(str(b["x"]).replace("⚠", "").strip())}
         row = copy.deepcopy(row)
         for j, bl in J(rk).items():
             row["secs"][int(j)]["b"] = [blk(b) for b in bl]
@@ -182,6 +183,12 @@ def build(A, B, R, OUT, APP="APPSC"):
 
     def item(bl):
         k = bl["k"]
+        if bl.get("rk"):  # a Rocket-style page: as written
+            if k == "t":
+                return {"k": "t", "head": [runs(c, False) for c in bl.get("h") or []], "rows": [[runs(c, False) for c in r] for r in bl.get("r") or []]}
+            if k == "x":
+                return {"k": "x", "h": f"<div class='box rem'><span>REMEMBER</span>{runs(bl['x'], False)}</div>"}
+            return {"k": k, "h": runs(bl["x"], False)}
         if k != "t" and (LC.drop_block(k, plain(bl.get("x", []))) or not plain(cl(bl.get("x", []))).strip()):
             return None
         if k == "h":
@@ -209,8 +216,8 @@ def build(A, B, R, OUT, APP="APPSC"):
     for i, (j, s) in enumerate(parts):
         terms = []
         for bl in s["b"]:
-            if bl["k"] in ("b", "x") and not LC.drop_block(bl["k"], plain(bl["x"])):
-                for r in cl(bl["x"]):
+            if bl["k"] in ("b", "x") and (bl.get("rk") or not LC.drop_block(bl["k"], plain(bl["x"]))):
+                for r in (bl["x"] if bl.get("rk") else cl(bl["x"])):
                     t = r[0].strip(" :;,.⚠→") if isinstance(r, list) and len(r) > 1 and r[1] else ""
                     if 2 < len(t) < 40 and not any(t.lower() in x.lower() for x in terms):
                         terms.append(t)
