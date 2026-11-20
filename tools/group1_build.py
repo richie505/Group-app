@@ -13,7 +13,7 @@ import collections, glob, hashlib, json, os, random, re, shutil, sys
 
 sys.path.insert(0, os.path.dirname(__file__))
 # the notes MCQs in APPSC's pattern, the same passes as Group 2 (same MCQ ids): realign, retwist, direct, fixes
-import notes_realign as _ra, notes_retwist as _rt, notes_direct as _nd, notes_fixes as _fx
+import notes_realign as _ra, notes_retwist as _rt, notes_direct as _nd, notes_fixes as _fx, notes_options as _no
 _RA, (_RTP, _RTO), _ND, _FX = _ra.load(), _rt.load(), _nd.load(), _fx.load()
 _RR = random.Random(7)
 _G1P = _fx.load("data/g1pattern")  # Group 1-only notes MCQs brought to the pattern by hand (same format as the fixes)
@@ -26,6 +26,7 @@ def pattern(q):
     if q["id"] in _RA:
         q = _ra.apply(q, _RA[q["id"]], _RR) or q
     q = _fx.apply(_fx.apply(_nd.apply(_rt.apply_all(q, _RTP, _RTO, _RR), _ND), _FX), _G1P)
+    q = _no.fix(q)  # every statement of a set in at least one option
     if q.get("k") in ("f", "u") or not q.get("o"):
         return q
     s_ = q["s"]

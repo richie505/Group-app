@@ -73,6 +73,25 @@ for e in ex:
     for sj in e["subjects"]:
         for g in sj["groups"]:
             g["rows"] = [x for x in g["rows"] if tuple(x) not in hidden]
+# each section listed ONCE in a subject: under the line most of its MCQs are filed under; the other lines it covers
+# show it as "Covered in"
+lfc = collections.defaultdict(collections.Counter)
+for b in range(1, 7):
+    for r, L in J(f"{G}/mcq{b}.json")["rows"].items():
+        for q in L:
+            lfc[(b, int(r))][q.get("lf")] += 1
+for e in ex:
+    for sj in e["subjects"]:
+        prim = {}
+        for gi, g in enumerate(sj["groups"]):
+            for x in g["rows"]:
+                k, c = tuple(x), lfc[tuple(x)].get(g["code"], 0)
+                if k not in prim or c > prim[k][0]:
+                    prim[k] = (c, gi)
+        for gi, g in enumerate(sj["groups"]):
+            own = [x for x in g["rows"] if prim[tuple(x)][1] == gi]
+            g["see"] = [x for x in g["rows"] if prim[tuple(x)][1] != gi][:3] if not own else []
+            g["rows"] = own
 W(f"{G}/exams.json", ex)
 plan = J(f"{G}/plan.json")
 for d in plan["days"]:

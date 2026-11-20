@@ -274,7 +274,9 @@ data class Exam(val title: String, val sub: String, val subjects: List<ExamSubje
 data class ExamSubject(val title: String, val sub: String, val groups: List<ExamGroup>)
 
 /** A topic (Group 1) or a syllabus item (Group 2) and its sections, as (book, row). */
-data class ExamGroup(val title: String, val code: String, val rows: List<Pair<Int, Int>>)
+/** A syllabus line (or topic) of an exam's subject: its sections, each listed once; [see] = sections listed under
+ *  another line that also cover this one (shown as "Covered in"). */
+data class ExamGroup(val title: String, val code: String, val rows: List<Pair<Int, Int>>, val see: List<Pair<Int, Int>> = emptyList())
 
 
 /** A worked solution of a question of the latest papers: the method, the tricks used, the steps to the key, the words

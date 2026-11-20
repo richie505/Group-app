@@ -222,15 +222,17 @@ fun ExamSubjectScreen(exam: Int, subject: Int, nav: Nav) {
                                 Spacer(Modifier.height(3.dp))
                                 Text(if (g.code.isNotBlank() && g.title.startsWith(g.code + ":")) g.title.substringAfter(": ") else g.title, style = TextStyle(fontSize = 15.sp, lineHeight = 20.sp, fontWeight = FontWeight.SemiBold, color = C.Ink))
                                 Text(
-                                    "${g.rows.size} sections · $done/$total ${app.doneWord}",
-                                    style = TextStyle(fontSize = 12.sp, color = C.Muted),
+                                    if (g.rows.isEmpty() && g.see.isNotEmpty()) "Covered in " + g.see.mapNotNull { (b, r) -> app.repo.rowInfo(b, r)?.title?.substringBefore(" –")?.substringBefore(";") }.joinToString(" · ")
+                                    else "${g.rows.size} sections · $done/$total ${app.doneWord}",
+                                    style = TextStyle(fontSize = 12.sp, lineHeight = 16.sp, color = C.Muted),
                                     modifier = Modifier.padding(top = 3.dp),
                                 )
                             }
                             Icon(if (open) Icons.Filled.ExpandLess else Icons.Filled.ExpandMore, null, tint = C.Muted)
                         }
                         if (open) {
-                            g.rows.forEachIndexed { i, (b, ri) ->
+                            // a line whose sections are all listed under another line: those sections, once more, as "covered in"
+                            (g.rows.ifEmpty { g.see }).forEachIndexed { i, (b, ri) ->
                                 val r = app.repo.rowInfo(b, ri) ?: return@forEachIndexed
                                 HorizontalDivider(color = C.Line, modifier = Modifier.padding(start = 16.dp))
                                 SectionItem(

@@ -287,9 +287,9 @@ class Repository(private val open: (String) -> InputStream) {
                     val so = sj.jsonObject
                     ExamSubject(so.str("title"), so.str("sub"), so["groups"]!!.jsonArray.map { g ->
                         val go = g.jsonObject
-                        ExamGroup(go.str("title"), go.str("code"), go["rows"]!!.jsonArray.map { x ->
-                            x.jsonArray[0].jsonPrimitive.int to x.jsonArray[1].jsonPrimitive.int
-                        })
+                        val pair = { x: JsonElement -> x.jsonArray[0].jsonPrimitive.int to x.jsonArray[1].jsonPrimitive.int }
+                        ExamGroup(go.str("title"), go.str("code"), go["rows"]!!.jsonArray.map(pair),
+                            (go["see"] as? JsonArray)?.map(pair) ?: emptyList())
                     })
                 })
             }

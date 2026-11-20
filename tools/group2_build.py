@@ -427,6 +427,8 @@ for b in range(1, 7):
             kept = [(_rt.apply_all(q, _RTP, _RTO, _RR) if not q["id"].startswith("y") else q, sb_) for q, sb_ in kept]
             kept = [(_nd.apply(q, _ND) if not q["id"].startswith("y") else q, sb_) for q, sb_ in kept]
             kept = [(_fx.apply(q, _FX), sb_) for q, sb_ in kept]
+            import notes_options as _no
+            kept = [(_no.fix(q), sb_) for q, sb_ in kept]  # every statement of a set in at least one option
             # every notes MCQ is now in APPSC's pattern: say so on it, with its type (the quiz shows "APPSC pattern · <type>")
             def _pat(q):
                 if q["id"].startswith("y") or q.get("k") in ("f", "u") or not q.get("o"):
