@@ -429,6 +429,11 @@ for b in range(1, 7):
             kept = [(_fx.apply(q, _FX), sb_) for q, sb_ in kept]
             import notes_options as _no
             kept = [(_no.fix(q), sb_) for q, sb_ in kept]  # every statement of a set in at least one option
+            # Group 2's own paper style: statement / matching / A-R MCQs beyond their shares in Group 2 papers rewritten as
+            # one or two one-answer questions (tools/notes_g2style.py)
+            import notes_g2style as _gs
+            _GS = _gs.load()
+            kept = [(x, sb_) for q, sb_ in kept for x in (_gs.expand(q, _GS) if not q["id"].startswith("y") else [q])]
             # every notes MCQ is now in APPSC's pattern: say so on it, with its type (the quiz shows "APPSC pattern · <type>")
             def _pat(q):
                 if q["id"].startswith("y") or q.get("k") in ("f", "u") or not q.get("o"):
