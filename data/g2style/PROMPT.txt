@@ -1,0 +1,30 @@
+Task: rewrite Group 2 notes MCQs in the style of APPSC GROUP 2's OWN papers. Never use the Anthropic API. Do not
+commit. Write only data/g2style/job-N.out.jsonl. Scratch only in
+/tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/g2style-N/.
+
+What Group 2 papers look like (Prelims 2017-24, Mains 2017-25, 1,142 questions): about 75% are simple ONE-ANSWER
+questions with SHORT options (a name, term, place, year, number, body; ~4 words), ~12% "Which of the following is
+NOT / EXCEPT ..." one-answer, ~9% one-answer with longer options, ~5% "Which of the following statements is
+correct?" with four sentence options. Stems ~20 words. Straight, factual, exam-relevant; not trick puzzles.
+Examples: "Lottery Committee (1817) of the British Rule was related to:" [Eradication of Epidemics / Revenue
+Settlement / Town Planning / Education]; "Who among the following worked with Gandhi for sometime in Sabarmati
+Ashram?" [Swamy Sitaram / Pattabhi Sitaramaiah / Kaleshwar Rao / Potti Sriramulu].
+
+Input data/g2style/job-N.jsonl: one MCQ per line (id, type = statements / match / AR / order, section, s, o, a = key
+index, x). It is currently a statement set, matching, assertion-reason or ordering question: TOO HARD / not Group 2's
+style. Its facts come from its TRUE statements (and the true version of its false ones, see x). If a set's options
+looked flawed (truth_note), work out the truth from the statements, x and the notes.
+Notes of a section: python3 tools/g2syl_show.py <b> <r>.
+
+For each line write ONE or TWO Group 2-style questions:
+ - Q1 (always): a one-answer question on the set's MOST exam-worthy fact (the core of the topic, what Group 2 asks).
+ - Q2 (only if the set holds another clearly important, different fact): a second one-answer question.
+ - Mix across the job like the papers: mostly short-option direct; about 1 in 7 "NOT / EXCEPT"; about 1 in 15
+   "Which of the following statements is correct?" (four sentence options, exactly one correct).
+ - Four options of the SAME kind, plausible decoys from the same topic, exactly one correct; spread the key position.
+ - "x": a short explanation (why the key is right; one line on a decoy if useful). No option letters.
+ - Facts must be right (notes or sure knowledge). No trivia, no obscure details, no trick wording.
+Write {"id": "...", "q": [{"s": "...", "o": ["","","",""], "a": 0-3, "x": "..."}, {...optional second...}]}.
+Check with Python (every id once, in order; 1-2 questions each; 4 distinct options; a in 0..3; stems not starting
+"Consider the following statements") and report counts, the share of NOT/EXCEPT and sentence-option questions, the
+key-position spread, and 5 examples (before -> after).
