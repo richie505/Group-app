@@ -5,7 +5,7 @@ Questions from Group 2's own papers are never removed (they were asked in Group 
 
     python3 tools/group2_build.py <start> && python3 tools/group2_fit.py && python3 tools/build_plan_mcq.py app/src/group2/assets
 """
-import collections, glob, json
+import collections, glob, json, re
 
 G = "app/src/group2/assets"
 J = lambda p: json.load(open(p))
@@ -31,6 +31,7 @@ syl = J(f"{G}/syllabus.json")
 PAPER = {i for p in syl["papers"] for i in p["ids"]}
 empty, idx, st = J(f"{G}/empty.json"), J(f"{G}/index.json"), collections.Counter()
 hidden = set()
+SEEN = set()
 for b in range(1, 7):
     bk, m = J(f"{G}/book{b}.json"), J(f"{G}/mcq{b}.json")
     rows = [r for u in bk["units"] for r in u["rows"]]
@@ -45,6 +46,12 @@ for b in range(1, 7):
         L, S = m["rows"].get(str(i), []), m["subs"].get(str(i), [])
         keep = []
         for q, s in zip(L, S):
+            # a notes MCQ that is an exact copy of one already kept (same question, same options): dropped
+            dk = (re.sub(r"\W+", " ", q["s"].lower()).strip(), tuple(sorted(x.strip().lower() for x in q.get("o") or [])))
+            if not q["id"].startswith("y") and dk in SEEN:
+                st["notes MCQ copies dropped"] += 1
+                continue
+            SEEN.add(dk)
             d = MCQ.get(q["id"])
             if d == "remove" and q["id"] not in PAPER:
                 st["MCQs removed"] += 1
