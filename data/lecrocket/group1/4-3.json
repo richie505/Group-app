@@ -397,5 +397,175 @@
 "k": "b",
 "x": "A ship's least-time path is often given as \"along the meridian\"; strictly the shortest route is a **great-circle** route (meridians are great circles)."
 }
+],
+"0": [
+{
+"k": "h",
+"x": "The rule"
+},
+{
+"k": "b",
+"x": "Earth turns **360° in 24 h**, **west to east** → **15° = 1 hour**, **1° = 4 minutes**, **1' of arc = 4 seconds**."
+},
+{
+"k": "t",
+"h": [
+"Longitude gap",
+"Time gap"
+],
+"r": [
+[
+"1°",
+"**4 minutes**"
+],
+[
+"15°",
+"**1 hour (60 min)**"
+],
+[
+"90°",
+"6 hours"
+],
+[
+"180°",
+"**12 hours** (720 min)"
+],
+[
+"1' of arc",
+"4 seconds"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Direction",
+"**East is ahead (add), west is behind (subtract)**; moving westward, local time **falls behind**"
+],
+[
+"Examples",
+"30° west of Greenwich = **2 hours behind** GMT; the 15°E meridian is **1 hour fast**"
+],
+[
+"**Same side** of Greenwich",
+"Subtract the longitudes"
+],
+[
+"**Opposite sides**",
+"Add them: 25°E and 35°W = 60° = **4 h**; 6°W and 9°E = 15° = 1 h"
+],
+[
+"**Same meridian**",
+"**Same local time**, however far apart north–south"
+],
+[
+"Journey / message",
+"Arrival local time = departure + travel time ± longitude time"
+]
+]
+},
+{
+"k": "x",
+"x": "Find the longitude gap, × 4 min, then add (east) or subtract (west) – check the side of Greenwich first."
+},
+{
+"k": "h",
+"x": "Worked examples"
+},
+{
+"k": "t",
+"h": [
+"Given",
+"Result"
+],
+"r": [
+[
+"Flight 10:00 a.m., 3 h, 15° east",
+"**2:00 p.m.**"
+],
+[
+"Telegram from Greenwich at noon, 12 min in transit, arrives 6:00 p.m.",
+"5 h 48 min = 348 min ÷ 4 = **87°E**"
+],
+[
+"A 6°W at 10 a.m. → B 9°E",
+"15° = 1 h → **11 a.m.**"
+],
+[
+"A 60°W at 10 a.m. → B 90°E",
+"150° = 10 h → **8 p.m.**"
+],
+[
+"3:40 p.m. GMT → 10°W, West Africa",
+"40 min behind → **3:00 p.m.**"
+],
+[
+"Noon GMT, place at 6 a.m.",
+"**90°W**"
+],
+[
+"Noon at IST meridian, place at 6 a.m.",
+"82°30'E − 90° = **7°30'W**"
+],
+[
+"Noon at 82°30'E, place at 6:30 a.m.",
+"5½ h = 82°30' west → **0°**"
+],
+[
+"Midnight IST, place at 6 a.m.",
+"82°30' + 90° = **172°30'E**"
+],
+[
+"Noon IST → 120°E",
+"37°30' × 4 = 150 min → **14:30**"
+],
+[
+"10:00 a.m. IST → Shillong 92°E",
+"9.5° × 4 = 38 min → **10:38 a.m.**"
+],
+[
+"Greenwich noon → 5 p.m. local",
+"**75°E**"
+],
+[
+"GMT 3 a.m., local 6 a.m.",
+"**45°E**"
+],
+[
+"Cairo 2 h ahead of Greenwich",
+"**30°E**"
+],
+[
+"Thimphu 90°E at Greenwich noon",
+"**6:00 p.m.**"
+],
+[
+"Sunrise Tirap (Arunachal) 5 a.m. → Kandla (Gujarat, ~70°E)",
+"~25° ≈ 1 h 40 min → **about 7:00 a.m.**"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Ship** sailing west at the speed of rotation, **10:00 Monday** at 90°W",
+"Keeps pace with the Sun – at the Date Line it is still 10:00 Monday"
+],
+[
+"**Rotation reversed**",
+"Normally IST is 5½ h ahead of GMT and the 180°W side 12 h behind; reversed, IST would be 17½ h behind the Date Line → noon there = **18:30 hrs IST**"
+]
+]
+}
 ]
 }
