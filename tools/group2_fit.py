@@ -20,6 +20,13 @@ for f in sorted(glob.glob("data/g2fit/job-*.out.jsonl")):
             for j, v in o.get("subs", {}).items():
                 SUB[(t, int(j))] = v
             MCQ.update(o.get("mcqs", {}))
+# the second check (Nov 2026) of the removed PYQs: those that fit a line after all are kept, filed under it
+for f in sorted(glob.glob("data/g2audit/pyq-*.out.jsonl")):
+    for l in open(f):
+        if l.strip():
+            o = json.loads(l)
+            if o.get("d") and o["d"] != "remove" and MCQ.get(o["id"]) == "remove":
+                MCQ[o["id"]] = o["d"]
 syl = J(f"{G}/syllabus.json")
 PAPER = {i for p in syl["papers"] for i in p["ids"]}
 empty, idx, st = J(f"{G}/empty.json"), J(f"{G}/index.json"), collections.Counter()

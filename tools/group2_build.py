@@ -670,4 +670,6 @@ subprocess.run([sys.executable, "tools/oneliner_notelink.py", G], check=True)
 # the latest papers' worked solutions (the "Stuck?" answer and its trick), keyed by this app's MCQ ids
 subprocess.run([sys.executable, "tools/solved_asset.py"], check=True)
 # only what the Group 2 syllabus asks: the hand-checked "beyond the syllabus" decisions (data/g2fit)
+# the Nov 2026 audit: pages + MCQs for thin lines and the latest current affairs (tools/group2_audit.py)
+subprocess.run([sys.executable, "tools/group2_audit.py"], check=True)
 subprocess.run([sys.executable, "tools/group2_fit.py"], check=True)
