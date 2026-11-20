@@ -5,10 +5,13 @@ pages, slide by slide, ready to teach from.
     e.g. python3 tools/lecture_pdf.py app/src/group1/assets 1 37 docs/lectures/pilot.pdf "APPSC Group 1 Prelims"
 
 Each topic: a title slide (subject, syllabus lines it covers), the lesson plan (its parts), then every part's notes
-(headings, every bullet, every table, the "remember" / "settled" boxes), a recap of the key terms, and a quick check
-of past questions with the answers on the slide after. Source citations are left out.
+(headings, every bullet, every table, the "remember" boxes), a recap of the key terms, and a quick check
+of past questions with the answers on the slide after. Citations are left out (tools/lecture_clean.py): source lists, exam / paper tags, book names, "settled" source notes.
 """
 import html, json, os, re, subprocess, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import lecture_clean as LC
 
 _CACHE = {}
 
@@ -48,7 +51,30 @@ def build(A, B, R, OUT, APP="APPSC"):
                             lines.append(lf["text"])
 
 
-    def runs(x):
+    def cl(x):
+        """the runs without citations: [[text, bold], ...] (bold words that survive the cut stay bold)"""
+        if isinstance(x, str):
+            x = [[x, 0]]
+        rr = [(str(r[0]), r[1]) if isinstance(r, list) and len(r) > 1 else (str(r[0] if isinstance(r, list) else r), 0) for r in x]
+        t = "".join(a for a, _ in rr)
+        c = LC.clean_text(t)
+        if c == t:
+            return [[a, b] for a, b in rr]
+        out, pos = [], 0
+        for a, b in rr:
+            a = a.strip()
+            if b and len(a) > 1:
+                k = c.find(a, pos)
+                if k >= 0:
+                    out += [[c[pos:k], 0], [a, 1]]
+                    pos = k + len(a)
+        out.append([c[pos:], 0])
+        return [r for r in out if r[0]]
+
+
+    def runs(x, clean=True):
+        if clean:
+            x = cl(x)
         out = []
         for r in x:
             t, st = (r[0], r[1]) if isinstance(r, list) and len(r) > 1 else (r if isinstance(r, str) else r[0], 0)
@@ -129,12 +155,12 @@ def build(A, B, R, OUT, APP="APPSC"):
     # title
     syl = "".join(f"<li>{html.escape(x)}</li>" for x in lines[:8])
     slide("title", f"""<div class='kicker'>{html.escape(subject)} · {html.escape(unit['title'][:110])}</div>
-    <h1>{html.escape(row['title'])}</h1>
+    <h1>{html.escape(LC.clean_text(row['title']) or row['title'])}</h1>
     {'<div class="syl"><div class="lab">SYLLABUS LINES THIS LESSON COVERS</div><ul>' + syl + '</ul></div>' if syl else ''}
     <div class='foot'>{html.escape(APP)} · lecture notes</div>""")
     parts = [(j, s) for j, s in enumerate(row["secs"]) if not hidden(s) and s["b"]]
     # lesson plan
-    plan = "".join(f"<li><span class='n'>{i + 1}</span>{html.escape(s['t'])}</li>" for i, (_, s) in enumerate(parts))
+    plan = "".join(f"<li><span class='n'>{i + 1}</span>{html.escape(LC.clean_text(s['t']) or s['t'])}</li>" for i, (_, s) in enumerate(parts))
     slide("plan", f"<h2>Lesson plan</h2><ol class='plan'>{plan}</ol><div class='meta'>{len(parts)} parts · {len(qs)} MCQs in the app on this topic</div>")
     # every part: its blocks as data; the browser lays them out slide by slide, measuring what fits
     PARTS = []
@@ -142,16 +168,18 @@ def build(A, B, R, OUT, APP="APPSC"):
 
     def item(bl):
         k = bl["k"]
+        if k != "t" and (LC.drop_block(k, plain(bl.get("x", []))) or not plain(cl(bl.get("x", []))).strip()):
+            return None
         if k == "h":
             return {"k": "h", "h": runs(bl["x"])}
         if k == "t":
-            return {"k": "t", "head": [runs(c) for c in (bl.get("h") or [])], "rows": [[runs(c) for c in r] for r in (bl.get("r") or [])]}
+            rows = [[runs(c) for c in r] for r in (bl.get("r") or [])]
+            rows = [r for r in rows if any(c.strip() for c in r)]
+            return {"k": "t", "head": [runs(c) for c in (bl.get("h") or [])], "rows": rows} if rows else None
         if k == "b":
             return {"k": "b", "h": runs(bl["x"])}
         if k == "x":
             return {"k": "x", "h": f"<div class='box rem'><span>REMEMBER</span>{runs(bl['x'])}</div>"}
-        if k == "s":
-            return {"k": "x", "h": f"<div class='box set'><span>SETTLED</span>{runs(bl['x'])}</div>"}
         if k in ("n", "p") and not is_source(bl):
             return {"k": "x", "h": f"<div class='box note'><span>NOTE</span>{runs(bl['x'])}</div>"}
         return None
@@ -160,19 +188,19 @@ def build(A, B, R, OUT, APP="APPSC"):
     for i, (j, s) in enumerate(parts):
         its = [x for x in map(item, s["b"]) if x]
         if its:
-            PARTS.append({"title": s["t"], "part": f"Part {i + 1} of {len(parts)}", "items": its})
+            PARTS.append({"title": LC.clean_text(s["t"]) or s["t"], "part": f"Part {i + 1} of {len(parts)}", "items": its})
     slide("parts", "")
     # recap: the key terms of each part (its bold words)
     rec = []
     for i, (j, s) in enumerate(parts):
         terms = []
         for bl in s["b"]:
-            if bl["k"] in ("b", "x"):
-                for r in bl["x"]:
+            if bl["k"] in ("b", "x") and not LC.drop_block(bl["k"], plain(bl["x"])):
+                for r in cl(bl["x"]):
                     t = r[0].strip(" :;,.⚠→") if isinstance(r, list) and len(r) > 1 and r[1] else ""
                     if 2 < len(t) < 40 and not any(t.lower() in x.lower() for x in terms):
                         terms.append(t)
-        rec.append(f"<li><b>{html.escape(s['t'])}</b> — {html.escape(' · '.join(terms[:7]))}</li>")
+        rec.append(f"<li><b>{html.escape(LC.clean_text(s['t']) or s['t'])}</b> — {html.escape(' · '.join(terms[:7]))}</li>")
     for k in range(0, len(rec), 8):
         slide("content", f"<h2>Recap{' (cont.)' if k else ''}</h2><ul class='pts recap'>{''.join(rec[k:k + 8])}</ul>", "Recap", "")
     # quick check: up to 6 past questions (APPSC first), answers on the next slide
@@ -181,10 +209,9 @@ def build(A, B, R, OUT, APP="APPSC"):
     pick = pyq[:6]
     if pick:
         def qhtml(n, q, ans):
-            st = runs([[x, 0] for x in [q["s"]]]).replace("\n", "<br>")
-            op = "".join(f"<li class='{'ok' if ans and k == q['a'] else ''}'>({k + 1}) {html.escape(o)}</li>" for k, o in enumerate(q["o"]))
-            src = f"<div class='src'>{html.escape(q.get('src', ''))}</div>" if q.get("src") else ""
-            return f"<div class='q'><div class='qs'><span class='n'>Q{n}</span>{st}</div><ol class='opts'>{op}</ol>{src}</div>"
+            st = html.escape(LC.clean_text(q["s"]) or q["s"]).replace("\n", "<br>")
+            op = "".join(f"<li class='{'ok' if ans and k == q['a'] else ''}'>({k + 1}) {html.escape(LC.clean_text(o) or o)}</li>" for k, o in enumerate(q["o"]))
+            return f"<div class='q'><div class='qs'><span class='n'>Q{n}</span>{st}</div><ol class='opts'>{op}</ol></div>"
         for k in range(0, len(pick), 2):
             two = pick[k:k + 2]
             slide("content", "<h2>Quick check</h2><div class='qs2'>" + "".join(qhtml(k + n + 1, q, False) for n, q in enumerate(two)) + "</div>", "Quick check", "")
