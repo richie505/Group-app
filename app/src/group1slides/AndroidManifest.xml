@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application>
+        <!-- the slides turn the phone to landscape: the screen stays as it is (no restart), else it would restart,
+             drop the slides, turn back to portrait and loop -->
+        <activity
+            android:name="com.appsc.prep.MainActivity"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden"
+            tools:node="merge" />
+    </application>
+</manifest>
