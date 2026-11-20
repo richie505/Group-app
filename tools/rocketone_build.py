@@ -191,7 +191,43 @@ def topics():
     print(len(jobs), "jobs;", sum(len(v) for v in by.values()), "rows;", len(keys), "syllabus lines with Rocket rows of", len(order))
 
 
+# Rocket's own asides about where a line came from ("according to the source", "in cited PYQ"): not for a slide
+_ASIDES = [(re.compile(x, re.I), y) for x, y in [
+    (r"the source places the Kushanas as ", ""),
+    (r"interpreted in source as probably", "probably"),
+    (r"credited in source with", "credited with"),
+    (r"\s*\(the comparison figure is truncated in the extracted text\)", ""),
+    (r";?\s*exact height is not included in the extracted passage", ""),
+    (r";?\s*developer not specified in the retrieved entry\.?", ""),
+    (r";?\s*range not specified here", ""),
+    (r"first discovered from source-mentioned fossil locality\.?", ""),
+    (r"\s*\((Source )?PYQ distinction[^)]*\)", ""),
+    (r"\s*\(capital PYQ:[^)]*\)", ""),
+    (r"\s*\(PYQ-specific\)", ""),
+    (r"\bPYQ note:", "Note:"),
+    (r"Key PYQ association", "Key association"),
+    (r"\s+in cited PYQ", ""),
+    (r"\s+in cited convention", ""),
+    (r"\bin cited (2024–25 )?data", lambda m: ("in " + m.group(1) + "data") if m.group(1) else ""),
+    (r",?\s+according to (the )?source", ""),
+    (r"\s+(stated )?in (the )?source('s classification| framework)?\b", ""),
+    (r"\s*\(source\)", ""),
+    (r";?\s*author not specified;?\s*", lambda m: "; " if m.group(0).strip().startswith(";") and m.group(0).strip().endswith(";") else ""),
+    (r"^Author not specified;\s*", ""),
+    (r"India's rank: not specified;\s*", ""),
+    (r"^Not specified( here)?$", "—"),
+]]
+
+
+def tidy(t):
+    for rx, y in _ASIDES:
+        t = rx.sub(y, t)
+    t = re.sub(r"\s{2,}", " ", t).strip()
+    return t[:1].upper() + t[1:] if t[:1].islower() and not t.startswith(("pH", "mRNA", "e-", "i-", "eG", "iD", "tRNA", "rRNA")) else t
+
+
 def _runs(t):
+    t = tidy(t)
     out = []
     for i, p in enumerate(re.split(r"\*\*(.+?)\*\*", t)):
         if p:
@@ -208,6 +244,8 @@ def _blocks(items):
         elif k == "h":
             out.append({"k": "h", "x": _runs(it[1].replace("**", ""))})
         else:
+            if re.fullmatch(r"\*\*[^*]+:\*\*", tidy(it[1])):  # a label whose fact was only an aside
+                continue
             out.append({"k": k, "x": _runs(it[1]), "src": it[2] if len(it) > 2 else ""})
     return out
 
