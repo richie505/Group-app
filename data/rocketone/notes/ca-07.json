@@ -1,0 +1,2165 @@
+{
+ "lectures": [
+  {
+   "sheet": 17,
+   "unit": 11,
+   "title": "Satellite missions and important satellites",
+   "parts": [
+    {
+     "t": "Satellites and missions at a glance",
+     "items": [
+      [
+       "t",
+       [
+        "Satellite / mission",
+        "Organisation / country",
+        "Notes"
+       ],
+       [
+        [
+         "**EOS-05**",
+         "ISRO",
+         "Earth-observation satellite launched on 4 September 2026 using GSLV-F17."
+        ],
+        [
+         "**MOI-1A**",
+         "TakeMe2Space, India",
+         "India's first orbital computing satellite; performs AI-based data processing in space."
+        ],
+        [
+         "**Pathfinder**",
+         "Pixxel and Sarvam, India",
+         "India's first orbital data-centre satellite; announced on 4 May 2026."
+        ],
+        [
+         "**BlueBird Block-2**",
+         "AST SpaceMobile, USA",
+         "Communication satellite launched by ISRO's LVM3-M6 on 24 December 2025."
+        ],
+        [
+         "**BlueBird 1–5**",
+         "AST SpaceMobile",
+         "Five satellites launched in September 2024; part of a direct-to-smartphone connectivity constellation."
+        ],
+        [
+         "**SOLAR-1**",
+         "NOAA, USA",
+         "First US satellite designed exclusively for continuous operational space-weather observations."
+        ],
+        [
+         "**SWFO-L1**",
+         "NOAA, USA",
+         "Earlier name of SOLAR-1: Space Weather Follow-On–Lagrange 1."
+        ],
+        [
+         "**MMX**",
+         "JAXA, Japan",
+         "Martian Moons eXploration mission; launched on 20 October 2026."
+        ],
+        [
+         "**Aditya-L1**",
+         "ISRO",
+         "Solar-observation mission; more than 37 terabytes of scientific data made public by October 2026."
+        ],
+        [
+         "**Sputnik-1**",
+         "Soviet Union",
+         "First artificial satellite; launched on 4 October 1957."
+        ],
+        [
+         "**Artemis II / Orion**",
+         "NASA, USA",
+         "Crewed lunar-flyby mission; the spacecraft was named Integrity by its crew."
+        ],
+        [
+         "**Chandrayaan-3**",
+         "ISRO",
+         "Vikram lander conducted a controlled hop experiment on the lunar surface."
+        ]
+       ],
+       "CA #17"
+      ],
+      [
+       "b",
+       "**Autonomous satellite docking:** SpaDeX.",
+       "CA #17"
+      ]
+     ]
+    },
+    {
+     "t": "EOS-05: Earth-observation satellite",
+     "items": [
+      [
+       "t",
+       [
+        "Parameter",
+        "Notes"
+       ],
+       [
+        [
+         "**Satellite**",
+         "EOS-05"
+        ],
+        [
+         "**Type**",
+         "Earth-observation satellite"
+        ],
+        [
+         "**Launch date**",
+         "4 September 2026"
+        ],
+        [
+         "**Launch vehicle**",
+         "GSLV-F17"
+        ],
+        [
+         "**Launch centre**",
+         "Satish Dhawan Space Centre, Sriharikota"
+        ],
+        [
+         "**Orbit**",
+         "Geosynchronous orbit"
+        ],
+        [
+         "**Engine for orbit-raising**",
+         "Liquid Apogee Motor"
+        ],
+        [
+         "**Launch organisation**",
+         "ISRO"
+        ]
+       ],
+       "CA #17"
+      ],
+      [
+       "x",
+       "**EOS-05** is identified as India's first satellite to carry out imaging from a geosynchronous orbit.",
+       "CA #17"
+      ]
+     ]
+    },
+    {
+     "t": "MOI-1A and Pathfinder: computing in orbit",
+     "items": [
+      [
+       "h",
+       "MOI-1A: India's orbital computing satellite"
+      ],
+      [
+       "t",
+       [
+        "Parameter",
+        "Notes"
+       ],
+       [
+        [
+         "**Satellite**",
+         "MOI-1A"
+        ],
+        [
+         "**Developer**",
+         "TakeMe2Space"
+        ],
+        [
+         "**Country**",
+         "India"
+        ],
+        [
+         "**Category**",
+         "Orbital computing satellite (first Indian orbital computing satellite)"
+        ],
+        [
+         "**Principal application**",
+         "AI-based data processing in space"
+        ],
+        [
+         "**Reference date**",
+         "2 October 2026"
+        ]
+       ],
+       "CA #17"
+      ],
+      [
+       "h",
+       "Pathfinder: India's first orbital data-centre satellite"
+      ],
+      [
+       "t",
+       [
+        "Parameter",
+        "Notes"
+       ],
+       [
+        [
+         "**Satellite**",
+         "Pathfinder"
+        ],
+        [
+         "**Announced**",
+         "4 May 2026"
+        ],
+        [
+         "**Indian company**",
+         "Pixxel"
+        ],
+        [
+         "**AI partner**",
+         "Sarvam (Pathfinder partnership: Pixxel and Sarvam)"
+        ],
+        [
+         "**Category**",
+         "Orbital data-centre satellite (first Indian orbital data-centre satellite)"
+        ],
+        [
+         "**Main purpose**",
+         "Run AI models and process data in orbit"
+        ],
+        [
+         "**Payload**",
+         "Hyperspectral imaging payload"
+        ],
+        [
+         "**Demonstrator type**",
+         "Single-satellite demonstrator"
+        ],
+        [
+         "**Production facility**",
+         "Gigapixxel, Pixxel's upcoming facility"
+        ]
+       ],
+       "CA #17"
+      ],
+      [
+       "h",
+       "Orbital data centre"
+      ],
+      [
+       "b",
+       "**Orbital data centre:** a space-based computing system in which satellites carry high-performance processors such as data-centre-class GPUs.",
+       "CA #17"
+      ],
+      [
+       "b",
+       "**In orbit:** AI models can run directly in orbit, and data can be processed closer to where it is generated.",
+       "CA #17"
+      ],
+      [
+       "b",
+       "**Benefit:** reduces dependence on transmitting large volumes of raw satellite data to ground-based data centres.",
+       "CA #17"
+      ],
+      [
+       "b",
+       "**Similar concept:** edge computing.",
+       "CA #17"
+      ]
+     ]
+    },
+    {
+     "t": "BlueBird Block-2 and the LVM3-M6 mission",
+     "items": [
+      [
+       "t",
+       [
+        "Parameter",
+        "Notes"
+       ],
+       [
+        [
+         "**Satellite**",
+         "BlueBird Block-2"
+        ],
+        [
+         "**Company**",
+         "AST SpaceMobile"
+        ],
+        [
+         "**Country**",
+         "USA"
+        ],
+        [
+         "**Launch date**",
+         "24 December 2025"
+        ],
+        [
+         "**Launch vehicle**",
+         "LVM3-M6"
+        ],
+        [
+         "**Launch agency**",
+         "ISRO"
+        ],
+        [
+         "**Satellite category**",
+         "Commercial communication satellite"
+        ],
+        [
+         "**Orbit**",
+         "Low Earth Orbit"
+        ],
+        [
+         "**Payload mass**",
+         "6,100 kg"
+        ],
+        [
+         "**Phased-array area**",
+         "223 m²"
+        ],
+        [
+         "**Main application**",
+         "Direct-to-smartphone connectivity"
+        ]
+       ],
+       "CA #17"
+      ],
+      [
+       "h",
+       "LVM3-M6 mission milestones"
+      ],
+      [
+       "t",
+       [
+        "Fact",
+        "Note"
+       ],
+       [
+        [
+         "**Launch date**",
+         "24 December 2025"
+        ],
+        [
+         "**Payload**",
+         "BlueBird Block-2"
+        ],
+        [
+         "**Payload mass**",
+         "6,100 kg"
+        ],
+        [
+         "**Launch number from Sriharikota**",
+         "104th"
+        ],
+        [
+         "**Successful LVM3 mission number**",
+         "Ninth"
+        ],
+        [
+         "**Dedicated commercial mission number**",
+         "Third"
+        ]
+       ],
+       "CA #17"
+      ],
+      [
+       "h",
+       "AST SpaceMobile's BlueBird constellation"
+      ],
+      [
+       "b",
+       "**BlueBird 1–5:** launched in September 2024.",
+       "CA #17"
+      ],
+      [
+       "b",
+       "**Aim of the constellation:** cellular broadband connectivity directly to smartphones.",
+       "CA #17"
+      ],
+      [
+       "b",
+       "**Intended services:** 4G and 5G voice and video calls, text messaging, streaming and data.",
+       "CA #17"
+      ]
+     ]
+    },
+    {
+     "t": "SOLAR-1: space-weather satellite",
+     "items": [
+      [
+       "t",
+       [
+        "Parameter",
+        "Notes"
+       ],
+       [
+        [
+         "**Current name**",
+         "SOLAR-1"
+        ],
+        [
+         "**Previous name**",
+         "SWFO-L1 (Space Weather Follow-On–Lagrange 1)"
+        ],
+        [
+         "**Full form**",
+         "Space Weather Observations at L1 to Advance Readiness–1"
+        ],
+        [
+         "**Operator**",
+         "NOAA"
+        ],
+        [
+         "**Country**",
+         "United States"
+        ],
+        [
+         "**Launch date**",
+         "24 September 2025"
+        ],
+        [
+         "**Launch vehicle**",
+         "SpaceX Falcon 9"
+        ],
+        [
+         "**Launch site**",
+         "Kennedy Space Center, Florida"
+        ],
+        [
+         "**Orbit**",
+         "Sun–Earth Lagrange Point 1 (L1)"
+        ],
+        [
+         "**Operational date**",
+         "10 June 2026"
+        ]
+       ],
+       "CA #17"
+      ],
+      [
+       "h",
+       "Purpose"
+      ],
+      [
+       "b",
+       "**Monitoring:** continuous monitoring of space weather.",
+       "CA #17"
+      ],
+      [
+       "b",
+       "**Observation:** solar activity and its effects on the space environment.",
+       "CA #17"
+      ],
+      [
+       "b",
+       "**Early warning:** of solar events that may affect technological infrastructure and space missions.",
+       "CA #17"
+      ],
+      [
+       "b",
+       "**Data:** transmitted to NOAA's Space Weather Prediction Center (SWPC), which uses it to issue forecasts, watches, warnings and alerts.",
+       "CA #17"
+      ]
+     ]
+    },
+    {
+     "t": "MMX: Martian Moons eXploration mission",
+     "items": [
+      [
+       "t",
+       [
+        "Parameter",
+        "Notes"
+       ],
+       [
+        [
+         "**Mission**",
+         "Martian Moons eXploration (MMX)"
+        ],
+        [
+         "**Agency**",
+         "JAXA"
+        ],
+        [
+         "**Launch date**",
+         "20 October 2026"
+        ],
+        [
+         "**Launch vehicle**",
+         "H3 Flight No. 10"
+        ],
+        [
+         "**Launch site**",
+         "Tanegashima Space Center, Japan"
+        ],
+        [
+         "**Target**",
+         "Phobos and Deimos (target moons)"
+        ],
+        [
+         "**Planned duration**",
+         "Approximately five years"
+        ],
+        [
+         "**Expected arrival at Mars**",
+         "2027"
+        ],
+        [
+         "**Expected sample return**",
+         "2031"
+        ],
+        [
+         "**Sample objective**",
+         "At least 10 grams from Phobos (sample-return target)"
+        ],
+        [
+         "**Mission objective**",
+         "First sample return from the Martian system"
+        ]
+       ],
+       "CA #17"
+      ],
+      [
+       "h",
+       "Technical features"
+      ],
+      [
+       "b",
+       "**Modules:** three spacecraft modules: propulsion, exploration and return.",
+       "CA #17"
+      ],
+      [
+       "b",
+       "**Power and propulsion:** solar panels provide electricity; chemical propulsion is used for manoeuvres.",
+       "CA #17"
+      ],
+      [
+       "b",
+       "**Orbit:** the spacecraft will use a quasi-satellite orbit around Mars near Phobos.",
+       "CA #17"
+      ],
+      [
+       "b",
+       "**Instruments:** it carries 13 mission instruments.",
+       "CA #17"
+      ],
+      [
+       "t",
+       [
+        "Instrument",
+        "Function"
+       ],
+       [
+        [
+         "**TENGOO**",
+         "Provides approximately 40 cm imaging resolution"
+        ],
+        [
+         "**OROCHI**",
+         "Captures images at multiple wavelengths"
+        ],
+        [
+         "**LIDAR**",
+         "Measures surface distance using laser pulses"
+        ]
+       ],
+       "CA #17"
+      ]
+     ]
+    },
+    {
+     "t": "GAGAN and NavIC",
+     "items": [
+      [
+       "h",
+       "GAGAN: satellite-based navigation and augmentation system"
+      ],
+      [
+       "t",
+       [
+        "Parameter",
+        "Notes"
+       ],
+       [
+        [
+         "**Full form**",
+         "GPS Aided GEO Augmented Navigation"
+        ],
+        [
+         "**Developed by**",
+         "ISRO and Airports Authority of India (AAI)"
+        ],
+        [
+         "**Type**",
+         "Satellite-Based Augmentation System (SBAS)"
+        ],
+        [
+         "**Main purpose**",
+         "Improve GPS accuracy and integrity"
+        ],
+        [
+         "**Major application**",
+         "Aircraft navigation and landing"
+        ],
+        [
+         "**Satellite type**",
+         "Geostationary satellites"
+        ],
+        [
+         "**Geostationary satellites**",
+         "3"
+        ],
+        [
+         "**Reference stations**",
+         "15"
+        ],
+        [
+         "**Master control centres**",
+         "2"
+        ],
+        [
+         "**Land uplink stations**",
+         "3"
+        ]
+       ],
+       "CA #17"
+      ],
+      [
+       "h",
+       "First satellite-based landing demonstration"
+      ],
+      [
+       "b",
+       "**Late June 2026:** DGCA supervised India's first Satellite-Based Landing System approach by a commercial jet using GAGAN.",
+       "CA #17"
+      ],
+      [
+       "b",
+       "**Aircraft:** IndiGo Airbus A321.",
+       "CA #17"
+      ],
+      [
+       "b",
+       "**Guidance:** the demonstration used satellite-derived guidance instead of a conventional Instrument Landing System (ILS).",
+       "CA #17"
+      ],
+      [
+       "h",
+       "GAGAN vs NavIC"
+      ],
+      [
+       "t",
+       [
+        "Feature",
+        "GAGAN",
+        "NavIC"
+       ],
+       [
+        [
+         "**Full form**",
+         "GPS Aided GEO Augmented Navigation",
+         "Navigation with Indian Constellation"
+        ],
+        [
+         "**Nature**",
+         "Satellite-Based Augmentation System",
+         "Regional Navigation Satellite System"
+        ],
+        [
+         "**Main purpose**",
+         "Augments GPS signals",
+         "Provides positioning, navigation and timing"
+        ],
+        [
+         "**Main application**",
+         "Precise aircraft navigation and landing",
+         "Regional navigation services"
+        ],
+        [
+         "**Developed by**",
+         "ISRO and AAI",
+         "ISRO"
+        ]
+       ],
+       "CA #17"
+      ]
+     ]
+    },
+    {
+     "t": "India's first indigenous commercial EO constellation",
+     "items": [
+      [
+       "t",
+       [
+        "Parameter",
+        "Notes"
+       ],
+       [
+        [
+         "**Programme**",
+         "Earth Observation Public-Private Partnership (EO-PPP)"
+        ],
+        [
+         "**Agreement date**",
+         "21 January 2026"
+        ],
+        [
+         "**Agency**",
+         "IN-SPACe"
+        ],
+        [
+         "**Consortium**",
+         "Pixxel-led Allied Orbits"
+        ],
+        [
+         "**Lead company**",
+         "Pixxel Space India"
+        ],
+        [
+         "**Planned investment**",
+         "More than ₹1,200 crore"
+        ],
+        [
+         "**Investment period**",
+         "Five years from January 2026"
+        ],
+        [
+         "**Number of satellites**",
+         "12"
+        ],
+        [
+         "**Planned operationalisation**",
+         "By 2029 (target year)"
+        ],
+        [
+         "**Announcement / official statement**",
+         "12 August 2026"
+        ]
+       ],
+       "CA #17"
+      ],
+      [
+       "h",
+       "Satellite sensor technologies"
+      ],
+      [
+       "t",
+       [
+        "Sensor / data type",
+        "Application"
+       ],
+       [
+        [
+         "**Panchromatic**",
+         "High-resolution black-and-white imaging"
+        ],
+        [
+         "**Multispectral**",
+         "Captures data across selected spectral bands"
+        ],
+        [
+         "**Hyperspectral**",
+         "Captures detailed information across many narrow spectral bands"
+        ],
+        [
+         "**Microwave SAR**",
+         "Radar-based imaging, including in cloud-covered conditions"
+        ]
+       ],
+       "CA #17"
+      ],
+      [
+       "h",
+       "Major applications"
+      ],
+      [
+       "b",
+       "**Climate and disasters:** climate-change monitoring; disaster management.",
+       "CA #17"
+      ],
+      [
+       "b",
+       "**Agriculture and infrastructure:** agriculture and crop monitoring; infrastructure planning.",
+       "CA #17"
+      ],
+      [
+       "b",
+       "**Services:** geospatial services; governance and public-service delivery.",
+       "CA #17"
+      ]
+     ]
+    },
+    {
+     "t": "Satellite imagery in agriculture",
+     "items": [
+      [
+       "t",
+       [
+        "Model",
+        "Full form",
+        "Function"
+       ],
+       [
+        [
+         "**ALU**",
+         "Agricultural Landscape Understanding",
+         "Maps field boundaries, trees, woodlands, wells and small irrigation structures"
+        ],
+        [
+         "**AMED**",
+         "Agricultural Monitoring and Event Detection",
+         "Tracks crop activity, likely crops, sowing and harvesting periods"
+        ]
+       ],
+       "CA #17"
+      ],
+      [
+       "b",
+       "**Applications:** agricultural landscape mapping, crop monitoring, agricultural credit, water management, policy planning and sustainable rice cultivation.",
+       "CA #17"
+      ]
+     ]
+    },
+    {
+     "t": "Satellite-related international cooperation and defence",
+     "items": [
+      [
+       "t",
+       [
+        "Initiative / agreement",
+        "Countries / organisations",
+        "Notes"
+       ],
+       [
+        [
+         "**India–Japan defence cooperation**",
+         "India and Japan",
+         "Satellite-based maritime awareness; JAIMEX 25 and naval cooperation."
+        ],
+        [
+         "**US–Denmark–Greenland Arctic Defence Agreement**",
+         "USA, Denmark and Greenland",
+         "Pituffik Space Base supports satellite tracking and space surveillance."
+        ],
+        [
+         "**G20 Open Satellite Data Partnership**",
+         "Proposed by India",
+         "Proposed initiative for global data cooperation."
+        ],
+        [
+         "**India–EU cooperation**",
+         "India and EU",
+         "Space and technology cooperation mentioned in broader strategic engagement."
+        ],
+        [
+         "**MMX**",
+         "Japan, France, Germany and USA",
+         "Martian-moon exploration and sample-return collaboration."
+        ],
+        [
+         "**LUPEX / Chandrayaan-5**",
+         "India and Japan",
+         "Lunar polar exploration mission."
+        ],
+        [
+         "**SMILE**",
+         "Chinese Academy of Sciences and ESA",
+         "Joint space mission."
+        ],
+        [
+         "**BlueBird Block-2**",
+         "AST SpaceMobile and ISRO",
+         "Commercial satellite launched using Indian launch vehicle LVM3."
+        ]
+       ],
+       "CA #17"
+      ]
+     ]
+    },
+    {
+     "t": "Satellite tagging and wildlife ambassadors",
+     "items": [
+      [
+       "h",
+       "India's first satellite-tagged Ganges soft-shell turtle"
+      ],
+      [
+       "t",
+       [
+        "Parameter",
+        "Notes"
+       ],
+       [
+        [
+         "**Species**",
+         "Ganges soft-shell turtle"
+        ],
+        [
+         "**Scientific name**",
+         "Nilssonia gangetica"
+        ],
+        [
+         "**Location**",
+         "Kaziranga National Park and Tiger Reserve"
+        ],
+        [
+         "**State**",
+         "Assam"
+        ],
+        [
+         "**Release date**",
+         "15 May 2026"
+        ],
+        [
+         "**Protected area size**",
+         "1,302 sq. km"
+        ],
+        [
+         "**Conservation status under Indian law**",
+         "Schedule I under the Wildlife (Protection) Act, 1972"
+        ],
+        [
+         "**Special distinction**",
+         "India's first satellite-tagged Ganges soft-shell turtle"
+        ]
+       ],
+       "CA #17"
+      ],
+      [
+       "h",
+       "Conservation / wildlife ambassador initiative"
+      ],
+      [
+       "b",
+       "**Vanjeevi Didi:** Palamu Tiger Reserve, Jharkhand; educated women in 17 identified villages were to be trained as ambassadors of the Tiger Reserve.",
+       "CA #17"
+      ]
+     ]
+    },
+    {
+     "t": "Ambassadors and representatives",
+     "items": [
+      [
+       "t",
+       [
+        "Ambassador / representative",
+        "Country / organisation"
+       ],
+       [
+        [
+         "**Sudhakar Dalela**",
+         "Nepal"
+        ],
+        [
+         "**Ajay A. Kumar**",
+         "Iraq"
+        ],
+        [
+         "**Hansraj Singh Verma**",
+         "Cuba"
+        ],
+        [
+         "**Sanjeev Jain**",
+         "North Korea"
+        ],
+        [
+         "**K. Srikar Reddy**",
+         "Qatar"
+        ],
+        [
+         "**Anjani Kumar**",
+         "Ukraine"
+        ],
+        [
+         "**Vikram K. Doraiswami**",
+         "China"
+        ],
+        [
+         "**Periasamy Kumaran**",
+         "United Kingdom — High Commissioner"
+        ],
+        [
+         "**Vishal V. Sharma**",
+         "UNESCO — Permanent Delegate"
+        ],
+        [
+         "**Mahendra Singh Dhoni**",
+         "BHIM Payments App"
+        ],
+        [
+         "**Sudarsan Pattnaik**",
+         "Census 2027"
+        ],
+        [
+         "**Carlos Alcaraz**",
+         "Infosys"
+        ],
+        [
+         "**Leander Paes**",
+         "Asian Tennis Federation"
+        ],
+        [
+         "**Vanjeevi Didi participants**",
+         "Palamu Tiger Reserve"
+        ]
+       ],
+       "CA #17"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": 18,
+   "unit": 11,
+   "title": "DRDO: missiles, glide weapon, GaN chips and engines",
+   "parts": [
+    {
+     "t": "DRDO missiles and missile systems at a glance",
+     "items": [
+      [
+       "t",
+       [
+        "Missile / system",
+        "DRDO-related information",
+        "Date / location / range"
+       ],
+       [
+        [
+         "**Kusha Missile**",
+         "Long-range surface-to-air air-defence missile system; DRDO successfully tested it for the first time.",
+         "23 July 2026; APJ Abdul Kalam Island, Odisha"
+        ],
+        [
+         "**Pinaka Long Range Guided Rocket (LRGR)**",
+         "DRDO conducted a successful flight test of the long-range guided rocket.",
+         "8 July 2026; Integrated Test Range (ITR), Chandipur"
+        ],
+        [
+         "**Pinaka Guided Rocket**",
+         "Minimum strike range of the tested rocket.",
+         "60 km"
+        ],
+        [
+         "**RudraM-II**",
+         "Air-to-surface missile; flight-tested jointly by DRDO and the Indian Air Force.",
+         "2 June 2026"
+        ],
+        [
+         "**Agni-III**",
+         "Intermediate-range ballistic missile developed by DRDO; successfully test-fired.",
+         "6 February 2026; ITR, Chandipur, Odisha"
+        ],
+        [
+         "**Dhvani**",
+         "DRDO is developing a hypersonic missile system described as a Hypersonic Glide Vehicle (HGV).",
+         ""
+        ],
+        [
+         "**SFDR**",
+         "Solid Fuel Ducted Ramjet technology successfully demonstrated by DRDO.",
+         "3 February 2026; ITR, Chandipur, Odisha"
+        ]
+       ],
+       "CA #18"
+      ]
+     ]
+    },
+    {
+     "t": "Kusha, Pinaka LRGR and RudraM-II",
+     "items": [
+      [
+       "h",
+       "Kusha Missile"
+      ],
+      [
+       "b",
+       "**Type:** long-range surface-to-air missile; purpose: air defence.",
+       "CA #18"
+      ],
+      [
+       "b",
+       "**Test:** 23 July 2026 at APJ Abdul Kalam Island, Odisha; organisation: DRDO.",
+       "CA #18"
+      ],
+      [
+       "h",
+       "Pinaka Long Range Guided Rocket"
+      ],
+      [
+       "b",
+       "**Test:** 8 July 2026 at the Integrated Test Range, Chandipur; organisation: DRDO.",
+       "CA #18"
+      ],
+      [
+       "b",
+       "**Minimum strike range mentioned:** 60 km.",
+       "CA #18"
+      ],
+      [
+       "h",
+       "RudraM-II"
+      ],
+      [
+       "b",
+       "**Type:** air-to-surface missile.",
+       "CA #18"
+      ],
+      [
+       "b",
+       "**Developed / flight-tested by:** DRDO and Indian Air Force; flight-test date: 2 June 2026.",
+       "CA #18"
+      ]
+     ]
+    },
+    {
+     "t": "Agni-III, Dhvani and SFDR",
+     "items": [
+      [
+       "h",
+       "Agni-III"
+      ],
+      [
+       "t",
+       [
+        "Particular",
+        "Notes"
+       ],
+       [
+        [
+         "**Type**",
+         "Intermediate-range ballistic missile (IRBM)"
+        ],
+        [
+         "**Developer**",
+         "DRDO"
+        ],
+        [
+         "**Test date**",
+         "6 February 2026"
+        ],
+        [
+         "**Location**",
+         "Integrated Test Range, Chandipur, Odisha"
+        ],
+        [
+         "**Range**",
+         "3,000–3,500 km in one MCQ; another passage describes a range of more than 3,000 km"
+        ],
+        [
+         "**Payload capacity mentioned**",
+         "1.5 tonnes"
+        ],
+        [
+         "**Propulsion**",
+         "Two-stage, solid-fuelled"
+        ]
+       ],
+       "CA #18"
+      ],
+      [
+       "h",
+       "Dhvani"
+      ],
+      [
+       "t",
+       [
+        "Particular",
+        "Notes"
+       ],
+       [
+        [
+         "**Developer**",
+         "DRDO"
+        ],
+        [
+         "**Type**",
+         "Hypersonic Glide Vehicle (HGV)"
+        ],
+        [
+         "**Speed**",
+         "Greater than Mach 5"
+        ],
+        [
+         "**Potential operational range mentioned**",
+         "6,000–10,000 km"
+        ],
+        [
+         "**Capability**",
+         "High-speed manoeuvres and changes in direction at high altitudes"
+        ]
+       ],
+       "CA #18"
+      ],
+      [
+       "h",
+       "SFDR — Solid Fuel Ducted Ramjet"
+      ],
+      [
+       "b",
+       "**Demonstrated by:** DRDO, on 3 February 2026, at the Integrated Test Range, Chandipur, Odisha.",
+       "CA #18"
+      ]
+     ]
+    },
+    {
+     "t": "TARA: indigenous glide weapon",
+     "items": [
+      [
+       "t",
+       [
+        "Particular",
+        "Notes"
+       ],
+       [
+        [
+         "**Full form**",
+         "Tactical Advanced Range Augmentation"
+        ],
+        [
+         "**System**",
+         "Indigenous glide weapon / modular range-extension kit"
+        ],
+        [
+         "**Trial date**",
+         "7 May 2026"
+        ],
+        [
+         "**Trial location**",
+         "Off the coast of Odisha"
+        ],
+        [
+         "**Organisations**",
+         "DRDO and Indian Air Force (trial conducted jointly)"
+        ],
+        [
+         "**Main development agency**",
+         "Research Centre Imarat (RCI), Hyderabad, along with other DRDO laboratories"
+        ]
+       ],
+       "CA #18"
+      ],
+      [
+       "x",
+       "**TARA** is India's first indigenous glide weapon system.",
+       "CA #18"
+      ],
+      [
+       "b",
+       "**Purpose:** designed to convert unguided warheads into precision-guided weapons.",
+       "CA #18"
+      ],
+      [
+       "b",
+       "**Value:** improves the combat value of low-cost aerial weapons.",
+       "CA #18"
+      ],
+      [
+       "b",
+       "**Design:** designed and developed by Research Centre Imarat, Hyderabad, with other DRDO laboratories.",
+       "CA #18"
+      ]
+     ]
+    },
+    {
+     "t": "Indigenous semiconductor and Gallium Nitride technology",
+     "items": [
+      [
+       "t",
+       [
+        "Particular",
+        "Notes"
+       ],
+       [
+        [
+         "**Technology**",
+         "Gallium Nitride (GaN)"
+        ],
+        [
+         "**Application**",
+         "High-frequency and high-power electronics"
+        ],
+        [
+         "**DRDO laboratory**",
+         "Solid State Physics Laboratory (SSPL)"
+        ],
+        [
+         "**Chip dimensions**",
+         "3.5 × 3 mm"
+        ],
+        [
+         "**Power mentioned**",
+         "Up to 30 watts"
+        ],
+        [
+         "**SiC wafer**",
+         "4-inch Silicon Carbide wafers"
+        ],
+        [
+         "**GaN HEMT capability**",
+         "Up to 150 watts"
+        ],
+        [
+         "**MMIC capability**",
+         "Up to 40 watts"
+        ],
+        [
+         "**Frequency application**",
+         "Up to X-band"
+        ],
+        [
+         "**Production location**",
+         "GAETEC, Hyderabad"
+        ]
+       ],
+       "CA #18"
+      ],
+      [
+       "h",
+       "Institutional and industry linkages"
+      ],
+      [
+       "b",
+       "**13 May 2026:** SAMEER and ISRO's ISTRAC agreed to develop X-band deep-space communication amplifiers using indigenous GaN chips from GAETEC, DRDO.",
+       "CA #18"
+      ],
+      [
+       "b",
+       "**SSPL:** developed indigenous processes for manufacturing 4-inch Silicon Carbide wafers; fabricated GaN HEMTs and MMICs.",
+       "CA #18"
+      ],
+      [
+       "b",
+       "**GAETEC, Hyderabad:** limited production capability for indigenous GaN-on-SiC MMICs was established here.",
+       "CA #18"
+      ],
+      [
+       "b",
+       "**iDEX (Innovations for Defence Excellence):** a contract was signed with Agnit Semiconductors Private Limited to develop advanced GaN semiconductors for next-generation defence wireless transmitters.",
+       "CA #18"
+      ],
+      [
+       "h",
+       "Applications of GaN technology"
+      ],
+      [
+       "b",
+       "**Defence systems:** radar systems, electronic warfare systems, communication systems, and radar transmitters and electronic warfare jammers.",
+       "CA #18"
+      ],
+      [
+       "b",
+       "**Other uses:** intelligence, surveillance and reconnaissance (ISR); unmanned systems; space, aerospace, 5G and satellite communications.",
+       "CA #18"
+      ]
+     ]
+    },
+    {
+     "t": "Indigenous 350 kg-thrust-class expendable turbojet engine",
+     "items": [
+      [
+       "t",
+       [
+        "Particular",
+        "Notes"
+       ],
+       [
+        [
+         "**Engine**",
+         "Expendable Turbojet Engine"
+        ],
+        [
+         "**Thrust class**",
+         "350 kg"
+        ],
+        [
+         "**Design organisation**",
+         "Gas Turbine Research Establishment (GTRE), DRDO"
+        ],
+        [
+         "**Industry partner**",
+         "Azad Engineering, Hyderabad (manufacturing and assembly)"
+        ],
+        [
+         "**Delivery date**",
+         "22 July 2026"
+        ],
+        [
+         "**Recipient**",
+         "GTRE"
+        ]
+       ],
+       "CA #18"
+      ],
+      [
+       "b",
+       "**Delivery:** the engine was successfully realised and delivered to GTRE on 22 July 2026.",
+       "CA #18"
+      ],
+      [
+       "b",
+       "**Significance:** described as a step towards reducing dependence on imported compact propulsion systems, subject to successful testing and production approval.",
+       "CA #18"
+      ]
+     ]
+    },
+    {
+     "t": "DRDO laboratories and their technologies",
+     "items": [
+      [
+       "t",
+       [
+        "Laboratory / institution",
+        "Technology / role mentioned"
+       ],
+       [
+        [
+         "**Research Centre Imarat (RCI), Hyderabad**",
+         "Designed and developed TARA with other DRDO laboratories"
+        ],
+        [
+         "**Solid State Physics Laboratory (SSPL)**",
+         "Indigenous SiC wafer processes, GaN HEMTs and MMICs"
+        ],
+        [
+         "**Gas Turbine Research Establishment (GTRE)**",
+         "Indigenous 350 kg-thrust-class expendable turbojet engine"
+        ],
+        [
+         "**GAETEC, Hyderabad**",
+         "Limited production capability for indigenous GaN-on-SiC MMICs"
+        ],
+        [
+         "**Other DRDO laboratories**",
+         "Participated in TARA development"
+        ]
+       ],
+       "CA #18"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": 19,
+   "unit": 6,
+   "title": "Government apps and digital applications in news",
+   "parts": [
+    {
+     "t": "Panchayati Raj and Census applications",
+     "items": [
+      [
+       "t",
+       [
+        "App / platform",
+        "Ministry / organisation",
+        "Notes"
+       ],
+       [
+        [
+         "**DAANVEER**",
+         "Ministry of Panchayati Raj, NIC and DigiHaat",
+         "Enables citizens and organisations to donate verified digital-equipment bundles directly to eligible Gram Panchayats."
+        ],
+        [
+         "**Meri Panchayat App**",
+         "Ministry of Panchayati Raj",
+         "Access to Panchayat finances, plans, development works, public assets, participation and grievance-redressal tools. Integrated with DigiHaat for DAANVEER."
+        ],
+        [
+         "**eGramSwaraj**",
+         "Ministry of Panchayati Raj",
+         "Facilitates Panchayat planning, budgeting, accounting, progress reporting, asset management and online payments."
+        ],
+        [
+         "**SabhaSaar**",
+         "Ministry of Panchayati Raj",
+         "Uses AI to convert recordings of Gram Sabha and Panchayat meetings into structured, reviewable minutes."
+        ],
+        [
+         "**Gram Manchitra**",
+         "Ministry of Panchayati Raj",
+         "Uses GIS for spatial planning and decision support in preparing and implementing Gram Panchayat Development Plans."
+        ],
+        [
+         "**Census Enumerator Mobile Application**",
+         "Census administration",
+         "Census 2027 will use enumerator mobile applications on Android and iOS for digital data collection while retaining house-to-house visits."
+        ],
+        [
+         "**Self-enumeration facility**",
+         "Census administration",
+         "Allows households to submit information online before an enumerator's visit. The generated Self-Enumeration ID helps confirm submitted information."
+        ]
+       ],
+       "CA #19"
+      ]
+     ]
+    },
+    {
+     "t": "DAANVEER",
+     "items": [
+      [
+       "b",
+       "**Launch:** 29 July 2026 at Krishi Bhawan, New Delhi, by Ministry of Panchayati Raj Secretary Vivek Bharadwaj.",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**Tagline:** “Give Back to Your Village.”",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**Nature:** voluntary citizen-participation platform.",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**How it works:** donors can select pre-approved computer bundles through DigiHaat; bundles are mapped to State-specific technical specifications.",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**Aim:** designed to bridge the digital infrastructure gap in Gram Panchayats and strengthen local institutions.",
+       "CA #19"
+      ]
+     ]
+    },
+    {
+     "t": "Aarogya Setu 2.0",
+     "items": [
+      [
+       "t",
+       [
+        "Parameter",
+        "Notes"
+       ],
+       [
+        [
+         "**App**",
+         "Aarogya Setu 2.0"
+        ],
+        [
+         "**Launched by**",
+         "Union Health Minister Jagat Prakash Nadda"
+        ],
+        [
+         "**Date**",
+         "29 June 2026"
+        ],
+        [
+         "**Venue**",
+         "Vigyan Bhawan, New Delhi"
+        ],
+        [
+         "**Institutional framework**",
+         "Ayushman Bharat Digital Mission (ABDM)"
+        ],
+        [
+         "**Purpose**",
+         "Citizen-facing digital health platform and Personal Health Record (PHR) application"
+        ]
+       ],
+       "CA #19"
+      ],
+      [
+       "h",
+       "Original Aarogya Setu"
+      ],
+      [
+       "b",
+       "**Origin:** developed by the Government of India during the COVID-19 pandemic.",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**Use:** contact tracing, risk awareness and citizen engagement; a national digital public good.",
+       "CA #19"
+      ],
+      [
+       "h",
+       "Aarogya Setu 2.0 – features"
+      ],
+      [
+       "b",
+       "**Gateway:** single digital gateway for accessing health services.",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**Records:** personal health records for individuals and families; health-record management.",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**ABDM:** access to ABDM-enabled services; ABHA creation.",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**Scan and Register:** facility for hospital registration.",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**AI:** AI-assisted digitisation of medical records, including laboratory reports.",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**PM-JAY Wallet:** shows total healthcare coverage, amount used and family-wise consumption.",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**Hospital search:** search for PM-JAY empanelled hospitals offering cashless treatment.",
+       "CA #19"
+      ]
+     ]
+    },
+    {
+     "t": "Health applications launched alongside Aarogya Setu 2.0",
+     "items": [
+      [
+       "t",
+       [
+        "Application / initiative",
+        "Main function"
+       ],
+       [
+        [
+         "**Ayushman App**",
+         "One-stop platform for AB PM-JAY beneficiaries: eligibility verification, Ayushman Card services, treatment history, hospital discovery, grievance redressal and beneficiary support."
+        ],
+        [
+         "**National Health Claims Exchange (NHCX)**",
+         "Standardised exchange of health-claim information between hospitals and payers under public and private insurance programmes; facilitates faster claim processing."
+        ],
+        [
+         "**Ayushman Sarathi WhatsApp Chatbot**",
+         "Provides PM-JAY services through a conversational WhatsApp interface and strengthens last-mile service delivery."
+        ],
+        [
+         "**e-Sushrut Clinic**",
+         "Plug-and-play clinic-management solution for digitising clinical workflows, maintaining electronic health records and connecting clinics with ABDM."
+        ],
+        [
+         "**Unified Health Interface (UHI)**",
+         "Open, interoperable framework through which digital applications connect citizens with healthcare service providers."
+        ],
+        [
+         "**Bharat Health Terminology Service (BHTS)**",
+         "Provides standard healthcare terminology, code systems and value sets so digital-health systems interpret information consistently."
+        ]
+       ],
+       "CA #19"
+      ]
+     ]
+    },
+    {
+     "t": "NHPR app, JANANI and Swasth Bharat Portal",
+     "items": [
+      [
+       "h",
+       "National Healthcare Providers Registry Mobile App"
+      ],
+      [
+       "t",
+       [
+        "Parameter",
+        "Notes"
+       ],
+       [
+        [
+         "**Name**",
+         "National Healthcare Providers Registry (NHPR) Mobile App"
+        ],
+        [
+         "**Associated institutions**",
+         "National Health Authority (NHA) and National Resource Centre for EHR Standards (NRCeS)"
+        ],
+        [
+         "**Launch context**",
+         "Aarogya Manthan 2026"
+        ],
+        [
+         "**Main purpose**",
+         "Brings Healthcare Professionals Registry (HPR) and Health Facility Registry (HFR) services onto a single mobile platform."
+        ]
+       ],
+       "CA #19"
+      ],
+      [
+       "h",
+       "JANANI Portal / Application"
+      ],
+      [
+       "b",
+       "**Full form:** Journey of Antenatal, Natal and Neonatal Integrated Care – Sehat ke Sath, Every Step of Care.",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**Launched by:** the Ministry of Health and Family Welfare.",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**Introduced at:** the National Summit on Innovation and Inclusivity – Best Practices Shaping India's Health Future.",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**Framework:** aligned with the Ayushman Bharat Digital Mission (ABDM) framework.",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**Data:** designed as a single source of truth for Reproductive, Maternal, Newborn, Child and Adolescent Health (RMNCH+A) data; captures real-time health data.",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**Approach:** follows a lifecycle approach covering pre-pregnancy, pregnancy, childbirth and childhood.",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**Use:** helps identify high-risk pregnancies and children with specific health conditions; facilitates timely healthcare interventions.",
+       "CA #19"
+      ],
+      [
+       "h",
+       "Swasth Bharat Portal"
+      ],
+      [
+       "b",
+       "**Swasth Bharat Portal:** one-stop integrated digital platform that brings multiple national health programmes onto a single digital interface.",
+       "CA #19"
+      ],
+      [
+       "b",
+       "**Context:** mentioned alongside JANANI and other digital health initiatives.",
+       "CA #19"
+      ]
+     ]
+    },
+    {
+     "t": "ADR-PvPI 2.0 Mobile App",
+     "items": [
+      [
+       "t",
+       [
+        "Parameter",
+        "Notes"
+       ],
+       [
+        [
+         "**Name**",
+         "ADR-PvPI 2.0 Mobile App"
+        ],
+        [
+         "**Platform**",
+         "iOS users"
+        ],
+        [
+         "**Launch date**",
+         "21 September 2026"
+        ],
+        [
+         "**Launched by**",
+         "Union Minister of State Anupriya Patel"
+        ],
+        [
+         "**Institution**",
+         "Indian Pharmacopoeia Commission (IPC)"
+        ],
+        [
+         "**Event**",
+         "6th National Pharmacovigilance Week"
+        ],
+        [
+         "**Related initiative**",
+         "Biovigilance Programme of India"
+        ]
+       ],
+       "CA #19"
+      ],
+      [
+       "b",
+       "**ADR-PvPI 2.0:** mobile app for iOS users, associated with pharmacovigilance and safety monitoring.",
+       "CA #19"
+      ]
+     ]
+    },
+    {
+     "t": "Banking and digital payment applications",
+     "items": [
+      [
+       "t",
+       [
+        "App / platform",
+        "Notes"
+       ],
+       [
+        [
+         "**BHIM Payments App**",
+         "Mahendra Singh Dhoni was appointed its brand ambassador in March 2026."
+        ],
+        [
+         "**BHIM App – Tatkal NPS**",
+         "Bank of Baroda onboarded Tatkal NPS on the BHIM App as part of the second-phase rollout, according to an announcement dated 1 October 2026."
+        ],
+        [
+         "**Indian UPI applications**",
+         "An agreement between NPCI International Payments Ltd. (NIPL) and Uzbekistan's National Interbank Processing Centre (NIPC) will enable Indian UPI applications to scan Uzbekistan's UZQR codes for merchant payments."
+        ],
+        [
+         "**UPI – Seychelles**",
+         "NPCI International Payments Limited and the Central Bank of Seychelles signed an MoU to implement India's Unified Payments Interface."
+        ],
+        [
+         "**UPI – Cyprus**",
+         "An interoperability framework was noted between India's UPI and the European Central Bank's Target Instant Payment Settlement (TIPS) system."
+        ]
+       ],
+       "CA #19"
+      ]
+     ]
+    },
+    {
+     "t": "Other app-based and digital applications",
+     "items": [
+      [
+       "t",
+       [
+        "Name / reference",
+        "Notes"
+       ],
+       [
+        [
+         "**Bharat Taxi**",
+         "India's first cooperative-led ride-hailing platform. Applies the “Driver is the Owner” principle to app-based transport."
+        ],
+        [
+         "**Bharat Taxi – services**",
+         "Offers cab, auto, bike and rental services. Includes driver/vehicle verification, trip records, SOS and journey-sharing features."
+        ],
+        [
+         "**MAITRI**",
+         "Master Application for International Trade and Regulatory Interface. Digital framework connecting customs and port authorities on both sides of a trade corridor."
+        ],
+        [
+         "**Secure Data Environment (SDE) Application**",
+         "Developed by NHA with support from IISc Bengaluru. Provides a secure, governed environment for analysing health data generated under AB PM-JAY and ABDM."
+        ]
+       ],
+       "CA #19"
+      ]
+     ]
+    },
+    {
+     "t": "AI in agriculture, education and health",
+     "items": [
+      [
+       "t",
+       [
+        "Technology / initiative",
+        "Notes"
+       ],
+       [
+        [
+         "**AI agricultural applications**",
+         "Google's ALU and AMED models convert satellite imagery into agricultural information."
+        ],
+        [
+         "**ALU – Agricultural Landscape Understanding**",
+         "Maps field boundaries, trees, woodlands, wells and small irrigation structures using satellite imagery."
+        ],
+        [
+         "**AMED – Agricultural Monitoring and Event Detection**",
+         "Tracks agricultural activity, likely crops, sowing periods and harvesting periods."
+        ],
+        [
+         "**Application Programming Interfaces (APIs)**",
+         "ALU and AMED model outputs are accessible through APIs. ALU data is also available as a Google Earth layer."
+        ],
+        [
+         "**CarbonFarm**",
+         "Uses the ALU API with Gemini to generate field-level insights, including individual field boundaries, for sustainable rice-farming programmes."
+        ],
+        [
+         "**Bharat EduAI Stack**",
+         "Open-source digital public AI infrastructure for education, including personalised AI tutors, AI-assisted teacher training and institutional administration."
+        ],
+        [
+         "**Bodhan AI**",
+         "IIT Madras-incubated initiative supported by the Ministry of Education; building the Bharat EduAI Stack."
+        ],
+        [
+         "**SAHI**",
+         "Strategy for Artificial Intelligence in Healthcare for India; national framework for responsible healthcare AI adoption."
+        ],
+        [
+         "**BODH**",
+         "Benchmarking Open Data Platform for Health AI; supports safe, ethical and evidence-based healthcare AI."
+        ]
+       ],
+       "CA #19"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "sheet": 20,
+   "unit": 6,
+   "title": "Government portals and websites in news",
+   "parts": [
+    {
+     "t": "Supreme Court website",
+     "items": [
+      [
+       "b",
+       "**Su Sahayak (Supreme Court website):** an AI-powered chatbot integrated with the Supreme Court website to assist with case-related information and services.",
+       "CA #20"
+      ]
+     ]
+    },
+    {
+     "t": "Panchayati Raj and rural development portals",
+     "items": [
+      [
+       "t",
+       [
+        "Portal / website",
+        "Ministry / State",
+        "Notes"
+       ],
+       [
+        [
+         "**Samarth Portal**",
+         "Ministry of Panchayati Raj",
+         "Digital portal related to self-reliant Panchayats; launched on 27 July 2026."
+        ],
+        [
+         "**PAI 2.0 Portal**",
+         "Ministry of Panchayati Raj",
+         "Panchayat Advancement Index; evaluates Gram Panchayats and Traditional Local Bodies through measurable indicators. Launched 26 May 2025."
+        ],
+        [
+         "**Panchayat NIRNAY Portal**",
+         "Ministry of Panchayati Raj",
+         "Supports Gram Sabha and Panchayat meeting management."
+        ],
+        [
+         "**GPDP Portal**",
+         "Ministry of Panchayati Raj",
+         "Supports preparation and monitoring of Gram Panchayat Development Plans."
+        ],
+        [
+         "**Meri Panchayat**",
+         "Ministry of Panchayati Raj",
+         "Citizen-facing Panchayat information and participation platform."
+        ],
+        [
+         "**eGramSwaraj**",
+         "Ministry of Panchayati Raj",
+         "Panchayat planning, budgeting, accounting and progress reporting."
+        ],
+        [
+         "**DAANVEER**",
+         "Ministry of Panchayati Raj",
+         "Digital donation platform to strengthen digital infrastructure in Gram Panchayats."
+        ],
+        [
+         "**GOBARdhan Portal**",
+         "Government of India",
+         "Registration and monitoring of biogas and compressed biogas plants."
+        ],
+        [
+         "**DDU-GKY 2.0 Portal**",
+         "Ministry of Rural Development",
+         "Training targets and project information for rural skill development."
+        ]
+       ],
+       "CA #20"
+      ]
+     ]
+    },
+    {
+     "t": "Health and medical services portals",
+     "items": [
+      [
+       "t",
+       [
+        "Portal / website",
+        "Notes"
+       ],
+       [
+        [
+         "**JANANI Portal**",
+         "Maternal, newborn and child health digital platform; maintains longitudinal health records across the continuum of care."
+        ],
+        [
+         "**Swasth Bharat Portal**",
+         "Integrated digital platform bringing multiple national health programmes onto one interface."
+        ],
+        [
+         "**National Health Claims Exchange (NHCX)**",
+         "Digital exchange for health insurance claims."
+        ],
+        [
+         "**National Healthcare Providers Registry (NHPR)**",
+         "Digital registry for healthcare professionals and health facilities."
+        ],
+        [
+         "**U-WIN Platform**",
+         "Used for vaccination session planning, registration, recording and reporting."
+        ],
+        [
+         "**e-VIN Portal**",
+         "Manages vaccine stocks and logistics."
+        ],
+        [
+         "**Net Zero Portal**",
+         "Voluntary registration and disclosure of Net Zero commitments by Indian entities."
+        ],
+        [
+         "**National Human–Wildlife Conflict Portal**",
+         "National-level platform for information and coordination on human–wildlife conflict."
+        ]
+       ],
+       "CA #20"
+      ]
+     ]
+    },
+    {
+     "t": "Energy, environment and climate portals",
+     "items": [
+      [
+       "t",
+       [
+        "Portal",
+        "Ministry / organisation",
+        "Notes"
+       ],
+       [
+        [
+         "**Green Hydrogen Certification of India (GHCI) Digital Portal**",
+         "MNRE",
+         "Unified online platform for certifying green hydrogen produced in India. Launched 17 June 2026. Developed by National e-Governance Division (NeGD)."
+        ],
+        [
+         "**India's Net Zero Portal**",
+         "MoEFCC",
+         "Voluntary registration and disclosure of entities' greenhouse-gas emissions and Net Zero targets."
+        ],
+        [
+         "**NAPCC Dashboard**",
+         "MoEFCC",
+         "Tracks the National Action Plan on Climate Change and related climate initiatives. Launched alongside the Net Zero Portal on 16 September 2026."
+        ],
+        [
+         "**National Power Portal**",
+         "Ministry of Power",
+         "Provides power-sector data, including installed capacity and transmission statistics."
+        ],
+        [
+         "**Sujalam Bharat**",
+         "Ministry of Jal Shakti",
+         "Digital platform associated with water supply and rural water infrastructure."
+        ]
+       ],
+       "CA #20"
+      ]
+     ]
+    },
+    {
+     "t": "Startup, skill development and technology portals",
+     "items": [
+      [
+       "t",
+       [
+        "Portal / website",
+        "Ministry / State",
+        "Notes"
+       ],
+       [
+        [
+         "**Uttar Pradesh Startup Mission Portal**",
+         "Government of Uttar Pradesh",
+         "Launched with the Uttar Pradesh Startup Policy 2026 by Chief Minister Yogi Adityanath in Lucknow."
+        ],
+        [
+         "**Kaushal Setu Portal**",
+         "Government of Uttar Pradesh",
+         "Uttar Pradesh Skill Development Mission portal for paperless registration and empanelment of training partners."
+        ],
+        [
+         "**Kaushal Sarathi Portal**",
+         "Government of Uttar Pradesh",
+         "Provides district-wise information about training centres, courses, locations and contact details through an interactive digital map."
+        ],
+        [
+         "**NIDAR 2.0**",
+         "MeitY and Drone Federation India",
+         "National Innovation Challenge for Drone Application and Research; promotes student-led innovation in autonomous drones, indigenous avionics and critical drone components."
+        ],
+        [
+         "**AIKosh**",
+         "IndiaAI Mission / MeitY",
+         "Digital repository and platform for AI datasets and models."
+        ],
+        [
+         "**Bharat EduAI Stack**",
+         "Ministry of Education / Bodhan AI",
+         "Open-source AI infrastructure for education, including personalised tutoring and teacher support."
+        ]
+       ],
+       "CA #20"
+      ]
+     ]
+    },
+    {
+     "t": "Other government and institutional portals",
+     "items": [
+      [
+       "t",
+       [
+        "Portal / website",
+        "Notes"
+       ],
+       [
+        [
+         "**MyGov Portal**",
+         "Used for an online public-choice poll for Republic Day 2026 tableaux and marching contingents."
+        ],
+        [
+         "**GST Registration Portal**",
+         "Proposed simplification of GST registration through Form GST REG-01, clearer document requirements and a more user-friendly portal."
+        ],
+        [
+         "**National Power Portal Dashboard**",
+         "Displays installed power-generation capacity and other electricity-sector data."
+        ],
+        [
+         "**BSE Saatvik 100**",
+         "India's first Saatvik Index launched by BSE; it is an index, not a website."
+        ],
+        [
+         "**BRICS MSME Cooperation Portal**",
+         "Listed among the initiatives associated with the 18th BRICS Summit 2026."
+        ],
+        [
+         "**MAITRI**",
+         "Master Application for International Trade and Regulatory Interface; connects customs and port authorities digitally."
+        ]
+       ],
+       "CA #20"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "corrections": [
+  {
+   "title": "Satellite missions and important satellites",
+   "kind": "rocket-vs-fact",
+   "src": "CA #17",
+   "rocket": "LVM3 launch number from Sriharikota 104th",
+   "corrected": "Launch number from Sriharikota: 104th (LVM3-M6 was the 104th launch from Sriharikota, not the 104th LVM3 launch).",
+   "checked": "ISRO chairman quoted: 'our 104th launch from Sriharikota, also the 9th successful mission of the LVM-3 launch vehicle' (https://www.tribuneindia.com/news/india/launch-of-heaviest-satellite-bluebird-block-2-by-isro-has-several-other-firsts-for-the-space-agency/; https://www.businesstoday.in/india/story/isro-successfully-launches-lvm3-m6-rocket-with-bluebird-block-2-satellite-setting-new-records-507954-2025-12-24)"
+  }
+ ]
+}
