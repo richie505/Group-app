@@ -86,7 +86,7 @@ QUIZ = re.compile(
     r"\b(?:is|are|was) (?:false|true|correct|wrong|incorrect)\b|\bA and R\b|\bR (?:is |does not |not )?(?:the )?(?:correct )?expla|"
     r"\b(?:wrong|correct|incorrect|false|true) (?:statement|pair|option|answer|match)s?\b|\bthe answer\b|\boptions\b|\boption \(?[a-d1-4]\b|"
     r"\bonly (?:I|II|III|IV|1|2|3|4)\b|\bstatements? (?:[IVX1-4]|one|two|three)|\b(?:correctly|wrongly) (?:matched|paired)\b|"
-    r"\bodd one\b|\bnone of the above\b|\ball of the above\b|\bkeyed\b|\bpick\b|\bdistractor")
+    r"\bodd one\b|\bnone of the above\b|\ball of the above\b|\bkeyed\b|\bdistractor")
 LABEL = re.compile(
     r"^\W*(?:⚠\s*)?(?:Statement (?:angle|check|set|trap)s?|Angles?|Traps?|Statements?|A-?R|Assertion[- ]Reason|(?:Wrong|Correct|Odd) (?:pair|one out|match)s?|"
     r"Match(?: drill| angle)?|Matching|Trap|Order(?: angle)?|Sequence|Exam angle|Angle|Calculation angle|Disputed(?: key)?|Not true)\s*(?:\([^)]*\))?\s*[:–-]\s*", re.I)

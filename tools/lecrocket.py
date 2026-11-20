@@ -144,7 +144,8 @@ def check_job(f):
         if nums and len(miss) > max(2, len(nums) * 0.15):
             p.append(f"numbers lost: {miss[:8]}")
         # key terms: bold words of the page (a label's own colon / dash does not count: "**Author:**" -> "Author")
-        bolds = {x.strip().rstrip(":–-—=→ ").strip() for x in re.findall(r"\*\*([^*]{2,40})\*\*", body)}
+        # (bold = the odd pieces of each line split at "**": the text between two bold terms is not one)
+        bolds = {x.strip().rstrip(":–-—=→ ").strip() for l in body.split("\n") for x in l.split("**")[1::2] if 2 <= len(x) <= 40}
         bolds = {x for x in bolds if len(x) > 1 and "\n" not in x and "row:" not in x and "|" not in x and not LC.QUIZ.search(x) and not LC.TOK.search(x)
                  and "⚠" not in x and not re.search(r"\b(?:Trap|Outdated|Exam|Match|A-R)\b", x)}
         out = re.sub(r"\*\*", "", txt).lower()
