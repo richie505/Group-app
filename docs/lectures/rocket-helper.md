@@ -20,5 +20,5 @@ Write data/lecrocket/jobs/job-N.out.jsonl: one line per page {"h": "<page id>", 
 job's order. Write in chunks (append ~15 pages at a time with a python heredoc using json.dumps(..., ensure_ascii=False)).
 
 Then run `python3 tools/lecrocket.py check N` and fix what it reports; repeat until 0 pages with problems, except numbers
-that were only exam years, question numbers, option codes or citations (list those). Finish with one line: pages
+that were only exam years, question numbers, option codes, wrong options or citations (list those). Finish with one line: pages
 written, problems left.
