@@ -126,7 +126,6 @@ private data class Step(val book: Int, val row: Int, val sec: Int, val day: Int,
 @Composable
 fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav, day: Int = 0) {
     val app = LocalApp.current
-    if (app.repo.slides != null) return SlidesReader(bookId, rowIndex, secIndex, nav)
     val store = app.store
     val book = rememberBook(bookId)
     val mcq by androidx.compose.runtime.produceState(app.repo.cachedMcq(bookId), bookId) { value = app.repo.mcq(bookId) }
@@ -156,6 +155,29 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav, day: Int =
     val revision = app.repo.revision // APPSC Revision: the page's revision facts
     val sec = row.secs[secI.coerceIn(0, row.secs.size - 1)]
     val pos = Pos(rowI, secI)
+    // the Slides editions: the page's notes are its lecture slides (full screen, landscape), opened from the page;
+    // closed, back on the page of the part last shown, with its MCQs
+    val slides = app.repo.slides
+    var slidesFrom by rememberSaveable { mutableStateOf(-1) } // the page the slides were opened from; -1: closed
+    if (slides != null && slidesFrom >= 0) {
+        val lecParts = remember(bookId, rowI) { row.secs.indices.filter { j -> row.secs[j].let { !it.empty && it.blocks.isNotEmpty() } } }
+        val k = lecParts.indexOf(slidesFrom)
+        app.platform.BackHandler(enabled = true) { slidesFrom = -1 }
+        app.platform.Slides(
+            url = "lec/$slides/$bookId/$rowI.html" + if (k > 0) "#part=${k + 1}" else "",
+            onPart = { n ->
+                lecParts.getOrNull(n - 1)?.let { j ->
+                    val sid = subsectionId(bookId, rowI, j)
+                    if (!store.isDone(sid)) store.setDone(sid, true)
+                    secI = j
+                }
+            },
+            onNext = { slidesFrom = -1 },
+            onPrev = { slidesFrom = -1 },
+            onClose = { slidesFrom = -1 },
+        )
+        return
+    }
     // Next / Previous: page by page through the topic; at the topic's end, opened from a plan day, on to the
     // day's next topic (then the next day's), as the topic page's own buttons do; otherwise on through the book
     val seq = remember(app.repo.plan) {
@@ -447,6 +469,15 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav, day: Int =
                                 }
                             } else null,
                         )
+                    } else if (slides != null) item(key = "slides-$id") {
+                        Button(
+                            onClick = { slidesFrom = secI },
+                            modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp, vertical = 8.dp).height(64.dp),
+                            shape = RoundedCornerShape(14.dp),
+                            colors = ButtonDefaults.buttonColors(containerColor = C.Navy, contentColor = Color.White),
+                        ) {
+                            Text("▶  Watch slides", style = TextStyle(fontSize = 18.sp, fontWeight = FontWeight.Bold))
+                        }
                     } else itemsIndexed(shown, key = { i, _ -> "$id-$i" }) { i, (orig, b) ->
                         val reading = here && parts.getOrNull(part)?.first == i
                         Box(
@@ -587,7 +618,7 @@ fun ReaderScreen(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav, day: Int =
                                     )
                                 }
                             }
-                            if (row.sources.isNotEmpty() && secI == row.secs.size - 1) {
+                            if (row.sources.isNotEmpty() && secI == row.secs.size - 1 && slides == null) {
                                 Spacer(Modifier.height(16.dp))
                                 SourcesBox(row.sources)
                             }
@@ -987,52 +1018,4 @@ internal fun simplePrompt(title: String, text: String, limit: Int = 1400): Strin
     return "Explain this in very simple English, as if to a class 6 student. Use short sentences and an everyday " +
         "example. Explain every difficult word. Then give 3 key points to remember for the APPSC exam.\n\n" +
         "Topic: $title\n\n$body"
-}
-
-
-/**
- * The Slides editions: a topic's notes as its lecture slides, from the part of the page opened (-1: the start,
- * -2: the end). Each part shown counts its page as read; past the last slide, on to the book's next topic.
- */
-@Composable
-private fun SlidesReader(bookId: Int, rowIndex: Int, secIndex: Int, nav: Nav) {
-    val app = LocalApp.current
-    val book = rememberBook(bookId)
-    var rowI by rememberSaveable { mutableStateOf(rowIndex) }
-    var start by rememberSaveable { mutableStateOf(secIndex) }
-    if (book == null) {
-        Column(Modifier.fillMaxSize()) {
-            TopBar("", onBack = nav::back)
-            Loading()
-        }
-        return
-    }
-    val rows = remember(book) { book.rows.indices.filter { app.repo.rowInfo(bookId, it)?.hidden != true } }
-    // the lecture's parts: the topic's pages with notes (tools/lecture_pdf.py numbers them the same way)
-    val parts = book.rows[rowI].secs.indices.filter { j -> book.rows[rowI].secs[j].let { !it.empty && it.blocks.isNotEmpty() } }
-    val k = parts.indexOf(start)
-    val frag = when {
-        start == -2 -> "#end=1"
-        k > 0 -> "#part=${k + 1}"
-        else -> ""
-    }
-    app.platform.Slides(
-        url = "lec/${app.repo.slides}/$bookId/$rowI.html$frag",
-        onPart = { n ->
-            parts.getOrNull(n - 1)?.let { j ->
-                val id = subsectionId(bookId, rowI, j)
-                if (!app.store.isDone(id)) app.store.setDone(id, true)
-                app.store.rememberPosition(id)
-            }
-        },
-        onNext = {
-            val i = rows.indexOf(rowI)
-            if (i >= 0 && i < rows.size - 1) { rowI = rows[i + 1]; start = -1 } else nav.back()
-        },
-        onPrev = {
-            val i = rows.indexOf(rowI)
-            if (i > 0) { rowI = rows[i - 1]; start = -2 }
-        },
-        onClose = nav::back,
-    )
 }
