@@ -5,7 +5,7 @@ rewritten by hand as one or two one-answer questions each: data/g2style/job-N.js
 job-N.out.jsonl: {"id": "...", "q": [{"s", "o", "a", "x"}, {...optional second...}]}
 expand(q): the MCQ as its rewritten question(s); the first keeps the MCQ's id (progress), a second gets its own id.
 """
-import glob, hashlib, json
+import glob, hashlib, json, re
 
 D = "data/g2style"
 
@@ -33,5 +33,11 @@ def expand(q, OUT):
             continue
         base = {x: v for x, v in q.items() if x not in ("s", "o", "a", "x", "xs", "xa", "tg")}
         nid = q["id"] if k == 0 else "g2s" + hashlib.md5((q["id"] + n["s"]).encode()).hexdigest()[:11]
-        res.append(dict(base, id=nid, s=n["s"], o=n["o"], a=n["a"], x=n.get("x", "")))
+        o, a = list(n["o"]), n["a"]
+        # the key's position spread evenly (A-D equally often), except number options, which stay in their order
+        if not all(re.search(r"\d", x) for x in o) and not re.search(r"\b(all|none|both|neither) of (the )?(above|these)\b", " ".join(o), re.I):
+            t = int(hashlib.md5(nid.encode()).hexdigest(), 16) % 4
+            o[a], o[t] = o[t], o[a]
+            a = t
+        res.append(dict(base, id=nid, s=n["s"], o=o, a=a, x=n.get("x", "")))
     return res or [q]
