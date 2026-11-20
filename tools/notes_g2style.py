@@ -23,12 +23,10 @@ def load():
 
 
 def expand(q, OUT):
-    """[q] unchanged, or its rewrite (only while it is still the MCQ that was rewritten)"""
+    """[q] unchanged, or its rewrite"""
     if q["id"] not in OUT:
         return [q]
-    j, new = OUT[q["id"]]
-    if q.get("o") != j["o"] or q.get("a") != j["a"]:
-        return [q]
+    j, new = OUT[q["id"]]  # by id: the options fix (notes_options) and the stem layout may have touched it since
     res = []
     for k, n in enumerate(new[:2]):
         if len(n.get("o") or []) != 4 or not (0 <= n.get("a", -1) < 4):
