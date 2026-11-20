@@ -19,7 +19,8 @@ SUBJECTS = [("aphist", "AP History", 0), ("indhist1", "Indian History", 0), ("in
             ("worldgeo", "World Geography", 0), ("society", "Indian Society", 0), ("environment", "Environment", 0),
             ("disaster", "Disaster Management", 0), ("physics", "Physics", 0), ("chemistry", "Chemistry", 0), ("biology", "Biology", 0)]
 CA = [("ca1", 0), ("ca2", 227)]
-JUNK = re.compile(r"nextgenias1@gmail|SUBSCRIBE to our YouTube|^\s*\d+\s*$", re.I)
+JUNK = re.compile(r"nextgenias1@gmail|SUBSCRIBE to our YouTube", re.I)
+NUM = re.compile(r"^\s*\d+\s*$")  # a number alone on a line: a wrapped table cell (a year), not a page number
 
 
 def leaves():
@@ -66,7 +67,7 @@ def chunks():
                     sheet = new
                 buf.append(f"\n=== {name} · Sheet #{sheet} · p.{i + 1 + off}")
                 buf += L
-                size += sum(len(l) + 1 for l in L)
+                size += sum(len(l) + 1 for l in L if not NUM.match(l))
         if buf:
             flush(slug, buf, n)
     # Rocket Current Affairs: whole sheets, about 45 KB a chunk
@@ -86,7 +87,7 @@ def chunks():
                 sheet = new
             buf.append(f"\n=== Rocket CA 2026 · Sheet #{sheet} · p.{i + 1 + off}")
             buf += L
-            size += sum(len(l) + 1 for l in L)
+            size += sum(len(l) + 1 for l in L if not NUM.match(l))
     if buf:
         flush("ca", buf, n)
     L = leaves()["leaves"]
