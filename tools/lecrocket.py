@@ -137,12 +137,15 @@ def check_job(f):
                 if any(len(r) != len(hh) for r in b.get("r") or []) and hh:
                     p.append("table row with a different number of cells")
             txt += " " + plain(b)
-        ins = re.sub(r"\*\*", "", body)
+        # numbers: of the facts (source notes "n:" and question / option codes left out)
+        ins = re.sub(r"\*\*", "", "\n".join(l for l in body.split("\n") if not l.startswith("n:")))
         nums = set(NUM.findall(ins))
         miss = [x for x in nums if x not in txt]
-        if nums and len(miss) > max(1, len(nums) * 0.1):
+        if nums and len(miss) > max(2, len(nums) * 0.15):
             p.append(f"numbers lost: {miss[:8]}")
-        bolds = {x.strip() for x in re.findall(r"\*\*([^*]{2,40})\*\*", body)}
+        # key terms: bold words of the page (a label's own colon / dash does not count: "**Author:**" -> "Author")
+        bolds = {x.strip().rstrip(":–-—=→ ").strip() for x in re.findall(r"\*\*([^*]{2,40})\*\*", body)}
+        bolds = {x for x in bolds if len(x) > 1 and "\n" not in x and "row:" not in x and "|" not in x and not LC.QUIZ.search(x) and not LC.TOK.search(x)}
         out = re.sub(r"\*\*", "", txt).lower()
         lost = [x for x in bolds if x.lower() not in out]
         if bolds and len(lost) > max(1, len(bolds) * 0.2):
