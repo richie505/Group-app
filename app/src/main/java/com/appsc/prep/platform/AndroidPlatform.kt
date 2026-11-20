@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
 import androidx.compose.ui.Modifier
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
 import com.appsc.prep.data.Storage
@@ -145,6 +146,71 @@ class AndroidPlatform(private val context: Context) : Platform {
                 }
             },
             modifier = modifier,
+            onRelease = { it.destroy() },
+        )
+    }
+
+    @android.annotation.SuppressLint("SetJavaScriptEnabled", "JavascriptInterface", "SourceLockedOrientationActivity")
+    @Composable
+    override fun Slides(url: String, onPart: (Int) -> Unit, onNext: () -> Unit, onPrev: () -> Unit, onClose: () -> Unit) {
+        val activity = androidx.compose.ui.platform.LocalContext.current as? android.app.Activity
+        androidx.compose.runtime.DisposableEffect(Unit) {
+            val w = activity?.window
+            val c = w?.let { androidx.core.view.WindowCompat.getInsetsController(it, it.decorView) }
+            activity?.requestedOrientation = android.content.pm.ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE
+            c?.systemBarsBehavior = androidx.core.view.WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+            c?.hide(androidx.core.view.WindowInsetsCompat.Type.systemBars())
+            w?.addFlags(android.view.WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON) // no dimming mid-lecture
+            onDispose {
+                activity?.requestedOrientation = android.content.pm.ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED
+                c?.show(androidx.core.view.WindowInsetsCompat.Type.systemBars())
+                w?.clearFlags(android.view.WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+            }
+        }
+        val part = androidx.compose.runtime.rememberUpdatedState(onPart)
+        val next = androidx.compose.runtime.rememberUpdatedState(onNext)
+        val prev = androidx.compose.runtime.rememberUpdatedState(onPrev)
+        val close = androidx.compose.runtime.rememberUpdatedState(onClose)
+        val main = androidx.compose.runtime.remember { android.os.Handler(android.os.Looper.getMainLooper()) }
+        val bridge = androidx.compose.runtime.remember {
+            object {
+                @android.webkit.JavascriptInterface fun next() { main.post { next.value() } }
+                @android.webkit.JavascriptInterface fun prev() { main.post { prev.value() } }
+                @android.webkit.JavascriptInterface fun close() { main.post { close.value() } }
+                @android.webkit.JavascriptInterface fun part(k: Int) { main.post { part.value(k) } }
+            }
+        }
+        val pending = androidx.compose.runtime.remember { arrayOfNulls<String>(1) }
+        val fontScale = context.resources.configuration.fontScale
+        androidx.compose.ui.viewinterop.AndroidView(
+            factory = { ctx ->
+                android.webkit.WebView(ctx).apply {
+                    webViewClient = object : android.webkit.WebViewClient() {
+                        override fun onPageFinished(view: android.webkit.WebView, url: String?) { view.scrollTo(0, 0) } // no restored scroll
+                    }
+                    isVerticalScrollBarEnabled = false
+                    isHorizontalScrollBarEnabled = false
+                    overScrollMode = android.view.View.OVER_SCROLL_NEVER
+                    settings.javaScriptEnabled = true // the slides lay themselves out for the screen, measuring what fits
+                    settings.textZoom = (fontScale * 100).toInt() // the phone's font size
+                    setBackgroundColor(android.graphics.Color.rgb(15, 21, 48))
+                    addJavascriptInterface(bridge, "Android")
+                    // load a lecture only once this view is laid out in landscape (the phone may still be turning)
+                    addOnLayoutChangeListener { v, l, t, r, b, _, _, _, _ ->
+                        val want = pending[0]
+                        if (want != null && r - l > b - t && b - t > 0) { pending[0] = null; (v as android.webkit.WebView).loadUrl(want) }
+                    }
+                }
+            },
+            update = { w ->
+                val u = "file:///android_asset/$url"
+                if (w.tag != u) {
+                    w.tag = u
+                    w.contentDescription = "Lecture slides"
+                    if (w.width > w.height && w.height > 0) w.loadUrl(u) else pending[0] = u
+                }
+            },
+            modifier = androidx.compose.ui.Modifier.fillMaxSize(),
             onRelease = { it.destroy() },
         )
     }

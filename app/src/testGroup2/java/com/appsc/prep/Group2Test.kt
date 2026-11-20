@@ -235,6 +235,17 @@ class Group2Test {
         }
     }
 
+    // the notes page the Group 2 Slides edition shows as slides (Vishnukundins, part 3): for the before / after shots
+    @Test fun notesPageForSlides() {
+        runBlocking { repo.book(1); repo.mcq(1) }
+        shot("notes_page_vishnukundins") { com.appsc.prep.ui.screens.ReaderScreen(1, 189, 2, nav) }
+    }
+
+    @Test fun topicPageForSlides() {
+        runBlocking { repo.book(1); repo.mcq(1) }
+        shot("topic_page_vishnukundins") { com.appsc.prep.ui.screens.SectionScreen(1, 189, nav) }
+    }
+
     @Test fun syllabusScreen() {
         runBlocking { repo.leafOf() }
         shot("5_syllabus") { com.appsc.prep.ui.screens.SyllabusScreen(nav) }

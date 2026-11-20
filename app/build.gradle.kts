@@ -73,6 +73,19 @@ android {
             applicationIdSuffix = ".lectures"
             resValue("string", "app_name", "APPSC Lectures")
         }
+        // Group 1 Prelims / Group 2 with each topic's notes as its lecture slides (tools/lecture_app.py), the MCQs as they
+        // are; installs beside the two apps (which stay as they are)
+        create("group1slides") {
+            dimension = "edition"
+            applicationIdSuffix = ".group1slides"
+            resValue("string", "app_name", "APPSC Group 1 Slides")
+        }
+        create("group2slides") {
+            dimension = "edition"
+            applicationIdSuffix = ".group2slides"
+            versionNameSuffix = "-g2"
+            resValue("string", "app_name", "APPSC Group 2 Slides")
+        }
         // APPSC Complete's full notes for reading only: no MCQs, simple meanings and markers (tools/reader_build.py)
         create("reader") {
             dimension = "edition"
@@ -86,6 +99,8 @@ android {
     // APPSC Complete ships as APPSC Group 1 Prelims: its notes and MCQs cut to the Group 1 Prelims syllabus
     // (tools/group1_build.py writes src/group1/assets from src/complete/assets, which stays the master copy)
     sourceSets["complete"].assets.setSrcDirs(listOf("src/group1/assets"))
+    sourceSets["group1slides"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/group1slidesAssets")))
+    sourceSets["group2slides"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/group2slidesAssets")))
     sourceSets["complete2"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/complete2Assets")))
     // APPSC Complete: ONE set of notes (book*.json, rebuilt 2026 from the PYQ blueprints, every MCQ linked to them).
     // The old "MCQ notes" (mbook*.json) are no longer shipped, so the MCQ/Full notes switch disappears.
@@ -189,6 +204,18 @@ val readerAssets = tasks.register<Sync>("readerAssets") {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 tasks.matching { it.name.contains("Reader") }.configureEach { dependsOn(readerAssets) }
+
+// the Slides editions' assets: the app's own (src/group1 or src/group2), its edition (the slides' key), its lectures
+for ((name, src, key) in listOf(Triple("group1slides", "group1", "g1"), Triple("group2slides", "group2", "g2"))) {
+    val t = tasks.register<Sync>("${name}Assets") {
+        from("src/$name/assets")
+        from("src/$src/assets") { exclude("edition.json") }
+        from("src/lectures/assets/lec/$key") { into("lec/$key") }
+        into(layout.buildDirectory.dir("generated/${name}Assets"))
+        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    }
+    tasks.matching { it.name.contains(name.replaceFirstChar { c -> c.uppercase() }) }.configureEach { dependsOn(t) }
+}
 
 val completeMcqNotes = tasks.register<Sync>("completeMcqNotes") {
     // the MCQ notes in simple English (tools/simple_build.py), else Complete 2.0's as written

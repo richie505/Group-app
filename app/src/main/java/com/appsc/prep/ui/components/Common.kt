@@ -112,6 +112,16 @@ interface Platform {
     }
 
     /**
+     * A topic's lecture slides (the Slides editions, tools/lecture_app.py): [url] an asset page ("lec/g1/1/5.html#part=2"),
+     * full screen in landscape, tap for the next slide. [onPart] hears each part of the notes shown (its number from 1),
+     * [onNext] / [onPrev] the end / start of the lecture passed, [onClose] its close button.
+     */
+    @Composable
+    fun Slides(url: String, onPart: (Int) -> Unit, onNext: () -> Unit, onPrev: () -> Unit, onClose: () -> Unit) {
+        Column(Modifier.padding(24.dp)) { Text("The slides open in the phone app.", style = TextStyle(fontSize = 15.sp, color = C.Muted)) }
+    }
+
+    /**
      * Saves text to a file the reader picks (phone storage, Drive ...): returns a function taking the suggested
      * file name and the text; [done] hears whether it was saved. Null where files cannot be picked.
      */

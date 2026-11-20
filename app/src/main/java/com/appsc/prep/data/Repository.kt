@@ -245,6 +245,9 @@ class Repository(private val open: (String) -> InputStream) {
     /** APPSC Complete (the three apps in one) or APPSC One-liners (its MCQs as one-liners): the MCQs tab and due MCQs. */
     val complete: Boolean by lazy { (edition?.get("edition") as? JsonPrimitive)?.content in setOf("complete", "oneliner") }
 
+    /** The Slides editions: the notes are the topic's lecture slides, lec/<this>/<book>/<row>.html ("g1" / "g2"); null elsewhere. */
+    val slides: String? by lazy { (edition?.get("slides") as? JsonPrimitive)?.content }
+
     /** APPSC One-liners: every MCQ one line, four short options, no explanation. */
     val oneliner: Boolean by lazy { (edition?.get("edition") as? JsonPrimitive)?.content == "oneliner" }
 

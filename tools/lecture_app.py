@@ -75,12 +75,16 @@ DECK = r"""
   document.body.appendChild(ctl);
   const A = window.Android, ct = ctl.querySelector('#ct'), pg = ctl.querySelector('#pg');
   const h = new URLSearchParams(location.hash.slice(1));
-  let cur = h.has('end') ? N - 1 : Math.min(N - 1, Math.max(0, Math.round(parseFloat(h.get('p') || '0') * (N - 1))));
+  // each slide's part of the notes ("Part 3 of 6" in its bar; 0: title, plan, recap, quick check)
+  const partOf = all.map(s => { const m = ((s.querySelector('.bar') || {}).textContent || '').match(/Part (\d+) of/); return m ? +m[1] : 0; });
+  const p0 = h.has('part') ? partOf.indexOf(+h.get('part')) : -1;
+  let cur = h.has('end') ? N - 1 : p0 >= 0 ? p0 : Math.min(N - 1, Math.max(0, Math.round(parseFloat(h.get('p') || '0') * (N - 1))));
   function show(i) {
     all[cur].classList.remove('on'); cur = i; all[cur].classList.add('on');
     ct.textContent = `${cur + 1} / ${N}`; pg.style.width = `${(cur + 1) / N * 100}%`;
     try { history.replaceState(null, '', '#p=' + (N > 1 ? cur / (N - 1) : 0)); } catch (e) {}
     scrollTo(0, 0); diag();
+    if (partOf[cur] && A && A.part) try { A.part(partOf[cur]); } catch (e) {}
   }
   // if the slide shown is still not on the screen, say what the screen reports (to fix it)
   function diag() {
