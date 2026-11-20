@@ -227,7 +227,7 @@ and keeps your progress.
 
 ## RocketOne (a separate lecture app)
 
-`apks/RocketOne-1.1.apk`: lectures written only from the NextGen Rocket Sheets and Rocket Current Affairs 2026, in the
+`apks/RocketOne-1.2.apk`: lectures written only from the NextGen Rocket Sheets and Rocket Current Affairs 2026, in the
 APPSC Lectures slide viewer, arranged two ways in one app: by the Group 1 Prelims syllabus (494 lectures) and by the
 Group 2 syllabus (496 lectures, the same notes re-filed; `data/rocketone/g2map`). No MCQs. Where Rocket disagreed with
 itself or with the verified fact, the slide has the corrected line and `data/rocketone/CORRECTIONS.md` has what Rocket
