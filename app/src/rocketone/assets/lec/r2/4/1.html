@@ -1,0 +1,224 @@
+<!doctype html><html><head><meta charset='utf-8'><style>
+    @page { size: 13.333in 7.5in; margin: 0 }
+    * { box-sizing: border-box }
+    body { margin: 0; font-family: Inter, 'Noto Sans', 'Noto Sans Telugu', Arial, sans-serif; color: #1f2430 }
+    section.s, div.s { width: 13.333in; height: 7.5in; position: relative; overflow: hidden; page-break-after: always; background: #fff }
+    .s.title, .s.end { background: linear-gradient(135deg, #1e2a5a 0%, #2f3f8f 60%, #4458c4 100%); color: #fff; padding: 0.9in 1in }
+    .s.title h1, .s.end h1 { font-size: 40px; line-height: 1.18; margin: 14px 0 22px; font-weight: 800; max-width: 11in }
+    .kicker { font-size: 15px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .8; font-weight: 600 }
+    .syl { background: rgba(255,255,255,.1); border-radius: 12px; padding: 16px 22px; max-width: 11.3in }
+    .syl .lab { font-size: 12px; letter-spacing: 1.5px; font-weight: 700; opacity: .75; margin-bottom: 6px }
+    .syl ul { margin: 0; padding-left: 20px; font-size: 18px; line-height: 1.5 }
+    .foot { position: absolute; bottom: .55in; left: 1in; font-size: 14px; opacity: .75 }
+    .bar { position: absolute; top: 0; left: 0; right: 0; height: .5in; background: #1e2a5a; color: #fff; display: flex; align-items: center;
+           padding: 0 .55in; font-size: 13px; letter-spacing: .5px; gap: 18px }
+    .bar .p { font-weight: 700; color: #f6c453 }
+    .bar .t { opacity: .85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+    .inner { position: absolute; top: .72in; left: .6in; right: .6in; bottom: .45in; display: flex; flex-direction: column }
+    h2 { font-size: 30px; margin: 0 0 12px; color: #1e2a5a; font-weight: 800; border-left: 6px solid #f6a623; padding-left: 14px }
+    h2 .cont { font-size: 16px; color: #8a90a6; font-weight: 600 }
+    .body { font-size: 23px; line-height: 1.4; flex: 1; overflow: hidden }
+    .sub { font-size: 23px; font-weight: 800; color: #2f3f8f; margin: 10px 0 4px }
+    ul.pts { margin: 4px 0; padding-left: 24px }
+    ul.pts li { margin: 4px 0 }
+    ul.pts li::marker { color: #f6a623 }
+    b { color: #13194a }
+    table { border-collapse: collapse; width: 100%; font-size: 19px; line-height: 1.3; margin: 6px 0 8px }
+    th { background: #2f3f8f; color: #fff; text-align: left; padding: 7px 10px; font-weight: 700 }
+    th b { color: #fff }
+    td { padding: 6px 10px; border-bottom: 1px solid #e3e6f0; vertical-align: top }
+    tr:nth-child(even) td { background: #f5f7fc }
+    .box { border-radius: 10px; padding: 10px 16px; margin: 10px 0; font-size: 21px; line-height: 1.38 }
+    .box span { display: inline-block; font-size: 11.5px; font-weight: 800; letter-spacing: 1.2px; margin-right: 10px; padding: 2px 8px; border-radius: 5px }
+    .rem { background: #fff6e5; border-left: 5px solid #f6a623 } .rem span { background: #f6a623; color: #fff }
+    .set { background: #eaf6ee; border-left: 5px solid #2e9e5b } .set span { background: #2e9e5b; color: #fff }
+    .note { background: #eef1fb; border-left: 5px solid #4458c4 } .note span { background: #4458c4; color: #fff }
+    ol.plan { list-style: none; padding: 0; margin: 14px 0; columns: 2; column-gap: .5in; font-size: 23px }
+    ol.plan li { display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px; break-inside: avoid }
+    .n { flex: none; display: inline-flex; width: 30px; height: 30px; border-radius: 50%; background: #1e2a5a; color: #fff;
+         align-items: center; justify-content: center; font-weight: 700; font-size: 14px; margin-right: 10px }
+    .meta { color: #6b7185; font-size: 15px; margin-top: 8px }
+    .recap li { font-size: 21px; margin: 12px 0 }
+    .qs2 { display: grid; grid-template-columns: 1fr 1fr; gap: .35in }
+    .q { background: #f7f8fc; border-radius: 12px; padding: 18px 22px; font-size: 23px; line-height: 1.38 }
+    .qs { margin-bottom: 8px; display: flex }
+    ol.opts { list-style: none; padding: 0; margin: 0 }
+    ol.opts li { padding: 5px 10px; border-radius: 7px; margin: 3px 0; background: #fff; border: 1px solid #e3e6f0 }
+    ol.opts li.ok { background: #e3f5ea; border-color: #2e9e5b; font-weight: 700; color: #1d6b3d }
+    .src { color: #8a90a6; font-size: 14px; margin-top: 8px }
+    .num { position: absolute; bottom: .18in; right: .5in; font-size: 12px; color: #9aa0b4 }
+    .brand { position: absolute; bottom: .18in; left: .6in; font-size: 12px; color: #9aa0b4 }
+    </style><meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'><style>
+@media screen {
+  /* one slide = one screen, laid out for this phone: text sized to the screen (and the phone's font size) */
+  :root { --W: 100vw; --H: 100vh; --f: 16px } /* --W, --H, --f are set in pixels by START (no vw / vh: some WebViews give 0) */
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #0f1530; -webkit-tap-highlight-color: transparent }
+  section.s, div.s { width: var(--W) !important; height: var(--H) !important; margin: 0; page-break-after: auto }
+  .deck section.s, .deck div.s { display: none }
+  /* the slide shown is pinned to the screen: no scroll position (a reload restores one) can move it away */
+  .deck section.s.on, .deck div.s.on { display: block; position: fixed !important; left: 0; top: 0; z-index: 1 }
+  #diag { position: fixed; z-index: 20; left: 8px; top: 8px; right: 60px; font: 12px monospace; color: #ffd; background: rgba(0,0,0,.6); padding: 6px; white-space: pre-wrap }
+  .bar { height: calc(var(--f) * 2.1); font-size: calc(var(--f) * .7); padding: 0 64px 0 18px; gap: 10px }
+  .inner { top: calc(var(--f) * 2.7); left: 58px; right: 58px; bottom: 26px; overflow: hidden }
+  h2 { font-size: calc(var(--f) * 1.28); margin: 0 0 .5em; padding-left: 10px; border-left-width: 5px }
+  h2 .cont { font-size: .6em }
+  .body { font-size: var(--f) }
+  .sub { font-size: 1.04em; margin: .45em 0 .15em }
+  ul.pts { padding-left: 1.1em } ul.pts li { margin: .22em 0 }
+  table { font-size: .86em } th, td { padding: .35em .5em }
+  .box { font-size: .92em; padding: .45em .7em; margin: .45em 0 } .box span { font-size: .62em }
+  .s.title, .s.end { padding: calc(var(--H) * .07) calc(var(--W) * .06) } .s.title h1, .s.end h1 { font-size: calc(var(--f) * 1.75); margin: .4em 0 .6em }
+  .kicker { font-size: calc(var(--f) * .7) } .syl { padding: .7em 1em } .syl ul { font-size: calc(var(--f) * .92) }
+  .syl .lab { font-size: calc(var(--f) * .6) } .foot { bottom: 30px; left: calc(var(--W) * .06); font-size: calc(var(--f) * .7) }
+  ol.plan { font-size: var(--f); column-gap: 24px } ol.plan li { margin: 0 0 .5em } .n { width: 1.5em; height: 1.5em; font-size: .7em; margin-right: .5em }
+  .meta { font-size: calc(var(--f) * .75) }
+  .recap li { font-size: calc(var(--f) * .92); margin: .4em 0 }
+  .q { font-size: calc(var(--f) * .92); padding: .7em .9em } .src { font-size: .65em }
+  .qs2 { gap: 14px }
+  .brand, .num { display: none }
+  @media (orientation: portrait) { ol.plan { columns: 1 } .qs2 { grid-template-columns: 1fr } }
+  /* the controls: close, previous, slide n of N, next; a progress line */
+  #ctl button { position: fixed; z-index: 9; border: 0; border-radius: 50%; width: 48px; height: 48px; font-size: 26px; line-height: 48px;
+    background: rgba(15,21,48,.55); color: #fff; padding: 0 }
+  #ctl #cl { top: 4px; right: 8px; width: 42px; height: 42px; line-height: 42px; font-size: 20px; background: rgba(255,255,255,.18) }
+  #ctl #pv { top: 50%; left: 6px; transform: translateY(-50%) } #ctl #nx { top: 50%; right: 6px; transform: translateY(-50%) }
+  #ctl #pv, #ctl #nx { background: rgba(15,21,48,.28); color: #fff }
+  #ctl #ct { position: fixed; z-index: 9; bottom: 6px; right: 14px; font: 600 12px Inter, Arial, sans-serif;
+    color: #fff; background: rgba(15,21,48,.5); padding: 2px 10px; border-radius: 10px }
+  #ctl #pg { position: fixed; z-index: 9; bottom: 0; left: 0; height: 4px; background: #f6a623; transition: width .2s }
+  .s.title #x, .s.end #x { display: none }
+}
+</style></head><body><section class='s title'><div class='kicker'>Current Affairs · National - polity and governance: bills, acts, judgments, elections</div>
+    <h1>Declarations in news: states, heritage and international</h1>
+    <div class="syl"><div class="lab">SYLLABUS LINES THIS LESSON COVERS</div><ul><li>National</li></ul></div>
+    <div class='foot'>RocketOne · Group 2 · lecture notes</div></section><section class='s'><div class='bar'><span class='p'>Lesson</span><span class='t'>Declarations in news: states, heritage and international</span></div><div class='inner'><h2>Lesson plan</h2><ol class='plan'><li><span class='n'>1</span>States and UTs declared fully literate</li><li><span class='n'>2</span>ULLAS</li><li><span class='n'>3</span>Naxal-free states</li><li><span class='n'>4</span>Other state firsts and titles</li><li><span class='n'>5</span>Government declarations, policies and announcements</li><li><span class='n'>6</span>UNESCO Tentative List: five new entries</li><li><span class='n'>7</span>Other environmental and heritage declarations</li><li><span class='n'>8</span>International declarations and summit outcomes</li><li><span class='n'>9</span>Bishkek Declaration (SCO) and Delhi Declaration (BIMSTEC)</li><li><span class='n'>10</span>BRICS declarations of 2026</li><li><span class='n'>11</span>Johannesburg Leaders&#x27; Declaration (G20)</li><li><span class='n'>12</span>Other international declarations and emergency decisions</li></ol><div class='meta'>12 parts</div></div><div class='brand'>RocketOne · Group 2 · Current Affairs</div><div class='num'></div></section><div id='parts'></div><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Declarations in news: states, heritage and international</span></div><div class='inner'><h2>Recap</h2><ul class='pts recap'><li><b>States and UTs declared fully literate</b> — Fully literate States/UTs include</li><li><b>ULLAS</b> — Full name · Full literacy threshold · 95% · Target group</li><li><b>Naxal-free states</b> — Madhya Pradesh · Bihar · Telangana</li><li><b>Other state firsts and titles</b> — Sikkim · Kerala · Lucknow · Bela Gram · Mizoram · Jawahar Dweep Marine Oil Terminal</li><li><b>Government declarations, policies and announcements</b> — Defence · Jal Jeevan Mission · National Startup Day · International Yoga Day · Limestone · Indian Standard Time · Uttar Pradesh</li><li><b>UNESCO Tentative List: five new entries</b> — 5 heritage entries · 29 September 2026</li><li><b>Other environmental and heritage declarations</b> — Parvati Arga Bird Sanctuary · Kalinjar Fort region · Ladakh · Jawahar Dweep · Bela Gram</li><li><b>International declarations and summit outcomes</b> — Bishkek Declaration · Delhi Declaration · New Delhi BRICS Leaders&#x27; Declaration · Guwahati Declaration on Drug Control · Indore Declaration · Johannesburg Leaders&#x27; Declaration · Bangkok Declaration</li></ul></div><div class='brand'>RocketOne · Group 2 · Current Affairs</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Declarations in news: states, heritage and international</span></div><div class='inner'><h2>Recap (cont.)</h2><ul class='pts recap'><li><b>Bishkek Declaration (SCO) and Delhi Declaration (BIMSTEC)</b> — Adopted at · 26th SCO Summit · Chair · Sadyr Japarov · Occasion · Documents · 13 October 2026</li><li><b>BRICS declarations of 2026</b> — Adopted on · Summit theme · Participation · Terrorism · UN reform · Focus · Commitments include</li><li><b>Johannesburg Leaders&#x27; Declaration (G20)</b> — Summit · First G20 Summit on African soil · Theme · Ubuntu · Key issues · Mission 300</li><li><b>Other international declarations and emergency decisions</b> — Colombia · New York and New Jersey, USA · California, USA · Lebanon · Iran</li></ul></div><div class='brand'>RocketOne · Group 2 · Current Affairs</div><div class='num'></div></section><section class='s end'><h1>Questions?</h1><div class='kicker'>Declarations in news: states, heritage and international</div><div class='foot'>RocketOne · Group 2</div></section><script>function __layout() {
+    const P = [{"title": "States and UTs declared fully literate", "part": "Part 1 of 12", "items": [{"k": "t", "head": ["State / UT", "Date", "Declaration", "Notes"], "rows": [["<b>Ladakh</b>", "24 June 2024", "Fully literate administrative unit", "First non-state administrative unit to declare full literacy."], ["<b>Mizoram</b>", "20 May 2025", "Fully literate state", "Declared by Chief Minister Lalduhoma under ULLAS; described as India&#x27;s first fully literate state."], ["<b>Himachal Pradesh</b>", "September 2025", "Fully literate state", "Literacy rate stated as 99.3% under ULLAS; fourth among states and fifth among States/UTs."], ["<b>Sikkim</b>", "27 May 2026", "Fully literate state", "Described as India&#x27;s fifth fully literate state."], ["<b>Uttarakhand</b>", "8 July 2026", "Fully literate state", "Adult literacy rate stated as 98.7%; described as India&#x27;s sixth fully literate state."], ["<b>Jammu and Kashmir</b>", "September 2026", "Fully literate UT", "Described as the 10th State/UT to achieve the status since June 2024."], ["<b>Lakshadweep</b>", "11 October 2026", "100% literate UT", "Declaration made by Administrator Praful Patel under ULLAS."]]}, {"k": "b", "h": "<b>Fully literate States/UTs include:</b> Ladakh, Mizoram, Goa, Tripura, Himachal Pradesh, Chandigarh, Andaman and Nicobar Islands, Sikkim, Uttarakhand, Jammu and Kashmir and Lakshadweep."}]}, {"title": "ULLAS", "part": "Part 2 of 12", "items": [{"k": "b", "h": "<b>Full name:</b> Understanding Lifelong Learning for All in Society."}, {"k": "b", "h": "<b>Full literacy threshold:</b> at least <b>95%</b> of the population aged 15 years and above should be able to read and write."}, {"k": "b", "h": "<b>Target group:</b> people aged 15 and above who missed formal schooling."}]}, {"title": "Naxal-free states", "part": "Part 3 of 12", "items": [{"k": "t", "head": ["State", "Status", "Date", "Notes"], "rows": [["<b>Madhya Pradesh</b>", "State free from Naxalism (state-wide)", "11 December 2025", "Following surrender of two Maoists in Balaghat district."], ["<b>Bihar</b>", "Naxal-free state; declared free of Naxal activities (Munger / state-wide)", "February 2026", "Surrender of the last armed Maoist, Suresh Koda, in Munger."], ["<b>Telangana</b>", "Naxal-free state (state-wide)", "April 2026", "Following the surrender of 42 cadres."]]}]}, {"title": "Other state firsts and titles", "part": "Part 4 of 12", "items": [{"k": "t", "head": ["Place", "Declaration", "Date / authority", "Notes"], "rows": [["<b>Sikkim</b>", "India&#x27;s first paperless State judiciary", "1 May 2026; CJI Justice Surya Kant", "Announced at the Conclave on Technology and Judicial Education in Gangtok."], ["<b>Kerala</b>", "Extreme Poverty–Free State (state-wide)", "1 November 2025; CM Pinarayi Vijayan", "Declared during a special session of the Legislative Assembly on Kerala Piravi. Kerala was the first state to achieve this status."], ["<b>Lucknow</b>", "First Zero Fresh Waste Dump City in Uttar Pradesh", "January 2026; Swachh Bharat Mission–Urban", "Third fresh-waste processing facility inaugurated at Shivari Plant; city achieved 100% scientific processing of municipal solid waste."], ["<b>Bela Gram</b>, Maharashtra", "First net-zero village in Maharashtra", "February 2026", "Bhandara district, Vidarbha region; attributed to panchayat leadership."], ["<b>Mizoram</b>", "Ginger Capital of India (state-wide)", "December 2025", "Recognition attributed to NITI Aayog."], ["<b>Jawahar Dweep Marine Oil Terminal</b>, Mumbai", "India&#x27;s first plastic-free (marine) oil terminal", "2 October 2026", "Declared plastic-free by Mumbai Port Authority."]]}]}, {"title": "Government declarations, policies and announcements", "part": "Part 5 of 12", "items": [{"k": "t", "head": ["Subject", "Declaration / decision", "Notes"], "rows": [["<b>Defence</b>", "2025 declared the &quot;Year of Reforms&quot;", "Ministry of Defence; focus on jointness, integration and future-readiness of the armed forces."], ["<b>Jal Jeevan Mission</b>", "Villages to be declared &quot;Har Ghar Jal&quot;", "Gram Panchayats certify completion only after adequate operation and maintenance arrangements are ensured."], ["<b>National Startup Day</b>", "16 January declared National Startup Day", "Declared by PM Narendra Modi in 2022."], ["<b>International Yoga Day</b>", "21 June declared International Yoga Day", "United Nations declaration on 11 December 2014."], ["<b>Limestone</b>", "Reclassified as a major mineral", "Effective 10 October 2025 under the MMDR Act, 1957; removes the previous distinction between minor and industrial major uses."], ["<b>Indian Standard Time</b>", "&quot;One Nation, One Time&quot; framework notified", "Legal Metrology (Indian Standard Time) Rules, 2026 notified on 27 August 2026 by Department of Consumer Affairs."], ["<b>Uttar Pradesh</b>", "Raj Bhavan renamed Jan Bhavan", "Officially renamed on 21 January 2026."], ["<b>Maharashtra / Mumbai Port</b>", "Jawahar Dweep declared plastic-free", "2 October 2026; first plastic-free marine oil terminal in India."]]}]}, {"title": "UNESCO Tentative List: five new entries", "part": "Part 6 of 12", "items": [{"k": "x", "h": "<div class='box rem'><span>REMEMBER</span><b>5 heritage entries</b> were added to India&#x27;s UNESCO Tentative List on <b>29 September 2026</b>, taking the total to <b>78</b>.</div>"}, {"k": "t", "head": ["Entry", "Location", "Notes"], "rows": [["<b>Bagh Cave Paintings</b>", "Madhya Pradesh", "Nine Buddhist caves beside the Baghni River."], ["<b>Udayagiri Caves</b>", "Madhya Pradesh", "20 caves, developed mainly in the late fourth and early fifth centuries under Gupta patronage."], ["<b>Chambal Valley Temples</b>", "Madhya Pradesh", "Bateshwar, Padavali and Kakanmath; Nagara architecture associated with Gurjara-Pratihara and Kachchhapaghata patronage."], ["<b>Ginnorgarh Fort</b>", "Sehore district, Madhya Pradesh", "Fortified capital of the Raj Gond."], ["<b>Sites of Satyagraha</b>", "India and South Africa", "Proposed transnational serial property with nine sites: seven in India and two in South Africa."]]}, {"k": "h", "h": "Sites of Satyagraha: the nine sites"}, {"k": "t", "head": ["Site", "Place"], "rows": [["<b>Pietermaritzburg Railway Station</b>", "South Africa"], ["<b>Phoenix Settlement</b>", "South Africa"], ["<b>Mahatma Gandhi Satyagraha Smarak</b>", "East Champaran, Bihar"], ["<b>Sabarmati Ashram</b>", "Ahmedabad, Gujarat"], ["<b>Mani Bhavan</b>", "Mumbai, Maharashtra"], ["<b>Harijan Sevak Sangh</b>", "Delhi"], ["<b>Sevagram Ashram</b>", "Wardha, Maharashtra"], ["<b>Aga Khan Palace</b>", "Pune, Maharashtra"], ["<b>Gandhi Smriti</b>", "Delhi"]]}]}, {"title": "Other environmental and heritage declarations", "part": "Part 7 of 12", "items": [{"k": "t", "head": ["Place", "Status", "Notes"], "rows": [["<b>Parvati Arga Bird Sanctuary</b>, Uttar Pradesh", "Eco-Sensitive Zone", "Located in Gonda district; declaration by Government of India."], ["<b>Kalinjar Fort region</b>, Uttar Pradesh", "Geo-Heritage Site of National Importance", "Geological Survey of India recognised the Eparchaean Unconformity near Kalinjar Fort, Banda district; GSI resolution on 6 March 2026."], ["<b>Ladakh</b>", "23 heritage sites declared Protected Monuments", "Notification approved on 30 July 2026 by Lieutenant Governor Vinai Kumar Saxena."], ["<b>Jawahar Dweep</b>", "Plastic-free marine oil terminal", "Mumbai Port; 2 October 2026."], ["<b>Bela Gram</b>", "Net-zero village", "Bhandara district, Maharashtra; February 2026."]]}]}, {"title": "International declarations and summit outcomes", "part": "Part 8 of 12", "items": [{"k": "t", "head": ["Declaration", "Organisation / event", "Date and venue", "Key outcomes"], "rows": [["<b>Bishkek Declaration</b>", "Shanghai Cooperation Organisation (SCO) Summit", "31 August–1 September 2026, Bishkek, Kyrgyz Republic", "28 documents adopted covering security, emergencies, climate, energy and institutional cooperation."], ["<b>Delhi Declaration</b>", "First BIMSTEC Home Ministers&#x27; Meeting", "13 October 2026, New Delhi", "Cooperation against terrorism, organised crime, drug and human trafficking, cybercrime, money laundering and terror financing."], ["<b>New Delhi BRICS Leaders&#x27; Declaration</b> (&quot;New Delhi BRICS Leaders&#x27; Declaration 2026&quot;)", "BRICS Summit 2026", "12 September 2026, Bharat Mandapam, New Delhi", "Cooperation and interests of the Global South; condemned the 22 April 2025 Jammu and Kashmir terrorist attack."], ["<b>Guwahati Declaration on Drug Control</b>", "BRICS Heads of Anti-Drug Agencies Meeting", "7 July 2026, Guwahati", "Cooperation against illicit drug trafficking, synthetic drugs and transnational organised crime."], ["<b>Indore Declaration</b>", "BRICS Agriculture Conference", "9–13 June 2026, Indore", "Sustainable farming, digital agriculture and farmers&#x27; welfare."], ["<b>Johannesburg Leaders&#x27; Declaration</b>", "G20 Summit 2025", "22–23 November 2025, Johannesburg, South Africa", "Debt relief, climate finance, food security, energy transition and multilateral reforms."], ["<b>Bangkok Declaration</b>", "Establishment of ASEAN", "8 August 1967", "Established ASEAN with five founding members: Indonesia, Malaysia, Philippines, Singapore and Thailand."], ["<b>Quad joint declarations</b>", "52nd G7 Summit-related engagements", "15–17 June 2026, Évian-les-Bains, France", "Joint declarations addressed public health and technology, migration and crime, and economy and supply chains."]]}]}, {"title": "Bishkek Declaration (SCO) and Delhi Declaration (BIMSTEC)", "part": "Part 9 of 12", "items": [{"k": "h", "h": "Bishkek Declaration — SCO"}, {"k": "b", "h": "<b>Adopted at:</b> the <b>26th SCO Summit</b>; venue Bishkek, Kyrgyz Republic."}, {"k": "b", "h": "<b>Chair:</b> President <b>Sadyr Japarov</b>."}, {"k": "b", "h": "<b>Occasion:</b> 25th anniversary of SCO."}, {"k": "b", "h": "<b>Documents:</b> 28 documents approved; areas: security, emergency response, climate, energy and institutional cooperation."}, {"k": "h", "h": "Delhi Declaration — BIMSTEC"}, {"k": "b", "h": "<b>Adopted at:</b> the first Home Ministers&#x27; Meeting, held on <b>13 October 2026</b>."}, {"k": "b", "h": "<b>Chaired by:</b> Union Home Minister <b>Amit Shah</b>; all seven BIMSTEC members participated."}, {"k": "b", "h": "<b>Origin:</b> the ministerial mechanism was proposed at the 4th BIMSTEC Summit, Kathmandu (2018), and welcomed at the 6th Summit, Bangkok (2025)."}, {"k": "b", "h": "<b>Key areas:</b> terrorism, organised crime, trafficking, cybercrime, money laundering and terror financing."}]}, {"title": "BRICS declarations of 2026", "part": "Part 10 of 12", "items": [{"k": "h", "h": "New Delhi BRICS Leaders&#x27; Declaration"}, {"k": "b", "h": "<b>Adopted on:</b> 12 September 2026."}, {"k": "b", "h": "<b>Summit theme:</b> &quot;Building for Resilience, Innovation, Cooperation and Sustainability.&quot;"}, {"k": "b", "h": "<b>Participation:</b> 32 delegations: 11 member states, 10 partner states, four regional organisations and seven international organisations."}, {"k": "b", "h": "<b>Terrorism:</b> condemned the 22 April 2025 Jammu and Kashmir terrorist attack."}, {"k": "b", "h": "<b>UN reform:</b> supported greater representation of India and Brazil in the United Nations, including the Security Council."}, {"k": "h", "h": "Guwahati Declaration on Drug Control"}, {"k": "b", "h": "<b>Adopted on:</b> 7 July 2026 at Guwahati, Assam, at the BRICS Heads of Anti-Drug Agencies Meeting."}, {"k": "b", "h": "<b>Focus:</b> illicit drug trafficking, synthetic drugs and transnational organised crime."}, {"k": "b", "h": "<b>Commitments include:</b> real-time intelligence sharing, cross-border cooperation and use of AI and technology."}, {"k": "h", "h": "Indore Declaration"}, {"k": "b", "h": "<b>Adopted at:</b> the BRICS Agriculture Conference, 9–13 June 2026; <b>21 countries</b> participated."}, {"k": "b", "h": "<b>Focus:</b> sustainable agriculture, digital agriculture, food and nutrition security, climate-resilient farming, global supply chains and farmers&#x27; welfare."}]}, {"title": "Johannesburg Leaders' Declaration (G20)", "part": "Part 11 of 12", "items": [{"k": "b", "h": "<b>Summit:</b> G20 Summit held on 22–23 November 2025."}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span><b>First G20 Summit on African soil.</b></div>"}, {"k": "b", "h": "<b>Theme:</b> &quot;Solidarity, Equality, Sustainability.&quot;"}, {"k": "b", "h": "<b>Ubuntu:</b> reflects the African philosophy of Ubuntu (shared humanity)."}, {"k": "b", "h": "<b>Key issues:</b> debt relief, climate finance, food security, energy transition and multilateral reforms."}, {"k": "b", "h": "<b>Mission 300:</b> supported Mission 300, which targets electricity access for 300 million Africans by 2030."}]}, {"title": "Other international declarations and emergency decisions", "part": "Part 12 of 12", "items": [{"k": "t", "head": ["Country / authority", "Declaration / decision", "Date", "Notes"], "rows": [["<b>Colombia</b>", "State of emergency following earthquake", "10 August 2026", "7.4-magnitude earthquake; epicentre near San José del Palmar, Chocó Department."], ["<b>New York and New Jersey, USA</b>", "Proclamations designating 15 August as India Independence Day", "August 2026", "Issued ahead of India&#x27;s 80th Independence Day celebrations."], ["<b>California, USA</b>", "Assembly Bill 1267 signed into law", "30 September 2026", "Minimum age for marriage and domestic partnerships set at 18, effective 1 January 2027."], ["<b>Lebanon</b>", "Parliament voted to abolish the death penalty", "11 August 2026", "Lebanon was the first Arab country to formally abolish the death penalty."], ["<b>Iran</b>", "Declaration concerning closure of Strait of Hormuz", "", ""]]}]}], APP = "RocketOne \u00b7 Group 2", SUBJ = "Current Affairs", TOPIC = "Declarations in news: states, heritage and international";
+    const host = document.getElementById('parts');
+    function mk(cls, html) { const d = document.createElement('div'); if (cls) d.className = cls; if (html != null) d.innerHTML = html; return d; }
+    function newSlide(p, cont) {
+      const s = mk('s'); s.innerHTML = `<div class='bar'><span class='p'>${p.part}</span><span class='t'>${TOPIC}</span></div>
+        <div class='inner'><h2>${p.title}<span class='cont'></span></h2><div class='body'></div></div>
+        <div class='brand'>${APP} · ${SUBJ}</div><div class='num'></div>`;
+      host.appendChild(s); return s.querySelector('.body');
+    }
+    const over = b => b.scrollHeight > b.clientHeight + 1;
+    for (const p of P) {
+      const made = []; let body = newSlide(p); made.push(body);
+      const fresh = () => { body = newSlide(p); made.push(body); };
+      let ul = null;
+      for (let i = 0; i < p.items.length; i++) {
+        const it = p.items[i];
+        if (it.k === 'b') {
+          if (!ul || ul.parentNode !== body || body.lastChild !== ul) { ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); }
+          const li = document.createElement('li'); li.innerHTML = it.h; ul.appendChild(li);
+          if (over(body) && body.childNodes.length > 1 || over(body) && ul.childNodes.length > 1) {
+            li.remove(); if (!ul.childNodes.length) ul.remove();
+            const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null;
+            fresh(); if (carry) body.appendChild(carry);
+            ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); ul.appendChild(li);
+          }
+          continue;
+        }
+        ul = null;
+        if (it.k === 'h') { body.appendChild(mk('sub', it.h)); if (over(body) && body.childNodes.length > 1) { const h = body.lastChild; h.remove(); fresh(); body.appendChild(h); } continue; }
+        if (it.k === 'x') { const d = mk(null, it.h).firstChild; body.appendChild(d); if (over(body) && body.childNodes.length > 1) { d.remove(); const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; fresh(); if (carry) body.appendChild(carry); body.appendChild(d); } continue; }
+        if (it.k === 't') {
+          const head = it.head.length ? '<tr>' + it.head.map(c => `<th>${c}</th>`).join('') + '</tr>' : '';
+          const newTable = () => { const t = document.createElement('table'); t.innerHTML = head; body.appendChild(t); return t.tBodies[0] || t; };
+          let tb = newTable();
+          for (const r of it.rows) {
+            const tr = document.createElement('tr'); tr.innerHTML = r.map(c => `<td>${c}</td>`).join(''); tb.appendChild(tr);
+            if (over(body) && (tb.querySelectorAll('td').length > r.length || body.childNodes.length > 1)) {
+              tr.remove();
+              const t = tb.closest('table'); let carry = null;
+              if (!t.querySelector('td')) { t.remove(); carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; }
+              fresh(); if (carry) body.appendChild(carry); tb = newTable(); tb.appendChild(tr);
+            }
+          }
+        }
+      }
+      made.forEach((b, k) => { if (made.length > 1) b.parentNode.querySelector('.cont').textContent = ` (${k + 1}/${made.length})`; });
+    }
+    host.replaceWith(...host.childNodes);
+    const all = document.querySelectorAll('section.s, div.s');
+    all.forEach((s, k) => { const n = s.querySelector('.num'); if (n) n.textContent = `${k + 1} / ${all.length}`; });
+    }</script><script>function __deck() {
+(function () {
+  // static slides (title, plan, recap, quick check) that overflow this screen are split, item by item
+  function split(s) {
+    const inner = s.querySelector('.inner'); const box = s.querySelector('.qs2, ul.recap, ol.plan');
+    if (!inner || !box) return;
+    const moved = [];
+    while (inner.scrollHeight > inner.clientHeight + 1 && box.children.length > 1) moved.unshift(box.lastElementChild), box.lastElementChild.remove();
+    if (!moved.length) return;
+    const c = s.cloneNode(true); const cb = c.querySelector('.qs2, ul.recap, ol.plan');
+    cb.innerHTML = ''; moved.forEach(m => cb.appendChild(m));
+    s.after(c); split(c);
+  }
+  document.querySelectorAll('section.s').forEach(split);
+  const all = [...document.querySelectorAll('section.s, div.s')], N = all.length;
+  all.forEach((s, i) => { s.setAttribute('role', 'group'); s.setAttribute('aria-roledescription', 'slide'); s.setAttribute('aria-label', `Slide ${i + 1} of ${N}`); });
+  document.documentElement.classList.add('deck');
+  const ctl = document.createElement('div'); ctl.id = 'ctl';
+  ctl.innerHTML = `<button id='cl' aria-label='Close lecture'>✕</button><button id='pv' aria-label='Previous slide'>‹</button>
+    <span id='ct' role='status' aria-live='polite'></span><button id='nx' aria-label='Next slide'>›</button><div id='pg' aria-hidden='true'></div>`;
+  document.body.appendChild(ctl);
+  const A = window.Android, ct = ctl.querySelector('#ct'), pg = ctl.querySelector('#pg');
+  const h = new URLSearchParams(location.hash.slice(1));
+  let cur = h.has('end') ? N - 1 : Math.min(N - 1, Math.max(0, Math.round(parseFloat(h.get('p') || '0') * (N - 1))));
+  function show(i) {
+    all[cur].classList.remove('on'); cur = i; all[cur].classList.add('on');
+    ct.textContent = `${cur + 1} / ${N}`; pg.style.width = `${(cur + 1) / N * 100}%`;
+    try { history.replaceState(null, '', '#p=' + (N > 1 ? cur / (N - 1) : 0)); } catch (e) {}
+    scrollTo(0, 0); diag();
+  }
+  // if the slide shown is still not on the screen, say what the screen reports (to fix it)
+  function diag() {
+    const r = all[cur].getBoundingClientRect(), bad = r.width < 100 || r.height < 100 || r.bottom < 50 || r.top > innerHeight - 50;
+    let d = document.getElementById('diag');
+    if (!bad) { if (d) d.remove(); return; }
+    if (!d) { d = document.createElement('div'); d.id = 'diag'; document.body.appendChild(d); }
+    d.textContent = `slide ${Math.round(r.left)},${Math.round(r.top)} ${Math.round(r.width)}x${Math.round(r.height)} | inner ${innerWidth}x${innerHeight} | client ${document.documentElement.clientWidth}x${document.documentElement.clientHeight} | laid ${window.__laid} | dpr ${devicePixelRatio} | scroll ${scrollY} | display ${getComputedStyle(all[cur]).display}`;
+  }
+  const next = () => cur < N - 1 ? show(cur + 1) : (A && A.next());
+  const prev = () => cur > 0 ? show(cur - 1) : (A && A.prev());
+  ctl.querySelector('#nx').onclick = e => { e.stopPropagation(); next(); };
+  ctl.querySelector('#pv').onclick = e => { e.stopPropagation(); prev(); };
+  ctl.querySelector('#cl').onclick = e => { e.stopPropagation(); A && A.close(); };
+  // tap the left third for the previous slide, anywhere else for the next; or swipe; or the arrow keys
+  let x0 = null, y0 = null, swiped = false;
+  document.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; swiped = false; }, { passive: true });
+  document.addEventListener('touchend', e => {
+    if (x0 == null) return; const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) { swiped = true; dx < 0 ? next() : prev(); } x0 = null;
+  }, { passive: true });
+  document.addEventListener('click', e => { if (swiped || e.target.closest('button')) return; e.clientX < innerWidth * 0.3 ? prev() : next(); });
+  document.addEventListener('keydown', e => {
+    if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(e.key)) { e.preventDefault(); next(); }
+    if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(e.key)) { e.preventDefault(); prev(); }
+  });
+  // turned the phone: lay the slides out again for the new shape, at the same point of the lecture
+  let t;
+  addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => {
+    const [w0, h0] = window.__laid || [0, 0], W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+    if (Math.abs(W - w0) > w0 * .08 || Math.abs(H - h0) > h0 * .08) location.reload(); }, 300); });
+  all[cur].classList.add('on'); show(cur);
+})();
+}
+try { history.scrollRestoration = 'manual'; } catch (e) {}
+(function start(tries) {
+  // lay out only on a real, settled landscape screen; sizes in pixels (a WebView can report 0 x 0, a narrow or a
+  // short screen while the phone turns, and some give 0 for vh units)
+  const W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+  const ok = W > 240 && H > 200 && (!window.Android || W > H || tries > 60);
+  if (!ok) return setTimeout(() => start(tries + 1), 50);
+  const r = document.documentElement.style;
+  r.setProperty('--W', W + 'px'); r.setProperty('--H', H + 'px');
+  r.setProperty('--f', Math.round(Math.max(14, Math.min(27, Math.min(W * .024, H * .044)))) + 'px');
+  window.__laid = [W, H];
+  __layout(); __deck();
+  // a sane layout has room on its slides; if not (the screen changed under us), lay out again
+  const b = document.querySelector('.s .body');
+  if (b && b.clientHeight < 120 && tries < 100) setTimeout(() => location.reload(), 300);
+})(0);
+</script></body></html>

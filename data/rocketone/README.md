@@ -25,6 +25,11 @@ Rows that no syllabus line names (other dynasties, pure sociology, economists) a
 Sheets" in their subject. Lectures of one or two lines are gathered into a "Short notes" lecture per subject. Rocket's
 own asides ("according to the source", "in cited PYQ") are stripped from the slides by `tidy()` in the build.
 
+**Group 2 edition:** the same lectures filed under the Group 2 syllabus (`GUIDE-G2MAP.md` -> `g2map/*.json`, one
+Group 2 syllabus line per lecture; `collect_g2` in the build). Lectures no Group 2 line covers (general science, world
+geography records, some all-India dynasties, a few economy topics) sit in a last subject, "More from the Rocket Sheets".
+The app shows both editions on its home screen.
+
 App: flavor `rocketone` (`./gradlew :app:assembleRocketoneRelease`, package `com.appsc.prep.rocketone`).
 
 Known limits: lines were web-checked only where they looked wrong or contradicted another line, so an unflagged Rocket

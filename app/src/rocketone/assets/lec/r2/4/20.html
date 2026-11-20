@@ -1,0 +1,224 @@
+<!doctype html><html><head><meta charset='utf-8'><style>
+    @page { size: 13.333in 7.5in; margin: 0 }
+    * { box-sizing: border-box }
+    body { margin: 0; font-family: Inter, 'Noto Sans', 'Noto Sans Telugu', Arial, sans-serif; color: #1f2430 }
+    section.s, div.s { width: 13.333in; height: 7.5in; position: relative; overflow: hidden; page-break-after: always; background: #fff }
+    .s.title, .s.end { background: linear-gradient(135deg, #1e2a5a 0%, #2f3f8f 60%, #4458c4 100%); color: #fff; padding: 0.9in 1in }
+    .s.title h1, .s.end h1 { font-size: 40px; line-height: 1.18; margin: 14px 0 22px; font-weight: 800; max-width: 11in }
+    .kicker { font-size: 15px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .8; font-weight: 600 }
+    .syl { background: rgba(255,255,255,.1); border-radius: 12px; padding: 16px 22px; max-width: 11.3in }
+    .syl .lab { font-size: 12px; letter-spacing: 1.5px; font-weight: 700; opacity: .75; margin-bottom: 6px }
+    .syl ul { margin: 0; padding-left: 20px; font-size: 18px; line-height: 1.5 }
+    .foot { position: absolute; bottom: .55in; left: 1in; font-size: 14px; opacity: .75 }
+    .bar { position: absolute; top: 0; left: 0; right: 0; height: .5in; background: #1e2a5a; color: #fff; display: flex; align-items: center;
+           padding: 0 .55in; font-size: 13px; letter-spacing: .5px; gap: 18px }
+    .bar .p { font-weight: 700; color: #f6c453 }
+    .bar .t { opacity: .85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+    .inner { position: absolute; top: .72in; left: .6in; right: .6in; bottom: .45in; display: flex; flex-direction: column }
+    h2 { font-size: 30px; margin: 0 0 12px; color: #1e2a5a; font-weight: 800; border-left: 6px solid #f6a623; padding-left: 14px }
+    h2 .cont { font-size: 16px; color: #8a90a6; font-weight: 600 }
+    .body { font-size: 23px; line-height: 1.4; flex: 1; overflow: hidden }
+    .sub { font-size: 23px; font-weight: 800; color: #2f3f8f; margin: 10px 0 4px }
+    ul.pts { margin: 4px 0; padding-left: 24px }
+    ul.pts li { margin: 4px 0 }
+    ul.pts li::marker { color: #f6a623 }
+    b { color: #13194a }
+    table { border-collapse: collapse; width: 100%; font-size: 19px; line-height: 1.3; margin: 6px 0 8px }
+    th { background: #2f3f8f; color: #fff; text-align: left; padding: 7px 10px; font-weight: 700 }
+    th b { color: #fff }
+    td { padding: 6px 10px; border-bottom: 1px solid #e3e6f0; vertical-align: top }
+    tr:nth-child(even) td { background: #f5f7fc }
+    .box { border-radius: 10px; padding: 10px 16px; margin: 10px 0; font-size: 21px; line-height: 1.38 }
+    .box span { display: inline-block; font-size: 11.5px; font-weight: 800; letter-spacing: 1.2px; margin-right: 10px; padding: 2px 8px; border-radius: 5px }
+    .rem { background: #fff6e5; border-left: 5px solid #f6a623 } .rem span { background: #f6a623; color: #fff }
+    .set { background: #eaf6ee; border-left: 5px solid #2e9e5b } .set span { background: #2e9e5b; color: #fff }
+    .note { background: #eef1fb; border-left: 5px solid #4458c4 } .note span { background: #4458c4; color: #fff }
+    ol.plan { list-style: none; padding: 0; margin: 14px 0; columns: 2; column-gap: .5in; font-size: 23px }
+    ol.plan li { display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px; break-inside: avoid }
+    .n { flex: none; display: inline-flex; width: 30px; height: 30px; border-radius: 50%; background: #1e2a5a; color: #fff;
+         align-items: center; justify-content: center; font-weight: 700; font-size: 14px; margin-right: 10px }
+    .meta { color: #6b7185; font-size: 15px; margin-top: 8px }
+    .recap li { font-size: 21px; margin: 12px 0 }
+    .qs2 { display: grid; grid-template-columns: 1fr 1fr; gap: .35in }
+    .q { background: #f7f8fc; border-radius: 12px; padding: 18px 22px; font-size: 23px; line-height: 1.38 }
+    .qs { margin-bottom: 8px; display: flex }
+    ol.opts { list-style: none; padding: 0; margin: 0 }
+    ol.opts li { padding: 5px 10px; border-radius: 7px; margin: 3px 0; background: #fff; border: 1px solid #e3e6f0 }
+    ol.opts li.ok { background: #e3f5ea; border-color: #2e9e5b; font-weight: 700; color: #1d6b3d }
+    .src { color: #8a90a6; font-size: 14px; margin-top: 8px }
+    .num { position: absolute; bottom: .18in; right: .5in; font-size: 12px; color: #9aa0b4 }
+    .brand { position: absolute; bottom: .18in; left: .6in; font-size: 12px; color: #9aa0b4 }
+    </style><meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'><style>
+@media screen {
+  /* one slide = one screen, laid out for this phone: text sized to the screen (and the phone's font size) */
+  :root { --W: 100vw; --H: 100vh; --f: 16px } /* --W, --H, --f are set in pixels by START (no vw / vh: some WebViews give 0) */
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #0f1530; -webkit-tap-highlight-color: transparent }
+  section.s, div.s { width: var(--W) !important; height: var(--H) !important; margin: 0; page-break-after: auto }
+  .deck section.s, .deck div.s { display: none }
+  /* the slide shown is pinned to the screen: no scroll position (a reload restores one) can move it away */
+  .deck section.s.on, .deck div.s.on { display: block; position: fixed !important; left: 0; top: 0; z-index: 1 }
+  #diag { position: fixed; z-index: 20; left: 8px; top: 8px; right: 60px; font: 12px monospace; color: #ffd; background: rgba(0,0,0,.6); padding: 6px; white-space: pre-wrap }
+  .bar { height: calc(var(--f) * 2.1); font-size: calc(var(--f) * .7); padding: 0 64px 0 18px; gap: 10px }
+  .inner { top: calc(var(--f) * 2.7); left: 58px; right: 58px; bottom: 26px; overflow: hidden }
+  h2 { font-size: calc(var(--f) * 1.28); margin: 0 0 .5em; padding-left: 10px; border-left-width: 5px }
+  h2 .cont { font-size: .6em }
+  .body { font-size: var(--f) }
+  .sub { font-size: 1.04em; margin: .45em 0 .15em }
+  ul.pts { padding-left: 1.1em } ul.pts li { margin: .22em 0 }
+  table { font-size: .86em } th, td { padding: .35em .5em }
+  .box { font-size: .92em; padding: .45em .7em; margin: .45em 0 } .box span { font-size: .62em }
+  .s.title, .s.end { padding: calc(var(--H) * .07) calc(var(--W) * .06) } .s.title h1, .s.end h1 { font-size: calc(var(--f) * 1.75); margin: .4em 0 .6em }
+  .kicker { font-size: calc(var(--f) * .7) } .syl { padding: .7em 1em } .syl ul { font-size: calc(var(--f) * .92) }
+  .syl .lab { font-size: calc(var(--f) * .6) } .foot { bottom: 30px; left: calc(var(--W) * .06); font-size: calc(var(--f) * .7) }
+  ol.plan { font-size: var(--f); column-gap: 24px } ol.plan li { margin: 0 0 .5em } .n { width: 1.5em; height: 1.5em; font-size: .7em; margin-right: .5em }
+  .meta { font-size: calc(var(--f) * .75) }
+  .recap li { font-size: calc(var(--f) * .92); margin: .4em 0 }
+  .q { font-size: calc(var(--f) * .92); padding: .7em .9em } .src { font-size: .65em }
+  .qs2 { gap: 14px }
+  .brand, .num { display: none }
+  @media (orientation: portrait) { ol.plan { columns: 1 } .qs2 { grid-template-columns: 1fr } }
+  /* the controls: close, previous, slide n of N, next; a progress line */
+  #ctl button { position: fixed; z-index: 9; border: 0; border-radius: 50%; width: 48px; height: 48px; font-size: 26px; line-height: 48px;
+    background: rgba(15,21,48,.55); color: #fff; padding: 0 }
+  #ctl #cl { top: 4px; right: 8px; width: 42px; height: 42px; line-height: 42px; font-size: 20px; background: rgba(255,255,255,.18) }
+  #ctl #pv { top: 50%; left: 6px; transform: translateY(-50%) } #ctl #nx { top: 50%; right: 6px; transform: translateY(-50%) }
+  #ctl #pv, #ctl #nx { background: rgba(15,21,48,.28); color: #fff }
+  #ctl #ct { position: fixed; z-index: 9; bottom: 6px; right: 14px; font: 600 12px Inter, Arial, sans-serif;
+    color: #fff; background: rgba(15,21,48,.5); padding: 2px 10px; border-radius: 10px }
+  #ctl #pg { position: fixed; z-index: 9; bottom: 0; left: 0; height: 4px; background: #f6a623; transition: width .2s }
+  .s.title #x, .s.end #x { display: none }
+}
+</style></head><body><section class='s title'><div class='kicker'>Current Affairs · National - schemes, missions, portals, apps and launches</div>
+    <h1>Government programmes, schemes and campaigns in news</h1>
+    <div class="syl"><div class="lab">SYLLABUS LINES THIS LESSON COVERS</div><ul><li>National</li></ul></div>
+    <div class='foot'>RocketOne · Group 2 · lecture notes</div></section><section class='s'><div class='bar'><span class='p'>Lesson</span><span class='t'>Government programmes, schemes and campaigns in news</span></div><div class='inner'><h2>Lesson plan</h2><ol class='plan'><li><span class='n'>1</span>Rural skilling: DDU-GKY and DDU-GKY 2.0</li><li><span class='n'>2</span>Panchayati Raj planning and rural initiatives</li><li><span class='n'>3</span>GOBARdhan and bioenergy support</li><li><span class='n'>4</span>Health, nutrition and family welfare programmes</li><li><span class='n'>5</span>Medicine safety programmes</li><li><span class='n'>6</span>Rashtriya Poshan Maah 2026</li><li><span class='n'>7</span>ULLAS and fully literate States and UTs</li><li><span class='n'>8</span>Education, skill and governance programmes</li><li><span class='n'>9</span>Clean air: NCAP and Swachh Vayu Sarvekshan</li><li><span class='n'>10</span>Forests, wildlife, coasts and environment campaigns</li><li><span class='n'>11</span>Agriculture, fisheries and rural economy</li><li><span class='n'>12</span>Ethanol blending and biofuel programmes</li><li><span class='n'>13</span>Semiconductors, AI and technology programmes</li><li><span class='n'>14</span>Social assistance: NSAP renamed and continued</li><li><span class='n'>15</span>Financial inclusion, Bihar initiatives and other events</li></ol><div class='meta'>15 parts</div></div><div class='brand'>RocketOne · Group 2 · Current Affairs</div><div class='num'></div></section><div id='parts'></div><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Government programmes, schemes and campaigns in news</span></div><div class='inner'><h2>Recap</h2><ul class='pts recap'><li><b>Rural skilling: DDU-GKY and DDU-GKY 2.0</b> — DDU-GKY · DDU-GKY results · DDU-GKY 2.0 · Status · Training · Targets for 2026–28 · October 2026</li><li><b>Panchayati Raj planning and rural initiatives</b> — PPC 2026–27 method</li><li><b>GOBARdhan and bioenergy support</b> — GOBARdhan · What it does · Role in bioenergy · Biomass Aggregation Machinery Scheme · Approvals</li><li><b>Health, nutrition and family welfare programmes</b> — National Health Mission (NHM) · Ayushman Bharat – PM-JAY · Ayushman Bharat Digital Mission (ABDM) · Mission Poshan 2.0 · POSHAN Abhiyaan · Mission SEHAT · JANANI</li><li><b>Medicine safety programmes</b> — Biovigilance Programme of India · National Pharmacovigilance Week · Theme of the 6th edition · National Formulary of India (NFI)</li><li><b>Rashtriya Poshan Maah 2026</b> — Rashtriya Poshan Maah · Launched · Venue · Ministry · Campaign period · Theme · Focus</li><li><b>ULLAS and fully literate States and UTs</b> — ULLAS · Applies to · Full-literacy benchmark</li><li><b>Education, skill and governance programmes</b> — DDU-GKY 2.0 · Khelo India Programme · AI Champions for Digital Governance · UPSC Centenary Programme</li></ul></div><div class='brand'>RocketOne · Group 2 · Current Affairs</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Government programmes, schemes and campaigns in news</span></div><div class='inner'><h2>Recap (cont.)</h2><ul class='pts recap'><li><b>Clean air: NCAP and Swachh Vayu Sarvekshan</b> — National Clean Air Programme (NCAP) · Launched · Coverage · Performance-linked grant · Swachh Vayu Sarvekshan · 5th Swachh Vayu Sarvekshan Awards</li><li><b>Forests, wildlife, coasts and environment campaigns</b> — National Coastal Mission 2.0 · National Coastal Mission 2.0 work</li><li><b>Agriculture, fisheries and rural economy</b> — Coverage · Project cost · Subsidy · Women · Location · Modules · Combines</li><li><b>Ethanol blending and biofuel programmes</b> — Ethanol Blended Petrol (EBP) Programme · National Policy on Biofuels · SATAT · Ethanol Supply Year · From 1 April 2026 · E5, E10 and E20</li><li><b>Semiconductors, AI and technology programmes</b> — Semicon 2.0 · Notifications · Six pillars · Target</li><li><b>Social assistance: NSAP renamed and continued</b> — Assistance to · Cabinet approval · Continuation · Total outlay · Announced beneficiaries · Disability pension · Disability eligibility threshold</li><li><b>Financial inclusion, Bihar initiatives and other events</b> — Pradhan Mantri Jan Dhan Yojana (PMJDY)</li></ul></div><div class='brand'>RocketOne · Group 2 · Current Affairs</div><div class='num'></div></section><section class='s end'><h1>Questions?</h1><div class='kicker'>Government programmes, schemes and campaigns in news</div><div class='foot'>RocketOne · Group 2</div></section><script>function __layout() {
+    const P = [{"title": "Rural skilling: DDU-GKY and DDU-GKY 2.0", "part": "Part 1 of 15", "items": [{"k": "b", "h": "<b>DDU-GKY:</b> Deen Dayal Upadhyaya Grameen Kaushalya Yojana; launched 25 September 2014 under NRLM."}, {"k": "b", "h": "<b>DDU-GKY results:</b> more than 18.47 lakh candidates trained in 800+ job types; over 12.43 lakh secured employment."}, {"k": "b", "h": "<b>DDU-GKY 2.0:</b> Ministry of Rural Development; placement-linked skill training for poor rural youth."}, {"k": "b", "h": "<b>Status:</b> Centrally Sponsored Scheme under the National Rural Livelihoods Mission."}, {"k": "b", "h": "<b>Training:</b> courses of 3–12 months for youth aged 15–35."}, {"k": "b", "h": "<b>Targets for 2026–28:</b> more than nine lakh candidates&#x27; training targets allocated to 31 participating States/UTs."}, {"k": "b", "h": "<b>October 2026:</b> around 2,015 training batches for approximately 70,000 rural youth expected to begin across 24 States/UTs."}, {"k": "b", "h": "<b>Andhra Pradesh</b> had started training for more than 12,000 candidates in three months."}, {"k": "b", "h": "<b>Goa</b> was preparing to start training batches."}, {"k": "b", "h": "<b>Jammu and Kashmir</b> had allocated 100% of its assigned targets and commenced training against 91% of the allocation."}]}, {"title": "Panchayati Raj planning and rural initiatives", "part": "Part 2 of 15", "items": [{"k": "t", "head": ["Programme / initiative", "Ministry / agency and purpose", "Notes"], "rows": [["<b>People’s Plan Campaign (PPC) 2026–27</b>", "Ministry of Panchayati Raj", "Began 2 October 2026; theme “Sabki Yojana, Sabka Vikas”. Prepares Panchayat Development Plans for FY 2027–28."], ["<b>Jan Yojana Abhiyan</b>", "Another name for the People’s Plan Campaign", "First launched 2 October 2018; annual exercise to strengthen participatory, transparent and accountable rural governance."], ["<b>Village Prosperity and Resilience Plans (VPRPs)</b>", "SHG federations / Panchayati Raj planning", "Bring community priorities into Panchayat plans."], ["<b>DAANVEER Initiative</b>", "Ministry of Panchayati Raj / NIC", "Digital voluntary donation of equipment to Gram Panchayats; linked to DigiHaat and Meri Panchayat."]]}, {"k": "b", "h": "<b>PPC 2026–27 method:</b> Panchayat Development Plans are prepared through participatory and evidence-based planning."}]}, {"title": "GOBARdhan and bioenergy support", "part": "Part 3 of 15", "items": [{"k": "b", "h": "<b>GOBARdhan:</b> Government of India organic waste-to-wealth programme."}, {"k": "b", "h": "<b>What it does:</b> converts cattle dung, agricultural residue and municipal organic waste into biogas/CBG and organic manure (organic waste management, CBG production and organic manure)."}, {"k": "b", "h": "<b>Role in bioenergy:</b> consolidates CBG-related components and builds on SATAT and existing bioenergy programmes."}, {"k": "b", "h": "<b>Biomass Aggregation Machinery Scheme:</b> associated with GOBARdhan support; outlay ₹564.75 crore."}, {"k": "b", "h": "<b>Approvals:</b> by 16 March 2026, 37 proposals had received approvals worth nearly ₹248 crore."}]}, {"title": "Health, nutrition and family welfare programmes", "part": "Part 4 of 15", "items": [{"k": "t", "head": ["Programme", "Main purpose / Notes"], "rows": [["<b>National Health Mission (NHM)</b>", "Broad national framework for strengthening public healthcare; referenced in the health-policy context."], ["<b>Ayushman Bharat – PM-JAY</b>", "Financial protection for eligible families for hospitalisation; discussed alongside digital health infrastructure."], ["<b>Ayushman Bharat Digital Mission (ABDM)</b>", "Digital health ecosystem; supports ABHA, health records and interoperable digital-health services."], ["<b>Mission Poshan 2.0</b>", "Nutrition support and improvement of nutrition outcomes, including children, adolescent girls and mothers."], ["<b>POSHAN Abhiyaan</b>", "Launched 8 March 2018 at Jhunjhunu, Rajasthan; national nutrition mission."], ["<b>Mission SEHAT</b>", "Science Excellence for Health through Agricultural Transformation; mentioned in the health and agriculture interface."], ["<b>JANANI</b>", "Digital maternal, neonatal and child-health programme; integrates longitudinal health information and services."], ["<b>U-WIN</b>", "Digital platform for recording and managing immunisation services."], ["<b>e-VIN</b>", "Electronic Vaccine Intelligence Network; vaccine stock and cold-chain logistics monitoring."], ["<b>PM-RAHAT</b>", "Road accident victim treatment initiative; cashless treatment cover of up to ₹1.5 lakh for up to seven days."]]}]}, {"title": "Medicine safety programmes", "part": "Part 5 of 15", "items": [{"k": "b", "h": "<b>Biovigilance Programme of India:</b> Government-approved programme to strengthen safety monitoring of products used in organ and tissue transplantation."}, {"k": "b", "h": "<b>Pharmacovigilance Programme of India (PvPI):</b> monitoring and reporting adverse drug reactions; linked to the Indian Pharmacopoeia Commission."}, {"k": "b", "h": "<b>National Pharmacovigilance Week:</b> 6th edition held 17–23 September 2026."}, {"k": "b", "h": "<b>Theme of the 6th edition:</b> “Promoting Rational Use of Medicines through Pharmacovigilance – A Step Towards Safer Healthcare.”"}, {"k": "b", "h": "<b>National Formulary of India (NFI):</b> guidance document for rational and safe use of medicines in hospitals. The 7th edition was launched on 21 September 2026."}]}, {"title": "Rashtriya Poshan Maah 2026", "part": "Part 6 of 15", "items": [{"k": "b", "h": "<b>Rashtriya Poshan Maah:</b> nationwide (national) nutrition campaign; 2026 was the 9th edition."}, {"k": "b", "h": "<b>Launched:</b> 9 September 2026."}, {"k": "b", "h": "<b>Venue:</b> Rudraksh International Cooperation and Convention Centre, Varanasi, Uttar Pradesh."}, {"k": "b", "h": "<b>Ministry:</b> Women and Child Development."}, {"k": "b", "h": "<b>Campaign period:</b> 9 September–8 October 2026."}, {"k": "b", "h": "<b>Theme:</b> “Hamari Anganwadi, Hamari Jimmedari” – “Our Anganwadi, Our Responsibility”."}, {"k": "b", "h": "<b>Focus:</b> Anganwadi Centres as the centre of community action for nutrition, maternal care and early childhood development."}]}, {"title": "ULLAS and fully literate States and UTs", "part": "Part 7 of 15", "items": [{"k": "b", "h": "<b>ULLAS:</b> Understanding Lifelong Learning for All in Society; adult literacy programme."}, {"k": "b", "h": "<b>Applies to</b> people aged 15 years and above who missed formal schooling."}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span><b>Full-literacy benchmark:</b> a State/UT is considered fully literate when at least 95% of its population aged 15 and above can read and write.</div>"}, {"k": "t", "head": ["State / UT", "Declared", "Notes"], "rows": [["<b>Mizoram</b>", "20 May 2025", "Declared fully literate; described as the first State to achieve the status."], ["<b>Sikkim</b>", "27 May 2026", "Declared fully literate."], ["<b>Uttarakhand</b>", "8 July 2026", "Declared fully literate, with an adult literacy rate of 98.7%."], ["<b>Jammu and Kashmir</b>", "September 2026", "Declared fully literate."], ["<b>Lakshadweep</b>", "11 October 2026", "Declared 100% literate."]]}]}, {"title": "Education, skill and governance programmes", "part": "Part 8 of 15", "items": [{"k": "t", "head": ["Programme / initiative", "Notes"], "rows": [["<b>DDU-GKY 2.0</b>", "Placement-linked rural youth skill training."], ["<b>Khelo India Programme</b>", "Ministry of Youth Affairs and Sports; referenced in the preliminary question section."], ["<b>AI Champions for Digital Governance</b>", "Summit/programme reference in the technology and governance events calendar; no separate operational notes provided."], ["<b>UPSC Centenary Programme</b>", "Year-long activities (celebrations) from 1 October 2025 to 1 October 2026, including the two-day “Manthan” centenary event at Bharat Mandapam, New Delhi, on 30 September–1 October 2026."]]}]}, {"title": "Clean air: NCAP and Swachh Vayu Sarvekshan", "part": "Part 9 of 15", "items": [{"k": "b", "h": "<b>National Clean Air Programme (NCAP):</b> flagship initiative to improve air quality."}, {"k": "b", "h": "<b>Launched:</b> 10 January 2019."}, {"k": "b", "h": "<b>Coverage:</b> 130 cities across 24 States/UTs."}, {"k": "b", "h": "<b>Performance-linked grant:</b> ₹16,425 crore provided as critical-gap funding for pollution-mitigation measures."}, {"k": "b", "h": "<b>Swachh Vayu Sarvekshan:</b> performance assessment of cities and wards under NCAP."}, {"k": "b", "h": "<b>5th Swachh Vayu Sarvekshan Awards:</b> presented on 7 September 2026."}, {"k": "b", "h": "<b>Compendium of Best Management Practices under NCAP:</b> released during Swachh Vayu Diwas 2026."}]}, {"title": "Forests, wildlife, coasts and environment campaigns", "part": "Part 10 of 15", "items": [{"k": "t", "head": ["Programme", "Notes"], "rows": [["<b>Indian Forest and Wood Certification Scheme (IFWCS)</b>", "Launched in December 2023; promotes sustainable forest management and certification of forest-based products."], ["<b>PRAMAAN</b>", "Programme for Recognition and Accreditation of Sustainable Management Practices for Agroforestry and Natural Forestry Resources; certification instrument under IFWCS."], ["<b>PRAMAAN / IFWCS</b>", "Supports sustainable agroforestry and natural-forest management certification."], ["<b>Project Great Indian Bustard (GIB)</b>", "Conservation breeding programme; 26 chicks hatched in the fourth year of captive breeding and a captive stock of 94 birds."], ["<b>Project Cheetah</b>", "Wildlife conservation programme; launched 17 September 2022 at Kuno National Park; expanded to Gandhi Sagar Wildlife Sanctuary in 2025."], ["<b>Green Diwali Campaign</b>", "WWF-India programme supported by the Ministry of Environment, Forest and Climate Change; campaign period 20 October–8 November 2026."], ["<b>Project Him Sarovar</b>", "Ladakh snow-harvesting and water-security initiative."], ["<b>World Environment Day / Green Diwali Campaign</b>", "Environmental awareness campaigns and activities."]]}, {"k": "b", "h": "<b>National Coastal Mission 2.0:</b> Ministry of Environment, Forest and Climate Change; Central Sector Scheme with ₹767 crore outlay for 2025–26 to 2030–31."}, {"k": "b", "h": "<b>National Coastal Mission 2.0 work:</b> coordinates coastal and marine ecosystem conservation, climate resilience and sustainable livelihoods."}]}, {"title": "Agriculture, fisheries and rural economy", "part": "Part 11 of 15", "items": [{"k": "t", "head": ["Programme / initiative", "Notes"], "rows": [["<b>Pradhan Mantri Matsya Sampada Yojana (PMMSY)</b>", "Fisheries development programme; supports artificial reef projects and fish-seed infrastructure."], ["<b>Tamil Nadu Artificial Reef Programme</b>", "Phase II pilot using 3D-printed artificial reef modules off Rameswaram, supported under PMMSY."], ["<b>Bharat-VISTAAR</b>", "AI-based agricultural digital public infrastructure; launched 17 February 2026 in Jaipur."], ["<b>Mission for Cotton Productivity</b>", "Agricultural productivity initiative; approved outlay ₹5,659.22 crore."], ["<b>Mini Nandini Krishak Samriddhi Yojana</b>", "Uttar Pradesh dairy-development scheme; supports 10 indigenous cows of Sahiwal, Gir or Tharparkar breeds."]]}, {"k": "h", "h": "Mini Nandini Krishak Samriddhi Yojana"}, {"k": "b", "h": "<b>Coverage:</b> all Uttar Pradesh districts."}, {"k": "b", "h": "<b>Project cost:</b> ₹23.60 lakh."}, {"k": "b", "h": "<b>Subsidy:</b> 50%, up to ₹11.80 lakh."}, {"k": "b", "h": "<b>Women:</b> half of the beneficiaries are to be women."}, {"k": "h", "h": "Tamil Nadu artificial reef pilot"}, {"k": "b", "h": "<b>Location:</b> off Rameswaram, Ramanathapuram district."}, {"k": "b", "h": "<b>Modules:</b> uses 3D-printed artificial reef modules; each module weighs approximately one tonne."}, {"k": "b", "h": "<b>Combines</b> digital manufacturing, marine habitat restoration, fisheries development and coastal-community resilience."}]}, {"title": "Ethanol blending and biofuel programmes", "part": "Part 12 of 15", "items": [{"k": "b", "h": "<b>Ethanol Blended Petrol (EBP) Programme:</b> blends domestic ethanol with petrol to reduce crude-oil dependence, support farmers and rural industry, and lower transport emissions."}, {"k": "b", "h": "<b>National Policy on Biofuels:</b> policy framework supporting sustainable biofuels; 2018 policy and 2022 amendment."}, {"k": "b", "h": "<b>SATAT:</b> Sustainable Alternative Towards Affordable Transportation; supports compressed biogas production and use."}, {"k": "h", "h": "EBP – key chronology"}, {"k": "t", "head": ["Milestone", "When"], "rows": [["<b>Pilot project</b>", "2001"], ["<b>Programme launched</b>, initially in nine States and four Union Territories", "2003"], ["<b>E10 blending achieved</b>", "June 2022"], ["<b>Phased E20 rollout began</b>", "6 February 2023"]]}, {"k": "b", "h": "<b>Ethanol Supply Year</b> runs from 1 November to 31 October since November 2023."}, {"k": "b", "h": "<b>From 1 April 2026,</b> notified blended petrol requires a minimum Research Octane Number of 95."}, {"k": "b", "h": "<b>E5, E10 and E20</b> contain approximately 5%, 10% and 20% ethanol by volume respectively."}]}, {"title": "Semiconductors, AI and technology programmes", "part": "Part 13 of 15", "items": [{"k": "b", "h": "<b>Semicon 2.0:</b> semiconductor ecosystem programme approved by the Union Cabinet on 15 July 2026; outlay ₹1,27,500 crore."}, {"k": "b", "h": "<b>Notifications</b> covering all six pillars issued: 31 August 2026."}, {"k": "b", "h": "<b>Six pillars:</b> 1. Design; 2. Machines and materials; 3. More fabrication plants; 4. Advanced packaging; 5. Research and development; 6. Talent development."}, {"k": "b", "h": "<b>Target:</b> support 200 semiconductor design start-ups and train one lakh technicians over five years."}, {"k": "t", "head": ["Programme", "Notes"], "rows": [["<b>India Semiconductor Mission</b>", "Supports semiconductor manufacturing, fabrication, packaging, design and related ecosystem development."], ["<b>AIKosh University Engagement Programme</b>", "Listed in the contents; detailed implementation information is not available."], ["<b>IndiaAI Mission</b>", "AI ecosystem development; referenced alongside AIKosh and AI-related initiatives."], ["<b>NIDAR 2.0</b>", "Drone and technology development initiative under the SwaYaan context."], ["<b>Bharat EduAI Stack / Bodhan AI</b>", "Education and AI initiatives referenced in the technology section."]]}]}, {"title": "Social assistance: NSAP renamed and continued", "part": "Part 14 of 15", "items": [{"k": "b", "h": "<b>National Social Assistance Programme (NSAP):</b> launched 15 August 1995."}, {"k": "b", "h": "<b>Assistance to:</b> elderly persons, widows, persons with disabilities and families affected by the death of the primary breadwinner."}, {"k": "t", "head": ["New name", "Earlier name"], "rows": [["<b>Pradhan Mantri Samajik Sahayata Yojana</b>", "National Social Assistance Programme (new approved name for NSAP)"], ["<b>Pradhan Mantri Vriddhavastha Pension Yojana</b>", "Indira Gandhi National Old Age Pension Scheme"], ["<b>Pradhan Mantri Vidhwa Pension Yojana</b>", "Indira Gandhi National Widow Pension Scheme"], ["<b>Pradhan Mantri Divyangjan Pension Yojana</b>", "Indira Gandhi National Disability Pension Scheme"], ["<b>Pradhan Mantri Parivar Labh Yojana</b>", "National Family Benefit Scheme"]]}, {"k": "h", "h": "Continuation and renaming"}, {"k": "b", "h": "<b>Cabinet approval:</b> 14 October 2026."}, {"k": "b", "h": "<b>Continuation:</b> FY 2026–27 to 2030–31."}, {"k": "b", "h": "<b>Total outlay:</b> ₹53,428 crore."}, {"k": "b", "h": "<b>Announced beneficiaries:</b> 3.20 crore across 36 States/UTs."}, {"k": "b", "h": "<b>Disability pension:</b> ₹375 per month for beneficiaries aged 0–79 years; ₹625 per month for beneficiaries aged 80 years and above."}, {"k": "b", "h": "<b>Disability eligibility threshold:</b> reduced from 80% to benchmark disability of at least 40%."}, {"k": "b", "h": "<b>Eligibility</b> for disability pension begins from birth."}]}, {"title": "Financial inclusion, Bihar initiatives and other events", "part": "Part 15 of 15", "items": [{"k": "b", "h": "<b>Pradhan Mantri Jan Dhan Yojana (PMJDY):</b> national financial-inclusion mission launched 28 August 2014."}, {"k": "t", "head": ["Name", "Notes"], "rows": [["<b>Nari Shakti Vandan Abhiyan</b>", "Women-led development and public participation; a Bihar run was organised under this initiative."], ["<b>Nari Shakti for Viksit Bharat Run</b>", "Patna event on 17 April 2026; linked to women&#x27;s participation and development."], ["<b>Saat Nischay 3 – Sabka Samman, Jeevan Aasan</b>", "Bihar governance initiative; the Sahyog Portal and helpline are linked to this objective."], ["<b>Nasha Mukt Yuva for Viksit Bharat Sankalp Abhiyan</b>", "Listed in the contents/current-affairs index; detailed programme provisions are not available."], ["<b>International Science Festival (IISF) 2025</b>", "11th edition, 6–9 December 2025, Panchkula, Haryana; theme “Vigyan Se Samruddhi: for Atmanirbhar Bharat”."], ["<b>International AYUSH Conclave 4.0 – Nepal Edition</b>", "Three-day international conclave in Kathmandu, jointly organised by CIVIC India and Nepal Chamber of Commerce."], ["<b>AVBODHAN 2026</b>", "Three-day national hands-on training programme on endoscopic skull-base surgery, launched by AIIMS Patna."], ["<b>Samvardhan – Fueling Growth</b>", "Listed as an initiative to accelerate investment, entrepreneurship, manufacturing and industry-led growth."]]}]}], APP = "RocketOne \u00b7 Group 2", SUBJ = "Current Affairs", TOPIC = "Government programmes, schemes and campaigns in news";
+    const host = document.getElementById('parts');
+    function mk(cls, html) { const d = document.createElement('div'); if (cls) d.className = cls; if (html != null) d.innerHTML = html; return d; }
+    function newSlide(p, cont) {
+      const s = mk('s'); s.innerHTML = `<div class='bar'><span class='p'>${p.part}</span><span class='t'>${TOPIC}</span></div>
+        <div class='inner'><h2>${p.title}<span class='cont'></span></h2><div class='body'></div></div>
+        <div class='brand'>${APP} · ${SUBJ}</div><div class='num'></div>`;
+      host.appendChild(s); return s.querySelector('.body');
+    }
+    const over = b => b.scrollHeight > b.clientHeight + 1;
+    for (const p of P) {
+      const made = []; let body = newSlide(p); made.push(body);
+      const fresh = () => { body = newSlide(p); made.push(body); };
+      let ul = null;
+      for (let i = 0; i < p.items.length; i++) {
+        const it = p.items[i];
+        if (it.k === 'b') {
+          if (!ul || ul.parentNode !== body || body.lastChild !== ul) { ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); }
+          const li = document.createElement('li'); li.innerHTML = it.h; ul.appendChild(li);
+          if (over(body) && body.childNodes.length > 1 || over(body) && ul.childNodes.length > 1) {
+            li.remove(); if (!ul.childNodes.length) ul.remove();
+            const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null;
+            fresh(); if (carry) body.appendChild(carry);
+            ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); ul.appendChild(li);
+          }
+          continue;
+        }
+        ul = null;
+        if (it.k === 'h') { body.appendChild(mk('sub', it.h)); if (over(body) && body.childNodes.length > 1) { const h = body.lastChild; h.remove(); fresh(); body.appendChild(h); } continue; }
+        if (it.k === 'x') { const d = mk(null, it.h).firstChild; body.appendChild(d); if (over(body) && body.childNodes.length > 1) { d.remove(); const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; fresh(); if (carry) body.appendChild(carry); body.appendChild(d); } continue; }
+        if (it.k === 't') {
+          const head = it.head.length ? '<tr>' + it.head.map(c => `<th>${c}</th>`).join('') + '</tr>' : '';
+          const newTable = () => { const t = document.createElement('table'); t.innerHTML = head; body.appendChild(t); return t.tBodies[0] || t; };
+          let tb = newTable();
+          for (const r of it.rows) {
+            const tr = document.createElement('tr'); tr.innerHTML = r.map(c => `<td>${c}</td>`).join(''); tb.appendChild(tr);
+            if (over(body) && (tb.querySelectorAll('td').length > r.length || body.childNodes.length > 1)) {
+              tr.remove();
+              const t = tb.closest('table'); let carry = null;
+              if (!t.querySelector('td')) { t.remove(); carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; }
+              fresh(); if (carry) body.appendChild(carry); tb = newTable(); tb.appendChild(tr);
+            }
+          }
+        }
+      }
+      made.forEach((b, k) => { if (made.length > 1) b.parentNode.querySelector('.cont').textContent = ` (${k + 1}/${made.length})`; });
+    }
+    host.replaceWith(...host.childNodes);
+    const all = document.querySelectorAll('section.s, div.s');
+    all.forEach((s, k) => { const n = s.querySelector('.num'); if (n) n.textContent = `${k + 1} / ${all.length}`; });
+    }</script><script>function __deck() {
+(function () {
+  // static slides (title, plan, recap, quick check) that overflow this screen are split, item by item
+  function split(s) {
+    const inner = s.querySelector('.inner'); const box = s.querySelector('.qs2, ul.recap, ol.plan');
+    if (!inner || !box) return;
+    const moved = [];
+    while (inner.scrollHeight > inner.clientHeight + 1 && box.children.length > 1) moved.unshift(box.lastElementChild), box.lastElementChild.remove();
+    if (!moved.length) return;
+    const c = s.cloneNode(true); const cb = c.querySelector('.qs2, ul.recap, ol.plan');
+    cb.innerHTML = ''; moved.forEach(m => cb.appendChild(m));
+    s.after(c); split(c);
+  }
+  document.querySelectorAll('section.s').forEach(split);
+  const all = [...document.querySelectorAll('section.s, div.s')], N = all.length;
+  all.forEach((s, i) => { s.setAttribute('role', 'group'); s.setAttribute('aria-roledescription', 'slide'); s.setAttribute('aria-label', `Slide ${i + 1} of ${N}`); });
+  document.documentElement.classList.add('deck');
+  const ctl = document.createElement('div'); ctl.id = 'ctl';
+  ctl.innerHTML = `<button id='cl' aria-label='Close lecture'>✕</button><button id='pv' aria-label='Previous slide'>‹</button>
+    <span id='ct' role='status' aria-live='polite'></span><button id='nx' aria-label='Next slide'>›</button><div id='pg' aria-hidden='true'></div>`;
+  document.body.appendChild(ctl);
+  const A = window.Android, ct = ctl.querySelector('#ct'), pg = ctl.querySelector('#pg');
+  const h = new URLSearchParams(location.hash.slice(1));
+  let cur = h.has('end') ? N - 1 : Math.min(N - 1, Math.max(0, Math.round(parseFloat(h.get('p') || '0') * (N - 1))));
+  function show(i) {
+    all[cur].classList.remove('on'); cur = i; all[cur].classList.add('on');
+    ct.textContent = `${cur + 1} / ${N}`; pg.style.width = `${(cur + 1) / N * 100}%`;
+    try { history.replaceState(null, '', '#p=' + (N > 1 ? cur / (N - 1) : 0)); } catch (e) {}
+    scrollTo(0, 0); diag();
+  }
+  // if the slide shown is still not on the screen, say what the screen reports (to fix it)
+  function diag() {
+    const r = all[cur].getBoundingClientRect(), bad = r.width < 100 || r.height < 100 || r.bottom < 50 || r.top > innerHeight - 50;
+    let d = document.getElementById('diag');
+    if (!bad) { if (d) d.remove(); return; }
+    if (!d) { d = document.createElement('div'); d.id = 'diag'; document.body.appendChild(d); }
+    d.textContent = `slide ${Math.round(r.left)},${Math.round(r.top)} ${Math.round(r.width)}x${Math.round(r.height)} | inner ${innerWidth}x${innerHeight} | client ${document.documentElement.clientWidth}x${document.documentElement.clientHeight} | laid ${window.__laid} | dpr ${devicePixelRatio} | scroll ${scrollY} | display ${getComputedStyle(all[cur]).display}`;
+  }
+  const next = () => cur < N - 1 ? show(cur + 1) : (A && A.next());
+  const prev = () => cur > 0 ? show(cur - 1) : (A && A.prev());
+  ctl.querySelector('#nx').onclick = e => { e.stopPropagation(); next(); };
+  ctl.querySelector('#pv').onclick = e => { e.stopPropagation(); prev(); };
+  ctl.querySelector('#cl').onclick = e => { e.stopPropagation(); A && A.close(); };
+  // tap the left third for the previous slide, anywhere else for the next; or swipe; or the arrow keys
+  let x0 = null, y0 = null, swiped = false;
+  document.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; swiped = false; }, { passive: true });
+  document.addEventListener('touchend', e => {
+    if (x0 == null) return; const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) { swiped = true; dx < 0 ? next() : prev(); } x0 = null;
+  }, { passive: true });
+  document.addEventListener('click', e => { if (swiped || e.target.closest('button')) return; e.clientX < innerWidth * 0.3 ? prev() : next(); });
+  document.addEventListener('keydown', e => {
+    if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(e.key)) { e.preventDefault(); next(); }
+    if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(e.key)) { e.preventDefault(); prev(); }
+  });
+  // turned the phone: lay the slides out again for the new shape, at the same point of the lecture
+  let t;
+  addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => {
+    const [w0, h0] = window.__laid || [0, 0], W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+    if (Math.abs(W - w0) > w0 * .08 || Math.abs(H - h0) > h0 * .08) location.reload(); }, 300); });
+  all[cur].classList.add('on'); show(cur);
+})();
+}
+try { history.scrollRestoration = 'manual'; } catch (e) {}
+(function start(tries) {
+  // lay out only on a real, settled landscape screen; sizes in pixels (a WebView can report 0 x 0, a narrow or a
+  // short screen while the phone turns, and some give 0 for vh units)
+  const W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+  const ok = W > 240 && H > 200 && (!window.Android || W > H || tries > 60);
+  if (!ok) return setTimeout(() => start(tries + 1), 50);
+  const r = document.documentElement.style;
+  r.setProperty('--W', W + 'px'); r.setProperty('--H', H + 'px');
+  r.setProperty('--f', Math.round(Math.max(14, Math.min(27, Math.min(W * .024, H * .044)))) + 'px');
+  window.__laid = [W, H];
+  __layout(); __deck();
+  // a sane layout has room on its slides; if not (the screen changed under us), lay out again
+  const b = document.querySelector('.s .body');
+  if (b && b.clientHeight < 120 && tries < 100) setTimeout(() => location.reload(), 300);
+})(0);
+</script></body></html>
