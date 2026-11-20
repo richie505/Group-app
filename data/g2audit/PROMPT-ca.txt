@@ -1,0 +1,11 @@
+Task: the Group 2 app's current affairs run to 14 November 2026. Add 15-20 November 2026. Never use the Anthropic
+API. Do not commit. Write only data/g2audit/ca-out.jsonl. Scratch only in
+/tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/ca/.
+Use WebSearch (and the web-fetch agent) for news of 15-20 Nov 2026 that Group 2 would ask: Andhra Pradesh (government
+decisions, schemes, appointments, projects, awards), National (polity, economy, schemes, reports and indices,
+appointments, defence, S&T, sports, awards), International (summits, organisations, reports). Exam-relevant only.
+See how the app already writes it: python3 tools/g2syl_show.py 6 110 (and nearby rows of book 6).
+Write 3 lines, one per area, {"area": "Andhra Pradesh" | "National" | "International", "title": "New Current
+Affairs: 15–20 Nov 2026 – <area>", "bullets": ["<one fact with date, **bold** key words>", ... 10-25], "mcqs":
+[{"s","o":[4],"a":0-3,"x"}, ... 10-15 per area]}. MCQs in Group 2's style (data/g2style/PROMPT.txt). Every fact from a
+reliable source you read; if a week is thin, write fewer. Report what you added.

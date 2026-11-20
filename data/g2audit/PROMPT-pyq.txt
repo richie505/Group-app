@@ -1,0 +1,15 @@
+Task: a second, independent check of PYQs (past exam questions) that were REMOVED from the Group 2 app as outside the
+official Group 2 syllabus. Never use the Anthropic API. Do not commit. Write only data/g2audit/pyq-N.out.jsonl.
+Scratch only in /tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/pyq-N/.
+
+Read data/g2syl/leaves.md: the official APPSC Group II syllabus (27-04-2023) as leaves (P* = Prelims/Screening, M* =
+Mains). Mental Ability is left out (owner's choice). Input data/g2audit/pyq-N.jsonl: id, the section it sat in,
+question, options, answer, source (which exam).
+Decide each: KEEP with the leaf code a Group 2 question could fairly be set under (the line's topic, background,
+people, places, related facts; ids starting yG/yP/yM come from Group 2's own papers: keep them unless the topic is
+clearly gone from the 2023 syllabus, e.g. research methods, pedagogy, psychology, pure school science), or REMOVE
+when no line covers it. Be fair, not narrow, but do not stretch (world history, school physics/chemistry/biology,
+computer basics, pedagogy, psychology, statistics, unrelated trivia stay removed).
+Write {"id": "...", "d": "<leaf code>" or "remove", "why": "<few words>"} for every input row, in order.
+Check with Python (every id once; codes exist in data/g2syl/leaves.json). Report keep / remove counts by topic and 10
+examples of each.

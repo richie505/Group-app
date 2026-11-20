@@ -1,0 +1,12 @@
+Task: some official Group 2 syllabus lines are THIN in the app. Write, for each, ONE new notes page and 20 new MCQs in
+Group 2's style. Never use the Anthropic API. Do not commit. Write only data/g2audit/thin-N.out.jsonl. Scratch only in
+/tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/thin-N/.
+
+Input data/g2audit/thin-N.jsonl: leaf, its text and phrase, host section (Group 2 "book:row"), MCQs it has now.
+Read the host's notes first (python3 tools/g2syl_show.py <book> <row>) and add what is MISSING. Use WebSearch for
+current data (AP and India figures up to 2025-26 / 2026-27; cite nothing in the text).
+For each line write {"leaf": "...", "host": "b:r", "title": "<page title>", "bullets": ["<one fact, **bold** key
+words>", ... 12-25], "mcqs": [{"s","o":[4],"a":0-3,"x"}, ...20]}.
+MCQs in GROUP 2's style (data/g2style/PROMPT.txt): mostly one-answer with short options; ~1 in 7 NOT/EXCEPT; ~1 in
+15 "Which of the following statements is correct?"; stems 15-20 words; facts right. Check with Python and report
+counts and 2 sample MCQs per line.
