@@ -60,6 +60,17 @@ for f in sorted(glob.glob("data/g1syl/sec-out-[0-9].jsonl")):
             o = json.loads(l)
             M[o["key"]] = o
 DEPTH = collections.defaultdict(list)
+# the Nov 2026 audit: removed PYQs a second check found to fit (data/g1audit), and the latest current affairs
+RESTORE = {}
+for f in sorted(glob.glob("data/g1audit/pyq-*.out.jsonl")):
+    for l in open(f):
+        if l.strip():
+            o = json.loads(l)
+            if o.get("d") and o["d"] != "remove" and not o["d"].startswith("G"):
+                RESTORE[o["id"]] = o["d"]
+CA_NEW = [json.loads(l) for l in open("data/g2audit/ca-out.jsonl") if l.strip()] if os.path.exists("data/g2audit/ca-out.jsonl") else []
+SEEN = set()
+CA_AT = []  # the one section that takes the latest current affairs
 if os.path.exists("data/g1syl/depth-out.jsonl"):
     for l in open("data/g1syl/depth-out.jsonl"):
         if l.strip():
@@ -110,6 +121,20 @@ for b in range(1, 7):
                 S.append(j)
                 stats["MCQs added"] += 1
             stats["pages added"] += 1
+        if b == 6 and not CA_AT and any("New Current Affairs: 5–14 Nov 2026" in x["t"] for x in r["secs"]):
+            CA_AT.append(i)
+            for ca in CA_NEW:  # current affairs 15-20 Nov 2026 (as in Group 2)
+                if any(x["t"] == ca["title"] for x in r["secs"]):
+                    continue
+                r["secs"].append({"t": ca["title"], "badges": [], "b": [{"k": "b", "x": bold_runs(x)} for x in ca["bullets"]], "p": r["secs"][-1].get("p", 0)})
+                j = len(r["secs"]) - 1
+                o["subs"][str(j)] = {"Andhra Pradesh": "G/1", "National": "G/2", "International": "G/3"}.get(ca.get("area"), "G/2")
+                L, S = m["rows"].setdefault(str(i), []), m["subs"].setdefault(str(i), [])
+                for q in ca["mcqs"]:
+                    L.append({"id": "g2a" + hashlib.md5((q["s"] + "|".join(q["o"])).encode()).hexdigest()[:11], "s": q["s"], "o": q["o"], "a": q["a"], "x": q.get("x", "")})
+                    S.append(j)
+                    stats["MCQs added"] += 1
+                stats["pages added"] += 1
         for j, x in enumerate(r["secs"]):  # pages that were already "No MCQ notes" placeholders: hidden too
             bb = x["b"]
             if len(bb) == 1 and bb[0].get("k") == "n" and str(bb[0]["x"][0][0]).startswith("No MCQ") and f"{b}:{i}:{j}" not in empty["full"]:
@@ -117,6 +142,19 @@ for b in range(1, 7):
         whole = not [k for k, v in o["subs"].items() if v != "beyond"]
         L, S = m["rows"].get(str(i), []), m["subs"].get(str(i), [])
         keep = [(q, s) for q, s in zip(L, S) if not whole and s not in beyond]
+        # a removed PYQ that fits a line after all: kept, under the section (its own page stays hidden)
+        keep += [(q, -1) for q, s in zip(L, S) if not whole and s in beyond and q["id"] in RESTORE]
+        stats["PYQs restored"] += sum(1 for q, s in zip(L, S) if not whole and s in beyond and q["id"] in RESTORE)
+        # a notes MCQ that is an exact copy of one already kept (same question and options): dropped
+        kk = []
+        for q, s_ in keep:
+            dk = (re.sub(r"\W+", " ", q["s"].lower()).strip(), tuple(sorted(x.strip().lower() for x in q.get("o") or [])))
+            if not q["id"].startswith("y") and dk in SEEN:
+                stats["notes MCQ copies dropped"] += 1
+                continue
+            SEEN.add(dk)
+            kk.append((q, s_))
+        keep = kk
         stats["MCQs removed"] += len(L) - len(keep)
         # Group 2's one-answer style for statement sets and ordering questions (A-R and matching kept): Group 2's
         # rewrites for the MCQs both apps share, Group 1's own for the rest (data/g1style)

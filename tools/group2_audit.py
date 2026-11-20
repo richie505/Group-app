@@ -79,10 +79,10 @@ def add_pages():
     return np, nq
 
 
-def facts():
+def facts(pattern="data/g2audit/facts-*.out.jsonl"):
     """out-of-date notes lines corrected in APPSC Complete's notes (both apps are built from them)"""
     rowmap = J("data/g2syl/rowmap.json")  # Group 2 "b:i" -> Complete [b, r]
-    upd = [json.loads(l) for f in sorted(glob.glob("data/g2audit/facts-*.out.jsonl")) for l in open(f) if l.strip()]
+    upd = [json.loads(l) for f in sorted(glob.glob(pattern)) for l in open(f) if l.strip()]
     upd = [u for u in upd if u.get("new") and u["new"].strip() != u["text"].strip()]
     books = {b: J(f"{C}/book{b}.json") for b in range(1, 7)}
     rows = {b: [r for u in bk["units"] for r in u["rows"]] for b, bk in books.items()}
@@ -111,5 +111,7 @@ def facts():
 if __name__ == "__main__":
     if sys.argv[1:] == ["facts"]:
         facts()
+    elif sys.argv[1:] == ["facts", "group1"]:  # Group 1's own lines: its pages are APPSC Complete's
+        facts("data/g1audit/facts-*.out.jsonl")
     else:
         print("audit pages / MCQs added: %d / %d" % add_pages())
