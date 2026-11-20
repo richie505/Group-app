@@ -320,11 +320,19 @@ def collect_g2():
             code = m.get(f"{job}#{k}")
             if code in where:
                 b, ut, o, text = where[code]
-                out.append((b, ut, (o, "", job, k), lec, [text]))
+                if "unit" in lec and b == ca_book:  # current affairs keep their groups inside the one Group 2 unit
+                    out.append((b, CA_UNITS[lec["unit"]], (lec["unit"], lec.get("sheet", 0), job, k), lec, [text]))
+                else:
+                    out.append((b, ut, (o, "", job, k), lec, [text]))
             else:
                 if code != "X":
                     missing.append(f"{job}#{k}")
-                out.append((more, MORE, (999, "", job, k), lec, []))
+                lf = str(lec.get("leaf", "G"))  # grouped by what they are, in the Group 1 order
+                g = next((i for i, (_, _, _, pfx) in enumerate(BOOKS) if lf.startswith(pfx)), None)
+                ut = BOOKS[g][2] if g is not None else lf[2:] if lf.startswith("X/") else "Other"
+                if lf.startswith(("E18/2", "E18/5")):
+                    ut = "General science (physics, chemistry, biology)"
+                out.append((more, ut, (g if g is not None else 50, ut, job, k), lec, []))
     if missing:
         print("NOT FILED for Group 2 (put under More):", len(missing), missing[:8])
     return _short_notes(out, ca_book), books
