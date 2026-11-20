@@ -131,10 +131,12 @@ try { history.scrollRestoration = 'manual'; } catch (e) {}
   r.setProperty('--W', W + 'px'); r.setProperty('--H', H + 'px');
   r.setProperty('--f', Math.round(Math.max(14, Math.min(27, Math.min(W * .024, H * .044)))) + 'px');
   window.__laid = [W, H];
-  __layout(); __deck();
-  // a sane layout has room on its slides; if not (the screen changed under us), lay out again
+  __layout();
+  // a sane layout has room on its slides; if not (the screen changed under us), lay out again. Measured before the
+  // deck hides all but one slide (a hidden slide measures 0: it reloaded for ever)
   const b = document.querySelector('.s .body');
-  if (b && b.clientHeight < 120 && tries < 100) setTimeout(() => location.reload(), 300);
+  if (b && b.clientHeight < 120 && tries < 100) return setTimeout(() => location.reload(), 300);
+  __deck();
 })(0);
 """
 if os.path.exists(OUT):
