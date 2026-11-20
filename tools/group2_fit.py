@@ -25,7 +25,8 @@ for f in sorted(glob.glob("data/g2audit/pyq-*.out.jsonl")):
     for l in open(f):
         if l.strip():
             o = json.loads(l)
-            if o.get("d") and o["d"] != "remove" and MCQ.get(o["id"]) == "remove":
+            # (old news filed as "current events" stays out: a 2001-2019 venue is not a current event)
+            if o.get("d") and o["d"] != "remove" and not o["d"].startswith("P4.1") and MCQ.get(o["id"]) == "remove":
                 MCQ[o["id"]] = o["d"]
 syl = J(f"{G}/syllabus.json")
 PAPER = {i for p in syl["papers"] for i in p["ids"]}
