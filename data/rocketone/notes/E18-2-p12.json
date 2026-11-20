@@ -1,0 +1,1887 @@
+{
+ "lectures": [
+  {
+   "leaf": "E18/2",
+   "title": "Physics: Generator, motor, transformer, rectifier and inverter",
+   "parts": [
+    {
+     "t": "Generator: energy conversion",
+     "items": [
+      [
+       "t",
+       [
+        "Conversion",
+        "Description"
+       ],
+       [
+        [
+         "**Output**",
+         "Electrical Energy"
+        ],
+        [
+         "**Process**",
+         "Coil rotates in magnetic field → induced emf & current"
+        ]
+       ],
+       "Physics #16"
+      ]
+     ]
+    },
+    {
+     "t": "Electric motor",
+     "items": [
+      [
+       "h",
+       "Principle"
+      ],
+      [
+       "t",
+       [
+        "Principle",
+        "Description"
+       ],
+       [
+        [
+         "**Working Principle**",
+         "Force on current-carrying conductor in magnetic field (Fleming’s Left Hand Rule)"
+        ],
+        [
+         "**Key**",
+         "Current-carrying coil experiences torque in magnetic field"
+        ],
+        [
+         "**Components**",
+         "Armature, Magnets, Commutator, Brushes"
+        ]
+       ],
+       "Physics #16"
+      ],
+      [
+       "h",
+       "Energy conversion"
+      ],
+      [
+       "t",
+       [
+        "Conversion",
+        "Description"
+       ],
+       [
+        [
+         "**Input**",
+         "Electrical Energy"
+        ],
+        [
+         "**Output**",
+         "Mechanical Energy (rotation)"
+        ],
+        [
+         "**Process**",
+         "Electrical energy → Torque → Rotation"
+        ]
+       ],
+       "Physics #16"
+      ]
+     ]
+    },
+    {
+     "t": "Transformer",
+     "items": [
+      [
+       "h",
+       "Principle"
+      ],
+      [
+       "t",
+       [
+        "Principle",
+        "Description"
+       ],
+       [
+        [
+         "**Working Principle**",
+         "Mutual Induction"
+        ],
+        [
+         "**Requirement**",
+         "Alternating Current (changing flux)"
+        ],
+        [
+         "**Construction**",
+         "Primary coil, Secondary coil, Soft iron core"
+        ]
+       ],
+       "Physics #16"
+      ],
+      [
+       "h",
+       "Behaviour with AC and DC"
+      ],
+      [
+       "t",
+       [
+        "Current",
+        "Behaviour"
+       ],
+       [
+        [
+         "**AC**",
+         "Works (changing flux induces emf)"
+        ],
+        [
+         "**DC**",
+         "Does not work (no change in flux after initial moment)"
+        ],
+        [
+         "**Reason**",
+         "Mutual induction requires varying magnetic field"
+        ]
+       ],
+       "Physics #16"
+      ],
+      [
+       "x",
+       "A **transformer** works on **mutual induction** and needs alternating current: it does not work on DC (no change in flux after the initial moment).",
+       "Physics #16"
+      ]
+     ]
+    },
+    {
+     "t": "Rectifier and inverter",
+     "items": [
+      [
+       "h",
+       "Rectifier"
+      ],
+      [
+       "t",
+       [
+        "Conversion",
+        "Description"
+       ],
+       [
+        [
+         "**Function**",
+         "Converts AC → DC"
+        ],
+        [
+         "**Device**",
+         "Diode (half-wave / full-wave)"
+        ],
+        [
+         "**Types**",
+         "Half-wave, Full-wave, Bridge rectifier"
+        ],
+        [
+         "**Use**",
+         "Power supplies, chargers"
+        ]
+       ],
+       "Physics #16"
+      ],
+      [
+       "h",
+       "Inverter"
+      ],
+      [
+       "t",
+       [
+        "Conversion",
+        "Description"
+       ],
+       [
+        [
+         "**Function**",
+         "Converts DC → AC"
+        ],
+        [
+         "**Use**",
+         "UPS, solar power systems, battery backup"
+        ],
+        [
+         "**Output**",
+         "Alternating voltage for AC appliances"
+        ]
+       ],
+       "Physics #16"
+      ]
+     ]
+    },
+    {
+     "t": "Applications of electromagnetic induction",
+     "items": [
+      [
+       "t",
+       [
+        "Application",
+        "Device / Use"
+       ],
+       [
+        [
+         "**Generators**",
+         "Power generation"
+        ],
+        [
+         "**Transformers**",
+         "Voltage conversion"
+        ],
+        [
+         "**Induction Cooktops**",
+         "Heating"
+        ],
+        [
+         "**Wireless Charging**",
+         "Mobile phones, electric vehicles"
+        ],
+        [
+         "**Magnetic Brakes**",
+         "Trains"
+        ],
+        [
+         "**Microphones**",
+         "Dynamic microphones"
+        ],
+        [
+         "**Induction Motors**",
+         "Industrial motors"
+        ],
+        [
+         "**EMI Sensors**",
+         "Metal detectors"
+        ]
+       ],
+       "Physics #16"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "leaf": "E18/2",
+   "title": "Physics: The electromagnetic spectrum and its uses",
+   "parts": [
+    {
+     "t": "Order, wavelength, frequency and energy",
+     "items": [
+      [
+       "b",
+       "**Order of increasing wavelength:** Gamma rays → X-rays → Ultraviolet (UV) → Visible light → Infrared (IR) → Microwaves → Radio waves.",
+       "Physics #17"
+      ],
+      [
+       "t",
+       [
+        "Radiation",
+        "Approximate wavelength range",
+        "Approximate frequency range",
+        "Relative energy"
+       ],
+       [
+        [
+         "**Gamma rays**",
+         "< 0.01 nm",
+         "> 3 × 10¹⁹ Hz",
+         "Highest"
+        ],
+        [
+         "**X-rays**",
+         "0.01 nm – 10 nm",
+         "3 × 10¹⁶ – 3 × 10¹⁹ Hz",
+         "Very high"
+        ],
+        [
+         "**Ultraviolet**",
+         "10 nm – 400 nm",
+         "7.5 × 10¹⁴ – 3 × 10¹⁶ Hz",
+         "High"
+        ],
+        [
+         "**Visible**",
+         "400 nm – 700 nm",
+         "4.3 × 10¹⁴ – 7.5 × 10¹⁴ Hz",
+         "Medium"
+        ],
+        [
+         "**Infrared**",
+         "700 nm – 1 mm",
+         "3 × 10¹¹ – 4.3 × 10¹⁴ Hz",
+         "Low"
+        ],
+        [
+         "**Microwaves**",
+         "1 mm – 1 m",
+         "3 × 10⁸ – 3 × 10¹¹ Hz",
+         "Lower"
+        ],
+        [
+         "**Radio waves**",
+         "> 1 m",
+         "< 3 × 10⁸ Hz",
+         "Lowest"
+        ]
+       ],
+       "Physics #17"
+      ],
+      [
+       "b",
+       "**Gamma rays:** highest frequency (> 3 × 10¹⁹ Hz), shortest wavelength (< 0.01 nm) and highest energy (E = hν).",
+       "Physics #17"
+      ],
+      [
+       "b",
+       "**Radio waves:** lowest frequency (< 3 × 10⁸ Hz) and longest wavelength (> 1 m).",
+       "Physics #17"
+      ]
+     ]
+    },
+    {
+     "t": "Radio waves: applications",
+     "items": [
+      [
+       "t",
+       [
+        "Application",
+        "Description"
+       ],
+       [
+        [
+         "**Broadcasting**",
+         "AM / FM radio, TV signals"
+        ],
+        [
+         "**Mobile Communication**",
+         "Cellular networks"
+        ],
+        [
+         "**Radar**",
+         "Detection & ranging"
+        ],
+        [
+         "**Satellite Communication**",
+         "Long-distance links"
+        ],
+        [
+         "**Wi-Fi / Bluetooth**",
+         "Short-range wireless"
+        ],
+        [
+         "**Astronomy**",
+         "Radio telescopes"
+        ]
+       ],
+       "Physics #17"
+      ]
+     ]
+    },
+    {
+     "t": "Microwaves: applications",
+     "items": [
+      [
+       "t",
+       [
+        "Application",
+        "Description"
+       ],
+       [
+        [
+         "**Microwave Oven**",
+         "Heating food (water molecule resonance)"
+        ],
+        [
+         "**Radar**",
+         "Speed guns, weather radar, aircraft detection"
+        ],
+        [
+         "**Satellite Communication**",
+         "Uplink / downlink"
+        ],
+        [
+         "**Mobile Networks**",
+         "4G / 5G frequencies"
+        ],
+        [
+         "**Wi-Fi**",
+         "Wireless internet"
+        ],
+        [
+         "**Microwave Links**",
+         "Point-to-point communication"
+        ]
+       ],
+       "Physics #17"
+      ]
+     ]
+    },
+    {
+     "t": "Infrared: applications",
+     "items": [
+      [
+       "t",
+       [
+        "Application",
+        "Description"
+       ],
+       [
+        [
+         "**Remote Controls**",
+         "TV / AC remotes"
+        ],
+        [
+         "**Night Vision**",
+         "Thermal imaging cameras"
+        ],
+        [
+         "**Heating**",
+         "Infrared heaters, physiotherapy"
+        ],
+        [
+         "**Weather Forecasting**",
+         "Cloud & temperature mapping"
+        ],
+        [
+         "**Astronomy**",
+         "Studying cool stars & dust"
+        ],
+        [
+         "**Security**",
+         "Motion sensors, night cameras"
+        ],
+        [
+         "**Fibre Optics**",
+         "Some IR wavelengths used"
+        ]
+       ],
+       "Physics #17"
+      ]
+     ]
+    },
+    {
+     "t": "Visible light: applications",
+     "items": [
+      [
+       "t",
+       [
+        "Application",
+        "Description"
+       ],
+       [
+        [
+         "**Human Vision**",
+         "Seeing the world"
+        ],
+        [
+         "**Photography**",
+         "Cameras, smartphones"
+        ],
+        [
+         "**Optical Fibres**",
+         "Some visible wavelengths"
+        ],
+        [
+         "**Lasers**",
+         "Pointers, surgery, industry"
+        ],
+        [
+         "**Illumination**",
+         "LEDs, bulbs"
+        ],
+        [
+         "**Spectroscopy**",
+         "Analysis of materials"
+        ],
+        [
+         "**Display Screens**",
+         "Monitors, TVs"
+        ]
+       ],
+       "Physics #17"
+      ]
+     ]
+    },
+    {
+     "t": "Ultraviolet: applications",
+     "items": [
+      [
+       "t",
+       [
+        "Application",
+        "Description"
+       ],
+       [
+        [
+         "**Sterilization**",
+         "Kill bacteria & viruses (UV lamps)"
+        ],
+        [
+         "**Water Purification**",
+         "UV water filters"
+        ],
+        [
+         "**Detecting Forgery**",
+         "UV markers on currency / documents"
+        ],
+        [
+         "**Vitamin D Synthesis**",
+         "In human skin"
+        ],
+        [
+         "**Fluorescence**",
+         "Security features, forensic science"
+        ],
+        [
+         "**Astronomy**",
+         "Studying hot stars"
+        ],
+        [
+         "**Photolithography**",
+         "Semiconductor manufacturing"
+        ],
+        [
+         "**Harmful Effect**",
+         "Causes sunburn, skin cancer"
+        ]
+       ],
+       "Physics #17"
+      ]
+     ]
+    },
+    {
+     "t": "X-rays: applications",
+     "items": [
+      [
+       "t",
+       [
+        "Application",
+        "Description"
+       ],
+       [
+        [
+         "**Medical Imaging**",
+         "X-ray radiographs (bones, chest)"
+        ],
+        [
+         "**CT Scan**",
+         "Detailed body imaging"
+        ],
+        [
+         "**Airport / Security**",
+         "Baggage scanning"
+        ],
+        [
+         "**Crystallography**",
+         "Structure of crystals / DNA"
+        ],
+        [
+         "**Industry**",
+         "Detecting cracks in metals"
+        ],
+        [
+         "**Astronomy**",
+         "Studying hot gases & black holes"
+        ],
+        [
+         "**Cancer Treatment**",
+         "Radiation therapy (high energy)"
+        ]
+       ],
+       "Physics #17"
+      ]
+     ]
+    },
+    {
+     "t": "Gamma rays: applications",
+     "items": [
+      [
+       "t",
+       [
+        "Application",
+        "Description"
+       ],
+       [
+        [
+         "**Cancer Treatment**",
+         "Radiotherapy (kill cancer cells)"
+        ],
+        [
+         "**Sterilization**",
+         "Medical instruments & food"
+        ],
+        [
+         "**Diagnostic Imaging**",
+         "PET scans, Gamma cameras"
+        ],
+        [
+         "**Industry**",
+         "Thickness gauging, weld inspection"
+        ],
+        [
+         "**Astronomy**",
+         "Gamma-ray bursts, neutron stars"
+        ],
+        [
+         "**Nuclear Medicine**",
+         "Radioactive tracers"
+        ],
+        [
+         "**Security**",
+         "Detecting nuclear materials"
+        ]
+       ],
+       "Physics #17"
+      ]
+     ]
+    },
+    {
+     "t": "Medical uses of each radiation",
+     "items": [
+      [
+       "t",
+       [
+        "Radiation",
+        "Medical Use"
+       ],
+       [
+        [
+         "**X-rays**",
+         "Radiography, CT scan"
+        ],
+        [
+         "**Gamma rays**",
+         "Radiotherapy, PET scan, sterilization"
+        ],
+        [
+         "**Ultraviolet**",
+         "Sterilization, vitamin D, treating skin diseases"
+        ],
+        [
+         "**Infrared**",
+         "Physiotherapy, thermal imaging"
+        ],
+        [
+         "**Visible**",
+         "Laser surgery, endoscopy illumination"
+        ],
+        [
+         "**Microwaves**",
+         "Diathermy (deep heating)"
+        ],
+        [
+         "**Radio waves**",
+         "MRI (radio frequency pulses)"
+        ]
+       ],
+       "Physics #17"
+      ]
+     ]
+    },
+    {
+     "t": "Communication uses of each radiation",
+     "items": [
+      [
+       "t",
+       [
+        "Radiation",
+        "Communication Use"
+       ],
+       [
+        [
+         "**Radio waves**",
+         "Radio, TV, mobile, Wi-Fi, Bluetooth"
+        ],
+        [
+         "**Microwaves**",
+         "Satellite, radar, 5G, microwave links"
+        ],
+        [
+         "**Infrared**",
+         "Remote controls, short-range data"
+        ],
+        [
+         "**Visible**",
+         "Li-Fi (experimental), optical fibre (some)"
+        ],
+        [
+         "**Ultraviolet / X-ray / Gamma**",
+         "Not used for normal communication"
+        ]
+       ],
+       "Physics #17"
+      ]
+     ]
+    },
+    {
+     "t": "Defence uses of each radiation",
+     "items": [
+      [
+       "t",
+       [
+        "Radiation",
+        "Defence Use"
+       ],
+       [
+        [
+         "**Radio waves**",
+         "Communication, radar"
+        ],
+        [
+         "**Microwaves**",
+         "Radar (aircraft, missile detection), jamming"
+        ],
+        [
+         "**Infrared**",
+         "Night vision, heat-seeking missiles, surveillance"
+        ],
+        [
+         "**X-rays**",
+         "Baggage & cargo scanning"
+        ],
+        [
+         "**Gamma rays**",
+         "Detection of nuclear materials"
+        ],
+        [
+         "**Lasers (Visible/IR)**",
+         "Range finding, targeting, directed energy"
+        ]
+       ],
+       "Physics #17"
+      ]
+     ]
+    },
+    {
+     "t": "Astronomical uses of each radiation",
+     "items": [
+      [
+       "t",
+       [
+        "Radiation",
+        "Astronomical Use"
+       ],
+       [
+        [
+         "**Radio waves**",
+         "Radio telescopes (pulsars, cosmic microwave background)"
+        ],
+        [
+         "**Microwaves**",
+         "Cosmic Microwave Background (CMB) studies"
+        ],
+        [
+         "**Infrared**",
+         "Cool stars, interstellar dust, exoplanets"
+        ],
+        [
+         "**Visible**",
+         "Optical telescopes (stars, galaxies, planets)"
+        ],
+        [
+         "**Ultraviolet**",
+         "Hot young stars, interstellar medium"
+        ],
+        [
+         "**X-rays**",
+         "Black holes, neutron stars, hot gas in clusters"
+        ],
+        [
+         "**Gamma rays**",
+         "Gamma-ray bursts, supernovae, active galaxies"
+        ]
+       ],
+       "Physics #17"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "leaf": "E18/2",
+   "title": "Physics: Nature of light, reflection and mirrors",
+   "parts": [
+    {
+     "t": "Nature of light",
+     "items": [
+      [
+       "t",
+       [
+        "Aspect",
+        "Description"
+       ],
+       [
+        [
+         "**Dual Nature**",
+         "Wave + Particle (Photon)"
+        ],
+        [
+         "**Wave Nature**",
+         "Explains interference, diffraction, polarisation"
+        ],
+        [
+         "**Particle Nature**",
+         "Explains photoelectric effect, Compton effect"
+        ],
+        [
+         "**Electromagnetic Wave**",
+         "Transverse, does not require medium"
+        ],
+        [
+         "**Speed in Vacuum**",
+         "Maximum (c)"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Light and the medium",
+     "items": [
+      [
+       "t",
+       [
+        "Medium",
+        "Behaviour"
+       ],
+       [
+        [
+         "**Transparent**",
+         "Allows light to pass (glass, water, air)"
+        ],
+        [
+         "**Translucent**",
+         "Partially allows (frosted glass, butter paper)"
+        ],
+        [
+         "**Opaque**",
+         "Does not allow (wood, metal, stone)"
+        ],
+        [
+         "**Vacuum**",
+         "Light travels freely"
+        ],
+        [
+         "**Optical Density**",
+         "Higher n → optically denser"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Laws of reflection",
+     "items": [
+      [
+       "t",
+       [
+        "Law",
+        "Statement"
+       ],
+       [
+        [
+         "**1st Law**",
+         "Incident ray, reflected ray & normal lie in same plane"
+        ],
+        [
+         "**2nd Law**",
+         "Angle of incidence (i) = Angle of reflection (r)"
+        ],
+        [
+         "**Normal**",
+         "Perpendicular to surface at point of incidence"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Types of reflection",
+     "items": [
+      [
+       "t",
+       [
+        "Type",
+        "Description"
+       ],
+       [
+        [
+         "**Regular / Specular**",
+         "Smooth surface → clear image (mirror)"
+        ],
+        [
+         "**Irregular / Diffused**",
+         "Rough surface → no clear image (wall, paper)"
+        ],
+        [
+         "**Total Internal Reflection**",
+         "When i > critical angle (from denser to rarer)"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Images formed by mirrors",
+     "items": [
+      [
+       "t",
+       [
+        "Mirror",
+        "Nature of Image (common cases)"
+       ],
+       [
+        [
+         "**Plane**",
+         "Virtual, erect, same size, laterally inverted"
+        ],
+        [
+         "**Concave**",
+         "Real/inverted (beyond C), Virtual/erect (within F)"
+        ],
+        [
+         "**Convex**",
+         "Always virtual, erect, diminished"
+        ]
+       ],
+       "Physics #18"
+      ],
+      [
+       "h",
+       "Plane mirror image"
+      ],
+      [
+       "t",
+       [
+        "Characteristic",
+        "Description"
+       ],
+       [
+        [
+         "**Nature**",
+         "Virtual & Erect"
+        ],
+        [
+         "**Size**",
+         "Same as object"
+        ],
+        [
+         "**Distance**",
+         "Image distance = Object distance"
+        ],
+        [
+         "**Lateral Inversion**",
+         "Left-right reversed"
+        ],
+        [
+         "**Magnification**",
+         "m = +1"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Uses of mirrors",
+     "items": [
+      [
+       "t",
+       [
+        "Mirror",
+        "Application"
+       ],
+       [
+        [
+         "**Plane**",
+         "Looking glass, periscope, kaleidoscope"
+        ],
+        [
+         "**Concave**",
+         "Shaving mirror, headlights, solar cooker, telescope"
+        ],
+        [
+         "**Convex**",
+         "Rear-view mirror, security mirrors, street lamps"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Concave mirror: applications and reasons",
+     "items": [
+      [
+       "t",
+       [
+        "Application",
+        "Reason"
+       ],
+       [
+        [
+         "**Shaving / Makeup Mirror**",
+         "Magnified erect image (object within F)"
+        ],
+        [
+         "**Headlight Reflector**",
+         "Parallel beam when bulb at focus"
+        ],
+        [
+         "**Solar Cooker / Furnace**",
+         "Converges sun rays at focus"
+        ],
+        [
+         "**Torch / Searchlight**",
+         "Produces strong parallel beam"
+        ],
+        [
+         "**Dentist Mirror**",
+         "Magnified image of teeth"
+        ],
+        [
+         "**Telescope (reflecting)**",
+         "Large aperture, no chromatic aberration"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Convex mirror: applications and reasons",
+     "items": [
+      [
+       "t",
+       [
+        "Application",
+        "Reason"
+       ],
+       [
+        [
+         "**Rear-view Mirror (vehicles)**",
+         "Wide field of view + erect diminished image"
+        ],
+        [
+         "**Security / Shop Mirrors**",
+         "Large area coverage"
+        ],
+        [
+         "**Street Light Reflectors**",
+         "Diverges light over larger area"
+        ],
+        [
+         "**ATMs / Parking**",
+         "Wider view for safety"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "leaf": "E18/2",
+   "title": "Physics: Refraction and total internal reflection",
+   "parts": [
+    {
+     "t": "Refraction: causes",
+     "items": [
+      [
+       "t",
+       [
+        "Cause",
+        "Explanation"
+       ],
+       [
+        [
+         "**Change in Speed**",
+         "Light travels at different speeds in different media"
+        ],
+        [
+         "**Change in Wavelength**",
+         "Frequency remains same, λ changes"
+        ],
+        [
+         "**Optical Density Difference**",
+         "From rarer ↔ denser medium"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Refraction: applications",
+     "items": [
+      [
+       "t",
+       [
+        "Application",
+        "Description"
+       ],
+       [
+        [
+         "**Lenses**",
+         "Converging / diverging of light"
+        ],
+        [
+         "**Prisms**",
+         "Deviation & dispersion"
+        ],
+        [
+         "**Optical Fibres**",
+         "Signal transmission"
+        ],
+        [
+         "**Spectacles**",
+         "Correction of eye defects"
+        ],
+        [
+         "**Cameras & Microscopes**",
+         "Image formation"
+        ],
+        [
+         "**Apparent Depth**",
+         "Objects in water appear raised"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Critical angle",
+     "items": [
+      [
+       "t",
+       [
+        "Definition",
+        "Description"
+       ],
+       [
+        [
+         "**Critical Angle (C)**",
+         "Angle of incidence in denser medium for which angle of refraction in rarer medium is 90°"
+        ],
+        [
+         "**Condition**",
+         "Light must travel from denser to rarer medium"
+        ],
+        [
+         "**Depends on**",
+         "Pair of media (wavelength also slightly)"
+        ]
+       ],
+       "Physics #18"
+      ],
+      [
+       "b",
+       "**Applications of critical angle:** basis of TIR devices (Total Internal Reflection); optical fibre (light stays inside core); diamond brilliance (multiple TIR); Porro prism / binoculars (image inversion without loss); endoscope (medical viewing).",
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Total internal reflection: principle",
+     "items": [
+      [
+       "t",
+       [
+        "Condition",
+        "Description"
+       ],
+       [
+        [
+         "**1**",
+         "Light travels from optically denser to rarer medium"
+        ],
+        [
+         "**2**",
+         "Angle of incidence > Critical angle (i > C)"
+        ],
+        [
+         "**Result**",
+         "Entire light reflected back into denser medium"
+        ],
+        [
+         "**No refraction**",
+         "100% reflection (ideal case)"
+        ]
+       ],
+       "Physics #18"
+      ],
+      [
+       "x",
+       "**TIR** needs two conditions: light travels from optically denser to rarer medium, and angle of incidence > critical angle (i > C).",
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Total internal reflection: applications",
+     "items": [
+      [
+       "t",
+       [
+        "Application",
+        "Description"
+       ],
+       [
+        [
+         "**Optical Fibre**",
+         "Communication & endoscopy"
+        ],
+        [
+         "**Diamond Sparkle**",
+         "Critical angle very small (≈ 24.4°)"
+        ],
+        [
+         "**Mirage**",
+         "Atmospheric TIR"
+        ],
+        [
+         "**Prism Binoculars / Periscope**",
+         "Reflect without silvering"
+        ],
+        [
+         "**Reflectors in road signs**",
+         "High visibility"
+        ],
+        [
+         "**Sparkling of dew drops**",
+         "—"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Optical fibre",
+     "items": [
+      [
+       "h",
+       "Principle"
+      ],
+      [
+       "t",
+       [
+        "Principle",
+        "Description"
+       ],
+       [
+        [
+         "**Core Principle**",
+         "Total Internal Reflection"
+        ],
+        [
+         "**Structure**",
+         "Core (higher n) + Cladding (lower n)"
+        ],
+        [
+         "**Condition**",
+         "i > C at core-cladding interface"
+        ],
+        [
+         "**Advantage**",
+         "Low loss, high bandwidth, immune to interference"
+        ]
+       ],
+       "Physics #18"
+      ],
+      [
+       "h",
+       "Applications"
+      ],
+      [
+       "t",
+       [
+        "Application",
+        "Description"
+       ],
+       [
+        [
+         "**Telecommunication**",
+         "Internet, telephone, cable TV"
+        ],
+        [
+         "**Medical Endoscopy**",
+         "Viewing internal organs"
+        ],
+        [
+         "**Surgery (Laser)**",
+         "Precise delivery of laser"
+        ],
+        [
+         "**Sensors**",
+         "Temperature, pressure, strain sensing"
+        ],
+        [
+         "**Military / Aircraft**",
+         "Lightweight data transmission"
+        ],
+        [
+         "**Lighting**",
+         "Decorative & medical illumination"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Endoscope",
+     "items": [
+      [
+       "t",
+       [
+        "Principle",
+        "Description"
+       ],
+       [
+        [
+         "**Working**",
+         "Bundle of optical fibres using TIR"
+        ],
+        [
+         "**Two Bundles**",
+         "One for illumination, one for image transmission"
+        ],
+        [
+         "**Flexibility**",
+         "Can be inserted into body cavities"
+        ],
+        [
+         "**Advantage**",
+         "Non-invasive / minimally invasive viewing"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Mirage",
+     "items": [
+      [
+       "t",
+       [
+        "Type",
+        "Principle"
+       ],
+       [
+        [
+         "**Inferior Mirage (desert)**",
+         "TIR due to hot air (lower n) near ground"
+        ],
+        [
+         "**Superior Mirage**",
+         "TIR due to cold air layers"
+        ],
+        [
+         "**Cause**",
+         "Continuous decrease/increase of refractive index with height"
+        ],
+        [
+         "**Appearance**",
+         "Inverted image of distant object (water-like)"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Diamond and TIR",
+     "items": [
+      [
+       "t",
+       [
+        "Aspect",
+        "Description"
+       ],
+       [
+        [
+         "**Refractive Index**",
+         "Very high (n ≈ 2.42)"
+        ],
+        [
+         "**Critical Angle**",
+         "Very small (≈ 24.4°)"
+        ],
+        [
+         "**Result**",
+         "Most light suffers TIR → multiple internal reflections"
+        ],
+        [
+         "**Brilliance / Fire**",
+         "Due to TIR + dispersion"
+        ],
+        [
+         "**Cutting**",
+         "Facets designed to maximise TIR"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "leaf": "E18/2",
+   "title": "Physics: Lenses, the human eye and its defects",
+   "parts": [
+    {
+     "t": "Types of lenses",
+     "items": [
+      [
+       "t",
+       [
+        "Type",
+        "Nature"
+       ],
+       [
+        [
+         "**Convex / Converging**",
+         "Thicker at centre (double convex, plano-convex, concavo-convex)"
+        ],
+        [
+         "**Concave / Diverging**",
+         "Thicker at edges (double concave, plano-concave, convexo-concave)"
+        ],
+        [
+         "**Cylindrical**",
+         "Corrects astigmatism"
+        ],
+        [
+         "**Bifocal / Progressive**",
+         "Combines two powers"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Images formed by lenses",
+     "items": [
+      [
+       "t",
+       [
+        "Lens",
+        "Object Position",
+        "Image Nature"
+       ],
+       [
+        [
+         "**Convex**",
+         "Beyond 2F",
+         "Real, inverted, diminished"
+        ],
+        [
+         "**Convex**",
+         "At 2F",
+         "Real, inverted, same size"
+        ],
+        [
+         "**Convex**",
+         "Between F & 2F",
+         "Real, inverted, magnified"
+        ],
+        [
+         "**Convex**",
+         "At F",
+         "Real, inverted, highly magnified (at ∞)"
+        ],
+        [
+         "**Convex**",
+         "Within F",
+         "Virtual, erect, magnified"
+        ],
+        [
+         "**Concave**",
+         "Any position",
+         "Virtual, erect, diminished"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Uses of lenses",
+     "items": [
+      [
+       "t",
+       [
+        "Lens",
+        "Application"
+       ],
+       [
+        [
+         "**Convex**",
+         "Magnifying glass, camera, microscope, telescope, projector, eye lens"
+        ],
+        [
+         "**Concave**",
+         "Spectacles for myopia, peephole, door viewers"
+        ],
+        [
+         "**Combination**",
+         "Microscope, telescope, binoculars"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Convex lens: applications and reasons",
+     "items": [
+      [
+       "t",
+       [
+        "Application",
+        "Reason"
+       ],
+       [
+        [
+         "**Magnifying Glass**",
+         "Object within F → virtual magnified image"
+        ],
+        [
+         "**Camera**",
+         "Real inverted image on film/sensor"
+        ],
+        [
+         "**Microscope / Telescope**",
+         "Objective forms real image"
+        ],
+        [
+         "**Projector**",
+         "Magnified real image on screen"
+        ],
+        [
+         "**Human Eye (approx.)**",
+         "Forms real image on retina"
+        ],
+        [
+         "**Burning Glass**",
+         "Converges sun rays"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Concave lens: applications and reasons",
+     "items": [
+      [
+       "t",
+       [
+        "Application",
+        "Reason"
+       ],
+       [
+        [
+         "**Myopia Correction**",
+         "Diverges rays so image forms on retina"
+        ],
+        [
+         "**Peephole / Door Viewer**",
+         "Wide field of view"
+        ],
+        [
+         "**Some Galileo Telescopes**",
+         "Eyepiece"
+        ],
+        [
+         "**Correcting certain aberrations**",
+         "In combination"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Power of a lens",
+     "items": [
+      [
+       "t",
+       [
+        "Aspect",
+        "Description"
+       ],
+       [
+        [
+         "**Definition**",
+         "Reciprocal of focal length in metres"
+        ],
+        [
+         "**Unit**",
+         "Dioptre (D)"
+        ],
+        [
+         "**Convex**",
+         "Positive power (+)"
+        ],
+        [
+         "**Concave**",
+         "Negative power (–)"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Structure of the human eye",
+     "items": [
+      [
+       "t",
+       [
+        "Part",
+        "Function"
+       ],
+       [
+        [
+         "**Cornea**",
+         "Main refraction (≈ 70% of focusing)"
+        ],
+        [
+         "**Iris**",
+         "Controls pupil size (amount of light)"
+        ],
+        [
+         "**Pupil**",
+         "Aperture for light entry"
+        ],
+        [
+         "**Eye Lens**",
+         "Fine focusing (accommodation)"
+        ],
+        [
+         "**Ciliary Muscles**",
+         "Change lens curvature"
+        ],
+        [
+         "**Retina**",
+         "Screen where image is formed (rods & cones)"
+        ],
+        [
+         "**Optic Nerve**",
+         "Carries signal to brain"
+        ],
+        [
+         "**Aqueous / Vitreous Humour**",
+         "Maintain shape & refraction"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Defects of the eye",
+     "items": [
+      [
+       "t",
+       [
+        "Defect",
+        "Description"
+       ],
+       [
+        [
+         "**Myopia (Short-sightedness)**",
+         "Distant objects blurred"
+        ],
+        [
+         "**Hypermetropia (Long-sightedness)**",
+         "Nearby objects blurred"
+        ],
+        [
+         "**Presbyopia**",
+         "Age-related loss of accommodation"
+        ],
+        [
+         "**Astigmatism**",
+         "Distorted image due to irregular curvature"
+        ],
+        [
+         "**Cataract**",
+         "Clouding of eye lens"
+        ],
+        [
+         "**Colour Blindness**",
+         "Genetic defect in cones"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Myopia and its correction",
+     "items": [
+      [
+       "t",
+       [
+        "Aspect",
+        "Description"
+       ],
+       [
+        [
+         "**Cause**",
+         "Elongated eyeball / excessive converging power"
+        ],
+        [
+         "**Image Formation**",
+         "In front of retina"
+        ],
+        [
+         "**Correction**",
+         "Concave lens (diverging)"
+        ],
+        [
+         "**Power**",
+         "Negative (e.g., –2 D)"
+        ],
+        [
+         "**Effect**",
+         "Diverges rays so image falls on retina"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Hypermetropia and its correction",
+     "items": [
+      [
+       "t",
+       [
+        "Aspect",
+        "Description"
+       ],
+       [
+        [
+         "**Cause**",
+         "Shortened eyeball / insufficient converging power"
+        ],
+        [
+         "**Image Formation**",
+         "Behind retina"
+        ],
+        [
+         "**Correction**",
+         "Convex lens (converging)"
+        ],
+        [
+         "**Power**",
+         "Positive (e.g., +2 D)"
+        ],
+        [
+         "**Effect**",
+         "Converges rays so image falls on retina"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Presbyopia and its correction",
+     "items": [
+      [
+       "t",
+       [
+        "Aspect",
+        "Description"
+       ],
+       [
+        [
+         "**Cause**",
+         "Weakening of ciliary muscles + loss of lens flexibility (age)"
+        ],
+        [
+         "**Effect**",
+         "Near point recedes"
+        ],
+        [
+         "**Correction**",
+         "Bifocal / Progressive lenses (convex for near)"
+        ],
+        [
+         "**Common**",
+         "Combination of myopia + hypermetropia in old age"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Astigmatism and its correction",
+     "items": [
+      [
+       "t",
+       [
+        "Aspect",
+        "Description"
+       ],
+       [
+        [
+         "**Cause**",
+         "Irregular curvature of cornea / lens (different power in different meridians)"
+        ],
+        [
+         "**Effect**",
+         "Blurred / distorted vision at all distances"
+        ],
+        [
+         "**Correction**",
+         "Cylindrical lens"
+        ],
+        [
+         "**Modern**",
+         "Toric contact lenses / surgery"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    },
+    {
+     "t": "Near point of the eye",
+     "items": [
+      [
+       "t",
+       [
+        "Aspect",
+        "Description"
+       ],
+       [
+        [
+         "**Definition**",
+         "Closest distance at which eye can see clearly"
+        ],
+        [
+         "**Normal Value**",
+         "25 cm (least distance of distinct vision)"
+        ]
+       ],
+       "Physics #18"
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "corrections": []
+}
