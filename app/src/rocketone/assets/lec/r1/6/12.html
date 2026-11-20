@@ -1,0 +1,224 @@
+<!doctype html><html><head><meta charset='utf-8'><style>
+    @page { size: 13.333in 7.5in; margin: 0 }
+    * { box-sizing: border-box }
+    body { margin: 0; font-family: Inter, 'Noto Sans', 'Noto Sans Telugu', Arial, sans-serif; color: #1f2430 }
+    section.s, div.s { width: 13.333in; height: 7.5in; position: relative; overflow: hidden; page-break-after: always; background: #fff }
+    .s.title, .s.end { background: linear-gradient(135deg, #1e2a5a 0%, #2f3f8f 60%, #4458c4 100%); color: #fff; padding: 0.9in 1in }
+    .s.title h1, .s.end h1 { font-size: 40px; line-height: 1.18; margin: 14px 0 22px; font-weight: 800; max-width: 11in }
+    .kicker { font-size: 15px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .8; font-weight: 600 }
+    .syl { background: rgba(255,255,255,.1); border-radius: 12px; padding: 16px 22px; max-width: 11.3in }
+    .syl .lab { font-size: 12px; letter-spacing: 1.5px; font-weight: 700; opacity: .75; margin-bottom: 6px }
+    .syl ul { margin: 0; padding-left: 20px; font-size: 18px; line-height: 1.5 }
+    .foot { position: absolute; bottom: .55in; left: 1in; font-size: 14px; opacity: .75 }
+    .bar { position: absolute; top: 0; left: 0; right: 0; height: .5in; background: #1e2a5a; color: #fff; display: flex; align-items: center;
+           padding: 0 .55in; font-size: 13px; letter-spacing: .5px; gap: 18px }
+    .bar .p { font-weight: 700; color: #f6c453 }
+    .bar .t { opacity: .85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+    .inner { position: absolute; top: .72in; left: .6in; right: .6in; bottom: .45in; display: flex; flex-direction: column }
+    h2 { font-size: 30px; margin: 0 0 12px; color: #1e2a5a; font-weight: 800; border-left: 6px solid #f6a623; padding-left: 14px }
+    h2 .cont { font-size: 16px; color: #8a90a6; font-weight: 600 }
+    .body { font-size: 23px; line-height: 1.4; flex: 1; overflow: hidden }
+    .sub { font-size: 23px; font-weight: 800; color: #2f3f8f; margin: 10px 0 4px }
+    ul.pts { margin: 4px 0; padding-left: 24px }
+    ul.pts li { margin: 4px 0 }
+    ul.pts li::marker { color: #f6a623 }
+    b { color: #13194a }
+    table { border-collapse: collapse; width: 100%; font-size: 19px; line-height: 1.3; margin: 6px 0 8px }
+    th { background: #2f3f8f; color: #fff; text-align: left; padding: 7px 10px; font-weight: 700 }
+    th b { color: #fff }
+    td { padding: 6px 10px; border-bottom: 1px solid #e3e6f0; vertical-align: top }
+    tr:nth-child(even) td { background: #f5f7fc }
+    .box { border-radius: 10px; padding: 10px 16px; margin: 10px 0; font-size: 21px; line-height: 1.38 }
+    .box span { display: inline-block; font-size: 11.5px; font-weight: 800; letter-spacing: 1.2px; margin-right: 10px; padding: 2px 8px; border-radius: 5px }
+    .rem { background: #fff6e5; border-left: 5px solid #f6a623 } .rem span { background: #f6a623; color: #fff }
+    .set { background: #eaf6ee; border-left: 5px solid #2e9e5b } .set span { background: #2e9e5b; color: #fff }
+    .note { background: #eef1fb; border-left: 5px solid #4458c4 } .note span { background: #4458c4; color: #fff }
+    ol.plan { list-style: none; padding: 0; margin: 14px 0; columns: 2; column-gap: .5in; font-size: 23px }
+    ol.plan li { display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px; break-inside: avoid }
+    .n { flex: none; display: inline-flex; width: 30px; height: 30px; border-radius: 50%; background: #1e2a5a; color: #fff;
+         align-items: center; justify-content: center; font-weight: 700; font-size: 14px; margin-right: 10px }
+    .meta { color: #6b7185; font-size: 15px; margin-top: 8px }
+    .recap li { font-size: 21px; margin: 12px 0 }
+    .qs2 { display: grid; grid-template-columns: 1fr 1fr; gap: .35in }
+    .q { background: #f7f8fc; border-radius: 12px; padding: 18px 22px; font-size: 23px; line-height: 1.38 }
+    .qs { margin-bottom: 8px; display: flex }
+    ol.opts { list-style: none; padding: 0; margin: 0 }
+    ol.opts li { padding: 5px 10px; border-radius: 7px; margin: 3px 0; background: #fff; border: 1px solid #e3e6f0 }
+    ol.opts li.ok { background: #e3f5ea; border-color: #2e9e5b; font-weight: 700; color: #1d6b3d }
+    .src { color: #8a90a6; font-size: 14px; margin-top: 8px }
+    .num { position: absolute; bottom: .18in; right: .5in; font-size: 12px; color: #9aa0b4 }
+    .brand { position: absolute; bottom: .18in; left: .6in; font-size: 12px; color: #9aa0b4 }
+    </style><meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'><style>
+@media screen {
+  /* one slide = one screen, laid out for this phone: text sized to the screen (and the phone's font size) */
+  :root { --W: 100vw; --H: 100vh; --f: 16px } /* --W, --H, --f are set in pixels by START (no vw / vh: some WebViews give 0) */
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #0f1530; -webkit-tap-highlight-color: transparent }
+  section.s, div.s { width: var(--W) !important; height: var(--H) !important; margin: 0; page-break-after: auto }
+  .deck section.s, .deck div.s { display: none }
+  /* the slide shown is pinned to the screen: no scroll position (a reload restores one) can move it away */
+  .deck section.s.on, .deck div.s.on { display: block; position: fixed !important; left: 0; top: 0; z-index: 1 }
+  #diag { position: fixed; z-index: 20; left: 8px; top: 8px; right: 60px; font: 12px monospace; color: #ffd; background: rgba(0,0,0,.6); padding: 6px; white-space: pre-wrap }
+  .bar { height: calc(var(--f) * 2.1); font-size: calc(var(--f) * .7); padding: 0 64px 0 18px; gap: 10px }
+  .inner { top: calc(var(--f) * 2.7); left: 58px; right: 58px; bottom: 26px; overflow: hidden }
+  h2 { font-size: calc(var(--f) * 1.28); margin: 0 0 .5em; padding-left: 10px; border-left-width: 5px }
+  h2 .cont { font-size: .6em }
+  .body { font-size: var(--f) }
+  .sub { font-size: 1.04em; margin: .45em 0 .15em }
+  ul.pts { padding-left: 1.1em } ul.pts li { margin: .22em 0 }
+  table { font-size: .86em } th, td { padding: .35em .5em }
+  .box { font-size: .92em; padding: .45em .7em; margin: .45em 0 } .box span { font-size: .62em }
+  .s.title, .s.end { padding: calc(var(--H) * .07) calc(var(--W) * .06) } .s.title h1, .s.end h1 { font-size: calc(var(--f) * 1.75); margin: .4em 0 .6em }
+  .kicker { font-size: calc(var(--f) * .7) } .syl { padding: .7em 1em } .syl ul { font-size: calc(var(--f) * .92) }
+  .syl .lab { font-size: calc(var(--f) * .6) } .foot { bottom: 30px; left: calc(var(--W) * .06); font-size: calc(var(--f) * .7) }
+  ol.plan { font-size: var(--f); column-gap: 24px } ol.plan li { margin: 0 0 .5em } .n { width: 1.5em; height: 1.5em; font-size: .7em; margin-right: .5em }
+  .meta { font-size: calc(var(--f) * .75) }
+  .recap li { font-size: calc(var(--f) * .92); margin: .4em 0 }
+  .q { font-size: calc(var(--f) * .92); padding: .7em .9em } .src { font-size: .65em }
+  .qs2 { gap: 14px }
+  .brand, .num { display: none }
+  @media (orientation: portrait) { ol.plan { columns: 1 } .qs2 { grid-template-columns: 1fr } }
+  /* the controls: close, previous, slide n of N, next; a progress line */
+  #ctl button { position: fixed; z-index: 9; border: 0; border-radius: 50%; width: 48px; height: 48px; font-size: 26px; line-height: 48px;
+    background: rgba(15,21,48,.55); color: #fff; padding: 0 }
+  #ctl #cl { top: 4px; right: 8px; width: 42px; height: 42px; line-height: 42px; font-size: 20px; background: rgba(255,255,255,.18) }
+  #ctl #pv { top: 50%; left: 6px; transform: translateY(-50%) } #ctl #nx { top: 50%; right: 6px; transform: translateY(-50%) }
+  #ctl #pv, #ctl #nx { background: rgba(15,21,48,.28); color: #fff }
+  #ctl #ct { position: fixed; z-index: 9; bottom: 6px; right: 14px; font: 600 12px Inter, Arial, sans-serif;
+    color: #fff; background: rgba(15,21,48,.5); padding: 2px 10px; border-radius: 10px }
+  #ctl #pg { position: fixed; z-index: 9; bottom: 0; left: 0; height: 4px; background: #f6a623; transition: width .2s }
+  .s.title #x, .s.end #x { display: none }
+}
+</style></head><body><section class='s title'><div class='kicker'>Current Affairs · International - bilateral visits, defence exercises and geopolitics</div>
+    <h1>Important visits and India&#x27;s bilateral visits, 2025-26</h1>
+    <div class="syl"><div class="lab">SYLLABUS LINES THIS LESSON COVERS</div><ul><li>Current events – national</li><li>Current events – international</li></ul></div>
+    <div class='foot'>RocketOne · Group 1 Prelims · lecture notes</div></section><section class='s'><div class='bar'><span class='p'>Lesson</span><span class='t'>Important visits and India&#x27;s bilateral visits, 2025-26</span></div><div class='inner'><h2>Lesson plan</h2><ol class='plan'><li><span class='n'>1</span>Other important visits</li><li><span class='n'>2</span>Uzbekistan: PM Modi&#x27;s state visit</li><li><span class='n'>3</span>Myanmar: President U Min Aung Hlaing in India</li><li><span class='n'>4</span>Cyprus and Seychelles</li><li><span class='n'>5</span>United Arab Emirates: two visits</li><li><span class='n'>6</span>Switzerland and the United Kingdom</li><li><span class='n'>7</span>Norway and Italy: PM Modi&#x27;s visits</li><li><span class='n'>8</span>France and Germany: leaders in India</li><li><span class='n'>9</span>President Murmu in Moldova, North Macedonia and Romania</li><li><span class='n'>10</span>North America and South America: Canada and Brazil</li><li><span class='n'>11</span>Africa: Ethiopia, Liberia and Mali</li><li><span class='n'>12</span>Oceania: Australia and New Zealand</li></ol><div class='meta'>12 parts</div></div><div class='brand'>RocketOne · Group 1 Prelims · Current Affairs</div><div class='num'></div></section><div id='parts'></div><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Important visits and India&#x27;s bilateral visits, 2025-26</span></div><div class='inner'><h2>Recap</h2><ul class='pts recap'><li><b>Other important visits</b> — Shinzo Abe · Sanae Takaichi · To Lam · Vladimir Putin · Narendra Modi</li><li><b>Uzbekistan: PM Modi&#x27;s state visit</b> — Visit · India–Uzbekistan · Award · Discussed · Trade target · UPI · Joint military exercise</li><li><b>Myanmar: President U Min Aung Hlaing in India</b> — Visit · Bodh Gaya · NETRA · Policies · Connectivity projects discussed · Scholarships</li><li><b>Cyprus and Seychelles</b> — Visit · India–Cyprus · Programme · Defence · Anniversary · Occasion · SESEL</li><li><b>United Arab Emirates: two visits</b> — Visit · Meeting · Strategic petroleum reserves · LPG · Ship repair · Supercomputing · Trade</li><li><b>Switzerland and the United Kingdom</b> — Visit · Programme · Focus · Five agreements/arrangements · Young Professionals Exchange Agreement · India–EFTA TEPA · TEPA target</li><li><b>Norway and Italy: PM Modi&#x27;s visits</b> — Visit · Summit · India–Nordic · Cooperation · India–Italy · Trade target · Initiatives</li><li><b>France and Germany: leaders in India</b> — Visit · India–France · India–France Year of Innovation 2026 · Tata–Airbus H125 Final Assembly Line · HAMMER missiles · Energy · Cooperation</li></ul></div><div class='brand'>RocketOne · Group 1 Prelims · Current Affairs</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Important visits and India&#x27;s bilateral visits, 2025-26</span></div><div class='inner'><h2>Recap (cont.)</h2><ul class='pts recap'><li><b>President Murmu in Moldova, North Macedonia and Romania</b> — Visit · Moldova · North Macedonia · Romania · North Macedonia talks · Skopje</li><li><b>North America and South America: Canada and Brazil</b> — Visit · Uranium · Centre of Excellence · AICTE–Mitacs MoU · Trade target · Programme · Count</li><li><b>Africa: Ethiopia, Liberia and Mali</b> — Visit · Programme · Award · India and Ethiopia · Historical connection · Liberia · Mali</li><li><b>Oceania: Australia and New Zealand</b> — Visit · Maritime Security Collaboration Roadmap · MoU · Support · Uranium · New Zealand · Outcome</li></ul></div><div class='brand'>RocketOne · Group 1 Prelims · Current Affairs</div><div class='num'></div></section><section class='s end'><h1>Questions?</h1><div class='kicker'>Important visits and India&#x27;s bilateral visits, 2025-26</div><div class='foot'>RocketOne · Group 1 Prelims</div></section><script>function __layout() {
+    const P = [{"title": "Other important visits", "part": "Part 1 of 12", "items": [{"k": "t", "head": ["Visitor", "Place visited", "Date", "Notes"], "rows": [["<b>Shinzo Abe</b>, former PM of Japan", "Varanasi, India", "December 2015", "Visited with PM Modi; participated in Ganga Aarti. The visit strengthened cultural cooperation between Varanasi and Kyoto."], ["<b>Sanae Takaichi</b>, PM of Japan", "New Delhi, India", "1–3 July 2026", "Attended the 16th India–Japan Annual Summit; main meeting with PM Modi was on 2 July."], ["<b>To Lam</b>, President of Vietnam", "Bodh Gaya, Bihar", "5 May 2026", "Visited the Mahabodhi Temple and offered prayers during a three-day state visit to India."], ["<b>Vladimir Putin</b>, President of Russia", "Kuril Islands", "13 August 2026", "Described as his first official visit to the disputed islands."], ["<b>Narendra Modi</b>, PM of India", "Tamil Nadu", "11 October 2026", "Visited Tamil Nadu and inaugurated a section of Chennai Metro Rail Phase II."]]}]}, {"title": "Uzbekistan: PM Modi's state visit", "part": "Part 2 of 12", "items": [{"k": "b", "h": "<b>Visit:</b> PM Narendra Modi, 29–30 August 2026; State visit at the invitation of President Shavkat Mirziyoyev."}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span><b>India–Uzbekistan:</b> Strategic Partnership upgraded to a Comprehensive Strategic Partnership.</div>"}, {"k": "b", "h": "<b>Award:</b> Uzbekistan conferred its highest state award, Oliy Darajali Do‘stlik Order, on Modi."}, {"k": "b", "h": "<b>Discussed:</b> long-term uranium supply, peaceful nuclear energy, geological exploration, mining and mineral processing."}, {"k": "b", "h": "<b>Trade target:</b> US$5 billion by 2030."}, {"k": "b", "h": "<b>UPI:</b> NPCI International Payments Ltd. and Uzbekistan’s National Interbank Processing Centre agreed to enable Indian UPI apps to scan Uzbekistan’s UZQR codes."}, {"k": "b", "h": "<b>Joint military exercise:</b> DUSTLIK, 7th edition, held in Namangan Region in April 2026."}, {"k": "b", "h": "<b>MoU:</b> an MoU on Ayurveda and traditional medicines was signed."}, {"k": "b", "h": "<b>Scholarships:</b> India announced 100 Lal Bahadur Shastri Hindi Scholarships and an ICCR Sanskrit Chair at Tashkent State University of Oriental Studies."}, {"k": "b", "h": "<b>Grant:</b> a US$1 million grant was announced for ecological rehabilitation in the Aral Sea region."}]}, {"title": "Myanmar: President U Min Aung Hlaing in India", "part": "Part 3 of 12", "items": [{"k": "b", "h": "<b>Visit:</b> President U Min Aung Hlaing, 30 May–3 June 2026; first foreign trip since assuming office."}, {"k": "b", "h": "<b>Bodh Gaya:</b> visited Mahabodhi Temple, Mahabodhi Meditation Centre and Sujata Temple."}, {"k": "b", "h": "<b>NETRA:</b> visited NTPC’s Energy Technology Research Alliance (NETRA), Greater Noida."}, {"k": "b", "h": "<b>Policies:</b> cooperation discussed under India’s Neighbourhood First and Act East policies."}, {"k": "b", "h": "<b>Connectivity projects discussed:</b> Kaladan Multi-Modal Transit Transport Project and India–Myanmar–Thailand Trilateral Highway."}, {"k": "b", "h": "<b>Scholarships:</b> India announced an increase in Mekong-Ganga ICCR scholarships for Myanmar students from 36 to 100."}]}, {"title": "Cyprus and Seychelles", "part": "Part 4 of 12", "items": [{"k": "h", "h": "Cyprus: President Nikos Christodoulides in India"}, {"k": "b", "h": "<b>Visit:</b> President Nikos Christodoulides, 20–23 May 2026; first visit to India in his current capacity."}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span><b>India–Cyprus</b> relations elevated to a Strategic Partnership.</div>"}, {"k": "b", "h": "<b>Programme:</b> held talks with PM Modi, met President Droupadi Murmu, paid homage at Rajghat and participated in a Business Forum in Mumbai."}, {"k": "b", "h": "<b>Defence:</b> five-year defence cooperation roadmap for 2026–2031."}, {"k": "b", "h": "<b>Anniversary:</b> 65th anniversary of diplomatic relations to be commemorated in 2027."}, {"k": "h", "h": "Seychelles: PM Modi&#x27;s visit"}, {"k": "b", "h": "<b>Visit:</b> PM Narendra Modi, 27–29 June 2026; second visit after March 2015."}, {"k": "b", "h": "<b>Occasion:</b> visit coincided with the 50th anniversary of Seychelles’ independence and diplomatic relations with India."}, {"k": "b", "h": "<b>SESEL:</b> cooperation advanced under the Joint Vision for Sustainability, Economic Growth and Security through Enhanced Linkages (SESEL)."}, {"k": "b", "h": "<b>Gifts from India:</b> Fast Patrol Vessel PS Lespwar, ten utility vehicles, five sets of sailing boats, six ambulances, 500 metric tonnes of rice and 8,500 metric tonnes of cement."}, {"k": "b", "h": "<b>CDRI:</b> Seychelles decided to join the Coalition for Disaster Resilient Infrastructure."}, {"k": "b", "h": "<b>UPI:</b> NPCI International Payments Ltd. and the Central Bank of Seychelles signed an MoU on UPI implementation."}]}, {"title": "United Arab Emirates: two visits", "part": "Part 5 of 12", "items": [{"k": "h", "h": "PM Modi in the UAE, 15 May 2026"}, {"k": "b", "h": "<b>Visit:</b> official visit as part of a five-nation tour covering UAE, Netherlands, Sweden, Norway and Italy."}, {"k": "b", "h": "<b>Meeting:</b> met UAE President Sheikh Mohamed bin Zayed Al Nahyan in Abu Dhabi."}, {"k": "b", "h": "<b>Strategic petroleum reserves:</b> potential ADNOC crude-oil storage of up to 30 million barrels, including Visakhapatnam and Chandikhol facilities."}, {"k": "b", "h": "<b>LPG:</b> Indian Oil Corporation and ADNOC signed a Strategic Collaboration Agreement on LPG supplies."}, {"k": "b", "h": "<b>Ship repair:</b> Cochin Shipyard and Drydocks World agreed to develop a ship-repair cluster at Vadinar."}, {"k": "b", "h": "<b>Supercomputing:</b> C-DAC and G42 discussed an 8-exaflop supercomputing cluster."}, {"k": "b", "h": "<b>Trade:</b> Virtual Trade Corridor using MAITRI was also welcomed."}, {"k": "h", "h": "UAE President in India, 19 January 2026"}, {"k": "b", "h": "<b>Visit:</b> President Sheikh Mohamed bin Zayed Al Nahyan, 19 January 2026."}, {"k": "b", "h": "<b>Dholera:</b> LoI on UAE participation in Dholera Special Investment Region, Gujarat."}, {"k": "b", "h": "<b>NIIF:</b> investment in the second NIIF Infrastructure Fund discussed."}, {"k": "b", "h": "<b>LNG:</b> HPCL and ADNOC Gas signed a 10-year agreement for 0.5 million metric tonnes per annum of LNG from 2028."}, {"k": "b", "h": "<b>Other initiatives mentioned:</b> IN-SPACe–UAE Space Agency collaboration, proposed Strategic Defence Partnership Framework and House of India museum in Abu Dhabi."}]}, {"title": "Switzerland and the United Kingdom", "part": "Part 6 of 12", "items": [{"k": "h", "h": "Switzerland: President Guy Parmelin in India"}, {"k": "b", "h": "<b>Visit:</b> President Guy Parmelin, 5–7 October 2026."}, {"k": "b", "h": "<b>Programme:</b> visited Rajghat, held talks with PM Narendra Modi at Hyderabad House and met President Droupadi Murmu at Rashtrapati Bhavan."}, {"k": "b", "h": "<b>Focus:</b> Trade, Technology and Talent."}, {"k": "b", "h": "<b>Five agreements/arrangements:</b> migration and mobility, young professionals’ exchange, transport technology, research cooperation and innovation implementation."}, {"k": "b", "h": "<b>Young Professionals Exchange Agreement:</b> provides for 300 professionals annually from each country, expandable to 500."}, {"k": "b", "h": "<b>India–EFTA TEPA:</b> signed on 10 March 2024 and entered into force on 1 October 2025."}, {"k": "b", "h": "<b>TEPA target:</b> US$100 billion investment and one million direct jobs in India over 15 years."}, {"k": "h", "h": "United Kingdom"}, {"k": "b", "h": "<b>No separate leader visit:</b> India–UK CETA and Double Contribution Convention (DCC) became operational on 15 July 2026."}]}, {"title": "Norway and Italy: PM Modi's visits", "part": "Part 7 of 12", "items": [{"k": "h", "h": "Norway"}, {"k": "b", "h": "<b>Visit:</b> PM Narendra Modi, Oslo, 18–19 May 2026; focused on bilateral relations, climate, clean energy and Arctic cooperation."}, {"k": "b", "h": "<b>Summit:</b> Oslo hosted the 3rd India–Nordic Summit on 19 May 2026."}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span><b>India–Nordic</b> relations elevated to a trusted Green Technology and Innovation Strategic Partnership.</div>"}, {"k": "b", "h": "<b>Cooperation:</b> renewable energy, green hydrogen, Arctic research and the Himadri research station at Ny-Ålesund, Svalbard."}, {"k": "h", "h": "Italy"}, {"k": "b", "h": "<b>Visit:</b> PM Narendra Modi, 19–20 May 2026; met PM Giorgia Meloni and President Sergio Mattarella in Rome."}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span><b>India–Italy</b> relations upgraded to a Special Strategic Partnership.</div>"}, {"k": "b", "h": "<b>Trade target:</b> €20 billion bilateral trade by 2029."}, {"k": "b", "h": "<b>Cooperation:</b> defence, counterterrorism, space, technology and IMEC."}, {"k": "b", "h": "<b>Initiatives:</b> INNOVIT India and ICI–Italy Calls India."}, {"k": "b", "h": "<b>Honour:</b> Modi received the FAO Agricola Medal at FAO headquarters in Rome."}]}, {"title": "France and Germany: leaders in India", "part": "Part 8 of 12", "items": [{"k": "h", "h": "France: President Emmanuel Macron"}, {"k": "b", "h": "<b>Visit:</b> President Emmanuel Macron, 17–19 February 2026."}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span><b>India–France</b> relations upgraded to a Special Global Strategic Partnership under the Horizon 2047 Roadmap.</div>"}, {"k": "b", "h": "<b>India–France Year of Innovation 2026:</b> inaugurated in Mumbai, focusing on AI, science, healthcare, research and education."}, {"k": "b", "h": "<b>Tata–Airbus H125 Final Assembly Line:</b> at Vemagal, Karnataka, described as India’s first private-sector helicopter final assembly line."}, {"k": "b", "h": "<b>HAMMER missiles:</b> BEL and Safran signed a joint-venture MoU to manufacture HAMMER missiles in India."}, {"k": "b", "h": "<b>Energy:</b> cooperation also covered nuclear energy and renewable energy."}, {"k": "h", "h": "Germany: Chancellor Friedrich Merz"}, {"k": "b", "h": "<b>Visit:</b> Chancellor Friedrich Merz, 12–13 January 2026; visited India and held talks with PM Narendra Modi in Ahmedabad, Gujarat."}, {"k": "b", "h": "<b>Cooperation:</b> trade, defence, technology, clean energy and migration."}, {"k": "b", "h": "<b>Visa:</b> Germany announced visa-free airport transit for Indian passport holders, effective 3 June 2026."}, {"k": "b", "h": "<b>Joint Declaration of Intent:</b> on Global Skills Partnership, ethical recruitment and cooperation against irregular migration and human trafficking."}, {"k": "b", "h": "<b>Skilling:</b> a renewable-energy skilling Centre of Excellence was proposed at the National Skill Training Institute, Hyderabad."}]}, {"title": "President Murmu in Moldova, North Macedonia and Romania", "part": "Part 9 of 12", "items": [{"k": "b", "h": "<b>Visit:</b> President Droupadi Murmu, 19–25 July 2026."}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span>Described as the first visit by an Indian President to <b>Moldova</b> and <b>North Macedonia</b>, and the first to <b>Romania</b> since May 1994.</div>"}, {"k": "b", "h": "<b>Moldova:</b> cooperation in agriculture, healthcare, pharmaceuticals, renewable energy, DPI and AI."}, {"k": "b", "h": "<b>North Macedonia:</b> President Murmu met President Gordana Siljanovska-Davkova and addressed the Assembly."}, {"k": "b", "h": "<b>North Macedonia talks:</b> discussions included trade and pharmaceutical manufacturing."}, {"k": "b", "h": "<b>Skopje:</b> Gandhi bust unveiled in Skopje; visit to Mother Teresa Memorial mentioned."}, {"k": "b", "h": "<b>Romania:</b> India and Romania agreed to work towards doubling bilateral trade over the next three years and strengthening defence cooperation."}]}, {"title": "North America and South America: Canada and Brazil", "part": "Part 10 of 12", "items": [{"k": "h", "h": "Canada: PM Mark Carney in India"}, {"k": "b", "h": "<b>Visit:</b> PM Mark Carney, 27 February–2 March 2026; major turning point in India–Canada relations."}, {"k": "b", "h": "<b>Uranium:</b> Cameco–Department of Atomic Energy agreement of approximately CAD 2.6 billion for long-term uranium supply to India."}, {"k": "b", "h": "<b>Centre of Excellence:</b> proposed Canada–India Pulse Protein Centre of Excellence at NIFTEM Kundli."}, {"k": "b", "h": "<b>AICTE–Mitacs MoU:</b> to support around 300 Indian undergraduate research internships annually from 2027."}, {"k": "b", "h": "<b>Trade target:</b> long-term bilateral trade target of approximately CAD 70 billion by 2030."}, {"k": "h", "h": "Brazil: President Lula in India"}, {"k": "b", "h": "<b>Visit:</b> President Luiz Inácio Lula da Silva, 18–22 February 2026."}, {"k": "b", "h": "<b>Programme:</b> attended India AI Impact Summit 2026 and held bilateral talks with PM Modi on 21 February in New Delhi."}, {"k": "b", "h": "<b>Count:</b> this was Lula’s fifth visit to India as President and sixth visit overall."}, {"k": "b", "h": "<b>Outcome:</b> bilateral ties elevated to a strategic level; trade target of over US$30 billion by 2030."}, {"k": "b", "h": "<b>MoU:</b> on mining and minerals for the steel sector."}]}, {"title": "Africa: Ethiopia, Liberia and Mali", "part": "Part 11 of 12", "items": [{"k": "h", "h": "Ethiopia: PM Modi&#x27;s visit"}, {"k": "b", "h": "<b>Visit:</b> PM Narendra Modi, 16–17 December 2025; first bilateral visit to Ethiopia."}, {"k": "b", "h": "<b>Programme:</b> held talks with PM Abiy Ahmed Ali and addressed a joint session of the Ethiopian Parliament."}, {"k": "b", "h": "<b>Award:</b> Modi received Ethiopia’s highest award, Great Honour Nishan of Ethiopia."}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span><b>India and Ethiopia</b> agreed to elevate ties to a Strategic Partnership.</div>"}, {"k": "b", "h": "<b>Historical connection:</b> trade during the Axumite Empire through Adulis port; formal diplomatic relations established in 1950."}, {"k": "h", "h": "Liberia and Mali"}, {"k": "b", "h": "<b>Liberia:</b> India and Liberia launched the Group of Friends on Safety and Security of Shipping and Seafarers at UN Headquarters, New York, on 25 September 2026."}, {"k": "b", "h": "<b>Mali:</b> First India–Mali Forum for the Promotion of Exports held in Bamako on 19–20 June 2026."}]}, {"title": "Oceania: Australia and New Zealand", "part": "Part 12 of 12", "items": [{"k": "h", "h": "Australia: PM Modi&#x27;s visit"}, {"k": "b", "h": "<b>Visit:</b> PM Narendra Modi, 8–10 July 2026; attended the Third Australia–India Annual Summit in Melbourne on 9 July."}, {"k": "b", "h": "<b>Maritime Security Collaboration Roadmap:</b> covered maritime-domain awareness, surveillance, information exchange, operational coordination, search and rescue, and sea-lane protection."}, {"k": "b", "h": "<b>MoU:</b> between Indian Coast Guard and Australia’s Maritime Border Command on maritime law enforcement and border protection."}, {"k": "b", "h": "<b>Support:</b> Australia supported India’s NSG membership and Gaganyaan."}, {"k": "b", "h": "<b>Uranium:</b> uranium exports for peaceful use under IAEA safeguards were discussed."}, {"k": "h", "h": "New Zealand: PM Modi&#x27;s visit"}, {"k": "b", "h": "<b>Visit:</b> PM Narendra Modi, 10–11 July 2026; visit to Auckland."}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span>First Indian prime-ministerial visit to <b>New Zealand</b> in four decades.</div>"}, {"k": "b", "h": "<b>Outcome:</b> India and New Zealand established a Strategic Partnership, adopted the Roadmap to 2030 and concluded ten agreements/arrangements."}, {"k": "b", "h": "<b>Trade target:</b> NZ$7 billion by 2030. New Zealand committed to"}]}], APP = "RocketOne \u00b7 Group 1 Prelims", SUBJ = "Current Affairs", TOPIC = "Important visits and India&#x27;s bilateral visits, 2025-26";
+    const host = document.getElementById('parts');
+    function mk(cls, html) { const d = document.createElement('div'); if (cls) d.className = cls; if (html != null) d.innerHTML = html; return d; }
+    function newSlide(p, cont) {
+      const s = mk('s'); s.innerHTML = `<div class='bar'><span class='p'>${p.part}</span><span class='t'>${TOPIC}</span></div>
+        <div class='inner'><h2>${p.title}<span class='cont'></span></h2><div class='body'></div></div>
+        <div class='brand'>${APP} · ${SUBJ}</div><div class='num'></div>`;
+      host.appendChild(s); return s.querySelector('.body');
+    }
+    const over = b => b.scrollHeight > b.clientHeight + 1;
+    for (const p of P) {
+      const made = []; let body = newSlide(p); made.push(body);
+      const fresh = () => { body = newSlide(p); made.push(body); };
+      let ul = null;
+      for (let i = 0; i < p.items.length; i++) {
+        const it = p.items[i];
+        if (it.k === 'b') {
+          if (!ul || ul.parentNode !== body || body.lastChild !== ul) { ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); }
+          const li = document.createElement('li'); li.innerHTML = it.h; ul.appendChild(li);
+          if (over(body) && body.childNodes.length > 1 || over(body) && ul.childNodes.length > 1) {
+            li.remove(); if (!ul.childNodes.length) ul.remove();
+            const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null;
+            fresh(); if (carry) body.appendChild(carry);
+            ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); ul.appendChild(li);
+          }
+          continue;
+        }
+        ul = null;
+        if (it.k === 'h') { body.appendChild(mk('sub', it.h)); if (over(body) && body.childNodes.length > 1) { const h = body.lastChild; h.remove(); fresh(); body.appendChild(h); } continue; }
+        if (it.k === 'x') { const d = mk(null, it.h).firstChild; body.appendChild(d); if (over(body) && body.childNodes.length > 1) { d.remove(); const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; fresh(); if (carry) body.appendChild(carry); body.appendChild(d); } continue; }
+        if (it.k === 't') {
+          const head = it.head.length ? '<tr>' + it.head.map(c => `<th>${c}</th>`).join('') + '</tr>' : '';
+          const newTable = () => { const t = document.createElement('table'); t.innerHTML = head; body.appendChild(t); return t.tBodies[0] || t; };
+          let tb = newTable();
+          for (const r of it.rows) {
+            const tr = document.createElement('tr'); tr.innerHTML = r.map(c => `<td>${c}</td>`).join(''); tb.appendChild(tr);
+            if (over(body) && (tb.querySelectorAll('td').length > r.length || body.childNodes.length > 1)) {
+              tr.remove();
+              const t = tb.closest('table'); let carry = null;
+              if (!t.querySelector('td')) { t.remove(); carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; }
+              fresh(); if (carry) body.appendChild(carry); tb = newTable(); tb.appendChild(tr);
+            }
+          }
+        }
+      }
+      made.forEach((b, k) => { if (made.length > 1) b.parentNode.querySelector('.cont').textContent = ` (${k + 1}/${made.length})`; });
+    }
+    host.replaceWith(...host.childNodes);
+    const all = document.querySelectorAll('section.s, div.s');
+    all.forEach((s, k) => { const n = s.querySelector('.num'); if (n) n.textContent = `${k + 1} / ${all.length}`; });
+    }</script><script>function __deck() {
+(function () {
+  // static slides (title, plan, recap, quick check) that overflow this screen are split, item by item
+  function split(s) {
+    const inner = s.querySelector('.inner'); const box = s.querySelector('.qs2, ul.recap, ol.plan');
+    if (!inner || !box) return;
+    const moved = [];
+    while (inner.scrollHeight > inner.clientHeight + 1 && box.children.length > 1) moved.unshift(box.lastElementChild), box.lastElementChild.remove();
+    if (!moved.length) return;
+    const c = s.cloneNode(true); const cb = c.querySelector('.qs2, ul.recap, ol.plan');
+    cb.innerHTML = ''; moved.forEach(m => cb.appendChild(m));
+    s.after(c); split(c);
+  }
+  document.querySelectorAll('section.s').forEach(split);
+  const all = [...document.querySelectorAll('section.s, div.s')], N = all.length;
+  all.forEach((s, i) => { s.setAttribute('role', 'group'); s.setAttribute('aria-roledescription', 'slide'); s.setAttribute('aria-label', `Slide ${i + 1} of ${N}`); });
+  document.documentElement.classList.add('deck');
+  const ctl = document.createElement('div'); ctl.id = 'ctl';
+  ctl.innerHTML = `<button id='cl' aria-label='Close lecture'>✕</button><button id='pv' aria-label='Previous slide'>‹</button>
+    <span id='ct' role='status' aria-live='polite'></span><button id='nx' aria-label='Next slide'>›</button><div id='pg' aria-hidden='true'></div>`;
+  document.body.appendChild(ctl);
+  const A = window.Android, ct = ctl.querySelector('#ct'), pg = ctl.querySelector('#pg');
+  const h = new URLSearchParams(location.hash.slice(1));
+  let cur = h.has('end') ? N - 1 : Math.min(N - 1, Math.max(0, Math.round(parseFloat(h.get('p') || '0') * (N - 1))));
+  function show(i) {
+    all[cur].classList.remove('on'); cur = i; all[cur].classList.add('on');
+    ct.textContent = `${cur + 1} / ${N}`; pg.style.width = `${(cur + 1) / N * 100}%`;
+    try { history.replaceState(null, '', '#p=' + (N > 1 ? cur / (N - 1) : 0)); } catch (e) {}
+    scrollTo(0, 0); diag();
+  }
+  // if the slide shown is still not on the screen, say what the screen reports (to fix it)
+  function diag() {
+    const r = all[cur].getBoundingClientRect(), bad = r.width < 100 || r.height < 100 || r.bottom < 50 || r.top > innerHeight - 50;
+    let d = document.getElementById('diag');
+    if (!bad) { if (d) d.remove(); return; }
+    if (!d) { d = document.createElement('div'); d.id = 'diag'; document.body.appendChild(d); }
+    d.textContent = `slide ${Math.round(r.left)},${Math.round(r.top)} ${Math.round(r.width)}x${Math.round(r.height)} | inner ${innerWidth}x${innerHeight} | client ${document.documentElement.clientWidth}x${document.documentElement.clientHeight} | laid ${window.__laid} | dpr ${devicePixelRatio} | scroll ${scrollY} | display ${getComputedStyle(all[cur]).display}`;
+  }
+  const next = () => cur < N - 1 ? show(cur + 1) : (A && A.next());
+  const prev = () => cur > 0 ? show(cur - 1) : (A && A.prev());
+  ctl.querySelector('#nx').onclick = e => { e.stopPropagation(); next(); };
+  ctl.querySelector('#pv').onclick = e => { e.stopPropagation(); prev(); };
+  ctl.querySelector('#cl').onclick = e => { e.stopPropagation(); A && A.close(); };
+  // tap the left third for the previous slide, anywhere else for the next; or swipe; or the arrow keys
+  let x0 = null, y0 = null, swiped = false;
+  document.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; swiped = false; }, { passive: true });
+  document.addEventListener('touchend', e => {
+    if (x0 == null) return; const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) { swiped = true; dx < 0 ? next() : prev(); } x0 = null;
+  }, { passive: true });
+  document.addEventListener('click', e => { if (swiped || e.target.closest('button')) return; e.clientX < innerWidth * 0.3 ? prev() : next(); });
+  document.addEventListener('keydown', e => {
+    if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(e.key)) { e.preventDefault(); next(); }
+    if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(e.key)) { e.preventDefault(); prev(); }
+  });
+  // turned the phone: lay the slides out again for the new shape, at the same point of the lecture
+  let t;
+  addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => {
+    const [w0, h0] = window.__laid || [0, 0], W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+    if (Math.abs(W - w0) > w0 * .08 || Math.abs(H - h0) > h0 * .08) location.reload(); }, 300); });
+  all[cur].classList.add('on'); show(cur);
+})();
+}
+try { history.scrollRestoration = 'manual'; } catch (e) {}
+(function start(tries) {
+  // lay out only on a real, settled landscape screen; sizes in pixels (a WebView can report 0 x 0, a narrow or a
+  // short screen while the phone turns, and some give 0 for vh units)
+  const W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+  const ok = W > 240 && H > 200 && (!window.Android || W > H || tries > 60);
+  if (!ok) return setTimeout(() => start(tries + 1), 50);
+  const r = document.documentElement.style;
+  r.setProperty('--W', W + 'px'); r.setProperty('--H', H + 'px');
+  r.setProperty('--f', Math.round(Math.max(14, Math.min(27, Math.min(W * .024, H * .044)))) + 'px');
+  window.__laid = [W, H];
+  __layout(); __deck();
+  // a sane layout has room on its slides; if not (the screen changed under us), lay out again
+  const b = document.querySelector('.s .body');
+  if (b && b.clientHeight < 120 && tries < 100) setTimeout(() => location.reload(), 300);
+})(0);
+</script></body></html>

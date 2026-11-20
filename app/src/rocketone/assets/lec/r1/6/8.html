@@ -1,0 +1,224 @@
+<!doctype html><html><head><meta charset='utf-8'><style>
+    @page { size: 13.333in 7.5in; margin: 0 }
+    * { box-sizing: border-box }
+    body { margin: 0; font-family: Inter, 'Noto Sans', 'Noto Sans Telugu', Arial, sans-serif; color: #1f2430 }
+    section.s, div.s { width: 13.333in; height: 7.5in; position: relative; overflow: hidden; page-break-after: always; background: #fff }
+    .s.title, .s.end { background: linear-gradient(135deg, #1e2a5a 0%, #2f3f8f 60%, #4458c4 100%); color: #fff; padding: 0.9in 1in }
+    .s.title h1, .s.end h1 { font-size: 40px; line-height: 1.18; margin: 14px 0 22px; font-weight: 800; max-width: 11in }
+    .kicker { font-size: 15px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .8; font-weight: 600 }
+    .syl { background: rgba(255,255,255,.1); border-radius: 12px; padding: 16px 22px; max-width: 11.3in }
+    .syl .lab { font-size: 12px; letter-spacing: 1.5px; font-weight: 700; opacity: .75; margin-bottom: 6px }
+    .syl ul { margin: 0; padding-left: 20px; font-size: 18px; line-height: 1.5 }
+    .foot { position: absolute; bottom: .55in; left: 1in; font-size: 14px; opacity: .75 }
+    .bar { position: absolute; top: 0; left: 0; right: 0; height: .5in; background: #1e2a5a; color: #fff; display: flex; align-items: center;
+           padding: 0 .55in; font-size: 13px; letter-spacing: .5px; gap: 18px }
+    .bar .p { font-weight: 700; color: #f6c453 }
+    .bar .t { opacity: .85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+    .inner { position: absolute; top: .72in; left: .6in; right: .6in; bottom: .45in; display: flex; flex-direction: column }
+    h2 { font-size: 30px; margin: 0 0 12px; color: #1e2a5a; font-weight: 800; border-left: 6px solid #f6a623; padding-left: 14px }
+    h2 .cont { font-size: 16px; color: #8a90a6; font-weight: 600 }
+    .body { font-size: 23px; line-height: 1.4; flex: 1; overflow: hidden }
+    .sub { font-size: 23px; font-weight: 800; color: #2f3f8f; margin: 10px 0 4px }
+    ul.pts { margin: 4px 0; padding-left: 24px }
+    ul.pts li { margin: 4px 0 }
+    ul.pts li::marker { color: #f6a623 }
+    b { color: #13194a }
+    table { border-collapse: collapse; width: 100%; font-size: 19px; line-height: 1.3; margin: 6px 0 8px }
+    th { background: #2f3f8f; color: #fff; text-align: left; padding: 7px 10px; font-weight: 700 }
+    th b { color: #fff }
+    td { padding: 6px 10px; border-bottom: 1px solid #e3e6f0; vertical-align: top }
+    tr:nth-child(even) td { background: #f5f7fc }
+    .box { border-radius: 10px; padding: 10px 16px; margin: 10px 0; font-size: 21px; line-height: 1.38 }
+    .box span { display: inline-block; font-size: 11.5px; font-weight: 800; letter-spacing: 1.2px; margin-right: 10px; padding: 2px 8px; border-radius: 5px }
+    .rem { background: #fff6e5; border-left: 5px solid #f6a623 } .rem span { background: #f6a623; color: #fff }
+    .set { background: #eaf6ee; border-left: 5px solid #2e9e5b } .set span { background: #2e9e5b; color: #fff }
+    .note { background: #eef1fb; border-left: 5px solid #4458c4 } .note span { background: #4458c4; color: #fff }
+    ol.plan { list-style: none; padding: 0; margin: 14px 0; columns: 2; column-gap: .5in; font-size: 23px }
+    ol.plan li { display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px; break-inside: avoid }
+    .n { flex: none; display: inline-flex; width: 30px; height: 30px; border-radius: 50%; background: #1e2a5a; color: #fff;
+         align-items: center; justify-content: center; font-weight: 700; font-size: 14px; margin-right: 10px }
+    .meta { color: #6b7185; font-size: 15px; margin-top: 8px }
+    .recap li { font-size: 21px; margin: 12px 0 }
+    .qs2 { display: grid; grid-template-columns: 1fr 1fr; gap: .35in }
+    .q { background: #f7f8fc; border-radius: 12px; padding: 18px 22px; font-size: 23px; line-height: 1.38 }
+    .qs { margin-bottom: 8px; display: flex }
+    ol.opts { list-style: none; padding: 0; margin: 0 }
+    ol.opts li { padding: 5px 10px; border-radius: 7px; margin: 3px 0; background: #fff; border: 1px solid #e3e6f0 }
+    ol.opts li.ok { background: #e3f5ea; border-color: #2e9e5b; font-weight: 700; color: #1d6b3d }
+    .src { color: #8a90a6; font-size: 14px; margin-top: 8px }
+    .num { position: absolute; bottom: .18in; right: .5in; font-size: 12px; color: #9aa0b4 }
+    .brand { position: absolute; bottom: .18in; left: .6in; font-size: 12px; color: #9aa0b4 }
+    </style><meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'><style>
+@media screen {
+  /* one slide = one screen, laid out for this phone: text sized to the screen (and the phone's font size) */
+  :root { --W: 100vw; --H: 100vh; --f: 16px } /* --W, --H, --f are set in pixels by START (no vw / vh: some WebViews give 0) */
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #0f1530; -webkit-tap-highlight-color: transparent }
+  section.s, div.s { width: var(--W) !important; height: var(--H) !important; margin: 0; page-break-after: auto }
+  .deck section.s, .deck div.s { display: none }
+  /* the slide shown is pinned to the screen: no scroll position (a reload restores one) can move it away */
+  .deck section.s.on, .deck div.s.on { display: block; position: fixed !important; left: 0; top: 0; z-index: 1 }
+  #diag { position: fixed; z-index: 20; left: 8px; top: 8px; right: 60px; font: 12px monospace; color: #ffd; background: rgba(0,0,0,.6); padding: 6px; white-space: pre-wrap }
+  .bar { height: calc(var(--f) * 2.1); font-size: calc(var(--f) * .7); padding: 0 64px 0 18px; gap: 10px }
+  .inner { top: calc(var(--f) * 2.7); left: 58px; right: 58px; bottom: 26px; overflow: hidden }
+  h2 { font-size: calc(var(--f) * 1.28); margin: 0 0 .5em; padding-left: 10px; border-left-width: 5px }
+  h2 .cont { font-size: .6em }
+  .body { font-size: var(--f) }
+  .sub { font-size: 1.04em; margin: .45em 0 .15em }
+  ul.pts { padding-left: 1.1em } ul.pts li { margin: .22em 0 }
+  table { font-size: .86em } th, td { padding: .35em .5em }
+  .box { font-size: .92em; padding: .45em .7em; margin: .45em 0 } .box span { font-size: .62em }
+  .s.title, .s.end { padding: calc(var(--H) * .07) calc(var(--W) * .06) } .s.title h1, .s.end h1 { font-size: calc(var(--f) * 1.75); margin: .4em 0 .6em }
+  .kicker { font-size: calc(var(--f) * .7) } .syl { padding: .7em 1em } .syl ul { font-size: calc(var(--f) * .92) }
+  .syl .lab { font-size: calc(var(--f) * .6) } .foot { bottom: 30px; left: calc(var(--W) * .06); font-size: calc(var(--f) * .7) }
+  ol.plan { font-size: var(--f); column-gap: 24px } ol.plan li { margin: 0 0 .5em } .n { width: 1.5em; height: 1.5em; font-size: .7em; margin-right: .5em }
+  .meta { font-size: calc(var(--f) * .75) }
+  .recap li { font-size: calc(var(--f) * .92); margin: .4em 0 }
+  .q { font-size: calc(var(--f) * .92); padding: .7em .9em } .src { font-size: .65em }
+  .qs2 { gap: 14px }
+  .brand, .num { display: none }
+  @media (orientation: portrait) { ol.plan { columns: 1 } .qs2 { grid-template-columns: 1fr } }
+  /* the controls: close, previous, slide n of N, next; a progress line */
+  #ctl button { position: fixed; z-index: 9; border: 0; border-radius: 50%; width: 48px; height: 48px; font-size: 26px; line-height: 48px;
+    background: rgba(15,21,48,.55); color: #fff; padding: 0 }
+  #ctl #cl { top: 4px; right: 8px; width: 42px; height: 42px; line-height: 42px; font-size: 20px; background: rgba(255,255,255,.18) }
+  #ctl #pv { top: 50%; left: 6px; transform: translateY(-50%) } #ctl #nx { top: 50%; right: 6px; transform: translateY(-50%) }
+  #ctl #pv, #ctl #nx { background: rgba(15,21,48,.28); color: #fff }
+  #ctl #ct { position: fixed; z-index: 9; bottom: 6px; right: 14px; font: 600 12px Inter, Arial, sans-serif;
+    color: #fff; background: rgba(15,21,48,.5); padding: 2px 10px; border-radius: 10px }
+  #ctl #pg { position: fixed; z-index: 9; bottom: 0; left: 0; height: 4px; background: #f6a623; transition: width .2s }
+  .s.title #x, .s.end #x { display: none }
+}
+</style></head><body><section class='s title'><div class='kicker'>Current Affairs · National - schemes, missions, portals, apps and launches</div>
+    <h1>Digital platforms and portals in news</h1>
+    <div class="syl"><div class="lab">SYLLABUS LINES THIS LESSON COVERS</div><ul><li>Current events – national</li><li>Current events – international</li></ul></div>
+    <div class='foot'>RocketOne · Group 1 Prelims · lecture notes</div></section><section class='s'><div class='bar'><span class='p'>Lesson</span><span class='t'>Digital platforms and portals in news</span></div><div class='inner'><h2>Lesson plan</h2><ol class='plan'><li><span class='n'>1</span>Panchayati Raj and rural water platforms</li><li><span class='n'>2</span>State platforms: Bihar and Uttar Pradesh</li><li><span class='n'>3</span>Health and medical platforms</li><li><span class='n'>4</span>Agriculture platforms and AI models</li><li><span class='n'>5</span>BRICS initiatives and platforms</li><li><span class='n'>6</span>Education and skill-development platforms</li><li><span class='n'>7</span>Language, AI and technology platforms</li><li><span class='n'>8</span>Financial and digital-payment platforms</li><li><span class='n'>9</span>International cooperation and multilateral platforms</li><li><span class='n'>10</span>Defence, space and industrial platforms</li></ol><div class='meta'>10 parts</div></div><div class='brand'>RocketOne · Group 1 Prelims · Current Affairs</div><div class='num'></div></section><div id='parts'></div><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Digital platforms and portals in news</span></div><div class='inner'><h2>Recap</h2><ul class='pts recap'><li><b>Panchayati Raj and rural water platforms</b> — DAANVEER · Meri Panchayat · eGramSwaraj · PAI 2.0 Portal · Panchayat NIRNAY · GPDP Portal · Gram Manchitra</li><li><b>State platforms: Bihar and Uttar Pradesh</b> — Sankalp Dashboard · Samanvay Portal · BiharOne · CGRM Portal · Sahyog Portal · Nivesh Mitra 3.0</li><li><b>Health and medical platforms</b> — BODH · BODH – purpose · SAHI</li><li><b>Agriculture platforms and AI models</b> — Bharat-VISTAAR · CarbonFarm</li><li><b>BRICS initiatives and platforms</b> — BRICS Network on Digital Agriculture · BRICS MSME Cooperation Portal · BRICS Incubator Network · BRICS CONNECT for Skilling · BRICS Payment Task Force</li><li><b>Education and skill-development platforms</b> — Bihar Vidya Saathi · Bihar Vidya Saathi – coverage</li><li><b>Language, AI and technology platforms</b> — Full form · Languages · AI models · Applications · Showcased</li><li><b>Financial and digital-payment platforms</b> — GFF 2026 theme · Bharat Taxi · Services · Drivers · Saarthis · Features · Launch</li></ul></div><div class='brand'>RocketOne · Group 1 Prelims · Current Affairs</div><div class='num'></div></section><section class='s'><div class='bar'><span class='p'>Recap</span><span class='t'>Digital platforms and portals in news</span></div><div class='inner'><h2>Recap (cont.)</h2><ul class='pts recap'><li><b>International cooperation and multilateral platforms</b> — BRICS · G20 · IBSA · G-4 · WTO · Partners for Multilateralism (P4M) · Kashi Tamil Sangamam</li><li><b>Defence, space and industrial platforms</b> — I-2SEA submarine cable system · I-2SEA – route</li></ul></div><div class='brand'>RocketOne · Group 1 Prelims · Current Affairs</div><div class='num'></div></section><section class='s end'><h1>Questions?</h1><div class='kicker'>Digital platforms and portals in news</div><div class='foot'>RocketOne · Group 1 Prelims</div></section><script>function __layout() {
+    const P = [{"title": "Panchayati Raj and rural water platforms", "part": "Part 1 of 10", "items": [{"k": "t", "head": ["Platform", "Ministry / organisation", "Notes"], "rows": [["<b>DAANVEER</b>", "Ministry of Panchayati Raj, NIC and DigiHaat", "Voluntary citizen-participation platform enabling citizens and organisations to donate verified digital-equipment bundles to eligible Gram Panchayats. Tagline: “Give Back to Your Village.”"], ["<b>Meri Panchayat</b>", "Ministry of Panchayati Raj", "Provides access to Panchayat finances, plans, development works and public assets. Integrated with DigiHaat for DAANVEER."], ["<b>eGramSwaraj</b>", "Ministry of Panchayati Raj", "Panchayat planning, budgeting, accounting, progress reporting, asset management and online payments."], ["<b>PAI 2.0 Portal</b>", "Ministry of Panchayati Raj", "Panchayat Advancement Index; evaluates Gram Panchayats and Traditional Local Bodies through measurable indicators. Launched 26 May 2025."], ["<b>Panchayat NIRNAY</b>", "Ministry of Panchayati Raj", "Digital platform associated with Gram Sabha and Panchayat meetings."], ["<b>GPDP Portal</b>", "Ministry of Panchayati Raj", "Supports Gram Panchayat Development Plan preparation and monitoring."], ["<b>Gram Manchitra</b>", "Ministry of Panchayati Raj", "GIS-based spatial planning and decision-support platform."], ["<b>Samarth Portal</b>", "Ministry of Panchayati Raj", "Digital portal related to self-reliant Panchayats; launched 27 July 2026."], ["<b>Sujalam Bharat</b>", "Ministry of Jal Shakti", "Integrated national digital platform for mapping rural water-supply systems from source to household tap. Each village is assigned a unique Sujal village/service-area ID."]]}]}, {"title": "State platforms: Bihar and Uttar Pradesh", "part": "Part 2 of 10", "items": [{"k": "t", "head": ["Platform", "Government", "Notes"], "rows": [["<b>Sankalp Dashboard</b>", "Bihar Government", "Brings the work of all 48 State departments onto one digital platform to improve transparency and accountability."], ["<b>Samanvay Portal</b>", "Bihar Government", "Launched alongside the Sankalp Dashboard on 13 October 2026."], ["<b>BiharOne</b>", "Bihar Government", "Unified digital platform for public services; contract of ₹87 crore awarded to Corporate Infotech Pvt. Ltd."], ["<b>CGRM Portal</b>", "Bihar Rural Development Department", "Centralised Grievance Redressal and Monitoring platform, launched 5 June 2026."], ["<b>Sahyog Portal</b>", "Bihar Government", "Public grievance-redressal platform launched 11 May 2026, with toll-free helpline 1100."], ["<b>Nivesh Mitra 3.0</b>", "Uttar Pradesh Government", "Digital platform designed to simplify and improve the investor experience; launched 24 March 2026."]]}]}, {"title": "Health and medical platforms", "part": "Part 3 of 10", "items": [{"k": "t", "head": ["Platform", "Notes"], "rows": [["<b>JANANI</b>", "Journey of Antenatal, Natal and Neonatal Integrated Care. Digital platform for maternal and child healthcare, longitudinal health records and real-time monitoring."], ["<b>U-WIN</b>", "Vaccination platform for session planning, registration, recording and reporting."], ["<b>Swasth Bharat Portal</b>", "Integrated platform bringing multiple national health programmes onto a single digital interface."], ["<b>Ayushman App</b>", "One-stop platform for AB PM-JAY beneficiaries, including eligibility verification and beneficiary services."], ["<b>National Health Claims Exchange (NHCX)</b>", "Digital platform for standardised exchange of health insurance claim information."], ["<b>Unified Health Interface (UHI)</b>", "Interoperable digital-health framework connecting citizens with healthcare service providers."], ["<b>Secure Data Environment (SDE)</b>", "Secure and governed platform for analysing health data generated under AB PM-JAY and ABDM."], ["<b>Aarogya Setu 2.0</b>", "Redesigned citizen-facing digital health platform under ABDM, with ABHA creation, health-record management and access to digital health services."]]}, {"k": "h", "h": "AI in healthcare"}, {"k": "b", "h": "<b>BODH:</b> Benchmarking Open Data Platform for Health AI. Developed by IIT Kanpur with the National Health Authority (NHA)."}, {"k": "b", "h": "<b>BODH – purpose:</b> privacy-preserving Health AI benchmarking and validation platform; enables evaluation of AI models using anonymised real-world health data."}, {"k": "b", "h": "<b>SAHI:</b> Strategy for Artificial Intelligence in Healthcare for India; the national strategy for AI in healthcare, a framework for safe and responsible AI use in healthcare."}]}, {"title": "Agriculture platforms and AI models", "part": "Part 4 of 10", "items": [{"k": "t", "head": ["Platform / initiative", "Notes"], "rows": [["<b>Bharat-VISTAAR</b>", "AI-based agricultural digital public infrastructure intended to provide farmers with integrated agricultural information and support."], ["<b>ALU – Agricultural Landscape Understanding</b>", "AI model using satellite imagery to identify field boundaries, trees, woodlands, wells and small irrigation structures."], ["<b>AMED – Agricultural Monitoring and Event Detection</b>", "AI model for identifying crop activity, likely crops, sowing and harvesting periods."], ["<b>CarbonFarm</b>", "Uses ALU API with Gemini to provide field-level agricultural insights, including for sustainable rice cultivation."]]}]}, {"title": "BRICS initiatives and platforms", "part": "Part 5 of 10", "items": [{"k": "t", "head": ["Initiative", "Notes"], "rows": [["<b>BRICS Network on Digital Agriculture</b>", "Initiative listed among the outcomes of the 18th BRICS Summit 2026; promotes digital cooperation in agriculture."], ["<b>BRICS Centres of Excellence on Agro-Ecology and Regenerative Agriculture</b>", "BRICS cooperation initiative focused on agro-ecology and regenerative agriculture."], ["<b>BRICS MSME Cooperation Portal</b>", "Digital cooperation initiative for micro, small and medium enterprises."], ["<b>BRICS Incubator Network</b>", "Platform for cooperation and support for start-ups and innovation."], ["<b>BRICS CONNECT for Skilling</b>", "BRICS initiative related to skill development and cooperation."], ["<b>BRICS Payment Task Force</b>", "Works on interoperability among payment and financial messaging systems. No common BRICS currency was announced."], ["<b>BRICS Digital Centre of Excellence for Smart Grids and Energy Storage</b>", "Launched at the 11th BRICS Energy Ministers Meeting in Gurugram, 25–26 June 2026."]]}]}, {"title": "Education and skill-development platforms", "part": "Part 6 of 10", "items": [{"k": "t", "head": ["Platform", "Notes"], "rows": [["<b>Bharat EduAI Stack</b>", "Open-source AI platform for education, including personalised AI tutors, AI-assisted teacher training and institutional administration."], ["<b>Bodhan AI</b>", "IIT Madras-incubated initiative associated with the development of Bharat EduAI Stack."], ["<b>Kaushal Setu</b>", "Uttar Pradesh Skill Development Mission platform for paperless registration and empanelment of training partners."], ["<b>Kaushal Sarathi</b>", "Provides district-wise information on training centres, courses, locations and contact details through an interactive digital map."], ["<b>Skill India International Centre</b>", "Approved for Patna to support youth seeking overseas employment; described as an institutional facility rather than a software platform."]]}, {"k": "b", "h": "<b>Bihar Vidya Saathi:</b> 24×7 one-to-one interactive learning platform for students in approximately 700 designated model schools in Bihar."}, {"k": "b", "h": "<b>Bihar Vidya Saathi – coverage:</b> Classes 9–10 and the science stream in Classes 11–12, integrating teacher support, digital resources and AI tools."}]}, {"title": "Language, AI and technology platforms", "part": "Part 7 of 10", "items": [{"k": "t", "head": ["Platform", "Organisation / purpose"], "rows": [["<b>BHASHINI</b>", "Digital India BHASHINI Division under MeitY; multilingual, voice-enabled digital public services."], ["<b>AIKosh</b>", "IndiaAI initiative for AI datasets and models."], ["<b>IndiaAI Mission</b>", "National AI initiative and ecosystem supporting AI development and adoption."], ["<b>Global AI Impact Commons</b>", "International AI cooperation initiative."], ["<b>AI-Preneurs of India</b>", "Initiative associated with AI entrepreneurship."], ["<b>NIDAR 2.0</b>", "National Innovation Challenge for Drone Application and Research; launched by MeitY and Drone Federation India on 13 July 2026 under SwaYaan."], ["<b>Global Call for Control of Frontier AI Models</b>", "International initiative launched in New York on 21 September 2026 to promote human oversight and control of advanced AI models."]]}, {"k": "h", "h": "BHASHINI"}, {"k": "b", "h": "<b>Full form:</b> BHASHa INterface for India."}, {"k": "b", "h": "<b>Languages:</b> supports more than 36 languages in text and over 22 languages in voice."}, {"k": "b", "h": "<b>AI models:</b> has deployed more than 350 AI language models."}, {"k": "b", "h": "<b>Applications:</b> translation, speech recognition and conversational AI."}, {"k": "b", "h": "<b>Showcased</b> at the AI-Led Innovation and Capacity Building Conference in Lucknow on 20 January 2026."}]}, {"title": "Financial and digital-payment platforms", "part": "Part 8 of 10", "items": [{"k": "t", "head": ["Platform", "Notes"], "rows": [["<b>BHIM</b>", "Digital-payment platform; BHIM App integration with Tatkal NPS, and Mahendra Singh Dhoni as its brand ambassador."], ["<b>UPI</b>", "Payment platform associated with international interoperability initiatives involving Uzbekistan and Seychelles."], ["<b>Global Fintech Fest (GFF)</b>", "Provides a platform for global dialogue, collaboration and innovation in financial technology."]]}, {"k": "b", "h": "<b>GFF 2026 theme:</b> “Potential to Impact: Agentic AI | Tokenisation | Quantum: Trusted, Connected, Global Systems for Inclusive Finance.”"}, {"k": "h", "h": "Bharat Taxi"}, {"k": "x", "h": "<div class='box rem'><span>REMEMBER</span><b>Bharat Taxi</b> is India&#x27;s first cooperative-led ride-hailing platform, based on “Driver is the Owner”.</div>"}, {"k": "b", "h": "<b>Services:</b> cab, auto, bike and rental services."}, {"k": "b", "h": "<b>Drivers:</b> participating drivers are called <b>Saarthis</b> (also spelt Sarathis)."}, {"k": "b", "h": "<b>Features:</b> driver and vehicle verification, trip records, SOS and journey-sharing features."}, {"k": "b", "h": "<b>Launch:</b> at Vigyan Bhawan, New Delhi, in February 2026."}]}, {"title": "International cooperation and multilateral platforms", "part": "Part 9 of 10", "items": [{"k": "t", "head": ["Platform / grouping", "Purpose"], "rows": [["<b>BRICS</b>", "Platform for cooperation among member countries on trade, finance, development, technology and global governance."], ["<b>G20</b>", "International forum for economic cooperation and global policy coordination."], ["<b>IBSA</b>", "India–Brazil–South Africa cooperation platform."], ["<b>G-4</b>", "Platform for cooperation on UN Security Council reform."], ["<b>WTO</b>", "Multilateral platform for international trade rules and dispute settlement."], ["<b>Partners for Multilateralism (P4M)</b>", "Open, voluntary platform promoting international law, peace, cooperation and institutional reform. Launched 21 September 2026 in New York."], ["<b>International Maritime Organization cooperation platform</b>", "Voluntary cooperation platform focused on shipping safety, maritime security and seafarers&#x27; welfare."], ["<b>Kashi Tamil Sangamam</b>", "Knowledge bridge and people-to-people platform celebrating the cultural, spiritual and intellectual links between Tamil Nadu and Kashi."]]}]}, {"title": "Defence, space and industrial platforms", "part": "Part 10 of 10", "items": [{"k": "t", "head": ["Reference", "Notes"], "rows": [["<b>Garudastra</b>", "120 mm mortar mounted on a mobile vehicle platform; intended to provide battlefield mobility and firepower."], ["<b>Project 17A</b>", "Guided-missile frigate programme; ships have platform-management systems alongside improved stealth, automation, sensors, weapons and survivability."], ["<b>GaN technology</b>", "GaN-based semiconductor devices are discussed for radar, electronic warfare, communication and other defence applications."], ["<b>Vikram-1</b>", "Skyroot Aerospace&#x27;s orbital launch vehicle; completed its first successful private orbital launch in July 2026."], ["<b>Pathfinder</b>", "Pixxel and Sarvam orbital data-centre satellite concept; intended to enable AI processing in orbit."], ["<b>MOI-1A</b>", "TakeMe2Space orbital computing satellite; AI data processing in orbit."]]}, {"k": "b", "h": "<b>I-2SEA submarine cable system:</b> digital connectivity infrastructure linking India, Southeast Asia and data-centre hubs in the region."}, {"k": "b", "h": "<b>I-2SEA – route:</b> submarine cable infrastructure for connectivity between India, Malaysia and Singapore, with onward connection to Hyderabad and Chennai."}]}], APP = "RocketOne \u00b7 Group 1 Prelims", SUBJ = "Current Affairs", TOPIC = "Digital platforms and portals in news";
+    const host = document.getElementById('parts');
+    function mk(cls, html) { const d = document.createElement('div'); if (cls) d.className = cls; if (html != null) d.innerHTML = html; return d; }
+    function newSlide(p, cont) {
+      const s = mk('s'); s.innerHTML = `<div class='bar'><span class='p'>${p.part}</span><span class='t'>${TOPIC}</span></div>
+        <div class='inner'><h2>${p.title}<span class='cont'></span></h2><div class='body'></div></div>
+        <div class='brand'>${APP} · ${SUBJ}</div><div class='num'></div>`;
+      host.appendChild(s); return s.querySelector('.body');
+    }
+    const over = b => b.scrollHeight > b.clientHeight + 1;
+    for (const p of P) {
+      const made = []; let body = newSlide(p); made.push(body);
+      const fresh = () => { body = newSlide(p); made.push(body); };
+      let ul = null;
+      for (let i = 0; i < p.items.length; i++) {
+        const it = p.items[i];
+        if (it.k === 'b') {
+          if (!ul || ul.parentNode !== body || body.lastChild !== ul) { ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); }
+          const li = document.createElement('li'); li.innerHTML = it.h; ul.appendChild(li);
+          if (over(body) && body.childNodes.length > 1 || over(body) && ul.childNodes.length > 1) {
+            li.remove(); if (!ul.childNodes.length) ul.remove();
+            const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null;
+            fresh(); if (carry) body.appendChild(carry);
+            ul = document.createElement('ul'); ul.className = 'pts'; body.appendChild(ul); ul.appendChild(li);
+          }
+          continue;
+        }
+        ul = null;
+        if (it.k === 'h') { body.appendChild(mk('sub', it.h)); if (over(body) && body.childNodes.length > 1) { const h = body.lastChild; h.remove(); fresh(); body.appendChild(h); } continue; }
+        if (it.k === 'x') { const d = mk(null, it.h).firstChild; body.appendChild(d); if (over(body) && body.childNodes.length > 1) { d.remove(); const carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; fresh(); if (carry) body.appendChild(carry); body.appendChild(d); } continue; }
+        if (it.k === 't') {
+          const head = it.head.length ? '<tr>' + it.head.map(c => `<th>${c}</th>`).join('') + '</tr>' : '';
+          const newTable = () => { const t = document.createElement('table'); t.innerHTML = head; body.appendChild(t); return t.tBodies[0] || t; };
+          let tb = newTable();
+          for (const r of it.rows) {
+            const tr = document.createElement('tr'); tr.innerHTML = r.map(c => `<td>${c}</td>`).join(''); tb.appendChild(tr);
+            if (over(body) && (tb.querySelectorAll('td').length > r.length || body.childNodes.length > 1)) {
+              tr.remove();
+              const t = tb.closest('table'); let carry = null;
+              if (!t.querySelector('td')) { t.remove(); carry = body.lastChild && body.lastChild.classList && body.lastChild.classList.contains('sub') ? body.lastChild : null; }
+              fresh(); if (carry) body.appendChild(carry); tb = newTable(); tb.appendChild(tr);
+            }
+          }
+        }
+      }
+      made.forEach((b, k) => { if (made.length > 1) b.parentNode.querySelector('.cont').textContent = ` (${k + 1}/${made.length})`; });
+    }
+    host.replaceWith(...host.childNodes);
+    const all = document.querySelectorAll('section.s, div.s');
+    all.forEach((s, k) => { const n = s.querySelector('.num'); if (n) n.textContent = `${k + 1} / ${all.length}`; });
+    }</script><script>function __deck() {
+(function () {
+  // static slides (title, plan, recap, quick check) that overflow this screen are split, item by item
+  function split(s) {
+    const inner = s.querySelector('.inner'); const box = s.querySelector('.qs2, ul.recap, ol.plan');
+    if (!inner || !box) return;
+    const moved = [];
+    while (inner.scrollHeight > inner.clientHeight + 1 && box.children.length > 1) moved.unshift(box.lastElementChild), box.lastElementChild.remove();
+    if (!moved.length) return;
+    const c = s.cloneNode(true); const cb = c.querySelector('.qs2, ul.recap, ol.plan');
+    cb.innerHTML = ''; moved.forEach(m => cb.appendChild(m));
+    s.after(c); split(c);
+  }
+  document.querySelectorAll('section.s').forEach(split);
+  const all = [...document.querySelectorAll('section.s, div.s')], N = all.length;
+  all.forEach((s, i) => { s.setAttribute('role', 'group'); s.setAttribute('aria-roledescription', 'slide'); s.setAttribute('aria-label', `Slide ${i + 1} of ${N}`); });
+  document.documentElement.classList.add('deck');
+  const ctl = document.createElement('div'); ctl.id = 'ctl';
+  ctl.innerHTML = `<button id='cl' aria-label='Close lecture'>✕</button><button id='pv' aria-label='Previous slide'>‹</button>
+    <span id='ct' role='status' aria-live='polite'></span><button id='nx' aria-label='Next slide'>›</button><div id='pg' aria-hidden='true'></div>`;
+  document.body.appendChild(ctl);
+  const A = window.Android, ct = ctl.querySelector('#ct'), pg = ctl.querySelector('#pg');
+  const h = new URLSearchParams(location.hash.slice(1));
+  let cur = h.has('end') ? N - 1 : Math.min(N - 1, Math.max(0, Math.round(parseFloat(h.get('p') || '0') * (N - 1))));
+  function show(i) {
+    all[cur].classList.remove('on'); cur = i; all[cur].classList.add('on');
+    ct.textContent = `${cur + 1} / ${N}`; pg.style.width = `${(cur + 1) / N * 100}%`;
+    try { history.replaceState(null, '', '#p=' + (N > 1 ? cur / (N - 1) : 0)); } catch (e) {}
+    scrollTo(0, 0); diag();
+  }
+  // if the slide shown is still not on the screen, say what the screen reports (to fix it)
+  function diag() {
+    const r = all[cur].getBoundingClientRect(), bad = r.width < 100 || r.height < 100 || r.bottom < 50 || r.top > innerHeight - 50;
+    let d = document.getElementById('diag');
+    if (!bad) { if (d) d.remove(); return; }
+    if (!d) { d = document.createElement('div'); d.id = 'diag'; document.body.appendChild(d); }
+    d.textContent = `slide ${Math.round(r.left)},${Math.round(r.top)} ${Math.round(r.width)}x${Math.round(r.height)} | inner ${innerWidth}x${innerHeight} | client ${document.documentElement.clientWidth}x${document.documentElement.clientHeight} | laid ${window.__laid} | dpr ${devicePixelRatio} | scroll ${scrollY} | display ${getComputedStyle(all[cur]).display}`;
+  }
+  const next = () => cur < N - 1 ? show(cur + 1) : (A && A.next());
+  const prev = () => cur > 0 ? show(cur - 1) : (A && A.prev());
+  ctl.querySelector('#nx').onclick = e => { e.stopPropagation(); next(); };
+  ctl.querySelector('#pv').onclick = e => { e.stopPropagation(); prev(); };
+  ctl.querySelector('#cl').onclick = e => { e.stopPropagation(); A && A.close(); };
+  // tap the left third for the previous slide, anywhere else for the next; or swipe; or the arrow keys
+  let x0 = null, y0 = null, swiped = false;
+  document.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; swiped = false; }, { passive: true });
+  document.addEventListener('touchend', e => {
+    if (x0 == null) return; const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) { swiped = true; dx < 0 ? next() : prev(); } x0 = null;
+  }, { passive: true });
+  document.addEventListener('click', e => { if (swiped || e.target.closest('button')) return; e.clientX < innerWidth * 0.3 ? prev() : next(); });
+  document.addEventListener('keydown', e => {
+    if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(e.key)) { e.preventDefault(); next(); }
+    if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(e.key)) { e.preventDefault(); prev(); }
+  });
+  // turned the phone: lay the slides out again for the new shape, at the same point of the lecture
+  let t;
+  addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => {
+    const [w0, h0] = window.__laid || [0, 0], W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+    if (Math.abs(W - w0) > w0 * .08 || Math.abs(H - h0) > h0 * .08) location.reload(); }, 300); });
+  all[cur].classList.add('on'); show(cur);
+})();
+}
+try { history.scrollRestoration = 'manual'; } catch (e) {}
+(function start(tries) {
+  // lay out only on a real, settled landscape screen; sizes in pixels (a WebView can report 0 x 0, a narrow or a
+  // short screen while the phone turns, and some give 0 for vh units)
+  const W = Math.max(innerWidth, document.documentElement.clientWidth), H = Math.max(innerHeight, document.documentElement.clientHeight);
+  const ok = W > 240 && H > 200 && (!window.Android || W > H || tries > 60);
+  if (!ok) return setTimeout(() => start(tries + 1), 50);
+  const r = document.documentElement.style;
+  r.setProperty('--W', W + 'px'); r.setProperty('--H', H + 'px');
+  r.setProperty('--f', Math.round(Math.max(14, Math.min(27, Math.min(W * .024, H * .044)))) + 'px');
+  window.__laid = [W, H];
+  __layout(); __deck();
+  // a sane layout has room on its slides; if not (the screen changed under us), lay out again
+  const b = document.querySelector('.s .body');
+  if (b && b.clientHeight < 120 && tries < 100) setTimeout(() => location.reload(), 300);
+})(0);
+</script></body></html>
