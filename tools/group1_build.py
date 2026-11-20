@@ -16,7 +16,9 @@ sys.path.insert(0, os.path.dirname(__file__))
 import notes_realign as _ra, notes_retwist as _rt, notes_direct as _nd, notes_fixes as _fx, notes_options as _no
 _RA, (_RTP, _RTO), _ND, _FX = _ra.load(), _rt.load(), _nd.load(), _fx.load()
 _RR = random.Random(7)
-_G1P = _fx.load("data/g1pattern")  # Group 1-only notes MCQs brought to the pattern by hand (same format as the fixes)
+_G1P = _fx.load("data/g1pattern")
+import notes_g2style as _gs
+_GS = {**_gs.load(), **_gs.load("data/g1style")}  # Group 1-only notes MCQs brought to the pattern by hand (same format as the fixes)
 
 
 def pattern(q):
@@ -27,7 +29,12 @@ def pattern(q):
         q = _ra.apply(q, _RA[q["id"]], _RR) or q
     q = _fx.apply(_fx.apply(_nd.apply(_rt.apply_all(q, _RTP, _RTO, _RR), _ND), _FX), _G1P)
     q = _no.fix(q)  # every statement of a set in at least one option
-    if q.get("k") in ("f", "u") or not q.get("o"):
+    return q
+
+
+def tagq(q):
+    """tagged "APPSC pattern · <type>" (as in Group 2)"""
+    if q["id"].startswith("y") or q.get("k") in ("f", "u") or not q.get("o"):
         return q
     s_ = q["s"]
     t_ = ("Assertion–Reason" if re.search(r"assertion|\(A\).*\(R\)", s_, re.I | re.S) else
@@ -111,7 +118,9 @@ for b in range(1, 7):
         L, S = m["rows"].get(str(i), []), m["subs"].get(str(i), [])
         keep = [(q, s) for q, s in zip(L, S) if not whole and s not in beyond]
         stats["MCQs removed"] += len(L) - len(keep)
-        keep = [(pattern(q), s) for q, s in keep]
+        # Group 2's one-answer style for statement sets and ordering questions (A-R and matching kept): Group 2's
+        # rewrites for the MCQs both apps share, Group 1's own for the rest (data/g1style)
+        keep = [(tagq(x), s) for q, s in keep for x in _gs.expand(pattern(q), _GS)]
         if str(i) in m["rows"]:
             m["rows"][str(i)], m["subs"][str(i)] = [q for q, _ in keep], [s for _, s in keep]
         if whole:
