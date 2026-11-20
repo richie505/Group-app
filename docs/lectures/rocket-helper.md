@@ -1,7 +1,8 @@
 # Helper brief: one Rocket rewrite job
 
 You rewrite lecture-slide notes of an APPSC exam-prep Android app into the NextGen "Rocket Sheet" style.
-Repo: /home/user/Group-app. Never use the Anthropic API. Do not commit, push or run git. Touch only your own output file.
+Repo: /home/user/Group-app. Never use the Anthropic API. Do not commit, push or run git. Touch only your own output file; keep helper scripts in your own folder
+/tmp/claude-0/-home-user/4666e051-48dd-5910-831c-f2c172f98923/scratchpad/jobN/ (other jobs share the scratchpad).
 
 Read first:
 1. docs/lectures/rocket-style.md – the rules and the output format; follow it exactly.
