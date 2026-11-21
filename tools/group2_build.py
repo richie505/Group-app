@@ -446,7 +446,8 @@ for b in range(1, 7):
                 return dict(q, tg=[x for x in (q.get("tg") or []) if not x.startswith("pattern:")] + ["pattern:" + t_])
             kept = [(_pat(q), sb_) for q, sb_ in kept]
         for q, sb in kept:
-            if not q.get("lf") or not (q["id"].startswith(SY.PAPER_PREFIXES) or q["id"].startswith("g2l")):
+            # official papers, newly written line MCQs and PYQs from other exams (tools/pyqfill.py) carry their own line
+            if not q.get("lf") or not (q["id"].startswith(SY.PAPER_PREFIXES) or q["id"].startswith(("g2l", "pq"))):
                 q["lf"] = SY.question_leaf(f"{b}:{r}", sb)
             if q["id"].startswith("y"):
                 q["rl"] = SY.tier(q)

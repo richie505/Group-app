@@ -184,6 +184,16 @@ def review():
     return out
 
 
+def same(bank, q):
+    """the master already holds this question: the same stem with (nearly) the same options"""
+    n, os_ = norm(q["s"]), {norm(x) for x in q["o"]}
+    for i, m in enumerate(bank.n):
+        if m[:80] == n[:80] or (abs(len(m) - len(n)) < 40 and m[:40] == n[:40] and difflib.SequenceMatcher(None, m, n).ratio() > 0.9):
+            if len(os_ & {norm(x) for x in bank.q[i]["o"]}) >= 3:
+                return True
+    return False
+
+
 def apply():
     outs, rv = adds(), review()
     mcqs = {b: J(f"{C}/mcq{b}.json") for b in range(1, 7)}
@@ -195,16 +205,18 @@ def apply():
         if v.get("v") == "drop":
             continue
         q = dict(o["mcq"], **(v.get("fix") or {}))
-        if bank.has(q["s"]) or norm(q["s"])[:80] in seen:  # by the question (two can share four options)
+        key = (norm(q["s"]), tuple(sorted(norm(x) for x in q["o"])))  # the same stem can carry different options
+        if same(bank, q) or key in seen:
             dup += 1
             continue
-        seen.add(norm(q["s"])[:80])
+        seen.add(key)
         b, i, j = map(int, (v.get("page") or o["page"]).split(":"))
         qid = "pq" + hashlib.md5((q["s"] + "|".join(q["o"])).encode()).hexdigest()[:10]
         L = mcqs[b]["rows"].setdefault(str(i), [])
         S = mcqs[b]["subs"].setdefault(str(i), [])
         if all(x["id"] != qid for x in L):
-            L.append({"id": qid, "s": q["s"], "o": q["o"], "a": q["a"], "x": q["x"], "src": q["src"]})
+            L.append(dict({"id": qid, "s": q["s"], "o": q["o"], "a": q["a"], "x": q["x"], "src": q["src"]},
+                          **({"lf": o["leaf"]} if o.get("leaf") in LEAVES else {})))
             S.append(j)
             n += 1
     for b in range(1, 7):
