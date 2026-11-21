@@ -332,12 +332,16 @@
 [
 "Availability",
 "Access for authorised users (denial = availability lost)"
+],
+[
+"Full list",
+"Confidentiality, integrity, availability, **accountability, non-repudiation**"
 ]
 ]
 },
 {
 "k": "b",
-"x": "Full list: confidentiality, integrity, availability, **accountability, non-repudiation**; the **IRDAI** (2021) retail cyber cover excludes **gross negligence**."
+"x": "**IRDAI** (2021) retail cyber cover excludes **gross negligence**."
 },
 {
 "k": "h",
@@ -365,6 +369,18 @@
 [
 "Hashing",
 "One-way, fixed-length digest (**SHA-256**)"
+],
+[
+"**Plaintext**",
+"Original, **readable** data **before encryption** – the input to encryption"
+],
+[
+"**Ciphertext**",
+"Encrypted, **unreadable** output of an encryption algorithm; turned back only with the key"
+],
+[
+"**Decryption**",
+"Converting **ciphertext back into plaintext** with the algorithm and the **correct key**, by authorised users (encryption is the reverse)"
 ]
 ]
 }

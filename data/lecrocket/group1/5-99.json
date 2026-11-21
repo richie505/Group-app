@@ -609,10 +609,6 @@
 ],
 "4": [
 {
-"k": "h",
-"x": "Smog"
-},
-{
 "k": "t",
 "h": [
 "Type",
@@ -621,37 +617,20 @@
 ],
 "r": [
 [
-"**Classical / London smog** (sulphurous, **1952**)",
+"**Classical / London smog** (sulphurous, 1952)",
 "**Smoke + fog + SO2**",
-"Cold, humid; grey / black"
+"Cold, humid; grey/black"
 ],
 [
 "**Photochemical / Los Angeles / summer smog**",
-"**NO2/NOx + hydrocarbons (VOCs) + sunlight** → **ozone, PAN** (high concentration of oxidising agents)",
+"**NO2/NOx + hydrocarbons (VOCs) + sunlight** → **ozone, PAN** (oxidising agents)",
 "Warm, sunny, traffic; **brownish – \"brown air\"**"
 ]
 ]
 },
 {
-"k": "t",
-"h": [
-"Fact",
-"Key detail"
-],
-"r": [
-[
-"**Smog**",
-"Smoke + fog; essentially caused by **oxides of nitrogen and sulphur**"
-],
-[
-"Photochemical smog",
-"**Always contains ozone**; ozone is **produced** during its formation (hydrocarbons and NOx are inputs)"
-],
-[
-"Smog effects",
-"Breathing problems, bronchitis; heavy smog cuts UV → less vitamin D (more rickets, a deficiency disease)"
-]
-]
+"k": "b",
+"x": "**Smog** = smoke + fog; essentially caused by **oxides of nitrogen and sulphur**. Photochemical smog **always contains ozone**, which is **produced** during its formation (hydrocarbons and NOx are inputs); it has a high concentration of **oxidising agents**."
 },
 {
 "k": "h",
@@ -661,7 +640,7 @@
 "k": "t",
 "h": [
 "Type",
-"Examples"
+"Key detail"
 ],
 "r": [
 [
@@ -670,30 +649,29 @@
 ],
 [
 "**Secondary** (formed in air)",
-"**O3, PAN, smog**, ammonium sulphate"
+"**O3, PAN, smog**, ammonium sulphate – ozone is **not a primary pollutant**; smog is a secondary pollutant"
+],
+[
+"**Photooxidants (photochemical oxidants)**",
+"Secondary: **ground-level ozone, PAN, hydrogen peroxide**, organic peroxides/aldehydes; strong **oxidising agents** – eye and throat irritation, reduced lung function, **crop damage**, **rubber cracking**/fading of dyes"
+],
+[
+"**Tropospheric ozone precursors**",
+"NOx, CO, methane/VOCs; **water vapour is not** one"
+],
+[
+"Ozone",
+"Stratospheric ozone shields UV and is not an air pollutant; ground-level ozone is"
 ]
 ]
 },
 {
-"k": "t",
-"h": [
-"Fact",
-"Key detail"
-],
-"r": [
-[
-"**Tropospheric ozone precursors**",
-"NOx, CO, methane / VOCs (water vapour is not one)"
-],
-[
-"Stratospheric ozone",
-"Shields UV – not an air pollutant; ground-level ozone is"
-],
-[
-"**Asian Brown Cloud** (UNEP, **2002**)",
-"Layer of soot, black carbon, sulphate aerosols over **South Asia** (Indo-Gangetic plain) and the Indian Ocean, **January–March** (dry season), from biomass and fossil-fuel burning"
-]
-]
+"k": "b",
+"x": "**Smog effects:** breathing problems, bronchitis; heavy smog cuts UV → less vitamin D, so rickets rise (**rickets is not a smog disease**)."
+},
+{
+"k": "b",
+"x": "**Asian Brown Cloud (UNEP, 2002):** layer of soot, black carbon and sulphate aerosols over **South Asia** (Indo-Gangetic plain) and the Indian Ocean, **January–March** (dry season), from biomass and fossil-fuel burning."
 }
 ],
 "5": [
@@ -928,12 +906,16 @@
 ],
 "r": [
 [
-"**Lichens** (symbiotic **algae + fungi**)",
-"Best **bioindicators of air pollution**, especially **SO2** – they do not grow in polluted areas"
+"**Lichens**",
+"Symbiotic **algae + fungi**; the best **bioindicators of air pollution**, especially **SO2** – they **do not grow in polluted areas**"
 ],
 [
 "**Mosses**",
 "Indicate heavy-metal deposition"
+],
+[
+"**Bioassays**",
+"Common in **pollution studies**, using any organism – **fish and insect bioassays** most common; find the **lethal concentration** or **effective concentration** of a pollutant"
 ]
 ]
 },
@@ -950,11 +932,11 @@
 "r": [
 [
 "Sources",
-"Solid fuels (wood, cow dung, coal), tobacco smoke, VOCs, radon, CO, mosquito coils"
+"Solid fuels (wood, cow-dung, coal), tobacco smoke, VOCs, radon, CO, mosquito coils"
 ],
 [
 "Maximum indoor chemical pollution",
-"**Burning coal** (Jharkhand **2021**)"
+"**Burning coal**"
 ],
 [
 "Worst hit",
@@ -965,12 +947,12 @@
 "Particulates, CO, polycyclic organic matter, formaldehyde"
 ],
 [
-"Biological indoor pollutants",
+"Biological pollutants",
 "Pollen, mites, pet hair, fungi → allergies, asthma"
 ],
 [
 "Intercity buses",
-"Cabin air **2–3** times WHO limits (IntrCity study, **15 Mar 2026**)"
+"Cabin air 2–3 times WHO limits (IntrCity study, 15 Mar 2026)"
 ]
 ]
 }

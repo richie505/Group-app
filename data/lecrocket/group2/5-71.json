@@ -9,7 +9,7 @@
 "h": [
 "Species",
 "IUCN",
-"Habitat / key detail"
+"Habitat / note"
 ],
 "r": [
 [
@@ -31,6 +31,11 @@
 "**Hangul** (Kashmir stag)",
 "**CR**",
 "Dachigam, Kashmir"
+],
+[
+"**Pondicherry shark** (\"**Pala Sora**\")",
+"CR",
+"Spotted near **Kakinada** (2018)"
 ],
 [
 "Asiatic lion",
@@ -65,7 +70,7 @@
 [
 "Indian pangolin / Chinese pangolin",
 "EN / CR",
-"Both occur in India; most trafficked mammal"
+"**Pangolins do occur in India** (most trafficked mammal)"
 ],
 [
 "One-horned rhino",
@@ -76,6 +81,11 @@
 "**Leatherback turtle**, **swamp deer** (barasingha), mugger",
 "**VU**",
 "Barasingha: Kanha"
+],
+[
+"**Four-horned Antelope (Chausingha)**",
+"**VU**",
+"The **only extant mammal** that naturally has **four horns**"
 ],
 [
 "Chinese mountain cat",
@@ -90,28 +100,58 @@
 [
 "Rusty-spotted cat",
 "NT",
-"Deciduous forests, incl. **Eastern Ghats**"
+"Deciduous forests, including the **Eastern Ghats**"
+],
+[
+"**Himalayan Ibex**",
+"**NT**; WPA **Schedule I**",
+"**Subspecies of the Siberian (Asiatic) Ibex**, a wild goat native to **Central Asia**; rocky, steep mountain zones of **J&K, Ladakh and Himachal Pradesh**"
 ],
 [
 "Blue-finned mahseer",
 "LC",
-"Deccan rivers incl. **Kaveri**"
+"Deccan rivers including the **Kaveri**"
+],
+[
+"**Barking Deer / Indian Muntjac** (**Kaakad**)",
+"**LC**",
+"Omnivorous; **barks when frightened** by a predator; one of the **smallest deer**; South and SE Asia"
 ],
 [
 "Desert cat, **Himalayan bulbul**, nilgai, chital, rhesus, Hanuman langur, **Crimson Rose butterfly**",
 "**LC**",
 "Crimson Rose: peninsular India (Western Ghats, TN, Kerala)"
-],
-[
-"**Pondicherry shark** (locally \"**Pala Sora**\")",
-"CR",
-"Spotted near **Kakinada** (2018)"
 ]
 ]
 },
 {
 "k": "h",
-"x": "Habitats and facts"
+"x": "Nilssonia softshell turtles (CR)"
+},
+{
+"k": "t",
+"h": [
+"Turtle",
+"Range"
+],
+"r": [
+[
+"**Burmese Peacock Softshell**",
+"Myanmar and **Karbi Anglong**, Assam"
+],
+[
+"**Leith's Softshell**",
+"Endemic to **peninsular rivers**"
+],
+[
+"**Black Softshell**",
+"Lower **Brahmaputra**; a few survive in a man-made pond in **Chittagong**"
+]
+]
+},
+{
+"k": "h",
+"x": "Habitats and uses"
 },
 {
 "k": "t",
@@ -122,7 +162,7 @@
 "r": [
 [
 "**Irrawaddy dolphin**",
-"Chilika (Odisha) and the **Godavari estuary (AP)** – east-coast lagoons and estuaries"
+"Chilika (Odisha) and the **Godavari estuary (AP)** – east-coast lagoons and estuaries (the **Chambal** is the gharial's river)"
 ],
 [
 "**Great Indian Hornbill**",
@@ -134,7 +174,7 @@
 ],
 [
 "**Taxus** (Himalayan yew)",
-"Grows naturally in the **Himalayas**; **in the Red Data Book**; **taxol** is an **anti-cancer** drug"
+"Grows naturally in the **Himalayas**; **in the Red Data Book**; yields **taxol**, an **anti-cancer** drug"
 ],
 [
 "**Cremanthodium indicum** (2021)",
@@ -170,8 +210,8 @@
 "Only ~65% of recorded species found; *Elattoneura souteri* and others VU"
 ],
 [
-"AP's **Eastern Ghats** (May 2026)",
-"**Three new CR plants**"
+"**Three new CR plants**",
+"AP's **Eastern Ghats** (May 2026)"
 ]
 ]
 }
@@ -697,10 +737,6 @@
 ],
 "5": [
 {
-"k": "h",
-"x": "Terms"
-},
-{
 "k": "t",
 "h": [
 "Term",
@@ -729,7 +765,11 @@
 ],
 [
 "**Sixth extinction**",
-"Present, **human-driven** wave – over-exploitation, habitat loss and fragmentation, ecosystem destruction, pollution, climate change"
+"Present, **human-driven** wave – over-exploitation of resources, habitat loss and fragmentation, ecosystem destruction, pollution, climate change"
+],
+[
+"Extinct in the Wild",
+"Only in captivity – Hawaiian crow, Père David's deer"
 ]
 ]
 },
@@ -738,29 +778,20 @@
 "x": "Mass extinctions"
 },
 {
-"k": "t",
-"h": [
-"Fact",
-"Key detail"
-],
-"r": [
-[
-"Number so far",
-"**Five**"
-],
-[
-"Fifth (end-Cretaceous)",
-"~**66 million years ago**; ended the dinosaurs – **asteroid-impact theory of Luis Alvarez** (1980, with Walter Alvarez)"
-],
-[
-"Sixth extinction rate",
-"**100-1,000 times** pre-human rates; IPBES: tens to hundreds of times background"
-]
-]
+"k": "b",
+"x": "**Five** mass extinctions so far; the **fifth** (end-Cretaceous, ~**66 million years ago**) ended the dinosaurs – **asteroid-impact theory of Luis Alvarez** (1980, with Walter Alvarez)."
+},
+{
+"k": "b",
+"x": "Sixth extinction: rates **100-1,000 times** pre-human rates; IPBES: tens to hundreds of times background."
+},
+{
+"k": "b",
+"x": "**Dodo** (Mauritius): classic **co-extinction** case – the tree whose seeds it dispersed (*Calvaria*/tambalacoque) failed to reproduce."
 },
 {
 "k": "h",
-"x": "Lost species"
+"x": "Extinct species"
 },
 {
 "k": "t",
@@ -769,37 +800,50 @@
 "Key detail"
 ],
 "r": [
-[
-"**Dodo** (Mauritius)",
-"Classic **co-extinction** case – the tree whose seeds it dispersed (*Calvaria* / tambalacoque) failed to reproduce"
-],
 [
 "IUCN Red List (2014)",
 "**784** extinctions in 500 years; 128 bird species lost in 500 years"
 ],
 [
 "Extinct",
-"**Passenger pigeon, Steller's sea cow** (over-exploitation); Bali, Javan and Caspian tigers"
+"**Passenger pigeon, Steller's sea cow** (over-exploitation); Bali, Javan and Caspian tigers; dodo"
 ],
 [
-"Recently gone",
-"**West African black rhino** (declared extinct 2011); **Chinese river dolphin / baiji** (functionally extinct 2006)"
+"**West African black rhino**",
+"Declared extinct 2011"
 ],
 [
-"Alive",
-"**Red panda** – Endangered, Eastern Himalaya"
+"**Chinese river dolphin / baiji**",
+"Functionally extinct 2006"
 ],
 [
-"**Extinct in the Wild**",
-"Hawaiian crow, Père David's deer (only in captivity)"
+"**Red panda**",
+"Endangered but still alive (Eastern Himalaya)"
 ],
 [
 "**India**",
-"**Cheetah** declared extinct **1952** – the only large mammal lost since Independence"
+"**Cheetah** declared extinct **1952** – the only large mammal lost since Independence; ZSI lists **cheetah, pink-headed duck, mountain quail** as extinct from India"
+]
+]
+},
+{
+"k": "h",
+"x": "Causes of extinction"
+},
+{
+"k": "t",
+"h": [
+"Process",
+"Key detail"
+],
+"r": [
+[
+"**Deterministic processes**",
+"Have cause and effect – glaciations, deforestation"
 ],
 [
-"ZSI list of species extinct from India",
-"**Cheetah, pink-headed duck, mountain quail**"
+"**Stochastic processes**",
+"**Random events** – unexpected weather changes, less food, more competitors, predators and parasites; act alone or add to deterministic effects"
 ]
 ]
 }
@@ -933,31 +977,27 @@
 ],
 "7": [
 {
-"k": "h",
-"x": "AP species"
-},
-{
 "k": "t",
 "h": [
 "Species",
 "Status",
-"Habitat / key detail"
+"Habitat / note"
 ],
 "r": [
 [
 "**Red sanders** (*Pterocarpus santalinus*)",
 "**EN**",
-"Endemic to AP – **Seshachalam–Tirumala hills**, Veligonda, Nallamala; **costliest timber of the Tirumala hills**"
+"Endemic to AP – grows naturally only in **Seshachalam–Tirumala hills**, Veligonda, Nallamala; **costliest timber of the Tirumala hills**"
 ],
 [
 "**Gooty (peacock) tarantula** (*Poecilotheria metallica*)",
 "**CR**",
-"Nandyal / Gooty, Nallamala forests; a **spider, not a crustacean**; **arboreal**, insectivorous; habitat limited to some forest patches; WPA Sch II; CITES App. II"
+"Nandyal/Gooty, Nallamala forests; a **spider**; **arboreal**, insectivorous; limited to some forest patches; WPA Sch II; CITES App. II; surveyed by the AP Forest Department in NSTR (May 2026)"
 ],
 [
 "Jerdon's courser",
 "CR",
-"Nocturnal; can fly; Sri Lankamalleswara WLS (Kadapa); rediscovered 1986"
+"Nocturnal; Sri Lankamalleswara WLS (Kadapa); can fly; rediscovered 1986"
 ],
 [
 "Golden gecko",
@@ -968,6 +1008,11 @@
 "Cycas beddomei",
 "Endemic, endangered",
 "Eastern Ghats cycad"
+],
+[
+"Cricket frog",
+"LC",
+"Endemic to the **Eastern Ghats (Odisha and Andhra Pradesh)**, also in the Western Ghats; shows **morphological phenotypic plasticity**; indicates a **healthy ecosystem**"
 ]
 ]
 },
@@ -987,8 +1032,8 @@
 "Dense tropical forests in the Eastern Ghats; shrubs on the Deccan plateau"
 ],
 [
-"Peacock tarantula survey",
-"AP Forest Department, NSTR (May 2026)"
+"**Morphological phenotypic plasticity**",
+"Ability to show drastic physical variation in response to the environment"
 ]
 ]
 },

@@ -2,11 +2,24 @@
 "0": [
 {
 "k": "h",
-"x": "Karst landforms"
+"x": "Karst"
 },
 {
-"k": "b",
-"x": "**Karst**: landscape made by **groundwater dissolving limestone/dolomite** (carbonation); named after the Karst region of **Slovenia**. Sinkholes form in **limestone topography**, not in sandstone, polar or desert areas."
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Karst**",
+"Landscape made by **groundwater dissolving limestone/dolomite** (carbonation); named after the Karst region of **Slovenia**"
+],
+[
+"Sinkholes",
+"Form in **limestone topography**"
+]
+]
 },
 {
 "k": "t",
@@ -30,6 +43,10 @@
 [
 "Polje",
 "Large enclosed karst depression"
+],
+[
+"**Karst lake**",
+"Lake in a polje without surface outlet – covers the floor in wet periods, shrinks by seepage in dry ones, e.g. **Lake Scutari** (Yugoslavia)"
 ],
 [
 "Swallow hole",
@@ -62,12 +79,38 @@
 "x": "Stalactites, stalagmites and pillars are **depositional landforms of underground (ground) water** – water dissolves CaCO₃ and re-deposits it as it drips."
 },
 {
-"k": "b",
-"x": "Pot hole = river bed; blow hole = coast; playa = desert."
+"k": "t",
+"h": [
+"Landform",
+"Setting"
+],
+"r": [
+[
+"Pot hole",
+"River bed"
+],
+[
+"Blow hole",
+"Coast"
+],
+[
+"Playa",
+"Desert"
+]
+]
 },
 {
-"k": "b",
-"x": "**Springs** are common in **well-jointed rocks**, **karst (limestone) regions** (resurgences / vauclusian springs) and **tilted strata** where permeable and impermeable beds alternate; they are rare in arid areas (deep water table)."
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Springs**",
+"Common in **well-jointed rocks**, **karst (limestone) regions** (resurgences / vauclusian springs) and **tilted strata** where permeable and impermeable beds alternate; rare in arid areas (deep water table)"
+]
+]
 }
 ],
 "2": [
@@ -195,18 +238,31 @@
 "4": [
 {
 "k": "h",
-"x": "Arid (aeolian) landforms"
+"x": "Wind as the agent"
 },
 {
-"k": "b",
-"x": "Desert landforms are made **mainly by wind** (deflation, abrasion, deposition) with help from sheet floods. Wind transport: deflation, **saltation**, surface creep."
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Desert landforms",
+"Made **mainly by wind** (deflation, abrasion, deposition), helped by sheet floods"
+],
+[
+"Wind transport",
+"Deflation, **saltation**, surface creep"
+]
+]
 },
 {
 "k": "t",
 "h": [
 "Landform",
 "Process",
-"Key detail"
+"Key point"
 ],
 "r": [
 [
@@ -223,6 +279,11 @@
 "Sand dune",
 "Deposition",
 "Accumulation of wind-blown sand"
+],
+[
+"Loess",
+"Deposition",
+"Fine wind-blown silt (Loess Plateau, China)"
 ],
 [
 "**Yardang**",
@@ -255,25 +316,24 @@
 "Isolated residual hill (Uluru)"
 ],
 [
-"Playa",
-"Evaporation",
-"Dry salt-lake bed"
-],
-[
-"Loess",
-"Deposition",
-"Fine wind-blown silt (Loess Plateau, China)"
-],
-[
 "Mesa / butte",
 "Erosion",
 "Flat-topped table hill / smaller remnant"
+],
+[
+"Playa",
+"Evaporation",
+"Dry salt-lake bed"
 ]
 ]
 },
 {
 "k": "b",
-"x": "**Barchans are depositional**; yardang, inselberg and ventifact are erosional landforms of wind."
+"x": "**Barchans are depositional**; yardang, inselberg and ventifact are erosional."
+},
+{
+"k": "b",
+"x": "**Pediment:** gently inclined **rock-cut (erosional)** surface at the foot of mountains in deserts, sometimes with a thin debris cover; an **alluvial fan** is its **constructional** counterpart; pediments extend into **pediplains**."
 }
 ],
 "5": [
@@ -416,6 +476,10 @@
 ],
 "3": [
 {
+"k": "h",
+"x": "Glacial landforms"
+},
+{
 "k": "t",
 "h": [
 "Landform",
@@ -424,7 +488,7 @@
 "r": [
 [
 "**Cirque (corrie)**",
-"Bowl/armchair hollow at the valley head"
+"Bowl- or armchair-shaped hollow at the valley head"
 ],
 [
 "Arête",
@@ -440,7 +504,7 @@
 ],
 [
 "**Hanging valley**",
-"Tributary glacier valley left high above the deepened main valley; joins it by a **waterfall** – agent = **glacier** (Yosemite)"
+"Tributary glacier valley left high above the deepened main valley; joins it by a **waterfall**; agent – **glacier** (Yosemite)"
 ],
 [
 "Fjord",
@@ -448,17 +512,25 @@
 ],
 [
 "**Moraine / till / boulder clay**",
-"**Unsorted glacial debris** deposited by ice – depositional landforms of **glacial activity**: lateral, terminal, medial, ground"
+"**Unsorted glacial debris** deposited by ice – lateral, terminal, medial, ground; depositional landforms of **glacial activity**"
 ],
 [
 "Drumlin",
-"Egg-shaped till hill; a field = \"basket of eggs\""
+"Egg-shaped till hill; a field of them = \"basket of eggs\""
 ],
 [
 "Esker",
 "Winding ridge of **stratified** meltwater sediment from a sub-glacial tunnel"
+],
+[
+"**Till / drift plains**",
+"Glacial deposits in gently undulating sheets; some boulder-clay plains (**East Anglia**, the northern **Mid-West of the USA**) are rich arable lands"
 ]
 ]
+},
+{
+"k": "h",
+"x": "Hanging glaciers and glacial lakes"
 },
 {
 "k": "t",
@@ -469,11 +541,15 @@
 "r": [
 [
 "**Hanging glaciers**",
-"Stranded on steep slopes as the main glacier **thins**; collapse → ice-rock avalanches, GLOFs (Nepal, 1 Sep 2026)"
+"Stranded on steep slopes as the main glacier **thins**"
 ],
 [
-"**CWC** monitoring",
-"From 2025, **2,843** glacial lakes/water bodies (up from 902)"
+"Hazard",
+"Collapse → ice-rock avalanches, GLOFs (Nepal, **1 Sep 2026**)"
+],
+[
+"**CWC** monitoring (from **2025**)",
+"**2,843** glacial lakes and water bodies (up from **902**)"
 ]
 ]
 }

@@ -158,7 +158,7 @@
 ],
 [
 "Iron",
-"**Haematite** Fe₂O₃, **magnetite** Fe₃O₄ (magnetic, \"black ore\"), **limonite** FeO(OH)·nH₂O (brown), **siderite** FeCO₃; pyrites FeS₂ (used for sulphur, not for iron)"
+"**Haematite** Fe₂O₃, **magnetite** Fe₃O₄ (magnetic, \"black ore\"), **limonite** FeO(OH)·nH₂O (brown), **siderite** FeCO₃, pyrites FeS₂ (used for sulphur, not for iron)"
 ],
 [
 "Copper",
@@ -199,10 +199,6 @@
 ]
 },
 {
-"k": "h",
-"x": "Iron ores"
-},
-{
 "k": "t",
 "h": [
 "Fact",
@@ -211,25 +207,78 @@
 "r": [
 [
 "**Iron content**",
-"**Magnetite** highest (about 70–72%; \"superior grade\") > **haematite** (60–70%) > limonite (40–60%) > **siderite** (lowest)"
+"**Magnetite** highest (about 70–72%; \"superior grade\"; black, magnetic) > **haematite** (60–70%) > limonite (40–60%) > **siderite** (lowest)"
 ],
 [
 "**Haematite**",
 "Most widely used; India's **largest reserve** type"
 ],
 [
-"**Magnetite**",
-"Black ore, up to ~70% iron, magnetic"
+"**Pig iron**",
+"A smelted product, not an ore (bauxite, malachite, zinc blende are ores)"
 ],
 [
-"**Pig iron**",
-"A smelted product, not an ore (bauxite, malachite and zinc blende are ores)"
+"**Native (free) state**",
+"**Gold** (best-known), silver, platinum, copper – a single type of atom = **native elements**"
+],
+[
+"**Never free**",
+"K, Na, Ca, Mg, **Al** (top of the reactivity series)"
 ]
 ]
 },
 {
 "k": "h",
-"x": "Native metals and alloys"
+"x": "Alloys"
+},
+{
+"k": "t",
+"h": [
+"Alloy",
+"Composition / use"
+],
+"r": [
+[
+"**German silver**",
+"Copper + zinc + nickel (Cu 60, Ni 20, Zn 20) – **contains no silver**"
+],
+[
+"**Brass**",
+"Copper + zinc"
+],
+[
+"Bronze",
+"Copper + tin"
+],
+[
+"**Gunmetal**",
+"**Copper + tin + zinc**"
+],
+[
+"Bell metal",
+"Copper + tin (more tin)"
+],
+[
+"**Duralumin**",
+"**Al + Cu + Mg + Mn** – **aircraft alloy**"
+],
+[
+"Nichrome",
+"Ni + Cr – heating elements"
+],
+[
+"Alnico",
+"Fe + Al + Ni + Co – permanent magnets"
+]
+]
+},
+{
+"k": "b",
+"x": "Horn silver, ruby silver and lunar caustic all contain silver."
+},
+{
+"k": "h",
+"x": "Classification of minerals"
 },
 {
 "k": "t",
@@ -239,45 +288,12 @@
 ],
 "r": [
 [
-"**Native (free) state**",
-"**Gold** (best-known), silver, platinum, copper – a single type of atom = **native elements**"
-],
-[
-"Never free",
-"K, Na, Ca, Mg, **Al** (top of the reactivity series)"
-],
-[
-"**German silver**",
-"Copper + zinc + nickel (Cu 60, Ni 20, Zn 20) – contains no silver"
-],
-[
-"**Brass** / bronze",
-"Copper + zinc / copper + tin"
-],
-[
-"Silver compounds",
-"Horn silver, ruby silver and lunar caustic all contain silver"
-]
-]
-},
-{
-"k": "h",
-"x": "Classification of minerals"
-},
-{
-"k": "t",
-"h": [
-"Group",
-"Minerals"
-],
-"r": [
-[
-"**Ferrous** (contain iron)",
+"**Ferrous minerals** (contain iron)",
 "Iron ore, manganese, chromite, nickel, cobalt"
 ],
 [
 "**Non-ferrous**",
-"Copper, bauxite (aluminium), lead, zinc, tin; **nickel, zinc, copper, aluminium**; **tungsten** usually treated as non-ferrous"
+"Copper, bauxite (aluminium), lead, zinc, tin; also **nickel, zinc, copper, aluminium** as a group; **tungsten** is treated as non-ferrous"
 ],
 [
 "Precious",
@@ -320,10 +336,6 @@
 ]
 },
 {
-"k": "h",
-"x": "Other facts"
-},
-{
 "k": "t",
 "h": [
 "Fact",
@@ -341,35 +353,10 @@
 [
 "**Plaster of Paris**",
 "Made by heating **gypsum** (CaSO₄·½H₂O, written 2CaSO₄·H₂O); anhydrite = CaSO₄"
-]
-]
-},
-{
-"k": "t",
-"h": [
-"Mineral",
-"Use"
-],
-"r": [
-[
-"Bauxite",
-"Aluminium (cans, car parts)"
 ],
 [
-"**Chromium**",
-"Stainless steel, green glass, leather tanning"
-],
-[
-"**Cobalt**",
-"Superalloys (jet-engine parts), cutting tools"
-],
-[
-"**Barytes**",
-"Barium"
-],
-[
-"**Felspar**",
-"Ceramics"
+"**Uses**",
+"Bauxite → aluminium (cans, car parts); **chromium** → stainless steel, green glass, leather tanning; **cobalt** → superalloys (jet-engine parts), cutting tools; **barytes** → barium; **felspar** → ceramics"
 ]
 ]
 }
@@ -1068,7 +1055,7 @@
 "7": [
 {
 "k": "h",
-"x": "Critical minerals"
+"x": "Policy"
 },
 {
 "k": "t",
@@ -1079,7 +1066,15 @@
 "r": [
 [
 "**Critical minerals list**",
-"Ministry of Mines, **June 2023 – 30 minerals**; includes rare earth elements (17 elements); India is import-dependent for many of them"
+"Ministry of Mines, **June 2023 – 30 minerals**; rare earth elements (17 elements) are **included**; India is import-dependent for many of them"
+],
+[
+"**National Critical Mineral Mission (NCMM)**",
+"Approved **January 2025**; 1,200 exploration projects by 2030-31; **50 overseas assets**; encourages PSUs and private firms to buy assets abroad; national stockpile"
+],
+[
+"**Critical Mineral Recycling Incentive Scheme**",
+"Central Sector, Rs 1,500 crore (Sep 2025)"
 ],
 [
 "**MMDR Amendment 2023**",
@@ -1090,16 +1085,8 @@
 "India joined in **June 2023**"
 ],
 [
-"**National Critical Mineral Mission (NCMM)**",
-"Approved **January 2025**; 1,200 exploration projects by 2030-31; **50 overseas assets**; PSUs and private firms to buy assets abroad; national stockpile"
-],
-[
-"**Critical Mineral Recycling Incentive Scheme**",
-"Central Sector, Rs 1,500 crore (Sep 2025)"
-],
-[
 "Coking coal",
-"Notified Critical and Strategic; Jharia >90% of coking-coal reserves"
+"Notified Critical and Strategic (Jharia >90% of coking-coal reserves)"
 ],
 [
 "GSI \"Uncover India\"",
@@ -1120,10 +1107,10 @@
 "r": [
 [
 "**Rare earths**",
-"China ~70% of mining (>85% of processing); uses in AI, robotics, EVs, space"
+"China ~70% of mining (>85% processing); uses in AI, robotics, EVs, space"
 ],
 [
-"Budget 2026-27 rare-earth corridors",
+"Rare-earth corridors (Budget 2026-27)",
 "Odisha, Kerala, **AP**, TN"
 ],
 [
@@ -1131,14 +1118,18 @@
 "About **55–60% total rare-earth oxides**, besides thorium"
 ],
 [
-"**Lithium** (GSI)",
-"Inferred **5.9 Mt** at **Salal-Haimana, Reasi (J&K)** (Feb 2023)"
+"**Lithium**",
+"GSI inferred **5.9 Mt** at **Salal-Haimana, Reasi (J&K)** (Feb 2023); AMD 1,600 t at **Marlagalla, Mandya** (Karnataka)"
 ],
 [
-"Lithium (AMD)",
-"1,600 t at **Marlagalla, Mandya** (Karnataka)"
+"**Niobium**",
+"Critical for **clean technologies** and advanced manufacturing; reserves **not available** in India"
 ]
 ]
+},
+{
+"k": "h",
+"x": "Overseas partners"
 },
 {
 "k": "t",

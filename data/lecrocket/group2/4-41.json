@@ -455,11 +455,32 @@
 "4": [
 {
 "k": "h",
-"x": "ISFR"
+"x": "Forest Survey of India and ISFR"
 },
 {
-"k": "b",
-"x": "**Forest Survey of India** (1981, **Dehradun**, MoEFCC) publishes the **biennial ISFR** (first 1987; satellite: IRS Resourcesat LISS III)."
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Forest Survey of India**",
+"1981, **Dehradun**, MoEFCC; publishes the **biennial ISFR** (first 1987; satellite: IRS Resourcesat LISS III)"
+],
+[
+"**Forest cover**",
+"Land **> 1 ha** with canopy **≥ 10%**, irrespective of ownership"
+],
+[
+"Tree cover",
+"Tree patches < 1 ha outside recorded forest; a **subset of TOF**"
+],
+[
+"**Trees Outside Forests (TOF)**",
+"All trees outside recorded forest area irrespective of patch size or canopy density (can exceed 1 ha); **Maharashtra** has the largest extent, then Odisha"
+]
+]
 },
 {
 "k": "t",
@@ -483,23 +504,6 @@
 [
 "Scrub",
 "< 10% – not forest cover"
-]
-]
-},
-{
-"k": "t",
-"h": [
-"Term",
-"Meaning"
-],
-"r": [
-[
-"**Forest cover**",
-"Land **> 1 ha** with canopy **≥ 10%**, irrespective of ownership"
-],
-[
-"**Tree cover**",
-"Tree patches < 1 ha outside recorded forest"
 ]
 ]
 },
@@ -560,30 +564,26 @@
 ],
 "r": [
 [
-"Dense forest (VDF + MDF)",
+"Dense (VDF + MDF)",
 "About **57%** of forest cover"
 ],
 [
 "ISFR 2023 net gain",
-"1,445.81 sq km over 2021 (only ~156 sq km forest cover, the rest tree cover)"
-],
-[
-"**Ek Ped Maa Ke Naam**",
-"Campaign claims ~140 crore saplings"
-],
-[
-"**Forest fires**",
-"About **36%** of forest cover prone to frequent fires (~35.5% in ISFR 2021); **dry deciduous** forests most vulnerable; AP had the largest fire-affected area in 2023–24"
+"1,445.81 sq km over 2021 (only ~156 sq km forest cover, the rest tree cover); **Ek Ped Maa Ke Naam** campaign claims ~140 crore saplings"
 ],
 [
 "**Population and forest cover**",
 "Forest loss is usually linked to population pressure, yet forest cover **rose** from ~19% (1999–2003) to **21.76% (2023)** while population grew"
+],
+[
+"**Forest fires**",
+"About **36%** of forest cover prone to frequent fires (~35.5% in ISFR 2021); **dry deciduous** forests most vulnerable; AP had the largest fire-affected area in 2023–24"
 ]
 ]
 },
 {
 "k": "h",
-"x": "Global"
+"x": "Global ranking"
 },
 {
 "k": "t",
@@ -594,15 +594,11 @@
 "r": [
 [
 "**FAO GFRA 2020**",
-"India **3rd** in annual net forest gain 2010–20 (China, Australia, India); India ~2% of world forest"
+"India **3rd** in annual net forest gain 2010–20 (China, Australia, India); India ~2% of world forest; plantation forests ≈ **3%** of the world's forests (all planted forests ≈ 7%)"
 ],
 [
 "GFRA 2025",
 "India 3rd in net gain, 9th in total area"
-],
-[
-"Plantation forests (GFRA 2020)",
-"≈ **3%** of the world's forests (all planted forests ≈ 7%)"
 ],
 [
 "**Bhutan's constitution**",
@@ -614,7 +610,7 @@
 "5": [
 {
 "k": "h",
-"x": "Himalayan zonation"
+"x": "Himalayan forest zones"
 },
 {
 "k": "t",
@@ -662,8 +658,37 @@
 ]
 },
 {
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Deodar**",
+"Tree of the **highest elevation** among deodar, pine, sal, teak; abundant in the temperate **Western Himalaya**; most typical at **1,800–2,600 m**"
+],
+[
+"Uttarakhand **oak–rhododendron**",
+"Banj oak, burans – **temperate** forest; oak and rhododendron grow naturally in the Himalaya, **sandalwood does not**"
+],
+[
+"Himalayan conifers",
+"Juniper, silver fir, spruce; **Mahogany** is a tropical (American) tree"
+],
+[
+"**Himalayan Yew (Taxus wallachiana)**",
+"Source of **taxol**, the biggest-selling anti-cancer drug"
+],
+[
+"**Southern slopes**",
+"Denser forest (more rain and sun); northern slopes thinner"
+]
+]
+},
+{
 "k": "h",
-"x": "Key trees and facts"
+"x": "Other forests and plants"
 },
 {
 "k": "t",
@@ -673,44 +698,24 @@
 ],
 "r": [
 [
-"**Deodar**",
-"Highest elevation among deodar, pine, sal, teak; abundant in the temperate **Western Himalaya**; most typical at **1,800–2,600 m**"
-],
-[
-"Uttarakhand **oak–rhododendron** (banj oak, burans)",
-"**Temperate** forest; oak and rhododendron grow naturally in the Himalaya, sandalwood does not"
-],
-[
-"**Mahogany**",
-"Tropical (American) tree, not Himalayan; juniper, silver fir, spruce are Himalayan"
-],
-[
-"**Himalayan Yew (Taxus wallachiana)**",
-"Source of **taxol**, the biggest-selling anti-cancer drug"
-],
-[
-"**Southern slopes**",
-"Denser forest (more rain and sun); northern slopes thinner"
-],
-[
 "**Coniferous forests**",
-"**Temperate / cold** regions – taiga 50°–60°N: Canada, Scandinavia, Finland, Siberia"
-],
-[
-"Alpine forests",
-"Absent from the Western Ghats"
+"**Temperate/cold** regions (taiga 50°–60°N: Canada, Scandinavia, Finland, Siberia); alpine forests are absent from the Western Ghats"
 ],
 [
 "**Sholas**",
 "Temperate (montane wet temperate) forests of the **Nilgiri, Anaimalai and Palani hills**"
 ],
 [
+"**Sub-tropical broad-leaved hill forests**",
+"**Eastern slopes of the Western Ghats** (Mahabaleshwar, Kodagu), Pachmarhi, Khasi Hills, Nilgiris; **Eugenia, Randia, Jamun, Machilus**, Melisoma, Terminalia"
+],
+[
 "**Ginkgo biloba** (maidenhair tree)",
-"Gymnosperm called a **living fossil** (sole survivor of Ginkgophyta; cycads are also called living fossils)"
+"Gymnosperm called a **living fossil** (sole survivor of Ginkgophyta; cycads also called living fossils)"
 ],
 [
 "**Lichens** (alga + fungus)",
-"Pioneers on bare rock, alpine and tundra surfaces; source of the **litmus** dye"
+"Pioneers on bare rock, alpine and tundra surfaces; the **litmus** dye is extracted from **lichens**"
 ]
 ]
 }

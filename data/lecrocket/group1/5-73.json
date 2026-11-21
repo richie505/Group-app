@@ -613,11 +613,11 @@
 "r": [
 [
 "**Ecotone**",
-"Transition zone where two communities meet – mangroves (marine–terrestrial), estuary, **grassland (forest–desert)**, river bank; a uniform forest stand is not an ecotone"
+"Transition zone where two communities meet – mangroves (marine–terrestrial), estuary, **grassland (forest–desert)**, river bank; a uniform forest stand has none"
 ],
 [
 "**Edge effect**",
-"More species and a higher density of some species in the ecotone – the **edge species**"
+"More species and higher density of some species in the ecotone; they are **edge species**"
 ]
 ]
 },
@@ -669,7 +669,12 @@
 [
 "**Xerophytes**",
 "Dry",
-"Thick cuticle, sunken stomata, spines, CAM, **green photosynthetic stem** – Opuntia (cactus)"
+"Thick cuticle, sunken stomata, spines, CAM, **green photosynthetic stem** – Opuntia (cactus); generally **succulent**; **long, deep roots** to search for **water**; no broad thin leaves"
+],
+[
+"**Mesophytes**",
+"**Moderate** water supply",
+"Neither very dry nor very wet"
 ],
 [
 "**Hydrophytes**",
@@ -679,7 +684,7 @@
 [
 "Halophytes",
 "Saline",
-"**Pneumatophores, vivipary** – Rhizophora"
+"**Pneumatophores, vivipary** – Rhizophora; salt **filtered out at the roots** (ultrafiltration), salt glands, succulence"
 ],
 [
 "Phreatophytes",
@@ -692,41 +697,19 @@
 "–"
 ],
 [
-"**Mesophytes**",
-"Land, **moderate** water supply",
-"Neither very dry nor very wet"
-],
-[
 "**Cryophytes**",
 "**Snow and ice**",
-"Mostly algae, mosses, lichens – red snow (Chlamydomonas nivalis)"
+"Mostly algae, mosses, lichens – e.g. red snow (Chlamydomonas nivalis)"
 ]
 ]
 },
 {
-"k": "t",
-"h": [
-"Fact",
-"Key detail"
-],
-"r": [
-[
-"**Cryptophytes**",
-"Raunkiaer's life form with buds below ground or water"
-],
-[
-"Desert plants",
-"Generally **succulent** (fleshy, water-storing stems or leaves); **long, deep roots** to search for **water**; no broad thin leaves"
-],
-[
-"Halophyte salt control",
-"**Filtering salt out at the roots** (ultrafiltration, e.g. Rhizophora), salt glands and succulence"
-],
-[
-"**Mangroves**",
-"Aerial roots – **pneumatophores** (breathing roots) and **stilt roots**; epiphytic **orchids** also have aerial (velamen) roots"
-]
-]
+"k": "b",
+"x": "**Cryptophytes** are Raunkiaer's life form with buds below ground or water. Hot desert soil does not promote root growth."
+},
+{
+"k": "b",
+"x": "**Aerial roots:** **mangroves** have **pneumatophores** (breathing roots) and **stilt roots**; epiphytic **orchids** have aerial (velamen) roots."
 },
 {
 "k": "h",
@@ -735,21 +718,66 @@
 {
 "k": "t",
 "h": [
-"Fact",
+"Plant",
 "Key detail"
 ],
 "r": [
 [
 "**Cuscuta (dodder)**",
-"**Parasitic angiosperm** – leafless, without chlorophyll; its haustoria tap the host's **stem** (xylem and phloem)"
+"**Parasitic angiosperm**, stem parasite: leafless, without chlorophyll; haustoria tap the host's **stem** (xylem and phloem)"
 ],
 [
-"**Insectivorous plants**",
-"**Nepenthes** (pitcher plant), **Utricularia** (bladderwort, aquatic), Drosera (sundew) – trap insects for nitrogen"
+"**Nepenthes**",
+"Pitcher plant"
 ],
 [
-"Others",
-"Sequoia is a giant conifer; Nostoc a cyanobacterium"
+"**Utricularia (bladderwort)**",
+"Aquatic insectivorous plant"
+],
+[
+"Drosera",
+"Sundew"
+],
+[
+"**Aldrovanda**",
+"**Free-floating, rootless aquatic insectivorous plant**; the only species in India in the **salt marshes of the Sunderbans**, also in fresh-water ponds and lakes; sensitive **trigger hairs** on the leaf midrib"
+],
+[
+"**Pinguicula (Butterwort)**",
+"**Alpine Himalayas, Kashmir to Sikkim**; stream-sides in **cool boggy places**"
+],
+[
+"Sequoia / Nostoc",
+"Giant conifer / a cyanobacterium"
+]
+]
+},
+{
+"k": "b",
+"x": "Insectivorous plants trap insects for **nitrogen**."
+},
+{
+"k": "h",
+"x": "Acclimation and adaptation"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"**Acclimation**",
+"**Short-term, individual-level** physiological, anatomical or morphological adjustment to environmental change"
+],
+[
+"**Adaptation**",
+"**Genetic**, multi-generation change in a population"
+],
+[
+"**Acclimatization**",
+"Compensatory adjustment in **natural (outdoor) conditions**, e.g. to **seasonal temperature**; plants acclimatize to rising **CO₂**, so the **CO₂-fertilization effect diminishes** over time"
 ]
 ]
 }

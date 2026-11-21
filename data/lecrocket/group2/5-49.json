@@ -1,10 +1,6 @@
 {
 "0": [
 {
-"k": "h",
-"x": "Fission and fusion"
-},
-{
 "k": "t",
 "h": [
 "Point",
@@ -29,14 +25,14 @@
 ],
 [
 "Where",
-"**Nuclear reactors** (controlled), **atom bomb** (uncontrolled)",
-"**Sun and stars**, **hydrogen bomb**; fusion power still at the R&D stage"
+"**Nuclear reactors** (controlled), **atom bomb** (uncontrolled); all present-day nuclear electricity",
+"**Sun and stars**, **hydrogen bomb**; fusion power still at R&D stage"
 ]
 ]
 },
 {
-"k": "b",
-"x": "The **breaking apart of a nucleus = fission**; all present-day nuclear electricity comes from **fission**."
+"k": "x",
+"x": "**Breaking apart of a nucleus = fission**; joining of light nuclei = fusion."
 },
 {
 "k": "h",
@@ -50,8 +46,8 @@
 ],
 "r": [
 [
-"Chain reaction",
-"Each fission releases **more neutrons** (2–3), which split more nuclei → **chain reaction**; not every neutron causes a fresh fission, and neutrons do not all react at once"
+"**Chain reaction**",
+"Each fission releases **more neutrons** (2–3), which split more nuclei; not every neutron causes a fresh fission, and not all react at once"
 ],
 [
 "Moderator",
@@ -103,7 +99,7 @@
 {
 "k": "t",
 "h": [
-"Target",
+"City (only two atom-bombed)",
 "Bomb",
 "Fuel"
 ],
@@ -121,25 +117,8 @@
 ]
 },
 {
-"k": "t",
-"h": [
-"Fact",
-"Key detail"
-],
-"r": [
-[
-"Atom-bombed cities",
-"Only **Hiroshima and Nagasaki**"
-],
-[
-"**North Korea**",
-"Claimed a successful **hydrogen bomb** test (January 2016; again September 2017)"
-],
-[
-"India's **Shakti 1998** (Pokhran-II)",
-"Series included a thermonuclear device"
-]
-]
+"k": "b",
+"x": "**North Korea** claimed a successful **hydrogen bomb** test (January 2016; again September 2017). India's **Shakti** 1998 (Pokhran-II) series included a thermonuclear device."
 },
 {
 "k": "h",
@@ -147,7 +126,11 @@
 },
 {
 "k": "b",
-"x": "The Sun and stars shine by **nuclear fusion** – hydrogen nuclei fuse into **helium** in the core (about 15 million K); energy generation in stars is fusion, not fission, chemical reaction, photoelectric effect or gravity."
+"x": "The Sun and stars shine by **nuclear fusion** – hydrogen nuclei fuse into **helium** in the core (about 15 million K); energy generation in stars is fusion, not fission."
+},
+{
+"k": "b",
+"x": "**Spallation reaction:** a high-energy nuclear reaction in which a **heavy nucleus** (lead, tungsten, uranium) is bombarded by **high-energy protons or neutrons** and ejects several smaller fragments (neutrons, protons, light nuclei)."
 }
 ],
 "1": [
@@ -466,12 +449,29 @@
 ],
 "3": [
 {
-"k": "h",
-"x": "Radioactivity"
-},
-{
-"k": "b",
-"x": "Discovered by **Henri Becquerel (1896)** in uranium; Marie and Pierre Curie found polonium and radium (1898). Radioactivity is a **nuclear** (not chemical) property; a radioactive substance emits **alpha, beta and gamma** rays, measured by the **Geiger (Geiger–Müller) counter**."
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Discovery",
+"**Henri Becquerel (1896)** in uranium"
+],
+[
+"Curies",
+"Marie and Pierre Curie found polonium and radium (1898)"
+],
+[
+"Nature",
+"A **nuclear** property, not a chemical one; emits **alpha, beta and gamma** rays"
+],
+[
+"Measured by",
+"**Geiger (Geiger–Müller) counter**"
+]
+]
 },
 {
 "k": "t",
@@ -523,17 +523,21 @@
 ],
 [
 "**Deuteron**",
-"A proton + neutron nucleus; not in the usual list of sub-atomic particles"
-],
-[
-"**Half-life**",
-"Time for half the nuclei to decay; a substance never decays completely"
+"A proton + neutron nucleus; outside the usual list of sub-atomic particles"
 ],
 [
 "**Xenon-135**",
 "\"Nuclear poison\" – a fission product that absorbs neutrons"
 ]
 ]
+},
+{
+"k": "h",
+"x": "Half-life"
+},
+{
+"k": "b",
+"x": "**Half-life** = time for half the nuclei to decay; a substance never decays completely."
 },
 {
 "k": "t",
@@ -563,12 +567,54 @@
 "x": "Decay series and radioactive elements"
 },
 {
-"k": "b",
-"x": "Natural decay series: **uranium** (U-238 → Pb-206), **thorium** (Th-232 → **Pb-208**), **actinium** (U-235 → Pb-207); the **neptunium series is artificial**; there is **no \"carbon series\"**. Lead is the stable **end product of uranium decay**."
+"k": "t",
+"h": [
+"Series",
+"Key detail"
+],
+"r": [
+[
+"**Uranium**",
+"U-238 → Pb-206; lead is the stable **end product of uranium decay**"
+],
+[
+"**Thorium**",
+"Th-232 → **Pb-208**"
+],
+[
+"**Actinium**",
+"U-235 → Pb-207"
+],
+[
+"**Neptunium series**",
+"**Artificial**"
+],
+[
+"Carbon",
+"There is **no \"carbon series\"**"
+]
+]
 },
 {
-"k": "b",
-"x": "Elements above Z = 82–83 are radioactive (plus technetium 43, promethium 61); **astatine, francium, tritium** are radioactive; **zirconium (Z = 40)** is stable."
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Radioactive elements",
+"Above Z = 82–83, plus technetium 43 and promethium 61; also **astatine, francium, tritium**"
+],
+[
+"**Zirconium (Z = 40)**",
+"Stable"
+],
+[
+"**Technetium**",
+"Discovered by **C. Perrier and E. Segrè (1937)** – the **first artificial (synthetic) element**"
+]
+]
 }
 ],
 "4": [
@@ -705,7 +751,7 @@
 "h": [
 "Reactor",
 "Site",
-"Key detail"
+"Key facts"
 ],
 "r": [
 [
@@ -716,7 +762,7 @@
 [
 "CIRUS",
 "Trombay",
-"40 MW, natural uranium, heavy water; with **Canada**; shut 2010"
+"40 MW, natural uranium, heavy water; with **Canada**; critical 1960; shut 2010"
 ],
 [
 "**Zerlina**",
@@ -724,33 +770,29 @@
 "Zero-energy research reactor; critical **January 1961**"
 ],
 [
+"Purnima I–III",
+"Trombay",
+"Thorium/U-233 research reactors (Purnima-I 1972); shut"
+],
+[
 "**Dhruva**",
 "Trombay",
-"**India's largest research reactor (100 MW)**; isotopes, materials testing"
+"**India's largest research reactor (100 MW)**, 1985; isotopes, materials testing"
 ],
 [
 "KAMINI",
 "**Kalpakkam** (IGCAR)",
-"30 kW; world's **only U-233** reactor"
-],
-[
-"Purnima I–III",
-"Trombay",
-"Thorium/U-233 research reactors; shut"
+"30 kW, 1996; world's **only U-233** reactor"
 ]
 ]
 },
 {
 "k": "b",
-"x": "Order: **Apsara 1956 → CIRUS 1960 → Zerlina 1961 → Purnima-I 1972 → Dhruva 1985 → KAMINI 1996**."
+"x": "Order: **Apsara 1956 → CIRUS 1960 → Zerlina 1961 → Purnima-I 1972 → Dhruva 1985 → KAMINI 1996**. Kaiga, Kudankulam and Narora are **power** stations."
 },
 {
 "k": "b",
-"x": "Kaiga, Kudankulam and Narora are **power** stations; **Dhruva** is a research reactor."
-},
-{
-"k": "b",
-"x": "The world's first reactor (**Chicago Pile-1, 1942**) was built by **Enrico Fermi**, an **Italian** physicist (Italy → USA)."
+"x": "World's first reactor (**Chicago Pile-1, 1942**) was built by **Enrico Fermi**, an **Italian** physicist (Italy → USA)."
 },
 {
 "k": "h",
@@ -777,7 +819,7 @@
 [
 "AEC",
 "Mumbai",
-"Policy body (1948)"
+"Policy body (1948); member **Dr P. Rama Rao** – metallurgist, former DST Secretary"
 ],
 [
 "IGCAR",
@@ -812,21 +854,8 @@
 ]
 },
 {
-"k": "t",
-"h": [
-"Person",
-"Role"
-],
-"r": [
-[
-"**BARC Directors**",
-"R.K. Sinha (2010–12), Sekhar Basu (2012–15), K.N. Vyas (2016–19), A.K. Mohanty (2019–23), **Vivek Bhasin (since Sep 2023)**"
-],
-[
-"**Dr P. Rama Rao**",
-"**Atomic Energy Commission member** – metallurgist, former DST Secretary"
-]
-]
+"k": "b",
+"x": "**BARC Directors:** R.K. Sinha (2010–12), Sekhar Basu (2012–15), K.N. Vyas (2016–19), A.K. Mohanty (2019–23), **Vivek Bhasin (since Sep 2023)**."
 },
 {
 "k": "h",
@@ -853,31 +882,44 @@
 ],
 [
 "NPCIL fleet",
-"**25 reactors, 8,880 MW** (including one under long shutdown; **24 operating, 8.78 GW**, Sep 2026); target 22.38 GW by 2031-32"
+"**25 reactors, 8,880 MW** (one under long shutdown; **24 operating, 8.78 GW**, Sep 2026); target 22.38 GW by 2031-32"
 ],
 [
-"**Nuclear Energy Mission** (Budget 2025-26)",
-"**100 GW by 2047**; **₹20,000 crore** for SMRs"
+"**Nuclear Energy Mission**",
+"Budget 2025-26: **100 GW by 2047**; **₹20,000 crore** for SMRs"
 ],
 [
-"**SMRs**",
-"Up to **300 MWe** per unit, factory-built, refuelled every **3–7 years**"
-],
-[
-"**Bharat Small Reactors** (NPCIL)",
-"Based on the **220 MW PHWR**"
-],
-[
-"**CODENE**",
-"**IIT Hyderabad** (Jun 2026)"
+"**ParmanuTech 2019**",
+"6 Feb 2019, New Delhi; organised by the **DAE in consultation with the Ministry of External Affairs** to showcase DAE technologies to diplomats"
 ],
 [
 "**AHWR**",
 "Also burns plutonium-bearing (Th-Pu) MOX"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"SMR fact",
+"Key detail"
+],
+"r": [
+[
+"**Small Modular Reactors (SMRs)**",
+"Up to **300 MWe** per unit; factory-made, transported and assembled in **modules**; refuelled every **3–7 years**"
 ],
 [
-"**ParmanuTech 2019** (6 Feb 2019, New Delhi)",
-"Organised by the **DAE in consultation with the Ministry of External Affairs** to showcase DAE technologies to diplomats"
+"Technology",
+"**Light-water reactor** technology with **passive safety**"
+],
+[
+"Examples",
+"**NuScale (USA)**, **Akademik Lomonosov (Russia)**, **Linglong One (China)**, Rolls-Royce SMR (UK)"
+],
+[
+"India",
+"**Bharat Small Reactors** (NPCIL) based on the **220 MW PHWR**; BARC and NPCIL exploring designs based on **PHWR and AHWR**; **CODENE** at **IIT Hyderabad** (Jun 2026)"
 ]
 ]
 }

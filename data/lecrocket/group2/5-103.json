@@ -2,7 +2,7 @@
 "0": [
 {
 "k": "h",
-"x": "Bacterial diseases"
+"x": "Bacterial"
 },
 {
 "k": "t",
@@ -13,14 +13,14 @@
 "r": [
 [
 "**Tuberculosis**",
-"*Mycobacterium tuberculosis*; airborne; lungs; Mantoux test; India TB deaths ~3 lakh a year (mortality 21 per lakh, 2024); bacillus discovered by **Robert Koch** (**1882**)"
+"*Mycobacterium tuberculosis*; airborne; lungs; Mantoux test; bacillus discovered by **Robert Koch** (**1882**); India TB deaths ~3 lakh a year (mortality 21 per lakh, 2024)"
 ],
 [
 "**Leprosy** (Hansen's)",
 "*M. leprae / M. lepromatosis*; skin, peripheral nerves"
 ],
 [
-"**Tetanus** (\"lock jaw\")",
+"**Tetanus = \"lock jaw\"**",
 "*Clostridium tetani*; contaminated wound"
 ],
 [
@@ -29,7 +29,7 @@
 ],
 [
 "Diphtheria",
-"*Corynebacterium*; false membrane in the throat; respiratory droplets"
+"*Corynebacterium*; false membrane in throat; respiratory droplets"
 ],
 [
 "Pertussis",
@@ -57,21 +57,21 @@
 ],
 [
 "**Pneumonia**",
-"Mainly *Streptococcus pneumoniae* – a **coccus** (spherical diplococcus); infection of the **alveoli** (air sacs), which fill with fluid or pus"
+"Mainly *Strepto**coccus** pneumoniae* – a coccus (spherical diplococcus); infection of the **alveoli** (air sacs), which fill with fluid or pus"
 ],
 [
 "**Haemophilus influenzae (Hib)**",
-"A bacterium (not the flu virus); main cause of bacterial meningitis in young children; also pneumonia, epiglottitis"
+"A bacterium (distinct from the flu virus); main cause of bacterial meningitis in young children; also pneumonia, epiglottitis"
 ],
 [
 "Rheumatic fever",
-"Follows *Streptococcus pyogenes* infection"
+"Follows *Streptococcus pyogenes*"
 ]
 ]
 },
 {
 "k": "h",
-"x": "Viral diseases"
+"x": "Viral"
 },
 {
 "k": "t",
@@ -85,16 +85,24 @@
 "**HIV = retrovirus** (RNA, reverse transcriptase); destroys **helper T cells** (immune system)"
 ],
 [
+"**HIV routes**",
+"Sex, blood/needles, mother-to-child (placenta, birth, breast milk); **not** mosquitoes or casual contact"
+],
+[
+"**Kaposi's sarcoma**",
+"A **cancer** arising as a complication of **HIV/AIDS** (with lymphomas and opportunistic infections)"
+],
+[
 "**Common cold**",
 "**Rhinovirus**"
 ],
 [
 "**Herpes**",
-"Viral (malaria is protozoan; typhoid and diphtheria bacterial)"
+"Viral"
 ],
 [
 "**Hepatitis**",
-"Viral (A and E water-borne)"
+"Viral (A, E water-borne)"
 ],
 [
 "Measles",
@@ -106,21 +114,25 @@
 ],
 [
 "**Chickenpox**",
-"Varicella-zoster virus (VZV); later causes shingles"
+"Varicella-zoster virus (VZV); also causes shingles later"
 ],
 [
 "COVID-19",
 "SARS-CoV-2; respiratory"
 ],
 [
-"Other viral",
+"Other viral diseases",
 "Polio, rabies, yellow fever, rubella, **plantar warts (HPV)**, influenza"
 ]
 ]
 },
 {
+"k": "b",
+"x": "Malaria is caused by a protozoan; typhoid and diphtheria are bacterial."
+},
+{
 "k": "h",
-"x": "Key facts"
+"x": "Terms"
 },
 {
 "k": "t",
@@ -131,15 +143,11 @@
 "r": [
 [
 "**Meningitis**",
-"Inflammation (swelling) of the **meninges** covering the brain and spinal cord"
+"Inflammation (swelling) of the **meninges** covering brain and spinal cord"
 ],
 [
 "**Triple antigen (DPT)**",
 "Diphtheria, whooping cough, tetanus"
-],
-[
-"**HIV routes**",
-"Sex, blood/needles, mother-to-child (placenta, birth, breast milk); not mosquitoes or casual contact"
 ],
 [
 "Edward Jenner",
@@ -765,12 +773,12 @@
 [
 "**Filariasis**",
 "*Wuchereria bancrofti* – nematode",
-"Lymph vessels"
+"Lymph vessels (mosquito-borne)"
 ],
 [
 "**Taeniasis**",
 "**Tapeworms** *Taenia solium* (pork), *T. saginata* (beef), *T. asiatica* – **Platyhelminthes**",
-"Intestinal; cysts in the brain = **neurocysticercosis (NCC)**"
+"Intestinal; cysts in brain = **neurocysticercosis (NCC)**"
 ],
 [
 "**Fascioliasis**",
@@ -784,13 +792,18 @@
 ],
 [
 "**Guinea worm**",
-"*Dracunculus medinensis* – **nematode** (not an annelid)",
+"*Dracunculus medinensis* – **nematode**",
 "Water with infected Cyclops"
 ],
 [
 "**Amphistomiasis**",
 "Rumen flukes (buffaloes/cattle)",
 "Snail intermediate host → controlled by **snail control**"
+],
+[
+"**Paragonimiasis**",
+"Lung fluke",
+"A **neglected tropical disease**; still a public-health problem in **Northeast India**"
 ]
 ]
 },
@@ -806,6 +819,10 @@
 "**Tapeworm = hermaphrodite**; **roundworm = separate sexes**"
 ],
 [
+"Filaria",
+"**Caused by a nematode**"
+],
+[
 "**Livestock worms**",
 "Treated by **deworming (anthelmintics)**, e.g. albendazole"
 ],
@@ -814,8 +831,8 @@
 "Night blood thick smear and concentration methods (**micro-haematocrit / buffy coat**, Knott's, membrane filtration)"
 ],
 [
-"**Lane's centrifugal flotation, Willis flotation**",
-"Stool tests for helminth eggs"
+"Stool tests for helminth eggs",
+"**Lane's centrifugal flotation and Willis flotation**"
 ]
 ]
 }
@@ -1274,14 +1291,18 @@
 "Insectivorous plant – traps insects"
 ],
 [
-"**Algae**",
-"*Chara*, *Nitella*, *Chlorella* extracts – larvicidal"
+"Algae",
+"*Chara*, *Nitella* (classic textbook), *Chlorella* extracts – larvicidal"
+],
+[
+"**Oxitec GM mosquitoes**",
+"Genetically modified **male *Aedes aegypti*** with a **\"self-limiting\" gene**; offspring inherit it and do not survive (dengue, Zika, chikungunya)"
 ]
 ]
 },
 {
 "k": "b",
-"x": "**Wolbachia:** in **50-60%** of insect species; **naturally absent in Aedes aegypti and Anopheles**. Verily **'Debug'** (2 Jun 2026): Wolbachia male *Culex quinquefasciatus* released."
+"x": "Wolbachia occurs in **50-60%** of insect species and is **naturally absent in Aedes aegypti and Anopheles**. Verily **'Debug'** (2 Jun 2026) released Wolbachia male *Culex quinquefasciatus*."
 },
 {
 "k": "h",
@@ -1299,24 +1320,24 @@
 "Six diseases – **malaria, JE, dengue, chikungunya, kala-azar, lymphatic filariasis**"
 ],
 [
-"**Elimination**",
+"Elimination targets",
 "Malaria, LF, kala-azar; dengue, chikungunya, JE only controlled"
 ],
 [
 "**National Framework for Malaria Elimination (2016-2030)**",
-"Zero indigenous cases by **2027**, malaria-free India by **2030**"
+"Zero indigenous cases by **2027**; malaria-free India by **2030**"
 ],
 [
 "**MERA India**",
 "ICMR, 24 April 2019"
 ],
 [
-"WHO malaria-free (South Asia)",
+"WHO malaria-free in South Asia",
 "**Maldives (2015), Sri Lanka (2016)**"
 ],
 [
-"Climate",
-"Malaria and dengue are outbreak-prone and climate-sensitive"
+"Malaria and dengue",
+"Outbreak-prone and climate-sensitive"
 ]
 ]
 }

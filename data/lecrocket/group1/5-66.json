@@ -401,45 +401,49 @@
 ],
 "0": [
 {
+"k": "h",
+"x": "Turbines and generators"
+},
+{
+"k": "b",
+"x": "**Wind turbine chain:** **kinetic energy** of wind → **mechanical** (rotation) → **electrical** energy in the generator."
+},
+{
 "k": "t",
 "h": [
-"Fact",
+"Device",
 "Key detail"
 ],
 "r": [
 [
-"**Wind turbine chain**",
-"**Kinetic energy** of wind → **mechanical** (rotation) → **electrical** energy in the generator"
-],
-[
 "**Generator / dynamo**",
-"Converts **mechanical energy into electrical energy**; a dynamo gives DC through a commutator"
+"Converts **mechanical energy into electrical energy**; turbines plus dynamos convert mechanical (not chemical, solar or magnetic) energy; a dynamo gives DC through a commutator"
 ],
 [
-"Turbines plus dynamos",
-"Convert **mechanical** energy into electricity"
+"**Electric motor**",
+"The reverse: electrical → mechanical"
 ],
 [
-"Reverse device",
-"**Electric motor** = electrical → mechanical; **transformer** only steps voltage up or down"
+"**Transformer**",
+"Only steps voltage up or down"
 ],
 [
-"Output",
-"Rotating generators give **AC**; stationary solar panels give **DC**"
+"Rotating generators",
+"Give **AC**; stationary solar panels give **DC**"
 ],
 [
-"Wind power",
-"Varies with the **cube of wind speed**; **Betz limit 16/27 (~59.3%)**"
+"**Generator parts**",
+"Armature, field magnets, slip rings / commutator, brushes"
 ],
 [
-"**CUF**",
-"Actual output ÷ output at full rated power; wind **36-40%**, solar ~21%"
-],
-[
-"**IEC classes**",
-"Class I high-wind, **Class III low-wind** sites"
+"**Motor parts**",
+"Armature, magnets, commutator, brushes, axle"
 ]
 ]
+},
+{
+"k": "h",
+"x": "Wind power"
 },
 {
 "k": "t",
@@ -463,6 +467,31 @@
 "Efficiency",
 "Higher – standard utility turbine",
 "Lower; takes wind from any direction"
+]
+]
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Power",
+"Varies with the **cube of wind speed**"
+],
+[
+"**Betz limit**",
+"**16/27 (~59.3%)**"
+],
+[
+"**CUF**",
+"Actual output ÷ output at full rated power; wind **36-40%**, solar ~21%"
+],
+[
+"**IEC classes**",
+"Class I – high-wind; **Class III – low-wind** sites"
 ]
 ]
 }

@@ -7,60 +7,65 @@
 {
 "k": "t",
 "h": [
-"Mission / object",
+"Mission",
 "Agency, year",
 "Key detail"
 ],
 "r": [
 [
 "**Voyager 1 and 2**",
-"NASA, **1977**",
+"NASA, 1977",
 "Explore the **outer solar system**; Voyager 2 the only craft to visit Uranus and Neptune"
 ],
 [
 "**MESSENGER**",
-"NASA, **2004**",
-"First to **orbit Mercury** (**2011**); mapped and investigated Mercury"
+"NASA, 2004",
+"First to **orbit Mercury** (2011); mapped and investigated Mercury"
 ],
 [
 "**Cassini-Huygens**",
-"NASA-ESA-ASI, **1997**",
+"NASA-ESA-ASI, 1997",
 "**Saturn** and Titan"
 ],
 [
 "**New Horizons**",
-"NASA, **2006**",
-"**Flew past Pluto** (July **2015**), then Kuiper Belt object Arrokoth (**2019**)"
+"NASA, 2006",
+"**Flew past Pluto** (July **2015**), then Kuiper Belt object Arrokoth (2019)"
 ],
 [
 "**Psyche**",
-"NASA; selected **Jan 2017**, launched Oct **2023**",
+"NASA; selected **Jan 2017**, launched Oct 2023",
 "**Metal-rich asteroid** 16 Psyche (Lucy = Trojan asteroids)"
 ],
 [
 "**DAVINCI+ / VERITAS**",
-"NASA, selected **2021**",
-"**Venus** – first NASA Venus missions since the **1990s**"
+"NASA, selected 2021",
+"**Venus** – first NASA Venus missions since the 1990s"
+],
+[
+"**Akatsuki**",
+"**Japan**",
+"**Venus** (Europe's Venus mission: **Venus Express**)"
 ],
 [
 "**Deep Impact**",
-"NASA, Delta-II, **12 Jan 2005**",
-"Impactor hit comet **Tempel-1** on **4 Jul 2005**"
+"NASA, Delta-II, 12 Jan 2005",
+"Impactor hit comet **Tempel-1** on 4 Jul 2005"
 ],
 [
 "**TESS**",
 "NASA",
-"Found its first **Earth-size planet** in a star's habitable zone (TOI 700 d, Jan **2020**)"
+"Found its first **Earth-size planet** in a star's habitable zone (TOI 700 d, Jan 2020)"
 ],
 [
 "**Europa Clipper**",
-"NASA, Oct **2024**",
+"NASA, Oct 2024",
 "Jupiter's moon Europa"
 ],
 [
 "**ExoMars**",
-"ESA (with Roscosmos till **2022**)",
-"Mars, signs of life; rover **Rosalind Franklin** moves on the surface **and** drills to **2 m**"
+"ESA (with Roscosmos till 2022)",
+"Mars, signs of life; rover **Rosalind Franklin** to move on the surface **and** drill to 2 m"
 ],
 [
 "**SuperView**",
@@ -69,8 +74,41 @@
 ],
 [
 "**VENµS**",
-"**Israel**-France, Aug **2017**",
+"**Israel**-France, Aug 2017",
 "Vegetation and environment research satellite"
+]
+]
+},
+{
+"k": "h",
+"x": "Mars"
+},
+{
+"k": "t",
+"h": [
+"Craft / instrument",
+"Key detail"
+],
+"r": [
+[
+"**Spirit (MER-A)**",
+"First of NASA's twin rovers (twin: Opportunity); landed **4 Jan 2004**"
+],
+[
+"**Perseverance**",
+"**Jezero crater**, Feb 2021, with the **Ingenuity** helicopter; seeks past life"
+],
+[
+"**MOXIE**",
+"**Mars Oxygen In-Situ Resource Utilization Experiment** on Perseverance (2020) – made **oxygen from Martian CO₂**"
+],
+[
+"**BILI** (Bio-Indicator Lidar Instrument)",
+"NASA Goddard's new **instrument** to \"sniff\" organics as signs of life on Mars"
+],
+[
+"**Beagle-2**",
+"**British**-built lander on ESA's **Mars Express** (launched 2003); lost on landing, found on the surface in 2015"
 ]
 ]
 },
@@ -81,7 +119,7 @@
 {
 "k": "t",
 "h": [
-"Launcher",
+"Rocket",
 "Key detail"
 ],
 "r": [
@@ -95,44 +133,11 @@
 ],
 [
 "**SS-520-5**",
-"JAXA, Feb **2018** – world's smallest satellite-carrying rocket"
+"JAXA, Feb 2018 – world's smallest satellite-carrying rocket"
 ],
 [
 "**EQUULEUS**",
-"**JAXA** water-powered CubeSat; **steam** propulsion beyond low Earth orbit (Nov **2022**)"
-]
-]
-},
-{
-"k": "h",
-"x": "Mars"
-},
-{
-"k": "t",
-"h": [
-"Mission / instrument",
-"Key detail"
-],
-"r": [
-[
-"**Spirit (MER-A)**",
-"First of NASA's twin rovers, landed **4 Jan 2004** (twin: Opportunity)"
-],
-[
-"**Perseverance**",
-"**Jezero crater**, Feb **2021**, with the **Ingenuity** helicopter; seeks past life"
-],
-[
-"**MOXIE**",
-"**Mars Oxygen In-Situ Resource Utilization Experiment** on Perseverance (**2020**) – made **oxygen from Martian CO₂**"
-],
-[
-"**BILI** (Bio-Indicator Lidar Instrument)",
-"NASA Goddard's new **instrument** (not a rover) to \"sniff\" organics as signs of life on Mars"
-],
-[
-"**Beagle-2**",
-"**British**-built Mars lander on ESA's **Mars Express** (launched **2003**); lost on landing, found on the surface in **2015**"
+"**JAXA** water-powered CubeSat; **steam** propulsion beyond low Earth orbit (Nov 2022)"
 ]
 ]
 },
@@ -149,11 +154,11 @@
 "r": [
 [
 "**IceCube** (South Pole)",
-"World's largest **neutrino detector** – a **cubic kilometre of ice**, sensors **buried 1.45–2.45 km deep**; also searches for **dark matter**"
+"World's largest **neutrino detector**: a **cubic kilometre of ice**, sensors **buried 1.45–2.45 km deep**; also searches for **dark matter**"
 ],
 [
 "**Dark matter**",
-"Mostly non-baryonic; emits no electromagnetic radiation; leading candidate **WIMPs (weakly interacting massive particles)** – neutrinos are too light"
+"Mostly non-baryonic; leading candidate **WIMPs (weakly interacting massive particles)**; neutrinos are too light; emits no electromagnetic radiation"
 ],
 [
 "**Jupiter**",
@@ -364,8 +369,8 @@
 ],
 "r": [
 [
-"**Mars Orbiter Mission (MOM) = Mangalyaan**",
-"India's **first interplanetary mission**"
+"**Mars Orbiter Mission (MOM)**",
+"**Mangalyaan** – India's **first interplanetary mission**"
 ],
 [
 "Launch",
@@ -376,42 +381,80 @@
 "**24 Sep 2014** (highly elliptical)"
 ],
 [
-"Firsts",
-"**First country to reach Mars orbit on its maiden attempt**; **first Asian nation**"
-],
-[
-"Rank",
-"ISRO the **4th** agency to reach Mars, after **NASA, USSR/Roscosmos, ESA**"
-],
-[
-"Cost",
-"Lowest-cost Mars mission (~**Rs 450 crore**)"
+"Route",
+"Earth orbit-raising, then Trans-Mars Injection – a **Hohmann transfer** (elliptical transfer orbit, two burns)"
 ],
 [
 "Payloads",
-"**5**, incl. **Methane Sensor for Mars**, **Lyman Alpha Photometer**, Mars Colour Camera, MENCA, TIS"
+"**5**: **Methane Sensor for Mars**, **Lyman Alpha Photometer**, Mars Colour Camera, MENCA, TIS"
 ],
 [
 "Life",
 "Designed for **6 months**, worked ~**8 years** (contact lost **2022**)"
 ],
 [
-"Route",
-"Earth orbit-raising, then Trans-Mars Injection – a **Hohmann transfer** (elliptical transfer orbit, two burns)"
+"Cost",
+"Lowest-cost Mars mission (~Rs 450 crore)"
+]
+]
+},
+{
+"k": "x",
+"x": "**Firsts:** India the **first country to reach Mars orbit on its maiden attempt** and the **first Asian nation**; ISRO the **4th** agency to reach Mars after **NASA, USSR/Roscosmos and ESA**."
+},
+{
+"k": "h",
+"x": "Mars facts"
+},
+{
+"k": "t",
+"h": [
+"Fact",
+"Key detail"
+],
+"r": [
+[
+"Film **Mission Mangal** (2019)",
+"On the MOM women scientists; **Vidya Balan** the leading lady (with Akshay Kumar)"
 ],
 [
-"Film",
-"**Mission Mangal** (**2019**) on the MOM women scientists – **Vidya Balan** the leading lady (with Akshay Kumar)"
+"**Methane on Mars**",
+"First measured by **ESA's Mars Express**, also by NASA's **Curiosity**"
+],
+[
+"Possible life",
+"Methane, **water and gypsum** cited as evidence – Mars the planet that **may suit life**"
+],
+[
+"Mangalyaan-2",
+"Mars landing, targeted ~2030; **Japan** named as ISRO's partner for a new Mars effort (ISRO-JAXA's joint mission is the lunar LUPEX)"
 ]
 ]
 },
 {
-"k": "b",
-"x": "**Methane on Mars:** first measured by **ESA's Mars Express**, also by NASA's **Curiosity**; with **water and gypsum** it is cited as evidence for possible life – Mars is the planet that **may suit life**."
-},
-{
-"k": "b",
-"x": "**Next:** **Mangalyaan-2** (Mars landing, targeted ~**2030**); **Japan** is named as a possible partner for a new Mars effort (unconfirmed) – ISRO–JAXA's confirmed joint mission is the lunar **LUPEX**."
+"k": "t",
+"h": [
+"Country",
+"Mars mission"
+],
+"r": [
+[
+"India",
+"Mangalyaan"
+],
+[
+"China",
+"**Tianwen-1**"
+],
+[
+"Europe",
+"Mars Express, ExoMars"
+],
+[
+"USSR",
+"Mars 2 & 3"
+]
+]
 }
 ],
 "4": [
@@ -585,17 +628,13 @@
 ],
 [
 "Advantage",
-"Continuous view of the Sun, no eclipse"
+"Continuous view of the Sun, no eclipse; life 5 years"
 ],
 [
-"Life",
-"**5** years"
+"Payloads",
+"**7** = 4 remote sensing + 3 in-situ"
 ]
 ]
-},
-{
-"k": "b",
-"x": "**7 payloads** = **4** remote sensing + **3** in-situ (**LIBS** is a Chandrayaan-3 rover payload, not an Aditya-L1 one)."
 },
 {
 "k": "t",
@@ -607,27 +646,27 @@
 "r": [
 [
 "Remote",
-"**VELC** (Visible Emission Line Coronagraph, **IIA**)",
+"VELC (Visible Emission Line Coronagraph, **IIA**)",
 "Corona"
 ],
 [
 "Remote",
-"**SUIT** (Solar Ultraviolet Imaging Telescope, **IUCAA**)",
+"SUIT (Solar Ultraviolet Imaging Telescope, **IUCAA**)",
 "Photosphere, chromosphere (near-UV)"
 ],
 [
 "Remote",
-"**SoLEXS**",
+"SoLEXS",
 "Soft X-ray"
 ],
 [
 "Remote",
-"**HEL1OS**",
+"HEL1OS",
 "Hard X-ray"
 ],
 [
 "In-situ",
-"**ASPEX**",
+"ASPEX",
 "Solar-wind protons, ions"
 ],
 [
@@ -641,6 +680,10 @@
 "Magnetic field"
 ]
 ]
+},
+{
+"k": "b",
+"x": "**LIBS** is a Chandrayaan-3 rover payload."
 },
 {
 "k": "b",
@@ -659,15 +702,23 @@
 "r": [
 [
 "**Parker Solar Probe**",
-"NASA, **12 Aug 2018**, on a **Delta IV Heavy**; first craft through the Sun's outer corona; traces the energy flow that heats the corona and accelerates the solar wind"
+"NASA, **12 Aug 2018**, on a **Delta IV Heavy**; first craft through the Sun's outer corona; traces energy flow heating the corona and accelerating the solar wind"
 ],
 [
-"**Solar Orbiter**",
-"NASA-ESA, **2020**"
+"Solar Orbiter",
+"NASA-ESA, 2020"
 ],
 [
-"**SOHO**",
-"At L1, **1995**"
+"SOHO",
+"At L1, 1995 (USA-Europe)"
+],
+[
+"**Hinode**",
+"Japan"
+],
+[
+"Solar Dynamics Observatory (SDO)",
+"USA"
 ]
 ]
 }
@@ -915,43 +966,38 @@
 "Minimum speed to escape a body's gravity; **Earth 11.2 km/s**"
 ],
 [
-"**Orbital velocity**",
-"~**7.8–7.9 km/s** in low Earth orbit"
+"Orbital velocity",
+"~7.8-7.9 km/s in low Earth orbit"
 ],
 [
-"**Lagrange points**",
-"**Five** points (L1–L5) where a small object stays balanced; Sun-Earth L1 ~**1.5 million km**"
+"Lagrange points",
+"**Five** points (L1-L5) where a small object stays balanced; Sun-Earth L1 ~1.5 million km"
 ],
 [
-"**Soft landing**",
+"Soft landing",
 "Controlled low-speed touchdown"
 ],
 [
-"**Hohmann transfer**",
+"Hohmann transfer",
 "Fuel-saving elliptical transfer with two burns (used by MOM)"
 ]
 ]
 },
 {
-"k": "t",
-"h": [
-"Fact",
-"Key detail"
-],
-"r": [
-[
-"Object thrown at **8 km/s**",
-"Below **11.2 km/s**, so it **returns to Earth**; a horizontal 8 km/s above the air would orbit"
-],
-[
-"**No atmosphere on the Moon**",
-"Low gravity – its escape velocity is **less than the RMS speed** of gas molecules, which escape"
-],
-[
-"**Re-entry blackout**",
-"A returning shuttle heats up and **ionises the surrounding air**, so radio contact is lost for a while"
-]
-]
+"k": "b",
+"x": "An object thrown at **8 km/s** (below 11.2 km/s) **returns to Earth**; strictly, a horizontal 8 km/s above the air would orbit."
+},
+{
+"k": "b",
+"x": "**No atmosphere on the Moon:** low gravity, so its escape velocity is **less than the RMS speed** of gas molecules, which escape."
+},
+{
+"k": "b",
+"x": "**Re-entry blackout:** a returning shuttle heats up and **ionises the surrounding air**, so radio contact is lost for a while."
+},
+{
+"k": "b",
+"x": "**Oberth effect:** an engine burn gives the **maximum gain when made at the highest-speed point** (perigee); lunar-mission orbit raising used repeated **perigee burns**, each raising the apogee, to save fuel."
 }
 ],
 "11": [

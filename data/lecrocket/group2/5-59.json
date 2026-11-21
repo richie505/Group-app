@@ -549,10 +549,6 @@
 ],
 "6": [
 {
-"k": "h",
-"x": "Biofuel generations"
-},
-{
 "k": "t",
 "h": [
 "Generation",
@@ -561,14 +557,14 @@
 ],
 "r": [
 [
-"**1G**",
+"1G",
 "Food crops: sugarcane, molasses, corn, vegetable oils",
 "Bioethanol, biodiesel"
 ],
 [
-"**2G**",
+"2G",
 "Non-food lignocellulosic residue: rice straw, husk, wood chips, cotton stalks",
-"Cellulosic ethanol"
+"Cellulosic ethanol; **Fischer–Tropsch (FT) diesel**"
 ],
 [
 "**3G**",
@@ -583,29 +579,37 @@
 ]
 },
 {
-"k": "h",
-"x": "Algal fuels"
-},
-{
 "k": "t",
 "h": [
-"Fact",
+"Fuel",
 "Key detail"
 ],
 "r": [
 [
-"**Biobutanol** (Clostridium acetobutylicum)",
-"Higher energy content than ethanol"
+"**Biobutanol**",
+"Clostridium acetobutylicum; higher energy content than ethanol"
 ],
 [
 "**Algal biofuel**",
 "Algae grow in seas **and on land** (ponds, tanks, wastewater)"
 ],
 [
-"**Limitations**",
-"Needs **high expertise/technology** and **large-scale facilities** that may raise ecological/social concerns; energy-intensive lipid extraction; not cost-effective"
+"**Biohydrogen**",
+"**Pyrolysis, gasification or biological (microbial) fermentation** of biomass"
+],
+[
+"**Bio-syngas**",
+"From biomass gasification; converted to methanol, dimethyl ether or synthetic fuels"
+],
+[
+"**Fischer–Tropsch (FT) diesel**",
+"**2G biofuel**: liquid hydrocarbon fuels (synthetic diesel, kerosene) made by **biomass gasification**"
 ]
 ]
+},
+{
+"k": "b",
+"x": "**Algal fuel limitations:** needs **high expertise/technology** and **large-scale facilities** that may raise ecological/social concerns; energy-intensive lipid extraction; not cost-effective."
 }
 ],
 "7": [

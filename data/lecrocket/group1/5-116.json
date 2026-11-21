@@ -96,6 +96,10 @@
 "First **1976** – simultaneous outbreaks at Yambuku (Zaire/DR Congo) and Nzara (Sudan); named after the **Ebola River**; family Filoviridae"
 ],
 [
+"**Ebola reservoir**",
+"Bats of the **Pteropodidae** family – natural hosts"
+],
+[
 "Ebola 2014–16",
 "West Africa: **Guinea, Sierra Leone and Liberia**; PHEIC August 2014"
 ],
@@ -130,8 +134,45 @@
 ]
 },
 {
-"k": "b",
-"x": "**PHEICs:** H1N1 2009 → polio 2014 → Ebola 2014 and 2019 → Zika 2016 → COVID-19 (30 Jan 2020) → mpox 2022 and 2024 → **Bundibugyo Ebola (DR Congo, Uganda), May 2026** – a PHEIC, not a \"pandemic emergency\"."
+"k": "h",
+"x": "PHEICs"
+},
+{
+"k": "t",
+"h": [
+"Year",
+"PHEIC"
+],
+"r": [
+[
+"2009",
+"H1N1"
+],
+[
+"2014",
+"Polio; Ebola"
+],
+[
+"2016",
+"Zika"
+],
+[
+"2019",
+"Ebola"
+],
+[
+"30 Jan 2020",
+"COVID-19"
+],
+[
+"2022 and 2024",
+"Mpox"
+],
+[
+"May 2026",
+"**Bundibugyo Ebola (DR Congo, Uganda)** – a PHEIC (below a \"pandemic emergency\")"
+]
+]
 }
 ],
 "3": [
@@ -478,7 +519,7 @@
 [
 "**iNCOVACC**",
 "**Bharat Biotech, Hyderabad** (WUSL technology)",
-"Adenovirus vector; world's first **intranasal** COVID vaccine for the primary 2-dose schedule and heterologous booster; launched **26 Jan 2023**"
+"Adenovirus vector; world's first **intranasal** COVID vaccine for the primary 2-dose schedule + heterologous booster; launched **26 Jan 2023**"
 ],
 [
 "**Sputnik V** (Gam-COVID-Vac)",
@@ -493,15 +534,15 @@
 [
 "**Gemcovac-OM**",
 "**Gennova Biopharmaceuticals, Pune**",
-"India's first indigenous **mRNA** vaccine (EUA June 2023)"
+"**mRNA** – India's first indigenous mRNA vaccine (EUA June 2023)"
 ],
 [
-"**Corbevax**",
+"Corbevax",
 "Biological E, Hyderabad",
 "Protein subunit (RBD)"
 ],
 [
-"**Moderna**, **Pfizer-BioNTech**",
+"**Moderna**, Pfizer-BioNTech",
 "Moderna (with NIAID, BARDA); Pfizer-BioNTech",
 "**mRNA**"
 ],
@@ -520,26 +561,34 @@
 ],
 "r": [
 [
-"Intranasal vaccine work (2022)",
-"**Sapigen Biologix** (Krishna Ella group, Bhubaneswar plant) – Technology Development Board funding (Mar 2022)"
+"Free at government centres",
+"Covaxin, Covishield, Corbevax"
+],
+[
+"**Intranasal vaccine work, 2022**",
+"**Sapigen Biologix** (Krishna Ella group, Bhubaneswar plant) got Technology Development Board funding (Mar 2022)"
 ],
 [
 "**ROTAVAC**",
 "**Bharat Biotech**; live-attenuated **rotavirus (diarrhoea)** vaccine – India's first indigenous rotavirus vaccine"
 ],
 [
-"Free at government centres",
-"Covaxin, Covishield, Corbevax"
+"**How COVID vaccines work**",
+"Introduce a **harmless piece** of SARS-CoV-2 (or instructions to make it)"
+],
+[
+"**Convalescent plasma therapy**",
+"**Neutralising antibodies** from the blood of recovered COVID-19 patients used to treat patients (passive immunity)"
+],
+[
+"**Mulethi** (liquorice; glycyrrhizin)",
+"NBRC Manesar (2021) found therapeutic potential against COVID-19 in lab studies"
 ]
 ]
 },
 {
 "k": "h",
 "x": "Vaccine platforms"
-},
-{
-"k": "b",
-"x": "**How COVID vaccines work:** they introduce a **harmless piece** of SARS-CoV-2 (or instructions to make it), not live virus or ready-made antibodies."
 },
 {
 "k": "t",
@@ -571,33 +620,16 @@
 [
 "Toxoid",
 "Inactivated bacterial toxin"
-]
-]
-},
-{
-"k": "h",
-"x": "Treatments"
-},
-{
-"k": "t",
-"h": [
-"Fact",
-"Key detail"
-],
-"r": [
-[
-"**Convalescent plasma therapy**",
-"**Neutralising antibodies** from the blood of recovered COVID-19 patients treat patients (passive immunity)"
 ],
 [
-"**Mulethi** (liquorice; glycyrrhizin)",
-"NBRC Manesar (2021) found therapeutic potential against COVID-19 in lab studies"
+"**Subunit / conjugate**",
+"Hepatitis B (recombinant protein), HPV (virus-like particles), **Pneumococcal and Meningococcal** (conjugate polysaccharides) – no live components, often need boosters"
 ]
 ]
 },
 {
 "k": "x",
-"x": "**Covishield** = adenovirus vector; **Covaxin** = inactivated; **iNCOVACC** = Bharat Biotech, intranasal; **Sputnik V** = two vectors (Ad26, Ad5)."
+"x": "**Covishield** – adenovirus vector; **Covaxin** – inactivated; **Pfizer** – mRNA; **ZyCoV-D** – plasmid DNA; **iNCOVACC** – Bharat Biotech, intranasal."
 }
 ]
 }
