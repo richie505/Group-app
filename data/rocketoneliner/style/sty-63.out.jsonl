@@ -92,9 +92,109 @@
 {"id": "k1e713f829fb", "s": "Where is the Election Commission of India headquartered?", "o": ["Shastri Bhawan", "Sansad Bhavan", "Nirvachan Sadan, New Delhi", "Vigyan Bhawan"], "a": 2}
 {"id": "k5508ec32769", "s": "How many members does the Election Commission now have?", "o": ["One CEC only", "CEC + 1 EC", "CEC + 2 ECs", "CEC + 4 ECs"], "a": 2}
 {"id": "k9ff017b4af2", "s": "Who chairs the Election Commission of India?", "o": ["The CEC", "President", "Senior-most EC", "Law Minister"], "a": 0}
-{"id": "kcaccaf3b3b6", "s": "Whom does the President consult before appointing Regional Commissioners?", "o": ["Governors", "Prime Minister", "Chief Justice of India", "Election Commission"], "a": 3}
+{"id": "kcaccaf3b3b6", "s": "Which body does the President consult before appointing Regional Commissioners?", "o": ["Governors", "Prime Minister", "Chief Justice of India", "Election Commission"], "a": 3}
 {"id": "k3b2153e8bec", "s": "Which case upheld equal powers and majority decisions in the ECI?", "o": ["T.N. Seshan v. Union of India (1995)", "Mohinder Singh Gill (1978)", "Anoop Baranwal (2023)", "Indira Gandhi v. Raj Narain"], "a": 0}
 {"id": "kbb315a68c4f", "s": "During which period was the ECI a single-member body with only the CEC?", "o": ["1950 – 15 Oct 1989", "Jan 1990 onwards", "16 Oct 1989 – Jan 1990", "1 Oct 1993 onwards"], "a": 0}
 {"id": "k4bf980a6a76", "s": "When were the EC posts abolished, making the ECI single-member again?", "o": ["1 Oct 1993", "16 Oct 1989", "Jan 1990", "Feb 2026"], "a": 2}
 {"id": "k559b7734f38", "s": "In which year did the ECI first become multi-member?", "o": ["1989", "1993", "1990", "2001"], "a": 0}
 {"id": "k457bf48b355", "s": "Besides elections, what does Art. 324(1) give the ECI superintendence of?", "o": ["Delimitation", "Party funds", "Census", "Electoral rolls"], "a": 3}
+{"id": "k689a55f8751", "s": "What span of the election process does the ECI's superintendence cover?", "o": ["Nomination to polling only", "Announcement to declaration of results", "Results to oath-taking", "Polling to counting only"], "a": 1}
+{"id": "k8d004ed94ee", "s": "What is the status of staff preparing electoral rolls with respect to the ECI?", "o": ["Its permanent staff", "On deputation to it", "On contract", "Under the Governor"], "a": 1}
+{"id": "kcdbf18743fb", "s": "Which revision of electoral rolls is done under Art. 324 and Section 21 of the RPA 1950?", "o": ["Special Intensive Revision", "Summary Census Revision", "Annual Roll Audit", "Booth Level Survey"], "a": 0}
+{"id": "ka3394bcfb6e", "s": "What does the ECI notify when conducting an election?", "o": ["Delimitation laws", "Party manifestos", "Census data", "Dates and schedules"], "a": 3}
+{"id": "kdd681852551", "s": "Under which Order does the ECI recognise parties and allot symbols?", "o": ["Conduct of Election Rules, 1961", "Representation of the People Order, 1951", "Election Symbols (Reservation and Allotment) Order, 1968", "Delimitation Order, 1976"], "a": 2}
+{"id": "k569dbcd326a", "s": "On which Article does the Model Code of Conduct rest?", "o": ["Art. 329(a)", "Art. 71", "Art. 25(2)(a)", "Art. 324"], "a": 3}
+{"id": "k50108495dfe", "s": "To whom does the ECI give its opinion on disqualification of MLAs (Art. 192)?", "o": ["Speaker", "Governor", "Chief Minister", "High Court"], "a": 1}
+{"id": "kfed4ace8405", "s": "What does the ECI advise on when a State is under President's Rule?", "o": ["Whether elections can be held (for extension beyond one year)", "Whether to impose PR", "Who should be Governor", "Dissolution of Parliament"], "a": 0}
+{"id": "k79ccb0aa689", "s": "Under which Act are election petitions filed in the High Court?", "o": ["RPA 1950", "Delimitation Act 2002", "RPA 1951", "Election Commission Act 1991"], "a": 2}
+{"id": "k608ddd05943", "s": "Who decides anti-defection cases under the Tenth Schedule?", "o": ["ECI", "Speaker / Chairman", "President", "Supreme Court"], "a": 1}
+{"id": "kb5ec651346a", "s": "Who headed the J&K Delimitation Commission (2022)?", "o": ["Justice Kuldip Singh", "Justice A.K. Sikri", "Justice J.S. Verma", "Justice Ranjana Desai"], "a": 3}
+{"id": "kcedb829626b", "s": "Who carried out the Assam delimitation effective Aug 2023?", "o": ["A Delimitation Commission", "Parliament's committee", "The ECI itself", "Assam Assembly"], "a": 2}
+{"id": "k4d21bd188af", "drop": "repeat of k457bf48b355 (Art. 324(1) electoral rolls)"}
+{"id": "k09bb3956397", "drop": "repeat of k8d004ed94ee (roll staff on deputation)"}
+{"id": "k818877fddf9", "drop": "repeat of kcdbf18743fb (electoral rolls)"}
+{"id": "k691dc6b0904", "drop": "repeat of ka3394bcfb6e (dates and schedules)"}
+{"id": "ke60835868c6", "s": "On which matters does the ECI act like a court for political parties?", "o": ["Defections of MLAs", "Funding complaints", "Splits/mergers and symbol disputes", "Party elections"], "a": 2}
+{"id": "k63f9b622ec5", "drop": "repeat of k50108495dfe (Governor on MLAs, Art. 192)"}
+{"id": "k2e1a9781539", "s": "What does the ECI not do regarding President's Rule?", "o": ["Advise on elections", "Recommend President's Rule", "Hold polls after PR", "Prepare rolls"], "a": 1}
+{"id": "kbffbd98a042", "drop": "repeat of k608ddd05943 (anti-defection decided by Speaker/Chairman)"}
+{"id": "k054f1ebde41", "drop": "repeat of kb5ec651346a (Justice Ranjana Desai)"}
+{"id": "k06169be5665", "drop": "repeat of kcedb829626b (Assam delimitation by the ECI)"}
+{"id": "k51c0624caaf", "s": "Under which Article does the State Election Commission conduct Municipality elections?", "o": ["243ZA", "243K", "243U", "243Y"], "a": 0}
+{"id": "k744168c6bd9", "s": "Which officers of State Assemblies are chosen by the House, not through the ECI?", "o": ["Chief Minister", "Governor", "Speaker, Deputy Speaker", "Advocate-General"], "a": 2}
+{"id": "kdbd89ac3b12", "s": "Under which Article is the Deputy Chairman of the Rajya Sabha chosen by the House?", "o": ["182", "73", "93", "89(2)"], "a": 3}
+{"id": "k07a41e56595", "s": "Which of these elections is NOT conducted by the State Election Commission?", "o": ["Zilla Parishads", "Gram Panchayats", "Municipalities", "Co-operative societies"], "a": 3}
+{"id": "kf44f2167e9d", "s": "What is the constitutional source of the ECI?", "o": ["Art. 315, Part XIV", "Art. 243K, Part IX", "Art. 280, Part XII", "Art. 324, Part XV"], "a": 3}
+{"id": "kc614f179a80", "s": "What is the constitutional source of State Election Commissions?", "o": ["Art. 324", "Arts 243K, 243ZA (73rd/74th Amendments)", "Art. 280", "Art. 315"], "a": 1}
+{"id": "k983449bec5a", "s": "Under which provision is the Chief Electoral Officer of a State appointed?", "o": ["Art. 324(6)", "Art. 243K", "Sec. 13A, RPA 1950", "Sec. 20, RPA 1951"], "a": 2}
+{"id": "k8b4f021eebc", "s": "Who appoints the members of the ECI?", "o": ["Governor", "Prime Minister", "President", "Chief Justice"], "a": 2}
+{"id": "k71b16291bba", "s": "Who appoints the State Election Commissioner?", "o": ["President", "Governor", "ECI", "Chief Minister"], "a": 1}
+{"id": "k5a8632e51c0", "s": "Who appoints a State's Chief Electoral Officer?", "o": ["Governor", "ECI, in consultation with the State Government", "State Government", "President"], "a": 1}
+{"id": "k69b2c2698e5", "s": "How is the CEC removed?", "o": ["By the President at will", "Like an SC judge", "By the Law Minister", "By the Lok Sabha alone"], "a": 1}
+{"id": "k689b2438a75", "drop": "repeat of k7eeb6b12191 (State Election Commissioner removed like an HC judge)"}
+{"id": "k24d847c87bd", "s": "Who is AP's State Election Commissioner for local-body polls?", "o": ["Anil Chandra Punetha", "Nilam Sawhney", "N. Ramesh Kumar", "Mukesh Kumar Meena"], "a": 0}
+{"id": "k0d37c4323ed", "s": "Under which State List entry do Panchayats fall?", "o": ["Entry 14", "Entry 1", "Entry 5", "Entry 32"], "a": 2}
+{"id": "k7aa271daef1", "s": "In which Part are the Emergency provisions?", "o": ["Part XIVA", "Part III", "Part XVIII", "Part IV"], "a": 2}
+{"id": "k76d8d454346", "s": "When was the Election Commission of India founded?", "o": ["25 January 1950", "26 January 1950", "15 August 1947", "21 March 1950"], "a": 0}
+{"id": "kd316aa62ae4", "s": "When is National Voters' Day observed?", "o": ["24 January", "26 January", "25 January", "21 March"], "a": 2}
+{"id": "kfe22d8e75e7", "s": "In which year was the ECI's Golden Jubilee concluded?", "o": ["2000", "1999", "2010", "2001"], "a": 3}
+{"id": "k03ee6217601", "s": "In which year did the ECI celebrate its Diamond Jubilee?", "o": ["2010", "2025", "2008", "1945"], "a": 0}
+{"id": "kff0bc0fb7f1", "s": "In which year did the ECI complete 75 years?", "o": ["2010", "2027", "2008", "2025"], "a": 3}
+{"id": "k7b2fc66b8da", "s": "What is the ECI's voter-awareness programme called?", "o": ["cVIGIL", "Saksham-ECI", "IIIDEM", "SVEEP"], "a": 3}
+{"id": "kfee2fcb2c9f", "s": "What is the time within which cVIGIL gives the status of a complaint?", "o": ["45 minutes", "24 hours", "100 minutes", "7 days"], "a": 2}
+{"id": "k142592241a2", "s": "For whom is the Saksham-ECI app meant?", "o": ["Persons with disabilities", "Overseas voters", "First-time voters", "Senior citizens only"], "a": 0}
+{"id": "k2d74d3f8550", "s": "What is the Voter Helpline toll-free number?", "o": ["1950", "1947", "1800", "112"], "a": 0}
+{"id": "kce5e1003bb2", "s": "What did four long-distance trains carry for the 2019 Lok Sabha polls (ECI + Railways)?", "o": ["Ballot papers", "EVMs", "Polling staff", "Voter-awareness messages"], "a": 3}
+{"id": "k670728989dd", "s": "Who are eligible for home voting?", "o": ["Voters above 85 and PwDs with 40% benchmark disability", "All voters above 60", "Only service voters", "Only overseas voters"], "a": 0}
+{"id": "k197d688036f", "s": "When did the SC raise VVPAT verification to five EVMs per Assembly segment?", "o": ["8 April 2019", "26 April 2024", "12 May 2026", "1 Jan 2014"], "a": 0}
+{"id": "kced2578650b", "s": "Which case (26 April 2024) rejected 100% VVPAT counting?", "o": ["PUCL v. Union", "Subramanian Swamy v. ECI", "ADR v. ECI", "Anoop Baranwal v. Union"], "a": 2}
+{"id": "kf6d463568d7", "s": "What does Art. 329(a) say about laws on delimitation and allotment of seats?", "o": ["They need State consent", "They need the President's assent", "They cannot be questioned in court", "They lapse in 10 years"], "a": 2}
+{"id": "k9ac9db52d0e", "s": "Under which Act can an election to Parliament be challenged by an election petition (Art. 329(b))?", "o": ["RPA 1950", "Delimitation Act", "RPA 1951", "Tenth Schedule"], "a": 2}
+{"id": "k12e9645ef27", "s": "Under which Article do President and VP election disputes go to the Supreme Court?", "o": ["Art. 324", "Art. 329", "Art. 71", "Art. 131"], "a": 2}
+{"id": "ka53caceffac", "s": "Which situation does Section 57 of the RPA 1951 deal with?", "o": ["Booth capturing", "Death of a candidate", "EVM tampering", "Riot, open violence or natural calamity"], "a": 3}
+{"id": "k2f2d12e2c92", "s": "Who adjourns the poll under Section 57 in case of riot or calamity?", "o": ["District Collector", "ECI", "Presiding or Returning Officer", "Police"], "a": 2}
+{"id": "k84f6e56fe26", "s": "Which situation does Section 58 of the RPA 1951 deal with?", "o": ["Booth capturing", "Riot", "Death of a candidate", "EVM/ballot box unlawfully taken or tampered"], "a": 3}
+{"id": "kf7719ba3535", "s": "What does the ECI do under Section 58 when an EVM is tampered with?", "o": ["Refers it to the HC", "Counts remaining votes", "Cancels the election", "Declares the poll void and fixes a fresh poll"], "a": 3}
+{"id": "kcb2e75f0669", "s": "Which situation does Section 58A of the RPA 1951 deal with?", "o": ["Booth capturing", "Hung Assembly", "EVM tampering", "Riot"], "a": 0}
+{"id": "ka06fb4dcf21", "s": "What action follows booth capturing under Section 58A?", "o": ["Adjournment or countermand of the poll", "Disqualification of all candidates", "Re-delimitation", "President's Rule"], "a": 0}
+{"id": "ke6972301369", "s": "Who appoints the Chairman and members of the UPSC?", "o": ["Governor", "President", "Prime Minister", "Parliament"], "a": 1}
+{"id": "kbf9eba800ca", "s": "Who appoints the Chairman and members of an SPSC under Art. 316(1)?", "o": ["Governor", "President", "Chief Minister", "UPSC"], "a": 0}
+{"id": "ke522fff6e54", "s": "Who appoints the members of a Joint State PSC?", "o": ["UPSC", "Governors jointly", "President", "Parliament"], "a": 2}
+{"id": "ke6162af7e68", "s": "Who fixes the strength and service conditions of the UPSC?", "o": ["Parliament", "Cabinet", "UPSC Chairman", "President"], "a": 3}
+{"id": "k4b419128fbc", "s": "Who fixes the strength and service conditions of an SPSC?", "o": ["Governor", "President", "State Legislature", "Chief Minister"], "a": 0}
+{"id": "kb591f242591", "s": "Who fixes the strength and service conditions of a Joint State PSC?", "o": ["Governors", "Parliament", "President", "UPSC"], "a": 2}
+{"id": "k805349e9f8c", "s": "What is the term of a UPSC member?", "o": ["5 years or age 62", "6 years or age 65", "6 years or age 62", "5 years or age 65"], "a": 1}
+{"id": "k2effb76002c", "s": "What is the term of an SPSC member?", "o": ["6 years or age 62", "6 years or age 65", "5 years or age 60", "5 years or age 62"], "a": 0}
+{"id": "kecd81fb0683", "drop": "repeat of kcddea9a515b (JSPSC term 6 years or 62)"}
+{"id": "k4a48373ecf8", "s": "To whom does a UPSC member resign?", "o": ["Prime Minister", "Chief Justice", "President", "Parliament"], "a": 2}
+{"id": "kfefd5538389", "s": "To whom does an SPSC member resign?", "o": ["Governor", "President", "Chief Minister", "State Legislature"], "a": 0}
+{"id": "k70544fd239f", "s": "To whom does a Joint State PSC member resign?", "o": ["Governor", "Parliament", "President", "UPSC Chairman"], "a": 2}
+{"id": "k2b1bb0db76f", "drop": "repeat of k3bfe9f91c36 (removal of PSC members by the President)"}
+{"id": "k3bfe9f91c36", "s": "Who removes an SPSC member?", "o": ["Governor", "President", "Chief Minister", "High Court"], "a": 1}
+{"id": "keeaa19b6253", "drop": "repeat of k3bfe9f91c36 (removal by the President)"}
+{"id": "k323d0db38a5", "s": "Who suspends a UPSC member during a Supreme Court inquiry?", "o": ["UPSC Chairman", "Prime Minister", "CJI", "President"], "a": 3}
+{"id": "k3c99f269666", "s": "Who suspends an SPSC member during a Supreme Court inquiry?", "o": ["President", "Governor", "Chief Minister", "High Court"], "a": 1}
+{"id": "k044f5d63baf", "drop": "repeat of k323d0db38a5 (suspension by the President)"}
+{"id": "kb0b7f664059", "s": "To whom does the UPSC present its annual report?", "o": ["President", "Prime Minister", "Parliament", "Home Minister"], "a": 0}
+{"id": "ka266be612d6", "s": "To whom does an SPSC present its annual report?", "o": ["President", "Governor", "Chief Minister", "State Legislature"], "a": 1}
+{"id": "k0cede2ec67f", "s": "To whom does a Joint State PSC present its annual report?", "o": ["Each concerned Governor", "The President only", "Parliament", "UPSC"], "a": 0}
+{"id": "k269123e7438", "s": "How many years of government office must at least half the PSC members have held?", "o": ["3 years", "5 years", "15 years", "10 years"], "a": 3}
+{"id": "k25b233018b6", "s": "Under which Article (15th Amendment, 1963) is an Acting Chairman of a PSC appointed?", "o": ["319", "316(1A)", "322", "317"], "a": 1}
+{"id": "k0a7ca93e881", "s": "Under which Article does the President determine UPSC members' conditions of service?", "o": ["Art. 315", "Art. 316", "Art. 318", "Art. 320"], "a": 2}
+{"id": "k430cb6f4554", "s": "Which Amendment raised the SPSC members' age limit from 60 to 62?", "o": ["41st (1976)", "15th (1963)", "42nd (1976)", "44th (1978)"], "a": 0}
+{"id": "kef46718fbac", "s": "Which Regulations, as amended, allow MPPSC 'not more than seven' members?", "o": ["2001", "1976", "2007", "1973"], "a": 3}
+{"id": "k397306ab072", "s": "At what age do High Court judges retire?", "o": ["60", "58", "65", "62"], "a": 3}
+{"id": "ke4eccedc958", "s": "What is the UPSC called as an independent constitutional body?", "o": ["Central recruiting agency of India", "Watchdog of public purse", "Steel frame", "Guardian of the Constitution"], "a": 0}
+{"id": "ka23286c1e03", "s": "What is the UPSC's relationship with the SPSCs?", "o": ["It supervises them", "It has nothing to do with them", "It issues them binding guidelines", "It appoints their members"], "a": 1}
+{"id": "kd5c152dda82", "s": "Which of these is a constitutional body?", "o": ["NITI Aayog", "UPSC", "National Human Rights Commission", "Central Vigilance Commission"], "a": 1}
+{"id": "kcf312a60eb6", "s": "Which Articles of Part XIV deal with Public Service Commissions?", "o": ["Arts 315-323", "Arts 308-314", "Arts 324-329", "Arts 330-342"], "a": 0}
+{"id": "k508f4330280", "s": "Which Article is the constitutional source of UPSC functions?", "o": ["Art. 320", "Art. 318", "Art. 315", "Art. 323"], "a": 0}
+{"id": "k4ee8ad4ad45", "s": "Which activity during the term is a ground for removing a PSC member?", "o": ["Attending religious functions", "Membership of a professional society", "Voting in elections", "Paid employment outside official duties"], "a": 3}
+{"id": "kc183e68ac9c", "s": "In whose opinion must infirmity of mind or body be found to remove a PSC member?", "o": ["Prime Minister", "Chief Justice", "President", "UPSC Chairman"], "a": 2}
+{"id": "k55eb41eb182", "s": "What is the nature of the Supreme Court's advice on a PSC member's misbehaviour?", "o": ["Advisory only", "Subject to appeal", "Subject to Parliament", "Binding on the President"], "a": 3}
+{"id": "keb810144284", "s": "What counts as misbehaviour of a PSC member under Art. 317(4)?", "o": ["Being interested in a government contract", "Joining a union", "Writing a book", "Speaking to the press"], "a": 0}
+{"id": "kd1934e2bbbb", "s": "Who alone can remove an SPSC member after a Supreme Court enquiry?", "o": ["Governor", "State Legislature", "Chief Minister", "President"], "a": 3}
+{"id": "k5c49970d176", "s": "Who creates a Joint State PSC by law once States agree?", "o": ["President", "Parliament", "UPSC", "The States' Legislatures"], "a": 1}
+{"id": "kbc80127de62", "s": "What is the nature of a Joint State PSC?", "o": ["Constitutional", "Statutory, not constitutional", "Executive", "Judicial"], "a": 1}
+{"id": "k5ef9f1977c3", "s": "Which States once had a Joint State PSC?", "o": ["Bihar and Jharkhand", "AP and Telangana", "Assam and Meghalaya", "Punjab and Haryana"], "a": 3}
+{"id": "kcddea9a515b", "s": "What is the age limit for a Joint State PSC member?", "o": ["60", "62", "65", "58"], "a": 1}
