@@ -49,5 +49,13 @@ When the Rocket notes change, run the tool again and update `MCQS` in
 
 ## Numbers (21 Nov 2026 build)
 
-96,421 facts (unique table rows and bullets/boxes), giving 106,906 MCQs. 7,339 facts were skipped (6,424 table rows,
+96,421 facts (unique table rows and bullets/boxes), giving 106,656 MCQs. 7,339 facts were skipped (6,424 table rows,
 915 bullets/boxes), and 3,970 repeats were left out (the same question and answer on another page).
+
+## Final answer-key and fact check (2026-11-21)
+
+Every MCQ (106,906) was read once more, in 107 batches (data/rocketoneliner/review/rev-N.txt, brief
+docs/rocket-review-helper.md). 2,816 MCQs changed: 2,566 fixed (wrong key, a second right option replaced, a wrong or
+out-of-date fact corrected, an unclear question reworded) and 250 dropped (no single right answer could be made).
+The generator applies rev-N.out.jsonl by MCQ id; `python3 tools/rocket_oneliner.py checkrev N` checks a batch.
+Result: 106,656 MCQs.
