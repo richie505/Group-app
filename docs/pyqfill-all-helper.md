@@ -23,7 +23,8 @@ options, an explanation). For EVERY question decide one of:
   facts spread over other questions do not count – then it is an add. Search:
   `grep -l "<distinctive words>" app/src/group2/assets/mcq*.json`, or `python3 tools/gapfill.py find <word> ...`.
 - **skip** (with `why`) – Mental Ability, a question whose answer is out of date (a "present"/"current"/"latest" fact
-  that has changed since the exam – the app keeps only the latest facts), an answer you cannot be sure of, or text too
+  that has changed since the exam – the app keeps only the latest facts; also anything abolished or replaced since,
+  e.g. Planning Commission, Swachh Bharat / Krishi Kalyan cess, pre-GST taxes, old FDI caps), an answer you cannot be sure of, or text too
   broken to rebuild.
 - **add** – it fits a leaf, the app lacks it, and you are sure of the answer:
   - `leaf`: the leaf code it is asked under, exactly as in leaves.md (e.g. "P1.1.3/4", "M2A.1.2").
