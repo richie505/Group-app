@@ -10,11 +10,14 @@ import html, json, os, re, subprocess, sys, wave
 
 G, B, R, OUT = sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), sys.argv[4]
 VOICE = sys.argv[5] if len(sys.argv) > 5 else os.environ.get("PIPER_VOICE", "")
+TE_VOICE = os.environ.get("PIPER_TE_VOICE", "")  # Telugu voice: each beat is explained in English, then in Telugu
+SCRIPT = os.environ.get("LECTURE_SCRIPT", "")  # a narration file other than data/lecvideo/<group>/<book>-<row>.json
+TE_FONT = os.environ.get("TE_FONT", "")  # Telugu font file (woff2 / ttf), embedded in the project
 GAP = 0.45  # silence after each beat (s)
 A = f"app/src/{G}/assets"
 APP = {"group1": "APPSC Group 1 Prelims", "group2": "APPSC Group 2"}[G]
 
-script = json.load(open(f"data/lecvideo/{G}/{B}-{R}.json"))
+script = json.load(open(SCRIPT or f"data/lecvideo/{G}/{B}-{R}.json"))
 slides = json.load(open(f"data/lecrocket/{G}/{B}-{R}.json"))
 bk = json.load(open(f"{A}/book{B}.json"))
 row = [r for u in bk["units"] for r in u["rows"]][R]
@@ -28,21 +31,30 @@ def md(t):
 
 
 # ---- voice: one clip per line, then one narration track ----------------------------------------------------------
-lines = []  # (key, text)
+lines = []  # (key, text, lang); a beat's Telugu explanation follows its English line, keyed "<key>t"
+
+
+def add(key, item):
+    en, te = (item.get("en") or item.get("say"), item.get("te")) if isinstance(item, dict) else (item, None)
+    lines.append((key, en, "en"))
+    if te and TE_VOICE:
+        lines.append((key + "t", te, "te"))
+
+
 for i, t in enumerate(script["intro"]):
-    lines.append((f"i{i}", t))
+    add(f"i{i}", t)
 for j in sorted(script["parts"], key=int):
     for k, beat in enumerate(script["parts"][j]):
-        lines.append((f"p{j}-{k}", beat["say"]))
+        add(f"p{j}-{k}", beat)
 for i, t in enumerate(script["outro"]):
-    lines.append((f"o{i}", t))
+    add(f"o{i}", t)
 
 times, t0 = {}, 1.0
 rate = None
-for key, text in lines:
+for key, text, lang in lines:
     f = f"{OUT}/audio/{key}.wav"
     if not os.path.exists(f):
-        subprocess.run(["piper", "-m", VOICE, "-f", f, "--sentence-silence", "0.25"], input=text.encode(), check=True,
+        subprocess.run(["piper", "-m", TE_VOICE if lang == "te" else VOICE, "-f", f, "--sentence-silence", "0.25"], input=text.encode(), check=True,
                        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     with wave.open(f) as w:
         d = w.getnframes() / w.getframerate()
@@ -56,7 +68,7 @@ with wave.open(f"{OUT}/narration.wav", "wb") as out:
     out.setsampwidth(2)
     out.setframerate(rate)
     pos = 0
-    for key, _ in lines:
+    for key, _, _ in lines:
         st, d = times[key]
         n = int(st * rate)
         out.writeframes(b"\0\0" * (n - pos))
@@ -86,9 +98,13 @@ def block_html(pid, bi, b):
 
 
 # intro
+def last(k):  # the beat's last line: its Telugu explanation, if any
+    return k + "t" if k + "t" in times else k
+
+
 ik = [f"i{i}" for i in range(len(script["intro"]))]
 plan = "".join(f"<li><span class='n'>{n + 1}</span>{md(row['secs'][int(j)]['t'])}</li>" for n, j in enumerate(parts))
-screens.append(dict(start=0, end=times[ik[-1]][0] + times[ik[-1]][1] + GAP, cls="title",
+screens.append(dict(start=0, end=times[last(ik[-1])][0] + times[last(ik[-1])][1] + GAP, cls="title",
                     html=f"<div class='kicker'>{md(APP)} · {md(subject)}</div><h1>{md(row['title'])}</h1><ol class='plan'>{plan}</ol>",
                     beats=[(k, None) for k in ik]))
 for n, j in enumerate(parts):
@@ -111,13 +127,13 @@ for n, j in enumerate(parts):
         body = "".join(block_html(f"p{j}", bi, blocks[bi]) for bi in g)
         keys = [(f"p{j}-{k}", f"p{j}-{bt['b']}" + (f"-{bt['r']}" if bt["r"] is not None else "")) for k, bt in bs]
         st = times[keys[0][0]][0] - 0.3
-        en = times[keys[-1][0]][0] + times[keys[-1][0]][1] + GAP
+        en = times[last(keys[-1][0])][0] + times[last(keys[-1][0])][1] + GAP
         screens.append(dict(start=st, end=en, cls="content", part=f"Part {n + 1} of {NP}",
                             ptitle=row["secs"][int(j)]["t"], html=body, beats=keys))
 ok = [f"o{i}" for i in range(len(script["outro"]))]
 screens.append(dict(start=times[ok[0]][0] - 0.3, end=TOTAL, cls="title end",
                     html=f"<div class='kicker'>Recap · {md(row['title'].split(' – ')[0])}</div><ul class='recap'>"
-                         + "".join(f"<li>{html.escape(x)}</li>" for x in re.split(r"(?<=\.)\s+", script['outro'][0])[1:] or [script['outro'][0]])
+                         + "".join(f"<li>{html.escape(x)}</li>" for x in re.split(r"(?<=\.)\s+", lines[[k for k, *_ in lines].index("o0")][1])[1:] or [lines[[k for k, *_ in lines].index("o0")][1]])
                          + f"</ul><div class='cta'>Practise this topic's MCQs in {md(APP)}</div>", beats=[(k, None) for k in ok]))
 # close the gaps between screens: each lasts until the next starts
 for a, b in zip(screens, screens[1:]):
@@ -131,9 +147,9 @@ for si, s in enumerate(screens):
     clips.append(f"<section id='sc{si}' class='clip scr {s['cls']}' data-start='{st}' data-duration='{du}' data-track-index='1'>"
                  f"{bar}<div class='inner'><div class='flow'>{s['html']}</div></div></section>")
     tl.append({"sc": f"sc{si}", "st": st, "beats": [{"t": round(times[k][0], 3), "el": el} for k, el in s["beats"]]})
-for key, text in lines:
+for key, text, lang in lines:
     st, d = times[key]
-    caps.append(f"<div class='clip cap' data-start='{round(st, 3)}' data-duration='{round(d + GAP * 0.8, 3)}' data-track-index='2'>{html.escape(text)}</div>")
+    caps.append(f"<div class='clip cap{' te' if lang == 'te' else ''}' data-start='{round(st, 3)}' data-duration='{round(d + GAP * 0.8, 3)}' data-track-index='2'>{html.escape(text)}</div>")
 
 doc = f"""<!doctype html>
 <html lang="en" data-resolution="landscape">
@@ -175,7 +191,8 @@ doc = f"""<!doctype html>
   ul.recap li::before {{ content: ''; position: absolute; left: 6px; top: 18px; width: 16px; height: 16px; border-radius: 50%; background: var(--amber) }}
   .cap {{ position: absolute; left: 160px; right: 160px; bottom: 26px; min-height: 100px; display: flex; align-items: center; justify-content: center; text-align: center;
           font-size: 30px; line-height: 1.3; color: #fff; background: rgba(20,26,56,.88); border-radius: 18px; padding: 14px 30px; z-index: 5 }}
-  .title ~ .cap {{ }}
+  .cap.te {{ font-family: 'Noto Sans Telugu', 'Telugu', sans-serif; font-size: 32px; line-height: 1.5; background: rgba(120,60,0,.9) }}
+  @font-face {{ font-family: 'Noto Sans Telugu'; src: url('fonts/telugu.woff2'); }}
 </style>
 </head>
 <body>
@@ -213,5 +230,9 @@ doc = f"""<!doctype html>
 </body>
 </html>
 """
+if TE_FONT:
+    import shutil
+    os.makedirs(f"{OUT}/fonts", exist_ok=True)
+    shutil.copy(TE_FONT, f"{OUT}/fonts/telugu.woff2")
 open(f"{OUT}/index.html", "w").write(doc)
 print(f"{len(lines)} narration lines, {len(screens)} screens, {TOTAL:.0f} s")
