@@ -221,7 +221,7 @@ doc = f"""<!doctype html>
       if (!el) return;
       if (el.tagName === 'TABLE') return;  // a line about the whole table: its rows come one by one
       const els = [el];
-      els.forEach(e => tl.fromTo(e, {{ opacity: 0, y: 14 }}, {{ opacity: 1, y: 0, duration: 0.45, ease: 'power2.out' }}, b.t));
+      els.forEach(e => {{ if (!e.__shown) {{ e.__shown = 1; tl.fromTo(e, {{ opacity: 0, y: 14 }}, {{ opacity: 1, y: 0, duration: 0.45, ease: 'power2.out' }}, b.t); }} }});  // a row explained in two beats appears once
       if (prev) tl.set(prev, {{ backgroundColor: 'rgba(0,0,0,0)' }}, b.t);
       els.forEach(e => tl.set(e, {{ backgroundColor: '#fff3d6' }}, b.t));
       prev = els;
