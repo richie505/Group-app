@@ -31,7 +31,7 @@ For EVERY MCQ write one line in data/rocketoneliner/style/sty-N.out.jsonl, in th
 Rules:
 - `s`: ONE clear question a student understands without the notes: it names the subject (the person, dynasty,
   site, scheme, Article, year, report ...) and starts with Which / Who / What / When / Where / How / In which /
-  Under which / By whom / Whose / Name the ... and ends with "?". At most 150 characters. No blanks, no
+  Under which / By whom / Whose / Name the / For what / During which / Near which / To whom ... (the full list is QWORD in tools/rocket_oneliner.py) and ends with "?". At most 150 characters. No blanks, no
   "X – Heading?", no "Key detail?", no "Identify". Keep the topic's key point – the same fact the MCQ tested.
 - `o`: always give all 4 options: the right answer short (a name, place, year, number, term – not a whole sentence)
   and 3 wrong ones of the SAME kind (sites with sites, years with years, rulers with rulers), plausible, certainly

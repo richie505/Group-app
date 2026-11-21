@@ -1013,7 +1013,10 @@ def check_review(n):
 
 
 QWORD = re.compile(r"^(Which|Who|What|When|Where|Why|How|In which|In what|By whom|Under which|At which|To which|"
-                   r"From which|On which|Name the|Whose|For which|With which|Of which)\b", re.I)
+                   r"From which|On which|Name the|Whose|For which|With which|Of which|About how|To about when|For what|Besides|"
+                   r"During which|From where|Of what|Near which|Along which|Into which|Through which|Against whom|"
+                   r"Between which|Since when|Apart from|After which|Before which|Over which|Across which|Within which|"
+                   r"To whom|For whom|With whom|From whom|To what|In whose|At what|By which|Up to which)\b", re.I)
 
 
 def proper(s):
