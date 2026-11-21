@@ -92,10 +92,18 @@ android {
             applicationIdSuffix = ".reader"
             resValue("string", "app_name", "APPSC Reader")
         }
+        // Group 1 and Group 2 topics with one-line MCQs made from every fact of the Rocket-style lecture notes
+        // (tools/rocket_oneliner.py); installs beside the other apps
+        create("rocketoneliner") {
+            dimension = "edition"
+            applicationIdSuffix = ".rocketoneliner"
+            resValue("string", "app_name", "APPSC Rocket One-liners")
+        }
     }
     // its assets: APPSC Complete's, with its own MCQs, topic counts and edition (src/oneliner/assets) in their place
     sourceSets["oneliner"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/onelinerAssets")))
     sourceSets["reader"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/readerAssets")))
+    sourceSets["rocketoneliner"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/rocketonelinerAssets")))
     // APPSC Complete ships as APPSC Group 1 Prelims: its notes and MCQs cut to the Group 1 Prelims syllabus
     // (tools/group1_build.py writes src/group1/assets from src/complete/assets, which stays the master copy)
     sourceSets["complete"].assets.setSrcDirs(listOf("src/group1/assets"))
@@ -204,6 +212,20 @@ val readerAssets = tasks.register<Sync>("readerAssets") {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 tasks.matching { it.name.contains("Reader") }.configureEach { dependsOn(readerAssets) }
+
+// APPSC Rocket One-liners' assets: APPSC Group 2's (all the topics), with src/rocketoneliner/assets (its notes with
+// Group 1's pages, MCQs, counts, both exams, plan, edition) taking precedence; the files that hold Group 2's own MCQ
+// ids (links, solved papers, duplicates, merges) and its official-syllabus tree (leaf MCQs, real papers) are left out
+val rocketonelinerAssets = tasks.register<Sync>("rocketonelinerAssets") {
+    from("src/rocketoneliner/assets")
+    from("src/group2/assets") {
+        exclude("mcqlinks.json", "notelinks.json", "solved.json", "dups.json", "merged.json", "unmerged.json", "syllabus.json")
+        exclude { f -> file("src/rocketoneliner/assets/${f.relativePath.pathString}").exists() }
+    }
+    into(layout.buildDirectory.dir("generated/rocketonelinerAssets"))
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+tasks.matching { it.name.contains("Rocketoneliner") }.configureEach { dependsOn(rocketonelinerAssets) }
 
 // the Slides editions' assets: the app's own (src/group1 or src/group2), its edition (the slides' key), its lectures
 for ((name, src, key) in listOf(Triple("group1slides", "group1", "g1"), Triple("group2slides", "group2", "g2"))) {

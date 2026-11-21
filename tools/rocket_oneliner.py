@@ -27,7 +27,8 @@ STOP = set("""a an the of and or in on at to for by with from as is are was were
 those not no nor only all both none first last most least more less than into under over after before about between
 which who whom what when where why how their there they them his her he she has have had also any each per via vs
 other others such same new old one two three four five six seven eight nine ten india indian state states andhra
-pradesh key detail details fact facts""".split())
+pradesh key detail details fact facts wrote founded capital headquarters meaning deity identify term where year
+won""".split())
 MONTH = r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?"
 
 
@@ -72,9 +73,13 @@ def shares(a, b):
 
 def clean_term(t):
     t = plain(t).strip(" :–-—=→,;.")
-    t = re.sub(r"^[\"'“‘(]+|[\"'”’)]+$", "", t).strip()
-    if t.count("(") != t.count(")"):
-        t = t.replace("(", "").replace(")", "").strip()
+    t = re.sub(r"^[\"'“‘]+|[\"'”’]+$", "", t).strip()
+    while t.startswith("(") and t.endswith(")") and t.count("(") == 1:
+        t = t[1:-1].strip()
+    if t.count("(") != t.count(")"):  # a bracket the bold run cut in two
+        t = re.sub(r"\s*\($|^\)\s*", "", t).strip()
+        if t.count("(") != t.count(")"):
+            t = t.replace("(", "").replace(")", "").strip()
     return t
 
 
@@ -82,28 +87,47 @@ def kind(t):
     t = t.strip()
     if re.fullmatch(r"(?:c\.\s*|~)?\d{3,4}s?(?:\s*(?:CE|BCE|AD|BC|B\.C\.|A\.D\.))?", t):
         return "year"
-    if re.fullmatch(r"(?:c\.\s*)?\d{3,4}\s*[-–]\s*\d{2,4}(?:\s*(?:CE|BCE|AD|BC))?", t):
+    if re.fullmatch(r"(?:c\.\s*)?\d{3,4}\s*[-–/]\s*\d{2,4}(?:\s*(?:CE|BCE|AD|BC))?", t):
         return "yrange"
     if re.search(r"\b" + MONTH + r"(?:\s|$|,)", t) and re.search(r"\d", t) and len(t) <= 32:
         return "date"
-    if re.fullmatch(r"(?:Articles?|Art\.|Sections?|Sec\.|Schedules?|Parts?|Rules?|Clauses?)\s+[\dA-Z][\w()\-–, ]{0,20}", t):
+    if re.fullmatch(r"(?:Articles?|Art\.?|Sections?|Sec|Sec\.|Schedules?|Parts?|Rules?|Clauses?)\s+[\dA-Z][\w()\-–, ]{0,20}", t):
         return "law:" + t.split()[0].lower().rstrip("s.")[:3]
     if re.fullmatch(r"\d+(?:st|nd|rd|th)\s+(?:Amendment|Schedule|Finance Commission|Five[- ]Year Plan|Plan|Lok Sabha)\b.*", t) and len(t) < 40:
         return "ord:" + t.split()[1].lower()
-    if re.fullmatch(r"[~≈<>]?\s*(?:₹|\$|Rs\.?|US\$|€|£)?\s*[\d][\d.,]*\s*(?:[%°]|[A-Za-z/²³.\- ]{0,22})", t) and len(t) <= 34:
+    if re.fullmatch(r"[~≈<>]?\s*(?:₹|\$|Rs\.?|US\$|€|£)?\s*[\d][\d.,]*\s*[%°]?\s*[A-Za-z/²³.\- ]{0,22}", t) and len(t) <= 34:
         unit = re.sub(r"[\d.,~≈<>\s]+", " ", t).strip().lower()
         unit = re.sub(r"\s+", " ", unit)
         return "num:" + unit
+    if re.match(r"[~≈<>]?\s*(?:₹|\$|Rs\.?\s|US\$|€|£)?\s*\d", t) and len(re.findall(r"\d+", t)) >= 2 and len(t) <= 40 \
+            and len(re.sub(r"[^A-Za-z]", "", t)) <= len(t) * 0.5:
+        return "num:mixed"  # "₹5 lakh – ₹10 lakh", "11.24 crore, 9.29%"
     if re.fullmatch(r"[A-Z][A-Z0-9&\-/.]{1,11}(?:\s*\(\d{4}\))?", t):
         return "acr"
+    w = t.split()
+    shape = "1" if len(w) == 1 else "2" if len(w) <= 3 else "4"
     if t[:1].isupper() or t[:1].isdigit():
-        return "name"
-    return "text"
+        # people / places vs things (acts, schemes, bodies ...): never one for the other
+        if any(x.strip(",.()").lower() in THINGS for x in w):
+            return "thing:" + shape
+        return "name:" + shape
+    return "text:" + shape
+
+
+THINGS = set("""act acts bill scheme schemes yojana mission policy programme program project committee commission council
+board bank fund party movement treaty agreement accord pact deal summit conference convention declaration report index
+survey award prize day week year tax court tribunal authority agency corporation ministry department institute
+institution university college society association league union organisation organization company exercise
+operation satellite mission rocket vehicle system plan code rules rule order act, amendment war battle revolt revolution
+temple fort cave caves stupa inscription edict river lake dam reservoir port airport corridor park sanctuary reserve
+festival dance music painting style school sect dynasty empire kingdom script language law article section schedule
+centre center campaign initiative portal app platform network grid zone""".split())
 
 
 def family(k):
     return ("num" if k.startswith("num:") else "law" if k.startswith(("law:", "ord:")) else
-            "yr" if k in ("year", "yrange") else "nm" if k in ("name", "acr") else k)
+            "yr" if k in ("year", "yrange") else "nm" if k.startswith(("name", "acr")) else
+            "th" if k.startswith("thing") else "tx" if k.startswith("text") else k)
 
 
 def compatible(ka, kb, loose):
@@ -119,18 +143,40 @@ def similar_size(a, b, loose):
     return abs(wa - wb) <= max(2 if not loose else 4, wa)
 
 
+def close_value(a, c, ka, loose):
+    """years within a lifetime or so of each other, figures of about the same size (first passes only)"""
+    if loose:
+        return True
+    if ka in ("year", "yrange"):
+        ya, yc = re.search(r"\d{3,4}", a), re.search(r"\d{3,4}", c)
+        if ya and yc:
+            d = abs(int(ya.group()) - int(yc.group()))
+            return d <= (80 if int(ya.group()) > 1500 else 400)
+    if ka.startswith("num:"):
+        try:
+            va = float(re.search(r"\d[\d,]*\.?\d*", a).group().replace(",", ""))
+            vc = float(re.search(r"\d[\d,]*\.?\d*", c).group().replace(",", ""))
+            return va == 0 or vc == 0 or 0.1 <= vc / va <= 10
+        except (AttributeError, ValueError):
+            return True
+    return True
+
+
 def near(a, b):
     na, nb = norm(a), norm(b)
     if not na or not nb or na == nb:
         return True
     if (len(na) >= 3 and re.search(r"\b" + re.escape(na) + r"\b", nb)) or (len(nb) >= 3 and re.search(r"\b" + re.escape(nb) + r"\b", na)):
         return True
+    fa, fb = re.match(r"\W*(\d[\d.,]*)", plain(a)), re.match(r"\W*(\d[\d.,]*)", plain(b))
+    if fa and fb and fa.group(1).rstrip(".,") == fb.group(1).rstrip(".,"):
+        return True  # the same leading figure: "5.50%; CRR cut" / "5.50% (+25 bps)"
     da, db = re.findall(r"\d+", na), re.findall(r"\d+", nb)
     if da and da == db and len(" ".join(da)) >= len(na.replace(" ", "")) * 0.5:
         return True  # 1857 / 1857 CE, 2,880 km / 2880 km
     if len(na) <= 80 and len(nb) <= 80:
         m = difflib.SequenceMatcher(None, na, nb)
-        if m.real_quick_ratio() > 0.8 and m.ratio() > 0.8:
+        if m.real_quick_ratio() > 0.8 and max(m.ratio(), difflib.SequenceMatcher(None, nb, na).ratio()) > 0.8:
             return True
     return False
 
@@ -164,9 +210,24 @@ def clauses(t):
     return [c for c in out if c]
 
 
+def sentences(t):
+    """a bullet's sentences (". " outside brackets, not after an abbreviation or initial)"""
+    out, cur = [], ""
+    for c in clauses(t):
+        cur = (cur + " " + c).strip() if cur else c
+        if cur.endswith("."):
+            out.append(cur)
+            cur = ""
+    if cur:
+        out.append(cur)
+    return out
+
+
 # terms no one should be asked for (they are not facts)
 GENERIC = set("""yes no not only never all none both first last most least main major key important significant new old
-large small high low more less note example examples also and or the a an""".split())
+large small high low more less note example examples also and or the a an must may can cannot shall should will would
+need needs without with within same different higher lower increase decrease rise fall more fewer is are was were
+true false correct wrong""".split())
 
 
 def specificity(t):
@@ -186,6 +247,8 @@ def specificity(t):
     elif k == "name":
         s += 3 + (1 if len(c.split()) <= 4 else 0)
     else:
+        if len(c.split()) == 1 and len(c) < 5:
+            return None  # a short common word is no fact
         s += 1 if len(c.split()) <= 4 else 0
     if len(c.split()) > 6:
         s -= 2
@@ -194,6 +257,7 @@ def specificity(t):
 
 # ---------------------------------------------------------------- question wording
 
+NOANSWER = {"none", "nil", "na", "n a", "yes", "no", "not applicable", "same", "all", "both", "neither", "", "do", "ditto", "see above"}
 GENERIC_HEAD = {"key detail", "key details", "detail", "details", "fact", "facts", "feature", "features", "note", "notes",
                 "remarks", "remark", "key fact", "key facts", "description", "about", "what", "content", "point",
                 "particular", "particulars", "item", "items", "aspect", "highlights", "key point", "key points"}
@@ -279,23 +343,27 @@ class Pool:
         return xs
 
 
-def distractors(ans, q, pools, seed):
-    """3 options like the answer (same kind, about its size) from the nearest pools; [] if there are not 3 sound ones"""
+def distractors(ans, q, pools, seed, ignore=frozenset(), skip=frozenset()):
+    """3 options like the answer (same kind, about its size) from the nearest pools, none with a word of the question
+    (its column headings aside: ignore); [] if there are not 3 sound ones"""
     rnd = random.Random(seed)
     ka = kind(ans)
-    qw = cwords(q)
+    qw = cwords(q) - ignore
     qnums = set(re.findall(r"\d+", q))
+    if norm(ans) not in LABELS:
+        skip = skip | LABELS  # a row label ("Source", "Members") is no option
     picked = []
-    for loose in (False, True):
+    # same kind and size first (nearest pool first), then a kind of the same family, then a looser size
+    for loose, size_loose in ((False, False), (True, False), (False, True)):
         for p in pools:
             if p is None:
                 continue
             for c in p.cands(ka, loose, rnd):
                 if len(picked) == 3:
                     return picked
-                if not similar_size(ans, c, loose):
+                if not similar_size(ans, c, size_loose) or not close_value(ans, c, ka, size_loose):
                     continue
-                if near(c, ans) or any(near(c, x) for x in picked):
+                if norm(c) in skip or near(c, ans) or any(near(c, x) for x in picked):
                     continue
                 if shares(cwords(c), qw) or (set(re.findall(r"\d+", c)) & qnums):
                     continue
@@ -325,74 +393,94 @@ def giveaway(ans, q):
     return shares(cwords(ans), cwords(q))
 
 
-def blank_q(prefix, text, pools, seed, avoid=()):
-    """blank the most specific bold term of text (one clause of it); (question, answer, distractors) or None"""
+def window(pre, body, label=""):
+    """body cut to fit one line after pre, around its blank, starting at a clause where it can"""
+    room = MAXQ - len(pre)
+    if len(body) <= room:
+        return body
+    k = body.index("_____")
+    room2 = room - len(label) - 2
+    starts = [0] + [m.end() for m in re.finditer(r"(?:[;.]\s|,\s|\s[–-]\s)", body) if m.end() <= k]
+    s0 = next((x for x in starts if k - x <= room2 - 30), None)
+    mid = False
+    if s0 is None:  # no clause start near enough: a word start
+        s0 = max(0, k - (room2 - 40))
+        s0 = body.find(" ", s0) + 1 if s0 > 0 else 0
+        mid = s0 > 0
+    lead = (label if s0 > 0 and label else "") + ("…" if mid else "")
+    out = body[s0:]
+    room3 = room - len(lead) - 1
+    if len(out) > room3:
+        out = out[:room3].rsplit(" ", 1)[0].rstrip(",;:–- ") + "…"
+    return lead + out
+
+
+def blank_q(prefix, text, pools, seed, avoid=(), ignore=frozenset()):
+    """blank the most specific bold term of text; (question, answer, distractors) or None"""
     cls = clauses(text)
+    m = re.match(r"\s*\*\*([^*]{2,40})\*\*\s*[:–]", text)
+    label = (plain(m.group(1)).rstrip(":") + ": ") if m else ""
     cand = []
     for ci, c in enumerate(cls):
         for t in re.findall(r"\*\*(.+?)\*\*", c):
-            s = specificity(t)
-            if s is None:
+            sp = specificity(t)
+            if sp is None:
                 continue
             ct = clean_term(t)
-            if norm(ct) in avoid:
+            if norm(ct) in avoid or norm(ct) in LABELS:
                 continue
             # a label opening the bullet ("**Panjnad:** ...") is its subject: a blank of it last
-            label = c.lstrip().startswith(f"**{t}**") and re.match(r"\s*\*\*" + re.escape(t) + r"\*\*\s*[:–-]", c) is not None
-            cand.append((-(s - (2 if label else 0)), ci, ct, c, t))
+            is_label = ci == 0 and m is not None and plain(t).rstrip(":") == plain(m.group(1)).rstrip(":")
+            cand.append((-(sp - (2 if is_label else 0)), ci, ct, t))
     cand.sort(key=lambda x: (x[0], x[1]))
-    for _, ci, ct, c, t in cand[:4]:
-        p = plain(c)
+    full = plain(text)
+    for _, ci, ct, t in cand[:4]:
         pt = plain(t)
-        # the term once only in its clause, so the blank hides it
-        if len(re.findall(re.escape(pt), p, re.I)) != 1:
+        # the term once only, so the blank hides it
+        if not ct or len(re.findall(re.escape(ct), full, re.I)) != 1:
             continue
-        p = p.replace(pt, "_____", 1)
-        if ct != pt:  # trimmed punctuation of the bold run stays outside the blank
-            p = p.replace("_____", pt.replace(ct, "_____", 1), 1) if ct in pt else p
-        label = ""
-        m = re.match(r"\s*\*\*([^*]{2,40})\*\*\s*[:–]", cls[0])
-        if ci > 0 and m:
-            label = plain(m.group(1)).rstrip(":") + ": "
-        body = label + p
+        body = full.replace(ct, "_____", 1).rstrip(" ;,")
+        rest = body.replace("_____", " ")
+        if len(cwords(rest)) < 2 or len(rest.strip(" .;:,–-")) < 12:
+            continue  # nothing left to say what is asked
         pre = (prefix + ": ") if prefix else ""
-        room = MAXQ - len(pre)
-        if len(body) > room:
-            k = body.index("_____")
-            a0 = max(0, k - room // 2)
-            body = ("…" if a0 > 0 else "") + body[a0:a0 + room - 2].strip() + ("…" if a0 + room - 2 < len(body) else "")
-            if "_____" not in body:
-                continue
-        q = pre + body
-        if giveaway(ct, q.replace("_____", " ")):
+        q = pre + window(pre, body, label)
+        if "_____" not in q or giveaway(ct, q.replace("_____", " ")):
             continue
-        ds = distractors(ct, q, pools, seed + ct)
+        ds = distractors(ct, q, pools, seed + ct, ignore)
         if ds:
             return q, ct, ds
     return None
 
 
-def number_blank(prefix, text, pools, seed):
+def number_blank(prefix, text, pools, seed, ignore=frozenset()):
     """blank a figure / year of a cell that has no bold term"""
     p = plain(text)
     for c in clauses(p):
-        m = re.search(r"(?<![\w.])(?:₹\s*)?\d[\d.,]*(?:\s*(?:%|km|crore|lakh|million|billion|MW|GW|ha|m|sq km|CE|BCE|AD|BC))?(?![\w])", c)
+        m = re.search(r"(?<![\w.])(?:₹\s*)?\d[\d.,]*(?:\s*(?:%|lakh crore|km|crore|lakh|million|billion|MW|GW|ha|m|sq km|CE|BCE|AD|BC))?(?![\w])", c)
         if not m or len(m.group(0)) < 2:
             continue
         ans = m.group(0).strip()
-        body = c[: m.start()] + "_____" + c[m.end():]
+        body = (c[: m.start()] + "_____" + c[m.end():]).rstrip(" ;,")
+        if len(cwords(body.replace("_____", " "))) < 2:
+            continue
         pre = (prefix + ": ") if prefix else ""
-        q = pre + cut(body, MAXQ - len(pre))
+        q = pre + window(pre, body)
         if "_____" not in q or giveaway(ans, q.replace("_____", " ")):
             continue
-        ds = distractors(ans, q, pools, seed + ans)
+        ds = distractors(ans, q, pools, seed + ans, ignore)
         if ds:
             return q, ans, ds
     return None
 
 
+LABELS = set()  # row labels many tables use ("Origin", "Significance", "Members"): main() fills it
+
+
 def weak(a):
-    """a row label that needs the table's heading to mean anything ("Origin", "Status", "As a source")"""
+    """a row label that needs the table's heading to mean anything ("Origin", "Status", "As a source", "7")"""
+    if len(plain(a)) <= 3 or norm(a) in LABELS:
+        return True
     if "**" in a or re.search(r"\d", a):
         return False
     w = plain(a).split()
@@ -413,16 +501,25 @@ def page_mcqs(blocks, title, pools_of, stats):
             rows = b.get("r") or []
             if not hh:
                 hh = [""] * (len(rows[0]) if rows else 0)
+            # a first column of serial numbers (1, 2, ii ...) is no fact: the next one names the row
+            serial = len(hh) > 1 and rows and all(re.fullmatch(r"\(?[0-9ivxIVX]{1,4}[.)]?", plain(r[0]) or "-") for r in rows)
+            if serial:
+                hh = hh[1:]
+                rows = [r[1:] for r in rows]
+                b = {**b, "r": rows, "h": hh}
+                blocks = blocks[:bi] + [b] + blocks[bi + 1:]
             for ri, r in enumerate(rows):
                 stats["facts"] += 1
                 cells = [c or "" for c in r]
-                x = " – ".join(plain(c) for c in cells if plain(c))
+                x = " – ".join(plain(c) for c in cells if plain(c).strip(" –-—"))
                 made = row_mcqs(cells, hh, ri, bi, head, title, pools_of, x)
                 if made:
                     out += made
                 else:
                     stats["skipped"] += 1
                     stats["skipped table rows"] += 1
+                    if os.environ.get("SKIPLOG"):
+                        open(os.environ["SKIPLOG"], "a").write(json.dumps({"h": hh, "r": cells, "head": head}, ensure_ascii=False) + "\n")
             continue
         if k in ("b", "x"):
             t = b.get("x", "")
@@ -432,7 +529,7 @@ def page_mcqs(blocks, title, pools_of, stats):
             x = plain(t)
             seed = x
             made, used = [], set()
-            cl = clauses(t)
+            cl = sentences(t)
             # a bullet: its key term; a long one (sentences with their own key terms): up to 3
             groups = [t] if len(cl) <= 1 or len(plain(t)) <= 160 else cl
             for g in groups[:6]:
@@ -458,6 +555,8 @@ def page_mcqs(blocks, title, pools_of, stats):
             else:
                 stats["skipped"] += 1
                 stats["skipped bullets"] += 1
+                if os.environ.get("SKIPLOG"):
+                    open(os.environ["SKIPLOG"], "a").write(json.dumps({"b": t}, ensure_ascii=False) + "\n")
     return out
 
 
@@ -465,9 +564,10 @@ def row_mcqs(cells, hh, ri, bi, head, title, pools_of, x):
     a = cells[0]
     A = plain(a)
     ka = kind(clean_term(A)) if A else "text"
-    ctx = (head + ": " + A) if weak(a) and head and len(head) + len(A) < 90 else A
+    ctx = (cut(head, 60) + ": " + A) if weak(a) and head and norm(head) != norm(A) else A
     seed = x
     out = []
+    hw = frozenset().union(*(cwords(h) for h in hh)) if hh else frozenset()
 
     def col(ci):
         return pools_of("col", (bi, ci))
@@ -479,33 +579,37 @@ def row_mcqs(cells, hh, ri, bi, head, title, pools_of, x):
 
     def forward(ci):
         B = clean_term(cells[ci])
-        if not B or len(B) > 70 or not A:
+        if not B or len(B) > 70 or not A or norm(B) in NOANSWER:
             return None
-        q = forward_q(ctx, hh[0] if hh else "", hh[ci] if ci < len(hh) else "", kind(B))
+        if ctx != A:  # a label under its heading: the plain form, no "Capital of ..."
+            q = f"{ctx} – {hh[ci] if ci < len(hh) else 'detail'}?"
+        else:
+            q = forward_q(ctx, hh[0] if hh else "", hh[ci] if ci < len(hh) else "", kind(B))
         if len(q) > MAXQ or giveaway(B, q):
             return None
-        ds = distractors(B, q, wide(ci), seed + str(ci))
+        ds = distractors(B, q, wide(ci), seed + str(ci), hw)
         return mcq(q, B, ds, x) if ds else None
 
     def reverse(ci):
-        if not A or len(clean_term(A)) > 60:
+        if not A or len(clean_term(A)) > 60 or weak(a):
             return None
         ans = clean_term(A)
         q = reverse_q(plain(cells[ci]), hh[0] if hh else "")
         if giveaway(ans, q):
             return None
         ds = distractors(ans, q, [col(0), pools_of("pagecol", norm(hh[0]) if hh else ""), pools_of("topiccol", norm(hh[0]) if hh else ""),
-                                  pools_of("bookcol", norm(hh[0]) if hh else ""), pools_of("page", None), pools_of("topic", None)], seed + "r")
+                                  pools_of("bookcol", norm(hh[0]) if hh else ""), pools_of("page", None), pools_of("topic", None)], seed + "r",
+                         hw, LABELS)
         return mcq(q, ans, ds, x) if ds else None
 
     def blank(ci):
-        pre = cut(ctx, 60) if A else cut(head, 60)
+        pre = cut(ctx, 45) if A else cut(head, 45)
         if ci < len(hh) and hh[ci].lower() not in GENERIC_HEAD and len(hh[ci]) <= 25:
             pre += f" ({hh[ci].lower()})"
         r_ = blank_q(pre, cells[ci], [col(ci), pools_of("page", None), pools_of("topic", None), pools_of("book", None)], seed + str(ci),
-                     avoid={norm(A)})
+                     avoid={norm(A)}, ignore=hw)
         if not r_:
-            r_ = number_blank(pre, cells[ci], [col(ci), pools_of("page", None), pools_of("topic", None), pools_of("book", None)], seed + str(ci))
+            r_ = number_blank(pre, cells[ci], [col(ci), pools_of("page", None), pools_of("topic", None), pools_of("book", None)], seed + str(ci), hw)
         return mcq(*r_, x) if r_ else None
 
     n = len(cells)
@@ -629,6 +733,15 @@ def main(sample=0):
                     seen[p].add(h)
                     at[p].append(bl)
 
+    # row labels used by 4+ tables are labels, not names
+    lab = collections.Counter()
+    for bls in at.values():
+        for bl in bls:
+            for blk in bl:
+                if blk.get("k") == "t":
+                    lab.update({norm(r[0]) for r in blk.get("r") or [] if r and "**" not in r[0]})
+    LABELS.update(l for l, n in lab.items() if n >= 4 and l)
+
     # option pools: a table's column, a page, a topic, a book (and the same column heading on a page / topic / book)
     P = collections.defaultdict(Pool)
     for (b, j, k), bls in at.items():
@@ -737,6 +850,7 @@ def main(sample=0):
                     tmpl.update(ref=[b, j], topic=r["title"], codes=index["books"][b - 1]["rows"][j].get("codes", []))
                     d["rows"].insert(near_[0] + 1, tmpl)
                     stats["topics added to the plan"] += 1
+                    break
     W(f"{OUT}/plan.json", plan)
     subprocess.run([sys.executable, "tools/build_plan_mcq.py", OUT], check=True)
     pm = J(f"{OUT}/planmcq.json")
