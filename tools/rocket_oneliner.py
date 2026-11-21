@@ -172,8 +172,12 @@ def near(a, b):
     if fa and fb and fa.group(1).rstrip(".,") == fb.group(1).rstrip(".,"):
         return True  # the same leading figure: "5.50%; CRR cut" / "5.50% (+25 bps)"
     da, db = re.findall(r"\d+", na), re.findall(r"\d+", nb)
-    if da and da == db and len(" ".join(da)) >= len(na.replace(" ", "")) * 0.5:
-        return True  # 1857 / 1857 CE, 2,880 km / 2880 km
+    if da and db and min(len(set(da)), len(set(db))) >= 2 and (set(da) <= set(db) or set(db) <= set(da)):
+        return True  # the same date or figures in other words: "17 Oct 1940" / "Gandhi on 17 October 1940"
+    mon = lambda x: re.sub(r"\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\b", r"\1", x)
+    la, lb = re.sub(r"[\d\s]+", " ", mon(na)).split(), re.sub(r"[\d\s]+", " ", mon(nb)).split()
+    if da and da == db and (la == lb or not la or not lb or set(la) <= {"ce", "ad", "bc", "bce", "c"} or set(lb) <= {"ce", "ad", "bc", "bce", "c"}):
+        return True  # 1857 / 1857 CE, 2,880 km / 2880 km, Oct 1940 / October 1940
     if len(na) <= 80 and len(nb) <= 80:
         m = difflib.SequenceMatcher(None, na, nb)
         if m.real_quick_ratio() > 0.8 and max(m.ratio(), difflib.SequenceMatcher(None, nb, na).ratio()) > 0.8:
@@ -298,7 +302,8 @@ def reverse_q(b, h1):
     hl = h.lower()
     B = cut(b, 115)
     if hl in ("year", "date", "when", "period", "years", "dates"):
-        return f"In which {hl.rstrip('s')}: {B}?"
+        w = hl.rstrip("s")
+        return f"{'On which' if w == 'date' else 'When' if w == 'when' else 'In which'}{'' if w == 'when' else ' ' + w}: {B}?"
     if hl in ("term", "terms", "concept", "word"):
         return f"Term for: {B}?"
     if hl in ("person", "ruler", "leader", "king", "who", "personality", "name", "people", "founder", "scientist"):
