@@ -512,7 +512,8 @@ SKIPPED = []
 # {"id", "a": n} right answer is option n; {"id", "o": {"n": "text"}} replace option n; {"id", "s": "..."} new
 # wording; {"id", "drop": why} a wrong or out-of-date fact that cannot be fixed
 FIX = {}
-for _f in glob.glob("data/rocketoneliner/review/rev-*.out.jsonl"):
+# (the style rewrite, data/rocketoneliner/style/sty-N.out.jsonl, comes after the check and wins over it)
+for _f in sorted(glob.glob("data/rocketoneliner/review/rev-*.out.jsonl")) + sorted(glob.glob("data/rocketoneliner/style/sty-*.out.jsonl")):
     for _l in open(_f):
         if _l.strip():
             _o = json.loads(_l)
@@ -526,8 +527,11 @@ def fixed(q):
     if f.get("drop"):
         return None
     q = dict(q, o=list(q["o"]))
-    for n, t in (f.get("o") or {}).items():
-        q["o"][int(n)] = t
+    if isinstance(f.get("o"), list) and len(f["o"]) == 4:
+        q["o"] = list(f["o"])
+    else:
+        for n, t in (f.get("o") or {}).items():
+            q["o"][int(n)] = t
     if f.get("s"):
         q["s"] = f["s"]
     if f.get("a") in (0, 1, 2, 3):
@@ -1008,6 +1012,88 @@ def check_review(n):
         print("  " + b)
 
 
+QWORD = re.compile(r"^(Which|Who|What|When|Where|Why|How|In which|In what|By whom|Under which|At which|To which|"
+                   r"From which|On which|Name the|Whose|For which|With which|Of which)\b", re.I)
+
+
+def proper(s):
+    """a real one-line question, not a blank or a 'X – Heading?' label"""
+    return ("_____" not in s and s.rstrip().endswith("?") and bool(QWORD.match(s))
+            and not re.search(r" – [^–?]{1,40}\?$", s) and not s.startswith("Identify"))
+
+
+def export_style(per=500):
+    """every MCQ that is a blank or a label, with its fact, for rewriting as a real one-line question"""
+    D = "data/rocketoneliner/style"
+    os.makedirs(D, exist_ok=True)
+    for f in glob.glob(f"{D}/sty-*.txt"):
+        os.unlink(f)
+    idx = J(f"{OUT}/index.json")
+    L = []
+    for b in range(1, 7):
+        m = J(f"{OUT}/mcq{b}.json")
+        for j, qs in sorted(m["rows"].items(), key=lambda x: int(x[0])):
+            t = idx["books"][b - 1]["rows"][int(j)].get("title", "")
+            for q in qs:
+                if proper(q["s"]):
+                    continue
+                o = " | ".join(("*" if i == q["a"] else "") + f"{i}) {v}" for i, v in enumerate(q["o"]))
+                x = re.sub(r"\s+", " ", q.get("x", ""))[:400]
+                L.append(f"{q['id']} [{b}:{j} {t}]\n  Q: {q['s']}\n  O: {o}\n  F: {x}")
+    n = 0
+    for n, k in enumerate(range(0, len(L), per), 1):
+        open(f"{D}/sty-{n}.txt", "w").write("\n".join(L[k:k + per]) + "\n")
+    print(f"{len(L)} MCQs to rewrite -> {D}/sty-1..{n}")
+
+
+def check_style(n):
+    D = "data/rocketoneliner/style"
+    Q, cur = {}, None
+    for l in open(f"{D}/sty-{n}.txt"):
+        if l.startswith("  O: "):
+            ops = l[5:].rstrip("\n").split(" | ")
+            Q[cur] = [re.sub(r"^\*?\d\) ", "", o) for o in ops], next(i for i, o in enumerate(ops) if o.startswith("*"))
+        elif not l.startswith("  "):
+            cur = l.split(" ", 1)[0]
+    got, bad = {}, []
+    for k, l in enumerate(open(f"{D}/sty-{n}.out.jsonl")):
+        if not l.strip():
+            continue
+        try:
+            o = json.loads(l)
+        except Exception as e:
+            bad.append(f"line {k + 1}: not JSON ({e})"); continue
+        i = o.get("id")
+        if i not in Q:
+            bad.append(f"line {k + 1}: id {i!r} is not in sty-{n}.txt"); continue
+        got[i] = o
+        if o.get("drop"):
+            continue
+        s_ = o.get("s") or ""
+        opts, a = Q[i]
+        if isinstance(o.get("o"), list):
+            opts = o["o"]
+        if "a" in o:
+            a = o["a"]
+        if not proper(s_):
+            bad.append(f"{i}: s must be a real question (Which/Who/What/When/Where/How/In which ... ?), no blank, no 'X – Y?'")
+        if len(s_) > 150:
+            bad.append(f"{i}: s is {len(s_)} characters (at most 150)")
+        if len(opts) != 4 or a not in (0, 1, 2, 3) or any(not str(x).strip() for x in opts):
+            bad.append(f"{i}: needs 4 options and a 0-3"); continue
+        if len({norm(x) for x in opts}) < 4:
+            bad.append(f"{i}: two options are the same")
+        if len(norm(opts[a])) > 3 and re.search(r"\b" + re.escape(norm(opts[a])) + r"\b", norm(s_)):
+            bad.append(f"{i}: the answer is in the question")
+    miss = [i for i in Q if i not in got]
+    if miss:
+        bad.append(f"{len(miss)} MCQs have no line, e.g. {miss[:3]}")
+    d = sum(1 for o in got.values() if o.get("drop"))
+    print(f"sty {n}: {len(Q)} MCQs, rewritten {len(got) - d}, dropped {d}, problems: {len(bad)}")
+    for b in bad[:40]:
+        print("  " + b)
+
+
 def export_skipped(per=200):
     """the facts no MCQ was made of, as helper jobs data/rocketoneliner/extra/job-N.txt (one JSON fact a line)"""
     D = "data/rocketoneliner/extra"
@@ -1056,6 +1142,10 @@ if __name__ == "__main__":
         check_extra(a[1])
     elif a[:1] == ["checkrev"]:
         check_review(a[1])
+    elif a[:1] == ["style"]:
+        export_style()
+    elif a[:1] == ["checkstyle"]:
+        check_style(a[1])
     elif a[:1] == ["review"]:
         export_review()
     else:
