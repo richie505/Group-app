@@ -15,7 +15,8 @@ options, an explanation). For EVERY question decide one of:
   question could fairly be set from it under a leaf (the line's topic, background, causes, features, people, places,
   related facts). Beyond is e.g. world history not in the syllabus, another state's local history/geography (UP, Bihar,
   MP, Rajasthan ...), pure Group 1-only topics, deep technical trivia no line asks.
-- **exists** – the Group 2 app already has the same question (same fact). Search:
+- **exists** – the Group 2 app already has the same question (the same fact asked; distractors may differ). Related
+  facts spread over other questions do not count – then it is an add. Search:
   `grep -l "<distinctive words>" app/src/group2/assets/mcq*.json`, or `python3 tools/gapfill.py find <word> ...`.
 - **skip** (with `why`) – Mental Ability, a question whose answer is out of date (a "present"/"current"/"latest" fact
   that has changed since the exam – the app keeps only the latest facts), an answer you cannot be sure of, or text too
