@@ -139,21 +139,67 @@ def check(n):
         print("  " + b)
 
 
+R = "data/pyqfill/review"
+
+
+def adds():
+    """every add of every job (Group 2 books and the other exams), in job order"""
+    fs = sorted(glob.glob("data/pyqfill/job-*.out.jsonl")) + sorted(glob.glob("data/pyqfill/all/job-*.out.jsonl"),
+                                                                    key=lambda f: int(re.search(r"(\d+)\.out", f).group(1)))
+    return [o for f in fs for l in open(f) if l.strip() for o in [json.loads(l)] if o.get("d") == "add"]
+
+
+def review_export(per=100):
+    """the adds, grouped by syllabus leaf (so repeats sit together), with likely repeats marked, for a last review"""
+    A = adds()
+    A.sort(key=lambda o: (o.get("leaf") or "", o["mcq"]["s"]))
+    near = collections.defaultdict(list)
+    n = [norm(o["mcq"]["s"]) for o in A]
+    for i in range(len(A)):
+        for j in range(i + 1, len(A)):
+            if difflib.SequenceMatcher(None, n[i], n[j]).ratio() > 0.6:
+                near[i].append(A[j]["id"]); near[j].append(A[i]["id"])
+    os.makedirs(R, exist_ok=True)
+    for f in glob.glob(f"{R}/rev-*.txt"):
+        os.unlink(f)
+    for k in range(0, len(A), per):
+        txt = []
+        for i in range(k, min(k + per, len(A))):
+            o, q = A[i], A[i]["mcq"]
+            opts = "\n".join(f"  ({'*' if j == q['a'] else ' '}{j}) {v}" for j, v in enumerate(q["o"]))
+            sim = f"\nlooks like: {', '.join(near[i])}" if near[i] else ""
+            txt.append(f"## {o['id']} | leaf {o.get('leaf', '-')} | page {o['page']} | {q['src']}\n{q['s']}\n{opts}\nx: {q['x']}{sim}")
+        open(f"{R}/rev-{k // per + 1}.txt", "w").write("\n\n".join(txt) + "\n")
+    print(f"{len(A)} adds -> {R}/rev-1..{(len(A) - 1) // per + 1}")
+
+
+def review():
+    """{id: verdict} of the last review (keep / drop / fix)"""
+    out = {}
+    for f in glob.glob(f"{R}/rev-*.out.jsonl"):
+        for l in open(f):
+            if l.strip():
+                o = json.loads(l)
+                out[o["id"]] = o
+    return out
+
+
 def apply():
-    outs = [json.loads(l) for f in sorted(glob.glob("data/pyqfill/**/job-*.out.jsonl", recursive=True)) for l in open(f) if l.strip()]
+    outs, rv = adds(), review()
     mcqs = {b: J(f"{C}/mcq{b}.json") for b in range(1, 7)}
     bank = Bank(C)
     n = dup = 0
     seen = set()  # two jobs can rebuild the same question
     for o in outs:
-        if o.get("d") != "add":
+        v = rv.get(o["id"], {})
+        if v.get("v") == "drop":
             continue
-        q = o["mcq"]
+        q = dict(o["mcq"], **(v.get("fix") or {}))
         if bank.has(q["s"]) or norm(q["s"])[:80] in seen:  # by the question (two can share four options)
             dup += 1
             continue
         seen.add(norm(q["s"])[:80])
-        b, i, j = map(int, o["page"].split(":"))
+        b, i, j = map(int, (v.get("page") or o["page"]).split(":"))
         qid = "pq" + hashlib.md5((q["s"] + "|".join(q["o"])).encode()).hexdigest()[:10]
         L = mcqs[b]["rows"].setdefault(str(i), [])
         S = mcqs[b]["subs"].setdefault(str(i), [])
@@ -170,4 +216,5 @@ if __name__ == "__main__":
     a = sys.argv[1:]
     if a[1:2] == ["all"]:  # the other exams' jobs: data/pyqfill/all/
         D, PER, a = f"{D}/all", 50, a[:1] + a[2:]
-    {"export": lambda: export(D.endswith("/all")), "check": lambda: check(a[1]), "apply": apply}[a[0]]()
+    {"export": lambda: export(D.endswith("/all")), "check": lambda: check(a[1]), "apply": apply,
+     "review": review_export}[a[0]]()
