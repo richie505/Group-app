@@ -43,5 +43,7 @@ Rules:
 - Several MCQs from one table row may ask the same thing: make each ask a DIFFERENT point of the row, or drop the
   repeat ("drop": "repeat of <id>").
 
+If a script reorders your options, check afterwards that "a" still points at the right answer (`python3 tools/style_keycheck.py N` lists suspects).
+
 Then run `python3 tools/rocket_oneliner.py checkstyle N` and fix what it reports until "problems: 0". Finish with one
 line per batch: MCQs, rewritten, dropped.
