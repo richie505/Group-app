@@ -19,6 +19,10 @@ options, an explanation). For EVERY question decide one of:
   names, instruments) is beyond, unless the question is really about a line's topic – disease burden and health issues
   (M2B.5), biodiversity and its conservation (M2B.3), energy (M2B.2), pollution and waste (M2B.4), a technology,
   mission or policy (M2B.1).
+  Old current affairs (events before 2024): add only a LASTING fact a Group 2 question could still ask (an
+  institution founded, a treaty or agreement, a mission or launch, a first, a policy or scheme still running, a
+  record that still stands). One-off events, awards and award lists, obituaries, appointments, rankings, day themes,
+  summit venues, sports results and foreign politics of that time are beyond.
 - **exists** – the Group 2 app already has the same question (the same fact asked; distractors may differ). Related
   facts spread over other questions do not count – then it is an add. Search:
   `grep -l "<distinctive words>" app/src/group2/assets/mcq*.json`, or `python3 tools/gapfill.py find <word> ...`.
