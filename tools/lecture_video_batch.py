@@ -55,7 +55,11 @@ def one(b, i):
     if r.returncode or not os.path.exists(f"{w}/video.mp4"):
         return out, "FAILED: " + (r.stderr or r.stdout)[-300:], time.time() - t0
     os.makedirs(os.path.dirname(out), exist_ok=True)
-    shutil.move(f"{w}/video.mp4", out)
+    # 720p for delivery: slides and Telugu captions stay sharp at about 1/3 of the size
+    r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", f"{w}/video.mp4", "-vf", "scale=1280:720", "-c:v", "libx264",
+                        "-crf", "27", "-preset", "medium", "-tune", "stillimage", "-c:a", "aac", "-b:a", "64k", out])
+    if r.returncode:
+        shutil.move(f"{w}/video.mp4", out)
     shutil.rmtree(w, ignore_errors=True)
     return out, "ok", time.time() - t0
 
