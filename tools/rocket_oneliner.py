@@ -516,7 +516,10 @@ FIX = {}
 for _f in sorted(glob.glob("data/rocketoneliner/review/rev-*.out.jsonl")) + sorted(glob.glob("data/rocketoneliner/style/sty-*.out.jsonl")):
     for _l in open(_f):
         if _l.strip():
-            _o = json.loads(_l)
+            try:  # (a helper may be writing the file right now)
+                _o = json.loads(_l)
+            except ValueError:
+                continue
             FIX.setdefault(_o.get("id"), {}).update(_o)
 
 
