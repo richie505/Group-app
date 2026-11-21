@@ -508,6 +508,34 @@ for _f in glob.glob("data/rocketoneliner/extra/job-*.out.jsonl"):
                 EXTRA.setdefault(_o["k"], []).append(_o)
 SKIPPED = []
 
+# the final answer-key / fact check (data/rocketoneliner/review/rev-N.out.jsonl, only the MCQs that need a change):
+# {"id", "a": n} right answer is option n; {"id", "o": {"n": "text"}} replace option n; {"id", "s": "..."} new
+# wording; {"id", "drop": why} a wrong or out-of-date fact that cannot be fixed
+FIX = {}
+for _f in glob.glob("data/rocketoneliner/review/rev-*.out.jsonl"):
+    for _l in open(_f):
+        if _l.strip():
+            _o = json.loads(_l)
+            FIX.setdefault(_o.get("id"), {}).update(_o)
+
+
+def fixed(q):
+    f = FIX.get(q["id"])
+    if not f:
+        return q
+    if f.get("drop"):
+        return None
+    q = dict(q, o=list(q["o"]))
+    for n, t in (f.get("o") or {}).items():
+        q["o"][int(n)] = t
+    if f.get("s"):
+        q["s"] = f["s"]
+    if f.get("a") in (0, 1, 2, 3):
+        q["a"] = f["a"]
+    if f.get("x"):
+        q["x"] = f["x"]
+    return q
+
 
 def extra_mcqs(f, x):
     out = []
@@ -836,6 +864,15 @@ def main(sample=0):
                 if q["id"] in ids:
                     stats["repeats left out"] += 1
                     continue
+                if FIX.get(q["id"]):
+                    stats["checked: fixed" if not FIX[q["id"]].get("drop") else "checked: dropped"] += 1
+                q0, q = q, fixed(q)
+                if q is None:
+                    ids.add(q0["id"])
+                    continue
+                if False:
+                    stats["repeats left out"] += 1
+                    continue
                 ids.add(q["id"])
                 rows[b][j].append((k, q))
 
@@ -913,6 +950,64 @@ def main(sample=0):
             print("  x: " + q["x"][:200])
 
 
+def export_review(per=1000):
+    """every MCQ of the app, one line each, for the final answer-key and fact check"""
+    D = "data/rocketoneliner/review"
+    os.makedirs(D, exist_ok=True)
+    for f in glob.glob(f"{D}/rev-*.txt"):
+        os.unlink(f)
+    idx = J(f"{OUT}/index.json")
+    L = []
+    for b in range(1, 7):
+        m = J(f"{OUT}/mcq{b}.json")
+        for j, qs in sorted(m["rows"].items(), key=lambda x: int(x[0])):
+            t = idx["books"][b - 1]["rows"][int(j)]["title"] if "title" in idx["books"][b - 1]["rows"][int(j)] else ""
+            for q in qs:
+                o = " | ".join(("*" if i == q["a"] else "") + f"{i}) {v}" for i, v in enumerate(q["o"]))
+                L.append(f"{q['id']} [{b}:{j} {t}] {q['s']} || {o}")
+    n = 0
+    for n, k in enumerate(range(0, len(L), per), 1):
+        open(f"{D}/rev-{n}.txt", "w").write("\n".join(L[k:k + per]) + "\n")
+    print(f"{len(L)} MCQs -> {D}/rev-1..{n}")
+
+
+def check_review(n):
+    D = "data/rocketoneliner/review"
+    Q = {}
+    for l in open(f"{D}/rev-{n}.txt"):
+        if l.strip():
+            i = l.split(" ", 1)[0]
+            opts = l.split(" || ", 1)[1].rstrip("\n").split(" | ")
+            Q[i] = [re.sub(r"^\*?\d\) ", "", o) for o in opts]
+    bad, c = [], collections.Counter()
+    for k, l in enumerate(open(f"{D}/rev-{n}.out.jsonl")):
+        if not l.strip():
+            continue
+        try:
+            o = json.loads(l)
+        except Exception as e:
+            bad.append(f"line {k + 1}: not JSON ({e})"); continue
+        if o.get("id") not in Q:
+            bad.append(f"line {k + 1}: id {o.get('id')!r} is not in rev-{n}.txt"); continue
+        if not (o.get("drop") or "a" in o or o.get("o") or o.get("s")):
+            bad.append(f"line {k + 1}: give a, o, s or drop")
+        if "a" in o and o["a"] not in (0, 1, 2, 3):
+            bad.append(f"line {k + 1}: a must be 0-3")
+        opts = list(Q[o["id"]])
+        for m, t in (o.get("o") or {}).items():
+            if m not in ("0", "1", "2", "3") or not str(t).strip():
+                bad.append(f"line {k + 1}: o keys are \"0\"-\"3\" with text"); break
+            opts[int(m)] = t
+        if len({norm(x) for x in opts}) < 4:
+            bad.append(f"line {k + 1}: two options would be the same")
+        if not o.get("why"):
+            bad.append(f"line {k + 1}: give why")
+        c["drop" if o.get("drop") else "fix"] += 1
+    print(f"rev {n}: {len(Q)} MCQs, fixes {c['fix']}, drops {c['drop']}, problems: {len(bad)}")
+    for b in bad[:40]:
+        print("  " + b)
+
+
 def export_skipped(per=200):
     """the facts no MCQ was made of, as helper jobs data/rocketoneliner/extra/job-N.txt (one JSON fact a line)"""
     D = "data/rocketoneliner/extra"
@@ -959,6 +1054,10 @@ if __name__ == "__main__":
     a = sys.argv[1:]
     if a[:1] == ["check"]:
         check_extra(a[1])
+    elif a[:1] == ["checkrev"]:
+        check_review(a[1])
+    elif a[:1] == ["review"]:
+        export_review()
     else:
         main(int(a[1]) if a[:1] == ["sample"] else 0)
         if a[:1] == ["skipped"]:
