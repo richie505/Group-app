@@ -49,5 +49,5 @@ When the Rocket notes change, run the tool again and update `MCQS` in
 
 ## Numbers (21 Nov 2026 build)
 
-96,421 facts (unique table rows and bullets/boxes), giving 99,867 MCQs. 7,339 facts were skipped (6,424 table rows,
+96,421 facts (unique table rows and bullets/boxes), giving 106,906 MCQs. 7,339 facts were skipped (6,424 table rows,
 915 bullets/boxes), and 3,970 repeats were left out (the same question and answer on another page).

@@ -20,7 +20,7 @@ class RocketOnelinerTest {
     private val repo by lazy { Repository { ApplicationProvider.getApplicationContext<android.content.Context>().assets.open(it) } }
 
     companion object {
-        const val MCQS = 99_867 // tools/rocket_oneliner.py's total
+        const val MCQS = 106_906 // tools/rocket_oneliner.py's total
     }
 
     @Test fun edition() {
