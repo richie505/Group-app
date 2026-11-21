@@ -149,7 +149,7 @@ def apply():
         if o.get("d") != "add":
             continue
         q = o["mcq"]
-        if bank.has(q["s"], q["o"]) or norm(q["s"])[:80] in seen:
+        if bank.has(q["s"]) or norm(q["s"])[:80] in seen:  # by the question (two can share four options)
             dup += 1
             continue
         seen.add(norm(q["s"])[:80])
