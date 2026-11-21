@@ -34,8 +34,14 @@ def md(t):
 lines = []  # (key, text, lang); a beat's Telugu explanation follows its English line, keyed "<key>t"
 
 
+ONLY_TE = os.environ.get("NARRATION") == "te"  # Telugu narration only, over the English slides
+
+
 def add(key, item):
     en, te = (item.get("en") or item.get("say"), item.get("te")) if isinstance(item, dict) else (item, None)
+    if ONLY_TE:
+        lines.append((key, te or en, "te" if te else "en"))
+        return
     lines.append((key, en, "en"))
     if te and TE_VOICE:
         lines.append((key + "t", te, "te"))
@@ -54,7 +60,7 @@ rate = None
 for key, text, lang in lines:
     f = f"{OUT}/audio/{key}.wav"
     if not os.path.exists(f):
-        subprocess.run(["piper", "-m", TE_VOICE if lang == "te" else VOICE, "-f", f, "--sentence-silence", "0.25"], input=text.encode(), check=True,
+        subprocess.run(["piper", "-m", (TE_VOICE or VOICE) if lang == "te" else VOICE, "-f", f, "--sentence-silence", "0.25"], input=text.encode(), check=True,
                        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     with wave.open(f) as w:
         d = w.getnframes() / w.getframerate()
@@ -133,7 +139,7 @@ for n, j in enumerate(parts):
 ok = [f"o{i}" for i in range(len(script["outro"]))]
 screens.append(dict(start=times[ok[0]][0] - 0.3, end=TOTAL, cls="title end",
                     html=f"<div class='kicker'>Recap · {md(row['title'].split(' – ')[0])}</div><ul class='recap'>"
-                         + "".join(f"<li>{html.escape(x)}</li>" for x in re.split(r"(?<=\.)\s+", lines[[k for k, *_ in lines].index("o0")][1])[1:] or [lines[[k for k, *_ in lines].index("o0")][1]])
+                         + "".join(f"<li>{md(x)}</li>" for x in (script.get("recap") or re.split(r"(?<=\.)\s+", lines[[k for k, *_ in lines].index("o0")][1])[1:] or [lines[[k for k, *_ in lines].index("o0")][1]]))
                          + f"</ul><div class='cta'>Practise this topic's MCQs in {md(APP)}</div>", beats=[(k, None) for k in ok]))
 # close the gaps between screens: each lasts until the next starts
 for a, b in zip(screens, screens[1:]):
