@@ -36,9 +36,17 @@ def target(b, i):
     return f"out/videos/{G}/{b:02d} {safe(book.get('short') or book['title'])}/{n:03d} {safe(book['rows'][i]['title'])}.mp4"
 
 
+PUSHED = set(subprocess.run(["git", "ls-files", "out/videos"], capture_output=True, text=True).stdout.splitlines())
+
+
+def done(out):
+    """made already: here, or pushed to GitHub by tools/lecvideo_push.sh (which frees the local copy)"""
+    return os.path.exists(out) or out in PUSHED
+
+
 def one(b, i):
     out = target(b, i)
-    if os.path.exists(out):
+    if done(out):
         return out, "exists", 0
     w = f"{SP}/vid-work/{G}-{b}-{i}"
     shutil.rmtree(w, ignore_errors=True)
@@ -57,15 +65,14 @@ def one(b, i):
     os.makedirs(os.path.dirname(out), exist_ok=True)
     # 720p for delivery: slides and Telugu captions stay sharp at about 1/3 of the size
     r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", f"{w}/video.mp4", "-vf", "scale=1280:720", "-c:v", "libx264",
-                        "-crf", "27", "-preset", "medium", "-tune", "stillimage", "-c:a", "aac", "-b:a", "64k", out])
-    if r.returncode:
-        shutil.move(f"{w}/video.mp4", out)
+                        "-crf", "27", "-preset", "medium", "-tune", "stillimage", "-c:a", "aac", "-b:a", "64k", f"{w}/small.mp4"])
+    shutil.move(f"{w}/video.mp4" if r.returncode else f"{w}/small.mp4", out)
     shutil.rmtree(w, ignore_errors=True)
     return out, "ok", time.time() - t0
 
 
 todo = [(b, i) for b, i, _ in LJ.topics(G) if (BOOK is None or b == BOOK) and not LJ.check_topic(G, b, i)
-        and not os.path.exists(target(b, i))][:MAX]
+        and not done(target(b, i))][:MAX]
 print(f"{len(todo)} videos to make", flush=True)
 with cf.ThreadPoolExecutor(JOBS) as ex:
     for out, st, sec in ex.map(lambda t: one(*t), todo):
