@@ -14,7 +14,11 @@ options, an explanation). For EVERY question decide one of:
 - **beyond** – no Group 2 line covers it. Judge fairly, not narrowly: it FITS when a Group 2 Screening or Mains
   question could fairly be set from it under a leaf (the line's topic, background, causes, features, people, places,
   related facts). Beyond is e.g. world history not in the syllabus, another state's local history/geography (UP, Bihar,
-  MP, Rajasthan ...), pure Group 1-only topics, deep technical trivia no line asks.
+  MP, Rajasthan ...), pure Group 1-only topics, deep technical trivia no line asks. The 2023 syllabus has NO general
+  science line: plain biology / chemistry / physics (anatomy, vitamins, classification of plants and animals, chemical
+  names, instruments) is beyond, unless the question is really about a line's topic – disease burden and health issues
+  (M2B.5), biodiversity and its conservation (M2B.3), energy (M2B.2), pollution and waste (M2B.4), a technology,
+  mission or policy (M2B.1).
 - **exists** – the Group 2 app already has the same question (the same fact asked; distractors may differ). Related
   facts spread over other questions do not count – then it is an add. Search:
   `grep -l "<distinctive words>" app/src/group2/assets/mcq*.json`, or `python3 tools/gapfill.py find <word> ...`.

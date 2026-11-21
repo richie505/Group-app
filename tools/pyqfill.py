@@ -144,13 +144,15 @@ def apply():
     mcqs = {b: J(f"{C}/mcq{b}.json") for b in range(1, 7)}
     bank = Bank(C)
     n = dup = 0
+    seen = set()  # two jobs can rebuild the same question
     for o in outs:
         if o.get("d") != "add":
             continue
         q = o["mcq"]
-        if bank.has(q["s"], q["o"]):
+        if bank.has(q["s"], q["o"]) or norm(q["s"])[:80] in seen:
             dup += 1
             continue
+        seen.add(norm(q["s"])[:80])
         b, i, j = map(int, o["page"].split(":"))
         qid = "pq" + hashlib.md5((q["s"] + "|".join(q["o"])).encode()).hexdigest()[:10]
         L = mcqs[b]["rows"].setdefault(str(i), [])
