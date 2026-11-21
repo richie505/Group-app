@@ -4,6 +4,8 @@ the Shreshta APPSC Group-2 PYQ book, Group II-B 1991, Group 2 2011 AP History ..
 
     python3 tools/pyqfill.py export     -> data/pyqfill/job-N.txt (the candidates no app MCQ matches, by text or options)
     python3 tools/pyqfill.py check N    -> checks data/pyqfill/job-N.out.jsonl
+    python3 tools/pyqfill.py export all / check all N -> the same for every other exam in the bank (UPSC, APPSC's other
+                                         exams, Group 1, state PSCs): data/pyqfill/all/, only what a Group 2 line covers
     python3 tools/pyqfill.py apply      -> adds the rebuilt questions to APPSC Complete's MCQs (the master of Group 2)
 Then rebuild Group 2: python3 tools/group2_build.py 2026-11-16 && python3 tools/build_plan_mcq.py app/src/group2/assets
 """
@@ -60,10 +62,24 @@ class Bank:
         return len(os_) >= 2 and bool(c) and c.most_common(1)[0][1] >= min(3, len(os_))
 
 
-def export():
+LEAVES = set(re.findall(r"\b([PM]\d[A-Z]?(?:\.\d+)+(?:/\d+)?):", open("data/g2syl/leaves.md").read()))
+MA = re.compile(r"\b(average of|marks|ratio|series|next number|next term|coded|code language|odd one|day of the week|"
+                r"clock|train|profit|interest|age of|sum of|digit|triangles|mirror image|blood relation|seating|"
+                r"arrangement|direction|missing number|in the place of question mark)\b", re.I)
+
+
+def export(everything=False):
+    """the Group 2 PYQ books (default), or with "all" every other exam in the bank (UPSC, APPSC's other exams,
+    Group 1, state PSCs): questions no Group 2 app MCQ matches, Mental Ability and unreadable ones left out"""
+    global D
+    D = D[:-4] if D.endswith("/all") else D
     bank = Bank()
     L = [json.loads(l) for l in gzip.open("data/pyq/all.jsonl.gz", "rt")]
-    G = [x for x in L if re.search(r"group[- ]?(ii|2)\b", f"{x.get('exam')}{x.get('paper')}{x.get('source')}", re.I)]
+    g2 = lambda x: re.search(r"group[- ]?(ii|2)\b", f"{x.get('exam')}{x.get('paper')}{x.get('source')}", re.I)
+    G = [x for x in L if (not g2(x)) == everything]
+    if everything:
+        D = f"{D}/all"
+        G = [x for x in G if len(x.get("o") or []) == 4 and not MA.search(x.get("s") or "")]
     todo = [x for x in G if len(norm(x.get("s"))) >= 15 and not bank.has(x["s"], x.get("o", []))]
     os.makedirs(D, exist_ok=True)
     for f in glob.glob(f"{D}/job-*.txt"):
@@ -75,7 +91,7 @@ def export():
             o = "\n".join(f"  ({i + 1}) {v}" for i, v in enumerate(x.get("o", [])))
             txt.append(f"## {x['id']} | {x.get('exam')} | key: ({x.get('answer')})\n{x['s']}\n{o}\nexplanation (OCR): {x.get('x', '')}")
         open(f"{D}/job-{k // PER + 1}.txt", "w").write("\n\n".join(txt) + "\n")
-    print(f"{len(G)} Group 2 PYQs in the books, {len(todo)} not in the app -> jobs 1-{(len(todo) - 1) // PER + 1}")
+    print(f"{len(G)} candidate PYQs, {len(todo)} not in the Group 2 app -> {D}/job-1..{(len(todo) - 1) // PER + 1}")
 
 
 def ids(n):
@@ -102,8 +118,10 @@ def check(n):
             bad.append(f"{i}: missing")
             continue
         d = o.get("d")
-        if d not in ("add", "exists", "skip"):
-            bad.append(f"{i}: d must be add / exists / skip")
+        if d not in ("add", "exists", "skip", "beyond"):
+            bad.append(f"{i}: d must be add / exists / beyond / skip")
+        if d == "add" and D.endswith("/all") and o.get("leaf") not in LEAVES:
+            bad.append(f"{i}: leaf {o.get('leaf')!r} is not a Group 2 syllabus leaf (data/g2syl/leaves.md)")
         if d == "add":
             q = o.get("mcq") or {}
             if not (q.get("s") and isinstance(q.get("o"), list) and len(q["o"]) == 4 and q.get("a") in (0, 1, 2, 3) and q.get("x")):
@@ -122,7 +140,7 @@ def check(n):
 
 
 def apply():
-    outs = [json.loads(l) for f in sorted(glob.glob(f"{D}/job-*.out.jsonl")) for l in open(f) if l.strip()]
+    outs = [json.loads(l) for f in sorted(glob.glob("data/pyqfill/**/job-*.out.jsonl", recursive=True)) for l in open(f) if l.strip()]
     mcqs = {b: J(f"{C}/mcq{b}.json") for b in range(1, 7)}
     bank = Bank(C)
     n = dup = 0
@@ -148,4 +166,6 @@ def apply():
 
 if __name__ == "__main__":
     a = sys.argv[1:]
-    {"export": export, "check": lambda: check(a[1]), "apply": apply}[a[0]]()
+    if a[1:2] == ["all"]:  # the other exams' jobs: data/pyqfill/all/
+        D, PER, a = f"{D}/all", 50, a[:1] + a[2:]
+    {"export": lambda: export(D.endswith("/all")), "check": lambda: check(a[1]), "apply": apply}[a[0]]()
