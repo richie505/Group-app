@@ -38,7 +38,7 @@ Rules:
   wrong, taken from the same topic where you can. Keep the current options if they already fit; otherwise replace
   them. No "All/None of these"; no two options alike; the answer's words must not appear in the question.
 - `a`: index 0-3 of the right option; spread it over the positions.
-- The answer must be the fact in F (or the starred option). If F is wrong or out of date and you are SURE, ask the
+- The answer is the STARRED option (it was checked and corrected in a final fact review; where F, the notes, disagrees, keep the starred answer). If both are wrong and you are SURE, ask the correct fact.
   correct fact. If there is truly nothing to ask (a bare heading, a tip, a fragment), `drop` with why.
 - Several MCQs from one table row may ask the same thing: make each ask a DIFFERENT point of the row, or drop the
   repeat ("drop": "repeat of <id>").
