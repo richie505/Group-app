@@ -18,7 +18,8 @@ options, an explanation). For EVERY question decide one of:
   science line: plain biology / chemistry / physics (anatomy, vitamins, classification of plants and animals, chemical
   names, instruments) is beyond, unless the question is really about a line's topic – disease burden and health issues
   (M2B.5), biodiversity and its conservation (M2B.3), energy (M2B.2), pollution and waste (M2B.4), a technology,
-  mission or policy (M2B.1).
+  mission or policy (M2B.1). Computers and the internet (hardware, software, networks, protocols, internet terms,
+  cyber security) fit M2B.1.4 / M2B.1.7: the notes have sections on them (pages 5:12, 5:13, 5:29).
   Old current affairs (events before 2024): add only a LASTING fact a Group 2 question could still ask (an
   institution founded, a treaty or agreement, a mission or launch, a first, a policy or scheme still running, a
   record that still stands). One-off events, awards and award lists, obituaries, appointments, rankings, day themes,
