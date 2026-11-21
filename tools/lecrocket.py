@@ -73,11 +73,19 @@ def page_text(bl):
     return "\n".join(L)
 
 
-def export():
+def export(only_new=False):
+    """all pages (job-1 ...), or with only_new the pages no job has written yet, numbered after the last job"""
     os.makedirs(D, exist_ok=True)
-    for f in glob.glob(f"{D}/job-*.txt"):
-        os.unlink(f)
-    n, buf, size = 0, [], 0
+    done = set()
+    if only_new:
+        done = {json.loads(l)["h"] for f in glob.glob(f"{D}/job-*.out.jsonl") for l in open(f) if l.strip()}
+        n = max(int(re.search(r"job-(\d+)\.txt", f).group(1)) for f in glob.glob(f"{D}/job-*.txt"))
+    else:
+        for f in glob.glob(f"{D}/job-*.txt"):
+            os.unlink(f)
+        n = 0
+    first = n + 1
+    buf, size = [], 0
     def flush():
         nonlocal n, buf, size
         if buf:
@@ -85,13 +93,15 @@ def export():
             open(f"{D}/job-{n}.txt", "w").write("\n\n".join(buf) + "\n")
         buf, size = [], 0
     for h, where, topic, title, bl in pages():
+        if h in done:
+            continue
         t = f"## page {h}\ntopic: {topic}\npage title: {title}\n{page_text(bl)}"
         if size + len(t) > LIMIT:
             flush()
         buf.append(t)
         size += len(t)
     flush()
-    print(f"{n} jobs in {D}")
+    print(f"jobs {first}-{n} in {D}")
 
 
 NUM = re.compile(r"\d+(?:[.,]\d+)?")
@@ -203,7 +213,7 @@ def assemble():
 if __name__ == "__main__":
     a = sys.argv[1:]
     if a[:1] == ["export"]:
-        export()
+        export(a[1:] == ["new"])
     elif a[:1] == ["check"]:
         check(a[1] if len(a) > 1 else None)
     elif a[:1] == ["assemble"]:
