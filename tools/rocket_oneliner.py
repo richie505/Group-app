@@ -492,6 +492,30 @@ def weak(a):
     return len(w) <= 4 and all(x[:1].islower() or i == 0 for i, x in enumerate(w))
 
 
+def fact_key(f):
+    return hashlib.md5(json.dumps(f, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:12]
+
+
+# one-liners written by hand for facts the generator cannot make sound options for (data/rocketoneliner/extra/
+# job-N.out.jsonl: {"k": fact key, "q": ..., "o": [4], "a": 0-3} or {"k": ..., "skip": why}), exported by
+# `python3 tools/rocket_oneliner.py skipped`
+EXTRA = {}
+for _f in glob.glob("data/rocketoneliner/extra/job-*.out.jsonl"):
+    for _l in open(_f):
+        if _l.strip():
+            _o = json.loads(_l)
+            if _o.get("q") and len(_o.get("o") or []) == 4 and _o.get("a") in (0, 1, 2, 3):
+                EXTRA.setdefault(_o["k"], []).append(_o)
+SKIPPED = []
+
+
+def extra_mcqs(f, x):
+    out = []
+    for e in EXTRA.get(fact_key(f), []):
+        out.append(mcq(e["q"], e["o"][e["a"]], [o for i, o in enumerate(e["o"]) if i != e["a"]], x))
+    return out
+
+
 def page_mcqs(blocks, title, pools_of, stats):
     """the MCQs of a Rocket page. pools_of(level, key) -> Pool (level: col/page/topic/book)"""
     out = []
@@ -518,6 +542,11 @@ def page_mcqs(blocks, title, pools_of, stats):
                 cells = [c or "" for c in r]
                 x = " – ".join(plain(c) for c in cells if plain(c).strip(" –-—"))
                 made = row_mcqs(cells, hh, ri, bi, head, title, pools_of, x)
+                if not made:
+                    f = {"h": hh, "r": cells, "head": head}
+                    made = extra_mcqs(f, x)
+                    if not made:
+                        SKIPPED.append(dict(f, k=fact_key(f), topic=title))
                 if made:
                     out += made
                 else:
@@ -555,6 +584,10 @@ def page_mcqs(blocks, title, pools_of, stats):
                 r_ = number_blank("", t, [pools_of("page", None), pools_of("topic", None), pools_of("book", None)], seed)
                 if r_:
                     made.append(mcq(r_[0], r_[1], r_[2], x))
+            if not made:
+                made = extra_mcqs({"b": t}, x)
+                if not made:
+                    SKIPPED.append({"b": t, "k": fact_key({"b": t}), "topic": title})
             if made:
                 out += made
             else:
@@ -880,6 +913,53 @@ def main(sample=0):
             print("  x: " + q["x"][:200])
 
 
+def export_skipped(per=200):
+    """the facts no MCQ was made of, as helper jobs data/rocketoneliner/extra/job-N.txt (one JSON fact a line)"""
+    D = "data/rocketoneliner/extra"
+    os.makedirs(D, exist_ok=True)
+    for f in glob.glob(f"{D}/job-*.txt"):
+        os.unlink(f)
+    for n, k in enumerate(range(0, len(SKIPPED), per), 1):
+        open(f"{D}/job-{n}.txt", "w").write("".join(json.dumps(f, ensure_ascii=False) + "\n" for f in SKIPPED[k:k + per]))
+    print(f"{len(SKIPPED)} facts without an MCQ -> {D}/job-1..{(len(SKIPPED) - 1) // per + 1}")
+
+
+def check_extra(n):
+    D = "data/rocketoneliner/extra"
+    want = [json.loads(l)["k"] for l in open(f"{D}/job-{n}.txt") if l.strip()]
+    got, bad = collections.defaultdict(list), []
+    for i, l in enumerate(open(f"{D}/job-{n}.out.jsonl")):
+        if not l.strip():
+            continue
+        try:
+            o = json.loads(l)
+        except Exception as e:
+            bad.append(f"line {i + 1}: not JSON ({e})"); continue
+        got[o.get("k")].append(o)
+        if not o.get("skip"):
+            op = o.get("o") or []
+            if not (o.get("q") and len(op) == 4 and o.get("a") in (0, 1, 2, 3)):
+                bad.append(f"line {i + 1}: needs q, 4 options o and a 0-3 (or skip)")
+            elif len({norm(x) for x in op}) < 4:
+                bad.append(f"line {i + 1}: two options are the same")
+            elif norm(op[o["a"]]) in norm(o["q"]):
+                bad.append(f"line {i + 1}: the answer is in the question")
+    for k in want:
+        if k not in got:
+            bad.append(f"{k}: missing")
+    extra = set(got) - set(want)
+    if extra:
+        bad.append(f"keys not in the job: {sorted(extra)[:5]}")
+    print(f"job {n}: {len(want)} facts, problems: {len(bad)}")
+    for b in bad[:40]:
+        print("  " + b)
+
+
 if __name__ == "__main__":
     a = sys.argv[1:]
-    main(int(a[1]) if a[:1] == ["sample"] else 0)
+    if a[:1] == ["check"]:
+        check_extra(a[1])
+    else:
+        main(int(a[1]) if a[:1] == ["sample"] else 0)
+        if a[:1] == ["skipped"]:
+            export_skipped()
