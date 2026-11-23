@@ -11,19 +11,22 @@ about 20 topics as "book row title". For each topic, in order:
 
 1. Read the notes: `python3 tools/infonotes.py <book> <row>`.
 2. Restructure each section into an infographic brief (write them to data/infographics/briefs/<book>-<row>-<k>.md):
-   - Title = topic (short) + section heading. Group the section's facts under 3–6 numbered panels with clear
-     headings (e.g. AT A GLANCE / KEY PERSONS / TIMELINE / FEATURES / COMPARISON / EXAM TRAPS – what fits).
-   - EVERY fact of the section must appear: every bullet, every table row, every name, year, number, place,
-     Article, definition, cause and result, every ⚠ trap and "statement angle" (as an EXAM TRAPS box). Restate each
-     as a short point (≤ 22 words); tables stay tables (or comparison panels with every row). A timeline strip
-     when there is a sequence.
-   - Leave out only exam citations ("G2 2008", "asked 13 times", "APPSC PYQ", "UPPSC 2008") and book/source
-     names – those are not facts. Spell every name exactly as the notes do.
+   - CLEAN infographics: the user wants only the valid subject facts, nothing extra. Title = topic (short) +
+     section heading. Group the facts under 3–6 numbered panels with plain subject headings (e.g. Origin / Rulers /
+     Administration / Timeline / Comparison – whatever fits). No "exam traps", no tips.
+   - EVERY valid fact of the section must appear: every name, year, number, place, Article, definition, feature,
+     cause and result, every table row. Restate each as a short crisp point (≤ 18 words), no repetition – if the
+     notes say the same fact twice, put it once. Tables stay tables (or comparison panels with every row). A
+     timeline strip when there is a sequence.
+   - Leave OUT everything that is not a subject fact: ⚠ traps, "distractors", "statement angle", "exams answer",
+     memory tips, exam citations ("G2 2008", "asked 13 times", "APPSC PYQ"), source/book names. Spell every name
+     exactly as the notes do.
+   - A very short section (fewer than ~8 facts) may share one infographic with the next section of the same topic.
    - Before generating, tick off the section line by line: every fact in the notes is in the brief.
 3. Generate: load the Canva tools with ToolSearch ("select:mcp__Canva__create-design,mcp__Canva__get-create-design-async-job,mcp__Canva__export-design")
    and call create-design with format "Infographic" and a brief that starts "Vertical infographic study notes for
    the APPSC Group 2 exam (<subject>). Title: ... Clean exam-revision style: dark blue headings, numbered sections,
-   icons, highlighted key terms, a red EXAM TRAPS box at the bottom. Use exactly this content (spell every word
+   icons, highlighted key terms, clean and uncluttered. Use exactly this content (spell every word
    exactly as given):" followed by your sections. Poll get-create-design-async-job, waiting with `sleep 15`
    (one sleep of at most 15 s per Bash call) between polls.
 4. Export as PNG (export-design, type png) and download the URL with curl to
