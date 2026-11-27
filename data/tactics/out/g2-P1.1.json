@@ -1,0 +1,71 @@
+{
+ "section": "P1.1",
+ "overview": "26 official Qs (2008, 2012, 2017, 2024, 2025); Prelims 2024 alone has 9. Mauryas (Ashokan edicts, Arthashastra officers) and Indus sites are the core; Guptas, Vedic texts, Jainism and Harsha follow. Formats: one-liners on 'who/where/which inscription', NOT-questions (which is not a Harappan site / not by Harsha) and one 2025 matching.",
+ "possibility": [
+  {"angle": "Indus Valley sites and features", "evidence": "5 Qs: 2008×2, 2012×2, 2024", "level": "Moderate historical recurrence", "what_they_ask": "Meaning of a site name, site with an unusual feature (radial plan at Banawali), economic base, which listed site is NOT Harappan"},
+  {"angle": "Vedic age texts and evidence", "evidence": "3 Qs: 2012×2 (one deleted), 2024", "level": "Low historical recurrence", "what_they_ask": "Which Veda is musical (Sama), inscription naming Vedic gods outside India (Boghazkoi)"},
+  {"angle": "Buddhism – monuments and doctrine", "evidence": "1 Q: 2024 (+ 2025 matching shared with Jainism)", "level": "Low historical recurrence", "what_they_ask": "Parts of a stupa (anda, harmika, chhatri), Ashtanga Marga"},
+  {"angle": "Jainism – followers, patrons, doctrine", "evidence": "3 Qs: 2012, 2025×2", "level": "Low historical recurrence", "what_they_ask": "Community that followed Jainism (merchants), patron king (Kharavela), Triratna matching"},
+  {"angle": "Post-Mauryan dynasties and Alexander (leaf P1.1.3 general)", "evidence": "3 Qs: 2008", "level": "Low historical recurrence", "what_they_ask": "Kushan ruler name, Alexander's invasion year, successors of Mauryas (Sungas)"},
+  {"angle": "Mauryan administration and Ashokan edicts", "evidence": "3 Qs: 2008×2, 2024", "level": "Low historical recurrence", "what_they_ask": "Site of a major rock edict, Andhra site of a specific edict (Erragudi), Arthashastra officer for a function (Pautavadhyaksha)"},
+  {"angle": "Mauryan socio-economic and religious conditions", "evidence": "2 Qs: 2012, 2024", "level": "Low historical recurrence", "what_they_ask": "Occasion of prisoner release (coronation anniversary), Rummindei tax reduction"},
+  {"angle": "Mauryan art, architecture and literature", "evidence": "Not yet asked in Group 2", "level": "Syllabus angle not yet asked", "what_they_ask": "Natural targets (APPSC asks inscriptions and sites): Sarnath lion capital, Barabar caves for Ajivikas, polished Chunar sandstone pillars, Arthashastra and Indica authors"},
+  {"angle": "Gupta administration and titles", "evidence": "1 Q: 2008", "level": "Low historical recurrence", "what_they_ask": "Which king took the title Vikramaditya"},
+  {"angle": "Gupta socio-economic and religious conditions", "evidence": "2 Qs: 2012, 2017", "level": "Low historical recurrence", "what_they_ask": "Foreign traveller and the king of his visit, cause of post-Gupta trade decline"},
+  {"angle": "Gupta science and literature", "evidence": "2 Qs: 2012 (key conflict), 2024", "level": "Low historical recurrence", "what_they_ask": "Author/subject of a Siddhanta, Varahamihira and Aryabhata works"},
+  {"angle": "Harshavardhana", "evidence": "1 Q: 2024", "level": "Low historical recurrence", "what_they_ask": "Which book was NOT written by Harsha; natural targets: Hiuen Tsang, Kanauj and Prayag assemblies, Bana's Harshacharita"}
+ ],
+ "traps": [
+  {"trap": "Pillar edict site offered for a rock edict [rock vs pillar]", "spot": "Edict-type question with Allahabad/Delhi/Barabar among options", "fix": "Major rock edicts: Girnar, Kalsi, Dhauli, Jaugada, Erragudi…; Allahabad, Delhi = pillars; Barabar = caves", "pyq": "'Allahabad' → Girnar [group2-2008-paper1#86]"},
+  {"trap": "Traveller paired with the wrong king", "spot": "Chinese/Greek visitor with a list of rulers", "fix": "Megasthenes – Chandragupta Maurya; Fa-Hien – Chandragupta II; Hiuen Tsang – Harsha", "pyq": "'Harsha Vardhana' for Fa-Hien → Chandragupta II [group2-2012-paper1#14]"},
+  {"trap": "Court writer's work credited to the king", "spot": "'Not written by Harsha' with famous Sanskrit titles", "fix": "Harsha: Ratnavali, Priyadarshika, Nagananda; Kadambari and Harshacharita are Bana's", "pyq": "Kadambari [prelims-2024#6]"},
+  {"trap": "Later-period site slipped into a Harappan list", "spot": "NOT-question listing sites with similar-sounding names", "fix": "Sohgaura = Mauryan copper plate; Sutkagendor, Surkotada, Rakhigarhi are Harappan", "pyq": "Sohgaura [prelims-2024#17]"},
+  {"trap": "Arthashastra superintendents swapped", "spot": "Four -adhyaksha names", "fix": "Pautava = weights and measures; Sulka = tolls; Panya = trade; Samstha = markets", "pyq": "'Panyadhyaksha' → Pautavadhyaksha [prelims-2024#4]"},
+  {"trap": "Same-word doctrine in two faiths", "spot": "Triratna/eightfold items in a religion matching", "fix": "Ashtanga Marga = Buddhism; Triratna here = Jain (right faith, knowledge, conduct); Linga = Saivism; nature worship = animism", "pyq": "a-iii, b-ii, c-iv, d-i [mains-2025-paper1#53]"},
+  {"trap": "Neighbouring dynasty in the succession chain", "spot": "'Immediate successor' with Satavahanas/Kushans", "fix": "Magadha: Maurya → Sunga (Pushyamitra, c. 185 BC) → Kanva", "pyq": "'Satavahanas' → Sungas [group2-2008-paper1#87]"},
+  {"trap": "Year of a later event offered for Alexander", "spot": "Year options 327/303/302/298 BC", "fix": "327 BC Alexander enters; 305-303 BC Seleucus–Chandragupta", "pyq": "'303 BC' → 327 BC [group2-2008-paper1#85]"}
+ ],
+ "techniques": [
+  {"name": "Edict-content map [edict → message]", "how": "Memorise each Ashokan inscription by its message: RE XIII Kalinga, PE V prisoner release, Rummindei tax cut, Erragudi minor edict on teachers. Match the stem's content to the site.", "example": "Lumbini revenue reduced to one-eighth → Rummindei; Maski only gives the name 'Asoka' [prelims-2024#2]"},
+  {"name": "Name-meaning decode", "how": "Use the literal meaning of names and terms: Mohenjo-daro = mound of the dead; Sama = melody; Pautava = weights.", "example": "Musical Veda → Samaveda (saman = chant) [group2-2012-paper1#12]"},
+  {"name": "Odd-period elimination", "how": "In 'not Harappan' or 'not by X' questions, date every option; the one from another period or author is the answer.", "example": "Sutkagendor, Surkotada, Rakhigarhi Bronze Age; Sohgaura Mauryan → Sohgaura [prelims-2024#17]"},
+  {"name": "Anchor-pair matching", "how": "Fix the surest pair (Linga–Saivism), strike codes without it, then check one more.", "example": "c-iv (Linga) appears only in option 3 → a-iii, b-ii, c-iv, d-i [mains-2025-paper1#53]"},
+  {"name": "Doctrine → social base reasoning", "how": "Infer followers from rules: strict ahimsa barred ploughing, so Jainism drew traders.", "example": "Community mostly following Jainism → merchants [group2-2012-paper1#42]"}
+ ],
+ "confusions": [
+  {"a": "Megasthenes", "b": "Fa-Hien / Hiuen Tsang", "remember": "Chandragupta Maurya vs Chandragupta II / Harsha"},
+  {"a": "Major rock edicts", "b": "Pillar edicts", "remember": "Girnar, Kalsi, Dhauli, Jaugada, Erragudi vs Allahabad, Delhi-Topra, Lauriya, Rampurva"},
+  {"a": "Erragudi", "b": "Rajula Mandagiri", "remember": "Both Kurnool; Erragudi has major + minor edicts incl. teachers–Dhamma line"},
+  {"a": "Rummindei", "b": "Maski", "remember": "Lumbini tax reduction vs inscription naming 'Asoka'"},
+  {"a": "Harsha's plays", "b": "Bana's works", "remember": "Ratnavali, Priyadarshika, Nagananda vs Harshacharita, Kadambari"},
+  {"a": "Samaveda", "b": "Atharvaveda", "remember": "Melodies vs charms and medicine"},
+  {"a": "Boghazkoi", "b": "Junagarh", "remember": "Vedic gods in Anatolia (c. 1380 BC) vs Rudradaman's Sanskrit inscription"},
+  {"a": "Pautavadhyaksha", "b": "Sulkadhyaksha", "remember": "Weights and measures vs tolls"},
+  {"a": "Kujula Kadphises", "b": "Kanishka", "remember": "Founder of Kushan rule vs most famous Kushan (78 CE, Saka era)"},
+  {"a": "Banawali", "b": "Dholavira", "remember": "Radial streets vs three-part city with water reservoirs"},
+  {"a": "Stupa", "b": "Chaitya / Vihara", "remember": "Dome with anda-harmika-chhatri vs prayer hall / monastery"},
+  {"a": "Chandragupta II (Vikramaditya)", "b": "Samudragupta (Kaviraja)", "remember": "Shaka victory title vs poet-king"}
+ ],
+ "anchors": [
+  "Mohenjo-daro = 'Mound of the Dead', excavated by R.D. Banerji 1922",
+  "Alexander enters India 327 BC; Hydaspes 326 BC",
+  "Pushyamitra Sunga ends Mauryas c. 185 BC",
+  "Ashoka's prisoner releases on coronation anniversaries (PE V)",
+  "Rummindei: bhaga reduced to one-eighth",
+  "Erragudi (Kurnool): Ashokan edict on teachers and Dhamma",
+  "Fa-Hien c. 399-411 CE under Chandragupta II",
+  "Chandragupta II = Vikramaditya",
+  "Boghazkoi c. 1380 BC: Indra, Varuna, Mitra, Nasatyas",
+  "Kharavela of Kalinga (Hathigumpha) = Jain patron",
+  "Varahamihira: Panchasiddhantika (incl. Romaka) – astronomy",
+  "Harsha wrote Ratnavali, Priyadarshika, Nagananda"
+ ],
+ "checklist": [
+  "Rock edict, pillar edict or cave? Major or minor?",
+  "Which king was ruling when the traveller came?",
+  "Is the work by the king or his court poet?",
+  "Date every option in 'not Harappan / not by X' questions",
+  "Decode the name or term literally",
+  "In matching, start from the least confusable pair"
+ ]
+}

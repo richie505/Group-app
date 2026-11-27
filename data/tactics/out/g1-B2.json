@@ -1,0 +1,65 @@
+{"section": "B2",
+ "overview": "Union and State executives, Parliament and State legislatures, Centre-State relations and devolution to local bodies: 56 official questions (2008-2024), the heaviest B-block section (16 in 2019, 10 in 2024). Parliament (19), Centre-State relations (14) and the Union executive (12) dominate. Questions are now mostly 'choose the wrong answer' and statement-based items on procedure fine print (lapse of bills, vetoes, privileges, pardons).",
+ "possibility": [
+  {"angle": "Union executive: President, PM, Council of Ministers", "evidence": "12 Qs: 2008, 2010, 2010 re-exam×3, 2012, 2017, 2019×3, 2023, 2024", "level": "High historical recurrence", "what_they_ask": "veto types; pardon terms; President acts on advice even in emergency; Art. 53; coalition era and PM's position"},
+  {"angle": "State executive: Governor, CM", "evidence": "4 Qs: 2019×3, 2024", "level": "Low historical recurrence", "what_they_ask": "Governor's tenure and hold-over; discretion and judicial review; Governor as UT administrator; bills mandatorily reserved"},
+  {"angle": "Parliament: structure, procedure, committees, privileges", "evidence": "19 Qs: 2008×4, 2012×5, 2017, 2019×2, 2023, 2024×6", "level": "High historical recurrence", "what_they_ask": "Money Bill features; Zero Hour; financial committees; RS election method and special powers; lapse of bills; whip; public vs private bills; privileges; budget stages"},
+  {"angle": "State Legislatures", "evidence": "4 Qs: 2010, 2019×2, 2023", "level": "Moderate historical recurrence", "what_they_ask": "Council composition fractions; Council's delaying power (no joint sitting); Speaker's position during his removal"},
+  {"angle": "Centre-State relations and federal issues", "evidence": "14 Qs: 2012×2, 2017×3, 2019×6, 2023×2, 2024", "level": "High historical recurrence", "what_they_ask": "Sarkaria/Punchhi/Rajamannar recommendations; constitutional vs statutory bodies (ISC, Zonal Councils); Parliament on State List (249, 252, 253); Art. 304(b) sanction; Seventh Schedule entries; AIS"},
+  {"angle": "Devolution of powers and finances to local bodies", "evidence": "3 Qs: 2017, 2023, 2024", "level": "Moderate historical recurrence", "what_they_ask": "State Finance Commission role and article; Panchayat revenue sources; property-tax gaps"}
+ ],
+ "traps": [
+  {"trap": "[Money Bill exception] Ordinary-bill power applied to a Money Bill", "spot": "Options/statements saying President can return or suspensively veto a Money Bill", "fix": "Money Bill: President gives or withholds assent; no return for reconsideration", "pyq": "'can be ... returned for reconsideration by the President' is not a feature [group1-prelims-2008#82]; 'Suspensive Veto in the case of Money Bills' false [group1-prelims-2024-paper1#45]"},
+  {"trap": "Lapse rule reversed by House of origin", "spot": "Statements on which bills lapse when Lok Sabha dissolves", "fix": "Bills pending in or passed by LS (pending in RS) lapse; RS-originated bills pending in RS, assent-pending and returned bills survive", "pyq": "Only statement III valid [group1-prelims-2024-paper1#58]"},
+  {"trap": "Constitutional and statutory bodies swapped", "spot": "'Which inter-State body is constitutional'", "fix": "Inter-State Council = Art. 263; Zonal Councils and water tribunals = statutes of 1956", "pyq": "Inter-State Council [group1-prelims-2019-paper1#54]; Zonal Council = advisory grouping [group1-prelims-2012#94]"},
+  {"trap": "Commission recommendations swapped", "spot": "Rajamannar, Sarkaria, Punchhi, Venkatachaliah offered together", "fix": "Rajamannar 1969 = State autonomy; Sarkaria 1988 = cooperative federalism, ISC; Punchhi 2010 = Governor removal by State legislature, localised emergency", "pyq": "Cooperative federalism first → Sarkaria [group1-prelims-2017-paper1#30]; Punchhi on Governor → impeachment by State Legislature [group1-prelims-2017-paper1#31]"},
+  {"trap": "Fraction altered in a composition rule", "spot": "Legislative Council shares 1/3, 1/12, 1/6", "fix": "MLAs 1/3, local bodies 1/3, graduates 1/12, teachers 1/12, nominated 1/6", "pyq": "'1/13th ... by Legislative Assembly' is wrong [group1-prelims-2019-paper1#56]"},
+  {"trap": "Joint sitting imported into States", "spot": "State bicameral disagreement options with 'joint sitting'", "fix": "No joint sitting in States; Council can only delay (3 + 1 months), Assembly prevails", "pyq": "Only power is delay [group1-prelims-2019-paper1#46]"},
+  {"trap": "Discretion inflated during emergency", "spot": "'During National Emergency the President acquires discretionary powers'", "fix": "Art. 74(1): President acts on ministerial advice at all times", "pyq": "That statement is the wrong one [group1-prelims-2019-paper1#41]"},
+  {"trap": "Pardon terms swapped", "spot": "Reprieve, respite, remission, commutation matching", "fix": "Reprieve = stay; respite = lesser sentence for special reason; remission = reduce quantity; commutation = change form", "pyq": "'IV III I II' [group1-prelims-2019-paper1#49]; only President pardons a death sentence [group1-prelims-2019-paper1#50]"}
+ ],
+ "techniques": [
+  {"name": "Bill-type grid", "how": "[Money / Finance / Ordinary / Amendment] Keep a 4-row grid: where introduced, President's recommendation, RS power, joint sitting, President's options; test each statement on the grid.", "example": "Money Bill: LS only, President's recommendation, RS 14 days, assent/withhold only → option 4 is not a feature [group1-prelims-2008#82]"},
+  {"name": "Article-route map for State List", "how": "List every route by which Parliament enters the State List: 249 RS resolution, 250 emergency, 252 two or more States, 253 treaties, 356 President's rule; 254 governs Concurrent conflicts.", "example": "'Absolute freedom' on Concurrent list contradicts Art. 254 → wrong answer [group1-prelims-2019-paper1#58]"},
+  {"name": "Equal / unequal / special for Rajya Sabha", "how": "Sort each RS power: equal (ordinary bills, emergencies, reports), unequal (Money Bills, no-confidence), special (249, 312, VP removal start).", "example": "Equal status → CAG report and emergency approval; Money Bills unequal, VP removal special → 'II and IV' [group1-prelims-2024-paper1#55]; Art. 249 direction [group1-prelims-2017-paper1#2]"},
+  {"name": "Terminate what? test", "how": "Adjournment ends a sitting; prorogation a session (bills survive); dissolution only LS (most bills lapse).", "example": "Only 'adjournment sine die = sitting ended indefinitely' survives [group1-prelims-2019-paper1#51]"},
+  {"name": "Hold-over rule", "how": "Constitutional heads (President, Governor) continue until the successor takes office; any 'quit immediately' statement is false.", "example": "'Governor shall quit immediately after expiry of term' → the exception [group1-prelims-2019-paper1#39]"},
+  {"name": "Finance-committee trio", "how": "PAC, Estimates, COPU are the financial committees; Estimates is LS-only and pre-spending economy.", "example": "Estimates Committee → Financial Committees [group1-prelims-2008#74]; fourth member → COPU [group1-prelims-2012#95]"}
+ ],
+ "confusions": [
+  {"a": "Question Hour", "b": "Zero Hour", "remember": "first hour, in the rules vs right after it, informal (since 1962)"},
+  {"a": "PAC", "b": "Estimates Committee", "remember": "post-mortem of spending (LS + RS) vs economy in estimates (LS only)"},
+  {"a": "Inter-State Council", "b": "Zonal Council", "remember": "Art. 263, PM chairs vs SRA 1956, Home Minister chairs"},
+  {"a": "Sarkaria", "b": "Punchhi", "remember": "1988 cooperative federalism, ISC vs 2010 Governor removal, localised emergency"},
+  {"a": "Rajamannar", "b": "Sarkaria", "remember": "TN 1969 autonomy vs Union 1988 cooperative federalism"},
+  {"a": "Absolute veto", "b": "Suspensive / pocket veto", "remember": "private member's bills, outgoing govt vs return once / indefinite delay"},
+  {"a": "Reprieve", "b": "Respite", "remember": "stay of execution vs lesser sentence for special reason"},
+  {"a": "Prorogation", "b": "Dissolution", "remember": "ends session, bills live vs ends LS, most bills lapse"},
+  {"a": "Public bill", "b": "Private member's bill", "remember": "minister, Law Ministry drafting vs any non-minister MP"},
+  {"a": "Art. 243-I SFC", "b": "Art. 280 Finance Commission", "remember": "State-to-local vs Centre-to-State"},
+  {"a": "Art. 249", "b": "Art. 252", "remember": "RS 2/3 resolution, national interest vs two or more States request"},
+  {"a": "Breach of privilege", "b": "Contempt of the House", "remember": "narrower vs wider; outsiders too can be punished"},
+  {"a": "Governor's discretion", "b": "Governor on ministerial advice", "remember": "Art. 163(2) shields discretion vs ordinary executive acts reviewable"}
+ ],
+ "anchors": [
+  "Art. 53 Union executive in President; Art. 74 acts on advice; Art. 79 Parliament = President + two Houses",
+  "Art. 111: Money Bill cannot be returned; no time limit → pocket veto",
+  "Money Bill: Rajya Sabha 14 days, recommendations only",
+  "RS election by STV (Art. 80(4)); only RS for Art. 249 and Art. 312",
+  "Art. 112 annual financial statement = Budget",
+  "Legislative Council: 1/3 MLAs, 1/3 local bodies, 1/12 graduates, 1/12 teachers, 1/6 nominated",
+  "Art. 156: Governor holds over till successor; Art. 239(2) Governor as UT administrator acts independently",
+  "Art. 263 ISC set up 1990 on Sarkaria; Zonal Councils SRA 1956",
+  "Art. 304(b) proviso: President's previous sanction for State trade-restriction bills; Art. 255 cures missing sanction",
+  "Freedom from arrest: civil cases only, session + 40 days before/after",
+  "Art. 243-I / 243-Y: State Finance Commission every five years"
+ ],
+ "checklist": [
+  "Identify the bill type before judging any veto or RS power.",
+  "Constitutional or statutory? Name the article or the Act.",
+  "Negative stem: one statement violates a fixed rule (advice, hold-over, fractions).",
+  "Commission question: place it in time (1969, 1988, 2010) and recall its signature idea.",
+  "Lapse questions: where did the bill originate and where is it pending?",
+  "Watch time-sensitive facts (seat numbers changed in 2014)."
+ ]
+}

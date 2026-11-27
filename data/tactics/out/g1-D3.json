@@ -1,0 +1,63 @@
+{"section": "g1-D3",
+ "overview": "22 official Group 1 Qs (2008–2024) on population, sex ratio, SC/ST, tribes and races, languages and urbanisation. Almost all are one-liners on a census figure, rank or 'where is this group'; 2023–24 added match lists (sex ratios, nomadic tribes) and a negative language item. Population facts (8 Qs) lead; occupational structure, rural–urban components and migration are not yet asked. Several old keys use dated or near figures (ST 2001, AP rank 2011), so tie every number to its census.",
+ "possibility": [
+  {"angle": "Population distribution, density and growth – world, India, AP", "evidence": "8 Qs: 2010×3, 2012×3, 2019, 2023", "level": "Moderate historical recurrence", "what_they_ask": "census launch date, most/least populous or dense state/UT by census year, densest Latin American country, rate of natural increase from CBR/CDR, world population milestones"},
+  {"angle": "Sex ratio and literacy", "evidence": "3 Qs: 2012, 2017, 2023", "level": "Moderate historical recurrence", "what_they_ask": "states/UTs with more females, NFHS vs Census sex ratio of AP, sex-ratio values matched to states"},
+  {"angle": "Occupational structure", "evidence": "0 official Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets by analogy with the census items: Census 2011 main/marginal workers, cultivators vs agricultural labourers, work participation rate by sex and state"},
+  {"angle": "SC and ST population", "evidence": "3 Qs: 2008, 2023×2", "level": "Low historical recurrence", "what_they_ask": "ST share of India, number of notified STs in AP, states/UTs with no SC population"},
+  {"angle": "Rural–urban components", "evidence": "0 official Qs (one 2010 Q on rural share in Australia counted under population)", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets: urban share (31.1% in 2011), most/least urbanised states, census town vs statutory town definition"},
+  {"angle": "Racial, tribal, religious and linguistic groups", "evidence": "5 Qs: 2019×3, 2024×2", "level": "Low historical recurrence", "what_they_ask": "tribe → region (Zulu, Hottentot, Pygmy, Masai, Semang, Punan), Shia-majority country, language family of an Indian language; other APPSC exams ask AP tribes and dances (e.g. Thimsa – Araku)"},
+  {"angle": "Urbanisation and metropolitan regions", "evidence": "3 Qs: 2012×2, 2017", "level": "Low historical recurrence", "what_they_ask": "city nicknames and identities, main cause of urban growth in 2001–11 (reclassification)"},
+  {"angle": "Migration", "evidence": "0 official Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets: dominant stream (rural–rural), main reason for female migration (marriage), largest source and destination states, place of last residence concept"}
+ ],
+ "traps": [
+  {"trap": "Shifts the ranking to another census year", "spot": "Stem names a census (2001 or 2011) and the options include the leader of the other year", "fix": "2001 density: West Bengal > Bihar; 2011: Bihar > West Bengal", "pyq": "'2001 Census [...] highest density' → West Bengal [group1-prelims-2012#91]"},
+  {"trap": "Gives a launch date, an enumeration date or a reference date in place of one another", "spot": "Four dates in the same year", "fix": "Census 2011: launched 1 April 2010 (houselisting); enumeration Feb 2011; reference date 1 March 2011", "pyq": "→ 1st April 2010 [group1-prelims-2010#94]"},
+  {"trap": "Moves a tribe to the neighbouring forest region", "spot": "Match lists of equatorial hunters and pastoralists", "fix": "Pygmies – Congo basin; Semang – Malay peninsula; Punan – Borneo; Masai – East Africa", "pyq": "→ A-II, B-I, C-IV, D-III [group1-prelims-2024-paper1#111]"},
+  {"trap": "Assigns a language to the wrong family", "spot": "Negative item on language families", "fix": "Dardic (Kashmiri, Shina) is Indo-Aryan, Indo-European; Sino-Tibetan is NE/Himalayan", "pyq": "'Dardi is a Sino-Tibetan language' incorrect [group1-prelims-2024-paper1#112]"},
+  {"trap": "Confuses herders with hunters of the same region", "spot": "South African group options", "fix": "Hottentots (Khoikhoi) = pastoralists; Bushmen (San) = hunter-gatherers", "pyq": "→ Nomadic pastoralists of South Africa [group1-prelims-2019-paper1#110]"},
+  {"trap": "Picks the intuitive cause over the data-driven one", "spot": "'most important reason' for urban growth with migration as an option", "fix": "In 2001–11 a large share of urban increase came from reclassification (new census towns)", "pyq": "→ categorisation of rural areas as urban [group1-prelims-2017-paper1#9]"},
+  {"trap": "Mixes a survey figure with a census figure", "spot": "Sex ratio stem naming NFHS rather than Census", "fix": "AP: NFHS-4 = 1020; Census 2011 = 993", "pyq": "→ 1020 [group1-prelims-2017-paper1#100]"}
+ ],
+ "techniques": [
+  {"name": "Rate arithmetic", "how": "Rate of natural increase (%) = (CBR − CDR) / 10, since both are per 1000. Watch the unit in options.", "example": "(44 − 11) [...] = 33 per 1000 = 3.3% → '3·3%'; '33' and '33%' fall on units [group1-prelims-2019-paper1#116]"},
+  {"name": "Milestone timeline", "how": "Keep the world population milestones: 1 bn 1804, 5 bn 1987, 6 bn 1999, 7 bn 2011, 8 bn 2022; match the interval in the stem.", "example": "5→6 billion in 12 years fits 1987–1999 only [group1-prelims-2023-paper1#91]"},
+  {"name": "Extreme-value anchoring in number matches", "how": "Fix the highest and lowest values first (Puducherry 1037 high, Lakshadweep 946 low), then the close pair (TN 996 vs AP 993).", "example": "Puducherry–1037 and Lakshadweep–946 leave only 'II III IV I' [group1-prelims-2023-paper1#94]"},
+  {"name": "Small-island density rule", "how": "For highest density in a region, prefer small islands or city-states over large countries.", "example": "Puerto Rico beats Brazil, Mexico, Panama [group1-prelims-2010-reexam#108]"},
+  {"name": "Census-year tagging", "how": "Write the census year next to every figure you recall; reject options that are right for the other census.", "example": "Lowest-population UT in 2001 → Lakshadweep (also 2011) [group1-prelims-2012#127]"}
+ ],
+ "confusions": [
+  {"a": "Density 2001 (WB first)", "b": "Density 2011 (Bihar first)", "remember": "Bihar overtook WB in 2011 (1,106 vs 1,028 per sq km)"},
+  {"a": "Census launch (1 Apr 2010)", "b": "Reference date (1 Mar 2011)", "remember": "Houselisting starts a year before the count"},
+  {"a": "NFHS sex ratio", "b": "Census sex ratio", "remember": "Survey of households vs full count; AP 1020 vs 993"},
+  {"a": "ST share 2001 (8.2%)", "b": "ST share 2011 (8.6%)", "remember": "SC 2011 = 16.6%"},
+  {"a": "Hottentots (Khoikhoi)", "b": "Bushmen (San)", "remember": "Herders vs hunters, both southern Africa"},
+  {"a": "Semang", "b": "Punan", "remember": "Malay peninsula vs Borneo"},
+  {"a": "Pygmies", "b": "Masai", "remember": "Congo forest hunters vs East African cattle herders"},
+  {"a": "Dardic languages", "b": "Sino-Tibetan languages", "remember": "Dardic is Indo-Aryan; Sino-Tibetan is NE India, Ladakh, Sikkim"},
+  {"a": "Austric (Munda)", "b": "Dravidian", "remember": "Santhali, Mundari, Ho in Jharkhand vs Telugu, Tamil, Gondi"},
+  {"a": "Natural increase", "b": "Reclassification", "remember": "Two of the three sources of urban growth (with migration)"},
+  {"a": "Las Vegas / Reno (Nevada)", "b": "San Diego / San Jose / Sacramento (California)", "remember": "Nevada's capital is Carson City"}
+ ],
+ "anchors": [
+  "Census 2011: launch 1 April 2010; reference date 1 March 2011",
+  "Census 2011 sex ratio: India 943; Kerala 1084, Puducherry 1037, TN 996, AP 993; Lakshadweep 946",
+  "States/UTs with no SC population (2011): Nagaland, Arunachal Pradesh, Lakshadweep, A&N",
+  "ST share: 8.6% (2011); SC 16.6% (2011)",
+  "AP notified STs under the 1976 amendment: 33 (per key)",
+  "Lowest-population UT: Lakshadweep",
+  "Urban share 2011: 31.1%",
+  "World population: 5 bn 1987, 6 bn 1999, 7 bn 2011, 8 bn 2022",
+  "Rate of natural increase % = (CBR − CDR)/10",
+  "1961 Census listed 1,652 mother tongues",
+  "Iran – the clearly Shia-majority state among common options"
+ ],
+ "checklist": [
+  "Which source and year – Census 2001, Census 2011 or NFHS?",
+  "Is the stem asking a launch, enumeration or reference date?",
+  "Check units (per 1000 vs %) before choosing a number",
+  "For tribe/race items, place the group in its exact forest or grassland region",
+  "For language items, name the family first, then the region",
+  "Where an old key uses a near figure, pick the option closest to the census value"
+ ]
+}
