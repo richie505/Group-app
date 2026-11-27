@@ -16,7 +16,10 @@ for f in ("data/pyqdecode/keycheck_g1.jsonl", "data/pyqdecode/keycheck_g2.jsonl"
         r = o["result"]
         c[r] += 1
         note = f"{r} vs {o.get('doc')} ({o.get('doc_status') or ''}) {o.get('note') or ''}".strip()
-        if r == "DIFFERENT" and o.get("doc_a") is not None:
+        third_party = "2008" in str(o.get("doc"))  # g2-2008-key.pdf: a third-party compilation, not an APPSC document
+        if r == "DIFFERENT" and third_party:
+            con.execute("UPDATE question SET key_check=? WHERE id=?", (f"CONFLICT: third-party compilation keys option {o['doc_a']} (0-based); stored key kept pending fact check. {o.get('note') or ''}", qid))
+        elif r == "DIFFERENT" and o.get("doc_a") is not None:
             row = con.execute("SELECT options_json, key_index FROM question WHERE id=?", (qid,)).fetchone()
             opts = json.loads(row[0]) if row and row[0] else None
             con.execute("UPDATE question SET key_index=?, key_text=?, key_check=? WHERE id=?",
