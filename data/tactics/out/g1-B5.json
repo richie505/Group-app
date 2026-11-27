@@ -1,0 +1,44 @@
+{"section": "B5",
+ "overview": "Rights issues - human, women, SC/ST, child and other rights: 8 official questions (2010-2024), at most 2 per year. They are scheme or Act details (launch date, full form, beneficiaries) and, since 2023, statement-based items on the Protection of Human Rights Act as amended in 2019. Several older keys are unofficial.",
+ "possibility": [
+  {"angle": "Human rights institutions (NHRC, SHRCs)", "evidence": "2 Qs: 2023, 2024", "level": "Low historical recurrence", "what_they_ask": "2019 amendment: who can chair, term, re-appointment, number of members, limitation period, removal"},
+  {"angle": "Women's rights and schemes", "evidence": "2 Qs: 2010, 2017 (both keys unverified)", "level": "Low historical recurrence", "what_they_ask": "aim of a scheme (Swayamsidha); survey findings on women; natural targets: NCW Act 1990, DV Act 2005, POSH 2013"},
+  {"angle": "SC/ST rights", "evidence": "1 Q: 2010", "level": "Low historical recurrence", "what_they_ask": "Forest Rights Act dates; natural targets: PoA Act 1989, PESA 1996, Gram Sabha role"},
+  {"angle": "Child rights", "evidence": "2 Qs: 2019, 2023", "level": "Low historical recurrence", "what_they_ask": "full form and amendment of POCSO; PM CARES for Children eligibility"},
+  {"angle": "Other rights (trafficking, minorities, disabled, elderly, transgender)", "evidence": "1 Q: 2017", "level": "Low historical recurrence", "what_they_ask": "UNODC trafficking report finding; natural targets: RPwD Act 2016 (21 disabilities), Transgender Persons Act 2019"}
+ ],
+ "traps": [
+  {"trap": "[Look-alike word] Acronym expanded with a near word", "spot": "Options differing by one word (Sexual / Social)", "fix": "POCSO = Protection of Children from Sexual Offences (2012)", "pyq": "POCSO full form [group1-prelims-2019-paper2#109]"},
+  {"trap": "Date shifted by one day", "spot": "Four consecutive dates for an Act", "fix": "Forest Rights Act passed 18 Dec 2006; assent 29 Dec 2006; in force 31 Dec 2007", "pyq": "Passed on 18th December 2006 [group1-prelims-2010-reexam#20]"},
+  {"trap": "Amended rule treated as the old rule", "spot": "NHRC statements on chair eligibility and term", "fix": "After 2019: a former CJI or SC judge may chair; term 3 years or 70; re-appointment allowed", "pyq": "All three statements correct [group1-prelims-2023-paper1#54]"},
+  {"trap": "Intuitive but wrong report finding", "spot": "Trafficking: 'different ethnic backgrounds' sounds plausible", "fix": "UNODC 2016: victims and traffickers often share the same ethnic/national background", "pyq": "'The same ethnic background' [group1-prelims-2017-paper1#98]"}
+ ],
+ "techniques": [
+  {"name": "Amendment-year lens", "how": "[Old vs amended] For any rights body, ask which version the stem uses; learn the post-amendment numbers (NHRC 2019).", "example": "PHRA 2019 changes: SC judge eligible, 3-year term, re-appointment → 'I, II and III' [group1-prelims-2023-paper1#54]"},
+  {"name": "Beneficiary definition check", "how": "For schemes, read who is covered (age, cause, period) and match every clause.", "example": "PM CARES for Children: launched 29 May 2021, children who lost parents or guardians to Covid-19 → both statements true [group1-prelims-2023-paper1#46]"},
+  {"name": "Word-by-word acronym", "how": "Expand acronyms word by word from the Act title; reject an option if one word differs.", "example": "Only 'Protection of Children from Sexual Offences' matches [group1-prelims-2019-paper2#109]"}
+ ],
+ "confusions": [
+  {"a": "Forest Rights Act 2006", "b": "PESA 1996", "remember": "individual/community forest rights vs self-rule in Fifth Schedule areas"},
+  {"a": "POCSO 2012", "b": "Juvenile Justice Act 2015", "remember": "sexual offences against children vs children in conflict with law and care"},
+  {"a": "NHRC chair (former CJI or SC judge)", "b": "SHRC chair (former CJ or HC judge)", "remember": "appointed by President vs Governor; both removed by President"},
+  {"a": "Swayamsidha (2001)", "b": "STEP (1986) / Swadhar", "remember": "SHG empowerment vs training / women in difficult circumstances"},
+  {"a": "NCW Act 1990", "b": "NCW constituted 1992", "remember": "Act year vs body formed"},
+  {"a": "PoA Act 1989", "b": "PCR Act 1955", "remember": "atrocities vs untouchability offences"}
+ ],
+ "anchors": [
+  "Forest Rights Act: passed 18 Dec 2006, in force 31 Dec 2007",
+  "POCSO Act 2012; amended 2019 (harsher punishment)",
+  "PHRA 1993, amended 2019: 3-year term, re-appointment, three expert members",
+  "PM CARES for Children: 29 May 2021",
+  "NCW Act 1990, NCW set up January 1992",
+  "UNODC trafficking report 2016: victims and traffickers often same background"
+ ],
+ "checklist": [
+  "Which version of the Act - original or amended?",
+  "For dates, recall passed vs assent vs in-force.",
+  "Expand acronyms word by word.",
+  "Scheme question: check beneficiary, ministry and launch year.",
+  "Treat questions with unofficial keys as low-weight practice."
+ ]
+}
