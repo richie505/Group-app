@@ -1,0 +1,67 @@
+{
+"section": "M1B.5",
+"overview": "38 official Qs (2008, 2017, 2019, 2025). The 73rd Amendment dominates (17), then the 74th (7) and the Community Development Programme (6); Balwant Rai Mehta and Ashok Mehta give 5, centralisation/decentralisation 3. Questions ask numbers (29/18 items, 16 Articles, tiers, term), dates (1952, 1957, 24 April / 1 June 1993), which Schedule holds an item, and where Part IX does not apply; 2025 added statement-based, chronology and assertion-reason.",
+"possibility": [
+ {"angle": "Centralisation vs decentralisation (Ripon, direct democracy, revitalisation committees)", "evidence": "3 Qs: 2008×2, 2019", "level": "Low historical recurrence", "what_they_ask": "Father of local self-government (Lord Ripon 1882); Gram Sabha as direct democracy; L.M. Singhvi chaired the 1986 revitalisation committee."},
+ {"angle": "Community Development Programme and extension", "evidence": "6 Qs: 2008×2, 2019×4 (one deleted)", "level": "Low historical recurrence", "what_they_ask": "start date (2 Oct 1952); Grow More Food Enquiry (V.T. Krishnamachari); aim of people's participation; extension principles and training methods (applied science and democratic approach, role play)."},
+ {"angle": "Balwant Rai Mehta Committee", "evidence": "2 Qs: 2008, 2025", "level": "Low historical recurrence", "what_they_ask": "report year 1957; three-tier 'democratic decentralisation'; place in chronology of PR committees."},
+ {"angle": "Ashok Mehta Committee", "evidence": "3 Qs: 2008×2, 2025", "level": "Low historical recurrence", "what_they_ask": "two-tier (Zilla Parishad, Mandal Panchayat) with four-year term; appointed by Janata govt under Morarji Desai (1977)."},
+ {"angle": "73rd Amendment and its implementation", "evidence": "17 Qs: 2008×3, 2017×3, 2019×5, 2025×6", "level": "Moderate historical recurrence", "what_they_ask": "Eleventh Schedule 29 items and which subjects; 16 Articles (243–243O); three-tier; Gram Sabha = registered voters; exempted States (Nagaland, Meghalaya, Mizoram); Art 243D reservation (BC optional); election within 6 months; age 21; SEC and SFC roles; AP Panchayat Secretary functions."},
+ {"angle": "74th Amendment and its implementation", "evidence": "7 Qs: 2008×3, 2019×2, 2025×2", "level": "Moderate historical recurrence", "what_they_ask": "Part IXA; Twelfth Schedule 18 items and which subjects (cattle pounds, slaughter houses, burial grounds); in force 1 June 1993; first municipal corporation (Madras 1688); functionaries (Mayor, Chairperson, Councillor); AP municipal count (time-sensitive)."}
+],
+"traps": [
+ {"trap": "Swaps the item counts of the two Schedules [29 vs 18]", "spot": "A number beside 'Eleventh' or 'Twelfth' Schedule, or '18 functional items for panchayats'", "fix": "Eleventh (panchayats, Art 243G) = 29; Twelfth (municipalities, Art 243W) = 18. Higher number = rural, which has more subjects.", "pyq": "Eleventh Schedule → 29 [group2-2008-paper2#130]; '18 functional items placed within panchayats' → not correct [mains-2025-paper1#118]"},
+ {"trap": "Moves a municipal subject into the Eleventh Schedule (or the reverse)", "spot": "'As per the Eleventh / Twelfth Schedule' with mixed items", "fix": "Urban-only items (slaughter houses, land-use regulation, burial grounds, cattle pounds) are Twelfth; libraries, non-conventional energy, small-scale industries, technical and vocational education are Eleventh.", "pyq": "Panchayats → Libraries [mains-2025-paper1#142]; Municipalities → Cattle Pounds [mains-2025-paper1#143]"},
+ {"trap": "Swaps tiers between the committees and the Act", "spot": "Options '2 / 3 tier' with a committee or 'feature of the 73rd Amendment'", "fix": "Balwant Rai Mehta – three-tier; Ashok Mehta – two-tier, 4-year term; 73rd Amendment – three-tier (intermediate optional below 20 lakh).", "pyq": "'Two-tier System' → not a feature of the 73rd Amd [group2-2008-paper2#129]; Ashok Mehta → two tier with four-year term [mains-2025-paper1#134]"},
+ {"trap": "Changes the time limit for fresh elections", "spot": "Statement 'within 3 months from dissolution'", "fix": "Art 243E(3): elections before expiry of 5 years or within 6 months of dissolution.", "pyq": "'Within 3 months' → incorrect, so i, iii and iv only [mains-2025-paper1#136]"},
+ {"trap": "Turns a voluntary provision into a compulsory one", "spot": "Lists of 73rd Amd provisions including BC reservation", "fix": "Compulsory: Gram Sabha, three tiers, direct election, SC/ST and one-third women reservation, SEC, SFC. Voluntary: BC reservation (243D(6)), powers and functions devolution, MLA/MP representation.", "pyq": "'Reservation of seats for BCs is compulsory' → not correct [mains-2025-paper1#118]"},
+ {"trap": "Mixes the commencement dates of the 73rd and 74th", "spot": "Options 24 April and 1 June across 1992 and 1993", "fix": "Both passed 1992; 73rd in force 24 April 1993 (Panchayati Raj Day), 74th in force 1 June 1993.", "pyq": "74th came into force → 1 June 1993 [mains-2025-paper1#91]"},
+ {"trap": "Defines the Gram Sabha by age or residence instead of the electoral roll", "spot": "'All adults 18+', 'all citizens residing'", "fix": "Art 243(b): persons registered in the electoral rolls of the village.", "pyq": "Members of Gram Sabha → all voters as per electoral rolls [prelims-2017#62]"},
+ {"trap": "Includes an exempted State under Part IX", "spot": "North-eastern States among options", "fix": "Art 243M: not applicable to Nagaland, Meghalaya, Mizoram (and scheduled/hill areas); J&K was outside until 2019.", "pyq": "73rd Amd applies to → Orissa [group2-2008-paper2#133]; not applicable (2017) → Mizoram, Nagaland and J&K [mains-2017-paper1#102]"}
+],
+"techniques": [
+ {"name": "Rural vs urban sort [Eleventh / Twelfth]", "how": "Ask whether the subject only makes sense in a town (land-use regulation, slaughter houses, burial grounds, cattle pounds, urban planning) → Twelfth; farm, village industry, rural welfare → Eleventh.", "example": "Non-conventional energy, small-scale industries, vocational education are village development items → fall; cattle pounds is a municipal civic item → Cattle Pounds [mains-2025-paper1#143]"},
+ {"name": "PR committee timeline", "how": "Line them up: Grow More Food (1952) → CDP 1952 → Balwant Rai Mehta 1957 → Ashok Mehta 1977–78 / Dantwala 1978 → G.V.K. Rao 1985 → L.M. Singhvi 1986 → Gadgil 1988 → 73rd/74th 1992. Fix the first and last, then the middle.", "example": "Balwant Rai Mehta (1957) first, Gadgil (1988) last → only 'd, b, c, a' keeps Dantwala 1978 before Singhvi 1986 [mains-2025-paper1#90]"},
+ {"name": "Article-number check inside Part IX", "how": "Recall the key 243 letters: 243 definitions, 243A Gram Sabha, 243B tiers, 243D reservation, 243E duration, 243F disqualification (age 21), 243G Eleventh Schedule, 243-I SFC, 243K SEC, 243M exemptions.", "example": "Reservation of SC/ST seats in PRIs → 243D [mains-2019-paper2#126]"},
+ {"name": "Assertion-reason: status shift test", "how": "If R says the Act moved PRIs from DPSP (Art 40, non-justiciable) into enforceable constitutional provisions, that is the cause of the 'landmark' – R explains A.", "example": "73rd Amd is a landmark because it brought PRIs under the justiciable part → R explains A [mains-2025-paper1#110]"},
+ {"name": "Who-runs-what elimination", "how": "Separate bodies: SEC – panchayat and municipal elections; ECI – Parliament, State legislatures, President, VP; SFC – local finances. Eliminate options belonging to another body.", "example": "State Legislatures go to ECI, co-operatives to their own authority → SEC conducts elections to Local Bodies [mains-2025-paper1#89]"}
+],
+"confusions": [
+ {"a": "Balwant Rai Mehta (1957)", "b": "Ashok Mehta (1977–78)", "remember": "Balwant – three tiers, democratic decentralisation; Ashok – two tiers, four-year term, party participation."},
+ {"a": "Eleventh Schedule (29, panchayats)", "b": "Twelfth Schedule (18, municipalities)", "remember": "73rd → 11th → 29; 74th → 12th → 18."},
+ {"a": "Part IX (Arts 243–243O)", "b": "Part IXA (Arts 243P–243ZG)", "remember": "IX panchayats (16 Articles); IXA municipalities."},
+ {"a": "24 April 1993", "b": "1 June 1993", "remember": "73rd in force (Panchayati Raj Day) vs 74th in force."},
+ {"a": "Gram Sabha", "b": "Gram Panchayat", "remember": "Sabha = all registered voters (direct democracy); Panchayat = elected body headed by the Sarpanch."},
+ {"a": "State Election Commission (243K)", "b": "State Finance Commission (243-I)", "remember": "SEC conducts local elections; SFC reviews local finances every 5 years."},
+ {"a": "Sarpanch / Chairperson", "b": "Mayor / Councillor", "remember": "Sarpanch – village panchayat; Chairperson – municipality; Mayor – corporation; Councillor – ward."},
+ {"a": "L.M. Singhvi (1986)", "b": "G.V.K. Rao (1985)", "remember": "Singhvi – revitalisation of PRIs, constitutional status; G.V.K. Rao – administrative arrangements for rural development."},
+ {"a": "Dantwala (1978)", "b": "Gadgil (1988)", "remember": "Dantwala – block-level planning; Gadgil – policy committee before the 1989 Bill."},
+ {"a": "CDP (1952)", "b": "National Extension Service (1953)", "remember": "CDP launched 2 Oct 1952; NES followed in 1953."},
+ {"a": "Lord Ripon (1882)", "b": "Lord Mayo (1870)", "remember": "Ripon's 1882 resolution – 'Father of Local Self-Government'; Mayo's 1870 resolution on financial decentralisation."},
+ {"a": "Madras Corporation (1688)", "b": "Bombay and Calcutta (1726)", "remember": "Madras is India's first municipal corporation."}
+],
+"anchors": [
+ "Ripon resolution 18 May 1882",
+ "CDP 2 Oct 1952; Grow More Food Enquiry – V.T. Krishnamachari",
+ "Balwant Rai Mehta report 1957 – three tiers",
+ "Ashok Mehta 1977–78 – two tiers, four-year term (Morarji Desai govt)",
+ "L.M. Singhvi 1986 – revitalisation, constitutional status",
+ "73rd Amd: Part IX, 16 Articles (243–243O), Eleventh Schedule 29 items, in force 24 April 1993",
+ "74th Amd: Part IXA, Twelfth Schedule 18 items, in force 1 June 1993",
+ "Art 243(b) Gram Sabha = registered voters",
+ "Art 243D – SC/ST and one-third women reservation; BC optional",
+ "Art 243E – 5-year term, elections within 6 months of dissolution",
+ "Art 243F – minimum age 21",
+ "Art 243K/243ZA SEC; Art 243-I/243Y SFC",
+ "Art 243M – Nagaland, Meghalaya, Mizoram exempt",
+ "Madras – first municipal corporation, 1688"
+],
+"checklist": [
+ "Eleventh or Twelfth? Rural item → 29-item list; urban civic item → 18-item list.",
+ "Which committee: three tiers (Balwant) or two (Ashok)?",
+ "Compulsory or voluntary provision of the 73rd Amd?",
+ "Dates: passing year 1992 vs commencement 1993 (24 April / 1 June).",
+ "Numbers in statements: 6 months, age 21, one-third, 5 years – check each.",
+ "Chronology: fix first and last committee, then the middle."
+]
+}

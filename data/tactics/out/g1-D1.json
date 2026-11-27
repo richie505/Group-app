@@ -1,0 +1,78 @@
+{"section": "g1-D1",
+ "overview": "67 official Group 1 Qs (2008–2024) on physical geography: solar system, time, seasons, interior, landforms, atmosphere, climate, oceans and resources. Up to 2019 almost all one-liners (term → definition, region → mineral); 2023–24 add statement-based, match and A-R items on landforms, clouds, winds and ocean deposits. Two items (local time, atmospheric order) were repeated word for word.",
+ "possibility": [
+  {"angle": "Earth in the solar system – astronomy terms and eclipses", "evidence": "6 Qs: 2008, 2010×4, 2017", "level": "Moderate historical recurrence", "what_they_ask": "unit meaning (light year), field of a scientist (Copernicus), eclipse dates and types, Big Bang evidence"},
+  {"angle": "Motions of the Earth – perihelion, Coriolis, tides", "evidence": "3 Qs: 2008×2, 2019", "level": "Low historical recurrence", "what_they_ask": "perihelion/aphelion, cause of wind deflection, daily tide delay"},
+  {"angle": "Concept of time – latitude, longitude, local time", "evidence": "4 Qs: 2008, 2010, 2019, 2023 (2019 Q repeated in 2023)", "level": "Moderate historical recurrence", "what_they_ask": "local-time arithmetic across hemispheres, direction latitudes run, who first divided the circle into 360°"},
+  {"angle": "Seasons – solstices, equinoxes, Uttarayana", "evidence": "4 Qs: 2008, 2010, 2019, 2023", "level": "Moderate historical recurrence", "what_they_ask": "dates of solstices/equinoxes, where the Sun is overhead, Uttarayana span, latitude band with largest seasonal contrast"},
+  {"angle": "Internal structure of the Earth", "evidence": "3 Qs: 2010, 2017, 2019", "level": "Moderate historical recurrence", "what_they_ask": "layer names, named discontinuities (Moho), direct vs indirect sources of information"},
+  {"angle": "Major landforms – fluvial, glacial, karst, volcanic, tectonic", "evidence": "9 Qs: 2008, 2017×2, 2019×3, 2023, 2024×2", "level": "High historical recurrence", "what_they_ask": "agent → landform, intrusive forms (batholith, laccolith, phacolith, sill, dyke), gorge vs canyon, orogeny vs epeirogeny, volcanic mountain, karst site in AP, geyser park"},
+  {"angle": "Atmosphere – structure and composition", "evidence": "6 Qs: 2012, 2019×3, 2023, 2024 (2019 order Q repeated in 2023)", "level": "Moderate historical recurrence", "what_they_ask": "gas percentages and order, basis of layering (temperature), tropopause, halo optics"},
+  {"angle": "Elements and factors of climate – insolation, albedo, winds, clouds", "evidence": "7 Qs: 2008, 2017, 2019×3, 2024×2", "level": "Moderate historical recurrence", "what_they_ask": "terms (insolation, albedo), pressure belts (doldrums), trade wind direction, cloud type → appearance, instrument names, hydrological-cycle steps"},
+  {"angle": "Air masses and fronts", "evidence": "0 official Qs (fronts appear inside the 2024 extra-tropical cyclone item)", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets judging by neighbouring items: source-region codes (cP, mT), warm/cold/occluded front weather, frontogenesis in mid-latitudes"},
+  {"angle": "Atmospheric disturbances – cyclones", "evidence": "4 Qs: 2008, 2012, 2019, 2024 (2012 and 2019 deleted)", "level": "Moderate historical recurrence", "what_they_ask": "regional names of tropical cyclones, features of extra-tropical cyclones, named cyclones and landfall areas"},
+  {"angle": "Climate change", "evidence": "3 Qs: 2008, 2010, 2019", "level": "Moderate historical recurrence", "what_they_ask": "greenhouse effect location, ice-age epoch, attribution of a recent study"},
+  {"angle": "Oceans – relief, currents, deposits, corals", "evidence": "8 Qs: 2008, 2010, 2017, 2019×2, 2024×3", "level": "High historical recurrence", "what_they_ask": "warm vs cold currents, guyot/seamount/atoll, hypsometric curve, terrigenous deposits, tsunami cause, coastless sea, coral reef epithet"},
+  {"angle": "Hydrological disasters", "evidence": "2 Qs: 2012×2", "level": "Low historical recurrence", "what_they_ask": "flood-exposed population and hazard-prone coastline figures (NDMA numbers)"},
+  {"angle": "Marine and continental resources", "evidence": "8 Qs: 2008×2, 2010×4, 2012, 2019", "level": "Moderate historical recurrence", "what_they_ask": "mining region → mineral (Weipa, Nikopol, Karaganda, Lake Superior, Katanga), top producer (Chile copper), offshore oil on the shelf"}
+ ],
+ "traps": [
+  {"trap": "Swaps a look-alike term within one family", "spot": "Options or statements using laccolith/phacolith, orogeny/epeirogeny, cirrus/cumulonimbus", "fix": "Laccolith = dome with flat base; phacolith = wavy lens in folds; orogeny = mountains, epeirogeny = continents; halos form in thin cirrus/cirrostratus", "pyq": "'Phacoliths [...] dome-shaped' false → I, III, IV [group1-prelims-2024-paper1#91]; 'Orogeny is continental building' incorrect [group1-prelims-2024-paper1#93]; halo 'cumulonimbus' false [group1-prelims-2024-paper2#75]"},
+  {"trap": "Reverses a gradient or a wind direction", "spot": "'gradual increase in coarseness from shore', 'trade winds north-west', 'doldrums strong winds'", "fix": "Sediment gets finer seaward; NH trades are NE; doldrums are a calm belt", "pyq": "Statement II false → I, III, IV [group1-prelims-2024-paper1#100]; both false → 'None of them' [group1-prelims-2024-paper1#96]"},
+  {"trap": "Swaps the rank of a minor gas", "spot": "Order options putting CO₂ above argon", "fix": "N₂ 78% > O₂ 21% > Ar 0.93% > CO₂ ~0.04%", "pyq": "→ Nitrogen, Oxygen, Argon, CO₂ [group1-prelims-2019-paper1#98], repeated [group1-prelims-2023-paper1#120]"},
+  {"trap": "Denies the defining feature of a system", "spot": "Negative item where one option says 'do not have' a known feature", "fix": "Extra-tropical cyclones are frontal (warm + cold fronts); tropical ones are non-frontal", "pyq": "'do not have a clear frontal system' is incorrect [group1-prelims-2024-paper1#97]"},
+  {"trap": "Reverses which form is the extension of which", "spot": "Two-statement item comparing related landforms", "fix": "A canyon is the extended variant of a gorge, not the reverse", "pyq": "B false → Only A [group1-prelims-2019-paper1#97]"},
+  {"trap": "Gives a true but different reason in A-R", "spot": "Both statements true, R names a function rather than the basis of a name", "fix": "'Rainforests of the sea' refers to biodiversity; wave protection is another service", "pyq": "Both correct, II not the explanation [group1-prelims-2024-paper2#76]"},
+  {"trap": "Mixes cold and warm currents", "spot": "'Not a warm current' lists", "fix": "Cold currents run equatorward on western coasts of continents (Humboldt, Benguela, California, Canary); warm ones poleward on eastern coasts (Brazil, Agulhas, Kuroshio)", "pyq": "→ Humboldt [group1-prelims-2019-paper1#103]"},
+  {"trap": "Confuses direct and indirect evidence", "spot": "'direct source of information about the interior'", "fix": "Direct = mining, drilling, volcanic material; indirect = seismic waves, gravity, magnetism, meteorites", "pyq": "→ Surface rock from mining areas [group1-prelims-2017-paper1#133]"}
+ ],
+ "techniques": [
+  {"name": "Longitude-time arithmetic", "how": "Difference in longitude × 4 min = time difference. Across the prime meridian add the two longitudes; the place to the east is ahead.", "example": "60°W to 90°E [...] = 150° × 4 = 600 min = 10 h; B is east, so 10 a.m. + 10 h = 8 p.m. [group1-prelims-2019-paper1#111]; same Q [group1-prelims-2023-paper1#110]"},
+  {"name": "Agent → landform sorting", "how": "Name the agent first (river, glacier, wind, groundwater, sea), then decide erosional or depositional; drop options of the wrong agent.", "example": "Till, moraine, boulder clay are ice-laid → glacial [group1-prelims-2017-paper1#134]; stalactites/stalagmites → groundwater [group1-prelims-2008#24]"},
+  {"name": "Calendar anchor for Sun's position", "how": "Fix four dates: 21 Mar and 23 Sep (equator), 21 Jun (Cancer), 22 Dec (Capricorn). Northward movement = Uttarayana (Dec → Jun).", "example": "Winter solstice Dec 22, summer Jun 21, vernal Mar 21, autumnal Sep 23 → 'I II III IV' [group1-prelims-2019-paper1#91]; Uttarayana → 23 Dec–21 Jun [group1-prelims-2008#62]"},
+  {"name": "Match-list anchor on the most distinctive pair", "how": "Fix the pair you are surest of (cumulus = cauliflower), then check which codes keep it.", "example": "D-III keeps options 2 only (option 1 has D-IV, 3 D-I, 4 D-II) → A-II, B-I, C-IV, D-III [group1-prelims-2024-paper1#95]"},
+  {"name": "Region–mineral grid", "how": "Learn mineral regions in pairs of the same country/basin: Krivoy Rog iron vs Nikopol manganese; Karaganda/Kuznetsk coal; Mesabi iron vs Sudbury nickel; Weipa/Gove bauxite.", "example": "Nikopol → manganese, not chromite/nickel [group1-prelims-2010#20]; Karaganda → coal [group1-prelims-2019-paper1#108]"},
+  {"name": "Discontinuity ladder", "how": "Recall the sequence downward: Conrad (within crust), Moho (crust–mantle), Repetti (within mantle), Gutenberg (mantle–core), Lehmann (outer–inner core).", "example": "Crust–mantle boundary → Moho; Gutenberg is deeper [group1-prelims-2019-paper1#92]"}
+ ],
+ "confusions": [
+  {"a": "Laccolith", "b": "Phacolith / Lopolith", "remember": "Dome vs wavy lens in folds vs saucer"},
+  {"a": "Sill", "b": "Dyke", "remember": "Sill horizontal, dyke vertical wall"},
+  {"a": "Orogeny", "b": "Epeirogeny", "remember": "Oros = mountain; epeiros = continent"},
+  {"a": "Gorge", "b": "Canyon", "remember": "Canyon = extended gorge with step-like sides, in sedimentary rock"},
+  {"a": "Seamount", "b": "Guyot", "remember": "Pointed vs flat-topped (subsided)"},
+  {"a": "Typhoon", "b": "Hurricane / Willy-willy", "remember": "W Pacific vs Atlantic/E Pacific vs Australia"},
+  {"a": "Tropical cyclone", "b": "Extra-tropical cyclone", "remember": "Non-frontal, sea only, intense vs frontal, land or sea, larger area"},
+  {"a": "Perihelion (~3 Jan)", "b": "Aphelion (~4 Jul)", "remember": "Closest to the Sun in NH winter"},
+  {"a": "Total eclipse 22 Jul 2009", "b": "Annular eclipse 15 Jan 2010", "remember": "Longest total of the century vs longest annular of the millennium"},
+  {"a": "Hygrometer", "b": "Hydrometer", "remember": "Air moisture vs liquid density"},
+  {"a": "Hydrological cycle steps", "b": "Hydration / hydrolysis", "remember": "Hydration is chemical weathering, not part of the cycle"},
+  {"a": "Cirrus (silky)", "b": "Cirrostratus (milky) / Cirrocumulus (small globules)", "remember": "Cumulus = cauliflower; nimbus = rain"},
+  {"a": "Doldrums (equator)", "b": "Horse latitudes (~30°)", "remember": "Both calm; doldrums low pressure, horse latitudes high pressure"},
+  {"a": "Belum / Borra (natural karst caves)", "b": "Undavalli / Bojjannakonda (rock-cut caves)", "remember": "Limestone solution vs human carving"},
+  {"a": "Sargasso Sea", "b": "Yellow Sea", "remember": "Sargasso is the coastless sea, bounded by currents"}
+ ],
+ "anchors": [
+  "1° longitude = 4 minutes; 15° = 1 hour",
+  "21 Mar / 23 Sep – Sun over Equator; 21 Jun – Cancer; 22 Dec – Capricorn",
+  "N₂ 78.08%, O₂ 20.95%, Ar 0.93%, CO₂ ~0.04%",
+  "Atmospheric layers are defined by temperature profile",
+  "Moho = crust–mantle; Gutenberg = mantle–core",
+  "Tide comes ~52 minutes later each day",
+  "NH trade winds blow from the NE; Coriolis deflects right in NH",
+  "Albedo highest for fresh snow",
+  "Halo radius ~22°, from ice crystals in thin cirrus-type clouds",
+  "Pacific is the largest ocean",
+  "Offshore oil lies mostly on continental shelves",
+  "Chile – largest copper producer",
+  "India: ~5,700 km of coast hazard-prone; ~200 million exposed to floods (per key)",
+  "Tsunamis are chiefly caused by sea-floor fault movement (earthquakes)"
+ ],
+ "checklist": [
+  "Which family of terms is this – and which twin term could be swapped in?",
+  "Is a direction or gradient stated (NE/NW, coarse→fine, warm→cold)? Check it against the rule",
+  "For time items, do the 4-minute arithmetic before reading options",
+  "For landforms, name the agent and whether it erodes or deposits",
+  "For A-R, check that R is the reason for the specific claim in A, not just another true fact",
+  "For mineral/region items, recall the region's main mineral and its neighbour region's"
+ ]
+}

@@ -1,0 +1,63 @@
+{"section": "g2-P3.1",
+"overview": "Structure of Indian Society: 16 official questions – 2017 (3), 2019 Mains (2) and 2024 Prelims (11). 2024 concentrated on marriage (7): divorce forms, Kerala/ancient customs, Hindu Marriage Act sections, tribal marriage types. Religion and tribe get a few; family, caste, ethnicity and women have no official question yet, though other APPSC sociology papers ask them often.",
+"possibility": [
+ {"angle": "Concepts and methods – leadership, attitude scales", "evidence": "2 Qs: 2019×2", "level": "Low historical recurrence", "what_they_ask": "Term for a definition (leadership), name of a measuring scale (Thurstone)."},
+ {"angle": "Family – types, joint family, family laws", "evidence": "0 official Qs; frequent in other APPSC sociology papers", "level": "Syllabus angle not yet asked", "what_they_ask": "Natural targets: family of orientation vs procreation, matriarchal/patriarchal, Irawati Karve and K.M. Kapadia on the joint family, Nair tharavad, causes of joint-family decline."},
+ {"angle": "Marriage – forms, customs, divorce, HMA provisions, same-sex marriage", "evidence": "7 Qs: 2024×7", "level": "Low historical recurrence", "what_they_ask": "Name of a custom (Niyoga, Sambandham), tribal marriage type (Diku Andi), form of talaq under challenge, HMA section number, first South Asian country to register same-sex marriage."},
+ {"angle": "Kinship – consanguineal vs affinal", "evidence": "1 Q: 2024", "level": "Low historical recurrence", "what_they_ask": "Identify the blood relation in a family puzzle."},
+ {"angle": "Caste", "evidence": "0 official Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "Natural targets: Sanskritisation and dominant caste (M.N. Srinivas), Ghurye's features of caste, Dumont's Homo Hierarchicus, jajmani system, anuloma/pratiloma."},
+ {"angle": "Tribe – festivals, tribal data, committees", "evidence": "3 Qs: 2017×2, 2024", "level": "Low historical recurrence", "what_they_ask": "Festival → State, Census figure on ST households, chair of the 2013 tribal status committee."},
+ {"angle": "Ethnicity", "evidence": "0 official Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "Natural targets: ethnic group vs race vs tribe definitions, North-East ethnic identities, International Mother Language Day (21 Feb)."},
+ {"angle": "Religion – rituals, sociological theories of religion", "evidence": "3 Qs: 2017, 2024×2", "level": "Low historical recurrence", "what_they_ask": "Which community follows a ritual (Santhara, Dakhma), who gave a quoted theory of religion."},
+ {"angle": "Women", "evidence": "0 official Qs; related APPSC exams ask quotes and laws", "level": "Syllabus angle not yet asked", "what_they_ask": "Natural targets: author of a quote on women's status (K.M. Panikkar), women-related Acts (Dowry 1961, Domestic Violence 2005), matrilineal communities (Khasi, Nair)."}
+],
+"traps": [
+ {"trap": "Gives a ritual of a neighbouring religion [community swap]", "spot": "Options mix Jain, Parsi, Buddhist and Sufi terms", "fix": "Santhara/Sallekhana and Aparigraha = Jain; Dakhma (Tower of Silence), Shenshai = Parsi.", "pyq": "Santhara → Jains [prelims-2017#136]; excarnation structure → Dakhma [prelims-2024#62]"},
+ {"trap": "Swaps the tribe for a marriage type", "spot": "Each option pairs a marriage form with a tribe", "fix": "Diku Andi = marriage by negotiation (Ho); probation = Kuki; capture = Naga.", "pyq": "Diku Andi → negotiation in Ho tribes [prelims-2024#63]"},
+ {"trap": "Offers a neighbouring HMA section", "spot": "Section numbers 4, 5, 12, 13 together", "fix": "S.5 conditions: (iv) prohibited degrees, (v) sapinda; S.12 voidable; S.13 divorce.", "pyq": "Sapinda bar upheld → Section 5(v) [prelims-2024#86]"},
+ {"trap": "Gives the struck-down talaq instead of the one now challenged", "spot": "Talaq forms after the 2017 judgement", "fix": "Talaq-e-biddat (instant) struck in 2017; Talaq-e-Hasan (three monthly pronouncements) challenged later.", "pyq": "→ Talaq-e-Hasan [prelims-2024#74]"},
+ {"trap": "Mixes blood and marriage kin", "spot": "Kinship puzzle with spouses and in-laws as options", "fix": "Consanguineal = by blood (uncle–niece); spouses and in-laws are affinal.", "pyq": "Krishna (maternal uncle) and Jyothi → consanguineous [prelims-2024#66]"},
+ {"trap": "Gives a neighbouring theorist of religion", "spot": "Quote on religion with Durkheim, Malinowski, Parsons", "fix": "Death/anxiety and emotional stress as source → Malinowski; sacred–profane, collective conscience → Durkheim.", "pyq": "→ Bronislaw Malinowski [prelims-2024#82]"},
+ {"trap": "Swaps NE festivals between States", "spot": "Four NE States as options", "fix": "Hornbill – Nagaland; Sangai – Manipur; Chapchar Kut – Mizoram; Wangala – Meghalaya.", "pyq": "Hornbill → Nagaland [prelims-2017#134]"}
+],
+"techniques": [
+ {"name": "Community-term sorting [religion tags]", "how": "Tag each option term with its religion; the answer is the one tied to the stem's community.", "example": "Zoroastrian excarnation: Aparigraha and Sallekhana are Jain, Shenshai is a Parsi calendar sect → Dakhma [prelims-2024#62]"},
+ {"name": "Blood-line tracing", "how": "Draw the family tree; join only by parent–child links. Any link that passes through a marriage is affinal.", "example": "Krishna → parents → sister Madhavi → daughter Jyothi: only blood links → Krishna and Jyothi [prelims-2024#66]"},
+ {"name": "Region/period anchor for customs", "how": "Place the custom by region and era: Kerala matriliny, ancient Hindu law, tribal India.", "example": "Nair–Namboothiri matrilineal union → Sambandham [prelims-2024#85]; ancient procreation custom → Niyoga [prelims-2024#88]"},
+ {"name": "Committee-by-year", "how": "Tie tribal committees to years: Dhebar 1960-61, Bhuria 2002-04, Xaxa 2013-14.", "example": "PMO 2013 high-level committee → Virginius Xaxa [prelims-2024#72]"},
+ {"name": "Current-law check", "how": "For 'first/recent' legal questions, recall the latest status in each country or court.", "example": "Nepal registered a same-sex marriage in 2023; India's SC did not recognise it → Nepal [prelims-2024#120]"}
+],
+"confusions": [
+ {"a": "Santhara / Sallekhana", "b": "Dakhma", "remember": "Jain fast unto death vs Parsi Tower of Silence."},
+ {"a": "Consanguineal kin", "b": "Affinal kin", "remember": "Blood relation vs relation through marriage."},
+ {"a": "Talaq-e-biddat", "b": "Talaq-e-Hasan", "remember": "Instant triple talaq (struck 2017) vs three pronouncements over three months."},
+ {"a": "Talaq-e-Ahsan", "b": "Talaq-i-Tafweez", "remember": "Single pronouncement + iddat vs delegated right of divorce to the wife."},
+ {"a": "HMA S.5(iv)", "b": "HMA S.5(v)", "remember": "Prohibited degrees vs sapinda relationship."},
+ {"a": "Niyoga", "b": "Anuloma / Pratiloma", "remember": "Levirate-type procreation custom vs hypergamy / hypogamy."},
+ {"a": "Sambandham", "b": "Tharavad", "remember": "Nair–Namboothiri union vs matrilineal joint household."},
+ {"a": "Malinowski", "b": "Durkheim", "remember": "Religion from anxiety and death vs from the sacred and collective life."},
+ {"a": "Thurstone scale", "b": "Likert / Bogardus scale", "remember": "Equal-appearing intervals vs agree–disagree / social distance."},
+ {"a": "Leadership", "b": "Authority", "remember": "Ability to influence vs legitimate power."},
+ {"a": "Family of orientation", "b": "Family of procreation", "remember": "Born into vs created by marriage."},
+ {"a": "Hornbill", "b": "Sangai", "remember": "Nagaland vs Manipur festival."}
+],
+"anchors": [
+ "Santhara / Sallekhana – Jain ritual fast unto death.",
+ "Dakhma – Parsi Tower of Silence.",
+ "Diku Andi – marriage by negotiation among the Ho.",
+ "HMA 1955 – S.5(v) sapinda bar; S.12 voidable; S.13 divorce.",
+ "Talaq-e-biddat struck down in 2017 (Shayara Bano); criminalised by 2019 Act.",
+ "Xaxa Committee – set up 2013 on tribal socio-economic, health and education status.",
+ "Nepal – first South Asian nation to register a same-sex marriage (2023).",
+ "Hornbill Festival – Nagaland (Dec).",
+ "Thurstone scale – attitude measurement.",
+ "Malinowski – death and anxiety as sources of religion.",
+ "Irawati Karve – joint family as an extended kinship group; K.M. Kapadia – 'Marriage and Family in India'."
+],
+"checklist": [
+ "Which community or tribe does the stem name? Tag each option to its community.",
+ "For kinship, draw the tree and check for any marriage link.",
+ "Law questions: recall the exact section and the latest court status.",
+ "Theorist quotes: match the key idea (death, sacred, function) to the thinker.",
+ "For an angle not yet asked (caste, family, women), expect definitions and author–concept pairs."
+]}

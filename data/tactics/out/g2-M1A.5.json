@@ -1,0 +1,64 @@
+{"section": "M1A.5",
+ "overview": "33 official Qs (2008: 4, 2017: 15, 2019: 9, 2025: 5). Mostly one-liners (23 with options, 5 stem-only) plus negative, statement and CM-chronology Qs. Post-1956 social/cultural/political events = 23 Qs; the 1953–56 merger steps (Visalandhra, SRC, Gentlemen's Agreement) are smaller but steady. Year and 'who was CM/first holder' facts dominate.",
+ "possibility": [
+  {"angle": "Events leading to Andhra Pradesh (Andhra State CMs, Burgula's change of stand)", "evidence": "2 Qs: 2008, 2017", "level": "Moderate historical recurrence", "what_they_ask": "Last CM of Andhra State, the year a Hyderabad leader changed stance"},
+  {"angle": "Visalandhra Mahasabha (supporters, Communist role)", "evidence": "2 Qs: 2017, 2025", "level": "Moderate historical recurrence", "what_they_ask": "Who supported Visalandhra at the 1954 session, Communist stance on linguistic states"},
+  {"angle": "States Reorganisation Commission and earlier commissions", "evidence": "2 Qs: 2017×2 (one deleted for date ambiguity)", "level": "Low historical recurrence", "what_they_ask": "Which commission said what in which year (Dhar 1948), SRC dates; natural next targets: SRC members and its Telangana recommendation"},
+  {"angle": "Gentlemen's Agreement (signatories, terms)", "evidence": "4 Qs: 2008, 2019×2, 2025", "level": "Moderate historical recurrence", "what_they_ask": "Number of signatories, who was not a signatory, cabinet ratio, its role in forming AP"},
+  {"angle": "Political events 1956–2014 (CMs, TDP, 1969 and 1972–73 agitations, Six-Point Formula, land reforms)", "evidence": "part of 23 Qs on M1A.5.5 (2008×2, 2017×11, 2019×7, 2025×3)", "level": "High historical recurrence", "what_they_ask": "CM during an event, order of CMs, year Congress rule broke, cause/end of Jai Andhra, amendment number, date of YSR crash, first Dharma Mahamatra"},
+  {"angle": "Social and cultural events 1956–2014 (literature, awards, institutions, movements)", "evidence": "same 23-Q leaf: Sahitya Academy 1957, Ravindra Bharathi 1961, Telugu official language 1966, WTC 1975, Dubagunta 1991, Jnanpith, Jashuva, Bapu, Nallapoddu", "level": "High historical recurrence", "what_they_ask": "Year an institution/act/conference began, who inaugurated it, author of a work, award–work pair, birth name of an artist, village of a movement"}
+ ],
+ "traps": [
+  {"trap": "Founding year vs year of coming to power", "spot": "Options with consecutive years [1982, 1983, 1984] for a party event", "fix": "TDP founded 29 Mar 1982; won and broke Congress rule Jan 1983; 1984 = Nadendla episode", "pyq": "'continuous Congress rule … was broken' → 1983, not 1982 [group2-2008-paper2#2]"},
+  {"trap": "'Andhra State' and 'Andhra Pradesh' firsts/lasts swapped", "spot": "Stem says Andhra State; options include the first AP CM", "fix": "Andhra State CMs: Prakasam (first), Bezawada Gopala Reddy (last); Sanjiva Reddy = first CM of AP", "pyq": "'last CM of Andhra State' → Bezawada Gopala Reddy, not Sanjiva Reddy [group2-2008-paper2#55]"},
+  {"trap": "Famous work given for the award-winning work", "spot": "Statement pairs an award with an author's best-known book", "fix": "Jashuva's 1964 Sahitya Akademi award was for Kreestu Charitra, not Gabbilam", "pyq": "'Sahitya Akademi award for Gabbilam in 1964' → incorrect [mains-2025-paper1#34]"},
+  {"trap": "Passing the bill vs enforcing it", "spot": "Two successive CMs offered for a reform", "fix": "Land Ceiling bill passed under P.V. Narasimha Rao (1973); enforced under Vengal Rao", "pyq": "'Ministry … passed a Bill on Land Reforms' → P.V. Narasimha Rao [mains-2017-paper2#69]"},
+  {"trap": "Direction reversal of a party's stance", "spot": "Statement uses 'opposed'/'supported' about Communists", "fix": "Communists championed Visalandhra and integrated linguistic states", "pyq": "'Communists opposed integrated linguistic States' → incorrect [mains-2025-paper1#41]"},
+  {"trap": "Cabinet ratio reversed or equalised", "spot": "Options 50:50, 40:60, 60:40, 70:30", "fix": "Gentlemen's Agreement: 60 Andhra : 40 Telangana", "pyq": "'ratio of Cabinet representation for Andhra and Telangana' → 60 : 40 [mains-2025-paper1#44]"},
+  {"trap": "Commission year mismatch", "spot": "Dhar, JVP, Wanchoo listed for a 1948 view", "fix": "Dhar 1948 (linguistic states a threat); JVP 1949; Wanchoo 1953; SRC 1953–55", "pyq": "'In 1948 which Commission … threat to unity' → Dhar Commission [mains-2017-paper2#59]"}
+ ],
+ "techniques": [
+  {"name": "CM ladder", "how": "Memorise the AP CM sequence [Sanjiva Reddy, Sanjivaiah, Sanjiva Reddy, Brahmananda Reddy, PVN, Vengal Rao, Chenna Reddy, Anjaiah, Bhavanam, Kotla, NTR] and place the CM for any event or order Q.", "example": "Sanjivaiah 1960 → Brahmananda Reddy 1964 → PVN 1971 → Anjaiah 1980 → 'B, D, C, A' [mains-2025-paper1#43]; TDP founded under Bhavanam Venkatram [prelims-2019#97]"},
+  {"name": "Cause → end chain", "how": "For an agitation, write cause → crisis → settlement and match the stage the stem asks.", "example": "Jai Andhra: SC upholds Mulki rules (cause) → President's rule → Six-Point Formula (end) → 'The Six-Point Formula' [prelims-2019#100]"},
+  {"name": "Signatory list check", "how": "Recall the 4+4 signatories; anyone outside the eight is the 'not a member'.", "example": "Andhra side Gopala Reddy, Sanjiva Reddy, Latchanna, Alluri Satyanarayana Raju → Prakasam not a member [mains-2019-paper2#71]; 4+4 → 'Eight' [group2-2008-paper2#59]"},
+  {"name": "Decisive-step test", "how": "When several true steps are offered, pick the one the stem says was final or decisive.", "example": "Burgula's acceptance and Andhra's resolution came first; AP took birth only after the Gentlemen's Agreement (20 Feb 1956) [prelims-2019#99]"},
+  {"name": "Year anchors for culture", "how": "Tie each institution/event to its year (1957, 1961, 1966, 1975, 1991) and drop neighbours.", "example": "First World Telugu Conference → 1975 [mains-2017-paper2#70]; Telugu official language → 1966 [mains-2017-paper2#67]"}
+ ],
+ "confusions": [
+  {"a": "TDP founded (1982)", "b": "TDP in power (1983)", "remember": "Founded 29 Mar 1982; NTR CM 9 Jan 1983"},
+  {"a": "Jai Telangana 1969", "b": "Jai Andhra 1972–73", "remember": "1969 CM = Brahmananda Reddy; 1972–73 CM = P.V. Narasimha Rao, ended by Six-Point Formula"},
+  {"a": "Six-Point Formula", "b": "Gentlemen's Agreement", "remember": "Six-Point 1973 → 32nd Amendment, Art 371D; Gentlemen's Agreement 20 Feb 1956, 60:40 cabinet"},
+  {"a": "Prakasam", "b": "Bezawada Gopala Reddy", "remember": "Prakasam = first CM of Andhra State; Gopala Reddy = last CM and Gentlemen's Agreement signatory"},
+  {"a": "Neelam Sanjiva Reddy", "b": "Damodaram Sanjivaiah", "remember": "Sanjiva Reddy = first AP CM (1956); Sanjivaiah = second, first Dalit CM (1960)"},
+  {"a": "Gabbilam", "b": "Kreestu Charitra", "remember": "Gabbilam = bat carrying the Dalit's message; Kreestu Charitra = 1964 Sahitya Akademi award"},
+  {"a": "Viswanatha Satyanarayana", "b": "C. Narayana Reddy", "remember": "Viswanatha = first Telugu Jnanpith 1970 (Ramayana Kalpavrikshamu); CiNaRe = 1988"},
+  {"a": "Bapu", "b": "Ramana", "remember": "Bapu = Sattiraju Lakshminarayana (artist); Ramana = Mullapudi (writer)"},
+  {"a": "Dhar Commission", "b": "Wanchoo Committee", "remember": "Dhar 1948 on linguistic provinces; Wanchoo 1953 on the new Andhra State's finances"},
+  {"a": "PVN (land bill)", "b": "Vengal Rao (enforcement)", "remember": "Bill passed under PVN; implemented under Vengal Rao"},
+  {"a": "Burgula Ramakrishna Rao 1955", "b": "Ramananda Tirtha 1954", "remember": "Ramananda Tirtha backed Visalandhra in 1954; Burgula switched to merger in 1955"}
+ ],
+ "anchors": [
+  "1 Nov 1956 – Andhra Pradesh formed; 20 Feb 1956 – Gentlemen's Agreement (8 signatories, 60:40 cabinet)",
+  "1955 – SRC report; Burgula changes stand to support merger",
+  "1957 – AP Sahitya Academy; 1961 – Ravindra Bharathi inaugurated by S. Radhakrishnan",
+  "1966 – Telugu made official language of AP",
+  "1968–70 – Srikakulam armed struggle",
+  "1969 – Telangana agitation under CM Brahmananda Reddy",
+  "1970 – first Telugu Jnanpith, Viswanatha Satyanarayana",
+  "1972–73 – Jai Andhra, triggered by the Supreme Court upholding Mulki rules; ended by the Six-Point Formula; 32nd Amendment",
+  "1973 – land ceiling bill under P.V. Narasimha Rao",
+  "1975 – first World Telugu Conference",
+  "1982 TDP founded (under CM Bhavanam Venkatram); 1983 Congress rule broken",
+  "E.V. Rama Reddy – first Dharma Mahamatra (NTR)",
+  "1991 – anti-arrack agitation by women at Dubagunta",
+  "2 Sep 2009 – Y.S. Rajasekhara Reddy's helicopter crash"
+ ],
+ "checklist": [
+  "Andhra State (1953–56) or Andhra Pradesh (1956–)? Fix which before choosing a 'first/last'.",
+  "Place the event on the CM ladder – who was CM then?",
+  "Founded, passed, enforced or came to power? Match the verb to the year/person.",
+  "For agitations, decide whether the stem asks cause, crisis or settlement.",
+  "For awards, match the exact work and year, not the author's best-known book.",
+  "For the 1956 deal, recall 4+4 signatories and 60:40."
+ ]
+}
