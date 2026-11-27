@@ -19,8 +19,9 @@ For EVERY question write one JSON line to data/pyqdecode/jobs/<g>-<n>.out.jsonl:
     {"id": "...",
      "format": "one-liner" | "negative one-liner" | "statement-based" | "matching" | "chronology" | "assertion-reason" |
                "multiple-correct" | "odd-one-out" | "data/passage" | <another real format>,
-     "leaf": "<ONE code from candidate_leaves – the micro-topic actually tested; if none fits, the closest code from the
-              exam's syllabus (data/g1syl/leaves.json or data/g2syl/leaves.md) and say so in leaf_note>",
+     "leaf": "<ONE syllabus code – the micro-topic actually tested. candidate_leaves are only suggestions (often wrong):
+              choose the right code from the exam's syllabus (data/g1syl/leaves.json or data/g2syl/leaves.md) and give the
+              reason in leaf_note when it is not a candidate>",
      "leaf_note": "",
      "micro_topic": "<finer than the leaf: e.g. 'Parliament > PAC > Chairperson > appointment'>",
      "blueprint_keyword": "<the syllabus/blueprint keyword the fact hangs on, e.g. 'Public Accounts Committee'>",
@@ -36,7 +37,7 @@ For EVERY question write one JSON line to data/pyqdecode/jobs/<g>-<n>.out.jsonl:
         "true_fact": "<for F: the correct version>",
         "mechanism": "<for F – one of: authority swap, institution substitution, person substitution, location substitution,
                       chronological displacement, numerical alteration, fraction/majority alteration, article/act/amendment
-                      substitution, definition distortion, function/power substitution, exception removal, exception
+                      substitution, true fact not the one asked, definition distortion, function/power substitution, exception removal, exception
                       insertion, scope expansion, scope restriction, quantifier distortion, comparison reversal, direction
                       reversal, cause-effect reversal, true core + false extra, multi-fact merge, similar-term confusion,
                       wrong period, wrong institution, wrong pair, fabricated – or a NEW name if none fits>",
@@ -56,7 +57,11 @@ Rules:
   analyse the statements, note "deleted by APPSC" in key_note.
 - For a combined-option key (e.g. "1 and 3 only"), statement truths follow only if the option set fixes them; if not,
   verify the fact (basis "fact") or mark "pending".
-- "phrases": list only fact-bearing words and the qualifiers that matter (2–6 per statement); mark role "trap" only
+- One-liner options: the unit is "stem + option" as an answer to THIS question. An option that is a true fact but not
+  the answer asked for is F with mechanism "true fact not the one asked".
+- Facts: check with the app notes (`python3 tools/gapfill.py find <word> ...`; data/notes2026/src/INDEX.md lists the
+  source texts) and well-established knowledge; cite them in fact_source. If nothing settles a unit, basis "key".
+- "phrases": list only fact-bearing words and the qualifiers that matter (2–6 per statement; 1–3 per one-liner option); mark role "trap" only
   where the change of THAT word makes the statement false here.
 - Time-sensitive facts: state the date/period the fact refers to.
 - Short, exact, no padding. English.
