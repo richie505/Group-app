@@ -391,4 +391,70 @@ class Group2Test {
         rule.waitForIdle()
         assertEquals(1, app.store.answers.size)
     }
+
+    @Test fun matchingMcqAsTable() {
+        repo.mcqNotes = true
+        // a subsection whose first MCQ is a List I / List II matching question
+        val (bk, ri, sub) = runBlocking {
+            (1..6).firstNotNullOf { b ->
+                repo.book(b)
+                val m = repo.mcq(b)
+                m.rows.keys.sorted().flatMap { r -> (0 until 40).map { r to it } }.firstOrNull { (r, s) ->
+                    m.subQuestions(r, s).firstOrNull()?.let { com.appsc.prep.data.MatchLayout.parse(it.stem)?.left?.size == 4 } == true
+                }?.let { Triple(b, it.first, it.second) }
+            }
+        }
+        shot("8_matching_table") { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", bk, ri, sub), "all", "Section MCQs", nav) }
+        // the two list headings (with their titles), side by side
+        assertEquals(2, rule.onAllNodesWithText("List I", substring = true).fetchSemanticsNodes().count { it.config.toString().contains("List I") })
+        assertEquals(4, rule.onAllNodesWithText("(a) – (", substring = true).fetchSemanticsNodes().size)
+    }
+
+    @Test fun matchLayoutParses() {
+        val m = com.appsc.prep.data.MatchLayout.parse(
+            "Match List I (Monument) with List II (Place):\nList I (Monument)\na. Char Minar\nb. Akbar's Tomb\nc. Humayun's Tomb\nd. Taj Mahal\n" +
+                "List II (Place)\ni. Delhi\nii. Agra\niii. Hyderabad\niv. Sikandara\nSelect the correct answer using the codes given below:")!!
+        assertEquals("Monument", m.leftTitle)
+        assertEquals("Place", m.rightTitle)
+        assertEquals(listOf("a" to "Char Minar", "b" to "Akbar's Tomb", "c" to "Humayun's Tomb", "d" to "Taj Mahal"), m.left)
+        assertEquals(4, m.right.size)
+        assertEquals("Select the correct answer using the codes given below:", m.outro)
+        assertEquals("(a) – (iii),  (b) – (iv),  (c) – (i),  (d) – (ii)", com.appsc.prep.data.MatchLayout.option("a-iii, b-iv, c-i, d-ii"))
+        assertEquals("1, 2 and 3", com.appsc.prep.data.MatchLayout.option("1, 2 and 3"))
+        // headings glued to other lines (old papers)
+        val g = com.appsc.prep.data.MatchLayout.parse("Match the following: List-I (Cave)\na. Undavalli\nb. Mogalrajapuram\nc. Bhairavakonda List-II (Feature)\n1. Eight caves\n2. Four storeys\n3. Five caves Select the correct answer using the code given below:")!!
+        assertEquals(3, g.left.size); assertEquals("Five caves", g.right[2].second); assertEquals("Cave", g.leftTitle)
+        assertEquals(null, com.appsc.prep.data.MatchLayout.parse("Which of the following is correct?"))
+    }
+
+    @Test fun everyMatchingMcqGetsTheTable() = runBlocking {
+        // every two-list matching question (a "match" stem whose options are codes like "a-iii, b-i") is drawn as the table
+        val code = Regex("""\(?([A-Ha-h1-8]|[ivxIVX]{1,4})\)?\s*[-–→]\s*\(?([ivxIVX]{1,4}|[1-8]|[A-Ha-h])\)?""")
+        var n = 0
+        val miss = mutableListOf<String>()
+        for (b in 1..6) {
+            repo.book(b)
+            for (qs in repo.mcq(b).rows.values) for (q in qs) {
+                if (!Regex("""\bmatch(?!es\b)""", RegexOption.IGNORE_CASE).containsMatchIn(q.stem)) continue
+                if (q.options.count { code.findAll(it).count() >= 2 } < 2) continue
+                n++
+                if (com.appsc.prep.data.MatchLayout.parse(q.stem, q.options) == null) miss += q.id
+            }
+        }
+        println("matching MCQs: $n, not drawn as a table: ${miss.size} ${miss.take(20)}")
+        assertTrue("found $n matching MCQs", n > 3000)
+        assertTrue("${miss.size} matching MCQs without the table: ${miss.take(20)}", miss.size * 200 < n)
+    }
+
+    @Test fun pairsLayoutParses() {
+        val p = com.appsc.prep.data.PairsLayout.parse("Consider the following pairs:\nHistorical place - Well-known for\n1. Burzahom - Rock-cut shrines\n2. Chandra-ketugarh - Terracotta art\n3. Ganeshwar - Copper artifacts\nWhich of the pairs given above is/are correctly matched?")!!
+        assertEquals("Historical place", p.headLeft); assertEquals("Well-known for", p.headRight)
+        assertEquals(Triple("2", "Chandra-ketugarh", "Terracotta art"), p.items[1])
+        assertEquals("Which of the pairs given above is/are correctly matched?", p.outro)
+        // names with initials are not labels; a list on one line; no headings at all
+        val v = com.appsc.prep.data.MatchLayout.parse("Match the persons (List-I) with the bodies (List-II):\nList-I\na. A. Vaidyanathan\nb. Prakash Bakshi\nc. B. Sivaraman\nList-II\ni. CRAFICARD\nii. Single Window\niii. Task Force\nSelect the correct answer:")!!
+        assertEquals("A. Vaidyanathan", v.left[0].second); assertEquals(3, v.right.size)
+        val o = com.appsc.prep.data.MatchLayout.parse("Match List-I (Place) with List-II (Year):\nA. Meerut\nB. Kanpur\nC. Lucknow\nD. Banaras; 1. 1916 2. 1905 3. 1946 4. 1925", listOf("A-3, B-4, C-1, D-2", "A-1, B-2, C-3, D-4"))!!
+        assertEquals("Banaras", o.left[3].second); assertEquals("1925", o.right[3].second); assertEquals("Place", o.leftTitle)
+    }
 }

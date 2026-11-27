@@ -5,6 +5,7 @@ package com.appsc.prep.ui.screens
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.material3.TextButton
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -421,10 +422,8 @@ internal fun QuizRound(
                             }
                             if (q.id in edits) Tag("Corrected by you", C.GreenSoft, C.Green)
                         }
-                        Text(
-                            q.stem,
-                            style = TextStyle(fontSize = 17.sp, lineHeight = 25.sp, fontWeight = FontWeight.Medium, color = Color.Black),
-                        )
+                        val match = remember(q.id, q.stem) { com.appsc.prep.data.MatchLayout.parse(q.stem, q.options) }
+                        StemText(q.stem, match, TextStyle(fontSize = 17.sp, lineHeight = 25.sp, fontWeight = FontWeight.Medium, color = Color.Black))
                         if (q.table.isNotEmpty()) QuestionTable(q.table)
                         Spacer(Modifier.height(14.dp))
                         when (q.kind) {
@@ -433,7 +432,7 @@ internal fun QuizRound(
                                 store.recordAnswer(q.id, knew)
                             }
                             'u' -> {
-                                q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, answer = q.answer) { pick(i) } }
+                                q.options.forEachIndexed { i, opt -> OptionCard(i, optText(opt, match), picked, answer = q.answer) { pick(i) } }
                                 if (answered) {
                                     Spacer(Modifier.height(8.dp))
                                     UnscoredNote(q)
@@ -447,7 +446,7 @@ internal fun QuizRound(
                                 } else HintBox(q) { revealed += q.id }
                             }
                             else -> {
-                                q.options.forEachIndexed { i, opt -> OptionCard(i, opt, picked, q.answer) { pick(i) } }
+                                q.options.forEachIndexed { i, opt -> OptionCard(i, optText(opt, match), picked, q.answer) { pick(i) } }
                                 if (answered) {
                                     Spacer(Modifier.height(8.dp))
                                     Explanation(q, picked == q.answer, picked, onOpenNotes, onGoogleExplain, onPeek)
@@ -817,6 +816,107 @@ private fun HintBox(q: Question, onReveal: () -> Unit) {
     }
 }
 
+private fun optText(opt: String, match: com.appsc.prep.data.MatchLayout?) = if (match != null) com.appsc.prep.data.MatchLayout.option(opt) else opt
+
+/** The question text; a "Match List I with List II" question is drawn as the paper's two-list table. */
+@Composable
+private fun StemText(stem: String, match: com.appsc.prep.data.MatchLayout?, style: TextStyle) {
+    if (match == null) {
+        val pairs = remember(stem) { com.appsc.prep.data.PairsLayout.parse(stem) }
+        if (pairs == null) Text(stem, style = style) else {
+            if (pairs.intro.isNotBlank()) Text(pairs.intro, style = style)
+            PairsTable(pairs)
+            if (pairs.outro.isNotBlank()) Text(pairs.outro, style = style, modifier = Modifier.padding(top = 10.dp))
+        }
+        return
+    }
+    if (match.intro.isNotBlank()) Text(match.intro, style = style)
+    MatchTable(match)
+    if (match.outro.isNotBlank()) Text(match.outro, style = style.copy(fontWeight = FontWeight.Normal, fontSize = style.fontSize * 0.94f), modifier = Modifier.padding(top = 10.dp))
+}
+
+@Composable
+private fun PairsTable(p: com.appsc.prep.data.PairsLayout) {
+    val cell = TextStyle(fontSize = 15.sp, lineHeight = 21.sp, color = C.Ink)
+    val head = TextStyle(fontSize = 15.sp, lineHeight = 20.sp, color = C.Navy, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
+    val lab = TextStyle(fontSize = 14.sp, lineHeight = 21.sp, color = C.Muted, fontWeight = FontWeight.SemiBold)
+    @Composable
+    fun Divider() = Box(Modifier.width(1.dp).fillMaxHeight().background(C.Line))
+    Column(
+        Modifier
+            .padding(top = 10.dp)
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(10.dp))
+            .border(1.dp, C.Line, RoundedCornerShape(10.dp)),
+    ) {
+        if (p.headLeft.isNotBlank()) {
+            Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min).background(C.AccentSoft)) {
+                Box(Modifier.width(40.dp))
+                Divider()
+                Text(p.headLeft, style = head, modifier = Modifier.weight(1f).padding(horizontal = 6.dp, vertical = 8.dp))
+                Divider()
+                Text(p.headRight, style = head, modifier = Modifier.weight(1f).padding(horizontal = 6.dp, vertical = 8.dp))
+            }
+        }
+        p.items.forEachIndexed { r, (l, a, b) ->
+            if (r > 0 || p.headLeft.isNotBlank()) Box(Modifier.fillMaxWidth().height(1.dp).background(C.Line))
+            Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min).background(if (r % 2 == 1) C.Surface else Color.White)) {
+                Text("$l.", style = lab.copy(textAlign = TextAlign.Center), modifier = Modifier.width(40.dp).padding(vertical = 8.dp))
+                Divider()
+                Text(a, style = cell, modifier = Modifier.weight(1f).padding(horizontal = 8.dp, vertical = 8.dp))
+                Divider()
+                Text(b, style = cell, modifier = Modifier.weight(1f).padding(horizontal = 8.dp, vertical = 8.dp))
+            }
+        }
+    }
+}
+
+@Composable
+private fun MatchTable(m: com.appsc.prep.data.MatchLayout) {
+    val cell = TextStyle(fontSize = 15.sp, lineHeight = 21.sp, color = C.Ink)
+    val head = TextStyle(fontSize = 15.sp, lineHeight = 20.sp, color = C.Navy, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
+    val lab = TextStyle(fontSize = 14.sp, lineHeight = 21.sp, color = C.Muted, fontWeight = FontWeight.SemiBold)
+    @Composable
+    fun Divider() = Box(Modifier.width(1.dp).fillMaxHeight().background(C.Line))
+    Column(
+        Modifier
+            .padding(top = 10.dp)
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(10.dp))
+            .border(1.dp, C.Line, RoundedCornerShape(10.dp)),
+    ) {
+        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min).background(C.AccentSoft)) {
+            Text(
+                "List I" + if (m.leftTitle.isNotBlank()) "\n(${m.leftTitle})" else "",
+                style = head, modifier = Modifier.weight(1.1f).padding(horizontal = 6.dp, vertical = 8.dp),
+            )
+            Divider()
+            Text(
+                "List II" + if (m.rightTitle.isNotBlank()) "\n(${m.rightTitle})" else "",
+                style = head, modifier = Modifier.weight(1f).padding(horizontal = 6.dp, vertical = 8.dp),
+            )
+        }
+        for (r in 0 until maxOf(m.left.size, m.right.size)) {
+            Box(Modifier.fillMaxWidth().height(1.dp).background(C.Line))
+            Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min).background(if (r % 2 == 1) C.Surface else Color.White)) {
+                Row(Modifier.weight(1.1f).padding(horizontal = 8.dp, vertical = 8.dp)) {
+                    m.left.getOrNull(r)?.let { (l, t) ->
+                        Text("$l.", style = lab, modifier = Modifier.width(28.dp))
+                        Text(t, style = cell)
+                    }
+                }
+                Divider()
+                Row(Modifier.weight(1f).padding(horizontal = 8.dp, vertical = 8.dp)) {
+                    m.right.getOrNull(r)?.let { (l, t) ->
+                        Text("$l.", style = lab, modifier = Modifier.width(34.dp))
+                        Text(t, style = cell)
+                    }
+                }
+            }
+        }
+    }
+}
+
 @Composable
 private fun QuestionTable(rows: List<List<String>>) {
     val cols = rows.maxOf { it.size }
@@ -982,7 +1082,8 @@ private fun ReviewList(
                         }
                     }
                     Spacer(Modifier.height(8.dp))
-                    Text(q.stem, style = TextStyle(fontSize = 16.sp, lineHeight = 23.sp, fontWeight = FontWeight.Medium, color = Color.Black))
+                    val match = remember(q.id, q.stem) { com.appsc.prep.data.MatchLayout.parse(q.stem, q.options) }
+                    StemText(q.stem, match, TextStyle(fontSize = 16.sp, lineHeight = 23.sp, fontWeight = FontWeight.Medium, color = Color.Black))
                     if (q.table.isNotEmpty()) QuestionTable(q.table)
                     Spacer(Modifier.height(8.dp))
                     when {
@@ -994,7 +1095,7 @@ private fun ReviewList(
                             // the option picked the latest time (kept since 3.54): a wrong pick shows in red beside the key
                             val mine = store.picks[q.id]?.takeIf { it in q.options.indices }
                             val shownPick = mine ?: if (q.answer >= 0) q.answer else -1
-                            q.options.forEachIndexed { oi, opt -> OptionCard(oi, opt, picked = shownPick, answer = q.answer) {} }
+                            q.options.forEachIndexed { oi, opt -> OptionCard(oi, optText(opt, match), picked = shownPick, answer = q.answer) {} }
                             if (mine != null && q.scored && mine != q.answer) {
                                 Text(
                                     "Your answer: (${mine + 1}) ${q.options[mine]}",
