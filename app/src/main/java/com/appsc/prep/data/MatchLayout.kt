@@ -55,8 +55,11 @@ data class MatchLayout(
             else -> "A"
         }
 
+        /** the next item label [lab] from [start]: one at the start of a line wins (so "B. C. Rangarajan" does not
+         *  yield a "C." item), else the first one inside a line ("D. Banaras; 1. 1916 2. 1905") */
         private fun labelAt(text: String, lab: String, start: Int): MatchResult? {
             val e = Regex.escape(lab)
+            Regex("""(?:^|(?<=[;]\s))\(?$e[.)](?=\s|$)|(?:^|(?<=[;]\s))\($e\)""", RegexOption.MULTILINE).find(text, start)?.let { return it }
             return Regex("""(?:^|(?<=[\s;,]))\(?$e[.)](?=\s|$)|(?:^|(?<=[\s;,]))\($e\)""", RegexOption.MULTILINE).find(text, start)
         }
 
@@ -210,7 +213,7 @@ data class PairsLayout(
 
         private fun parseOrThrow(stem: String): PairsLayout? {
             if (!WORD.containsMatchIn(stem)) return null
-            val lines = stem.split('\n')
+            val lines = stem.split('\n').filter { it.isNotBlank() }
             val idx = lines.indices.filter { LINE.matches(lines[it]) || LINE2.matches(lines[it]) }
             if (idx.size < 2 || idx != (idx.first()..idx.last()).toList()) return null
             var extra = ""

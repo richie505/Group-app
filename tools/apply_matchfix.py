@@ -3,11 +3,13 @@ data/matchfix_todo.jsonl) to the apps' question banks, so the apps can draw them
 Only the stem's layout changes (same words, same item labels); options and keys are untouched. A stem is replaced
 only where it still equals the garbled original, so re-running is safe.
     python3 tools/apply_matchfix.py"""
-import glob, json
+import glob, json, re
+
+norm = lambda t: re.sub(r"\n\s*\n+", "\n", t).strip()
 
 todo = {}
 for l in open("data/matchfix_todo.jsonl"):
-    x = json.loads(l); todo.setdefault(x["id"], set()).add(x["s"])
+    x = json.loads(l); todo.setdefault(x["id"], set()).add(norm(x["s"]))
 fix = {}
 for l in open("data/matchfix.jsonl"):
     x = json.loads(l)
@@ -19,7 +21,7 @@ for app in ("complete", "group1", "group2"):
         m = json.load(open(f)); ch = 0
         for qs in m["rows"].values():
             for q in qs:
-                if q["id"] in fix and q["s"] in todo.get(q["id"], ()) and q["s"] != fix[q["id"]]:
+                if q["id"] in fix and norm(q["s"]) in todo.get(q["id"], ()) and q["s"] != fix[q["id"]]:
                     q["s"] = fix[q["id"]]; ch += 1
         if ch:
             json.dump(m, open(f, "w"), ensure_ascii=False, separators=(",", ":"))
