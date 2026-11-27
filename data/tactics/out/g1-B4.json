@@ -1,0 +1,44 @@
+{"section": "B4",
+ "overview": "Impact of LPG on governance and statutory, regulatory and quasi-judicial bodies: 9 official questions (2010-2024), 5 of them in 2023-24 as statement-based items testing a body's legal basis, composition, procedure and number of benches. Older items are Lokayukta/Lokpal firsts (one deleted, one key disputed).",
+ "possibility": [
+  {"angle": "Impact of LPG on governance", "evidence": "1 Q: 2010 (unofficial key)", "level": "Low historical recurrence", "what_they_ask": "post-1991 hiring and delivery trends (outsourcing, contractualisation, PPP, regulators replacing licensing)"},
+  {"angle": "Statutory bodies (Lokpal/Lokayukta, NCM, NHRC-type)", "evidence": "4 Qs: 2012×2, 2019, 2023", "level": "Moderate historical recurrence", "what_they_ask": "founding Act and year; number of notified minorities; Lokayukta tenure changes; first State with a Lokayukta"},
+  {"angle": "Regulatory bodies (CCI, SEBI, IRDAI, TRAI)", "evidence": "1 Q: 2023; related APPSC items on SEBI and IRDAI", "level": "Low historical recurrence", "what_they_ask": "Act that created it and its composition"},
+  {"angle": "Quasi-judicial and advisory bodies (CAT, NGT, Law Commission)", "evidence": "3 Qs: 2023×2, 2024", "level": "Low historical recurrence", "what_they_ask": "statutory or not; bound by CPC or not; benches/sittings; whom it reports to"}
+ ],
+ "traps": [
+  {"trap": "[CPC binding] Tribunal said to be bound by the Code of Civil Procedure", "spot": "Statement 'X is bound by the procedure of CPC 1908'", "fix": "CAT and NGT are not bound by CPC; they follow natural justice", "pyq": "NGT 'bound by CPC' false [group1-prelims-2023-paper1#53]; CAT 'not bound by CPC' true [group1-prelims-2023-paper1#34]"},
+  {"trap": "Count altered by one", "spot": "Number of benches, members or notified communities", "fix": "NGT five sittings; six notified minorities (Jains 2014); CCI chairperson + 2 to 6 members", "pyq": "'six places of sitting' false [group1-prelims-2023-paper1#53]; 'five religious communities' false [group1-prelims-2023-paper1#55]; 'chairperson and five members' false [group1-prelims-2023-paper1#57]"},
+  {"trap": "Membership stream narrowed", "spot": "'Members drawn from administrative background only'", "fix": "CAT has judicial and administrative members", "pyq": "Statement II false → 'I, III, IV and V' [group1-prelims-2023-paper1#34]"},
+  {"trap": "Advisory body labelled quasi-judicial and given wrong recipient", "spot": "Law Commission statements on status, recipient, Parliament, suo motu", "fix": "Executive, non-statutory, advisory; advises the Law Ministry; reports laid before Parliament; can act suo motu", "pyq": "All four statements incorrect [group1-prelims-2024-paper1#59]"}
+ ],
+ "techniques": [
+  {"name": "Four-field body card", "how": "[Basis / composition / procedure / appeal] For each body memorise: constitutional, statutory or executive; members; CPC-bound or not; where appeals go.", "example": "NGT: 2010 Act; not CPC-bound; 5 sittings → only statement I correct [group1-prelims-2023-paper1#53]"},
+  {"name": "Number check", "how": "In statement items, a precise number is the usual altered element; verify each number before the qualitative parts.", "example": "NCM: 1992 Act true; 'five' communities wrong (six) → 'I and III only' [group1-prelims-2023-paper1#55]"},
+  {"name": "State-Act variation for Lokayuktas", "how": "Lokayuktas come from separate State Acts, so tenure and powers differ; tie a news change to the State that amended its Act.", "example": "Tenure cut from 8 to 5 years → Rajasthan (2019) [group1-prelims-2019-paper2#96]"}
+ ],
+ "confusions": [
+  {"a": "CAT (Art. 323A, 1985 Act)", "b": "State Administrative Tribunals", "remember": "Central services, AIS vs State services"},
+  {"a": "NGT", "b": "CAT", "remember": "environment, 5 sittings, appeal to SC vs service matters, appeal to HC bench"},
+  {"a": "Law Commission", "b": "Finance Commission", "remember": "executive advisory vs constitutional (Art. 280)"},
+  {"a": "NCM (statutory 1992)", "b": "NCSC / NCST (constitutional)", "remember": "Act vs Arts 338 / 338A"},
+  {"a": "Lokpal (central, 2013 Act)", "b": "Lokayukta (State Acts)", "remember": "Union vs each State"},
+  {"a": "CCI", "b": "SEBI", "remember": "Competition Act 2002 vs SEBI Act 1992 (body 1988, statutory 1992)"},
+  {"a": "Outsourcing", "b": "Contract appointment", "remember": "third-party agency supplies staff vs government hires directly on contract"}
+ ],
+ "anchors": [
+  "CAT: Administrative Tribunals Act 1985 (Art. 323A, 42nd Amendment)",
+  "NGT: NGT Act 2010; principal bench New Delhi + Bhopal, Pune, Kolkata, Chennai",
+  "NCM Act 1992; six notified minorities (Jains added 2014)",
+  "Competition Act 2002, amended 2007; chairperson + 2 to 6 members",
+  "Lokpal: first Bill 1968, Act 2013, in force 2014",
+  "Law Commission: executive body, first post-independence 1955"
+ ],
+ "checklist": [
+  "Is the body constitutional, statutory or executive?",
+  "Check every number (benches, members, communities).",
+  "CPC-bound? Tribunals usually are not.",
+  "To whom does it report or advise?",
+  "For State bodies, name the State whose Act changed."
+ ]
+}
