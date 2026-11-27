@@ -884,7 +884,9 @@ private fun ReviewList(
         scope.launch { listState.scrollToItem(1) }
     }
     Column(Modifier.fillMaxSize()) {
-    PageList(Modifier.weight(1f), state = listState, max = 900.dp) {
+    // long-press any text of the review (question, options, explanation) for Meaning / Copy, as in the quiz
+    DictionaryArea(onOpenNotes, Modifier.weight(1f)) {
+    PageList(Modifier.fillMaxSize(), state = listState, max = 900.dp) {
         item(key = "review-head") {
             Column(Modifier.padding(start = 20.dp, end = 20.dp, top = 14.dp, bottom = 4.dp)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
@@ -1009,6 +1011,7 @@ private fun ReviewList(
             }
         }
         item { Spacer(Modifier.height(24.dp)) }
+    }
     }
     if (shownSet.isNotEmpty()) {
         Row(
