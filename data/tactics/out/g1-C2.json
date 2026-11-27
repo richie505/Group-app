@@ -1,0 +1,70 @@
+{"section": "g1-C2",
+ "overview": "36 official Group 1 Qs (2008–2024) on national income, poverty, employment schemes, unemployment and urban schemes. Mostly one-liners (who/when/which scheme), with assertion-reason and statement-based items rising since 2023. Schemes (10 Qs) and national income concepts (7 Qs) carry the most weight; 2 Qs were deleted by APPSC.",
+ "possibility": [
+  {"angle": "National income concepts, sectors and definitions", "evidence": "7 Qs: 2019×2, 2023×4, 2024", "level": "Moderate historical recurrence", "what_they_ask": "GDP/GNP/NDP identities (NFIA, depreciation, net indirect taxes), what is excluded from NI, which sector an activity belongs to, which economist gave which NI definition, A-R on product = income"},
+  {"angle": "India's National Accounts – history, agencies, growth drivers", "evidence": "4 Qs: 2010×2, 2023, 2024", "level": "Moderate historical recurrence", "what_they_ask": "first NI estimate (Naoroji), agency that estimates GDP (CSO/NSO), structural change of NI, current growth drivers (PFCE, capex); also a stray statistics item (Pearson r range)"},
+  {"angle": "Demographic issues – working-age share, demographic dividend", "evidence": "2 Qs: 2008, 2023", "level": "Low historical recurrence", "what_they_ask": "the 15–64 age band, working-age share percentage, dependency ratio logic"},
+  {"angle": "Poverty and inequality – estimates, MPI, SDG/UN targets", "evidence": "5 Qs: 2008, 2012, 2017, 2019, 2024", "level": "High historical recurrence", "what_they_ask": "Tendulkar poverty ratios by year, MPI method (Alkire-Foster, H×A), rural vs urban decline, UN poverty decade years, SDG-1 target, theorist of surplus value"},
+  {"angle": "Occupational structure and unemployment", "evidence": "4 Qs: 2017×2, 2019×2 (one deleted)", "level": "Low historical recurrence", "what_they_ask": "Census 2011 cultivators vs agricultural labourers, which NSSO status measures chronic unemployment, causes of jobless growth"},
+  {"angle": "Employment and poverty-eradication schemes (central and AP)", "evidence": "10 Qs: 2008×2, 2010×3, 2017×2, 2019×2, 2023 (one deleted)", "level": "High historical recurrence", "what_they_ask": "launch year (20-point programme), which scheme is post-1991, renamed/merged successor (SGSY → Aajeevika, Velugu → IKP), who borrows (SHGs), MGNREGA features and women's share, UBI idea from Economic Survey 2016-17"},
+  {"angle": "Rural development issues", "evidence": "0 official Qs; asked in other APPSC exams (e.g. first state with an EGS – Maharashtra; MGNREGA in force Feb 2006)", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets judging by the scheme items: PMGSY, PMAY-G, DAY-NRLM, Rurban Mission ministry, RIDF (NABARD), launch years and nodal ministries"},
+  {"angle": "Urban development – urban missions and funds", "evidence": "4 Qs: 2008×2, 2017, 2024", "level": "Moderate historical recurrence", "what_they_ask": "target group of VAMBAY, scope of JNNURM, which mission is not urban (Rurban), UIDF funding source and manager (NHB)"}
+ ],
+ "traps": [
+  {"trap": "Offers a restructuring year instead of the launch year", "spot": "Option list contains several years tied to one programme", "fix": "20-point programme launched 1975; 1982, 1986, 2006 are revisions", "pyq": "'20-point Economic Programme [...] introduced by Smt. Indira Gandhi' → 1975 [group1-prelims-2008#31]"},
+  {"trap": "Swaps the three NI adjustments (NFIA, depreciation, net indirect taxes)", "spot": "Identity options that look alike but differ in what is subtracted", "fix": "National vs domestic = ±NFIA; gross vs net = ±depreciation; market price vs factor cost = ±NIT", "pyq": "'GDPmp = GNPmp – Net Income from Abroad' is the only correct identity [group1-prelims-2019-paper1#71]"},
+  {"trap": "Puts utilities in the primary or service sector", "spot": "Water supply / electricity / gas in a sector question or match list", "fix": "Utilities and construction are secondary (industry); trade and transport are services", "pyq": "'Water Supply' → Industrial Sector [group1-prelims-2023-paper1#69]; also [group1-prelims-2019-paper1#69]"},
+  {"trap": "Names an old or sibling scheme instead of the current successor", "spot": "'At present implemented as' / 'merged into' stems", "fix": "Track the lineage: SGSY (1999) → NRLM 'Aajeevika' (2011) → DAY-NRLM; Velugu was merged into IKP", "pyq": "'SGSY at present implemented as' → Aajeevika [group1-prelims-2019-paper1#76]; AP umbrella scheme → Indira Kranthi Pathakam [group1-prelims-2010#79]"},
+  {"trap": "Borrows the goal of a different scheme into a 'feature' list", "spot": "A 'not a feature of' list with one item from another sector (food, health)", "fix": "MGNREGS = rights-based rural wage employment; food is NFSA/ICDS/PM-POSHAN", "pyq": "'Provision of nutritious food' is not MGNREGS (Q deleted for its codes, the fact stands) [group1-prelims-2023-paper1#65]"},
+  {"trap": "Reverses a comparison or a policy stance", "spot": "'larger decline in urban than rural', 'shift away from capital expenditure'", "fix": "Rural MPI poverty fell faster than urban; public capex was sustained as a growth driver", "pyq": "'urban population witnessed a larger decline' → false [group1-prelims-2024-paper1#78]; 'shift from capital expenditure' → false [group1-prelims-2024-paper1#61]"},
+  {"trap": "Distorts the MPI method", "spot": "'does not use Alkire-Foster', 'adding incidence and intensity'", "fix": "National MPI uses Alkire-Foster like the global MPI; MPI = H × A (product)", "pyq": "Statements I and IV false, only III valid [group1-prelims-2024-paper1#78]"},
+  {"trap": "Substitutes the managing institution or user of a fund", "spot": "Fund statements naming a manager, source and eligible borrowers", "fix": "UIDF: from PSL shortfall, managed by NHB, used by public agencies for MoHUA missions (mirror of NABARD's RIDF)", "pyq": "UIDF → only III valid [group1-prelims-2024-paper1#79]"},
+  {"trap": "Gives a rural scheme in a list of urban missions", "spot": "Negative stem 'does not provide urban rejuvenation'", "fix": "Rurban (SPMRM) is MoRD, rural clusters; AMRUT, HRIDAY, SBM-Urban are urban", "pyq": "→ Rurban Mission [group1-prelims-2017-paper1#26]"}
+ ],
+ "techniques": [
+  {"name": "Three-switch identity check", "how": "For any NI identity, ask which pair it converts (national/domestic, gross/net, mp/fc) and confirm the single adjustment that pair uses. Discard options that use the wrong adjustment.", "example": "Options [1]–[4]: GDPmp vs GNPmp is a national/domestic switch → only NFIA fits; options with depreciation or NIT fall → option 2 [group1-prelims-2019-paper1#71]"},
+  {"name": "Scheme timeline elimination", "how": "Keep a launch-year ladder (FWP 1977, NREP 1980, RLEGP 1983, JRY 1989, PMRY 1993, SGSY 1999, MGNREGA 2006). Eliminate options on the wrong side of the date in the stem.", "example": "'started after 1991': FWP, NREP, JRY all pre-1991 → PMRY (1993) [group1-prelims-2008#77]"},
+  {"name": "Transfer-payment filter", "how": "In 'not included in NI' items, look for a payment with no current production in return (pension, interest on public debt, scholarship, second-hand sale).", "example": "Wages, PSU profits and taxes link to production; interest on public debt is a transfer → option 3 [group1-prelims-2023-paper1#70]"},
+  {"name": "A-R by arithmetic", "how": "When A is a growth/per-capita claim, write the identity (PCI growth ≈ NI growth – population growth) and test whether R is exactly that cause.", "example": "Population growth > NI growth gives falling PCI, so R explains A → both true, R explains [group1-prelims-2023-paper1#63]"},
+  {"name": "Match-list anchor pair", "how": "Fix the surest pair first (GDP → CSO), then the unusual one (water supply → industry); usually only one code survives.", "example": "d-III and b-IV leave only 'II IV I III' [group1-prelims-2023-paper1#69]"},
+  {"name": "Measure-to-method pairing", "how": "For unemployment, link the concept in the stem to the NSSO status: chronic → usual status, weekly → CWS, daily/underemployment → CDS.", "example": "'chronic unemployment' → Usual status; CWS/CDS fall [group1-prelims-2019-paper1#72]"}
+ ],
+ "confusions": [
+  {"a": "NFIA", "b": "Net indirect taxes", "remember": "NFIA moves domestic ↔ national; NIT moves market price ↔ factor cost"},
+  {"a": "Usual status (US)", "b": "Current daily status (CDS)", "remember": "US = chronic (year); CDS = daily, catches underemployment, gives the highest rate"},
+  {"a": "Tendulkar 2011-12 (21.9%)", "b": "Rangarajan 2011-12 (29.5%)", "remember": "21.9% is the official Tendulkar figure; 29.8% is Tendulkar 2009-10"},
+  {"a": "MDG-1", "b": "SDG-1", "remember": "MDG halve extreme poverty by 2015; SDG end poverty in all forms by 2030"},
+  {"a": "SGSY / NRLM (self-employment, SHGs)", "b": "JGSY / SGRY (wage employment)", "remember": "Swarozgar = self-employment via SHGs; Rozgar/Gram Samridhi = wage work"},
+  {"a": "Velugu", "b": "Indira Kranthi Pathakam", "remember": "Velugu (DPIP) is the component merged into the IKP umbrella"},
+  {"a": "Rurban Mission (MoRD)", "b": "AMRUT / HRIDAY / Smart Cities (MoHUA)", "remember": "Rurban = rural clusters given urban amenities"},
+  {"a": "RIDF", "b": "UIDF", "remember": "Both from PSL shortfall; RIDF → NABARD (rural), UIDF → NHB (urban)"},
+  {"a": "VAMBAY", "b": "Indira Awaas Yojana", "remember": "VAMBAY (2001) = urban slum BPL; IAY = rural housing"},
+  {"a": "Dadabhai Naoroji", "b": "V.K.R.V. Rao", "remember": "Naoroji first estimate (1867-68); VKRV Rao first scientific (1931)"},
+  {"a": "Cultivators", "b": "Agricultural labourers", "remember": "Census 2011: labourers (14.4 cr) overtook cultivators (11.9 cr) for the first time"},
+  {"a": "Hicks (social income = net social product)", "b": "Marshall / Pigou / Fisher definitions", "remember": "Match each NI definition to its author; Hicks equated NSP and social income"}
+ ],
+ "anchors": [
+  "1975 – 20-point programme launched (revisions 1982, 1986, 2006)",
+  "Feb 2006 – MGNREGA in force; 100 days per household; at least 1/3 women by law, actual ~56% (2016-17)",
+  "1999 – SGSY; 2011 – NRLM 'Aajeevika'",
+  "1993 – PMRY, the post-1991 option among old wage schemes",
+  "Dec 2005 – JNNURM for 60+ mission cities (sub-missions UIG, BSUP)",
+  "Dec 2001 – VAMBAY for urban slum BPL households",
+  "21.9% – Tendulkar poverty ratio 2011-12; 37.2% 2004-05; 29.8% 2009-10",
+  "15–64 years – working-age band for demographic dividend",
+  "1997–2006 – first UN Decade for the Eradication of Poverty",
+  "MPI = H × A, Alkire-Foster method (global and NITI national MPI)",
+  "Utilities and construction = secondary sector",
+  "Interest on public debt, pensions, scholarships = transfers, excluded from NI",
+  "Pearson r lies between –1 and +1"
+ ],
+ "checklist": [
+  "Which NI pair is being switched – is the adjustment the right one?",
+  "Is the year offered the launch year or a revision/renaming year?",
+  "Is the scheme rural or urban, wage or self-employment, and which ministry runs it?",
+  "Does the stem ask the current successor name of an old scheme?",
+  "In statements, check direction words (larger/smaller, shift towards/away) against the actual trend",
+  "For any rate or ratio, confirm the method and the year it belongs to",
+  "Note whether the item is time-sensitive (survey year) before relying on a current figure"
+ ]
+}

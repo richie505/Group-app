@@ -1,0 +1,72 @@
+{"section": "A1",
+ "overview": "Ancient India from the Indus to the Guptas: 43 official Group 1 questions (2008-2024), heaviest on Vedic Age (8), Mauryas (6), Satavahanas (6) and Indus sites (5). 27 are one-liners (who/where/which text); since 2023 APPSC adds statement-based, matching and 'which of these belong to period X' multiple-correct items (about 9 per paper).",
+ "possibility": [
+  {"angle": "Indus sites and their signature finds", "evidence": "5 Qs: 2010, 2010, 2012, 2023, 2024", "level": "Moderate historical recurrence", "what_they_ask": "which site had beads/scale/rice/dock; main foreign contact (Mesopotamia); late Harappan features"},
+  {"angle": "Indus society, art and religion", "evidence": "1 Q: 2017", "level": "Low historical recurrence", "what_they_ask": "function of seals and sealings; natural targets: Pasupati seal, mother goddess, Great Bath"},
+  {"angle": "Vedic texts, society, religion and pottery", "evidence": "8 Qs: 2010×4, 2012, 2023×2, 2024", "level": "Moderate historical recurrence", "what_they_ask": "which text first mentions X (varna, moneylending); Rig Vedic gods' roles; marriage forms; philosophy school-theory; Later Vedic pottery"},
+  {"angle": "Mahajanapadas and rise of Magadha (Nandas)", "evidence": "2 Qs: 2023, 2024", "level": "Low historical recurrence", "what_they_ask": "Mahajanapada-capital matching; Nanda canal in Hathigumpha"},
+  {"angle": "Jainism and Buddhism", "evidence": "5 Qs: 2008, 2010, 2012×2, 2024", "level": "Moderate historical recurrence", "what_they_ask": "founder's varna; Jain languages; Buddha's life places; who propounded which doctrine"},
+  {"angle": "Mauryas: titles, edicts, art, administration", "evidence": "6 Qs: 2008, 2010, 2017, 2023×2, 2024", "level": "High historical recurrence", "what_they_ask": "titles (Devanampiya); scripts and content of Asokan edicts; Mauryan monuments; Arthashastra officials"},
+  {"angle": "Foreign invasions, Sakas and Kushans", "evidence": "2 Qs: 2012, 2024", "level": "Low historical recurrence", "what_they_ask": "Greek river names; Central Asian items introduced (dress, cavalry)"},
+  {"angle": "Satavahanas: inscriptions, literature, administration", "evidence": "6 Qs: 2010×2, 2012, 2019, 2023, 2024; also many related APPSC AP History items", "level": "High historical recurrence", "what_they_ask": "inscription-issuer pairs (Nasik, Nanaghat); court authors (Hala, Gunadhya, Sarvavarman, Kutuhala); terms like kataka; Buddhist sites"},
+  {"angle": "Sangam Age", "evidence": "2 Qs: 2008, 2024", "level": "Low historical recurrence", "what_they_ask": "Indo-Roman trade centres; social classes (vellalar)"},
+  {"angle": "Sungas", "evidence": "1 Q: 2023", "level": "Low historical recurrence", "what_they_ask": "which texts record the Yavana invasion under Pushyamitra"},
+  {"angle": "Guptas: rulers, administration, guilds, culture", "evidence": "5 Qs: 2010×2, 2019, 2023, 2024", "level": "Moderate historical recurrence", "what_they_ask": "who started the Gupta era; ruler sequence; who defeated the Sakas; guild features; founder of Nalanda"}
+ ],
+ "traps": [
+  {"trap": "[Name clash] Same-name ruler from another dynasty", "spot": "Options carry Chandragupta I / Chandragupta Maurya / Chandragupta II", "fix": "Tie the event to the dynasty first: abdication+Jain = Maurya; Gupta era = Chandragupta I; Sakas = Chandragupta II", "pyq": "'During the reign of Chandragupta-I, the Sakas were defeated' → it was Chandragupta II [group1-prelims-2024-paper1#8]; abdication → Chandragupta Maurya [group1-prelims-2010#7]"},
+  {"trap": "Inscription paired with the wrong issuer", "spot": "Wrong-pair list of inscriptions with famous rulers", "fix": "Nanaghat = Naganika; Nasik = Gautami Balasri; Junagadh = Rudradaman; Hathigumpha = Kharavela", "pyq": "'Rudradaman - Nanaghat' → Junagadh [group1-prelims-2012#46]"},
+  {"trap": "Author swapped among the Satavahana-age writers", "spot": "Matching books with Nagarjuna, Kundakunda, Sarvavarman, Kutuhala", "fix": "Katantra = Sarvavarman; Lilavai = Kutuhala; Samayasara = Kundakunda (Jain); Prajnaparamita = Nagarjuna (Mahayana)", "pyq": "Katantra vyakarana → Sarvavarma [group1-prelims-2010-reexam#146]; book-author match [group1-prelims-2023-paper1#6]"},
+  {"trap": "Later item slipped into a period list", "spot": "'Which belong to the Later Vedic / Sunga period' with one item from a later age", "fix": "Check the date of each item: NBPW c.600-200 BC (not Later Vedic); Mudrarakshasa is about Chandragupta Maurya", "pyq": "NBPW excluded from Later Vedic pottery [group1-prelims-2024-paper1#2]; Mudrarakshasa not a Sunga source [group1-prelims-2023-paper1#8]"},
+  {"trap": "Plausible but non-existent content in an edict", "spot": "A statement credits an Asokan edict with an event known only from chronicles", "fix": "Succession war is in Dipavamsa/Mahavamsa, not in any edict; RE XIII = Kalinga + five Greek kings", "pyq": "'IV and V edicts mentioned the war of succession' → false [group1-prelims-2023-paper1#5]"},
+  {"trap": "Deity role swapped", "spot": "Rig Vedic god statement that sounds right ('mother of all gods')", "fix": "Aditi is mother of the Adityas; Prithvi is earth; Agni the messenger; Dyaus = sky father", "pyq": "'Prithvi was the mother of all Gods' → Aditi [group1-prelims-2023-paper1#2]"},
+  {"trap": "Absolute negative on a true practice", "spot": "'They never used X' about a language or practice", "fix": "Check the fact, not the word: Jains did write important works in Apabhramsa", "pyq": "'never used Apabhramsa' → incorrect [group1-prelims-2024-paper1#3]"},
+  {"trap": "Autonomy reversed in a NOT-question", "spot": "'Which was not a feature of Gupta guilds'", "fix": "Gupta guilds were autonomous: own seals, militia, banking, coins", "pyq": "'Non-Autonomous Bodies' is the non-feature [group1-prelims-2023-paper1#7]"}
+ ],
+ "techniques": [
+  {"name": "Dynasty-first anchoring", "how": "[Clue → dynasty] Before reading options, name the dynasty the stem's clue belongs to (title, era, text); then drop every option from another dynasty.", "example": "'Gupta Era was started by' → era 319-20 = Chandragupta I's accession → Srigupta, Samudragupta, Kumaragupta fall → Chandragupta I [group1-prelims-2010-reexam#101]"},
+  {"name": "Title-to-ruler lookup", "how": "Keep a fixed title table (Devanampiya, Siladitya, Kaviraja, Devaputra); a title question is then a lookup.", "example": "'Devanam Priya' → Asoka; Kanishka = Devaputra, Samudragupta = Kaviraja, Harsha = Siladitya [group1-prelims-2008#112]"},
+  {"name": "Odd-period elimination in multi-select", "how": "Date every listed item; the item outside the period is the one to drop, then choose the code that excludes only it.", "example": "Later Vedic pottery: BRW, BSW, PGW, Red Ware fit 1000-600 BC; NBPW is later → 'I, II, III and IV' [group1-prelims-2024-paper1#2]"},
+  {"name": "Ruler sequence by succession chain", "how": "Write the father-son chain once (CG I - Samudra - CG II - Kumara I - Skanda) and match codes; only one code starts and ends correctly.", "example": "Only '(iii),(i),(iv),(ii)' starts with Samudragupta and ends with Skandagupta [group1-prelims-2019-paper1#14]"},
+  {"name": "Site-to-signature find grid", "how": "Memorise one signature find per Indus site; reject options where the site's signature is a different find.", "example": "Bead industry → Chanhudaro; Dholavira = reservoirs, Daimabad = bronzes, Sutkagendor = coastal outpost [group1-prelims-2023-paper1#1]"},
+  {"name": "Match grid by one sure pair", "how": "In matching, fix the pair you are surest of, strike codes that break it, then check one more pair.", "example": "Mahajanapadas: Anga-Champa alone leaves only 'A-I, B-II, C-III, D-IV' [group1-prelims-2024-paper1#4]; Vaisheshika-atoms fixes the philosophy grid [group1-prelims-2023-paper1#3]"}
+ ],
+ "confusions": [
+  {"a": "Chandragupta Maurya", "b": "Chandragupta I / II (Gupta)", "remember": "Maurya = abdicated to Jainism; I = Gupta era 319; II = Sakari, Fa-Hien"},
+  {"a": "Nanaghat inscription", "b": "Nasik inscription", "remember": "Nanaghat = Naganika; Nasik = Gautami Balasri (Gautamiputra's mother)"},
+  {"a": "Junagadh (Rudradaman)", "b": "Hathigumpha (Kharavela)", "remember": "Junagadh = first long Sanskrit inscription; Hathigumpha = Kalinga, Nanda canal"},
+  {"a": "Aditi", "b": "Prithvi", "remember": "Aditi = mother of gods (Adityas); Prithvi = earth"},
+  {"a": "Asura marriage", "b": "Rakshasa / Paisacha marriage", "remember": "Asura = purchase; Rakshasa = capture; Paisacha = seduction"},
+  {"a": "Sankhya", "b": "Vaisheshika", "remember": "Sankhya = Prakriti evolution (Kapila); Vaisheshika = atoms (Kanada)"},
+  {"a": "Lokayata/Charvaka", "b": "Ajivika", "remember": "Lokayata = materialism; Ajivika (Gosala) = niyati, fixed fate"},
+  {"a": "Nagarjuna", "b": "Kundakunda", "remember": "Nagarjuna = Buddhist Sunyavada, Prajnaparamita; Kundakunda = Jain Samayasara"},
+  {"a": "Hala / Gunadhya", "b": "Sarvavarman / Kutuhala", "remember": "Gathasaptasati / Brihatkatha vs Katantra grammar / Lilavai"},
+  {"a": "Hydaspes", "b": "Hyphasis", "remember": "Hydaspes = Jhelum (Porus 326 BC); Hyphasis = Beas (where the army halted)"},
+  {"a": "Lumbini / Bodh Gaya", "b": "Sarnath / Kushinagar", "remember": "birth / enlightenment vs first sermon / death"},
+  {"a": "PGW", "b": "NBPW", "remember": "PGW = Later Vedic; NBPW = Mahajanapada-Maurya (600-200 BC)"},
+  {"a": "Samudragupta's south campaign", "b": "Chandragupta II's west campaign", "remember": "South = grahana-moksha, no annexation; West = Sakas annexed"}
+ ],
+ "anchors": [
+  "Gupta era 319-20 AD from Chandragupta I; Saka era 78 AD; Vikrama 58 BC",
+  "Gupta order: Chandragupta I - Samudragupta - Chandragupta II - Kumaragupta I - Skandagupta",
+  "Nalanda founded by Kumaragupta I",
+  "Purusha Sukta (Rigveda X.90) = first mention of four varnas",
+  "Satapatha Brahmana = first reference to moneylending (kusidin)",
+  "Hydaspes = Jhelum, Alexander vs Porus 326 BC",
+  "Asokan scripts: Brahmi, Kharosthi, Greek, Aramaic; name 'Asoka' in Maski and Gujarra; RE XIII names five Greek kings",
+  "Earliest inscriptions (Asoka's) = Prakrit in Brahmi script",
+  "Mahajanapada capitals: Avanti-Ujjain, Kosala-Shravasti, Vatsa-Kaushambi, Anga-Champa, Magadha-Rajagriha",
+  "IVC: Lothal dock and ivory scale; Chanhudaro beads; Kalibangan ploughed field; Mesopotamia = main trade partner (Meluhha)",
+  "Satavahanas = first dynasty to rule Andhra; inscriptions in Prakrit, Brahmi script",
+  "Sungas: Yavana invasion in Gargi Samhita, Mahabhashya, Malavikagnimitra",
+  "Kushans/Sakas introduced turban, trousers, long coat, helmet, boots"
+ ],
+ "checklist": [
+  "Which dynasty does the stem's clue belong to? Drop same-name rulers of other dynasties.",
+  "Is it a NOT / wrong-pair question? Mark the stem before reading options.",
+  "For 'which belong to period X', date every item; find the one outside the period.",
+  "For inscriptions and texts, recall issuer/author from a fixed table, not from familiarity.",
+  "In matching, lock the surest pair and strike codes.",
+  "For an absolute statement ('never', 'only'), test the fact itself before judging it."
+ ]
+}

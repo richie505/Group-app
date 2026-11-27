@@ -1,0 +1,242 @@
+{
+ "section": "M2A.1",
+ "overview": "127 official Qs (2008, 2012, 2017, 2019, 2025) – the heaviest economy section. Growth vs development theory (31) and planning (27) lead, then national-income concepts (17) and measurement (15). Mostly one-liners (64 + 40 without printed options), 15 negative 'not' items, 5 assertion-reason, 2 statement-based. Facts asked: formula gaps (GDP/GNP/NNP, MP/FC), plan-wise slogan/model/target, committee and commission chairs, dated shares and rates.",
+ "possibility": [
+  {
+   "angle": "National income concepts – GDP/GNP/NNP, MP vs FC, deflator, transfer payments, circular flow",
+   "evidence": "17 Qs: 2008×4, 2017, 2019×8, 2025×4",
+   "level": "Moderate historical recurrence",
+   "what_they_ask": "which item separates two aggregates (NFIA, depreciation, net indirect taxes); what is excluded (transfers); deflator ratio direction; leakage vs injection"
+  },
+  {
+   "angle": "Measurement of national income – methods, history of estimates, base year, statistical tools, state GSDP/per capita",
+   "evidence": "15 Qs: 2008×3, 2017, 2019×10, 2025",
+   "level": "Moderate historical recurrence",
+   "what_they_ask": "which method India uses / which is not a method; first estimator (Naoroji vs VKRV Rao); CSO base year 2011-12; top state by GSDP vs per capita; SD/variance basics"
+  },
+  {
+   "angle": "Occupational pattern and sectoral distribution – workforce shares, sector shares of GDP, unemployment surveys",
+   "evidence": "13 Qs: 2008×4, 2017×3, 2019×4, 2025×2",
+   "level": "Moderate historical recurrence",
+   "what_they_ask": "dated % of workers in agriculture/services, sector of mining, PLFS unemployment rate, which survey measures unemployment, type of unemployment in agriculture, NCEUS chair"
+  },
+  {
+   "angle": "Economic growth vs development – theories, indicators, poverty and inequality measures, growth-rate data",
+   "evidence": "31 Qs: 2008×10, 2017×8, 2019×11, 2025×2",
+   "level": "Moderate historical recurrence",
+   "what_they_ask": "theory–economist pairs (Rostow, Nurkse, Rosenstein-Rodan, Hirschman), 'new view' of development, poverty method (URP/MRP), NSSO inequality indicator, highest-growth period, Survey A-R statements"
+  },
+  {
+   "angle": "Strategy of planning – plan models, objectives, slogans, targets, NDC/Planning Commission",
+   "evidence": "27 Qs: 2008×8, 2012, 2017×11, 2019×7",
+   "level": "Moderate historical recurrence",
+   "what_they_ask": "which plan had which model/slogan/priority/start date, target vs achievement, NDC year, Planning Commission chair, Janata rolling plan, pre-independence plans"
+  },
+  {
+   "angle": "New Economic Reforms 1991 – LPG measures, BoP crisis, post-reform shifts",
+   "evidence": "9 Qs: 2017×3, 2019×3, 2025×3",
+   "level": "Moderate historical recurrence",
+   "what_they_ask": "which measure was NOT part of 1991/LPG (demonetisation, capital account convertibility), features of the 1991 crisis, year of reform, sectors opened to private firms"
+  },
+  {
+   "angle": "Decentralisation of financial resources – Finance Commissions, Gadgil formula, local-body grants",
+   "evidence": "8 Qs: 2008, 2017×4, 2019×3; plus many related State FC / 14th FC panchayat Qs in other APPSC exams",
+   "level": "Moderate historical recurrence",
+   "what_they_ask": "FC chair by number, 14th FC devolution and grant ratios (GP 90:10) and amounts, largest state share, who allocates central funds now, Gadgil formula meaning"
+  },
+  {
+   "angle": "NITI Aayog – nature, thrust, roles, office-bearers, MPI",
+   "evidence": "7 Qs: 2017×2, 2019×3, 2025×2",
+   "level": "Moderate historical recurrence",
+   "what_they_ask": "what NITI does NOT do (fund allocation), cooperative federalism, bottom-up planning, Vice-Chairman, non-constitutional status, who estimates National MPI"
+  }
+ ],
+ "traps": [
+  {
+   "trap": "[Formula] Swaps the item that separates two national aggregates",
+   "spot": "Options list net exports, depreciation, indirect taxes, subsidies, NFIA side by side",
+   "fix": "National–domestic = NFIA; gross–net = depreciation; MP–FC = indirect taxes – subsidies",
+   "pyq": "'GNP is greater than GDP if…' → net foreign income positive, not exports > imports [group2-2008-paper3#121]; MP over FC by 'Indirect taxes – Subsidies' [group2-2008-paper3#26]"
+  },
+  {
+   "trap": "[Formula] Ratio or direction reversal in a formula",
+   "spot": "Deflator/real-income questions with 'real to nominal' or a product with the index",
+   "fix": "Deflator = nominal/real ×100; real income = nominal ÷ (index/100)",
+   "pyq": "Deflator option 'Real GDP to Nominal GDP' is wrong → current to constant prices [mains-2025-paper2#35]; Rs 20000 cr at index 250 → Rs 8000 [mains-2019-paper3#47]"
+  },
+  {
+   "trap": "[Plans] Plan-number displacement – correct feature placed in the neighbouring plan",
+   "spot": "Options are consecutive plan numbers or dates",
+   "fix": "Memorise the plan chain: 1st agri/Harrod-Domar, 2nd heavy industry/Mahalanobis, 5th Garibi Hatao, 8th from 1 Apr 1992, 11th 9%, 12th 'sustainable'",
+   "pyq": "'Garibi Hatao' → 5th Plan, not 4th [prelims-2017#108]; Eighth Plan began April 1, 1992 [group2-2008-paper3#8]"
+  },
+  {
+   "trap": "[Names] Person–idea substitution among economists and committee chairs",
+   "spot": "Four names, all real economists or chairs",
+   "fix": "Tie each name to one idea/body (Raj Krishna–Hindu rate; Rostow–stages; Arjun Sengupta–NCEUS; Y.V. Reddy–14th FC)",
+   "pyq": "'Hindu rate of growth' → Raj Krishna, stagnant growth [mains-2017-paper1#109]; stages of growth → Rostow, not Kuznets/Clark [group2-2008-paper3#38]"
+  },
+  {
+   "trap": "[NOT-items] Anachronism inside a 'NOT' list",
+   "spot": "A negative question on an older plan or 1991 lists one later or earlier policy",
+   "fix": "Date every option; the one outside the period is the answer",
+   "pyq": "Gandhian 1978-79 strategy does not highlight 'Special Economic Zones' (SEZ policy 2000) [mains-2017-paper3#46]; 1991 reform did not include 'Demonetisation' [prelims-2017#103]"
+  },
+  {
+   "trap": "[Bodies] Function of the old body given to the new one (Planning Commission → NITI)",
+   "spot": "NITI options include allocation of resources/funds",
+   "fix": "NITI is a think tank (cooperative federalism); funds go via Finance Commission and Finance Ministry",
+   "pyq": "NITI does not envisage 'allocation of resources for needy states' [mains-2017-paper3#26]; central funds now allocated by Union Finance Ministry [mains-2019-paper3#12]"
+  },
+  {
+   "trap": "[Numbers] Level swap – national figure given for state, census vs NSS, total vs main workers",
+   "spot": "Two plausible numbers that both exist (27 and 13; 48.9 and 54.6)",
+   "fix": "Read the level and the source in the stem before matching the number",
+   "pyq": "11th Plan: 27 national targets but 13 for a state like AP [group2-2008-paper3#99]; services share of workers 2011-12 was ~26.8%, not 36.7% [mains-2017-paper3#43]"
+  },
+  {
+   "trap": "[Concepts] Sister-concept swap (growth vs development, leakage vs injection, mixed economy vs joint sector)",
+   "spot": "Options are paired textbook terms",
+   "fix": "Development = growth + structural/institutional change + welfare; saving is a leakage, investment the injection; mixed economy is economy-wide, joint sector a co-owned firm",
+   "pyq": "New view of development does not emphasise 'simple growth rate only' [mains-2017-paper3#29]; savings = a leakage [group2-2008-paper3#65]"
+  }
+ ],
+ "techniques": [
+  {
+   "name": "[Formula] Write the identity chain first",
+   "how": "Jot GDPmp → (+NFIA) GNPmp → (–dep) NNPmp → (–IT+S) NNPfc = NI. Then match the gap asked to one arrow.",
+   "example": "'When we refer to national income, the measure is' → end of chain = NNP at factor cost; GDPmp, NDPfc, GNPmp fall [mains-2017-paper3#23]"
+  },
+  {
+   "name": "[Plans] Plan-chain anchor",
+   "how": "Build the 1st–12th plan ladder (years, model, slogan, target). Locate the stem's clue on the ladder; adjacent plan numbers drop.",
+   "example": "'Heavy industry led development' → Mahalanobis → Second; Fifth/Fourth/Sixth fall [prelims-2017#96]; highest agri share of outlay → First Plan [mains-2017-paper3#56]"
+  },
+  {
+   "name": "[NOT-items] Date-each-option in NOT questions",
+   "how": "Put a year against every option; in a 'not part of 1991/LPG/old plan' item the odd date or never-adopted policy is the answer.",
+   "example": "LPG not included: FDI defence, FDI retail, disinvestment all happened; full capital account convertibility never adopted → answer [prelims-2017#104]"
+  },
+  {
+   "name": "[Theory] Cause vs symptom test",
+   "how": "In 'main cause' questions ask which option produces the others; low income and idle resources are outcomes of capital shortage in the vicious circle.",
+   "example": "Most important cause of underdevelopment → 'Lack of capital'; low per capita income is an effect [group2-2008-paper3#53]"
+  },
+  {
+   "name": "[Bodies] Old body vs new body checklist",
+   "how": "For Planning Commission/NITI/FC items test 'allocates money?', 'constitutional?', 'top-down or bottom-up?'.",
+   "example": "NITI thrust → cooperative federalism; 'correct failures', 'inclusive growth', 'advise states' are side roles [mains-2017-paper3#53]"
+  },
+  {
+   "name": "[Numbers] Source-and-vintage lock for numbers",
+   "how": "Before picking a %, identify source (Census/NSS/PLFS/CSO) and year; pick the figure of that vintage, not the latest you know.",
+   "example": "PLFS 2017-18 unemployment '45-year high' → 6.1% (later rounds lower) [mains-2019-paper3#33]"
+  }
+ ],
+ "confusions": [
+  {
+   "a": "GNP – GDP",
+   "b": "Net exports (X–M)",
+   "remember": "NFIA separates GNP from GDP; net exports sit inside GDP (expenditure side)"
+  },
+  {
+   "a": "Market price",
+   "b": "Factor cost",
+   "remember": "MP = FC + indirect taxes – subsidies"
+  },
+  {
+   "a": "Naoroji 1867-68",
+   "b": "V.K.R.V. Rao 1931-32",
+   "remember": "Naoroji first estimate; Rao first scientific estimate"
+  },
+  {
+   "a": "Big Push (Rosenstein-Rodan)",
+   "b": "Balanced growth (Nurkse) / Unbalanced (Hirschman)",
+   "remember": "Big push = massive investment in industry; Nurkse = Say's law across sectors; Hirschman = leading sectors"
+  },
+  {
+   "a": "Rostow",
+   "b": "Kuznets / Colin Clark",
+   "remember": "Rostow stages (take-off); Kuznets inverted-U & NI; Clark sector shift"
+  },
+  {
+   "a": "Mahalanobis model (2nd Plan)",
+   "b": "Brahmananda-Vakil wage-goods / Gandhian",
+   "remember": "Heavy industry first vs wage goods vs village industries top priority"
+  },
+  {
+   "a": "Harrod-Domar (1st Plan)",
+   "b": "Mahalanobis (2nd Plan)",
+   "remember": "First agriculture; Second heavy industry"
+  },
+  {
+   "a": "XI Plan theme",
+   "b": "XII Plan theme",
+   "remember": "XI faster & more inclusive (9%); XII adds 'sustainable' (target 8%)"
+  },
+  {
+   "a": "Janata Sixth Plan 1978-83",
+   "b": "Sixth Plan 1980-85",
+   "remember": "Janata rolling plan dropped, revived Panchayati Raj; 1980-85 official"
+  },
+  {
+   "a": "Gadgil formula",
+   "b": "Finance Commission devolution",
+   "remember": "Gadgil = plan assistance by Planning Commission; FC = tax share"
+  },
+  {
+   "a": "Planning Commission",
+   "b": "NITI Aayog",
+   "remember": "PC 1950 allocated plan funds, top-down; NITI 1 Jan 2015 think tank, bottom-up; both executive resolutions, PM chairs"
+  },
+  {
+   "a": "Current account convertibility",
+   "b": "Capital account convertibility",
+   "remember": "Current full 1994; capital still partial (Tarapore)"
+  },
+  {
+   "a": "GSDP leader",
+   "b": "Per capita income leader",
+   "remember": "Maharashtra largest GSDP; Goa (and Sikkim) top per capita"
+  },
+  {
+   "a": "Seasonal / disguised unemployment",
+   "b": "Cyclical / structural / frictional",
+   "remember": "Agriculture = seasonal & disguised; industry = cyclical/structural"
+  },
+  {
+   "a": "PLFS (NSO)",
+   "b": "QES (Labour Bureau)",
+   "remember": "PLFS measures unemployment rate; QES counts jobs in selected sectors"
+  },
+  {
+   "a": "Two-quarter GDP fall",
+   "b": "Double-dip",
+   "remember": "Two quarters = technical recession; double-dip = W (recession–brief recovery–recession)"
+  }
+ ],
+ "anchors": [
+  "NI = NNP at factor cost; GDP + NFIA = GNP",
+  "Planning Commission March 1950 (executive resolution); NDC 6 Aug 1952; NITI Aayog 1 Jan 2015",
+  "Plan holidays 1966-69 and 1990-92; Eighth Plan 1 Apr 1992–1997; Twelfth Plan ended 2017",
+  "First Plan target 2.1% achieved 3.6%; XI Plan target 9%; XII Plan 8% (approach paper 9%)",
+  "5th Plan = Garibi Hatao; 2nd = Mahalanobis heavy industry; 1st = highest agriculture outlay share",
+  "CSO base year changed 2004-05 → 2011-12 (Jan 2015)",
+  "Raj Krishna 1978 'Hindu rate of growth' ≈3.5%",
+  "Agriculture's share of workers 2011-12 = 48.9% (NSS); services ~26.8%",
+  "PLFS 2017-18 unemployment 6.1%",
+  "14th FC (Y.V. Reddy): 42% devolution; GP grants basic:performance 90:10; GP total ₹2,00,292.20 cr; UP largest share",
+  "FC chairs: 11th Khusro, 12th Rangarajan, 13th Kelkar, 14th Y.V. Reddy, 15th N.K. Singh",
+  "NITI VCs: Panagariya, Rajiv Kumar (2017-22), Suman Bery; NITI estimates National MPI",
+  "1991: devaluation July 1991, gold pledged, LERMS 1992; demonetisation was 1978 and 2016",
+  "Poverty: Lakdawala URP, Tendulkar MRP, Rangarajan MMRP; NSSO inequality via consumption (MPCE)"
+ ],
+ "checklist": [
+  "Formula item? Write the GDP→NI chain and find the one arrow asked.",
+  "Plan item? Place the clue (model, slogan, target, year) on the 1st–12th ladder.",
+  "'NOT' item? Put a date or 'adopted?' against every option – the misfit wins.",
+  "Number item? Fix source (Census/NSS/PLFS/CSO), level (India/state, main/total) and year first.",
+  "Name item? Recall one idea per economist/chair; reject real names attached to the wrong idea.",
+  "NITI/FC/PC item? Ask who allocates money and whether it is constitutional."
+ ]
+}

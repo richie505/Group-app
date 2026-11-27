@@ -1,0 +1,227 @@
+{
+ "section": "g1-E18",
+ "overview": "99 official Group 1 Prelims questions (2008–2024) – the heaviest science block. 80 are 'S&T in daily life' one-liners (units, alloys, household chemicals, plant parts, body facts); 12 test institutes/programmes (location, parent ministry, lead partners); scientists, STI policy and 'nature of science' are thin. Since 2023 the format shifts to statement-based and multiple-correct items on recent DST/CSIR/ICMR news.",
+ "possibility": [
+  {
+   "angle": "Everyday physics: units, instruments, optics, mechanics",
+   "evidence": "part of E18/2 (80 Qs, all six years 2008–2024); e.g. 2008 Angstrom/decibel/pascal, 2010 momentum-KE, 2019 rainbow and rear-view mirror",
+   "level": "High historical recurrence",
+   "what_they_ask": "unit of a quantity, what a device does (diode, transformer), which phenomenon (rainbow, inertia), simple ratio (KE ∝ p²)"
+  },
+  {
+   "angle": "Everyday chemistry: household substances, alloys, gases, water hardness",
+   "evidence": "part of E18/2; 2008, 2010, 2010 re-exam, 2012, 2017, 2019, 2024",
+   "level": "High historical recurrence",
+   "what_they_ask": "chemical name of a common substance (laughing gas, milk of magnesia, gun cotton), alloy composition (brass), use (sodium benzoate preservative, PTFE non-stick), cause (permanent hardness = sulphates)"
+  },
+  {
+   "angle": "Everyday biology: plant parts, pigments, body organs, enzymes, vitamins",
+   "evidence": "part of E18/2; 2008, 2010, 2010 re-exam, 2012, 2017, 2019",
+   "level": "High historical recurrence",
+   "what_they_ask": "edible/economic part (ginger rhizome, chicory root), pigment colour (lutein yellow, tomato carotenoids), organ fact (liver largest gland, cornea donated), enzyme in tears"
+  },
+  {
+   "angle": "Recent Indian health/tech devices and products",
+   "evidence": "2019 (Oneer), 2024 (ARTSENS, iOncology.ai, cotton-candy Rhodamine-B)",
+   "level": "Moderate historical recurrence",
+   "what_they_ask": "what the device/product does, which institution developed it, which harmful chemical was banned"
+  },
+  {
+   "angle": "Institutes and organisations (E18/4)",
+   "evidence": "12 Qs: 2008, 2012, 2019, 2023, 2024",
+   "level": "High historical recurrence",
+   "what_they_ask": "location of a research institute (NIO Goa, CPCRI Kasaragod, CTRI Rajahmundry, CCMB/ICRISAT Hyderabad), attached-office status (NATMO–DST), lead partners of a mega-project (LIGO-India), DST women's schemes (WIDUSHI)"
+  },
+  {
+   "angle": "National Policy on STI and India's innovation rankings (E18/3)",
+   "evidence": "2 Qs: 2023 (brain-gain schemes), 2024 (GII/WIPO/NRI/IP Index ranks)",
+   "level": "Low historical recurrence",
+   "what_they_ask": "which schemes target brain drain (VAJRA, Ramanujan, INSPIRE), India's rank and publisher of each innovation index; STIP 2020 draft goals are the natural next target"
+  },
+  {
+   "angle": "Prominent Indian scientists, prizes and days (E18/5)",
+   "evidence": "4 Qs: 2012 ×2, 2017, 2024",
+   "level": "Moderate historical recurrence",
+   "what_they_ask": "why 28 Feb is National Science Day (Raman Effect), Bhatnagar Prize winners, women 'firsts' in science"
+  },
+  {
+   "angle": "Nature and scope of science (E18/1)",
+   "evidence": "1 Q: 2010 (ethology); other APPSC exams ask -ology names (rheology, axiology, etymology)",
+   "level": "Low historical recurrence",
+   "what_they_ask": "name of a branch of study; scientific method steps"
+  }
+ ],
+ "traps": [
+  {
+   "trap": "[E18/2] Unit swapped with a quantity of the same family",
+   "spot": "'X is a unit of' with options all physical quantities (time/length/weight)",
+   "fix": "Know the dimension: angstrom = length (10⁻¹⁰ m), decibel = sound level, pascal = pressure",
+   "pyq": "'Angstrom is a/an' → unit of length [group1-prelims-2008#121]"
+  },
+  {
+   "trap": "Near-synonym process term",
+   "spot": "biology vs chemistry term for the same idea (endergonic vs endothermic)",
+   "fix": "Bioprocess language uses energy (endergonic/exergonic); heat language (endo/exothermic) is chemistry",
+   "pyq": "'bioprocess by absorption of energy' → Endergonic, not Endothermic [group1-prelims-2008#131]"
+  },
+  {
+   "trap": "Temporary vs permanent hardness swap",
+   "spot": "options mix bicarbonates and sulphates",
+   "fix": "Bicarbonates = temporary (removed by boiling); sulphates/chlorides of Ca, Mg = permanent",
+   "pyq": "'Permanent hardness … due to' → calcium sulphate [group1-prelims-2010#123]"
+  },
+  {
+   "trap": "Alloy partner swapped (brass/bronze)",
+   "spot": "all options start 'Copper and …'",
+   "fix": "Brass = Cu + Zn; bronze = Cu + Sn; German silver = Cu + Zn + Ni",
+   "pyq": "'Brass is an alloy of' → Copper and Zinc [group1-prelims-2010#133]"
+  },
+  {
+   "trap": "Institute moved to a wrong but plausible state/city",
+   "spot": "location question on a coastal/agri institute; options are neighbouring states or cities",
+   "fix": "Tie the institute to its crop/ecosystem: CPCRI coconut → Kasaragod; CTRI tobacco → Rajahmundry; NIO → Goa; ARIES → Nainital",
+   "pyq": "'Sampurnanand Telescope … ARIES, Ladakh' → ARIES is at Nainital [group1-prelims-2023-paper2#74]"
+  },
+  {
+   "trap": "Organ/function swap in a device description",
+   "spot": "a name clue (ARTSENS = arteries) paired with a different organ or a famous but wrong institution",
+   "fix": "Decode the acronym, then check the developer; organ swap usually travels with an institution swap",
+   "pyq": "'ARTSENS … neurons … developed by NIMHANS' → arteries, IIT Madras [group1-prelims-2024-paper2#81]"
+  },
+  {
+   "trap": "Two-partner option with one wrong partner",
+   "spot": "options 'A in collaboration with B' where A repeats across options",
+   "fix": "Fix the lead first, then check the partner (AIIMS + C-DAC, not CAIR)",
+   "pyq": "'iOncology.ai launched by' → AIIMS with C-DAC [group1-prelims-2024-paper2#94]"
+  },
+  {
+   "trap": "True scheme, wrong objective",
+   "spot": "multiple-correct list of genuine schemes, one with a different target group",
+   "fix": "Ask whom the scheme brings in: ASEAN-India fellowship brings ASEAN researchers – not reversing India's brain drain",
+   "pyq": "brain-gain schemes → VAJRA, Ramanujan, INSPIRE only [group1-prelims-2023-paper2#79]"
+  },
+  {
+   "trap": "Famous-but-wrong discovery for a day or prize",
+   "spot": "options are all real Indian achievements (J.C. Bose, Aryabhata, Apsara)",
+   "fix": "28 February = C.V. Raman's discovery of the Raman Effect (1928)",
+   "pyq": "'National Science Day … to mark the' → Raman Effect [group1-prelims-2017-paper1#66]"
+  }
+ ],
+ "techniques": [
+  {
+   "name": "[E18/2] Dimension check",
+   "how": "Before reading options, say what the quantity measures; strike any option of another dimension.",
+   "example": "'Pressure is measured in' – mass/volume is density, degrees is angle/temperature, watt is power → Pascal [group1-prelims-2008#126]"
+  },
+  {
+   "name": "Formula-scaling",
+   "how": "Write the relation, scale the variable, compute the % change; avoid linear guesses.",
+   "example": "KE = p²/2m; p ×2 → KE ×4 → increase 300% (100%, 200% fall) [group1-prelims-2010#129]"
+  },
+  {
+   "name": "Name-root decoding",
+   "how": "Break Greek/Latin roots or product acronyms to get the subject.",
+   "example": "'Chiral' – chir = hand (as in chiropractor) → Hand [group1-prelims-2008#130]; 'Ethology' = ethos/behaviour vs etymology = words [group1-prelims-2010#141]"
+  },
+  {
+   "name": "Parent-body elimination for institute lists",
+   "how": "Identify the parent ministry of the project; strike institutes under another ministry.",
+   "example": "LIGO-India is DAE + DST → IIST (Dept of Space) and an unknown private observatory fall → IPR, IUCAA, RRCAT [group1-prelims-2024-paper2#71]"
+  },
+  {
+   "name": "Statement-by-statement truth with 'incorrect' flip",
+   "how": "Mark T/F on each line, then re-read whether the stem asks correct or incorrect; 'None of the above' is valid when all are true.",
+   "example": "GII 40, WIPO 7th, NRI 60, IP Index 42/55 all true; stem asks 'incorrect' → None of the above [group1-prelims-2024-paper2#69]"
+  },
+  {
+   "name": "Everyday-observation reasoning",
+   "how": "Picture the real object; good conductors lose heat fastest, convex mirrors shrink images.",
+   "example": "Rear-view mirror is convex → image diminished → magnification less than one [group1-prelims-2019-paper2#64]; metal cup conducts → tea cools fastest [group1-prelims-2010#127]"
+  }
+ ],
+ "confusions": [
+  {
+   "a": "Endergonic",
+   "b": "Endothermic",
+   "remember": "Endergonic = free energy absorbed (bio); endothermic = heat absorbed (chem)"
+  },
+  {
+   "a": "Brass",
+   "b": "Bronze",
+   "remember": "Brass = Cu+Zn (Z for 'brasZ'); Bronze = Cu+Sn (tin)"
+  },
+  {
+   "a": "Nitrous oxide (N₂O)",
+   "b": "Nitric oxide (NO)",
+   "remember": "Laughing gas = nitrous oxide N₂O"
+  },
+  {
+   "a": "Lactometer",
+   "b": "Hygrometer / Hydrometer",
+   "remember": "Lactometer = milk purity (density); hygrometer = humidity; hydrometer = liquid density in general"
+  },
+  {
+   "a": "Cellulose nitrate",
+   "b": "Cellulose acetate",
+   "remember": "Gun cotton = nitrate (explosive); acetate = films/fibres"
+  },
+  {
+   "a": "Lysozyme (tears)",
+   "b": "Amylase (saliva)",
+   "remember": "Tears kill bacteria with lysozyme; amylase digests starch"
+  },
+  {
+   "a": "ARIES Nainital",
+   "b": "IIA Hanle (Ladakh)",
+   "remember": "Sampurnanand 104-cm telescope = ARIES, Nainital; Hanle observatory = IIA Bengaluru's"
+  },
+  {
+   "a": "CCMB / ICRISAT (Hyderabad)",
+   "b": "NIO (Goa) / CPCRI (Kasaragod)",
+   "remember": "Hyderabad = cell biology + semi-arid crops; coast = oceanography + coconut"
+  },
+  {
+   "a": "Concave mirror (headlight)",
+   "b": "Convex mirror (rear-view)",
+   "remember": "Headlight focuses (concave); rear-view widens field, diminished image (convex)"
+  },
+  {
+   "a": "Myopia (concave lens)",
+   "b": "Hypermetropia (convex lens)",
+   "remember": "Short-sight → concave (diverging) lens"
+  },
+  {
+   "a": "Anandibai Joshi",
+   "b": "Kamala Sohonie",
+   "remember": "Anandibai = first woman doctor of Western medicine (MD 1886); Sohonie = science PhD (1939), as keyed"
+  },
+  {
+   "a": "Temporary hardness",
+   "b": "Permanent hardness",
+   "remember": "Bicarbonates boil off; sulphates/chlorides stay"
+  }
+ ],
+ "anchors": [
+  "28 February – National Science Day: Raman Effect (1928), C.V. Raman",
+  "1 Å = 10⁻¹⁰ m (length); decibel = sound level; pascal = pressure",
+  "KE = p²/2m – doubling momentum quadruples KE (+300%)",
+  "Tungsten = filament (very high melting point); fuse wire = low melting point",
+  "Plasma = fourth state of matter",
+  "Einstein's Nobel (1921) – photoelectric effect, not relativity",
+  "Atmakur (Anantapur) – first artificial-rain experiment keyed for AP (asked 2008 and 2010)",
+  "CTRI Rajahmundry; CCMB and ICRISAT Hyderabad; NIO Goa; CPCRI Kasaragod",
+  "LIGO-India lead institutes: IPR Gandhinagar, IUCAA Pune, RRCAT Indore (DAE + DST)",
+  "NATMO Kolkata – attached office of DST; digital embossing for braille maps",
+  "India: GII 2023 rank 40; NRI 2023 rank 60; IP Index 2024 rank 42/55",
+  "Rhodamine-B – the dye behind Tamil Nadu's 2024 cotton-candy ban",
+  "WIDUSHI – DST support for senior women scientists"
+ ],
+ "checklist": [
+  "Is it a unit/instrument? Fix the dimension first.",
+  "Is a formula hiding behind it (KE, magnification)? Compute, don't guess.",
+  "For institutes: match the institute to its crop/ecosystem and parent ministry.",
+  "Two-part options: verify both halves.",
+  "Statement sets: mark each T/F, then re-read 'correct' vs 'incorrect'.",
+  "Recent devices: decode the name, then confirm the developer."
+ ]
+}
