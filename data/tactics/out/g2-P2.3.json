@@ -8,7 +8,7 @@
  {"angle": "Racial groups", "evidence": "1 Q: 2008", "level": "Low historical recurrence", "what_they_ask": "Names of racial/mixed groups (Amerind, Mestizo, Mulatto)."},
  {"angle": "Tribal groups – tribe–State matching, AP ST districts", "evidence": "2 Qs: 2017, 2024", "level": "Low historical recurrence", "what_they_ask": "Tribe → State/UT, AP district with highest ST population."},
  {"angle": "Religious groups", "evidence": "1 Q: 2019", "level": "Low historical recurrence", "what_they_ask": "State with the highest share of a religion (proportion vs absolute)."},
- {"angle": "Linguistic groups", "evidence": "0 official Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "Natural targets: language families (Indo-Aryan largest, Dravidian second), Eighth Schedule count (22), Telugu as second/fourth most spoken by Census, classical-language status."}
+ {"angle": "Linguistic groups", "evidence": "0 official Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "Natural targets: language families (Indo-Aryan largest, Dravidian second), Eighth Schedule count (22), Telugu fourth most spoken in Census 2011, classical-language status."}
 ],
 "traps": [
  {"trap": "Inserts an indicator from another index as an HDI component [index mix]", "spot": "'not a component of HDI' with IMR, assets or inequality", "fix": "HDI = life expectancy + education (mean and expected years of schooling) + income (GNI/GDP per capita PPP). IMR → PQLI; assets → MPI; inequality loss → IHDI.", "pyq": "Not in HDI → Infant mortality rate [group2-2008-paper3#21]; → Ownership of basic assets [prelims-2017#145]; → loss due to inequality [mains-2017-paper3#30]"},

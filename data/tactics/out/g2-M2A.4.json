@@ -1,0 +1,70 @@
+{"section": "M2A.4",
+ "overview": "66 official Qs (2008, 2017, 2019, 2025). GSDP and sectoral shares (16), central assistance incl. AP Reorganisation Act (14) and growth/structure incl. Vision documents (12) lead; AP plan expenditure (7) was a 2008 favourite; tax, non-tax, debt, external projects and budget are small; interest payments not yet asked. Mostly one-liners (44 + 15 without printed options), 3 statement, 2 matching, 2 negative. Facts asked: dated AP shares and growth rates, APRA sections, FC awards to AP, project–funder pairs.",
+ "possibility": [
+  {"angle": "Structure and growth of AP economy – growth rates, plan priorities, Vision 2020/2029, district workforce", "evidence": "12 Qs: 2008×2, 2017×7, 2019×2, 2025", "level": "Moderate historical recurrence", "what_they_ask": "growth rate of a named year, only state with double-digit growth (2015-16), Vision 2020 12% target, Sunrise AP goal years, AP Plan IV priority (electricity), district with most cultivators/labourers, AP vs Telangana share of national GDP"},
+  {"angle": "GSDP and sectoral contribution", "evidence": "16 Qs: 2008×4, 2017×4, 2019×6, 2025×2", "level": "Moderate historical recurrence", "what_they_ask": "agency estimating state income (DES), methods used, base year, number of sectors, sector shares of GVA (agri ~32–36%, industry ~22–23%, services ~40–46%), AP's GSDP rank and growth rank, best district GDDP, sector growth matching"},
+  {"angle": "AP per capita income", "evidence": "4 Qs: 2008, 2017, 2019 (deleted), 2025", "level": "Moderate historical recurrence", "what_they_ask": "PCI of a year, Vision 2029 PCI target (Rs 9.61 lakh), AP PCI vs India PCI comparison"},
+  {"angle": "AP tax and non-tax revenue", "evidence": "3 Qs: 2017×2, 2019 (tax 2, non-tax 1)", "level": "Low historical recurrence", "what_they_ask": "sales-tax share of own tax revenue (~73% in 2016-17 RE), stamp duty receipts, largest own non-tax source (mines and minerals)"},
+  {"angle": "AP state expenditure and plan outlays", "evidence": "7 Qs: 2008×5, 2019, 2025", "level": "Moderate historical recurrence", "what_they_ask": "head with the highest share in a plan (Tenth = irrigation), small heads (industry ~5%, communications ~5%), First Plan outlay, capex share < 15% (2016-21), CFMS"},
+  {"angle": "AP debts", "evidence": "1 Q: 2025", "level": "Low historical recurrence", "what_they_ask": "public debt as % of GSDP in a budget year (34.14% BE 2024-25)"},
+  {"angle": "Interest payments", "evidence": "0 Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets, judged from the debt and expenditure items: interest as share of revenue receipts or revenue expenditure, committed expenditure (salaries + pensions + interest), BE vs RE figure of a named year"},
+  {"angle": "Central assistance – FC awards to AP, APRA 2014 provisions, special category, central institutes", "evidence": "14 Qs: 2008, 2017×2, 2019×9, 2025×2", "level": "Moderate historical recurrence", "what_they_ask": "AP share in central taxes (14th FC 4.305%), revenue-deficit grant Rs 22,113 cr, SDRF amount, APRA section for resource gap/backward districts, capital assistance, institute–location matching, Amaravati rail line facts"},
+  {"angle": "Projects of external assistance", "evidence": "4 Qs: 2019×2, 2025×2", "level": "Low historical recurrence", "what_they_ask": "funder of a named AP project (SAPAP–UNDP, APIIATP–World Bank, Amaravati–World Bank + ADB), purpose for which states may borrow from bilateral agencies"},
+  {"angle": "Recent AP budget", "evidence": "5 Qs: 2017×3, 2019×2", "level": "Low historical recurrence", "what_they_ask": "distinct AP practice (separate agriculture budget), agri-budget 2014-15 loan waiver Rs 5,000 cr, Feb 2019 vote-on-account, AgriGold allocation"}
+ ],
+ "traps": [
+  {"trap": "[Order] Rotates the three AP sector shares", "spot": "Options are the same three numbers in different order", "fix": "AP order is services > agriculture > industry; agriculture ~1/3, industry ~1/5–1/4", "pyq": "2016-17 AE → 31.77, 22.23, 46.0 [mains-2017-paper3#99]; 2022-23 → Agri 36.19, Industry 23.36, Services 40.45 [mains-2025-paper2#58]"},
+  {"trap": "[India vs AP] Applies the all-India trend to AP", "spot": "Statements that agriculture is declining or that India's figure is higher", "fix": "Residual AP is more agrarian; agriculture's GVA share rose after bifurcation (23% → 34.4%); AP PCI is above India's", "pyq": "2011-12 to 2016-17 → 'agriculture sector has shown steady improvement' [mains-2017-paper3#100]; India PCI 2023-24 lower than AP's → both true [mains-2025-paper2#55]"},
+  {"trap": "[Section] Swaps APRA section numbers", "spot": "Options are sub-sections of 45–56", "fix": "s.46(2) resource gap of residual AP; s.46(3) backward-district package; s.90 Polavaram; s.94 tax incentives and capital support", "pyq": "Backward districts → Section 46(3) [prelims-2019#49]; resource shortage → Section 46(2) [mains-2019-paper1#98]"},
+  {"trap": "[Share type] Vertical devolution confused with AP's horizontal share", "spot": "Options of a few % for AP alongside 42% talk", "fix": "42% is the states' pool (14th FC); AP's share of that pool is 4.305%", "pyq": "AP share in central taxes (14th FC) → 4.305% [prelims-2017#139]"},
+  {"trap": "[Funder] Swaps the external agency for an AP project", "spot": "Options pair World Bank with IMF/ADB/JICA/EC", "fix": "Amaravati Phase-I = World Bank + ADB; APIIATP = World Bank; SAPAP = UNDP; IMF does not fund projects", "pyq": "Amaravati → World Bank and ADB [mains-2025-paper2#66]; APIIATP → World Bank [mains-2025-paper2#67]"},
+  {"trap": "[Basically] Reads 'basically an economy of' as output share", "spot": "Stem 'basically', 'main occupation'", "fix": "Answer by employment dependence – agriculture – even when services lead GSDP", "pyq": "AP economy is basically an economy of → Agriculture sector [group2-2008-paper3#115]"},
+  {"trap": "[Detail] Alters one number in a project description", "spot": "Negative 'not correct' list of project facts", "fix": "Check length, cost, districts and timeline separately; Amaravati line timeline is 4 years", "pyq": "'Timeline of the project is 6 years' is not correct [mains-2025-paper2#64]"},
+  {"trap": "[Plan] Swaps the priority sector of an AP plan", "spot": "Irrigation vs power vs social sector", "fix": "AP Plans I–III irrigation, IV electricity, X irrigation again", "pyq": "Fourth Plan → Electricity [mains-2017-paper3#145]; Tenth Plan → Irrigation [group2-2008-paper3#103]"}
+ ],
+ "techniques": [
+  {"name": "[Sector order] Rank-then-match", "how": "Before reading numbers, write the AP order services > agriculture > industry; discard every option breaking it, then match the year.", "example": "2022-23 GVA: options with industry 36% or agriculture 26% fall; only Agri 36.19 / Ind 23.36 / Serv 40.45 keeps the order [mains-2025-paper2#58]"},
+  {"name": "[Vintage] Read the estimate tag", "how": "Note year, AE/RE/BE, current vs constant prices; pick the figure of that vintage only.", "example": "Public debt % of GSDP, BE 2024-25 → 34.14% (RE is higher) [mains-2025-paper2#62]"},
+  {"name": "[Lowest anchor] Anchor the extreme in growth matching", "how": "In sector–growth matching fix the lowest rate (usually agriculture in a weak year) and the highest, then the middle falls into place.", "example": "AP AE 2023-24 sector growth match → a-C, b-B, c-A [mains-2025-paper2#54]"},
+  {"name": "[APRA] Section map", "how": "Keep a 4-line map of APRA: s.46 finance (2 resource gap, 3 backward areas), s.90 Polavaram, s.93/13th Schedule institutions, s.94 incentives/capital.", "example": "Backward-district special package → s.46(3); 45(1), 48(2), 49(5) fall [prelims-2019#49]"},
+  {"name": "[Distinctive] 'One of the few states' test", "how": "Universal practices (capital budget, performance budget) cannot be the answer; pick the AP-specific one.", "example": "AP is one of the few states with an Agriculture budget [mains-2017-paper3#149]"},
+  {"name": "[Location] Institute–city lock", "how": "Fix one certain pair (AIIMS Mangalagiri / IIM Visakhapatnam / IIT Tirupati) and reject codes that break it.", "example": "APRA institutes matching → a-ii, b-v, c-iv, d-i, e-iii [mains-2025-paper2#63]"}
+ ],
+ "confusions": [
+  {"a": "AP GSDP share leader (services)", "b": "AP employment leader (agriculture)", "remember": "Output led by services; jobs (~55%) by agriculture"},
+  {"a": "Undivided AP agriculture share (~23%)", "b": "Residual AP (~34%+)", "remember": "Bifurcation made AP more agrarian"},
+  {"a": "Vision 2020 (1999)", "b": "Vision 2029 (2016)", "remember": "2020: 12% growth; 2029: best state, PCI Rs 9.61 lakh; global destination by 2050"},
+  {"a": "APRA s.46(2)", "b": "APRA s.46(3)", "remember": "Resource gap vs backward-district package"},
+  {"a": "14th FC vertical 42%", "b": "AP horizontal 4.305%", "remember": "Pool for all states vs AP's slice"},
+  {"a": "14th FC AP share 4.305%", "b": "15th FC AP share ~4.05%", "remember": "Match the Commission"},
+  {"a": "Total GDDP leader (Krishna, 2017-18)", "b": "Per capita GDDP leader", "remember": "Total vs per head – read the measure"},
+  {"a": "Cultivators (Chittoor highest)", "b": "Agricultural labourers (West Godavari highest)", "remember": "Dry upland → cultivators; delta → labourers (Census 2011)"},
+  {"a": "Own tax revenue leader", "b": "Own non-tax revenue leader", "remember": "Sales tax/VAT vs mines and minerals"},
+  {"a": "SAPAP (UNDP)", "b": "Velugu/APDPIP (World Bank)", "remember": "UNDP pilot preceded the World Bank programme"},
+  {"a": "Vote on account", "b": "Full budget", "remember": "Feb 2019 AP budget was a vote on account (pre-election)"},
+  {"a": "AP share of national GDP 4.7%", "b": "Telangana 4.9%", "remember": "EAC-PM: Telangana slightly ahead"}
+ ],
+ "anchors": [
+  "State income estimated by the Directorate of Economics and Statistics",
+  "AP agriculture share of GVA: 31.77% (2016-17 AE), 34.4% (2017-18), 36.19% (2022-23)",
+  "AP the only state with double-digit growth in 2015-16; 1st in GSDP growth 2017-18",
+  "AP GSDP rank 7th (2018); Krishna best district GDDP 2017-18",
+  "Vision 2020 growth target 12%; Vision 2029 PCI Rs 9.61 lakh",
+  "14th FC: AP share 4.305%; revenue-deficit grant Rs 22,113 crore; SDRF Rs 2,492 crore",
+  "APRA 2014: s.46(2) resource gap, s.46(3) backward districts, s.90 Polavaram, s.94 incentives",
+  "Sales tax ~73% of own tax revenue (2016-17 RE); stamps and registration Rs 3,476 crore (2016-17)",
+  "Capital expenditure < 15% of total expenditure in 2016-21",
+  "Public debt 34.14% of GSDP (BE 2024-25)",
+  "Amaravati Phase-I: World Bank + ADB; APIIATP: World Bank; SAPAP: UNDP",
+  "AP agri-budget 2014-15: Rs 5,000 crore loan waiver",
+  "AP Plan priorities: IV electricity; X irrigation"
+ ],
+ "checklist": [
+  "Sector-share item? Apply services > agriculture > industry before numbers.",
+  "Number item? Lock year, AE/RE/BE and current vs constant prices.",
+  "Comparison with India? Remember AP is more agrarian and has higher PCI.",
+  "APRA item? Recall the section map before options.",
+  "FC item? Separate vertical pool from AP's horizontal share and the Commission number.",
+  "Project item? Name the funder pair; IMF never funds projects."
+ ]
+}

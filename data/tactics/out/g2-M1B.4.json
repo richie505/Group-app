@@ -1,0 +1,75 @@
+{
+"section": "g2-M1B.4",
+"overview": "48 official Qs (2008, 2017, 2019, 2025). Three clusters: unitary vs federal features (13), elections and electoral reforms (13) and Centre-State relations – Art 356, Inter-State/Zonal Councils (11); commissions (Rajamannar, Sarkaria, Punchhi) 5; parties and recognition 5. One-liners on 'who said / which Article / which year', many negative stems, and 2025 assertion-reason, matching and chronology.",
+"possibility": [
+ {"angle": "Centre-State relations: Art 356, Inter-State and Zonal Councils, AP episodes", "evidence": "11 Qs: 2008×3, 2017×5, 2025×3", "level": "Moderate historical recurrence", "what_they_ask": "Art 356 and S.R. Bommai; Inter-State Council (Art 263, consensus, 1990); Zonal Councils (States Reorganisation Act 1956, Union Home Minister chairs); AP President's Rule 1973; Governor Ram Lal and NTR (1984); AIS as anti-federal."},
+ {"angle": "Need for reforms", "evidence": "1 Q: 2025", "level": "Low historical recurrence", "what_they_ask": "which committee is (not) on Centre-State relations – odd one out among commissions."},
+ {"angle": "Rajamannar Committee", "evidence": "2 Qs: 2017, 2019", "level": "Low historical recurrence", "what_they_ask": "set up by Tamil Nadu (1969) to study Centre-State relations; recommendations – Inter-State Council, curb Art 356, abolish IAS/IPS (not strengthen Governor)."},
+ {"angle": "Sarkaria Commission", "evidence": "1 Q: 2017", "level": "Low historical recurrence", "what_they_ask": "Governor criteria – eminent, outsider to the State, detached from local politics, secure 5-year term."},
+ {"angle": "M.M. Punchhi Commission", "evidence": "2 Qs: 2017×2", "level": "Low historical recurrence", "what_they_ask": "2007 (UPA); fixed 5-year Governor tenure; amend Arts 355/356 for localised emergency."},
+ {"angle": "Unitary and federal features", "evidence": "13 Qs: 2008×3, 2017×4, 2019×3, 2025×3", "level": "Moderate historical recurrence", "what_they_ask": "who described India how (Wheare quasi-federal, Jennings centralising, Ambedkar unitary-and-federal); which is not a federal feature (CAG); Art 1 'Union of States'; Art 3 – views of State not binding; Schedule I for new State; Emergency grounds and consequences."},
+ {"angle": "Indian political parties", "evidence": "3 Qs: 2017, 2019, 2025", "level": "Moderate historical recurrence", "what_they_ask": "TDP largest opposition party 1984; chronology of party founding (DMK 1949 → TDP 1982 → BSP 1984 → SP 1992); media and political image."},
+ {"angle": "Party system in India", "evidence": "0 official Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets: one-party dominance ('Congress system', Rajni Kothari), multi-party coalition era from 1989, regional parties' rise – likely in the same 'who described / which year' style."},
+ {"angle": "Recognition of national and State parties", "evidence": "2 Qs: 2019, 2025", "level": "Low historical recurrence", "what_they_ask": "Symbols Order 1968 criteria (6% votes in 4 States + 4 LS seats; 2% LS seats from 3 States; State party in 4 States); which party is national (names with 'All India' mislead)."},
+ {"angle": "Elections and electoral reforms", "evidence": "13 Qs: 2017×7, 2019, 2025×5", "level": "Moderate historical recurrence", "what_they_ask": "NOTA 2013; National Voters' Day 25 Jan; EVM history (Paravur 1982, 1998 trial in Rajasthan/MP/Delhi, Goa 1999); 61st Amd voting age 18; MCC voluntary; committees (Vohra, Indrajit Gupta, Dinesh Goswami); Sangha seat; mid-term vs by-election; Art 192 disqualification to Governor."},
+ {"angle": "Anti-defection law", "evidence": "0 official Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets: 52nd Amd 1985 (Tenth Schedule), 91st Amd 2003 (split clause removed, merger needs 2/3), Speaker/Chairman decides, Kihoto Hollohan (1992) judicial review."}
+],
+"traps": [
+ {"trap": "Swaps the author of a description of Indian federalism [Wheare / Jennings / Ambedkar]", "spot": "'Who described India as ...' with constitutional experts as options", "fix": "Wheare – quasi-federal; Ivor Jennings – federation with a strong centralising tendency; Ambedkar – unitary or federal as time and circumstances require; Austin – cooperative federalism; Morris-Jones – bargaining federalism.", "pyq": "'Quasi-federal' → K.C. Wheare [group2-2008-paper2#147]; 'federation with a centralising tendency' → Ivor Jennings, not Wheare [mains-2025-paper1#99]"},
+ {"trap": "Turns a consultative step into a binding one", "spot": "Art 3 options: 'concurrence', 'two-thirds majority', 'views'", "fix": "President refers the bill to the State legislature for its VIEWS – Parliament is not bound.", "pyq": "Altering boundary of a State → views of the affected State Assembly are to be sought by the President [prelims-2017#34]"},
+ {"trap": "Revives a pre-1978 Emergency ground or power", "spot": "Grounds of Art 352, or 'suspend all FRs'", "fix": "Grounds now: war, external aggression, armed rebellion ('internal disturbance' removed by the 44th Amd). Arts 20 and 21 can never be suspended.", "pyq": "Cannot proclaim on 'Internal Disturbance' [prelims-2019#65]; 'suspend all the Fundamental Rights' → false consequence [mains-2025-paper1#114]"},
+ {"trap": "Gives a statutory council constitutional status", "spot": "'Which inter-State body is constitutional'", "fix": "Inter-State Council – Art 263 (constitutional). Zonal Councils – States Reorganisation Act 1956; river water tribunals – 1956 Act under Art 262 (statutory).", "pyq": "Constitutional body → Inter State Council [mains-2017-paper2#146]; Zonal Councils → States Reorganisation Act 1956 [group2-2008-paper2#144]"},
+ {"trap": "Plants a recommendation the commission never made (often the opposite)", "spot": "'Not a recommendation of Rajamannar/Sarkaria/Punchhi'", "fix": "Rajamannar wanted State autonomy – so 'strengthening the Governor' is foreign to it. Punchhi wanted Arts 355/356 amended (localised emergency).", "pyq": "'Strengthening of Governor System' → not Rajamannar [mains-2017-paper2#135]; 'no need to amend Article 355 and 356' → wrong about Punchhi [mains-2017-paper2#131]"},
+ {"trap": "Mixes up the committee with its electoral subject", "spot": "Matching of committees and reforms; odd-one-out among commissions", "fix": "Vohra – crime-politics nexus; Indrajit Gupta – State funding of elections; Dinesh Goswami – electoral reforms; J.S. Verma (2013) – criminal law.", "pyq": "Indrajit Gupta Committee → not on Centre-State relations [mains-2025-paper1#116]; Vohra → crime-politics, Indrajit Gupta → State funding [mains-2025-paper1#95]"},
+ {"trap": "Swaps the place or year of an EVM 'first'", "spot": "Statements on first use of EVMs", "fix": "First ever: Paravur (Kerala) 1982; experimental 1998 in 16 constituencies of Rajasthan, MP, Delhi; first whole State: Goa 1999.", "pyq": "Statement B on 1998 trial with wrong States → not true; Goa 1999 → true [mains-2025-paper1#93]"},
+ {"trap": "Takes the name of a party as proof of national status", "spot": "'All India' or 'of India' in party names", "fix": "Recognition depends on Symbols Order criteria, not the name; AIFB, PWPI, RSP, DMK were State parties in 2019.", "pyq": "None of DMK, RSP, AIFB, PWPI is national → None of these [mains-2019-paper2#128]"}
+],
+"techniques": [
+ {"name": "Federal-feature filter [divides power vs centralises]", "how": "Ask of each option: does it divide power between two levels and protect that division (written, rigid, supreme Constitution, independent judiciary, division of powers)? Single integrated institutions (CAG, Governor, AIS, Emergency) are unitary.", "example": "Rigid Constitution, distribution of powers, independent SC are federal; CAG audits both levels as one office → not federal [mains-2017-paper2#126]; Governor, CAG, Emergency violate federal principle, Central Services do not → A, C and D [mains-2025-paper1#103]"},
+ {"name": "Chronology by founding anchors", "how": "Pin each party to a known event: DMK 1949 (Annadurai split from DK), TDP 1982 (NTR), BSP 1984 (Kanshi Ram), SP 1992 (Mulayam). Fix the earliest and latest first.", "example": "DMK earliest, SP latest → only options starting B and ending A survive → TDP 1982 before BSP 1984 → B, D, C, A [mains-2025-paper1#101]"},
+ {"name": "Assertion-reason: can a later event explain an earlier text?", "how": "If R is a later recommendation and A is an original constitutional provision, R cannot be its explanation even if both are true.", "example": "Art 263 (1950) vs Rajamannar's 1969 case for an Inter-State Council → both true, R not the explanation [mains-2025-paper1#113]"},
+ {"name": "Whose desk? routing", "how": "For disqualification and dispute questions, route by office: MP disqualification → President on ECI opinion (Art 103); MLA → Governor on ECI opinion (Art 192); defection → Speaker/Chairman.", "example": "Art 192 disqualification of an MLA is referred to → Governor of the State [mains-2017-paper2#121]"},
+ {"name": "Commission-intent check", "how": "Recall each body's purpose (Rajamannar = more State autonomy; Sarkaria/Punchhi = balanced Governor reforms). A recommendation against that purpose is the odd one.", "example": "Sarkaria wanted an eminent outsider with a secure term; 'should have travelled extensively in the State' is no criterion → answer [mains-2017-paper2#144]"}
+],
+"confusions": [
+ {"a": "K.C. Wheare", "b": "Ivor Jennings", "remember": "Wheare = quasi-federal; Jennings = federation with a centralising tendency."},
+ {"a": "Granville Austin", "b": "Morris-Jones", "remember": "Austin = cooperative federalism; Morris-Jones = bargaining federalism."},
+ {"a": "Inter-State Council (Art 263, 1990)", "b": "Zonal Councils (SR Act 1956)", "remember": "Constitutional vs statutory; ISC decides by consensus; ZCs chaired by Union Home Minister."},
+ {"a": "Rajamannar Committee (1969, TN govt)", "b": "Sarkaria Commission (1983, Union)", "remember": "Rajamannar: State autonomy, abolish AIS; Sarkaria: balanced reforms, ISC set up 1990."},
+ {"a": "Sarkaria Commission", "b": "Punchhi Commission (2007)", "remember": "Punchhi: fixed 5-year Governor tenure, removal by State legislature resolution, localised emergency."},
+ {"a": "Art 356 President's Rule", "b": "Art 352 / 360", "remember": "356 State machinery failure; 352 National Emergency; 360 Financial Emergency; 358 suspends Art 19."},
+ {"a": "Art 3 (views of State)", "b": "Art 368 amendment", "remember": "New States by ordinary law amending Schedule I; not an Art 368 amendment."},
+ {"a": "Mid-term election", "b": "By-election", "remember": "Mid-term = whole House dissolved early; by-election = one vacant seat."},
+ {"a": "Indrajit Gupta (1998)", "b": "Dinesh Goswami (1990) / Vohra (1993)", "remember": "Gupta – State funding; Goswami – electoral reforms; Vohra – criminal-politics nexus."},
+ {"a": "Paravur 1982", "b": "Goa 1999", "remember": "First EVM use anywhere vs first entire State election by EVM."},
+ {"a": "61st Amd 1988 (voting age 18)", "b": "52nd Amd 1985 (anti-defection)", "remember": "Art 326 age change vs Tenth Schedule."},
+ {"a": "National Voters' Day 25 January", "b": "Constitution Day 26 November", "remember": "25 Jan = ECI founded 1950 (since 2011)."},
+ {"a": "Thakur Ram Lal (dismissed NTR, Aug 1984)", "b": "Shankar Dayal Sharma (restored NTR, Sep 1984)", "remember": "Dismissal by Ram Lal; reinstatement under his successor."}
+],
+"anchors": [
+ "Art 1 – 'India, that is Bharat, shall be a Union of States'",
+ "Art 3 – new States by law; Schedule I amended",
+ "Art 263 – Inter-State Council (set up 1990, decisions by consensus)",
+ "Art 352 grounds: war, external aggression, armed rebellion (44th Amd)",
+ "Art 353 – directions to any State in Emergency; Art 354 – finance modified",
+ "Art 356 – President's Rule; S.R. Bommai 1994",
+ "AP under President's Rule 1973 (Jai Andhra)",
+ "Rajamannar 1969; Sarkaria 1983; Punchhi 2007",
+ "Art 192 – MLA disqualification to Governor on ECI opinion",
+ "NOTA – PUCL 2013; National Voters' Day 25 Jan",
+ "EVM: Paravur 1982; Goa 1999 first whole State",
+ "61st Amd 1988 – voting age 18 (Art 326)",
+ "Symbols Order 1968 – national party criteria",
+ "MCC – no statutory backing, consensus of parties",
+ "TDP 1984 – largest opposition party in Lok Sabha (30 seats)",
+ "AP Assembly 175 seats: 29 SC, 7 ST"
+],
+"checklist": [
+ "Quote question: Wheare, Jennings, Ambedkar, Austin – whose phrase exactly?",
+ "Federal-feature question: does the option divide power or concentrate it?",
+ "Constitutional or statutory body? Look for an Article.",
+ "Emergency: is the option a post-1978 ground or power?",
+ "Commission: does the option fit the commission's purpose?",
+ "Election firsts: place, year and scale (constituency / whole State)."
+]
+}
