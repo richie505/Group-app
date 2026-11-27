@@ -1,5 +1,5 @@
 """Stage 2d: add the APPSC Group 1 / Group 2 PYQs held in the apps (app/src/complete/assets/mcq*.json, src naming a
-Group-I / Group-II exam) to data/pyqdecode/pyq.db as a SECONDARY tier (paper ids "app:<src>"), minus questions
+APPSC exam) to data/pyqdecode/pyq.db as a SECONDARY tier (Group 1 / 2) or TERTIARY tier (other APPSC exams) (paper ids "app:<src>"), minus questions
 already in the official papers. Their keys are the app's (web-checked, not official APPSC documents); questions the
 app updated to current facts or repaired keep that tag, because their wording may differ from the original paper.
     python3 tools/pyqdecode_appbank.py"""
@@ -7,19 +7,24 @@ import json, re, sqlite3
 
 con = sqlite3.connect("data/pyqdecode/pyq.db")
 norm = lambda t: re.sub(r"[^a-z0-9]+", " ", str(t).lower()).strip()
-have = {norm(s)[:90] for (s,) in con.execute("SELECT text_original FROM question")}
 con.execute("DELETE FROM question WHERE paper_id LIKE 'app:%'")
 con.execute("DELETE FROM paper WHERE id LIKE 'app:%'")
+have = {norm(s)[:90] for (s,) in con.execute("SELECT text_original FROM question")}
 seen, papers, n, dup = set(), {}, 0, 0
 for b in range(1, 7):
     m = json.load(open(f"app/src/complete/assets/mcq{b}.json"))
     for qs in m["rows"].values():
         for q in qs:
             src = q.get("src") or ""
-            g = re.search(r"group[- ]?(ii|2|i|1)\b", src, re.I)
-            if not g:
+            if "appsc" not in src.lower():
                 continue
-            exam = "Group 2" if g.group(1).lower() in ("ii", "2") else "Group 1"
+            g = re.search(r"group[- ]?(iii|ii|2|i|1)\b", src, re.I)
+            if g and g.group(1).lower() in ("ii", "2"):
+                exam = "Group 2"
+            elif g and g.group(1).lower() in ("i", "1"):
+                exam = "Group 1"
+            else:
+                exam = "Other APPSC exam"
             k = norm(q["s"])[:90]
             if k in have or k in seen:
                 dup += 1
@@ -29,8 +34,8 @@ for b in range(1, 7):
             if pid not in papers:
                 y = re.search(r"(19|20)\d\d", src)
                 stage = "Mains" if re.search(r"mains", src, re.I) else ("Prelims" if re.search(r"prelim|screening", src, re.I) else "unknown")
-                papers[pid] = (pid, exam, int(y.group(0)) if y else None, stage, src, None, "app question bank (PYQ books / earlier collections)",
-                               None, "app key (web-checked, not an APPSC document)", None, "secondary")
+                papers[pid] = (pid, exam, int(y.group(0)) if y else None, stage, src, None, "app question bank (PYQ books / earlier collections)" if exam != "Other APPSC exam" else "app question bank: other APPSC exam (supporting evidence only)",
+                               None, "app key (web-checked, not an APPSC document)", None, "secondary" if exam != "Other APPSC exam" else "tertiary")
             tags = ",".join(q.get("tags") or [])
             con.execute("INSERT INTO question VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (f"{pid}#{q['id']}", pid, None, q["s"], None, None,
                 None, json.dumps(q.get("o"), ensure_ascii=False), q.get("a"), (q["o"][q["a"]] if q.get("o") and 0 <= q.get("a", -1) < len(q["o"]) else None),
