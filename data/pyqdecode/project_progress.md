@@ -25,3 +25,11 @@ Approved 2026-11-27: fetch official keys; include ALL papers (G2 2008/2012 too; 
 - [ ] Stage 4-8 as in AUDIT_AND_PLAN.md
 
 Rebuild pyq.db: python3 tools/pyqdecode_db.py && python3 tools/pyqdecode_keys.py && python3 tools/pyqdecode_appbank.py && python3 tools/pyqdecode_map.py && python3 tools/pyqdecode_anatomy.py (then the 2019 key notes and Stage 4 loaders)
+
+## Stage 4 complete, Stage 6 statistics (2026-11-27)
+- All official questions deconstructed: Group 1 1,179 Q → 4,927 statements (1,651 T / 3,269 F / 7 U); Group 2 2,129 Q →
+  7,524 statements (2,602 T / 4,865 F / 57 U). Every job passes `pyqdecode_jobs.py check`.
+- `tools/pyqdecode_stats.py` → `stats_g1.json`, `stats_g2.json`, `coverage_g1.csv`, `coverage_g2.csv`.
+- Coverage: Group 1 214/237 leaves with direct official PYQs (90.3%), 20 related-only, 3 none;
+  Group 2 296/397 (74.6%), 39 related-only, 62 none.
+- Next: Stage 5 verification report (U/pending statements, key conflicts), then chapters (Stage 7) and PDFs (Stage 8).
