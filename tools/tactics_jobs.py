@@ -88,7 +88,7 @@ def check(names):
             for t in o.get("traps", []) + o.get("techniques", []):
                 if not re.search(r"\[[^\[\]\s]+#[^\[\]\s]+\]", json.dumps(t, ensure_ascii=False)):
                     pr.append(f"no PYQ citation: {str(t)[:60]}")
-        if re.search(r"\b(will (definitely|surely) (come|appear|be asked)|guaranteed)\b", json.dumps(o), re.I):
+        if re.search(r"\b(will (definitely|surely) (come|appear|be asked)|guaranteed to (come|appear|be asked)|sure[- ]shot)\b", json.dumps(o), re.I):
             pr.append("prediction wording")
         if wrong:
             pr.append(f"unknown PYQ ids {wrong[:3]}")
