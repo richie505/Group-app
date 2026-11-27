@@ -1,0 +1,52 @@
+{"section": "g2-P3.2",
+"overview": "Social Issues: only 7 official questions – one in 2008 and six in Prelims 2024. 2024 style is current-affairs-linked: which State/district ran a scheme or lost a law, which portal or MHA tool does what, who defined communalism, statements on the Assam Movement. Casteism has no official question; other APPSC exams ask it via Article 17, inter-caste schemes and honour-killing cases.",
+"possibility": [
+ {"angle": "Casteism", "evidence": "0 official Qs; asked in other APPSC exams", "level": "Syllabus angle not yet asked", "what_they_ask": "Natural targets: Article 17 (untouchability), PCR Act 1955 and SC/ST (PoA) Act 1989, Shakti Vahini (2018) on honour killing, Dr Ambedkar inter-caste marriage scheme, Narayana Guru's 'one caste, one religion, one God'."},
+ {"angle": "Communalism – definitions and thinkers", "evidence": "1 Q: 2024", "level": "Low historical recurrence", "what_they_ask": "Which scholar gave a quoted definition."},
+ {"angle": "Regionalism – domicile job quotas, statehood and capital debates", "evidence": "1 Q: 2024", "level": "Low historical recurrence", "what_they_ask": "State whose local-reservation law was struck down; related exams ask Srikrishna Committee, AP three-capitals Act and its repeal."},
+ {"angle": "Crime against women – MHA IT tools, cases, laws", "evidence": "2 Qs: 2008, 2024", "level": "Low historical recurrence", "what_they_ask": "Which MHA tool does real-time crime alerts; city of a reported abuse case; related exams ask Disha Act, Shakti teams, Nirbhaya Act."},
+ {"angle": "Child abuse – child marriage initiatives", "evidence": "1 Q: 2024", "level": "Low historical recurrence", "what_they_ask": "District/State behind a named anti-child-marriage initiative."},
+ {"angle": "Child labour – law and portal", "evidence": "1 Q: 2024", "level": "Low historical recurrence", "what_they_ask": "Portal name for enforcing the 1986 Act (as amended 2016); related: Bachpan Bachao Andolan (Satyarthi)."},
+ {"angle": "Youth unrest and agitation – Assam and other movements", "evidence": "1 Q: 2024", "level": "Low historical recurrence", "what_they_ask": "Start year, leading body and objective of a movement (Assam), AP movements and their start years in related exams."}
+],
+"traps": [
+ {"trap": "Shifts the start year of a movement to its later milestone [year shift]", "spot": "Statement giving a year for AASU's Assam agitation", "fix": "Assam Movement began 1979; the Assam Accord was signed in 1985 (cut-off 25 March 1971). 1983 is the year of the Nellie violence, not the start.", "pyq": "'started in 1983' is false; objective statement also false → None of the above [prelims-2024#80]"},
+ {"trap": "Gives another State that passed a similar local-quota law", "spot": "AP, Haryana, Jharkhand, Karnataka – all debated domicile quotas", "fix": "The law struck down by the High Court (2023) for 75% private-job quota was Haryana's 2020 Act.", "pyq": "→ Haryana [prelims-2024#105]"},
+ {"trap": "Gives a sister MHA database for a different function", "spot": "ITSSO, NDSO, Cri-MAC listed together", "fix": "Cri-MAC = real-time sharing of crime alerts and inter-State coordination; ITSSO = tracking sexual-offence investigation; NDSO = offender registry.", "pyq": "Real-time dissemination incl. trafficking → Cri-MAC [prelims-2024#75]"},
+ {"trap": "Offers a scheme acronym from another ministry", "spot": "Portal names (SPARC, SRIJAN, YUKTI, PENCIL)", "fix": "PENCIL = child-labour enforcement portal; the others are education/innovation/defence-production platforms.", "pyq": "→ PENCIL [prelims-2024#64]"},
+ {"trap": "Attributes a definition to the best-known Indian historian", "spot": "Quote on communalism with Bipan Chandra as an option", "fix": "'Political assertiveness of a community … in a plural society undergoing modernisation' is Melson and Wolpe; Bipan Chandra treats communalism as an ideology.", "pyq": "→ Robert Melson and Howard Wolpe [prelims-2024#76]"}
+],
+"techniques": [
+ {"name": "Keyword → function mapping for e-tools [tool names]", "how": "Read the function words in the stem (real-time, registry, investigation) and match to the tool's name.", "example": "'dissemination … real time … interstate coordination' = multi-agency centre → Cri-MAC [prelims-2024#75]"},
+ {"name": "Milestone timeline for movements", "how": "Fix start, peak and settlement years; test each statement's year against them.", "example": "Assam: 1979 start → 1985 Accord; '1983 start' falls [prelims-2024#80]"},
+ {"name": "Where-it-happened recall for State initiatives", "how": "Link each initiative to its State in a short list (Odisha ALIVA, AP Disha, Kerala Pink Patrol).", "example": "ALIVA → Nayagarh district, Odisha [prelims-2024#61]"},
+ {"name": "Struck-down vs passed check", "how": "When several States passed similar laws, ask which one the court struck down.", "example": "AP (2019) and Jharkhand also enacted quotas; Punjab & Haryana HC struck down Haryana's → Haryana [prelims-2024#105]"}
+],
+"confusions": [
+ {"a": "Cri-MAC", "b": "ITSSO / NDSO", "remember": "Real-time crime alerts vs investigation tracking / sex-offender registry."},
+ {"a": "PENCIL", "b": "SPARC / SRIJAN / YUKTI", "remember": "Child-labour portal vs other ministries' platforms."},
+ {"a": "Melson–Wolpe", "b": "Bipan Chandra", "remember": "Communalism as political assertiveness vs communalism as ideology."},
+ {"a": "Assam Movement 1979", "b": "Assam Accord 1985", "remember": "AASU-led agitation start vs settlement (cut-off 25 March 1971)."},
+ {"a": "Haryana local-quota Act 2020", "b": "AP local-quota Act 2019", "remember": "Haryana's was struck down by the High Court (2023)."},
+ {"a": "Article 17", "b": "Article 16(3)", "remember": "Abolition of untouchability vs Parliament alone may prescribe residence for jobs."},
+ {"a": "Bachpan Bachao Andolan", "b": "ALIVA", "remember": "Satyarthi's NGO movement vs Odisha district's data-driven anti-child-marriage drive."},
+ {"a": "Disha Act (AP 2019)", "b": "Nirbhaya Act (2013)", "remember": "AP women-safety law vs central criminal law amendment after Dec 2012 case."}
+],
+"anchors": [
+ "Article 17 – abolition of untouchability.",
+ "Child and Adolescent Labour (Prohibition and Regulation) Act 1986, amended 2016; PENCIL portal (2017).",
+ "Assam Movement 1979 (AASU); Assam Accord 15 Aug 1985.",
+ "Haryana State Employment of Local Candidates Act 2020 (75%) struck down by the High Court in 2023.",
+ "ALIVA – Nayagarh district, Odisha (child marriage).",
+ "Cri-MAC – MHA real-time crime information platform.",
+ "Melson and Wolpe – communalism as political assertiveness of a community.",
+ "National Youth Day – 12 January (Vivekananda's birthday).",
+ "AP Reorganisation Act appointed day – 2 June 2014."
+],
+"checklist": [
+ "Which exact body, tool or portal does the stem's function describe?",
+ "Several States did something similar – which one does the stem single out (struck down, first, district)?",
+ "Test every year in a statement against the movement's start and settlement.",
+ "Definition quote: match the key phrase to the thinker, not the most famous name.",
+ "Not-yet-asked casteism: revise Article 17, PCR/PoA Acts and honour-killing guidelines."
+]}

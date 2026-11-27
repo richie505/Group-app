@@ -1,0 +1,69 @@
+{"section": "B1",
+ "overview": "Constitution - evolution, features, Preamble, FR, FD, DPSP, amendments, significant provisions, basic structure: 41 official questions (2008-2024), 14 in 2019 alone and 9 in 2024. FR (9), evolution (6) and amendments (6) lead. Since 2019 the format is mostly statement-based (11) and 'choose the wrong answer' (8) with case-law reasoning (Kesavananda, Minerva, Coelho), not plain article numbers.",
+ "possibility": [
+  {"angle": "Evolution: British Acts and the Constituent Assembly", "evidence": "6 Qs: 2008×2, 2012, 2017, 2019, 2023", "level": "High historical recurrence", "what_they_ask": "year of an Act or court; which Act gave dyarchy; CA committee chairmen; plan that composed the CA; who first proposed it"},
+  {"angle": "Features and sources; federal vs unitary", "evidence": "3 Qs: 2010, 2019×2", "level": "Low historical recurrence", "what_they_ask": "borrowed features by country; which feature is not federal; components of secularism"},
+  {"angle": "Preamble", "evidence": "4 Qs: 2019×2, 2023, 2024", "level": "Moderate historical recurrence", "what_they_ask": "exact wording (liberty of thought ... worship); enacted last; justiciability; meaning of Republic, democratic, fraternity"},
+  {"angle": "Fundamental Rights and writs", "evidence": "9 Qs: 2010, 2017, 2019×3, 2023×2, 2024×2", "level": "High historical recurrence", "what_they_ask": "citizen-only vs all-person rights; article pairs (21A, 24); habeas corpus scope; prisoners' rights; Ninth Schedule; Art. 14 concepts"},
+  {"angle": "Fundamental Duties", "evidence": "2 Qs: 2023, 2024", "level": "Low historical recurrence", "what_they_ask": "which listed item is an FD (vs DPSP); citizens only; committees (Swaran Singh, Verma)"},
+  {"angle": "Directive Principles", "evidence": "5 Qs: 2008, 2019×2, 2024×2", "level": "Moderate historical recurrence", "what_they_ask": "article number (Art. 40 panchayats); DPSP vs FR relation; order of DPSP amendments; Art. 31C cases"},
+  {"angle": "Amendments", "evidence": "6 Qs: 2010, 2012, 2019×2, 2023, 2024", "level": "High historical recurrence", "what_they_ask": "what a numbered amendment did; Bill number vs Act number; Art. 368 procedure; overriding judgments"},
+  {"angle": "Significant provisions (citizenship, J&K, territory, property)", "evidence": "4 Qs: 2008, 2017, 2019, 2024", "level": "Moderate historical recurrence", "what_they_ask": "modes of citizenship; Art. 370; Union vs Territory of India; Art. 300A"},
+  {"angle": "Basic structure", "evidence": "2 Qs: 2019, 2024", "level": "Low historical recurrence", "what_they_ask": "source (judge-made, Kesavananda 1973), who decides, what Parliament can amend, which case named which element"}
+ ],
+ "traps": [
+  {"trap": "[Neighbour article] Article number shifted by one", "spot": "Consecutive article numbers (39/40/41/42; 23/24) as options", "fix": "Art. 40 panchayats; 41 work/assistance; 42 maternity; 23 forced labour; 24 child labour", "pyq": "Village panchayats → Article 40 [group1-prelims-2008#34]; education and child labour → 21A and 24 [group1-prelims-2023-paper1#47]"},
+  {"trap": "All-person right labelled citizen-only", "spot": "List of articles 'denied to aliens' containing 23/24 or 20/21", "fix": "Citizen-only: 15, 16, 19, 29, 30; all others available to every person", "pyq": "Arts 23 and 24 excluded → 'I, II and IV only' [group1-prelims-2023-paper1#44]"},
+  {"trap": "Scope of a writ narrowed", "spot": "'Habeas corpus lies only against the executive'", "fix": "Habeas corpus lies against State and private persons; mandamus does not lie against private persons", "pyq": "Statement on executive-only is the wrong one [group1-prelims-2019-paper1#37]"},
+  {"trap": "DPSP item placed among Fundamental Duties", "spot": "FD list with 'protect weaker sections from social injustice'", "fix": "That is the State's duty under Art. 46 (DPSP); FD (51A) are citizens' duties", "pyq": "Item I excluded → 'II, III and IV' [group1-prelims-2023-paper1#41]"},
+  {"trap": "Judge-made doctrine credited to Parliament or the 1950 text", "spot": "'Basic structure incorporated by an Act' / 'explained in the Constitution of 1950' / 'Parliament is supreme authority'", "fix": "Kesavananda 1973 created it; courts decide its content; Parliament can amend any part without destroying it", "pyq": "Statement I false [group1-prelims-2024-paper1#53]; correct option 'cannot be amended under Art. 368' [group1-prelims-2019-paper1#32]"},
+  {"trap": "Unitary feature slipped into federal list", "spot": "'Which is not a federal feature' with Governor", "fix": "Centre-appointed Governor, single citizenship, emergencies are unitary", "pyq": "Office of the Governor [group1-prelims-2019-paper1#44]"},
+  {"trap": "Procedure condition invented", "spot": "Art. 368 statements with 'prior permission of the President' or States initiating", "fix": "Either House, minister or private member, no prior sanction; States cannot initiate; Art. 368 has two methods", "pyq": "Only statement III valid [group1-prelims-2024-paper1#52]"},
+  {"trap": "Order of enactment reversed", "spot": "'Preamble was enacted before the Constitution'", "fix": "The Preamble was adopted last to conform to the text; it is non-justiciable", "pyq": "Statement on Preamble enacted first is false [group1-prelims-2023-paper1#45]"}
+ ],
+ "techniques": [
+  {"name": "Who / where test for rights", "how": "[Citizen or person?] For each right ask: citizens only or all persons? against State only or private persons too?", "example": "Arts 29-30, 19, 16 citizen-only; 23-24 for all → 'I, II and IV only' [group1-prelims-2023-paper1#44]"},
+  {"name": "Case-anchor timeline", "how": "Fix the landmark chain: Champakam 1951 - Golaknath 1967 - Kesavananda 1973 - Minerva 1980 - Coelho 2007; any statement giving a doctrine to the wrong case or date fails.", "example": "FD added 1976 cannot have been used in Kesavananda 1973 → statement III false [group1-prelims-2024-paper1#49]"},
+  {"name": "Amendment-number ladder for chronology", "how": "Order changes by amendment number: 42nd (1976) - 44th (1978) - 86th (2002) - 97th (2011).", "example": "48A (42nd) - 38(2) (44th) - Art. 45 change (86th) - 43B (97th) → 'IV, I, II, III' [group1-prelims-2024-paper1#50]"},
+  {"name": "Bill number is not Act number", "how": "When an option set mixes 100+ numbers, check if the stem says 'Bill' or 'Act'.", "example": "EWS: 124th Bill = 103rd Act → '124th Constitutional Amendment Bill' [group1-prelims-2019-paper2#108]"},
+  {"name": "Exact-wording recall", "how": "For Preamble wording questions, recite the clause in full; options that drop one word fall.", "example": "Liberty of thought, expression, belief, faith and worship → only the five-word option survives [group1-prelims-2019-paper1#52]"},
+  {"name": "Plan-stage sorting", "how": "For CA history sort: proposed (Roy 1934, INC 1935) - offered (Cripps 1942) - composed (Cabinet Mission 1946) - sovereign (Independence Act 1947).", "example": "'composed roughly on the lines suggested by' → Cabinet Mission [group1-prelims-2017-paper1#143]; first idea → M.N. Roy [group1-prelims-2023-paper1#27]"}
+ ],
+ "confusions": [
+  {"a": "Art. 23", "b": "Art. 24", "remember": "traffic and forced labour vs child labour below 14 in hazardous work"},
+  {"a": "Art. 21A", "b": "Art. 45", "remember": "education 6-14 as FR vs early childhood care below 6 (DPSP)"},
+  {"a": "Art. 46 (DPSP)", "b": "Art. 51A (FD)", "remember": "State protects weaker sections vs citizens' duties"},
+  {"a": "Equality before law", "b": "Equal protection of laws", "remember": "British (negative) vs American (positive); both in Art. 14"},
+  {"a": "Union of India", "b": "Territory of India", "remember": "States only vs States + UTs + acquired territories"},
+  {"a": "Habeas corpus", "b": "Mandamus", "remember": "against State and private vs public authorities only"},
+  {"a": "Kesavananda (1973)", "b": "Minerva Mills (1980)", "remember": "created basic structure, struck 31C 2nd part vs limited amending power and FR-DPSP harmony"},
+  {"a": "GoI Act 1919", "b": "GoI Act 1935", "remember": "dyarchy in provinces vs provincial autonomy, dyarchy at Centre proposed"},
+  {"a": "Cripps 1942", "b": "Cabinet Mission 1946", "remember": "offer rejected vs actually composed the CA"},
+  {"a": "Rajendra Prasad (committees)", "b": "Patel (committees)", "remember": "Rules, Steering, Finance and Staff vs Advisory (FR, minorities), Provincial Constitution"},
+  {"a": "35th Amendment 1974", "b": "36th Amendment 1975", "remember": "Sikkim associate State vs full State"},
+  {"a": "Swaran Singh Committee 1976", "b": "Verma Committee 1999", "remember": "recommended FD vs identified legal provisions to enforce some"},
+  {"a": "Art. 300 / 299", "b": "Art. 300A", "remember": "suits and contracts of Government vs right to property"}
+ ],
+ "anchors": [
+  "Regulating Act 1773 → Supreme Court at Calcutta 1774; Pitt's India Act 1784",
+  "Morley-Minto 1909; Montagu-Chelmsford = GoI Act 1919 (provincial dyarchy)",
+  "Constituent Assembly per Cabinet Mission 1946; first idea M.N. Roy 1934",
+  "Citizen-only FR: Arts 15, 16, 19, 29, 30",
+  "Art. 21A by 86th Amendment 2002; RTE Act in force 1 April 2010",
+  "Art. 40 village panchayats (Gandhian DPSP)",
+  "Kesavananda Bharati 1973 = basic structure; Minerva Mills 1980; I.R. Coelho 2007 (Ninth Schedule after 24 April 1973)",
+  "FD: 42nd Amendment 1976 (Swaran Singh), 11th duty by 86th 2002; citizens only",
+  "DPSP additions: 42nd 48A; 44th 38(2); 86th Art. 45; 97th 43B",
+  "EWS: 124th Bill = 103rd Act 2019 (15(6), 16(6))",
+  "Sikkim: 35th (1974) associate, 36th (1975) full State",
+  "Citizenship modes: birth, descent, registration, naturalisation, incorporation"
+ ],
+ "checklist": [
+  "Negative stem ('wrong answer', 'except')? Mark it before reading.",
+  "Article number options adjacent? Recall the exact article content.",
+  "Rights question: citizen or person? State or private?",
+  "Doctrine statements: which case, which year, judge-made or enacted?",
+  "Amendment chronology: order by amendment number.",
+  "Bill or Act number? Read the stem word."
+ ]
+}
