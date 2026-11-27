@@ -21,3 +21,5 @@ Approved 2026-11-27: fetch official keys; include ALL papers (G2 2008/2012 too; 
 - [ ] Stage 4: official papers – 84 jobs (g1-1..30, g2-1..54; docs/pyqdecode-helper.md; check with
       tools/pyqdecode_jobs.py check <job>)
 - [ ] Stage 4-8 as in AUDIT_AND_PLAN.md
+
+Rebuild pyq.db: python3 tools/pyqdecode_db.py && python3 tools/pyqdecode_keys.py && python3 tools/pyqdecode_appbank.py && python3 tools/pyqdecode_map.py && python3 tools/pyqdecode_anatomy.py (then the 2019 key notes and Stage 4 loaders)
