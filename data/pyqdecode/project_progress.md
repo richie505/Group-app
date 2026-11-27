@@ -18,7 +18,9 @@ Approved 2026-11-27: fetch official keys; include ALL papers (G2 2008/2012 too; 
       2008 compilation kept as CONFLICT notes for fact verification.
 - [x] Stage 3 (automatic): tools/pyqdecode_map.py – topic + candidate leaves for 18,742 of 18,758 questions; exact leaf
       chosen per question in Stage 4. Drafts: tools/pyqdecode_anatomy.py loaded 64,900 earlier statements as drafts.
-- [ ] Stage 4: official papers – 84 jobs (g1-1..30, g2-1..54; docs/pyqdecode-helper.md; check with
+- [~] Stage 4: G1 30/30 jobs DONE (1,179 Qs, 4,927 statements; 214/237 G1 leaves with direct PYQs). Loader:
+      tools/pyqdecode_load.py (mechanism names normalised via mechanisms.json). G2: running.
+- [ ] Stage 4 (orig. plan): official papers – 84 jobs (g1-1..30, g2-1..54; docs/pyqdecode-helper.md; check with
       tools/pyqdecode_jobs.py check <job>)
 - [ ] Stage 4-8 as in AUDIT_AND_PLAN.md
 
