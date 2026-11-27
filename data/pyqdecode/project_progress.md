@@ -32,4 +32,5 @@ Rebuild pyq.db: python3 tools/pyqdecode_db.py && python3 tools/pyqdecode_keys.py
 - `tools/pyqdecode_stats.py` → `stats_g1.json`, `stats_g2.json`, `coverage_g1.csv`, `coverage_g2.csv`.
 - Coverage: Group 1 214/237 leaves with direct official PYQs (90.3%), 20 related-only, 3 none;
   Group 2 296/397 (74.6%), 39 related-only, 62 none.
-- Next: Stage 5 verification report (U/pending statements, key conflicts), then chapters (Stage 7) and PDFs (Stage 8).
+- Stage 5: `tools/pyqdecode_verify.py` → VERIFICATION_REPORT.md (G1: 14 deleted, 23 conflicts, 7 unsettled, 21 time-sensitive; G2: 33, 62, 57, 54).
+- Next: chapters (Stage 7) and PDFs (Stage 8).
