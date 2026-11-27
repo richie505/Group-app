@@ -34,3 +34,8 @@ Rebuild pyq.db: python3 tools/pyqdecode_db.py && python3 tools/pyqdecode_keys.py
   Group 2 296/397 (74.6%), 39 related-only, 62 none.
 - Stage 5: `tools/pyqdecode_verify.py` → VERIFICATION_REPORT.md (G1: 14 deleted, 23 conflicts, 7 unsettled, 21 time-sensitive; G2: 33, 62, 57, 54).
 - Next: chapters (Stage 7) and PDFs (Stage 8).
+
+## Stages 7-8 and QC done (2026-11-27)
+- `tools/pyqdecode_manual.py` (+ `tools/pyqdecode_pdf.js`) → `manuals/APPSC_Group_1_Complete_PYQ_Decoding_Manual.pdf` (1,751 pp)
+  and `manuals/APPSC_Group_2_Complete_PYQ_Decoding_Manual.pdf` (2,459 pp). HTML is rebuildable (gitignored).
+- `tools/pyqdecode_qc.py` → QC_REPORT.md: all Phase 20 checks pass for both manuals.
