@@ -1,0 +1,59 @@
+{"section": "B3",
+ "overview": "Constitutional authorities (CAG, ECI, UPSC, NCSC), the judiciary, Panchayati Raj and governance: 30 official questions (2010-2024). Authorities (11) and judiciary (11) lead; 2023-24 brought 9 statement-based items on powers and safeguards, while 2010-2019 favoured current-affairs one-liners (incumbent CJI, landmark 2016 judgments, first e-court, VVPAT). Public policy as such is not yet asked.",
+ "possibility": [
+  {"angle": "Constitutional and statutory authorities (CAG, ECI, UPSC, NCSC, delimitation)", "evidence": "11 Qs: 2010, 2010 re-exam, 2012, 2017, 2023×4, 2024×3", "level": "High historical recurrence", "what_they_ask": "to whom reports go; removal procedure; powers in investigation; what UPSC is not consulted on; ECI powers and history; firsts (VVPAT); delimitation scope"},
+  {"angle": "Judiciary: Supreme Court and High Courts", "evidence": "11 Qs: 2010, 2010 re-exam×2, 2017×3, 2019×3, 2023×2", "level": "Moderate historical recurrence", "what_they_ask": "original jurisdiction scope; independence safeguards; Art. 142 cases; landmark 2016 judgments; incumbents and firsts; judicial academy location"},
+  {"angle": "Panchayati Raj and urban local bodies", "evidence": "4 Qs: 2010, 2010 re-exam, 2023, 2024", "level": "Moderate historical recurrence", "what_they_ask": "what article 243G covers; 11th vs 12th Schedule items; AP introduction year/CM; own-revenue of tiers"},
+  {"angle": "Public policy", "evidence": "0 official Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets: policy cycle stages, NITI Aayog (2015) vs Planning Commission, role of committees and think-tanks, social audit"},
+  {"angle": "Governance: e-governance, transparency, accountability", "evidence": "4 Qs: 2010, 2010 re-exam, 2017, 2023", "level": "Moderate historical recurrence", "what_they_ask": "first model e-court (Gujarat HC, 2009); FCRA cancellation ground; PMLA powers and Schedule"}
+ ],
+ "traps": [
+  {"trap": "[Report recipient] Report sent to the PM instead of the President", "spot": "Options 'Prime Minister' / 'Parliament' for a constitutional body's report", "fix": "CAG (Union), NCSC, NCST, UPSC, FC report to the President; State bodies and CAG (State) to the Governor", "pyq": "CAG Union report → The President [group1-prelims-2010#89]; NCSC 'report to the Prime Minister' is not a function [group1-prelims-2023-paper1#50]"},
+  {"trap": "Power to recommend inflated to power to dismiss", "spot": "'ECI can order the Government to dismiss officials'", "fix": "ECI can seek transfer, suspension or disciplinary action; officials are deemed on deputation, not dismissed by it", "pyq": "Statement II false → 'I and III only' [group1-prelims-2023-paper1#36]"},
+  {"trap": "Removal authority swapped", "spot": "'Judges removed by the CJI'; 'CAG not removed like an SC judge'", "fix": "SC judges and the CAG are removed by the President after a special-majority address of both Houses", "pyq": "Statement II false [group1-prelims-2023-paper1#37]; CAG statement I false [group1-prelims-2024-paper1#34]"},
+  {"trap": "Non-federal dispute put into original jurisdiction", "spot": "Art. 131 lists including election disputes or Centre-UT disputes", "fix": "Art. 131 = Centre-State and inter-State disputes only; Parliament/Assembly election petitions go to High Courts", "pyq": "'II and III' are not original jurisdiction [group1-prelims-2023-paper1#38]"},
+  {"trap": "Urban subject placed in the rural schedule", "spot": "11th Schedule list containing slum improvement", "fix": "Slum improvement and upgradation is in the 12th Schedule; women and child, PDS, libraries, markets are 11th", "pyq": "Item IV excluded → 'I, II, III and V' [group1-prelims-2023-paper1#52]"},
+  {"trap": "Exception to a consultation rule removed", "spot": "UPSC function list containing reservation", "fix": "Art. 320(4): UPSC is not consulted on reservation of posts", "pyq": "'Manner of reservation' is not a function [group1-prelims-2023-paper1#51]"},
+  {"trap": "Case swapped with another landmark of the same year", "spot": "Four 2016-18 case names for one subject", "fix": "Swaraj Abhiyan = drought; PUCL = right to food; Common Cause = living will; K. Balu = highway liquor ban (Art. 142)", "pyq": "Drought guidelines → Swaraj Abhiyan [group1-prelims-2017-paper1#1]; Art. 142 → highway liquor ban [group1-prelims-2017-paper1#150]"}
+ ],
+ "techniques": [
+  {"name": "Recipient table", "how": "[Who gets the report] Keep one table: President-bound vs Governor-bound reports; any other recipient in an option is wrong.", "example": "NCSC reports to the President under Art. 338(5) → the PM option is the non-function [group1-prelims-2023-paper1#50]"},
+  {"name": "Recommend vs order test", "how": "For any commission's power, ask: can it order, or only recommend/summon? Most bodies have civil-court powers of inquiry but no power to dismiss.", "example": "NCSC: affidavits, records, summons all are Art. 338(8) civil-court powers → 'All of the above' [group1-prelims-2023-paper1#39]"},
+  {"name": "Date-of-exam incumbent fix", "how": "For 'present' or 'recent' questions, fix the exam date and drop predecessors and successors.", "example": "Exam Sept 2010 → S.H. Kapadia (from May 2010), not K.G. Balakrishnan [group1-prelims-2010#93]"},
+  {"name": "Tenure-to-event mapping", "how": "Map an event year to the CM/PM/CJI of that year by tenure ranges.", "example": "Panchayati Raj in AP 1959 → N. Sanjeeva Reddy (1956-60); Sanjeevaiah took over in 1960 [group1-prelims-2010-reexam#15]"},
+  {"name": "Firsts chain", "how": "For technology firsts keep three steps: first trial, first full State, all-India.", "example": "VVPAT: Noksen bypoll 2013 → Goa 2017 → all LS seats 2019 → 'By poll in Nagaland, 2013' [group1-prelims-2017-paper1#145]"},
+  {"name": "Part IX article ladder", "how": "243B tiers, 243C composition, 243D reservation, 243E term, 243G powers, 243H taxes, 243-I SFC, 243K SEC.", "example": "243G → powers and functions of Panchayats; finance options are 243H [group1-prelims-2010#72]"}
+ ],
+ "confusions": [
+  {"a": "11th Schedule (29 items)", "b": "12th Schedule (18 items)", "remember": "Panchayats, rural vs Municipalities: slums, urban planning, fire"},
+  {"a": "Art. 131", "b": "Art. 32 / Art. 71", "remember": "federal disputes vs FR enforcement / President-VP election disputes"},
+  {"a": "Art. 142", "b": "Art. 137", "remember": "complete justice directions vs review of own judgments"},
+  {"a": "ECI (Art. 324)", "b": "State Election Commission (243K)", "remember": "Parliament, States, President, VP vs local bodies"},
+  {"a": "CAG removal", "b": "UPSC member removal", "remember": "like an SC judge (Parliament address) vs President after SC inquiry"},
+  {"a": "NCSC Art. 338", "b": "NCST Art. 338A / NCBC 338B", "remember": "same civil-court powers, all report to President"},
+  {"a": "Swaraj Abhiyan 2016", "b": "PUCL", "remember": "drought management vs right to food"},
+  {"a": "First model e-court (Gujarat HC 2009)", "b": "National Judicial Academy (Bhopal)", "remember": "Ahmedabad vs Bhopal"},
+  {"a": "Acting CJ Praveen Kumar (Jan 2019)", "b": "First regular CJ of AP HC", "remember": "Amaravati/Vijayawada opening vs later appointment"},
+  {"a": "Legal/regulatory audit", "b": "Propriety/performance audit", "remember": "CAG mandatory vs discretionary; both done"}
+ ],
+ "anchors": [
+  "Art. 148 CAG removed like an SC judge; Art. 151 reports to President / Governor",
+  "Art. 324 ECI; multi-member since 1993; officials on election duty deemed on deputation",
+  "Art. 320(4): UPSC not consulted on reservation",
+  "Art. 338(5), 338(8): NCSC reports to President; civil-court powers",
+  "Art. 131 original jurisdiction = federal disputes; election petitions to High Courts",
+  "Art. 124(4) judges removed by President after special-majority address",
+  "Panchayati Raj in AP from 1 November 1959 (N. Sanjeeva Reddy)",
+  "First model e-court: Gujarat HC, Ahmedabad, 8 Feb 2009",
+  "VVPAT first at Noksen (Nagaland) bypoll 2013",
+  "1990s: four Lok Sabha elections (1991, 1996, 1998, 1999)",
+  "PMLA 2002 in force 2005; ED can attach proceeds of crime"
+ ],
+ "checklist": [
+  "Who receives the report, who removes the officer? Recall the article.",
+  "Order, recommend or inquire? Most bodies cannot order dismissal.",
+  "'Present' or 'recent': fix the exam date first.",
+  "Panchayat subject: rural (11th) or urban (12th)?",
+  "Case-name options: tie each case to its one subject."
+ ]
+}

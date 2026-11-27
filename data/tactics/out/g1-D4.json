@@ -1,0 +1,68 @@
+{"section": "g1-D4",
+ "overview": "36 official Group 1 Qs (2008–2024) on economic geography: crops and agricultural regions (14), fuel and power (6), mineral-based industry (5), transport (4) and a few agro/industry/trade items. Older papers asked 'which place/state produces X'; 2023–24 favour match lists (crops, shifting-cultivation names, industry centres, geographers) and statement items on steel, sugarcane, oil fields and railways. Production-rank keys are time-sensitive and some were contested.",
+ "possibility": [
+  {"angle": "Agriculture – crops, producers, regions, methods", "evidence": "14 Qs: 2008, 2010, 2017×2, 2019×4, 2023×3, 2024×3", "level": "High historical recurrence", "what_they_ask": "leading state/country for a crop, transplanted crops, IR-8, sugarcane climate, wheat regions, shifting-cultivation names by region, agricultural regionalisation and the geographers behind each method, AP district crop facts (coffee agencies, food-crop area)"},
+  {"angle": "Industry and services – salient features", "evidence": "3 Qs: 2010, 2023, 2024", "level": "Moderate historical recurrence", "what_they_ask": "industry → centre match (Jamshedpur, Kolkata, Barauni, Perambur), woollen regions of the UK, tourism-sector facts"},
+  {"angle": "Agro-based industries", "evidence": "3 Qs: 2008, 2017, 2024", "level": "Moderate historical recurrence", "what_they_ask": "which industry is not agro-based, silk type → state, location of jute mills"},
+  {"angle": "Mineral-based industries – iron and steel, cement, tin", "evidence": "5 Qs: 2010×3, 2023, 2024", "level": "Moderate historical recurrence", "what_they_ask": "steel regions of the world, India's steel rank, steel or smelting centres abroad, cement plant → district in AP"},
+  {"angle": "Forest-based industries", "evidence": "0 official Qs (paper appears only as an agro-based option in 2008)", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets by analogy: paper and pulp centres (e.g. Rajahmundry, Sirpur), raw materials (bamboo, softwood), lac, sericulture forest silks"},
+  {"angle": "Fuel and power-based industries – oil, gas, thermal power", "evidence": "6 Qs: 2010, 2012×2, 2023×2, 2024", "level": "Moderate historical recurrence", "what_they_ask": "oil-field locations (Assam vs Gujarat), refinery places, LPG composition, largest thermal station, thermal station → state"},
+  {"angle": "Manpower-based industries", "evidence": "0 official Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets: labour-intensive industries (textiles, IT/ITES, handlooms), clusters and their states"},
+  {"angle": "Transport – rail, pipelines", "evidence": "4 Qs: 2023×3, 2024", "level": "Low historical recurrence", "what_they_ask": "first crude pipeline, rail electrification share by a date, Vande Bharat facts, end-points of trans-continental railways"},
+  {"angle": "Trade – pattern and issues", "evidence": "1 Q: 2008", "level": "Low historical recurrence", "what_they_ask": "destination of an export from an Indian port (Vizag iron ore → Japan); natural targets: major ports and their main cargo"}
+ ],
+ "traps": [
+  {"trap": "Moves a field or region to another state or continent", "spot": "Lists of oil fields or steel regions with one outsider", "fix": "Assam: Digboi, Naharkatiya, Moran; Gujarat: Kalol, Ankleshwar; Ruhr is in Germany (Western Europe)", "pyq": "Kalol not in Assam → I, II, IV [group1-prelims-2024-paper1#118]; 'Ruhr : Eastern Europe' wrong → I, II, IV [group1-prelims-2024-paper1#114]"},
+  {"trap": "Reverses a climatic condition behind a crop advantage", "spot": "'high temperature disparity' as a reason for tropical cane", "fix": "Tropical India has an equable climate (low range), long sunshine and cool clear nights; that raises cane yield and sucrose", "pyq": "IV false → I, II, III [group1-prelims-2023-paper1#103]"},
+  {"trap": "Denies a known crop region", "spot": "'X is not suitable for' in a negative statement list", "fix": "Wheat grows in the Ganga–Satluj plains and the black-soil Deccan (MP, Maharashtra)", "pyq": "'Black soil [...] not suitable' is incorrect [group1-prelims-2024-paper1#117]"},
+  {"trap": "Inflates a rank or a number by one step", "spot": "'biggest producer', 'ranked first', '250 kmph'", "fix": "India is 2nd in vegetables and fruits (after China) and 2nd in steel; Vande Bharat design speed 180, operating 160 km/h", "pyq": "vegetables 'biggest' wrong [group1-prelims-2019-paper2#101]; steel 'first' wrong [group1-prelims-2023-paper1#105]; 250 kmph wrong → I, II, IV [group1-prelims-2023-paper2#107]"},
+  {"trap": "Swaps regional names of shifting cultivation", "spot": "Match list of local names and regions", "fix": "Ladang – Indonesia/Malaysia; Milpa – Central America; Roca – Brazil; Masole – Central Africa; Jhum – NE India", "pyq": "→ A-II, B-I, C-IV, D-III [group1-prelims-2024-paper1#113]"},
+  {"trap": "Puts a mineral-based industry among agro-based ones", "spot": "'Not an agro-based industry'", "fix": "Classify by raw material: cement (limestone) is mineral-based; cigarettes, vanaspati, paper are agro/forest-based", "pyq": "→ Cement [group1-prelims-2008#71]"},
+  {"trap": "Offers a neighbouring district for an AP plantation", "spot": "Erstwhile-district lists for agency crops", "fix": "Coffee is mainly in the agency areas of erstwhile Visakhapatnam (Araku, Paderu) and East Godavari", "pyq": "→ II and III only [group1-prelims-2024-paper1#120]"}
+ ],
+ "techniques": [
+  {"name": "Raw-material classification", "how": "Name the raw material of each industry (crop, forest, mineral, fuel) before reading what the stem excludes.", "example": "Tobacco, oilseeds, bagasse/wood [...] are farm or forest inputs; limestone is mineral → Cement [group1-prelims-2008#71]"},
+  {"name": "Match-list anchor on the famous pair", "how": "Fix the iconic pair (Jamshedpur – steel, Perambur – ICF), then test which codes keep it.", "example": "a-II and d-I leave only 'II III IV I' [group1-prelims-2023-paper1#71]"},
+  {"name": "Firsts and chronology", "how": "For 'first' items, recall the earliest project of the type and its era; later projects in the options fall.", "example": "Naharkatiya–Nunmati–Barauni (1960s) predates HBJ gas, Jamnagar–Loni LPG and Mumbai High lines → option 3 [group1-prelims-2023-paper1#101]"},
+  {"name": "Geographer–method pairing", "how": "Link each regionalisation method to its originator: Weaver – crop combination (Doi modified it); Bhatia – concentration/diversification; Kendall – productivity ranking.", "example": "Weaver, Doi = crop combination and Kendall = productivity give 'I II III IV' [group1-prelims-2023-paper1#97]"},
+  {"name": "Joint-author completeness check", "how": "When one option names both scholars of a joint work, the single-name options are incomplete.", "example": "Four macro agricultural regions were drawn jointly → 'Sengupta and Sdasyuk' [group1-prelims-2023-paper1#104]"},
+  {"name": "Date-stamp production and infrastructure figures", "how": "For electrification, plant size or producer rank, recall the figure for the date in the stem only.", "example": "Rail route electrified by March 2019 → ~51% (50.91%) [group1-prelims-2023-paper1#95]"}
+ ],
+ "confusions": [
+  {"a": "Digboi / Naharkatiya / Moran (Assam)", "b": "Kalol / Ankleshwar (Gujarat)", "remember": "NE fields vs Cambay basin fields"},
+  {"a": "LPG (butane + propane)", "b": "CNG (methane)", "remember": "Liquefied petroleum gas vs compressed natural gas"},
+  {"a": "Sipat (Chhattisgarh)", "b": "Dadri (Uttar Pradesh)", "remember": "Learn the real locations; the 2023 key on this pair is disputed"},
+  {"a": "Muga silk (Assam)", "b": "Tasar (Jharkhand) / Mulberry (Karnataka)", "remember": "Muga is golden silk endemic to Assam"},
+  {"a": "Jute mills – Hugli basin", "b": "Damodar basin", "remember": "Jute on the Hugli banks; Damodar = coal and steel"},
+  {"a": "Rice production leader (West Bengal)", "b": "Rice yield leader (Punjab)", "remember": "Output vs productivity"},
+  {"a": "Tropical sugarcane (south)", "b": "Sub-tropical sugarcane (UP)", "remember": "Higher yield and sucrose vs larger area"},
+  {"a": "Ladang", "b": "Milpa / Roca / Masole", "remember": "Indonesia vs Central America vs Brazil vs Central Africa"},
+  {"a": "Yorkshire woollens (Bradford, Leeds)", "b": "Tweed valley (Scotland)", "remember": "Tweed cloth is Scottish"},
+  {"a": "Tin mining (Malaysia, Indonesia)", "b": "Tin smelting (Singapore, Penang)", "remember": "Mine vs smelter"},
+  {"a": "ICF Perambur (coaches, first Vande Bharat)", "b": "CLW Chittaranjan / DLW Varanasi (locomotives)", "remember": "Vande Bharat started as 'Train 18' from ICF"},
+  {"a": "Weaver (crop combination)", "b": "Kendall (productivity)", "remember": "Combination vs productivity ranking"}
+ ],
+ "anchors": [
+  "India is 2nd in world fruits and vegetables (China 1st); UP leads wheat",
+  "West Bengal – largest rice producer; Karnataka – ragi; Gujarat – groundnut; Maharashtra – jowar",
+  "IR-8 rice (IRRI, 1966) – golden jubilee 2016",
+  "Wheat regions: Ganga–Satluj plains and black-soil Deccan",
+  "Assam oil: Digboi, Naharkatiya (SW of Digboi), Moran",
+  "First crude pipeline: Naharkatiya–Nunmati–Barauni",
+  "Vindhyachal (MP) – largest thermal station, 4,760 MW (2023)",
+  "India – 2nd largest crude steel producer (China 1st)",
+  "Rail route electrified by March 2019: ~51%",
+  "Vande Bharat (Train 18): ICF Chennai, design 180 km/h, operating 160 km/h",
+  "Ruhr – Germany; Urals – Russia; Pittsburgh/Atlantic coast – USA",
+  "Araku coffee – erstwhile Visakhapatnam agency (GI 2019)",
+  "Vizag iron ore exports historically to Japan"
+ ],
+ "checklist": [
+  "Classify the item first: crop, raw material type, fuel, or transport mode",
+  "Place each named field, plant or region on the map – does any belong to another state/continent?",
+  "For ranks, check whether India is 1st or 2nd and in what (output, yield, area)",
+  "For climate–crop statements, test each condition's direction",
+  "For match lists, fix the most famous pair and eliminate codes",
+  "Date-stamp any production, capacity or percentage figure"
+ ]
+}
