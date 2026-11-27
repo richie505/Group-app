@@ -1,0 +1,78 @@
+{"section": "g1-D2",
+ "overview": "94 official Group 1 Qs (2008–2024) – the largest geography block: world physical divisions (23), rocks and minerals (18), drainage (16), India's divisions and parks (10 each). 2008–2012 were mostly 'where is X / what is X' one-liners; 2023–24 use match lists (tiger reserves, AP sanctuaries, Koeppen types, geo-heritage), river/basin orderings and 3–5-statement items. AP-specific facts (ranges, minerals, sanctuaries, geology) appear almost every recent year.",
+ "possibility": [
+  {"angle": "World physical divisions – mountains, plateaus, deserts, straits, borders", "evidence": "23 Qs: 2008×2, 2010×8, 2012×6, 2019×5, 2024×2", "level": "High historical recurrence", "what_they_ask": "which country/region a range, desert, valley or basin is in; between which seas/rivers a feature lies; highest peak of a continent; country neighbours and coastlines; area order of countries"},
+  {"angle": "India's physical divisions – Himalaya, hills, coasts, extent", "evidence": "10 Qs: 2008×2, 2010×3, 2012×2, 2023×2, 2024", "level": "High historical recurrence", "what_they_ask": "hills between rivers (Satpura), Meghalaya/Purvanchal hills, coast names, Himalayan structure and duns, India's lat-long extent, state with most neighbours"},
+  {"angle": "Andhra Pradesh physical divisions", "evidence": "2 Qs: 2012, 2023", "level": "Low historical recurrence", "what_they_ask": "which Eastern Ghats range a landmark sits on (Tirumala – Seshachalam), district size comparison"},
+  {"angle": "Earthquakes and landslides", "evidence": "2 Qs: 2008, 2017", "level": "Low historical recurrence", "what_they_ask": "focus vs epicentre, plate collision behind Himalayan quakes; natural targets: seismic zones, landslide-prone belts"},
+  {"angle": "Natural drainage – world, India, AP rivers and lakes", "evidence": "16 Qs: 2008, 2010×4, 2012×3, 2017, 2019×3, 2023×2, 2024×2", "level": "High historical recurrence", "what_they_ask": "river sources, tributary of which river, which city/dam on which river, sea a river drains into, north–south order of Punjab rivers, basin size order within India, rift lakes"},
+  {"angle": "Climatic regions and climate types", "evidence": "3 Qs: 2012, 2024×2", "level": "Low historical recurrence", "what_they_ask": "Koeppen type → Indian area, Mediterranean features, month of dust storms"},
+  {"angle": "Monsoon and rainfall", "evidence": "2 Qs: 2010, 2019", "level": "Low historical recurrence", "what_they_ask": "El Niño facts and effect on Indian rain, where rainfall variability is highest"},
+  {"angle": "Natural vegetation and biomes", "evidence": "6 Qs: 2010, 2017, 2023×2, 2024×2", "level": "Moderate historical recurrence", "what_they_ask": "sholas, sacred groves, taiga and steppe features, biodiversity maxima, per-capita forest"},
+  {"angle": "National parks, tiger reserves, sanctuaries (India and AP)", "evidence": "10 Qs: 2010×2, 2019, 2023×5, 2024×2", "level": "Moderate historical recurrence", "what_they_ask": "park → state, AP sanctuary → flagship species, components of a tiger reserve, MAB-listed biosphere reserves, AP coastal IBAs and birds"},
+  {"angle": "Major soil types", "evidence": "2 Qs: 2024×2", "level": "Low historical recurrence", "what_they_ask": "conditions of a soil type (peaty), active vs passive soil-forming factors"},
+  {"angle": "Rocks and minerals – India and AP", "evidence": "18 Qs: 2008×2, 2010×3, 2012×4, 2017, 2019, 2023×4, 2024×2", "level": "High historical recurrence", "what_they_ask": "leading state for a mineral, AP mineral → district/basin, odd one out among coalfields, ore → metal, Vindhyan series, Dharwar rocks in AP, geo-heritage sites, crust composition"}
+ ],
+ "traps": [
+  {"trap": "Moves a feature to the neighbouring zone", "spot": "Statements placing duns, lakes or valleys 'between' two ranges or 'part of' a rift", "fix": "Duns lie between Lesser Himalaya and Shiwaliks; Lake Victoria sits between the two rift arms, not in them", "pyq": "'Duns [...] between Greater and Lesser' false → I, II, III [group1-prelims-2024-paper1#104]; Lake Victoria in Rift false → I, II, III [group1-prelims-2024-paper1#101]"},
+  {"trap": "Pairs a lake or dam with the wrong river", "spot": "'Not correctly matched' dam/lake–river lists", "fix": "Kolleru lies between the Godavari and Krishna deltas (fed by Budameru, Tammileru); Wular–Jhelum, Gobind Sagar–Sutlej, Ukai–Tapi", "pyq": "→ Kolleru — Krishna [group1-prelims-2019-paper1#113]"},
+  {"trap": "Ignores the qualifier 'within India'", "spot": "Basin or area orders where an international river is listed", "fix": "Within India Brahmaputra's catchment is small; order after Ganga: Indus > Godavari > Krishna > Brahmaputra", "pyq": "→ option 3 [group1-prelims-2024-paper1#106]"},
+  {"trap": "Adds a wrong component to a true core", "spot": "A reserve 'comprises X and Y' where one name belongs elsewhere", "fix": "Satkosia TR = Satkosia Gorge + Baisipalli sanctuaries; Debrigarh is a separate sanctuary", "pyq": "II false → I and III [group1-prelims-2023-paper2#104]"},
+  {"trap": "Swaps the dry season of a climate type", "spot": "Koeppen or Mediterranean statements on 'dry winter' vs 'dry summer'", "fix": "Mediterranean (Cs) = dry hot summer, wet mild winter; Coromandel = As (dry summer); NE India = Cwg (dry winter)", "pyq": "→ I, II, IV not features [group1-prelims-2024-paper1#98]; Koeppen match → A-I, B-II, C-III, D-IV [group1-prelims-2024-paper1#105]"},
+  {"trap": "Inserts a non-coal (or non-member) item in a homogeneous list", "spot": "'Not a coal field', 'not part of the Great Lakes', 'not MAB'", "fix": "Mosabani is copper; Victoria is in Africa; non-MAB BRs: Cold Desert, Dibru-Saikhowa, Great Rann of Kutch, Manas, Seshachalam, Dihang-Dibang", "pyq": "→ Mosabani [group1-prelims-2019-paper1#120]; → Victoria [group1-prelims-2019-paper1#96]; → II, IV, V [group1-prelims-2024-paper2#78]"},
+  {"trap": "Reverses the temperature range of a biome", "spot": "'narrow range of temperatures' for a high-latitude biome", "fix": "Taiga has an extreme annual range; narrow range belongs to equatorial forests", "pyq": "Option 3 incorrect [group1-prelims-2024-paper1#103]"},
+  {"trap": "Calls a passive soil factor active", "spot": "Lists of soil-forming factors with 'active' in the stem", "fix": "Active: climate, organisms; passive: parent material, relief, time", "pyq": "→ III and IV only [group1-prelims-2024-paper1#94]"},
+  {"trap": "Shrinks a crustal share", "spot": "'one-fourth of the crust is feldspar and quartz'", "fix": "Feldspar alone is about half the crust; oxygen and silicon dominate", "pyq": "II false → Statement I only [group1-prelims-2024-paper1#92]"}
+ ],
+ "techniques": [
+  {"name": "Mental-map ordering", "how": "For N→S or W→E orders, picture the map once and read it off; check only the adjacent pair that differs between options.", "example": "Punjab rivers N→S: Jhelum, Chenab, Ravi, Beas, Sutlej [...]; options differ on Ravi/Beas → Ravi is north → option 3 [group1-prelims-2023-paper1#118]"},
+  {"name": "Flagship-species anchor for AP sanctuaries", "how": "Learn one flagship per AP sanctuary; in a match list fix the rarest pair first.", "example": "Rollapadu = Great Indian Bustard, Coringa = saltwater crocodile → only 'A-III, B-IV, C-I, D-II' survives [group1-prelims-2024-paper1#110]"},
+  {"name": "Habitat-fit elimination", "how": "For 'species not found in' items, ask whether the species' habitat (wetland, dry hill forest, coast) exists in that park.", "example": "Sri Venkateswara NP is dry hill forest (red sanders, Cycas beddomei, slender loris); wood stork is a wetland bird → option 1 [group1-prelims-2023-paper1#100]"},
+  {"name": "AP geology by region", "how": "Tie each rock system to its AP area: Dharwar – Nellore/Chittoor schist belts; Cuddapah – Kadapa basin (uranium at Tummalapalle, barytes at Mangampet); Kurnool system – Kurnool; Gondwana – Godavari valley; Khondalite – Eastern Ghats.", "example": "Dharwar rocks → Chittoor and Nellore [group1-prelims-2024-paper1#109]; uranium → Kadapa Basin [group1-prelims-2017-paper1#141]; Khondalite not Vindhyan [group1-prelims-2023-paper1#107]"},
+  {"name": "Source–tributary chain", "how": "For each major river keep source → main tributaries → mouth; a tributary question becomes a lookup.", "example": "Jayamangali is a Penna tributary (with Kunderu, Chitravati, Papaghni) → Pennar [group1-prelims-2010-reexam#1]; Krishna rises at Mahabaleshwar [group1-prelims-2012#55]"},
+  {"name": "Coastline sweep", "how": "For 'which countries touch X ocean' trace the coast in order; flag the one country with only a different sea.", "example": "Pacific coast N→S: Colombia, Ecuador, Peru, Chile; Venezuela faces only the Caribbean → I, III, IV, V [group1-prelims-2024-paper1#102]"}
+ ],
+ "confusions": [
+  {"a": "Palk Strait", "b": "Gulf of Mannar", "remember": "Palk is north of Adam's Bridge; from Nagercoil (south) you cross the Gulf of Mannar"},
+  {"a": "Khyber Pass", "b": "Bolan Pass", "remember": "Khyber = Pakistan–Afghanistan; Bolan = within Pakistan (Quetta)"},
+  {"a": "Dnieper", "b": "Dniester", "remember": "Kyiv is on the Dnieper"},
+  {"a": "Tarim Basin", "b": "Tsaidam Basin", "remember": "Tarim between Kunlun and Tien Shan; Tsaidam between Kunlun and Altyn Tagh"},
+  {"a": "Karakum", "b": "Kyzylkum", "remember": "Karakum – Turkmenistan; Kyzylkum – Uzbekistan/Kazakhstan"},
+  {"a": "Duns", "b": "Kashmir valley", "remember": "Duns between Lesser Himalaya and Shiwalik; Kashmir between Great Himalaya and Pir Panjal"},
+  {"a": "Focus", "b": "Epicentre", "remember": "Focus is underground origin; maximum intensity at epicentre"},
+  {"a": "Mohs scale", "b": "Mercalli / Richter", "remember": "Hardness vs quake intensity vs magnitude"},
+  {"a": "Seshachalam (Tirumala)", "b": "Nallamala (Srisailam) / Veligonda", "remember": "Eastern Ghats ranges of AP each have a landmark"},
+  {"a": "Coromandel coast (TN)", "b": "Northern Circars (AP/Odisha)", "remember": "AP coast is not Coromandel or Konkan"},
+  {"a": "Mediterranean (Cs)", "b": "China type (Cw) / Cf", "remember": "Cs dry summer, Cw dry winter, Cf no dry season"},
+  {"a": "Laterite soil", "b": "Peaty soil", "remember": "Intense leaching in hot wet areas vs organic soil of heavy-rain humid areas with dense vegetation"},
+  {"a": "Wood stork / painted stork", "b": "Spot-billed pelican (Pelecanus philippensis)", "remember": "Telineelapuram deaths were pelicans; Mycteria leucocephala is the painted stork"},
+  {"a": "Rollapadu", "b": "Sri Lankamalleswara", "remember": "Great Indian Bustard vs Jerdon's courser"},
+  {"a": "Mosabani (copper)", "b": "Raniganj / Korba / Umaria (coal)", "remember": "Singhbhum copper belt vs Gondwana coal"}
+ ],
+ "anchors": [
+  "India: 3.28 million sq km, 2.4% of world area; 8°4′–37°6′ N, 68°7′–97°25′ E; 28 States + 8 UTs",
+  "Karnataka borders the most states among southern states",
+  "Punjab rivers N→S: Jhelum, Chenab, Ravi, Beas, Sutlej",
+  "Basins within India: Ganga > Indus > Godavari > Krishna > Brahmaputra",
+  "Pranhita – largest Godavari tributary by area",
+  "Krishna – Mahabaleshwar; Godavari – Trimbakeshwar; Jhelum – Verinag",
+  "Kolleru – between Godavari and Krishna deltas",
+  "AP – sole producer of apatite; Kadapa – asbestos, barytes, uranium (Tummalapalle)",
+  "Odisha – largest bauxite and manganese producer (in the asked years)",
+  "Ruby = Al₂O₃ with chromium; wolframite = tungsten ore",
+  "Crust: O > Si > Al > Fe; feldspar ≈ half the crust",
+  "18 Indian BRs, 12 in UNESCO MAB; non-MAB include Cold Desert, Dibru-Saikhowa, Great Rann of Kutch, Seshachalam",
+  "Sholas – Western Ghats high hills (Anaimalai, Palani, Nilgiri)",
+  "El Niño – warm water off Peru, weak Indian monsoon (e.g. 2014)",
+  "Geo-heritage: Lonar – Maharashtra; Akal – Rajasthan; Siwalik Fossil Park – HP; Nomira pillow lava – Odisha"
+ ],
+ "checklist": [
+  "Locate the feature on a mental map before reading options",
+  "Watch qualifiers: 'within India', 'among the following', 'in AP', 'presently'",
+  "For 'between X and Y' statements, check both bounding features",
+  "In 'not a member' lists, find the item from a different category or continent",
+  "For match lists, fix the rarest pair first and test the surviving codes",
+  "For AP items, tie each fact to its district/range/basin",
+  "For climate/biome statements, check which season is dry and how large the range is"
+ ]
+}
