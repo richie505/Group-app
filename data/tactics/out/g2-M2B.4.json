@@ -1,0 +1,75 @@
+{
+ "section": "M2B.4",
+ "overview": "46 official Qs; 33 of them in 2025 Mains, the rest 2008, 2017, 2019, 2024. 2025 style: direct one-liners on purpose/primary goal of an Act, body or technique, NOT-questions, and matching (waste methods, pollutant–effect, pollution–source). Eco-friendly agriculture (11) and solid-waste disposal (8) carry the most.",
+ "possibility": [
+  {"angle": "Solid wastes and classification", "evidence": "2 Qs: 2025", "level": "Low historical recurrence", "what_they_ask": "State generating most MSW, which item is not biodegradable"},
+  {"angle": "Disposal and management of solid waste (methods, rules, awards)", "evidence": "8 Qs: 2024, 2025", "level": "Low historical recurrence", "what_they_ask": "Method–function and method–pros/cons matching, waste type–disposal matching, goal of MSW Rules 2000, zero-waste city, Swachh Survekshan pairs, trans-boundary waste issue"},
+  {"angle": "Air pollution", "evidence": "3 Qs: 2025", "level": "Low historical recurrence", "what_they_ask": "Bhopal gas, natural vs man-made source, primary urban source"},
+  {"angle": "Water pollution indicators and standards", "evidence": "3 Qs: 2017", "level": "Low historical recurrence", "what_they_ask": "Meaning of high BOD, high coliform, BIS pH range for drinking water"},
+  {"angle": "Soil pollution", "evidence": "Not yet asked as its own leaf; soil appears in 2025 matching (fertilisers) and bioremediation", "level": "Syllabus angle not yet asked", "what_they_ask": "Natural targets: main sources (fertilisers, pesticides, industrial waste), heavy metals, remedies (phytoremediation)"},
+  {"angle": "Noise and other pollution", "evidence": "1 Q: 2008", "level": "Low historical recurrence", "what_they_ask": "Unit of sound intensity level (bel/decibel)"},
+  {"angle": "Sources and impacts", "evidence": "3 Qs: 2025", "level": "Low historical recurrence", "what_they_ask": "Pollutant cutting blood oxygen (CO), pollution–pollutant matching (marble cancer, biomagnification), pollution–source matching"},
+  {"angle": "Pollution control, regulation and alternatives", "evidence": "5 Qs: 2019, 2025×4", "level": "Low historical recurrence", "what_they_ask": "Year of EPA, purpose of Air Act/NGT, first CETP year, which is NOT an alternative method"},
+  {"angle": "Recent projects, acts and initiatives", "evidence": "2 Qs: 2019, 2025", "level": "Low historical recurrence", "what_they_ask": "AP law on borewells (APWALTA), which programme controls industrial emissions (NCAP)"},
+  {"angle": "Transgenics: impact and regulation", "evidence": "4 Qs: 2019, 2025", "level": "Low historical recurrence", "what_they_ask": "Regulator of GMOs (GEAC), main environmental concern (gene flow), GM mustard developer, illegal Bt cultivation states"},
+  {"angle": "Eco-friendly technologies in agriculture", "evidence": "11 Qs: 2008, 2017, 2019, 2025", "level": "Moderate historical recurrence", "what_they_ask": "Expansion of SRI, hydroponics, ZBNF and Palekar, AP natural farming year, Sikkim organic award, drip irrigation, organic vs conventional, which practice is eco-friendly"},
+  {"angle": "Bioremediation types and scope", "evidence": "4 Qs: 2025", "level": "Low historical recurrence", "what_they_ask": "In-situ vs ex-situ, which is NOT bioremediation, technique for oil spills, main application (soil)"}
+ ],
+ "traps": [
+  {"trap": "Monitoring body offered for an adjudicating body [regulator vs court]", "spot": "Purpose questions on NGT, Air Act, GEAC with function options", "fix": "NGT decides environmental cases; CPCB/SPCB monitor and set standards; GEAC approves GMO release; FSSAI = GM food", "pyq": "'Monitor industrial pollution levels' → handle environmental cases [mains-2025-paper2#77]; 'FSSAI' → GEAC [mains-2025-paper2#88]"},
+  {"trap": "Direction of an indicator reversed", "spot": "High/low BOD, DO, coliform options", "fix": "High BOD = more organic/microbial pollution; coliforms = sewage (and go with higher BOD)", "pyq": "'Low level of Microbial Pollution' → high [mains-2017-paper1#39]; 'decreased BOD' → human waste [mains-2017-paper1#48]"},
+  {"trap": "Similar gas from the same family", "spot": "CO vs CO2, MIC vs chlorine/ammonia", "fix": "CO forms carboxyhaemoglobin; Bhopal 1984 = methyl isocyanate", "pyq": "'Carbon dioxide' → Carbon monoxide [mains-2025-paper2#146]; Bhopal → MIC [mains-2025-paper2#121]"},
+  {"trap": "Thermal or conventional method passed as biological/alternative", "spot": "NOT-questions on bioremediation or alternatives", "fix": "Bio- needs a living agent; burning and incineration are conventional thermal methods", "pyq": "'Burning contaminated soil' [mains-2025-paper2#83]; 'Incineration of waste' [mains-2025-paper2#86]"},
+  {"trap": "Benefit dressed as a concern (or vice versa)", "spot": "'Primary concern' with benefit options", "fix": "GM concern = gene flow to non-GM crops; reduced pesticide and higher yield are claimed benefits", "pyq": "'Reduced pesticide use' → cross-pollination with non-GM crops [mains-2025-paper2#87]"},
+  {"trap": "Acronym expanded with a look-alike word", "spot": "SRI expanded with 'Irrigation'/'Renovation'", "fix": "SRI = System of Rice Intensification", "pyq": "'System of Renovation of Irrigation' → Rice Intensification [group2-2008-paper3#127]"},
+  {"trap": "Absolute claim in a benefit option", "spot": "'in all conditions', 'unrelated to'", "fix": "Organic yields are often lower; modern agriculture does deplete freshwater – judge the fact", "pyq": "'Higher crop yields in all conditions' → reduced chemicals, better soil [mains-2025-paper2#81]"},
+  {"trap": "Year of the trigger event offered for the Act", "spot": "Year options around 1984-87", "fix": "Bhopal 1984 → EPA 1986; Air Act amended 1987", "pyq": "'1984' → 1986 [prelims-2019#31]"},
+  {"trap": "Scheme with a different pollution target", "spot": "Flagship schemes listed for an air-quality aim", "fix": "NCAP (2019) = air; PMUY = household LPG; SBM = sanitation; AMRUT = urban water/sewerage", "pyq": "'Pradhan Mantri Ujjwala Yojana' → NCAP [mains-2025-paper2#85]"}
+ ],
+ "techniques": [
+  {"name": "Medium-of-entry matching [where does it go?]", "how": "For pollution–source or pollutant–effect matching, ask which medium or body system the pollutant enters, then pair.", "example": "Stack gas → air, sewage → water, fertiliser → soil, construction → noise → a-II, b-I, c-III, d-IV [mains-2025-paper2#78]"},
+  {"name": "Prefix decoding", "how": "Break technique names: in-situ = on site, ex-situ = moved; bio-augmentation = add microbes; phyto = plants; myco = fungi; pyro-lysis = heat without oxygen.", "example": "In-situ → treats material at the site; transport/excavation belong to ex-situ [mains-2025-paper2#123]"},
+  {"name": "Purpose = the body's verb", "how": "Each institution has one verb: tribunal adjudicates, board monitors, committee appraises, programme reduces. Match the verb in options.", "example": "Air Act 1981 → maintain air quality standards; renewables/fertilisers are other domains [mains-2025-paper2#84]"},
+  {"name": "Anchor-pair matching", "how": "Fix the surest pair, strike codes without it, then fix one more.", "example": "Incineration = burning (a-II) and pyrolysis = carbon fuels (b-I) leave only a-II, b-I, c-III, d-IV [mains-2025-paper2#143]"},
+  {"name": "Natural vs anthropogenic sort", "how": "Classify all options; the odd class is the answer.", "example": "Factories, power stations, vehicles are man-made → forest fires [mains-2025-paper2#127]"},
+  {"name": "Law chronology chain", "how": "Wildlife 1972 → Water 1974 → Forest 1980 → Air 1981 → EPA 1986 → Biodiversity 2002 → NGT 2010; place the stem's Act.", "example": "EPA after Bhopal → 1986 [prelims-2019#31]"}
+ ],
+ "confusions": [
+  {"a": "BOD", "b": "DO", "remember": "High BOD = polluted; high DO = healthy"},
+  {"a": "CO", "b": "CO2", "remember": "CO blocks haemoglobin; CO2 warms climate"},
+  {"a": "In-situ bioremediation", "b": "Ex-situ bioremediation", "remember": "On site (bioventing, biosparging) vs excavated (landfarming, biopile, bioreactor)"},
+  {"a": "Bioaugmentation", "b": "Biostimulation", "remember": "Add microbes vs add nutrients for native microbes"},
+  {"a": "Incineration", "b": "Pyrolysis", "remember": "Burning with oxygen vs heating without oxygen to make fuels"},
+  {"a": "NGT", "b": "CPCB", "remember": "Tribunal for cases vs board for monitoring and standards"},
+  {"a": "GEAC (MoEFCC)", "b": "RCGM (DBT) / FSSAI", "remember": "GEAC environmental release; RCGM research; FSSAI GM food"},
+  {"a": "ZBNF (Palekar)", "b": "Organic farming", "remember": "ZBNF uses on-farm inputs (jeevamrutha), no purchased inputs; organic may use bought organic inputs"},
+  {"a": "Hydroponics", "b": "Aquaponics", "remember": "Soil-less nutrient solution vs plants + fish together"},
+  {"a": "NCAP", "b": "PMUY", "remember": "City air quality plan vs LPG to cut indoor smoke"},
+  {"a": "Basel Convention", "b": "Stockholm Convention", "remember": "Hazardous waste movement vs persistent organic pollutants"},
+  {"a": "Marble cancer (SO2, NO2)", "b": "Biomagnification (chlorinated hydrocarbons)", "remember": "Acid rain on monuments vs DDT build-up up the food chain"}
+ ],
+ "anchors": [
+  "Sound intensity level: bel (decibel)",
+  "Drinking water pH (BIS IS 10500): 6.5–8.5",
+  "Bhopal 2-3 Dec 1984: methyl isocyanate; EPA 1986",
+  "Air Act 1981; Water Act 1974; NGT Act 2010",
+  "First CETP: Jeedimetla, 1989",
+  "APWALTA 2002: AP law regulating borewells and water bodies",
+  "NCAP launched January 2019",
+  "MSW Rules 2000 → SWM Rules 2016 (segregation at source)",
+  "Indore: zero-waste model, cleanest city in Swachh Survekshan",
+  "Maharashtra: highest MSW generation (CPCB 2020-21)",
+  "GEAC regulates GMO release; GM mustard DMH-11 from Delhi University",
+  "Sikkim: first 100% organic state, FAO Future Policy Gold Award 2018",
+  "SRI = System of Rice Intensification; ZBNF = Subhash Palekar"
+ ],
+ "checklist": [
+  "Which institution's verb fits: adjudicate, monitor, appraise, regulate?",
+  "Is an indicator's direction (high/low) flipped?",
+  "Same-family chemical swap (CO/CO2, MIC/chlorine)?",
+  "Bio- or alternative method? Remove thermal/conventional options",
+  "Benefit vs concern: which is asked?",
+  "In matching, pair by the medium the pollutant enters",
+  "Year of event vs year of law"
+ ]
+}
