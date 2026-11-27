@@ -457,4 +457,19 @@ class Group2Test {
         val o = com.appsc.prep.data.MatchLayout.parse("Match List-I (Place) with List-II (Year):\nA. Meerut\nB. Kanpur\nC. Lucknow\nD. Banaras; 1. 1916 2. 1905 3. 1946 4. 1925", listOf("A-3, B-4, C-1, D-2", "A-1, B-2, C-3, D-4"))!!
         assertEquals("Banaras", o.left[3].second); assertEquals("1925", o.right[3].second); assertEquals("Place", o.leftTitle)
     }
+
+    @Test fun pairsMcqAsTable() {
+        repo.mcqNotes = true
+        val found = runBlocking {
+            (1..6).firstNotNullOfOrNull { b ->
+                repo.book(b)
+                val m = repo.mcq(b)
+                m.rows.keys.sorted().flatMap { r -> (0 until 40).map { r to it } }.firstOrNull { (r, s) ->
+                    m.subQuestions(r, s).firstOrNull()?.let { com.appsc.prep.data.PairsLayout.parse(it.stem)?.headLeft?.isNotBlank() } == true
+                }?.let { Triple(b, it.first, it.second) }
+            }
+        } ?: return
+        val (bk, ri, sub) = found
+        shot("9_pairs_table") { com.appsc.prep.ui.screens.QuizScreen(com.appsc.prep.ui.screens.QuizSource("sub", bk, ri, sub), "all", "Section MCQs", nav) }
+    }
 }
