@@ -1,0 +1,79 @@
+{
+ "section": "M2B.5",
+ "overview": "56 official Qs (2008, 2012, 2017, 2019, 2024, 2025); 2025 Mains has 27. Climate treaties and India's role (13), sustainable development and SDGs (13) and disease burden (11) lead. Mostly one-liners on 'what/which/primary aim', dates and counts; 2024-25 add A-R, NOT-questions and statement sets (SDG Index, GRCA).",
+ "possibility": [
+  {"angle": "Global warming: GHG sources, black carbon, deforestation", "evidence": "4 Qs: 2019, 2025×3", "level": "Low historical recurrence", "what_they_ask": "GHG from lowland paddy (methane), nature of black carbon, cause of glacier melt, incorrect statement on CO2 and deforestation"},
+  {"angle": "Climate change: emitters and tipping points", "evidence": "2 Qs: 2017, 2025", "level": "Low historical recurrence", "what_they_ask": "Largest developing-world CO2 emitter (China), tipping point example (Arctic ice loss)"},
+  {"angle": "Acid rain", "evidence": "Not yet asked as its own leaf in Group 2", "level": "Syllabus angle not yet asked", "what_they_ask": "Natural targets: SO2 and NOx as causes, pH below 5.6, marble cancer (Taj Mahal), coal power and vehicles as sources"},
+  {"angle": "Ozone layer depletion", "evidence": "3 Qs: 2017, 2025×2", "level": "Low historical recurrence", "what_they_ask": "Main cause of ozone hole (CFCs), Kigali amends Montreal, A-R on CFC effects vs uses"},
+  {"angle": "Ocean acidification", "evidence": "Not yet asked in Group 2; asked in other APPSC exams (effect on shell formation)", "level": "Syllabus angle not yet asked", "what_they_ask": "Natural targets: CO2 absorption lowers ocean pH, carbonate shells and corals weakened"},
+  {"angle": "International initiatives, protocols, conventions, days", "evidence": "7 Qs: 2012, 2017, 2019×2, 2025×3", "level": "Moderate historical recurrence", "what_they_ask": "Paris basis (NDCs) and legal nature of targets, Rio 1992 outputs, which agreement is not about GHGs, GHG satellite country, Ozone Day and Environment Day dates"},
+  {"angle": "India's participation and role (INDC, NAPCC, GRCA, low per capita)", "evidence": "6 Qs: 2017×2, 2019, 2024, 2025×2", "level": "Moderate historical recurrence", "what_they_ask": "INDC target figures, NAPCC mission count and aim, first carbon-neutral airport, per-capita emissions, GRCA statements"},
+  {"angle": "Meaning, nature, scope of sustainable development", "evidence": "4 Qs: 2017×2, 2019, 2025", "level": "Moderate historical recurrence", "what_they_ask": "Report that popularised SD (Brundtland 1987), what is NOT in SD, ecological footprint definition"},
+  {"angle": "Components of SD (pillars, circular economy)", "evidence": "3 Qs: 2025", "level": "Low historical recurrence", "what_they_ask": "Three pillars, key goal (balance), circular economy definition"},
+  {"angle": "MDGs and SDGs, SDG India Index", "evidence": "6 Qs: 2019×4, 2025×2", "level": "Low historical recurrence", "what_they_ask": "Number of SDGs, health-related MDGs, MDG met by India, front-runner states, Index score and categories"},
+  {"angle": "Disease burden trends", "evidence": "11 Qs: 2008, 2012, 2017, 2019, 2025", "level": "High historical recurrence", "what_they_ask": "Drug for a disease, pathogen type (viral/bacterial/protozoan), deficiency sign (goitre, oedema in kwashiorkor), anaemia in AP, plaque disease, resistance by natural selection, malnutrition driver"},
+  {"angle": "Epidemic and pandemic challenges", "evidence": "2 Qs: 2012, 2025", "level": "Low historical recurrence", "what_they_ask": "Types of epidemic, disease whose vector is not a mosquito"},
+  {"angle": "Preparedness, healthcare delivery and outcomes", "evidence": "3 Qs: 2019 (delivery/outcomes); preparedness not yet asked", "level": "Low historical recurrence", "what_they_ask": "AP IMR (NFHS-4), definition of child mortality, Aarogyasri start year; natural targets for preparedness: IDSP, NDMA health guidelines, Epidemic Diseases Act 1897"},
+  {"angle": "Recent public health initiatives", "evidence": "5 Qs: 2019×2, 2025×3", "level": "Low historical recurrence", "what_they_ask": "Uddanam kidney centre place, Drugs and Magic Remedies Act scope, ABDM components, target group of PM-JAY, sanitation campaign name"}
+ ],
+ "traps": [
+  {"trap": "Climate treaty vs ozone/waste treaty swap [which problem?]", "spot": "Options mix Kyoto/Paris with Montreal, Basel, Bali", "fix": "Kigali (2016) amends Montreal (HFCs); Basel = hazardous waste; Doha amended Kyoto", "pyq": "'Kyoto Protocol' → Montreal Protocol [mains-2017-paper1#40]"},
+  {"trap": "Ozone gas vs greenhouse gas swap", "spot": "Ozone hole with CO2/CH4/N2O options", "fix": "Ozone hole = chlorine/bromine from CFCs and halons; CO2 and CH4 drive warming", "pyq": "'Carbon dioxide' → CFCs [mains-2025-paper2#97]"},
+  {"trap": "Sink turned into a reducer", "spot": "Statement saying an activity decreases CO2", "fix": "Deforestation removes a sink and adds CO2", "pyq": "'Deforestation is decreasing the amount of CO2' is the incorrect statement [mains-2025-paper2#149]"},
+  {"trap": "Binding procedure confused with binding targets", "spot": "'Legally bound by targets' with big emitters as options", "fix": "Paris NDCs are nationally determined, targets not legally binding; Kyoto had binding Annex I targets", "pyq": "'United States and China' → None of these [mains-2025-paper2#101]; Paris → NDCs [prelims-2017#140]"},
+  {"trap": "Total emissions vs per-capita emissions", "spot": "Ranking stem with 'per capita' or 'largest'", "fix": "China largest total; India 3rd total but lowest per capita among big emitters", "pyq": "Developing-world largest polluter → China [mains-2017-paper3#33]; lowest per capita 2012 → India [mains-2019-paper3#14]"},
+  {"trap": "Scheme component borrowed from a sister scheme", "spot": "NOT-question on ABDM or PM-JAY parts", "fix": "ABDM: ABHA, HPR, HFR, Sandbox; Arogya Mitra belongs to PM-JAY", "pyq": "'Arogya Mitra' not ABDM [mains-2025-paper2#108]"},
+  {"trap": "Pathogen class swap", "spot": "'Viral disease' among bacterial and protozoan ones", "fix": "Herpes viral; typhoid, diphtheria bacterial; malaria protozoan", "pyq": "Herpes [mains-2017-paper1#29]"},
+  {"trap": "Vector swap", "spot": "NOT-mosquito vector question", "fix": "Kala-azar (leishmaniasis) = sandfly; dengue/chikungunya = Aedes; malaria = Anopheles", "pyq": "Leishmaniasis [mains-2025-paper2#125]"},
+  {"trap": "Extreme word in a definition option", "spot": "'Only', 'exclusively', 'over all else', 'no concern'", "fix": "SD and circular economy are about balance and reuse; test the fact behind the extreme word", "pyq": "'focuses exclusively on reducing carbon emissions' → reuse, recycle, repair [mains-2025-paper2#109]; 'Only greenhouse gas emissions' → mitigation and adaptation [mains-2025-paper2#99]"},
+  {"trap": "Uses offered as the explanation of effects", "spot": "A-R where R lists where something is used", "fix": "Uses (refrigerants, aerosols) do not explain why CFCs warm the climate and deplete ozone", "pyq": "Both true, R not the explanation [mains-2025-paper2#147]"}
+ ],
+ "techniques": [
+  {"name": "Treaty-to-problem map [one problem per treaty]", "how": "Tag each treaty with its problem: UNFCCC/Kyoto/Paris climate; Vienna/Montreal/Kigali ozone (+HFCs); Basel waste; CBD biodiversity. The odd tag answers NOT-questions.", "example": "'Agenda 21 and Rio Declaration' → Earth Summit 1992; Kyoto/Paris/WHA are other events [mains-2025-paper2#110]"},
+  {"name": "Date chain for SD milestones", "how": "Stockholm 1972 (5 June Environment Day) → Brundtland 1987 → Rio 1992 → MDGs 2000 → SDGs 2015 (17). Place the stem on the chain.", "example": "SD 'first popularised' → Brundtland 1987; Rio came later [mains-2025-paper2#104]"},
+  {"name": "Mechanism over association", "how": "Pick the option naming the causal mechanism, not something merely linked.", "example": "Mosquitoes resisting DDT → resistant variants survive → natural selection [mains-2017-paper1#28]"},
+  {"name": "Count recall with neighbours", "how": "Remember counts with their neighbours to reject near numbers: 8 MDGs (3 health), 17 SDGs/169 targets, 8 NAPCC missions.", "example": "NAPCC core missions → 8 (not 10/12) [mains-2025-paper2#102]; health MDGs → 3 (Goals 4, 5, 6) [prelims-2019#105]"},
+  {"name": "Statement-by-statement check with a location anchor", "how": "Verify the venue/date clause first; a wrong venue kills that statement and its codes.", "example": "GRCA launched at COP28 Dubai, not New Delhi → statement I false → II and III only [prelims-2024#106]"},
+  {"name": "Age-band definitions", "how": "Neonatal <28 days, infant <1 year, under-five <5 years; MMR per 1 lakh live births.", "example": "Child mortality → before 5th birthday [prelims-2019#118]"}
+ ],
+ "confusions": [
+  {"a": "Montreal Protocol (1987)", "b": "Kyoto Protocol (1997)", "remember": "Ozone (CFCs; Kigali adds HFCs) vs GHG emission targets"},
+  {"a": "Kigali Amendment", "b": "Doha Amendment", "remember": "Kigali amends Montreal; Doha amends Kyoto"},
+  {"a": "Kyoto targets", "b": "Paris NDCs", "remember": "Top-down binding vs self-set, not legally binding"},
+  {"a": "Ozone hole", "b": "Global warming", "remember": "CFCs/halons vs CO2, CH4, N2O"},
+  {"a": "Ecological footprint", "b": "Carbon footprint", "remember": "Land and water area needed vs GHG emitted"},
+  {"a": "Kwashiorkor", "b": "Marasmus", "remember": "Protein deficit with oedema vs overall energy deficit with wasting"},
+  {"a": "Infant mortality", "b": "Child (under-five) mortality", "remember": "Before 1st vs before 5th birthday"},
+  {"a": "ABDM", "b": "PM-JAY", "remember": "Digital health IDs and registries vs Rs 5 lakh hospital cover with Arogya Mitras"},
+  {"a": "Drugs and Magic Remedies Act 1954", "b": "Drugs and Cosmetics Act 1940", "remember": "Objectionable advertisements vs manufacture and sale"},
+  {"a": "MDGs (8, 2000-15)", "b": "SDGs (17, 2016-30)", "remember": "8 goals vs 17 goals and 169 targets"},
+  {"a": "Total emissions rank", "b": "Per-capita emissions", "remember": "India 3rd total, low per capita"},
+  {"a": "Delhi IGI airport", "b": "Cochin airport", "remember": "First carbon-neutral in Asia-Pacific vs first fully solar-powered"},
+  {"a": "Sandfly", "b": "Aedes / Anopheles", "remember": "Kala-azar vs dengue-chikungunya / malaria"}
+ ],
+ "anchors": [
+  "World Environment Day 5 June; Ozone Day 16 September",
+  "Montreal 1987; Kigali Amendment 2016 (HFCs)",
+  "Rio Earth Summit 1992: Agenda 21, Rio Declaration, UNFCCC, CBD",
+  "Brundtland 'Our Common Future' 1987",
+  "Paris COP21 Dec 2015: Nationally Determined Contributions",
+  "India INDC 2015: emission intensity 33–35% below 2005 by 2030; 40% non-fossil capacity",
+  "NAPCC 2008: 8 national missions",
+  "17 SDGs; 3 of 8 MDGs on health",
+  "SDG India Index 2023-24: India score 71; Kerala and Uttarakhand top",
+  "Lowland paddy → methane",
+  "Aarogyasri started 2007 (AP)",
+  "Uddanam kidney research centre: Palasa, Srikakulam",
+  "IBUKI/GOSAT: Japan, 2009"
+ ],
+ "checklist": [
+  "Which environmental problem does each treaty/agreement address?",
+  "Total vs per capita; binding vs non-binding",
+  "Cause or effect? Sink or source?",
+  "Check the venue/date clause in statement sets first",
+  "Pathogen class and vector: confirm both",
+  "Does the scheme component belong to this scheme or its sister?",
+  "Extreme words (only, exclusively, over all else): verify the fact"
+ ]
+}
