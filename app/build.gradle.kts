@@ -106,9 +106,7 @@ android {
     sourceSets["rocketoneliner"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/rocketonelinerAssets")))
     // APPSC Complete ships as APPSC Group 1 Prelims: its notes and MCQs cut to the Group 1 Prelims syllabus
     // (tools/group1_build.py writes src/group1/assets from src/complete/assets, which stays the master copy)
-    // (since 3.97 its notes are shown as the topic's restructured slide notes, like the Slides edition)
-    sourceSets["complete"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/completeAssets")))
-    sourceSets["group2"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/group2Assets")))
+    sourceSets["complete"].assets.setSrcDirs(listOf("src/group1/assets"))
     sourceSets["group1slides"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/group1slidesAssets")))
     sourceSets["group2slides"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/group2slidesAssets")))
     sourceSets["complete2"].assets.setSrcDirs(listOf(layout.buildDirectory.dir("generated/complete2Assets")))
@@ -229,15 +227,10 @@ val rocketonelinerAssets = tasks.register<Sync>("rocketonelinerAssets") {
 }
 tasks.matching { it.name.contains("Rocketoneliner") }.configureEach { dependsOn(rocketonelinerAssets) }
 
-// the Slides editions' assets: the app's own (src/group1 or src/group2), its edition (the slides' key), its lectures.
-// Since 3.97 the Group 1 Prelims (flavor "complete") and Group 2 apps show their notes as these slide notes too
-// (edition from src/editions/<flavor>.json).
-for ((name, src, key) in listOf(Triple("group1slides", "group1", "g1"), Triple("group2slides", "group2", "g2"),
-                                Triple("complete", "group1", "g1"), Triple("group2", "group2", "g2"))) {
+// the Slides editions' assets: the app's own (src/group1 or src/group2), its edition (the slides' key), its lectures
+for ((name, src, key) in listOf(Triple("group1slides", "group1", "g1"), Triple("group2slides", "group2", "g2"))) {
     val t = tasks.register<Sync>("${name}Assets") {
-        from(if (name == "complete" || name == "group2") "src/editions" else "src/$name/assets") {
-            if (name == "complete" || name == "group2") { include("$name.json"); rename("$name.json", "edition.json") }
-        }
+        from("src/$name/assets")
         from("src/$src/assets") { exclude("edition.json") }
         from("src/lectures/assets/lec/$key") { into("lec/$key") }
         into(layout.buildDirectory.dir("generated/${name}Assets"))

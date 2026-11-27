@@ -241,6 +241,22 @@ class Group2Test {
         shot("notes_page_vishnukundins") { com.appsc.prep.ui.screens.ReaderScreen(1, 189, 2, nav) }
     }
 
+    // the restructured notes (3.97): Satavahanas pages 1-2, a Polity page
+    @Test fun restructuredNotesPages() {
+        runBlocking { repo.book(1); repo.mcq(1); repo.book(2); repo.mcq(2) }
+        shot("restructured_satavahanas_1") { com.appsc.prep.ui.screens.ReaderScreen(1, 178, 0, nav) }
+    }
+
+    @Test fun restructuredNotesPages2() {
+        runBlocking { repo.book(1); repo.mcq(1) }
+        shot("restructured_satavahanas_2") { com.appsc.prep.ui.screens.ReaderScreen(1, 178, 1, nav) }
+    }
+
+    @Test fun restructuredNotesPolity() {
+        runBlocking { repo.book(2); repo.mcq(2) }
+        shot("restructured_polity") { com.appsc.prep.ui.screens.ReaderScreen(2, 10, 0, nav) }
+    }
+
     @Test fun topicPageForSlides() {
         runBlocking { repo.book(1); repo.mcq(1) }
         shot("topic_page_vishnukundins") { com.appsc.prep.ui.screens.SectionScreen(1, 189, nav) }
