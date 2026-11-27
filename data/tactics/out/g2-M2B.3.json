@@ -1,0 +1,72 @@
+{
+ "section": "M2B.3",
+ "overview": "29 official Qs (2008, 2012, 2017, 2019, 2025). Ecology concepts dominate recently: 2025 Mains asked 10 (definitions, food chains, producers, cycles) in statement, A-R and matching formats. Biodiversity, CITES, IUCN, biosphere reserves and wildlife efforts appear as one-liners on locations, full forms, themes and 'father of'.",
+ "possibility": [
+  {"angle": "Basic ecology concepts: ecosystem unit, biomass, natality, density, biogeochemical cycles", "evidence": "5 Qs: 2008, 2019, 2025×3", "level": "Moderate historical recurrence", "what_they_ask": "Exact definition of a term (density, natality, biomass), functional unit of ecology, which cycle's reservoir is not soil"},
+  {"angle": "Ecosystem components and food chains", "evidence": "3 Qs: 2025", "level": "Low historical recurrence", "what_they_ask": "Producers (photo- and chemo-autotrophs), grazing vs detritus chain start, biotic factor–feature matching"},
+  {"angle": "Types of ecosystems, ecotones, biome latitudes, plant adaptations", "evidence": "3 Qs: 2017×2, 2025", "level": "Low historical recurrence", "what_they_ask": "Which is NOT an ecotone, forest type by latitude, leaf form in dry climate"},
+  {"angle": "Meaning and components of biodiversity, species identification", "evidence": "2 Qs: 2017, 2019", "level": "Low historical recurrence", "what_they_ask": "Where species richness is highest, DNA barcoding for species ID"},
+  {"angle": "Biodiversity hotspots", "evidence": "1 Q: 2017", "level": "Low historical recurrence", "what_they_ask": "Criteria (endemic plants + threat); natural targets: India's 4 hotspots"},
+  {"angle": "Loss of biodiversity and IUCN categories", "evidence": "2 Qs: 2017, 2025", "level": "Low historical recurrence", "what_they_ask": "Cause of coral bleaching (zooxanthellae), meaning of CR"},
+  {"angle": "Conservation methods (ex-situ, gene banks)", "evidence": "2 Qs: 2008, 2017", "level": "Low historical recurrence", "what_they_ask": "Location of NBPGR, Svalbard seed vault"},
+  {"angle": "Plans, targets, conventions, days and years", "evidence": "3 Qs: 2017, 2019×2", "level": "Low historical recurrence", "what_they_ask": "World Wetlands Day theme, International Year of Biodiversity, IUCN full form"},
+  {"angle": "CITES", "evidence": "1 Q: 2025", "level": "Low historical recurrence", "what_they_ask": "Other name (Washington Convention); natural targets: 1973 signing, India joined 1976, Appendices I-III"},
+  {"angle": "Endangered species and national/state symbols", "evidence": "2 Qs: 2019 (one deleted, one key uncertain)", "level": "Low historical recurrence", "what_they_ask": "State animal of AP, national fish/aquatic animal"},
+  {"angle": "Biosphere reserves", "evidence": "1 Q: 2017; frequent in other APPSC exams", "level": "Low historical recurrence", "what_they_ask": "State of a named BR (Pachmarhi = MP); natural targets: Nilgiri first BR, Gulf of Mannar corals, Seshachalam in AP"},
+  {"angle": "Indian wildlife efforts, parks, sanctuaries, people", "evidence": "4 Qs: 2012, 2017×2, 2019", "level": "Moderate historical recurrence", "what_they_ask": "Which park is NOT a UNESCO site, AP sanctuary/deer park district, father of Indian ornithology, national aquatic animal"}
+ ],
+ "traps": [
+  {"trap": "Descriptor of the thing offered as its 'theme' [nickname ≠ theme]", "spot": "Day/theme question with popular nicknames among options", "fix": "Wetland nicknames ('kidneys of the landscape', 'biological supermarkets') are never themes; WWD 2017 = Wetlands for Disaster Risk Reduction", "pyq": "'Kidneys of Landscape' → Wetlands for Disaster Risk Reduction [mains-2017-paper1#25]"},
+  {"trap": "Grazing and detritus chains swapped", "spot": "Food chain said to start with dead leaves", "fix": "Grazing chain starts with living producers; detritus chain starts with dead organic matter", "pyq": "'Grazing food chain begins with dead leaves' → A false, R true [mains-2025-paper2#139]"},
+  {"trap": "Size/count offered for density", "spot": "Definition options: total number, distribution, raw sample count", "fix": "Density = individuals per unit area (or volume); total = population size", "pyq": "'total number of individuals' → per unit area [mains-2025-paper2#124]"},
+  {"trap": "Consumers given producer abilities", "spot": "'Choose the correct statement' on trophic roles", "fix": "Consumers are heterotrophs and cannot make food; some archaea are chemoautotrophic producers", "pyq": "'Consumers are heterotrophs able to produce their food' false → Archaea producers using chemical energy [mains-2025-paper2#136]"},
+  {"trap": "Famous park that is not a UNESCO site", "spot": "NOT-question listing well-known parks", "fix": "Kaziranga, Keoladeo, Sundarbans are natural WHS; Gir (lions) is not", "pyq": "Gir [mains-2017-paper1#43]"},
+  {"trap": "Similar-sounding microbes as symbiont", "spot": "Symbiont list mixing soil bacteria and algae", "fix": "Coral symbionts are zooxanthellae; Rhizobia = legume nodules; Azotobacter = free-living N-fixer", "pyq": "'Rhizobia' → Zooxanthellae [mains-2017-paper1#50]"},
+  {"trap": "Treaty name swap", "spot": "Convention 'also known as' with other city-named treaties", "fix": "CITES = Washington 1973; Kyoto/Paris are climate; Geneva = humanitarian", "pyq": "'Geneva Convention' → Washington Convention [mains-2025-paper2#120]"},
+  {"trap": "One-half of a two-part criterion offered", "spot": "Options list 'endemic plants' alone and 'endemic plants and threat'", "fix": "Hotspot needs both: ≥1,500 endemic vascular plants AND ≥70% habitat lost", "pyq": "'Endemic flowering plant' alone → Endemic flowering plant and threat perception [mains-2017-paper1#77]"},
+  {"trap": "Uniform ecosystem passed as ecotone", "spot": "NOT-question on ecotones", "fix": "Ecotone = transition between two systems (river bank, mangrove, marsh); a teak forest is one system", "pyq": "Teak Forest [mains-2017-paper1#47]"}
+ ],
+ "techniques": [
+  {"name": "Definition precision test [word by word]", "how": "Read each option as a definition and test the key word (per unit area, living vs dead, rate vs amount). Only the exact one survives.", "example": "Biomass = total mass of organisms per unit area at a given time, not a rate [mains-2019-paper1#59]"},
+  {"name": "A-R split", "how": "Judge A alone, then R alone, then the link. If A is false, the answer is fixed whatever R says.", "example": "A (grazing chain from dead leaves) false; R (autotrophs pass energy to herbivores) true → 'A not correct but R correct' [mains-2025-paper2#139]"},
+  {"name": "Gradient reasoning", "how": "Use the latitude/moisture gradient: diversity falls equator → poles; leaves shrink and thicken as climate dries.", "example": "Species per unit area highest → tropical rain forest [mains-2017-paper1#78]; dry climate leaf → small and thick [mains-2017-paper1#68]"},
+  {"name": "Anchor-pair matching", "how": "Fix the surest pair, strike codes without it, then fix a second.", "example": "Saprotrophs = recycling nutrients (b-I) and humans = top heterotrophs (a-II) leave options 2 and 3; camel = little urine (d-III) → a-II, b-I, c-IV, d-III [mains-2025-paper2#137]"},
+  {"name": "Full-form letter check", "how": "Expand each letter: IUCN Union-Conservation-Nature; CR = Critically Endangered; reject invented categories.", "example": "'Critically extinct' is not a category → Critically endangered [mains-2025-paper2#141]"}
+ ],
+ "confusions": [
+  {"a": "Grazing food chain", "b": "Detritus food chain", "remember": "Living plants → herbivores vs dead matter → decomposers"},
+  {"a": "Population density", "b": "Population size", "remember": "Per unit area vs total count"},
+  {"a": "Biomass", "b": "Productivity", "remember": "Standing amount at an instant vs rate of production"},
+  {"a": "Gaseous cycles (N, C, O)", "b": "Sedimentary cycles (P, S, Ca)", "remember": "Atmosphere/ocean reservoir vs rocks/soil reservoir"},
+  {"a": "DNA barcoding", "b": "DNA fingerprinting", "remember": "Barcoding identifies species; fingerprinting identifies individuals"},
+  {"a": "Zooxanthellae", "b": "Rhizobia", "remember": "Coral algae vs legume root-nodule bacteria"},
+  {"a": "CR (Critically Endangered)", "b": "EW (Extinct in the Wild)", "remember": "CR still in the wild; EW survives only in captivity"},
+  {"a": "Temperate deciduous forest", "b": "Coniferous (taiga) forest", "remember": "Mid-latitudes vs high latitudes (50-70 N)"},
+  {"a": "Svalbard Global Seed Vault (Norway)", "b": "NBPGR gene bank (New Delhi)", "remember": "Global doomsday vault vs India's national gene bank"},
+  {"a": "Gangetic dolphin", "b": "National fish", "remember": "Dolphin = notified national aquatic animal (2009); national fish not formally notified"},
+  {"a": "Pachmarhi BR (MP)", "b": "Achanakmar-Amarkantak BR (MP-Chhattisgarh)", "remember": "Pachmarhi wholly in MP's Satpura range"},
+  {"a": "Kaziranga / Keoladeo / Sundarbans", "b": "Gir / Kanha", "remember": "First three are UNESCO natural sites; Gir and Kanha are not"}
+ ],
+ "anchors": [
+  "Ecosystem = structural and functional unit of ecology (Tansley 1935)",
+  "Hotspot: ≥1,500 endemic vascular plants + ≥70% habitat loss; India has 4",
+  "CITES: Washington, 3 March 1973; India joined 1976",
+  "IUCN founded 1948; Red List: EX, EW, CR, EN, VU, NT, LC",
+  "2010 = International Year of Biodiversity; 2011-2020 UN Decade on Biodiversity",
+  "World Wetlands Day = 2 February (Ramsar 1971)",
+  "Gangetic river dolphin = National Aquatic Animal (2009)",
+  "Salim Ali = father of Indian ornithology",
+  "Svalbard seed vault = Norway; NBPGR = New Delhi",
+  "Pachmarhi Biosphere Reserve = Madhya Pradesh",
+  "Kandaleru deer park = SPS Nellore",
+  "Wildlife (Protection) Act 1972; Project Tiger 1973; Project Elephant 1992"
+ ],
+ "checklist": [
+  "Is the stem a definition? Test the key qualifier (per unit area, living/dead, rate/amount)",
+  "In A-R, judge A first; a false A settles it",
+  "Is a nickname or descriptor posing as a theme or category?",
+  "For two-part criteria, pick the option with both parts",
+  "For park/reserve questions, confirm both state and status (UNESCO, BR, NP)",
+  "Expand acronyms letter by letter (IUCN, CR, CITES)"
+ ]
+}

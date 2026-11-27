@@ -1,0 +1,78 @@
+{"section": "g1-C4",
+ "overview": "53 official Group 1 Qs (2008–2024) on RBI tools, banking reforms, GST, Finance Commissions, taxes, markets and budget. Up to 2019 mostly one-liners (who, when, which number); 2023–24 shifted hard to statement-based items (often 4–5 statements on current schemes) plus A-R and match lists. Heaviest: Finance Commissions (9), RBI/monetary policy (8), banking reforms (8), GST (7).",
+ "possibility": [
+  {"angle": "Financial institutions – NABARD, NPCI, insurance", "evidence": "3 Qs: 2008, 2019, 2023", "level": "Moderate historical recurrence", "what_they_ask": "which committee recommended an institution, which body launched a product (RuPay – NPCI), coverage figures"},
+  {"angle": "RBI and monetary policy – CRR, SLR, credit control, inflation", "evidence": "8 Qs: 2008, 2010×2, 2023×2, 2024×3", "level": "Moderate historical recurrence", "what_they_ask": "effect of a CRR change, what counts for SLR, quantitative vs qualitative tools, MCLR/MSF mechanics, inflation measure and current food/headline/core order"},
+  {"angle": "Banking and financial sector reforms, digital payments", "evidence": "8 Qs: 2010, 2012, 2017, 2019, 2023, 2024×3", "level": "High historical recurrence", "what_they_ask": "nationalisation date and number, Narasimham committee name, Basel III ratios, Jan Dhan, EASE reforms, RBI-DPI base and parameters, e-RUPI / UPI features"},
+  {"angle": "Commercial banks and NPAs", "evidence": "4 Qs: 2010×2, 2023×2", "level": "Low historical recurrence", "what_they_ask": "NPA 90-day definition, what para-banking includes, bank slogans"},
+  {"angle": "Financial markets – money and gilt markets", "evidence": "2 Qs: 2019, 2023", "level": "Low historical recurrence", "what_they_ask": "T-bill tenors, what the gilt-edged market covers"},
+  {"angle": "Stock exchanges and SEBI", "evidence": "2 Qs: 2010, 2024", "level": "Low historical recurrence", "what_they_ask": "which exchange has the bulk of trade (NSE), recent SEBI frameworks (25% debt for large corporates, bond ticket size), RBI vs SEBI schemes"},
+  {"angle": "Indian tax system and recent changes", "evidence": "4 Qs: 2008, 2010, 2017, 2024", "level": "Moderate historical recurrence", "what_they_ask": "largest tax source (time-bound), VAT features, problem of multiple rates, A-R on tax simplicity"},
+  {"angle": "GST and its impact", "evidence": "7 Qs: 2012, 2017×3, 2023×2, 2024", "level": "Moderate historical recurrence", "what_they_ask": "items outside GST (petroleum), anti-profiteering, how rates change, 122nd Bill, destination basis, GST Council under Art. 279A"},
+  {"angle": "Centre–State financial relations", "evidence": "2 Qs: 2017, 2024", "level": "Low historical recurrence", "what_they_ask": "Art. 268–271 levy/collection/sharing pattern, repealed articles, CSS 'core of the core' tier"},
+  {"angle": "Finance Commissions – devolution and criteria", "evidence": "9 Qs: 2012, 2017×5, 2019, 2023×2 (one deleted)", "level": "Moderate historical recurrence", "what_they_ask": "chairmen by number, award period, base year, criterion with highest weight, vertical vs horizontal factors, effect of grants→devolution shift"},
+  {"angle": "Public debt and public expenditure", "evidence": "1 Q: 2010", "level": "Low historical recurrence", "what_they_ask": "which indicator signals bad fiscal health (rising debt-GDP); natural targets: FRBM targets, types of deficit"},
+  {"angle": "Fiscal policy and Budget", "evidence": "3 Qs: 2010, 2023, 2024", "level": "Moderate historical recurrence", "what_they_ask": "effect of deficit financing, current budget proposals (Interim Budget 2024 green-energy items)"}
+ ],
+ "traps": [
+  {"trap": "Reverses the direction of a monetary tool's effect", "spot": "'increasing CRR will increase credit', 'rise in lending capacity'", "fix": "CRR/SLR up = less lendable money, less credit, less demand; down = the opposite", "pyq": "'CRR [...] increases' → I and II only [group1-prelims-2023-paper1#72]; 'increasing CRR increases credit creation' false [group1-prelims-2024-paper1#77]"},
+  {"trap": "Puts a quantitative tool in the qualitative list (or a credit target in SLR)", "spot": "Negative 'does not include' or 'SLR in the form of' lists", "fix": "Quantitative: bank rate, repo, OMO, CRR, SLR; qualitative: margins, moral suasion, rationing; SLR assets = cash, gold, unencumbered G-secs", "pyq": "→ Bank rate policy [group1-prelims-2010-reexam#26]; priority-sector loans not SLR [group1-prelims-2023-paper1#73]"},
+  {"trap": "Alters one rung of a numeric ladder", "spot": "Basel ratios, DPI parameters, number of priorities", "fix": "RBI Basel III: CET1 5.5, Tier 1 7, total 9, +CCB 2.5 = 11.5; RBI-DPI has 5 parameters, base March 2018", "pyq": "'Tier 1 capital 8%' is wrong [group1-prelims-2019-paper1#83]; '6 parameters', 'base 2021' wrong [group1-prelims-2024-paper1#76]"},
+  {"trap": "Makes a constitutional body 'statutory first' or swaps its dispute forum", "spot": "GST Council statements with history or adjudication claims", "fix": "GST Council created directly by Art. 279A (101st Amendment, 2016); defects in appointment do not invalidate proceedings; disputes go to a mechanism the Council sets up", "pyq": "Only IV valid [group1-prelims-2024-paper1#35]"},
+  {"trap": "Swaps sharing rules between Articles 268–271", "spot": "'surcharge proceeds shared with States'", "fix": "Art. 271 surcharges and cesses go wholly to the Union; Art. 270 taxes are shared", "pyq": "Statement I false [group1-prelims-2024-paper1#38]"},
+  {"trap": "Widens scope to a body not covered", "spot": "'for both PSBs and NBFCs', 'transparency to direct tax laws'", "fix": "EASE reforms = PSBs only; GST is an indirect-tax reform", "pyq": "EASE IV false [group1-prelims-2024-paper1#74]; GST I false → II and III [group1-prelims-2023-paper1#48]"},
+  {"trap": "Gives a scheme to the wrong agency", "spot": "'built by a startup consortium', 'SEBI along with RBI introduced'", "fix": "Hello! UPI, RuPay, e-RUPI = NPCI; Retail Direct = RBI alone", "pyq": "Hello! UPI statement false [group1-prelims-2024-paper1#62]; Retail Direct false [group1-prelims-2024-paper1#70]; RuPay → NPCI [group1-prelims-2019-paper1#79]"},
+  {"trap": "Swaps the sector a budget measure belongs to", "spot": "Budget-proposal lists with one item moved from another sector, or 'optional' for 'mandatory'", "fix": "Interim Budget 2024: VGF for offshore wind, not solar; CBG blending to be mandatory in phases", "pyq": "→ II and IV [group1-prelims-2024-paper1#64]"}
+ ],
+ "techniques": [
+  {"name": "Money-flow arrow test", "how": "Draw the arrow: tool up → bank reserves locked → credit ↓ → money supply ↓ → demand ↓. Every statement must match the arrow's direction.", "example": "CRR hike: fall in money circulation and low demand fit; rise in purchasing power and lending capacity run against [...] → 'I and II only' [group1-prelims-2023-paper1#72]"},
+  {"name": "FC sequence ladder", "how": "Memorise FC number → chair → period as one ladder (10 Pant, 11 Khusro, 12 Rangarajan, 13 Kelkar, 14 Reddy 2015-20, 15 N.K. Singh, 16 Panagariya). Use it for match lists, award periods and base years.", "example": "10-Pant (II) and 13-Kelkar (III) leave only 'II IV I III' [group1-prelims-2023-paper1#79]; 14th FC period 1 Apr 2015–31 Mar 2020 [group1-prelims-2019-paper1#53]"},
+  {"name": "Fiscal-health sign check", "how": "Good fiscal administration lowers debt, deficits and interest burden and raises tax-GDP. In a 'hampers' question pick the option moving the wrong way.", "example": "Only 'increasing the debt GDP ratio' worsens health → option 1 [group1-prelims-2010-reexam#24]"},
+  {"name": "Feature-of-design elimination for taxes", "how": "Recall what the tax was designed to do (input credit, no cascading, invoice trail, wider base). The option contradicting that design is the 'not a feature'.", "example": "Non-cascading, harmonised, self-enforcing all fit VAT; 'diminish revenue buoyancy' contradicts → option 1 [group1-prelims-2010#85]"},
+  {"name": "Tied vs untied transfer logic", "how": "Tax devolution = untied; grants (esp. CSS) = tied. A shift from grants to devolution raises untied money in State hands.", "example": "Shift to devolution → 'increase in share of unconditional transfers' [group1-prelims-2017-paper1#21]"},
+  {"name": "Date-stamp the current-affairs statement", "how": "For 'present trends', 'recent' budget or index items, fix the month/year the paper was set and check each claim against that period only.", "example": "Early 2024: retail inflation was easing, so 'considerably increased' falls; Bharat Atta and Bharat Dal hold → II and IV [group1-prelims-2024-paper1#73]"}
+ ],
+ "confusions": [
+  {"a": "CRR (cash with RBI, whole NDTL)", "b": "SLR (cash, gold, G-secs with the bank)", "remember": "CRR earns nothing and sits with RBI; SLR is held by the bank itself"},
+  {"a": "CRR", "b": "ICRR", "remember": "ICRR is an extra reserve on incremental deposits (NDTL), not on lending"},
+  {"a": "MSF", "b": "Repo", "remember": "MSF = repo + 25 bp, overnight, emergency; equal to Bank Rate"},
+  {"a": "Quantitative tools", "b": "Qualitative tools", "remember": "Volume of credit (rates, reserves, OMO) vs direction of credit (margins, moral suasion)"},
+  {"a": "Narasimham I (1991)", "b": "Narasimham II (1998)", "remember": "Committee on the Financial System vs Committee on Banking Sector Reforms"},
+  {"a": "1969 nationalisation (14 banks, 19 July)", "b": "1980 nationalisation (6 banks, 15 April)", "remember": "₹50 crore deposit cut-off vs ₹200 crore"},
+  {"a": "Vertical devolution", "b": "Horizontal devolution", "remember": "Centre vs States share (42% under 14th FC) vs share among States (criteria weights)"},
+  {"a": "14th FC criteria", "b": "15th FC criteria", "remember": "Income distance 50% vs 45%; 15th adds demographic performance and tax effort"},
+  {"a": "Art. 270 (shared taxes)", "b": "Art. 271 (surcharge)", "remember": "Surcharge is Union-only, not in the divisible pool"},
+  {"a": "GST Council (Art. 279A)", "b": "Finance Commission (Art. 280)", "remember": "GST rates and exemptions vs devolution of divisible pool"},
+  {"a": "NPCI products", "b": "RBI schemes", "remember": "RuPay, UPI, e-RUPI, Hello! UPI vs Retail Direct, DPI"},
+  {"a": "BSE", "b": "NSE", "remember": "BSE oldest and most listings; NSE largest turnover"},
+  {"a": "Gilt-edged market", "b": "Capital market", "remember": "Gilt = government securities (T-bills, G-secs) only"},
+  {"a": "Basel III (BCBS) 4.5/6/8", "b": "RBI Basel III 5.5/7/9", "remember": "RBI is stricter; with CCB total 11.5%"},
+  {"a": "Para-banking", "b": "Loans to paramilitary staff", "remember": "'Para' = ancillary services (cards, insurance, factoring), not a borrower group"}
+ ],
+ "anchors": [
+  "19 July 1969 – 14 banks nationalised; 15 April 1980 – 6 more",
+  "1991 Narasimham Committee = Committee on the Financial System",
+  "NABARD 1982 – on Sivaraman Committee (CRAFICARD) recommendation",
+  "NPA = interest/principal overdue more than 90 days",
+  "T-bills: 91, 182, 364 days",
+  "RBI Basel III: CET1 5.5%, Tier 1 7%, CRAR 9%, + CCB 2.5% = 11.5%",
+  "MSF = repo + 0.25% = Bank Rate; MCLR includes tenor premium",
+  "CPI-Combined is RBI's inflation anchor since 2014–16; WPI was the headline measure in 2008",
+  "122nd Amendment Bill = 101st Amendment Act (2016), Art. 246A, 269A, 279A",
+  "Five petroleum products outside GST until the Council recommends: crude, petrol, diesel, ATF, natural gas",
+  "14th FC: 2015–20, 42% share, base year 2014–15, income distance 50%",
+  "FC chairs: 10 K.C. Pant, 11 A.M. Khusro, 12 C. Rangarajan, 13 Vijay Kelkar, 14 Y.V. Reddy, 15 N.K. Singh",
+  "Art. 271 surcharges – Union only",
+  "RBI-DPI: base March 2018, 5 parameters, published since 2021",
+  "Deficit financing by printing money → inflationary"
+ ],
+ "checklist": [
+  "Draw the money-flow arrow: does each statement move in the same direction?",
+  "Which agency owns the product or scheme – RBI, SEBI, NPCI, DFS, Council?",
+  "For a number (ratio, parameter count, days, percent) recall the full ladder before judging one rung",
+  "Is the body constitutional, statutory or executive – and since when?",
+  "Check scope words: PSBs only? indirect taxes only? greenfield only?",
+  "For 'current' figures or orderings, fix the year the paper was set",
+  "For FC items: which commission number, vertical or horizontal, which criterion?"
+ ]
+}

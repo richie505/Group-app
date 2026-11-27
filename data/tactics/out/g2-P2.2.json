@@ -1,0 +1,68 @@
+{"section": "g2-P2.2",
+"overview": "Economic Geography of India and AP: 53 official questions (2008–2025). Natural resources (minerals, water, coal) lead with 17 Qs across all paper years; agriculture (10), transport (11) and agro-based activities (6) follow; industries, communication, tourism and trade are thin. Formats: one-liners; from 2024 AP mineral/beach matching and current-affairs-style statement items on transport.",
+"possibility": [
+ {"angle": "Natural resources – ores, minerals of India and AP, coal, uranium, gold, water use", "evidence": "17 Qs: 2008×4, 2012, 2017×6, 2019×3, 2024×2, 2025", "level": "High historical recurrence", "what_they_ask": "Ore of a metal, rock system holding coal, first/largest deposit site, mineral–AP district matching, dam–State matching, year of MMDR Act."},
+ {"angle": "Agriculture – crops, seasons, research institutes, holdings, colour revolutions", "evidence": "10 Qs: 2008×4, 2012, 2017×3, 2024×2", "level": "Moderate historical recurrence", "what_they_ask": "Rabi/kharif crop, top producing States in order, where an institute is, colour–commodity pair, holding-size figures."},
+ {"angle": "Agro-based activities – dairy, fisheries, aquaculture, food processing", "evidence": "6 Qs: 2008, 2019×5", "level": "Low historical recurrence", "what_they_ask": "India's rank in aquaculture, meaning of inland fisheries or IQF, who founded IRMA, what India leads in."},
+ {"angle": "Distribution of major industries", "evidence": "1 Q: 2024", "level": "Low historical recurrence", "what_they_ask": "Place/year of the first plant of an industry (cement 1904 Madras)."},
+ {"angle": "Major industrial regions", "evidence": "1 Q: 2012", "level": "Low historical recurrence", "what_they_ask": "City nicknames/industrial identity; natural targets: Hooghly, Mumbai–Pune, Ahmedabad–Vadodara, Bengaluru–Chennai, Visakhapatnam–Guntur regions."},
+ {"angle": "Transport – railways, highways, waterways, ports, pipelines, AP canals", "evidence": "11 Qs: 2008×2, 2017×4, 2019, 2024×4", "level": "Moderate historical recurrence", "what_they_ask": "First train route, NW-1 end points, NS–EW junction, major port odd-one-out, zone HQ, pipeline States, recent 'first' road/station claims."},
+ {"angle": "Communication", "evidence": "1 Q: 2019", "level": "Low historical recurrence", "what_they_ask": "Earlier name or founding year of broadcasting/postal bodies."},
+ {"angle": "Tourism – AP beaches, new tourism ventures", "evidence": "2 Qs: 2024×2", "level": "Low historical recurrence", "what_they_ask": "Beach–nearest town matching in AP; partner of a new tourism project."},
+ {"angle": "Trade – direction and composition", "evidence": "4 Qs: 2008×4", "level": "Low historical recurrence", "what_they_ask": "Top export destination, trading bloc share, commodity with largest world share (time-sensitive)."}
+],
+"traps": [
+ {"trap": "Swaps a mineral between AP districts [district swap]", "spot": "AP mineral–place matching", "fix": "Manganese – Garividi (Vizianagaram); bauxite – Visakhapatnam/East Godavari agency forests; mica – Nellore; barytes – Mangampet (Kadapa); asbestos – Kadapa; apatite – Visakhapatnam; ball clay – West Godavari.", "pyq": "Manganese–Garividi, bauxite–Visakha forests [prelims-2024#59]; ball clay–West Godavari [mains-2025-paper2#65]"},
+ {"trap": "Gives the largest deposit for the first discovery", "spot": "'first discovered' / 'first' with several real sites", "fix": "Jaduguda is the first uranium site; Tummalapalle (AP) is the large newer deposit; Lambapur is in Telangana.", "pyq": "Uranium first discovered → Jaduguda [mains-2017-paper1#83]"},
+ {"trap": "Shifts one dam to the neighbouring State", "spot": "Multipurpose project–State matching", "fix": "Nagarjunasagar – AP (Krishna); Hirakud – Odisha (Mahanadi); Damodar Valley – West Bengal/Jharkhand.", "pyq": "Code 3 2 1 [group2-2008-paper3#15]"},
+ {"trap": "Swaps colours of the rainbow revolution", "spot": "Colour–commodity pairs that sound right", "fix": "Yellow – oilseeds; Golden – fruits/honey; Silver – eggs; Grey – fertilisers; White – milk; Blue – fish.", "pyq": "Correct pair → Silver–Eggs; 'Yellow–Fruits' and 'Golden–Oilseeds' are swapped [mains-2017-paper1#72]"},
+ {"trap": "Swaps the end points of National Waterways", "spot": "NW number with river-town pairs", "fix": "NW-1 Prayagraj (Allahabad)–Haldia; NW-2 Sadiya–Dhubri; NW-3 Kottapuram–Kollam; NW-4 Kakinada–Puducherry.", "pyq": "NW-1 → Allahabad–Haldia [mains-2017-paper1#73]"},
+ {"trap": "Moves a pipeline or rail zone HQ to a neighbour", "spot": "'not connected' / 'headquarters of' with similar names", "fix": "HVJ: Gujarat–MP–UP (no Maharashtra); SECR – Bilaspur, SER – Kolkata, ECoR – Bhubaneswar, ECR – Hajipur.", "pyq": "HVJ not in Maharashtra [prelims-2024#57]; Bilaspur → South East Central [prelims-2024#58]"},
+ {"trap": "Puts a wrong rating body or developer into a 'first' claim", "spot": "Statement items on green stations or road technology", "fix": "Check the body: green station ratings in India are by IGBC, not LEED; steel slag road technology is CSIR-CRRI's.", "pyq": "Vijayawada 'LEED Platinum' statements false → None of the above [prelims-2024#109]; NH-66 slag road true, IGBC as developer false → I only [prelims-2024#98]"},
+ {"trap": "Gives a crop of the other season", "spot": "'rabi only' / 'kharif only' among oilseeds", "fix": "Mustard and linseed are rabi; groundnut kharif; sesame and sunflower are grown in both seasons in different regions.", "pyq": "Rabi only → Mustard [prelims-2024#53]"}
+],
+"techniques": [
+ {"name": "One sure pair in AP matching [anchor pair]", "how": "Start with the pair you know from AP identity (Nellore mica, Bapatla Suryalanka), then cut codes.", "example": "Suryalanka–Bapatla (a-IV) leaves only 'a-IV, b-III, c-II, d-I' [prelims-2024#60]"},
+ {"name": "Rock-system → resource link", "how": "Map each rock system to what it carries; the stem's resource then names the system.", "example": "Coal → Gondwana (Dharwar = metals, Vindhyan = limestone/diamonds, Tertiary = NE coal/oil) [mains-2017-paper1#64]"},
+ {"name": "Ore → metal pairing", "how": "Recall the main ore of each metal; options that are ores of other metals fall.", "example": "Aluminium → bauxite (pyrite = Fe/S, ilmenite = Ti) [group2-2008-paper1#120]"},
+ {"name": "Ordered ranking check", "how": "For descending-order questions, fix the top State and the clear second; only one option keeps both.", "example": "Coffee: Karnataka first, Kerala second → 'Karnataka > Kerala > Tamil Nadu' [mains-2017-paper1#82]"},
+ {"name": "Number-means-what check for schemes", "how": "Ask what the number in a mission name measures (km, trains, rupees); pick the option with the right unit.", "example": "Mission 41K → Rs 41,000 crore energy saving [mains-2017-paper1#11]"},
+ {"name": "Industrial firsts timeline", "how": "Hold the dated firsts: cotton mill Bombay 1854, jute Rishra 1855, cement Madras 1904, TISCO 1907.", "example": "First cement plant 1904 → Chennai (Madras) [prelims-2024#56]"}
+],
+"confusions": [
+ {"a": "Jaduguda", "b": "Tummalapalle", "remember": "First uranium mine (Jharkhand) vs large AP deposit (Kadapa)."},
+ {"a": "NRRI Cuttack", "b": "IRRI Philippines", "remember": "Indian national rice institute vs international (Los Baños)."},
+ {"a": "Yellow revolution", "b": "Golden revolution", "remember": "Yellow = oilseeds; Golden = fruits/horticulture/honey."},
+ {"a": "Grey revolution", "b": "Brown revolution", "remember": "Grey = fertilisers; Brown = leather/cocoa."},
+ {"a": "Inland fisheries", "b": "Marine fisheries", "remember": "Fresh/brackish water raising and capture vs sea fishing."},
+ {"a": "NW-1", "b": "NW-4", "remember": "Ganga Prayagraj–Haldia vs Kakinada–Puducherry (incl. Buckingham Canal)."},
+ {"a": "Buckingham Canal", "b": "K.C. Canal", "remember": "Coastal navigation canal (commercial) vs Kurnool–Cuddapah irrigation canal."},
+ {"a": "SECR Bilaspur", "b": "ECoR Bhubaneswar", "remember": "South East Central vs East Coast zone."},
+ {"a": "IGBC", "b": "LEED", "remember": "Indian green rating council vs US rating system."},
+ {"a": "Bombay–Thane 1853", "b": "Howrah–Hooghly 1854", "remember": "First passenger train vs first in eastern India."},
+ {"a": "Hirakud", "b": "Damodar Valley", "remember": "Mahanadi, Odisha vs Damodar, WB–Jharkhand."},
+ {"a": "Mihir Shah Committee", "b": "MMDR Act", "remember": "2016 water reform vs 1957 mining law."}
+],
+"anchors": [
+ "Gondwana rocks hold most of India's coal.",
+ "Bauxite = aluminium ore; mica = aluminium silicate, chief AP area Nellore.",
+ "Jaduguda – first uranium; Tuggali mandal (Kurnool) – first large private gold mine (Jonnagiri).",
+ "MMDR Act – 1957.",
+ "Cauvery – most exploited river by water abstraction.",
+ "Agricultural Census 2010-11 – average holding 1.15 ha; SC 0.80; ST 1.52.",
+ "Polavaram first envisaged as Ramapada Sagar by Sonti Venkata Ramamurthy.",
+ "First train – Bombay to Thane, 16 April 1853.",
+ "NS–EW corridor junction – Jhansi.",
+ "Quilon (Kollam) is not a major port; west-coast majors include Kandla, Mumbai, JNPT, Mormugao, New Mangalore, Kochi.",
+ "AIR – began as the Indian (State) Broadcasting Service (1927/1930), renamed All India Radio in 1936.",
+ "IRMA Anand – Verghese Kurien.",
+ "India – 2nd in world aquaculture."
+],
+"checklist": [
+ "Is it 'first', 'largest' or 'most important'? These pick different sites.",
+ "For AP minerals and beaches, start from the district you know best and eliminate codes.",
+ "Check season, region and State order for crop questions.",
+ "In transport, verify the body/zone/end point named, not just the general fact.",
+ "For statement items on recent 'firsts', test the body named (rating agency, developer).",
+ "Time-sensitive rankings (coal, mica, exports): answer as per data of the exam year."
+]}

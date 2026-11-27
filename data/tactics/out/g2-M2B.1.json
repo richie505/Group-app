@@ -1,0 +1,82 @@
+{
+ "section": "M2B.1",
+ "overview": "112 official Qs (2008, 2012, 2017, 2019, 2025). The 'STI Policy' leaf (61 Qs) is in practice general science: units, chemical names, alloys, body facts, CSIR lab locations. Then ICT terms and acronyms (14), e-governance (7, mostly AP platforms), emerging tech (7), space (9), and thin nuclear, defence and cyber. Almost all one-liners; 2019 Mains often gives stem + key only; 2019/2025 add matching and one A-R.",
+ "possibility": [
+  {"angle": "General science in the 'STI Policy' leaf: units, chemical names, alloys, principles, biology basics, CSIR/DBT labs", "evidence": "61 Qs: 2008, 2012, 2017, 2019, 2025", "level": "High historical recurrence", "what_they_ask": "Chemical/common name (baking soda, water glass), alloy make-up, SI unit, working principle (centrifugation, RO, TIR), first discoverer, lab city, DBT vs CSIR institute"},
+  {"angle": "National strategies and missions (Startup India etc.)", "evidence": "1 Q: 2019", "level": "Low historical recurrence", "what_they_ask": "Purpose of a named initiative (Startup India Yatra = tier-2/3 talent search)"},
+  {"angle": "Emerging technology frontiers (nano, AI/IoT/AR, metamaterials, LIGO-India, genomics)", "evidence": "7 Qs: 2017, 2019, 2025", "level": "Moderate historical recurrence", "what_they_ask": "Size range, coiner/pioneer of a term, institution behind an innovation, consortium acronym, facility city"},
+  {"angle": "Launch vehicles", "evidence": "1 Q: 2025", "level": "Low historical recurrence", "what_they_ask": "Stage composition of PSLV/GSLV/LVM3/SSLV"},
+  {"angle": "Satellite launches and applications", "evidence": "5 Qs: 2008, 2019", "level": "Low historical recurrence", "what_they_ask": "Launch site/vehicle of a satellite, satellite power source, Bhuvan geo-tagging, which is not a student satellite"},
+  {"angle": "Space science centres and missions", "evidence": "3 Qs: 2017, 2019 (one deleted), 2025", "level": "Moderate historical recurrence", "what_they_ask": "Location of NARL, Radio Astronomy Centre; moon 'firsts'"},
+  {"angle": "DRDO structure, technologies, IGMDP", "evidence": "2 Qs: 2008, 2025 (both BrahMos partner); structure and IGMDP not yet asked", "level": "Low historical recurrence", "what_they_ask": "Partner country of a joint missile; natural targets: IGMDP (1983) missile list, DRDO founding (1958), missile types and ranges"},
+  {"angle": "ICT and national IT policy: terms, acronyms, inventors, media vocabulary", "evidence": "14 Qs: 2008, 2012, 2019", "level": "Moderate historical recurrence", "what_they_ask": "Full form (MPEG, DIMM, LED), bit/byte, WWW inventor, optical fibre principle, media terms (podcast, infomercial, semiotics)"},
+  {"angle": "Digital India", "evidence": "3 Qs: 2017", "level": "Low historical recurrence", "what_they_ask": "What Bharat QR / BHIM is built on, India's first digital village"},
+  {"angle": "E-governance programmes (mostly AP)", "evidence": "7 Qs: 2008, 2017, 2019", "level": "Moderate historical recurrence", "what_they_ask": "Name of the network/platform for a function (APSWAN, Jnanabhumi, Prajavani, Rajiv Internet Village), UIDAI ministry, user of D-Krishi"},
+  {"angle": "Cyber security and National Cyber Security Policy", "evidence": "3 Qs: 2019, 2025 (ransomware, digital arrest); NCSP not yet asked", "level": "Low historical recurrence", "what_they_ask": "Type of malware named, meaning of a scam term; natural targets for NCSP 2013: year, nodal agency CERT-In"},
+  {"angle": "Nuclear reactors, power plants, programme, radioisotopes", "evidence": "5 Qs: 2008, 2017, 2019, 2025", "level": "Low historical recurrence", "what_they_ask": "Installed capacity on a date, fission vs fusion, largest research reactor, AHWR fuel, why 11 May is Technology Day, radioactivity seat (nucleus)"}
+ ],
+ "traps": [
+  {"trap": "Same quantity on another scale [K vs C vs F]", "spot": "Options carry the right event's value in other units or the neighbouring event (freezing)", "fix": "Water boils 100 C = 373 K = 212 F; freezes 0 C = 273 K", "pyq": "'273' → 373 K (273 is freezing) [group2-2008-paper1#16]"},
+  {"trap": "Look-alike material from the same family", "spot": "All options are oxides, silicates, polymers or copper alloys", "fix": "Tape = iron oxide; water glass = sodium silicate; non-stick = PTFE; brass = Cu+Zn (bronze Cu+Sn)", "pyq": "'Silver iodide' for tape → ferric oxide (AgI = cloud seeding) [group2-2012-paper1#139]; brass → Copper and Zinc [group2-2012-paper1#93]"},
+  {"trap": "Related object offered instead of the one asked", "spot": "Option is the vehicle/organ/container linked to the answer", "fix": "Ask what exactly the stem names: satellite vs shuttle, carrier vessel vs pump", "pyq": "'Challenger' → Solar Max (Challenger was the shuttle) [group2-2008-paper1#1]; 'right ventricle' → pulmonary arteries [group2-2008-paper1#33]"},
+  {"trap": "Opposite of the correct process", "spot": "Pair like osmosis/reverse osmosis, fission/fusion, low/high melting point", "fix": "Desalination = reverse osmosis; splitting = fission; fuse = low melting point", "pyq": "'breaking apart ... called fusion' is the wrong statement → fission [mains-2019-paper1#90]; 'Osmosis' → Reverse osmosis [group2-2012-paper1#140]"},
+  {"trap": "Acronym letter swapped for a plausible word", "spot": "Four options differ by one expanded word", "fix": "MPEG E = Experts (like JPEG); DIMM D = Dual; LED D = Diode", "pyq": "'Moving Picture Electronic Group' → Experts [prelims-2019#13]; 'Digital In-line' → Dual [prelims-2019#17]"},
+  {"trap": "Look-alike Indian labs and their parent body", "spot": "Biology-sounding name offered as DBT institute; lab city swapped", "fix": "CCMB is CSIR despite 'biology'; CDRI Lucknow; CLRI Chennai", "pyq": "'Centre for Cellular and Molecular Biology' → CSIR, DBT answer is CIAB [mains-2025-paper2#128]; CDRI → Lucknow [group2-2008-paper1#18]"},
+  {"trap": "Partner country / launch site swapped", "spot": "Defence JV or foreign-launched satellite", "fix": "BrahMos = India-Russia (Brahmaputra + Moskva); INSAT-4B = Ariane-5 from Kourou, French Guiana", "pyq": "BrahMos → Russia [mains-2025-paper2#118]; INSAT-4B 'Sriharikota' → French Guiana [group2-2008-paper1#63]"},
+  {"trap": "Vehicle configuration of the sister rocket", "spot": "Stage list matches PSLV when GSLV is asked", "fix": "PSLV = solid-liquid-solid-liquid; GSLV = solid core + liquid (Vikas) + cryogenic", "pyq": "'First and third stage solid...' is PSLV → GSLV is solid, earth-storable liquid, cryogenic [mains-2025-paper2#117]"},
+  {"trap": "Near-identical platform names in AP e-governance", "spot": "Praja-/AP-S... options differing by a syllable", "fix": "APSWAN links Secretariat-district-mandal; Prajavani = grievances; Jnanabhumi = scholarships", "pyq": "'APSLAN' → APSWAN [mains-2017-paper3#121]; 'Prajadhwani' → Prajavani [prelims-2019#22]"},
+  {"trap": "Same-sounding 'first village' titles", "spot": "'First digital' vs 'first cashless' village", "fix": "Akodara (Gujarat) = first digital village; Dhasai (Thane) = first cashless", "pyq": "'Dhasai' → Akodara [prelims-2017#8]"}
+ ],
+ "techniques": [
+  {"name": "Family-member elimination [name the family first]", "how": "Identify the family all options share (oxides, alloys, silicates, units). Recall what each other member is famous for; the leftover fits.", "example": "Inductance: farad = capacitance, ohm = resistance, candela = luminous intensity → henry [prelims-2019#11]"},
+  {"name": "Name-clue decoding", "how": "Many answers sit inside the name: BrahMos (Brahmaputra-Moskva), aqua regia ('royal water' dissolves the royal metal), IndIGO (Indian Initiative in Gravitational-wave Observations).", "example": "'royal water' that reduced gold's weight → aqua regia; aqua fortis alone cannot dissolve gold [mains-2017-paper1#38]"},
+  {"name": "Mechanism reasoning", "how": "Derive the answer from the physical/chemical mechanism rather than memory; reject options that describe a side effect.", "example": "Bird on a single wire: both feet at same potential, no current → 'no potential difference between its legs' [mains-2017-paper1#33]"},
+  {"name": "Anchor-pair matching", "how": "In matching, fix the least-confusable pair first and strike all codes without it.", "example": "Braun = cathode ray tube (d-II) and Galileo = telescope (a-III) leave only a-III, b-IV, c-I, d-II [prelims-2019#18]"},
+  {"name": "Stem-noun check", "how": "Underline the exact noun asked (satellite, organ, nutrient) and drop options that are a related but different category.", "example": "'most important for growth' asks a nutrient: 'Milk' is a food, fats/vitamins give energy/protection → proteins [group2-2008-paper1#28]"},
+  {"name": "Date-to-event anchor", "how": "For 'why this day' or 'first' questions, recall the anchor date and its event; other events happened on other dates.", "example": "11 May = Pokhran-II 1998 → nuclear tests; PSLV/PARAM/first reactor are other dates [prelims-2017#135]"}
+ ],
+ "confusions": [
+  {"a": "Baking soda (NaHCO3)", "b": "Washing soda (Na2CO3.10H2O)", "remember": "Baking = bicarbonate; washing = carbonate decahydrate"},
+  {"a": "Brass", "b": "Bronze", "remember": "Brass Cu+Zn; bronze Cu+Sn"},
+  {"a": "Rayon", "b": "Nylon", "remember": "Rayon = artificial silk from cellulose; nylon = first fully synthetic fibre"},
+  {"a": "Xylem", "b": "Phloem", "remember": "Xylem water up; phloem food"},
+  {"a": "Pulmonary artery", "b": "Pulmonary vein", "remember": "Artery takes venous blood to lungs; vein brings oxygenated blood back"},
+  {"a": "Teratogen", "b": "Mutagen", "remember": "Teratogen = birth defect; mutagen = DNA change"},
+  {"a": "Fission", "b": "Fusion", "remember": "Fission splits heavy nuclei (reactors); fusion joins light nuclei (Sun)"},
+  {"a": "Fuse wire", "b": "Filament / heater", "remember": "Fuse = low melting point; filament = tungsten, high m.p.; heater = nichrome"},
+  {"a": "PSLV", "b": "GSLV", "remember": "PSLV S-L-S-L four stages; GSLV S-L-Cryo three stages"},
+  {"a": "CCMB (CSIR)", "b": "CDFD (DBT)", "remember": "Both Hyderabad; CCMB is CSIR, CDFD is DBT"},
+  {"a": "NARL Gadanki", "b": "Radio Astronomy Centre Ooty", "remember": "NARL near Tirupati (DOS); RAC Ooty (TIFR); GMRT near Pune"},
+  {"a": "Akodara", "b": "Dhasai", "remember": "Akodara first digital village; Dhasai first cashless"},
+  {"a": "eSeva", "b": "Rajiv Internet Village", "remember": "eSeva urban (2001); RIV took services to rural areas"},
+  {"a": "Dhruva", "b": "Apsara", "remember": "Dhruva = largest research reactor; Apsara = India's first (1956)"},
+  {"a": "Luna 2", "b": "Luna 9", "remember": "Luna 2 first to impact Moon (1959); Luna 9 first soft landing (1966)"}
+ ],
+ "anchors": [
+  "1 byte = 8 bits; nibble = 4 bits",
+  "Water: 0 C = 273 K; 100 C = 373 K = 212 F",
+  "Blood pH ≈ 7.4; tooth decay below pH 5.5",
+  "22-carat gold = 22/24 gold (≈91.6%)",
+  "Wöhler 1828: urea, first synthetic organic compound",
+  "Herschel 1800: infra-red; Becquerel 1896: radioactivity (a nuclear property)",
+  "Vitamin B12 = cobalt; chlorophyll = magnesium; haemoglobin = iron",
+  "Tim Berners-Lee, CERN 1989: World Wide Web",
+  "Nanoparticles: 1–100 nm",
+  "India nuclear capacity 2017: 6,780 MW (time-stamped)",
+  "11 May (National Technology Day) = Pokhran-II 1998",
+  "BHIM (Dec 2016) runs on UPI; Bharat QR (2017) = interoperable payment QR",
+  "UIDAI: statutory under Aadhaar Act 2016, under MeitY",
+  "BrahMos: India (DRDO) – Russia JV",
+  "WannaCry and Petya = ransomware",
+  "IGMDP 1983: Prithvi, Agni, Trishul, Akash, Nag"
+ ],
+ "checklist": [
+  "What family do all four options belong to? Recall each member's own claim to fame",
+  "Is the stem asking the object, its carrier, or its process?",
+  "Check units and scale (K/C/F, bits/bytes) before picking a number",
+  "Decode names and acronyms letter by letter",
+  "Is the process reversed (osmosis/RO, fission/fusion, artery/vein)?",
+  "Lab or platform question: confirm both city and parent body (CSIR/DBT/DOS, state/national)",
+  "Time-stamped figures (capacity, counts): answer for the year in the stem"
+ ]
+}

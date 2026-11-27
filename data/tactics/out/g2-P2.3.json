@@ -1,0 +1,65 @@
+{"section": "g2-P2.3",
+"overview": "Human Geography of India and AP: 43 official questions (2008–2024), almost all one-liners with Census figures. Demographics (20) and human-development indices (11) dominate, then urbanisation (8); tribal, racial and religious groups are thin and migration/linguistic groups not yet asked. AP Census numbers (literacy, SC/ST %, district extremes) are a recurring angle.",
+"possibility": [
+ {"angle": "Human development – HDI components, related indices (MPI, IHDI, GDI/GEM, HCI), AP vs India HDI", "evidence": "11 Qs: 2008×3, 2017×2, 2019×6", "level": "Moderate historical recurrence", "what_they_ask": "What is / is not a component of HDI, which index replaced which, income measure (PPP), poorest State in MPI, % change in India's HDI (time-sensitive)."},
+ {"angle": "Demographics – Census growth phases, sex ratio, literacy, workers, demographic dividend, AP figures", "evidence": "20 Qs: 2008×5, 2012×2, 2017×7, 2019×6", "level": "Moderate historical recurrence", "what_they_ask": "Year of great divide, explosion period, State with lowest sex ratio, AP literacy/SC%/child sex ratio, main-worker days, dividend age group."},
+ {"angle": "Urbanisation – causes, AP urban share, State rankings, functional classes of towns", "evidence": "8 Qs: 2008×4, 2017, 2019×2, 2024", "level": "Moderate historical recurrence", "what_they_ask": "Least urbanised southern State, rural:urban ratio of AP, highest urban growth, town–function matching, first UDA."},
+ {"angle": "Migration", "evidence": "0 official Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "Natural targets from Census style: main reason for female migration (marriage) vs male (work), dominant stream (rural–rural), push vs pull factors, largest out-migrating States."},
+ {"angle": "Racial groups", "evidence": "1 Q: 2008", "level": "Low historical recurrence", "what_they_ask": "Names of racial/mixed groups (Amerind, Mestizo, Mulatto)."},
+ {"angle": "Tribal groups – tribe–State matching, AP ST districts", "evidence": "2 Qs: 2017, 2024", "level": "Low historical recurrence", "what_they_ask": "Tribe → State/UT, AP district with highest ST population."},
+ {"angle": "Religious groups", "evidence": "1 Q: 2019", "level": "Low historical recurrence", "what_they_ask": "State with the highest share of a religion (proportion vs absolute)."},
+ {"angle": "Linguistic groups", "evidence": "0 official Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "Natural targets: language families (Indo-Aryan largest, Dravidian second), Eighth Schedule count (22), Telugu as second/fourth most spoken by Census, classical-language status."}
+],
+"traps": [
+ {"trap": "Inserts an indicator from another index as an HDI component [index mix]", "spot": "'not a component of HDI' with IMR, assets or inequality", "fix": "HDI = life expectancy + education (mean and expected years of schooling) + income (GNI/GDP per capita PPP). IMR → PQLI; assets → MPI; inequality loss → IHDI.", "pyq": "Not in HDI → Infant mortality rate [group2-2008-paper3#21]; → Ownership of basic assets [prelims-2017#145]; → loss due to inequality [mains-2017-paper3#30]"},
+ {"trap": "Offers market exchange rate instead of PPP", "spot": "HDI income measure options", "fix": "HDI always uses purchasing power parity dollars.", "pyq": "→ GDP per capita US$ in PPP [group2-2008-paper3#133]"},
+ {"trap": "Shifts the Census growth phase by one block", "spot": "Period or year options 1911/1921/1931, 1921-51/1951-81", "fix": "1901-21 stagnant; 1921 year of great divide; 1921-51 steady growth; 1951-81 explosion; after 1981 high but slowing.", "pyq": "Great divide → 1921 [mains-2017-paper3#72]; explosion → 1951-81 [prelims-2019#115]"},
+ {"trap": "Gives a neighbouring north-Indian State for the lowest sex ratio", "spot": "Punjab, Haryana, UP, Bihar together", "fix": "Census 2011 lowest State sex ratio = Haryana (879); highest = Kerala (1084).", "pyq": "Least female-male ratio → Haryana [mains-2017-paper3#39]; also [group2-2008-paper3#59]"},
+ {"trap": "Defines demographic dividend by a wrong driver", "spot": "Options on skills, women's work or child population", "fix": "It is growth from a rising working-age share (15-59 in Indian usage).", "pyq": "→ rise in share of working people [mains-2017-paper3#40]; age group 15-59 [prelims-2019#117]"},
+ {"trap": "Swaps town examples between functional classes", "spot": "Mining/industrial/administrative/garrison matching", "fix": "NCERT: Ankleshwar = mining (oil); Jamshedpur = industrial; Gandhinagar = administrative; Udhampur = garrison.", "pyq": "a-II, b-I, c-IV, d-III [prelims-2024#52]"},
+ {"trap": "Moves a tribe to a neighbouring hill State", "spot": "Tribe–State matching with Himalayan States", "fix": "Gaddi – Himachal; Bhutia – Sikkim; Jarawa – Andaman; Santhal – Jharkhand.", "pyq": "a-IV, b-III, c-II, d-I [prelims-2024#50]"},
+ {"trap": "Confuses absolute size with proportion", "spot": "'highest proportion' of a group with a populous State as option", "fix": "Proportion: Himachal has the highest Hindu share; UP has the largest number.", "pyq": "Highest Hindu proportion → Himachal Pradesh [prelims-2019#116]"}
+],
+"techniques": [
+ {"name": "Three-dimension test for HDI [component check]", "how": "Ask if the option is health, education or income; anything else is not HDI.", "example": "Assets fit none of the three → not counted [prelims-2017#145]"},
+ {"name": "Census ladder for numbers", "how": "Keep the decade sequence; the answer is usually the latest value, the others are earlier decades.", "example": "Annual growth 2.22 → 2.16 → 1.97 → 1.64; 2011 → 1.64% [mains-2017-paper3#38]"},
+ {"name": "Index succession", "how": "Remember HDR 2010 replacements: MPI replaced HPI; GII replaced GDI/GEM.", "example": "MPI replaced → Human Poverty Index [mains-2019-paper3#29]"},
+ {"name": "AP below-India check", "how": "For AP vs India demographic comparisons, AP is lower in growth and was below India on HDI in NHDR 2001.", "example": "AP 1991-2001 growth → less than India [group2-2008-paper3#83]; AP HDI 2001 → less than India [group2-2008-paper3#101]"},
+ {"name": "AP district extremes card", "how": "Memorise AP 2011 extremes: lowest literacy Vizianagaram, highest ST Visakhapatnam, most rural population East Godavari.", "example": "Least literate district → Vizianagaram [mains-2017-paper3#118]"},
+ {"name": "Anchor-pair matching", "how": "Lock one obvious pair, then eliminate codes.", "example": "Jarawa–Andaman (b-III) leaves only 'a-IV, b-III, c-II, d-I' [prelims-2024#50]"}
+],
+"confusions": [
+ {"a": "HDI", "b": "IHDI", "remember": "IHDI discounts HDI for inequality."},
+ {"a": "HDI", "b": "Human Capital Index", "remember": "UNDP health-education-income vs World Bank survival-school-health."},
+ {"a": "MPI", "b": "HPI", "remember": "MPI (2010) replaced HPI; MPI counts deprivations incl. assets."},
+ {"a": "GDI / GEM", "b": "GII", "remember": "1995 gender indices replaced by GII in 2010."},
+ {"a": "PQLI", "b": "HDI", "remember": "PQLI (Morris) uses IMR, literacy, life expectancy at age one; HDI uses income."},
+ {"a": "Main worker", "b": "Marginal worker", "remember": "183 days or more vs less than 183 days."},
+ {"a": "1921", "b": "1951-81", "remember": "Year of great divide vs population explosion."},
+ {"a": "Level of urbanisation", "b": "Urban growth rate", "remember": "Goa most urbanised; growth rankings differ – read which one is asked."},
+ {"a": "Ankleshwar", "b": "Jamshedpur", "remember": "Mining (oil) town vs industrial town in NCERT classes."},
+ {"a": "Gaddi", "b": "Bhutia", "remember": "Himachal shepherds vs Sikkim."},
+ {"a": "Mestizo", "b": "Mulatto", "remember": "European + Amerind vs European + African."},
+ {"a": "SC % of AP", "b": "ST % of AP", "remember": "17.08% vs 5.53% (13 districts, 2011)."}
+],
+"anchors": [
+ "Census 2011 India sex ratio 943; Kerala 1084 highest; Haryana 879 lowest State.",
+ "1921 – year of the great divide; 1951-81 – population explosion.",
+ "India annual growth rate 2001-11 – 1.64%.",
+ "Main worker – 183 days or more.",
+ "HDI = health + education + income (PPP).",
+ "HDR 2010 – MPI replaced HPI; GII replaced GDI/GEM; IHDI introduced.",
+ "Global MPI 2018 – 271 million moved out of poverty (2005-06 to 2015-16); Bihar poorest.",
+ "AP 2001 – population ~7.6 crore, female literacy ~50%, urban share ~27%.",
+ "Residual AP 2011 – SC 17.08%, ST 5.53%; lowest literacy Vizianagaram; highest ST Visakhapatnam.",
+ "AP least urbanised southern State in 2011.",
+ "Demographic dividend – working-age share (15-59) rising; India median age ~29 (2020)."
+],
+"checklist": [
+ "HDI item? Ask: health, education or income – otherwise it belongs to another index.",
+ "Proportion or absolute number? Level or growth rate?",
+ "Which Census year and which AP (undivided or 13-district)?",
+ "Place decade figures on the Census ladder before choosing.",
+ "For tribes and towns, lock one sure pair first.",
+ "Time-sensitive index ranks: answer per the report named in the stem."
+]}

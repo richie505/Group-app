@@ -1,0 +1,64 @@
+{
+ "section": "M2B.2",
+ "overview": "19 official Qs (2008, 2012, 2017, 2019, 2024, 2025); 2025 Mains alone has 9. Renewable sources and capacities lead (8 Qs). Formats: one-liners on ranks, firsts and locations; 2024-25 add multiple-correct (GBA supporters, MNRE mission), matching (AP solar park capacities), A-R (biofuel policy) and NOT-questions (ISA projects).",
+ "possibility": [
+  {"angle": "Installed capacities and power-sector issues (India and AP)", "evidence": "4 Qs: 2008, 2017×3 (leaf M2B.2.1 and 2.1/1)", "level": "Low historical recurrence", "what_they_ask": "Dominant power source (thermal), AP generation ratio GENCO:private:central, which item is NOT a power-sector problem"},
+  {"angle": "Energy demand and oil dependence", "evidence": "1 Q: 2025", "level": "Low historical recurrence", "what_they_ask": "Challenges in oil consumption (import dependence, price volatility)"},
+  {"angle": "National Energy Policy and DISCOM reform (UDAY)", "evidence": "1 Q: 2017", "level": "Low historical recurrence", "what_they_ask": "Coverage figure of UDAY; in other APPSC exams: aim of NEP, UDAY features"},
+  {"angle": "National Policy on Biofuels and Global Biofuel Alliance", "evidence": "2 Qs: 2024, 2025", "level": "Low historical recurrence", "what_they_ask": "NBCC role on surplus grain ethanol (A-R), non-G20 supporters of GBA"},
+  {"angle": "Bharat Stage norms", "evidence": "Not yet asked in Group 2", "level": "Syllabus angle not yet asked", "what_they_ask": "Natural targets: BS-VI nationwide from 1 April 2020, BS-V skipped, what BS norms limit (vehicle exhaust pollutants), sulphur content"},
+  {"angle": "Non-renewable sources (oil, gas, coal)", "evidence": "1 Q: 2008; frequent in other APPSC exams (KG basin, coal grades)", "level": "Low historical recurrence", "what_they_ask": "Layering in an oil trap, gas constituents; natural targets: anthracite highest grade, KG basin gas, LPG/CNG composition"},
+  {"angle": "Renewable sources and capacities", "evidence": "8 Qs: 2008, 2012, 2017×2, 2019, 2025×3", "level": "High historical recurrence", "what_they_ask": "Device energy conversion, biogas gas, geothermal site, leading RE source/state (time-stamped), India's world rank in wind, AP solar park capacities, first 100% RE city"},
+  {"angle": "New RE initiatives: MNRE, ISA, NCEF", "evidence": "3 Qs: 2025", "level": "Low historical recurrence", "what_they_ask": "MNRE mission elements, project not under ISA (KUSUM), goal of NCEF"}
+ ],
+ "traps": [
+  {"trap": "Leader that was true earlier [time-stamp swap]", "spot": "Rank/leader question on RE state or source; an older leader is offered", "fix": "Gujarat leads wind capacity since 2023-24 (earlier Tamil Nadu); India 4th in world wind", "pyq": "'Tamil Nadu' → Gujarat [mains-2025-paper2#135]; 'Second' → Fourth [mains-2025-paper2#116]"},
+  {"trap": "Energy conversion direction reversed", "spot": "Options list X→Y and Y→X", "fix": "Photocell: light → electricity; LED/lamp: electricity → light", "pyq": "'electrical energy into light energy' → light into electrical [group2-2008-paper1#2]"},
+  {"trap": "Sister fuel's gas offered", "spot": "Hydrocarbon names in options", "fix": "Biogas, CNG, marsh gas = methane; LPG = butane + propane", "pyq": "'Butane' → Methane (butane is LPG) [group2-2012-paper1#34]"},
+  {"trap": "Domestic scheme slipped into an international alliance list", "spot": "NOT-question listing ISA/MNRE initiatives", "fix": "ISA: OSOWOG, ISTAR-C, ITEC-linked training; PM-KUSUM is India's own solar-pump scheme", "pyq": "'KUSUM' not ISA [mains-2025-paper2#134]"},
+  {"trap": "Fund's purpose inverted or swapped with another fund", "spot": "Options include the thing the fund taxes or another green fund's job", "fix": "NCEF: coal cess financing clean energy; forest work = CAMPA", "pyq": "'Promote coal-based power' / 'forest conservation' → renewable energy, cut emissions [mains-2025-paper2#76]"},
+  {"trap": "Order flipped in a sequence", "spot": "'Ascending' order of layers", "fix": "Density decides: water bottom, oil middle, gas top", "pyq": "'gas, oil, water' is descending → water, oil, gas [group2-2008-paper1#21]"},
+  {"trap": "Both statements true but the link is not the reason", "spot": "A-R where R is a real policy line", "fix": "Ask whether R explains the specific rule in A (NBCC approval) or something else", "pyq": "R (farmer price risk) true but does not explain NBCC approval [mains-2025-paper2#132]"},
+  {"trap": "One extra non-member in a list of supporters", "spot": "Multiple-correct list of countries", "fix": "Locate the odd country (Chile not a GBA launch supporter) and drop codes containing it", "pyq": "Chile excluded → I, II, III, IV and VI [prelims-2024#102]"}
+ ],
+ "techniques": [
+  {"name": "Date-stamp the ranking [which year?]", "how": "For any 'largest/most important/leading' RE question, fix the reference year first: wind led India's RE capacity until ~2019-20, solar after; state leaders also changed.", "example": "Largest wind producer asked in 2025 → post-2023 data → Gujarat, not Tamil Nadu [mains-2025-paper2#135]"},
+  {"name": "Odd-element elimination in multiple-correct", "how": "Find one item you are sure is out (or in); strike every code that contradicts it; repeat.", "example": "Chile not a supporter → only option 4 lacks V → I, II, III, IV and VI [prelims-2024#102]"},
+  {"name": "Size ladder for matching", "how": "Rank the list-I items by known size and pair with sorted capacities.", "example": "Ramagiri hybrid is smallest (160), NP Kunta/Ananthapuram-I biggest (1500), Kurnool 1000, Ananthapuram-II 500 → a-II, b-III, c-I, d-IV [mains-2025-paper2#133]"},
+  {"name": "Physics reasoning for devices and layers", "how": "Derive from the principle: conversions named in the device, density for layering.", "example": "Photo-electric = light in, electricity out → option 4 [group2-2008-paper1#2]"},
+  {"name": "Membership test for NOT-questions", "how": "Classify each option as domestic or international, policy or project; the one in the other class is the answer.", "example": "OSOWOG, ISTAR-C, ITEC all ISA-linked; KUSUM domestic → KUSUM [mains-2025-paper2#134]"}
+ ],
+ "confusions": [
+  {"a": "Biogas / CNG", "b": "LPG", "remember": "Methane vs butane + propane"},
+  {"a": "Photocell", "b": "LED", "remember": "Photocell light → electricity; LED electricity → light"},
+  {"a": "ISA initiatives (OSOWOG, ISTAR-C)", "b": "Domestic schemes (PM-KUSUM, PM Surya Ghar)", "remember": "ISA = international alliance, HQ Gurugram; KUSUM = MNRE farm solar"},
+  {"a": "NCEF", "b": "CAMPA", "remember": "NCEF coal cess for clean energy; CAMPA compensatory afforestation"},
+  {"a": "Tamil Nadu (earlier wind leader)", "b": "Gujarat (wind leader since 2023-24)", "remember": "Answer by the year of the question"},
+  {"a": "Puga (Ladakh)", "b": "Manikaran (HP) / Tattapani (Chhattisgarh)", "remember": "Puga = most promising geothermal field per GSI"},
+  {"a": "NP Kunta / Ananthapuram-I (1500 MW)", "b": "Kurnool Ultra Mega (1000 MW)", "remember": "Ananthapuram-I bigger than Kurnool; Ananthapuram-II 500; Ramagiri hybrid 160"},
+  {"a": "Diu", "b": "Kochi airport", "remember": "Diu = first city on 100% RE by day; Kochi = first fully solar airport"},
+  {"a": "Global Biofuel Alliance (2023, G20 Delhi)", "b": "International Solar Alliance (2015, Paris COP21)", "remember": "GBA biofuels; ISA solar"}
+ ],
+ "anchors": [
+  "Thermal (coal) = largest share of India's power generation",
+  "India: 4th largest installed wind capacity in the world (2024-25)",
+  "Gujarat = largest wind capacity state (since 2023-24)",
+  "Diu = first city to run on 100% renewable energy in daytime",
+  "Puga Valley, Ladakh = most promising geothermal field",
+  "Oil trap layering: gas over oil over water",
+  "National Policy on Biofuels 2018: NBCC approves surplus-grain ethanol",
+  "Global Biofuel Alliance launched 9 Sep 2023 at New Delhi G20",
+  "NCEF from Budget 2010-11, financed by coal cess",
+  "UDAY (Nov 2015): states take over 75% of DISCOM debt",
+  "BS-VI norms nationwide from 1 April 2020 (BS-V skipped)",
+  "India's net-zero target year: 2070"
+ ],
+ "checklist": [
+  "Which year does the question refer to? Rankings and leaders change",
+  "Is the direction of energy conversion or order (ascending/descending) the trap?",
+  "Is the option domestic or international, a fund or a scheme?",
+  "In multiple-correct, find one sure outsider and strike codes",
+  "In A-R, does R explain the specific clause of A?",
+  "For capacity matching, rank items by size first"
+ ]
+}

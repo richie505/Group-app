@@ -1,0 +1,76 @@
+{"section": "M2A.3",
+ "overview": "84 official Qs (2008, 2017, 2019, 2025). Agriculture dominates (production 11, PDS 12, finance 9, productivity 7), industry patterns 13; services, NIP 1991, EoDB and IT are small; procurement and disinvestment not yet asked. Mostly one-liners (45 + 26 without printed options), 8 negative, few statement/matching. Facts asked: scheme–agency pairs, policy–year pairs, steel-plant collaborators, AP PDS numbers, dated shares.",
+ "possibility": [
+  {"angle": "Cropping pattern, holdings and farm organisation", "evidence": "5 Qs: 2008, 2017×2, 2019×2 (general 2, cropping 3)", "level": "Low historical recurrence", "what_they_ask": "holding size classes (marginal < 1 ha), cash vs food crop, largest cropping system (rice–wheat), features of joint co-operative farming"},
+  {"angle": "Agricultural production – Green Revolution, phases, crop ranks, NAP 2000", "evidence": "11 Qs: 2008×2, 2017×6, 2019×2, 2025", "level": "Moderate historical recurrence", "what_they_ask": "crop that gained most (wheat), names linked to Green Revolution, foodgrains definition, top Bt-cotton state, India's milk/fruit rank, NAP 4% target, horticulture overtaking foodgrains"},
+  {"angle": "Agricultural productivity – schemes and inputs", "evidence": "7 Qs: 2017×3, 2019×4", "level": "Low historical recurrence", "what_they_ask": "BGREI crop (paddy), highest fertiliser subsidy (urea), launch plan/year of RKVY, NMSA, PMKSY, AP Indira Prabha"},
+  {"angle": "Agricultural finance – NABARD, RRBs, crop insurance, SHG linkage", "evidence": "9 Qs: 2008×2, 2017×2, 2019×4, 2025", "level": "Moderate historical recurrence", "what_they_ask": "what NABARD does directly and what it does not supervise, who prepares PLPs, RRB committee, crop-insurance exclusions, RWBCIS aim, livestock credit-guarantee agency"},
+  {"angle": "Agricultural marketing – Agmark, e-NAM, contract farming, BIS", "evidence": "4 Qs: 2019×4", "level": "Low historical recurrence", "what_they_ask": "Central Agmark lab (Nagpur), who issues AGMARK, e-auction meaning, contract farming terms"},
+  {"angle": "MSP and issue price", "evidence": "6 Qs: 2008, 2017×2, 2019×3 (MSP 4, issue price 2)", "level": "Low historical recurrence", "what_they_ask": "who determines MSP (CACP recommends, CCEA decides), Swaminathan Commission year, MSP figure for a season, central issue price definition, old AP rice price"},
+  {"angle": "Procurement", "evidence": "0 Qs; related APPSC Qs touch FCI/food security", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets: FCI (1965) role, decentralised procurement (1997-98), economic cost vs MSP vs CIP, buffer norms – judged from how MSP/CIP items are asked"},
+  {"angle": "Distribution – PDS/TPDS/NFSA and AP ration system", "evidence": "12 Qs: 2008×4, 2017×7, 2019", "level": "Moderate historical recurrence", "what_they_ask": "TPDS year (1997), NFSA coverage 75/50, AP fair-price-shop counts and density, white-card share and income limit, AP PDS reform features, food-security definition"},
+  {"angle": "Industrial development – policies, steel plants, PSUs, SSI, SEZ, IIP/PMI", "evidence": "13 Qs: 2008×4, 2017×4, 2019×4, 2025", "level": "Moderate historical recurrence", "what_they_ask": "IPR 1956/1977 focus, steel-plant collaborator country, first cotton mill, NMP 2011 targets, IIP periodicity, core-industry weights, SEZ primary aim"},
+  {"angle": "Problems of industry and industrial sickness", "evidence": "5 Qs: 2008×2, 2019×2, 2025 (problems 4, sickness 1)", "level": "Low historical recurrence", "what_they_ask": "definition of a sick unit, Land Acquisition Act 1894 purpose, committee–subject matching, Factories Act 'occupier', venture capital; sickness causes/remedies not yet asked separately (natural targets: SICA 1985, BIFR, IBC 2016)"},
+  {"angle": "New Industrial Policy 1991 and competition law", "evidence": "4 Qs: 2019×3, 2025", "level": "Low historical recurrence", "what_they_ask": "year licence raj ended, MRTP replaced by Competition Act 2002, convertibility clause removed"},
+  {"angle": "Disinvestment", "evidence": "0 Qs in Group 2; asked in other APPSC exams (CPSE stake-sale method, effect on backward states)", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets: Rangarajan Committee 1993, DIPAM (2016), NIF, strategic vs minority sale, New PSE Policy 2021"},
+  {"angle": "Ease of Doing Business", "evidence": "2 Qs: 2019, 2025", "level": "Low historical recurrence", "what_they_ask": "ranks climbed (23, 2017→2018), which reform helped (GST)"},
+  {"angle": "Services sector and IT/ITES", "evidence": "6 Qs: 2008×2, 2017, 2019×3 (services 5, IT 1)", "level": "Moderate historical recurrence", "what_they_ask": "services share of GDP vs employment, 2017-18 share 54.4%, insurance penetration definition, gig-economy leader, largest tech employer"}
+ ],
+ "traps": [
+  {"trap": "[Partner] Swaps the foreign collaborator of a steel plant", "spot": "Options list UK, USSR, West Germany, USA", "fix": "Bhilai and Bokaro USSR; Rourkela West Germany; Durgapur UK", "pyq": "Durgapur → U.K. [group2-2008-paper3#29]; Rourkela → Germany [mains-2019-paper3#99]"},
+  {"trap": "[Agency] Gives a decision to the advisory body (or NABARD a direct role)", "spot": "'Determined by CACP' or 'NABARD lends directly'", "fix": "CACP only recommends MSP – CCEA decides; NABARD refinances, does not lend to farmers directly", "pyq": "MSP determined by → 'none of the given answers' (CACP recommends) [mains-2017-paper3#27]; NABARD lends directly to → 'None of the above' [group2-2008-paper3#3]"},
+  {"trap": "[Scope] Extends a body's supervision one level too far", "spot": "NABARD option that adds 'including primary co-operative societies'", "fix": "NABARD inspects RRBs, StCBs, DCCBs; PACS are under the state Registrar", "pyq": "'inspect RRBs and co-operative banks including primary co-operative societies' is not true [mains-2017-paper3#61]"},
+  {"trap": "[GDP vs jobs] Services output share swapped with employment share", "spot": "Two questions on services with 'GDP' vs 'employment'", "fix": "Services > 50% of GDP but about a fourth of employment (2000s)", "pyq": "Services in GDP → 'more than 50%' [group2-2008-paper3#134]; in employment → 'a fourth' [group2-2008-paper3#135]"},
+  {"trap": "[Crop] Green Revolution crop or person swapped", "spot": "Paddy vs wheat; a real politician among scientists", "fix": "Biggest gain in wheat; names: Borlaug, Swaminathan, C. Subramaniam – not Swaran Singh", "pyq": "Maximum increase → Wheat [prelims-2017#105]; not associated → Sardar Swaran Singh [prelims-2017#98]"},
+  {"trap": "[Policy year] Feature placed in the wrong industrial policy", "spot": "Options 1948/1956/1977/1991", "fix": "1956 public sector + licensing + small industry; 1977 small/village industry; 1991 delicensing", "pyq": "IPR 1977 focussed on 'Small scale and village industry' [prelims-2017#111]; licence-permit raj abolished 1991 [prelims-2019#110]"},
+  {"trap": "[Anachronism] Later reform listed as an existing feature", "spot": "AP PDS 'feature' question set in 2017", "fix": "ePoS, GPS vehicles, portability existed by 2017; doorstep delivery came in 2021", "pyq": "Not a feature (2017) → 'Delivery of goods at doorstep' [mains-2017-paper3#135]"},
+  {"trap": "[Coverage] NFSA coverage percentages swapped", "spot": "Options 80/75/65/50", "fix": "NFSA: 75% rural, 50% urban, about two-thirds overall", "pyq": "Rural coverage → 75 per cent [mains-2017-paper3#102]"}
+ ],
+ "techniques": [
+  {"name": "[Recommend vs decide] Who-advises / who-decides split", "how": "For MSP, credit plans, guarantees: name the recommending body and the deciding/implementing body; reject the one that only advises when the stem says 'determines'.", "example": "PLPs prepared by NABARD; district credit plan by lead bank → NABARD [mains-2019-paper2#87]"},
+  {"name": "[Policy ladder] Industrial-policy ladder", "how": "1948 mixed → 1956 three schedules, public sector, licensing → 1977 small/village → 1991 delicensing, MRTP pre-entry gone → 2002 Competition Act.", "example": "IPR 1956 provisions: licensing, public-sector expansion, small industries → all three (I, II, III) [mains-2025-paper2#9]"},
+  {"name": "[Timeline] Food-security timeline", "how": "PDS → RPDS 1992 → TPDS 1997 → AAY 2000 → NFSA 2013; place each option on it.", "example": "Targeted PDS since → 1997; 1991/1995/2001 fall [group2-2008-paper3#23]"},
+  {"name": "[Exclusion] Natural vs man-made risk test", "how": "Crop-insurance covers non-preventable natural risks (drought, flood, pests); damage caused by the farmer's own action is excluded.", "example": "Not a condition → 'damage due to use of pesticides' [mains-2017-paper3#139]"},
+  {"name": "[Match] Committee–subject matching by one fixed pair", "how": "Fix the surest pair first (Rangarajan–disinvestment), then eliminate codes that break it.", "example": "Tax administration–Shome, disinvestment–Rangarajan, SSI–Abid Hussain, sickness–Goswami → 1-D, 2-C, 3-B, 4-A [mains-2019-paper3#93]"},
+  {"name": "[Magnitude] Order-of-magnitude check for AP figures", "how": "Compare option scale with population/households: a state of ~8 crore has crores of cards, tens of thousands of shops.", "example": "White ration cards in AP (2007) → 170 lakh, not 17 lakh [group2-2008-paper3#130]"}
+ ],
+ "confusions": [
+  {"a": "CACP", "b": "CCEA", "remember": "CACP recommends MSP; CCEA approves"},
+  {"a": "MSP", "b": "Central Issue Price", "remember": "MSP paid to farmer; CIP charged to states for PDS"},
+  {"a": "PMFBY", "b": "RWBCIS", "remember": "Yield-based vs weather-index-based (both 2016)"},
+  {"a": "Bhilai / Bokaro", "b": "Rourkela / Durgapur", "remember": "USSR vs West Germany / UK"},
+  {"a": "IPR 1956", "b": "IPR 1977", "remember": "1956 public sector + licensing; 1977 small and village industries"},
+  {"a": "MRTP Act 1969", "b": "Competition Act 2002", "remember": "Size-based vs conduct-based; CCI 2003"},
+  {"a": "Fort Gloster 1818", "b": "Bombay 1854", "remember": "First cotton mill vs first successful mill (Davar)"},
+  {"a": "Services share of GDP", "b": "Services share of jobs", "remember": "> 50% output, ~ a fourth to a third of jobs"},
+  {"a": "Marginal holding", "b": "Small holding", "remember": "< 1 ha vs 1–2 ha"},
+  {"a": "Joint co-operative farming", "b": "Collective farming", "remember": "Joint: voluntary, land rights kept; collective: ownership pooled"},
+  {"a": "AGMARK (DMI)", "b": "ISI mark (BIS)", "remember": "AGMARK by Directorate of Marketing & Inspection, not FAO"},
+  {"a": "Insurance penetration", "b": "Insurance density", "remember": "Premium/GDP vs premium per head"},
+  {"a": "Occupier", "b": "Manager (Factories Act)", "remember": "Ultimate control vs day-to-day running"},
+  {"a": "Gig economy supplier", "b": "Gig economy buyer", "remember": "India leads supply (OLI); US leads demand"}
+ ],
+ "anchors": [
+  "Holdings: < 1 ha marginal, 1–2 small, 2–4 semi-medium, 4–10 medium, ≥ 10 large",
+  "TPDS 1997; AAY 25 Dec 2000; NFSA 2013 – 75% rural, 50% urban",
+  "AP: about 30,000 fair-price shops (2017); one FPS per ~1,376 persons vs GoI norm 2,000",
+  "NAP 2000 agricultural growth target 4%",
+  "Swaminathan Commission (NCF) 2004",
+  "NABARD 1982; SHG–Bank linkage pilot by NABARD 1992; Narasimham 1975 → RRBs",
+  "Central Agmark laboratory: Nagpur",
+  "IPR 1948, 1956, 1977; NIP 1991 ended licence raj; Competition Act 2002",
+  "NMP 2011: manufacturing 25% of GDP and 100 million jobs by 2022",
+  "IIP monthly; refinery products have the largest weight among core industries",
+  "India climbed 23 places in Doing Business (100 in 2018 report)",
+  "Services share of GDP 2017-18 (current prices) 54.4%",
+  "India 1st in milk; 2nd in fruits and vegetables"
+ ],
+ "checklist": [
+  "Scheme or body? Separate who recommends, who decides, who implements.",
+  "Industrial policy? Put the option on the 1948–1956–1977–1991 ladder.",
+  "AP PDS number? Check scale (lakh vs crore) and the year in the stem.",
+  "Share question? Confirm output (GDP/GVA) or employment, and the year.",
+  "'Not a feature' item? Date each feature; the later one is the misfit.",
+  "Crop/collaborator pair? Recall the fixed pair before reading options."
+ ]
+}

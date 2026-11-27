@@ -1,0 +1,70 @@
+{"section": "M1A.2",
+ "overview": "72 official Qs (2008: 3, 2012: 5, 2017: 15, 2019: 37, 2025: 12). Mostly one-liners (34 with options, 27 stem-only), with 2025 adding matching (3), chronology, A-R and statement Qs. Kakatiya/Reddi/Vijayanagara kings and Telugu author→work pairs carry the weight; 2 Qs were deleted and 2 accepted multiple keys.",
+ "possibility": [
+  {"angle": "Major dynasties: Kakatiyas (origin, capitals, kings, titles, inscriptions, fall)", "evidence": "part of 20 Qs on major dynasties (2012×2, 2017×7, 2019×7, 2025×4)", "level": "High historical recurrence", "what_they_ask": "First inscription to name them, overlords, who shifted capital, title → ruler, inscription → ruler (matching), who defeated/captured whom and when"},
+  {"angle": "Major dynasties: Reddis and Vijayanagara (titles, taxes, order, campaigns, administration, foreign accounts)", "evidence": "same 20-Q leaf: Reddi title (2017), Puriti Pannu (2019), Reddi order (2025), Potnuru pillar (2025), Kandachara (2019), Paes/Sewell (2012, 2017)", "level": "High historical recurrence", "what_they_ask": "Which Reddi king had a title/tax, chronological order, where Krishnadevaraya set his pillar, which traveller described what, department → function"},
+  {"angle": "Minor dynasties: Velanati/Nellore Chodas, Chalukya-Chola viceroys, Musunuris, Recherlas, Palnadu", "evidence": "6 Qs: 2017×2, 2019×2, 2025×2", "level": "Moderate historical recurrence", "what_they_ask": "Capital of a dynasty, lake/place named in an inscription, liberation-movement leader, Palnadu battle site, viceroy titles, A-R on Nellore Chodas"},
+  {"angle": "Socio-religious conditions (castes, sects, festivals, sati, law)", "evidence": "10 Qs: 2017×2, 2019×8 (2 deleted in 2019)", "level": "Moderate historical recurrence", "what_they_ask": "Meaning of a social term (Vipravinodins, samayamu), festival of a dynasty, which traveller saw sati, which law book holds a tenet, seat of a deity"},
+  {"angle": "Economic conditions (guilds, ports, salt, tanks, trade texts)", "evidence": "8 Qs: 2019×7, 2025", "level": "Moderate historical recurrence", "what_they_ask": "Guild → occupation, port's other name, product of a place, tank → builder, inscription with tank rules, text with trade data, number of ports"},
+  {"angle": "Growth of Telugu language and literature (poet → work, language, women poets, music)", "evidence": "16 Qs: 2008, 2012, 2017×3, 2019×7, 2025×4", "level": "High historical recurrence", "what_they_ask": "Author of a named work, which work is NOT by a poet, language of a royal composition, title of a poet, matching author–work lists"},
+  {"angle": "Art and architecture (Hampi, Lepakshi, Tadipatri, Kakatiya temples, music, folk arts)", "evidence": "12 Qs: 2008×2, 2012×2, 2017, 2019×6, 2025", "level": "Moderate historical recurrence", "what_they_ask": "Monument → place, popular name of a temple, style features, source text of sculptures, instrument/inscription, rural entertainment form"}
+ ],
+ "traps": [
+  {"trap": "Same-circle author swap in author–work lists", "spot": "Matching codes or 'wrong match' with poets of one court [Tikkana circle, Reddi court, Vijayanagara women poets]", "fix": "Ketana – Andhra Bhasha Bhushanam; Marana – Markandeya Puranam; Tikkana – Nirvachanottara Ramayanam; Manchena – Keyurabahu Charitra", "pyq": "'Ketana – Markandeya Puranam' → Ketana wrote Andhra Bhasha Bhushanam [mains-2025-paper1#14]; 'Gangadevi – Marichi Parinayam' → wrong, Gangadevi wrote Madhura Vijayam [mains-2025-paper1#18]"},
+  {"trap": "Subject of the work offered as its author", "spot": "A name in the title of the work appears among the options", "fix": "Varadambika Parinayam is about Varadamba, written by Tirumalamba", "pyq": "'Who wrote Varadambika Parinayam' → Tirumalamba, not Varadamba [mains-2017-paper2#34]"},
+  {"trap": "Builder vs mover of the capital", "spot": "Options are successive kings of one dynasty and the stem says 'shifted'", "fix": "Rudradeva began Orugallu; Ganapatideva shifted the capital from Anumakonda", "pyq": "'shifted the capital from Anumakonda to Warangal' → Ganapatideva [group2-2012-paper1#102]"},
+  {"trap": "Language of a royal/sastra work given as Telugu", "spot": "Telugu-era author but the question asks 'in which language'", "fix": "Nritta Ratnavali (Jayapa) and Jambavati Kalyanam (Krishnadevaraya) are Sanskrit; Amuktamalyada is Telugu", "pyq": "'Nritta Ratnavali was composed by Jayapa in' → Sanskrit [group2-2012-paper1#103]"},
+  {"trap": "Traveller swap (Paes, Nuniz, Abdur Razzaq, Conti)", "spot": "Foreign visitors listed together with a 'who described' stem", "fix": "Paes = Krishnadevaraya's looks and House of Victory; Nuniz = chronicle; Abdur Razzaq = 300 ports (Devaraya II)", "pyq": "'described the physical features of Krishnadevaraya' → Paes, not Nuniz [group2-2012-paper1#133]"},
+  {"trap": "Conquest site offered instead of the pillar site", "spot": "Options list forts of the same campaign", "fix": "Udayagiri, Kondaveedu were captured; the victory pillar is at Potnuru", "pyq": "'pillar of victory … coastal Andhra' → Potnuru [mains-2025-paper1#24]"},
+  {"trap": "Overlord mixed with a same-name dynasty", "spot": "Badami Chalukyas and Eastern Chalukyas listed beside Rashtrakutas", "fix": "Kakatiyas: Rashtrakuta feudatories first, later Kalyani (not Badami) Chalukyas", "pyq": "'Kakatiyas were subordinates of' → Rashtrakutas [mains-2017-paper2#21]"},
+  {"trap": "Wrong person given the zenith in an A-R", "spot": "Reason claims a dynasty peaked under a king who needed outside help", "fix": "Nellore Chodas peaked under Tikka I; Manumasiddhi II was restored by Ganapatideva", "pyq": "'Nellore Chodas at zenith under Manumasiddhi II' → false [mains-2025-paper1#16]"},
+  {"trap": "Penugonda vs Penukonda", "spot": "Deity seat or capital asked with one of these names", "fix": "Vasavi's seat = Penugonda (West Godavari); Penukonda (Anantapur) = later Vijayanagara capital", "pyq": "'main seat of the goddess Vasavi' → Penugonda [mains-2019-paper2#18]"}
+ ],
+ "techniques": [
+  {"name": "Two-pair lock for matching codes", "how": "Find the two pairs you are surest of [usually the most famous poet or inscription]; keep only codes containing both; check one more pair if two codes remain.", "example": "Tikkana – Nirvachanottara (c-II) and Ketana – Andhra Bhasha Bhushanam (a-III) → only 'a-III, b-I, c-II, d-IV' [mains-2025-paper1#14]; Bayyaram – Mailamba and Motupalli – Ganapatideva → 'a-III, b-IV, c-I, d-II' [mains-2025-paper1#21]"},
+  {"name": "Ends-first chronology", "how": "Fix the first and last ruler of the series, then check only those positions in the options.", "example": "Reddis: Anavota before Anavema, Pedakomati Vema last → 'C, B, A, D' [mains-2025-paper1#19]"},
+  {"name": "Court-circle grouping for 'not written by'", "how": "List the poet's known works; the odd one usually belongs to a court colleague writing in another language.", "example": "Srinatha: Haravilasam, Sivaratri Mahatmyam, Palnati Veera Charitra; Madanavilasabanam is Vamana Bhatta Bana's Sanskrit work → that option [mains-2025-paper1#23]"},
+  {"name": "Period filter for culture options", "how": "Drop art/entertainment forms that took shape centuries later before choosing.", "example": "Harikatha, modern drama, Burrakatha are 19th–20th c. → Bommalata with Yakshagana [prelims-2019#87]"},
+  {"name": "Verb anchoring", "how": "Read the verb: began/built, shifted, introduced, described, translated – then pick the king or author tied to that exact act.", "example": "'translated into Telugu the Ganitasarasangraha' → Pavuluri Mallana; Nannaya and Narayana Bhatta are Mahabharata names [prelims-2019#74]"}
+ ],
+ "confusions": [
+  {"a": "Paes", "b": "Nuniz", "remember": "Paes = what he saw (king, city, House of Victory); Nuniz = history of the dynasty"},
+  {"a": "Rudradeva", "b": "Ganapatideva", "remember": "Rudradeva = independence, Anumakonda inscription; Ganapatideva = shift to Orugallu, Motupalli charter"},
+  {"a": "Rayagajakesari (Rudrama)", "b": "Arigajakesari (Prola I)", "remember": "Rudrama's title from victory over Devagiri Yadavas; Prola I built Kesari Samudram"},
+  {"a": "Gangadevi", "b": "Tirumalamba / Mohanangi", "remember": "Gangadevi = Madhura Vijayam; Tirumalamba = Varadambika Parinayam; Mohanangi = Marichi Parinayam"},
+  {"a": "Molla", "b": "Tallapaka Timmakka", "remember": "Molla = Ramayanam; Timmakka = Subhadra Kalyanam"},
+  {"a": "Ketana", "b": "Marana / Manchena", "remember": "Ketana = Andhra Bhasha Bhushanam, Vijnaneswaramu, title Abhinava Dandi; Marana = Markandeya Puranam; Manchena = Keyurabahu Charitra"},
+  {"a": "Srinatha", "b": "Vinukonda Vallabharaya / Vamana Bhatta Bana", "remember": "Srinatha = Haravilasam, Palnati Veera Charitra; Vallabharaya = Kreedabhiramam; Bana = Madanavilasabanam"},
+  {"a": "Prolaya Nayaka", "b": "Prolaya Vema", "remember": "Prolaya Nayaka = Musunuri liberation leader; Prolaya Vema = first Reddi king, Rachuru Durga Vibhala"},
+  {"a": "Musunuri capital", "b": "Recherla capital", "remember": "Musunuri = Rekapalli (then Warangal); Recherla = Rachakonda/Devarakonda"},
+  {"a": "Racha Vema", "b": "Kumaragiri", "remember": "Racha Vema = Puriti Pannu tax, last Kondavidu king; Kumaragiri = Vasantotsavam patron"},
+  {"a": "Vitthala temple", "b": "Hazara Rama temple", "remember": "Vitthala = stone chariot; Hazara Rama = Ramachandra temple, royal chapel"},
+  {"a": "Lepakshi", "b": "Tadipatri", "remember": "Lepakshi = huge Nandi + murals; Tadipatri = gopuras that excel Hampi's Vitthala"},
+  {"a": "Chitrameli", "b": "Nakaramu / Samayamu", "remember": "Chitrameli = agriculturists' guild; Nakaramu = merchants; Samayamu = Kakatiya caste association"},
+  {"a": "Annamacharya", "b": "Tyagaraja (APPSC key)", "remember": "Annamacharya = sankirtanas/padas; APPSC keyed Tyagaraja as pioneer of the kriti"}
+ ],
+ "anchors": [
+  "Magallu inscription = first mention of Kakatiyas; Kazipet = Beta I; Bayyaram = Mailamba",
+  "Anumakonda inscription = Rudradeva; Motupalli abhaya charter = Ganapatideva; Motupalli = Desiyakkonda Pattanam",
+  "1263 Muttukur: Pandyas defeated Ganapatideva; 1323: Prataparudra captured by Ulugh Khan",
+  "Raichur Doab = between Krishna and Tungabhadra",
+  "Reddi order: Prolaya Vema → Anavota → Anavema → Kumaragiri → Pedakomati Vema (Sangeeta Chintamani)",
+  "Palnadu war c. 1182 at Karempudi",
+  "Jayapa (Gaja-sahini of Ganapatideva) – Nritta Ratnavali in Sanskrit; basis for Ramappa dance sculptures",
+  "Pavuluri Mallana – Ganitasara Sangraham (Telugu rendering of Mahaviracharya)",
+  "Errana – Narasimha Puranam; Appayacharya – Jinendra Kalyanabhyudayam",
+  "Thousand Pillar temple = trikuta: Rudreswara, Vasudeva, Surya",
+  "Robert Sewell – A Forgotten Empire; Abdur Razzaq – 300 ports",
+  "Porumamilla inscription = 12 rules for tank building; Surambika – Santana Sagaram",
+  "Pedaganjam/Chinaganjam = salt (asked 2019 and 2025)",
+  "Kandachara = military department; Pradvivaka = judiciary"
+ ],
+ "checklist": [
+  "Which dynasty and century? Kakatiya (12–14th), Reddi (14–15th), Vijayanagara (14–16th) – drop out-of-period options.",
+  "What act does the verb ask: built, shifted, introduced, described, wrote, translated?",
+  "Is a name in the work's title being passed off as its author?",
+  "For 'in which language', separate Sanskrit sastra/royal plays from Telugu kavyas.",
+  "Matching: lock two sure pairs before reading all codes.",
+  "Watch near-twin names: Penugonda/Penukonda, Prolaya Nayaka/Prolaya Vema, Rayagaja/Arigaja Kesari."
+ ]
+}

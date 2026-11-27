@@ -1,0 +1,70 @@
+{"section": "A3",
+ "overview": "Medieval India - Delhi Sultanate, Vijayanagara, Mughals (with Marathas, Qutb Shahis, successor states), Bhakti and Sufism: 57 official questions (2008-2024), the largest A-block section; Mughal political history alone has 18. 41 are one-liners (who built/founded/introduced, which rate, which reign); since 2023 each paper carries 3-5 matching items (authors-works, officials-duties, travellers-reigns).",
+ "possibility": [
+  {"angle": "Sultanate politics and administration", "evidence": "6 Qs: 2008, 2012, 2017, 2019×2, 2024", "level": "High historical recurrence", "what_they_ask": "who built/did X (Quwwat-ul-Islam, market control); founding year of Bahmani; why Ghori won; post system"},
+  {"angle": "Sultanate economy, culture, literature", "evidence": "6 Qs: 2008×2, 2010, 2012, 2017, 2019, 2023 (one overlap)", "level": "High historical recurrence", "what_they_ask": "coins (tanka, jital); taxes (khams); canals; music; author-work and traveller-country matching"},
+  {"angle": "Vijayanagara politics", "evidence": "4 Qs: 2008, 2017, 2019, 2023", "level": "Moderate historical recurrence", "what_they_ask": "rivals (Bahmani), Talikota 1565, siege defence, Aravidu rulers and Jesuits"},
+  {"angle": "Vijayanagara society, taxes, literature, travellers", "evidence": "7 Qs: 2010×2, 2010 re-exam, 2019, 2023×2, 2024", "level": "Moderate historical recurrence", "what_they_ask": "which king abolished marriage tax; literary courts; women authors; foreign visitor-reign pairs; temple-place pairs"},
+  {"angle": "Mughal political history and administration (with Marathas, Jats, Qutb Shahis, successor states)", "evidence": "18 Qs: 2008×2, 2010×3, 2010 re-exam×2, 2012×2, 2019, 2023×3, 2024×4", "level": "High historical recurrence", "what_they_ask": "founder and decisive battles; childhood names; Sher Shah revenue and roads; events of a reign; revenue officials; Later Mughal order; Ashtapradhan posts; successor-state founders"},
+  {"angle": "Mughal culture, art and historiography", "evidence": "6 Qs: 2008, 2010, 2019, 2023×2, 2024", "level": "High historical recurrence", "what_they_ask": "monument-place; buildings of a reign (Akbar); historians' books; Sikh Gurus; music styles"},
+  {"angle": "Bhakti movement", "evidence": "7 Qs: 2012×3, 2019, 2023, 2024×2", "level": "Moderate historical recurrence", "what_they_ask": "saint-doctrine (Advaita, Pushtimarga); saint-region; Bhakti-Sufi common ideas; 18th-c. poets' languages"},
+  {"angle": "Sufism", "evidence": "3 Qs: 2008, 2017, 2019", "level": "Moderate historical recurrence", "what_they_ask": "saint titles (Garib Nawaz); which silsila a saint belongs to"}
+ ],
+ "traps": [
+  {"trap": "[Builder vs completer] Monument given to the king who extended it", "spot": "Delhi monuments with Aibak, Iltutmish, Alauddin all offered", "fix": "Quwwat-ul-Islam built by Aibak; Iltutmish completed Qutb Minar; Alauddin = Alai Darwaza", "pyq": "Quwwat-ul-Islam → Qutb-ud-din Aibak [group1-prelims-2024-paper1#13]"},
+  {"trap": "Revenue fraction swapped", "spot": "1/2, 1/3, 1/4 in options or a statement", "fix": "Alauddin 1/2; Sher Shah 1/3 of average produce; Akbar's zabt about 1/3", "pyq": "'1/4 of the produce was collected' → 1/3 [group1-prelims-2024-paper1#16]; rate under Sher Shah → 1/3 [group1-prelims-2012#83]"},
+  {"trap": "Foreign visitor placed in the wrong kingdom or reign", "spot": "Visitor-reign pairs with Razzaq, Paes, Nuniz, Nikitin, Conti", "fix": "Nikitin visited the Bahmani kingdom; Razzaq 1443 = Devaraya II; Paes = Krishnadevaraya; Frederick 1567", "pyq": "'Nikitin – Achyuta Devaraya' wrong [group1-prelims-2023-paper1#15]; Razzaq → Devaraya-II [group1-prelims-2024-paper1#14]"},
+  {"trap": "Later event pulled into a reign", "spot": "Statement list 'which happened under Jahangir'", "fix": "Kandahar was lost (1622) under Jahangir, not annexed; Arjan Dev 1606, Mewar 1615, Hawkins 1608 are his", "pyq": "'Annexation of Kabul and Kandahar' → excluded [group1-prelims-2023-paper1#17]"},
+  {"trap": "Battle that founded vs battle that secured", "spot": "Panipat I, Khanwa, Panipat II, Kannauj together", "fix": "Panipat 1526 = foundation; Khanwa 1527 = real beginning/expansion; Kannauj 1540 = Humayun's loss", "pyq": "'real beginning ... path of expansion' → Khanwa [group1-prelims-2008#8]"},
+  {"trap": "Similar-name rulers of one dynasty", "spot": "Qutb Shahi options Ibrahim / Muhammad Quli / Muhammad / Abdullah", "fix": "Hyderabad (Bhagyanagar) 1591 = Muhammad Quli; Hussain Sagar = Ibrahim", "pyq": "Bhagyanagar → Mohammed Quli Qutub Shah [group1-prelims-2012#82]"},
+  {"trap": "Shared feature claimed where they differ", "spot": "'Common to Bhakti and Sufi' list including idol worship", "fix": "Both rejected idol worship; shared monotheism, simple living, tolerance", "pyq": "'Accepted idol worship to some extent' → excluded [group1-prelims-2023-paper1#14]"},
+  {"trap": "Poet's language swapped with a neighbouring region", "spot": "Wrong-pair list of 18th-century poets", "fix": "Dayaram = Gujarati; Waris Shah = Punjabi; Kunchan Nambiar = Malayalam; Tayumanavar = Tamil", "pyq": "'Dayaram : Marathi' wrong [group1-prelims-2024-paper1#24]"}
+ ],
+ "techniques": [
+  {"name": "Reign timeline slotting", "how": "[Event → year → reign] Put a year on every event in a 'which happened under X' list; keep only those inside the reign's dates.", "example": "Jahangir 1605-27: Arjan Dev 1606, EIC 1608, Mewar 1615 fit; Kandahar was lost 1622 not annexed → 'I, II and IV only' [group1-prelims-2023-paper1#17]"},
+  {"name": "Order by succession anchors", "how": "For later Mughals, fix the first two and the long reign (Muhammad Shah 1719-48); the right code has Farrukhsiyar before Muhammad Shah.", "example": "Bahadur Shah > Jahandar > Farrukhsiyar > Muhammad Shah > Shah Alam II; the other codes misplace Farrukhsiyar [group1-prelims-2024-paper1#20]"},
+  {"name": "Author-work by period", "how": "Place each author in a century and patron; the work's title often names the patron (Nasiri, Firoz Shahi).", "example": "Tabaqat-i-Nasiri → Minhaj (Nasiruddin's reign); Tarikh-i-Firoz Shahi → Barani; Tahqiq-i-Hind → Al-Biruni; Rihla → Battuta [group1-prelims-2023-paper1#28]"},
+  {"name": "Policy fingerprint", "how": "Each Sultan has a fixed set of measures; read the cluster in the stem and match it to one Sultan.", "example": "Liquor ban + market control + harsh punishments → Alauddin Khalji, not Firuz (welfare) or Iltutmish (coins) [group1-prelims-2019-paper1#4]"},
+  {"name": "Court-name lookup", "how": "Vijayanagara literary halls map one-to-one to kings; eliminate by dynasty phase (Sangama vs Tuluva).", "example": "Mutyalasala → Devaraya II (Sangama); Bhuvanavijayam is Krishnadevaraya (Tuluva) [group1-prelims-2010-reexam#93]"},
+  {"name": "Doctrine-founder table", "how": "Keep the Vedanta/Bhakti table: Sankara Advaita, Ramanuja Vishishtadvaita, Madhva Dvaita, Nimbarka Dvaitadvaita, Vallabha Suddhadvaita/Pushtimarga.", "example": "Pushtimarga → Vallabhacharya; Chaitanya is Gaudiya, Vyasaraja is Dvaita [group1-prelims-2019-paper1#20]"}
+ ],
+ "confusions": [
+  {"a": "Panipat I (1526)", "b": "Khanwa (1527)", "remember": "foundation vs real beginning and expansion (Rana Sanga)"},
+  {"a": "Tarain I (1191)", "b": "Tarain II (1192)", "remember": "Prithviraj won I; Ghori won II with mounted archers"},
+  {"a": "Mihr-un-Nisa (Nur Jahan)", "b": "Arjumand Banu (Mumtaz Mahal)", "remember": "aunt married Jahangir 1611 vs niece married Shah Jahan"},
+  {"a": "Iltutmish", "b": "Alauddin Khalji", "remember": "tanka, jital, iqta vs market control, dagh, huliya"},
+  {"a": "Abdur Razzaq", "b": "Nikitin", "remember": "Persian at Vijayanagara 1443 vs Russian at Bahmani 1469-74"},
+  {"a": "Paes", "b": "Nuniz", "remember": "Krishnadevaraya vs Achyutaraya"},
+  {"a": "Mutyalasala", "b": "Bhuvanavijayam", "remember": "Devaraya II vs Krishnadevaraya"},
+  {"a": "Gangadevi (Madhura Vijayam)", "b": "Molla (Ramayana) / Tirumalamba", "remember": "Kampana's wife on Madurai vs Telugu Ramayana / Varadambika Parinayam"},
+  {"a": "Chishti", "b": "Suhrawardi", "remember": "Moinuddin, Nizamuddin, Gesudaraz vs Bahauddin Zakariya, Sadruddin Arif"},
+  {"a": "Moinuddin Chishti", "b": "Nizamuddin / Nasiruddin", "remember": "Garib Nawaz vs Mehboob-e-Ilahi / Chirag-i-Delhi"},
+  {"a": "Vallabha", "b": "Chaitanya", "remember": "Pushtimarga, Gujarat/Braj vs Gaudiya, Bengal"},
+  {"a": "Akbar's tomb", "b": "Humayun's tomb", "remember": "Sikandara vs Delhi (built in Akbar's reign)"},
+  {"a": "Dhrupad", "b": "Khayal / Qawwali", "remember": "pre-Islamic devotional roots vs Indo-Persian/Sufi"},
+  {"a": "Sumant / Dabir", "b": "Waqianavis / Chitnis", "remember": "foreign affairs, ceremonies vs intelligence-household / correspondence"},
+  {"a": "Ibrahim Qutb Shah", "b": "Muhammad Quli Qutb Shah", "remember": "Hussain Sagar vs Hyderabad 1591, Charminar"}
+ ],
+ "anchors": [
+  "1192 Tarain II; 1206 Slave dynasty; 1336 Vijayanagara; 1347 Bahmani (Gulbarga)",
+  "1526 Panipat I; 1527 Khanwa; 1540 Kannauj; 1556 Panipat II, Akbar crowned at Kalanaur",
+  "1565 Talikota: Deccan Sultanates defeat Vijayanagara",
+  "Sher Shah: uniform measurement, 3 land classes, 1/3 share; Sonargaon-Indus road",
+  "Iltutmish: silver tanka, copper jital; khams = 1/5 of booty to state",
+  "Krishnadevaraya (1509-29) remitted the marriage tax",
+  "Abdur Razzaq 1443 (Devaraya II); Venkatapati Raya II allowed Jesuit churches at Chandragiri and Nellore",
+  "Jahangir: 1606 Arjan Dev, 1611 Nur Jahan, 1615 Mewar, 1622 Kandahar lost",
+  "Later Mughals: Bahadur Shah I - Jahandar - Farrukhsiyar - Muhammad Shah (1719-48) - Shah Alam II",
+  "Shivaji: Torna first fort (c.1646); guru Ramdas; Raigad coronation 1674",
+  "Guru Gobind Singh = 10th Guru, Khalsa 1699",
+  "Successor states: Murshid Quli (Bengal), Chin Qilich Khan (Hyderabad), Safdar Jung (Awadh)"
+ ],
+ "checklist": [
+  "Built, completed or extended? Name the original builder.",
+  "Put a year on each event and test it against the reign.",
+  "Fractions in revenue questions: match ruler to his fixed rate.",
+  "Visitor questions: which kingdom did he actually visit, and in which reign?",
+  "In matching, start with the pair whose title names the patron (Nasiri, Firoz Shahi).",
+  "Same-dynasty name lists: recall the one deed each ruler is known for."
+ ]
+}

@@ -1,0 +1,67 @@
+{"section": "g1-E20",
+ "overview": "40 official Group 1 Prelims questions (2008–2024): ISRO missions and launchers (16 Qs) and DRDO missiles/defence tech (15 Qs) carry the section; satellites (communication, NavIC, remote sensing, defence, student) add 8. Up to 2019 mostly one-liners (missile type, range, satellite purpose); 2023–24 turned to 3–4-statement sets on Gaganyaan, SSLV, Vikram-S, Mission Shakti, WESAT, where one number, vehicle or developer is swapped.",
+ "possibility": [
+  {"angle": "Evolution of Indian space programme, private space sector", "evidence": "1 Q: 2023 (Vikram-S); related exams ask SITE 1975, Aryabhata launch site", "level": "Low historical recurrence", "what_they_ask": "first privately built rocket and its developer, mission name, early milestones (Thumba, Aryabhata 1975, SITE)"},
+  {"angle": "ISRO missions and launch vehicles (Chandrayaan, Gaganyaan, SSLV, GSLV Mk III)", "evidence": "16 Qs: 2008, 2010, 2017, 2019, 2023, 2024", "level": "High historical recurrence", "what_they_ask": "mission target and type (lunar probe, Venus orbiter), launcher for a mission, SSLV/GSLV specifications, astronaut names, foreign satellites on PSLV, space-medicine terms"},
+  {"angle": "Communication satellites and GEO basics", "evidence": "3 Qs: 2010, 2012 (deleted), 2024", "level": "Moderate historical recurrence", "what_they_ask": "period of a geostationary satellite, launch date, NSIL-owned GSAT and why a foreign rocket"},
+  {"angle": "Navigation (IRNSS/NavIC) and global GNSS", "evidence": "2 Qs: 2019 ×2", "level": "Low historical recurrence", "what_they_ask": "which country owns which GNSS (GPS, GLONASS, Galileo, NavIC), atomic clocks in space"},
+  {"angle": "Remote sensing / earth observation satellites", "evidence": "1 Q: 2019 (ScatSat); related exams ask NRSC Hyderabad, IIRS Dehradun", "level": "Low historical recurrence", "what_they_ask": "purpose of a named satellite (ScatSat = weather/ocean winds), location of NRSC/IIRS"},
+  {"angle": "Satellites for defence", "evidence": "1 Q: 2024 (spy satellite built by Tata Advanced Systems)", "level": "Low historical recurrence", "what_they_ask": "which company built a military satellite, which rocket carries it; GSAT-7 series, EMISAT, RISAT are natural next targets"},
+  {"angle": "EDUSAT and student/academic satellites", "evidence": "1 Q: 2024 (WESAT)", "level": "Low historical recurrence", "what_they_ask": "which college built it, which mission carried it, what it measures; EDUSAT 2004 as the education satellite"},
+  {"angle": "DRDO missiles and defence technology", "evidence": "15 Qs: 2008, 2010, 2010 re-exam, 2017, 2019, 2023, 2024", "level": "High historical recurrence", "what_they_ask": "missile class (Nag anti-tank, BrahMos anti-ship, anti-radiation), range (Agni-I, Agni-III), submarine launch (Sagarika), UAV/torpedo names (TAPAS, Varunastra), Mission Shakti facts, PSU that makes missiles (BDL)"}
+ ],
+ "traps": [
+  {"trap": "[E20/1] Right rocket, rival startup as developer", "spot": "private launch vehicle statement naming a startup", "fix": "Skyroot (Hyderabad) → Vikram-S, mission Prarambh 2022; Agnikul (Chennai) → Agnibaan", "pyq": "'Vikram-S … developed by Agnikul Cosmos' → Skyroot Aerospace [group1-prelims-2023-paper2#108]"},
+  {"trap": "Launcher downgraded to an older vehicle", "spot": "'planned to be launched on GSLV Mk II' for a heavy/crewed mission", "fix": "Gaganyaan flies on human-rated LVM3 (ex-GSLV Mk III); Mk II is too small", "pyq": "'crewed vehicle … GSLV Mk II' → HLVM3 [group1-prelims-2023-paper2#76]"},
+  {"trap": "Gender/attribute flipped", "spot": "a descriptive word about a named robot or person", "fix": "Vyommitra is a female half-humanoid robot", "pyq": "'Vyommitra, a Male Robot' → female [group1-prelims-2023-paper2#76]"},
+  {"trap": "Stage count and mass altered", "spot": "technical specs of a launcher with round numbers", "fix": "SSLV = 3 solid stages + liquid VTM, ~120 t, 34 m, 500 kg to 500 km", "pyq": "'two solid motor stages … 100 tonnes' → three stages, ~120 t [group1-prelims-2023-paper2#77]"},
+  {"trap": "Direction reversed in a rationale", "spot": "'done in the upper atmosphere to ensure no debris'", "fix": "Low altitude (~283 km) was chosen so debris decays quickly – lower, not upper", "pyq": "Mission Shakti 'upper atmosphere' → lower LEO [group1-prelims-2023-paper2#61]"},
+  {"trap": "Missile class swapped", "spot": "options list anti-tank, anti-ship, SAM, SSM for one name", "fix": "Nag = anti-tank (fire-and-forget); BrahMos = supersonic cruise, anti-ship; Akash/Trishul = SAM; Prithvi/Agni = ballistic", "pyq": "'Nag is a/an' → anti-tank missile [group1-prelims-2008#125]"},
+  {"trap": "Owner country swapped in a GNSS pair", "spot": "pair-matching satellite navigation systems", "fix": "GLONASS = Russia; Galileo = EU; BeiDou = China; NavIC = India", "pyq": "'GLONASS — United Kingdom' → Russia [group1-prelims-2019-paper1#112]"},
+  {"trap": "Real satellite, wrong purpose", "spot": "a student/small satellite paired with an earth-science objective", "fix": "WESAT measures solar UV radiation; it is not a groundwater mission", "pyq": "'WESAT … rainfall refills underground water' → solar UV [group1-prelims-2024-paper2#63]"},
+  {"trap": "Fabricated name among genuine ones", "spot": "a list of 5 names when the real set is 4", "fix": "Gaganyaan four: P. Balakrishnan Nair, Ajit Krishnan, Angad Pratap, Shubhanshu Shukla", "pyq": "'Gp Capt Pankaj M. Sinha' → not selected [group1-prelims-2024-paper2#102]"}
+ ],
+ "techniques": [
+  {"name": "[E20/8] Name-to-class decoding", "how": "Recall the missile/system family by name (Agni/Prithvi ballistic, Akash/Trishul SAM, Nag/Helina anti-tank, Varunastra torpedo); strike options of other classes.", "example": "'Fire and Forget anti-tank' → Agni (ballistic), Akash and Trishul (SAM) fall → Nag [group1-prelims-2019-paper2#68]"},
+  {"name": "Spec-sheet audit", "how": "For launcher/mission statements, check each number (stages, mass, payload, altitude) against the vehicle's spec card; one wrong number sinks the statement.", "example": "SSLV: 500 kg/500 km true, shorter than PSLV true, vertical+horizontal assembly true, 'two stages/100 t' false → I, III and IV only [group1-prelims-2023-paper2#77]"},
+  {"name": "Physics anchor for orbits", "how": "Use the defining property instead of memory: geostationary = same rotation period as Earth.", "example": "Geostationary period → 365 days, 30 days, 12 hours fall → 1 day [group1-prelims-2010#122]"},
+  {"name": "Codes elimination from one sure statement", "how": "Find the statement you are surest about, strike codes that contradict it, then test only what still differs.", "example": "Vikram-S developer is Skyroot → IV false → only 'I, II and III only' survives [group1-prelims-2023-paper2#108]"},
+  {"name": "Count-the-set", "how": "When you know how many genuine items exist, find the extra one; every code with it falls.", "example": "Four Gaganyaan astronauts; Pankaj Sinha is the extra → codes with III fall → I, II, IV and V [group1-prelims-2024-paper2#102]"},
+  {"name": "Purpose-from-name", "how": "Read the satellite/system name for its mission (Scat = scatterometer, Nav = navigation, Edu = education), then match.", "example": "ScatSat carries a scatterometer for ocean winds → weather monitoring [group1-prelims-2019-paper2#75]"}
+ ],
+ "confusions": [
+  {"a": "Skyroot – Vikram-S", "b": "Agnikul – Agnibaan", "remember": "Vikram-S (Hyderabad) 2022 first private rocket; Agnibaan (Chennai) semi-cryogenic, 2024"},
+  {"a": "GSLV Mk II", "b": "LVM3 (GSLV Mk III)", "remember": "Heavy and crewed missions (Chandrayaan-2/3, Gaganyaan) use LVM3"},
+  {"a": "SSLV", "b": "PSLV", "remember": "SSLV 3 solid stages + VTM, 34 m; PSLV 4 stages (solid-liquid alternating), 44 m"},
+  {"a": "Shukrayaan (Venus)", "b": "Mangalyaan (Mars)", "remember": "Shukra = Venus; Mangal = Mars"},
+  {"a": "Nag", "b": "BrahMos", "remember": "Nag = anti-tank; BrahMos = India–Russia supersonic cruise, anti-ship"},
+  {"a": "Akash / Trishul", "b": "Agni / Prithvi", "remember": "Akash/Trishul = surface-to-air; Agni/Prithvi = surface-to-surface ballistic"},
+  {"a": "Sagarika", "b": "Dhanush", "remember": "Sagarika (K-15) = submarine-launched (2008 test); Dhanush = ship-launched Prithvi"},
+  {"a": "Bharat Dynamics Ltd (BDL)", "b": "Bharat Electronics Ltd (BEL)", "remember": "BDL makes guided missiles; BEL makes defence electronics/radars"},
+  {"a": "GLONASS", "b": "Galileo", "remember": "GLONASS = Russia; Galileo = European Union"},
+  {"a": "WESAT", "b": "XPoSat", "remember": "WESAT = student solar-UV payload; XPoSat = primary X-ray polarimetry satellite, both PSLV-C58"},
+  {"a": "TAPAS 201 (MALE UAV)", "b": "NETRA / NISHANT", "remember": "TAPAS = medium-altitude long-endurance; NETRA = mini UAV / AEW&C; Nishant = tactical UAV"},
+  {"a": "Anti-radiation missile", "b": "Cruise / ballistic missile", "remember": "Anti-radiation homes on enemy radar emissions (e.g. Rudram)"}
+ ],
+ "anchors": [
+  "Geostationary satellite period = 1 day (≈36,000 km)",
+  "27 March 2019 – Mission Shakti: DRDO PDV Mk-II destroyed Microsat-R (~283 km); India 4th after US, Russia, China",
+  "18 Nov 2022 – Vikram-S (Skyroot), mission Prarambh, Sriharikota",
+  "SSLV – 500 kg to 500 km, 3 solid stages + VTM, ~120 t",
+  "Gaganyaan – HLVM3; Vyommitra female robot; DRDO human-centric systems; 4 astronaut-designates (27 Feb 2024)",
+  "Agni-I ~700 km (as keyed); Agni-III ~3,500 km",
+  "Sagarika – first underwater (submarine-launched) missile test, 26 Feb 2008",
+  "Ammonium perchlorate – oxidiser in solid rocket fuel",
+  "GSLV Mk III-D1 – 'game changer' heavy launcher (2017)",
+  "Sriharikota (Nellore district) – SDSC SHAR; visitor gallery capacity 5,000",
+  "NRSC – Hyderabad; IIRS – Dehradun",
+  "WESAT – LBS Institute of Technology for Women, Thiruvananthapuram; PSLV-C58, 1 Jan 2024"
+ ],
+ "checklist": [
+  "Which family is the name from – ISRO vehicle, DRDO missile, private startup?",
+  "Check every number (stages, tonnes, km, year) against the spec card.",
+  "Launcher statements: heavy/crewed = LVM3.",
+  "Developer statements: verify the company/lab, not just the product.",
+  "In name lists, count the genuine set and find the extra.",
+  "Mind the date of the news: 'scheduled' claims age quickly."
+ ]}

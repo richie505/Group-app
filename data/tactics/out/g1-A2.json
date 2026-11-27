@@ -1,0 +1,65 @@
+{"section": "A2",
+ "overview": "Early-medieval north (Harsha, Palas) and the south Indian dynasties: 27 official questions (2008-2024), led by Harsha/Kanauj (7), Badami Chalukyas with Pallavas (5), Cholas (5) and Kakatiyas (4). 19 are one-liners on titles, authors, founders and terms; matching and wrong-pair items appear since 2023. Hoysalas, Yadavas and Reddis are not yet asked.",
+ "possibility": [
+  {"angle": "Harsha, Kanauj and the Pala universities", "evidence": "7 Qs: 2010×3, 2012, 2019×2, 2023", "level": "Moderate historical recurrence", "what_they_ask": "titles (Siladitya); court poet Bana; traveller-ruler pairs; Nalanda under Harsha; who founded Vikramashila; Atisha to Tibet"},
+  {"angle": "Badami Chalukyas and Pallavas", "evidence": "5 Qs: 2010×2, 2012×2, 2024", "level": "Moderate historical recurrence", "what_they_ask": "Pallava king titles and works (Mahendravarman); Pulakesin II vs Harsha; Pallava-Chalukya wars; ghatikas"},
+  {"angle": "Eastern Chalukyas of Vengi", "evidence": "3 Qs: 2008, 2010×2", "level": "Low historical recurrence", "what_they_ask": "titles of Vengi kings; Chola marriage alliance; ghatikas"},
+  {"angle": "Rashtrakutas", "evidence": "2 Qs: 2023, 2024", "level": "Low historical recurrence", "what_they_ask": "founder, Kailasa builder, Kavirajamarga, Arab accounts (Balhara)"},
+  {"angle": "Kalyani Chalukyas", "evidence": "1 Q: 2019", "level": "Low historical recurrence", "what_they_ask": "Vijnaneswara's Mitakshara at Vikramaditya VI's court"},
+  {"angle": "Cholas: administration and temples", "evidence": "5 Qs: 2008×2, 2010, 2023, 2024", "level": "Moderate historical recurrence", "what_they_ask": "village terms (taniyur, variyam); founder and conquests of each king; Dravida style; temple colleges"},
+  {"angle": "Kakatiyas", "evidence": "4 Qs: 2010×2, 2023, 2024", "level": "Moderate historical recurrence", "what_they_ask": "works and the reign they belong to (Nritta Ratnavali); Telugu translations (Ketana); ruler-event matching; trade routes"},
+  {"angle": "Hoysalas", "evidence": "0 official Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets: capital Dwarasamudra (Halebidu), Vishnuvardhana and Ramanuja, Belur/Halebidu/Somanathapura temples, Vesara style"},
+  {"angle": "Yadavas of Devagiri", "evidence": "0 official Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets: capital Devagiri, Singhana, Hemadri (minister, Hemadpanti style), Ramachandra's defeat by Alauddin's forces"},
+  {"angle": "Reddi kingdoms", "evidence": "0 official Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets: Prolaya Vema Reddi founder, capitals Addanki then Kondavidu, Rajahmundry branch, Srinatha at Pedakomati Vema's court"}
+ ],
+ "traps": [
+  {"trap": "[Same name, other king] Title given to the wrong king of the same name", "spot": "Options list Pulakesin I/II or Mahendravarman I/II, Narasimhavarman I/II", "fix": "Attach the title to the event: Parameshvara after beating Harsha = Pulakesin II; Vichitrachitta = Mahendravarman I", "pyq": "'Who defeated Harsha and assumed the title Parameshwar' → Pulakesin II [group1-prelims-2010#9]; Vichitrachitta → Mahendravarman [group1-prelims-2010#112]"},
+  {"trap": "Founder swapped with a famous later king", "spot": "'X was founded by' with a well-known conqueror's name", "fix": "Imperial Cholas = Vijayalaya; Rashtrakutas = Dantidurga; Vikramashila = Dharmapala; Nalanda = Kumaragupta I", "pyq": "'Chola Empire was founded by Parantaka-I' → Vijayalaya [group1-prelims-2024-paper1#12]; Dharmapala → Vikramasila [group1-prelims-2010-reexam#147]"},
+  {"trap": "Monument credited to the wrong king of the dynasty", "spot": "Kailasa, Ellora with Krishna III or Amoghavarsha", "fix": "Kailasa = Krishna I; Krishna III is the Kanchi/Tanjore raider", "pyq": "'Krishna-III : rock-cut temple of Shiva at Ellora' → Krishna I [group1-prelims-2024-paper1#11]"},
+  {"trap": "Traveller placed in the wrong reign", "spot": "Traveller-ruler pairs across centuries", "fix": "Megasthenes-Chandragupta Maurya; Fa-Hien-Chandragupta II; Xuanzang-Harsha; I-Tsing 671-695", "pyq": "'I-Tsing — Ashoka' wrong [group1-prelims-2019-paper1#2]"},
+  {"trap": "Inflated numbers and wrong language for Nalanda", "spot": "Statements with big numbers (10,000 villages, 15,000 teachers) or 'Pali medium'", "fix": "About 100-200 villages, about 1,510 teachers, Sanskrit medium, Silabhadra at the head", "pyq": "Only 'Silabhadra was the Chancellor' is correct [group1-prelims-2023-paper1#9]"},
+  {"trap": "Work placed in the wrong Kakatiya reign", "spot": "Kakatiya text asked with all four rulers as options", "fix": "Nritta Ratnavali by Jayapa = Ganapatideva's reign; Prataparudriyam = Prataparudra", "pyq": "Nrityaratnavali → Ganapatideva [group1-prelims-2010#113]"},
+  {"trap": "Institution of one religion given to another", "spot": "Ghatika described as Buddhist centre or as a village", "fix": "Ghatika = Brahmanical college (Sanskrit); vihara = Buddhist; agrahara = Brahmin village", "pyq": "'Ghatikas were' → Hindu colleges [group1-prelims-2008#10]; settlement of Brahmin scholars [group1-prelims-2012#48]"}
+ ],
+ "techniques": [
+  {"name": "Event-tied title recall", "how": "[Title ← event] Do not memorise titles alone; link each to the event that earned it, then match the event to the king.", "example": "'Parameshwar' was taken after defeating Harsha on the Narmada → Pulakesin II, not Pulakesin I (founder) or the Pallavas [group1-prelims-2010#9]"},
+  {"name": "Century gap elimination", "how": "Put a century next to each traveller, author or king; a pair separated by centuries is the wrong one.", "example": "I-Tsing (7th c. AD) vs Ashoka (3rd c. BC) → wrong pair; the other three are contemporaries [group1-prelims-2019-paper1#2]"},
+  {"name": "Pallava-Chalukya swing chart", "how": "Remember the back-and-forth: Pulakesin II beats Mahendravarman I; Narasimhavarman I takes Vatapi 642; Vikramaditya II takes Kanchi under Nandivarman II.", "example": "Narasimhavarman I → destruction of Vatapi; Nandivarman II → Kanchi captured; Vishnugopa → Samudragupta → 'A-II, B-I, C-IV, D-III' [group1-prelims-2024-paper1#10]"},
+  {"name": "Dynasty fact row for wrong-pair items", "how": "For each dynasty keep a row: founder - capital - great builder - literary king - last king; test each option against the row.", "example": "Rashtrakuta row: Dantidurga founder, Krishna I Kailasa, Amoghavarsha Kavirajamarga → Krishna III pair is wrong [group1-prelims-2024-paper1#11]"},
+  {"name": "Author-to-court link", "how": "Fix where each author worked; the court gives the ruler and the period.", "example": "Mitakshara by Vijnaneswara at Vikramaditya VI's court is a commentary on Yajnavalkya Smriti [group1-prelims-2019-paper1#1]; Bana → Harsha [group1-prelims-2019-paper1#15]"}
+ ],
+ "confusions": [
+  {"a": "Mahendravarman I", "b": "Narasimhavarman I", "remember": "Mahendra = Vichitrachitta, Mattavilasa author; Narasimha I = Mamalla, took Vatapi 642"},
+  {"a": "Pulakesin I", "b": "Pulakesin II", "remember": "I founded Badami; II beat Harsha, Aihole inscription"},
+  {"a": "Nalanda", "b": "Vikramashila / Odantapuri", "remember": "Kumaragupta I vs Dharmapala / Gopala"},
+  {"a": "Mitakshara", "b": "Dayabhaga", "remember": "Vijnaneswara (Kalyani) vs Jimutavahana (Bengal)"},
+  {"a": "Krishna I (Rashtrakuta)", "b": "Krishna III", "remember": "I = Kailasa, Ellora; III = raids on Kanchi and Tanjore"},
+  {"a": "Vijayalaya", "b": "Parantaka I", "remember": "Vijayalaya founded imperial Cholas c.850; Parantaka I = Maduraikonda"},
+  {"a": "Rajaraja I", "b": "Rajendra I", "remember": "Rajaraja = Maldives, Sri Lanka, Brihadisvara; Rajendra = Gangaikondacholapuram, Kedah"},
+  {"a": "Kubja Vishnuvardhana", "b": "Gunaga Vijayaditya (III)", "remember": "Vishamasiddhi, Vengi founder 624 vs Tripuramartya Maheswara"},
+  {"a": "Ketana", "b": "Baddena", "remember": "Ketana = Mitakshara into Telugu (Vijnaneswaramu); Baddena = Sumati Satakam"},
+  {"a": "Fa-Hien", "b": "Xuanzang", "remember": "Fa-Hien = Chandragupta II; Xuanzang = Harsha, Nalanda under Silabhadra"},
+  {"a": "Ghatika", "b": "Vihara / Agrahara", "remember": "Brahmanical college vs Buddhist monastery / Brahmin village"},
+  {"a": "Padmasambhava", "b": "Atisha Dipankara", "remember": "8th c. vs 11th c. (Vikramashila) to Tibet"}
+ ],
+ "anchors": [
+  "Harsha 606-647 = Siladitya; court poet Bana (Harshacharita, Kadambari)",
+  "Pulakesin II defeated Harsha on the Narmada; title Parameshvara (Aihole)",
+  "642: Narasimhavarman I destroyed Vatapi (Vatapikonda)",
+  "Vengi: Kubja Vishnuvardhana founded the Eastern Chalukya line in 624",
+  "Rashtrakutas: Dantidurga founder; Krishna I Kailasa; Amoghavarsha Kavirajamarga",
+  "Cholas: Vijayalaya founder c.850; Rajendra I Gangaikondacholapuram",
+  "Chola village: variyam = committee, kudavolai = pot-ticket lottery, taniyur = big village as its own unit",
+  "Kakatiyas: Thousand Pillar Temple 1163 (Rudradeva); Marco Polo under Rudramadevi; Malik Kafur under Prataparudra",
+  "Nalanda in Harsha's time: Silabhadra head, Sanskrit medium",
+  "Dravida = south, Nagara = north, Vesara = Deccan"
+ ],
+ "checklist": [
+  "Same-name kings in the options? Decide by the event, not by the name.",
+  "Founder questions: the founder is rarely the most famous king.",
+  "Put a century on each pair in traveller/author questions.",
+  "Big round numbers in a statement: check against the actual figure.",
+  "For a work, find the court first, then the ruler.",
+  "Read the key note mentally: some Chola and Kakatiya matching keys are disputed - do not over-learn them."
+ ]
+}

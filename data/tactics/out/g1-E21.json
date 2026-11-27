@@ -1,0 +1,61 @@
+{"section": "g1-E21",
+ "overview": "20 official Group 1 Prelims questions (2008–2024), 17 of them in 2023–24. Nuclear energy is the largest block (8 Qs: reactor stages, enrichment, dirty bomb, Kudankulam, PFBR); energy policy/programmes 6 (IREDA, SEEI, methanol, hydrogen); solar 3; resources 2; energy needs 1; wind none. Mostly 2–4-statement sets where one isotope, stage number, gas or developer is swapped.",
+ "possibility": [
+  {"angle": "India's energy needs and deficit", "evidence": "1 Q: 2023 (Renewables Integration in India 2021 report)", "level": "Low historical recurrence", "what_they_ask": "which bodies published an energy report (NITI Aayog + IEA), India's rank as energy consumer, share of thermal power"},
+  {"angle": "Energy resources and import dependence (biogas, shale, coal, oil)", "evidence": "2 Qs: 2008, 2017", "level": "Low historical recurrence", "what_they_ask": "chief constituent of a fuel (gobar gas = methane), basin with largest shale gas reserves (Cambay)"},
+  {"angle": "Energy policy, PSUs and programmes (IREDA, BEE/SEEI, methanol, hydrogen)", "evidence": "6 Qs: 2023 ×2, 2024 ×4", "level": "Low historical recurrence", "what_they_ask": "PSU status and parent ministry, state energy-efficiency index ranks/categories, objectives of a programme, who built the first hydrogen bus/ferry, how a fuel cell works"},
+  {"angle": "Solar energy (JNNSM, ISA, potential)", "evidence": "3 Qs: 2017, 2024 ×2", "level": "Low historical recurrence", "what_they_ask": "target capacity (100 GW solar by 2022), newest ISA member (119th = Malta), why India has high solar potential (~300 sunny days)"},
+  {"angle": "Wind energy", "evidence": "0 official Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets judged from the solar items: national target figure, leading states by installed capacity, NIWE Chennai, National Offshore Wind Policy 2015, wind-solar hybrid policy 2018"},
+  {"angle": "Nuclear energy: three-stage programme, reactors, fuel, safety", "evidence": "8 Qs: 2012, 2019, 2023 ×5, 2024", "level": "Moderate historical recurrence", "what_they_ask": "first plant (Tarapur), which stage an FBR belongs to, which isotope is enriched and to what %, what a dirty bomb is, why Kudankulam was delayed, PFBR developer, radioactive gas in cancer treatment (radon)"}
+ ],
+ "traps": [
+  {"trap": "[E21/6] Fertile and fissile isotopes swapped", "spot": "'increasing the percentage of U-238 (the fissile isotope)'", "fix": "U-235 is fissile; U-238 is fertile (breeds Pu-239)", "pyq": "enrichment 'U-238 fissile' → U-235 [group1-prelims-2023-paper2#69]"},
+  {"trap": "Enrichment threshold moved", "spot": "a percentage attached to 'weapons-grade'", "fix": "Natural 0.7%, power reactors 3–5%, LEU < 20%, weapons-grade ~90%", "pyq": "'weapons-grade … maximum of 20 percent' → ~90% [group1-prelims-2023-paper2#69]"},
+  {"trap": "Stage number of the three-stage programme shifted", "spot": "a reactor type paired with 'stage 1/2/3'", "fix": "Stage 1 PHWR (natural U); Stage 2 FBR (Pu-239); Stage 3 thorium/U-233", "pyq": "'FBR … part of stage 1' → stage 2 [group1-prelims-2023-paper2#64]"},
+  {"trap": "Radiological device described as a nuclear explosion; cost reversed", "spot": "'city-flattening', 'costlier than nuclear weapons' for a dirty bomb", "fix": "Dirty bomb = conventional explosive spreading radioactive material; no fission yield; cheap", "pyq": "dirty bomb II and III incorrect [group1-prelims-2023-paper2#75]"},
+  {"trap": "Reactant gas swapped in a fuel-cell statement", "spot": "'combine Hydrogen and Carbon dioxide'", "fix": "Fuel cell: H₂ + O₂ → electricity + water + heat", "pyq": "hydrogen bus 'H₂ and CO₂' → H₂ and O₂; developer KPIT–CSIR not Veera Vahana [group1-prelims-2023-paper2#90]"},
+  {"trap": "Plausible extra cause added", "spot": "multiple-correct list of reasons for a delay with one generic national event", "fix": "Kudankulam: USSR break-up (1991) stalled the 1988 deal; 2011–12 protests delayed commissioning – the 1991 BoP crisis is not the keyed cause", "pyq": "Kudankulam delay → I and III only [group1-prelims-2023-paper2#82]"},
+  {"trap": "Basin with famous gas swapped for the shale leader", "spot": "options list KG, Cambay, Cauvery basins", "fix": "KG is famous for conventional gas; largest shale estimate is Cambay", "pyq": "largest shale gas reserves → Cambay Basin [group1-prelims-2017-paper1#137]"}
+ ],
+ "techniques": [
+  {"name": "[E21/6] Three-stage map", "how": "Write PHWR → FBR → Thorium with fuel of each; place any reactor/fuel statement on the map.", "example": "FBR: Pu-239 fissions, U-238 breeds (I, II true); 'stage 1' false → I and II only [group1-prelims-2023-paper2#64]"},
+  {"name": "Number ladder for uranium", "how": "Keep the ladder 0.7 → 3–5 → 20 → 90 (%); any % statement is placed on it.", "example": "'weapons grade max 20%' sits at the LEU rung → false; 'U-238 fissile' false → Neither I nor II [group1-prelims-2023-paper2#69]"},
+  {"name": "Chemistry sanity check", "how": "Write the reaction behind the device; a reactant or product that cannot appear makes the statement false.", "example": "Fuel cell 2H₂ + O₂ → 2H₂O; CO₂ cannot be a reactant → II false; water-and-heat effluent true → I and II incorrect [group1-prelims-2023-paper2#90]"},
+  {"name": "Negative-stem flip", "how": "Mark each statement T/F, then select the F ones when the stem says 'incorrect'.", "example": "Dirty bomb: I true, II false, III false; stem asks incorrect → II and III only [group1-prelims-2023-paper2#75]"},
+  {"name": "Objective-bundle test", "how": "For programme-objective lists, ask if each item follows from the programme's name and purpose; all-true sets are common here.", "example": "Methanol Economy: import cut, GHG cut, coal/MSW-to-methanol all fit → I, II and III [group1-prelims-2024-paper2#83]"},
+  {"name": "Cause-of-condition reasoning (A-R)", "how": "Check that Statement II is the physical reason for Statement I, not just a parallel fact.", "example": "High solar potential because of many clear sunny days → both true, II explains I [group1-prelims-2024-paper2#90]"}
+ ],
+ "confusions": [
+  {"a": "U-235 (fissile)", "b": "U-238 (fertile)", "remember": "235 splits; 238 breeds Pu-239"},
+  {"a": "Th-232", "b": "U-233", "remember": "Thorium-232 is fertile; neutron capture gives fissile U-233 (Stage 3)"},
+  {"a": "PHWR (Stage 1)", "b": "FBR (Stage 2)", "remember": "PHWR burns natural U with heavy water; FBR burns Pu and breeds more"},
+  {"a": "Dirty bomb (RDD)", "b": "Nuclear bomb", "remember": "RDD = conventional blast + radioactive dust; nuclear = fission/fusion yield"},
+  {"a": "Fission", "b": "Fusion", "remember": "Reactors and Hiroshima = fission; Sun and ITER = fusion"},
+  {"a": "Moderator", "b": "Control rod", "remember": "Moderator slows neutrons; control rods absorb them"},
+  {"a": "Tarapur (1969, first)", "b": "Kudankulam (Russian VVER)", "remember": "Tarapur = first nuclear power plant (US BWRs); Kudankulam = 1988 Indo-Soviet deal"},
+  {"a": "BHAVINI", "b": "IGCAR / BARC", "remember": "PFBR keyed to BHAVINI (builds/operates); IGCAR Kalpakkam designs fast reactors; BARC Mumbai is the main research centre"},
+  {"a": "Cambay Basin (shale)", "b": "KG Basin (conventional gas)", "remember": "Largest shale estimate = Cambay"},
+  {"a": "IREDA", "b": "BEE", "remember": "IREDA = RE finance PSU under MNRE; BEE = energy-efficiency body under Ministry of Power (runs SEEI)"},
+  {"a": "Hydrogen fuel cell bus", "b": "Hydrogen fuel cell ferry", "remember": "Bus = KPIT with CSIR-NCL (Pune, 2022); ferry = Cochin Shipyard (2024)"}
+ ],
+ "anchors": [
+  "Tarapur – India's first nuclear power plant",
+  "Three-stage programme: PHWR → FBR → thorium (U-233)",
+  "Uranium: natural 0.7% U-235; power 3–5%; LEU < 20%; weapons ~90%",
+  "PFBR 500 MWe – Kalpakkam",
+  "Radon – radioactive noble gas used in cancer therapy",
+  "Gobar (bio)gas – mainly methane",
+  "JNNSM – 100 GW solar target by 2022 (raised from 20 GW)",
+  "ISA – 119th member Malta (2024)",
+  "SEEI 2023 – Karnataka top (86.5/100); AP a Front Runner",
+  "Renewables Integration in India 2021 – NITI Aayog + IEA",
+  "Tummalapalle (YSR Kadapa, AP) – uranium deposit"
+ ],
+ "checklist": [
+  "Is an isotope named? Check fissile (235, 233, Pu-239) vs fertile (238, Th-232).",
+  "Is a % or stage number given? Place it on the ladder/stage map.",
+  "Write the reaction for any fuel/device statement.",
+  "Developer or builder named? Confirm the company/lab.",
+  "Time-sensitive PSU status or index rank: judge as of the exam year.",
+  "Flip for 'incorrect' stems before choosing a code."
+ ]}

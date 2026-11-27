@@ -80,13 +80,13 @@ def check(names):
         except Exception as e:
             print(n, "MISSING/INVALID", e); bad += 1; continue
         pr = [k for k in REQ if k not in o]
-        cites = re.findall(r"\[([^\]]+#[^\]]+)\]", json.dumps(o, ensure_ascii=False))
+        cites = re.findall(r"\[([^\[\]\s]+#[^\[\]\s]+)\]", json.dumps(o, ensure_ascii=False))
         wrong = [c for c in cites if c not in ids]
         if pk["official_questions"]:
             if len(o.get("traps", [])) < 1 or len(o.get("techniques", [])) < 1:
                 pr.append("needs ≥1 trap and ≥1 technique")
             for t in o.get("traps", []) + o.get("techniques", []):
-                if not re.search(r"\[[^\]]+#[^\]]+\]", json.dumps(t, ensure_ascii=False)):
+                if not re.search(r"\[[^\[\]\s]+#[^\[\]\s]+\]", json.dumps(t, ensure_ascii=False)):
                     pr.append(f"no PYQ citation: {str(t)[:60]}")
         if re.search(r"\b(will (definitely|surely) (come|appear|be asked)|guaranteed)\b", json.dumps(o), re.I):
             pr.append("prediction wording")

@@ -1,0 +1,74 @@
+{
+"section": "g2-M1B.2",
+"overview": "96 official Qs (2008, 2017, 2019, 2025). Parliament (33) and the Union/State executive (27) dominate; legislatures/Legislative Councils and the judiciary give 13 each; judicial review and activism are small (8 together). Mostly one-liners on 'who presides / who decides / how many / which Article', plus many 'all correct except' stems (2017) and statement-based multi-picks (2025).",
+"possibility": [
+ {"angle": "Structure and functions of government (general)", "evidence": "0 official Qs on the umbrella leaf", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets judged from neighbours: Part V (Union) vs Part VI (States) article ranges, separation of powers between the three organs, Art 50, Art 77 (business in the President's name)."},
+ {"angle": "Legislative, executive, judiciary – AP-specific and organ roles", "evidence": "2 Qs: 2019×2 (one deleted)", "level": "Low historical recurrence", "what_they_ask": "Anglo-Indian nomination (President 2 / Governor 1, ended 2020); AP–Telangana Rajya Sabha split (11/7)."},
+ {"angle": "Unicameral/bicameral legislatures and Legislative Councils", "evidence": "13 Qs: 2008×2, 2017×5, 2019×6", "level": "Moderate historical recurrence", "what_they_ask": "Art 169 procedure; Council composition fractions; money bill delay (14 days); number of bicameral States (time-sensitive); AP Council abolition 1985/revival 2007; fate of Council-originated bills; Rajya Sabha permanence."},
+ {"angle": "Executive: President, Vice-President, Council of Ministers, Governor, AG", "evidence": "27 Qs: 2017×11, 2019×10, 2025×6", "level": "Moderate historical recurrence", "what_they_ask": "electoral college of President vs VP; removal of VP (Rajya Sabha first); pardon (Art 72 vs 161); ordinance life (6 months 6 weeks); 15% cap / minimum 12 (91st Amd); Art 75(5) six months; AG tenure and remuneration; Part V."},
+ {"angle": "Parliament: officers, sessions, bills, committees, financial procedure", "evidence": "33 Qs: 2008×9, 2017×19, 2019×2, 2025×3", "level": "Moderate historical recurrence", "what_they_ask": "who presides joint sitting; Speaker's money-bill certificate; prorogation vs recess; Art 85 gap; PAC/CoPU/Estimates roles; charged expenditure; seat counts per State; Zero Hour; no-confidence; privileges."},
+ {"angle": "Judiciary: SC/HC appointment, jurisdiction, tenure", "evidence": "13 Qs: 2017×7, 2019×2, 2025×4", "level": "Moderate historical recurrence", "what_they_ask": "Art 124 (Parliament fixes SC strength); collegium origin (judgments); NJAC/99th Amd struck down 2015; Art 128 / 224A retired judges with President's consent; Art 233 district judges; HC age 62; advisory jurisdiction Art 143."},
+ {"angle": "Judicial review", "evidence": "3 Qs: 2017×3", "level": "Low historical recurrence", "what_they_ask": "article through which exercised (32, with 13; 226 for HCs); judicial review as feature of federalism; legislature's response to a judgment (validating law / amendment)."},
+ {"angle": "Judicial activism and PIL", "evidence": "5 Qs: 2017×3, 2025×2", "level": "Low historical recurrence", "what_they_ask": "PIL pioneers (Bhagwati, Krishna Iyer); PIL = Social Action Litigation = activism (not restraint); judge-made doctrines vs constitutional text; landmark directions (Seema v Ashwani Kumar – marriage registration); US origin of the concept."}
+],
+"traps": [
+ {"trap": "Gives a Lok Sabha power to the Rajya Sabha [or vice versa]", "spot": "Options 'Lok Sabha / Rajya Sabha / either House / joint sitting'", "fix": "Collective responsibility → Lok Sabha only (Art 75(3)); VP removal resolution → only Rajya Sabha first (Art 67(b)); money bills → only Lok Sabha.", "pyq": "'Council of Ministers collectively responsible to' → The Lok Sabha [prelims-2017#55]; VP removal moved first only in → The Rajya Sabha [prelims-2019#62]"},
+ {"trap": "Adds nominated members to the President's electoral college", "spot": "Multi-select of elected/nominated members of Parliament and Assemblies", "fix": "President (Art 54): only ELECTED MPs and ELECTED MLAs incl. Delhi and Puducherry. VP (Art 66): ALL MPs, elected and nominated, no MLAs. MLCs vote for neither.", "pyq": "Electoral college → A, C and E (nominated members out) [mains-2025-paper1#119]; CM who is an MLC cannot vote [mains-2017-paper2#139]"},
+ {"trap": "Swaps the authority under whose pleasure / by whose determination an office is held", "spot": "Statements on AG, Advocate General, ministers naming PM, Parliament or Governor", "fix": "AG – pleasure of the President and remuneration fixed by the President (Art 76); Advocate General – Governor (Art 165); Union ministers – President's pleasure (Art 75(2)).", "pyq": "'AG holds office during pleasure of the Prime Minister' and 'remuneration as Parliament may determine' → both false [mains-2025-paper1#124]; Advocate General's pay → as determined by the Governor [prelims-2017#61]"},
+ {"trap": "Changes the fractions or numbers in a composition", "spot": "Fractions 1/3, 1/12, 1/6 or counts (2 vs 1 nominees, 20/10 members)", "fix": "Council: 1/3 local bodies, 1/12 graduates, 1/12 teachers, 1/3 MLAs, 1/6 nominated. Anglo-Indian: President 2 (LS), Governor 1 (Assembly).", "pyq": "'1/13 elected by Legislative Assembly' is the false one (it is 1/3) [mains-2017-paper2#119]; Governor nominating 2 Anglo-Indians → false, only 1 [prelims-2019#61]"},
+ {"trap": "Gives the President a power over money bills he does not have", "spot": "'All correct except' on money bills", "fix": "Art 111 proviso: the President may assent or withhold, but cannot return a money bill; Speaker's certificate is final (Art 110(3)).", "pyq": "'President may return money bill for reconsideration' → the incorrect statement [mains-2017-paper2#77]; final say on money bill → Speaker [prelims-2017#57]"},
+ {"trap": "Moves pardon or death-sentence powers between President and Governor", "spot": "Statements comparing Art 72 and 161", "fix": "Only the President pardons a death sentence and courts-martial sentences; the Governor may suspend, remit or commute a death sentence.", "pyq": "'The only authority for pardoning a sentence of death is the President' → correct [mains-2017-paper2#90]"},
+ {"trap": "Reverses activism and restraint", "spot": "Statement linking PIL to 'judicial restraint'", "fix": "PIL (Social Action Litigation) grew from judicial activism – relaxed locus standi, epistolary jurisdiction.", "pyq": "'PIL is an outcome of Judicial Restraint' → false [mains-2025-paper1#115]"},
+ {"trap": "Confuses which expenditure is charged on which Consolidated Fund", "spot": "'Charged on the Consolidated Fund of India, except'", "fix": "CFI: debt charges, SC judges' salaries and pensions, HC judges' pensions. Governors' emoluments → State Consolidated Fund (HC judges' salaries too).", "pyq": "'Pensions of governors of any state' → not charged on CFI [mains-2017-paper2#76]"}
+],
+"techniques": [
+ {"name": "Who-decides map [office → authority]", "how": "For any 'who presides / who decides / whose consent' stem, recall the single constitutional authority named in the Article; options naming a political body (party, cabinet, PM) usually fall when the text names an office.", "example": "Art 224A retired HC judge – the text says 'previous consent of the President' → Governor, Parliament, CJI fall → The President [mains-2017-paper1#99]"},
+ {"name": "Time-limit ladder", "how": "Keep one ladder: 14 days (Council on money bill, RS on money bill), 6 weeks (ordinance after reassembly), 6 months (non-MP minister; gap between sessions), 5 years (President, VP). Match the number to the institution.", "example": "Ordinance lasts 6 weeks after Parliament reassembles, and the gap cannot exceed 6 months → 6 months 6 weeks [mains-2017-paper2#111]"},
+ {"name": "Executive vs legislative tool sort", "how": "Classify each option by who wields it: the House (questions, resolutions, motions, committees) or the executive (dissolution, ordinances). The odd one out answers 'not a tool of legislative control'.", "example": "Questions, resolution, no-confidence are House tools; dissolution is the President's on PM's advice → Dissolution of the House [mains-2017-paper2#148]"},
+ {"name": "Text vs judge-made test", "how": "Ask: is this written in the Constitution or did a judgment create it? Collegium, basic structure, PIL, handcuff limits are judge-made; exemptions to FRs, joint sitting are text.", "example": "Collegium is not in Art 124 → it arises from the Second and Third Judges cases → Decisions of Supreme Court [prelims-2017#58]; 'Exemptions to Fundamental Rights' is constitutional text → not the SC's evolution [mains-2017-paper2#105]"},
+ {"name": "Time-stamp the question", "how": "For counts and office-holders, note the exam year and answer for that date (bicameral States, Anglo-Indian seats, presiding officers).", "example": "In 2017 seven States had Councils incl. J&K → 7 (six after Oct 2019) [mains-2017-paper2#83]"}
+],
+"confusions": [
+ {"a": "Prorogation", "b": "Adjournment / Recess", "remember": "Adjournment suspends a sitting; prorogation ends the session (bills survive, motions/notices lapse); recess = gap between prorogation and new session."},
+ {"a": "Prorogation", "b": "Dissolution of Lok Sabha", "remember": "Dissolution ends the House – bills pending in LS lapse; prorogation does not kill bills."},
+ {"a": "President's electoral college (Art 54)", "b": "VP's electoral college (Art 66)", "remember": "President: elected MPs + elected MLAs; VP: all MPs only."},
+ {"a": "Art 72 (President)", "b": "Art 161 (Governor)", "remember": "Only 72 covers death-sentence pardon and courts-martial."},
+ {"a": "Attorney General (Art 76)", "b": "Solicitor General / Advocate General (Art 165)", "remember": "AG = first law officer, constitutional, President's pleasure; SG statutory; Advocate General = State, Governor's pleasure."},
+ {"a": "Public Accounts Committee", "b": "Estimates Committee / CoPU", "remember": "PAC = watchdog on expenditure via CAG reports, opposition chair by convention; Estimates = economy in estimates; CoPU = PSUs (Krishna Menon, 1964)."},
+ {"a": "Question Hour", "b": "Zero Hour", "remember": "Question Hour = admitted questions with notice; Zero Hour = any urgent matter, no notice, Indian innovation."},
+ {"a": "Art 124 (SC strength by Parliament)", "b": "Art 216 (HC strength by President)", "remember": "Parliament by law raises SC judges; the President fixes HC strength."},
+ {"a": "Art 128 (retired SC judge)", "b": "Art 224A (retired HC judge)", "remember": "Both need the President's previous consent; 128 requested by CJI, 224A by HC Chief Justice."},
+ {"a": "SC judge age 65", "b": "HC judge age 62", "remember": "62 since 15th Amd 1963."},
+ {"a": "Art 75(1A) – 15% of Lok Sabha", "b": "Art 164(1A) – 15% of Assembly, minimum 12", "remember": "Minimum 12 applies only to States (91st Amd 2003)."},
+ {"a": "Art 168", "b": "Art 169 / 171", "remember": "168 lists legislatures; 169 creation/abolition of Councils (special-majority resolution + Act of Parliament); 171 composition."},
+ {"a": "Rajya Sabha retirement", "b": "Lok Sabha term", "remember": "RS permanent: one-third retire every second year; LS 5 years unless dissolved."},
+ {"a": "First Deputy Speaker (Ayyangar)", "b": "First Speaker (Mavalankar)", "remember": "Mavalankar first Speaker; Ananthasayanam Ayyangar first Deputy Speaker, Speaker from 1956."}
+],
+"anchors": [
+ "Art 54/55 President's election; Art 56 term 5 years; Art 57 re-election unlimited",
+ "Art 64 VP ex-officio Chairman RS; Art 66 election; Art 67(b) removal via RS",
+ "Art 72 pardon (President); Art 161 (Governor)",
+ "Art 75(2) pleasure of President; 75(3) collective responsibility to LS; 75(5) six months",
+ "Art 76 Attorney General – qualified as SC judge, audience in all courts",
+ "Art 77 all executive action in the name of the President",
+ "Art 85 – not more than 6 months between last sitting and first sitting of next session",
+ "Art 110(3) Speaker certifies money bill; Art 111 President cannot return it",
+ "Art 112 Annual Financial Statement",
+ "Art 118(4) – Speaker presides over joint sitting",
+ "Art 123 ordinance: 6 weeks after reassembly (max 6 months 6 weeks)",
+ "Art 169 Councils; Art 198 – 14 days for money bills",
+ "91st Amd 2003 – 15% cap; State minimum 12",
+ "99th Amd / NJAC struck down 16 Oct 2015 (Chelameswar dissent)",
+ "Art 217 – HC judge to 62; Art 233 – district judges by Governor with HC",
+ "Lok Sabha seats: UP 80, Maharashtra 48, WB 42; Meghalaya 2",
+ "AP Council: abolished 1985, revived 2007; AP Rajya Sabha 11, Telangana 7"
+],
+"checklist": [
+ "Which office or House does the Article name – not who acts in practice?",
+ "Elected only, or elected and nominated?",
+ "Match the number to its institution on the time-limit ladder (14 days / 6 weeks / 6 months).",
+ "Negative stem: mark each option T/F; the false one usually moves a power to the wrong authority.",
+ "Is the feature in the constitutional text or judge-made?",
+ "Count-type questions: answer for the exam year."
+]
+}

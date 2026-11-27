@@ -1,0 +1,72 @@
+{
+"section": "g2-M1B.3",
+"overview": "52 official Qs (2008, 2017, 2019, 2025). Two blocks carry it: constitutional bodies (18 – Finance Commission, CAG, ECI, UPSC, SC/ST commissions, 'which is constitutional') and Union-State relations (27 across legislative lists, legislative, administrative and financial relations). RTI, Lokpal/Lokayukta and NHRC give 7 together. Formats: one-liners on 'which List / which Article / who appoints', many negative stems, and 2025 statement-based and count questions.",
+"possibility": [
+ {"angle": "Distribution of legislative powers: the three Lists, residuary", "evidence": "11 Qs: 2008×2, 2017×4, 2019×3, 2025×2", "level": "Moderate historical recurrence", "what_they_ask": "which List holds a subject (education, planning, opium, banking, High Courts, mineral-rights tax); Art 248 residuary with Parliament; limits on Parliament (distribution of powers)."},
+ {"angle": "Distribution of executive powers", "evidence": "0 official Qs", "level": "Syllabus angle not yet asked", "what_they_ask": "natural targets: Art 73 (Union executive power extends to Union List matters) vs Art 162 (State), Art 258 (Union entrusting functions to States), Art 258A (States to Union)."},
+ {"angle": "Legislative relations: Parliament on State subjects, repugnancy", "evidence": "4 Qs: 2017×2, 2019, 2025", "level": "Moderate historical recurrence", "what_they_ask": "Art 249 (RS resolution 2/3 present and voting), 250 (emergency), 252 (two or more States), 253 (treaties, no consent needed); Concurrent vs State conflict; doctrine of paramountcy."},
+ {"angle": "Administrative relations: directions, All-India Services, co-operation", "evidence": "5 Qs: 2008, 2017×2, 2019×2", "level": "Moderate historical recurrence", "what_they_ask": "consequence of ignoring Union directions (Art 256/257 → 365 → 356); AIS vs Central services (IAS, IPS, IFoS only are AIS); removal of AIS officers by the Union; Art 263 Inter-State Council."},
+ {"angle": "Financial relations: Finance Commission shares, funds, taxes, loans", "evidence": "7 Qs: 2008, 2017×4, 2019, 2025", "level": "Moderate historical recurrence", "what_they_ask": "FC tax-share percentages (10th 29%, 14th 42%); who recommends distribution; Art 266 Consolidated Fund; Art 276 profession tax cap Rs 2,500; Art 293 loans to States; Art 354 during emergency."},
+ {"angle": "Constitutional bodies: FC, CAG, ECI, UPSC, SC/ST commissions, AG", "evidence": "18 Qs: 2008×4, 2017×6, 2019×3, 2025×5", "level": "Moderate historical recurrence", "what_they_ask": "constitutional vs statutory vs executive status; Article numbers (280, 148, 324, 315, 338, 350B); appointment by the President; terms (CAG 6 yrs/65); composition (FC chairman + 4; ECI 3); functions in 'all correct except' form; first chairpersons."},
+ {"angle": "Human Rights Commission", "evidence": "1 Q: 2025", "level": "Low historical recurrence", "what_they_ask": "year constituted (1993, PHRA 1993); natural neighbours: statutory status, chairperson a former CJI/SC judge, selection committee."},
+ {"angle": "Right to Information", "evidence": "3 Qs: 2008, 2019, 2025", "level": "Moderate historical recurrence", "what_they_ask": "predecessor law (Freedom of Information Act 2002); selection committee for State CIC (CM, LoP, a Cabinet Minister – no judge); objectives (transparency, accountability)."},
+ {"angle": "Lokpal and Lokayukta", "evidence": "3 Qs: 2019×2, 2025", "level": "Low historical recurrence", "what_they_ask": "Lokpal Act 2013 in force 16 Jan 2014; first State Lokayukta (APPSC key: Maharashtra); first AP Lokayukta (Justice A. Sambasiva Rao, 1983)."}
+],
+"traps": [
+ {"trap": "Swaps the List of a subject [Union / State / Concurrent]", "spot": "Subject that was moved (education) or sounds 'national' or 'local'", "fix": "Education → Concurrent since 42nd Amd 1976; economic and social planning → Concurrent; banking, opium, High Courts' organisation → Union; public health, agriculture, land, water → State; mineral-rights tax → State (Entry 50).", "pyq": "'Education is included in ___ List' → Concurrent [group2-2008-paper2#112]; 'not in the State list' → Higher education [prelims-2019#58]; High Courts → Union, mineral rights tax → State [mains-2025-paper1#104]"},
+ {"trap": "Gives a power reserved to the Rajya Sabha to the Lok Sabha", "spot": "Statement-based list of when Parliament can legislate on State List", "fix": "Art 249 resolution is passed only by the Rajya Sabha (2/3 present and voting).", "pyq": "'The Lok Sabha passes a resolution ... authorising Parliament' → the false statement [mains-2025-paper1#107]"},
+ {"trap": "Labels a statutory or executive body as constitutional", "spot": "'Which is not a constitutional body' / 'how many are constitutional'", "fix": "Constitutional: FC 280, CAG 148, ECI 324, UPSC 315, NCSC 338, NCST 338A, NCBC 338B (since 2018), Special Officer Linguistic Minorities 350B, Inter-State Council 263. Statutory: NHRC, NCM, CIC, Lokpal. Executive: Planning Commission, NITI Aayog.", "pyq": "Only Special Officer for Linguistic Minorities is constitutional → 1 [mains-2025-paper1#97]; Planning Commission → not constitutional [group2-2008-paper2#141]"},
+ {"trap": "Shifts the appointing authority", "spot": "Statement naming CJI, PM or Parliament as appointer", "fix": "President appoints the CEC/ECs, FC, UPSC members, CAG; Governor appoints State CIC on a CM-LoP-Minister committee.", "pyq": "'CEC is appointed by the Chief Justice' → false [mains-2025-paper1#96]; State CIC committee includes HC Chief Justice → false [mains-2025-paper1#102]"},
+ {"trap": "Gives a body a function it does not have", "spot": "'All correct except' on functions of FC or CAG", "fix": "FC only recommends (tax shares, grants principles, referred matters) – it keeps no accounts. CAG audits Union AND State accounts; it does not control the financial system.", "pyq": "'Maintains the income and expenditure details' → not an FC function [mains-2017-paper2#127]; CAG 'related to the Union government only' → wrong [mains-2017-paper2#113]"},
+ {"trap": "Plants a near Article number", "spot": "Options are consecutive Articles (290/280, 292/293)", "fix": "280 Finance Commission (290 is pension adjustments); 292 Union borrowing, 293 State borrowing and Union loans to States.", "pyq": "'Article 290 provides for the FC' → incorrect [mains-2025-paper1#122]; loans to States → Article 293 [mains-2025-paper2#19]"},
+ {"trap": "Reverses the direction of an emergency financial power", "spot": "'President can ... the transfer of finances' with reduce/cancel/increase", "fix": "Art 354: during National Emergency the President may reduce or cancel transfers to States – never 'increase' as an emergency power.", "pyq": "'Increase the transfer of Finances from Centre to States' → the exception [mains-2017-paper2#117]"},
+ {"trap": "Misplaces a service between All-India and Central", "spot": "IFS abbreviation; removal powers over AIS officers", "fix": "AIS = IAS, IPS, Indian Forest Service. Indian Foreign Service is a Central Service. AIS members are removable only by the Union.", "pyq": "Indian Foreign Service → Central Service [group2-2008-paper2#142]; AIS removal → only by the Union [mains-2017-paper2#98]"}
+],
+"techniques": [
+ {"name": "Status sort [constitutional / statutory / executive]", "how": "Before reading options, tag each body by origin: Article number? → constitutional; an Act? → statutory; a Cabinet resolution? → executive. Then count or eliminate.", "example": "NITI Aayog (resolution 2015) executive; NCM (1992 Act) and NHRC (1993 Act) statutory; Special Officer (Art 350B) constitutional → answer 1 [mains-2025-paper1#97]"},
+ {"name": "Escalation chain for Union directions", "how": "Remember the chain: Art 256/257 directions → non-compliance → Art 365 presumption → Art 356 President's Rule. Options jumping to National Emergency or police deployment fall.", "example": "State ignores Union administrative directions → Art 365 → 356 → 'President can declare a Constitutional Emergency in the State' [mains-2017-paper1#103]"},
+ {"name": "Finance Commission number line", "how": "Anchor the share by Commission: 10th 29% (gross revenues), 13th 32%, 14th 42%, 15th 41%. Match the Commission in the stem to the line.", "example": "14th FC → 42%; 32.5% and 29.5% are distractors near the 13th and 10th figures → 42% [prelims-2017#101]"},
+ {"name": "Article 249–253 grid", "how": "For 'Parliament on State List' multi-picks, tick: 249 RS resolution, 250 emergency, 252 two or more States consent, 253 treaty (no consent). Any statement changing the House or adding consent is false.", "example": "A (two or more States), B (RS 2/3), C (international agreements) true; D (Lok Sabha resolution) false → A, B and C only [mains-2025-paper1#107]"},
+ {"name": "Assertion-reason: status vs function", "how": "When R gives a body's status and A gives its function, ask whether status causes the function. Usually the function flows from a separate Article.", "example": "UPSC is central recruiting agency (A) and an independent constitutional body (R): both true, but recruitment flows from Art 320 → R is not the explanation [mains-2025-paper1#109]"}
+],
+"confusions": [
+ {"a": "Art 249 (RS resolution, national interest)", "b": "Art 252 (two or more States consent)", "remember": "249 = Rajya Sabha decides; 252 = States request, law applies only to consenting States."},
+ {"a": "Art 253 (treaty laws)", "b": "Art 252", "remember": "253 needs no State consent at all."},
+ {"a": "Art 248 residuary (Parliament)", "b": "USA/Australia residuary with States", "remember": "India follows Canada: residuary with the Centre; Entry 97 List I."},
+ {"a": "Art 280 (Finance Commission)", "b": "Art 290 / 293", "remember": "280 FC; 290 pension adjustments; 293 State borrowing and Union loans to States."},
+ {"a": "Art 266 Consolidated Fund", "b": "Art 267 Contingency Fund / Public Account", "remember": "All revenues and loans → CFI; other public money → Public Account; Contingency Fund = imprest at the President's disposal."},
+ {"a": "Attorney General (Art 76)", "b": "Advocate General (Art 165)", "remember": "Union highest law officer vs its State counterpart."},
+ {"a": "Indian Forest Service (AIS)", "b": "Indian Foreign Service (Central)", "remember": "Only IAS, IPS, IFoS are All-India Services."},
+ {"a": "NCSC Art 338 / NCST Art 338A", "b": "NCBC Art 338B", "remember": "338A split by 89th Amd 2003; 338B by 102nd Amd 2018 – NCBC was statutory in 2017."},
+ {"a": "Planning Commission / NITI Aayog", "b": "Finance Commission", "remember": "Planning/NITI are executive bodies; FC is constitutional (Art 280), quasi-judicial, advisory."},
+ {"a": "CAG", "b": "President / VP / MP terms", "remember": "CAG 6 years or 65 (longest tenure); others 5 years."},
+ {"a": "Freedom of Information Act 2002", "b": "RTI Act 2005", "remember": "2005 Act repealed the 2002 Act."},
+ {"a": "Lokpal Act passed/assent (Dec 2013 / 1 Jan 2014)", "b": "In force 16 Jan 2014", "remember": "Bill passed Dec 2013, assent 1 Jan 2014, commencement 16 Jan 2014."},
+ {"a": "NHRC (1993, statutory)", "b": "NCM (1992 Act, statutory)", "remember": "Neither is constitutional."},
+ {"a": "Doctrine of paramountcy (Art 254)", "b": "Residuary power (Art 248)", "remember": "Paramountcy settles a conflict on the same Concurrent matter in favour of the Union law."}
+],
+"anchors": [
+ "Seventh Schedule: List I Union, List II State, List III Concurrent",
+ "42nd Amd 1976 moved education (and forests, weights and measures etc.) to Concurrent",
+ "Art 246 Lists; Art 248 residuary with Parliament",
+ "Arts 249, 250, 252, 253 – Parliament on State subjects",
+ "Art 256–257 directions; Art 263 Inter-State Council; Art 365 non-compliance",
+ "Art 266 CFI; Art 276 profession tax cap Rs 2,500; Art 280 FC; Art 293 loans to States; Art 354 emergency finance",
+ "FC tax share: 10th 29%, 14th 42%, 15th 41%",
+ "Art 148 CAG – 6 years / 65, salary of SC judge",
+ "Art 315–316 UPSC – members appointed by the President",
+ "Art 324 ECI – three members since 1993, equal powers, majority decisions",
+ "Art 338 NCSC, 338A NCST, 338B NCBC, 350B Special Officer for Linguistic Minorities",
+ "NHRC constituted 12 Oct 1993",
+ "RTI 2005 replaced FoI Act 2002; State CIC committee: CM, LoP, a Cabinet Minister",
+ "Lokpal Act 2013 in force 16 Jan 2014; AP Lokayukta 1983 (Justice A. Sambasiva Rao)"
+],
+"checklist": [
+ "Subject question: is it a moved subject (Concurrent since 1976) or a classic Union/State entry?",
+ "Body question: tag constitutional / statutory / executive by its Article or Act.",
+ "Who appoints? President (Union bodies), Governor (State bodies) – never CJI or Parliament alone.",
+ "Which House? Art 249 power is the Rajya Sabha's.",
+ "Near-number options (280/290, 292/293): recall the exact Article.",
+ "Negative stem: the false option usually widens or reverses a body's function."
+]
+}

@@ -20,7 +20,8 @@ def frac(n, d):
 
 
 def cite(t):
-    """[question id] -> readable 'year · Qn' link-free reference"""
+    """[question id] -> readable 'year · Qn' link-free reference; a leading '[tag]' (checker workaround) is dropped"""
+    t = re.sub(r"^\[[^\]#]{1,40}\]\s*", "", str(t or ""))
     def r(m):
         qid = m.group(1)
         row = con.execute("SELECT p.year, p.stage, q.qno FROM question q JOIN paper p ON p.id=q.paper_id WHERE q.id=?", (qid,)).fetchone()
