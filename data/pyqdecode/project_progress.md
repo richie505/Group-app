@@ -11,6 +11,8 @@ Approved 2026-11-27: fetch official keys; include ALL papers (G2 2008/2012 too; 
       sources (G1 1983-2004, G2 2000-2012, undated PYQ books); 3,491 duplicates skipped. App keys, not official;
       reported separately from official-paper evidence in every count.
 - [ ] Stage 2b: restore options of G2 Mains 2019 (432 Qs) from the bilingual booklets
-- [ ] Stage 2c: check every stored key against the APPSC documents (key_check column)
+- [x] Stage 2c: keys checked (keycheck_g1/g2.jsonl, applied by tools/pyqdecode_keys.py). G1: 530 match, 9 deleted,
+      1 changed by APPSC final key (2023 P2 Q63); G2: all APPSC-document keys match; 27 conflicts with the third-party
+      2008 compilation kept as CONFLICT notes for fact verification.
 - [ ] Stage 3: map G1 questions to the 237 G1 leaves; re-check G2 mapping
 - [ ] Stage 4-8 as in AUDIT_AND_PLAN.md
