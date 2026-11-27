@@ -1,0 +1,1255 @@
+{
+"exam": "Group 2",
+"section": "M2B.2",
+"title": "M2B Mains · Paper II · Section B · Science and Technology (75M) › M2B.2 Energy Management",
+"syllabus_leaves": [
+{
+"leaf": "M2B.2.1",
+"wording": "Policy and Projections: Installed Energy Capacities and Demand in India",
+"official_Q": 1,
+"years": [
+2017
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M2B.2.1/1",
+"wording": "Installed energy capacities",
+"official_Q": 2,
+"years": [
+2008,
+2017
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M2B.2.1/2",
+"wording": "Energy demand in India",
+"official_Q": 1,
+"years": [
+2025
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M2B.2.2",
+"wording": "National Energy Policy",
+"official_Q": 1,
+"years": [
+2017
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M2B.2.3",
+"wording": "National Policy on Biofuels",
+"official_Q": 2,
+"years": [
+2024,
+2025
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M2B.2.4",
+"wording": "Bharat Stage Norms",
+"official_Q": 0,
+"years": [],
+"recurrence": "Insufficient evidence"
+},
+{
+"leaf": "M2B.2.5",
+"wording": "Non-Renewable and Renewable Energy: Sources and Installed Capacities in India",
+"official_Q": 0,
+"years": [],
+"recurrence": "Insufficient evidence"
+},
+{
+"leaf": "M2B.2.5/1",
+"wording": "Non-renewable energy – sources and capacities",
+"official_Q": 1,
+"years": [
+2008
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M2B.2.5/2",
+"wording": "Renewable energy – sources and capacities",
+"official_Q": 8,
+"years": [
+2008,
+2012,
+2017,
+2019,
+2025
+],
+"recurrence": "High historical recurrence"
+},
+{
+"leaf": "M2B.2.6",
+"wording": "New Initiatives and Recent Programmes, Schemes and Achievements in India’s Renewable Energy Sector",
+"official_Q": 3,
+"years": [
+2025
+],
+"recurrence": "Low historical recurrence"
+}
+],
+"official_questions": [
+{
+"id": "group2-2008-paper1#2",
+"year": 2008,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M2B.2.5/2",
+"format": "one-liner",
+"stem": "A photoelectric cell converts",
+"options": [
+"electrical energy into heat energy",
+"light energy into sound energy",
+"electrical energy into light energy",
+"light energy into electrical energy"
+],
+"key": "light energy into electrical energy",
+"deleted": 0,
+"core_fact": "A photoelectric (photovoltaic) cell converts light energy into electrical energy via the photoelectric/photovoltaic effect.",
+"statements": [
+{
+"l": "opt1",
+"t": "A photoelectric cell converts electrical energy into heat energy.",
+"v": "F",
+"m": "direction reversal",
+"d": "electrical energy into heat energy",
+"fact": "That is a heating element."
+},
+{
+"l": "opt2",
+"t": "A photoelectric cell converts light energy into sound energy.",
+"v": "F",
+"m": "fabricated",
+"d": "light energy into sound energy",
+"fact": "Output is electrical, not sound."
+},
+{
+"l": "opt3",
+"t": "A photoelectric cell converts electrical energy into light energy.",
+"v": "F",
+"m": "direction reversal",
+"d": "electrical energy into light energy",
+"fact": "That is a lamp/LED."
+},
+{
+"l": "opt4",
+"t": "A photoelectric cell converts light energy into electrical energy.",
+"v": "T",
+"m": null,
+"d": "light energy into electrical energy",
+"fact": null
+}
+],
+"rule": "Photocell/solar cell: light -> electricity; LED: electricity -> light.",
+"key_note": ""
+},
+{
+"id": "group2-2008-paper1#21",
+"year": 2008,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M2B.2.5/1",
+"format": "chronology/sequence",
+"stem": "In oil wells, oil, water and gas are present in the following ascending order :",
+"options": [
+"gas, oil, water",
+"oil, gas, water",
+"water, oil, gas",
+"water, gas, oil"
+],
+"key": "water, oil, gas",
+"deleted": 0,
+"core_fact": "In a petroleum trap, water lies at the bottom, oil above it and gas at the top (by density) – ascending order water, oil, gas.",
+"statements": [
+{
+"l": "opt1",
+"t": "In oil wells, oil, water and gas are present in the ascending order: gas, oil, water.",
+"v": "F",
+"m": "direction reversal",
+"d": "gas, oil, water",
+"fact": "That is the descending order."
+},
+{
+"l": "opt2",
+"t": "In oil wells, oil, water and gas are present in the ascending order: oil, gas, water.",
+"v": "F",
+"m": "wrong pair",
+"d": "oil, gas, water",
+"fact": "Water is at the bottom."
+},
+{
+"l": "opt3",
+"t": "In oil wells, oil, water and gas are present in the ascending order: water, oil, gas.",
+"v": "T",
+"m": null,
+"d": "water, oil, gas",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "In oil wells, oil, water and gas are present in the ascending order: water, gas, oil.",
+"v": "F",
+"m": "wrong pair",
+"d": "water, gas, oil",
+"fact": "Gas lies above oil."
+}
+],
+"rule": "Oil trap: gas cap / oil / water (top to bottom).",
+"key_note": ""
+},
+{
+"id": "group2-2008-paper3#60",
+"year": 2008,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M2B.2.1/1",
+"format": "one-liner",
+"stem": "Out of the various sources of power, the government relies more on",
+"options": [
+"Atomic power",
+"Thermal power",
+"Wind power",
+"Hydro power"
+],
+"key": "Thermal power",
+"deleted": 0,
+"core_fact": "Thermal (mainly coal) power dominates India's installed capacity and generation (~65% capacity in 2008; still the largest share in the 2020s though renewables now exceed 40% of capacity).",
+"statements": [
+{
+"l": "opt1",
+"t": "Among sources of power, the government relies more on Atomic power.",
+"v": "F",
+"m": "comparison reversal",
+"d": "Atomic power",
+"fact": "Nuclear is a small share."
+},
+{
+"l": "opt2",
+"t": "Among sources of power, the government relies more on Thermal power.",
+"v": "T",
+"m": null,
+"d": "Thermal power",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Among sources of power, the government relies more on Wind power.",
+"v": "F",
+"m": "comparison reversal",
+"d": "Wind power",
+"fact": "Wind was small in 2008."
+},
+{
+"l": "opt4",
+"t": "Among sources of power, the government relies more on Hydro power.",
+"v": "F",
+"m": "comparison reversal",
+"d": "Hydro power",
+"fact": "Hydro was second."
+}
+],
+"rule": "India power mix: coal-based thermal largest; non-fossil capacity crossed 50% in 2025 but generation remains coal-heavy.",
+"key_note": ""
+},
+{
+"id": "group2-2012-paper1#34",
+"year": 2012,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M2B.2.5/2",
+"format": "one-liner",
+"stem": "The gas present in gobar gas is",
+"options": [
+"Butane",
+"Propane",
+"Methane",
+"Hexane"
+],
+"key": "Methane",
+"deleted": 0,
+"core_fact": "Gobar gas (biogas) from anaerobic digestion of dung is mostly methane (~50-75%) with CO2.",
+"statements": [
+{
+"l": "opt1",
+"t": "The gas present in gobar gas is Butane.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Butane",
+"fact": "Butane is in LPG."
+},
+{
+"l": "opt2",
+"t": "The gas present in gobar gas is Propane.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Propane",
+"fact": "Propane is in LPG."
+},
+{
+"l": "opt3",
+"t": "The gas present in gobar gas is Methane.",
+"v": "T",
+"m": null,
+"d": "Methane",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The gas present in gobar gas is Hexane.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Hexane",
+"fact": "Not in biogas."
+}
+],
+"rule": "Biogas/CNG = methane; LPG = butane + propane.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper1#120",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M2B.2.2",
+"format": "one-liner",
+"stem": "How much percent of the total outstanding debt of DISCOMs is covered till date under the UDAY Scheme?",
+"options": [
+"86 Per cent",
+"90 Per cent",
+"95 Per cent",
+"97 Per cent"
+],
+"key": "97 Per cent",
+"deleted": 0,
+"core_fact": "Under UDAY (Nov 2015) states took over 75% of DISCOM debt; the key says about 97% of outstanding DISCOM debt was covered (2017).",
+"statements": [
+{
+"l": "opt1",
+"t": "86 Per cent of the total outstanding debt of DISCOMs is covered till date (2017) under UDAY.",
+"v": "F",
+"m": "numerical alteration",
+"d": "86 Per cent",
+"fact": "Key: 97%."
+},
+{
+"l": "opt2",
+"t": "90 Per cent of the total outstanding debt of DISCOMs is covered till date (2017) under UDAY.",
+"v": "F",
+"m": "numerical alteration",
+"d": "90 Per cent",
+"fact": "Key: 97%."
+},
+{
+"l": "opt3",
+"t": "95 Per cent of the total outstanding debt of DISCOMs is covered till date (2017) under UDAY.",
+"v": "F",
+"m": "numerical alteration",
+"d": "95 Per cent",
+"fact": "Key: 97%."
+},
+{
+"l": "opt4",
+"t": "97 Per cent of the total outstanding debt of DISCOMs is covered till date (2017) under UDAY.",
+"v": "T",
+"m": null,
+"d": "97 Per cent",
+"fact": null
+}
+],
+"rule": "UDAY: states take over 75% of DISCOM debt (50% in 2015-16, 25% in 2016-17); coverage figures are time-stamped.",
+"key_note": "Keep the key. Ministry of Power data (2017) showed bonds of about Rs 2.32 lakh crore against about Rs 2.69 lakh crore debt (≈86%); 97% probably refers to the share of debt of states that joined UDAY."
+},
+{
+"id": "mains-2017-paper1#49",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M2B.2.5/2",
+"format": "one-liner",
+"stem": "Puga valley identified b y the Geological Survey of India has as the most promising field for geothermal power generation is located in the following region",
+"options": [
+"Shivaliks",
+"Garhwal",
+"Ladakh",
+"Malwa"
+],
+"key": "Ladakh",
+"deleted": 0,
+"core_fact": "Puga Valley in Ladakh is the most promising geothermal field identified by GSI; ONGC began a pilot geothermal project there (2021-22).",
+"statements": [
+{
+"l": "opt1",
+"t": "The Puga valley geothermal field is located in Shivaliks.",
+"v": "F",
+"m": "location substitution",
+"d": "Shivaliks",
+"fact": "Puga is in Ladakh."
+},
+{
+"l": "opt2",
+"t": "The Puga valley geothermal field is located in Garhwal.",
+"v": "F",
+"m": "location substitution",
+"d": "Garhwal",
+"fact": "Puga is in Ladakh."
+},
+{
+"l": "opt3",
+"t": "The Puga valley geothermal field is located in Ladakh.",
+"v": "T",
+"m": null,
+"d": "Ladakh",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The Puga valley geothermal field is located in Malwa.",
+"v": "F",
+"m": "location substitution",
+"d": "Malwa",
+"fact": "Puga is in Ladakh."
+}
+],
+"rule": "Geothermal: Puga & Chumathang (Ladakh), Manikaran (HP), Tattapani (Chhattisgarh).",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper3#112",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M2B.2.1/1",
+"format": "one-liner",
+"stem": "Currently, the power generation in Andhra Pradesh as contributed by AP GENCO, private sources and Central share are in the ratio of",
+"options": [
+"41:47:12",
+"28:32:40",
+"40:50:10",
+"39:41:20"
+],
+"key": "41:47:12",
+"deleted": 0,
+"core_fact": "Per APPSC key, AP's power generation share was APGENCO 41 : private 47 : central 12 (c. 2016-17).",
+"statements": [
+{
+"l": "opt1",
+"t": "Power generation in AP by APGENCO, private sources and central share is in the ratio 41:47:12.",
+"v": "T",
+"m": null,
+"d": "41:47:12",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Power generation in AP by APGENCO, private sources and central share is in the ratio 28:32:40.",
+"v": "F",
+"m": "numerical alteration",
+"d": "28:32:40",
+"fact": "41:47:12 (per key)."
+},
+{
+"l": "opt3",
+"t": "Power generation in AP by APGENCO, private sources and central share is in the ratio 40:50:10.",
+"v": "F",
+"m": "numerical alteration",
+"d": "40:50:10",
+"fact": "41:47:12 (per key)."
+},
+{
+"l": "opt4",
+"t": "Power generation in AP by APGENCO, private sources and central share is in the ratio 39:41:20.",
+"v": "F",
+"m": "numerical alteration",
+"d": "39:41:20",
+"fact": "41:47:12 (per key)."
+}
+],
+"rule": "Ratio questions: private share overtook APGENCO after 2014 in AP.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper3#36",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M2B.2.1",
+"format": "negative one-liner",
+"stem": "Which of the following is not a problem for the electricity sector in India?",
+"options": [
+"cost recovery in power distribution",
+"alarming rise in commercial losses of SEB S",
+"the autonomy that state government enjoys in respect of power generation and distribution",
+"delays in installing and commissioning of new projects"
+],
+"key": "the autonomy that state government enjoys in respect of power generation and distribution",
+"deleted": 0,
+"core_fact": "Problems: poor cost recovery, rising AT&C/commercial losses of SEBs/DISCOMs, delays in projects; state autonomy in power (Concurrent List) is not counted a problem.",
+"statements": [
+{
+"l": "opt1",
+"t": "cost recovery in power distribution is not a problem for the electricity sector in India.",
+"v": "F",
+"m": "exception insertion",
+"d": "cost recovery in power distribution",
+"fact": "Cost recovery is a problem."
+},
+{
+"l": "opt2",
+"t": "alarming rise in commercial losses of SEB S is not a problem for the electricity sector in India.",
+"v": "F",
+"m": "exception insertion",
+"d": "alarming rise in commercial losses of SEB S",
+"fact": "Commercial losses are a problem."
+},
+{
+"l": "opt3",
+"t": "the autonomy that state government enjoys in respect of power generation and distribution is not a problem for the electricity sector in India.",
+"v": "T",
+"m": null,
+"d": "the autonomy that state government enjoys in respect of power generation and distribution",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "delays in installing and commissioning of new projects is not a problem for the electricity sector in India.",
+"v": "F",
+"m": "exception insertion",
+"d": "delays in installing and commissioning of new projects",
+"fact": "Project delays are a problem."
+}
+],
+"rule": "Power-sector problems: losses, tariffs, delays – not federal autonomy.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper3#37",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M2B.2.5/2",
+"format": "one-liner",
+"stem": "The most important non-conventional energy source for India is",
+"options": [
+"solar energy",
+"wind power",
+"bio-gas",
+"geo-thermal energy"
+],
+"key": "wind power",
+"deleted": 0,
+"core_fact": "In 2017 wind had the largest installed renewable capacity in India (≈32 GW vs solar ≈12-17 GW); solar overtook wind around 2020.",
+"statements": [
+{
+"l": "opt1",
+"t": "The most important non-conventional energy source for India (2017) is solar energy.",
+"v": "F",
+"m": "chronological displacement",
+"d": "solar energy",
+"fact": "Wind led in 2017."
+},
+{
+"l": "opt2",
+"t": "The most important non-conventional energy source for India (2017) is wind power.",
+"v": "T",
+"m": null,
+"d": "wind power",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The most important non-conventional energy source for India (2017) is bio-gas.",
+"v": "F",
+"m": "comparison reversal",
+"d": "bio-gas",
+"fact": "Wind."
+},
+{
+"l": "opt4",
+"t": "The most important non-conventional energy source for India (2017) is geo-thermal energy.",
+"v": "F",
+"m": "comparison reversal",
+"d": "geo-thermal energy",
+"fact": "Wind."
+}
+],
+"rule": "Renewable leader is time-stamped: wind (till ~2019-20), solar (after).",
+"key_note": "The earlier draft had marked solar true; the final key and 2017 MNRE data give wind."
+},
+{
+"id": "prelims-2019#23",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "M2B.2.5/2",
+"format": "one-liner",
+"stem": "Which Smart City in India has become the first to run on 100% renewable energy during the day time ?",
+"options": [
+"Surat",
+"Diu",
+"Bhubaneshwar",
+"Visakhapatnam"
+],
+"key": "Diu",
+"deleted": 0,
+"core_fact": "Diu became the first Indian (smart) city to run on 100% renewable (solar) energy during the daytime (2018-19).",
+"statements": [
+{
+"l": "opt1",
+"t": "Surat became the first smart city in India to run on 100% renewable energy during day time.",
+"v": "F",
+"m": "location substitution",
+"d": "Surat",
+"fact": "Diu was the first city running on 100% renewable energy by day."
+},
+{
+"l": "opt2",
+"t": "Diu became the first smart city in India to run on 100% renewable energy during day time.",
+"v": "T",
+"m": null,
+"d": "Diu",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Bhubaneshwar became the first smart city in India to run on 100% renewable energy during day time.",
+"v": "F",
+"m": "location substitution",
+"d": "Bhubaneshwar",
+"fact": "Diu was the first city running on 100% renewable energy by day."
+},
+{
+"l": "opt4",
+"t": "Visakhapatnam became the first smart city in India to run on 100% renewable energy during day time.",
+"v": "F",
+"m": "location substitution",
+"d": "Visakhapatnam",
+"fact": "Diu was the first city running on 100% renewable energy by day."
+}
+],
+"rule": "Firsts: Diu - 100% RE daytime city; Kochi - first fully solar airport; Modhera - solar village.",
+"key_note": ""
+},
+{
+"id": "prelims-2024#102",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "M2B.2.3",
+"format": "multiple-correct",
+"stem": "The Global Biofuel Alliance (GBA) was launched on 9th September, 2023 during the G20 Summit. Which among the following non-G20 countries are supporting the Global Biofuel Alliance (GBA) ?\nI. Paraguay\nII. Sri Lanka\nIII. Guyana\nIV. Seychelles\nV. Chile\nVI. Finland",
+"options": [
+"I, II, III, IV and V",
+"II, III, IV, V and VI",
+"I, III, IV, V and VI",
+"I, II, III, IV and VI"
+],
+"key": "I, II, III, IV and VI",
+"deleted": 0,
+"core_fact": "The GBA, launched at the New Delhi G20 (9 Sep 2023) by India, US, Brazil and others, was supported by non-G20 countries including Paraguay, Sri Lanka, Guyana, Seychelles, Finland, Bangladesh, Singapore, Mauritius, UAE, Iceland, Kenya, Uganda; Chile was not among them (per key).",
+"statements": [
+{
+"l": "I",
+"t": "Paraguay is a non-G20 country supporting the Global Biofuel Alliance.",
+"v": "T",
+"m": null,
+"d": "Paraguay",
+"fact": null
+},
+{
+"l": "II",
+"t": "Sri Lanka is a non-G20 country supporting the Global Biofuel Alliance.",
+"v": "T",
+"m": null,
+"d": "Sri Lanka",
+"fact": null
+},
+{
+"l": "III",
+"t": "Guyana is a non-G20 country supporting the Global Biofuel Alliance.",
+"v": "T",
+"m": null,
+"d": "Guyana",
+"fact": null
+},
+{
+"l": "IV",
+"t": "Seychelles is a non-G20 country supporting the Global Biofuel Alliance.",
+"v": "T",
+"m": null,
+"d": "Seychelles",
+"fact": null
+},
+{
+"l": "V",
+"t": "Chile is a non-G20 country supporting the Global Biofuel Alliance.",
+"v": "F",
+"m": "true core + false extra",
+"d": "Chile",
+"fact": "Chile was not among the GBA's non-G20 supporters at launch."
+},
+{
+"l": "VI",
+"t": "Finland is a non-G20 country supporting the Global Biofuel Alliance.",
+"v": "T",
+"m": null,
+"d": "Finland",
+"fact": null
+}
+],
+"rule": "GBA founders: India, US, Brazil (+Argentina, Italy, S. Africa...); India-led biofuel push (E20).",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper2#115",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M2B.2.6",
+"format": "multiple-correct",
+"stem": "The mission of the Ministry of New and Renewable Energy (MNRE) is\na. Energy Security\nb. Increase in the share of clean power\nc. Energy availability and access\nd. Energy affordability\ne. Energy equity",
+"options": [
+"Only a, b and d",
+"Only a, c, d and e",
+"All of the above",
+"None of the above"
+],
+"key": "All of the above",
+"deleted": 0,
+"core_fact": "MNRE's mission covers energy security, increased share of clean power, energy availability and access, affordability and equity.",
+"statements": [
+{
+"l": "a",
+"t": "Energy security is part of MNRE's mission.",
+"v": "T",
+"m": null,
+"d": "Energy security",
+"fact": null
+},
+{
+"l": "b",
+"t": "Increase in the share of clean power is part of MNRE's mission.",
+"v": "T",
+"m": null,
+"d": "Increase in the share of clean power",
+"fact": null
+},
+{
+"l": "c",
+"t": "Energy availability and access is part of MNRE's mission.",
+"v": "T",
+"m": null,
+"d": "Energy availability and access",
+"fact": null
+},
+{
+"l": "d",
+"t": "Energy affordability is part of MNRE's mission.",
+"v": "T",
+"m": null,
+"d": "Energy affordability",
+"fact": null
+},
+{
+"l": "e",
+"t": "Energy equity is part of MNRE's mission.",
+"v": "T",
+"m": null,
+"d": "Energy equity",
+"fact": null
+}
+],
+"rule": "MNRE mission = security, clean share, access, affordability, equity.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper2#116",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M2B.2.5/2",
+"format": "one-liner",
+"stem": "India has the ________ largest installed wind power capacity in the world.",
+"options": [
+"Fourth",
+"Second",
+"Eighth",
+"Sixth"
+],
+"key": "Fourth",
+"deleted": 0,
+"core_fact": "India has the 4th largest installed wind capacity in the world (after China, USA, Germany) - about 50 GW in 2025.",
+"statements": [
+{
+"l": "opt1",
+"t": "India has the fourth largest installed wind power capacity in the world.",
+"v": "T",
+"m": null,
+"d": "Fourth",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "India has the second largest installed wind power capacity in the world.",
+"v": "F",
+"m": "numerical alteration",
+"d": "Second",
+"fact": "India is 4th (USA is 2nd)."
+},
+{
+"l": "opt3",
+"t": "India has the eighth largest installed wind power capacity in the world.",
+"v": "F",
+"m": "numerical alteration",
+"d": "Eighth",
+"fact": "India is 4th."
+},
+{
+"l": "opt4",
+"t": "India has the sixth largest installed wind power capacity in the world.",
+"v": "F",
+"m": "numerical alteration",
+"d": "Sixth",
+"fact": "India is 4th."
+}
+],
+"rule": "India: 4th wind, 3rd solar (2024), 4th overall RE.",
+"key_note": "Time-sensitive (2024-25 ranking)."
+},
+{
+"id": "mains-2025-paper2#132",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M2B.2.3",
+"format": "assertion-reason",
+"stem": "Assertion (A) : National Biofuel Coordination Committee needs to approve use of surplus food grains for production of ethanol for blending with petrol.\nReason (R) : Farmers are at risk of not getting appropriate price for their produce during the surplus production phase.",
+"options": [
+"(A) and (R) are correct and (R) is the correct explanation of (A)",
+"(A) and (R) are correct but (R) is not the correct explanation of (A)",
+"(A) is correct but (R) is not correct",
+"(A) is not correct but (R) is correct"
+],
+"key": "(A) and (R) are correct but (R) is not the correct explanation of (A)",
+"deleted": 0,
+"core_fact": "NPB 2018 allows surplus food grains to be converted to ethanol for blending only with NBCC approval (NBCC chaired by Petroleum Minister); the policy notes farmers risk low prices in surplus years.",
+"statements": [
+{
+"l": "A",
+"t": "National Biofuel Coordination Committee needs to approve use of surplus food grains for ethanol for blending with petrol.",
+"v": "T",
+"m": null,
+"d": "needs to approve",
+"fact": null
+},
+{
+"l": "R",
+"t": "Farmers are at risk of not getting appropriate price for their produce during the surplus production phase.",
+"v": "T",
+"m": null,
+"d": "surplus production phase",
+"fact": null
+},
+{
+"l": "R->A",
+"t": "(Farmers are at risk of not getting appropriate price for their produce during the surplus production phase) explains why (National Biofuel Coordination Committee needs to approve use of surplus food grains for ethanol for blending with petrol).",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "explanation",
+"fact": "R is the policy's reason for allowing surplus grain to ethanol, not for requiring NBCC approval (per key)."
+}
+],
+"rule": "NPB 2018: NBCC approves surplus grain ethanol; targets E20 (advanced to 2025-26).",
+"key_note": "Arguable: NPB states R as the reason for allowing surplus grains to ethanol; key (R not explanation) kept."
+},
+{
+"id": "mains-2025-paper2#133",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M2B.2.5/2",
+"format": "matching",
+"stem": "Match List - I with List - II and choose the correct answer using the codes given below. (Common codes for English and Telugu Versions)\nList - I (Solar Park) / List - II (Capacity in MW)\na. Hybrid Solar Wind Park Ramagiri - I. 1000\nb. Ananthapuram-I Solar Park - II. 160\nc. Kurnool Solar Park - III. 1500\nd. Ananthapuram-II Solar Park - IV. 500",
+"options": [
+"a-II, b-III, c-IV, d-I",
+"a-I, b-II, c-III, d-IV",
+"a-IV, b-II, c-III, d-I",
+"a-II, b-III, c-I, d-IV"
+],
+"key": "a-II, b-III, c-I, d-IV",
+"deleted": 0,
+"core_fact": "Ramagiri hybrid solar-wind park 160 MW; Ananthapuram-I (NP Kunta) 1500 MW; Kurnool Ultra Mega Solar Park 1000 MW; Ananthapuram-II (Talaricheruvu) 500 MW (per key).",
+"statements": [
+{
+"l": "a-II",
+"t": "The capacity of Hybrid Solar Wind Park Ramagiri is 160 MW.",
+"v": "T",
+"m": null,
+"d": "160 MW",
+"fact": null
+},
+{
+"l": "b-III",
+"t": "The capacity of Ananthapuram-I Solar Park is 1500 MW.",
+"v": "T",
+"m": null,
+"d": "1500 MW",
+"fact": null
+},
+{
+"l": "c-I",
+"t": "The capacity of Kurnool Solar Park is 1000 MW.",
+"v": "T",
+"m": null,
+"d": "1000 MW",
+"fact": null
+},
+{
+"l": "d-IV",
+"t": "The capacity of Ananthapuram-II Solar Park is 500 MW.",
+"v": "T",
+"m": null,
+"d": "500 MW",
+"fact": null
+},
+{
+"l": "c-IV",
+"t": "The capacity of Kurnool Solar Park is 500 MW.",
+"v": "F",
+"m": "numerical alteration",
+"d": "500 MW",
+"fact": "Kurnool Solar Park matches 1000 MW; 500 MW belongs to Ananthapuram-II Solar Park."
+},
+{
+"l": "d-I",
+"t": "The capacity of Ananthapuram-II Solar Park is 1000 MW.",
+"v": "F",
+"m": "numerical alteration",
+"d": "1000 MW",
+"fact": "Ananthapuram-II Solar Park matches 500 MW; 1000 MW belongs to Kurnool Solar Park."
+},
+{
+"l": "a-I",
+"t": "The capacity of Hybrid Solar Wind Park Ramagiri is 1000 MW.",
+"v": "F",
+"m": "numerical alteration",
+"d": "1000 MW",
+"fact": "Hybrid Solar Wind Park Ramagiri matches 160 MW; 1000 MW belongs to Kurnool Solar Park."
+},
+{
+"l": "b-II",
+"t": "The capacity of Ananthapuram-I Solar Park is 160 MW.",
+"v": "F",
+"m": "numerical alteration",
+"d": "160 MW",
+"fact": "Ananthapuram-I Solar Park matches 1500 MW; 160 MW belongs to Hybrid Solar Wind Park Ramagiri."
+},
+{
+"l": "c-III",
+"t": "The capacity of Kurnool Solar Park is 1500 MW.",
+"v": "F",
+"m": "numerical alteration",
+"d": "1500 MW",
+"fact": "Kurnool Solar Park matches 1000 MW; 1500 MW belongs to Ananthapuram-I Solar Park."
+},
+{
+"l": "a-IV",
+"t": "The capacity of Hybrid Solar Wind Park Ramagiri is 500 MW.",
+"v": "F",
+"m": "numerical alteration",
+"d": "500 MW",
+"fact": "Hybrid Solar Wind Park Ramagiri matches 160 MW; 500 MW belongs to Ananthapuram-II Solar Park."
+}
+],
+"rule": "AP parks: NP Kunta 1500 > Kurnool 1000 > Ananthapuram-II 500 > Ramagiri hybrid 160.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper2#134",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M2B.2.6",
+"format": "negative one-liner",
+"stem": "Project that is not associated with International Solar Alliance (ISA).",
+"options": [
+"ITEC",
+"ISTARC",
+"OSOWOG",
+"KUSUM"
+],
+"key": "KUSUM",
+"deleted": 0,
+"core_fact": "ISA (2015, HQ Gurugram) initiatives: OSOWOG (One Sun One World One Grid), ISTAR-C training centres, capacity building via India's ITEC; PM-KUSUM is a domestic MNRE scheme (2019) for solar pumps.",
+"statements": [
+{
+"l": "opt1",
+"t": "ITEC is not associated with the International Solar Alliance.",
+"v": "F",
+"m": "true statement in a NOT-question (distractor)",
+"d": "ITEC",
+"fact": "ISA-ITEC courses train member-country officials."
+},
+{
+"l": "opt2",
+"t": "ISTAR-C is not associated with the International Solar Alliance.",
+"v": "F",
+"m": "true statement in a NOT-question (distractor)",
+"d": "ISTARC",
+"fact": "ISTAR-C is an ISA initiative."
+},
+{
+"l": "opt3",
+"t": "OSOWOG is not associated with the International Solar Alliance.",
+"v": "F",
+"m": "true statement in a NOT-question (distractor)",
+"d": "OSOWOG",
+"fact": "OSOWOG is promoted through ISA."
+},
+{
+"l": "opt4",
+"t": "KUSUM is not associated with the International Solar Alliance.",
+"v": "T",
+"m": null,
+"d": "KUSUM",
+"fact": null
+}
+],
+"rule": "ISA: OSOWOG, ISTAR-C, SolarX, STAR-C; India: KUSUM, rooftop, PM Surya Ghar.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper2#135",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M2B.2.5/2",
+"format": "one-liner",
+"stem": "State which is the largest producer of wind energy in India",
+"options": [
+"Andhra Pradesh",
+"Gujarat",
+"Tamil Nadu",
+"Karnataka"
+],
+"key": "Gujarat",
+"deleted": 0,
+"core_fact": "Gujarat has had India's largest installed wind capacity since 2023-24 (about 12+ GW by 2025), overtaking Tamil Nadu; Karnataka, Maharashtra, Rajasthan, AP follow.",
+"statements": [
+{
+"l": "opt1",
+"t": "Andhra Pradesh is the largest producer of wind energy in India.",
+"v": "F",
+"m": "location substitution",
+"d": "Andhra Pradesh",
+"fact": "Gujarat leads (AP ~4 GW)."
+},
+{
+"l": "opt2",
+"t": "Gujarat is the largest producer of wind energy in India.",
+"v": "T",
+"m": null,
+"d": "Gujarat",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Tamil Nadu is the largest producer of wind energy in India.",
+"v": "F",
+"m": "chronological displacement",
+"d": "Tamil Nadu",
+"fact": "TN led until about 2023; Gujarat now leads."
+},
+{
+"l": "opt4",
+"t": "Karnataka is the largest producer of wind energy in India.",
+"v": "F",
+"m": "location substitution",
+"d": "Karnataka",
+"fact": "Gujarat leads."
+}
+],
+"rule": "Wind leader: Gujarat (since 2023-24), earlier Tamil Nadu; offshore potential: Gujarat & TN.",
+"key_note": "Time-sensitive: before 2023 the answer was Tamil Nadu; TN may still lead some generation years."
+},
+{
+"id": "mains-2025-paper2#41",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M2B.2.1/2",
+"format": "one-liner",
+"stem": "What challenges does India face in managing its oil consumption ?",
+"options": [
+"Lack of domestic energy demand",
+"Consistent global oil prices",
+"Supply chain disruptions and fluctuating global oil prices",
+"Abundant oil reserves"
+],
+"key": "Supply chain disruptions and fluctuating global oil prices",
+"deleted": 0,
+"core_fact": "India imports about 85-88% of its crude oil; it faces supply-chain disruption (geopolitics, shipping routes) and volatile global prices, with rising domestic demand.",
+"statements": [
+{
+"l": "opt1",
+"t": "India's challenge is lack of domestic energy demand.",
+"v": "F",
+"m": "direction reversal",
+"d": "Lack of domestic energy demand",
+"fact": "India's energy demand is growing (third-largest oil consumer)."
+},
+{
+"l": "opt2",
+"t": "India's challenge is consistent global oil prices.",
+"v": "F",
+"m": "direction reversal",
+"d": "Consistent global oil prices",
+"fact": "Global oil prices are volatile."
+},
+{
+"l": "opt3",
+"t": "India's challenge is supply chain disruptions and fluctuating global oil prices.",
+"v": "T",
+"m": null,
+"d": "Supply chain disruptions and fluctuating global oil prices",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "India's challenge is abundant oil reserves.",
+"v": "F",
+"m": "direction reversal",
+"d": "Abundant oil reserves",
+"fact": "India has limited oil reserves and imports most of its crude."
+}
+],
+"rule": "India: ~85-88% crude import dependence; SPR at Visakhapatnam, Mangaluru, Padur.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper2#76",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M2B.2.6",
+"format": "one-liner",
+"stem": "What is the primary goal of India's National Clean Energy Fund (NCEF) ?",
+"options": [
+"Promote coal-based power generation",
+"Promote renewable energy technologies and reduce carbon emissions",
+"Increase consumption of fossil fuels",
+"Improve forest conservation practices"
+],
+"key": "Promote renewable energy technologies and reduce carbon emissions",
+"deleted": 0,
+"core_fact": "NCEF (Budget 2010-11) was funded by a clean energy cess on coal to finance clean/renewable energy research and projects; merged into GST compensation cess in 2017.",
+"statements": [
+{
+"l": "opt1",
+"t": "The primary goal of NCEF is to promote coal-based power generation.",
+"v": "F",
+"m": "direction reversal",
+"d": "coal-based power",
+"fact": "NCEF taxes coal to fund clean energy."
+},
+{
+"l": "opt2",
+"t": "The primary goal of NCEF is to promote renewable energy technologies and reduce carbon emissions.",
+"v": "T",
+"m": null,
+"d": "renewable energy technologies",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The primary goal of NCEF is to increase consumption of fossil fuels.",
+"v": "F",
+"m": "direction reversal",
+"d": "Increase consumption of fossil fuels",
+"fact": "NCEF aims to reduce fossil dependence."
+},
+{
+"l": "opt4",
+"t": "The primary goal of NCEF is to improve forest conservation practices.",
+"v": "F",
+"m": "function/power substitution",
+"d": "forest conservation",
+"fact": "Forest conservation is funded by CAMPA, not NCEF."
+}
+],
+"rule": "NCEF = coal cess -> clean energy; CAMPA = compensatory afforestation.",
+"key_note": ""
+}
+],
+"related_count": 199,
+"related_sample": [
+"States which consume maximum per capita electricity are → Punjab, Haryana, Gujarat [APPSC Assistant Director in AP Economics]",
+"Which of the following is at present the largest power using sector of the Indian economy? → Industry [APPSC MPDOs 1998]",
+"Which of the following is not an initiative of the UDAY Scheme launched by the Ministry of Power, Government of India? → Regularisation of employees working in DISCOMs [APPSC Junior Assistant cum Typist in Pri]",
+"Which of the following States is yet to take over into its account, 100% of debt of DISCOMS under the UDAY Scheme? → Andhra Pradesh [APPSC Assistant Social, BC & Tribal Welf]",
+"Targeted power capacity addition for 11th Plan period is → 78,700 MW [APPSC FROs 2012]",
+"Which of the following is based on renewable source of energy? → Solar power plant [APPSC VRO 2014]",
+"____ MW more electricity would be generated by the government during the eleventh five year plan. → 78,700 MW [APPSC FROs 2009]",
+"Which kind of power accounts for the largest share of power generation in India? → Thermal [APPSC Assistant Motor Vehicle Inspector ]",
+"What is the capacity of solar power, that Andhra Pradesh is going to produce in 5 years according to the \"Solar Power Policy, 2018\"? → 5000 MW [APPSC Group-III Panchayat Secretary Scre]",
+"Which of the following is NOT correct with respect to “Andhra Pradesh Solar Power Policy, 2018”? → 1,00,000 solar powered pump sets will be operational in the State in the next five years [APPSC 2018 Lecturers in Government Polyt]",
+"The Andhra Pradesh government's Revamped Distribution Sector Reform Scheme (RDSS) aims to save how much money due to transmission and distribution losses? → Rs 2,000 crore [APPSC Sample Taker General Studies & Men]",
+"Which district in Andhra Pradesh was chosen as the site for a major new wind power project partnership in 2025? → Anantapur [APPSC Forest Beat Officer & Assistant Be]",
+"Which of the following is one of the primary objectives of the PM-KUSUM Scheme? → To achieve de-dieselisation of the farm sector [APPSC Dr. NTR University of Health Scien]",
+"Which is the first State to implement Agro Solar policy in India? → Gujarat [APPSC Group-III Panchayat Secretary Main]",
+"Regarding nationalization which is correct sequence? → Insurance Companies - Banks - Coal mines - Pvt oil companies [APPSC Degree Lecturers 2011]",
+"The production of food grains in Andhra Pradesh in 2018-19 was ______ lakh tones → 151 [APPSC Lecturers in Government Degree Col]",
+"S.I. unit of energy is → Joule [APPSC Forest Beat Officer & Assistant Be]",
+"Which of the following combinations can be used as both primary and final energy resources? → Both (Coal, Petroleum) and (Petroleum, Natural Gas) [APPSC Forest Section Officer General Stu]",
+"Which of the following constitutes the maximum share in power generation in India? → Thermal Power [APPSC Extension Officer Grade-I Common P]",
+"There is strong positive correlation between Human Development Index and Per Capita Electricity Consumption in case of India because? → Certain level of per capita energy consumption is needed to ensure minimally acceptable well being to the people [APPSC Degree Lecturers General Studies &]",
+"A: As per India Energy Outlook 2021 published by International Energy Agency (IEA), India has been ranked the third largest primary energy consumer in the world.\nR: This was because the Government of  → Both A and R are individually true, but R is not the correct explanation of A [APPSC Group-IV Paper-I Mains General Stu]",
+"As of 01.04.2023, what were the estimated reserves of crude oil in India? → 651.77 million tonnes [APPSC Dr. NTR University of Health Scien]",
+"Which of the following countries is the world's number one oil exporter and has the largest quantity of oil reserves? → Saudi Arabia [APPSC Welfare Organiser in A.P Sainik We]",
+"With which of the following organizations, India's activation of \"association status\" was announced in 2017? → International Energy Association [APPSC Assistant Director in AP Economic ]",
+"Which of the following is a non-renewable energy resource ? → Coal [APPSC Forest Beat Officer & Assistant Be]",
+"The first in-depth review of India’s energy policies was recently released by which international organisation? → International Energy Agency [APPSC]",
+"As per the Draft National Electricity Plan, 2016, coal based capacity addition of power is not required during the period? → 2017 - 2022 [APPSC Royalty Inspector, Agriculture Off]",
+"What is India's target year to achieve net - zero carbon emissions ? → 2070 02 [APPSC 2024 Initial keys for the post of ]",
+"By which year has India pledged to achieve net - zero carbon emissions ? → 2070 [APPSC 2025 Forest Beat Officer and Assis]",
+"What is the primary aim of India's National Energy Policy (NEP) ? → To ensure energy access to all while promoting energy security , affordability and sustainability [APPSC 2025 Forest Section Officer]",
+"Which will be the first State to launch Country's premier solar powered cruise Boat by December? → Kerala [APPSC Forest Beat Officer & Assistant Be]",
+"Name the country which launched Fulbright Kalam climate Fellowship along with India → USA [APPSC AEE Mains General Studies & Mental]",
+"In which State/Union Territory did India host the Ministerial event of the 8th Mission Innovation (MI8) in July 2023? → Goa [APPSC Assistant Environmental Engineer a]",
+"Which of the following statement(s) is/are CORRECT for India Energy Week (IEW)?\n\nI. India Energy Week (IEW) was organised in February 2023\n\nII. The Prime Minister inaugurated the India Energy Week (IE → Only I [APPSC Town Planning Building Overseers G]",
+"The Pew Charitable Trusts, an eminent American NGO reported in April 2012 that India has emerged in the world as one of the top → Green Economies [APPSC Assistant Social Welfare Officers ]",
+"What is the rank of India as per 'Renewable Energy Country Index' 2018? → 4th [APPSC Forest Beat Officer & Assistant Be]",
+"Which was the first country in the world to set up a ministry of non-conventional energy resources, in early 1980? → India [APPSC 2023 Assistant Motor Vehicle Inspe]",
+"The calorific value of coal primarily depends on its → Carbon content [APPSC Forest Subordinate Service (Thaned]",
+"Which variety of the Coal is of highest quality? → Anthracite [APPSC Forest Range Officer Mains Paper-I]",
+"Out of the following, Which type of coal is of higher quality? → Anthracite [APPSC Group-III Panchayat Secretary Main]",
+"Which of the following is not the property of a good fuel? → Low calorific value [APPSC Forest Beat Officer & Assistant Be]",
+"In terms of proven Coal reserves, the position of India amongst the countries of the World is → 5 [APPSC AEE Screening Test 2016]",
+"The State which produces largest amount of coal in India is → Odisha [APPSC Welfare Organiser in AP Sainik Wel]",
+"Rhur Basin of India is in → Damodar Valley [APPSC Forest Section Officer Screening T]",
+"According to the Andhra Pradesh Reorganisation Act, how is the equity of Singareni Collieries Company Ltd. (SCCL) divided? → 51% with the Government of Telangana and 49% with the Government of India [APPSC Welfare Organiser in A.P Sainik We]",
+"After reorganization, how much percentage of equity of Singareni Collieries Company Ltd is allotted to Government of AP? → 0 percent (Nil) [APPSC ASO Mains General Studies & Mental]",
+"Expand CNG → Compressed Natural Gas [APPSC Forest Subordinate Service (Thaned]",
+"Which gas is mixed with LPG to detect smell? → Ethyl Mercaptan [APPSC Forest Beat Officer & Assistant Be]",
+"Which gas is used in cigarette lighters? → Butane [APPSC Forest Beat Officer & Assistant Be]",
+"The main constituent of natural gas is? → Methane [APPSC Asst. Social, B.C, Tribal Welfare ]",
+"In its natural state, the odour of LPG is? → LPG is odourless gas [APPSC 2018 Special Qualifying Test for A]",
+"The Krishna-Godavari Basin region of Andhra Pradesh, known for petroleum production, is classified as which type of geological basin? → Peri-cratonic passive margin basin [APPSC Assistant Statistical Officer & Ot]",
+"Which region in Andhra Pradesh is actively associated with the production of petroleum? → Krishna-Godavari Basin [APPSC Assistant Statistical Officer & Ot]",
+"Trishna gas project is located in which state? → Tripura [APPSC Extension Officer Grade-I Common P]",
+"In Andhra Pradesh which River Basin is known for reserves of natural gas? → Krishna - Godavari Basin [APPSC Zilla Sainik Welfare Officer in Sa]",
+"Which was the first public sector petroleum refinery in India? → Guwahati Refinery [APPSC Asst. Chemist in A.P. Ground Water]",
+"As of 31.03.2023, what was the total number of crude oil refineries in India? → 23 [APPSC Dr. NTR University of Health Scien]",
+"Which of the following is name of one of the five grids launched by Government of Andhra Pradesh? → Gas Grid [APPSC Assistant Social, B.C. & Tribal We]",
+"Which one of the below is not part of five grids taken up for development by Andhra Pradesh after reorganization? → Airways Grid [APPSC Assistant Director in AP Economic ]",
+"The main component of natural gas is → Methane [APPSC Forest Beat Officer & Assistant Be]",
+"Which gas is known as marsh gas? → Methane [APPSC Forest Range Officer Screening Tes]",
+"Which of the following takes the responsibility to even out supply-demand mismatches in the power supply in India? → All India Power Grid [APPSC Assistant B.C. Welfare Officer, As]",
+"Which protection is normally not provided on small distribution transformers? → Buchholz relay [APPSC AEE Electrical Engineering Screeni]",
+"The power factor in a transformer → Depends on power factor of load [APPSC AEE Electrical Engineering Screeni]",
+"The maximum efficiency of a distribution transformer is → At 50% full load [APPSC AEE Electrical Engineering Screeni]",
+"Lower power factor of a DG set demands → Higher excitation currents [APPSC AEE Electrical Engineering Screeni]",
+"The starting current value of a DG set should not exceed what % of full load capacity of the DG set? → 200 [APPSC AEE Electrical Engineering Screeni]",
+"Auxiliary power consumption of a DG set at full load in its operating capacity is about → 1-2% [APPSC AEE Electrical Engineering Screeni]",
+"Maximum permissible earth resistance for buildings is → 8 ohms [APPSC AEE Electrical Engineering Screeni]",
+"The rating required for a DG set with 500 kW connected load and with diversity factor of 1.5, 80% loading and 0.8 power factor is → 520 kVA [APPSC AEE Electrical Engineering Screeni]",
+"The maximum permissible percentage unbalance in phase loads on DG sets is → 10% [APPSC AEE Electrical Engineering Screeni]",
+"Which Thermal Plant is located in Vishakhapatnam district? → Simhadri Thermal Plant [APPSC Draughtsman (Technical Assistant) ]",
+"Deen Dayal Upadhyaya Gram Jyoti Yojana aims to enhance power supply in: → Rural areas [APPSC Assistant Motor Vehicle Inspectors]",
+"Match the given thermal power plants with the state where they are situated.\nThermal power plants State\nI. Barauni Thermal Power plant\nII. Gandhinagar Thermal Power plant\nIII. Kota Thermal Power plant → I-a, II-b, III-c [APPSC Sample Taker 2023]",
+"If a conservative force is acting on an object, which of the following quantities remains unchanged or conserved for the object? → Total mechanical energy [APPSC Assistant Statistical Officer & Ot]",
+"The mangal turbine mainly works on the principle of → Kinetic energy of flowing water [APPSC Forest Beat Officer & Assistant Be]",
+"In photosynthesis, light energy → is converted into chemical energy. [APPSC Forest Beat Officer & Assistant Be]",
+"Wind turbines convert the ____ in the wind into electrical power with the help of Dynamos. → Kinetic energy [APPSC Assistant BC Welfare Officer and R]",
+"Identify the correct pair (s) from the given pairs with respect to types of energy and their definition and choose the correct option.\nI. Radiant energy -----energy moving through substances in longit → Only II is correct [APPSC]",
+"What type of energy transformation occurs in a hydroelectric power plant? → Potential to Electrical [APPSC 2023 Lecturers in Government Degre]"
+]
+}

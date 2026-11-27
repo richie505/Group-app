@@ -1,0 +1,949 @@
+{
+"exam": "Group 2",
+"section": "P3.1",
+"title": "P3 Prelims · Screening Test · General Studies · Indian Society (30M) › P3.1 Structure of Indian Society",
+"syllabus_leaves": [
+{
+"leaf": "P3.1.1",
+"wording": "Family, Marriage, Kinship, Caste, Tribe, Ethnicity, Religion and Women",
+"official_Q": 2,
+"years": [
+2019
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "P3.1.1/1",
+"wording": "Family",
+"official_Q": 0,
+"years": [],
+"recurrence": "Insufficient evidence"
+},
+{
+"leaf": "P3.1.1/2",
+"wording": "Marriage",
+"official_Q": 7,
+"years": [
+2024
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "P3.1.1/3",
+"wording": "Kinship",
+"official_Q": 1,
+"years": [
+2024
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "P3.1.1/4",
+"wording": "Caste",
+"official_Q": 0,
+"years": [],
+"recurrence": "Insufficient evidence"
+},
+{
+"leaf": "P3.1.1/5",
+"wording": "Tribe",
+"official_Q": 3,
+"years": [
+2017,
+2024
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "P3.1.1/6",
+"wording": "Ethnicity",
+"official_Q": 0,
+"years": [],
+"recurrence": "Insufficient evidence"
+},
+{
+"leaf": "P3.1.1/7",
+"wording": "Religion",
+"official_Q": 3,
+"years": [
+2017,
+2024
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "P3.1.1/8",
+"wording": "Women",
+"official_Q": 0,
+"years": [],
+"recurrence": "Insufficient evidence"
+}
+],
+"official_questions": [
+{
+"id": "prelims-2017#123",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "P3.1.1/5",
+"format": "one-liner",
+"stem": "As per Census 2011, how much percentage (rounded off to nearest integer) of ST households have walls made of burnt bricks or concrete ?",
+"options": [
+"22%",
+"23%",
+"24%",
+"25%"
+],
+"key": "23%",
+"deleted": 0,
+"core_fact": "Census 2011 Houselisting: about 23% of ST households had walls of burnt brick or concrete (per APPSC key).",
+"statements": [
+{
+"l": "opt1",
+"t": "As per Census 2011, 22% of ST households have walls made of burnt bricks or concrete.",
+"v": "F",
+"m": "numerical alteration",
+"d": "22%",
+"fact": "About 23% per key."
+},
+{
+"l": "opt2",
+"t": "As per Census 2011, 23% of ST households have walls made of burnt bricks or concrete.",
+"v": "T",
+"m": null,
+"d": "23%",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "As per Census 2011, 24% of ST households have walls made of burnt bricks or concrete.",
+"v": "F",
+"m": "numerical alteration",
+"d": "24%",
+"fact": "About 23% per key."
+},
+{
+"l": "opt4",
+"t": "As per Census 2011, 25% of ST households have walls made of burnt bricks or concrete.",
+"v": "F",
+"m": "numerical alteration",
+"d": "25%",
+"fact": "About 23% per key."
+}
+],
+"rule": "Close-integer options: anchor ST data from Census 2011 houselisting.",
+"key_note": ""
+},
+{
+"id": "prelims-2017#134",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "P3.1.1/5",
+"format": "one-liner",
+"stem": "Hornbill festival is celebrated showcasing the cultural heritage of",
+"options": [
+"Nagaland",
+"Mizoram",
+"Manipur",
+"Meghalaya"
+],
+"key": "Nagaland",
+"deleted": 0,
+"core_fact": "The Hornbill Festival (since 2000, 1-10 December, Kisama heritage village near Kohima) showcases Naga tribal culture.",
+"statements": [
+{
+"l": "opt1",
+"t": "The Hornbill festival is celebrated showcasing the cultural heritage of Nagaland.",
+"v": "T",
+"m": null,
+"d": "Nagaland",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The Hornbill festival is celebrated showcasing the cultural heritage of Mizoram.",
+"v": "F",
+"m": "location substitution",
+"d": "Mizoram",
+"fact": "Hornbill is Nagaland's; Mizoram has Chapchar Kut."
+},
+{
+"l": "opt3",
+"t": "The Hornbill festival is celebrated showcasing the cultural heritage of Manipur.",
+"v": "F",
+"m": "location substitution",
+"d": "Manipur",
+"fact": "Hornbill is Nagaland's; Manipur has Sangai Festival."
+},
+{
+"l": "opt4",
+"t": "The Hornbill festival is celebrated showcasing the cultural heritage of Meghalaya.",
+"v": "F",
+"m": "location substitution",
+"d": "Meghalaya",
+"fact": "Hornbill is Nagaland's."
+}
+],
+"rule": "NE festivals: Hornbill-Nagaland; Sangai-Manipur; Chapchar Kut-Mizoram; Wangala-Meghalaya; Losar-Arunachal/Sikkim.",
+"key_note": ""
+},
+{
+"id": "prelims-2017#136",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "P3.1.1/7",
+"format": "one-liner",
+"stem": "\"Santhara\" is a ritual of fasting to death amongst",
+"options": [
+"Buddhists",
+"Jains",
+"Sufis",
+"Parsis"
+],
+"key": "Jains",
+"deleted": 0,
+"core_fact": "Santhara/Sallekhana is the Jain vow of voluntary fasting unto death (Rajasthan HC 2015 ban stayed by SC).",
+"statements": [
+{
+"l": "opt1",
+"t": "'Santhara' is a ritual of fasting to death among Buddhists.",
+"v": "F",
+"m": "wrong pair",
+"d": "Buddhists",
+"fact": "Santhara is Jain."
+},
+{
+"l": "opt2",
+"t": "'Santhara' is a ritual of fasting to death among Jains.",
+"v": "T",
+"m": null,
+"d": "Jains",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "'Santhara' is a ritual of fasting to death among Sufis.",
+"v": "F",
+"m": "wrong pair",
+"d": "Sufis",
+"fact": "Santhara is Jain."
+},
+{
+"l": "opt4",
+"t": "'Santhara' is a ritual of fasting to death among Parsis.",
+"v": "F",
+"m": "wrong pair",
+"d": "Parsis",
+"fact": "Santhara is Jain."
+}
+],
+"rule": "Santhara/Sallekhana = Jain; in news 2015 (Rajasthan HC).",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper1#106",
+"year": 2019,
+"stage": "Mains",
+"leaf": "P3.1.1",
+"format": "one-liner (no options: stem + key)",
+"stem": "Ability to influence other individuals' attitudes or overt behaviour in a desired way",
+"options": null,
+"key": "Leadership",
+"deleted": 0,
+"core_fact": "Leadership is the ability to influence other individuals' attitudes or overt behaviour in a desired direction.",
+"statements": [
+{
+"l": "key",
+"t": "The ability to influence other individuals' attitudes or overt behaviour in a desired way is leadership.",
+"v": "T",
+"m": null,
+"d": "Leadership",
+"fact": null
+}
+],
+"rule": "Leadership (influence) vs power (capacity) vs authority (legitimate power).",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper1#13",
+"year": 2019,
+"stage": "Mains",
+"leaf": "P3.1.1",
+"format": "one-liner (no options: stem + key)",
+"stem": "The ________ scale is method of measuring attitude both in psychology and sociology.",
+"options": null,
+"key": "Thurstone",
+"deleted": 0,
+"core_fact": "L.L. Thurstone's equal-appearing interval scale (1928) was the first formal attitude-measurement technique; others are Likert (1932), Guttman and Bogardus social-distance scales.",
+"statements": [
+{
+"l": "key",
+"t": "The Thurstone scale is a method of measuring attitude in psychology and sociology.",
+"v": "T",
+"m": null,
+"d": "Thurstone",
+"fact": null
+}
+],
+"rule": "Attitude scales: Thurstone (1928), Likert (1932), Guttman (1944), Bogardus social distance (1925).",
+"key_note": ""
+},
+{
+"id": "prelims-2024#120",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "P3.1.1/2",
+"format": "one-liner",
+"stem": "Which is the first South Asian Nation to formally register same sex marriage ?",
+"options": [
+"India",
+"Nepal",
+"Maldives",
+"Bhutan"
+],
+"key": "Nepal",
+"deleted": 0,
+"core_fact": "Nepal registered its first same-sex marriage (Maya Gurung - Surendra Pandey) in Nov 2023, the first in South Asia; India's SC (Supriyo, Oct 2023) declined to recognise same-sex marriage.",
+"statements": [
+{
+"l": "opt1",
+"t": "India is the first South Asian nation to formally register same-sex marriage.",
+"v": "F",
+"m": "location substitution",
+"d": "India",
+"fact": "Nepal is the first South Asian nation to register a same-sex marriage."
+},
+{
+"l": "opt2",
+"t": "Nepal is the first South Asian nation to formally register same-sex marriage.",
+"v": "T",
+"m": null,
+"d": "Nepal",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Maldives is the first South Asian nation to formally register same-sex marriage.",
+"v": "F",
+"m": "location substitution",
+"d": "Maldives",
+"fact": "Nepal is the first South Asian nation to register a same-sex marriage."
+},
+{
+"l": "opt4",
+"t": "Bhutan is the first South Asian nation to formally register same-sex marriage.",
+"v": "F",
+"m": "location substitution",
+"d": "Bhutan",
+"fact": "Nepal is the first South Asian nation to register a same-sex marriage."
+}
+],
+"rule": "South Asia: Nepal registers (2023); Bhutan decriminalised (2021); India - no marriage recognition (Supriyo 2023).",
+"key_note": ""
+},
+{
+"id": "prelims-2024#62",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "P3.1.1/7",
+"format": "one-liner",
+"stem": "A circular structure used by Zoroastrians for excarnation or the disposal of human dead bodies through exposure to the natural elements and scavenger animals such as vultures is called :",
+"options": [
+"Dakhma",
+"Aparigraha",
+"Sallekhana",
+"Shenshai"
+],
+"key": "Dakhma",
+"deleted": 0,
+"core_fact": "Dakhma (Tower of Silence) is the circular Zoroastrian structure for excarnation, where bodies are exposed to elements and vultures.",
+"statements": [
+{
+"l": "opt1",
+"t": "The circular Zoroastrian structure for excarnation is called Dakhma.",
+"v": "T",
+"m": null,
+"d": "Dakhma",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The circular Zoroastrian structure for excarnation is called Aparigraha.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Aparigraha",
+"fact": "Aparigraha is a Jain vow."
+},
+{
+"l": "opt3",
+"t": "The circular Zoroastrian structure for excarnation is called Sallekhana.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Sallekhana",
+"fact": "Sallekhana is the Jain fast unto death."
+},
+{
+"l": "opt4",
+"t": "The circular Zoroastrian structure for excarnation is called Shenshai.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Shenshai",
+"fact": "Shenshai is a Zoroastrian calendar group, not a structure."
+}
+],
+"rule": "Parsi: Dakhma, Atash Behram, Navjote; Jain: Sallekhana, Aparigraha.",
+"key_note": ""
+},
+{
+"id": "prelims-2024#63",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "P3.1.1/2",
+"format": "one-liner",
+"stem": "'Diku Andi' means :",
+"options": [
+"Marriage by exchange in Koya and Savara tribes",
+"Marriage by capture in Naga tribes",
+"Marriage by probation in Kuki tribe",
+"Marriage by negotiation in Ho tribes"
+],
+"key": "Marriage by negotiation in Ho tribes",
+"deleted": 0,
+"core_fact": "Among the Ho, 'Andi' is regular arranged marriage; 'Diku Andi' is marriage by negotiation (on the pattern of non-tribal 'diku' neighbours) – per key.",
+"statements": [
+{
+"l": "opt1",
+"t": "'Diku Andi' means Marriage by exchange in Koya and Savara tribes.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Marriage by exchange in Koya and Savara tribes",
+"fact": "Diku Andi is a Ho term for marriage by negotiation."
+},
+{
+"l": "opt2",
+"t": "'Diku Andi' means Marriage by capture in Naga tribes.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Marriage by capture in Naga tribes",
+"fact": "Capture is a real form but not called Diku Andi."
+},
+{
+"l": "opt3",
+"t": "'Diku Andi' means Marriage by probation in Kuki tribe.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Marriage by probation in Kuki tribe",
+"fact": "Probation is a real Kuki form but not Diku Andi."
+},
+{
+"l": "opt4",
+"t": "'Diku Andi' means Marriage by negotiation in Ho tribes.",
+"v": "T",
+"m": null,
+"d": "Marriage by negotiation in Ho tribes",
+"fact": null
+}
+],
+"rule": "Tribal marriage forms: probation (Kuki), capture (Naga/Gond), service (Gond/Baiga), negotiation (Diku Andi, Ho).",
+"key_note": ""
+},
+{
+"id": "prelims-2024#65",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "P3.1.1/2",
+"format": "statement-based",
+"stem": "Consider the following statements :\nI. W.P. Scott defined divorce as 'an institutionalised arrangement for terminating the marriage relationship and allowing each partner the right to remarry'.\nII. The first legislation in respect of the dissolution of marriage in India was enacted in 1869, and is 'Parsi Marriage and Divorce Act'.\nIII. The irresponsible departure from the home on the part of husband, leaving the family to fend for itself is called as 'the poor man's divorce'.\nWhich of the above given statements are correct ?",
+"options": [
+"I and II only",
+"II and III only",
+"I and III only",
+"All of the above"
+],
+"key": "I and III only",
+"deleted": 0,
+"core_fact": "W.P. Scott defined divorce as institutionalised termination with right to remarry; India's first divorce law was the Indian Divorce Act 1869 (Christians); desertion is called 'the poor man's divorce'.",
+"statements": [
+{
+"l": "I",
+"t": "W.P. Scott defined divorce as 'an institutionalised arrangement for terminating the marriage relationship and allowing each partner the right to remarry'.",
+"v": "T",
+"m": null,
+"d": "W.P. Scott",
+"fact": null
+},
+{
+"l": "II",
+"t": "The first legislation on dissolution of marriage in India was enacted in 1869 and is the Parsi Marriage and Divorce Act.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "Parsi Marriage and Divorce Act",
+"fact": "The 1869 law is the Indian Divorce Act (for Christians); the Parsi Act dates from 1865 (re-enacted 1936)."
+},
+{
+"l": "III",
+"t": "Irresponsible departure of the husband leaving the family to fend for itself is called 'the poor man's divorce'.",
+"v": "T",
+"m": null,
+"d": "'the poor man's divorce'",
+"fact": null
+}
+],
+"rule": "Divorce laws: Parsi 1865/1936; Indian Divorce Act 1869 (Christians); Dissolution of Muslim Marriages 1939; HMA 1955; SMA 1954.",
+"key_note": "Note: the Parsi Marriage and Divorce Act 1865 predates 1869; the key's logic rests on the 1869 Act being the Indian Divorce Act."
+},
+{
+"id": "prelims-2024#66",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "P3.1.1/3",
+"format": "one-liner",
+"stem": "Ravindra and Seema are husband and wife. Krishna and Madhavi are children of Ravindra-Seema. Madhavi is married to Harish and Jyothi is the daughter of Madhavi-Harish. Then the Consanguineous Kinship is between :",
+"options": [
+"Ravindra and Seema",
+"Madhavi and Harish",
+"Krishna and Jyothi",
+"Krishna and Harish"
+],
+"key": "Krishna and Jyothi",
+"deleted": 0,
+"core_fact": "Consanguineous kin are related by blood (descent); affinal kin by marriage. Krishna (Madhavi's brother) and Jyothi (Madhavi's daughter) are maternal uncle and niece – blood kin.",
+"statements": [
+{
+"l": "opt1",
+"t": "Consanguineous kinship exists between Ravindra and Seema.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Ravindra and Seema",
+"fact": "Spouses are affinal kin."
+},
+{
+"l": "opt2",
+"t": "Consanguineous kinship exists between Madhavi and Harish.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Madhavi and Harish",
+"fact": "Spouses are affinal kin."
+},
+{
+"l": "opt3",
+"t": "Consanguineous kinship exists between Krishna and Jyothi.",
+"v": "T",
+"m": null,
+"d": "Krishna and Jyothi",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Consanguineous kinship exists between Krishna and Harish.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Krishna and Harish",
+"fact": "Brothers-in-law are affinal kin."
+}
+],
+"rule": "Kinship: consanguineal = blood (parent, sibling, uncle-niece); affinal = through marriage (spouse, in-laws).",
+"key_note": ""
+},
+{
+"id": "prelims-2024#72",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "P3.1.1/5",
+"format": "one-liner",
+"stem": "Under whose Chairmanship was a high-level committee on socio-economic, health and educational status of tribal communities of India set up by the Prime Minister's Office in 2013 ?",
+"options": [
+"Dr. Joseph Bara",
+"Dr. Kamal K. Misra",
+"Dr. Hrusikesh Panda",
+"Prof. Virginius Xaxa"
+],
+"key": "Prof. Virginius Xaxa",
+"deleted": 0,
+"core_fact": "The High-Level Committee on socio-economic, health and educational status of tribal communities (set up by PMO, 2013) was chaired by Prof. Virginius Xaxa; report May 2014.",
+"statements": [
+{
+"l": "opt1",
+"t": "The 2013 high-level committee on tribal communities was chaired by Dr. Joseph Bara.",
+"v": "F",
+"m": "person substitution",
+"d": "Dr. Joseph Bara",
+"fact": "Bara was a member; Xaxa chaired."
+},
+{
+"l": "opt2",
+"t": "The 2013 high-level committee on tribal communities was chaired by Dr. Kamal K. Misra.",
+"v": "F",
+"m": "person substitution",
+"d": "Dr. Kamal K. Misra",
+"fact": "Misra was a member; Xaxa chaired."
+},
+{
+"l": "opt3",
+"t": "The 2013 high-level committee on tribal communities was chaired by Dr. Hrusikesh Panda.",
+"v": "F",
+"m": "person substitution",
+"d": "Dr. Hrusikesh Panda",
+"fact": "Panda was member-secretary; Xaxa chaired."
+},
+{
+"l": "opt4",
+"t": "The 2013 high-level committee on tribal communities was chaired by Prof. Virginius Xaxa.",
+"v": "T",
+"m": null,
+"d": "Prof. Virginius Xaxa",
+"fact": null
+}
+],
+"rule": "Tribal committees: Xaxa 2014 (status), Bhuria 2002-04 (ST Commission), Dhebar 1960-61.",
+"key_note": ""
+},
+{
+"id": "prelims-2024#74",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "P3.1.1/2",
+"format": "one-liner",
+"stem": "After a landmark Judgement on Triple Talaq in 2017, which among the following methods of divorce practised in Muslim society was recently challenged in the Apex Court of India ?",
+"options": [
+"Talaq-e-Hasan",
+"Talaq-i-Tafweez",
+"Talaq-e-Ahsan",
+"Lian"
+],
+"key": "Talaq-e-Hasan",
+"deleted": 0,
+"core_fact": "After Shayara Bano (2017) invalidated talaq-e-biddat, petitions (e.g. Benazeer Heena, 2022) challenged Talaq-e-Hasan (three pronouncements over three months) in the SC.",
+"statements": [
+{
+"l": "opt1",
+"t": "Talaq-e-Hasan was the Muslim divorce method recently challenged in the Supreme Court after the 2017 triple talaq judgment.",
+"v": "T",
+"m": null,
+"d": "Talaq-e-Hasan",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Talaq-i-Tafweez was the Muslim divorce method recently challenged in the Supreme Court after the 2017 triple talaq judgment.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Talaq-i-Tafweez",
+"fact": "Tafweez is delegated divorce; not the one challenged."
+},
+{
+"l": "opt3",
+"t": "Talaq-e-Ahsan was the Muslim divorce method recently challenged in the Supreme Court after the 2017 triple talaq judgment.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Talaq-e-Ahsan",
+"fact": "Ahsan was not the challenged form."
+},
+{
+"l": "opt4",
+"t": "Lian was the Muslim divorce method recently challenged in the Supreme Court after the 2017 triple talaq judgment.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Lian",
+"fact": "Lian is divorce by imprecation."
+}
+],
+"rule": "Talaq: biddat (instant, struck 2017; criminalised 2019), hasan (challenged 2022), ahsan, tafweez, khula, mubarat, lian.",
+"key_note": ""
+},
+{
+"id": "prelims-2024#82",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "P3.1.1/7",
+"format": "one-liner",
+"stem": "According to whom 'the existence of strong personal attachments and the fact of death, which of all human events is the most upsetting and disorganizing to man's calculations, are perhaps the main sources of religious belief' ?",
+"options": [
+"Talcott Parsons",
+"Emile Durkheim",
+"Bronislaw Malinowski",
+"Simone de Beauvoir"
+],
+"key": "Bronislaw Malinowski",
+"deleted": 0,
+"core_fact": "Malinowski held that strong personal attachments and the fact of death are the main sources of religious belief (religion relieves anxiety at life crises).",
+"statements": [
+{
+"l": "opt1",
+"t": "Talcott Parsons said strong personal attachments and death are the main sources of religious belief.",
+"v": "F",
+"m": "person substitution",
+"d": "Talcott Parsons",
+"fact": "The quote is Malinowski's."
+},
+{
+"l": "opt2",
+"t": "Emile Durkheim said strong personal attachments and death are the main sources of religious belief.",
+"v": "F",
+"m": "person substitution",
+"d": "Emile Durkheim",
+"fact": "Durkheim located religion in society/sacred-profane."
+},
+{
+"l": "opt3",
+"t": "Bronislaw Malinowski said strong personal attachments and death are the main sources of religious belief.",
+"v": "T",
+"m": null,
+"d": "Bronislaw Malinowski",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Simone de Beauvoir said strong personal attachments and death are the main sources of religious belief.",
+"v": "F",
+"m": "person substitution",
+"d": "Simone de Beauvoir",
+"fact": "Not a theorist of religion's origin."
+}
+],
+"rule": "Religion theorists: Durkheim (sacred/profane), Malinowski (anxiety/death), Weber (Protestant ethic), Marx (opium).",
+"key_note": ""
+},
+{
+"id": "prelims-2024#85",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "P3.1.1/2",
+"format": "one-liner",
+"stem": "A consensual and informal relationship practised in accordance to matrilineal laws of Kerala that prevailed among Namboothiris and Nairs is known as :",
+"options": [
+"Sambandham",
+"Pakulam Pathiravum",
+"Pranchiyettan",
+"Udakapoorvam"
+],
+"key": "Sambandham",
+"deleted": 0,
+"core_fact": "Sambandham was the informal consensual union of Nair women with Namboothiri (or Nair) men under Kerala's marumakkathayam (matrilineal) system.",
+"statements": [
+{
+"l": "opt1",
+"t": "The informal matrilineal union among Namboothiris and Nairs of Kerala is called Sambandham.",
+"v": "T",
+"m": null,
+"d": "Sambandham",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The informal matrilineal union among Namboothiris and Nairs of Kerala is called Pakulam Pathiravum.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Pakulam Pathiravum",
+"fact": "Not the custom."
+},
+{
+"l": "opt3",
+"t": "The informal matrilineal union among Namboothiris and Nairs of Kerala is called Pranchiyettan.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Pranchiyettan",
+"fact": "Not the custom."
+},
+{
+"l": "opt4",
+"t": "The informal matrilineal union among Namboothiris and Nairs of Kerala is called Udakapoorvam.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Udakapoorvam",
+"fact": "Not the custom."
+}
+],
+"rule": "Kerala matriliny: tharavad, marumakkathayam, sambandham (ended by 1933/1975 laws).",
+"key_note": ""
+},
+{
+"id": "prelims-2024#86",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "P3.1.1/2",
+"format": "one-liner",
+"stem": "Recently the Delhi High Court has upheld the constitutional validity of a provision of the Hindu Marriage Act which 'prohibits marriage between people who are related to each other through ancestors from their parent's side unless their customs allow them to do so'. The said provision was mentioned in which Section of the Hindu Marriage Act ?",
+"options": [
+"Section 4(a)",
+"Section 5(v)",
+"Section 12(1)(a)",
+"Section 13(ii)"
+],
+"key": "Section 5(v)",
+"deleted": 0,
+"core_fact": "HMA 1955 S.5(v) bars marriage between sapindas unless custom permits; the Delhi HC upheld it (Jan 2024).",
+"statements": [
+{
+"l": "opt1",
+"t": "The sapinda prohibition upheld by the Delhi High Court is in Section 4(a) of the Hindu Marriage Act.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "Section 4(a)",
+"fact": "S.4 gives overriding effect."
+},
+{
+"l": "opt2",
+"t": "The sapinda prohibition upheld by the Delhi High Court is in Section 5(v) of the Hindu Marriage Act.",
+"v": "T",
+"m": null,
+"d": "Section 5(v)",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The sapinda prohibition upheld by the Delhi High Court is in Section 12(1)(a) of the Hindu Marriage Act.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "Section 12(1)(a)",
+"fact": "S.12(1)(a) covers voidable marriages for impotence."
+},
+{
+"l": "opt4",
+"t": "The sapinda prohibition upheld by the Delhi High Court is in Section 13(ii) of the Hindu Marriage Act.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "Section 13(ii)",
+"fact": "S.13(1)(ii) is a divorce ground."
+}
+],
+"rule": "HMA S.5: (iv) prohibited degrees, (v) sapinda; S.11 void; S.12 voidable; S.13 divorce.",
+"key_note": ""
+},
+{
+"id": "prelims-2024#88",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "P3.1.1/2",
+"format": "one-liner",
+"stem": "Which of the following was the custom practised during the ancient period that allows married women to cohabit with a designated male for the sole purpose of procreating a child if her husband was impotent or had died ?",
+"options": [
+"Apastamba",
+"Sikata Nivavari",
+"Pratigya",
+"Niyoga"
+],
+"key": "Niyoga",
+"deleted": 0,
+"core_fact": "Niyoga allowed a widow or wife of an impotent husband to beget a child by an appointed man (often the husband's brother) solely for progeny.",
+"statements": [
+{
+"l": "opt1",
+"t": "The ancient custom allowing a wife to cohabit with a designated male to procreate is Apastamba.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Apastamba",
+"fact": "Apastamba is a Dharmasutra author."
+},
+{
+"l": "opt2",
+"t": "The ancient custom allowing a wife to cohabit with a designated male to procreate is Sikata Nivavari.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Sikata Nivavari",
+"fact": "A Rigvedic rishika."
+},
+{
+"l": "opt3",
+"t": "The ancient custom allowing a wife to cohabit with a designated male to procreate is Pratigya.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Pratigya",
+"fact": "Not a marriage custom."
+},
+{
+"l": "opt4",
+"t": "The ancient custom allowing a wife to cohabit with a designated male to procreate is Niyoga.",
+"v": "T",
+"m": null,
+"d": "Niyoga",
+"fact": null
+}
+],
+"rule": "Niyoga (procreation); Anuloma/Pratiloma (hypergamy/hypogamy); eight forms of Hindu marriage.",
+"key_note": ""
+}
+],
+"related_count": 178,
+"related_sample": [
+"\"Culture is the part created by man in the environment\". Who said this ? → None of the above [APPSC Sociology Backlog 2002]",
+"Who first mentioned the concept of \"social evolution\" ? → Herbert Spencer [APPSC Sociology Backlog 2002]",
+"Who said \"Society is a fabric of social relations\"? → MacIver [APPSC Sociology Back Log 2000]",
+"\"Society is like a weaving work of social relations.\" With whom of the following is this comment associated? → MacIver [APPSC Sociology Backlog 2002]",
+"Who proposed the concept of \"Social capillary\" ? → A. Dumont [APPSC Sociology Backlog 2002]",
+"Who among the following termed sociology as \"social physics\" ? → August Comte [APPSC Sociology Backlog 2002]",
+"Who included India in the Asiatic Mode of Production? → Karl Marx [APPSC Sociology Back Log 2002]",
+"Who described Sociology as the encyclopedic science of society? → Comte [APPSC Sociology General Studies 2000]",
+"It is said that \"Religion is an intoxicant of people\". Who said? → Marx [APPSC Sociology General Studies 2000]",
+"Who wrote 'Communist Manifesto'? → Marx and Engels [APPSC Sociology Back Log 2000]",
+"Who said \"Religion is an intoxicant for people\"? → Marx [APPSC Sociology Back Log 2000]",
+"Who said 'Man is a social animal'? → Aristotle [APPSC Sociology General Studies 2000]",
+"'Society is a web of social relations' said? → MacIver [APPSC Sociology General Studies 2000]",
+"What are the basic features of a community according to MacIver? → Geographic territory and sense of solidarity [APPSC Hostel Welfare Officer Grade-II (M]",
+"Main purpose of sociologist → Studying society [APPSC Sociology Back Log 2000]",
+"Social structure, culture and personality combined together form → A social system [APPSC Assistant B.C. Welfare Officer, As]",
+"Which of the following is true about sociology? → It is the scientific study of society [APPSC Sociology Backlog 2002]",
+"Language is the product of this → Culture [APPSC Sociology Backlog 2002]",
+"Which of the following characteristics best represents the difference between animal society and human society? → Culture [APPSC Sociology Back Log 2000]",
+"The notion that man is stronger than woman is a → Trust [APPSC Sociology Back Log 2000]",
+"Language, literature and art are the type of → Non-material culture [APPSC Assistant B.C. Welfare Officer, As]",
+"Culture is some what superior to? → Nature [APPSC Hostel Welfare Officer Grade-II (M]",
+"Which of the following methods provide best opportunity to re examine one's own as well as others point of view, feelings, behaviour and experiences? → Knew it [same exam]",
+"What is the aim of education advocated by realistic humanism? → Cultivation of intellect for making man rational [APPSC Hostel Welfare Officer Grade-II (M]",
+"Application of principles of sociology to education is known as? → Educational sociology [APPSC Hostel Welfare Officer Grade-II (M]",
+"Which of the following tenets does not belong to pragmatism? → If individual is developed, society will automatically develop [APPSC Hostel Welfare Officer Grade-II (M]",
+"If Education is the result of social change it means that social change has created a demand for: → Education [APPSC Hostel Welfare Officer Grade-II (M]",
+"What is personality? → Behaviour of the individuals [APPSC Hostel Welfare Officer Grade-II (M]",
+"According to J. Krishnamurthy, 'knowledge' is classified into which of the three classes? → Scientific, Collective & Individual [APPSC Hostel Welfare Officer Grade-II (M]",
+"The book \"Theory of Motivation\" Written by? → K. B. Madson [APPSC Hostel Welfare Officer Grade-II (M]",
+"Rorschach Psychological Test developed in the year 1921 to test? → Thought Disorder [APPSC Hostel Welfare Officer Grade-II (M]",
+"The most effective method of character-formation is: → presenting good character models in the school. [APPSC Hostel Welfare Officer Grade-II (M]",
+"Harmonious blending of all the philosophies and their implication in the classroom is reflected in: → Eclectic tendency in education [APPSC Hostel Welfare Officer Grade-II (M]",
+"Who has coined the term, 'Operant Conditioning'? → Skinner [APPSC Hostel Welfare Officer Grade-II (M]",
+"The objective of 'Ek Bharat Shrestha Bharat programme launched by Government of India in 2015 is to: → promote the spirit of national integration in India [APPSC Polytechnic Lecturers (S1) General]",
+"It is said that 'the place of women in any society is the main symbol of the culture of that society'. Who said this? → K.M. Panikkar [APPSC Sociology General Studies 2000]",
+"Which of the following date is celebrated as the 'International Mother Language Day'? → 21st February [APPSC Assistant Chemist (AP Ground Water]",
+"Which day is celebrated by UNESCO as International Mother Tongue Day? → 21st February [APPSC Inspector of Factories, Civil Assi]",
+"Two statements labelled as Assertion (A) and Reason (R) are given. Consider both the statements carefully and select your answer on the basis of the given options.\nAssertion (A): Contemporary Indian l → Both A and R are true and R is the correct explanation of A. [APPSC Deputy Educational Officer Screeni]",
+"Family, School, Club, Gymnasium, Sports and games etc, belongs to which group? → Permanent groups [APPSC Hostel Welfare Officer Grade-II (M]",
+"Which of the following is an example of a community ? → None [APPSC Sociology Backlog 2002]",
+"Which of the following is not a secondary group characteristic? → Compulsory membership [APPSC Sociology Back Log 2000]",
+"A group of people organized for a particular need is called → Organization [APPSC Sociology Backlog 2002]",
+"Which of the following is not a characteristic of a secondary group? → Physical proximity [APPSC Sociology Back Log 2002]",
+"Conflict is a modified form of this → Competition [APPSC Sociology General Studies 2000]",
+"The process of socialization is → Society helps to reproduce itself socially and biologically. [APPSC Sociology Backlog 2002]",
+"Why is language important to human society? → It facilitates social relations [APPSC Sociology Back Log 2000]",
+"Who wrote \"Modernization of Indian Tradition\"? → Yogendra Singh [APPSC Assistant Telugu Translator Genera]",
+"Who wrote the book \"Modernisation of Indian Tradition\" ? → Yogendra Singh [APPSC Sociology Backlog 2002]",
+"Values underlying Social Work profession are → All the above [APPSC Assistant Telugu Translator Genera]",
+"Which is not a method of Social Work? → Case Study [APPSC Assistant B.C. Welfare Officer, As]",
+"Scope of Social Work relates to → Both (Sociology, Psychology, Law) & (Public Health and Community Development) [APPSC Hostel Welfare Officers (Grade-II)]",
+"A family formed based on blood relationship is called this. → United blood family [APPSC Sociology Back Log 2002]",
+"When authority in a family is attributed to a woman it is called → Matriarchal family [APPSC Sociology General Studies 2000]",
+"Family into which a person is born and socialized. This is called → Family of orientation [APPSC Sociology General Studies 2000]",
+"Based on this family is divided into monogamous family and polygamous family? → Marriage [APPSC Sociology Back Log 2000]",
+"The offspring (children) of the same parents are called → Siblings [APPSC Sociology General Studies 2000]",
+"In which family is dominated by the children, where their wishes are formed as a family system, such a family is called this? → Affection centered family [APPSC Sociology Back Log 2000]",
+"Family of orientation is this type of family → We are a family of birth [APPSC Sociology Backlog 2002]",
+"Which of the following is not a basis for family classification? → Religion [APPSC Sociology Back Log 2002]",
+"The term 'Unstable Family' was first used by → Le Play [APPSC Sociology General Studies 2000]",
+"What is the necessary reason for the emergence of family? → All these [APPSC Sociology Back Log 2000]",
+"Who divided family activities into essential and non-essential activities? → MacIver [APPSC Sociology Back Log 2000]",
+"Main social function of family → All of the above [APPSC Sociology Backlog 2002]",
+"The single most important socializing agency in all forms of society → Family [APPSC Sociology Backlog 2002]",
+"Duties in Modern Family → Decreasing [APPSC Sociology General Studies 2000]",
+"\"Socialisation is a process by which the individual is adapted to his social environment\", the statement is given by: → James Drever [APPSC Hostel Welfare Officer Grade-II (M]",
+"The process of personality development is completed in how many Stages according to Erikson. → 8 [APPSC Hostel Welfare Officer Grade-II (M]",
+"The statuses of husbands and wives can be said in this way? → Functional statuses [APPSC Sociology Back Log 2000]",
+"Who said that joint family is an extended kinship group in India? → Irawati Karve [APPSC Sociology General Studies 2000]",
+"Author of the book 'Marriage and Family in India'? → K.M. Kapadia [APPSC Sociology General Studies 2000]",
+"Which of the following is not a characteristic of a joint family? → Private ownership of property [APPSC Sociology Back Log 2002]",
+"In which year Hindu Adoption and Maintenance Act introduced? → 1956 [APPSC Endowment (Prelims) General Studie]",
+"The Hindu Minority and Guardianship (amendment) bill was introduced in → 2016 [APPSC Hostel Welfare Officers (Grade-II)]",
+"Under Family Courts Act 1984, Family Courts can be set up by → State Government [APPSC Fisheries Development Officers 201]",
+"A Nair family is called → Tharwad [APPSC Sociology General Studies 2000]",
+"Which of the following is the main factor behind the disintegration of the joint family system in India? → Industrialization and Urbanization [APPSC Sociology Back Log 2002]",
+"Which of the following is not a characteristic of a modern family? → Increased religious feeling [APPSC Sociology Back Log 2002]",
+"Which state in India has common civil code? → Goa [APPSC AEE Mains General Studies & Mental]",
+"According to the Civil (local) Marriage Act, 1872, what is the marriageable age for the girl and boy? → 14 and 18 [APPSC Endowment Subordinate Service (Mai]"
+]
+}

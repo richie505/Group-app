@@ -1,0 +1,1130 @@
+{
+"exam": "Group 1",
+"section": "E21",
+"title": "Paper II · B. Science & Technology › E21: Energy Requirement and Efficiency: India's existing energy needs and deficit; India's Energy Resources and Dependence, Energy policy of India Government Policies and Programmes. Solar, Wind and Nuclear energy",
+"syllabus_leaves": [
+{
+"leaf": "E21/1",
+"wording": "India's energy needs and deficit",
+"official_Q": 1,
+"years": [
+2023
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "E21/2",
+"wording": "India's energy resources and import dependence",
+"official_Q": 2,
+"years": [
+2008,
+2017
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "E21/3",
+"wording": "Energy policy – government policies and programmes",
+"official_Q": 6,
+"years": [
+2023,
+2024
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "E21/4",
+"wording": "Solar energy",
+"official_Q": 3,
+"years": [
+2017,
+2024
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "E21/5",
+"wording": "Wind energy",
+"official_Q": 0,
+"years": [],
+"recurrence": "Insufficient evidence"
+},
+{
+"leaf": "E21/6",
+"wording": "Nuclear energy",
+"official_Q": 8,
+"years": [
+2012,
+2019,
+2023,
+2024
+],
+"recurrence": "Moderate historical recurrence"
+}
+],
+"official_questions": [
+{
+"id": "group1-prelims-2008#124",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E21/2",
+"format": "one-liner",
+"stem": "The chief constituent of gobar gas is",
+"options": [
+"Methane",
+"Ethane",
+"Chlorine",
+"Propane"
+],
+"key": "Methane",
+"deleted": 0,
+"core_fact": "Gobar (bio) gas is ~55-70% methane with CO2 and traces of H2S, produced by anaerobic digestion of dung.",
+"statements": [
+{
+"l": "opt1",
+"t": "The chief constituent of gobar gas is Methane.",
+"v": "T",
+"m": null,
+"d": "Methane",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The chief constituent of gobar gas is Ethane.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Ethane",
+"fact": "Ethane is a minor natural-gas component."
+},
+{
+"l": "opt3",
+"t": "The chief constituent of gobar gas is Chlorine.",
+"v": "F",
+"m": "fabricated",
+"d": "Chlorine",
+"fact": "Chlorine is not in biogas."
+},
+{
+"l": "opt4",
+"t": "The chief constituent of gobar gas is Propane.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Propane",
+"fact": "Propane is an LPG component."
+}
+],
+"rule": "Biogas/CNG = methane; LPG = propane + butane.",
+"key_note": "Key from examsnet (no APPSC key document)."
+},
+{
+"id": "group1-prelims-2012#38",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E21/6",
+"format": "one-liner",
+"stem": "The first nuclear power plant in India was set up at",
+"options": [
+"Tarapur",
+"Ramagundam",
+"Jaipur",
+"Koodankulam"
+],
+"key": "Tarapur",
+"deleted": 0,
+"core_fact": "India's first nuclear power plant was Tarapur Atomic Power Station (Maharashtra), BWRs from GE, commercial 1969.",
+"statements": [
+{
+"l": "opt1",
+"t": "The first nuclear power plant in India was set up at Tarapur.",
+"v": "T",
+"m": null,
+"d": "Tarapur",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The first nuclear power plant in India was set up at Ramagundam.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Ramagundam",
+"fact": "Ramagundam is a thermal plant."
+},
+{
+"l": "opt3",
+"t": "The first nuclear power plant in India was set up at Jaipur.",
+"v": "F",
+"m": "location substitution",
+"d": "Jaipur",
+"fact": "No NPP at Jaipur (Rawatbhata is in Rajasthan)."
+},
+{
+"l": "opt4",
+"t": "The first nuclear power plant in India was set up at Koodankulam.",
+"v": "F",
+"m": "chronological displacement",
+"d": "Koodankulam",
+"fact": "Kudankulam came in 2013."
+}
+],
+"rule": "Tarapur 1969 BWR; RAPP 1973 PHWR; Kudankulam 2013 VVER.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2017-paper1#137",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "E21/2",
+"format": "one-liner",
+"stem": "As per reliable estimates, which of the following locations in India has the largest shale gas reserves compared to others ?",
+"options": [
+"Cambay Basin",
+"Krishna-Godavari Basin",
+"Cauvery Basin",
+"Ganga-Brahmaputra Basin"
+],
+"key": "Cambay Basin",
+"deleted": 0,
+"core_fact": "Estimates (EIA 2013/ONGC) put the Cambay basin as having India's largest shale gas resource.",
+"statements": [
+{
+"l": "opt1",
+"t": "Cambay Basin has the largest shale gas reserves in India.",
+"v": "T",
+"m": null,
+"d": "Cambay Basin",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Krishna-Godavari Basin has the largest shale gas reserves in India.",
+"v": "F",
+"m": "comparison reversal",
+"d": "Krishna-Godavari Basin",
+"fact": "KG has shale but less. Correct: Cambay Basin has the largest shale gas reserves in India."
+},
+{
+"l": "opt3",
+"t": "Cauvery Basin has the largest shale gas reserves in India.",
+"v": "F",
+"m": "comparison reversal",
+"d": "Cauvery Basin",
+"fact": "Cauvery has less. Correct: Cambay Basin has the largest shale gas reserves in India."
+},
+{
+"l": "opt4",
+"t": "Ganga-Brahmaputra Basin has the largest shale gas reserves in India.",
+"v": "F",
+"m": "comparison reversal",
+"d": "Ganga-Brahmaputra Basin",
+"fact": "Ganga-Brahmaputra less. Correct: Cambay Basin has the largest shale gas reserves in India."
+}
+],
+"rule": "Shale gas: Cambay largest; also KG, Cauvery, Damodar.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2017-paper1#62",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "E21/4",
+"format": "one-liner",
+"stem": "What is the capacity of solar power sought to be installed in India by 2022 under the Jawaharlal Nehru National Solar Mission ?",
+"options": [
+"10 Gigawatt",
+"50 Gigawatt",
+"100 Gigawatt",
+"1000 Gigawatt"
+],
+"key": "100 Gigawatt",
+"deleted": 0,
+"core_fact": "JNNSM (2010) target raised in June 2015 from 20 GW to 100 GW of solar by 2022.",
+"statements": [
+{
+"l": "opt1",
+"t": "Under JNNSM, India sought to install 10 Gigawatt of solar power by 2022.",
+"v": "F",
+"m": "numerical alteration",
+"d": "10 Gigawatt",
+"fact": "100 GW."
+},
+{
+"l": "opt2",
+"t": "Under JNNSM, India sought to install 50 Gigawatt of solar power by 2022.",
+"v": "F",
+"m": "numerical alteration",
+"d": "50 Gigawatt",
+"fact": "100 GW (total RE target 175 GW)."
+},
+{
+"l": "opt3",
+"t": "Under JNNSM, India sought to install 100 Gigawatt of solar power by 2022.",
+"v": "T",
+"m": null,
+"d": "100 Gigawatt",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Under JNNSM, India sought to install 1000 Gigawatt of solar power by 2022.",
+"v": "F",
+"m": "numerical alteration",
+"d": "1000 Gigawatt",
+"fact": "100 GW."
+}
+],
+"rule": "JNNSM 2010: 20 GW → 100 GW (2015); RE 175 GW by 2022; 500 GW non-fossil by 2030.",
+"key_note": "Original 2010 target was 20 GW."
+},
+{
+"id": "group1-prelims-2019-paper2#87",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "E21/6",
+"format": "one-liner",
+"stem": "The noble gas used for the treatment of cancer is",
+"options": [
+"Radon",
+"Krypton",
+"Argon",
+"Helium"
+],
+"key": "Radon",
+"deleted": 0,
+"core_fact": "Radon (radioactive) has been used in radiotherapy of cancer.",
+"statements": [
+{
+"l": "opt1",
+"t": "The noble gas used for treatment of cancer is Radon.",
+"v": "T",
+"m": null,
+"d": "Radon",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The noble gas used for treatment of cancer is Krypton.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Krypton",
+"fact": "Kr lamps."
+},
+{
+"l": "opt3",
+"t": "The noble gas used for treatment of cancer is Argon.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Argon",
+"fact": "Ar welding."
+},
+{
+"l": "opt4",
+"t": "The noble gas used for treatment of cancer is Helium.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Helium",
+"fact": "He balloons."
+}
+],
+"rule": "He balloons; Ne signs; Ar welding; Rn radiotherapy.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2023-paper2#64",
+"year": 2023,
+"stage": "Prelims",
+"leaf": "E21/6",
+"format": "statement-based",
+"stem": "Consider the following statements regarding Fast Breeder Reactors :\nI. Fast Breeder Reactors are designed to breed more fuel than they consume.\nII. In this reactor, Plutonium-239 undergoes fission to produce energy, while the Uranium-238 present in the fuel transmutes to additional Plutonium-239.\nIII. It is a part of stage 1 of India’s Nuclear power programme.\nWhich of the statements given above is/are correct ?",
+"options": [
+"I only",
+"I and II only",
+"II and III only",
+"I, II and III"
+],
+"key": "I and II only",
+"deleted": 0,
+"core_fact": "FBRs breed more fissile fuel than they consume: Pu-239 fissions, U-238 blanket becomes Pu-239; FBRs are Stage 2 of India's programme.",
+"statements": [
+{
+"l": "I",
+"t": "FBRs are designed to breed more fuel than they consume.",
+"v": "T",
+"m": null,
+"d": "breed more fuel",
+"fact": null
+},
+{
+"l": "II",
+"t": "In an FBR, Pu-239 fissions and U-238 transmutes to Pu-239.",
+"v": "T",
+"m": null,
+"d": "Plutonium-239 ... Uranium-238",
+"fact": null
+},
+{
+"l": "III",
+"t": "FBR is part of stage 1 of India's nuclear programme.",
+"v": "F",
+"m": "numerical alteration",
+"d": "stage 1",
+"fact": "FBRs are Stage 2; Stage 1 is PHWR."
+}
+],
+"rule": "Stage 1 PHWR (nat. U); stage 2 FBR (Pu); stage 3 thorium (U-233).",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2023-paper2#67",
+"year": 2023,
+"stage": "Prelims",
+"leaf": "E21/3",
+"format": "statement-based",
+"stem": "Consider the following statements regarding the Indian Renewable Energy Development Agency Limited (IREDA) :\nI. It is a Navratna Enterprise of Government of India.\nII. It aims to give financial support to schemes for generating electricity through new and renewable sources and conserving energy through energy efficiency.\nIII. It works directly under the administrative control of the Ministry of New and Renewable Energy (MNRE).\nWhich of the statements given above is/are correct ?",
+"options": [
+"I only",
+"II and III only",
+"III only",
+"I, II and III"
+],
+"key": "II and III only",
+"deleted": 0,
+"core_fact": "IREDA (1987) finances RE and energy-efficiency projects under MNRE; at the 2023 exam it was a Mini Ratna (Cat. I); Navratna only from 26 April 2024.",
+"statements": [
+{
+"l": "I",
+"t": "IREDA is a Navratna enterprise.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Navratna",
+"fact": "In 2023 IREDA was a Mini Ratna (Category I); it became Navratna in April 2024."
+},
+{
+"l": "II",
+"t": "IREDA aims to finance RE generation and energy-efficiency schemes.",
+"v": "T",
+"m": null,
+"d": "financial support",
+"fact": null
+},
+{
+"l": "III",
+"t": "IREDA is under the administrative control of MNRE.",
+"v": "T",
+"m": null,
+"d": "MNRE",
+"fact": null
+}
+],
+"rule": "Time-sensitive PSU status.",
+"key_note": "Now (2024+) statement I would be true."
+},
+{
+"id": "group1-prelims-2023-paper2#68",
+"year": 2023,
+"stage": "Prelims",
+"leaf": "E21/1",
+"format": "one-liner",
+"stem": "The Renewables Integration in India 2021 report was launched by which of the following institutions ?",
+"options": [
+"NITI Aayog and International Energy Agency",
+"Ministry of New and Renewable Energy and Ministry of Environment, Forest and Climate Change",
+"International Solar Alliance and Ministry of Environment, Forest and Climate Change",
+"Ministry of Power"
+],
+"key": "NITI Aayog and International Energy Agency",
+"deleted": 0,
+"core_fact": "The report was launched by NITI Aayog and the IEA (2021).",
+"statements": [
+{
+"l": "opt1",
+"t": "The 'Renewables Integration in India 2021' report was launched by NITI Aayog and International Energy Agency.",
+"v": "T",
+"m": null,
+"d": "NITI Aayog and International Energy Agency",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The 'Renewables Integration in India 2021' report was launched by Ministry of New and Renewable Energy and Ministry of Environment, Forest and Climate Change.",
+"v": "F",
+"m": "institution substitution",
+"d": "Ministry of New and Renewable Energy and Ministry of Environment, Forest and Climate Change",
+"fact": "NITI Aayog and IEA."
+},
+{
+"l": "opt3",
+"t": "The 'Renewables Integration in India 2021' report was launched by International Solar Alliance and Ministry of Environment, Forest and Climate Change.",
+"v": "F",
+"m": "institution substitution",
+"d": "International Solar Alliance and Ministry of Environment, Forest and Climate Change",
+"fact": "NITI Aayog and IEA."
+},
+{
+"l": "opt4",
+"t": "The 'Renewables Integration in India 2021' report was launched by Ministry of Power.",
+"v": "F",
+"m": "institution substitution",
+"d": "Ministry of Power",
+"fact": "NITI Aayog and IEA."
+}
+],
+"rule": "NITI-IEA reports.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2023-paper2#69",
+"year": 2023,
+"stage": "Prelims",
+"leaf": "E21/6",
+"format": "statement-based",
+"stem": "Consider the following statements with reference to the enrichment of Uranium :\nI. Uranium enrichment refers to increasing the percentage of U-238 (the fissile isotope) through the process of isotope separation.\nII. Weapons-grade Uranium has to be enriched to a maximum of 20 percent of the fissile isotope.\nWhich of the statements given above is/are correct ?",
+"options": [
+"I only",
+"II only",
+"Both I and II",
+"Neither I nor II"
+],
+"key": "Neither I nor II",
+"deleted": 0,
+"core_fact": "Enrichment raises U-235 (fissile); LEU < 20%; weapons-grade ~90% U-235.",
+"statements": [
+{
+"l": "I",
+"t": "Enrichment increases the percentage of U-238 (the fissile isotope).",
+"v": "F",
+"m": "similar-term confusion",
+"d": "U-238",
+"fact": "Enrichment increases U-235, the fissile isotope."
+},
+{
+"l": "II",
+"t": "Weapons-grade uranium has to be enriched to a maximum of 20%.",
+"v": "F",
+"m": "numerical alteration",
+"d": "maximum of 20 percent",
+"fact": "Weapons grade ~90% U-235; 20% is LEU ceiling."
+}
+],
+"rule": "Natural 0.7%; LEU <20%; power 3-5%; weapons ~90%.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2023-paper2#75",
+"year": 2023,
+"stage": "Prelims",
+"leaf": "E21/6",
+"format": "statement-based (negative)",
+"stem": "Consider the following statements with reference to Dirty Bomb :\nI. It is a bomb that contains radioactive material, such as uranium, which is scattered through the air when its conventional explosive detonates.\nII. It creates city-flattening atomic explosion and less toxic waste.\nIII. Manufacturing dirty bombs is costlier than nuclear weapons.\nWhich of the statements given above are incorrect ?",
+"options": [
+"I and II only",
+"II and III only",
+"I and III only",
+"None of the above"
+],
+"key": "II and III only",
+"deleted": 0,
+"core_fact": "A dirty bomb (RDD) is a conventional explosive spreading radioactive material; no nuclear explosion; cheap and easy to make.",
+"statements": [
+{
+"l": "I",
+"t": "A dirty bomb contains radioactive material scattered by a conventional explosive.",
+"v": "T",
+"m": null,
+"d": "scattered",
+"fact": null
+},
+{
+"l": "II",
+"t": "A dirty bomb creates a city-flattening atomic explosion and less toxic waste.",
+"v": "F",
+"m": "multi-fact merge",
+"d": "city-flattening atomic explosion",
+"fact": "No nuclear explosion; it disperses radioactivity."
+},
+{
+"l": "III",
+"t": "Manufacturing dirty bombs is costlier than nuclear weapons.",
+"v": "F",
+"m": "comparison reversal",
+"d": "costlier",
+"fact": "They are far cheaper."
+}
+],
+"rule": "Dirty bomb = radiological dispersal device (no nuclear yield); question asks for INCORRECT statements – II and III.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2023-paper2#82",
+"year": 2023,
+"stage": "Prelims",
+"leaf": "E21/6",
+"format": "multiple-correct",
+"stem": "Which of the following events has delayed the commissioning of the Kudankulam Nuclear Power Plant ?\nI. Disintegration of the USSR\nII. India’s economic crisis of 1991\nIII. Protests by Civil Society\nSelect the correct answer from below :",
+"options": [
+"III only",
+"I only",
+"I, II and III",
+"I and III only"
+],
+"key": "I and III only",
+"deleted": 0,
+"core_fact": "The 1988 Rajiv Gandhi–Gorbachev agreement for Kudankulam stalled after the USSR's disintegration (1991) until the 1998 supplement; anti-nuclear protests (2011-12) delayed commissioning; Unit 1 grid-connected 2013.",
+"statements": [
+{
+"l": "I",
+"t": "Disintegration of the USSR delayed the Kudankulam plant.",
+"v": "T",
+"m": null,
+"d": "Disintegration of the USSR",
+"fact": null
+},
+{
+"l": "II",
+"t": "India's 1991 economic crisis delayed the Kudankulam plant.",
+"v": "F",
+"m": "cause-effect reversal",
+"d": "India's economic crisis of 1991",
+"fact": "The keyed causes are the USSR's break-up and civil-society protests; the 1991 BoP crisis is not counted."
+},
+{
+"l": "III",
+"t": "Protests by civil society delayed the Kudankulam plant.",
+"v": "T",
+"m": null,
+"d": "Protests by Civil Society",
+"fact": null
+}
+],
+"rule": "KKNPP: 1988 deal, 1998 revival, 2011-12 protests, 2013 Unit 1, VVER-1000.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2023-paper2#83",
+"year": 2023,
+"stage": "Prelims",
+"leaf": "E21/6",
+"format": "statement-based",
+"stem": "With reference to a mega project pertaining to Nuclear Fusion research that is being built in Southern France, International Thermonuclear Experimental Reactor (ITER), consider the following statements :\nI. It was designed to demonstrate the scientific and technological feasibility of fusion power for peaceful use.\nII. Institute of Plasma Research (IPR), Gandhinagar is the Nodal agency for the project ITER.\nIII. ADITYA is a medium size Tokamak fusion reactor installed at IPR, Gandhinagar as part of ITER.\nIV. EU, India, China, Japan, South Korea, Russia and US are the members of ITER.\nWhich of the statements given above are correct ?",
+"options": [
+"I and II only",
+"II and III only",
+"I, II and III only",
+"I, II, III and IV"
+],
+"key": "I, II, III and IV",
+"deleted": 0,
+"core_fact": "ITER (Cadarache, France) aims to show the scientific and technological feasibility of fusion; ITER-India at IPR Gandhinagar is India's domestic agency; members: EU, India, China, Japan, South Korea, Russia, USA. ADITYA (1989) is IPR's own indigenous tokamak.",
+"statements": [
+{
+"l": "I",
+"t": "ITER was designed to demonstrate the feasibility of fusion power for peaceful use.",
+"v": "T",
+"m": null,
+"d": "feasibility of fusion power",
+"fact": null
+},
+{
+"l": "II",
+"t": "IPR Gandhinagar is the nodal agency for ITER.",
+"v": "T",
+"m": null,
+"d": "Institute of Plasma Research",
+"fact": null
+},
+{
+"l": "III",
+"t": "ADITYA is a medium-size tokamak installed at IPR as part of ITER.",
+"v": "T",
+"m": null,
+"d": "as part of ITER",
+"fact": null
+},
+{
+"l": "IV",
+"t": "EU, India, China, Japan, South Korea, Russia and US are members of ITER.",
+"v": "T",
+"m": null,
+"d": "members",
+"fact": null
+}
+],
+"rule": "ITER members 7 (EU, IN, CN, JP, KR, RU, US); India's tokamaks: ADITYA, SST-1.",
+"key_note": "CONFLICT: ADITYA is IPR's own tokamak (1989), not part of ITER; statement III is doubtful. Key kept."
+},
+{
+"id": "group1-prelims-2023-paper2#90",
+"year": 2023,
+"stage": "Prelims",
+"leaf": "E21/3",
+"format": "statement-based",
+"stem": "Identify the incorrect statement about Hydrogen Fuel Cell Bus developed in India :\nI. India’s first indigenously developed Hydrogen Fuel Cell Bus was developed by Veera Vahana Company.\nII. The fuel cell employed in the Hydrogen-powered Bus will combine Hydrogen and Carbon dioxide to create electricity.\nIII. The effluent from the hydrogen-powered Bus is water and heat instead of smoke.",
+"options": [
+"I and III",
+"II and III",
+"I and II",
+"All of the above"
+],
+"key": "I and II",
+"deleted": 0,
+"core_fact": "India's first indigenously developed hydrogen fuel cell bus (Aug 2022, Pune) was developed by KPIT Ltd with CSIR-NCL; a fuel cell combines hydrogen with oxygen from air to give electricity, emitting only water and heat.",
+"statements": [
+{
+"l": "S1",
+"t": "India's first indigenously developed Hydrogen Fuel Cell Bus was developed by Veera Vahana Company.",
+"v": "F",
+"m": "institution substitution",
+"d": "Veera Vahana Company",
+"fact": "It was developed by KPIT Ltd with CSIR (National Chemical Laboratory), Pune."
+},
+{
+"l": "S2",
+"t": "The fuel cell employed in the Hydrogen-powered Bus will combine Hydrogen and Carbon dioxide to create electricity.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Carbon dioxide",
+"fact": "The fuel cell combines hydrogen with oxygen (air) to produce electricity."
+},
+{
+"l": "S3",
+"t": "The effluent from the hydrogen-powered Bus is water and heat instead of smoke.",
+"v": "T",
+"m": null,
+"d": "water and heat",
+"fact": null
+}
+],
+"rule": "Hydrogen fuel cell: H2 + O2 only, by-product water + heat; India's first indigenous FC bus = KPIT-CSIR (Pune, 2022).",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2024-paper2#112",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "E21/4",
+"format": "one-liner",
+"stem": "Which of the following countries recently became the 119th country to join the International Solar Alliance (ISA) ?",
+"options": [
+"Liberia",
+"Romania",
+"Israel",
+"Malta"
+],
+"key": "Malta",
+"deleted": 0,
+"core_fact": "Malta became the 119th member of the International Solar Alliance (signed Framework Agreement, Feb 2024).",
+"statements": [
+{
+"l": "opt1",
+"t": "Liberia recently became the 119th country to join the International Solar Alliance.",
+"v": "F",
+"m": "location substitution",
+"d": "Liberia",
+"fact": "Malta was the 119th member."
+},
+{
+"l": "opt2",
+"t": "Romania recently became the 119th country to join the International Solar Alliance.",
+"v": "F",
+"m": "location substitution",
+"d": "Romania",
+"fact": "Malta was the 119th member."
+},
+{
+"l": "opt3",
+"t": "Israel recently became the 119th country to join the International Solar Alliance.",
+"v": "F",
+"m": "location substitution",
+"d": "Israel",
+"fact": "Malta was the 119th member."
+},
+{
+"l": "opt4",
+"t": "Malta recently became the 119th country to join the International Solar Alliance.",
+"v": "T",
+"m": null,
+"d": "Malta",
+"fact": null
+}
+],
+"rule": "ISA facts: launched COP21 Paris 2015 by India and France; HQ Gurugram; count of members changes - fix the date.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2024-paper2#113",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "E21/3",
+"format": "statement-based",
+"stem": "Consider the following statements regarding State Energy Efficiency Index (SEEI) 2023 :\nI. Karnataka is the top performing state in SEEI 2023 with an overall score of 86.5 out of 100.\nII. Assam and Uttar Pradesh are in the 'Achiever' category in SEEI 2023.\nIII. Andhra Pradesh is in the 'Front runner' category in SEEI 2023.\nWhich among the above statements are correct ?",
+"options": [
+"I and II",
+"II and III",
+"I and III",
+"I, II and III"
+],
+"key": "I, II and III",
+"deleted": 0,
+"core_fact": "SEEI 2023 (BEE with AEEE): Karnataka top (86.5/100); Front Runners included Karnataka, AP, Kerala, Telangana; Assam and UP in 'Achiever' category.",
+"statements": [
+{
+"l": "S1",
+"t": "Karnataka is the top performing state in SEEI 2023 with an overall score of 86.5 out of 100.",
+"v": "T",
+"m": null,
+"d": "86.5",
+"fact": null
+},
+{
+"l": "S2",
+"t": "Assam and Uttar Pradesh are in the 'Achiever' category in SEEI 2023.",
+"v": "T",
+"m": null,
+"d": "Achiever",
+"fact": null
+},
+{
+"l": "S3",
+"t": "Andhra Pradesh is in the 'Front runner' category in SEEI 2023.",
+"v": "T",
+"m": null,
+"d": "Front runner",
+"fact": null
+}
+],
+"rule": "SEEI (BEE-AEEE) bands: Front Runner > Achiever > Contender > Aspirant; AP is regularly a Front Runner (top of its group in SEEI 2024).",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2024-paper2#68",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "E21/3",
+"format": "one-liner",
+"stem": "Indian Renewable Energy Development Agency Ltd (IREDA) has signed a Memorandum of Understanding (MOU) for innovation and research in the renewable energy sector with :",
+"options": [
+"IIT Madras",
+"IIT Guwahati",
+"IIT Bhubaneswar",
+"IIT Bombay"
+],
+"key": "IIT Bhubaneswar",
+"deleted": 0,
+"core_fact": "In January 2024 IREDA signed an MoU with IIT Bhubaneswar for innovation and research in the renewable energy sector.",
+"statements": [
+{
+"l": "opt1",
+"t": "IREDA has signed an MoU for innovation and research in the renewable energy sector with IIT Madras.",
+"v": "F",
+"m": "institution substitution",
+"d": "IIT Madras",
+"fact": "The MoU was with IIT Bhubaneswar."
+},
+{
+"l": "opt2",
+"t": "IREDA has signed an MoU for innovation and research in the renewable energy sector with IIT Guwahati.",
+"v": "F",
+"m": "institution substitution",
+"d": "IIT Guwahati",
+"fact": "The MoU was with IIT Bhubaneswar."
+},
+{
+"l": "opt3",
+"t": "IREDA has signed an MoU for innovation and research in the renewable energy sector with IIT Bhubaneswar.",
+"v": "T",
+"m": null,
+"d": "IIT Bhubaneswar",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "IREDA has signed an MoU for innovation and research in the renewable energy sector with IIT Bombay.",
+"v": "F",
+"m": "institution substitution",
+"d": "IIT Bombay",
+"fact": "The MoU was with IIT Bhubaneswar."
+}
+],
+"rule": "IREDA (MNRE PSU, 1987) - MoU partner for RE research = IIT Bhubaneswar.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2024-paper2#70",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "E21/6",
+"format": "one-liner",
+"stem": "India's indigenous Prototype Fast Breeder Reactor (PFBR) of 500 MWe capacity at Kalapakkam was developed by :",
+"options": [
+"Bhabha Atomic Research Centre (BARC)",
+"Central Institute of Mining and Fuel Research (CIMFR)",
+"Indira Gandhi Centre for Atomic Research (IGCAR)",
+"Bharatiya Nabhikiya Vidyut Nigam Limited (BHAVINI)"
+],
+"key": "Bharatiya Nabhikiya Vidyut Nigam Limited (BHAVINI)",
+"deleted": 0,
+"core_fact": "The 500 MWe PFBR at Kalpakkam was designed by IGCAR and is being built and to be operated by BHAVINI (DAE PSU, 2003); core loading began March 2024.",
+"statements": [
+{
+"l": "opt1",
+"t": "India's indigenous 500 MWe Prototype Fast Breeder Reactor at Kalpakkam was developed by Bhabha Atomic Research Centre (BARC).",
+"v": "F",
+"m": "institution substitution",
+"d": "Bhabha Atomic Research Centre (BARC)",
+"fact": "PFBR is designed by IGCAR and built by BHAVINI; BARC (Trombay) leads thermal/research reactors."
+},
+{
+"l": "opt2",
+"t": "India's indigenous 500 MWe Prototype Fast Breeder Reactor at Kalpakkam was developed by Central Institute of Mining and Fuel Research (CIMFR).",
+"v": "F",
+"m": "institution substitution",
+"d": "Central Institute of Mining and Fuel Research (CIMFR)",
+"fact": "CIMFR is a CSIR lab (Dhanbad) on mining and fuels; PFBR is BHAVINI's."
+},
+{
+"l": "opt3",
+"t": "India's indigenous 500 MWe Prototype Fast Breeder Reactor at Kalpakkam was developed by Indira Gandhi Centre for Atomic Research (IGCAR).",
+"v": "F",
+"m": "institution substitution",
+"d": "Indira Gandhi Centre for Atomic Research (IGCAR)",
+"fact": "Per the key, BHAVINI is the developer; IGCAR only designed PFBR."
+},
+{
+"l": "opt4",
+"t": "India's indigenous 500 MWe Prototype Fast Breeder Reactor at Kalpakkam was developed by Bharatiya Nabhikiya Vidyut Nigam Limited (BHAVINI).",
+"v": "T",
+"m": null,
+"d": "Bharatiya Nabhikiya Vidyut Nigam Limited (BHAVINI)",
+"fact": null
+}
+],
+"rule": "PFBR: design = IGCAR, construction/operation = BHAVINI; 'developed by' in APPSC = BHAVINI.",
+"key_note": "Some sources credit PFBR's development to IGCAR (design). Key BHAVINI kept: BHAVINI is the implementing agency (PIB March 2024)."
+},
+{
+"id": "group1-prelims-2024-paper2#83",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "E21/3",
+"format": "statement-based",
+"stem": "NITI Aayog's 'Methanol Economy' programme is aimed at :\nI. Reducing India's oil import bill.\nII. Reducing Greenhouse Gas (GHG) emission.\nIII. Converting coal reserves and municipal solid waste into methanol.\nSelect the correct answer using the codes given below :",
+"options": [
+"I and II only",
+"II and III only",
+"I and III only",
+"I, II and III"
+],
+"key": "I, II and III",
+"deleted": 0,
+"core_fact": "NITI Aayog's Methanol Economy programme aims to cut India's oil import bill and GHG emissions by producing methanol from high-ash coal, municipal solid waste, stranded gas and biomass.",
+"statements": [
+{
+"l": "S1",
+"t": "NITI Aayog's 'Methanol Economy' programme is aimed at reducing India's oil import bill.",
+"v": "T",
+"m": null,
+"d": "oil import bill",
+"fact": null
+},
+{
+"l": "S2",
+"t": "NITI Aayog's 'Methanol Economy' programme is aimed at reducing Greenhouse Gas emission.",
+"v": "T",
+"m": null,
+"d": "GHG emission",
+"fact": null
+},
+{
+"l": "S3",
+"t": "NITI Aayog's 'Methanol Economy' programme is aimed at converting coal reserves and municipal solid waste into methanol.",
+"v": "T",
+"m": null,
+"d": "coal ... MSW into methanol",
+"fact": null
+}
+],
+"rule": "Methanol economy = import substitution + emission cut + coal/MSW-to-methanol; blend target M15 petrol.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2024-paper2#90",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "E21/4",
+"format": "assertion-reason",
+"stem": "Consider the following statements :\nStatement I : India has tremendous Solar power generation potential.\nStatement II : India experiences clear sunny weather for 250 to 300 days per year and this exposure to the Sun is estimated to be worth 5000 Tn kilowatt hour of energy in a year over India's land area.\nSelect the correct answer using the codes given below :",
+"options": [
+"Statement I and Statement II are correct and Statement II is the correct explanation for Statement I.",
+"Statement I and Statement II are correct, but Statement II is not the correct explanation for Statement I.",
+"Statement I is correct, but Statement II is incorrect.",
+"Statement I is incorrect, but Statement II is correct."
+],
+"key": "Statement I and Statement II are correct and Statement II is the correct explanation for Statement I.",
+"deleted": 0,
+"core_fact": "India receives ~5,000 trillion kWh/year of solar energy with 250-300 clear sunny days, which explains its huge solar potential.",
+"statements": [
+{
+"l": "A",
+"t": "India has tremendous solar power generation potential.",
+"v": "T",
+"m": null,
+"d": "tremendous",
+"fact": null
+},
+{
+"l": "R",
+"t": "India has 250-300 clear sunny days a year, worth about 5,000 trillion kWh of energy over its land area.",
+"v": "T",
+"m": null,
+"d": "5000 Tn kilowatt hour",
+"fact": null
+},
+{
+"l": "R->A",
+"t": "India has tremendous solar potential because of 250-300 sunny days and ~5,000 trillion kWh of insolation.",
+"v": "T",
+"m": null,
+"d": "because",
+"fact": null
+}
+],
+"rule": "MNRE: ~5,000 trillion kWh/yr, 4-7 kWh/sq m/day, 300 sunny days.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2024-paper2#99",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "E21/3",
+"format": "one-liner",
+"stem": "India's first indigenous Hydrogen fuel cell ferry, flagged off by the Prime Minister of India, was built by :",
+"options": [
+"Hindustan Shipyard Limited",
+"Mazagon Dock Shipbuilders Limited",
+"Hooghly Dock & Port Engineers Limited",
+"Cochin Shipyard Limited"
+],
+"key": "Cochin Shipyard Limited",
+"deleted": 0,
+"core_fact": "India's first indigenous hydrogen fuel-cell ferry, built by Cochin Shipyard Ltd, was flagged off by the PM from Thoothukudi (Feb 2024) for service at Varanasi.",
+"statements": [
+{
+"l": "opt1",
+"t": "India's first indigenous hydrogen fuel cell ferry was built by Hindustan Shipyard Limited",
+"v": "F",
+"m": "institution substitution",
+"d": "Hindustan Shipyard Limited",
+"fact": "Cochin Shipyard built it."
+},
+{
+"l": "opt2",
+"t": "India's first indigenous hydrogen fuel cell ferry was built by Mazagon Dock Shipbuilders Limited",
+"v": "F",
+"m": "institution substitution",
+"d": "Mazagon Dock Shipbuilders Limited",
+"fact": "Cochin Shipyard built it."
+},
+{
+"l": "opt3",
+"t": "India's first indigenous hydrogen fuel cell ferry was built by Hooghly Dock & Port Engineers Limited",
+"v": "F",
+"m": "institution substitution",
+"d": "Hooghly Dock & Port Engineers Limited",
+"fact": "Cochin Shipyard built it."
+},
+{
+"l": "opt4",
+"t": "India's first indigenous hydrogen fuel cell ferry was built by Cochin Shipyard Limited",
+"v": "T",
+"m": null,
+"d": "Cochin Shipyard Limited",
+"fact": null
+}
+],
+"rule": "Shipyards: CSL - INS Vikrant, H2 ferry, water metro; MDL - submarines/destroyers; HSL - Vizag.",
+"key_note": ""
+}
+],
+"related_count": 115,
+"related_sample": [
+"S.I. unit of energy is → Joule [APPSC Forest Beat Officer & Assistant Be]",
+"Which of the following combinations can be used as both primary and final energy resources? → Both (Coal, Petroleum) and (Petroleum, Natural Gas) [APPSC Forest Section Officer General Stu]",
+"Which of the following constitutes the maximum share in power generation in India? → Thermal Power [APPSC Extension Officer Grade-I Common P]",
+"There is strong positive correlation between Human Development Index and Per Capita Electricity Consumption in case of India because? → Certain level of per capita energy consumption is needed to ensure minimally acceptable well being to the people [APPSC Degree Lecturers General Studies &]",
+"A: As per India Energy Outlook 2021 published by International Energy Agency (IEA), India has been ranked the third largest primary energy consumer in the world.\nR: This was because the Government of  → Both A and R are individually true, but R is not the correct explanation of A [APPSC Group-IV Paper-I Mains General Stu]",
+"Which will be the first State to launch Country's premier solar powered cruise Boat by December? → Kerala [APPSC Forest Beat Officer & Assistant Be]",
+"Name the country which launched Fulbright Kalam climate Fellowship along with India → USA [APPSC AEE Mains General Studies & Mental]",
+"In which State/Union Territory did India host the Ministerial event of the 8th Mission Innovation (MI8) in July 2023? → Goa [APPSC Assistant Environmental Engineer a]",
+"Which of the following statement(s) is/are CORRECT for India Energy Week (IEW)?\n\nI. India Energy Week (IEW) was organised in February 2023\n\nII. The Prime Minister inaugurated the India Energy Week (IE → Only I [APPSC Town Planning Building Overseers G]",
+"The Pew Charitable Trusts, an eminent American NGO reported in April 2012 that India has emerged in the world as one of the top → Green Economies [APPSC Assistant Social Welfare Officers ]",
+"What is the rank of India as per 'Renewable Energy Country Index' 2018? → 4th [APPSC Forest Beat Officer & Assistant Be]",
+"Which was the first country in the world to set up a ministry of non-conventional energy resources, in early 1980? → India [APPSC 2023 Assistant Motor Vehicle Inspe]",
+"Recently, North Korea claimed successful test of which type of bomb? → Hydrogen Bomb [APPSC Hostel Welfare Officer Grade-II (M]",
+"What is the name of atomic bomb that was dropped on Hiroshima in 1945 by Americans? → Little Boy [APPSC AE (Subordinate Services) Mains 20]",
+"The most common method Uranium enrichment is? → Centrifugation [APPSC Teaching Staff of the Department o]",
+"Which nuclear fuel is produced when thorium is bombarded with neutrons? → Uranium-233 [same exam]",
+"What nuclear fuel does bombarding Thorium with neutrons produce? → Uranium-233 [same exam]",
+"Which one of the following is a good nuclear fuel? → Plutonium 239 [same exam]",
+"Which of the following is not a radioactive series? → Carbon series [APPSC Degree Lecturers General Studies &]",
+"In May, 2017, the Central Cabinet decided to launch 10 indigenous nuclear reactors of the following type as part of a mega project? → Pressurized Heavy Water Reactors [APPSC ASO Mains General Studies & Mental]",
+"A moderator is used in nuclear reactors in order to → slow down the speed of neutrons [APPSC Forest Beat Officer & Assistant Be]",
+"Match the following:\nColumn A:\ni. Fission\nii. Control rod\niii. Coolant\niv. Fuel\nv. Reactor core\nColumn B:\na. Where fuel, moderator and control rods are located\nb. Splitting of heavy atomic nuclei to r → i-b, ii-e, iii-c, iv-d, v-a [APPSC Forest Subordinate Service (Thaned]",
+"What is the function of moderator in a nuclear reactor? → Slowdown neutrons [APPSC Forest Subordinate Service (Thaned]",
+"Which Indian nuclear reactor is used for research purposes? → Dhruva [APPSC Forest Beat Officer & Assistant Be]",
+"Atomic energy and mineral resources is a subject under → Union list [APPSC Assistant Director of Economics, A]",
+"Who among the following is a member of Atomic Energy Commission? → P Rama Rao [APPSC Inspector of Factories, Civil Assi]",
+"Consider the following statements and select the correct option.\nStatement A: Tummalapalle Uranium Project located in YSR district of Andhra Pradesh.\nStatement B: KPM Uranium project is located in Gun → Only statement A is correct. [APPSC Polytechnic Colleges Lecturers (En]",
+"In which place of Andhra Pradesh given below, are Uranium reserves found by the Department of Atomic Energy? → Tummalapalli [APPSC AEE Screening Test 2016]",
+"Which of the following sentences are TRUE with reference to International Thermonuclear Experimental Reactor (ITER)?\n\nA. It is an experimental Tokamak nuclear fission reactor built in Southern France. → B and D [APPSC Divisional Accounts Officer (Mains]",
+"The intense heat of Sun is due to → fusion reactions [APPSC Forest Beat Officer & Assistant Be]",
+"Tarapur Atomic Power Station is in → Maharashtra [APPSC Junior Lecturers 2011]",
+"In which of the following states has India's first indigenously developed 700 MW nuclear power reactor started commercial operations on 30th June 2023? → Gujarat [APPSC Assistant Executive Engineer (AEE)]",
+"The first nuclear power plant in India was set up at 50. 'Kh → Tarapur [same exam]",
+"Kalpakkam is in the news because → its atomic power plant went critical [same exam]",
+"Which among the following was a major nuclear accident that occurred on Saturday, 26 April, 1986? → Chernobyl disaster [APPSC Technical Assistant (Hydrogeology)]",
+"Which country is associated with the nuclear accident named 'Three Mile Island Accident'? → USA [APPSC Assistant Chemist (AP Ground Water]",
+"Which of the following is an example of a nuclear disaster? → The Three Mile Island accident (1979) [APPSC Welfare Organiser in A.P Sainik We]",
+"Which of the following is the cause of the Chernobyl disaster? → Nuclear Accident [APPSC Asst. B.C. Welfare Officers, Royal]",
+"The Three Mile Island nuclear accident took place in which country? → USA [APPSC Junior Lecturers 2020 (20-02-2020)]",
+"The Manuguru Heavy Water Plant in Telangana (then Andhra Pradesh) was established in the year: → 1991 [APPSC 2019 Various non Gazetted Posts Li]",
+"In the Indian context what is the implication of ratifying \"Additional Protocol\" with the \"International Atomic Energy Agency\" (IAEA)? → The civil nuclear reactor come under the safeguard of IAEA [APPSC Deputy Executive Information Engin]",
+"Which is the top Nuclear Power generating Country in 2016? → USA [APPSC Degree Lecturers General Studies &]",
+"As of August 2024, how many commercial nuclear power reactors are operational in India? → 24 reactors [APPSC Dr. NTR University of Health Scien]",
+"____ is a proposed Atomic Power Project in Srikakulam district Andhra Pradesh aimed to generate about 6600 mW energy. → Kovvada Power Ltd. [APPSC Deputy Inspector of Survey, Techni]",
+"The Kovvada nuclear power plant is a nuclear power plant in pre-construction in Ranastalam of which district? → Srikakualam [APPSC]",
+"In India, any kind of habitation in a radius of ____ around a nuclear reactor is prohibited from safety point of view. → 1.5 km [APPSC Assistant Conservator of Forest 20]",
+"In which state is the Rawatbhata nuclear power plant situated? → Rajasthan [APPSC Lecturers in Government Polytechni]",
+"Out of the given below items, which is the generally accepted full form of the abbreviation LINAC in scientific terminology? → Linear Accelerator [APPSC Assistant Director of Fisheries in]",
+"Which of the following radioactive elements is used in cancer therapy? → Cobalt - 62 [APPSC Junior Assistant cum Typist in Pri]",
+"Which of the following techniques is widely used to find out the age of organic matter? → Carbon dating [APPSC Assistant Director of Fisheries in]",
+"With what is the age of fossils of animals and trees measured? → Carbon dating [same exam]",
+"Gamma Rays are? → Rays without any charge [APPSC Teaching Staff of the Department o]",
+"What is the name of the instrument used to record and measure ionizing radiation in human beings? → Dosimeter [APPSC AE (Subordinate Services) Mains Ge]",
+"With which one of the following is BRIT in Government of India engaged? → Isotope Technology [APPSC Gazetted Posts GS 2010 (Notificati]",
+"What is the principle behind thermocouple? → Seebeck effect [APPSC Endowment Subordinate Service (Mai]",
+"Which of the following methods is used to determine the age of the Earth ? → Uranium-lead dating [APPSC Forest Beat Officer & Assistant Be]",
+"Which of the following is not a non-conventional source of energy? → Nuclear Energy [APPSC Welfare Organiser in AP Sainik Wel]",
+"Which of the following options represents an example of a non-renewable resource? → Natural gas [APPSC Assistant Environmental Engineer a]",
+"Which one of the following type of resource is iron ore? → Non Renewable [APPSC AEE Mains General Studies & Mental]",
+"Which of the following is a non-renewable resource? → Coal [APPSC Forest Section Officer (Mains) Pap]",
+"Which of the following is a type of renewable energy source? → Geothermal [APPSC Forest Section Officer Screening T]",
+"Which of these is a renewable source of energy? → Wind [APPSC Forest Beat Officer & Assistant Be]",
+"Which of the following is not a renewable energy source in India? → Nuclear Energy [APPSC Forest Beat Officer & Assistant Be]",
+"Which of the following is not a renewable energy source? → Nuclear Energy [APPSC Forest Range Officer Mains Paper-I]",
+"Which of the following types of energy is suitable for sustainable development? → Hydroelectric energy [APPSC Junior Lecturers General Studies &]",
+"Which of the following is NOT a source of green energy? → Natural gas [APPSC Endowment Prelims 2023]",
+"Which of the following is a renewable resource in the environment? → Solar energy [APPSC Asst. Public Relation Officer, Ass]",
+"Which non-renewable resource is used to make plastic toothbrushes and gasoline? → Petroleum [APPSC]",
+"Which of the following options is correct for the given assertion and reason?\nAssertion (A): India is actively promoting the use of renewable energy sources such as wind, hydro, solar, geothermal, bio → Both (A) and (R) are true, and (R) is the correct explanation of (A) [APPSC Forest Range Officer Screening Tes]",
+"Match the following types of renewable energy with their installed capacity in India as of August 2024.\nType of Renewable Energy:\n\n1. Wind Power\n\n2. Solar Power\n\n3. Biomass/Co-generation\nInstalled Cap → 1-C, 2-A, 3-B [APPSC Dr. NTR University of Health Scien]",
+"As of August 2024 data, match the following renewable energy sources with their installed capacity in India.\nType of Renewable Energy:\n\n1. Small Hydro Power\n\n2. Waste To Energy\n\n3. Large Hydro\nInstall → 1-C, 2-B, 3-A [APPSC Dr. NTR University of Health Scien]",
+"What is the primary purpose of the Green Energy Corridor (GEC) initiative? → To create intra-state transmission systems for renewable energy projects [APPSC Dr. NTR University of Health Scien]",
+"The first Union Territory of India to depend 100 percent on solar energy is → Diu [APPSC Assistant Motor Vehicle Inspectors]",
+"Which airport in the world is fully maintained by solar energy? → Kochi [APPSC Technical Assistant (Hydrology), L]",
+"When did the Indian Prime Minister Narendra Modi and the former President of France, Francois Hollande, jointly lay the foundation stone of the International Solar Alliance (ISA)? → January 2016 [APPSC Technical Assistant (Hydrogeology)]",
+"Which of the following States of India has the highest installed capacity of solar power? → Rajasthan [APPSC Assistant Social, BC & Tribal Welf]",
+"As on 31 December 2022, cumulative solar power installed in India was ______. → 63.30 GW [APPSC 2023 Assistant Motor Vehicle Inspe]",
+"Which Indian State has the highest installed solar power capacity as of 2024? → Rajasthan [APPSC Draughtsman (Technical Assistant) ]",
+"Consider the following statements about the Jawaharlal Nehru National Solar Mission:\n\n1. It was launched to promote the development and use of solar energy in India.\n\n2. It aims to establish India as  → 1 and 2 only [APPSC Junior Lecturers, Polytechnic Lect]",
+"Which of the following is NOT among the schemes launched by the Government of India to encourage generation of solar power in the country? → 33 Stack Defensive Scheme [APPSC Assistant Executive Engineer (AEE)]"
+]
+}

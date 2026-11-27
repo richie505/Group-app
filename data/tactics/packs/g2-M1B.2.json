@@ -1,0 +1,4777 @@
+{
+"exam": "Group 2",
+"section": "M1B.2",
+"title": "M1B Mains · Paper I · Section B · Indian Constitution (75M) › M1B.2 Structure and functions of the Indian Government",
+"syllabus_leaves": [
+{
+"leaf": "M1B.2.1",
+"wording": "Structure and Functions of Indian Government",
+"official_Q": 0,
+"years": [],
+"recurrence": "Insufficient evidence"
+},
+{
+"leaf": "M1B.2.2",
+"wording": "Legislative, Executive and Judiciary",
+"official_Q": 2,
+"years": [
+2019
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M1B.2.3",
+"wording": "Types of Legislatures: Unicameral, Bicameral",
+"official_Q": 13,
+"years": [
+2008,
+2017,
+2019
+],
+"recurrence": "Moderate historical recurrence"
+},
+{
+"leaf": "M1B.2.4",
+"wording": "Executive",
+"official_Q": 27,
+"years": [
+2017,
+2019,
+2025
+],
+"recurrence": "Moderate historical recurrence"
+},
+{
+"leaf": "M1B.2.5",
+"wording": "Parliamentary",
+"official_Q": 33,
+"years": [
+2008,
+2017,
+2019,
+2025
+],
+"recurrence": "Moderate historical recurrence"
+},
+{
+"leaf": "M1B.2.6",
+"wording": "Judiciary",
+"official_Q": 13,
+"years": [
+2017,
+2019,
+2025
+],
+"recurrence": "Moderate historical recurrence"
+},
+{
+"leaf": "M1B.2.7",
+"wording": "Judicial review",
+"official_Q": 3,
+"years": [
+2017
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M1B.2.8",
+"wording": "Judicial Activism",
+"official_Q": 5,
+"years": [
+2017,
+2025
+],
+"recurrence": "Low historical recurrence"
+}
+],
+"official_questions": [
+{
+"id": "group2-2008-paper2#88",
+"year": 2008,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "The effect of a 'Prorogation' is that",
+"options": [
+"Bills remain unaffected",
+"Resolutions remain unaffected",
+"Notices remain unaffected",
+"Motions remain unaffected"
+],
+"key": "Bills remain unaffected",
+"deleted": 0,
+"core_fact": "Prorogation ends a session; pending bills do not lapse, but pending notices (other than for introducing bills), motions and resolutions lapse.",
+"statements": [
+{
+"l": "opt1",
+"t": "The effect of prorogation is that Bills remain unaffected.",
+"v": "T",
+"m": null,
+"d": "Bills remain unaffected",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The effect of prorogation is that Resolutions remain unaffected.",
+"v": "F",
+"m": "scope expansion",
+"d": "Resolutions remain unaffected",
+"fact": "Pending resolutions lapse on prorogation."
+},
+{
+"l": "opt3",
+"t": "The effect of prorogation is that Notices remain unaffected.",
+"v": "F",
+"m": "scope expansion",
+"d": "Notices remain unaffected",
+"fact": "Pending notices lapse on prorogation."
+},
+{
+"l": "opt4",
+"t": "The effect of prorogation is that Motions remain unaffected.",
+"v": "F",
+"m": "scope expansion",
+"d": "Motions remain unaffected",
+"fact": "Pending motions lapse on prorogation."
+}
+],
+"rule": "Prorogation: bills survive; dissolution: Lok Sabha bills lapse (with exceptions).",
+"key_note": ""
+},
+{
+"id": "group2-2008-paper2#89",
+"year": 2008,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "Who presides the joint sitting of the two Houses of Parliament ?",
+"options": [
+"President",
+"Vice-President",
+"Prime Minister",
+"Speaker of the Lok Sabha"
+],
+"key": "Speaker of the Lok Sabha",
+"deleted": 0,
+"core_fact": "The Speaker of the Lok Sabha presides over a joint sitting (Art 118(4)); in his absence the Deputy Speaker, then the RS Deputy Chairman.",
+"statements": [
+{
+"l": "opt1",
+"t": "The joint sitting of the two Houses of Parliament is presided over by the President.",
+"v": "F",
+"m": "function/power substitution",
+"d": "President",
+"fact": "Speaker presides."
+},
+{
+"l": "opt2",
+"t": "The joint sitting of the two Houses of Parliament is presided over by the Vice-President.",
+"v": "F",
+"m": "authority swap",
+"d": "Vice-President",
+"fact": "Speaker presides."
+},
+{
+"l": "opt3",
+"t": "The joint sitting of the two Houses of Parliament is presided over by the Prime Minister.",
+"v": "F",
+"m": "authority swap",
+"d": "Prime Minister",
+"fact": "Speaker presides."
+},
+{
+"l": "opt4",
+"t": "The joint sitting of the two Houses of Parliament is presided over by the Speaker of the Lok Sabha.",
+"v": "T",
+"m": null,
+"d": "Speaker of the Lok Sabha",
+"fact": null
+}
+],
+"rule": "Joint sitting: summoned by President, presided by Speaker; RS Chairman never presides.",
+"key_note": ""
+},
+{
+"id": "group2-2008-paper2#90",
+"year": 2008,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "The minimum age to become a member of Rajya Sabha is ______ years.",
+"options": [
+"25",
+"30",
+"21",
+"35"
+],
+"key": "30",
+"deleted": 0,
+"core_fact": "Minimum age for Rajya Sabha membership is 30 years (Art 84(b)); Lok Sabha 25.",
+"statements": [
+{
+"l": "opt1",
+"t": "The minimum age to become a member of the Rajya Sabha is 25 years.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "25",
+"fact": "30 years for Rajya Sabha."
+},
+{
+"l": "opt2",
+"t": "The minimum age to become a member of the Rajya Sabha is 30 years.",
+"v": "T",
+"m": null,
+"d": "30",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The minimum age to become a member of the Rajya Sabha is 21 years.",
+"v": "F",
+"m": "numerical alteration",
+"d": "21",
+"fact": "30 years."
+},
+{
+"l": "opt4",
+"t": "The minimum age to become a member of the Rajya Sabha is 35 years.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "35",
+"fact": "30 years."
+}
+],
+"rule": "Ages: LS 25, RS 30, President/VP 35, Governor 35, MLC 30.",
+"key_note": ""
+},
+{
+"id": "group2-2008-paper2#91",
+"year": 2008,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "Article 112 of the Indian Constitution deals with",
+"options": [
+"Composition of Rajya Sabha",
+"Joint sitting of the two Houses of Parliament",
+"Annual Financial Statement",
+"Contingency Fund of India"
+],
+"key": "Annual Financial Statement",
+"deleted": 0,
+"core_fact": "Article 112 requires the President to lay the Annual Financial Statement (budget) before both Houses each year.",
+"statements": [
+{
+"l": "opt1",
+"t": "Article 112 of the Indian Constitution deals with the Composition of Rajya Sabha.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "Composition of Rajya Sabha",
+"fact": "Art 112 = Annual Financial Statement."
+},
+{
+"l": "opt2",
+"t": "Article 112 of the Indian Constitution deals with the Joint sitting of the two Houses of Parliament.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "Joint sitting of the two Houses of Parliament",
+"fact": "Art 112 = Annual Financial Statement."
+},
+{
+"l": "opt3",
+"t": "Article 112 of the Indian Constitution deals with the Annual Financial Statement.",
+"v": "T",
+"m": null,
+"d": "Annual Financial Statement",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Article 112 of the Indian Constitution deals with the Contingency Fund of India.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "Contingency Fund of India",
+"fact": "Art 112 = Annual Financial Statement."
+}
+],
+"rule": "112 AFS, 113 demands, 114 appropriation, 116 vote on account, 267 Contingency Fund.",
+"key_note": ""
+},
+{
+"id": "group2-2008-paper2#92",
+"year": 2008,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "Who was the first Deputy Speaker of the Lok Sabha constituted after Independence in India ?",
+"options": [
+"Anantasayanam Ayyangar",
+"G.V. Mavalankar",
+"Sachidananda Sinha",
+"Neelam Sanjiva Reddy"
+],
+"key": "Anantasayanam Ayyangar",
+"deleted": 0,
+"core_fact": "M. Ananthasayanam Ayyangar was the first Deputy Speaker of the first Lok Sabha (1952); he became Speaker in 1956.",
+"statements": [
+{
+"l": "opt1",
+"t": "The first Deputy Speaker of the Lok Sabha after Independence was Anantasayanam Ayyangar.",
+"v": "T",
+"m": null,
+"d": "Anantasayanam Ayyangar",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The first Deputy Speaker of the Lok Sabha after Independence was G.V. Mavalankar.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "G.V. Mavalankar",
+"fact": "Ayyangar was the first Deputy Speaker."
+},
+{
+"l": "opt3",
+"t": "The first Deputy Speaker of the Lok Sabha after Independence was Sachidananda Sinha.",
+"v": "F",
+"m": "person substitution",
+"d": "Sachidananda Sinha",
+"fact": "Ayyangar."
+},
+{
+"l": "opt4",
+"t": "The first Deputy Speaker of the Lok Sabha after Independence was Neelam Sanjiva Reddy.",
+"v": "F",
+"m": "person substitution",
+"d": "Neelam Sanjiva Reddy",
+"fact": "Ayyangar."
+}
+],
+"rule": "First LS: Speaker Mavalankar, Deputy Speaker Ayyangar.",
+"key_note": ""
+},
+{
+"id": "group2-2008-paper2#93",
+"year": 2008,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M1B.2.3",
+"format": "one-liner",
+"stem": "The Legislative Council in Andhra Pradesh has been abolished in the year",
+"options": [
+"1986",
+"1983",
+"1985",
+"1987"
+],
+"key": "1985",
+"deleted": 0,
+"core_fact": "The AP Legislative Council (created 1958) was abolished in 1985 (Act of Parliament on NTR government's resolution) and revived in 2007.",
+"statements": [
+{
+"l": "opt1",
+"t": "The Legislative Council in Andhra Pradesh was abolished in 1986.",
+"v": "F",
+"m": "chronological displacement",
+"d": "1986",
+"fact": "Abolished 1985."
+},
+{
+"l": "opt2",
+"t": "The Legislative Council in Andhra Pradesh was abolished in 1983.",
+"v": "F",
+"m": "chronological displacement",
+"d": "1983",
+"fact": "Abolished 1985."
+},
+{
+"l": "opt3",
+"t": "The Legislative Council in Andhra Pradesh was abolished in 1985.",
+"v": "T",
+"m": null,
+"d": "1985",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The Legislative Council in Andhra Pradesh was abolished in 1987.",
+"v": "F",
+"m": "chronological displacement",
+"d": "1987",
+"fact": "Abolished 1985."
+}
+],
+"rule": "AP Council: 1958 created, 1985 abolished, 2007 revived (2020 abolition resolution withdrawn 2021).",
+"key_note": ""
+},
+{
+"id": "group2-2008-paper2#94",
+"year": 2008,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "Who recommended the creation of Committee on Public Undertakings of Indian Parliament ?",
+"options": [
+"Administrative Reforms Committee",
+"Krishna Menon Committee",
+"Tyagi Committee",
+"Rajamannar Commission"
+],
+"key": "Krishna Menon Committee",
+"deleted": 0,
+"core_fact": "The Committee on Public Undertakings was set up in 1964 on the recommendation of the Krishna Menon Committee.",
+"statements": [
+{
+"l": "opt1",
+"t": "The creation of the Committee on Public Undertakings was recommended by the Administrative Reforms Committee.",
+"v": "F",
+"m": "chronological displacement",
+"d": "Administrative Reforms Committee",
+"fact": "Krishna Menon Committee."
+},
+{
+"l": "opt2",
+"t": "The creation of the Committee on Public Undertakings was recommended by the Krishna Menon Committee.",
+"v": "T",
+"m": null,
+"d": "Krishna Menon Committee",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The creation of the Committee on Public Undertakings was recommended by the Tyagi Committee.",
+"v": "F",
+"m": "institution substitution",
+"d": "Tyagi Committee",
+"fact": "Krishna Menon Committee."
+},
+{
+"l": "opt4",
+"t": "The creation of the Committee on Public Undertakings was recommended by the Rajamannar Commission.",
+"v": "F",
+"m": "institution substitution",
+"d": "Rajamannar Commission",
+"fact": "Krishna Menon Committee."
+}
+],
+"rule": "Financial committees: PAC 1921, Estimates 1950, COPU 1964 (Krishna Menon).",
+"key_note": ""
+},
+{
+"id": "group2-2008-paper2#95",
+"year": 2008,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M1B.2.3",
+"format": "one-liner",
+"stem": "The Legislative Council of a State can detain or delay a money bill for a period of ______ days.",
+"options": [
+"21",
+"30",
+"10",
+"14"
+],
+"key": "14",
+"deleted": 0,
+"core_fact": "A Legislative Council must return a money bill within 14 days (Art 198); otherwise it is deemed passed.",
+"statements": [
+{
+"l": "opt1",
+"t": "The Legislative Council of a State can detain a money bill for 21 days.",
+"v": "F",
+"m": "numerical alteration",
+"d": "21",
+"fact": "14 days."
+},
+{
+"l": "opt2",
+"t": "The Legislative Council of a State can detain a money bill for 30 days.",
+"v": "F",
+"m": "numerical alteration",
+"d": "30",
+"fact": "14 days."
+},
+{
+"l": "opt3",
+"t": "The Legislative Council of a State can detain a money bill for 10 days.",
+"v": "F",
+"m": "numerical alteration",
+"d": "10",
+"fact": "14 days."
+},
+{
+"l": "opt4",
+"t": "The Legislative Council of a State can detain a money bill for 14 days.",
+"v": "T",
+"m": null,
+"d": "14",
+"fact": null
+}
+],
+"rule": "Money bill delay: RS and LC both 14 days; ordinary bill: LC 3 months + 1 month.",
+"key_note": ""
+},
+{
+"id": "group2-2008-paper2#96",
+"year": 2008,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "Who designed the Parliament House at New Delhi ?",
+"options": [
+"Earnest George",
+"Herbert Baker",
+"Harold Peto",
+"Edward Grigg"
+],
+"key": "Herbert Baker",
+"deleted": 0,
+"core_fact": "Parliament House, New Delhi (opened 1927) was designed by Herbert Baker (with Edwin Lutyens).",
+"statements": [
+{
+"l": "opt1",
+"t": "The Parliament House at New Delhi was designed by Earnest George.",
+"v": "F",
+"m": "person substitution",
+"d": "Earnest George",
+"fact": "Herbert Baker."
+},
+{
+"l": "opt2",
+"t": "The Parliament House at New Delhi was designed by Herbert Baker.",
+"v": "T",
+"m": null,
+"d": "Herbert Baker",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The Parliament House at New Delhi was designed by Harold Peto.",
+"v": "F",
+"m": "person substitution",
+"d": "Harold Peto",
+"fact": "Herbert Baker."
+},
+{
+"l": "opt4",
+"t": "The Parliament House at New Delhi was designed by Edward Grigg.",
+"v": "F",
+"m": "person substitution",
+"d": "Edward Grigg",
+"fact": "Herbert Baker."
+}
+],
+"rule": "Old Parliament House: Lutyens and Baker (1927); new Parliament (2023): Bimal Patel.",
+"key_note": ""
+},
+{
+"id": "group2-2008-paper2#97",
+"year": 2008,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "In which year was the first Lok Sabha constituted after Independence in India ?",
+"options": [
+"1948",
+"1951",
+"1954",
+"1952"
+],
+"key": "1952",
+"deleted": 0,
+"core_fact": "The first Lok Sabha was constituted in April 1952 after the general elections of Oct 1951-Feb 1952.",
+"statements": [
+{
+"l": "opt1",
+"t": "The first Lok Sabha after Independence was constituted in 1948.",
+"v": "F",
+"m": "chronological displacement",
+"d": "1948",
+"fact": "1952."
+},
+{
+"l": "opt2",
+"t": "The first Lok Sabha after Independence was constituted in 1951.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "1951",
+"fact": "Constituted 1952."
+},
+{
+"l": "opt3",
+"t": "The first Lok Sabha after Independence was constituted in 1954.",
+"v": "F",
+"m": "chronological displacement",
+"d": "1954",
+"fact": "1952."
+},
+{
+"l": "opt4",
+"t": "The first Lok Sabha after Independence was constituted in 1952.",
+"v": "T",
+"m": null,
+"d": "1952",
+"fact": null
+}
+],
+"rule": "Separate the election year (1951-52) from the constitution of the House (1952).",
+"key_note": ""
+},
+{
+"id": "group2-2008-paper2#98",
+"year": 2008,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "Who is the Leader of the House in the 14th Lok Sabha ?",
+"options": [
+"Pranab Mukherjee",
+"Sonia Gandhi",
+"L.K. Advani",
+"Arjun Singh"
+],
+"key": "Pranab Mukherjee",
+"deleted": 0,
+"core_fact": "Pranab Mukherjee was Leader of the House in the 14th Lok Sabha because PM Manmohan Singh was a Rajya Sabha member.",
+"statements": [
+{
+"l": "opt1",
+"t": "The Leader of the House in the 14th Lok Sabha was Pranab Mukherjee.",
+"v": "T",
+"m": null,
+"d": "Pranab Mukherjee",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The Leader of the House in the 14th Lok Sabha was Sonia Gandhi.",
+"v": "F",
+"m": "person substitution",
+"d": "Sonia Gandhi",
+"fact": "Pranab Mukherjee."
+},
+{
+"l": "opt3",
+"t": "The Leader of the House in the 14th Lok Sabha was L.K. Advani.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "L.K. Advani",
+"fact": "Pranab Mukherjee was Leader of the House."
+},
+{
+"l": "opt4",
+"t": "The Leader of the House in the 14th Lok Sabha was Arjun Singh.",
+"v": "F",
+"m": "person substitution",
+"d": "Arjun Singh",
+"fact": "Pranab Mukherjee."
+}
+],
+"rule": "Leader of the House = PM if a member, else a minister he nominates.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper1#100",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "Which one of the following Parliamentary Committees in India acts as a ‘Watchdog’ on Departmental Expenditures and irregularities?",
+"options": [
+"Estimate Committee",
+"Committee on Public Undertakings",
+"Public Accounts Committee",
+"Committee on Public Assurances"
+],
+"key": "Public Accounts Committee",
+"deleted": 0,
+"core_fact": "The PAC examines CAG audit reports on appropriation accounts and is the watchdog on expenditure and irregularities.",
+"statements": [
+{
+"l": "opt1",
+"t": "The Parliamentary Committee that acts as a 'watchdog' on departmental expenditure and irregularities is the Estimate Committee.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Estimate Committee",
+"fact": "PAC."
+},
+{
+"l": "opt2",
+"t": "The Parliamentary Committee that acts as a 'watchdog' on departmental expenditure and irregularities is the Committee on Public Undertakings.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Committee on Public Undertakings",
+"fact": "PAC."
+},
+{
+"l": "opt3",
+"t": "The Parliamentary Committee that acts as a 'watchdog' on departmental expenditure and irregularities is the Public Accounts Committee.",
+"v": "T",
+"m": null,
+"d": "Public Accounts Committee",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The Parliamentary Committee that acts as a 'watchdog' on departmental expenditure and irregularities is the Committee on Public Assurances.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Committee on Public Assurances",
+"fact": "PAC."
+}
+],
+"rule": "PAC - post-mortem/watchdog; Estimates - economy; COPU - PSUs.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper1#104",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.6",
+"format": "one-liner",
+"stem": "The Supreme Court of India is different from its counterpart in the U. S. A",
+"options": [
+"In its role as the guardian of the Constitution",
+"In its advisory role",
+"In its role as the Supreme authority in the Judicial field in the Country",
+"In its Writ Jurisdiction"
+],
+"key": "In its advisory role",
+"deleted": 0,
+"core_fact": "India's Supreme Court has advisory jurisdiction (Art 143); the US Supreme Court gives no advisory opinions.",
+"statements": [
+{
+"l": "opt1",
+"t": "The Supreme Court of India differs from its US counterpart In its role as the guardian of the Constitution.",
+"v": "F",
+"m": "comparison reversal",
+"d": "In its role as the guardian of the Constitution",
+"fact": "Only the advisory role differs."
+},
+{
+"l": "opt2",
+"t": "The Supreme Court of India differs from its US counterpart In its advisory role.",
+"v": "T",
+"m": null,
+"d": "In its advisory role",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The Supreme Court of India differs from its US counterpart In its role as the Supreme authority in the Judicial field in the Country.",
+"v": "F",
+"m": "comparison reversal",
+"d": "In its role as the Supreme authority in the Judicial field in the Country",
+"fact": "Only the advisory role differs."
+},
+{
+"l": "opt4",
+"t": "The Supreme Court of India differs from its US counterpart In its Writ Jurisdiction.",
+"v": "F",
+"m": "comparison reversal",
+"d": "In its Writ Jurisdiction",
+"fact": "Per key only the advisory role differs."
+}
+],
+"rule": "India vs US SC: advisory jurisdiction is unique to India; both have judicial review.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper1#108",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.8",
+"format": "one-liner",
+"stem": "Justice P N Bhagwati was a pioneer of?",
+"options": [
+"Public Interest Litigation",
+"Judicial Review",
+"Fundamental rights",
+"Land reforms"
+],
+"key": "Public Interest Litigation",
+"deleted": 0,
+"core_fact": "Justice P.N. Bhagwati (with V.R. Krishna Iyer) pioneered PIL in India (S.P. Gupta 1981, epistolary jurisdiction).",
+"statements": [
+{
+"l": "opt1",
+"t": "Justice P.N. Bhagwati was a pioneer of Public Interest Litigation.",
+"v": "T",
+"m": null,
+"d": "Public Interest Litigation",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Justice P.N. Bhagwati was a pioneer of Judicial Review.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Judicial Review",
+"fact": "Bhagwati pioneered PIL."
+},
+{
+"l": "opt3",
+"t": "Justice P.N. Bhagwati was a pioneer of Fundamental rights.",
+"v": "F",
+"m": "scope expansion",
+"d": "Fundamental rights",
+"fact": "Bhagwati pioneered PIL."
+},
+{
+"l": "opt4",
+"t": "Justice P.N. Bhagwati was a pioneer of Land reforms.",
+"v": "F",
+"m": "fabricated",
+"d": "Land reforms",
+"fact": "Bhagwati pioneered PIL."
+}
+],
+"rule": "PIL fathers: Bhagwati and Krishna Iyer; first PIL commonly Hussainara Khatoon (1979).",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper1#97",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.7",
+"format": "one-liner",
+"stem": "Judicial Review is a symbol of",
+"options": [
+"Parliamentary Government",
+"Presidential Government",
+"Unitary Government",
+"Federal Government"
+],
+"key": "Federal Government",
+"deleted": 0,
+"core_fact": "Judicial review is a feature of a federal, written constitution: courts act as umpire keeping Union and States within their spheres.",
+"statements": [
+{
+"l": "opt1",
+"t": "Judicial Review is a symbol of Parliamentary Government.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Parliamentary Government",
+"fact": "JR flows from federalism."
+},
+{
+"l": "opt2",
+"t": "Judicial Review is a symbol of Presidential Government.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Presidential Government",
+"fact": "JR is a symbol of federal government."
+},
+{
+"l": "opt3",
+"t": "Judicial Review is a symbol of Unitary Government.",
+"v": "F",
+"m": "definition distortion",
+"d": "Unitary Government",
+"fact": "JR is a symbol of federal government."
+},
+{
+"l": "opt4",
+"t": "Judicial Review is a symbol of Federal Government.",
+"v": "T",
+"m": null,
+"d": "Federal Government",
+"fact": null
+}
+],
+"rule": "JR's root: written federal constitution; parliamentary sovereignty (UK) limits it.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper1#98",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "one-liner",
+"stem": "In India a person can be a Member of Cabinet without being a Member of Parliament for a maximum period of",
+"options": [
+"Six weeks",
+"Six months",
+"Nine months",
+"One year"
+],
+"key": "Six months",
+"deleted": 0,
+"core_fact": "A minister who is not an MP for six consecutive months ceases to be a minister (Art 75(5)).",
+"statements": [
+{
+"l": "opt1",
+"t": "A person can be a Cabinet member without being an MP for a maximum of Six weeks.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Six weeks",
+"fact": "Six months."
+},
+{
+"l": "opt2",
+"t": "A person can be a Cabinet member without being an MP for a maximum of Six months.",
+"v": "T",
+"m": null,
+"d": "Six months",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "A person can be a Cabinet member without being an MP for a maximum of Nine months.",
+"v": "F",
+"m": "numerical alteration",
+"d": "Nine months",
+"fact": "Six months."
+},
+{
+"l": "opt4",
+"t": "A person can be a Cabinet member without being an MP for a maximum of One year.",
+"v": "F",
+"m": "numerical alteration",
+"d": "One year",
+"fact": "Six months."
+}
+],
+"rule": "Six months: non-member minister (75(5)), gap between sessions (85), PR approval (356).",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper1#99",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.6",
+"format": "one-liner",
+"stem": "Whose previous consent is required under Article 224A of the Constitution to request a person who held the office of a judge of the same or any other High Court to sit and act as a judge of the High Court for that State ?",
+"options": [
+"The President",
+"The Parliament",
+"The Governor",
+"Chief Justice of India"
+],
+"key": "The President",
+"deleted": 0,
+"core_fact": "Under Art 224A the Chief Justice of a High Court may, with the previous consent of the President, request a retired HC judge to sit and act.",
+"statements": [
+{
+"l": "opt1",
+"t": "Under Article 224A the previous consent of The President is required.",
+"v": "T",
+"m": null,
+"d": "The President",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Under Article 224A the previous consent of The Parliament is required.",
+"v": "F",
+"m": "authority swap",
+"d": "The Parliament",
+"fact": "President."
+},
+{
+"l": "opt3",
+"t": "Under Article 224A the previous consent of The Governor is required.",
+"v": "F",
+"m": "authority swap",
+"d": "The Governor",
+"fact": "President."
+},
+{
+"l": "opt4",
+"t": "Under Article 224A the previous consent of Chief Justice of India is required.",
+"v": "F",
+"m": "authority swap",
+"d": "Chief Justice of India",
+"fact": "President."
+}
+],
+"rule": "Retired judges: SC - Art 128 (CJI + President's consent); HC - Art 224A (HC CJ + President's consent).",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#105",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.8",
+"format": "negative one-liner",
+"stem": "Which of the following is not the Supreme Court's evolution?",
+"options": [
+"Basic structure",
+"Public Interest Litigation",
+"Removal of Hand Cuffs",
+"Exemptions to Fundamental Rights"
+],
+"key": "Exemptions to Fundamental Rights",
+"deleted": 0,
+"core_fact": "Basic structure (1973), PIL (1980s) and restrictions on handcuffing (Prem Shankar Shukla 1980) are judge-made; exemptions to FRs (e.g. Arts 31A-31C, 33, 34) are constitutional text.",
+"statements": [
+{
+"l": "opt1",
+"t": "Basic structure is an evolution of the Supreme Court.",
+"v": "T",
+"m": null,
+"d": "Basic structure",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Public Interest Litigation is an evolution of the Supreme Court.",
+"v": "T",
+"m": null,
+"d": "Public Interest Litigation",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Removal of Hand Cuffs is an evolution of the Supreme Court.",
+"v": "T",
+"m": null,
+"d": "Removal of Hand Cuffs",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Exemptions to Fundamental Rights is an evolution of the Supreme Court.",
+"v": "F",
+"m": "authority swap",
+"d": "Exemptions to Fundamental Rights",
+"fact": "Exemptions to FRs are textual (Arts 31A-C, 33-34)."
+}
+],
+"rule": "Judge-made: basic structure, PIL, handcuff limits, D.K. Basu guidelines.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#110",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "one-liner",
+"stem": "An election to fill the vacancy caused by the expiration of the term of the President must be completed before the expiration of term. In case there is delay",
+"options": [
+"Vice President who shall act as President",
+"Chief Justice of India shall act as President",
+"Out going President must continue to hold office until his successor assumess office",
+"Senior most Judge of Supreme court acts as President"
+],
+"key": "Out going President must continue to hold office until his successor assumess office",
+"deleted": 0,
+"core_fact": "The outgoing President continues to hold office until the successor enters office (Art 56(1)(c)).",
+"statements": [
+{
+"l": "opt1",
+"t": "If the presidential election is delayed beyond the term's expiry, Vice President who shall act as President.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Vice President who shall act as President",
+"fact": "Outgoing President continues."
+},
+{
+"l": "opt2",
+"t": "If the presidential election is delayed beyond the term's expiry, Chief Justice of India shall act as President.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Chief Justice of India shall act as President",
+"fact": "Outgoing President continues."
+},
+{
+"l": "opt3",
+"t": "If the presidential election is delayed beyond the term's expiry, Out going President must continue to hold office until his successor assumess office.",
+"v": "T",
+"m": null,
+"d": "Out going President must continue to hold office until his successor assumess office",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "If the presidential election is delayed beyond the term's expiry, Senior most Judge of Supreme court acts as President.",
+"v": "F",
+"m": "person substitution",
+"d": "Senior most Judge of Supreme court acts as President",
+"fact": "Outgoing President continues."
+}
+],
+"rule": "Expiry -> outgoing continues; death/resignation -> VP acts (max 6 months).",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#111",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "one-liner",
+"stem": "In India executive have the power to legislate by Ordinances. But Legislature shall approve it otherwise the ordinance can exist at most",
+"options": [
+"5 months 5 weeks",
+"6 months 6 weeks",
+"3 months 6 weeks",
+"4 months 6 weeks"
+],
+"key": "6 months 6 weeks",
+"deleted": 0,
+"core_fact": "An ordinance lapses six weeks after Parliament reassembles; with a maximum six-month gap, it can last up to six months and six weeks.",
+"statements": [
+{
+"l": "opt1",
+"t": "An ordinance not approved by the legislature can exist at most 5 months 5 weeks.",
+"v": "F",
+"m": "numerical alteration",
+"d": "5 months 5 weeks",
+"fact": "6 months 6 weeks."
+},
+{
+"l": "opt2",
+"t": "An ordinance not approved by the legislature can exist at most 6 months 6 weeks.",
+"v": "T",
+"m": null,
+"d": "6 months 6 weeks",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "An ordinance not approved by the legislature can exist at most 3 months 6 weeks.",
+"v": "F",
+"m": "numerical alteration",
+"d": "3 months 6 weeks",
+"fact": "6 months 6 weeks."
+},
+{
+"l": "opt4",
+"t": "An ordinance not approved by the legislature can exist at most 4 months 6 weeks.",
+"v": "F",
+"m": "numerical alteration",
+"d": "4 months 6 weeks",
+"fact": "6 months 6 weeks."
+}
+],
+"rule": "Ordinance: 6 weeks after reassembly; max 6 months 6 weeks; Krishna Kumar Singh (2017) - re-promulgation is fraud.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#112",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "negative one-liner",
+"stem": "India is following Parliamentary form of government. In this regard all statements given below are correct, except",
+"options": [
+"The collective responsibility is to the house of the people even though some of the ministers may be the members of the Council of the States",
+"The President of India is the real head of the executive",
+"Ministers shall be individually responsible to the President and shall be liable to dismissal evenwhen they may have the confidence ofthe Legislature",
+"In a parliamentary form of government, the tenure of office of the council of ministers is dependent on the will of the legislature"
+],
+"key": "The President of India is the real head of the executive",
+"deleted": 0,
+"core_fact": "Collective responsibility is to the Lok Sabha (Art 75(3)); ministers hold office at the President's pleasure (Art 75(2)); CoM's tenure depends on the legislature; the President is the nominal head.",
+"statements": [
+{
+"l": "opt1",
+"t": "In India's parliamentary government: The collective responsibility is to the house of the people even though some of the ministers may be the members of the Council of the States.",
+"v": "T",
+"m": null,
+"d": "The collective responsibility is to the house of the people even though some of the ministers may be the members of the Council of the States",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "In India's parliamentary government: The President of India is the real head of the executive.",
+"v": "F",
+"m": "authority swap",
+"d": "The President of India is the real head of the executive",
+"fact": "The President is the nominal head."
+},
+{
+"l": "opt3",
+"t": "In India's parliamentary government: Ministers shall be individually responsible to the President and shall be liable to dismissal evenwhen they may have the confidence ofthe Legislature.",
+"v": "T",
+"m": null,
+"d": "Ministers shall be individually responsible to the President and shall be liable to dismissal evenwhen they may have the confidence ofthe Legislature",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "In India's parliamentary government: In a parliamentary form of government, the tenure of office of the council of ministers is dependent on the will of the legislature.",
+"v": "T",
+"m": null,
+"d": "In a parliamentary form of government, the tenure of office of the council of ministers is dependent on the will of the legislature",
+"fact": null
+}
+],
+"rule": "Parliamentary: nominal head (President) vs real executive (PM and CoM).",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#114",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "The period between the prorogation of Parliament and its reassembly in a new session is termed",
+"options": [
+"Adjournment",
+"Termination",
+"Prorogue",
+"Recess"
+],
+"key": "Recess",
+"deleted": 0,
+"core_fact": "The period between prorogation of a House and its reassembly in a new session is called recess.",
+"statements": [
+{
+"l": "opt1",
+"t": "The period between prorogation and reassembly in a new session is termed Adjournment.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Adjournment",
+"fact": "Recess."
+},
+{
+"l": "opt2",
+"t": "The period between prorogation and reassembly in a new session is termed Termination.",
+"v": "F",
+"m": "fabricated",
+"d": "Termination",
+"fact": "Recess."
+},
+{
+"l": "opt3",
+"t": "The period between prorogation and reassembly in a new session is termed Prorogue.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Prorogue",
+"fact": "Recess."
+},
+{
+"l": "opt4",
+"t": "The period between prorogation and reassembly in a new session is termed Recess.",
+"v": "T",
+"m": null,
+"d": "Recess",
+"fact": null
+}
+],
+"rule": "Adjournment (sitting), prorogation (session), dissolution (House), recess (gap).",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#115",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "If a person incurs any of the disqualifications mentioned in Article 102, his seat will there upon be",
+"options": [
+"Vacant immediately",
+"Vacant after the recommendation of the house concernd",
+"Vacant on the recommendation of Election Commissioner",
+"Vacant after Supreme Court verdict"
+],
+"key": "Vacant immediately",
+"deleted": 0,
+"core_fact": "Under Art 101(3)(a) a member's seat becomes vacant upon becoming subject to an Art 102 disqualification.",
+"statements": [
+{
+"l": "opt1",
+"t": "If a member incurs an Art 102 disqualification, his seat becomes Vacant immediately.",
+"v": "T",
+"m": null,
+"d": "Vacant immediately",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "If a member incurs an Art 102 disqualification, his seat becomes Vacant after the recommendation of the house concernd.",
+"v": "F",
+"m": "authority swap",
+"d": "Vacant after the recommendation of the house concernd",
+"fact": "Vacant immediately."
+},
+{
+"l": "opt3",
+"t": "If a member incurs an Art 102 disqualification, his seat becomes Vacant on the recommendation of Election Commissioner.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Vacant on the recommendation of Election Commissioner",
+"fact": "Vacant immediately."
+},
+{
+"l": "opt4",
+"t": "If a member incurs an Art 102 disqualification, his seat becomes Vacant after Supreme Court verdict.",
+"v": "F",
+"m": "authority swap",
+"d": "Vacant after Supreme Court verdict",
+"fact": "Vacant immediately."
+}
+],
+"rule": "Disqualification: seat vacant thereupon; disputes - President on EC opinion (Art 103); defection - Speaker (Tenth Schedule).",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#116",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "negative one-liner",
+"stem": "When a no-confidence motion for removal of the Lok Sabha Speaker is under consideration, all the following statements are correct, except",
+"options": [
+"Speaker shall not preside the Lok Sabha proceedings",
+"Speaker has the right to speak",
+"Speaker has the right to take part in the proceeding",
+"Speaker shall have right of vote and exercise a casting vote in case of equality of votes"
+],
+"key": "Speaker shall have right of vote and exercise a casting vote in case of equality of votes",
+"deleted": 0,
+"core_fact": "During a removal motion the Speaker does not preside, may speak and take part, and may vote in the first instance but has no casting vote (Art 96).",
+"statements": [
+{
+"l": "opt1",
+"t": "When a removal motion against the Speaker is under consideration: Speaker shall not preside the Lok Sabha proceedings.",
+"v": "T",
+"m": null,
+"d": "Speaker shall not preside the Lok Sabha proceedings",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "When a removal motion against the Speaker is under consideration: Speaker has the right to speak.",
+"v": "T",
+"m": null,
+"d": "Speaker has the right to speak",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "When a removal motion against the Speaker is under consideration: Speaker has the right to take part in the proceeding.",
+"v": "T",
+"m": null,
+"d": "Speaker has the right to take part in the proceeding",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "When a removal motion against the Speaker is under consideration: Speaker shall have right of vote and exercise a casting vote in case of equality of votes.",
+"v": "F",
+"m": "exception removal",
+"d": "Speaker shall have right of vote and exercise a casting vote in case of equality of votes",
+"fact": "No casting vote."
+}
+],
+"rule": "Removal motion: Speaker speaks, votes first instance, no casting vote, does not preside.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#119",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.3",
+"format": "negative one-liner",
+"stem": "Regarding the composition of the Legislative Council, all following statements are correct, except",
+"options": [
+"1/3 of the total number of Council shall be elected from local bodies",
+"1/12 of the total number of Council shall be elected by Teachers",
+"1/12 of the total number of Council shall be elected by Graduates",
+"1/13 of the total number of Council shall be elected by Legislative Assembly"
+],
+"key": "1/13 of the total number of Council shall be elected by Legislative Assembly",
+"deleted": 0,
+"core_fact": "Council: 1/3 by local bodies, 1/12 by graduates, 1/12 by teachers, 1/3 by MLAs, 1/6 nominated by the Governor.",
+"statements": [
+{
+"l": "opt1",
+"t": "Of the total number of a Legislative Council, 1/3 of the total number of Council shall be elected from local bodies.",
+"v": "T",
+"m": null,
+"d": "1/3 of the total number of Council shall be elected from local bodies",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Of the total number of a Legislative Council, 1/12 of the total number of Council shall be elected by Teachers.",
+"v": "T",
+"m": null,
+"d": "1/12 of the total number of Council shall be elected by Teachers",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Of the total number of a Legislative Council, 1/12 of the total number of Council shall be elected by Graduates.",
+"v": "T",
+"m": null,
+"d": "1/12 of the total number of Council shall be elected by Graduates",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Of the total number of a Legislative Council, 1/13 of the total number of Council shall be elected by Legislative Assembly.",
+"v": "F",
+"m": "fraction/majority alteration",
+"d": "1/13 of the total number of Council shall be elected by Legislative Assembly",
+"fact": "1/3 by Legislative Assembly."
+}
+],
+"rule": "Council: 1/3 local, 1/3 MLAs, 1/12 graduates, 1/12 teachers, 1/6 nominated.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#120",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.3",
+"format": "one-liner",
+"stem": "As per the Constitution, Governor has the power to nominate one member from Anglo Indian community. Such reservation will cease on the expiration of",
+"options": [
+"2020",
+"2030",
+"2040",
+"2035"
+],
+"key": "2020",
+"deleted": 0,
+"core_fact": "As then stood (95th Amendment), Anglo-Indian nomination was to cease in January 2020; the 104th Amendment (2019) ended it and extended SC/ST reservation to 2030.",
+"statements": [
+{
+"l": "opt1",
+"t": "The Anglo-Indian nomination reservation will cease on the expiration of 2020.",
+"v": "T",
+"m": null,
+"d": "2020",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The Anglo-Indian nomination reservation will cease on the expiration of 2030.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "2030",
+"fact": "Anglo-Indian nomination ended 2020."
+},
+{
+"l": "opt3",
+"t": "The Anglo-Indian nomination reservation will cease on the expiration of 2040.",
+"v": "F",
+"m": "numerical alteration",
+"d": "2040",
+"fact": "2020."
+},
+{
+"l": "opt4",
+"t": "The Anglo-Indian nomination reservation will cease on the expiration of 2035.",
+"v": "F",
+"m": "numerical alteration",
+"d": "2035",
+"fact": "2020."
+}
+],
+"rule": "Art 334 now: SC/ST to 2030; Anglo-Indian nomination ended 25 Jan 2020.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#123",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "In case the Union Cabinet requests the President for the Joint Sitting of the Parliament to pass a Bill and President in his discretion does not summon a Joint Sitting",
+"options": [
+"Council of Ministers may once again request for the Joint Sitting",
+"Each house can again pass the bill separately",
+"The Bill will come to an end",
+"The President has no such power"
+],
+"key": "The Bill will come to an end",
+"deleted": 0,
+"core_fact": "Per the key, if the President does not summon a joint sitting, the deadlocked bill comes to an end.",
+"statements": [
+{
+"l": "opt1",
+"t": "If the President does not summon a joint sitting, Council of Ministers may once again request for the Joint Sitting.",
+"v": "F",
+"m": "fabricated",
+"d": "Council of Ministers may once again request for the Joint Sitting",
+"fact": "Per key the bill ends."
+},
+{
+"l": "opt2",
+"t": "If the President does not summon a joint sitting, Each house can again pass the bill separately.",
+"v": "F",
+"m": "true statement in a NOT-question (distractor)",
+"d": "Each house can again pass the bill separately",
+"fact": "Per key the bill ends."
+},
+{
+"l": "opt3",
+"t": "If the President does not summon a joint sitting, The Bill will come to an end.",
+"v": "T",
+"m": null,
+"d": "The Bill will come to an end",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "If the President does not summon a joint sitting, The President has no such power.",
+"v": "F",
+"m": "true statement in a NOT-question (distractor)",
+"d": "The President has no such power",
+"fact": "The President has the power to summon."
+}
+],
+"rule": "Joint sitting: ordinary/financial bills only; not money or amendment bills.",
+"key_note": "In practice the President acts on ministerial advice (Art 74), so refusal is notional; key kept."
+},
+{
+"id": "mains-2017-paper2#125",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.6",
+"format": "negative one-liner",
+"stem": "Regarding the appellate jurisdiction of the Supreme Court all statements are correct, except",
+"options": [
+"Appeal lies with the Supreme Courtin the cases involving interpretation of the Constitution-- Civil, Criminal or others",
+"Appeal lies with the Supreme Court in Civil cases irrespective of any Constitutional question",
+"The Supreme Court's power for granting Special Leave Petition is limited and can be curtailed through a Constitutional Amendment",
+"Parliament has no power to make any law conferring on Supreme Court further powers to hear Appeals from Criminal matters"
+],
+"key": "Parliament has no power to make any law conferring on Supreme Court further powers to hear Appeals from Criminal matters",
+"deleted": 0,
+"core_fact": "Art. 132: appeal in civil, criminal or other cases on a certified substantial question of constitutional interpretation; Art. 133: civil appeals on a substantial question of law of general importance; Art. 134(2): Parliament may by law enlarge criminal appellate jurisdiction (done by the 1970 Enlargement Act); Art. 136: special leave.",
+"statements": [
+{
+"l": "opt1",
+"t": "Appeal lies with the Supreme Court in cases involving interpretation of the Constitution — civil, criminal or others.",
+"v": "T",
+"m": null,
+"d": "civil, criminal or others",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Appeal lies with the Supreme Court in civil cases irrespective of any constitutional question.",
+"v": "T",
+"m": null,
+"d": "irrespective of any Constitutional question",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The Supreme Court's power of granting special leave is limited and can be curtailed through a constitutional amendment.",
+"v": "T",
+"m": null,
+"d": "curtailed through a Constitutional Amendment",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Parliament has no power to make any law conferring on the Supreme Court further powers to hear appeals in criminal matters.",
+"v": "F",
+"m": "true statement in a NOT-question (distractor)",
+"d": "has no power",
+"fact": "Art. 134(2) lets Parliament by law confer further criminal appellate powers on the SC (used in 1970)."
+}
+],
+"rule": "SC appellate: 132 constitutional, 133 civil, 134 criminal (+134(2) enlargement by Parliament), 136 special leave.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#128",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.6",
+"format": "one-liner",
+"stem": "According to the Article 233, the appointment of a district Judge shall be done by",
+"options": [
+"The President in consultation with the High court of the State concerned",
+"The Governor of the state concerned in consultation with the High court of the state concerned",
+"The Governor of the state concerned, in consultation with the Chief Justice of India",
+"The Collegium of the High court"
+],
+"key": "The Governor of the state concerned in consultation with the High court of the state concerned",
+"deleted": 0,
+"core_fact": "Art. 233(1): appointments, posting and promotion of district judges are made by the Governor of the State in consultation with the High Court exercising jurisdiction in that State.",
+"statements": [
+{
+"l": "opt1",
+"t": "Under Article 233, a district judge is appointed by the President in consultation with the High Court of the State concerned.",
+"v": "F",
+"m": "authority swap",
+"d": "The President",
+"fact": "The Governor, not the President, appoints district judges."
+},
+{
+"l": "opt2",
+"t": "Under Article 233, a district judge is appointed by the Governor of the State concerned in consultation with the High Court of that State.",
+"v": "T",
+"m": null,
+"d": "Governor ... High court",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Under Article 233, a district judge is appointed by the Governor of the State concerned in consultation with the Chief Justice of India.",
+"v": "F",
+"m": "institution substitution",
+"d": "Chief Justice of India",
+"fact": "Consultation is with the High Court, not the CJI."
+},
+{
+"l": "opt4",
+"t": "Under Article 233, a district judge is appointed by the Collegium of the High Court.",
+"v": "F",
+"m": "institution substitution",
+"d": "Collegium",
+"fact": "The Governor appoints, consulting the High Court; no collegium appointment."
+}
+],
+"rule": "Art. 233: Governor + HC; Art. 234 other judicial officers: Governor + HC + State PSC; Art. 235 control: HC.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#134",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "one-liner",
+"stem": "The correct form of the address for the President of India is",
+"options": [
+"His Lord ship",
+"His honour",
+"His Highness",
+"His Excellency"
+],
+"key": "His Excellency",
+"deleted": 0,
+"core_fact": "'His/Her Excellency' was the traditional form of address for the President (and Governors). Since 2012 (Pranab Mukherjee) 'Rashtrapati ji'/'Hon'ble President' is used domestically; 'Excellency' is kept for foreign dignitaries.",
+"statements": [
+{
+"l": "opt1",
+"t": "The correct form of address for the President of India is His Lordship.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "His Lordship",
+"fact": "'Lordship' is a judicial address; the President is 'His Excellency'."
+},
+{
+"l": "opt2",
+"t": "The correct form of address for the President of India is His Honour.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "His Honour",
+"fact": "'Honour' is for judges; the President is 'His Excellency'."
+},
+{
+"l": "opt3",
+"t": "The correct form of address for the President of India is His Highness.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "His Highness",
+"fact": "'Highness' is for royalty; the President is 'His Excellency'."
+},
+{
+"l": "opt4",
+"t": "The correct form of address for the President of India is His Excellency.",
+"v": "T",
+"m": null,
+"d": "His Excellency",
+"fact": null
+}
+],
+"rule": "Excellency = President/Governor (now restricted to foreign protocol since 2012); Lordship/Honour = judges; Highness = royals.",
+"key_note": "Key kept. Note: since Oct 2012 'His Excellency' is no longer used for the President in Indian domestic usage, only in foreign protocol."
+},
+{
+"id": "mains-2017-paper2#136",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.6",
+"format": "one-liner",
+"stem": "The Doctrine of \"Parens Patriae\" means",
+"options": [
+"Authority regarded as the legal protection of citizens unable to protect themselves",
+"An inconsistency or contradiction between two or more parts of legal instruments",
+"Parliament has no power to make loss with respect to any matter which belongs to states",
+"It is the duty of the court to interpret the legislation made by parliament"
+],
+"key": "Authority regarded as the legal protection of citizens unable to protect themselves",
+"deleted": 0,
+"core_fact": "Parens patriae ('parent of the nation'): the State acts as guardian of persons unable to protect themselves (minors, the mentally ill, disaster victims) - used in Charan Lal Sahu v UoI (1989, Bhopal) and Aruna Shanbaug (2011).",
+"statements": [
+{
+"l": "opt1",
+"t": "The doctrine of parens patriae means the authority regarded as the legal protector of citizens unable to protect themselves.",
+"v": "T",
+"m": null,
+"d": "unable to protect themselves",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The doctrine of parens patriae means an inconsistency or contradiction between two or more parts of legal instruments.",
+"v": "F",
+"m": "definition distortion",
+"d": "inconsistency or contradiction",
+"fact": "Inconsistency between laws is repugnancy, not parens patriae."
+},
+{
+"l": "opt3",
+"t": "The doctrine of parens patriae means Parliament has no power to make laws on any matter belonging to the States.",
+"v": "F",
+"m": "definition distortion",
+"d": "no power to make laws",
+"fact": "That describes distribution of legislative competence, not parens patriae."
+},
+{
+"l": "opt4",
+"t": "The doctrine of parens patriae means it is the duty of the court to interpret legislation made by Parliament.",
+"v": "F",
+"m": "definition distortion",
+"d": "interpret the legislation",
+"fact": "Interpretation of statutes is a general judicial function, not parens patriae."
+}
+],
+"rule": "Match doctrine to definition: parens patriae (guardian), repugnancy (inconsistency), pith and substance (competence), eclipse, severability.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#138",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.3",
+"format": "one-liner",
+"stem": "Which of the following is the procedure to abolish or create Legislative Council in a State",
+"options": [
+"Constitutional Amendment with simple majority",
+"Constitutional Amendment by 2/3 majority",
+"On the recommendation of State Legislature bypassing a resolution with 2/3 majority, followed by an act of parliament",
+"Parliament directly with simple majority"
+],
+"key": "On the recommendation of State Legislature bypassing a resolution with 2/3 majority, followed by an act of parliament",
+"deleted": 0,
+"core_fact": "Art. 169: Parliament may by law abolish or create a Legislative Council if the Legislative Assembly passes a resolution by a majority of its total membership and two-thirds of those present and voting; such a law is not deemed an amendment under Art. 368 (simple majority in Parliament).",
+"statements": [
+{
+"l": "opt1",
+"t": "The procedure to abolish or create a Legislative Council in a State is a constitutional amendment with simple majority.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Constitutional Amendment",
+"fact": "It is an ordinary law of Parliament (not deemed an Art. 368 amendment) after an Assembly resolution."
+},
+{
+"l": "opt2",
+"t": "The procedure to abolish or create a Legislative Council in a State is a constitutional amendment by two-thirds majority.",
+"v": "F",
+"m": "fraction/majority alteration",
+"d": "2/3 majority",
+"fact": "The 2/3 (special) majority is the Assembly's; Parliament then passes an ordinary law."
+},
+{
+"l": "opt3",
+"t": "A Legislative Council is abolished or created on a resolution of the State Legislature passed by a two-thirds majority, followed by an Act of Parliament.",
+"v": "T",
+"m": null,
+"d": "resolution with 2/3 majority, followed by an act of parliament",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Parliament directly creates or abolishes a Legislative Council by simple majority.",
+"v": "F",
+"m": "exception removal",
+"d": "directly",
+"fact": "Parliament can act only after the Assembly's special-majority resolution."
+}
+],
+"rule": "Art. 169: State Assembly special majority -> Parliament simple-majority law, not an Art. 368 amendment (AP Council abolished 1985, revived 2007).",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#139",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "one-liner",
+"stem": "Chief Minister of a State is not eligible to vote in the Presidential elections if he is a",
+"options": [
+"Member of Legislative Council of the State Legislature",
+"Member of Legislative Assembly of the State Legislature",
+"Member of Lok Sabha",
+"Member of Rajya Sabha"
+],
+"key": "Member of Legislative Council of the State Legislature",
+"deleted": 0,
+"core_fact": "Art. 54: the President is elected by elected members of both Houses of Parliament and elected members of the State Legislative Assemblies (incl. Delhi and Puducherry, 70th Amendment). Members of Legislative Councils and nominated members do not vote.",
+"statements": [
+{
+"l": "opt1",
+"t": "A Chief Minister is not eligible to vote in the Presidential election if he is a Member of the Legislative Council of the State Legislature.",
+"v": "T",
+"m": null,
+"d": "Member of the Legislative Council of the State Legislature",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "A Chief Minister is not eligible to vote in the Presidential election if he is a Member of the Legislative Assembly of the State Legislature.",
+"v": "F",
+"m": "institution substitution",
+"d": "Member of the Legislative Assembly of the State Legislature",
+"fact": "Elected MLAs are in the electoral college."
+},
+{
+"l": "opt3",
+"t": "A Chief Minister is not eligible to vote in the Presidential election if he is a Member of Lok Sabha.",
+"v": "F",
+"m": "institution substitution",
+"d": "Member of Lok Sabha",
+"fact": "Elected Lok Sabha members vote."
+},
+{
+"l": "opt4",
+"t": "A Chief Minister is not eligible to vote in the Presidential election if he is a Member of Rajya Sabha.",
+"v": "F",
+"m": "institution substitution",
+"d": "Member of Rajya Sabha",
+"fact": "Elected Rajya Sabha members vote."
+}
+],
+"rule": "President's electoral college: elected MPs + elected MLAs (incl. Delhi, Puducherry); no MLCs, no nominated members; VP: all MPs.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#142",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.7",
+"format": "one-liner",
+"stem": "What option can be exercised by the Government and Legislature, when they do not like a decision of the Supreme Court.",
+"options": [
+"Changing the judges of the Supreme Court",
+"Ignoring the decision",
+"Pass a Constitutional amendment or pass a law to overcome the decision",
+"Supreme Court's decision is final and ultimate and cannot be challenged"
+],
+"key": "Pass a Constitutional amendment or pass a law to overcome the decision",
+"deleted": 0,
+"core_fact": "SC judgments bind all (Art. 141, 144), but the legislature may remove the basis of a judgment by a validating law or a constitutional amendment (e.g. 1st, 24th, 42nd Amendments), subject to basic structure; judges have security of tenure (Art. 124(4)).",
+"statements": [
+{
+"l": "opt1",
+"t": "When the Government and Legislature dislike a decision of the Supreme Court they can change the judges of the Supreme Court.",
+"v": "F",
+"m": "fabricated",
+"d": "Changing the judges",
+"fact": "Judges have security of tenure; they cannot be removed for a ruling."
+},
+{
+"l": "opt2",
+"t": "When the Government and Legislature dislike a decision of the Supreme Court they can ignore the decision.",
+"v": "F",
+"m": "fabricated",
+"d": "Ignoring",
+"fact": "SC decisions bind all authorities (Arts 141, 144)."
+},
+{
+"l": "opt3",
+"t": "When the Government and Legislature dislike a decision of the Supreme Court they can pass a constitutional amendment or a law to overcome it.",
+"v": "T",
+"m": null,
+"d": "Constitutional amendment or pass a law",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The Supreme Court's decision is final and ultimate and cannot be challenged by the Government and Legislature.",
+"v": "F",
+"m": "true core + false extra",
+"d": "cannot be challenged",
+"fact": "A ruling binds but can be reviewed (Art. 137) or overcome by amendment/validating law."
+}
+],
+"rule": "Overrule route = change the law (amendment/validating Act), never ignore or remove judges.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#148",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "negative one-liner",
+"stem": "Which of the following is not a tool of Legislative control over the administration in India?",
+"options": [
+"Questions",
+"Resolution",
+"Dissolution of the House",
+"No confidence motion"
+],
+"key": "Dissolution of the House",
+"deleted": 0,
+"core_fact": "Legislative control tools: questions, zero hour, motions (adjournment, no-confidence, censure), resolutions, debates, committees. Dissolution of the House is an executive power (President on the PM's advice, Art. 85(2)(b)).",
+"statements": [
+{
+"l": "opt1",
+"t": "Questions are a tool of legislative control over the administration in India.",
+"v": "T",
+"m": null,
+"d": "Questions",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Resolutions are a tool of legislative control over the administration in India.",
+"v": "T",
+"m": null,
+"d": "Resolution",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Dissolution of the House is a tool of legislative control over the administration in India.",
+"v": "F",
+"m": "direction reversal",
+"d": "Dissolution of the House",
+"fact": "Dissolution is an executive power (President/Governor on advice), the reverse of legislative control."
+},
+{
+"l": "opt4",
+"t": "The no-confidence motion is a tool of legislative control over the administration in India.",
+"v": "T",
+"m": null,
+"d": "No confidence motion",
+"fact": null
+}
+],
+"rule": "Legislative control = questions, motions, resolutions, committees; dissolution = executive control.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#76",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "negative one-liner",
+"stem": "The following expenditure shall be charged on the consolidated fund of India, except",
+"options": [
+"Debt charges for which the government of India is liable",
+"Salaries, allowances and pensions payable to or in respect of Supreme Court judges",
+"The pensions payable to or in respect of judges of any high court",
+"The pensions payable to or in respect of governors of any state"
+],
+"key": "The pensions payable to or in respect of governors of any state",
+"deleted": 0,
+"core_fact": "Charged on the CFI: debt charges, SC judges' salaries/allowances/pensions, HC judges' pensions, etc.; Governors' emoluments are charged on the State's Consolidated Fund.",
+"statements": [
+{
+"l": "opt1",
+"t": "Debt charges for which the government of India is liable is charged on the Consolidated Fund of India.",
+"v": "T",
+"m": null,
+"d": "Debt charges for which the government of India is liable",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Salaries, allowances and pensions payable to or in respect of Supreme Court judges is charged on the Consolidated Fund of India.",
+"v": "T",
+"m": null,
+"d": "Salaries, allowances and pensions payable to or in respect of Supreme Court judges",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The pensions payable to or in respect of judges of any high court is charged on the Consolidated Fund of India.",
+"v": "T",
+"m": null,
+"d": "The pensions payable to or in respect of judges of any high court",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The pensions payable to or in respect of governors of any state is charged on the Consolidated Fund of India.",
+"v": "F",
+"m": "scope expansion",
+"d": "The pensions payable to or in respect of governors of any state",
+"fact": "Not charged on the CFI."
+}
+],
+"rule": "HC judges: salaries on State fund, pensions on CFI; Governor: on State fund.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#77",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "negative one-liner",
+"stem": "Regarding the money bill all of the following are correct, except",
+"options": [
+"Whether a bill is money bill or not the decision of the speaker of the Lok Sabha shall be final",
+"After the speaker's certificate on money bill, it shall not be open to question either in a court of Law or in either house or even by the president",
+"Money bills shall be introduced in Lok Sabha only",
+"President may return money bill for reconsideration"
+],
+"key": "President may return money bill for reconsideration",
+"deleted": 0,
+"core_fact": "Speaker's decision on a money bill is final (Art 110(3)); money bills only in Lok Sabha (Art 109); the President may assent or withhold but cannot return it (Art 111 proviso).",
+"statements": [
+{
+"l": "opt1",
+"t": "Regarding the money bill: Whether a bill is money bill or not the decision of the speaker of the Lok Sabha shall be final.",
+"v": "T",
+"m": null,
+"d": "Whether a bill is money bill or not the decision of the speaker of the Lok Sabha shall be final",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Regarding the money bill: After the speaker's certificate on money bill, it shall not be open to question either in a court of Law or in either house or even by the president.",
+"v": "T",
+"m": null,
+"d": "After the speaker's certificate on money bill, it shall not be open to question either in a court of Law or in either house or even by the president",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Regarding the money bill: Money bills shall be introduced in Lok Sabha only.",
+"v": "T",
+"m": null,
+"d": "Money bills shall be introduced in Lok Sabha only",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Regarding the money bill: President may return money bill for reconsideration.",
+"v": "F",
+"m": "exception removal",
+"d": "President may return money bill for reconsideration",
+"fact": "President cannot return a money bill."
+}
+],
+"rule": "Money bill: President assents or withholds; no return.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#78",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "negative one-liner",
+"stem": "All following statements regarding the privileges of Parliament members are correct except",
+"options": [
+"Freedom from arrest",
+"Freedom of attendance as witness",
+"Freedom of speech",
+"Members individual freedom only allowed, house as a whole do not have freedom"
+],
+"key": "Members individual freedom only allowed, house as a whole do not have freedom",
+"deleted": 0,
+"core_fact": "Privileges are individual (freedom of speech, freedom from arrest in civil cases, exemption from witness duty) and collective (House's rights, e.g. to punish for contempt).",
+"statements": [
+{
+"l": "opt1",
+"t": "Privilege of Parliament members: Freedom from arrest.",
+"v": "T",
+"m": null,
+"d": "Freedom from arrest",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Privilege of Parliament members: Freedom of attendance as witness.",
+"v": "T",
+"m": null,
+"d": "Freedom of attendance as witness",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Privilege of Parliament members: Freedom of speech.",
+"v": "T",
+"m": null,
+"d": "Freedom of speech",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Privilege of Parliament members: Members individual freedom only allowed, house as a whole do not have freedom.",
+"v": "F",
+"m": "scope restriction",
+"d": "Members individual freedom only allowed, house as a whole do not have freedom",
+"fact": "Privileges belong to members and to each House."
+}
+],
+"rule": "Privileges: individual + collective (Art 105/194).",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#81",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.8",
+"format": "one-liner",
+"stem": "In which of the following cases did the Supreme Court direct the compulsory registration of all marriages in India",
+"options": [
+"Daniel Lafifi vs Union of India",
+"Ashok Kumar vs Union of India",
+"Seema Vs Ashwin Kumar",
+"Sharada Vs Dharam Paul"
+],
+"key": "Seema Vs Ashwin Kumar",
+"deleted": 0,
+"core_fact": "In Seema v. Ashwani Kumar (2006) the Supreme Court directed compulsory registration of all marriages.",
+"statements": [
+{
+"l": "opt1",
+"t": "The SC directed compulsory registration of all marriages in Daniel Lafifi vs Union of India.",
+"v": "F",
+"m": "wrong pair",
+"d": "Daniel Lafifi vs Union of India",
+"fact": "Seema v. Ashwani Kumar."
+},
+{
+"l": "opt2",
+"t": "The SC directed compulsory registration of all marriages in Ashok Kumar vs Union of India.",
+"v": "F",
+"m": "wrong pair",
+"d": "Ashok Kumar vs Union of India",
+"fact": "Seema v. Ashwani Kumar."
+},
+{
+"l": "opt3",
+"t": "The SC directed compulsory registration of all marriages in Seema Vs Ashwin Kumar.",
+"v": "T",
+"m": null,
+"d": "Seema Vs Ashwin Kumar",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The SC directed compulsory registration of all marriages in Sharada Vs Dharam Paul.",
+"v": "F",
+"m": "wrong pair",
+"d": "Sharada Vs Dharam Paul",
+"fact": "Seema v. Ashwani Kumar."
+}
+],
+"rule": "Family-law landmarks: Shah Bano 1985, Danial Latifi 2001, Seema 2006, Shayara Bano 2017.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#82",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "Which of the following States has more than one Member of Parliament in the Lok Sabha",
+"options": [
+"Meghalaya",
+"Nagaland",
+"Sikkim",
+"Mizoram"
+],
+"key": "Meghalaya",
+"deleted": 0,
+"core_fact": "Meghalaya has 2 Lok Sabha seats; Nagaland, Sikkim and Mizoram have 1 each.",
+"statements": [
+{
+"l": "opt1",
+"t": "Meghalaya has more than one Member of Parliament in the Lok Sabha.",
+"v": "T",
+"m": null,
+"d": "Meghalaya",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Nagaland has more than one Member of Parliament in the Lok Sabha.",
+"v": "F",
+"m": "numerical alteration",
+"d": "Nagaland",
+"fact": "Nagaland has 1."
+},
+{
+"l": "opt3",
+"t": "Sikkim has more than one Member of Parliament in the Lok Sabha.",
+"v": "F",
+"m": "numerical alteration",
+"d": "Sikkim",
+"fact": "Sikkim has 1."
+},
+{
+"l": "opt4",
+"t": "Mizoram has more than one Member of Parliament in the Lok Sabha.",
+"v": "F",
+"m": "numerical alteration",
+"d": "Mizoram",
+"fact": "Mizoram has 1."
+}
+],
+"rule": "NE seats: Assam 14, Arunachal 2, Manipur 2, Meghalaya 2, Tripura 2, Mizoram 1, Nagaland 1, Sikkim 1.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#83",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.3",
+"format": "one-liner",
+"stem": "How many States in India are Bicameral in their governance structure",
+"options": [
+"5",
+"6",
+"7",
+"4"
+],
+"key": "7",
+"deleted": 0,
+"core_fact": "In 2017 seven States had Legislative Councils: AP, Telangana, Bihar, Karnataka, Maharashtra, UP and J&K (J&K's ended in 2019; six now).",
+"statements": [
+{
+"l": "opt1",
+"t": "In 2017 the number of bicameral States in India was 5.",
+"v": "F",
+"m": "numerical alteration",
+"d": "5",
+"fact": "7 (2017)."
+},
+{
+"l": "opt2",
+"t": "In 2017 the number of bicameral States in India was 6.",
+"v": "F",
+"m": "wrong period",
+"d": "6",
+"fact": "7 in 2017."
+},
+{
+"l": "opt3",
+"t": "In 2017 the number of bicameral States in India was 7.",
+"v": "T",
+"m": null,
+"d": "7",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "In 2017 the number of bicameral States in India was 4.",
+"v": "F",
+"m": "numerical alteration",
+"d": "4",
+"fact": "7."
+}
+],
+"rule": "Bicameral now (2026): AP, Telangana, Bihar, Karnataka, Maharashtra, UP = 6.",
+"key_note": "Time-sensitive: 7 in 2017 (APPSC's final key corrected to 7); 6 since J&K's council was abolished in 2019."
+},
+{
+"id": "mains-2017-paper2#88",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "The maximum GAP between two sessions of parliament can be 6 months, which is calculated between",
+"options": [
+"Last sitting of one session to the last sitting of the next session",
+"Six calendar months excluding the months in which the sessions are held",
+"Last sitting of one session to the first sitting of the next session",
+"First sitting of two consecutive sessions"
+],
+"key": "Last sitting of one session to the first sitting of the next session",
+"deleted": 0,
+"core_fact": "Six months shall not intervene between the last sitting in one session and the date of the first sitting in the next session (Art 85(1)).",
+"statements": [
+{
+"l": "opt1",
+"t": "The maximum six-month gap between two sessions of Parliament is counted from Last sitting of one session to the last sitting of the next session.",
+"v": "F",
+"m": "definition distortion",
+"d": "Last sitting of one session to the last sitting of the next session",
+"fact": "Last sitting to first sitting of next."
+},
+{
+"l": "opt2",
+"t": "The maximum six-month gap between two sessions of Parliament is counted from Six calendar months excluding the months in which the sessions are held.",
+"v": "F",
+"m": "definition distortion",
+"d": "Six calendar months excluding the months in which the sessions are held",
+"fact": "Last sitting to first sitting of next."
+},
+{
+"l": "opt3",
+"t": "The maximum six-month gap between two sessions of Parliament is counted from Last sitting of one session to the first sitting of the next session.",
+"v": "T",
+"m": null,
+"d": "Last sitting of one session to the first sitting of the next session",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The maximum six-month gap between two sessions of Parliament is counted from First sitting of two consecutive sessions.",
+"v": "F",
+"m": "definition distortion",
+"d": "First sitting of two consecutive sessions",
+"fact": "Last sitting to first sitting of next."
+}
+],
+"rule": "Art 85: gap < 6 months; same rule for States (Art 174).",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#89",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "Next to Uttar Pradesh, which of the following state has the highest number of seats in the Lok Sabha",
+"options": [
+"Bihar",
+"Maharashtra",
+"West Bengal",
+"Tamil Nadu"
+],
+"key": "Maharashtra",
+"deleted": 0,
+"core_fact": "UP 80, Maharashtra 48, West Bengal 42, Bihar 40, Tamil Nadu 39 Lok Sabha seats.",
+"statements": [
+{
+"l": "opt1",
+"t": "Next to Uttar Pradesh, the State with the most Lok Sabha seats is Bihar.",
+"v": "F",
+"m": "comparison reversal",
+"d": "Bihar",
+"fact": "Maharashtra (48) is second."
+},
+{
+"l": "opt2",
+"t": "Next to Uttar Pradesh, the State with the most Lok Sabha seats is Maharashtra.",
+"v": "T",
+"m": null,
+"d": "Maharashtra",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Next to Uttar Pradesh, the State with the most Lok Sabha seats is West Bengal.",
+"v": "F",
+"m": "comparison reversal",
+"d": "West Bengal",
+"fact": "Maharashtra (48) is second."
+},
+{
+"l": "opt4",
+"t": "Next to Uttar Pradesh, the State with the most Lok Sabha seats is Tamil Nadu.",
+"v": "F",
+"m": "comparison reversal",
+"d": "Tamil Nadu",
+"fact": "Maharashtra (48) is second."
+}
+],
+"rule": "LS seats: UP 80, MH 48, WB 42, BR 40, TN 39.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#90",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "one-liner",
+"stem": "With regard to power of pardon available to President and Governer under the Constitution?",
+"options": [
+"The power of the President and Governor are one and same",
+"For Offences under concurrent lists, without the role of State, President alone has the pardoning power",
+"The only authority for pardoning a sentence of death is the President",
+"As regard suspension and remission, the Governor does not have concurrent jurisdiction with the President"
+],
+"key": "The only authority for pardoning a sentence of death is the President",
+"deleted": 0,
+"core_fact": "Only the President can pardon a death sentence (Art 72(1)(c)); the Governor can suspend, remit or commute it; President's power covers Union-law offences and courts-martial.",
+"statements": [
+{
+"l": "opt1",
+"t": "With regard to the power of pardon: The power of the President and Governor are one and same.",
+"v": "F",
+"m": "definition distortion",
+"d": "The power of the President and Governor are one and same",
+"fact": "President and Governor powers are not identical."
+},
+{
+"l": "opt2",
+"t": "With regard to the power of pardon: For Offences under concurrent lists, without the role of State, President alone has the pardoning power.",
+"v": "F",
+"m": "scope expansion",
+"d": "For Offences under concurrent lists, without the role of State, President alone has the pardoning power",
+"fact": "Not the President alone."
+},
+{
+"l": "opt3",
+"t": "With regard to the power of pardon: The only authority for pardoning a sentence of death is the President.",
+"v": "T",
+"m": null,
+"d": "The only authority for pardoning a sentence of death is the President",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "With regard to the power of pardon: As regard suspension and remission, the Governor does not have concurrent jurisdiction with the President.",
+"v": "F",
+"m": "true statement in a NOT-question (distractor)",
+"d": "As regard suspension and remission, the Governor does not have concurrent jurisdiction with the President",
+"fact": "Governor has concurrent power to suspend/remit."
+}
+],
+"rule": "Death sentence: pardon only by President; suspend/remit/commute by both; court-martial only President.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper2#96",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "one-liner",
+"stem": "The person who got the highest majority in Presidential elections till now is",
+"options": [
+"Jakir Hussain",
+"Fakruddin Ali Ahmed",
+"K.R.Narayanan",
+"Shanker Dayal Sharma"
+],
+"key": "K.R.Narayanan",
+"deleted": 0,
+"core_fact": "K.R. Narayanan won the 1997 election with about 95% of the electoral-college value, the highest so far.",
+"statements": [
+{
+"l": "opt1",
+"t": "The person who got the highest majority in Presidential elections till now is Jakir Hussain.",
+"v": "F",
+"m": "person substitution",
+"d": "Jakir Hussain",
+"fact": "K.R. Narayanan."
+},
+{
+"l": "opt2",
+"t": "The person who got the highest majority in Presidential elections till now is Fakruddin Ali Ahmed.",
+"v": "F",
+"m": "person substitution",
+"d": "Fakruddin Ali Ahmed",
+"fact": "K.R. Narayanan."
+},
+{
+"l": "opt3",
+"t": "The person who got the highest majority in Presidential elections till now is K.R.Narayanan.",
+"v": "T",
+"m": null,
+"d": "K.R.Narayanan",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The person who got the highest majority in Presidential elections till now is Shanker Dayal Sharma.",
+"v": "F",
+"m": "person substitution",
+"d": "Shanker Dayal Sharma",
+"fact": "K.R. Narayanan."
+}
+],
+"rule": "Unopposed: N. Sanjiva Reddy (1977); highest contested share: K.R. Narayanan (1997).",
+"key_note": ""
+},
+{
+"id": "prelims-2017#32",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "M1B.2.4",
+"format": "one-liner",
+"stem": "How many times can a person be elected as the President of India ?",
+"options": [
+"Once",
+"No restriction",
+"Twice",
+"Two terms consecutively"
+],
+"key": "No restriction",
+"deleted": 0,
+"core_fact": "Under Art. 57 a person who holds or has held the office of President is eligible for re-election, with no limit on the number of terms.",
+"statements": [
+{
+"l": "opt1",
+"t": "A person can be elected as the President of India: Once.",
+"v": "F",
+"m": "scope restriction",
+"d": "Once",
+"fact": "There is no restriction on the President's re-election."
+},
+{
+"l": "opt2",
+"t": "A person can be elected as the President of India: No restriction.",
+"v": "T",
+"m": null,
+"d": "No restriction",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "A person can be elected as the President of India: Twice.",
+"v": "F",
+"m": "institution substitution",
+"d": "Twice",
+"fact": "There is no restriction on the President's re-election."
+},
+{
+"l": "opt4",
+"t": "A person can be elected as the President of India: Two terms consecutively.",
+"v": "F",
+"m": "institution substitution",
+"d": "Two terms consecutively",
+"fact": "There is no restriction on the President's re-election."
+}
+],
+"rule": "Art. 57: eligible for re-election (no limit); only Rajendra Prasad served two terms.",
+"key_note": ""
+},
+{
+"id": "prelims-2017#40",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "The reason for the Public Accounts Committee of Parliament being headed by a member of the opposition party in the Lok Sabha is",
+"options": [
+"Rules framed by the Government",
+"Convention",
+"Rules of Procedure of Parliament",
+"Presidential order"
+],
+"key": "Convention",
+"deleted": 0,
+"core_fact": "The PAC chairman is appointed by the Speaker; since 1967 by convention he/she is from the opposition - this is not in the Rules.",
+"statements": [
+{
+"l": "opt1",
+"t": "The PAC of Parliament is headed by an opposition member because of Rules framed by the Government.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "Rules framed by the Government",
+"fact": "Opposition chairmanship of the PAC rests on convention."
+},
+{
+"l": "opt2",
+"t": "The PAC of Parliament is headed by an opposition member because of Convention.",
+"v": "T",
+"m": null,
+"d": "Convention",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The PAC of Parliament is headed by an opposition member because of Rules of Procedure of Parliament.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "Rules of Procedure of Parliament",
+"fact": "Opposition chairmanship of the PAC rests on convention."
+},
+{
+"l": "opt4",
+"t": "The PAC of Parliament is headed by an opposition member because of Presidential order.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "Presidential order",
+"fact": "Opposition chairmanship of the PAC rests on convention."
+}
+],
+"rule": "PAC: 22 members (15 LS + 7 RS); chairman appointed by Speaker; opposition chair by convention since 1967.",
+"key_note": ""
+},
+{
+"id": "prelims-2017#41",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "How many members are from the Lok Sabha and the Rajya Sabha respectively in the Parliamentary Committee on Welfare of Scheduled Castes and Scheduled Tribes ?",
+"options": [
+"15, 15",
+"15, 10",
+"20, 10",
+"10, 10"
+],
+"key": "20, 10",
+"deleted": 0,
+"core_fact": "The Committee on the Welfare of SCs and STs has 30 members: 20 from Lok Sabha and 10 from Rajya Sabha.",
+"statements": [
+{
+"l": "opt1",
+"t": "The Committee on Welfare of SCs and STs has 15, 15 members from the Lok Sabha and Rajya Sabha respectively.",
+"v": "F",
+"m": "numerical alteration",
+"d": "15, 15",
+"fact": "20 LS + 10 RS members."
+},
+{
+"l": "opt2",
+"t": "The Committee on Welfare of SCs and STs has 15, 10 members from the Lok Sabha and Rajya Sabha respectively.",
+"v": "F",
+"m": "numerical alteration",
+"d": "15, 10",
+"fact": "20 LS + 10 RS members."
+},
+{
+"l": "opt3",
+"t": "The Committee on Welfare of SCs and STs has 20, 10 members from the Lok Sabha and Rajya Sabha respectively.",
+"v": "T",
+"m": null,
+"d": "20, 10",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The Committee on Welfare of SCs and STs has 10, 10 members from the Lok Sabha and Rajya Sabha respectively.",
+"v": "F",
+"m": "numerical alteration",
+"d": "10, 10",
+"fact": "20 LS + 10 RS members."
+}
+],
+"rule": "Committee sizes: PAC 15+7; Estimates 30 LS; COPU 15+7; SC/ST welfare 20+10.",
+"key_note": ""
+},
+{
+"id": "prelims-2017#49",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "M1B.2.6",
+"format": "one-liner",
+"stem": "In the case of Supreme Court Advocates on Record Association, which of the following judges upheld the Constitutional Amendment for creation of National Judicial Appointments Council ?",
+"options": [
+"Justice J.S. Khehar",
+"Justice M. B. Lokur",
+"Justice J. Chelameswar",
+"Justice Kurian Joseph"
+],
+"key": "Justice J. Chelameswar",
+"deleted": 0,
+"core_fact": "In SC Advocates-on-Record Association v UoI (16 Oct 2015) the bench struck down the 99th Amendment/NJAC 4:1; Justice J. Chelameswar alone upheld it.",
+"statements": [
+{
+"l": "opt1",
+"t": "In the Fourth Judges (NJAC) case, Justice J.S. Khehar upheld the constitutional amendment creating the NJAC.",
+"v": "F",
+"m": "person substitution",
+"d": "Justice J.S. Khehar",
+"fact": "Justice Chelameswar alone upheld the NJAC."
+},
+{
+"l": "opt2",
+"t": "In the Fourth Judges (NJAC) case, Justice M. B. Lokur upheld the constitutional amendment creating the NJAC.",
+"v": "F",
+"m": "person substitution",
+"d": "Justice M. B. Lokur",
+"fact": "Justice Chelameswar alone upheld the NJAC."
+},
+{
+"l": "opt3",
+"t": "In the Fourth Judges (NJAC) case, Justice J. Chelameswar upheld the constitutional amendment creating the NJAC.",
+"v": "T",
+"m": null,
+"d": "Justice J. Chelameswar",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "In the Fourth Judges (NJAC) case, Justice Kurian Joseph upheld the constitutional amendment creating the NJAC.",
+"v": "F",
+"m": "person substitution",
+"d": "Justice Kurian Joseph",
+"fact": "Justice Chelameswar alone upheld the NJAC."
+}
+],
+"rule": "NJAC case bench: Khehar, Chelameswar (dissent), Lokur, Kurian Joseph, A.K. Goel.",
+"key_note": ""
+},
+{
+"id": "prelims-2017#54",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "M1B.2.4",
+"format": "one-liner",
+"stem": "As per the Constitution, a Union Minister shall hold office during pleasure of the",
+"options": [
+"Prime Minister",
+"President of Ruling party",
+"President",
+"Leader of the House"
+],
+"key": "President",
+"deleted": 0,
+"core_fact": "Art. 75(2): ministers hold office during the pleasure of the President (who acts on the PM's advice).",
+"statements": [
+{
+"l": "opt1",
+"t": "As per the Constitution, a Union Minister holds office during the pleasure of the Prime Minister.",
+"v": "F",
+"m": "authority swap",
+"d": "Prime Minister",
+"fact": "Union Ministers hold office during the President's pleasure."
+},
+{
+"l": "opt2",
+"t": "As per the Constitution, a Union Minister holds office during the pleasure of the President of Ruling party.",
+"v": "F",
+"m": "authority swap",
+"d": "President of Ruling party",
+"fact": "Union Ministers hold office during the President's pleasure."
+},
+{
+"l": "opt3",
+"t": "As per the Constitution, a Union Minister holds office during the pleasure of the President.",
+"v": "T",
+"m": null,
+"d": "President",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "As per the Constitution, a Union Minister holds office during the pleasure of the Leader of the House.",
+"v": "F",
+"m": "authority swap",
+"d": "Leader of the House",
+"fact": "Union Ministers hold office during the President's pleasure."
+}
+],
+"rule": "Art. 75: (2) pleasure of President = individual; (3) collective responsibility to Lok Sabha.",
+"key_note": ""
+},
+{
+"id": "prelims-2017#55",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "As per the Constitution, the Council of Union Ministers is collectively responsible to",
+"options": [
+"Both the Houses of Parliament",
+"The President",
+"The Ruling Party",
+"The Lok Sabha"
+],
+"key": "The Lok Sabha",
+"deleted": 0,
+"core_fact": "Art. 75(3): the Council of Ministers is collectively responsible to the Lok Sabha (not Rajya Sabha).",
+"statements": [
+{
+"l": "opt1",
+"t": "The Council of Union Ministers is collectively responsible to Both the Houses of Parliament.",
+"v": "F",
+"m": "scope expansion",
+"d": "Both the Houses of Parliament",
+"fact": "The Council of Ministers is collectively responsible to the Lok Sabha."
+},
+{
+"l": "opt2",
+"t": "The Council of Union Ministers is collectively responsible to The President.",
+"v": "F",
+"m": "authority swap",
+"d": "The President",
+"fact": "The Council of Ministers is collectively responsible to the Lok Sabha."
+},
+{
+"l": "opt3",
+"t": "The Council of Union Ministers is collectively responsible to The Ruling Party.",
+"v": "F",
+"m": "authority swap",
+"d": "The Ruling Party",
+"fact": "The Council of Ministers is collectively responsible to the Lok Sabha."
+},
+{
+"l": "opt4",
+"t": "The Council of Union Ministers is collectively responsible to The Lok Sabha.",
+"v": "T",
+"m": null,
+"d": "The Lok Sabha",
+"fact": null
+}
+],
+"rule": "Collective -> Lok Sabha; individual -> President; Rajya Sabha has no no-confidence power.",
+"key_note": ""
+},
+{
+"id": "prelims-2017#56",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "In which category was Sachin Tendulkar nominated as the member of the Rajya Sabha ?",
+"options": [
+"Literature",
+"Arts",
+"Science",
+"Social Service"
+],
+"key": "Arts",
+"deleted": 0,
+"core_fact": "Art. 80(3) lets the President nominate 12 members with special knowledge in literature, science, art and social service; Sachin Tendulkar (2012) was nominated - the key places him under 'Arts' (sports is not a listed field).",
+"statements": [
+{
+"l": "opt1",
+"t": "Sachin Tendulkar was nominated to the Rajya Sabha in the category of Literature.",
+"v": "F",
+"m": "attribute substitution",
+"d": "Literature",
+"fact": "Sachin was nominated under 'Arts' (per key)."
+},
+{
+"l": "opt2",
+"t": "Sachin Tendulkar was nominated to the Rajya Sabha in the category of Arts.",
+"v": "T",
+"m": null,
+"d": "Arts",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Sachin Tendulkar was nominated to the Rajya Sabha in the category of Science.",
+"v": "F",
+"m": "attribute substitution",
+"d": "Science",
+"fact": "Sachin was nominated under 'Arts' (per key)."
+},
+{
+"l": "opt4",
+"t": "Sachin Tendulkar was nominated to the Rajya Sabha in the category of Social Service.",
+"v": "F",
+"m": "attribute substitution",
+"d": "Social Service",
+"fact": "Sachin was nominated under 'Arts' (per key)."
+}
+],
+"rule": "Art. 80(3): literature, science, art, social service only (no sport).",
+"key_note": "Art. 80(3) does not list sport; reports differ on the field recorded for Tendulkar (art / social service). Key kept."
+},
+{
+"id": "prelims-2017#57",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "Whose decision is final in deciding whether a bill is a money bill or not ?",
+"options": [
+"The President",
+"The Speaker of the Lok Sabha",
+"The Finance Minister",
+"The Supreme Court"
+],
+"key": "The Speaker of the Lok Sabha",
+"deleted": 0,
+"core_fact": "Art. 110(3): if a question arises whether a bill is a Money Bill, the Speaker's decision is final (the SC has since held it open to judicial review, Rojer Mathew 2019).",
+"statements": [
+{
+"l": "opt1",
+"t": "The decision on whether a bill is a Money Bill is final when made by The President.",
+"v": "F",
+"m": "authority swap",
+"d": "The President",
+"fact": "The Speaker's decision on Money Bills is final."
+},
+{
+"l": "opt2",
+"t": "The decision on whether a bill is a Money Bill is final when made by The Speaker of the Lok Sabha.",
+"v": "T",
+"m": null,
+"d": "The Speaker of the Lok Sabha",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The decision on whether a bill is a Money Bill is final when made by The Finance Minister.",
+"v": "F",
+"m": "authority swap",
+"d": "The Finance Minister",
+"fact": "The Speaker's decision on Money Bills is final."
+},
+{
+"l": "opt4",
+"t": "The decision on whether a bill is a Money Bill is final when made by The Supreme Court.",
+"v": "F",
+"m": "authority swap",
+"d": "The Supreme Court",
+"fact": "The Speaker's decision on Money Bills is final."
+}
+],
+"rule": "Money Bill: Speaker certifies (Art. 110(3)); President's prior recommendation (Art. 117); RS only 14 days.",
+"key_note": ""
+},
+{
+"id": "prelims-2017#58",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "M1B.2.6",
+"format": "one-liner",
+"stem": "Collegium system of appointment of Supreme Court Judges derives sanction from",
+"options": [
+"The Constitution",
+"Consent of Government",
+"Decisions of Supreme Court",
+"President of India"
+],
+"key": "Decisions of Supreme Court",
+"deleted": 0,
+"core_fact": "The collegium is not in the Constitution; it arises from SC judgments - Second Judges case (1993) and Third Judges opinion (1998), reaffirmed in the NJAC case (2015).",
+"statements": [
+{
+"l": "opt1",
+"t": "The collegium system of appointment of SC judges derives sanction from The Constitution.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "The Constitution",
+"fact": "The collegium derives from Supreme Court decisions."
+},
+{
+"l": "opt2",
+"t": "The collegium system of appointment of SC judges derives sanction from Consent of Government.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "Consent of Government",
+"fact": "The collegium derives from Supreme Court decisions."
+},
+{
+"l": "opt3",
+"t": "The collegium system of appointment of SC judges derives sanction from Decisions of Supreme Court.",
+"v": "T",
+"m": null,
+"d": "Decisions of Supreme Court",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The collegium system of appointment of SC judges derives sanction from President of India.",
+"v": "F",
+"m": "authority swap",
+"d": "President of India",
+"fact": "The collegium derives from Supreme Court decisions."
+}
+],
+"rule": "Judges cases: 1st (1981) executive primacy; 2nd (1993) collegium; 3rd (1998) CJI + 4; 4th (2015) NJAC struck down.",
+"key_note": ""
+},
+{
+"id": "prelims-2017#59",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "M1B.2.3",
+"format": "one-liner",
+"stem": "If a bill is introduced in the Council of the State and sent to Legislative Assembly for approval but if the Legislative Assembly rejects the bill, what is the next course of action ?",
+"options": [
+"Joint sitting of both the Houses",
+"Council may send the bill back to the Assembly for reconsideration",
+"Bill may be sent to the Governor for examination",
+"The fate of the bill ends"
+],
+"key": "The fate of the bill ends",
+"deleted": 0,
+"core_fact": "A bill originating in the Legislative Council and rejected by the Assembly ends there; Art. 197's 'send back' route applies only to Assembly bills, and states have no joint sitting.",
+"statements": [
+{
+"l": "opt1",
+"t": "If the Assembly rejects a bill that originated in the Legislative Council, Joint sitting of both the Houses.",
+"v": "F",
+"m": "institution substitution",
+"d": "Joint sitting of both the Houses",
+"fact": "The bill ends when the Assembly rejects a Council-originated bill."
+},
+{
+"l": "opt2",
+"t": "If the Assembly rejects a bill that originated in the Legislative Council, Council may send the bill back to the Assembly for reconsideration.",
+"v": "F",
+"m": "direction reversal",
+"d": "Council may send the bill back to the Assembly for reconsideration",
+"fact": "The bill ends when the Assembly rejects a Council-originated bill."
+},
+{
+"l": "opt3",
+"t": "If the Assembly rejects a bill that originated in the Legislative Council, Bill may be sent to the Governor for examination.",
+"v": "F",
+"m": "fabricated",
+"d": "Bill may be sent to the Governor for examination",
+"fact": "The bill ends when the Assembly rejects a Council-originated bill."
+},
+{
+"l": "opt4",
+"t": "If the Assembly rejects a bill that originated in the Legislative Council, The fate of the bill ends.",
+"v": "T",
+"m": null,
+"d": "The fate of the bill ends",
+"fact": null
+}
+],
+"rule": "States: no joint sitting; Council can only delay Assembly bills (3+1 months).",
+"key_note": ""
+},
+{
+"id": "prelims-2017#6",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "The present Chairman of the Rajya Sabha is",
+"options": [
+"P.J. Kurien",
+"Arun Jaitley",
+"Hamid Ansari",
+"Selja Kumari"
+],
+"key": "Hamid Ansari",
+"deleted": 0,
+"core_fact": "Vice-President Hamid Ansari was ex-officio Chairman of the Rajya Sabha (Art. 64) in Feb 2017 (term to 10 Aug 2017); P.J. Kurien was Deputy Chairman.",
+"statements": [
+{
+"l": "opt1",
+"t": "The present (2017) Chairman of the Rajya Sabha is P.J. Kurien.",
+"v": "F",
+"m": "authority swap",
+"d": "P.J. Kurien",
+"fact": "P.J. Kurien was Deputy Chairman (2012-18)."
+},
+{
+"l": "opt2",
+"t": "The present (2017) Chairman of the Rajya Sabha is Arun Jaitley.",
+"v": "F",
+"m": "authority swap",
+"d": "Arun Jaitley",
+"fact": "Arun Jaitley was Leader of the House (and Finance Minister)."
+},
+{
+"l": "opt3",
+"t": "The present (2017) Chairman of the Rajya Sabha is Hamid Ansari.",
+"v": "T",
+"m": null,
+"d": "Hamid Ansari",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The present (2017) Chairman of the Rajya Sabha is Selja Kumari.",
+"v": "F",
+"m": "person substitution",
+"d": "Selja Kumari",
+"fact": "Vice-President Hamid Ansari was ex-officio Chairman of the Rajya Sabha (Art. 64) in Feb 2017 (term to 10 Aug 2017); P.J. Kurien was Deputy Chairman."
+}
+],
+"rule": "RS: Chairman = Vice-President; Deputy Chairman elected by RS; Leader of House = minister.",
+"key_note": ""
+},
+{
+"id": "prelims-2017#60",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "M1B.2.4",
+"format": "one-liner",
+"stem": "The total number of ministers including the Chief Minister in a State shall not be less than",
+"options": [
+"12",
+"10",
+"15",
+"7"
+],
+"key": "12",
+"deleted": 0,
+"core_fact": "Art. 164(1A) (91st Amendment 2003): a state's ministers including CM must not exceed 15% of the Assembly's strength and must not be fewer than 12.",
+"statements": [
+{
+"l": "opt1",
+"t": "The total number of ministers including the CM in a State shall not be less than 12.",
+"v": "T",
+"m": null,
+"d": "12",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The total number of ministers including the CM in a State shall not be less than 10.",
+"v": "F",
+"m": "numerical alteration",
+"d": "10",
+"fact": "A state ministry must have at least 12 ministers."
+},
+{
+"l": "opt3",
+"t": "The total number of ministers including the CM in a State shall not be less than 15.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "15",
+"fact": "A state ministry must have at least 12 ministers."
+},
+{
+"l": "opt4",
+"t": "The total number of ministers including the CM in a State shall not be less than 7.",
+"v": "F",
+"m": "numerical alteration",
+"d": "7",
+"fact": "A state ministry must have at least 12 ministers."
+}
+],
+"rule": "Ministry size: Union <=15% of LS; State <=15% of Assembly, minimum 12.",
+"key_note": ""
+},
+{
+"id": "prelims-2017#61",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "M1B.2.4",
+"format": "one-liner",
+"stem": "The remuneration of an Advocate General would be",
+"options": [
+"Equal to that of a High Court Judge",
+"As determined by the Governor",
+"Equal to that of the Chief Secretary of the State",
+"Equal to that of the Cabinet Minister of the State"
+],
+"key": "As determined by the Governor",
+"deleted": 0,
+"core_fact": "Art. 165(3): the Advocate General holds office during the Governor's pleasure and receives remuneration as the Governor determines.",
+"statements": [
+{
+"l": "opt1",
+"t": "The remuneration of an Advocate General is Equal to that of a High Court Judge.",
+"v": "F",
+"m": "true core + false extra",
+"d": "Equal to that of a High Court Judge",
+"fact": "The Governor determines the Advocate General's remuneration."
+},
+{
+"l": "opt2",
+"t": "The remuneration of an Advocate General is As determined by the Governor.",
+"v": "T",
+"m": null,
+"d": "As determined by the Governor",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The remuneration of an Advocate General is Equal to that of the Chief Secretary of the State.",
+"v": "F",
+"m": "fabricated",
+"d": "Equal to that of the Chief Secretary of the State",
+"fact": "The Governor determines the Advocate General's remuneration."
+},
+{
+"l": "opt4",
+"t": "The remuneration of an Advocate General is Equal to that of the Cabinet Minister of the State.",
+"v": "F",
+"m": "fabricated",
+"d": "Equal to that of the Cabinet Minister of the State",
+"fact": "The Governor determines the Advocate General's remuneration."
+}
+],
+"rule": "AG of India: pay by President (Art. 76(4)); Advocate General: by Governor (Art. 165(3)); both qualified as judges.",
+"key_note": ""
+},
+{
+"id": "prelims-2017#76",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "M1B.2.7",
+"format": "one-liner",
+"stem": "The power of Judicial Review is exercised by the Supreme Court through which Article of the Constitution ?",
+"options": [
+"Article 131",
+"Article 132",
+"Article 32",
+"Article 134"
+],
+"key": "Article 32",
+"deleted": 0,
+"core_fact": "The SC exercises judicial review chiefly through Art. 32 (with Art. 13; HCs via Art. 226); Arts. 131, 132, 134 are original/appellate jurisdictions.",
+"statements": [
+{
+"l": "opt1",
+"t": "The Supreme Court exercises judicial review through Article 131.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "Article 131",
+"fact": "Judicial review is exercised via Art. 32 (key)."
+},
+{
+"l": "opt2",
+"t": "The Supreme Court exercises judicial review through Article 132.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "Article 132",
+"fact": "Judicial review is exercised via Art. 32 (key)."
+},
+{
+"l": "opt3",
+"t": "The Supreme Court exercises judicial review through Article 32.",
+"v": "T",
+"m": null,
+"d": "Article 32",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The Supreme Court exercises judicial review through Article 134.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "Article 134",
+"fact": "Judicial review is exercised via Art. 32 (key)."
+}
+],
+"rule": "Judicial review bases: Arts. 13, 32, 131-136, 226, 245, 246, 372.",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper1#2",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M1B.2.2",
+"format": "one-liner (no options: stem + key)",
+"stem": "How many seats in Rajya Sabha have been allotted to successor States of Andhra Pradesh & Telangana respectively?",
+"options": null,
+"key": "",
+"deleted": 1,
+"core_fact": "Under the AP Reorganisation Act 2014 (s.12, amending the Fourth Schedule), the 18 Rajya Sabha seats of undivided AP were split: Andhra Pradesh 11, Telangana 7.",
+"statements": [
+{
+"l": "key",
+"t": "Andhra Pradesh and Telangana were allotted 11 and 7 Rajya Sabha seats respectively.",
+"v": "T",
+"m": null,
+"d": "11 ... 7",
+"fact": null
+}
+],
+"rule": "Post-2014: AP 25 LS / 11 RS / 175 MLA; TS 17 LS / 7 RS / 119 MLA.",
+"key_note": "Deleted by APPSC (no key, no options). Statement verified from the Act (basis fact)."
+},
+{
+"id": "mains-2019-paper1#3",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "one-liner (no options: stem + key)",
+"stem": "Which Ministry of Government of India publishes The Gazette of India.",
+"options": null,
+"key": "Ministry of Housing & Urban Affairs",
+"deleted": 0,
+"core_fact": "The Gazette of India is printed by the Government of India Presses and published by the Department of Publication (Controller of Publications) under the Ministry of Housing and Urban Affairs.",
+"statements": [
+{
+"l": "key",
+"t": "The Gazette of India is published by the Ministry of Housing & Urban Affairs.",
+"v": "T",
+"m": null,
+"d": "Ministry of Housing & Urban Affairs",
+"fact": null
+}
+],
+"rule": "Gazette = MoHUA (not Information & Broadcasting, not Law).",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper1#92",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M1B.2.3",
+"format": "one-liner (no options: stem + key)",
+"stem": "Which article in the Constitution provides Legislative Council to be constituted in the States.",
+"options": null,
+"key": "169",
+"deleted": 0,
+"core_fact": "Art. 169 provides for the abolition or creation of Legislative Councils in States (Art. 168 lists bicameral States; Art. 171 composition).",
+"statements": [
+{
+"l": "key",
+"t": "Article 169 of the Constitution provides for the Legislative Council to be constituted (created or abolished) in the States.",
+"v": "T",
+"m": null,
+"d": "169",
+"fact": null
+}
+],
+"rule": "168 (bicameral States), 169 (create/abolish), 170 (Assembly composition), 171 (Council composition).",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper2#108",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "one-liner (no options: stem + key)",
+"stem": "Committee on Public undertakings is a:",
+"options": null,
+"key": "Parliamentary Committee",
+"deleted": 0,
+"core_fact": "The Committee on Public Undertakings (1964, Krishna Menon Committee's suggestion) is a financial committee of Parliament: 22 members (15 LS + 7 RS), examining PSU reports and accounts.",
+"statements": [
+{
+"l": "key",
+"t": "The Committee on Public Undertakings is a Parliamentary Committee.",
+"v": "T",
+"m": null,
+"d": "Parliamentary Committee",
+"fact": null
+}
+],
+"rule": "Financial committees: PAC (22), Estimates (30, LS only), COPU (22); ministers cannot be members.",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper2#109",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "one-liner (no options: stem + key)",
+"stem": "Who elect the Vice President of India?",
+"options": null,
+"key": "Both houses of Parliament",
+"deleted": 0,
+"core_fact": "Art. 66: the Vice-President is elected by an electoral college of all members (elected and nominated) of both Houses of Parliament, by proportional representation by single transferable vote; State legislatures take no part.",
+"statements": [
+{
+"l": "key",
+"t": "The Vice-President of India is elected by the members of both Houses of Parliament.",
+"v": "T",
+"m": null,
+"d": "Both houses of Parliament",
+"fact": null
+}
+],
+"rule": "VP college: all MPs (incl. nominated); President: elected MPs + elected MLAs.",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper2#110",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "one-liner (no options: stem + key)",
+"stem": "Which of the following Article of the Indian Constitution deals with Pardoning power of the Indian President:",
+"options": null,
+"key": "Article - 72",
+"deleted": 0,
+"core_fact": "Art. 72: the President can grant pardons, reprieves, respites or remissions and suspend, remit or commute sentences (incl. court-martial and death sentences); Art. 161 for Governors.",
+"statements": [
+{
+"l": "key",
+"t": "Article 72 of the Indian Constitution deals with the pardoning power of the President.",
+"v": "T",
+"m": null,
+"d": "Article - 72",
+"fact": null
+}
+],
+"rule": "Art. 72 President (incl. death & court martial); Art. 161 Governor (no court martial, cannot pardon death).",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper2#111",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "one-liner (no options: stem + key)",
+"stem": "The maximum numbers of Union Council of ministers shall not exceed:",
+"options": null,
+"key": "15% of Lok Sabha Members",
+"deleted": 0,
+"core_fact": "Art. 75(1A) (91st Amendment 2003): the total number of ministers, including the PM, shall not exceed 15% of the total strength of the Lok Sabha (Art. 164(1A): 15% of Assembly, minimum 12, for States).",
+"statements": [
+{
+"l": "key",
+"t": "The total number of members of the Union Council of Ministers shall not exceed 15% of the members of Lok Sabha.",
+"v": "T",
+"m": null,
+"d": "15% of Lok Sabha Members",
+"fact": null
+}
+],
+"rule": "91st Amd: 15% cap (Union & States; States min 12); defectors barred from minister posts.",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper2#112",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "one-liner (no options: stem + key)",
+"stem": "The first Law Officer of the Government of India is:",
+"options": null,
+"key": "Attorney General of India",
+"deleted": 0,
+"core_fact": "The Attorney General (Art. 76), appointed by the President, is the highest/first law officer of the Government of India; the Solicitor General is the second law officer (statutory).",
+"statements": [
+{
+"l": "key",
+"t": "The first Law Officer of the Government of India is the Attorney General of India.",
+"v": "T",
+"m": null,
+"d": "Attorney General of India",
+"fact": null
+}
+],
+"rule": "AG: Art. 76 (Union), Advocate General: Art. 165 (State); SG/ASG are not constitutional.",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper2#114",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "one-liner (no options: stem + key)",
+"stem": "Which of the following Article deals with the tenure of the President of India:",
+"options": null,
+"key": "Article - 56",
+"deleted": 0,
+"core_fact": "Art. 56: the President holds office for five years from entering office; may resign to the Vice-President; removable by impeachment (Art. 61).",
+"statements": [
+{
+"l": "key",
+"t": "Article 56 deals with the tenure (term of office) of the President of India.",
+"v": "T",
+"m": null,
+"d": "Article - 56",
+"fact": null
+}
+],
+"rule": "President articles: 52-62 (52 office, 54-55 election, 56 term, 61 impeachment).",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper2#115",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "one-liner (no options: stem + key)",
+"stem": "Who among the following presidents of India has functioned as the speaker of Lok Sabha:",
+"options": null,
+"key": "N. Sanjeeva Reddy",
+"deleted": 0,
+"core_fact": "Neelam Sanjiva Reddy was Lok Sabha Speaker (1967-69 and March-July 1977) and became the 6th President (1977-82), elected unopposed.",
+"statements": [
+{
+"l": "key",
+"t": "N. Sanjiva Reddy is the President of India who earlier functioned as the Speaker of the Lok Sabha.",
+"v": "T",
+"m": null,
+"d": "N. Sanjeeva Reddy",
+"fact": null
+}
+],
+"rule": "N. Sanjiva Reddy: first CM of AP (1956), LS Speaker (1967, 1977), only President elected unopposed (1977).",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper2#116",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M1B.2.3",
+"format": "one-liner (no options: stem + key)",
+"stem": "Which Articles of the Indian Constitution deals with the matters relating to All State Legislature:",
+"options": null,
+"key": "Article 168 to 212",
+"deleted": 0,
+"core_fact": "Part VI, Chapter III (Arts 168-212) deals with the State Legislature: composition, officers, conduct of business, privileges, legislative procedure.",
+"statements": [
+{
+"l": "key",
+"t": "Articles 168 to 212 of the Constitution deal with matters relating to the State Legislature.",
+"v": "T",
+"m": null,
+"d": "Article 168 to 212",
+"fact": null
+}
+],
+"rule": "Part V Ch. II Parliament = Arts 79-122; Part VI Ch. III State Legislature = Arts 168-212.",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper2#117",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M1B.2.3",
+"format": "one-liner (no options: stem + key)",
+"stem": "At present how many States in India are having Legislative Councils:",
+"options": null,
+"key": "7",
+"deleted": 0,
+"core_fact": "In mid-2019 seven States had Legislative Councils: Andhra Pradesh, Telangana, Uttar Pradesh, Bihar, Maharashtra, Karnataka and Jammu & Kashmir; J&K's council was abolished on 31 Oct 2019, leaving six (as of 2026).",
+"statements": [
+{
+"l": "key",
+"t": "In 2019 seven States in India had Legislative Councils.",
+"v": "T",
+"m": null,
+"d": "7",
+"fact": null
+}
+],
+"rule": "Bicameral States now (6): AP, Telangana, UP, Bihar, Maharashtra, Karnataka.",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper2#146",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M1B.2.6",
+"format": "one-liner (no options: stem + key)",
+"stem": "High Court judge holds office until they attain the age of",
+"options": null,
+"key": "62 years.",
+"deleted": 0,
+"core_fact": "Art. 217(1): an HC judge holds office until 62 years (raised from 60 by the 15th Amendment 1963); SC judges until 65 (Art. 124(2)).",
+"statements": [
+{
+"l": "key",
+"t": "A High Court judge holds office until the age of 62 years.",
+"v": "T",
+"m": null,
+"d": "62 years",
+"fact": null
+}
+],
+"rule": "Retirement: HC 62, SC 65; UPSC 65, SPSC 62; CAG 65 or 6 yrs.",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper2#147",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M1B.2.3",
+"format": "one-liner (no options: stem + key)",
+"stem": "The officers of the State Legislative Assembly are",
+"options": null,
+"key": "Speaker.",
+"deleted": 0,
+"core_fact": "Art. 178: every Legislative Assembly chooses two members as Speaker and Deputy Speaker - the officers of the Assembly; the Council has a Chairman and Deputy Chairman (Art. 182).",
+"statements": [
+{
+"l": "key",
+"t": "The officers of the State Legislative Assembly are the Speaker (and the Deputy Speaker).",
+"v": "T",
+"m": null,
+"d": "Speaker",
+"fact": null
+}
+],
+"rule": "Assembly: Speaker + Deputy Speaker (Art. 178); Council: Chairman + Deputy Chairman (Art. 182); Governor is part of the legislature, not its officer.",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper2#148",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "one-liner (no options: stem + key)",
+"stem": "Delegated legislation means that",
+"options": null,
+"key": "the exercise of power of rule - making is delegated to executive by the legislature.",
+"deleted": 0,
+"core_fact": "Delegated (subordinate) legislation is rule-making by the executive under powers delegated by the legislature in a parent Act; scrutinised by Committees on Subordinate Legislation.",
+"statements": [
+{
+"l": "key",
+"t": "Delegated legislation means the exercise of rule-making power delegated to the executive by the legislature.",
+"v": "T",
+"m": null,
+"d": "delegated to executive by the legislature",
+"fact": null
+}
+],
+"rule": "Delegation flows legislature -> executive; essential legislative functions cannot be delegated (In re Delhi Laws Act 1951).",
+"key_note": ""
+},
+{
+"id": "prelims-2019#48",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "M1B.2.6",
+"format": "one-liner",
+"stem": "The Andhra Pradesh Bifurcation Act 2014, Section 31 deals with",
+"options": [
+"Water sharing",
+"High Court",
+"Finances",
+"APPSC"
+],
+"key": "High Court",
+"deleted": 0,
+"core_fact": "APRA 2014 s.30 provided a common High Court at Hyderabad; s.31 provides a separate High Court for AP (functional 1 Jan 2019, Amaravati). Water: ss.84-91; PSC: s.83.",
+"statements": [
+{
+"l": "opt1",
+"t": "Section 31 of the AP Reorganisation Act 2014 deals with water sharing.",
+"v": "F",
+"m": "section-content substitution",
+"d": "water sharing",
+"fact": "Water resources are in Part IX (ss.84-91)."
+},
+{
+"l": "opt2",
+"t": "Section 31 of the AP Reorganisation Act 2014 deals with High Court.",
+"v": "T",
+"m": null,
+"d": "High Court",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Section 31 of the AP Reorganisation Act 2014 deals with finances.",
+"v": "F",
+"m": "section-content substitution",
+"d": "finances",
+"fact": "Finance/apportionment provisions are ss.46-66."
+},
+{
+"l": "opt4",
+"t": "Section 31 of the AP Reorganisation Act 2014 deals with APPSC.",
+"v": "F",
+"m": "section-content substitution",
+"d": "APPSC",
+"fact": "PSCs are covered in s.83."
+}
+],
+"rule": "APRA map: s.5 Hyderabad; s.22 LC; s.30-31 HC; s.46 finance; s.83 PSC; s.84 Apex Council; s.90 Polavaram; s.94 incentives.",
+"key_note": ""
+},
+{
+"id": "prelims-2019#51",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "M1B.2.3",
+"format": "one-liner",
+"stem": "How many members are there in the Legislative Council of Andhra Pradesh ?",
+"options": [
+"52",
+"54",
+"56",
+"50"
+],
+"key": null,
+"deleted": 1,
+"core_fact": "The AP Legislative Council (re-created 2007) has 58 members (Art. 171 cap: one-third of 175 MLAs); APRA 2014 s.22 initially fixed 50.",
+"statements": [
+{
+"l": "opt1",
+"t": "The Legislative Council of Andhra Pradesh has 52 members.",
+"v": "F",
+"m": "numerical alteration",
+"d": "52",
+"fact": "Strength is 58."
+},
+{
+"l": "opt2",
+"t": "The Legislative Council of Andhra Pradesh has 54 members.",
+"v": "F",
+"m": "numerical alteration",
+"d": "54",
+"fact": "Strength is 58."
+},
+{
+"l": "opt3",
+"t": "The Legislative Council of Andhra Pradesh has 56 members.",
+"v": "F",
+"m": "numerical alteration",
+"d": "56",
+"fact": "Strength is 58."
+},
+{
+"l": "opt4",
+"t": "The Legislative Council of Andhra Pradesh has 50 members.",
+"v": "F",
+"m": "chronological displacement",
+"d": "50",
+"fact": "APRA s.22 first fixed 50; the council has 58."
+}
+],
+"rule": "LC size: max 1/3 of LA, min 40; AP 58, Telangana 40.",
+"key_note": "Deleted by APPSC: correct strength (58) not among the options."
+},
+{
+"id": "prelims-2019#57",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "M1B.2.4",
+"format": "one-liner",
+"stem": "All the work of Government of India is done in the name of",
+"options": [
+"The Prime Minister of India",
+"The Home Minister of India",
+"The President of India",
+"The Government of India"
+],
+"key": "The President of India",
+"deleted": 0,
+"core_fact": "Art. 77(1): all executive action of the Government of India shall be expressed to be taken in the name of the President.",
+"statements": [
+{
+"l": "opt1",
+"t": "All the work of the Government of India is done in the name of The Prime Minister of India.",
+"v": "F",
+"m": "authority swap",
+"d": "The Prime Minister of India",
+"fact": "The PM heads the Council of Ministers; action is in the President's name."
+},
+{
+"l": "opt2",
+"t": "All the work of the Government of India is done in the name of The Home Minister of India.",
+"v": "F",
+"m": "authority swap",
+"d": "The Home Minister of India",
+"fact": "Action is expressed in the President's name."
+},
+{
+"l": "opt3",
+"t": "All the work of the Government of India is done in the name of The President of India.",
+"v": "T",
+"m": null,
+"d": "The President of India",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "All the work of the Government of India is done in the name of The Government of India.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "The Government of India",
+"fact": "Executive action is expressed in the President's name; suits are by/against the 'Union of India' (Art. 300)."
+}
+],
+"rule": "Art. 77 Centre (President); Art. 166 State (Governor).",
+"key_note": ""
+},
+{
+"id": "prelims-2019#61",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "M1B.2.2",
+"format": "statement-based",
+"stem": "Which of the following statement/statements is/are correct ?\nA. The President can nominate 02 members from the Anglo-Indian Community if not adequately represented in the Lok Sabha.\nB. The Governor can nominate 02 members from the Anglo-Indian Community if not adequately represented in the Legislative Assembly.\nSelect the correct answer from the given code :",
+"options": [
+"Only A",
+"Only B",
+"Both A and B",
+"None of the above"
+],
+"key": "Only A",
+"deleted": 0,
+"core_fact": "Until the 104th Amendment (Jan 2020), Art. 331 let the President nominate up to 2 Anglo-Indians to the Lok Sabha and Art. 333 let the Governor nominate 1 to the Assembly.",
+"statements": [
+{
+"l": "A",
+"t": "The President can nominate 2 members from the Anglo-Indian Community if not adequately represented in the Lok Sabha.",
+"v": "T",
+"m": null,
+"d": "President ... 02",
+"fact": null
+},
+{
+"l": "B",
+"t": "The Governor can nominate 2 members from the Anglo-Indian Community if not adequately represented in the Legislative Assembly.",
+"v": "F",
+"m": "numerical alteration",
+"d": "02",
+"fact": "Art. 333 allowed the Governor to nominate only one Anglo-Indian."
+}
+],
+"rule": "Anglo-Indian: LS 2 (Art. 331), Assembly 1 (Art. 333); both ended by 104th Am. (2020).",
+"key_note": "Time-sensitive: true as of 2019; Anglo-Indian nomination ended on 25 Jan 2020 (104th Amendment)."
+},
+{
+"id": "prelims-2019#62",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "M1B.2.4",
+"format": "one-liner",
+"stem": "According to Article 67, the resolution for removing the Vice-President of India can be moved first only in",
+"options": [
+"The Lok Sabha",
+"The Rajya Sabha",
+"Either of the two Houses of the Parliament",
+"Joint sitting of the two Houses of the Parliament"
+],
+"key": "The Rajya Sabha",
+"deleted": 0,
+"core_fact": "Art. 67(b): the VP is removed by a Rajya Sabha resolution passed by a majority of all its then members and agreed to by the Lok Sabha (14 days' notice); so it can originate only in the Rajya Sabha.",
+"statements": [
+{
+"l": "opt1",
+"t": "The resolution to remove the Vice-President can be moved first only in the Lok Sabha.",
+"v": "F",
+"m": "institution substitution",
+"d": "the Lok Sabha",
+"fact": "Lok Sabha only agrees to the RS resolution."
+},
+{
+"l": "opt2",
+"t": "The resolution to remove the Vice-President can be moved first only in the Rajya Sabha.",
+"v": "T",
+"m": null,
+"d": "the Rajya Sabha",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The resolution to remove the Vice-President can be moved first only in either of the two Houses of the Parliament.",
+"v": "F",
+"m": "scope expansion",
+"d": "either of the two Houses of the Parliament",
+"fact": "Either House can start impeachment of the President (Art. 61), not VP removal."
+},
+{
+"l": "opt4",
+"t": "The resolution to remove the Vice-President can be moved first only in joint sitting of the two Houses of the Parliament.",
+"v": "F",
+"m": "institution substitution",
+"d": "joint sitting of the two Houses of the Parliament",
+"fact": "Joint sittings are only for ordinary-bill deadlocks."
+}
+],
+"rule": "Removal origin: President - either House; VP - RS only; Speaker - LS.",
+"key_note": ""
+},
+{
+"id": "prelims-2019#63",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "M1B.2.3",
+"format": "one-liner",
+"stem": "Which of the following is correct about the Rajya Sabha ?",
+"options": [
+"The Rajya Sabha consists of 12 members nominated by the Vice-President of India",
+"One-third of its members retire every third year",
+"The Rajya Sabha is not subject to dissolution",
+"The Vice-President is elected by the members of Rajya Sabha"
+],
+"key": "The Rajya Sabha is not subject to dissolution",
+"deleted": 0,
+"core_fact": "Rajya Sabha is a permanent House not subject to dissolution (Art. 83(1)); one-third retire every second year; 12 nominated by the President (Art. 80); VP elected by members of both Houses (Art. 66).",
+"statements": [
+{
+"l": "opt1",
+"t": "About the Rajya Sabha: it consists of 12 members nominated by the Vice-President of India.",
+"v": "F",
+"m": "authority swap",
+"d": "it consists of 12 members nominated by the Vice-President of India",
+"fact": "The 12 are nominated by the President (Art. 80(1)(a))."
+},
+{
+"l": "opt2",
+"t": "About the Rajya Sabha: one-third of its members retire every third year.",
+"v": "F",
+"m": "numerical alteration",
+"d": "one-third of its members retire every third year",
+"fact": "One-third retire every second year (Art. 83(1))."
+},
+{
+"l": "opt3",
+"t": "About the Rajya Sabha: it is not subject to dissolution.",
+"v": "T",
+"m": null,
+"d": "it is not subject to dissolution",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "About the Rajya Sabha: the Vice-President is elected by the members of Rajya Sabha.",
+"v": "F",
+"m": "scope restriction",
+"d": "the Vice-President is elected by the members of Rajya Sabha",
+"fact": "VP is elected by an electoral college of members of both Houses (Art. 66)."
+}
+],
+"rule": "RS: 250 max, 12 nominated (President), 1/3 retire every 2 years, 6-year term, never dissolved.",
+"key_note": ""
+},
+{
+"id": "prelims-2019#66",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "M1B.2.4",
+"format": "one-liner",
+"stem": "Who of the following is empowered to dissolve the Legislative Assembly of a State ?",
+"options": [
+"The Governor",
+"The Speaker of Legislative Assembly",
+"The Chief Minister",
+"The Chief Justice, High Court"
+],
+"key": "The Governor",
+"deleted": 0,
+"core_fact": "Art. 174(2)(b): the Governor may dissolve the Legislative Assembly (normally on the Chief Minister's advice).",
+"statements": [
+{
+"l": "opt1",
+"t": "The Governor is empowered to dissolve the Legislative Assembly of a State.",
+"v": "T",
+"m": null,
+"d": "The Governor",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The Speaker of Legislative Assembly is empowered to dissolve the Legislative Assembly of a State.",
+"v": "F",
+"m": "authority swap",
+"d": "The Speaker of Legislative Assembly",
+"fact": "The Speaker presides; cannot dissolve."
+},
+{
+"l": "opt3",
+"t": "The Chief Minister is empowered to dissolve the Legislative Assembly of a State.",
+"v": "F",
+"m": "authority swap",
+"d": "The Chief Minister",
+"fact": "CM advises; the Governor dissolves."
+},
+{
+"l": "opt4",
+"t": "The Chief Justice, High Court is empowered to dissolve the Legislative Assembly of a State.",
+"v": "F",
+"m": "authority swap",
+"d": "The Chief Justice, High Court",
+"fact": "HC CJ has no such power."
+}
+],
+"rule": "Dissolution: LS - President (Art. 85); LA - Governor (Art. 174).",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper1#100",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M1B.2.6",
+"format": "one-liner",
+"stem": "The power to increase the number of judges in the Supreme Court of India is vested in",
+"options": [
+"Law Commission",
+"President of India",
+"Parliament",
+"Collegium"
+],
+"key": "Parliament",
+"deleted": 0,
+"core_fact": "Art. 124(1): Parliament may by law increase the number of SC judges (Supreme Court (Number of Judges) Act 1956; 2019 amendment: 33 + CJI = 34). HC strength is fixed by the President (Art. 216).",
+"statements": [
+{
+"l": "opt1",
+"t": "The power to increase the number of judges in the Supreme Court of India is vested in Law Commission.",
+"v": "F",
+"m": "institution substitution",
+"d": "Law Commission",
+"fact": "Parliament increases SC strength by law (Art. 124(1))."
+},
+{
+"l": "opt2",
+"t": "The power to increase the number of judges in the Supreme Court of India is vested in President of India.",
+"v": "F",
+"m": "authority swap",
+"d": "President of India",
+"fact": "The President determines HC strength; SC strength is by law of Parliament."
+},
+{
+"l": "opt3",
+"t": "The power to increase the number of judges in the Supreme Court of India is vested in Parliament.",
+"v": "T",
+"m": null,
+"d": "Parliament",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The power to increase the number of judges in the Supreme Court of India is vested in Collegium.",
+"v": "F",
+"m": "institution substitution",
+"d": "Collegium",
+"fact": "The collegium recommends appointments; Parliament fixes the number."
+}
+],
+"rule": "SC strength: Parliament by law (34 since 2019); HC strength: President (Art. 216).",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper1#115",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M1B.2.8",
+"format": "statement-based",
+"stem": "Which of the following statements are correct ?\nA. Public Interest Litigation (PIL) is also known as Social Action Litigation.\nB. PIL is an outcome of Judicial Restraint.\nC. Justice V. R. Krishna Iyer and Justice P. N. Bhagawathi were pioneers of the concept of PIL.",
+"options": [
+"A and C only",
+"A, B and C",
+"A and B only",
+"B and C only"
+],
+"key": "A and C only",
+"deleted": 0,
+"core_fact": "PIL (also called Social Action Litigation, Upendra Baxi) is a product of judicial activism; pioneered in India by Justices V.R. Krishna Iyer and P.N. Bhagwati (Hussainara Khatoon 1979, S.P. Gupta 1981).",
+"statements": [
+{
+"l": "A",
+"t": "Public Interest Litigation is also known as Social Action Litigation.",
+"v": "T",
+"m": null,
+"d": "Social Action Litigation",
+"fact": null
+},
+{
+"l": "B",
+"t": "PIL is an outcome of judicial restraint.",
+"v": "F",
+"m": "direction reversal",
+"d": "Judicial Restraint",
+"fact": "PIL is an outcome of judicial activism (relaxed locus standi)."
+},
+{
+"l": "C",
+"t": "Justice V.R. Krishna Iyer and Justice P.N. Bhagwati were pioneers of the concept of PIL.",
+"v": "T",
+"m": null,
+"d": "Krishna Iyer and ... Bhagawathi",
+"fact": null
+}
+],
+"rule": "PIL: activism, relaxed locus standi, epistolary jurisdiction; Iyer & Bhagwati; first reported: Hussainara Khatoon 1979.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper1#119",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "multiple-correct",
+"stem": "The President is elected by an Electoral College consisting of\nA. Elected members of both Houses of Parliament.\nB. Nominated members of both Houses of Parliament.\nC. The elected members of the Legislative Assemblies of all the States.\nD. Nominated members of the Legislative Assemblies of all the States.\nE. The elected members of the Legislative Assemblies of NCT of Delhi and the Union Territory of Puducherry.",
+"options": [
+"A, B, C, D and E",
+"A, B, C and D",
+"A, C and E",
+"A and C"
+],
+"key": "A, C and E",
+"deleted": 0,
+"core_fact": "Art. 54 (with 70th Amendment 1992): elected members of both Houses of Parliament, elected members of State Legislative Assemblies and elected members of the Assemblies of the NCT of Delhi and the UT of Puducherry. Nominated members and MLCs do not vote.",
+"statements": [
+{
+"l": "A",
+"t": "The electoral college for the President includes the elected members of both Houses of Parliament.",
+"v": "T",
+"m": null,
+"d": "Elected members",
+"fact": null
+},
+{
+"l": "B",
+"t": "The electoral college for the President includes the nominated members of both Houses of Parliament.",
+"v": "F",
+"m": "scope expansion",
+"d": "Nominated",
+"fact": "Nominated MPs do not vote for the President (they do for the VP)."
+},
+{
+"l": "C",
+"t": "The electoral college for the President includes the elected members of the Legislative Assemblies of all the States.",
+"v": "T",
+"m": null,
+"d": "elected members of the Legislative Assemblies",
+"fact": null
+},
+{
+"l": "D",
+"t": "The electoral college for the President includes the nominated members of the Legislative Assemblies of all the States.",
+"v": "F",
+"m": "scope expansion",
+"d": "Nominated",
+"fact": "Nominated MLAs (when they existed) never voted; only elected MLAs do."
+},
+{
+"l": "E",
+"t": "The electoral college for the President includes the elected members of the Legislative Assemblies of the NCT of Delhi and the UT of Puducherry.",
+"v": "T",
+"m": null,
+"d": "NCT of Delhi and ... Puducherry",
+"fact": null
+}
+],
+"rule": "President: elected only; VP: all MPs (elected + nominated).",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper1#120",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M1B.2.6",
+"format": "one-liner",
+"stem": "Which of the following Constitutional Amendment Acts was declared unconstitutional and void by the Supreme Court in 2015 ?",
+"options": [
+"96th Constitutional Amendment Act",
+"100th Constitutional Amendment Act",
+"97th Constitutional Amendment Act",
+"99th Constitutional Amendment Act"
+],
+"key": "99th Constitutional Amendment Act",
+"deleted": 0,
+"core_fact": "In Supreme Court Advocates-on-Record Association v UoI (Fourth Judges case, 16 Oct 2015) the SC struck down the 99th Amendment (2014) and NJAC Act, restoring the collegium.",
+"statements": [
+{
+"l": "opt1",
+"t": "The 96th Constitutional Amendment Act was declared unconstitutional and void by the Supreme Court in 2015.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "96th Constitutional Amendment Act",
+"fact": "The 99th (NJAC) was struck down in 2015."
+},
+{
+"l": "opt2",
+"t": "The 100th Constitutional Amendment Act was declared unconstitutional and void by the Supreme Court in 2015.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "100th Constitutional Amendment Act",
+"fact": "The 99th (NJAC) was struck down; the 100th is the LBA."
+},
+{
+"l": "opt3",
+"t": "The 97th Constitutional Amendment Act was declared unconstitutional and void by the Supreme Court in 2015.",
+"v": "F",
+"m": "chronological displacement",
+"d": "97th Constitutional Amendment Act",
+"fact": "The 97th was partly struck down in 2021 (Rajendra Shah); the 2015 case was the 99th."
+},
+{
+"l": "opt4",
+"t": "The 99th Constitutional Amendment Act was declared unconstitutional and void by the Supreme Court in 2015.",
+"v": "T",
+"m": null,
+"d": "99th Constitutional Amendment Act",
+"fact": null
+}
+],
+"rule": "Judges cases: 1981 (S.P. Gupta), 1993 (collegium), 1998 (5-judge collegium), 2015 (NJAC void).",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper1#124",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "statement-based",
+"stem": "Which of the following statements about the Attorney General of India is/are correct ?\ni. The President shall appoint a person who is qualified to be appointed a Judge of the Supreme Court to be Attorney General of India.\nii. He shall have right of audience in all courts in the territory of India.\niii. He shall hold office during the pleasure of the Prime Minister.\niv. He shall receive remuneration as the Parliament may determine.",
+"options": [
+"Only i and ii",
+"Only i",
+"Only i and iii",
+"All of the above"
+],
+"key": "Only i and ii",
+"deleted": 0,
+"core_fact": "Art. 76: the President appoints a person qualified to be an SC judge as AG (76(1)); he has right of audience in all courts in India (76(3)); holds office during the pleasure of the President (76(4)) and receives remuneration the President determines.",
+"statements": [
+{
+"l": "i",
+"t": "The President shall appoint a person qualified to be appointed a Judge of the Supreme Court to be Attorney General of India.",
+"v": "T",
+"m": null,
+"d": "qualified to be appointed a Judge of the Supreme Court",
+"fact": null
+},
+{
+"l": "ii",
+"t": "The Attorney General shall have the right of audience in all courts in the territory of India.",
+"v": "T",
+"m": null,
+"d": "right of audience in all courts",
+"fact": null
+},
+{
+"l": "iii",
+"t": "The Attorney General shall hold office during the pleasure of the Prime Minister.",
+"v": "F",
+"m": "authority swap",
+"d": "Prime Minister",
+"fact": "The AG holds office during the pleasure of the President."
+},
+{
+"l": "iv",
+"t": "The Attorney General shall receive such remuneration as Parliament may determine.",
+"v": "F",
+"m": "authority swap",
+"d": "Parliament",
+"fact": "The AG's remuneration is determined by the President."
+}
+],
+"rule": "Art. 76: appointment, pleasure and remuneration = President; no fixed tenure; not a member of the Cabinet.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper1#126",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "statement-based",
+"stem": "Which of the following statements are correct about Presidential system ?\ni. President is head of the State.\nii. President is head of the Government.\niii. President is directly elected by the people.\niv. President is accountable to legislature.",
+"options": [
+"Only i, ii and iv are correct",
+"Only i and iii are correct",
+"Only i, ii and iii are correct",
+"Only ii and iv are correct"
+],
+"key": "Only i, ii and iii are correct",
+"deleted": 0,
+"core_fact": "In the presidential system (USA model) the President is both head of State and head of government, is elected by the people (in the USA formally via the Electoral College) for a fixed term, and is not accountable to the legislature (removable only by impeachment).",
+"statements": [
+{
+"l": "i",
+"t": "In the Presidential system the President is the head of the State.",
+"v": "T",
+"m": null,
+"d": "head of the State",
+"fact": null
+},
+{
+"l": "ii",
+"t": "In the Presidential system the President is the head of the Government.",
+"v": "T",
+"m": null,
+"d": "head of the Government",
+"fact": null
+},
+{
+"l": "iii",
+"t": "In the Presidential system the President is directly elected by the people.",
+"v": "T",
+"m": null,
+"d": "directly elected",
+"fact": null
+},
+{
+"l": "iv",
+"t": "In the Presidential system the President is accountable to the legislature.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "accountable to legislature",
+"fact": "A presidential executive is not responsible to the legislature; it has a fixed term and is removable only by impeachment."
+}
+],
+"rule": "Parliamentary = collective responsibility to legislature (Art. 75(3)); presidential = non-responsible fixed executive.",
+"key_note": "Key kept. Note: the US President is formally elected via the Electoral College; texts describe it as popular/direct election."
+},
+{
+"id": "mains-2025-paper1#128",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "statement-based",
+"stem": "Which of the following statements about the Vice President of India are correct ?\ni. The Vice President is elected for five years.\nii. The Vice President acts as the ex-officio Chairman of the Rajya Sabha.\niii. The Vice President acts as the President only until a new President is elected.",
+"options": [
+"Only i and ii",
+"Only i and iii",
+"Only ii and iii",
+"All i, ii and iii"
+],
+"key": "All i, ii and iii",
+"deleted": 0,
+"core_fact": "Art. 67: VP's term 5 years (continues until successor enters office); Art. 64: ex-officio Chairman of the Rajya Sabha; Art. 65(1): acts as President in a vacancy until a new President (elected within 6 months, Art. 62) enters office.",
+"statements": [
+{
+"l": "i",
+"t": "The Vice-President is elected for five years.",
+"v": "T",
+"m": null,
+"d": "five years",
+"fact": null
+},
+{
+"l": "ii",
+"t": "The Vice-President acts as the ex-officio Chairman of the Rajya Sabha.",
+"v": "T",
+"m": null,
+"d": "ex-officio Chairman",
+"fact": null
+},
+{
+"l": "iii",
+"t": "The Vice-President acts as the President only until a new President is elected.",
+"v": "T",
+"m": null,
+"d": "only until a new President",
+"fact": null
+}
+],
+"rule": "VP acting as President gets President's emoluments, not RS Chairman's salary.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper1#129",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "In which of the following hours, members of the Parliament are free to raise any matter that they think is important ?",
+"options": [
+"Zero hour",
+"Question hour",
+"Both (1) and (2)",
+"None of the above"
+],
+"key": "Zero hour",
+"deleted": 0,
+"core_fact": "Zero Hour (Indian innovation, since 1962) follows Question Hour; members raise matters of urgent public importance without prior notice. Question Hour is limited to questions admitted with notice.",
+"statements": [
+{
+"l": "opt1",
+"t": "Members of Parliament are free to raise any matter they think is important during Zero hour.",
+"v": "T",
+"m": null,
+"d": "Zero hour",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Members of Parliament are free to raise any matter they think is important during Question hour.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Question hour",
+"fact": "Question Hour is restricted to admitted questions; any matter can be raised in Zero Hour."
+},
+{
+"l": "opt3",
+"t": "Members of Parliament are free to raise any matter they think is important during Both (1) and (2).",
+"v": "F",
+"m": "scope expansion",
+"d": "Both (1) and (2)",
+"fact": "Only Zero Hour allows any matter."
+},
+{
+"l": "opt4",
+"t": "Members of Parliament are free to raise any matter they think is important during None of the above.",
+"v": "F",
+"m": "true statement in a NOT-question (distractor)",
+"d": "None of the above",
+"fact": "Zero Hour allows members to raise any matter."
+}
+],
+"rule": "Question Hour = first hour (starred/unstarred/short notice); Zero Hour = after QH, not in Rules.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper1#130",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M1B.2.5",
+"format": "one-liner",
+"stem": "The most powerful weapon that enables the Parliament to ensure executive accountability is",
+"options": [
+"No Confidence Motion",
+"Zero Hour",
+"Question Hour",
+"Election"
+],
+"key": "No Confidence Motion",
+"deleted": 0,
+"core_fact": "Under Art. 75(3) the Council of Ministers is collectively responsible to the Lok Sabha; a no-confidence motion (Rule 198, 50 members' support) can remove it - the most powerful accountability weapon. Question Hour is the most effective day-to-day device.",
+"statements": [
+{
+"l": "opt1",
+"t": "The most powerful weapon that enables Parliament to ensure executive accountability is the No Confidence Motion.",
+"v": "T",
+"m": null,
+"d": "No Confidence Motion",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The most powerful weapon that enables Parliament to ensure executive accountability is the Zero Hour.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Zero Hour",
+"fact": "Zero Hour is informal; only a no-confidence motion can remove the government."
+},
+{
+"l": "opt3",
+"t": "The most powerful weapon that enables Parliament to ensure executive accountability is the Question Hour.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Question Hour",
+"fact": "Question Hour is a regular check; the no-confidence motion is the strongest weapon."
+},
+{
+"l": "opt4",
+"t": "The most powerful weapon that enables Parliament to ensure executive accountability is the Election.",
+"v": "F",
+"m": "authority swap",
+"d": "Election",
+"fact": "Elections make government accountable to voters, not a weapon of Parliament."
+}
+],
+"rule": "No-confidence: LS only, no reason needed, 50 members; censure: reasons, does not unseat.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper1#135",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "multiple-correct",
+"stem": "Of the following, which are the appointments made by the President on the recommendation of the Prime Minister ?\ni. Chief Justice of India\nii. Judges of Supreme Court and High Courts\niii. Attorney General of India\niv. Governors of States",
+"options": [
+"i and ii only",
+"i only",
+"i and iii only",
+"All of the above"
+],
+"key": "All of the above",
+"deleted": 0,
+"core_fact": "Under Art. 74 the President acts on the advice of the Council of Ministers headed by the PM; formally the CJI, SC/HC judges (Arts 124, 217), the AG (Art. 76) and Governors (Art. 155) are appointed by the President on government advice. For judges the substantive recommendation comes from the SC collegium (Second Judges case 1993).",
+"statements": [
+{
+"l": "i",
+"t": "The Chief Justice of India is appointed by the President on the recommendation of the Prime Minister.",
+"v": "T",
+"m": null,
+"d": "Chief Justice of India",
+"fact": null
+},
+{
+"l": "ii",
+"t": "Judges of the Supreme Court and High Courts are appointed by the President on the recommendation of the Prime Minister.",
+"v": "T",
+"m": null,
+"d": "Judges",
+"fact": null
+},
+{
+"l": "iii",
+"t": "The Attorney General of India is appointed by the President on the recommendation of the Prime Minister.",
+"v": "T",
+"m": null,
+"d": "Attorney General",
+"fact": null
+},
+{
+"l": "iv",
+"t": "Governors of States are appointed by the President on the recommendation of the Prime Minister.",
+"v": "T",
+"m": null,
+"d": "Governors of States",
+"fact": null
+}
+],
+"rule": "Formal route always: PM -> President; but judges' names originate with the collegium.",
+"key_note": "Key kept ('All of the above'). Caveat: for the CJI and judges the operative recommendation is the SC collegium's; the PM's role is formal advice under the Memorandum of Procedure."
+},
+{
+"id": "mains-2025-paper1#138",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M1B.2.6",
+"format": "assertion-reason",
+"stem": "Assertion (A) : Mandamus normally is not issued to Govt. for making law.\nReason (R) : Mandamus cannot lie in absence of policy. Once policy is laid down, terms of policy can be enforced.",
+"options": [
+"Both (A) and (R) are true and (R) is the correct explanation of (A)",
+"Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+"(A) is true but (R) is false",
+"Both (A) and (R) are false"
+],
+"key": "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+"deleted": 0,
+"core_fact": "Courts do not issue mandamus to the legislature or government to make a law or frame policy (e.g. Supreme Court Employees' Welfare Assn 1989; Census-related cases); mandamus enforces an existing legal duty, so once a policy is laid down its terms can be enforced.",
+"statements": [
+{
+"l": "A",
+"t": "Mandamus normally is not issued to the Government for making law.",
+"v": "T",
+"m": null,
+"d": "not issued to Govt. for making law",
+"fact": null
+},
+{
+"l": "R",
+"t": "Mandamus cannot lie in the absence of policy; once policy is laid down, its terms can be enforced.",
+"v": "T",
+"m": null,
+"d": "cannot lie in absence of policy",
+"fact": null
+},
+{
+"l": "R->A",
+"t": "R explains A: mandamus enforces only an existing duty/policy, hence it cannot compel law-making.",
+"v": "T",
+"m": null,
+"d": "correct explanation",
+"fact": null
+}
+],
+"rule": "Mandamus: not against President/Governor personally, private persons, or to legislate; lies for public duty.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper1#147",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M1B.2.6",
+"format": "statement-based",
+"stem": "With reference to the Indian Judiciary, which of the following statement(s) is/are correct ?\ni. Any retired judge of the Supreme Court of India can be called back to sit and act as a Supreme Court Judge by the Chief Justice of India with the prior permission of the President of India.\nii. A High Court in India has the power to review its own Judgement as the Supreme Court does although there has been no specific power of review conferred on it by the Constitution.",
+"options": [
+"Only i",
+"Only ii",
+"Both i and ii",
+"Neither i nor ii"
+],
+"key": "Both i and ii",
+"deleted": 0,
+"core_fact": "Art 128: CJI, with the previous consent of the President, may request a retired SC judge (or a qualified retired HC judge) to sit and act as SC judge. HCs, as courts of record (Art 215), have inherent power to review their own judgments, though only the SC has an express review power (Art 137).",
+"statements": [
+{
+"l": "i",
+"t": "Any retired judge of the Supreme Court can be called back to sit and act as a Supreme Court judge by the CJI with the prior permission of the President.",
+"v": "T",
+"m": null,
+"d": "CJI with the prior permission of the President",
+"fact": null
+},
+{
+"l": "ii",
+"t": "A High Court has the power to review its own judgment as the Supreme Court does, although no specific power of review is conferred on it by the Constitution.",
+"v": "T",
+"m": null,
+"d": "no specific power of review",
+"fact": null
+}
+],
+"rule": "SC review = Art 137 (express); HC review = inherent (court of record, Art 215). Ad hoc judges = Art 127; retired judges = Art 128.",
+"key_note": "APPSC's final key changed the answer from option 1 to option 3 (Both i and ii). Kept."
+},
+{
+"id": "mains-2025-paper1#82",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "one-liner",
+"stem": "Which part of the Indian Constitution deals with the Union Executive ?",
+"options": [
+"Part IV",
+"Part VII",
+"Part VI",
+"Part V"
+],
+"key": "Part V",
+"deleted": 0,
+"core_fact": "Part V (Arts 52-151) is 'The Union' - Union executive (52-78), Parliament, President's legislative powers, Union judiciary, CAG. Part IV = DPSP; Part VI = The States; Part VII (Part B States) repealed in 1956.",
+"statements": [
+{
+"l": "opt1",
+"t": "Part IV of the Indian Constitution deals with the Union Executive.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "Part IV",
+"fact": "Part IV is DPSP; Union Executive is Part V."
+},
+{
+"l": "opt2",
+"t": "Part VII of the Indian Constitution deals with the Union Executive.",
+"v": "F",
+"m": "article/act/amendment substitution",
+"d": "Part VII",
+"fact": "Part VII was repealed (1956); Union Executive is Part V."
+},
+{
+"l": "opt3",
+"t": "Part VI of the Indian Constitution deals with the Union Executive.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Part VI",
+"fact": "Part VI deals with the States, including the State executive."
+},
+{
+"l": "opt4",
+"t": "Part V of the Indian Constitution deals with the Union Executive.",
+"v": "T",
+"m": null,
+"d": "Part V",
+"fact": null
+}
+],
+"rule": "Part V Union (52-151), Part VI States (152-237), Part VIII UTs, IX Panchayats.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper1#88",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M1B.2.8",
+"format": "one-liner",
+"stem": "The concept of Judicial Activism was originated and developed in",
+"options": [
+"USA",
+"India",
+"UK",
+"USSR"
+],
+"key": "USA",
+"deleted": 0,
+"core_fact": "Judicial activism originated and developed in the USA (term coined by Arthur Schlesinger Jr., 1947; rooted in judicial review since Marbury v Madison 1803); in India it grew via PIL from the late 1970s-80s.",
+"statements": [
+{
+"l": "opt1",
+"t": "The concept of Judicial Activism originated and developed in USA.",
+"v": "T",
+"m": null,
+"d": "USA",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The concept of Judicial Activism originated and developed in India.",
+"v": "F",
+"m": "location substitution",
+"d": "India",
+"fact": "India developed PIL-based activism later; the concept originated in the USA."
+},
+{
+"l": "opt3",
+"t": "The concept of Judicial Activism originated and developed in UK.",
+"v": "F",
+"m": "location substitution",
+"d": "UK",
+"fact": "The UK has parliamentary sovereignty; activism originated in the USA."
+},
+{
+"l": "opt4",
+"t": "The concept of Judicial Activism originated and developed in USSR.",
+"v": "F",
+"m": "location substitution",
+"d": "USSR",
+"fact": "The USSR had no judicial review tradition."
+}
+],
+"rule": "Judicial activism: USA origin (Schlesinger 1947); India: PIL (Bhagwati, Krishna Iyer), S.P. Gupta 1981.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper1#98",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M1B.2.4",
+"format": "one-liner",
+"stem": "As per 91st Amendment Act of 2003, the total number of ministers including the Prime Minister, in the Central Council of Ministers shall not exceed ________ of the total strength of the Lok Sabha.",
+"options": [
+"10 percent",
+"12 percent",
+"20 percent",
+"15 percent"
+],
+"key": "15 percent",
+"deleted": 0,
+"core_fact": "Art. 75(1A) (91st Amendment 2003): total ministers including the PM shall not exceed 15% of the Lok Sabha's total strength; in States 15% of the Assembly with a minimum of 12 (Art. 164(1A)).",
+"statements": [
+{
+"l": "opt1",
+"t": "As per the 91st Amendment Act 2003, the Union Council of Ministers including the PM shall not exceed 10 percent of the total strength of the Lok Sabha.",
+"v": "F",
+"m": "numerical alteration",
+"d": "10 percent",
+"fact": "The cap is 15%."
+},
+{
+"l": "opt2",
+"t": "As per the 91st Amendment Act 2003, the Union Council of Ministers including the PM shall not exceed 12 percent of the total strength of the Lok Sabha.",
+"v": "F",
+"m": "numerical alteration",
+"d": "12 percent",
+"fact": "The cap is 15%; '12' is the minimum number of ministers in a State."
+},
+{
+"l": "opt3",
+"t": "As per the 91st Amendment Act 2003, the Union Council of Ministers including the PM shall not exceed 20 percent of the total strength of the Lok Sabha.",
+"v": "F",
+"m": "numerical alteration",
+"d": "20 percent",
+"fact": "The cap is 15%."
+},
+{
+"l": "opt4",
+"t": "As per the 91st Amendment Act 2003, the Union Council of Ministers including the PM shall not exceed 15 percent of the total strength of the Lok Sabha.",
+"v": "T",
+"m": null,
+"d": "15 percent",
+"fact": null
+}
+],
+"rule": "91st Amd: 15% (Union & States), State minimum 12, disqualified defectors cannot be ministers.",
+"key_note": ""
+}
+],
+"related_count": 697,
+"related_sample": [
+"The landmark judgement of the Supreme Court on Uniform Civil Code is → Sarla Mudgal versus Union of India [same exam]",
+"In which case, the Supreme Court ordered Composite floor test to prove majority in Assembly? → Kalyan Singh - Jagadambika Pal case [APPSC Royalty Inspector, Agriculture Off]",
+"In which of the following cases, Supreme Court held that caste could be a factor for identifying backwardness? → Indira Sawhney [APPSC Technical Assistant (Geo Physics) ]",
+"What is \"Composite floor test\" in case of voting in a State Assembly ? → Voting in the Assembly as directed by the Governor when there is more than one person staking claim to form Government and majority is not clear. [APPSC Panchayat Secretary (Grade-IV) Gro]",
+"The doctrine applied to determine the encroachment of Union List with State List is called as → Pith and substance [same exam]",
+"In case of repugnancy between Central Law and State Law → if the State Law is within the concurrent List, it will prevail, subject to the assent of the President [same exam]",
+"Which of the following is not an indication of true democracy? → Rule by majority only [APPSC Hostel Welfare Officer Grade-II Sc]",
+"In a democracy the powers of the Government are limited by → Constitution [APPSC AP Town Planning and Building Over]",
+"Social contract was written by? → Rousseau [APPSC Hostel Welfare Officer Grade-II (M]",
+"Which State has given Maximum Presidents of India? → Tamil Nadu [APPSC Assistant Director of Economics, A]",
+"Who of the following presidents of India was the recipient of Bharatha Rathna award before becoming the president of India? → S. Radha Krishnan [APPSC Assistant Social, B.C. & Tribal We]",
+"President of India during the period of 25-7-1977 to 25-7-1982 was → N. Sanjiva Reddy [APPSC Medical Officers (Unani) 2013]",
+"India's President from 24 August 1969 to 24 August 1974 was → V.V. Giri [APPSC Group-IV (Hostel Welfare Officers)]",
+"From 13-5-1967 to 3-5-1969 who was the Indian President? → Zakir Hussain [APPSC Civil Assistant Surgeons 2013]",
+"From 25-7-1977 to 25-7-1982, who was the President of India? → N. Sanjeeva Reddy [APPSC Hyderabad Metro Water Works Manage]",
+"From 13-5-1967 to 3-5-1969 who was the President of India? → Zakir Hussain [APPSC Polytechnic Lecturers 2019]",
+"President of India during 1969-74 was → V.V. Giri [APPSC Asst. Engineers in AP Public Healt]",
+"R. Venkataraman was President of India during → 1987-1992 [APPSC Asst. Engineers in AP Public Healt]",
+"G.S. Pathak was Vice President of India during → 1969-74 [APPSC Asst. Engineers in AP Public Healt]",
+"India's Finance Minister, who later became President of India? → R. Venkataraman [APPSC Computer Draftsman Grade-I 2012]",
+"K.R. Narayanan was President of India → From 25.7.1997 to 25.7.2002 [APPSC Wardens Grade-I & III 2012]",
+"Who among the following got the Bharat Ratna Award before becoming the president of India? → Both Dr. S. Radhakrishnan and Dr. APJ Abdul Kalam [APPSC Tribal Welfare Officers 2012]",
+"President of India with longest tenure → Rajendra Prasad [APPSC Wardens Grade-I & III 2012]",
+"The book My Presidential Years was written by → R. Venkataraman [APPSC Junior Lecturers 2003]",
+"Who is the former President of India who was referred to as the 'Messiah of the Downtrodden'? → K.R. Narayanan [APPSC Gazetted 2006]",
+"President of India from 25.7.1977 to 25.7.1982 → N. Sanjeeva Reddy [APPSC Wardens Grade-I & III 2012]",
+"On what date in 2017 are next elections for the post of President of India going to be held? → 17th July [APPSC Assistant Social, BC & Tribal Welf]",
+"The birth place of President Ram Nath Kovind is → Paraunkh [APPSC Group-III Panchayat Secretary Main]",
+"Who is the President of India as of February 2020? → Sri Ram Nath Kovind [APPSC Forest Range Officers Mains Genera]",
+"Which Article of the Indian Constitution discusses the election of the President? → 54 [APPSC Assistant BC Welfare Officer, Roya]",
+"Articles 54 & 55 of Indian Constitution deal with → Election of President [APPSC Assistant Directors in AP Economic]",
+"With reference to the election of the President of India, who among the following is NOT included in the electoral college for the election of the President of India? → The elected members of Legislative council of states [APPSC Junior Assistant in Dr. NTR Univer]",
+"If the election of a person as president is declared void by the Supreme Court, acts done by him in exercise of the power and duties, on or before the date of the decision of the supreme Court shall b → Not invalidated [APPSC Assistant Social, B.C. & Tribal We]",
+"The name of the candidate for the office of the president of India has to be proposed by → any 50 members of the electoral college [APPSC AEEs 2011]",
+"The President is elected by an Electoral College (3) consisting of:\nA. Elected members of both Houses of Parliament. 96. As p\nB. Nominated members of both Houses of (4) Parliament. nu Mi C.The elected → A, C and E [same exam]",
+"Which of the following does not share the electoral college with others? → Member of Lok Sabha [APPSC Assistant Social, B.C. & Tribal We]",
+"Who acts as returning officer for the election of Rashtrapati? → Secretary General, Lok Sabha and Secretary General, Rajya Sabha by rotation [APPSC AE (Subordinate Services) Mains 20]",
+"Which of the following articles of the constitution deals with the re-election of the President? → Article 57 [APPSC Assistant Statistical Officer Scre]",
+"There is no upper limit to the number of times a person can become President of India. This is as per Article ............ of Indian Constitution. → 57 [APPSC Assistant Electrical Inspectors 20]",
+"In which schedule of Indian constitution is the description of the salary of the president of India mentioned? → 2nd Schedule [APPSC]",
+"To whom should the president address the letter of resignation of his office? → Vice President [APPSC Assistant Social, B.C. & Tribal We]",
+"Who decides the salary and allowances of the President of India? → Parliament [APPSC Assistant Chemical Examiners 2011]",
+"The tenure of the Indian President is → Five years [same exam]",
+"According to which Article of Indian Constitution there is no limit on the number of times a person can become the President → 57 [APPSC Extension Officer in Women & CW 20]",
+"In the context of election to the post of President, the following post held by contestant is treated as \"Office of Profit\". → Comptroller and Auditor General [APPSC Hostel Welfare Officer Grade-II Sc]",
+"On what grounds can the President of India be impeached? → Violation of the Constitution [APPSC Asst. Social, BC & Tribal Welfare ]",
+"As per ____ of the Indian Constitution, the President of India can be removed from his office through impeachment. → Art. 61 [APPSC Junior Lecturers 2004]",
+"The removal of the President from office is to be done in accordance with the procedure prescribed by the _______ of the Indian Constitution. → Article 61 [APPSC 2022 Forest Range Officers]",
+"In the matter of impeachment motion against the President in any of the two houses, the following is not correct → Not less than 1/2 of membership of the house shall pass the motion [APPSC Degree Lecturers Paper-I 2017]",
+"A resolution for impeaching the president can be moved after at least fourteen days notice signed by → not less than 1/4th of the total number of members of the house [APPSC AEEs 2011]",
+"What is true about the impeachment of the President? → It is quasi-Judicial as well as Political [APPSC Group-III Panchayat Secretary Main]",
+"The constituents of India's Parliament are Lok Sabha, Rajya Sabha and → The President [APPSC 2008 (paper name illegible)]",
+"Indian Parliament consists of → President + Lok Sabha + Rajya Sabha [APPSC AMVI, AEs & Observers (Non-Engg.) ]",
+"Who appoints the Prime Minister of India? → President [APPSC Civil Assistant Surgeon (Specialis]",
+"If the Lok Sabha is dissolved → President acts on advice of Council of Ministers [APPSC Asst. Social, BC & Tribal Welfare ]",
+"Parliament is → President and the two Houses [APPSC Hostel Welfare Officer Grade-II Sc]",
+"The Ambassadors to foreign countries are appointed by the → President [APPSC Gazetted 2006]",
+"Who prepares the address of Rashtrapati to Parliament? → Central Cabinet [APPSC Dental Asst. Surgeons 2017]",
+"Who is considered to be the first citizen of India? → President [APPSC FROs 2012]",
+"President addressed joint session of two houses of Indian Parliament on → 12-3-2012 [APPSC Polytechnic Lecturers 2019]",
+"When the posts of President and Vice President are vacant, who acts as President? → Chief Justice of India [APPSC Junior Asst. cum Typist in Prisons]",
+"How many times Justice Hidayatullah performed the function of President of India? → 2 [APPSC Assistant Directors in AP Economic]",
+"Who was the First CJI to be appointed as an acting President? → M. Hidayatullah [APPSC Forest Section Officer (Mains) Pap]",
+"Who discharge the duties of the President when the offices of the President and the Vice-President are both vacant → The Chief Justice of India [same exam]",
+"Who acts as the President of India when neither the President nor the Vice-President are available? → Chief Justice of India [APPSC Common GS for ADTP, ADILIS, IFS, A]",
+"When both President and Vice President are absent, who will perform their duties? → Chief Justice of Supreme Court [APPSC Assistant Director in AP Economics]",
+"Which Amendment to the Indian Constitution has made it compulsory on the part of the President to accept the advice of the Council of Ministers? → 42 [APPSC Extension Officer in Women & CW 20]",
+"With reference to the advice rendered by Council of Ministers to President of India, which of the following is correct? → The advices cannot be enquired into by any Court [APPSC Civil Assistant Surgeon (Specialis]",
+"Which Constitutional Amendment made the President bound by the advice of the Council of Ministers headed by the Prime Minister? → 42nd [APPSC Group-IV (Hostel Welfare Officers)]",
+"The influence of President of India on the ministers → Is that he may seek reconsideration on any matter before putting the seal of approval [same exam]",
+"The Constitution of India does not expressly give any discretionary powers to the → President [APPSC Polytechnic Lecturers 2011]",
+"Who among the following serves as the constitutional head of India? → President [APPSC FRO Paper-I 2023]",
+"In a Parliamentary form of Government ______ is described as the keystone of the Constitution → Prime Minister [same exam]",
+"Who was the second president of India? He is also a Bharat Ratna Award winner. → Sarvepalli Radhakrishnan [APPSC Junior Lecturers in Government Jun]",
+"If the posts of President and Vice-President fall vacant at the same time, who will act as the President of India ? → The Chief Justice of India [APPSC Panchayat Secretary (Grade-IV) Gro]",
+"Which Article of the Indian Constitution says that the President shall have the power to grant pardons, reprieves, respites or remission of punishment or to suspend, remit or commute the sentence of a → 72 [APPSC Assistant BC Welfare Officer, Roya]",
+"Which Article of the Indian Constitution empowers the President to pardon the sentence of a convicted person? → Article 72 [same exam]",
+"President of India has certain powers of pardon. In relation to these powers choose the wrong answer → Respite means changing one punishment to other [APPSC Assistant Social, B.C. & Tribal We]",
+"The ____ can grant a pardon to or reduce the sentence of a convicted person for one time, particularly in cases involving punishment of death. → President of India [APPSC Polytechnic Lecturers (S1) General]",
+"Which of the following Indian Presidents did not grant assent to the Indian Post Office (Amendment) Bill? → Gyani Zail Singh [APPSC ASO Mains 2017]"
+]
+}

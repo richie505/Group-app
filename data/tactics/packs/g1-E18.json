@@ -1,0 +1,5372 @@
+{
+"exam": "Group 1",
+"section": "E18",
+"title": "Paper II · B. Science & Technology › E18: Science and Technology: Nature and Scope of Science & Technology; Relevance of Science & Technology to the day to day life; National Policy on Science, Technology and Innovation; Institutes and Organization in India promoting integration of Science, Technology and Innovation, their activities and contribution; Contribution of Prominent Indian Scientists.",
+"syllabus_leaves": [
+{
+"leaf": "E18/1",
+"wording": "Nature and scope of science and technology",
+"official_Q": 1,
+"years": [
+2010
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "E18/2",
+"wording": "Science and technology in day-to-day life",
+"official_Q": 80,
+"years": [
+2008,
+2010,
+2012,
+2017,
+2019,
+2024
+],
+"recurrence": "High historical recurrence"
+},
+{
+"leaf": "E18/3",
+"wording": "National Policy on Science, Technology and Innovation",
+"official_Q": 2,
+"years": [
+2023,
+2024
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "E18/4",
+"wording": "Institutes and organisations promoting S&T and innovation",
+"official_Q": 12,
+"years": [
+2008,
+2012,
+2019,
+2023,
+2024
+],
+"recurrence": "High historical recurrence"
+},
+{
+"leaf": "E18/5",
+"wording": "Prominent Indian scientists",
+"official_Q": 4,
+"years": [
+2012,
+2017,
+2024
+],
+"recurrence": "Moderate historical recurrence"
+}
+],
+"official_questions": [
+{
+"id": "group1-prelims-2008#108",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The new time-clock invented by American scientists which shows the most exact information is",
+"options": [
+"Mechanical Clock",
+"Pendulum Clock",
+"Atomic Clock",
+"Mercury Atom Clock"
+],
+"key": "Atomic Clock",
+"deleted": 0,
+"core_fact": "Atomic clocks (caesium/optical) are the most precise timekeepers; US (NIST) scientists repeatedly set accuracy records.",
+"statements": [
+{
+"l": "opt1",
+"t": "The new most exact clock invented by American scientists is the Mechanical Clock.",
+"v": "F",
+"m": "comparison reversal",
+"d": "Mechanical Clock",
+"fact": "Mechanical clocks are far less precise."
+},
+{
+"l": "opt2",
+"t": "The new most exact clock invented by American scientists is the Pendulum Clock.",
+"v": "F",
+"m": "comparison reversal",
+"d": "Pendulum Clock",
+"fact": "Pendulum clocks are far less precise."
+},
+{
+"l": "opt3",
+"t": "The new most exact clock invented by American scientists is the Atomic Clock.",
+"v": "T",
+"m": null,
+"d": "Atomic Clock",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The new most exact clock invented by American scientists is the Mercury Atom Clock.",
+"v": "F",
+"m": "scope restriction",
+"d": "Mercury Atom Clock",
+"fact": "Per key the generic 'atomic clock' is the answer; a mercury-ion clock is one type."
+}
+],
+"rule": "Precision: pendulum < quartz < caesium atomic < optical (Hg/Al/Sr ion) clocks.",
+"key_note": "Key from examsnet. Ambiguous: NIST's mercury-ion (optical atomic) clock was the record-holder c. 2006-08, so option 4 is also defensible."
+},
+{
+"id": "group1-prelims-2008#121",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Angstrom is a/an",
+"options": [
+"Unit of time period",
+"Unit of length",
+"Unit of weight",
+"Type of thermometer"
+],
+"key": "Unit of length",
+"deleted": 0,
+"core_fact": "1 angstrom (Å) = 10^-10 m, a unit of length used for atomic sizes and wavelengths.",
+"statements": [
+{
+"l": "opt1",
+"t": "Angstrom is a Unit of time period.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Unit of time period",
+"fact": "Not a time unit."
+},
+{
+"l": "opt2",
+"t": "Angstrom is a Unit of length.",
+"v": "T",
+"m": null,
+"d": "Unit of length",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Angstrom is a Unit of weight.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Unit of weight",
+"fact": "Not a weight unit."
+},
+{
+"l": "opt4",
+"t": "Angstrom is a Type of thermometer.",
+"v": "F",
+"m": "definition distortion",
+"d": "Type of thermometer",
+"fact": "It is a unit, not an instrument."
+}
+],
+"rule": "Å (length, 10^-10 m), light year/parsec (distance), fermi (10^-15 m).",
+"key_note": "Key from examsnet (no APPSC key document)."
+},
+{
+"id": "group1-prelims-2008#123",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The element used in an electric filament is",
+"options": [
+"Aluminium",
+"Copper",
+"Tungsten",
+"Iron"
+],
+"key": "Tungsten",
+"deleted": 0,
+"core_fact": "Tungsten (melting point ~3422 °C, high resistivity) is used in incandescent bulb filaments.",
+"statements": [
+{
+"l": "opt1",
+"t": "The element used in an electric filament is Aluminium.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Aluminium",
+"fact": "Aluminium is used for wires/foil; low melting point (660 °C)."
+},
+{
+"l": "opt2",
+"t": "The element used in an electric filament is Copper.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Copper",
+"fact": "Copper is used for wiring (good conductor)."
+},
+{
+"l": "opt3",
+"t": "The element used in an electric filament is Tungsten.",
+"v": "T",
+"m": null,
+"d": "Tungsten",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The element used in an electric filament is Iron.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Iron",
+"fact": "Iron oxidises and melts too low."
+}
+],
+"rule": "Filament = tungsten; heating element = nichrome; wiring = copper; fuse = tin-lead alloy.",
+"key_note": "Key from examsnet (no APPSC key document)."
+},
+{
+"id": "group1-prelims-2008#126",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Pressure is measured in",
+"options": [
+"Mass per unit volume",
+"Degrees",
+"Pascal",
+"Watt"
+],
+"key": "Pascal",
+"deleted": 0,
+"core_fact": "The SI unit of pressure is the pascal (1 Pa = 1 N/m^2).",
+"statements": [
+{
+"l": "opt1",
+"t": "Pressure is measured in Mass per unit volume.",
+"v": "F",
+"m": "definition distortion",
+"d": "Mass per unit volume",
+"fact": "Mass per unit volume is density."
+},
+{
+"l": "opt2",
+"t": "Pressure is measured in Degrees.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Degrees",
+"fact": "Degrees measure angle/temperature."
+},
+{
+"l": "opt3",
+"t": "Pressure is measured in Pascal.",
+"v": "T",
+"m": null,
+"d": "Pascal",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Pressure is measured in Watt.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Watt",
+"fact": "Watt is power."
+}
+],
+"rule": "Pa pressure, W power, J energy, N force; density kg/m^3.",
+"key_note": "Key from examsnet (no APPSC key document)."
+},
+{
+"id": "group1-prelims-2008#127",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Decibel is a unit of",
+"options": [
+"Electricity",
+"Light",
+"Heat",
+"Sound"
+],
+"key": "Sound",
+"deleted": 0,
+"core_fact": "The decibel (dB) is a logarithmic unit of sound intensity level.",
+"statements": [
+{
+"l": "opt1",
+"t": "Decibel is a unit of Electricity.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Electricity",
+"fact": "Electricity uses ampere/volt."
+},
+{
+"l": "opt2",
+"t": "Decibel is a unit of Light.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Light",
+"fact": "Light uses candela/lux."
+},
+{
+"l": "opt3",
+"t": "Decibel is a unit of Heat.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Heat",
+"fact": "Heat uses joule/calorie."
+},
+{
+"l": "opt4",
+"t": "Decibel is a unit of Sound.",
+"v": "T",
+"m": null,
+"d": "Sound",
+"fact": null
+}
+],
+"rule": "dB sound; CPCB residential day limit 55 dB.",
+"key_note": "Key from examsnet (no APPSC key document)."
+},
+{
+"id": "group1-prelims-2008#129",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Inflammable air is",
+"options": [
+"Hydrogen",
+"Helium",
+"Nitrogen",
+"Oxygen"
+],
+"key": "Hydrogen",
+"deleted": 0,
+"core_fact": "Henry Cavendish (1766) identified hydrogen as 'inflammable air'; Lavoisier named it hydrogen.",
+"statements": [
+{
+"l": "opt1",
+"t": "Inflammable air is Hydrogen.",
+"v": "T",
+"m": null,
+"d": "Hydrogen",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Inflammable air is Helium.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Helium",
+"fact": "Helium is inert, discovered in the solar spectrum (1868)."
+},
+{
+"l": "opt3",
+"t": "Inflammable air is Nitrogen.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Nitrogen",
+"fact": "Nitrogen was 'phlogisticated/mephitic air'."
+},
+{
+"l": "opt4",
+"t": "Inflammable air is Oxygen.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Oxygen",
+"fact": "Oxygen was 'dephlogisticated air' (Priestley)."
+}
+],
+"rule": "Inflammable air = H2 (Cavendish); dephlogisticated = O2 (Priestley); phlogisticated = N2 (Rutherford); fixed air = CO2 (Black).",
+"key_note": "Key from examsnet (no APPSC key document)."
+},
+{
+"id": "group1-prelims-2008#130",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "'Chiral' in Greek represents",
+"options": [
+"Arm",
+"Foot",
+"Hand",
+"Leg"
+],
+"key": "Hand",
+"deleted": 0,
+"core_fact": "'Chiral' derives from Greek 'kheir' (hand): chiral molecules are non-superimposable mirror images like left and right hands.",
+"statements": [
+{
+"l": "opt1",
+"t": "'Chiral' in Greek means Arm.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Arm",
+"fact": "Not arm."
+},
+{
+"l": "opt2",
+"t": "'Chiral' in Greek means Foot.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Foot",
+"fact": "Not foot."
+},
+{
+"l": "opt3",
+"t": "'Chiral' in Greek means Hand.",
+"v": "T",
+"m": null,
+"d": "Hand",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "'Chiral' in Greek means Leg.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Leg",
+"fact": "Not leg."
+}
+],
+"rule": "Chiral = handed (enantiomers); thalidomide tragedy shows chirality matters.",
+"key_note": "Key from examsnet (no APPSC key document)."
+},
+{
+"id": "group1-prelims-2008#131",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "A bioprocess occurring by absorption of energy is known as",
+"options": [
+"Endergonic",
+"Exothermic",
+"Endothermic",
+"Catabolic"
+],
+"key": "Endergonic",
+"deleted": 0,
+"core_fact": "Endergonic reactions absorb free energy (ΔG > 0), e.g. photosynthesis, anabolism; endothermic refers to heat absorption (ΔH > 0); catabolism is energy-releasing.",
+"statements": [
+{
+"l": "opt1",
+"t": "A bioprocess occurring by absorption of energy is Endergonic.",
+"v": "T",
+"m": null,
+"d": "Endergonic",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "A bioprocess occurring by absorption of energy is Exothermic.",
+"v": "F",
+"m": "direction reversal",
+"d": "Exothermic",
+"fact": "Exothermic releases heat."
+},
+{
+"l": "opt3",
+"t": "A bioprocess occurring by absorption of energy is Endothermic.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Endothermic",
+"fact": "Endothermic is a thermodynamic (heat) term; the bioenergetic term is endergonic."
+},
+{
+"l": "opt4",
+"t": "A bioprocess occurring by absorption of energy is Catabolic.",
+"v": "F",
+"m": "direction reversal",
+"d": "Catabolic",
+"fact": "Catabolic processes release energy."
+}
+],
+"rule": "Endergonic/anabolic absorb; exergonic/catabolic release; endo/exothermic = heat.",
+"key_note": "Key from examsnet. 'Endothermic' is a close distractor (heat absorption)."
+},
+{
+"id": "group1-prelims-2008#132",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Free expansion of a system is",
+"options": [
+"Expansion against constant pressure",
+"Isothermal reversible expansion",
+"Isochoric reversible expansion",
+"Expansion to vacuum"
+],
+"key": "Expansion to vacuum",
+"deleted": 0,
+"core_fact": "Free (Joule) expansion is expansion of a gas into a vacuum against zero external pressure: no work done (W = 0), irreversible.",
+"statements": [
+{
+"l": "opt1",
+"t": "Free expansion of a system is Expansion against constant pressure.",
+"v": "F",
+"m": "definition distortion",
+"d": "against constant pressure",
+"fact": "Free expansion has zero external pressure, not a constant non-zero pressure."
+},
+{
+"l": "opt2",
+"t": "Free expansion of a system is Isothermal reversible expansion.",
+"v": "F",
+"m": "definition distortion",
+"d": "Isothermal reversible",
+"fact": "Free expansion is irreversible."
+},
+{
+"l": "opt3",
+"t": "Free expansion of a system is Isochoric reversible expansion.",
+"v": "F",
+"m": "definition distortion",
+"d": "Isochoric",
+"fact": "Isochoric means no volume change – contradiction with expansion."
+},
+{
+"l": "opt4",
+"t": "Free expansion of a system is Expansion to vacuum.",
+"v": "T",
+"m": null,
+"d": "Expansion to vacuum",
+"fact": null
+}
+],
+"rule": "Free expansion: Pext = 0, W = 0; for ideal gas ΔU = 0, q = 0.",
+"key_note": "Stored key (expansion to vacuum) used; examsnet's original key (option 1) was wrong per app explanation."
+},
+{
+"id": "group1-prelims-2008#133",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The rays that deeply darken the photographic plate are",
+"options": [
+"Infrared",
+"X-rays",
+"Visible",
+"Ultraviolet"
+],
+"key": "X-rays",
+"deleted": 0,
+"core_fact": "X-rays strongly blacken photographic film (basis of radiography); UV also affects plates, IR and visible light less in this context (key: X-rays).",
+"statements": [
+{
+"l": "opt1",
+"t": "The rays that deeply darken the photographic plate are Infrared.",
+"v": "F",
+"m": "comparison reversal",
+"d": "Infrared",
+"fact": "IR has weak photographic action (special films needed)."
+},
+{
+"l": "opt2",
+"t": "The rays that deeply darken the photographic plate are X-rays.",
+"v": "T",
+"m": null,
+"d": "X-rays",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The rays that deeply darken the photographic plate are Visible.",
+"v": "F",
+"m": "comparison reversal",
+"d": "Visible",
+"fact": "Visible light is weaker than X-rays here (key)."
+},
+{
+"l": "opt4",
+"t": "The rays that deeply darken the photographic plate are Ultraviolet.",
+"v": "F",
+"m": "comparison reversal",
+"d": "Ultraviolet",
+"fact": "UV does act on plates, but key takes X-rays."
+}
+],
+"rule": "X-rays discovered via fogged plates (Röntgen 1895); radioactivity likewise (Becquerel 1896).",
+"key_note": "Key from examsnet. UV is also strongly actinic; the key's X-rays follows the radiography/discovery angle."
+},
+{
+"id": "group1-prelims-2008#134",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Essential element of alkaloids is",
+"options": [
+"Sulphur",
+"Oxygen",
+"Nitrogen",
+"Phosphorus"
+],
+"key": "Nitrogen",
+"deleted": 0,
+"core_fact": "Alkaloids are basic plant compounds that always contain nitrogen (e.g. morphine, quinine, nicotine, caffeine).",
+"statements": [
+{
+"l": "opt1",
+"t": "The essential element of alkaloids is Sulphur.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Sulphur",
+"fact": "Sulphur is characteristic of some amino acids, not alkaloids."
+},
+{
+"l": "opt2",
+"t": "The essential element of alkaloids is Oxygen.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Oxygen",
+"fact": "Many alkaloids contain O, but N is defining."
+},
+{
+"l": "opt3",
+"t": "The essential element of alkaloids is Nitrogen.",
+"v": "T",
+"m": null,
+"d": "Nitrogen",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The essential element of alkaloids is Phosphorus.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Phosphorus",
+"fact": "Phosphorus defines nucleotides/ATP."
+}
+],
+"rule": "Alkaloids: N-containing (quinine, morphine, nicotine, caffeine).",
+"key_note": "Key from examsnet (no APPSC key document)."
+},
+{
+"id": "group1-prelims-2008#135",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Prontosil is a",
+"options": [
+"Drug",
+"Pro-drug",
+"Over-the-counter drug",
+"Synthetic penicillin"
+],
+"key": "Pro-drug",
+"deleted": 0,
+"core_fact": "Prontosil (Domagk, 1932-35), the first sulfonamide, is a prodrug metabolised in the body to active sulfanilamide.",
+"statements": [
+{
+"l": "opt1",
+"t": "Prontosil is a Drug.",
+"v": "F",
+"m": "scope expansion",
+"d": "Drug",
+"fact": "It is a drug, but specifically inactive until metabolised – a prodrug."
+},
+{
+"l": "opt2",
+"t": "Prontosil is a Pro-drug.",
+"v": "T",
+"m": null,
+"d": "Pro-drug",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Prontosil is a Over-the-counter drug.",
+"v": "F",
+"m": "fabricated",
+"d": "Over-the-counter drug",
+"fact": "It was a prescription antibacterial, not an OTC category answer."
+},
+{
+"l": "opt4",
+"t": "Prontosil is a Synthetic penicillin.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Synthetic penicillin",
+"fact": "It is a sulfonamide, not a penicillin."
+}
+],
+"rule": "Prontosil -> sulfanilamide (prodrug); penicillin (Fleming 1928) is a different class.",
+"key_note": "Stored key (Pro-drug) used; examsnet's 'synthetic penicillin' is wrong per app explanation."
+},
+{
+"id": "group1-prelims-2008#137",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Which one of the following are the building blocks of proteins?",
+"options": [
+"Ribosomes",
+"Glucose",
+"Fatty acids",
+"Amino acids"
+],
+"key": "Amino acids",
+"deleted": 0,
+"core_fact": "Proteins are polymers of amino acids linked by peptide bonds (20 standard amino acids); ribosomes synthesise them.",
+"statements": [
+{
+"l": "opt1",
+"t": "Ribosomes are the building blocks of proteins.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Ribosomes",
+"fact": "Ribosomes are protein-synthesising organelles, not monomers."
+},
+{
+"l": "opt2",
+"t": "Glucose are the building blocks of proteins.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Glucose",
+"fact": "Glucose is the monomer of starch/cellulose."
+},
+{
+"l": "opt3",
+"t": "Fatty acids are the building blocks of proteins.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Fatty acids",
+"fact": "Fatty acids build lipids."
+},
+{
+"l": "opt4",
+"t": "Amino acids are the building blocks of proteins.",
+"v": "T",
+"m": null,
+"d": "Amino acids",
+"fact": null
+}
+],
+"rule": "Protein-amino acids; polysaccharide-glucose; lipid-fatty acids+glycerol; nucleic acid-nucleotides.",
+"key_note": "Key from examsnet (no APPSC key document)."
+},
+{
+"id": "group1-prelims-2008#138",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/4",
+"format": "one-liner",
+"stem": "Central Plantation Crops Research Institute is located at",
+"options": [
+"Bhubaneshwar",
+"Kasargod",
+"Ernakulam",
+"Thiruvananthapuram"
+],
+"key": "Kasargod",
+"deleted": 0,
+"core_fact": "The Central Plantation Crops Research Institute (ICAR, 1970) is at Kasaragod, Kerala (coconut, arecanut, cocoa).",
+"statements": [
+{
+"l": "opt1",
+"t": "The Central Plantation Crops Research Institute is located at Bhubaneshwar.",
+"v": "F",
+"m": "location substitution",
+"d": "Bhubaneshwar",
+"fact": "Bhubaneswar hosts the Central Institute of Freshwater Aquaculture (and CTCRI regional)."
+},
+{
+"l": "opt2",
+"t": "The Central Plantation Crops Research Institute is located at Kasargod.",
+"v": "T",
+"m": null,
+"d": "Kasargod",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The Central Plantation Crops Research Institute is located at Ernakulam.",
+"v": "F",
+"m": "location substitution",
+"d": "Ernakulam",
+"fact": "Ernakulam/Kochi hosts CMFRI and CIFT."
+},
+{
+"l": "opt4",
+"t": "The Central Plantation Crops Research Institute is located at Thiruvananthapuram.",
+"v": "F",
+"m": "location substitution",
+"d": "Thiruvananthapuram",
+"fact": "Thiruvananthapuram hosts CTCRI (tuber crops)."
+}
+],
+"rule": "Kerala ICAR: CPCRI Kasaragod, CTCRI Thiruvananthapuram, CMFRI/CIFT Kochi, IISR Kozhikode.",
+"key_note": "Key from examsnet (no APPSC key document)."
+},
+{
+"id": "group1-prelims-2008#140",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "In which of the following features of cell division, are animal and plant cells very different?",
+"options": [
+"Anaphase",
+"Metaphase",
+"Cytokinesis",
+"Prophase"
+],
+"key": "Cytokinesis",
+"deleted": 0,
+"core_fact": "Animal cells divide the cytoplasm by a cleavage furrow (constriction from outside); plant cells, with a rigid wall, form a cell plate from the centre outwards. Karyokinesis phases are basically the same.",
+"statements": [
+{
+"l": "opt1",
+"t": "Animal and plant cells are very different in the Anaphase stage of cell division.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Anaphase",
+"fact": "Anaphase (sister chromatids move to poles) is essentially the same in plant and animal cells."
+},
+{
+"l": "opt2",
+"t": "Animal and plant cells are very different in the Metaphase stage of cell division.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Metaphase",
+"fact": "Metaphase is essentially the same in both."
+},
+{
+"l": "opt3",
+"t": "Animal and plant cells are very different in the Cytokinesis stage of cell division.",
+"v": "T",
+"m": null,
+"d": "Cytokinesis",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Animal and plant cells are very different in the Prophase stage of cell division.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Prophase",
+"fact": "Prophase is broadly similar; only the spindle origin (centrioles vs none) differs."
+}
+],
+"rule": "Plant vs animal mitosis: phases same; cytokinesis differs (cell plate vs furrow); spindle origin differs (no centrioles in plants).",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2008#141",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Plants lose water through the process of",
+"options": [
+"Evaporation",
+"Germination",
+"Photosynthesis",
+"Transpiration"
+],
+"key": "Transpiration",
+"deleted": 0,
+"core_fact": "Plants lose water as vapour mainly through stomata; this is transpiration.",
+"statements": [
+{
+"l": "opt1",
+"t": "Plants lose water through the process of Evaporation.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Evaporation",
+"fact": "Water loss from living plant surfaces is called transpiration, not (general) evaporation."
+},
+{
+"l": "opt2",
+"t": "Plants lose water through the process of Germination.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Germination",
+"fact": "Germination is seed sprouting; it absorbs water."
+},
+{
+"l": "opt3",
+"t": "Plants lose water through the process of Photosynthesis.",
+"v": "F",
+"m": "direction reversal",
+"d": "Photosynthesis",
+"fact": "Photosynthesis uses water; it does not lose it."
+},
+{
+"l": "opt4",
+"t": "Plants lose water through the process of Transpiration.",
+"v": "T",
+"m": null,
+"d": "Transpiration",
+"fact": null
+}
+],
+"rule": "Water loss by plants = transpiration (stomatal); guttation = liquid loss through hydathodes.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2008#143",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "'Circumvallation' is a phenomenon concerned with which of the following events?",
+"options": [
+"Ingestion",
+"Expiration",
+"Excretion",
+"Inspiration"
+],
+"key": "Ingestion",
+"deleted": 0,
+"core_fact": "Circumvallation is the Amoeba's feeding method: pseudopodia surround the food without touching it, forming a food vacuole (ingestion).",
+"statements": [
+{
+"l": "opt1",
+"t": "'Circumvallation' is a phenomenon concerned with Ingestion.",
+"v": "T",
+"m": null,
+"d": "Ingestion",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "'Circumvallation' is a phenomenon concerned with Expiration.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Expiration",
+"fact": "Circumvallation is a feeding (ingestion) method, not expiration."
+},
+{
+"l": "opt3",
+"t": "'Circumvallation' is a phenomenon concerned with Excretion.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Excretion",
+"fact": "It is a feeding method, not excretion."
+},
+{
+"l": "opt4",
+"t": "'Circumvallation' is a phenomenon concerned with Inspiration.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Inspiration",
+"fact": "It is a feeding method, not inspiration."
+}
+],
+"rule": "Amoeba ingestion modes: circumvallation (no contact), circumfluence (contact), import, invagination.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2008#61",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/4",
+"format": "one-liner",
+"stem": "The National Institute of Oceanography is located at",
+"options": [
+"Kerala",
+"Goa",
+"Gujarat",
+"TamilNadu"
+],
+"key": "Goa",
+"deleted": 0,
+"core_fact": "CSIR-National Institute of Oceanography is at Dona Paula, Goa (1966).",
+"statements": [
+{
+"l": "opt1",
+"t": "The National Institute of Oceanography is located at Kerala.",
+"v": "F",
+"m": "location substitution",
+"d": "Kerala",
+"fact": "CSIR-National Institute of Oceanography is at Dona Paula, Goa (1966)."
+},
+{
+"l": "opt2",
+"t": "The National Institute of Oceanography is located at Goa.",
+"v": "T",
+"m": null,
+"d": "Goa",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The National Institute of Oceanography is located at Gujarat.",
+"v": "F",
+"m": "location substitution",
+"d": "Gujarat",
+"fact": "CSIR-National Institute of Oceanography is at Dona Paula, Goa (1966)."
+},
+{
+"l": "opt4",
+"t": "The National Institute of Oceanography is located at TamilNadu.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "TamilNadu",
+"fact": "CSIR-National Institute of Oceanography is at Dona Paula, Goa (1966)."
+}
+],
+"rule": "NIO = Goa; NIOT = Chennai; INCOIS = Hyderabad; NCPOR = Goa.",
+"key_note": "Key from examsnet.com (no official APPSC key document)."
+},
+{
+"id": "group1-prelims-2008#63",
+"year": 2008,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Experiment related to Artificial Rainfall was conducted for the first time in Andhra Pradesh at",
+"options": [
+"Atmakur, Anantapur district",
+"Gadanki, Chittoor district",
+"Manneguda, Rangareddy district",
+"Chevella, Rangareddy district"
+],
+"key": "Atmakur, Anantapur district",
+"deleted": 0,
+"core_fact": "Per the key, AP's first artificial-rain (cloud-seeding) experiment was conducted at Atmakur, Anantapur district.",
+"statements": [
+{
+"l": "opt1",
+"t": "Experiment related to artificial rainfall was conducted for the first time in Andhra Pradesh at Atmakur, Anantapur district.",
+"v": "T",
+"m": null,
+"d": "Atmakur, Anantapur district",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Experiment related to artificial rainfall was conducted for the first time in Andhra Pradesh at Gadanki, Chittoor district.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Gadanki, Chittoor district",
+"fact": "Gadanki (Chittoor) hosts the National Atmospheric Research Laboratory (MST radar), not the first cloud-seeding experiment."
+},
+{
+"l": "opt3",
+"t": "Experiment related to artificial rainfall was conducted for the first time in Andhra Pradesh at Manneguda, Rangareddy district.",
+"v": "F",
+"m": "location substitution",
+"d": "Manneguda, Rangareddy district",
+"fact": "Per the key, the first experiment was at Atmakur, Anantapur."
+},
+{
+"l": "opt4",
+"t": "Experiment related to artificial rainfall was conducted for the first time in Andhra Pradesh at Chevella, Rangareddy district.",
+"v": "F",
+"m": "location substitution",
+"d": "Chevella, Rangareddy district",
+"fact": "Per the key, the first experiment was at Atmakur, Anantapur."
+}
+],
+"rule": "Gadanki (Chittoor) = NARL atmospheric radar, not cloud seeding - watch institution/place swaps.",
+"key_note": "Key kept; no authoritative source found here to verify the place/date of AP's first cloud-seeding trial - distractor truths rest on the key."
+},
+{
+"id": "group1-prelims-2010#121",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Alfred Nobel is associated with the invention of:",
+"options": [
+"Cosmic rays",
+"Dynamite",
+"Dynamo",
+"Penicillin"
+],
+"key": "Dynamite",
+"deleted": 0,
+"core_fact": "Alfred Nobel invented dynamite (patented 1867); his will founded the Nobel Prizes.",
+"statements": [
+{
+"l": "opt1",
+"t": "Alfred Nobel is associated with the invention of Cosmic rays.",
+"v": "F",
+"m": "person substitution",
+"d": "Cosmic rays",
+"fact": "Cosmic rays were discovered by Victor Hess."
+},
+{
+"l": "opt2",
+"t": "Alfred Nobel is associated with the invention of Dynamite.",
+"v": "T",
+"m": null,
+"d": "Dynamite",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Alfred Nobel is associated with the invention of Dynamo.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Dynamo",
+"fact": "The dynamo is linked with Faraday/Siemens; Nobel invented dynamite."
+},
+{
+"l": "opt4",
+"t": "Alfred Nobel is associated with the invention of Penicillin.",
+"v": "F",
+"m": "person substitution",
+"d": "Penicillin",
+"fact": "Penicillin was discovered by Alexander Fleming."
+}
+],
+"rule": "Dynamite = Nobel; dynamo = Faraday principle; penicillin = Fleming; cosmic rays = Hess.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010#123",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Permanent hardness of water is due to the presence of :",
+"options": [
+"Calcium sulphate",
+"Calcium bicarbonate",
+"Sodium bicarbonate",
+"Magnesium bicarbonate"
+],
+"key": "Calcium sulphate",
+"deleted": 0,
+"core_fact": "Temporary hardness = bicarbonates of Ca/Mg (removed by boiling); permanent hardness = chlorides and sulphates of Ca/Mg.",
+"statements": [
+{
+"l": "opt1",
+"t": "Permanent hardness of water is due to the presence of Calcium sulphate.",
+"v": "T",
+"m": null,
+"d": "Calcium sulphate",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Permanent hardness of water is due to the presence of Calcium bicarbonate.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Calcium bicarbonate",
+"fact": "Calcium bicarbonate causes temporary hardness."
+},
+{
+"l": "opt3",
+"t": "Permanent hardness of water is due to the presence of Sodium bicarbonate.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Sodium bicarbonate",
+"fact": "Sodium bicarbonate does not cause hardness."
+},
+{
+"l": "opt4",
+"t": "Permanent hardness of water is due to the presence of Magnesium bicarbonate.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Magnesium bicarbonate",
+"fact": "Magnesium bicarbonate causes temporary hardness."
+}
+],
+"rule": "Temporary = HCO3- of Ca/Mg (boiling, Clark's method); permanent = Cl-/SO4 2- of Ca/Mg (washing soda, ion exchange).",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010#125",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Pace-maker is related to:",
+"options": [
+"heart",
+"lung",
+"liver",
+"kidney"
+],
+"key": "heart",
+"deleted": 0,
+"core_fact": "An artificial pacemaker delivers electrical pulses to regulate the heartbeat; the natural pacemaker is the SA node.",
+"statements": [
+{
+"l": "opt1",
+"t": "A pacemaker is related to the heart.",
+"v": "T",
+"m": null,
+"d": "heart",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "A pacemaker is related to the lung.",
+"v": "F",
+"m": "location substitution",
+"d": "lung",
+"fact": "A pacemaker is related to the heart."
+},
+{
+"l": "opt3",
+"t": "A pacemaker is related to the liver.",
+"v": "F",
+"m": "location substitution",
+"d": "liver",
+"fact": "A pacemaker is related to the heart."
+},
+{
+"l": "opt4",
+"t": "A pacemaker is related to the kidney.",
+"v": "F",
+"m": "location substitution",
+"d": "kidney",
+"fact": "A pacemaker is related to the heart."
+}
+],
+"rule": "Pacemaker = heart; dialyser = kidney; ventilator = lung.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010#126",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Inertia is the property of",
+"options": [
+"force",
+"strength",
+"mass",
+"volume"
+],
+"key": "mass",
+"deleted": 0,
+"core_fact": "Inertia is the tendency to resist change in state of motion; its quantitative measure is mass.",
+"statements": [
+{
+"l": "opt1",
+"t": "Inertia is the property of force.",
+"v": "F",
+"m": "cause-effect reversal",
+"d": "force",
+"fact": "Force overcomes inertia; mass measures inertia."
+},
+{
+"l": "opt2",
+"t": "Inertia is the property of strength.",
+"v": "F",
+"m": "fabricated",
+"d": "strength",
+"fact": "Inertia is measured by mass."
+},
+{
+"l": "opt3",
+"t": "Inertia is the property of mass.",
+"v": "T",
+"m": null,
+"d": "mass",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Inertia is the property of volume.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "volume",
+"fact": "Inertia depends on mass, not volume."
+}
+],
+"rule": "Inertia ∝ mass; force = rate of change of momentum.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010#127",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Tea will cool most easily in:",
+"options": [
+"glass cup",
+"metal cup",
+"clay cup",
+"porcelain cup"
+],
+"key": "metal cup",
+"deleted": 0,
+"core_fact": "Metals are good conductors of heat, so a metal cup loses heat to the surroundings fastest; glass, clay and porcelain are poor conductors.",
+"statements": [
+{
+"l": "opt1",
+"t": "Tea will cool most easily in a glass cup.",
+"v": "F",
+"m": "comparison reversal",
+"d": "glass cup",
+"fact": "Glass is a poor conductor; a metal cup cools tea fastest."
+},
+{
+"l": "opt2",
+"t": "Tea will cool most easily in a metal cup.",
+"v": "T",
+"m": null,
+"d": "metal cup",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Tea will cool most easily in a clay cup.",
+"v": "F",
+"m": "comparison reversal",
+"d": "clay cup",
+"fact": "Clay is a poor conductor (clay pots cool water by evaporation, not conduction)."
+},
+{
+"l": "opt4",
+"t": "Tea will cool most easily in a porcelain cup.",
+"v": "F",
+"m": "comparison reversal",
+"d": "porcelain cup",
+"fact": "Porcelain is a poor conductor."
+}
+],
+"rule": "Fast cooling by conduction = metal; matka cooling = evaporation through pores.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010#128",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "When there is no external force acts on a system of particles, the velocity of centre of mass of the system will be:",
+"options": [
+"increased",
+"decreased",
+"zero",
+"constant"
+],
+"key": "constant",
+"deleted": 0,
+"core_fact": "If the net external force on a system is zero, its total momentum is conserved, so the centre-of-mass velocity stays constant.",
+"statements": [
+{
+"l": "opt1",
+"t": "When no external force acts on a system of particles, the velocity of its centre of mass is increased.",
+"v": "F",
+"m": "direction reversal",
+"d": "increased",
+"fact": "Without external force the CM velocity stays constant."
+},
+{
+"l": "opt2",
+"t": "When no external force acts on a system of particles, the velocity of its centre of mass is decreased.",
+"v": "F",
+"m": "direction reversal",
+"d": "decreased",
+"fact": "It stays constant."
+},
+{
+"l": "opt3",
+"t": "When no external force acts on a system of particles, the velocity of its centre of mass is zero.",
+"v": "F",
+"m": "scope restriction",
+"d": "zero",
+"fact": "It is constant – zero only if the system started at rest."
+},
+{
+"l": "opt4",
+"t": "When no external force acts on a system of particles, the velocity of its centre of mass is constant.",
+"v": "T",
+"m": null,
+"d": "constant",
+"fact": null
+}
+],
+"rule": "F_ext = 0 → v_cm constant (may be non-zero).",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010#129",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "If the momentum of a body is increased by 100%, the kinetic energy will be increased by:",
+"options": [
+"300%",
+"200%",
+"100%",
+"50%"
+],
+"key": "300%",
+"deleted": 0,
+"core_fact": "KE = p²/2m; doubling momentum (100% increase) makes KE four times, i.e. a 300% increase.",
+"statements": [
+{
+"l": "opt1",
+"t": "If the momentum of a body is increased by 100%, its kinetic energy increases by 300%.",
+"v": "T",
+"m": null,
+"d": "300%",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "If the momentum of a body is increased by 100%, its kinetic energy increases by 200%.",
+"v": "F",
+"m": "numerical alteration",
+"d": "200%",
+"fact": "KE becomes 4×, an increase of 300%."
+},
+{
+"l": "opt3",
+"t": "If the momentum of a body is increased by 100%, its kinetic energy increases by 100%.",
+"v": "F",
+"m": "numerical alteration",
+"d": "100%",
+"fact": "KE ∝ p², so +300%."
+},
+{
+"l": "opt4",
+"t": "If the momentum of a body is increased by 100%, its kinetic energy increases by 50%.",
+"v": "F",
+"m": "numerical alteration",
+"d": "50%",
+"fact": "KE increases by 300%."
+}
+],
+"rule": "'Increase by' = final – initial; p ×2 → KE ×4 → +300%.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010#130",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The colour given by excess Lithium in Lithium Chloride solid is :",
+"options": [
+"Violet",
+"Green",
+"Pink",
+"Yellow"
+],
+"key": "Pink",
+"deleted": 0,
+"core_fact": "Metal-excess defects (F-centres) colour crystals: excess Li in LiCl – pink; excess Na in NaCl – yellow; excess K in KCl – violet/lilac.",
+"statements": [
+{
+"l": "opt1",
+"t": "Excess lithium in solid lithium chloride gives the colour Violet.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Violet",
+"fact": "Violet is excess K in KCl; LiCl is pink."
+},
+{
+"l": "opt2",
+"t": "Excess lithium in solid lithium chloride gives the colour Green.",
+"v": "F",
+"m": "fabricated",
+"d": "Green",
+"fact": "Excess Li in LiCl gives pink."
+},
+{
+"l": "opt3",
+"t": "Excess lithium in solid lithium chloride gives the colour Pink.",
+"v": "T",
+"m": null,
+"d": "Pink",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Excess lithium in solid lithium chloride gives the colour Yellow.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Yellow",
+"fact": "Yellow is excess Na in NaCl."
+}
+],
+"rule": "NaCl yellow, LiCl pink, KCl violet.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010#131",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Sodium benzoate is used as a :",
+"options": [
+"flavouring agent",
+"preservative",
+"colouring agent",
+"antacid"
+],
+"key": "preservative",
+"deleted": 0,
+"core_fact": "Sodium benzoate (E211) is a food preservative (antimicrobial in acidic foods).",
+"statements": [
+{
+"l": "opt1",
+"t": "Sodium benzoate is used as a flavouring agent.",
+"v": "F",
+"m": "function/power substitution",
+"d": "flavouring agent",
+"fact": "It is a preservative."
+},
+{
+"l": "opt2",
+"t": "Sodium benzoate is used as a preservative.",
+"v": "T",
+"m": null,
+"d": "preservative",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Sodium benzoate is used as a colouring agent.",
+"v": "F",
+"m": "function/power substitution",
+"d": "colouring agent",
+"fact": "It is a preservative."
+},
+{
+"l": "opt4",
+"t": "Sodium benzoate is used as a antacid.",
+"v": "F",
+"m": "function/power substitution",
+"d": "antacid",
+"fact": "It is a preservative, not an antacid."
+}
+],
+"rule": "Preservatives: sodium benzoate, sorbic acid, sodium metabisulphite; sweeteners: aspartame, saccharin.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010#133",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Brass is an alloy of:",
+"options": [
+"Copper and Aluminium",
+"Copper and Tin",
+"Copper and Zinc",
+"Copper and Nickel"
+],
+"key": "Copper and Zinc",
+"deleted": 0,
+"core_fact": "Brass = copper + zinc; bronze = copper + tin; cupronickel = copper + nickel; aluminium bronze = copper + aluminium.",
+"statements": [
+{
+"l": "opt1",
+"t": "Brass is an alloy of Copper and Aluminium.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Copper and Aluminium",
+"fact": "Cu+Al is aluminium bronze; brass is Cu+Zn."
+},
+{
+"l": "opt2",
+"t": "Brass is an alloy of Copper and Tin.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Copper and Tin",
+"fact": "Cu+Sn is bronze."
+},
+{
+"l": "opt3",
+"t": "Brass is an alloy of Copper and Zinc.",
+"v": "T",
+"m": null,
+"d": "Copper and Zinc",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Brass is an alloy of Copper and Nickel.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Copper and Nickel",
+"fact": "Cu+Ni is cupronickel."
+}
+],
+"rule": "Brass Cu+Zn; bronze Cu+Sn; solder Pb+Sn; german silver Cu+Zn+Ni.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010#134",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Blood is a:",
+"options": [
+"Solution",
+"Colloid",
+"Emulsion",
+"Gel"
+],
+"key": "Colloid",
+"deleted": 0,
+"core_fact": "Blood (plasma with proteins) is treated as a colloidal system; true solutions have particles <1 nm.",
+"statements": [
+{
+"l": "opt1",
+"t": "Blood is a Solution.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Solution",
+"fact": "Blood is a colloid, not a true solution."
+},
+{
+"l": "opt2",
+"t": "Blood is a Colloid.",
+"v": "T",
+"m": null,
+"d": "Colloid",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Blood is a Emulsion.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Emulsion",
+"fact": "Emulsion is liquid-in-liquid (milk); blood is a sol-type colloid."
+},
+{
+"l": "opt4",
+"t": "Blood is a Gel.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Gel",
+"fact": "Gel is liquid in solid (jelly); blood is fluid."
+}
+],
+"rule": "Emulsion = liquid in liquid; gel = liquid in solid; sol = solid in liquid.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010#135",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Mosquito repellents contain mainly:",
+"options": [
+"calcium dihydrogen phosphate",
+"potassium hydrogen phosphate",
+"sodium hydrogen sulphate",
+"ammonium bicarbonate"
+],
+"key": "calcium dihydrogen phosphate",
+"deleted": 0,
+"core_fact": "Commercial mosquito coils/mats/liquids use synthetic pyrethroids (allethrin, transfluthrin) and skin repellents use DEET; calcium dihydrogen phosphate is the active part of superphosphate fertiliser.",
+"statements": [
+{
+"l": "opt1",
+"t": "Mosquito repellents contain mainly calcium dihydrogen phosphate.",
+"v": "T",
+"m": null,
+"d": "calcium dihydrogen phosphate",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Mosquito repellents contain mainly potassium hydrogen phosphate.",
+"v": "F",
+"m": "fabricated",
+"d": "potassium hydrogen phosphate",
+"fact": "Repellents are based on pyrethroids/DEET, not potassium hydrogen phosphate."
+},
+{
+"l": "opt3",
+"t": "Mosquito repellents contain mainly sodium hydrogen sulphate.",
+"v": "F",
+"m": "fabricated",
+"d": "sodium hydrogen sulphate",
+"fact": "Not a repellent."
+},
+{
+"l": "opt4",
+"t": "Mosquito repellents contain mainly ammonium bicarbonate.",
+"v": "F",
+"m": "fabricated",
+"d": "ammonium bicarbonate",
+"fact": "Ammonium bicarbonate is a leavening agent."
+}
+],
+"rule": "Repellents/vaporisers = pyrethroids (allethrin), DEET; Ca(H2PO4)2 = superphosphate.",
+"key_note": "CONFLICT with fact: calcium dihydrogen phosphate is a fertiliser; mosquito repellents are pyrethroid/DEET based. No option is right; key kept as published (examsnet; no official key)."
+},
+{
+"id": "group1-prelims-2010#136",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The economically useful part in Ginger is :",
+"options": [
+"Bulb",
+"Fruit",
+"Rhizome",
+"Root"
+],
+"key": "Rhizome",
+"deleted": 0,
+"core_fact": "Ginger is an underground modified stem (rhizome) with nodes and internodes.",
+"statements": [
+{
+"l": "opt1",
+"t": "The economically useful part of ginger is its Bulb.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Bulb",
+"fact": "Bulb is onion/garlic; ginger is a rhizome."
+},
+{
+"l": "opt2",
+"t": "The economically useful part of ginger is its Fruit.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Fruit",
+"fact": "The used part is the rhizome."
+},
+{
+"l": "opt3",
+"t": "The economically useful part of ginger is its Rhizome.",
+"v": "T",
+"m": null,
+"d": "Rhizome",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The economically useful part of ginger is its Root.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Root",
+"fact": "Ginger is a stem (rhizome), not a root."
+}
+],
+"rule": "Rhizome: ginger, turmeric; tuber: potato; bulb: onion; corm: colocasia; root tuber: sweet potato.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010#137",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The edible part of coffee seed is:",
+"options": [
+"Tapetum",
+"Mace",
+"Caruncle",
+"Perisperm"
+],
+"key": "Perisperm",
+"deleted": 0,
+"core_fact": "Standard GK lists the edible part of coffee as the perisperm/endosperm of the seed; tapetum is an anther layer, mace the aril of nutmeg, caruncle the castor seed outgrowth.",
+"statements": [
+{
+"l": "opt1",
+"t": "The edible part of coffee seed is the Tapetum.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Tapetum",
+"fact": "Tapetum is an anther layer."
+},
+{
+"l": "opt2",
+"t": "The edible part of coffee seed is the Mace.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Mace",
+"fact": "Mace is the aril of nutmeg."
+},
+{
+"l": "opt3",
+"t": "The edible part of coffee seed is the Caruncle.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Caruncle",
+"fact": "Caruncle is on castor seed."
+},
+{
+"l": "opt4",
+"t": "The edible part of coffee seed is the Perisperm.",
+"v": "T",
+"m": null,
+"d": "Perisperm",
+"fact": null
+}
+],
+"rule": "Edible parts: coffee – seed (endosperm/perisperm); nutmeg – mace aril; litchi – aril; mango – mesocarp; coconut – endosperm.",
+"key_note": "Botanically the coffee bean is mainly endosperm; perisperm is the closest option. Keep key."
+},
+{
+"id": "group1-prelims-2010#138",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Lutein is a/an :",
+"options": [
+"Blue coloured pigment",
+"Yellow coloured pigment",
+"Brown coloured pigment",
+"Orange coloured pigment"
+],
+"key": "Yellow coloured pigment",
+"deleted": 0,
+"core_fact": "Lutein is a xanthophyll – a yellow carotenoid pigment.",
+"statements": [
+{
+"l": "opt1",
+"t": "Lutein is a Blue coloured pigment.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Blue coloured pigment",
+"fact": "Blue pigments are anthocyanins/phycocyanin; lutein is yellow."
+},
+{
+"l": "opt2",
+"t": "Lutein is a Yellow coloured pigment.",
+"v": "T",
+"m": null,
+"d": "Yellow coloured pigment",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Lutein is a Brown coloured pigment.",
+"v": "F",
+"m": "fabricated",
+"d": "Brown coloured pigment",
+"fact": "Lutein is yellow."
+},
+{
+"l": "opt4",
+"t": "Lutein is a Orange coloured pigment.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Orange coloured pigment",
+"fact": "Orange is β-carotene; lutein is yellow."
+}
+],
+"rule": "Chl a blue-green, chl b yellow-green, xanthophyll yellow, carotene yellow-orange.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010#141",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/1",
+"format": "one-liner",
+"stem": "The study of animal behaviour is called as:",
+"options": [
+"Etymology",
+"Ethology",
+"Ecology",
+"Euphenics"
+],
+"key": "Ethology",
+"deleted": 0,
+"core_fact": "Ethology is the scientific study of animal behaviour.",
+"statements": [
+{
+"l": "opt1",
+"t": "The study of animal behaviour is called Etymology.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Etymology",
+"fact": "Etymology is word origins (entomology = insects)."
+},
+{
+"l": "opt2",
+"t": "The study of animal behaviour is called Ethology.",
+"v": "T",
+"m": null,
+"d": "Ethology",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The study of animal behaviour is called Ecology.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Ecology",
+"fact": "Ecology is organism-environment relations."
+},
+{
+"l": "opt4",
+"t": "The study of animal behaviour is called Euphenics.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Euphenics",
+"fact": "Euphenics improves human phenotype."
+}
+],
+"rule": "Ethology behaviour; entomology insects; etymology words; euphenics phenotype; eugenics genotype.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010#142",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Vitamin related with production of antibodies is:",
+"options": [
+"B6",
+"B12",
+"B1",
+"B2"
+],
+"key": "B6",
+"deleted": 0,
+"core_fact": "Pyridoxine (B6) is needed for amino-acid metabolism and antibody production; B12 for RBC formation; B1 carbohydrate metabolism; B2 energy release.",
+"statements": [
+{
+"l": "opt1",
+"t": "The vitamin related with production of antibodies is B6.",
+"v": "T",
+"m": null,
+"d": "B6",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The vitamin related with production of antibodies is B12.",
+"v": "F",
+"m": "function/power substitution",
+"d": "B12",
+"fact": "B12 is for RBC formation."
+},
+{
+"l": "opt3",
+"t": "The vitamin related with production of antibodies is B1.",
+"v": "F",
+"m": "function/power substitution",
+"d": "B1",
+"fact": "B1 is for carbohydrate metabolism."
+},
+{
+"l": "opt4",
+"t": "The vitamin related with production of antibodies is B2.",
+"v": "F",
+"m": "function/power substitution",
+"d": "B2",
+"fact": "B2 is for energy release."
+}
+],
+"rule": "B1 beriberi; B2 ariboflavinosis; B3 pellagra; B6 antibodies/anaemia; B12 pernicious anaemia.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010-reexam#10",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Experiment related to Artificial Rainfall was conducted for the first time in Andhra Pradesh at :",
+"options": [
+"Chevella, Rangareddy district",
+"Mannanur, Mahabubnagar dist.",
+"Atmakur, Anantapur district",
+"Gadanki, Chittor district"
+],
+"key": "Atmakur, Anantapur district",
+"deleted": 0,
+"core_fact": "Per the key, AP's first artificial-rain (cloud-seeding) experiment was conducted at Atmakur, Anantapur district.",
+"statements": [
+{
+"l": "opt1",
+"t": "Experiment related to artificial rainfall was conducted for the first time in Andhra Pradesh at Chevella, Rangareddy district.",
+"v": "F",
+"m": "location substitution",
+"d": "Chevella, Rangareddy district",
+"fact": "Per the key, the first experiment was at Atmakur, Anantapur."
+},
+{
+"l": "opt2",
+"t": "Experiment related to artificial rainfall was conducted for the first time in Andhra Pradesh at Mannanur, Mahabubnagar dist..",
+"v": "F",
+"m": "location substitution",
+"d": "Mannanur, Mahabubnagar dist.",
+"fact": "Per the key, the first experiment was at Atmakur, Anantapur."
+},
+{
+"l": "opt3",
+"t": "Experiment related to artificial rainfall was conducted for the first time in Andhra Pradesh at Atmakur, Anantapur district.",
+"v": "T",
+"m": null,
+"d": "Atmakur, Anantapur district",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Experiment related to artificial rainfall was conducted for the first time in Andhra Pradesh at Gadanki, Chittor district.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Gadanki, Chittor district",
+"fact": "Gadanki (Chittoor) hosts the National Atmospheric Research Laboratory (MST radar), not the first cloud-seeding experiment."
+}
+],
+"rule": "Gadanki (Chittoor) = NARL atmospheric radar, not cloud seeding - watch institution/place swaps.",
+"key_note": "Key kept; no authoritative source found here to verify the place/date of AP's first cloud-seeding trial - distractor truths rest on the key."
+},
+{
+"id": "group1-prelims-2010-reexam#31",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Albert Einstein was awarded Nobel Prize for his work on:",
+"options": [
+"Special Theory of Relativity",
+"Photoelectric Effect",
+"Invention of Atomic Bomb",
+"Invention of Missile Technology"
+],
+"key": "Photoelectric Effect",
+"deleted": 0,
+"core_fact": "Einstein received the 1921 Physics Nobel 'for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect'.",
+"statements": [
+{
+"l": "opt1",
+"t": "Albert Einstein was awarded the Nobel Prize for his work on Special Theory of Relativity.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Special Theory of Relativity",
+"fact": "His Nobel was for the photoelectric effect, not relativity."
+},
+{
+"l": "opt2",
+"t": "Albert Einstein was awarded the Nobel Prize for his work on Photoelectric Effect.",
+"v": "T",
+"m": null,
+"d": "Photoelectric Effect",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Albert Einstein was awarded the Nobel Prize for his work on Invention of Atomic Bomb.",
+"v": "F",
+"m": "fabricated",
+"d": "Invention of Atomic Bomb",
+"fact": "Einstein did not invent the atomic bomb."
+},
+{
+"l": "opt4",
+"t": "Albert Einstein was awarded the Nobel Prize for his work on Invention of Missile Technology.",
+"v": "F",
+"m": "fabricated",
+"d": "Invention of Missile Technology",
+"fact": "Einstein had no missile work."
+}
+],
+"rule": "Einstein Nobel = photoelectric effect (1921), not relativity.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010-reexam#32",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The fourth state of matter refers to:",
+"options": [
+"Mercury",
+"Chlorine",
+"Dry ice",
+"Plasma"
+],
+"key": "Plasma",
+"deleted": 0,
+"core_fact": "Plasma (ionised gas) is called the fourth state of matter; BEC is the fifth.",
+"statements": [
+{
+"l": "opt1",
+"t": "The fourth state of matter refers to Mercury.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Mercury",
+"fact": "Mercury is a liquid (an element), not a state."
+},
+{
+"l": "opt2",
+"t": "The fourth state of matter refers to Chlorine.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Chlorine",
+"fact": "Chlorine is a gas."
+},
+{
+"l": "opt3",
+"t": "The fourth state of matter refers to Dry ice.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Dry ice",
+"fact": "Dry ice is solid CO2."
+},
+{
+"l": "opt4",
+"t": "The fourth state of matter refers to Plasma.",
+"v": "T",
+"m": null,
+"d": "Plasma",
+"fact": null
+}
+],
+"rule": "States: solid, liquid, gas, plasma (4th), BEC (5th).",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010-reexam#34",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Myopia is connected with:",
+"options": [
+"heart",
+"lungs",
+"eyes",
+"ears"
+],
+"key": "eyes",
+"deleted": 0,
+"core_fact": "Myopia (short-sightedness) is an eye defect corrected by a concave lens.",
+"statements": [
+{
+"l": "opt1",
+"t": "Myopia is connected with the heart.",
+"v": "F",
+"m": "location substitution",
+"d": "heart",
+"fact": "Myopia is an eye defect."
+},
+{
+"l": "opt2",
+"t": "Myopia is connected with the lungs.",
+"v": "F",
+"m": "location substitution",
+"d": "lungs",
+"fact": "Myopia is an eye defect."
+},
+{
+"l": "opt3",
+"t": "Myopia is connected with the eyes.",
+"v": "T",
+"m": null,
+"d": "eyes",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Myopia is connected with the ears.",
+"v": "F",
+"m": "location substitution",
+"d": "ears",
+"fact": "Myopia is an eye defect."
+}
+],
+"rule": "Myopia concave; hypermetropia convex; presbyopia bifocal; astigmatism cylindrical.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010-reexam#36",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The distance between the two consecutive points of same phase is:",
+"options": [
+"frequency",
+"amplitude",
+"intensity",
+"wavelength"
+],
+"key": "wavelength",
+"deleted": 0,
+"core_fact": "Wavelength is the distance between two consecutive points in the same phase (crest to crest).",
+"statements": [
+{
+"l": "opt1",
+"t": "The distance between two consecutive points of the same phase is the frequency.",
+"v": "F",
+"m": "definition distortion",
+"d": "frequency",
+"fact": "Frequency is the number of oscillations per second."
+},
+{
+"l": "opt2",
+"t": "The distance between two consecutive points of the same phase is the amplitude.",
+"v": "F",
+"m": "definition distortion",
+"d": "amplitude",
+"fact": "Amplitude is maximum displacement."
+},
+{
+"l": "opt3",
+"t": "The distance between two consecutive points of the same phase is the intensity.",
+"v": "F",
+"m": "definition distortion",
+"d": "intensity",
+"fact": "Intensity is energy per unit area per unit time."
+},
+{
+"l": "opt4",
+"t": "The distance between two consecutive points of the same phase is the wavelength.",
+"v": "T",
+"m": null,
+"d": "wavelength",
+"fact": null
+}
+],
+"rule": "λ = v/f; amplitude = loudness; frequency = pitch.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010-reexam#37",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "A crack in a pane of glass when seen obliquely appears:",
+"options": [
+"Silvery",
+"Green",
+"Black",
+"Coloured"
+],
+"key": "Silvery",
+"deleted": 0,
+"core_fact": "Light inside glass meeting the thin air film of a crack at an angle beyond the critical angle is totally reflected, so the crack looks silvery/shining when seen obliquely.",
+"statements": [
+{
+"l": "opt1",
+"t": "A crack in a pane of glass, when seen obliquely, appears Silvery.",
+"v": "T",
+"m": null,
+"d": "Silvery",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "A crack in a pane of glass, when seen obliquely, appears Green.",
+"v": "F",
+"m": "fabricated",
+"d": "Green",
+"fact": "The crack looks silvery due to total internal reflection."
+},
+{
+"l": "opt3",
+"t": "A crack in a pane of glass, when seen obliquely, appears Black.",
+"v": "F",
+"m": "direction reversal",
+"d": "Black",
+"fact": "The crack reflects almost all light, so it looks bright/silvery, not black."
+},
+{
+"l": "opt4",
+"t": "A crack in a pane of glass, when seen obliquely, appears Coloured.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Coloured",
+"fact": "Oblique viewing gives total internal reflection – silvery, not coloured."
+}
+],
+"rule": "TIR examples: crack in glass silvery, mirage, diamond sparkle, optical fibre, test-tube in water shining.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010-reexam#38",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "For alternate current we use:",
+"options": [
+"Eliminator",
+"Transformer",
+"Battery",
+"Dynamo"
+],
+"key": "Transformer",
+"deleted": 0,
+"core_fact": "A transformer works only on alternating current, stepping AC voltage up or down by mutual induction.",
+"statements": [
+{
+"l": "opt1",
+"t": "For alternating current we use a Eliminator.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Eliminator",
+"fact": "An eliminator converts AC to DC; the AC device asked is the transformer."
+},
+{
+"l": "opt2",
+"t": "For alternating current we use a Transformer.",
+"v": "T",
+"m": null,
+"d": "Transformer",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "For alternating current we use a Battery.",
+"v": "F",
+"m": "direction reversal",
+"d": "Battery",
+"fact": "A battery gives DC."
+},
+{
+"l": "opt4",
+"t": "For alternating current we use a Dynamo.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Dynamo",
+"fact": "A dynamo generates current; it is not the AC-using device asked."
+}
+],
+"rule": "Transformer = AC only; rectifier/eliminator AC→DC; inverter DC→AC.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010-reexam#39",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Friction:",
+"options": [
+"accelerates the motion",
+"stop the moving body completely",
+"retards the motion",
+"does not have any effect on motion"
+],
+"key": "retards the motion",
+"deleted": 0,
+"core_fact": "Friction opposes relative motion between surfaces and so retards motion; it does not by itself always stop a body.",
+"statements": [
+{
+"l": "opt1",
+"t": "Friction accelerates the motion.",
+"v": "F",
+"m": "direction reversal",
+"d": "accelerates the motion",
+"fact": "Friction opposes (retards) motion."
+},
+{
+"l": "opt2",
+"t": "Friction stop the moving body completely.",
+"v": "F",
+"m": "scope expansion",
+"d": "stop the moving body completely",
+"fact": "Friction retards motion; it stops a body only eventually/if nothing else acts."
+},
+{
+"l": "opt3",
+"t": "Friction retards the motion.",
+"v": "T",
+"m": null,
+"d": "retards the motion",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Friction does not have any effect on motion.",
+"v": "F",
+"m": "fabricated",
+"d": "does not have any effect on motion",
+"fact": "Friction does affect motion – it retards it."
+}
+],
+"rule": "Friction opposes relative motion; static > sliding > rolling.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010-reexam#40",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The astronaut in the ship sees the sky as:",
+"options": [
+"Red",
+"Black",
+"Blue",
+"White"
+],
+"key": "Black",
+"deleted": 0,
+"core_fact": "Without an atmosphere there is no scattering of sunlight, so the sky appears black to astronauts.",
+"statements": [
+{
+"l": "opt1",
+"t": "The astronaut in the spaceship sees the sky as Red.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Red",
+"fact": "Red is the sky at sunrise/sunset on Earth."
+},
+{
+"l": "opt2",
+"t": "The astronaut in the spaceship sees the sky as Black.",
+"v": "T",
+"m": null,
+"d": "Black",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The astronaut in the spaceship sees the sky as Blue.",
+"v": "F",
+"m": "location substitution",
+"d": "Blue",
+"fact": "Blue sky needs Rayleigh scattering by the atmosphere."
+},
+{
+"l": "opt4",
+"t": "The astronaut in the spaceship sees the sky as White.",
+"v": "F",
+"m": "fabricated",
+"d": "White",
+"fact": "Sky is black in space."
+}
+],
+"rule": "Blue sky – Rayleigh scattering; red sunset – long path; black sky – no atmosphere.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010-reexam#41",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Which metal has the maximum use as pure metal?",
+"options": [
+"Silver",
+"Copper",
+"Iron",
+"Aluminum"
+],
+"key": "Aluminum",
+"deleted": 0,
+"core_fact": "Iron is used mostly as steel (alloy); copper and aluminium are both used largely in pure form (wires, foils, conductors). The key names aluminium.",
+"statements": [
+{
+"l": "opt1",
+"t": "The metal with the maximum use as a pure metal is Silver.",
+"v": "F",
+"m": "numerical alteration",
+"d": "Silver",
+"fact": "Silver's use is small in volume."
+},
+{
+"l": "opt2",
+"t": "The metal with the maximum use as a pure metal is Copper.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Copper",
+"fact": "Per key, aluminium; copper is also widely used pure."
+},
+{
+"l": "opt3",
+"t": "The metal with the maximum use as a pure metal is Iron.",
+"v": "F",
+"m": "scope expansion",
+"d": "Iron",
+"fact": "Iron is used mainly as steel, not as pure metal."
+},
+{
+"l": "opt4",
+"t": "The metal with the maximum use as a pure metal is Aluminum.",
+"v": "T",
+"m": null,
+"d": "Aluminum",
+"fact": null
+}
+],
+"rule": "Iron – used as steel; copper – pure in wiring; aluminium – pure in foil/conductors.",
+"key_note": "Debatable key: copper is equally used in pure form; key kept (examsnet, no official key)."
+},
+{
+"id": "group1-prelims-2010-reexam#42",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Cola type soft drinks contain",
+"options": [
+"Phosphoric acid",
+"Formic acid",
+"Lactic acid",
+"Acetic acid"
+],
+"key": "Phosphoric acid",
+"deleted": 0,
+"core_fact": "Cola soft drinks contain phosphoric acid (and carbonic acid).",
+"statements": [
+{
+"l": "opt1",
+"t": "Cola type soft drinks contain Phosphoric acid.",
+"v": "T",
+"m": null,
+"d": "Phosphoric acid",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Cola type soft drinks contain Formic acid.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Formic acid",
+"fact": "Formic acid is in ant stings."
+},
+{
+"l": "opt3",
+"t": "Cola type soft drinks contain Lactic acid.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Lactic acid",
+"fact": "Lactic acid is in curd."
+},
+{
+"l": "opt4",
+"t": "Cola type soft drinks contain Acetic acid.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Acetic acid",
+"fact": "Acetic acid is vinegar."
+}
+],
+"rule": "Vinegar acetic; curd lactic; ant formic; tamarind tartaric; lemon citric; cola phosphoric/carbonic.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010-reexam#44",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "'22 Carats Gold' contains by weight:",
+"options": [
+"8.4% of copper",
+"10.2% of copper",
+"11.4% of copper",
+"12.6% of copper"
+],
+"key": "8.4% of copper",
+"deleted": 0,
+"core_fact": "22 carat = 22/24 = 91.67% gold; the remaining ~8.33% (≈8.4%) is copper or other alloying metal.",
+"statements": [
+{
+"l": "opt1",
+"t": "'22 carat gold' contains by weight 8.4% of copper.",
+"v": "T",
+"m": null,
+"d": "8.4% of copper",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "'22 carat gold' contains by weight 10.2% of copper.",
+"v": "F",
+"m": "numerical alteration",
+"d": "10.2% of copper",
+"fact": "2/24 = 8.33%."
+},
+{
+"l": "opt3",
+"t": "'22 carat gold' contains by weight 11.4% of copper.",
+"v": "F",
+"m": "numerical alteration",
+"d": "11.4% of copper",
+"fact": "2/24 = 8.33%."
+},
+{
+"l": "opt4",
+"t": "'22 carat gold' contains by weight 12.6% of copper.",
+"v": "F",
+"m": "numerical alteration",
+"d": "12.6% of copper",
+"fact": "2/24 = 8.33%."
+}
+],
+"rule": "24 K = 99.9%; 22 K = 91.6% (916); 18 K = 75%.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010-reexam#45",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The nonstick pans used in Kitchens are coated with:",
+"options": [
+"Polyvinyl Chloride",
+"Polytetrafluoroethylene",
+"Polyethylene",
+"Polyamide"
+],
+"key": "Polytetrafluoroethylene",
+"deleted": 0,
+"core_fact": "Non-stick cookware is coated with polytetrafluoroethylene (PTFE, Teflon).",
+"statements": [
+{
+"l": "opt1",
+"t": "Non-stick pans used in kitchens are coated with Polyvinyl Chloride.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Polyvinyl Chloride",
+"fact": "PVC is for pipes; non-stick is PTFE."
+},
+{
+"l": "opt2",
+"t": "Non-stick pans used in kitchens are coated with Polytetrafluoroethylene.",
+"v": "T",
+"m": null,
+"d": "Polytetrafluoroethylene",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Non-stick pans used in kitchens are coated with Polyethylene.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Polyethylene",
+"fact": "Polyethylene is for bags."
+},
+{
+"l": "opt4",
+"t": "Non-stick pans used in kitchens are coated with Polyamide.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Polyamide",
+"fact": "Polyamide = nylon fibres."
+}
+],
+"rule": "Teflon non-stick; PVC pipes; nylon fibres; bakelite switches.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010-reexam#46",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "'Oryza sativa' is the scientific name of:",
+"options": [
+"Wheat",
+"Maize",
+"Potato",
+"Rice"
+],
+"key": "Rice",
+"deleted": 0,
+"core_fact": "Oryza sativa is rice.",
+"statements": [
+{
+"l": "opt1",
+"t": "'Oryza sativa' is the scientific name of Wheat.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Wheat",
+"fact": "Wheat is Triticum aestivum."
+},
+{
+"l": "opt2",
+"t": "'Oryza sativa' is the scientific name of Maize.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Maize",
+"fact": "Maize is Zea mays."
+},
+{
+"l": "opt3",
+"t": "'Oryza sativa' is the scientific name of Potato.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Potato",
+"fact": "Potato is Solanum tuberosum."
+},
+{
+"l": "opt4",
+"t": "'Oryza sativa' is the scientific name of Rice.",
+"v": "T",
+"m": null,
+"d": "Rice",
+"fact": null
+}
+],
+"rule": "Rice Oryza sativa; wheat Triticum aestivum; maize Zea mays; potato Solanum tuberosum.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010-reexam#47",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The chicory powder which is mixed with coffee is obtained from:",
+"options": [
+"Roots",
+"Stem",
+"Leaves",
+"Seeds"
+],
+"key": "Roots",
+"deleted": 0,
+"core_fact": "Chicory powder is made from the roasted roots of Cichorium intybus.",
+"statements": [
+{
+"l": "opt1",
+"t": "The chicory powder mixed with coffee is obtained from Roots.",
+"v": "T",
+"m": null,
+"d": "Roots",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The chicory powder mixed with coffee is obtained from Stem.",
+"v": "F",
+"m": "location substitution",
+"d": "Stem",
+"fact": "It comes from roots."
+},
+{
+"l": "opt3",
+"t": "The chicory powder mixed with coffee is obtained from Leaves.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Leaves",
+"fact": "Chicory leaves are eaten as salad; the powder is from roots."
+},
+{
+"l": "opt4",
+"t": "The chicory powder mixed with coffee is obtained from Seeds.",
+"v": "F",
+"m": "location substitution",
+"d": "Seeds",
+"fact": "It comes from roots."
+}
+],
+"rule": "Chicory – root; coffee – seed; tea – leaf.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010-reexam#48",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Pigment without oxygen is:",
+"options": [
+"Phycobilins",
+"Carotene",
+"Chlorophyll",
+"Xanthophyll"
+],
+"key": "Carotene",
+"deleted": 0,
+"core_fact": "Carotenes are pure hydrocarbons (C40H56) without oxygen; xanthophylls are oxygenated carotenoids; chlorophyll and phycobilins contain oxygen.",
+"statements": [
+{
+"l": "opt1",
+"t": "The pigment without oxygen is Phycobilins.",
+"v": "F",
+"m": "fabricated",
+"d": "Phycobilins",
+"fact": "Phycobilins contain oxygen."
+},
+{
+"l": "opt2",
+"t": "The pigment without oxygen is Carotene.",
+"v": "T",
+"m": null,
+"d": "Carotene",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The pigment without oxygen is Chlorophyll.",
+"v": "F",
+"m": "fabricated",
+"d": "Chlorophyll",
+"fact": "Chlorophyll contains oxygen."
+},
+{
+"l": "opt4",
+"t": "The pigment without oxygen is Xanthophyll.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Xanthophyll",
+"fact": "Xanthophyll = oxygenated carotenoid."
+}
+],
+"rule": "Carotene C40H56 (no O); xanthophyll C40H56O2.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010-reexam#49",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Maximum Photosynthesis occurs in:",
+"options": [
+"Sun light",
+"Infra red light",
+"Blue light",
+"Red light"
+],
+"key": "Red light",
+"deleted": 0,
+"core_fact": "Photosynthesis is maximal in red light (and high in blue); infrared is not absorbed by chlorophyll.",
+"statements": [
+{
+"l": "opt1",
+"t": "Maximum photosynthesis occurs in Sun light.",
+"v": "F",
+"m": "scope expansion",
+"d": "Sun light",
+"fact": "Per key, red light gives maximum rate."
+},
+{
+"l": "opt2",
+"t": "Maximum photosynthesis occurs in Infra red light.",
+"v": "F",
+"m": "fabricated",
+"d": "Infra red light",
+"fact": "Infrared is not used."
+},
+{
+"l": "opt3",
+"t": "Maximum photosynthesis occurs in Blue light.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Blue light",
+"fact": "Blue is the second peak; key = red."
+},
+{
+"l": "opt4",
+"t": "Maximum photosynthesis occurs in Red light.",
+"v": "T",
+"m": null,
+"d": "Red light",
+"fact": null
+}
+],
+"rule": "Action spectrum peaks: blue (430) & red (660); max rate in red; green least.",
+"key_note": "Some texts call blue and red peaks comparable; key red."
+},
+{
+"id": "group1-prelims-2010-reexam#50",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Tomato belongs to the family of:",
+"options": [
+"Gramineae",
+"Solanaceae",
+"Leguminosae",
+"Malvaceae"
+],
+"key": "Solanaceae",
+"deleted": 0,
+"core_fact": "Tomato (Solanum lycopersicum) is in Solanaceae with potato, brinjal, chilli.",
+"statements": [
+{
+"l": "opt1",
+"t": "Tomato belongs to the family Gramineae.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Gramineae",
+"fact": "Gramineae = grasses."
+},
+{
+"l": "opt2",
+"t": "Tomato belongs to the family Solanaceae.",
+"v": "T",
+"m": null,
+"d": "Solanaceae",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Tomato belongs to the family Leguminosae.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Leguminosae",
+"fact": "Leguminosae = pulses."
+},
+{
+"l": "opt4",
+"t": "Tomato belongs to the family Malvaceae.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Malvaceae",
+"fact": "Malvaceae = cotton, okra."
+}
+],
+"rule": "Solanaceae: tomato, potato, brinjal, chilli, tobacco.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2010-reexam#53",
+"year": 2010,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Which of the following enzymes are mostly involved in biosynthetic reaction?",
+"options": [
+"Lyases",
+"Ligases",
+"Transferases",
+"Hydrolases"
+],
+"key": "Ligases",
+"deleted": 0,
+"core_fact": "Ligases (synthetases) join two molecules using ATP – the biosynthetic class.",
+"statements": [
+{
+"l": "opt1",
+"t": "The enzymes mostly involved in biosynthetic reactions are Lyases.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Lyases",
+"fact": "Lyases cleave."
+},
+{
+"l": "opt2",
+"t": "The enzymes mostly involved in biosynthetic reactions are Ligases.",
+"v": "T",
+"m": null,
+"d": "Ligases",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The enzymes mostly involved in biosynthetic reactions are Transferases.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Transferases",
+"fact": "Transferases move groups."
+},
+{
+"l": "opt4",
+"t": "The enzymes mostly involved in biosynthetic reactions are Hydrolases.",
+"v": "F",
+"m": "direction reversal",
+"d": "Hydrolases",
+"fact": "Hydrolases break bonds."
+}
+],
+"rule": "EC 1 oxidoreductases ... EC 6 ligases (synthesis).",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2012#1",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Diamond is an allotrope of",
+"options": [
+"Silicon",
+"carbon",
+"Hydrogen",
+"Sodium"
+],
+"key": "carbon",
+"deleted": 0,
+"core_fact": "Diamond, graphite and fullerenes are allotropes of carbon.",
+"statements": [
+{
+"l": "opt1",
+"t": "Diamond is an allotrope of Silicon.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Silicon",
+"fact": "Diamond is carbon."
+},
+{
+"l": "opt2",
+"t": "Diamond is an allotrope of carbon.",
+"v": "T",
+"m": null,
+"d": "carbon",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Diamond is an allotrope of Hydrogen.",
+"v": "F",
+"m": "fabricated",
+"d": "Hydrogen",
+"fact": "Diamond is carbon."
+},
+{
+"l": "opt4",
+"t": "Diamond is an allotrope of Sodium.",
+"v": "F",
+"m": "fabricated",
+"d": "Sodium",
+"fact": "Diamond is carbon."
+}
+],
+"rule": "C allotropes: diamond, graphite, fullerene, graphene.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2012#106",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "In plants, active cell division occurs in the following parts:",
+"options": [
+"Stem",
+"Leaves",
+"Roots",
+"Fruits"
+],
+"key": "Roots",
+"deleted": 0,
+"core_fact": "Active cell division occurs in meristems at root and shoot tips; the key chooses roots.",
+"statements": [
+{
+"l": "opt1",
+"t": "In plants, active cell division occurs in the Stem.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Stem",
+"fact": "Per key roots; shoot apical meristem also divides."
+},
+{
+"l": "opt2",
+"t": "In plants, active cell division occurs in the Leaves.",
+"v": "F",
+"m": "fabricated",
+"d": "Leaves",
+"fact": "Leaves are not chief meristems."
+},
+{
+"l": "opt3",
+"t": "In plants, active cell division occurs in the Roots.",
+"v": "T",
+"m": null,
+"d": "Roots",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "In plants, active cell division occurs in the Fruits.",
+"v": "F",
+"m": "fabricated",
+"d": "Fruits",
+"fact": "Fruits are not meristematic."
+}
+],
+"rule": "Apical meristems: root and shoot tips; lateral: cambium.",
+"key_note": "Stem (shoot) apex is also meristematic; key kept."
+},
+{
+"id": "group1-prelims-2012#107",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The colour of tomatoes is due to the presence of",
+"options": [
+"Carotenoids",
+"Flavanoids",
+"Vitamins",
+"Mineral salts"
+],
+"key": "Carotenoids",
+"deleted": 0,
+"core_fact": "Tomato's red colour is due to lycopene, a carotenoid.",
+"statements": [
+{
+"l": "opt1",
+"t": "The colour of tomatoes is due to the presence of Carotenoids.",
+"v": "T",
+"m": null,
+"d": "Carotenoids",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The colour of tomatoes is due to the presence of Flavanoids.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Flavanoids",
+"fact": "Flavonoids colour flowers; tomato red is lycopene."
+},
+{
+"l": "opt3",
+"t": "The colour of tomatoes is due to the presence of Vitamins.",
+"v": "F",
+"m": "fabricated",
+"d": "Vitamins",
+"fact": "Lycopene is not a vitamin."
+},
+{
+"l": "opt4",
+"t": "The colour of tomatoes is due to the presence of Mineral salts.",
+"v": "F",
+"m": "fabricated",
+"d": "Mineral salts",
+"fact": "Minerals do not colour tomato."
+}
+],
+"rule": "Tomato lycopene; carrot β-carotene; beetroot betalain.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2012#108",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The gas used in fire extinguisher is",
+"options": [
+"Hydrogen",
+"Carbon dioxide",
+"Sulphur dioxide",
+"Hydrogen sulphide"
+],
+"key": "Carbon dioxide",
+"deleted": 0,
+"core_fact": "CO2 is non-combustible, heavier than air and smothers fire.",
+"statements": [
+{
+"l": "opt1",
+"t": "The gas used in fire extinguishers is Hydrogen.",
+"v": "F",
+"m": "direction reversal",
+"d": "Hydrogen",
+"fact": "H2 burns."
+},
+{
+"l": "opt2",
+"t": "The gas used in fire extinguishers is Carbon dioxide.",
+"v": "T",
+"m": null,
+"d": "Carbon dioxide",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The gas used in fire extinguishers is Sulphur dioxide.",
+"v": "F",
+"m": "fabricated",
+"d": "Sulphur dioxide",
+"fact": "SO2 not used."
+},
+{
+"l": "opt4",
+"t": "The gas used in fire extinguishers is Hydrogen sulphide.",
+"v": "F",
+"m": "fabricated",
+"d": "Hydrogen sulphide",
+"fact": "H2S not used."
+}
+],
+"rule": "CO2 extinguisher for electrical fires.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2012#109",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The powerful explosive used under the name gun cotton is",
+"options": [
+"Potassium chlorate",
+"Cellulose nitrate",
+"Potassium nitrate",
+"Cellulose acetate"
+],
+"key": "Cellulose nitrate",
+"deleted": 0,
+"core_fact": "Gun cotton is nitrocellulose (cellulose nitrate).",
+"statements": [
+{
+"l": "opt1",
+"t": "The powerful explosive known as gun cotton is Potassium chlorate.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Potassium chlorate",
+"fact": "KClO3."
+},
+{
+"l": "opt2",
+"t": "The powerful explosive known as gun cotton is Cellulose nitrate.",
+"v": "T",
+"m": null,
+"d": "Cellulose nitrate",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The powerful explosive known as gun cotton is Potassium nitrate.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Potassium nitrate",
+"fact": "KNO3 is in gunpowder."
+},
+{
+"l": "opt4",
+"t": "The powerful explosive known as gun cotton is Cellulose acetate.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Cellulose acetate",
+"fact": "Cellulose acetate is rayon/film."
+}
+],
+"rule": "Gun cotton nitrocellulose; gunpowder KNO3+S+C; TNT; RDX.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2012#111",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/5",
+"format": "one-liner",
+"stem": "Shanti Swarup Bhatnagar Prize for the year 2010 was given to",
+"options": [
+"K.V. Ramana",
+"Dr. V. Shanta",
+"Anil Kakodkar",
+"Sanjeev Galande"
+],
+"key": "Sanjeev Galande",
+"deleted": 0,
+"core_fact": "Sanjeev Galande (NCCS/IISER Pune) received the Shanti Swarup Bhatnagar Prize (CSIR) for Biological Sciences for 2010.",
+"statements": [
+{
+"l": "opt1",
+"t": "The Shanti Swarup Bhatnagar Prize for the year 2010 was given to K.V. Ramana.",
+"v": "F",
+"m": "person substitution",
+"d": "K.V. Ramana",
+"fact": "Sanjeev Galande (NCCS/IISER Pune) received the Shanti Swarup Bhatnagar Prize (CSIR) for Biological Sciences for 2010."
+},
+{
+"l": "opt2",
+"t": "The Shanti Swarup Bhatnagar Prize for the year 2010 was given to Dr. V. Shanta.",
+"v": "F",
+"m": "person substitution",
+"d": "Dr. V. Shanta",
+"fact": "Sanjeev Galande (NCCS/IISER Pune) received the Shanti Swarup Bhatnagar Prize (CSIR) for Biological Sciences for 2010."
+},
+{
+"l": "opt3",
+"t": "The Shanti Swarup Bhatnagar Prize for the year 2010 was given to Anil Kakodkar.",
+"v": "F",
+"m": "person substitution",
+"d": "Anil Kakodkar",
+"fact": "Sanjeev Galande (NCCS/IISER Pune) received the Shanti Swarup Bhatnagar Prize (CSIR) for Biological Sciences for 2010."
+},
+{
+"l": "opt4",
+"t": "The Shanti Swarup Bhatnagar Prize for the year 2010 was given to Sanjeev Galande.",
+"v": "T",
+"m": null,
+"d": "Sanjeev Galande",
+"fact": null
+}
+],
+"rule": "Bhatnagar = age limit 45 - eliminate veteran laureates.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2012#112",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/5",
+"format": "one-liner",
+"stem": "The National Science Day in India is celebrated on",
+"options": [
+"28th February",
+"22nd July",
+"5th June",
+"28th October"
+],
+"key": "28th February",
+"deleted": 0,
+"core_fact": "National Science Day is 28 February, marking C.V. Raman's discovery of the Raman effect (28 Feb 1928).",
+"statements": [
+{
+"l": "opt1",
+"t": "National Science Day in India is celebrated on 28th February.",
+"v": "T",
+"m": null,
+"d": "28th February",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "National Science Day in India is celebrated on 22nd July.",
+"v": "F",
+"m": "chronological displacement",
+"d": "22nd July",
+"fact": "28 February."
+},
+{
+"l": "opt3",
+"t": "National Science Day in India is celebrated on 5th June.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "5th June",
+"fact": "5 June is World Environment Day."
+},
+{
+"l": "opt4",
+"t": "National Science Day in India is celebrated on 28th October.",
+"v": "F",
+"m": "chronological displacement",
+"d": "28th October",
+"fact": "28 February."
+}
+],
+"rule": "28 Feb Science Day; 11 May Technology Day; 5 June Environment Day.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2012#114",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/4",
+"format": "one-liner",
+"stem": "The 98th Indian Science Congress was held in 2011 at",
+"options": [
+"Hyderabad",
+"New Delhi",
+"Bangalore",
+"Chennai"
+],
+"key": "Chennai",
+"deleted": 0,
+"core_fact": "The 98th Indian Science Congress was held at SRM University, Kattankulathur, Chennai, 3-7 Jan 2011. 97th: Thiruvananthapuram 2010; 99th: Bhubaneswar 2012; 93rd: Hyderabad 2006.",
+"statements": [
+{
+"l": "opt1",
+"t": "The 98th Indian Science Congress was held in 2011 at Hyderabad.",
+"v": "F",
+"m": "chronological displacement",
+"d": "Hyderabad",
+"fact": "The 98th Indian Science Congress was held at SRM University, Kattankulathur, Chennai, 3-7 Jan 2011. 97th: Thiruvananthapuram 2010; 99th: Bhubaneswar 2012; 93rd: Hyderabad 2006."
+},
+{
+"l": "opt2",
+"t": "The 98th Indian Science Congress was held in 2011 at New Delhi.",
+"v": "F",
+"m": "location substitution",
+"d": "New Delhi",
+"fact": "The 98th Indian Science Congress was held at SRM University, Kattankulathur, Chennai, 3-7 Jan 2011. 97th: Thiruvananthapuram 2010; 99th: Bhubaneswar 2012; 93rd: Hyderabad 2006."
+},
+{
+"l": "opt3",
+"t": "The 98th Indian Science Congress was held in 2011 at Bangalore.",
+"v": "F",
+"m": "chronological displacement",
+"d": "Bangalore",
+"fact": "The 98th Indian Science Congress was held at SRM University, Kattankulathur, Chennai, 3-7 Jan 2011. 97th: Thiruvananthapuram 2010; 99th: Bhubaneswar 2012; 93rd: Hyderabad 2006."
+},
+{
+"l": "opt4",
+"t": "The 98th Indian Science Congress was held in 2011 at Chennai.",
+"v": "T",
+"m": null,
+"d": "Chennai",
+"fact": null
+}
+],
+"rule": "ISC: 97th Thiruvananthapuram 2010, 98th Chennai 2011, 99th Bhubaneswar 2012, 100th Kolkata 2013.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2012#142",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The largest gland in the human body is",
+"options": [
+"Adrenal gland",
+"Pituitary gland",
+"Liver",
+"Thyroid gland"
+],
+"key": "Liver",
+"deleted": 0,
+"core_fact": "The liver is the largest gland (~1.2-1.5 kg).",
+"statements": [
+{
+"l": "opt1",
+"t": "The largest gland in the human body is the Adrenal gland.",
+"v": "F",
+"m": "comparison reversal",
+"d": "Adrenal gland",
+"fact": "Adrenals are small."
+},
+{
+"l": "opt2",
+"t": "The largest gland in the human body is the Pituitary gland.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Pituitary gland",
+"fact": "Pituitary is the master gland, not the largest."
+},
+{
+"l": "opt3",
+"t": "The largest gland in the human body is the Liver.",
+"v": "T",
+"m": null,
+"d": "Liver",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The largest gland in the human body is the Thyroid gland.",
+"v": "F",
+"m": "scope restriction",
+"d": "Thyroid gland",
+"fact": "Thyroid is the largest endocrine gland; the largest gland overall is the liver."
+}
+],
+"rule": "Largest gland liver; largest endocrine thyroid; master pituitary.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2012#144",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/4",
+"format": "one-liner",
+"stem": "International Crops Research Institute for the Semi-Arid Tropics (ICRISAT) is situated at",
+"options": [
+"Manila",
+"Colombo",
+"Mumbai",
+"Hyderabad"
+],
+"key": "Hyderabad",
+"deleted": 0,
+"core_fact": "ICRISAT HQ is at Patancheru, Hyderabad (Telangana), est. 1972.",
+"statements": [
+{
+"l": "opt1",
+"t": "ICRISAT is situated at Manila.",
+"v": "F",
+"m": "location substitution",
+"d": "Manila",
+"fact": "Manila hosts IRRI (Los Baños)."
+},
+{
+"l": "opt2",
+"t": "ICRISAT is situated at Colombo.",
+"v": "F",
+"m": "location substitution",
+"d": "Colombo",
+"fact": "Colombo hosts IWMI."
+},
+{
+"l": "opt3",
+"t": "ICRISAT is situated at Mumbai.",
+"v": "F",
+"m": "location substitution",
+"d": "Mumbai",
+"fact": "Hyderabad."
+},
+{
+"l": "opt4",
+"t": "ICRISAT is situated at Hyderabad.",
+"v": "T",
+"m": null,
+"d": "Hyderabad",
+"fact": null
+}
+],
+"rule": "ICRISAT Hyderabad; IRRI Philippines; IWMI Colombo; CIMMYT Mexico.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2012#145",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The percentage of water in milk is measured with",
+"options": [
+"Lactometer",
+"Hydrometer",
+"Hygrometer",
+"Pyknometer"
+],
+"key": "Lactometer",
+"deleted": 0,
+"core_fact": "A lactometer measures the specific gravity of milk, used to judge water adulteration.",
+"statements": [
+{
+"l": "opt1",
+"t": "The percentage of water in milk is measured with a Lactometer.",
+"v": "T",
+"m": null,
+"d": "Lactometer",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The percentage of water in milk is measured with a Hydrometer.",
+"v": "F",
+"m": "scope expansion",
+"d": "Hydrometer",
+"fact": "Hydrometer is generic."
+},
+{
+"l": "opt3",
+"t": "The percentage of water in milk is measured with a Hygrometer.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Hygrometer",
+"fact": "Hygrometer measures humidity."
+},
+{
+"l": "opt4",
+"t": "The percentage of water in milk is measured with a Pyknometer.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Pyknometer",
+"fact": "Pyknometer is a density bottle."
+}
+],
+"rule": "Lactometer milk; hygrometer humidity; hydrometer density.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2012#3",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Glass wool is",
+"options": [
+"mixture of glass and wool",
+"transparent wool",
+"finely powdered glass",
+"fine threads of glass"
+],
+"key": "fine threads of glass",
+"deleted": 0,
+"core_fact": "Glass wool is insulating material made of fine fibres (threads) of glass.",
+"statements": [
+{
+"l": "opt1",
+"t": "Glass wool is mixture of glass and wool.",
+"v": "F",
+"m": "fabricated",
+"d": "mixture of glass and wool",
+"fact": "It contains no wool."
+},
+{
+"l": "opt2",
+"t": "Glass wool is transparent wool.",
+"v": "F",
+"m": "fabricated",
+"d": "transparent wool",
+"fact": "It is fibres of glass."
+},
+{
+"l": "opt3",
+"t": "Glass wool is finely powdered glass.",
+"v": "F",
+"m": "definition distortion",
+"d": "finely powdered glass",
+"fact": "It is fibrous, not powdered."
+},
+{
+"l": "opt4",
+"t": "Glass wool is fine threads of glass.",
+"v": "T",
+"m": null,
+"d": "fine threads of glass",
+"fact": null
+}
+],
+"rule": "Glass wool – insulation fibres; optical fibre – drawn glass for light.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2012#37",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The acid produced in the digestive system of human beings is",
+"options": [
+"Acetic acid",
+"Hydrochloric acid",
+"Formic acid",
+"Nitric acid"
+],
+"key": "Hydrochloric acid",
+"deleted": 0,
+"core_fact": "Gastric glands (oxyntic cells) secrete hydrochloric acid.",
+"statements": [
+{
+"l": "opt1",
+"t": "The acid produced in the digestive system of human beings is Acetic acid.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Acetic acid",
+"fact": "Acetic = vinegar."
+},
+{
+"l": "opt2",
+"t": "The acid produced in the digestive system of human beings is Hydrochloric acid.",
+"v": "T",
+"m": null,
+"d": "Hydrochloric acid",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The acid produced in the digestive system of human beings is Formic acid.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Formic acid",
+"fact": "Formic = ants."
+},
+{
+"l": "opt4",
+"t": "The acid produced in the digestive system of human beings is Nitric acid.",
+"v": "F",
+"m": "fabricated",
+"d": "Nitric acid",
+"fact": "Not secreted."
+}
+],
+"rule": "Stomach HCl activates pepsinogen.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2012#39",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The material used for electrical fuse wire should have?",
+"options": [
+"high resistivity",
+"low resistivity",
+"low melting point",
+"high melting point"
+],
+"key": "low melting point",
+"deleted": 0,
+"core_fact": "A fuse wire must melt easily: low melting point (and suitably high resistivity, e.g. tin-lead alloy).",
+"statements": [
+{
+"l": "opt1",
+"t": "The material used for electrical fuse wire should have high resistivity.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "high resistivity",
+"fact": "Per key, low melting point is the defining property (high resistivity also helps)."
+},
+{
+"l": "opt2",
+"t": "The material used for electrical fuse wire should have low resistivity.",
+"v": "F",
+"m": "direction reversal",
+"d": "low resistivity",
+"fact": "Fuse wire needs high, not low, resistivity."
+},
+{
+"l": "opt3",
+"t": "The material used for electrical fuse wire should have low melting point.",
+"v": "T",
+"m": null,
+"d": "low melting point",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The material used for electrical fuse wire should have high melting point.",
+"v": "F",
+"m": "direction reversal",
+"d": "high melting point",
+"fact": "Needs low melting point."
+}
+],
+"rule": "Fuse: low m.p. + high resistivity; heating element: high m.p. + high resistivity (nichrome).",
+"key_note": "High resistivity is also a correct fuse property (NCERT); key picks low melting point."
+},
+{
+"id": "group1-prelims-2012#4",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The ions present in hard water are",
+"options": [
+"Calcium and Magnesium",
+"Sodium and Potassium",
+"Calcium and Barium",
+"Sodium and Zinc"
+],
+"key": "Calcium and Magnesium",
+"deleted": 0,
+"core_fact": "Hardness is due to Ca2+ and Mg2+ ions.",
+"statements": [
+{
+"l": "opt1",
+"t": "The ions present in hard water are Calcium and Magnesium.",
+"v": "T",
+"m": null,
+"d": "Calcium and Magnesium",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The ions present in hard water are Sodium and Potassium.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Sodium and Potassium",
+"fact": "Na+/K+ do not cause hardness."
+},
+{
+"l": "opt3",
+"t": "The ions present in hard water are Calcium and Barium.",
+"v": "F",
+"m": "true core + false extra",
+"d": "Calcium and Barium",
+"fact": "Ca correct, but Ba is not the hardness ion; Mg is."
+},
+{
+"l": "opt4",
+"t": "The ions present in hard water are Sodium and Zinc.",
+"v": "F",
+"m": "fabricated",
+"d": "Sodium and Zinc",
+"fact": "Ca and Mg."
+}
+],
+"rule": "Hardness = Ca2+, Mg2+.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2012#40",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/4",
+"format": "one-liner",
+"stem": "The place in Andhra Pradesh where the Central Tobacco Research Institute is situated is",
+"options": [
+"Nellore",
+"Bapatla",
+"Guntur",
+"Rajahmundry"
+],
+"key": "Rajahmundry",
+"deleted": 0,
+"core_fact": "The Central Tobacco Research Institute (ICAR, est. 1947) is at Rajahmundry (Rajamahendravaram).",
+"statements": [
+{
+"l": "opt1",
+"t": "The Central Tobacco Research Institute in Andhra Pradesh is situated at Nellore.",
+"v": "F",
+"m": "location substitution",
+"d": "Nellore",
+"fact": "The Central Tobacco Research Institute (ICAR, est. 1947) is at Rajahmundry (Rajamahendravaram)."
+},
+{
+"l": "opt2",
+"t": "The Central Tobacco Research Institute in Andhra Pradesh is situated at Bapatla.",
+"v": "F",
+"m": "location substitution",
+"d": "Bapatla",
+"fact": "The Central Tobacco Research Institute (ICAR, est. 1947) is at Rajahmundry (Rajamahendravaram)."
+},
+{
+"l": "opt3",
+"t": "The Central Tobacco Research Institute in Andhra Pradesh is situated at Guntur.",
+"v": "F",
+"m": "institution substitution",
+"d": "Guntur",
+"fact": "Guntur is the HQ of the Tobacco Board (and tobacco trade), not CTRI."
+},
+{
+"l": "opt4",
+"t": "The Central Tobacco Research Institute in Andhra Pradesh is situated at Rajahmundry.",
+"v": "T",
+"m": null,
+"d": "Rajahmundry",
+"fact": null
+}
+],
+"rule": "Tobacco: research = CTRI Rajahmundry; regulation/auction = Tobacco Board Guntur.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2012#5",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Laughing gas is",
+"options": [
+"Nitric oxide",
+"Nitrogen peroxide",
+"Nitrous oxide",
+"Nitrogen pentoxide"
+],
+"key": "Nitrous oxide",
+"deleted": 0,
+"core_fact": "Laughing gas is nitrous oxide, N2O.",
+"statements": [
+{
+"l": "opt1",
+"t": "Laughing gas is Nitric oxide.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Nitric oxide",
+"fact": "NO is nitric oxide."
+},
+{
+"l": "opt2",
+"t": "Laughing gas is Nitrogen peroxide.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Nitrogen peroxide",
+"fact": "Not laughing gas."
+},
+{
+"l": "opt3",
+"t": "Laughing gas is Nitrous oxide.",
+"v": "T",
+"m": null,
+"d": "Nitrous oxide",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Laughing gas is Nitrogen pentoxide.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Nitrogen pentoxide",
+"fact": "Not laughing gas."
+}
+],
+"rule": "N2O laughing gas (anaesthetic); NO nitric oxide.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2012#71",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The substance used for the treatment of muscular pains and paralysis is",
+"options": [
+"Ultraviolet rays",
+"Microwaves",
+"Infra-red rays",
+"Radio frequency waves"
+],
+"key": "Infra-red rays",
+"deleted": 0,
+"core_fact": "Infrared lamps provide deep heat used for muscular pain/physiotherapy.",
+"statements": [
+{
+"l": "opt1",
+"t": "The radiation used for the treatment of muscular pains and paralysis is Ultraviolet rays.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Ultraviolet rays",
+"fact": "UV is for sterilisation."
+},
+{
+"l": "opt2",
+"t": "The radiation used for the treatment of muscular pains and paralysis is Microwaves.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Microwaves",
+"fact": "Microwaves for cooking/radar."
+},
+{
+"l": "opt3",
+"t": "The radiation used for the treatment of muscular pains and paralysis is Infra-red rays.",
+"v": "T",
+"m": null,
+"d": "Infra-red rays",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The radiation used for the treatment of muscular pains and paralysis is Radio frequency waves.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Radio frequency waves",
+"fact": "Per key infrared; RF diathermy is also used."
+}
+],
+"rule": "IR physiotherapy; UV LASIK/sterilise; X-ray imaging; γ cancer.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2012#73",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The tubes used for dialysis and blood transfusion are made of",
+"options": [
+"Polyethylene",
+"polysilicon",
+"Poly vinyl chloride",
+"Polybutane"
+],
+"key": "polysilicon",
+"deleted": 0,
+"core_fact": "Medical tubing uses silicone (polysiloxane) and PVC; 'polysilicon' (keyed) is crystalline silicon – the key evidently means silicone.",
+"statements": [
+{
+"l": "opt1",
+"t": "The tubes used for dialysis and blood transfusion are made of Polyethylene.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Polyethylene",
+"fact": "Per key, polysilicon (silicone)."
+},
+{
+"l": "opt2",
+"t": "The tubes used for dialysis and blood transfusion are made of polysilicon.",
+"v": "T",
+"m": null,
+"d": "polysilicon",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The tubes used for dialysis and blood transfusion are made of Poly vinyl chloride.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Poly vinyl chloride",
+"fact": "Per key; PVC is in fact widely used."
+},
+{
+"l": "opt4",
+"t": "The tubes used for dialysis and blood transfusion are made of Polybutane.",
+"v": "F",
+"m": "fabricated",
+"d": "Polybutane",
+"fact": "Polybutane is not used."
+}
+],
+"rule": "Medical tubing: silicone, PVC; implants: silicone.",
+"key_note": "CONFLICT: 'polysilicon' is semiconductor silicon; tubing is silicone or PVC (PVC very common). Key kept."
+},
+{
+"id": "group1-prelims-2012#75",
+"year": 2012,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Milk of magnesia used as anti acid is",
+"options": [
+"Magnesium acetate",
+"Magnesium hydroxide",
+"Magnesium chloride",
+"Magnesium nitrate"
+],
+"key": "Magnesium hydroxide",
+"deleted": 0,
+"core_fact": "Milk of magnesia is a suspension of magnesium hydroxide, Mg(OH)2.",
+"statements": [
+{
+"l": "opt1",
+"t": "Milk of magnesia used as an antacid is Magnesium acetate.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Magnesium acetate",
+"fact": "Mg(OH)2."
+},
+{
+"l": "opt2",
+"t": "Milk of magnesia used as an antacid is Magnesium hydroxide.",
+"v": "T",
+"m": null,
+"d": "Magnesium hydroxide",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Milk of magnesia used as an antacid is Magnesium chloride.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Magnesium chloride",
+"fact": "Mg(OH)2."
+},
+{
+"l": "opt4",
+"t": "Milk of magnesia used as an antacid is Magnesium nitrate.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Magnesium nitrate",
+"fact": "Mg(OH)2."
+}
+],
+"rule": "Antacids: Mg(OH)2, NaHCO3, Al(OH)3.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2017-paper1#66",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "E18/5",
+"format": "one-liner",
+"stem": "National Science Day is celebrated in India on 28th February to mark the",
+"options": [
+"Discovery of life in plants by J.C. Bose",
+"Launch of the Aryabhatta satellite",
+"Commissioning for first nuclear reactor \"Apsara\"",
+"Discovery of \"Raman Effect\" by C.V. Raman"
+],
+"key": "Discovery of \"Raman Effect\" by C.V. Raman",
+"deleted": 0,
+"core_fact": "28 Feb marks C.V. Raman's discovery of the Raman effect (1928); Nobel 1930.",
+"statements": [
+{
+"l": "opt1",
+"t": "National Science Day, 28 February, marks the Discovery of life in plants by J.C. Bose.",
+"v": "F",
+"m": "person substitution",
+"d": "Discovery of life in plants by J.C. Bose",
+"fact": "28 Feb marks the Raman effect."
+},
+{
+"l": "opt2",
+"t": "National Science Day, 28 February, marks the Launch of the Aryabhatta satellite.",
+"v": "F",
+"m": "chronological displacement",
+"d": "Launch of the Aryabhatta satellite",
+"fact": "Aryabhata was launched on 19 April 1975."
+},
+{
+"l": "opt3",
+"t": "National Science Day, 28 February, marks the Commissioning for first nuclear reactor \"Apsara\".",
+"v": "F",
+"m": "chronological displacement",
+"d": "Commissioning for first nuclear reactor \"Apsara\"",
+"fact": "Apsara went critical on 4 Aug 1956."
+},
+{
+"l": "opt4",
+"t": "National Science Day, 28 February, marks the Discovery of \"Raman Effect\" by C.V. Raman.",
+"v": "T",
+"m": null,
+"d": "Discovery of \"Raman Effect\" by C.V. Raman",
+"fact": null
+}
+],
+"rule": "Raman effect – scattering of light; Nobel 1930.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2017-paper1#74",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "A diode is used for",
+"options": [
+"Changing positive charge to negative",
+"Electrolysis",
+"Converting AC into DC",
+"Generating electricity"
+],
+"key": "Converting AC into DC",
+"deleted": 0,
+"core_fact": "A p-n junction diode conducts one way and is used as a rectifier (AC→DC).",
+"statements": [
+{
+"l": "opt1",
+"t": "A diode is used for Changing positive charge to negative.",
+"v": "F",
+"m": "fabricated",
+"d": "Changing positive charge to negative",
+"fact": "Diodes rectify."
+},
+{
+"l": "opt2",
+"t": "A diode is used for Electrolysis.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Electrolysis",
+"fact": "Electrolysis is a chemical process."
+},
+{
+"l": "opt3",
+"t": "A diode is used for Converting AC into DC.",
+"v": "T",
+"m": null,
+"d": "Converting AC into DC",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "A diode is used for Generating electricity.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Generating electricity",
+"fact": "Generators make electricity."
+}
+],
+"rule": "Diode rectifier; transistor amplifier/switch.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2017-paper1#76",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Which of the following enzyme found in tears destroys bacteria ?",
+"options": [
+"Amylase",
+"Urease",
+"Lysosome",
+"Glycerine"
+],
+"key": "Lysosome",
+"deleted": 0,
+"core_fact": "Tears contain lysozyme, an enzyme that breaks bacterial cell walls. The keyed 'Lysosome' is an organelle – a misspelling of lysozyme.",
+"statements": [
+{
+"l": "opt1",
+"t": "The enzyme found in tears that destroys bacteria is Amylase.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Amylase",
+"fact": "Amylase digests starch."
+},
+{
+"l": "opt2",
+"t": "The enzyme found in tears that destroys bacteria is Urease.",
+"v": "F",
+"m": "fabricated",
+"d": "Urease",
+"fact": "Urease is not in tears."
+},
+{
+"l": "opt3",
+"t": "The enzyme found in tears that destroys bacteria is Lysosome.",
+"v": "T",
+"m": null,
+"d": "Lysosome",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The enzyme found in tears that destroys bacteria is Glycerine.",
+"v": "F",
+"m": "fabricated",
+"d": "Glycerine",
+"fact": "Glycerine is an alcohol."
+}
+],
+"rule": "Lysozyme (enzyme, tears/saliva) ≠ lysosome (organelle).",
+"key_note": "Keyed option 'Lysosome' is a misspelling of lysozyme; key kept."
+},
+{
+"id": "group1-prelims-2017-paper1#77",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "In eye donation, which part of the eye of the donor is utilized ?",
+"options": [
+"Iris",
+"Lens",
+"Retina",
+"Cornea"
+],
+"key": "Cornea",
+"deleted": 0,
+"core_fact": "In eye donation the cornea is transplanted (keratoplasty).",
+"statements": [
+{
+"l": "opt1",
+"t": "In eye donation, the Iris of the donor eye is used.",
+"v": "F",
+"m": "location substitution",
+"d": "Iris",
+"fact": "Cornea."
+},
+{
+"l": "opt2",
+"t": "In eye donation, the Lens of the donor eye is used.",
+"v": "F",
+"m": "location substitution",
+"d": "Lens",
+"fact": "Cornea."
+},
+{
+"l": "opt3",
+"t": "In eye donation, the Retina of the donor eye is used.",
+"v": "F",
+"m": "location substitution",
+"d": "Retina",
+"fact": "Cornea."
+},
+{
+"l": "opt4",
+"t": "In eye donation, the Cornea of the donor eye is used.",
+"v": "T",
+"m": null,
+"d": "Cornea",
+"fact": null
+}
+],
+"rule": "Eye donation = cornea; within 6 h.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2017-paper1#78",
+"year": 2017,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Washing soap produces a scum with hard water and not much foam because the hard water contains",
+"options": [
+"dissolved inorganic salts",
+"chalk and sulphur",
+"organic matter",
+"suspended particles"
+],
+"key": "dissolved inorganic salts",
+"deleted": 0,
+"core_fact": "Hard water contains dissolved Ca/Mg salts that react with soap to form insoluble scum.",
+"statements": [
+{
+"l": "opt1",
+"t": "Washing soap forms scum with hard water because hard water contains dissolved inorganic salts.",
+"v": "T",
+"m": null,
+"d": "dissolved inorganic salts",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Washing soap forms scum with hard water because hard water contains chalk and sulphur.",
+"v": "F",
+"m": "fabricated",
+"d": "chalk and sulphur",
+"fact": "Scum is from dissolved salts."
+},
+{
+"l": "opt3",
+"t": "Washing soap forms scum with hard water because hard water contains organic matter.",
+"v": "F",
+"m": "fabricated",
+"d": "organic matter",
+"fact": "Inorganic salts."
+},
+{
+"l": "opt4",
+"t": "Washing soap forms scum with hard water because hard water contains suspended particles.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "suspended particles",
+"fact": "Suspended particles ≠ hardness."
+}
+],
+"rule": "Detergents work in hard water; soaps do not.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2019-paper2#63",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "statement-based",
+"stem": "Common salt besides being used in kitchen can also be used as the raw material for making the following :\n(i) Washing soda\n(ii) Bleaching powder\n(iii) Baking soda\n(iv) Slaked lime\nCodes :",
+"options": [
+"(i) and (ii)",
+"(i), (ii) and (iv)",
+"(i) and (iii)",
+"(i), (iii) and (iv)"
+],
+"key": null,
+"deleted": 1,
+"core_fact": "NaCl is the raw material for washing soda and baking soda (Solvay) and, via chlor-alkali Cl2, bleaching powder; slaked lime comes from limestone.",
+"statements": [
+{
+"l": "S1",
+"t": "Common salt can be used as raw material for washing soda.",
+"v": "T",
+"m": null,
+"d": "Washing soda",
+"fact": null
+},
+{
+"l": "S2",
+"t": "Common salt can be used as raw material for bleaching powder.",
+"v": "T",
+"m": null,
+"d": "Bleaching powder",
+"fact": null
+},
+{
+"l": "S3",
+"t": "Common salt can be used as raw material for baking soda.",
+"v": "T",
+"m": null,
+"d": "Baking soda",
+"fact": null
+},
+{
+"l": "S4",
+"t": "Common salt can be used as raw material for slaked lime.",
+"v": "F",
+"m": "true core + false extra",
+"d": "Slaked lime",
+"fact": "Slaked lime comes from limestone (CaO + H2O)."
+}
+],
+"rule": "From NaCl: NaOH, Cl2, H2, bleaching powder, baking soda, washing soda.",
+"key_note": "Deleted by APPSC: correct set (i), (ii), (iii) not offered."
+},
+{
+"id": "group1-prelims-2019-paper2#64",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Magnification produced by a rear view mirror fitted in vehicles",
+"options": [
+"is less than one",
+"is more than one",
+"is equal to one",
+"can be more than or less than one depending upon the position of the object in front of it"
+],
+"key": "is less than one",
+"deleted": 0,
+"core_fact": "Rear-view mirrors are convex; they always form diminished virtual erect images (m < 1).",
+"statements": [
+{
+"l": "opt1",
+"t": "Magnification produced by a rear-view mirror fitted in vehicles is less than one.",
+"v": "T",
+"m": null,
+"d": "is less than one",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Magnification produced by a rear-view mirror fitted in vehicles is more than one.",
+"v": "F",
+"m": "direction reversal",
+"d": "is more than one",
+"fact": "m < 1."
+},
+{
+"l": "opt3",
+"t": "Magnification produced by a rear-view mirror fitted in vehicles is equal to one.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "is equal to one",
+"fact": "m = 1 is plane mirror."
+},
+{
+"l": "opt4",
+"t": "Magnification produced by a rear-view mirror fitted in vehicles can be more than or less than one depending upon the position of the object in front of it.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "can be more than or less than one depending upon the position of the object in front of it",
+"fact": "That is concave mirror behaviour."
+}
+],
+"rule": "Convex: rear-view; concave: shaving, headlight.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2019-paper2#65",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Which of the following phenomena of light are involved in the formation of a rainbow ?",
+"options": [
+"Reflection, refraction and dispersion",
+"Refraction, dispersion and total internal reflection",
+"Refraction, dispersion and internal reflection",
+"Dispersion, scattering and total internal reflection"
+],
+"key": "Refraction, dispersion and internal reflection",
+"deleted": 0,
+"core_fact": "A rainbow forms by refraction, dispersion and internal reflection of sunlight in raindrops (NCERT).",
+"statements": [
+{
+"l": "opt1",
+"t": "The formation of a rainbow involves Reflection, refraction and dispersion.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Reflection, refraction and dispersion",
+"fact": "It is internal reflection (key wording)."
+},
+{
+"l": "opt2",
+"t": "The formation of a rainbow involves Refraction, dispersion and total internal reflection.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Refraction, dispersion and total internal reflection",
+"fact": "Reflection inside the drop is not total internal reflection."
+},
+{
+"l": "opt3",
+"t": "The formation of a rainbow involves Refraction, dispersion and internal reflection.",
+"v": "T",
+"m": null,
+"d": "Refraction, dispersion and internal reflection",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The formation of a rainbow involves Dispersion, scattering and total internal reflection.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Dispersion, scattering and total internal reflection",
+"fact": "Scattering is not involved."
+}
+],
+"rule": "Rainbow: refraction + dispersion + internal reflection; sky blue: scattering.",
+"key_note": "Option 1 (reflection, refraction, dispersion) is close; key follows NCERT wording."
+},
+{
+"id": "group1-prelims-2019-paper2#67",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "E18/4",
+"format": "one-liner",
+"stem": "'OneerTM' is a/an",
+"options": [
+"Innovative technology for \"Drinking Water Disinfection System\"",
+"Antiviral herbal medicine",
+"Bio-fertilizer",
+"Deadly bacteria"
+],
+"key": "Innovative technology for \"Drinking Water Disinfection System\"",
+"deleted": 0,
+"core_fact": "'Oneer' is CSIR-IITR's drinking-water disinfection system (2017).",
+"statements": [
+{
+"l": "opt1",
+"t": "'Oneer' is a/an Innovative technology for \"Drinking Water Disinfection System\".",
+"v": "T",
+"m": null,
+"d": "Innovative technology for \"Drinking Water Disinfection System\"",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "'Oneer' is a/an Antiviral herbal medicine.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Antiviral herbal medicine",
+"fact": "Oneer is water disinfection."
+},
+{
+"l": "opt3",
+"t": "'Oneer' is a/an Bio-fertilizer.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Bio-fertilizer",
+"fact": "Water disinfection."
+},
+{
+"l": "opt4",
+"t": "'Oneer' is a/an Deadly bacteria.",
+"v": "F",
+"m": "fabricated",
+"d": "Deadly bacteria",
+"fact": "Water disinfection."
+}
+],
+"rule": "CSIR-IITR Oneer – water.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2019-paper2#81",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Which materials are used for Superheater tubes ?",
+"options": [
+"Nickel chromium",
+"Alnico",
+"Chromium Molybdenum",
+"Magnox"
+],
+"key": "Chromium Molybdenum",
+"deleted": 0,
+"core_fact": "Boiler superheater tubes use creep-resistant chromium-molybdenum alloy steels (e.g. T22, T91).",
+"statements": [
+{
+"l": "opt1",
+"t": "Nickel chromium is used for superheater tubes.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Nickel chromium",
+"fact": "Nichrome is for heating elements."
+},
+{
+"l": "opt2",
+"t": "Alnico is used for superheater tubes.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Alnico",
+"fact": "Alnico is magnet alloy."
+},
+{
+"l": "opt3",
+"t": "Chromium Molybdenum is used for superheater tubes.",
+"v": "T",
+"m": null,
+"d": "Chromium Molybdenum",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Magnox is used for superheater tubes.",
+"v": "F",
+"m": "function/power substitution",
+"d": "Magnox",
+"fact": "Magnox is fuel cladding."
+}
+],
+"rule": "Nichrome heater; Alnico magnet; Magnox cladding; Cr-Mo boiler tubes.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2019-paper2#85",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The Statue of Liberty is green because of",
+"options": [
+"Green stone",
+"Oxidized brass",
+"Steel painted green",
+"Oxidized copper"
+],
+"key": "Oxidized copper",
+"deleted": 0,
+"core_fact": "The Statue of Liberty's copper skin formed a green patina (basic copper carbonate/sulphate).",
+"statements": [
+{
+"l": "opt1",
+"t": "The Statue of Liberty is green because of Green stone.",
+"v": "F",
+"m": "fabricated",
+"d": "Green stone",
+"fact": "Copper patina."
+},
+{
+"l": "opt2",
+"t": "The Statue of Liberty is green because of Oxidized brass.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Oxidized brass",
+"fact": "Pure copper skin."
+},
+{
+"l": "opt3",
+"t": "The Statue of Liberty is green because of Steel painted green.",
+"v": "F",
+"m": "fabricated",
+"d": "Steel painted green",
+"fact": "Not paint."
+},
+{
+"l": "opt4",
+"t": "The Statue of Liberty is green because of Oxidized copper.",
+"v": "T",
+"m": null,
+"d": "Oxidized copper",
+"fact": null
+}
+],
+"rule": "Cu green patina; Ag black; Fe rust.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2019-paper2#89",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "The broad, green part of the leaf is called",
+"options": [
+"Petiole",
+"Lamina or blade",
+"Midrib",
+"Vein"
+],
+"key": "Lamina or blade",
+"deleted": 0,
+"core_fact": "The broad green part is the lamina (blade).",
+"statements": [
+{
+"l": "opt1",
+"t": "The broad green part of the leaf is called the Petiole.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Petiole",
+"fact": "Petiole is stalk."
+},
+{
+"l": "opt2",
+"t": "The broad green part of the leaf is called the Lamina or blade.",
+"v": "T",
+"m": null,
+"d": "Lamina or blade",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The broad green part of the leaf is called the Midrib.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Midrib",
+"fact": "Midrib."
+},
+{
+"l": "opt4",
+"t": "The broad green part of the leaf is called the Vein.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Vein",
+"fact": "Veins."
+}
+],
+"rule": "Leaf: base, petiole, lamina.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2019-paper2#93",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "E18/4",
+"format": "one-liner",
+"stem": "Where is the headquarters of Centre for Cellular and Molecular Biology (CCMB) located ?",
+"options": [
+"Hyderabad",
+"Mumbai",
+"Kolkata",
+"Bangalore"
+],
+"key": "Hyderabad",
+"deleted": 0,
+"core_fact": "The CSIR-Centre for Cellular and Molecular Biology (CCMB), est. 1977, is headquartered at Hyderabad (Habsiguda/Uppal Road).",
+"statements": [
+{
+"l": "opt1",
+"t": "The headquarters of the Centre for Cellular and Molecular Biology (CCMB) is located at Hyderabad.",
+"v": "T",
+"m": null,
+"d": "Hyderabad",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The headquarters of the Centre for Cellular and Molecular Biology (CCMB) is located at Mumbai.",
+"v": "F",
+"m": "location substitution",
+"d": "Mumbai",
+"fact": "The CSIR-Centre for Cellular and Molecular Biology (CCMB), est. 1977, is headquartered at Hyderabad (Habsiguda/Uppal Road)."
+},
+{
+"l": "opt3",
+"t": "The headquarters of the Centre for Cellular and Molecular Biology (CCMB) is located at Kolkata.",
+"v": "F",
+"m": "location substitution",
+"d": "Kolkata",
+"fact": "The CSIR-Centre for Cellular and Molecular Biology (CCMB), est. 1977, is headquartered at Hyderabad (Habsiguda/Uppal Road)."
+},
+{
+"l": "opt4",
+"t": "The headquarters of the Centre for Cellular and Molecular Biology (CCMB) is located at Bangalore.",
+"v": "F",
+"m": "location substitution",
+"d": "Bangalore",
+"fact": "The CSIR-Centre for Cellular and Molecular Biology (CCMB), est. 1977, is headquartered at Hyderabad (Habsiguda/Uppal Road)."
+}
+],
+"rule": "Hyderabad labs: CCMB, CDFD, IICT, NGRI, NIN.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2023-paper2#70",
+"year": 2023,
+"stage": "Prelims",
+"leaf": "E18/4",
+"format": "statement-based",
+"stem": "With reference to Digital Embossing Technology, consider the following statements :\nI. It is a printing technology that does not use chemicals, solvents and also emits no pollutants.\nII. It can be used to produce braille maps for the visually challenged.\nIII. It was introduced in India recently by the National Atlas & Thematic Mapping Organisation (NATMO) functioning as the Attached Office of the Department of Science & Technology.\nWhich of the statements given above is/are correct ?",
+"options": [
+"I only",
+"I and II only",
+"II and III only",
+"I, II and III"
+],
+"key": "I, II and III",
+"deleted": 0,
+"core_fact": "NATMO (Kolkata, attached office of DST) introduced digital embossing (2022) – chemical-free printing, used for braille maps.",
+"statements": [
+{
+"l": "I",
+"t": "Digital embossing uses no chemicals/solvents and emits no pollutants.",
+"v": "T",
+"m": null,
+"d": "does not use chemicals",
+"fact": null
+},
+{
+"l": "II",
+"t": "It can produce braille maps.",
+"v": "T",
+"m": null,
+"d": "braille maps",
+"fact": null
+},
+{
+"l": "III",
+"t": "It was introduced by NATMO, an attached office of DST.",
+"v": "T",
+"m": null,
+"d": "NATMO",
+"fact": null
+}
+],
+"rule": "NATMO = DST attached office, Kolkata.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2023-paper2#74",
+"year": 2023,
+"stage": "Prelims",
+"leaf": "E18/4",
+"format": "statement-based",
+"stem": "Consider the following statements with reference to Sampurnanand Telescope :\nI. It is located at Aryabhatta Research Institute of Observational Sciences (ARIES), Ladakh.\nII. It has completed 50 years of operations.\nIII. It has been extensively used for optical observations of comets, star forming regions and star clusters.\nWhich of the statements given above are correct ?",
+"options": [
+"I and II only",
+"II and III only",
+"I and III only",
+"All of the above"
+],
+"key": "II and III only",
+"deleted": 0,
+"core_fact": "The 104-cm Sampurnanand Telescope (1972) is at ARIES, Nainital, Uttarakhand; completed 50 years in 2022.",
+"statements": [
+{
+"l": "I",
+"t": "Sampurnanand Telescope is located at ARIES, Ladakh.",
+"v": "F",
+"m": "location substitution",
+"d": "Ladakh",
+"fact": "ARIES is at Nainital."
+},
+{
+"l": "II",
+"t": "Sampurnanand Telescope has completed 50 years of operations.",
+"v": "T",
+"m": null,
+"d": "50 years",
+"fact": null
+},
+{
+"l": "III",
+"t": "Sampurnanand Telescope has been extensively used for optical observations of comets, star forming regions and star clusters.",
+"v": "T",
+"m": null,
+"d": "optical observations",
+"fact": null
+}
+],
+"rule": "ARIES Nainital; Hanle (IIA) Ladakh.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2023-paper2#79",
+"year": 2023,
+"stage": "Prelims",
+"leaf": "E18/3",
+"format": "multiple-correct",
+"stem": "Which of the following Schemes/Programmes are launched with the objective of reversing India’s brain drain to brain gain ?\nI. VAJRA Scheme\nII. Ramanujan Fellowship Programme\nIII. INSPIRE Scheme\nIV. ASEAN – India Research Training Fellowship Scheme\nSelect the correct answer from below :",
+"options": [
+"II and III only",
+"I, II and III only",
+"I and II only",
+"I, II, III and IV"
+],
+"key": "I, II and III only",
+"deleted": 0,
+"core_fact": "VAJRA (SERB, 2017) brings overseas scientists to Indian institutions; Ramanujan Fellowship attracts Indian-origin scientists abroad back to India; INSPIRE (Faculty) attracts and retains talent; ASEAN-India Research Training Fellowship brings ASEAN researchers to India – not a brain-drain scheme.",
+"statements": [
+{
+"l": "I",
+"t": "VAJRA Scheme aims at reversing brain drain to brain gain.",
+"v": "T",
+"m": null,
+"d": "VAJRA",
+"fact": null
+},
+{
+"l": "II",
+"t": "Ramanujan Fellowship aims at reversing brain drain.",
+"v": "T",
+"m": null,
+"d": "Ramanujan Fellowship",
+"fact": null
+},
+{
+"l": "III",
+"t": "INSPIRE aims at reversing brain drain.",
+"v": "T",
+"m": null,
+"d": "INSPIRE",
+"fact": null
+},
+{
+"l": "IV",
+"t": "ASEAN-India Research Training Fellowship aims at reversing India's brain drain.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "ASEAN – India",
+"fact": "It is for researchers from ASEAN countries to train in India (science diplomacy), not for reversing India's brain drain."
+}
+],
+"rule": "Brain-gain schemes: VAJRA, Ramanujan, Ramalingaswami (DBT), INSPIRE Faculty.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2023-paper2#80",
+"year": 2023,
+"stage": "Prelims",
+"leaf": "E18/4",
+"format": "multiple-correct",
+"stem": "Indian Council for Medical Research (ICMR) developed the strategic plan and Vision 2030 document based on the following :\nI. Strengthen health research capacity in the country\nII. Leverage traditional medicine\nIII. Well aligned with the National Health Policy NHP-2017\nSelect the correct answer from below :",
+"options": [
+"II and III only",
+"I and III only",
+"I, II and III",
+"None of the above"
+],
+"key": "I, II and III",
+"deleted": 0,
+"core_fact": "ICMR's Vision 2030 / strategic plan aims to strengthen health research capacity, leverage traditional medicine and align with the National Health Policy 2017.",
+"statements": [
+{
+"l": "I",
+"t": "ICMR Vision 2030 is based on strengthening health research capacity.",
+"v": "T",
+"m": null,
+"d": "Strengthen health research capacity",
+"fact": null
+},
+{
+"l": "II",
+"t": "ICMR Vision 2030 is based on leveraging traditional medicine.",
+"v": "T",
+"m": null,
+"d": "Leverage traditional medicine",
+"fact": null
+},
+{
+"l": "III",
+"t": "ICMR Vision 2030 is well aligned with NHP-2017.",
+"v": "T",
+"m": null,
+"d": "NHP-2017",
+"fact": null
+}
+],
+"rule": "All-true questions: check each element against the document's stated pillars.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2024-paper2#111",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "Recently the State of Tamil Nadu banned the sale of cotton candy due to the presence of which cancer-causing agent in it ?",
+"options": [
+"Aristolochic acids",
+"Benzidine",
+"1,3-Butadiene",
+"Rhodamine-B"
+],
+"key": "Rhodamine-B",
+"deleted": 0,
+"core_fact": "Tamil Nadu banned cotton candy (Feb 2024) after food-safety tests found Rhodamine-B, an industrial textile dye and suspected carcinogen not permitted in food.",
+"statements": [
+{
+"l": "opt1",
+"t": "Tamil Nadu banned the sale of cotton candy due to the presence of Aristolochic acids in it.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Aristolochic acids",
+"fact": "The adulterant was Rhodamine-B."
+},
+{
+"l": "opt2",
+"t": "Tamil Nadu banned the sale of cotton candy due to the presence of Benzidine in it.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Benzidine",
+"fact": "The adulterant was Rhodamine-B."
+},
+{
+"l": "opt3",
+"t": "Tamil Nadu banned the sale of cotton candy due to the presence of 1,3-Butadiene in it.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "1,3-Butadiene",
+"fact": "The adulterant was Rhodamine-B."
+},
+{
+"l": "opt4",
+"t": "Tamil Nadu banned the sale of cotton candy due to the presence of Rhodamine-B in it.",
+"v": "T",
+"m": null,
+"d": "Rhodamine-B",
+"fact": null
+}
+],
+"rule": "Adulterant items: link food + adulterant (cotton candy/gobi manchurian - Rhodamine-B; turmeric - lead chromate; milk - urea/detergent).",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2024-paper2#69",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "E18/3",
+"format": "statement-based",
+"stem": "Consider the following statements :\nI. India retained the 40th position in Global Innovation Index among the top innovative economies globally as per Global Innovation Index (GII) 2023.\nII. As per WIPO Report 2022, India is ranked at 7th position in terms of Resident Patent Filing activity in the world.\nIII. India improved its ranking to 60th position in 2023 from 79th position in 2019 as per Network Readiness Index (NRI) 2023 Report.\nIV. India secured 42nd position out of the 55 countries in the Global Intellectual Property Index 2024 as per the 12th edition of International Intellectual Property Index.\nWhich among the above statements are incorrect ?",
+"options": [
+"I, II and IV",
+"II, III and IV",
+"II and IV only",
+"None of the above"
+],
+"key": "None of the above",
+"deleted": 0,
+"core_fact": "India: GII 2023 rank 40 (same as 2022); WIPO World IP Indicators 2022 rank 7 in resident patent filings; NRI 2023 rank 60 (79 in 2019); US Chamber International IP Index 2024 (12th edn) rank 42 of 55.",
+"statements": [
+{
+"l": "S1",
+"t": "India retained the 40th position in Global Innovation Index among the top innovative economies globally as per GII 2023.",
+"v": "T",
+"m": null,
+"d": "retained the 40th",
+"fact": null
+},
+{
+"l": "S2",
+"t": "As per WIPO Report 2022, India is ranked at 7th position in terms of Resident Patent Filing activity in the world.",
+"v": "T",
+"m": null,
+"d": "7th position",
+"fact": null
+},
+{
+"l": "S3",
+"t": "India improved its ranking to 60th position in 2023 from 79th position in 2019 as per Network Readiness Index 2023 Report.",
+"v": "T",
+"m": null,
+"d": "60th ... 79th",
+"fact": null
+},
+{
+"l": "S4",
+"t": "India secured 42nd position out of the 55 countries in the Global Intellectual Property Index 2024 as per the 12th edition of International Intellectual Property Index.",
+"v": "T",
+"m": null,
+"d": "42nd ... 55",
+"fact": null
+}
+],
+"rule": "For index questions, pair each index with its publisher and year: GII = WIPO; NRI = Portulans; IP Index = US Chamber.",
+"key_note": "Ranks as of the reports cited (GII 2023; WIPO 2022; NRI 2023; IP Index Feb 2024). India rose to 39th in GII 2024."
+},
+{
+"id": "group1-prelims-2024-paper2#71",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "E18/4",
+"format": "multiple-correct",
+"stem": "Among the following, identify the lead institutions which are in collaboration with LIGO Laboratory as a part of LIGO-India project :\nI. Institute for Plasma Research (IPR), Gandhinagar\nII. Kepler's Observatory & Research Centre, Haryana\nIII. Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune\nIV. Raja Ramanna Center for Advanced Technology (RRCAT), Indore\nV. Indian Institute of Space Science and Technology, Thiruvananthapuram\nSelect the correct answer using the codes given below :",
+"options": [
+"I, II and III",
+"II, III and V",
+"I, III and IV",
+"II, III and IV"
+],
+"key": "I, III and IV",
+"deleted": 0,
+"core_fact": "LIGO-India lead institutions are IPR Gandhinagar, IUCAA Pune and RRCAT Indore (with DCSEM), under DAE and DST.",
+"statements": [
+{
+"l": "S1",
+"t": "The Institute for Plasma Research (IPR), Gandhinagar is a lead institution in LIGO-India.",
+"v": "T",
+"m": null,
+"d": "IPR",
+"fact": null
+},
+{
+"l": "S2",
+"t": "Kepler's Observatory & Research Centre, Haryana is a lead institution in LIGO-India.",
+"v": "F",
+"m": "fabricated",
+"d": "Kepler's Observatory",
+"fact": "LIGO-India lead institutions are IPR Gandhinagar, IUCAA Pune and RRCAT Indore (with DCSEM), under DAE and DST."
+},
+{
+"l": "S3",
+"t": "IUCAA, Pune is a lead institution in LIGO-India.",
+"v": "T",
+"m": null,
+"d": "IUCAA",
+"fact": null
+},
+{
+"l": "S4",
+"t": "RRCAT, Indore is a lead institution in LIGO-India.",
+"v": "T",
+"m": null,
+"d": "RRCAT",
+"fact": null
+},
+{
+"l": "S5",
+"t": "Indian Institute of Space Science and Technology, Thiruvananthapuram is a lead institution in LIGO-India.",
+"v": "F",
+"m": "institution substitution",
+"d": "IIST",
+"fact": "LIGO-India lead institutions are IPR Gandhinagar, IUCAA Pune and RRCAT Indore (with DCSEM), under DAE and DST."
+}
+],
+"rule": "LIGO-India = DAE + DST, not ISRO/DoS - eliminate space-department institutes.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2024-paper2#73",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "E18/5",
+"format": "one-liner",
+"stem": "Who among the following is the first Indian woman to get a Ph.D. in a science discipline ?",
+"options": [
+"Kamala Sohonie",
+"Anandibai Joshee",
+"Janaki Ammal",
+"Maharani Chakravorty"
+],
+"key": "Kamala Sohonie",
+"deleted": 0,
+"core_fact": "Biochemist Kamala Sohonie (PhD, Cambridge, 1939, on cytochrome C) is widely recorded as the first Indian woman to get a PhD in a science discipline.",
+"statements": [
+{
+"l": "opt1",
+"t": "The first Indian woman to get a Ph.D. in a science discipline is Kamala Sohonie.",
+"v": "T",
+"m": null,
+"d": "Kamala Sohonie",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The first Indian woman to get a Ph.D. in a science discipline is Anandibai Joshee.",
+"v": "F",
+"m": "person substitution",
+"d": "Anandibai Joshee",
+"fact": "Anandibai Joshee was the first Indian woman doctor of Western medicine (MD 1886, Pennsylvania), not a science PhD."
+},
+{
+"l": "opt3",
+"t": "The first Indian woman to get a Ph.D. in a science discipline is Janaki Ammal.",
+"v": "F",
+"m": "person substitution",
+"d": "Janaki Ammal",
+"fact": "Janaki Ammal (botanist) earned a D.Sc. from Michigan (1931); the key credits Kamala Sohonie with the first science PhD."
+},
+{
+"l": "opt4",
+"t": "The first Indian woman to get a Ph.D. in a science discipline is Maharani Chakravorty.",
+"v": "F",
+"m": "person substitution",
+"d": "Maharani Chakravorty",
+"fact": "Maharani Chakravorty was a later molecular biologist (recombinant DNA courses, Bose Institute); the first science PhD is Kamala Sohonie."
+}
+],
+"rule": "Women 'firsts': Anandibai = first woman physician; Sohonie = first science PhD; Asima Chatterjee = first woman D.Sc. from an Indian university.",
+"key_note": "Janaki Ammal's Michigan doctorate (1931, D.Sc.) predates Sohonie's 1939 PhD; the key follows the common 'first PhD' attribution to Sohonie. Key kept."
+},
+{
+"id": "group1-prelims-2024-paper2#80",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "E18/4",
+"format": "one-liner",
+"stem": "Which of the following programme by the Department of Science and Technology (DST) is to encourage and support senior women scientists to conduct research in interdisciplinary areas of science and technology ?",
+"options": [
+"INSPIRE-SHE",
+"GATI",
+"SERB-POWER",
+"WIDUSHI"
+],
+"key": "WIDUSHI",
+"deleted": 0,
+"core_fact": "Under DST's WISE-KIRAN, WIDUSHI supports senior women scientists (retired/near-retirement) to continue research in interdisciplinary S&T.",
+"statements": [
+{
+"l": "opt1",
+"t": "The DST programme to encourage and support senior women scientists to conduct research in interdisciplinary areas of S&T is INSPIRE-SHE.",
+"v": "F",
+"m": "scope expansion",
+"d": "INSPIRE-SHE",
+"fact": "INSPIRE-SHE is a DST scholarship for higher education of young science students (not senior women scientists)."
+},
+{
+"l": "opt2",
+"t": "The DST programme to encourage and support senior women scientists to conduct research in interdisciplinary areas of S&T is GATI.",
+"v": "F",
+"m": "function/power substitution",
+"d": "GATI",
+"fact": "GATI (Gender Advancement for Transforming Institutions) assesses gender equity in institutions; it does not fund individual senior scientists."
+},
+{
+"l": "opt3",
+"t": "The DST programme to encourage and support senior women scientists to conduct research in interdisciplinary areas of S&T is SERB-POWER.",
+"v": "F",
+"m": "scope expansion",
+"d": "SERB-POWER",
+"fact": "SERB-POWER funds women researchers generally (fellowships/grants), not specifically senior women in interdisciplinary areas."
+},
+{
+"l": "opt4",
+"t": "The DST programme to encourage and support senior women scientists to conduct research in interdisciplinary areas of S&T is WIDUSHI.",
+"v": "T",
+"m": null,
+"d": "WIDUSHI",
+"fact": null
+}
+],
+"rule": "Women-in-science schemes: identify the target group (student / woman researcher / institution / senior scientist).",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2024-paper2#81",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "statement-based",
+"stem": "Consider the following statements about ARTSENS device :\nI. It is a novel, non-invasive device to assess the health and age of the neurons and thereby provide early screening for central nervous system diseases.\nII. ARTSENS device was developed by the National Institute of Mental Health and Neuro-Sciences (NIMHANS).\nIII. ARTSENS device is powered by a proprietary non-imaging probe and an intelligent computing platform.\nWhich among the above statements is/are incorrect ?",
+"options": [
+"I and II",
+"II and III",
+"I and III",
+"II only"
+],
+"key": "I and II",
+"deleted": 0,
+"core_fact": "ARTSENS, developed by IIT Madras's Healthcare Technology Innovation Centre, is a non-invasive, image-free device that measures arterial stiffness (vascular age) for early cardiovascular screening.",
+"statements": [
+{
+"l": "S1",
+"t": "ARTSENS is a novel, non-invasive device to assess the health and age of the neurons and thereby provide early screening for central nervous system diseases.",
+"v": "F",
+"m": "function/power substitution",
+"d": "neurons",
+"fact": "ARTSENS is a non-invasive device that assesses the health and age of arteries (arterial stiffness) for early cardiovascular screening."
+},
+{
+"l": "S2",
+"t": "ARTSENS device was developed by NIMHANS.",
+"v": "F",
+"m": "institution substitution",
+"d": "NIMHANS",
+"fact": "ARTSENS was developed by IIT Madras (Healthcare Technology Innovation Centre)."
+},
+{
+"l": "S3",
+"t": "ARTSENS device is powered by a proprietary non-imaging probe and an intelligent computing platform.",
+"v": "T",
+"m": null,
+"d": "non-imaging probe",
+"fact": null
+}
+],
+"rule": "Name-clue devices: ARTSENS = arteries (IIT Madras); a matching institution swap usually accompanies an organ swap.",
+"key_note": ""
+},
+{
+"id": "group1-prelims-2024-paper2#94",
+"year": 2024,
+"stage": "Prelims",
+"leaf": "E18/2",
+"format": "one-liner",
+"stem": "'iOncology.ai', an Artificial Intelligence (AI) platform designed for the early detection of breast and ovarian cancer, was launched by :",
+"options": [
+"All India Institute of Medical Sciences in collaboration with Centre for Artificial Intelligence and Robotics (CAIR).",
+"Dr. B. Borooah Cancer Institute in collaboration with Centre for Cellular and Molecular Biology (CCMB).",
+"National Institute of Cancer Prevention and Research in collaboration with Artificial Intelligence Research Institute (AIRI).",
+"All India Institute of Medical Sciences in collaboration with Centre for Development of Advanced Computing (CDAC)."
+],
+"key": "All India Institute of Medical Sciences in collaboration with Centre for Development of Advanced Computing (CDAC).",
+"deleted": 0,
+"core_fact": "iOncology.ai, an AI platform for early detection of breast and ovarian cancer, was developed by AIIMS New Delhi with C-DAC (Pune) under MeitY.",
+"statements": [
+{
+"l": "opt1",
+"t": "'iOncology.ai' was launched by All India Institute of Medical Sciences in collaboration with Centre for Artificial Intelligence and Robotics (CAIR).",
+"v": "F",
+"m": "institution substitution",
+"d": "All India Institute of Medical Sciences in collaboration with Centre for Artificial Intelligence and Robotics (CAIR).",
+"fact": "AIIMS with C-DAC developed it."
+},
+{
+"l": "opt2",
+"t": "'iOncology.ai' was launched by Dr. B. Borooah Cancer Institute in collaboration with Centre for Cellular and Molecular Biology (CCMB).",
+"v": "F",
+"m": "institution substitution",
+"d": "Dr. B. Borooah Cancer Institute in collaboration with Centre for Cellular and Molecular Biology (CCMB).",
+"fact": "AIIMS with C-DAC developed it."
+},
+{
+"l": "opt3",
+"t": "'iOncology.ai' was launched by National Institute of Cancer Prevention and Research in collaboration with Artificial Intelligence Research Institute (AIRI).",
+"v": "F",
+"m": "institution substitution",
+"d": "National Institute of Cancer Prevention and Research in collaboration with Artificial Intelligence Research Institute (AIRI).",
+"fact": "AIIMS with C-DAC developed it."
+},
+{
+"l": "opt4",
+"t": "'iOncology.ai' was launched by All India Institute of Medical Sciences in collaboration with Centre for Development of Advanced Computing (CDAC).",
+"v": "T",
+"m": null,
+"d": "All India Institute of Medical Sciences in collaboration with Centre for Development of Advanced Computing (CDAC).",
+"fact": null
+}
+],
+"rule": "Two-part institution options: verify both partners - here AIIMS + C-DAC.",
+"key_note": ""
+}
+],
+"related_count": 884,
+"related_sample": [
+"Dictionary which gives the history of words and their origin referred as → Etymological dictionary [APPSC Assistant Telugu Translator Genera]",
+"Rheology is the study of → Soft solids or flowing matters [APPSC Forest Section Officer General Stu]",
+"Which among the following fields of psychology focuses on the interaction between the physical world and human behaviour? → Environmental psychology [APPSC Assistant B.C. Welfare Officer, As]",
+"Axiology is the study of the → Nature of values [APPSC Assistant B.C. Welfare Officer, As]",
+"Which of the following statements is/are correct about branches of Life Sciences?\nA. Astrobiology is the study of bacteria.\nB. Anatomy, a field in the biological sciences concerned with the identifica → Both B and C [APPSC 2021 Mains Executive Officer Grade]",
+"An Apograph is → A copy or transcript of a manuscript [APPSC Hostel Welfare Officers (Grade-II)]",
+"Which of the following theory is advocated by Thorndike? → Anarchic Theory [APPSC Hostel Welfare Officer Grade-II (M]",
+"Which of the following is not a subjective method of studying behavior? → Observation [APPSC Hostel Welfare Officer Grade-II (M]",
+"The theory of achievement motivation was developed by? → Mc Clelland [APPSC Hostel Welfare Officer Grade-II (M]",
+"In Maslow's theory of motivation, at which stage does peak experience occur? → Self-actualization needs [APPSC Assistant B.C. Welfare Officer, As]",
+"Which one is the simplest form of cognition? → Sensation [APPSC Assistant B.C. Welfare Officer, As]",
+"Material learnt without any understanding and reproduced is? → Rote memory [APPSC Hostel Welfare Officer Grade-II (M]",
+"According to Freud, during which period super ego is developed? → Latency Period [APPSC Hostel Welfare Officer Grade-II (M]",
+"Carroll's model includes six elements with ...... output variable(s), ...... input variable(s) and ...... intermediate variable(s) in that order. → 1, 1, 4 [APPSC Hostel Welfare Officer Grade-II (M]",
+"Who criticized the subject centered traditional curriculum? → Alfred North Whitehead [APPSC Hostel Welfare Officer Grade-II (M]",
+"Who developed 'Personalized Programme of Instruction'? → Fred S. Keller [APPSC Hostel Welfare Officer Grade-II (M]",
+"Flander classified the classroom behaviour of the teacher and pupils into how many categories. → 10 [APPSC Hostel Welfare Officer Grade-II (M]",
+"An optical projector capable of giving images of both opaque and transparent objects is said to be? → Epidiascope [APPSC Hostel Welfare Officer Grade-II (M]",
+"A researcher measured height of class Xth students. The measurement of height is on → Ratio Scale [APPSC Hostel Welfare Officers (Grade-II)]",
+"Which of these is the science of analyzing physical or behavioral characteristics specific to each individual to authenticate their identity? → Biometrics [APPSC 2023 Screening test (Online Mode) ]",
+"What is ICOLC? → International Coalition of Library Consortia [APPSC Assistant Telugu Translator Genera]",
+"Which of the following is an example of studying classroom problem? → Action Research [APPSC Hostel Welfare Officer Grade-II (M]",
+"What is the modern method of acquiring knowledge? → Scientific method [APPSC Hostel Welfare Officer Grade-II (M]",
+"A study preceding the main study to check the viability is known as: → Pilot study [APPSC Assistant Telugu Translator Genera]",
+"For weather science study, which of the following is used to fill balloons ? → Helium [APPSC Forest Beat Officer & Assistant Be]",
+"Which mirror is used in the headlight of a car ? → Concave Mirror [APPSC Forest Beat Officer & Assistant Be]",
+"Out of the following, ____ is used for linear measurements → Invar tape [APPSC Forest Section Officer General Stu]",
+"In a transformer, which winding has more cross-section area? → Low voltage winding [APPSC AEE Electrical Engineering Screeni]",
+"The common TV remote control makes use of which of the following waves? → Infrared waves [APPSC Endowment Subordinate Service (Mai]",
+"What is the range of sound frequency audible to human ears? → 20 to 20,000 Hz [APPSC Extension Officer Grade-I Common P]",
+"RADAR stands for → Radio Detection And Ranging [APPSC Zilla Sainik Welfare Officer in Sa]",
+"Which of the following is NOT from the family of Electromagnetic waves? → Sound waves [APPSC Welfare Organiser in A.P Sainik We]",
+"Photons are? → Light particles [APPSC Group-III Panchayat Secretary Main]",
+"Phonons are? → Sound particles [APPSC Group-III Panchayat Secretary Main]",
+"Bats are able to find out direction for flying because they can produce? → Ultrasonic rays [APPSC Group-III Panchayat Secretary Main]",
+"A 3-phase slip-ring induction motor is always started with → Full external resistance in rotor circuit [APPSC AEE Electrical Engineering Screeni]",
+"The starting torque of the slip ring induction motor can be increased by → Adding resistance to the rotor [APPSC AEE Electrical Engineering Screeni]",
+"Which of the following is responsible for carrying electromagnetic energy? → Photon [APPSC Forest Range Officer Mains Paper-I]",
+"What converts sound waves into electrical energy or the audio signals? → Microphone [APPSC Forest Section Officer General Stu]",
+"Which of the following is the most important safety method used for protecting home appliances from short-circuiting or overloading? → Use of Fuse [APPSC Zilla Sainik Welfare Officer (Sain]",
+"A small weight put on the hole of the pressure cooker increases the pressure of steam because? → Cooker becomes air tight [APPSC Group-III Panchayat Secretary Main]",
+"A pressure cooker greatly reduces cooking time. How? → Because the boiling point inside the cooker is higher [same exam]",
+"Why does a pressure cooker reduce the cooking time? → Because the boiling point inside is elevated [same exam]",
+"What are 'liquid crystals'? → Neither Solid nor liquid phase of matter [same exam]",
+"The rear view mirror of a motorcycle shall be a → Convex mirror [APPSC Hostel Welfare Officer Grade-II Sc]",
+"The Hydraulic press used to lift a car is based on the following principle: → Pascal's principle [APPSC Welfare Organiser in AP Sainik Wel]",
+"Hydraulic Brakes work on which principle? → Pascal's principle [APPSC General Studies & Mental Ability (]",
+"A vacuum cleaner can be suitable for all, EXCEPT ______. → picking up glass pieces [APPSC Assistant Executive Engineer (AEE)]",
+"The material filled in the breather of a transformer is → Silica gel [APPSC AEE Electrical Engineering Screeni]",
+"Name the type of mirror used in the headlights of a car. → concave [APPSC Draughtsman (Technical Assistant) ]",
+"Which of the following is the principle cause for a passenger to bend forward when the driver of a bus applies brakes to stop the bus? → Inertia [APPSC Deputy Inspector of Survey, Techni]",
+"Which of the following is the principle cause for dust particles to fall off a carpet when the carpet is beaten with a stick? → Inertia [APPSC Technical Assistant (Hydrogeology)]",
+"The generation of electricity by flow of water through dams is an example of which of the following? → Law of Conservation of Energy [APPSC Technical Assistant (Hydrogeology)]",
+"Which of the following is correctly matched pair of physical quantity and its unit? → Pressure : pascal [APPSC Assistant Chemist (AP Ground Water]",
+"Passengers sitting in train lean in the opposite direction if the train starts suddenly from rest. This happens due to the: → inertia of the body of the passengers [APPSC Divisional Accounts Officer (Mains]",
+"Angstrom is a unit of → Wavelength [APPSC Fisheries Development Officer, Ass]",
+"One hydraulic horsepower is equal to → 746 watts [APPSC Junior Assistant cum Computer Assi]",
+"Which lenses are used by people having short-sightedness? → Concave [APPSC Deputy Executive Information Engin]",
+"Under normal conditions, when a current through a Nichrome wire increases, the voltage difference across the wire? → Increases linearly [APPSC Civil Assistant Surgeon (Specialis]",
+"What is the principle behind working of RADAR? → Reflection [APPSC Royalty Inspector, Agriculture Off]",
+"Which is the fourth state of matter? → Plasma [APPSC Dental Assistant Surgeons, Zilla S]",
+"Which of the following microscopes can image individual atoms? → Atomic Force microscope [APPSC Forest Range Officer Mains Paper-I]",
+"What will happen if a conducting coil of wire is moved through a magnetic field? → Current is induced [APPSC Lecturers in Govt Degree Colleges ]",
+"Which of the following waves are used by the common TV remote control? → Infrared waves [APPSC Polytechnic Lecturers (S1) General]",
+"Which of the following pairs is NOT correct with regard to measurable quantity and their respective unit? → Weight - Pascal [APPSC Junior Lecturers General Studies &]",
+"Myopia and Hypermetropia can be corrected by ____ and ____ lens, respectively. → Concave and Convex [APPSC Zilla Sainik Welfare Officer (Sain]",
+"Which of the following explains the given situation?\nWhen a swimmer pushes the water backwards with his/her hands, in return the water pushes the swimmer forward → Newton's Third Law of Motion [APPSC Welfare Organiser in A.P Sainik We]",
+"What type of lens is prescribed for a person suffering from myopia? → Concave [APPSC Assistant BC Welfare Officer and R]",
+"A fathometer is an instrument that measures → Depth of the sea [same exam]",
+"If a table-fan rotating at 50 rpm is placed under an electric lamp (AC supply), it would appear to be → rotating slowly backwards [same exam]",
+"Which of the following is considered by scientists as the 'fourth state of matter'? → Plasma [same exam]",
+"The instrument used for determining the area of plotted maps is known as → Planimeter [APPSC Forest Section Officer General Stu]",
+"The material used for electrical fuse wire should have C) → Low melting point [same exam]",
+"Which of the following helps us to find the depth of the sea? → Echo sounder [APPSC Degree Lecturers General Studies &]",
+"The velocity of sound is highest → In moist air at 30 degrees centigrade [same exam]",
+"Given below are the two statements marked as Assertion (A) and Reason (R). Analyze the statements and choose one of the given options.\nAssertion (A): We see a blue sky most of the time.\nReason (R): Su → (A) is true but (R) is false. [APPSC 2021 Medical Officer (Ayurveda) In]",
+"An object weighs the most → In vacuum [same exam]",
+"A convex mirror is used to correct which of the following? → Long sight [same exam]",
+"Which of the following types of matter is in ionic state? → Plasma [APPSC Assistant Director of Fisheries in]",
+"Identify the hormone that is found in the plants: → Cytokinin [APPSC Assistant BC Welfare Officer and R]"
+]
+}

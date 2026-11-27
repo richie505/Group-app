@@ -1,0 +1,1625 @@
+{
+"exam": "Group 2",
+"section": "M2B.3",
+"title": "M2B Mains · Paper II · Section B · Science and Technology (75M) › M2B.3 Ecosystem and Biodiversity",
+"syllabus_leaves": [
+{
+"leaf": "M2B.3.1",
+"wording": "Ecology and Ecosystem: Basic concepts of Ecology, Ecosystem: Components and Types",
+"official_Q": 0,
+"years": [],
+"recurrence": "Insufficient evidence"
+},
+{
+"leaf": "M2B.3.1/1",
+"wording": "Basic concepts of ecology",
+"official_Q": 5,
+"years": [
+2008,
+2019,
+2025
+],
+"recurrence": "Moderate historical recurrence"
+},
+{
+"leaf": "M2B.3.1/2",
+"wording": "Ecosystem components",
+"official_Q": 3,
+"years": [
+2025
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M2B.3.1/3",
+"wording": "Types of ecosystems",
+"official_Q": 3,
+"years": [
+2017,
+2025
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M2B.3.2",
+"wording": "Biodiversity: Meaning, Components, Biodiversity Hotspots, Loss of Biodiversity and Conservation of Biodiversity: Methods, Recent Plans, Targets, Convention and Protocols",
+"official_Q": 0,
+"years": [],
+"recurrence": "Insufficient evidence"
+},
+{
+"leaf": "M2B.3.2/1",
+"wording": "Meaning and components of biodiversity",
+"official_Q": 2,
+"years": [
+2017,
+2019
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M2B.3.2/2",
+"wording": "Biodiversity hotspots",
+"official_Q": 1,
+"years": [
+2017
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M2B.3.2/3",
+"wording": "Loss of biodiversity",
+"official_Q": 2,
+"years": [
+2017,
+2025
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M2B.3.2/4",
+"wording": "Conservation methods",
+"official_Q": 2,
+"years": [
+2008,
+2017
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M2B.3.2/5",
+"wording": "Recent plans, targets, conventions and protocols",
+"official_Q": 3,
+"years": [
+2017,
+2019
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M2B.3.3",
+"wording": "Wildlife Conservation: CITES and Endangered Species with reference to India",
+"official_Q": 0,
+"years": [],
+"recurrence": "Insufficient evidence"
+},
+{
+"leaf": "M2B.3.3/1",
+"wording": "CITES",
+"official_Q": 1,
+"years": [
+2025
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M2B.3.3/2",
+"wording": "Endangered species of India",
+"official_Q": 2,
+"years": [
+2019
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M2B.3.4",
+"wording": "Biosphere Reserves",
+"official_Q": 1,
+"years": [
+2017
+],
+"recurrence": "Low historical recurrence"
+},
+{
+"leaf": "M2B.3.5",
+"wording": "Indian Wildlife Conservation efforts, projects, acts and initiatives in recent times",
+"official_Q": 4,
+"years": [
+2012,
+2017,
+2019
+],
+"recurrence": "Moderate historical recurrence"
+}
+],
+"official_questions": [
+{
+"id": "group2-2008-paper1#30",
+"year": 2008,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M2B.3.2/4",
+"format": "one-liner",
+"stem": "The National Bureau of Plant Genetic Resources is at",
+"options": [
+"Jammu",
+"Shillong",
+"New Delhi",
+"Bangalore"
+],
+"key": "New Delhi",
+"deleted": 0,
+"core_fact": "ICAR-National Bureau of Plant Genetic Resources (1976) is headquartered at New Delhi (Pusa) and holds the national gene bank.",
+"statements": [
+{
+"l": "opt1",
+"t": "The National Bureau of Plant Genetic Resources is at Jammu.",
+"v": "F",
+"m": "location substitution",
+"d": "Jammu",
+"fact": "HQ is New Delhi."
+},
+{
+"l": "opt2",
+"t": "The National Bureau of Plant Genetic Resources is at Shillong.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Shillong",
+"fact": "Shillong has a regional station; HQ New Delhi."
+},
+{
+"l": "opt3",
+"t": "The National Bureau of Plant Genetic Resources is at New Delhi.",
+"v": "T",
+"m": null,
+"d": "New Delhi",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The National Bureau of Plant Genetic Resources is at Bangalore.",
+"v": "F",
+"m": "location substitution",
+"d": "Bangalore",
+"fact": "HQ is New Delhi."
+}
+],
+"rule": "ICAR bureaux: NBPGR Delhi, NBAGR Karnal, NBFGR Lucknow, NBAIR Bengaluru.",
+"key_note": ""
+},
+{
+"id": "group2-2008-paper1#38",
+"year": 2008,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M2B.3.1/1",
+"format": "one-liner",
+"stem": "The functional unit in Ecology is the",
+"options": [
+"population",
+"biosphere",
+"organism",
+"ecosystem"
+],
+"key": "ecosystem",
+"deleted": 0,
+"core_fact": "The ecosystem (Tansley 1935) is the basic structural and functional unit of ecology.",
+"statements": [
+{
+"l": "opt1",
+"t": "The functional unit in Ecology is the population.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "population",
+"fact": "Population is a level, not the functional unit."
+},
+{
+"l": "opt2",
+"t": "The functional unit in Ecology is the biosphere.",
+"v": "F",
+"m": "scope expansion",
+"d": "biosphere",
+"fact": "Biosphere is the whole life zone."
+},
+{
+"l": "opt3",
+"t": "The functional unit in Ecology is the organism.",
+"v": "F",
+"m": "scope restriction",
+"d": "organism",
+"fact": "Organism is the basic unit of life, not of ecology's function."
+},
+{
+"l": "opt4",
+"t": "The functional unit in Ecology is the ecosystem.",
+"v": "T",
+"m": null,
+"d": "ecosystem",
+"fact": null
+}
+],
+"rule": "Ecosystem = functional unit (Tansley); species = basic unit of classification.",
+"key_note": ""
+},
+{
+"id": "group2-2012-paper1#61",
+"year": 2012,
+"stage": "Single-stage (pre-2016 pattern)",
+"leaf": "M2B.3.5",
+"format": "one-liner",
+"stem": "Father of Indian Ornithology is",
+"options": [
+"M.S. Swaminathan",
+"Maheshwari",
+"Salim Ali",
+"Hargobind Khorana"
+],
+"key": "Salim Ali",
+"deleted": 0,
+"core_fact": "Dr Salim Ali (1896-1987), the 'Birdman of India', is the father of Indian ornithology.",
+"statements": [
+{
+"l": "opt1",
+"t": "The Father of Indian Ornithology is M.S. Swaminathan.",
+"v": "F",
+"m": "person substitution",
+"d": "M.S. Swaminathan",
+"fact": "Swaminathan = Green Revolution."
+},
+{
+"l": "opt2",
+"t": "The Father of Indian Ornithology is Maheshwari.",
+"v": "F",
+"m": "person substitution",
+"d": "Maheshwari",
+"fact": "Maheshwari = plant embryology."
+},
+{
+"l": "opt3",
+"t": "The Father of Indian Ornithology is Salim Ali.",
+"v": "T",
+"m": null,
+"d": "Salim Ali",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The Father of Indian Ornithology is Hargobind Khorana.",
+"v": "F",
+"m": "person substitution",
+"d": "Hargobind Khorana",
+"fact": "Khorana = genetic code."
+}
+],
+"rule": "'Father of': ornithology Salim Ali; Green Revolution Swaminathan; White Revolution Kurien.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper1#25",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M2B.3.2/5",
+"format": "one-liner",
+"stem": "The theme of World Wetlands Day, 2017 celebrated in February, 2017 is?",
+"options": [
+"Kidneys of Landscape",
+"Biological Supermarkets",
+"Wetlands for Disaster Risk Reduction",
+"Conservation of liquid assets"
+],
+"key": "Wetlands for Disaster Risk Reduction",
+"deleted": 0,
+"core_fact": "The World Wetlands Day 2017 (2 February) theme was 'Wetlands for Disaster Risk Reduction'.",
+"statements": [
+{
+"l": "opt1",
+"t": "The theme of World Wetlands Day 2017 is Kidneys of Landscape.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Kidneys of Landscape",
+"fact": "'Kidneys of the landscape' is a descriptor of wetlands, not a theme."
+},
+{
+"l": "opt2",
+"t": "The theme of World Wetlands Day 2017 is Biological Supermarkets.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Biological Supermarkets",
+"fact": "'Biological supermarkets' is a descriptor of wetlands, not a theme."
+},
+{
+"l": "opt3",
+"t": "The theme of World Wetlands Day 2017 is Wetlands for Disaster Risk Reduction.",
+"v": "T",
+"m": null,
+"d": "Wetlands for Disaster Risk Reduction",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The theme of World Wetlands Day 2017 is Conservation of liquid assets.",
+"v": "F",
+"m": "true fact not the one asked",
+"d": "Conservation of liquid assets",
+"fact": "'Liquid assets' describes wetlands' value; not the 2017 theme."
+}
+],
+"rule": "Wetland nicknames (kidneys, supermarkets) are never themes; WWD = 2 Feb (Ramsar 1971).",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper1#43",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M2B.3.5",
+"format": "negative one-liner",
+"stem": "Which of these national parks of India is not recognized as ‘World Heritage Site’ by UNESCO",
+"options": [
+"Sunderban",
+"Keoladeo",
+"Gir",
+"Kaziranga"
+],
+"key": "Gir",
+"deleted": 0,
+"core_fact": "Kaziranga (1985), Keoladeo (1985) and Sundarbans (1987) are UNESCO natural World Heritage Sites; Gir National Park is not.",
+"statements": [
+{
+"l": "opt1",
+"t": "Sunderban National Park is recognised by UNESCO as a World Heritage Site.",
+"v": "T",
+"m": null,
+"d": "Sunderban",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Keoladeo National Park is recognised by UNESCO as a World Heritage Site.",
+"v": "T",
+"m": null,
+"d": "Keoladeo",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Gir National Park is recognised by UNESCO as a World Heritage Site.",
+"v": "F",
+"m": "scope expansion",
+"d": "Gir",
+"fact": "Gir is not a UNESCO WHS."
+},
+{
+"l": "opt4",
+"t": "Kaziranga National Park is recognised by UNESCO as a World Heritage Site.",
+"v": "T",
+"m": null,
+"d": "Kaziranga",
+"fact": null
+}
+],
+"rule": "India natural WHS: Kaziranga, Manas, Keoladeo, Sundarbans, Nanda Devi-VoF, W. Ghats, GHNP, Khangchendzonga (mixed).",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper1#45",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M2B.3.2/4",
+"format": "one-liner",
+"stem": "In which country is the Svalbard Global Seed Vault located",
+"options": [
+"Sweden",
+"Finland",
+"Iceland",
+"Norway"
+],
+"key": "Norway",
+"deleted": 0,
+"core_fact": "The Svalbard Global Seed Vault (opened 2008) is on Spitsbergen in Norway's Svalbard archipelago.",
+"statements": [
+{
+"l": "opt1",
+"t": "The Svalbard Global Seed Vault is located in Sweden.",
+"v": "F",
+"m": "location substitution",
+"d": "Sweden",
+"fact": "It is in Norway."
+},
+{
+"l": "opt2",
+"t": "The Svalbard Global Seed Vault is located in Finland.",
+"v": "F",
+"m": "location substitution",
+"d": "Finland",
+"fact": "It is in Norway."
+},
+{
+"l": "opt3",
+"t": "The Svalbard Global Seed Vault is located in Iceland.",
+"v": "F",
+"m": "location substitution",
+"d": "Iceland",
+"fact": "It is in Norway."
+},
+{
+"l": "opt4",
+"t": "The Svalbard Global Seed Vault is located in Norway.",
+"v": "T",
+"m": null,
+"d": "Norway",
+"fact": null
+}
+],
+"rule": "Ex-situ: Svalbard (Norway) doomsday vault; India's seed vault at Chang La (Ladakh).",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper1#47",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M2B.3.1/3",
+"format": "negative one-liner",
+"stem": "Which of the following is not an example of an Ecotone",
+"options": [
+"River Bank",
+"Teak Forest",
+"Mangroves",
+"Marshland"
+],
+"key": "Teak Forest",
+"deleted": 0,
+"core_fact": "An ecotone is a transition zone between two ecosystems (e.g. river bank, mangrove, marsh/estuary, forest-grassland edge); a teak forest is a single uniform ecosystem.",
+"statements": [
+{
+"l": "opt1",
+"t": "River Bank is an example of an ecotone.",
+"v": "T",
+"m": null,
+"d": "River Bank",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Teak Forest is an example of an ecotone.",
+"v": "F",
+"m": "definition distortion",
+"d": "Teak Forest",
+"fact": "A teak forest is a single ecosystem, not an ecotone."
+},
+{
+"l": "opt3",
+"t": "Mangroves is an example of an ecotone.",
+"v": "T",
+"m": null,
+"d": "Mangroves",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Marshland is an example of an ecotone.",
+"v": "T",
+"m": null,
+"d": "Marshland",
+"fact": null
+}
+],
+"rule": "Ecotone = transition zone (edge effect); examples: estuary, mangrove, marsh, river bank, grassland-forest edge.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper1#50",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M2B.3.2/3",
+"format": "one-liner",
+"stem": "Coral Bleaching is associated with removal of",
+"options": [
+"Zooxanthellae",
+"Azotobacter",
+"Paenibacillus",
+"Rhizobia"
+],
+"key": "Zooxanthellae",
+"deleted": 0,
+"core_fact": "Coral bleaching is the expulsion of symbiotic zooxanthellae (dinoflagellate algae) from coral tissue under heat or other stress.",
+"statements": [
+{
+"l": "opt1",
+"t": "Coral bleaching is associated with removal of Zooxanthellae.",
+"v": "T",
+"m": null,
+"d": "Zooxanthellae",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Coral bleaching is associated with removal of Azotobacter.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Azotobacter",
+"fact": "Azotobacter is a soil nitrogen fixer."
+},
+{
+"l": "opt3",
+"t": "Coral bleaching is associated with removal of Paenibacillus.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Paenibacillus",
+"fact": "Paenibacillus is a soil bacterium."
+},
+{
+"l": "opt4",
+"t": "Coral bleaching is associated with removal of Rhizobia.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Rhizobia",
+"fact": "Rhizobia are root-nodule symbionts of legumes, not of corals."
+}
+],
+"rule": "Bleaching: loss of zooxanthellae; driven by heat (>1 deg C above summer max), acidification.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper1#68",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M2B.3.1/3",
+"format": "one-liner",
+"stem": "A leaf of a tree adapted to a warm dry climate is:",
+"options": [
+"Large and thin",
+"Large and thick",
+"Small and thick",
+"Small and thin"
+],
+"key": "Small and thick",
+"deleted": 0,
+"core_fact": "Plants of warm dry climates (xerophytes) have small, thick (succulent/leathery, waxy) leaves or spines to reduce transpiration.",
+"statements": [
+{
+"l": "opt1",
+"t": "A leaf adapted to a warm dry climate is Large and thin.",
+"v": "F",
+"m": "direction reversal",
+"d": "Large and thin",
+"fact": "Large thin leaves suit humid climates."
+},
+{
+"l": "opt2",
+"t": "A leaf adapted to a warm dry climate is Large and thick.",
+"v": "F",
+"m": "multi-fact merge",
+"d": "Large and thick",
+"fact": "Large leaves lose water; dry-climate leaves are small."
+},
+{
+"l": "opt3",
+"t": "A leaf adapted to a warm dry climate is Small and thick.",
+"v": "T",
+"m": null,
+"d": "Small and thick",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "A leaf adapted to a warm dry climate is Small and thin.",
+"v": "F",
+"m": "multi-fact merge",
+"d": "Small and thin",
+"fact": "Dry-climate leaves are small and thick."
+}
+],
+"rule": "Xerophyte leaf: small, thick, waxy, sunken stomata; hydrophyte/rainforest: large, thin.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper1#76",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M2B.3.4",
+"format": "one-liner",
+"stem": "Panchmarhi Biosphere Reserve is located in",
+"options": [
+"Jharkhand",
+"Chattisgarh",
+"Madhya Pradesh",
+"Uttar Pradesh"
+],
+"key": "Madhya Pradesh",
+"deleted": 0,
+"core_fact": "Pachmarhi Biosphere Reserve (1999; UNESCO MAB 2009) is in the Satpura range of Madhya Pradesh.",
+"statements": [
+{
+"l": "opt1",
+"t": "Pachmarhi Biosphere Reserve is located in Jharkhand.",
+"v": "F",
+"m": "location substitution",
+"d": "Jharkhand",
+"fact": "It is in MP."
+},
+{
+"l": "opt2",
+"t": "Pachmarhi Biosphere Reserve is located in Chattisgarh.",
+"v": "F",
+"m": "location substitution",
+"d": "Chattisgarh",
+"fact": "Pachmarhi is in MP."
+},
+{
+"l": "opt3",
+"t": "Pachmarhi Biosphere Reserve is located in Madhya Pradesh.",
+"v": "T",
+"m": null,
+"d": "Madhya Pradesh",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "Pachmarhi Biosphere Reserve is located in Uttar Pradesh.",
+"v": "F",
+"m": "location substitution",
+"d": "Uttar Pradesh",
+"fact": "It is in MP."
+}
+],
+"rule": "MP BRs: Pachmarhi, Panna, Achanakmar-Amarkantak (with Chhattisgarh).",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper1#77",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M2B.3.2/2",
+"format": "one-liner",
+"stem": "Biodiversity Hotspots are characterized on the basis of:",
+"options": [
+"Endemic flowering plant and threat perception",
+"Species of flowering plants",
+"Endemic flowering plant",
+"Diversity of plants"
+],
+"key": "Endemic flowering plant and threat perception",
+"deleted": 0,
+"core_fact": "Myers/Conservation International criteria: at least 1,500 endemic vascular plant species (>0.5% of world total) AND loss of at least 70% of original habitat (threat).",
+"statements": [
+{
+"l": "opt1",
+"t": "Biodiversity hotspots are characterised on the basis of Endemic flowering plant and threat perception.",
+"v": "T",
+"m": null,
+"d": "Endemic flowering plant and threat perception",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Biodiversity hotspots are characterised on the basis of Species of flowering plants.",
+"v": "F",
+"m": "scope restriction",
+"d": "Species of flowering plants",
+"fact": "Criteria: endemic plants + threat (habitat loss)."
+},
+{
+"l": "opt3",
+"t": "Biodiversity hotspots are characterised on the basis of Endemic flowering plant.",
+"v": "F",
+"m": "scope restriction",
+"d": "Endemic flowering plant",
+"fact": "Endemism must be combined with threat (>=70% habitat lost)."
+},
+{
+"l": "opt4",
+"t": "Biodiversity hotspots are characterised on the basis of Diversity of plants.",
+"v": "F",
+"m": "definition distortion",
+"d": "Diversity of plants",
+"fact": "Criteria are endemism + threat, not diversity alone."
+}
+],
+"rule": "Hotspot: >=1,500 endemic vascular plants + >=70% habitat lost; India has 4 (Himalaya, Indo-Burma, W Ghats-Sri Lanka, Sundaland).",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper1#78",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M2B.3.2/1",
+"format": "one-liner",
+"stem": "In which type of community, the number of species per unit area will be more",
+"options": [
+"Temperate forest",
+"Deciduous forest",
+"Tropical rain forest",
+"Taiga forest"
+],
+"key": "Tropical rain forest",
+"deleted": 0,
+"core_fact": "Species richness per unit area is highest in tropical rain forests and decreases towards the poles (latitudinal gradient).",
+"statements": [
+{
+"l": "opt1",
+"t": "The number of species per unit area is more in Temperate forest.",
+"v": "F",
+"m": "comparison reversal",
+"d": "Temperate forest",
+"fact": "Rainforests have more species."
+},
+{
+"l": "opt2",
+"t": "The number of species per unit area is more in Deciduous forest.",
+"v": "F",
+"m": "comparison reversal",
+"d": "Deciduous forest",
+"fact": "Rainforests have more species."
+},
+{
+"l": "opt3",
+"t": "The number of species per unit area is more in Tropical rain forest.",
+"v": "T",
+"m": null,
+"d": "Tropical rain forest",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "The number of species per unit area is more in Taiga forest.",
+"v": "F",
+"m": "comparison reversal",
+"d": "Taiga forest",
+"fact": "Taiga has low richness."
+}
+],
+"rule": "Diversity decreases from equator to poles; Amazon richest.",
+"key_note": ""
+},
+{
+"id": "mains-2017-paper3#136",
+"year": 2017,
+"stage": "Mains",
+"leaf": "M2B.3.5",
+"format": "one-liner",
+"stem": "In which district of Andhra Pradesh, the 'Kandaleru Deer Part' is located?",
+"options": [
+"SPS Nellore",
+"YSR Kadapa",
+"Chittor",
+"Kurnool"
+],
+"key": "SPS Nellore",
+"deleted": 0,
+"core_fact": "The Kandaleru deer park is in SPS Nellore district (near the Kandaleru reservoir of the Telugu Ganga system).",
+"statements": [
+{
+"l": "opt1",
+"t": "The Kandaleru Deer Park is located in SPS Nellore district.",
+"v": "T",
+"m": null,
+"d": "SPS Nellore",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The Kandaleru Deer Park is located in YSR Kadapa district.",
+"v": "F",
+"m": "location substitution",
+"d": "YSR Kadapa",
+"fact": "SPS Nellore."
+},
+{
+"l": "opt3",
+"t": "The Kandaleru Deer Park is located in Chittor district.",
+"v": "F",
+"m": "location substitution",
+"d": "Chittor",
+"fact": "SPS Nellore."
+},
+{
+"l": "opt4",
+"t": "The Kandaleru Deer Park is located in Kurnool district.",
+"v": "F",
+"m": "location substitution",
+"d": "Kurnool",
+"fact": "SPS Nellore."
+}
+],
+"rule": "Name-place link: Kandaleru reservoir = Nellore.",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper1#59",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M2B.3.1/1",
+"format": "one-liner (no options: stem + key)",
+"stem": "The total weight of all organisms in a unit area or volume a given time",
+"options": null,
+"key": "Biomass",
+"deleted": 0,
+"core_fact": "Biomass = total mass of living organisms in a unit area/volume at a given time (standing crop).",
+"statements": [
+{
+"l": "key",
+"t": "The total weight of all organisms in a unit area or volume at a given time is biomass.",
+"v": "T",
+"m": null,
+"d": "Biomass",
+"fact": null
+}
+],
+"rule": "Biomass = standing crop at an instant; productivity = rate.",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper1#60",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M2B.3.3/2",
+"format": "one-liner (no options: stem + key)",
+"stem": "The national fish of India is",
+"options": null,
+"key": "Indian Mckerel",
+"deleted": 0,
+"core_fact": "Exam keys give the Indian mackerel as India's national fish; no national fish has been formally notified (mahseer often cited).",
+"statements": [
+{
+"l": "key",
+"t": "The national fish of India is the Indian mackerel.",
+"v": "T",
+"m": null,
+"d": "Indian Mckerel",
+"fact": null
+}
+],
+"rule": "National aquatic animal = Gangetic dolphin (notified); national fish = keys say Indian mackerel.",
+"key_note": "No national fish is officially notified; some sources say golden mahseer. Key (Indian mackerel) kept."
+},
+{
+"id": "mains-2019-paper1#61",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M2B.3.2/5",
+"format": "one-liner (no options: stem + key)",
+"stem": "Which year was declared as the International year of Biodiversity?",
+"options": null,
+"key": "2010",
+"deleted": 0,
+"core_fact": "UNGA declared 2010 the International Year of Biodiversity; 2011-2020 = UN Decade on Biodiversity.",
+"statements": [
+{
+"l": "key",
+"t": "2010 was declared the International Year of Biodiversity.",
+"v": "T",
+"m": null,
+"d": "2010",
+"fact": null
+}
+],
+"rule": "2010 = IYB (Aichi targets at COP-10 Nagoya); 2011-20 = UN Decade on Biodiversity.",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper1#62",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M2B.3.5",
+"format": "one-liner (no options: stem + key)",
+"stem": "What is the National Aquatic Animal of India?",
+"options": null,
+"key": "River Dolphin",
+"deleted": 0,
+"core_fact": "The Gangetic river dolphin was declared India's National Aquatic Animal (decision Oct 2009; notified 2010).",
+"statements": [
+{
+"l": "key",
+"t": "The national aquatic animal of India is the river dolphin.",
+"v": "T",
+"m": null,
+"d": "River Dolphin",
+"fact": null
+}
+],
+"rule": "National aquatic animal = Gangetic dolphin (2009); National Dolphin Day = 5 October.",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper1#63",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M2B.3.2/1",
+"format": "one-liner (no options: stem + key)",
+"stem": "Which molecular methodology from the following is used for species identification?",
+"options": null,
+"key": "DNA barcoding",
+"deleted": 0,
+"core_fact": "DNA barcoding identifies species using a short standard gene region (COI for animals; rbcL/matK for plants).",
+"statements": [
+{
+"l": "key",
+"t": "DNA barcoding is the molecular methodology used for species identification.",
+"v": "T",
+"m": null,
+"d": "DNA barcoding",
+"fact": null
+}
+],
+"rule": "Barcoding = species ID; fingerprinting = individual ID.",
+"key_note": ""
+},
+{
+"id": "mains-2019-paper1#66",
+"year": 2019,
+"stage": "Mains",
+"leaf": "M2B.3.2/5",
+"format": "one-liner (no options: stem + key)",
+"stem": "What is the full form of IUCN?",
+"options": null,
+"key": "International Union for Conservation of Nature.",
+"deleted": 0,
+"core_fact": "IUCN = International Union for Conservation of Nature (and Natural Resources), founded 1948, HQ Gland; publishes the Red List.",
+"statements": [
+{
+"l": "key",
+"t": "IUCN stands for International Union for Conservation of Nature.",
+"v": "T",
+"m": null,
+"d": "International Union for Conservation of Nature.",
+"fact": null
+}
+],
+"rule": "IUCN = Union, Conservation, Nature; Red List categories EX-EW-CR-EN-VU-NT-LC.",
+"key_note": ""
+},
+{
+"id": "prelims-2019#32",
+"year": 2019,
+"stage": "Prelims",
+"leaf": "M2B.3.3/2",
+"format": "one-liner",
+"stem": "_______ is the State animal of Andhra Pradesh.",
+"options": [
+"Mithun",
+"Blackbuck",
+"Sangai",
+"Elephant"
+],
+"key": null,
+"deleted": 1,
+"core_fact": "Andhra Pradesh's state animal is the Blackbuck (Krishna Jinka); Mithun - Arunachal/Nagaland, Sangai - Manipur, Elephant - Karnataka/Kerala/Jharkhand/Odisha.",
+"statements": [
+{
+"l": "opt1",
+"t": "The State animal of Andhra Pradesh is Mithun.",
+"v": "F",
+"m": "wrong pair",
+"d": "Mithun",
+"fact": "AP's state animal is the Blackbuck."
+},
+{
+"l": "opt2",
+"t": "The State animal of Andhra Pradesh is Blackbuck.",
+"v": "T",
+"m": null,
+"d": "Blackbuck",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "The State animal of Andhra Pradesh is Sangai.",
+"v": "F",
+"m": "wrong pair",
+"d": "Sangai",
+"fact": "Sangai is Manipur's state animal."
+},
+{
+"l": "opt4",
+"t": "The State animal of Andhra Pradesh is Elephant.",
+"v": "F",
+"m": "wrong pair",
+"d": "Elephant",
+"fact": "Elephant is the state animal of Karnataka/Kerala/Jharkhand/Odisha."
+}
+],
+"rule": "AP symbols: animal Blackbuck, bird Rose-ringed parakeet, tree Neem, flower Jasmine.",
+"key_note": "Deleted by APPSC in the final key (reason not given; the Blackbuck answer is factually correct)."
+},
+{
+"id": "mains-2025-paper2#120",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M2B.3.3/1",
+"format": "one-liner",
+"stem": "CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) is also known as",
+"options": [
+"Geneva Convention",
+"Kyoto Protocol",
+"Washington Convention",
+"Paris Agreement"
+],
+"key": "Washington Convention",
+"deleted": 0,
+"core_fact": "CITES was signed in Washington DC on 3 March 1973 (in force 1975), hence 'Washington Convention'; India joined 1976; 3 March = World Wildlife Day.",
+"statements": [
+{
+"l": "opt1",
+"t": "CITES is also known as the Geneva Convention.",
+"v": "F",
+"m": "location substitution",
+"d": "Geneva Convention",
+"fact": "Geneva Conventions are humanitarian law; CITES = Washington Convention."
+},
+{
+"l": "opt2",
+"t": "CITES is also known as the Kyoto Protocol.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Kyoto Protocol",
+"fact": "Kyoto is UNFCCC's protocol."
+},
+{
+"l": "opt3",
+"t": "CITES is also known as the Washington Convention.",
+"v": "T",
+"m": null,
+"d": "Washington Convention",
+"fact": null
+},
+{
+"l": "opt4",
+"t": "CITES is also known as the Paris Agreement.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Paris Agreement",
+"fact": "Paris Agreement is climate (2015)."
+}
+],
+"rule": "City-named treaties: Washington (CITES), Ramsar, Bonn (CMS), Basel, Rotterdam, Stockholm, Minamata.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper2#122",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M2B.3.1/1",
+"format": "two-statement (A/B true-false)",
+"stem": "Statement A : Natality refers to the birth of individuals in a population.\nStatement B : Natality rate is expressed as the number of individuals produced per female per unit time.",
+"options": [
+"Both statements A and B are true",
+"Both statements A and B are false",
+"Statement A is true, but statement B is false",
+"Statement A is false, but statement B is true"
+],
+"key": "Both statements A and B are true",
+"deleted": 0,
+"core_fact": "Natality = births added to a population; natality rate is expressed per unit time, often as offspring per female (per capita) per unit time.",
+"statements": [
+{
+"l": "S1",
+"t": "Natality refers to the birth of individuals in a population.",
+"v": "T",
+"m": null,
+"d": "birth of individuals",
+"fact": null
+},
+{
+"l": "S2",
+"t": "Natality rate is expressed as the number of individuals produced per female per unit time.",
+"v": "T",
+"m": null,
+"d": "per female per unit time",
+"fact": null
+}
+],
+"rule": "Natality/mortality/immigration/emigration change N; rates are per capita per time.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper2#124",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M2B.3.1/1",
+"format": "one-liner",
+"stem": "Population density is generally expressed as",
+"options": [
+"The total number of individuals in a population",
+"The number of individuals per unit area",
+"The geographic distribution of the population",
+"The number of individuals within a sample area"
+],
+"key": "The number of individuals per unit area",
+"deleted": 0,
+"core_fact": "Population density = number of individuals per unit area (or volume); total number = population size.",
+"statements": [
+{
+"l": "opt1",
+"t": "Population density is expressed as the total number of individuals in a population.",
+"v": "F",
+"m": "definition distortion",
+"d": "total number",
+"fact": "That is population size; density is per unit area."
+},
+{
+"l": "opt2",
+"t": "Population density is expressed as the number of individuals per unit area.",
+"v": "T",
+"m": null,
+"d": "per unit area",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Population density is expressed as the geographic distribution of the population.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "geographic distribution",
+"fact": "Distribution/dispersion differs from density."
+},
+{
+"l": "opt4",
+"t": "Population density is expressed as the number of individuals within a sample area.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "within a sample area",
+"fact": "A raw count is not density unless divided by area."
+}
+],
+"rule": "Density = N per unit area/volume; size = N.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper2#136",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M2B.3.1/2",
+"format": "statement-based (choose the correct)",
+"stem": "Choose the correct statement.",
+"options": [
+"Producers in an aquatic ecosystem are green plants",
+"Archea are a type of producers who use energy from chemical compounds",
+"Consumers are heterotrophs able to produce their food",
+"The stability of ecosystem depends on consumers"
+],
+"key": "Archea are a type of producers who use energy from chemical compounds",
+"deleted": 0,
+"core_fact": "Producers are autotrophs: photoautotrophs (plants, phytoplankton) and chemoautotrophs (some archaea/bacteria using chemical energy). Consumers are heterotrophs that cannot make their food. In water the main producers are phytoplankton.",
+"statements": [
+{
+"l": "opt1",
+"t": "Producers in an aquatic ecosystem are green plants.",
+"v": "F",
+"m": "scope restriction",
+"d": "green plants",
+"fact": "Main aquatic producers are phytoplankton (algae), not green plants."
+},
+{
+"l": "opt2",
+"t": "Archaea are a type of producers who use energy from chemical compounds.",
+"v": "T",
+"m": null,
+"d": "energy from chemical compounds",
+"fact": null
+},
+{
+"l": "opt3",
+"t": "Consumers are heterotrophs able to produce their food.",
+"v": "F",
+"m": "definition distortion",
+"d": "able to produce their food",
+"fact": "Consumers cannot produce their own food."
+},
+{
+"l": "opt4",
+"t": "The stability of an ecosystem depends on consumers.",
+"v": "F",
+"m": "definition distortion",
+"d": "depends on consumers",
+"fact": "Stability depends chiefly on producers and biodiversity, not on consumers."
+}
+],
+"rule": "Producers = photo- + chemo-autotrophs; aquatic = phytoplankton.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper2#137",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M2B.3.1/2",
+"format": "matching",
+"stem": "Match List - I with List - II and choose the correct answer using the codes given below. (Common codes for English and Telugu Versions)\nList - I (Biotic factor) / List - II (Characteristic feature)\na. Humans - I. Recycling nutrients\nb. Saprotrophs - II. Top order heterotrophs in food chain\nc. Reptiles - III. Less urinating animal\nd. Camel - IV. Stenothermal",
+"options": [
+"a-IV, b-III, c-I, d-II",
+"a-II, b-I, c-III, d-IV",
+"a-II, b-I, c-IV, d-III",
+"a-IV, b-III, c-II, d-I"
+],
+"key": "a-II, b-I, c-IV, d-III",
+"deleted": 0,
+"core_fact": "Humans - top-order heterotrophs; saprotrophs - nutrient recycling; reptiles - stenothermal (key); camel - passes little urine (water conservation).",
+"statements": [
+{
+"l": "a-II",
+"t": "Humans: top order heterotrophs in food chain.",
+"v": "T",
+"m": null,
+"d": "Top order heterotrophs in food chain",
+"fact": null
+},
+{
+"l": "b-I",
+"t": "Saprotrophs: recycling nutrients.",
+"v": "T",
+"m": null,
+"d": "Recycling nutrients",
+"fact": null
+},
+{
+"l": "c-IV",
+"t": "Reptiles: stenothermal.",
+"v": "T",
+"m": null,
+"d": "Stenothermal",
+"fact": null
+},
+{
+"l": "d-III",
+"t": "Camel: less urinating animal.",
+"v": "T",
+"m": null,
+"d": "Less urinating animal",
+"fact": null
+},
+{
+"l": "a-IV",
+"t": "Humans: stenothermal.",
+"v": "F",
+"m": "wrong pair",
+"d": "Stenothermal",
+"fact": "Humans matches Top order heterotrophs in food chain; Stenothermal belongs to Reptiles."
+},
+{
+"l": "b-III",
+"t": "Saprotrophs: less urinating animal.",
+"v": "F",
+"m": "wrong pair",
+"d": "Less urinating animal",
+"fact": "Saprotrophs matches Recycling nutrients; Less urinating animal belongs to Camel."
+},
+{
+"l": "c-I",
+"t": "Reptiles: recycling nutrients.",
+"v": "F",
+"m": "wrong pair",
+"d": "Recycling nutrients",
+"fact": "Reptiles matches Stenothermal; Recycling nutrients belongs to Saprotrophs."
+},
+{
+"l": "d-II",
+"t": "Camel: top order heterotrophs in food chain.",
+"v": "F",
+"m": "wrong pair",
+"d": "Top order heterotrophs in food chain",
+"fact": "Camel matches Less urinating animal; Top order heterotrophs in food chain belongs to Humans."
+},
+{
+"l": "c-III",
+"t": "Reptiles: less urinating animal.",
+"v": "F",
+"m": "wrong pair",
+"d": "Less urinating animal",
+"fact": "Reptiles matches Stenothermal; Less urinating animal belongs to Camel."
+},
+{
+"l": "d-IV",
+"t": "Camel: stenothermal.",
+"v": "F",
+"m": "wrong pair",
+"d": "Stenothermal",
+"fact": "Camel matches Less urinating animal; Stenothermal belongs to Reptiles."
+},
+{
+"l": "c-II",
+"t": "Reptiles: top order heterotrophs in food chain.",
+"v": "F",
+"m": "wrong pair",
+"d": "Top order heterotrophs in food chain",
+"fact": "Reptiles matches Stenothermal; Top order heterotrophs in food chain belongs to Humans."
+},
+{
+"l": "d-I",
+"t": "Camel: recycling nutrients.",
+"v": "F",
+"m": "wrong pair",
+"d": "Recycling nutrients",
+"fact": "Camel matches Less urinating animal; Recycling nutrients belongs to Saprotrophs."
+}
+],
+"rule": "Saprotrophs = decomposers = nutrient recycling; camel = water conservation.",
+"key_note": "Calling reptiles 'stenothermal' is loose (they are ectotherms; many tolerate a range); key kept."
+},
+{
+"id": "mains-2025-paper2#138",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M2B.3.1/3",
+"format": "one-liner",
+"stem": "Forests that are located in mid latitude areas between tropics and polar region",
+"options": [
+"Temperate deciduous forests",
+"Coniferous forests",
+"Grass lands",
+"Scrub jungles"
+],
+"key": "Temperate deciduous forests",
+"deleted": 0,
+"core_fact": "Temperate deciduous forests occupy mid-latitudes (about 30-50 N/S) between tropics and polar regions; coniferous (boreal/taiga) lie at higher latitudes (50-70 N).",
+"statements": [
+{
+"l": "opt1",
+"t": "Temperate deciduous forests are located in mid-latitude areas between the tropics and the polar regions.",
+"v": "T",
+"m": null,
+"d": "Temperate deciduous forests",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "Coniferous forests are located in mid-latitude areas between the tropics and the polar regions.",
+"v": "F",
+"m": "location substitution",
+"d": "Coniferous forests",
+"fact": "Coniferous (taiga) forests lie at high latitudes (50-70 N)."
+},
+{
+"l": "opt3",
+"t": "Grasslands are the forests located in mid-latitude areas between the tropics and the polar regions.",
+"v": "F",
+"m": "category confusion",
+"d": "Grass lands",
+"fact": "Grasslands are not forests (temperate grasslands exist but are non-forest)."
+},
+{
+"l": "opt4",
+"t": "Scrub jungles are located in mid-latitude areas between the tropics and the polar regions.",
+"v": "F",
+"m": "location substitution",
+"d": "Scrub jungles",
+"fact": "Scrub jungles are dry tropical vegetation."
+}
+],
+"rule": "Tropics -> evergreen/deciduous; mid-latitudes -> temperate deciduous; high -> coniferous; polar -> tundra.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper2#139",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M2B.3.1/2",
+"format": "assertion-reason",
+"stem": "Assertion (A) : Grazing food chain begins with dead leaves via herbivores to carnivores.\nReason (R) : In grazing food chain autotrophs capture energy and transfer to herbivores.",
+"options": [
+"(A) and (R) are correct and (R) is the correct explanation of (A)",
+"(A) and (R) are correct but (R) is not the correct explanation of (A)",
+"(A) is correct but (R) is not correct",
+"(A) is not correct but (R) is correct"
+],
+"key": "(A) is not correct but (R) is correct",
+"deleted": 0,
+"core_fact": "Grazing food chain starts with living green plants (autotrophs) -> herbivores -> carnivores; detritus food chain starts with dead organic matter (dead leaves) -> decomposers.",
+"statements": [
+{
+"l": "A",
+"t": "Grazing food chain begins with dead leaves via herbivores to carnivores.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "dead leaves",
+"fact": "Grazing food chain begins with living producers; dead leaves start the detritus food chain."
+},
+{
+"l": "R",
+"t": "In grazing food chain autotrophs capture energy and transfer to herbivores.",
+"v": "T",
+"m": null,
+"d": "autotrophs capture energy",
+"fact": null
+}
+],
+"rule": "GFC: plants->herbivore; DFC: detritus->detritivore; in forests DFC carries more energy.",
+"key_note": ""
+},
+{
+"id": "mains-2025-paper2#140",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M2B.3.1/1",
+"format": "negative one-liner",
+"stem": "Biogeochemical cycle in which the main reservoir is not the soil",
+"options": [
+"Sulphur cycle",
+"Nitrogen cycle",
+"Phosphorous cycle",
+"Calcium cycle"
+],
+"key": "Sulphur cycle",
+"deleted": 0,
+"core_fact": "Gaseous cycles (N, C, O) have atmospheric/oceanic reservoirs; sedimentary cycles (P, S, Ca) have reservoirs in rocks/sediments (lithosphere). The nitrogen cycle's main reservoir is the atmosphere (78% N2).",
+"statements": [
+{
+"l": "opt1",
+"t": "The sulphur cycle is a biogeochemical cycle whose main reservoir is not the soil.",
+"v": "T",
+"m": null,
+"d": "Sulphur cycle",
+"fact": null
+},
+{
+"l": "opt2",
+"t": "The nitrogen cycle is a biogeochemical cycle whose main reservoir is not the soil.",
+"v": "F",
+"m": "true statement in a NOT-question (distractor)",
+"d": "Nitrogen cycle",
+"fact": "Per the key this is not the answer; factually the nitrogen cycle's main reservoir is the atmosphere, so the statement is true."
+},
+{
+"l": "opt3",
+"t": "The phosphorus cycle is a biogeochemical cycle whose main reservoir is not the soil.",
+"v": "F",
+"m": "true statement in a NOT-question (distractor)",
+"d": "Phosphorous cycle",
+"fact": "Phosphorus is stored in rocks/sediments and soil."
+},
+{
+"l": "opt4",
+"t": "The calcium cycle is a biogeochemical cycle whose main reservoir is not the soil.",
+"v": "F",
+"m": "true statement in a NOT-question (distractor)",
+"d": "Calcium cycle",
+"fact": "Calcium is stored in rocks/soil."
+}
+],
+"rule": "Gaseous: N, O, C (atmosphere/ocean); sedimentary: P, S, Ca (lithosphere).",
+"key_note": "Doubtful key: the nitrogen cycle is the classic cycle whose main reservoir is the atmosphere, not soil; sulphur is usually a sedimentary cycle. Key (sulphur) kept."
+},
+{
+"id": "mains-2025-paper2#141",
+"year": 2025,
+"stage": "Mains",
+"leaf": "M2B.3.2/3",
+"format": "one-liner",
+"stem": "CR in IUCN red list refers to",
+"options": [
+"Extinct in the wild",
+"Critically extinct",
+"Endangered",
+"Critically endangered"
+],
+"key": "Critically endangered",
+"deleted": 0,
+"core_fact": "IUCN categories: EX, EW, CR (Critically Endangered), EN, VU, NT, LC, DD, NE.",
+"statements": [
+{
+"l": "opt1",
+"t": "CR in the IUCN Red List refers to Extinct in the Wild.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Extinct in the wild",
+"fact": "EW is a separate category; CR = Critically Endangered."
+},
+{
+"l": "opt2",
+"t": "CR in the IUCN Red List refers to Critically extinct.",
+"v": "F",
+"m": "fabricated",
+"d": "Critically extinct",
+"fact": "No 'critically extinct' category exists."
+},
+{
+"l": "opt3",
+"t": "CR in the IUCN Red List refers to Endangered.",
+"v": "F",
+"m": "similar-term confusion",
+"d": "Endangered",
+"fact": "Endangered = EN."
+},
+{
+"l": "opt4",
+"t": "CR in the IUCN Red List refers to Critically endangered.",
+"v": "T",
+"m": null,
+"d": "Critically endangered",
+"fact": null
+}
+],
+"rule": "Threatened = CR, EN, VU; EW and EX are above them.",
+"key_note": ""
+}
+],
+"related_count": 371,
+"related_sample": [
+"The Gulf of Mannar Biosphere Reserve is known for → Coral reefs [APPSC Forest Beat Officer & Assistant Be]",
+"Which islands of India are also known as coral islands? → Lakshadweep [APPSC]",
+"The region above aphotic zone, having insufficient light for photosynthesis, in the ocean is called as → Disphotic Zone [APPSC Forest Beat Officer & Assistant Be]",
+"Which of the following zones has highest percentage of marine habitats? → Epipelagic [APPSC Forest Beat Officer & Assistant Be]",
+"In the open sea, the zone extending from the high water to the low water zone of the coastal belt, upto a depth of 200 m inside the sea, is called: → Neritic zone [APPSC Forest Section Officer General Stu]",
+"Which of the following is a real fish? → Sea horse [APPSC Forest Beat Officer & Assistant Be]",
+"Which of the following is true about phytoplankton? → They are salt tolerant [APPSC Group-III Panchayat Secretary Main]",
+"Coral reefs are large underwater structures composed of the skeletons of colonial marine invertebrates called ‘coral’. The major chemical component of these coral reefs is: → Calcium carbonate [APPSC]",
+"Oyster shells are composed primarily of? → Calcium Carbonate [APPSC 2018 Special Qualifying Test for A]",
+"How does ocean acidification affect marine organisms? → Reduces shell formation in marine species [APPSC Forest Beat Officer & Assistant Be]",
+"In which State of India Corbet National Park is located? → Uttarkand [APPSC Draughtsman (Technical Assistant) ]",
+"Kaziranga National Park is situated in which state? → Assam [APPSC AEE Electrical Engineering Screeni]",
+"Kaziranga National Park is situated in which of the following States? → Assam [APPSC AEE Civil & Mechanical Engineering]",
+"In which State is the Keoladeo Ghana National park situated? → Rajasthan [APPSC AEE Screening Test 2016]",
+"In which State of India Corbett National Park is located? → Uttarakhand [APPSC Endowment Subordinate Service (Mai]",
+"Which of the following pairs of National Parks and the States in which it is located is INCORRECT? → Balpakram National Park - Manipur [APPSC 2023 Assistant Motor Vehicle Inspe]",
+"Which of the following matches is correct? → Manas National Park - Assam [APPSC Extension Officer Grade-I Common P]",
+"The Keoladeo Ghana National Park is situated in the State of ______. → Rajasthan [APPSC Forest Range Officer Screening Tes]",
+"Match the national parks with the state where they are located.\nNational parks State\nI. Tadoba\nII. Dudhwa\nIII. Sariska\nIV. Mrugavani\na. Telangana\nb. Maharashtra\nc. Rajasthan\nd. Uttar Pradesh → I-b, II-d, III-c, IV-a [APPSC Sample Taker 2023]",
+"In which of the following national parks has the Supreme Court banned all mining activites? → Kaziranga National Park [APPSC Forest Beat Officer & Assistant Be]",
+"Where is Bandipur National Park situated? → Western Ghats [APPSC Medical Officer (AYUSH Department)]",
+"The Marine National Park is located in → Gujarat [APPSC Forest Section Officer Screening T]",
+"What was the main issue in MK Ranjitsinh versus Union of India (2024)? → Protection of Great Indian Bustard [APPSC Assistant Environmental Engineer a]",
+"Out of the given below, which animal / bird was declared extinct in India in 1952? → Cheetah [APPSC Assistant Director in AP Economic ]",
+"Conservationists working with the Great Indian One-Horned Rhinoceros species have welcomed the birth of a rhino calf at the ____ National Park in January 2020. → Manas [APPSC Polytechnic Lecturers (S1) General]",
+"Which National Park is famous for the conservation of the Indian rhinoceros ? → Kaziranga National Park [APPSC 2025 Forest Beat Officer and Assis]",
+"Which of the following is NOT a part of the Nilgiri Biosphere Reserve? → Kudremukha National Park [APPSC Dr. NTR University of Health Scien]",
+"In which of the following States is Simlipal bio reserve located? → Orissa [APPSC Assistant Social, BC & Tribal Welf]",
+"In which State is the Nokrek Biosphere reserve is located? → Meghalaya [APPSC Assistant Architectural Surveyor &]",
+"Which of the following states has the highest number of national parks? → Madhya Pradesh [APPSC Forest Beat Officer & Assistant Be]",
+"Which is India's first national park ? → Jim Corbett National Park [APPSC 2025 Forest Beat Officer and Assis]",
+"Match the following List-I with List-II\nName of Wild life Sanctuary:\n1. Yangoupokpi Wild life Sanctuary\n2. Bhagwan Mahavir Wild life Sanctuary\n3. Great India Bustard Wild Life Sanctuary\n4. Badrama Wil → 1-IV, 2-V, 3-I, 4-II, 5-III [APPSC Animal Husbandry Department Genera]",
+"Out of the following, which is not a Unesco World Heritage Site? → Kanha National Park [APPSC Welfare Organiser in AP Sainik Wel]",
+"Which of the following is inscribed as a 'Mixed World Heritage Site' in the UNESCO World Heritage List? → Khangchendzonga National Park [APPSC Assistant Section Officer (ASO) Ma]",
+"Which of the following is NOT a UNESCO World Heritage Site ? → Dadra and Nagar Haveli [APPSC 2025 Forest Section Officer]",
+"In which of the following year, United Nations Environmental Programme (UNEP) was founded? → 1972 [APPSC Lecturers in Government Degree Col]",
+"Which of the following animals is a logo of the World Wildlife Fund? → Panda [APPSC Lecturers in Government Polytechni]",
+"As per latest statistics, in which State of India, the highest number of tigers are found? → Madhya Pradesh [APPSC Group-III Panchayat Secretary Main]",
+"The Orang in Assam is → one of the Tiger Reserves in India [APPSC Group-III Panchayat Secretary Main]",
+"Khichan and Menar wetlands, recently seen in news are located in which State? → Rajasthan [APPSC Endowment Subordinate Service (Mai]",
+"As on January 2020 how many wetlands in India have been declared as Ramsar Sites? → 37 [APPSC Assistant Chemist (AP Ground Water]",
+"How many new wetlands from India have been declared as Ramsar sites in current year (2022)? → 28 [APPSC 2022 Assistant Conservator of Fore]",
+"Which of the following finds a place in the Ramsar List of Wetlands? → Kolleru Lake [APPSC Assistant Director of Economics, A]",
+"In which of these states of India, Loktak lake is located? → Manipur [APPSC Deputy Educational Officer Screeni]",
+"The Ramsar Convention is related to: → wetlands [APPSC 2019 Various non Gazetted Posts Li]",
+"Match Column A with Column B.\nColumn A:\n\n1. Bar headed Goose\n\n2. Black necked Crane\n\n3. Common Raven\n\n4. Golden Eagle\nColumn B:\n\na. Aquila clanga\n\nb. Grus nigricollis\n\nc. World's highest flying bird\n\n → 1-(c); 2-(b); 3-(d); 4-(a) [APPSC Forest Range Officer Screening Tes]",
+"Match the following Bird Species with Their Migration Patterns.\n\n1. Bar-headed Goose\n\n2. Amur Falcon\n\n3. Siberian Crane\n\n4. Demoiselle Crane\n\na. Winter visitor to Indian wetlands, migrating from Siber → 1-d; 2-c; 3-a; 4-b [APPSC Forest Range Officer Screening Tes]",
+"What is the National Bird of India? → Peacock [APPSC Assistant Architectural Surveyor &]",
+"Which Indian state is known as the 'Falcon Capital of the world'? → Nagaland [APPSC Degree Lecturers General Studies &]",
+"In which district Telukunchi Bird Sanctuary is? → Srikakulam [APPSC Assistant Director of Economics, A]",
+"Where is the Pitti Bird Sanctuary located? → Lakshadweep [APPSC 2023 Assistant Motor Vehicle Inspe]",
+"Which of the following is the first bird sanctuary established in India? → Vedanthangal Bird Sanctuary [APPSC Forest Range Officer Screening Tes]",
+"Which of the following states has the highest elephant population? → Karnataka [APPSC Forest Beat Officer & Assistant Be]",
+"The World Environment Day is celebrated on: → June 05 [APPSC Lecturers in Government Degree Col]",
+"______ are losing their lives due to mechanised boats and big nets used by fishermen for fishing in Andhra Pradesh and Odisha. → Olive Ridley sea turtles [APPSC Junior Lecturers in Government Jun]",
+"What is the name of the reserve in Andhra Pradesh that is part of the 'Project Elephant' scheme? It is shared by the state and the centre. → Rayala Elephant Reserve [APPSC Junior Lecturers in Government Jun]",
+"Salim Ali is related to which of the following fields? → Environment [APPSC Lecturers in Government Polytechni]",
+"How many Zoo parks are there in Andhra Pradesh? → 2 [APPSC Asst. Social, B.C. & Tribal Welfar]",
+"The Papikonda National Park is in which State? → Andhra Pradesh [APPSC Forest Range Officer Mains Paper-I]",
+"Godavari river flows through which of the following National Parks in Andhra Pradesh? → Papikonda National Park [APPSC 2023 Assistant Motor Vehicle Inspe]",
+"How many national parks are found in the state of Andhra Pradesh? → 3 [APPSC Polytechnic Lecturers (S1) General]",
+"How many wildlife sanctuaries are found in the state of Andhra Pradesh? → 13 [APPSC Polytechnic Lecturers (S1) General]",
+"As of January 2020, how many wildlife sanctuaries are there in Andhra Pradesh? → 13 [APPSC Junior Lecturers General Studies &]",
+"As of December 2021, what is the total number of wildlife sanctuaries in Andhra Pradesh? → 13 [APPSC Assistant Engineers 2022]",
+"As of 2019, Andhra Pradesh has _______ Wildlife Sanctuaries. → 13 [APPSC 2022 Forest Range Officers]",
+"A unique dwarf breed of goat known locally as the 'kanchu mekha' is found in which of the following places in Andhra Pradesh? → Papikonda National Park [APPSC Polytechnic Colleges Lecturers (En]",
+"Which of the following Wildlife Sanctuary is not located in Andhra Pradesh? → Manjra Wildlife Sanctuary [APPSC Forest Section Officer (Mains) Pap]",
+"Consider the following statements:\na. Papikonda National Park is shared by three different districts namely East Godavari and West Godavari districts of Andhra Pradesh and Khammam district of Telangan → Both b and c [APPSC Forest Section Officer General Stu]",
+"In which district of Andhra Pradesh, the Sri Venkateswara National Park is situated? → Tirupati and Annamayya [APPSC 2022 Various Non Gazetted Posts Li]",
+"Which of the following Wildlife Sanctuaries is not located in Andhra Pradesh? → Bhainsrorgarh Wildlife Sanctuary [APPSC Asst. Chemist, Asst. Director, Civ]",
+"In which district of Andhra Pradesh, the 'Kandaleru Deer Park' is located? → SPS Nellore [same exam]",
+"Which one of the following is NOT a wildlife sanctuary in Andhra Pradesh? → Chinnar Wildlife Sanctuary [APPSC 2022 Various Non Gazetted Posts Li]",
+"Cycas beddomei, the living fossil, is endemic to which of the following regions? → Sri Venkateswara National Park & Sanctuary [APPSC Polytechnic Lecturers 13-03-2020]",
+"Sri. Venkateswara National Park is famous for the protection of the: → golden gecko [APPSC 2019 Various non Gazetted Posts Li]",
+"Scientific name of Red Sandalwood is → Pterocarpus santalinus [APPSC Forest Beat Officer & Assistant Be]",
+"What is the State animal of Andhra Pradesh State? → Black Buck [APPSC Royalty Inspector, Agriculture Off]",
+"Which of the following is the first Biosphere Reserve in Andhra Pradesh? → Seshachalam [APPSC 2018 Lecturers in Government Polyt]",
+"Which is the only sanctuary in Andhra Pradesh with population of Asian elephants? → Koundinya Wild life Sanctuary [APPSC Asst. Social, B.C. & Tribal Welfar]",
+"What event in the 1980s led to the migration of elephants into the Palamaner region of Andhra Pradesh? → Drought conditions in Hosur-Dharmapuri reserve forest and Bannerghatta National Park [APPSC Forest Range Officer Screening Tes]",
+"Which of the following is an elephant reserve in Andhra Pradesh? → Koundinya Wildlife Sanctuary [APPSC 2019 Various non Gazetted Posts Li]"
+]
+}
