@@ -11,9 +11,13 @@ Approved 2026-11-27: fetch official keys; include ALL papers (G2 2008/2012 too; 
       deduplicated: SECONDARY tier G1 931 + G2 1,155 (app keys, years 1983-2012 + undated PYQ books); TERTIARY tier
       13,360 from other APPSC exams (Group III, Forest, Lecturers, Endowments ...) as supporting evidence of APPSC
       framing only. DB total 18,758 questions. Every count reports the tiers separately.
-- [ ] Stage 2b: restore options of G2 Mains 2019 (432 Qs) from the bilingual booklets
+- [x] Stage 2b: G2 Mains 2019 – the APPSC documents are final-KEY booklets (keyed option only): all 432 keys confirmed;
+      the other 3 options are in no available document (analysed as stem + key, no distractor analysis)
 - [x] Stage 2c: keys checked (keycheck_g1/g2.jsonl, applied by tools/pyqdecode_keys.py). G1: 530 match, 9 deleted,
       1 changed by APPSC final key (2023 P2 Q63); G2: all APPSC-document keys match; 27 conflicts with the third-party
       2008 compilation kept as CONFLICT notes for fact verification.
-- [ ] Stage 3: map G1 questions to the 237 G1 leaves; re-check G2 mapping
+- [x] Stage 3 (automatic): tools/pyqdecode_map.py – topic + candidate leaves for 18,742 of 18,758 questions; exact leaf
+      chosen per question in Stage 4. Drafts: tools/pyqdecode_anatomy.py loaded 64,900 earlier statements as drafts.
+- [ ] Stage 4: official papers – 84 jobs (g1-1..30, g2-1..54; docs/pyqdecode-helper.md; check with
+      tools/pyqdecode_jobs.py check <job>)
 - [ ] Stage 4-8 as in AUDIT_AND_PLAN.md
