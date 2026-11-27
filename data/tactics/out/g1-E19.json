@@ -1,0 +1,60 @@
+{"section": "g1-E19",
+ "overview": "23 official Group 1 Prelims questions (2010–2024). E-governance schemes lead (9 Qs); basics of ICT, ICT in daily life and ICT in industry give about 4 each; cyber security 2; netiquette never asked. Early papers were one-liners (full forms, first-ever facts); 2023–24 switch to statement-based, negative and assertion-reason items on India Stack, e-RUPI, RFID, blockchain and Indian AI models.",
+ "possibility": [
+  {"angle": "Nature and scope of ICT: hardware basics, networks, full forms", "evidence": "4 Qs: 2010 ×2, 2019 ×2", "level": "Low historical recurrence", "what_they_ask": "material of ICs (silicon), which country built a supercomputer, IPv4 vs IPv6 bit length, full form (Li-Fi)"},
+  {"angle": "ICT in day-to-day life: digital wallets, m-health, AI in health", "evidence": "4 Qs: 2010, 2019 ×2, 2024", "level": "Moderate historical recurrence", "what_they_ask": "first-ever (computer-literate panchayat, digital wallet), term for mobile health, who developed an AI health model and what it measures"},
+  {"angle": "ICT and industry: RFID, blockchain, Indian AI products", "evidence": "4 Qs: 2023 ×2, 2024 ×2", "level": "Low historical recurrence", "what_they_ask": "how a technology works (passive/active RFID power, blockchain control), which company/consortium launched an AI tool (Hanooman, Pratham)"},
+  {"angle": "ICT and governance: e-governance missions, platforms, payments", "evidence": "9 Qs: 2010, 2017 ×3, 2023 ×3, 2024 ×2", "level": "Moderate historical recurrence", "what_they_ask": "name of a mission/portal (e-Kranti, GeM), which body runs it (NITI Aayog, NPCI, NCRB, DoT), launch year (e-RUPI 2021), state project's function (Khajane vs Bhoomi), layers of India Stack"},
+  {"angle": "Cyber security and National Cyber Security Policy", "evidence": "2 Qs: 2019, 2024", "level": "Low historical recurrence", "what_they_ask": "first computer virus (Creeper), which state's system was attacked; NCSP 2013 goals, CERT-In role and the IT Act are the natural next targets"},
+  {"angle": "Netiquette", "evidence": "0 official Qs; not seen in the related sample either", "level": "Syllabus angle not yet asked", "what_they_ask": "likely definitional: meaning of netiquette, flaming, spamming, writing in capitals = shouting, cyber-bullying – asked like the full-form items"}
+ ],
+ "traps": [
+  {"trap": "[E19/4] Right scheme, wrong launch year", "spot": "a dated statement in an otherwise true scheme description", "fix": "Pin launch years: e-RUPI 2 Aug 2021; RBI's e-rupee CBDC pilot 2022", "pyq": "'e-RUPI … launched in 2020' → launched 2021 [group1-prelims-2023-paper2#103]"},
+  {"trap": "Implementing body swapped to the obvious IT ministry", "spot": "a policing/security system attributed to NIC/MeitY", "fix": "Ask whose job it is: facial recognition for police = NCRB under MHA", "pyq": "'NAFRS … developed by NIC under MeitY' → NCRB, MHA [group1-prelims-2023-paper2#62]"},
+  {"trap": "Function swapped between two projects of the same state", "spot": "state project names (Khajane, Bhoomi) with a function", "fix": "Karnataka: Bhoomi = land records; Khajane = treasury", "pyq": "'KHAJANE … land records' → treasury system [group1-prelims-2023-paper2#87]"},
+  {"trap": "Properties swapped between categories of a technology", "spot": "passive/semi-passive/active descriptions shuffled", "fix": "Passive: no battery, reader-powered; active: own battery; semi-passive: battery for chip, replies via reader waves", "pyq": "'Passive RFID tags powered by an internal circuit' → reader-powered [group1-prelims-2023-paper2#72]"},
+  {"trap": "Over-narrow scope ('only')", "spot": "a statement restricting a general-purpose technology to its famous use", "fix": "Check whether the technology works outside that use: blockchain stores any data, not only cryptocurrency", "pyq": "'all data … about cryptocurrency only' → false [group1-prelims-2023-paper2#84]"},
+  {"trap": "Wrong count and wrong layer in a Reason", "spot": "A-R where R gives a number of layers and credits one layer", "fix": "India Stack = 3 layers; e-KYC savings come from the identity (Aadhaar) layer, not payments", "pyq": "'two interconnected layers … Payment Layer reduced e-KYC cost' → A true, R false [group1-prelims-2024-paper1#71]"},
+  {"trap": "Comparison reversed (more/less)", "spot": "options compare two versions of a standard", "fix": "IPv4 = 32 bits, IPv6 = 128 bits", "pyq": "IPv4 vs IPv6 → IPv4 needs fewer bits [group1-prelims-2019-paper2#69]"}
+ ],
+ "techniques": [
+  {"name": "[E19/4] Mandate test for 'who runs it'", "how": "Classify the scheme (payments, policing, procurement, telecom), then pick the body whose mandate fits; strike generic IT bodies unless the job is IT itself.", "example": "'Sangam: Digital Twin' is a telecom initiative → naval commands and DST fall → Department of Telecommunications [group1-prelims-2024-paper2#114]"},
+  {"name": "Number-and-layer audit for A-R", "how": "Check every number in A and R separately; a wrong count makes R false even when A is true.", "example": "India Stack has three layers, R says two → R false; A true → '(A) true, (R) false' [group1-prelims-2024-paper1#71]"},
+  {"name": "Prefix logic for e-/m-/i- terms", "how": "The prefix names the channel: m = mobile/wireless, e = electronic in general; match the stem's channel.", "example": "stem lists SMS, apps, wearables → mobile → m-health [group1-prelims-2019-paper2#71]"},
+  {"name": "Mechanism reasoning for technology statements", "how": "Ask how the technology physically works; a statement that contradicts the mechanism is false even if worded confidently.", "example": "RFID uses radio waves → no line of sight needed (IV true); active means own battery (III false) → II and IV only [group1-prelims-2023-paper2#72]"},
+  {"name": "Odd-one-out by objective", "how": "In a list of genuine schemes, test each against the exact objective in the stem; drop any with a different target group or stage.", "example": "e-RUPI: one-time voucher, NPCI, DFS + NHA true; launch 2020 false → I, II and III only [group1-prelims-2023-paper2#103]"}
+ ],
+ "confusions": [
+  {"a": "e-RUPI (2021)", "b": "e₹ / Digital Rupee (2022)", "remember": "e-RUPI = NPCI purpose-specific voucher on UPI; e₹ = RBI's central bank digital currency"},
+  {"a": "Bhoomi", "b": "Khajane", "remember": "Karnataka: Bhoomi = land records; Khajane = treasury"},
+  {"a": "e-Kranti", "b": "Digital India / e-Biz", "remember": "e-Kranti = NeGP 2.0, electronic delivery of all services; e-Biz = business-licence portal"},
+  {"a": "GeM", "b": "CPPP (e-Procure)", "remember": "GeM = one-stop e-marketplace for government buying (2016)"},
+  {"a": "Passive RFID", "b": "Active RFID", "remember": "Passive = no battery, reader-powered; active = own battery, longer range"},
+  {"a": "IPv4 (32-bit)", "b": "IPv6 (128-bit)", "remember": "6 > 4 and much bigger: 128 bits"},
+  {"a": "Wi-Fi", "b": "Li-Fi", "remember": "Li-Fi = Light Fidelity: data over visible light"},
+  {"a": "NCRB (MHA)", "b": "NIC (MeitY)", "remember": "Crime/facial-recognition databases = NCRB; government IT backbone = NIC"},
+  {"a": "Creeper (first virus, 1971)", "b": "Elk Cloner (first in the wild on PCs, 1982)", "remember": "Creeper came first, as keyed"},
+  {"a": "Hanooman", "b": "Krutrim / Bhashini", "remember": "Hanooman = BharatGPT + SML, 11 languages; Krutrim = Ola; Bhashini = MeitY translation mission"},
+  {"a": "DARPAN", "b": "PRAGATI / e-Pragati", "remember": "DARPAN = project-monitoring dashboard; PRAGATI = pro-active governance and timely implementation; e-Pragati = AP's state enterprise architecture"}
+ ],
+ "anchors": [
+  "Silicon – base of integrated circuits",
+  "IPv4 = 32 bits; IPv6 = 128 bits",
+  "India Stack = 3 layers: identity (Aadhaar/e-KYC), payments (UPI), data (DigiLocker/consent)",
+  "e-RUPI launched 2 Aug 2021 – NPCI with DFS, MoHFW and NHA",
+  "GeM – government e-marketplace for goods and services",
+  "e-Kranti – electronic delivery of all government services (NeGP 2.0)",
+  "NAFRS – NCRB, Ministry of Home Affairs",
+  "Garbhini-GA2 – fetal age, IIT Madras + THSTI Faridabad",
+  "MobiKwik – keyed first digital wallet company in India",
+  "Creeper – keyed first computer virus",
+  "Hanooman – multimodal AI in 11 Indian languages (BharatGPT + SML)"
+ ],
+ "checklist": [
+  "Name the body whose mandate fits the scheme before reading options.",
+  "Check every year and number in scheme statements.",
+  "For technology statements, test against how the technology works.",
+  "Watch 'only' restrictions on general-purpose technologies.",
+  "In A-R, judge R's numbers and attribution separately from A.",
+  "State e-gov names: recall the state and the function together."
+ ]}
