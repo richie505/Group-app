@@ -1,15 +1,18 @@
 """Apply the hand repairs of MCQ layout (data/layoutfix_*.jsonl, made from data/layoutfix_todo.jsonl) to the apps'
 question banks. A question is changed only where its stem and options still equal the flagged original (blank lines
 ignored), so re-running is safe; options keep their order and the key index is never touched.
-    python3 tools/apply_layoutfix.py"""
-import glob, json, re
+    python3 tools/apply_layoutfix.py            (layout repairs: data/layoutfix_*.jsonl)
+    python3 tools/apply_layoutfix.py truncfix   (cut-off options/statements completed: data/truncfix_*.jsonl)"""
+import glob, json, re, sys
+
+K = sys.argv[1] if len(sys.argv) > 1 else "layoutfix"
 
 norm = lambda t: re.sub(r"\n\s*\n+", "\n", t).strip()
 todo = {}
-for l in open("data/layoutfix_todo.jsonl"):
+for l in open(f"data/{K}_todo.jsonl"):
     x = json.loads(l); todo[x["id"]] = (norm(x["s"]), x["o"])
 fix = {}
-for f in sorted(glob.glob("data/layoutfix_[0-9].jsonl")):
+for f in sorted(glob.glob(f"data/{K}_[0-9].jsonl")):
     for l in open(f):
         x = json.loads(l)
         if not x.get("ok") and not x.get("skip") and (x.get("s") or x.get("o")):
